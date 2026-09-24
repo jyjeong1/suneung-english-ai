@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>수능영어AI — 관리자 대시보드</title>
+<script src="https://www.gstatic.com/firebasejs/10.12.0/firebase-app-compat.js"></script>
+<script src="https://www.gstatic.com/firebasejs/10.12.0/firebase-auth-compat.js"></script>
+<script src="https://www.gstatic.com/firebasejs/10.12.0/firebase-firestore-compat.js"></script>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700&display=swap');
+* { margin:0; padding:0; box-sizing:border-box; }
+body {
+  font-family: 'Noto Sans KR', -apple-system, sans-serif;
+  background: #f0f2f5;
+  color: #111;
+  padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+h1 { font-size: 24px; margin-bottom: 8px; }
+.subtitle { color: #666; font-size: 14px; margin-bottom: 24px; }
+.login-box { text-align:center; padding:60px 20px; }
+.login-box button {
+  background: #4285f4; color: #fff; border: none; padding: 12px 32px;
+  border-radius: 8px; font-size: 15px; cursor: pointer; font-weight: 600;
+}
+.summary-row { display: flex; gap: 16px; margin-bottom: 24px; flex-wrap: wrap; }
+.summary-card {
+  flex: 1; min-width: 150px; background: #fff; border-radius: 12px;
+  padding: 20px; text-align: center; box-shadow: 0 1px 4px rgba(0,0,0,0.08);
+}
+.summary-card h3 { font-size: 13px; color: #666; margin-bottom: 6px; }
+.summary-card .num { font-size: 32px; font-weight: 700; color: #0055d4; }
+.summary-card .num.green { color: #1a8f3c; }
+.summary-card .num.orange { color: #e65100; }
+table {
+  width: 100%; background: #fff; border-radius: 12px;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.08); border-collapse: collapse;
+  overflow: hidden;
+}
+th { background: #f5f5f5; padding: 12px 16px; text-align: left; font-size: 13px; color: #666; font-weight: 600; }
+td { padding: 12px 16px; border-top: 1px solid #eee; font-size: 13px; }
+tr:hover td { background: #f9f9ff; }
+.streak-badge {
+  display: inline-block; padding: 3px 10px; border-radius: 12px;
+  font-size: 12px; font-weight: 600;
+}
+.streak-100 { background: #fff3e0; color: #e65100; }
+.streak-30 { background: #e8f5e9; color: #1a8f3c; }
+.streak-7 { background: #e3f2fd; color: #1565c0; }
+.streak-0 { background: #f5f5f5; color: #999; }
+.refresh-btn {
+  background: #0055d4; color: #fff; border: none; padding: 8px 20px;
+  border-radius: 8px; font-size: 13px; cursor: pointer; margin-bottom: 16px;
+}
+.filter-bar { display:flex; gap:12px; margin-bottom:16px; align-items:center; }
+.filter-bar select, .filter-bar input {
+  padding: 8px 12px; border: 1px solid #ddd; border-radius: 8px; font-size: 13px;
+}
+</style>
+</head>
+<body>
+
+<h1>📊 수능영어AI 관리자 대시보드</h1>
+<p class="subtitle">사용자 학습 현황 모니터링</p>
+
+<div id="loginArea" class="login-box">
+  <p style="margin-bottom:16px; color:#666;">관리자 Google 계정으로 로그인하세요</p>
+  <button onclick="adminLogin()">🔐 Google 로그인</button>
+</div>
+
+<div id="dashboard" style="display:none;">
+  <div class="summary-row">
+    <div class="summary-card">
+      <h3>총 사용자</h3>
+      <div class="num" id="totalUsers">0</div>
+    </div>
+    <div class="summary-card">
+      <h3>오늘 활동</h3>
+      <div class="num green" id="todayActive">0</div>
+    </div>
+    <div class="summary-card">
+      <h3>100일+ 연속</h3>
+      <div class="num orange" id="streak100">0</div>
+    </div>
+    <div class="summary-card">
+      <h3>전체 평균 정답률</h3>
+      <div class="num" id="avgAccuracy">0%</div>
+    </div>
+  </div>
+
+  <div class="filter-bar">
+    <button class="refresh-btn" onclick="loadUsers()">🔄 새로고침</button>
+    <select id="sortBy" onchange="renderTable()">
+      <option value="streak">연속일수 순</option>
+      <option value="total">총 문제수 순</option>
+      <option value="accuracy">정답률 순</option>
+      <option value="recent">최근 활동 순</option>
+    </select>
+    <select id="filterStreak" onchange="renderTable()">
+      <option value="all">전체</option>
+      <option value="100">100일+ 연속</option>
+      <option value="30">30일+ 연속</option>
+      <option value="7">7일+ 연속</option>
+    </select>
+    <input type="text" id="searchName" placeholder="이름 검색..." oninput="renderTable()">
+  </div>
+
+  <table>
+    <thead>
+      <tr>
+        <th>#</th>
+        <th>이름</th>
+        <th>이메일</th>
+        <th>연속 학습</th>
+        <th>총 문제</th>
+        <th>정답률</th>
+        <th>오늘</th>
+        <th>마지막 활동</th>
+      </tr>
+    </thead>
+    <tbody id="userTable"></tbody>
+  </table>
+</div>
+
+<script>
+const firebaseConfig = {
+  apiKey: "AIzaSyDv_ArdZ39TyXFIsbV8CaEhYuF3w_zvbVU",
+  authDomain: "suneung-english-34283.firebaseapp.com",
+  projectId: "suneung-english-34283",
+  storageBucket: "suneung-english-34283.firebasestorage.app",
+  messagingSenderId: "436457100278",
+  appId: "1:436457100278:web:dac0755eb8fedbdd512dd7",
+  measurementId: "G-R7D94KDJYN"
+};
+
+let db, auth;
+if (firebaseConfig.apiKey) {
+  firebase.initializeApp(firebaseConfig);
+  auth = firebase.auth();
+  db = firebase.firestore();
+}
+
+let allUsers = [];
+
+async function adminLogin() {
+  if (!auth) return alert('Firebase 설정이 필요합니다');
+  try {
+    const provider = new firebase.auth.GoogleAuthProvider();
+    await auth.signInWithPopup(provider);
+    document.getElementById('loginArea').style.display = 'none';
+    document.getElementById('dashboard').style.display = 'block';
+    loadUsers();
+  } catch(e) {
+    if (e.code !== 'auth/popup-closed-by-user') alert('로그인 실패: ' + e.message);
+  }
+}
+
+auth && auth.onAuthStateChanged(user => {
+  if (user) {
+    document.getElementById('loginArea').style.display = 'none';
+    document.getElementById('dashboard').style.display = 'block';
+    loadUsers();
+  }
+});
+
+async function loadUsers() {
+  if (!db) return;
+  try {
+    const snapshot = await db.collection('users').get();
+    allUsers = [];
+    const today = new Date().toISOString().slice(0, 10);
+
+    snapshot.forEach(doc => {
+      const d = doc.data();
+      const acc = d.stats?.total > 0 ? Math.round(d.stats.correct / d.stats.total * 100) : 0;
+      allUsers.push({
+        id: doc.id,
+        name: d.displayName || '(이름없음)',
+        email: d.email || '',
+        streak: d.streak || 0,
+        total: d.stats?.total || 0,
+        correct: d.stats?.correct || 0,
+        accuracy: acc,
+        todayTotal: d.todayTotal || 0,
+        todayCorrect: d.todayCorrect || 0,
+        lastDate: d.lastDate || '',
+        updatedAt: d.updatedAt?.toDate?.() || null,
+        isToday: d.lastDate === today,
+      });
+    });
+
+    // 요약 카드 업데이트
+    document.getElementById('totalUsers').textContent = allUsers.length;
+    document.getElementById('todayActive').textContent = allUsers.filter(u => u.isToday).length;
+    document.getElementById('streak100').textContent = allUsers.filter(u => u.streak >= 100).length;
+    const totalAcc = allUsers.length > 0
+      ? Math.round(allUsers.reduce((s,u) => s + u.accuracy, 0) / allUsers.length) : 0;
+    document.getElementById('avgAccuracy').textContent = totalAcc + '%';
+
+    renderTable();
+  } catch(e) {
+    alert('데이터 로드 실패: ' + e.message);
+  }
+}
+
+function renderTable() {
+  const sortBy = document.getElementById('sortBy').value;
+  const filterStreak = document.getElementById('filterStreak').value;
+  const search = document.getElementById('searchName').value.toLowerCase();
+
+  let users = [...allUsers];
+
+  // 필터
+  if (filterStreak !== 'all') {
+    const min = parseInt(filterStreak);
+    users = users.filter(u => u.streak >= min);
+  }
+  if (search) {
+    users = users.filter(u => u.name.toLowerCase().includes(search) || u.email.toLowerCase().includes(search));
+  }
+
+  // 정렬
+  if (sortBy === 'streak') users.sort((a,b) => b.streak - a.streak);
+  else if (sortBy === 'total') users.sort((a,b) => b.total - a.total);
+  else if (sortBy === 'accuracy') users.sort((a,b) => b.accuracy - a.accuracy);
+  else if (sortBy === 'recent') users.sort((a,b) => (b.updatedAt||0) - (a.updatedAt||0));
+
+  const tbody = document.getElementById('userTable');
+  tbody.innerHTML = users.map((u, i) => {
+    let streakClass = 'streak-0';
+    if (u.streak >= 100) streakClass = 'streak-100';
+    else if (u.streak >= 30) streakClass = 'streak-30';
+    else if (u.streak >= 7) streakClass = 'streak-7';
+
+    const todayInfo = u.isToday
+      ? `${u.todayTotal}문제 (${u.todayTotal > 0 ? Math.round(u.todayCorrect/u.todayTotal*100) : 0}%)`
+      : '<span style="color:#999;">—</span>';
+
+    return `<tr>
+      <td>${i+1}</td>
+      <td><strong>${u.name}</strong></td>
+      <td style="color:#666;">${u.email}</td>
+      <td><span class="streak-badge ${streakClass}">🔥 ${u.streak}일</span></td>
+      <td>${u.total}</td>
+      <td style="font-weight:600; color:${u.accuracy >= 70 ? '#1a8f3c' : u.accuracy >= 50 ? '#e65100' : '#d32f2f'};">${u.accuracy}%</td>
+      <td>${todayInfo}</td>
+      <td style="color:#666;">${u.lastDate || '—'}</td>
+    </tr>`;
+  }).join('');
+}
+</script>
+</body>
+</html>
