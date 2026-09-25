@@ -502,6 +502,18 @@ body {
     <button class="btn-start" onclick="startDailyQuiz()">시작하기 →</button>
   </div>
 
+  <!-- 포상 배너 -->
+  <div style="background:linear-gradient(135deg,#0d47a1,#1565c0,#0277bd); border-radius:14px; padding:18px 16px; margin-bottom:16px; color:#fff; position:relative; overflow:hidden;">
+    <div style="position:absolute; top:-10px; right:-10px; font-size:60px; opacity:0.15;">⛵</div>
+    <div style="font-size:17px; font-weight:900; margin-bottom:8px; letter-spacing:-0.5px;">⛵ 500명이 모이면, 에게해가 열립니다.</div>
+    <p style="font-size:13px; line-height:1.7; opacity:0.95;">유료회원 500명 돌파 순간,<br><strong style="color:#ffd700;">그리스 에게해 7일 세일링 트립</strong> 이벤트가 시작됩니다.</p>
+    <div style="margin-top:10px; background:rgba(255,255,255,0.15); border-radius:8px; padding:10px 12px; font-size:11px; line-height:1.7;">
+      📌 유료 회원 + 100일 연속 학습 달성자 대상<br>
+      🎲 달성자 중 추첨 2명 선발<br>
+      ⛵ 대학 입학 후 첫 여름방학, 에게해로!
+    </div>
+  </div>
+
   <!-- 취약 유형 추천 -->
   <div id="weakTypeCard" style="display:none; margin-bottom:16px;"></div>
 
@@ -952,6 +964,7 @@ async function syncToFirestore() {
       lastDate: state.lastDate,
       todayTotal: todayData.total,
       todayCorrect: todayData.correct,
+      usedBankQ: usedBankQuestions,
       updatedAt: firebase.firestore.FieldValue.serverTimestamp(),
     }, { merge: true });
 
@@ -989,6 +1002,11 @@ async function loadFromFirestore() {
         localStorage.setItem('lastDate', state.lastDate);
         updateStatsDisplay();
         updateStreak();
+      }
+      // 문제은행 사용 기록 복원
+      if (d.usedBankQ) {
+        Object.assign(usedBankQuestions, d.usedBankQ);
+        localStorage.setItem('usedBankQ', JSON.stringify(usedBankQuestions));
       }
     }
   } catch(e) {
@@ -1322,15 +1340,8 @@ function getFromBank(type) {
   return { ...pick };
 }
 
-// 문제 1개 반환: 문제은행 우선 → 캐시 → API 생성
+// API로 문제 1개 생성 (캐시 보충용 — 문제은행 사용 안 함)
 async function generateOneQuestion(type) {
-  // 1. 문제은행에서 꺼내기
-  const bankQ = getFromBank(type);
-  if (bankQ) {
-    bankQ._source = 'bank';
-    return bankQ;
-  }
-  // 2. API로 생성
   const difficultyPrompt = getDifficultyPrompt(type);
   const prompt = PROMPTS[type].replace('${state.grade}', state.grade) + difficultyPrompt;
   const response = await callClaude(prompt);
@@ -1449,7 +1460,7 @@ let bankServedCount = 0; // 이번 세션에서 문제은행에서 준 문제 �
 
 async function loadQuestion(type) {
   // 1. 처음 3문제는 문제은행에서 즉시 제공
-  if (bankServedCount < 3) {
+  if (bankServedCount < 2) {
     const bankQ = getFromBank(type);
     if (bankQ) {
       bankServedCount++;
