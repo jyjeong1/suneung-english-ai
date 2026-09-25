@@ -254,6 +254,18 @@ body {
 .badge .badge-name { font-size: 11px; font-weight: 700; color: var(--text); }
 .badge .badge-desc { font-size: 10px; color: var(--sub); margin-top: 2px; }
 .badge .badge-date { font-size: 9px; color: var(--accent); margin-top: 4px; }
+.post-card {
+  background: var(--card); border-radius: 14px; padding: 16px;
+  box-shadow: var(--shadow); margin-bottom: 10px; overflow: hidden;
+}
+.post-card img {
+  width: 100%; border-radius: 10px; margin-top: 10px; max-height: 200px; object-fit: cover;
+}
+.post-type { font-size: 11px; font-weight: 700; padding: 2px 8px; border-radius: 4px; }
+.post-type-notice { background: #e3f2fd; color: #1565c0; }
+.post-type-photo { background: #f3e5f5; color: #7b1fa2; }
+.post-type-tip { background: #fff3e0; color: #e65100; }
+.post-type-motivation { background: #fce4ec; color: #c62828; }
 .badge-toast {
   position: fixed; top: 80px; left: 50%; transform: translateX(-50%);
   background: linear-gradient(135deg, #ffd700, #ffaa00); color: #333;
@@ -526,6 +538,9 @@ body {
       <div class="desc">단락 배열</div>
     </div>
   </div>
+
+  <!-- 공지 & 갤러리 -->
+  <div id="homePosts" style="margin-top:16px;"></div>
 </div>
 
 <!-- ═══ 어휘 학습 페이지 ═══ -->
@@ -624,6 +639,25 @@ body {
       <button class="submit-btn" style="flex:1; background:#7b1fa2; color:#fff;" onclick="generateSimilarQuestion()">🔄 유사문제</button>
     </div>
     <button class="submit-btn" style="background:var(--border); color:var(--text); margin-top:8px;" onclick="closeWrongDetail()">닫기</button>
+  </div>
+</div>
+
+<!-- ═══ 휴게실 페이지 ═══ -->
+<div class="page" id="page-lounge">
+  <h2 style="font-size:20px; font-weight:700; margin-bottom:4px;">☕ 쉼표 라운지</h2>
+  <p style="font-size:13px; color:var(--sub); margin-bottom:16px;">공부하다 잠깐 쉬어가세요</p>
+  <div id="loungeList"></div>
+  <div id="loungeEmpty" style="text-align:center; padding:40px 20px; display:none;">
+    <p style="font-size:40px; margin-bottom:12px;">☕</p>
+    <p style="font-size:14px; color:var(--sub);">아직 게시물이 없습니다</p>
+  </div>
+</div>
+
+<!-- ═══ 게시물 상세 모달 ═══ -->
+<div class="modal-overlay" id="postDetailModal">
+  <div class="modal" style="max-height:85vh; overflow-y:auto; width:95%; max-width:420px;">
+    <div id="postDetailContent"></div>
+    <button class="submit-btn" style="background:var(--border); color:var(--text); margin-top:16px;" onclick="document.getElementById('postDetailModal').classList.remove('active')">닫기</button>
   </div>
 </div>
 
@@ -730,6 +764,7 @@ body {
   <button class="active" onclick="switchPage('home')"><span class="icon">🏠</span>홈</button>
   <button onclick="switchPage('quiz')"><span class="icon">📝</span>문제</button>
   <button onclick="switchPage('wrong')"><span class="icon">❌</span>오답</button>
+  <button onclick="switchPage('lounge')"><span class="icon">☕</span>쉼표</button>
   <button onclick="switchPage('rank')"><span class="icon">🏆</span>랭킹</button>
   <button onclick="switchPage('stats')"><span class="icon">📊</span>통계</button>
   <button onclick="switchPage('settings')"><span class="icon">⚙️</span>설정</button>
@@ -975,6 +1010,7 @@ async function init() {
     state.hasServerKey = false;
   }
   updateApiKeyStatus();
+  loadPosts();
 
   // 서버 키 또는 로컬 키가 있으면 문제 미리 생성
   if (state.hasServerKey || state.apiKey) {
@@ -993,6 +1029,7 @@ function switchPage(pageId) {
   if (pageId === 'stats') { updateStatsDisplay(); renderBadges(); }
   if (pageId === 'wrong') renderWrongNotes();
   if (pageId === 'rank') loadLeaderboard();
+  if (pageId === 'lounge') renderLounge();
 }
 
 // ═══════════════════════════════════════
@@ -1548,6 +1585,7 @@ function togglePause() {
   if (overlay.classList.contains('active')) {
     overlay.classList.remove('active');
   } else {
+    showPausePost();
     overlay.classList.add('active');
   }
 }
@@ -2399,6 +2437,111 @@ function renderLeaderboard() {
   }).join('');
 }
 
+// ═══════════════════════════════════════
+// 공지 & 갤러리
+// ═══════════════════════════════════════
+let cachedPosts = [];
+
+async function loadPosts() {
+  if (!db) return;
+  try {
+    // 먼저 orderBy로 시도, 실패하면 전체 조회
+    let snapshot;
+    try {
+      snapshot = await db.collection('posts').orderBy('createdAt', 'desc').limit(20).get();
+    } catch(e2) {
+      snapshot = await db.collection('posts').limit(20).get();
+    }
+    cachedPosts = [];
+    snapshot.forEach(doc => {
+      const d = doc.data();
+      if (d.active === false) return;
+      cachedPosts.push({
+        type: d.type || 'notice',
+        typeEmoji: d.typeEmoji || '📢',
+        title: d.title || '',
+        content: d.content || '',
+        image: d.image || '',
+      });
+    });
+    console.log('공지 로드:', cachedPosts.length, '개', cachedPosts);
+    renderHomePosts();
+  } catch(e) {
+    console.warn('공지 로드 실패:', e);
+  }
+}
+
+function renderHomePosts() {
+  const div = document.getElementById('homePosts');
+  if (cachedPosts.length === 0) { div.innerHTML = ''; return; }
+
+  // 홈에는 최신 1개만 미리보기로 표시
+  const p = cachedPosts[0];
+  const typeName = {notice:'공지', photo:'사진', tip:'학습 팁', motivation:'동기부여'}[p.type] || '공지';
+  div.innerHTML = `<div class="post-card" style="cursor:pointer;" onclick="switchPage('lounge'); document.querySelectorAll('.tab-bar button')[3].classList.add('active');">
+    <div style="display:flex; align-items:center; justify-content:space-between;">
+      <div style="display:flex; align-items:center; gap:8px;">
+        <span class="post-type post-type-${p.type}">${p.typeEmoji} ${typeName}</span>
+        <span style="font-size:14px; font-weight:700;">${p.title}</span>
+      </div>
+      <span style="font-size:12px; color:var(--sub);">☕ 쉼표 라운지 →</span>
+    </div>
+  </div>`;
+}
+
+function renderLounge() {
+  const listDiv = document.getElementById('loungeList');
+  const emptyDiv = document.getElementById('loungeEmpty');
+
+  if (cachedPosts.length === 0) {
+    listDiv.innerHTML = '';
+    emptyDiv.style.display = 'block';
+    return;
+  }
+  emptyDiv.style.display = 'none';
+
+  listDiv.innerHTML = cachedPosts.map((p, idx) => {
+    const typeName = {notice:'공지', photo:'사진', tip:'학습 팁', motivation:'동기부여'}[p.type] || '공지';
+    const preview = p.content ? p.content.replace(/\n/g,' ').substring(0, 60) + (p.content.length > 60 ? '...' : '') : '';
+    return `<div class="post-card" style="cursor:pointer;" onclick="showPostDetail(${idx})">
+      <div style="display:flex; align-items:center; gap:8px; margin-bottom:6px;">
+        <span class="post-type post-type-${p.type}">${p.typeEmoji} ${typeName}</span>
+        <span style="font-size:14px; font-weight:700;">${p.title}</span>
+      </div>
+      ${preview ? `<p style="font-size:13px; color:var(--sub);">${preview}</p>` : ''}
+      ${p.image ? `<div style="margin-top:8px; height:140px; border-radius:10px; overflow:hidden; background:#f0f0f0;">
+        <img src="${p.image}" style="width:100%; height:100%; object-fit:cover;" onerror="this.parentElement.style.display='none'">
+      </div>` : ''}
+    </div>`;
+  }).join('');
+}
+
+function showPostDetail(idx) {
+  const p = cachedPosts[idx];
+  if (!p) return;
+  const typeName = {notice:'공지', photo:'사진', tip:'학습 팁', motivation:'동기부여'}[p.type] || '공지';
+  document.getElementById('postDetailContent').innerHTML = `
+    <div style="display:flex; align-items:center; gap:8px; margin-bottom:12px;">
+      <span class="post-type post-type-${p.type}">${p.typeEmoji} ${typeName}</span>
+      <span style="font-size:16px; font-weight:700;">${p.title}</span>
+    </div>
+    ${p.content ? `<p style="font-size:14px; color:var(--text); line-height:1.8; margin-bottom:12px;">${p.content.replace(/\n/g,'<br>')}</p>` : ''}
+    ${p.image ? `<img src="${p.image}" style="width:100%; border-radius:12px; max-height:400px; object-fit:contain;" onerror="this.style.display='none'">` : ''}
+  `;
+  document.getElementById('postDetailModal').classList.add('active');
+}
+
+function showPausePost() {
+  const div = document.getElementById('pausePost');
+  if (cachedPosts.length === 0) { div.innerHTML = ''; return; }
+  const p = cachedPosts[Math.floor(Math.random() * cachedPosts.length)];
+  div.innerHTML = `<div style="background:var(--bg); border-radius:10px; padding:12px; text-align:left;">
+    <p style="font-size:13px; font-weight:700; margin-bottom:4px;">${p.typeEmoji} ${p.title}</p>
+    ${p.content ? `<p style="font-size:12px; color:var(--sub); line-height:1.5;">${p.content.replace(/\n/g,'<br>').substring(0,100)}${p.content.length > 100 ? '...' : ''}</p>` : ''}
+    ${p.image ? `<img src="${p.image}" style="width:100%; border-radius:8px; margin-top:8px; max-height:120px; object-fit:cover;" onerror="this.style.display='none'">` : ''}
+  </div>`;
+}
+
 // 초기화
 init();
 </script>
@@ -2406,7 +2549,7 @@ init();
 <div class="pause-overlay" id="pauseOverlay">
   <div class="pause-box">
     <h2>⏸ 잠깐 쉬기</h2>
-    <p>다음 문제로 넘어가거나 그만할 수 있습니다</p>
+    <div id="pausePost" style="margin:12px 0;"></div>
     <button class="pause-resume" onclick="togglePause(); nextQuestion();">다음 문제 →</button>
     <button class="pause-quit" onclick="quitQuiz()">🏠 그만하고 홈으로</button>
   </div>
