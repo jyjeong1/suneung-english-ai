@@ -3,7 +3,13 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-<title>수능영어AI — 프로토타입</title>
+<title>수능영어AI</title>
+<link rel="manifest" href="manifest.json">
+<meta name="theme-color" content="#4a0033">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="수능영어AI">
+<link rel="apple-touch-icon" href="icon-192.png">
 <script src="vocab.js"></script>
 <script src="questions.js"></script>
 <!-- Firebase SDK -->
@@ -496,7 +502,10 @@ body {
 <!-- ═══ 홈 페이지 ═══ -->
 <div class="page active" id="page-home">
   <div class="daily-card">
-    <h2>오늘의 학습</h2>
+    <div style="display:flex; justify-content:space-between; align-items:center;">
+      <h2>오늘의 학습</h2>
+      <span id="dDayDisplay" style="font-size:13px; font-weight:700; color:var(--wrong);"></span>
+    </div>
     <p>빈칸추론 2 + 문장삽입 1 + 어법 1 + 어휘 1 = 5문항<br>+ 오늘의 단어 20개</p>
     <div id="freeLimitStatus" style="font-size:12px; margin-bottom:6px; font-weight:600;"></div>
     <div id="cacheStatus" style="font-size:12px; margin-bottom:10px; font-weight:600;"></div>
@@ -509,7 +518,7 @@ body {
     <div style="font-size:17px; font-weight:900; margin-bottom:8px; letter-spacing:-0.5px;">⛵ 500명이 모이면, 에게해가 열립니다.</div>
     <p style="font-size:13px; line-height:1.7; opacity:0.95;">유료회원 500명 돌파 순간,<br><strong style="color:#ffd700;">그리스 에게해 7일 세일링 트립</strong> 이벤트가 시작됩니다.</p>
     <div style="margin-top:10px; background:rgba(255,255,255,0.15); border-radius:8px; padding:10px 12px; font-size:11px; line-height:1.7;">
-      📌 유료 회원 + 100일 연속 학습 달성자 대상<br>
+      📌 유료 회원 + 45일 연속 학습 달성자 대상<br>
       🎲 달성자 중 추첨 2명 선발(항공료 + 요트비용 전액 지원)<br>
       ⛵ 대학 입학 후 첫 여름방학, 에게해로!
     </div>
@@ -1077,6 +1086,7 @@ async function init() {
   updateWeakTypeCard();
   updateMembershipUI();
   updateFreeLimitStatus();
+  updateDDay();
 
   // 서버 키 또는 로컬 키가 있으면 문제 미리 생성
   if (state.hasServerKey || state.apiKey) {
@@ -2789,8 +2799,30 @@ async function checkPremiumStatus() {
   updateMembershipUI();
 }
 
+function updateDDay() {
+  const el = document.getElementById('dDayDisplay');
+  if (!el) return;
+  // 수능일: 매년 11월 셋째 목요일 (2026: 11/19, 2027: 11/18)
+  const now = new Date();
+  const year = now.getMonth() >= 11 ? now.getFullYear() + 1 : now.getFullYear();
+  // 11월 셋째 목요일 계산
+  const nov1 = new Date(year, 10, 1);
+  let firstThur = 1 + ((4 - nov1.getDay() + 7) % 7);
+  const thirdThur = firstThur + 14;
+  const suneung = new Date(year, 10, thirdThur);
+  const diff = Math.ceil((suneung - now) / 86400000);
+  el.textContent = diff > 0 ? `수능까지 D-${diff}` : '수능 당일!';
+}
+
 // 초기화
 init();
+
+// PWA Service Worker 등록
+if ('serviceWorker' in navigator) {
+  navigator.serviceWorker.register('/sw.js').then(() => {
+    console.log('✅ Service Worker 등록 완료');
+  }).catch(e => console.warn('SW 등록 실패:', e));
+}
 </script>
 
 <div class="pause-overlay" id="pauseOverlay">
