@@ -621,8 +621,9 @@ body {
     <div id="wrongDetailContent"></div>
     <div style="display:flex; gap:8px; margin-top:16px;">
       <button class="submit-btn primary" style="flex:1;" id="retryWrongBtn" onclick="retryWrongQuestion()">다시 풀기</button>
-      <button class="submit-btn" style="flex:1; background:var(--border); color:var(--text);" onclick="closeWrongDetail()">닫기</button>
+      <button class="submit-btn" style="flex:1; background:#7b1fa2; color:#fff;" onclick="generateSimilarQuestion()">🔄 유사문제</button>
     </div>
+    <button class="submit-btn" style="background:var(--border); color:var(--text); margin-top:8px;" onclick="closeWrongDetail()">닫기</button>
   </div>
 </div>
 
@@ -1720,6 +1721,71 @@ function clearWrongNotes() {
   if (confirm('오답 노트를 전체 삭제하시겠습니까?')) {
     localStorage.setItem('wrongNotes', '[]');
     renderWrongNotes();
+  }
+}
+
+async function generateSimilarQuestion() {
+  if (currentWrongIndex < 0) return;
+  const notes = getWrongNotes();
+  const note = notes[currentWrongIndex];
+  closeWrongDetail();
+
+  // 퀴즈 페이지로 이동 + 로딩 표시
+  switchToQuizPage();
+  document.getElementById('quizLoading').style.display = 'block';
+  document.getElementById('quizLoading').innerHTML = `
+    <div class="spinner"></div>
+    <p>틀린 문제를 분석하여 유사문제를 생성 중...</p>
+  `;
+  document.getElementById('quizContent').style.display = 'none';
+
+  const passageClean = note.passage.replace(/<[^>]*>/g, '').substring(0, 300);
+  const prompt = `아래는 학생이 틀린 한국 수능 영어 문제입니다. 이 문제와 같은 유형, 비슷한 난이도, 비슷한 소재/구조로 새로운 문제를 1개 생성하세요.
+
+[틀린 문제 정보]
+- 유형: ${note.typeName}
+- 지문 앞부분: ${passageClean}
+- 학생이 고른 오답: ${note.choices[note.selected] || '시간초과'}
+- 정답: ${note.choices[note.answer]}
+- 학생의 약점: ${note.explanation?.substring(0, 100) || '해설 없음'}
+
+요구사항:
+- 같은 유형(${note.typeName})의 새로운 문제
+- 비슷한 소재와 구조이지만 완전히 다른 지문
+- 학생의 약점을 테스트하는 선택지 구성
+- 고등학교 ${state.grade}학년 수준
+- 난이도: ${getDifficulty(note.type)}
+
+반드시 아래 JSON 형식으로만 출력하세요:
+${JSON.stringify({
+  type: note.typeName,
+  passage: "새로운 지문",
+  choices: ["①선택지1","②선택지2","③선택지3","④선택지4","⑤선택지5"],
+  answer: 0,
+  explanation: "정답 해설 (한국어)",
+  wrong_explanations: {}
+})}`;
+
+  try {
+    const result = await callClaude(prompt);
+    const jsonMatch = result.match(/\{[\s\S]*\}/);
+    if (!jsonMatch) throw new Error('JSON 파싱 실패');
+    const quiz = JSON.parse(jsonMatch[0]);
+    quiz._type = note.type;
+    quiz._similar = true;
+
+    quizQueue = ['_similar'];
+    state.currentQuestionIndex = 0;
+    state.currentQuiz = quiz;
+    state.selectedChoice = -1;
+    state.answered = false;
+    renderQuestion();
+  } catch(e) {
+    document.getElementById('quizLoading').innerHTML = `
+      <p style="font-size:15px; color:var(--wrong); font-weight:700;">유사문제 생성 실패</p>
+      <p style="font-size:13px; color:var(--sub); margin-top:8px;">${e.message}</p>
+      <button class="submit-btn" style="margin-top:16px;" onclick="switchPage('wrong'); document.querySelectorAll('.tab-bar button')[2].classList.add('active');">오답노트로 돌아가기</button>
+    `;
   }
 }
 
