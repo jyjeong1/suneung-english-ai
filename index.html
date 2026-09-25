@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 <title>수능영어AI — 프로토타입</title>
 <script src="vocab.js"></script>
+<script src="questions.js"></script>
 <!-- Firebase SDK -->
 <script src="https://www.gstatic.com/firebasejs/10.12.0/firebase-app-compat.js"></script>
 <script src="https://www.gstatic.com/firebasejs/10.12.0/firebase-auth-compat.js"></script>
@@ -501,6 +502,9 @@ body {
     <button class="btn-start" onclick="startDailyQuiz()">시작하기 →</button>
   </div>
 
+  <!-- 취약 유형 추천 -->
+  <div id="weakTypeCard" style="display:none; margin-bottom:16px;"></div>
+
   <div class="menu-grid">
     <div class="menu-item" onclick="openVocabPage()" style="background:linear-gradient(135deg,#e8f5e9,#c8e6c9); border-color:#a5d6a7;">
       <div class="emoji">📚</div>
@@ -540,7 +544,7 @@ body {
   </div>
 
   <!-- 공지 & 갤러리 -->
-  <div id="homePosts" style="margin-top:16px;"></div>
+  <div id="homePosts" style="display:none;"></div>
 </div>
 
 <!-- ═══ 어휘 학습 페이지 ═══ -->
@@ -1011,6 +1015,7 @@ async function init() {
   }
   updateApiKeyStatus();
   loadPosts();
+  updateWeakTypeCard();
 
   // 서버 키 또는 로컬 키가 있으면 문제 미리 생성
   if (state.hasServerKey || state.apiKey) {
@@ -1026,6 +1031,7 @@ function switchPage(pageId) {
   document.querySelectorAll('.tab-bar button').forEach(b => b.classList.remove('active'));
   document.getElementById('page-' + pageId).classList.add('active');
   event.currentTarget.classList.add('active');
+  if (pageId === 'home') updateWeakTypeCard();
   if (pageId === 'stats') { updateStatsDisplay(); renderBadges(); }
   if (pageId === 'wrong') renderWrongNotes();
   if (pageId === 'rank') loadLeaderboard();
@@ -1216,6 +1222,58 @@ const CACHE_SIZE = 3;  // 유형별 미리 생성할 문제 수
 // ═══════════════════════════════════════
 // 난이도 자동 조절
 // ═══════════════════════════════════════
+function getWeakTypes() {
+  const types = ['blank', 'insert', 'grammar', 'vocab', 'main_idea', 'order'];
+  const weak = [];
+  for (const type of types) {
+    const ts = state.stats.types[type];
+    if (!ts || ts.total < 3) continue;
+    const pct = Math.round(ts.correct / ts.total * 100);
+    if (pct < 70) weak.push({ type, pct, total: ts.total, correct: ts.correct });
+  }
+  weak.sort((a, b) => a.pct - b.pct);
+  return weak;
+}
+
+function updateWeakTypeCard() {
+  const card = document.getElementById('weakTypeCard');
+  const weak = getWeakTypes();
+  if (weak.length === 0) { card.style.display = 'none'; return; }
+
+  card.style.display = 'block';
+  const top = weak.slice(0, 3);
+  const typeEmojis = { blank:'🎯', insert:'📌', grammar:'📐', vocab:'📖', main_idea:'💡', order:'🔢' };
+
+  card.innerHTML = `<div style="background:linear-gradient(135deg,#fff3e0,#ffe0b2); border-radius:14px; padding:16px; box-shadow:var(--shadow);">
+    <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:10px;">
+      <h3 style="font-size:15px; font-weight:700; color:#e65100;">⚠️ 취약 유형 발견</h3>
+      <button onclick="startWeakTraining()" style="background:#e65100; color:#fff; border:none; padding:6px 14px; border-radius:8px; font-size:12px; font-weight:700; cursor:pointer;">집중 훈련 →</button>
+    </div>
+    ${top.map(w => `<div style="display:flex; align-items:center; gap:8px; padding:6px 0;">
+      <span style="font-size:16px;">${typeEmojis[w.type]}</span>
+      <span style="font-size:13px; font-weight:600; flex:1;">${TYPE_NAMES[w.type]}</span>
+      <span style="font-size:13px; font-weight:700; color:${w.pct < 50 ? 'var(--wrong)' : '#e65100'};">${w.pct}%</span>
+      <span style="font-size:11px; color:var(--sub);">(${w.correct}/${w.total})</span>
+    </div>`).join('')}
+  </div>`;
+}
+
+async function startWeakTraining() {
+  const weak = getWeakTypes();
+  if (weak.length === 0) return;
+  // 취약 유형 상위 3개에서 5문제 구성
+  const top = weak.slice(0, 3);
+  quizQueue = [];
+  for (let i = 0; i < 5; i++) {
+    quizQueue.push(top[i % top.length].type);
+  }
+  state.currentQuestionIndex = 0;
+  bankServedCount = 0;
+  switchToQuizPage();
+  prefetchAll();
+  await loadQuestion(quizQueue[0]);
+}
+
 function getDifficulty(type) {
   const typeStats = state.stats.types[type];
   if (!typeStats || typeStats.total < 3) return 'medium';  // 데이터 부족하면 보통
@@ -1248,8 +1306,31 @@ function getDifficultyPrompt(type) {
 - 수능 32번 수준 (2~3점)`;
 }
 
-// 문제 1개를 API로 생성하여 반환 (non-streaming, 캐시용)
+// 문제은행에서 사용한 문제 인덱스 추적
+const usedBankQuestions = JSON.parse(localStorage.getItem('usedBankQ') || '{}');
+
+function getFromBank(type) {
+  if (typeof QUESTION_BANK === 'undefined') return null;
+  const available = QUESTION_BANK.filter((q, i) =>
+    q._type === type && !usedBankQuestions[i]
+  );
+  if (available.length === 0) return null;
+  const pick = available[Math.floor(Math.random() * available.length)];
+  const idx = QUESTION_BANK.indexOf(pick);
+  usedBankQuestions[idx] = true;
+  localStorage.setItem('usedBankQ', JSON.stringify(usedBankQuestions));
+  return { ...pick };
+}
+
+// 문제 1개 반환: 문제은행 우선 → 캐시 → API 생성
 async function generateOneQuestion(type) {
+  // 1. 문제은행에서 꺼내기
+  const bankQ = getFromBank(type);
+  if (bankQ) {
+    bankQ._source = 'bank';
+    return bankQ;
+  }
+  // 2. API로 생성
   const difficultyPrompt = getDifficultyPrompt(type);
   const prompt = PROMPTS[type].replace('${state.grade}', state.grade) + difficultyPrompt;
   const response = await callClaude(prompt);
@@ -1257,6 +1338,7 @@ async function generateOneQuestion(type) {
   if (!jsonMatch) throw new Error('JSON 파싱 실패');
   const q = JSON.parse(jsonMatch[0]);
   q._type = type;
+  q._source = 'ai';
   return q;
 }
 
@@ -1264,7 +1346,7 @@ async function generateOneQuestion(type) {
 
 // 백그라운드에서 캐시 채우기
 async function prefetchForType(type) {
-  if (!state.apiKey) return;
+  if (!state.hasServerKey && !state.apiKey) return;
   if (prefetchInProgress[type]) return;
   if (!prefetchCache[type]) prefetchCache[type] = [];
   if (prefetchCache[type].length >= CACHE_SIZE) return;
@@ -1288,7 +1370,7 @@ async function prefetchForType(type) {
 
 // 모든 유형 캐시 채우기 (앱 시작 시)
 async function prefetchAll() {
-  if (!state.apiKey) return;
+  if (!state.hasServerKey && !state.apiKey) return;
   updateCacheStatus();
   const types = ['blank', 'insert', 'grammar', 'vocab', 'main_idea', 'order'];
   // 가장 중요한 유형부터 순차 (병렬하면 API 부하)
@@ -1310,12 +1392,20 @@ function updateCacheStatus() {
   const el = document.getElementById('cacheStatus');
   if (!el) return;
   const types = ['blank', 'insert', 'grammar', 'vocab', 'main_idea', 'order'];
-  let total = 0;
-  types.forEach(t => { total += (prefetchCache[t] || []).length; });
-  if (total > 0) {
-    el.textContent = `⚡ ${total}문제 준비됨`;
+  let cacheTotal = 0;
+  types.forEach(t => { cacheTotal += (prefetchCache[t] || []).length; });
+  // 문제은행 잔여
+  let bankRemain = 0;
+  if (typeof QUESTION_BANK !== 'undefined') {
+    bankRemain = QUESTION_BANK.filter((q, i) => !usedBankQuestions[i]).length;
+  }
+  if (bankRemain > 0 || cacheTotal > 0) {
+    const parts = [];
+    if (bankRemain > 0) parts.push(`📦 문제은행 ${bankRemain}문제`);
+    if (cacheTotal > 0) parts.push(`⚡ AI캐시 ${cacheTotal}문제`);
+    el.textContent = parts.join(' + ');
     el.style.color = 'var(--correct)';
-  } else if (state.apiKey) {
+  } else if (state.hasServerKey || state.apiKey) {
     el.textContent = '⏳ 문제 준비 중...';
     el.style.color = 'var(--accent)';
   } else {
@@ -1331,14 +1421,19 @@ let quizQueue = [];
 async function startDailyQuiz() {
   quizQueue = ['blank', 'blank', 'insert', 'grammar', 'vocab'];
   state.currentQuestionIndex = 0;
+  bankServedCount = 0;
   switchToQuizPage();
+  // AI 캐시 생성 병렬 시작 (학생이 문제은행 문제 푸는 동안)
+  prefetchAll();
   await loadQuestion(quizQueue[0]);
 }
 
 async function startTypeTraining(type) {
   quizQueue = [type];
   state.currentQuestionIndex = 0;
+  bankServedCount = 0;
   switchToQuizPage();
+  prefetchForType(type);
   await loadQuestion(type);
 }
 
@@ -1349,23 +1444,39 @@ function switchToQuizPage() {
   document.querySelectorAll('.tab-bar button')[1].classList.add('active');
 }
 
-// 캐시 우선, 없으면 실시간 생성
+// 문제 로드: 처음 3문제는 문제은행 → 이후 AI캐시/실시간 생성
+let bankServedCount = 0; // 이번 세션에서 문제은행에서 준 문제 수
+
 async function loadQuestion(type) {
-  // 캐시에서 꺼내기
+  // 1. 처음 3문제는 문제은행에서 즉시 제공
+  if (bankServedCount < 3) {
+    const bankQ = getFromBank(type);
+    if (bankQ) {
+      bankServedCount++;
+      console.log(`📦 문제은행에서 즉시 로드 (${bankServedCount}/3): ${TYPE_NAMES[type]}`);
+      state.currentQuiz = bankQ;
+      state.selectedChoice = -1;
+      state.answered = false;
+      renderQuestion();
+      updateCacheStatus();
+      return;
+    }
+  }
+
+  // 2. AI 캐시에서 꺼내기
   const cached = getFromCache(type);
   if (cached) {
-    console.log(`⚡ 캐시에서 즉시 로드: ${TYPE_NAMES[type]}`);
+    console.log(`⚡ AI캐시에서 로드: ${TYPE_NAMES[type]}`);
     state.currentQuiz = cached;
     state.selectedChoice = -1;
     state.answered = false;
     renderQuestion();
-    // 캐시 보충 (백그라운드)
     prefetchForType(type);
     updateCacheStatus();
     return;
   }
 
-  // 캐시 없음 → 실시간 생성
+  // 3. 캐시 없음 → 실시간 생성
   await generateQuestion(type);
 }
 
