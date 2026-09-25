@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>수능영어AI — 앱 현황 정리</title>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700;900&display=swap');
+* { margin:0; padding:0; box-sizing:border-box; }
+body { font-family:'Noto Sans KR',-apple-system,sans-serif; color:#111; background:#f8f9fa; line-height:1.7; }
+.container { max-width:900px; margin:0 auto; padding:20px; }
+h1 { font-size:28px; font-weight:900; margin-bottom:8px; }
+h2 { font-size:20px; font-weight:800; margin:40px 0 16px; padding-bottom:8px; border-bottom:3px solid #0055d4; }
+h3 { font-size:16px; font-weight:700; margin:24px 0 12px; color:#0055d4; }
+.date { font-size:13px; color:#999; margin-bottom:24px; }
+.url-box { background:#fff; border-radius:12px; padding:20px; margin-bottom:24px; box-shadow:0 1px 4px rgba(0,0,0,0.06); }
+.url-box a { display:block; font-size:14px; color:#0055d4; text-decoration:none; padding:6px 0; }
+.url-box a:hover { text-decoration:underline; }
+.url-box .label { display:inline-block; width:140px; font-weight:600; color:#333; }
+table { width:100%; border-collapse:collapse; background:#fff; border-radius:12px; overflow:hidden; box-shadow:0 1px 4px rgba(0,0,0,0.06); margin-bottom:24px; }
+th { background:#0055d4; color:#fff; padding:12px 16px; text-align:left; font-size:13px; font-weight:600; }
+td { padding:10px 16px; border-bottom:1px solid #eee; font-size:13px; vertical-align:top; }
+tr:last-child td { border-bottom:none; }
+tr:hover td { background:#f0f4ff; }
+.badge { display:inline-block; padding:2px 8px; border-radius:4px; font-size:11px; font-weight:700; }
+.badge-done { background:#e8f5e9; color:#1a8f3c; }
+.badge-todo { background:#fff3e0; color:#e65100; }
+.badge-low { background:#f5f5f5; color:#999; }
+.tech-grid { display:grid; grid-template-columns:repeat(auto-fit, minmax(200px, 1fr)); gap:12px; margin-bottom:24px; }
+.tech-card { background:#fff; border-radius:10px; padding:16px; box-shadow:0 1px 4px rgba(0,0,0,0.06); }
+.tech-card .label { font-size:12px; color:#999; font-weight:600; }
+.tech-card .value { font-size:15px; font-weight:700; margin-top:4px; }
+.stat-row { display:flex; gap:16px; margin-bottom:24px; flex-wrap:wrap; }
+.stat-card { flex:1; min-width:120px; background:#fff; border-radius:12px; padding:20px; text-align:center; box-shadow:0 1px 4px rgba(0,0,0,0.06); }
+.stat-card .num { font-size:32px; font-weight:900; color:#0055d4; }
+.stat-card .label { font-size:12px; color:#666; margin-top:4px; }
+.header-bar { background:linear-gradient(135deg,#4a0033,#7b2d8e,#5c1a7a); color:#fff; padding:40px 20px; border-radius:0 0 20px 20px; margin-bottom:32px; }
+.header-bar h1 { color:#ffd700; }
+.header-bar .date { color:rgba(255,255,255,0.7); }
+</style>
+</head>
+<body>
+
+<div class="header-bar">
+  <div class="container" style="padding:0;">
+    <h1>수능영어AI 앱 현황</h1>
+    <div class="date">2026년 9월 25일 기준</div>
+  </div>
+</div>
+
+<div class="container">
+
+<!-- 요약 숫자 -->
+<div class="stat-row">
+  <div class="stat-card"><div class="num">22</div><div class="label">완성 기능</div></div>
+  <div class="stat-card"><div class="num">200</div><div class="label">문제은행</div></div>
+  <div class="stat-card"><div class="num">480</div><div class="label">어휘 DB</div></div>
+  <div class="stat-card"><div class="num">6</div><div class="label">출제 유형</div></div>
+  <div class="stat-card"><div class="num">~500KB</div><div class="label">앱 크기</div></div>
+</div>
+
+<!-- 배포 URL -->
+<h2>배포 URL</h2>
+<div class="url-box">
+  <a href="https://suneung-english-ai.onrender.com/"><span class="label">학생 앱</span> https://suneung-english-ai.onrender.com/</a>
+  <a href="https://suneung-english-ai.onrender.com/landing.html"><span class="label">랜딩 페이지</span> https://suneung-english-ai.onrender.com/landing.html</a>
+  <a href="https://suneung-english-ai.onrender.com/admin.html"><span class="label">관리자 대시보드</span> https://suneung-english-ai.onrender.com/admin.html</a>
+  <a href="https://github.com/jyjeong1/suneung-english-ai"><span class="label">GitHub</span> https://github.com/jyjeong1/suneung-english-ai</a>
+</div>
+
+<!-- 완성 기능 -->
+<h2>완성된 기능 (22개)</h2>
+
+<h3>문제 풀기</h3>
+<table>
+  <tr><th style="width:200px;">기능</th><th>상세</th></tr>
+  <tr><td>6유형 문제 생성</td><td>빈칸추론, 문장삽입, 어법판단, 어휘적절성, 요지/주제, 글의순서</td></tr>
+  <tr><td>문제은행 200문제</td><td>내장 문제 즉시 출제, API 호출 없음. 시작 시 2문제 제공 후 AI 전환</td></tr>
+  <tr><td>AI 실시간 생성</td><td>Claude Haiku API로 매번 새 문제 생성</td></tr>
+  <tr><td>캐시 시스템</td><td>학생이 문제은행 문제 푸는 동안 백그라운드에서 AI 문제 미리 생성</td></tr>
+  <tr><td>난이도 자동조절</td><td>유형별 정답률 기반 상(80%+)/중/하(50%-) 자동 전환</td></tr>
+  <tr><td>밑줄 자동 처리</td><td>①②③④⑤ 번호 어휘/구문에 밑줄 자동 표시, 슬래시 제거</td></tr>
+</table>
+
+<h3>학습 관리</h3>
+<table>
+  <tr><th style="width:200px;">기능</th><th>상세</th></tr>
+  <tr><td>오답노트</td><td>틀린 문제 저장, 다시 풀기, 정답 시 자동 삭제</td></tr>
+  <tr><td>오답 유사문제</td><td>틀린 문제 분석 → AI가 같은 유형/소재/약점 공략 문제 생성</td></tr>
+  <tr><td>취약 유형 집중</td><td>정답률 70% 미만 유형 자동 감지 → 홈에 추천 카드 + 집중 훈련</td></tr>
+  <tr><td>어휘학습 480단어</td><td>추상명사, 학술동사, 다의어, 반의어쌍, 형용사, 부사, 연결어, 혼동어</td></tr>
+  <tr><td>타이머 + 경고음</td><td>90초 제한, 10초 남으면 경고 비프음, 시간초과 자동 오답 처리</td></tr>
+  <tr><td>쉬기 기능</td><td>답 제출 후 [다음 문제] + [⏸ 쉬기] 선택, 홈으로 이동 가능</td></tr>
+</table>
+
+<h3>동기부여</h3>
+<table>
+  <tr><th style="width:200px;">기능</th><th>상세</th></tr>
+  <tr><td>리더보드</td><td>🔥연속학습 / 📝총문제수 / 🎯정답률 3종 랭킹, 내 순위 강조</td></tr>
+  <tr><td>성취 배지 20개</td><td>연속 3/7/14/30/50/100일, 문제 10~1000, 정답률 70/80/90%, 특별 5종</td></tr>
+  <tr><td>수능 D-day</td><td>홈에 "수능까지 D-55" 빨간색 표시, 자동 계산</td></tr>
+  <tr><td>세일링 포상</td><td>유료회원 500명 돌파 시 이벤트 — 30일 달성자 추첨 2명 그리스 세일링</td></tr>
+</table>
+
+<h3>통계 & 리포트</h3>
+<table>
+  <tr><th style="width:200px;">기능</th><th>상세</th></tr>
+  <tr><td>학습 리포트</td><td>최근 7일 학습량 바 차트, 7일 정답률 추이 차트, 유형별 프로그레스 바</td></tr>
+  <tr><td>오늘 학습 상세</td><td>오늘 푼 문제수/정답수/정답률 + 유형별 내역</td></tr>
+</table>
+
+<h3>인프라 & 배포</h3>
+<table>
+  <tr><th style="width:200px;">기능</th><th>상세</th></tr>
+  <tr><td>Firebase 로그인</td><td>Google 로그인, Firestore 데이터 동기화, 기기 간 데이터 복원</td></tr>
+  <tr><td>무료/유료 구분</td><td>무료 하루 5문제 제한, 유료 무제한 + 챌린지 자격</td></tr>
+  <tr><td>관리자 대시보드</td><td>사용자 현황, 정렬/필터, 멤버십 수동 전환, 공지/사진 관리</td></tr>
+  <tr><td>쉼표 라운지</td><td>공지/사진/학습팁/동기부여 게시판, 상세보기 모달</td></tr>
+  <tr><td>Render 클라우드</td><td>API 키 서버 내장, 인당 하루 rate limit, 자동 배포</td></tr>
+  <tr><td>PWA</td><td>홈 화면 추가, 전체화면, 오프라인 캐시, 앱 아이콘</td></tr>
+  <tr><td>랜딩 페이지</td><td>앱 소개, 6유형, 기능, 요금제 비교, SEO 메타태그</td></tr>
+</table>
+
+<!-- 기술 스택 -->
+<h2>기술 스택</h2>
+<div class="tech-grid">
+  <div class="tech-card"><div class="label">프론트엔드</div><div class="value">HTML / CSS / JS (단일 파일)</div></div>
+  <div class="tech-card"><div class="label">백엔드</div><div class="value">Python (server.py, ~180줄)</div></div>
+  <div class="tech-card"><div class="label">AI 엔진</div><div class="value">Claude Haiku API</div></div>
+  <div class="tech-card"><div class="label">데이터베이스</div><div class="value">Firebase Firestore + localStorage</div></div>
+  <div class="tech-card"><div class="label">인증</div><div class="value">Firebase Auth (Google)</div></div>
+  <div class="tech-card"><div class="label">배포</div><div class="value">Render (무료 티어) + GitHub</div></div>
+</div>
+
+<!-- 파일 구조 -->
+<h2>파일 구조</h2>
+<table>
+  <tr><th style="width:200px;">파일</th><th>역할</th><th style="width:80px;">크기</th></tr>
+  <tr><td>index.html</td><td>학생 앱 (HTML + CSS + JS 전체)</td><td>~110KB</td></tr>
+  <tr><td>vocab.js</td><td>수능 필수 어휘 480단어</td><td>~50KB</td></tr>
+  <tr><td>questions.js</td><td>문제은행 200문제</td><td>~350KB</td></tr>
+  <tr><td>server.py</td><td>API 프록시 + 결제 승인 서버</td><td>~6KB</td></tr>
+  <tr><td>admin.html</td><td>관리자 대시보드</td><td>~12KB</td></tr>
+  <tr><td>landing.html</td><td>앱 소개 랜딩 페이지</td><td>~10KB</td></tr>
+  <tr><td>sw.js</td><td>PWA Service Worker</td><td>~1KB</td></tr>
+  <tr><td>manifest.json</td><td>PWA 설정</td><td>~0.4KB</td></tr>
+  <tr><td>icon-192/512.png</td><td>앱 아이콘</td><td>~10KB</td></tr>
+  <tr><td>payment-success/fail.html</td><td>결제 결과 페이지</td><td>~4KB</td></tr>
+</table>
+
+<!-- 로드맵 -->
+<h2>다음 로드맵</h2>
+<table>
+  <tr><th style="width:80px;">우선순위</th><th style="width:200px;">기능</th><th>비고</th></tr>
+  <tr><td><span class="badge badge-done">높음</span></td><td>계좌번호 입력</td><td>결제 안내 모달에 실제 계좌 정보 입력</td></tr>
+  <tr><td><span class="badge badge-done">높음</span></td><td>문제은행 확장</td><td>200 → 500문제 (API로 300문제 추가 생성)</td></tr>
+  <tr><td><span class="badge badge-todo">중간</span></td><td>토스페이먼츠 자동결제</td><td>사업자등록 후 월 ₩3,900 자동 구독</td></tr>
+  <tr><td><span class="badge badge-todo">중간</span></td><td>일일 학습 목표</td><td>하루 목표 설정 + 프로그레스 바</td></tr>
+  <tr><td><span class="badge badge-todo">중간</span></td><td>문제 북마크</td><td>좋은 문제 저장 → 나중에 다시 풀기</td></tr>
+  <tr><td><span class="badge badge-todo">중간</span></td><td>SNS 공유</td><td>성적/배지를 카카오톡/인스타에 공유</td></tr>
+  <tr><td><span class="badge badge-low">낮음</span></td><td>카카오 로그인</td><td>Firebase 연동 (복잡)</td></tr>
+  <tr><td><span class="badge badge-low">낮음</span></td><td>앱스토어 등록</td><td>React Native 또는 SwiftUI 전환 필요</td></tr>
+  <tr><td><span class="badge badge-low">낮음</span></td><td>AdMob 광고</td><td>무료 사용자 대상 배너/전면 광고</td></tr>
+</table>
+
+<!-- 비용 -->
+<h2>운영 비용 (예상)</h2>
+<table>
+  <tr><th style="width:200px;">항목</th><th>비용</th><th>비고</th></tr>
+  <tr><td>Render 호스팅</td><td>무료</td><td>무료 티어 (750시간/월)</td></tr>
+  <tr><td>Firebase</td><td>무료</td><td>Spark 플랜 (10만 읽기/일)</td></tr>
+  <tr><td>Claude Haiku API</td><td>월 ~₩30,000~50,000</td><td>학생 30명 기준, 인당 하루 10문제</td></tr>
+  <tr><td>도메인 (선택)</td><td>연 ~₩15,000</td><td>커스텀 도메인 사용 시</td></tr>
+  <tr><td><strong>합계</strong></td><td><strong>월 ~₩30,000~50,000</strong></td><td>유료회원 8~13명이면 손익분기</td></tr>
+</table>
+
+</div>
+</body>
+</html>
