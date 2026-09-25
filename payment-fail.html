@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>결제 실패 — 수능영어AI</title>
+<style>
+body {
+  font-family: -apple-system, sans-serif;
+  display: flex; justify-content: center; align-items: center;
+  min-height: 100vh; margin: 0; background: #f0f2f5;
+}
+.box {
+  background: #fff; border-radius: 20px; padding: 40px; text-align: center;
+  max-width: 380px; width: 90%; box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+}
+</style>
+</head>
+<body>
+<div class="box">
+  <div style="font-size:48px; margin-bottom:16px;">😔</div>
+  <h1 style="font-size:22px; margin-bottom:8px;">결제 실패</h1>
+  <p id="errorMsg" style="color:#666; font-size:14px; margin-bottom:24px;">결제가 완료되지 않았습니다.</p>
+  <a href="/" style="display:inline-block; background:#0055d4; color:#fff; padding:14px 32px; border-radius:12px; text-decoration:none; font-weight:700; font-size:15px;">다시 시도하기</a>
+</div>
+<script>
+const params = new URLSearchParams(window.location.search);
+const msg = params.get('message');
+if (msg) document.getElementById('errorMsg').textContent = msg;
+</script>
+</body>
+</html>

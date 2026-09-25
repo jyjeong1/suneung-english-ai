@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>결제 완료 — 수능영어AI</title>
+<script src="https://www.gstatic.com/firebasejs/10.12.0/firebase-app-compat.js"></script>
+<script src="https://www.gstatic.com/firebasejs/10.12.0/firebase-auth-compat.js"></script>
+<script src="https://www.gstatic.com/firebasejs/10.12.0/firebase-firestore-compat.js"></script>
+<style>
+body {
+  font-family: -apple-system, sans-serif;
+  display: flex; justify-content: center; align-items: center;
+  min-height: 100vh; margin: 0; background: #f0f2f5;
+}
+.box {
+  background: #fff; border-radius: 20px; padding: 40px; text-align: center;
+  max-width: 380px; width: 90%; box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+}
+</style>
+</head>
+<body>
+<div class="box">
+  <div style="font-size:48px; margin-bottom:16px;">🎉</div>
+  <h1 style="font-size:22px; margin-bottom:8px;">결제 완료!</h1>
+  <p style="color:#666; font-size:14px; margin-bottom:24px;">프리미엄 멤버십이 활성화되었습니다.</p>
+  <div id="status" style="font-size:13px; color:#999; margin-bottom:16px;">처리 중...</div>
+  <a href="/" style="display:inline-block; background:#0055d4; color:#fff; padding:14px 32px; border-radius:12px; text-decoration:none; font-weight:700; font-size:15px;">앱으로 돌아가기</a>
+</div>
+
+<script>
+const firebaseConfig = {
+  apiKey: "AIzaSyDv_ArdZ39TyXFIsbV8CaEhYuF3w_zvbVU",
+  authDomain: "suneung-english-34283.firebaseapp.com",
+  projectId: "suneung-english-34283",
+  storageBucket: "suneung-english-34283.firebasestorage.app",
+  messagingSenderId: "436457100278",
+  appId: "1:436457100278:web:dac0755eb8fedbdd512dd7",
+};
+firebase.initializeApp(firebaseConfig);
+const auth = firebase.auth();
+const db = firebase.firestore();
+
+// URL에서 결제 정보 추출
+const params = new URLSearchParams(window.location.search);
+const paymentKey = params.get('paymentKey');
+const orderId = params.get('orderId');
+const amount = params.get('amount');
+
+async function confirmPayment() {
+  const statusEl = document.getElementById('status');
+
+  // 1. 서버에서 결제 승인
+  try {
+    const res = await fetch('/api/payment/confirm', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ paymentKey, orderId, amount: parseInt(amount) }),
+    });
+    const result = await res.json();
+    if (!res.ok) {
+      statusEl.textContent = '결제 승인 실패: ' + (result.error || '');
+      return;
+    }
+  } catch(e) {
+    statusEl.textContent = '서버 오류: ' + e.message;
+    return;
+  }
+
+  // 2. Firestore에 프리미엄 등록
+  auth.onAuthStateChanged(async user => {
+    if (user) {
+      await db.collection('users').doc(user.uid).set({
+        isPremium: true,
+        premiumSince: firebase.firestore.FieldValue.serverTimestamp(),
+        paymentKey: paymentKey,
+        orderId: orderId,
+      }, { merge: true });
+      localStorage.setItem('isPremium', 'true');
+      statusEl.textContent = '✅ 프리미엄 활성화 완료!';
+    } else {
+      statusEl.textContent = '로그인 상태를 확인해주세요.';
+    }
+  });
+}
+
+confirmPayment();
+</script>
+</body>
+</html>

@@ -139,6 +139,7 @@ tr:hover td { background: #f9f9ff; }
         <th>정답률</th>
         <th>오늘</th>
         <th>마지막 활동</th>
+        <th>멤버십</th>
       </tr>
     </thead>
     <tbody id="userTable"></tbody>
@@ -209,6 +210,7 @@ async function loadUsers() {
         lastDate: d.lastDate || '',
         updatedAt: d.updatedAt?.toDate?.() || null,
         isToday: d.lastDate === today,
+        isPremium: d.isPremium || false,
       });
     });
 
@@ -268,8 +270,15 @@ function renderTable() {
       <td style="font-weight:600; color:${u.accuracy >= 70 ? '#1a8f3c' : u.accuracy >= 50 ? '#e65100' : '#d32f2f'};">${u.accuracy}%</td>
       <td>${todayInfo}</td>
       <td style="color:#666;">${u.lastDate || '—'}</td>
+      <td><button onclick="togglePremium('${u.id}', ${!u.isPremium})" style="font-size:11px; padding:3px 8px; border:1px solid #ddd; border-radius:6px; cursor:pointer; background:${u.isPremium ? '#fff3e0' : '#f5f5f5'};">${u.isPremium ? '💎' : '무료'}</button></td>
     </tr>`;
   }).join('');
+}
+
+async function togglePremium(uid, isPremium) {
+  if (!confirm(isPremium ? '프리미엄으로 전환하시겠습니까?' : '무료로 전환하시겠습니까?')) return;
+  await db.collection('users').doc(uid).update({ isPremium });
+  loadUsers();
 }
 
 // ═══ 공지 & 사진 관리 ═══

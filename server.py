@@ -9,6 +9,7 @@ from datetime import date
 
 PORT = int(os.environ.get('PORT', 8080))
 SERVER_API_KEY = os.environ.get('CLAUDE_API_KEY', '')
+TOSS_SECRET_KEY = os.environ.get('TOSS_SECRET_KEY', '')  # test_sk_... 또는 live_sk_...
 DAILY_LIMIT = int(os.environ.get('DAILY_LIMIT', 30))  # 인당 하루 API 호출 제한
 
 # 인당 일일 사용량 추적 {날짜: {uid: 횟수}}
@@ -126,6 +127,60 @@ class AppHandler(http.server.SimpleHTTPRequestHandler):
                 self.send_header('Access-Control-Allow-Origin', '*')
                 self.end_headers()
                 self.wfile.write(json.dumps({'error': {'message': str(e)}}).encode())
+        elif self.path == '/api/payment/confirm':
+            content_length = int(self.headers['Content-Length'])
+            body = self.rfile.read(content_length)
+            data = json.loads(body)
+
+            if not TOSS_SECRET_KEY:
+                self.send_response(500)
+                self.send_header('Content-Type', 'application/json')
+                self.send_header('Access-Control-Allow-Origin', '*')
+                self.end_headers()
+                self.wfile.write(json.dumps({'error': '결제 시크릿 키가 설정되지 않았습니다'}).encode())
+                return
+
+            import base64
+            auth_header = base64.b64encode(f"{TOSS_SECRET_KEY}:".encode()).decode()
+
+            req_body = json.dumps({
+                'paymentKey': data.get('paymentKey'),
+                'orderId': data.get('orderId'),
+                'amount': data.get('amount'),
+            }).encode('utf-8')
+
+            req = urllib.request.Request(
+                'https://api.tosspayments.com/v1/payments/confirm',
+                data=req_body,
+                headers={
+                    'Content-Type': 'application/json',
+                    'Authorization': f'Basic {auth_header}',
+                },
+                method='POST'
+            )
+
+            try:
+                ctx = ssl.create_default_context()
+                resp = urllib.request.urlopen(req, context=ctx)
+                result = resp.read()
+                self.send_response(200)
+                self.send_header('Content-Type', 'application/json')
+                self.send_header('Access-Control-Allow-Origin', '*')
+                self.end_headers()
+                self.wfile.write(result)
+            except urllib.error.HTTPError as e:
+                error_body = e.read()
+                self.send_response(e.code)
+                self.send_header('Content-Type', 'application/json')
+                self.send_header('Access-Control-Allow-Origin', '*')
+                self.end_headers()
+                self.wfile.write(error_body)
+            except Exception as e:
+                self.send_response(500)
+                self.send_header('Content-Type', 'application/json')
+                self.send_header('Access-Control-Allow-Origin', '*')
+                self.end_headers()
+                self.wfile.write(json.dumps({'error': str(e)}).encode())
         else:
             self.send_response(404)
             self.end_headers()
