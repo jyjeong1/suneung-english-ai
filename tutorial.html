@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<title>Prof.AI 수능영어 — 사용 가이드</title>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700;900&display=swap');
+* { margin:0; padding:0; box-sizing:border-box; }
+body {
+  font-family:'Noto Sans KR',-apple-system,sans-serif;
+  color:#fff; background:#111; overflow:hidden;
+  height:100vh; width:100vw;
+}
+.slide {
+  display: none; position: absolute; top:0; left:0; right:0; bottom:0;
+  flex-direction: column; justify-content: center; align-items: center;
+  padding: 40px 28px 120px; text-align: center;
+  animation: fadeIn 0.4s ease-out;
+}
+.slide.active { display: flex; }
+@keyframes fadeIn {
+  from { opacity:0; transform:translateX(30px); }
+  to { opacity:1; transform:translateX(0); }
+}
+.slide-emoji { font-size: 64px; margin-bottom: 20px; }
+.slide-title {
+  font-size: 24px; font-weight: 900; line-height: 1.5;
+  margin-bottom: 16px; white-space: pre-line;
+}
+.slide-desc {
+  font-size: 14px; line-height: 1.8; opacity: 0.85;
+  max-width: 340px; white-space: pre-line;
+}
+.slide-detail {
+  margin-top: 20px; text-align: left; max-width: 340px; width: 100%;
+}
+.detail-item {
+  display: flex; align-items: flex-start; gap: 10px;
+  padding: 8px 0; font-size: 13px; line-height: 1.6;
+  border-bottom: 1px solid rgba(255,255,255,0.1);
+}
+.detail-item:last-child { border-bottom: none; }
+.detail-icon { font-size: 18px; min-width: 24px; text-align: center; }
+.detail-text { flex: 1; opacity: 0.9; }
+.detail-text strong { color: #ffd700; }
+
+.info-card {
+  margin-top: 20px; background: rgba(255,255,255,0.1);
+  border-radius: 14px; padding: 16px; max-width: 340px; width: 100%;
+  text-align: left; font-size: 13px; line-height: 1.7;
+}
+
+.badge-grid {
+  display: flex; flex-wrap: wrap; gap: 8px; justify-content: center;
+  margin-top: 16px; max-width: 340px;
+}
+.badge-chip {
+  background: rgba(255,255,255,0.12); border-radius: 20px;
+  padding: 6px 12px; font-size: 12px; white-space: nowrap;
+}
+
+.nav {
+  position: fixed; bottom: 0; left: 0; right: 0;
+  padding: 16px 24px 32px; display: flex; align-items: center;
+  justify-content: space-between; background: linear-gradient(transparent, rgba(0,0,0,0.8));
+}
+.dots { display: flex; gap: 6px; }
+.dot {
+  width: 8px; height: 8px; border-radius: 50%;
+  background: rgba(255,255,255,0.3); transition: all 0.3s;
+}
+.dot.active { background: #ffd700; width: 20px; border-radius: 4px; }
+.nav-btn {
+  background: #ffd700; color: #333; border: none; padding: 12px 28px;
+  border-radius: 50px; font-size: 15px; font-weight: 800; cursor: pointer;
+  transition: transform 0.2s;
+}
+.nav-btn:hover { transform: scale(1.05); }
+.nav-btn.back {
+  background: rgba(255,255,255,0.15); color: #fff; padding: 12px 20px;
+}
+.nav-btn.skip {
+  background: none; color: rgba(255,255,255,0.5); padding: 12px 16px;
+  font-size: 13px; font-weight: 400;
+}
+
+/* 슬라이드별 배경 */
+.bg-0 { background: linear-gradient(135deg, #4a0033, #7b2d8e); }
+.bg-1 { background: linear-gradient(135deg, #0d47a1, #1565c0); }
+.bg-2 { background: linear-gradient(135deg, #1a237e, #283593); }
+.bg-3 { background: linear-gradient(135deg, #004d40, #00695c); }
+.bg-4 { background: linear-gradient(135deg, #b71c1c, #c62828); }
+.bg-5 { background: linear-gradient(135deg, #e65100, #ef6c00); }
+.bg-6 { background: linear-gradient(135deg, #1b5e20, #2e7d32); }
+.bg-7 { background: linear-gradient(135deg, #4e342e, #5d4037); }
+.bg-8 { background: linear-gradient(135deg, #311b92, #4527a0); }
+.bg-9 { background: linear-gradient(135deg, #006064, #00838f); }
+.bg-10 { background: linear-gradient(135deg, #880e4f, #ad1457); }
+.bg-11 { background: linear-gradient(135deg, #0d47a1, #0277bd); }
+.bg-12 { background: linear-gradient(135deg, #4a0033, #7b2d8e); }
+
+.comparison-table {
+  width: 100%; max-width: 340px; margin-top: 16px;
+  border-collapse: collapse; font-size: 12px;
+}
+.comparison-table th {
+  background: rgba(255,255,255,0.15); padding: 8px 10px;
+  text-align: left; font-weight: 600;
+}
+.comparison-table td {
+  padding: 6px 10px; border-bottom: 1px solid rgba(255,255,255,0.08);
+}
+</style>
+</head>
+<body>
+
+<!-- 슬라이드 0: 환영 -->
+<div class="slide bg-0" id="slide-0">
+  <div class="slide-emoji">👋</div>
+  <div class="slide-title">Prof.AI 수능영어에<br>오신 것을 환영합니다!</div>
+  <div class="slide-desc">교수가 만든 AI가 나만의<br>수능 영어 문제를 생성합니다</div>
+  <div class="info-card" style="text-align:center; margin-top:24px;">
+    <span style="font-size:11px; opacity:0.7;">← 스와이프하거나 버튼을 눌러 다음으로 →</span>
+  </div>
+</div>
+
+<!-- 슬라이드 1: 시작하기 -->
+<div class="slide bg-1" id="slide-1">
+  <div class="slide-emoji">🚀</div>
+  <div class="slide-title">시작하기</div>
+  <div class="slide-detail">
+    <div class="detail-item"><div class="detail-icon">1️⃣</div><div class="detail-text">브라우저에서 <strong>Prof.AI</strong> 접속</div></div>
+    <div class="detail-item"><div class="detail-icon">2️⃣</div><div class="detail-text"><strong>Google 로그인</strong> 버튼 클릭</div></div>
+    <div class="detail-item"><div class="detail-icon">3️⃣</div><div class="detail-text">로그인 완료! 바로 문제 풀기 시작</div></div>
+  </div>
+  <div class="info-card">
+    ⚠️ <strong>Google 계정</strong>으로만 로그인 가능합니다
+  </div>
+</div>
+
+<!-- 슬라이드 2: 앱 설치 -->
+<div class="slide bg-2" id="slide-2">
+  <div class="slide-emoji">📲</div>
+  <div class="slide-title">앱처럼 설치하기</div>
+  <div class="slide-detail">
+    <div class="detail-item"><div class="detail-icon">🍎</div><div class="detail-text"><strong>iPhone:</strong> Safari 접속 → 공유(□↑) → 홈 화면에 추가</div></div>
+    <div class="detail-item"><div class="detail-icon">🤖</div><div class="detail-text"><strong>Android:</strong> Chrome 접속 → 메뉴(⋮) → 앱 설치</div></div>
+  </div>
+  <div class="info-card">
+    💡 앱스토어 없이 설치! 전체화면으로 실행됩니다
+  </div>
+</div>
+
+<!-- 슬라이드 3: 문제 풀기 -->
+<div class="slide bg-3" id="slide-3">
+  <div class="slide-emoji">🎯</div>
+  <div class="slide-title">AI 맞춤 문제</div>
+  <div class="slide-desc">매번 새로운 문제를 AI가 실시간 생성<br>같은 문제를 두 번 풀 일이 없습니다</div>
+  <div class="slide-detail">
+    <div class="detail-item"><div class="detail-icon">📦</div><div class="detail-text">내장 <strong>200문제</strong> 즉시 출제</div></div>
+    <div class="detail-item"><div class="detail-icon">🤖</div><div class="detail-text">문제은행 소진 후 <strong>AI 실시간 생성</strong></div></div>
+    <div class="detail-item"><div class="detail-icon">⏱️</div><div class="detail-text">문제당 <strong>90초</strong> 제한, 10초 전 경고음</div></div>
+  </div>
+</div>
+
+<!-- 슬라이드 4: 6유형 -->
+<div class="slide bg-4" id="slide-4">
+  <div class="slide-emoji">📝</div>
+  <div class="slide-title">수능 6유형 완벽 대비</div>
+  <div class="slide-detail">
+    <div class="detail-item"><div class="detail-icon">🎯</div><div class="detail-text"><strong>빈칸 추론</strong> — 33번 킬러 문항</div></div>
+    <div class="detail-item"><div class="detail-icon">📌</div><div class="detail-text"><strong>문장 삽입</strong> — 논리 흐름 파악</div></div>
+    <div class="detail-item"><div class="detail-icon">📐</div><div class="detail-text"><strong>어법 판단</strong> — 문법 오류 찾기</div></div>
+    <div class="detail-item"><div class="detail-icon">📖</div><div class="detail-text"><strong>어휘 적절성</strong> — 반의어 함정</div></div>
+    <div class="detail-item"><div class="detail-icon">💡</div><div class="detail-text"><strong>요지/주제</strong> — 중심 내용 파악</div></div>
+    <div class="detail-item"><div class="detail-icon">🔢</div><div class="detail-text"><strong>글의 순서</strong> — 단락 배열</div></div>
+  </div>
+</div>
+
+<!-- 슬라이드 5: 난이도 자동 조절 -->
+<div class="slide bg-5" id="slide-5">
+  <div class="slide-emoji">📈</div>
+  <div class="slide-title">난이도 자동 조절</div>
+  <div class="slide-desc">AI가 유형별 정답률을 분석하여<br>나에게 맞는 난이도로 출제합니다</div>
+  <div class="slide-detail">
+    <div class="detail-item"><div class="detail-icon">🔴</div><div class="detail-text">정답률 80%+ → <strong>최고 난이도</strong> (33번 수준)</div></div>
+    <div class="detail-item"><div class="detail-icon">🟡</div><div class="detail-text">정답률 50~80% → <strong>표준 난이도</strong></div></div>
+    <div class="detail-item"><div class="detail-icon">🟢</div><div class="detail-text">정답률 50%- → <strong>기초 난이도</strong></div></div>
+  </div>
+  <div class="info-card">
+    ⚠️ 취약 유형이 발견되면 홈에 <strong>집중 훈련</strong> 추천!
+  </div>
+</div>
+
+<!-- 슬라이드 6: 어휘 -->
+<div class="slide bg-6" id="slide-6">
+  <div class="slide-emoji">📚</div>
+  <div class="slide-title">수능 필수 어휘 1,764</div>
+  <div class="slide-desc">10개 카테고리로 정리된 수능 빈출 어휘</div>
+  <div class="badge-grid">
+    <div class="badge-chip">추상명사 229</div>
+    <div class="badge-chip">학술동사 247</div>
+    <div class="badge-chip">다의어 196</div>
+    <div class="badge-chip">형용사 246</div>
+    <div class="badge-chip">혼동어 214</div>
+    <div class="badge-chip">기본동사 200</div>
+    <div class="badge-chip">명사 210</div>
+    <div class="badge-chip">부사 124</div>
+    <div class="badge-chip">연결어 68</div>
+    <div class="badge-chip">반의어쌍 30</div>
+  </div>
+  <div class="info-card">
+    📖 매일 20단어 학습 + 영→한 / 한→영 퀴즈
+  </div>
+</div>
+
+<!-- 슬라이드 7: 오답노트 -->
+<div class="slide bg-7" id="slide-7">
+  <div class="slide-emoji">🔄</div>
+  <div class="slide-title">오답노트 & 유사문제</div>
+  <div class="slide-detail">
+    <div class="detail-item"><div class="detail-icon">❌</div><div class="detail-text">틀린 문제 <strong>자동 저장</strong></div></div>
+    <div class="detail-item"><div class="detail-icon">🔁</div><div class="detail-text"><strong>다시 풀기</strong>로 재도전 → 맞추면 자동 삭제</div></div>
+    <div class="detail-item"><div class="detail-icon">🤖</div><div class="detail-text"><strong>🔄 유사문제</strong> 버튼 → AI가 약점 분석 후 새 문제 생성</div></div>
+  </div>
+  <div class="info-card">
+    💡 같은 유형을 반복하면 약점이 빠르게 보완됩니다!
+  </div>
+</div>
+
+<!-- 슬라이드 8: 통계 -->
+<div class="slide bg-8" id="slide-8">
+  <div class="slide-emoji">📊</div>
+  <div class="slide-title">학습 리포트</div>
+  <div class="slide-detail">
+    <div class="detail-item"><div class="detail-icon">📅</div><div class="detail-text">최근 <strong>7일 학습량</strong> 바 차트</div></div>
+    <div class="detail-item"><div class="detail-icon">📈</div><div class="detail-text">최근 <strong>7일 정답률</strong> 추이</div></div>
+    <div class="detail-item"><div class="detail-icon">📋</div><div class="detail-text"><strong>유형별 정답률</strong> 프로그레스 바</div></div>
+    <div class="detail-item"><div class="detail-icon">🏅</div><div class="detail-text"><strong>성취 배지</strong> 획득 현황</div></div>
+    <div class="detail-item"><div class="detail-icon">📝</div><div class="detail-text"><strong>오늘 학습</strong> 문제수/정답률/유형별 상세</div></div>
+  </div>
+</div>
+
+<!-- 슬라이드 9: 리더보드 & 배지 -->
+<div class="slide bg-9" id="slide-9">
+  <div class="slide-emoji">🏆</div>
+  <div class="slide-title">리더보드 & 배지</div>
+  <div class="slide-desc">다른 학생들과 순위를 비교하고<br>배지를 모아보세요!</div>
+  <div class="slide-detail">
+    <div class="detail-item"><div class="detail-icon">🔥</div><div class="detail-text"><strong>연속 학습</strong> 랭킹</div></div>
+    <div class="detail-item"><div class="detail-icon">📝</div><div class="detail-text"><strong>총 문제수</strong> 랭킹</div></div>
+    <div class="detail-item"><div class="detail-icon">🎯</div><div class="detail-text"><strong>정답률</strong> 랭킹</div></div>
+  </div>
+  <div class="badge-grid" style="margin-top:16px;">
+    <div class="badge-chip">🌱 첫 걸음</div>
+    <div class="badge-chip">🔥 7일 연속</div>
+    <div class="badge-chip">💪 30일</div>
+    <div class="badge-chip">👑 100일</div>
+    <div class="badge-chip">🎯 80%</div>
+    <div class="badge-chip">💎 90%</div>
+    <div class="badge-chip">✨ 5연속</div>
+    <div class="badge-chip">🏆 1000문제</div>
+  </div>
+</div>
+
+<!-- 슬라이드 10: 요금제 -->
+<div class="slide bg-10" id="slide-10">
+  <div class="slide-emoji">💎</div>
+  <div class="slide-title">요금제</div>
+  <table class="comparison-table">
+    <tr><th></th><th>무료</th><th style="color:#ffd700;">프리미엄 ₩3,900/월</th></tr>
+    <tr><td>문제 풀기</td><td>하루 5문제</td><td>무제한</td></tr>
+    <tr><td>문제은행</td><td>200문제</td><td>200 + AI 무제한</td></tr>
+    <tr><td>어휘학습</td><td>1,764단어</td><td>1,764단어</td></tr>
+    <tr><td>취약 유형 훈련</td><td>—</td><td>✅</td></tr>
+    <tr><td>오답 유사문제</td><td>—</td><td>✅</td></tr>
+    <tr><td>세일링 추첨</td><td>—</td><td>✅</td></tr>
+  </table>
+  <div class="info-card" style="text-align:center;">
+    ☕ 커피 한 잔 값으로 AI 과외 선생님!
+  </div>
+</div>
+
+<!-- 슬라이드 11: 세일링 포상 -->
+<div class="slide bg-11" id="slide-11">
+  <div class="slide-emoji">⛵</div>
+  <div class="slide-title" style="color:#ffd700;">500명이 모이면,<br>에게해가 열립니다.</div>
+  <div class="slide-detail">
+    <div class="detail-item"><div class="detail-icon">📌</div><div class="detail-text">유료 회원 + <strong>30일 연속</strong> 학습 달성자 대상</div></div>
+    <div class="detail-item"><div class="detail-icon">🎲</div><div class="detail-text">달성자 중 추첨 <strong>2명</strong> 선발</div></div>
+    <div class="detail-item"><div class="detail-icon">✈️</div><div class="detail-text"><strong>항공료 + 요트비용 전액 지원</strong></div></div>
+    <div class="detail-item"><div class="detail-icon">🌊</div><div class="detail-text">대학 입학 후 첫 여름방학, 에게해로!</div></div>
+  </div>
+</div>
+
+<!-- 슬라이드 12: CTA -->
+<div class="slide bg-12" id="slide-12">
+  <div class="slide-emoji">🎉</div>
+  <div class="slide-title" style="color:#ffd700;">지금 시작하세요!</div>
+  <div class="slide-desc">Google 로그인 한 번이면<br>AI 수능 영어 트레이너가 시작됩니다</div>
+  <a href="https://suneung-english-ai.onrender.com/" style="display:inline-block; background:#ffd700; color:#333; padding:16px 40px; border-radius:50px; font-size:17px; font-weight:800; text-decoration:none; margin-top:24px;">Prof.AI 시작하기 →</a>
+  <div style="margin-top:16px; font-size:12px; opacity:0.5;">suneung-english-ai.onrender.com</div>
+</div>
+
+<!-- 네비게이션 -->
+<div class="nav">
+  <button class="nav-btn back" id="prevBtn" onclick="prevSlide()" style="visibility:hidden;">←</button>
+  <div class="dots" id="dots"></div>
+  <button class="nav-btn" id="nextBtn" onclick="nextSlide()">다음</button>
+</div>
+
+<script>
+const TOTAL = 13;
+let current = 0;
+
+function renderNav() {
+  // 도트
+  document.getElementById('dots').innerHTML = Array.from({length:TOTAL}, (_,i) =>
+    `<div class="dot ${i===current?'active':''}"></div>`
+  ).join('');
+  // 버튼
+  document.getElementById('prevBtn').style.visibility = current === 0 ? 'hidden' : 'visible';
+  const nextBtn = document.getElementById('nextBtn');
+  if (current === TOTAL - 1) {
+    nextBtn.style.display = 'none';
+  } else {
+    nextBtn.style.display = 'block';
+    nextBtn.textContent = '다음';
+  }
+}
+
+function showSlide(idx) {
+  document.querySelectorAll('.slide').forEach(s => s.classList.remove('active'));
+  document.getElementById('slide-' + idx).classList.add('active');
+  current = idx;
+  renderNav();
+}
+
+function nextSlide() { if (current < TOTAL - 1) showSlide(current + 1); }
+function prevSlide() { if (current > 0) showSlide(current - 1); }
+
+// 스와이프 지원
+let touchStartX = 0;
+document.addEventListener('touchstart', e => { touchStartX = e.touches[0].clientX; });
+document.addEventListener('touchend', e => {
+  const diff = touchStartX - e.changedTouches[0].clientX;
+  if (Math.abs(diff) > 50) {
+    if (diff > 0) nextSlide();
+    else prevSlide();
+  }
+});
+
+// 키보드 지원
+document.addEventListener('keydown', e => {
+  if (e.key === 'ArrowRight' || e.key === ' ') nextSlide();
+  if (e.key === 'ArrowLeft') prevSlide();
+});
+
+showSlide(0);
+</script>
+</body>
+</html>
