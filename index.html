@@ -1596,6 +1596,19 @@ async function generateQuestion(type) {
     prefetchForType(type);
     updateCacheStatus();
   } catch (err) {
+    // 유료회원: API 제한 초과 시 문제은행에서 폴백
+    if (state.isPremium) {
+      const bankQ = getFromBank(type);
+      if (bankQ) {
+        console.log('📦 API 제한 → 문제은행 폴백');
+        state.currentQuiz = bankQ;
+        state.selectedChoice = -1;
+        state.answered = false;
+        renderQuestion();
+        updateCacheStatus();
+        return;
+      }
+    }
     document.getElementById('quizLoading').innerHTML = `
       <p style="color:var(--wrong); font-weight:700;">⚠️ ${err.message}</p>
       <button class="submit-btn primary" style="margin-top:16px;" onclick="generateQuestion('${type}')">다시 시도</button>
