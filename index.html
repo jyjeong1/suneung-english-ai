@@ -1547,7 +1547,7 @@ let bankServedCount = 0; // 이번 세션에서 문제은행에서 준 문제 �
 
 async function loadQuestion(type) {
   // 1. 처음 3문제는 문제은행에서 즉시 제공
-  if (bankServedCount < 2) {
+  if (bankServedCount < 4) {
     const bankQ = getFromBank(type);
     if (bankQ) {
       bankServedCount++;
