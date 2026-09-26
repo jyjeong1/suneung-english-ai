@@ -1578,6 +1578,22 @@ async function loadQuestion(type) {
   await generateQuestion(type);
 }
 
+function loadBankQuestion(type) {
+  const bankQ = getFromBank(type);
+  if (bankQ) {
+    state.currentQuiz = bankQ;
+    state.selectedChoice = -1;
+    state.answered = false;
+    renderQuestion();
+    updateCacheStatus();
+  } else {
+    document.getElementById('quizLoading').innerHTML = `
+      <p style="color:var(--sub); font-weight:700;">문제은행에 해당 유형 문제가 없습니다</p>
+      <button class="submit-btn" style="background:var(--border); color:var(--text); margin-top:16px;" onclick="switchPage('home'); document.querySelectorAll('.tab-bar button')[0].classList.add('active');">홈으로</button>
+    `;
+  }
+}
+
 async function generateQuestion(type) {
   document.getElementById('quizLoading').style.display = 'block';
   document.getElementById('quizLoading').innerHTML = `
@@ -1596,18 +1612,17 @@ async function generateQuestion(type) {
     prefetchForType(type);
     updateCacheStatus();
   } catch (err) {
-    // 유료회원: API 제한 초과 시 문제은행에서 폴백
+    // 유료회원: API 제한 초과 시 선택지 제공
     if (state.isPremium) {
-      const bankQ = getFromBank(type);
-      if (bankQ) {
-        console.log('📦 API 제한 → 문제은행 폴백');
-        state.currentQuiz = bankQ;
-        state.selectedChoice = -1;
-        state.answered = false;
-        renderQuestion();
-        updateCacheStatus();
-        return;
-      }
+      const wrongCount = getWrongNotes().length;
+      document.getElementById('quizLoading').innerHTML = `
+        <p style="font-size:15px; font-weight:700; color:var(--accent); margin-bottom:8px;">오늘의 AI 문제 생성 한도에 도달했습니다</p>
+        <p style="font-size:13px; color:var(--sub); margin-bottom:20px;">문제은행 또는 오답노트로 계속 학습할 수 있습니다</p>
+        <button class="submit-btn primary" style="margin-bottom:10px;" onclick="loadBankQuestion('${type}')">📦 문제은행에서 풀기</button>
+        ${wrongCount > 0 ? '<button class="submit-btn" style="background:#7b1fa2; color:#fff; margin-bottom:10px;" onclick="switchPage(\\\'wrong\\\'); document.querySelectorAll(\\\'.tab-bar button\\\')[2].classList.add(\\\'active\\\');">❌ 틀린 문제 다시 풀기 (' + wrongCount + '문제)</button>' : ''}
+        <button class="submit-btn" style="background:var(--border); color:var(--text);" onclick="switchPage('home'); document.querySelectorAll('.tab-bar button')[0].classList.add('active');">🏠 홈으로</button>
+      `;
+      return;
     }
     document.getElementById('quizLoading').innerHTML = `
       <p style="color:var(--wrong); font-weight:700;">⚠️ ${err.message}</p>
