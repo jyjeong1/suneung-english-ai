@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<meta name="google" content="notranslate">
+<title>Prof.AI 수능영어 — 앱 소개</title>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700;900&display=swap');
+* { margin:0; padding:0; box-sizing:border-box; }
+body {
+  font-family:'Noto Sans KR',-apple-system,sans-serif;
+  color:#fff; background:#111; overflow:hidden;
+  height:100vh; width:100vw;
+}
+.slide {
+  display:none; position:absolute; top:0; left:0; right:0; bottom:0;
+  flex-direction:column; justify-content:center; align-items:center;
+  padding:40px 24px 110px; text-align:center;
+  animation: slideIn 0.4s ease-out;
+}
+.slide.active { display:flex; }
+@keyframes slideIn {
+  from { opacity:0; transform:translateX(40px); }
+  to { opacity:1; transform:translateX(0); }
+}
+.emoji { font-size:56px; margin-bottom:16px; }
+.title { font-size:24px; font-weight:900; line-height:1.4; margin-bottom:10px; white-space:pre-line; }
+.gold { color:#ffd700; }
+.desc { font-size:14px; line-height:1.7; opacity:0.85; max-width:360px; white-space:pre-line; margin-bottom:16px; }
+.detail { text-align:left; max-width:360px; width:100%; }
+.row {
+  display:flex; align-items:flex-start; gap:10px;
+  padding:7px 0; font-size:13px; line-height:1.5;
+  border-bottom:1px solid rgba(255,255,255,0.08);
+}
+.row:last-child { border-bottom:none; }
+.row-icon { font-size:17px; min-width:24px; text-align:center; }
+.row-text { flex:1; opacity:0.9; }
+.row-text strong { color:#ffd700; }
+.card {
+  margin-top:14px; background:rgba(255,255,255,0.1);
+  border-radius:12px; padding:14px; max-width:360px; width:100%;
+  text-align:left; font-size:12px; line-height:1.7;
+}
+.tbl {
+  width:100%; max-width:360px; margin-top:14px;
+  border-collapse:collapse; font-size:11px;
+}
+.tbl th { background:rgba(255,255,255,0.15); padding:7px 8px; text-align:left; font-weight:700; }
+.tbl td { padding:6px 8px; border-bottom:1px solid rgba(255,255,255,0.06); }
+.chips { display:flex; flex-wrap:wrap; gap:6px; justify-content:center; margin-top:12px; max-width:360px; }
+.chip { background:rgba(255,255,255,0.12); border-radius:16px; padding:5px 11px; font-size:11px; }
+.meter { height:6px; border-radius:3px; background:rgba(255,255,255,0.15); margin-top:6px; overflow:hidden; }
+.meter-fill { height:100%; border-radius:3px; }
+
+/* 네비게이션 */
+.nav {
+  position:fixed; bottom:0; left:0; right:0;
+  padding:14px 24px 30px; display:flex; align-items:center;
+  justify-content:space-between; background:linear-gradient(transparent, rgba(0,0,0,0.85));
+}
+.dots { display:flex; gap:5px; }
+.dot { width:7px; height:7px; border-radius:50%; background:rgba(255,255,255,0.25); transition:all 0.3s; }
+.dot.active { background:#ffd700; width:18px; border-radius:4px; }
+.btn {
+  background:#ffd700; color:#333; border:none; padding:11px 26px;
+  border-radius:50px; font-size:14px; font-weight:800; cursor:pointer;
+}
+.btn.back { background:rgba(255,255,255,0.15); color:#fff; padding:11px 18px; }
+.counter { position:absolute; top:20px; right:24px; font-size:12px; opacity:0.4; }
+
+/* 배경색 */
+.bg0{background:linear-gradient(135deg,#4a0033,#7b2d8e);}
+.bg1{background:linear-gradient(135deg,#0d47a1,#1565c0);}
+.bg2{background:linear-gradient(135deg,#1a237e,#283593);}
+.bg3{background:linear-gradient(135deg,#004d40,#00695c);}
+.bg4{background:linear-gradient(135deg,#b71c1c,#c62828);}
+.bg5{background:linear-gradient(135deg,#e65100,#ef6c00);}
+.bg6{background:linear-gradient(135deg,#1b5e20,#2e7d32);}
+.bg7{background:linear-gradient(135deg,#4e342e,#5d4037);}
+.bg8{background:linear-gradient(135deg,#311b92,#4527a0);}
+.bg9{background:linear-gradient(135deg,#006064,#00838f);}
+.bg10{background:linear-gradient(135deg,#880e4f,#ad1457);}
+.bg11{background:linear-gradient(135deg,#33691e,#558b2f);}
+.bg12{background:linear-gradient(135deg,#0d47a1,#0277bd);}
+.bg13{background:linear-gradient(135deg,#bf360c,#d84315);}
+.bg14{background:linear-gradient(135deg,#4a0033,#7b2d8e);}
+</style>
+</head>
+<body>
+
+<!-- 0: 표지 -->
+<div class="slide bg0" id="s0">
+  <div class="emoji">🎓</div>
+  <div class="title"><span class="gold">Prof.AI</span> 수능영어</div>
+  <div class="desc">교수가 만든 AI<br>수능 영어 학습 플랫폼</div>
+  <div class="card" style="text-align:center;">
+    <span style="opacity:0.6;">← 스와이프 또는 버튼으로 넘기세요 →</span>
+  </div>
+</div>
+
+<!-- 1: AI 문제 생성 -->
+<div class="slide bg1" id="s1">
+  <div class="emoji">🤖</div>
+  <div class="title">AI 맞춤 문제 생성</div>
+  <div class="desc">매번 새로운 문제를 AI가 실시간 생성<br>같은 문제를 두 번 풀 일이 없습니다</div>
+  <div class="detail">
+    <div class="row"><div class="row-icon">📦</div><div class="row-text">내장 <strong>200문제</strong> 즉시 출제</div></div>
+    <div class="row"><div class="row-icon">🤖</div><div class="row-text">문제은행 이후 <strong>AI 실시간 생성</strong></div></div>
+    <div class="row"><div class="row-icon">⚡</div><div class="row-text">시작 시 4문제 즉시 + AI 백그라운드 준비</div></div>
+    <div class="row"><div class="row-icon">🔄</div><div class="row-text"><strong>2일마다 100문제 자동 교체</strong> → 항상 신선</div></div>
+  </div>
+</div>
+
+<!-- 2: 수능 기출 기준 -->
+<div class="slide bg2" id="s2">
+  <div class="emoji">📐</div>
+  <div class="title">수능 기출 기준 설계</div>
+  <div class="desc">2022~2024 수능 기출을 정량 분석하여<br>문제 생성 품질을 검증합니다</div>
+  <div class="detail">
+    <div class="row"><div class="row-icon">📏</div><div class="row-text">지문 <strong>220~260단어</strong>, 10~14문장</div></div>
+    <div class="row"><div class="row-icon">📚</div><div class="row-text">학술 어휘 <strong>4~8개 필수</strong> 포함</div></div>
+    <div class="row"><div class="row-icon">✍️</div><div class="row-text">문장당 평균 <strong>15~22단어</strong></div></div>
+    <div class="row"><div class="row-icon">✅</div><div class="row-text"><strong>8개 지표</strong> 자동 검증 시스템</div></div>
+  </div>
+</div>
+
+<!-- 3: 6유형 -->
+<div class="slide bg3" id="s3">
+  <div class="emoji">📝</div>
+  <div class="title">수능 <span class="gold">6유형</span> 완벽 대비</div>
+  <div class="detail">
+    <div class="row"><div class="row-icon">🎯</div><div class="row-text"><strong>빈칸 추론</strong> — 33번 킬러 (120초)</div></div>
+    <div class="row"><div class="row-icon">📌</div><div class="row-text"><strong>문장 삽입</strong> — 38번 논리 흐름 (100초)</div></div>
+    <div class="row"><div class="row-icon">📐</div><div class="row-text"><strong>어법 판단</strong> — 29번 문법 오류 (90초)</div></div>
+    <div class="row"><div class="row-icon">📖</div><div class="row-text"><strong>어휘 적절성</strong> — 30번 반의어 함정 (90초)</div></div>
+    <div class="row"><div class="row-icon">💡</div><div class="row-text"><strong>요지/주제</strong> — 22번 중심 내용 (70초)</div></div>
+    <div class="row"><div class="row-icon">🔢</div><div class="row-text"><strong>글의 순서</strong> — 36번 단락 배열 (100초)</div></div>
+  </div>
+</div>
+
+<!-- 4: 유형별 타이머 -->
+<div class="slide bg4" id="s4">
+  <div class="emoji">⏱️</div>
+  <div class="title">유형별 <span class="gold">차등 타이머</span></div>
+  <div class="desc">수능 실제 소요 시간을 반영한 차등 제한</div>
+  <table class="tbl">
+    <tr><th>유형</th><th>시간</th><th>근거</th></tr>
+    <tr><td>요지/주제</td><td style="color:#ffd700;">70초</td><td>빠른 판단</td></tr>
+    <tr><td>어법/어휘</td><td style="color:#ffd700;">90초</td><td>5개 밑줄 확인</td></tr>
+    <tr><td>삽입/순서</td><td style="color:#ffd700;">100초</td><td>논리 분석</td></tr>
+    <tr><td>빈칸 추론</td><td style="color:#ffd700;">120초</td><td>킬러 문항</td></tr>
+  </table>
+  <div class="card">
+    🔔 10초 남으면 경고음 · 초과 시 자동 오답 처리
+  </div>
+</div>
+
+<!-- 5: 난이도 자동 조절 -->
+<div class="slide bg5" id="s5">
+  <div class="emoji">📈</div>
+  <div class="title">난이도 <span class="gold">자동 조절</span></div>
+  <div class="desc">유형별 정답률을 분석하여<br>3단계 난이도를 자동 적용합니다</div>
+  <div class="detail">
+    <div class="row"><div class="row-icon">🔴</div><div class="row-text">80%+ → <strong>상</strong> (33번 수준, 추상적 학술)</div></div>
+    <div class="row"><div class="row-icon">🟡</div><div class="row-text">50~80% → <strong>중</strong> (32번 수준, 표준)</div></div>
+    <div class="row"><div class="row-icon">🟢</div><div class="row-text">50%- → <strong>하</strong> (31번 수준, 기초)</div></div>
+  </div>
+  <div class="card">
+    ⚠️ 정답률 70% 미만 유형 → <strong>취약 유형 집중 훈련</strong> 자동 추천!
+  </div>
+</div>
+
+<!-- 6: 오답 & 유사문제 -->
+<div class="slide bg6" id="s6">
+  <div class="emoji">🔄</div>
+  <div class="title">오답 분석 &<br><span class="gold">AI 유사문제</span></div>
+  <div class="detail">
+    <div class="row"><div class="row-icon">❌</div><div class="row-text">틀린 문제 <strong>자동 저장</strong> (최대 100문제)</div></div>
+    <div class="row"><div class="row-icon">🔁</div><div class="row-text"><strong>다시 풀기</strong> → 맞추면 자동 삭제</div></div>
+    <div class="row"><div class="row-icon">🤖</div><div class="row-text"><strong>🔄 유사문제</strong> 버튼 → AI가 약점 분석</div></div>
+    <div class="row"><div class="row-icon">🎯</div><div class="row-text">같은 유형·소재, <strong>완전히 새로운</strong> 문제 생성</div></div>
+  </div>
+</div>
+
+<!-- 7: 어휘 -->
+<div class="slide bg7" id="s7">
+  <div class="emoji">📚</div>
+  <div class="title">수능 필수 어휘<br><span class="gold">1,764단어</span></div>
+  <div class="chips">
+    <div class="chip">추상명사 229</div>
+    <div class="chip">학술동사 247</div>
+    <div class="chip">형용사 246</div>
+    <div class="chip">혼동어 214</div>
+    <div class="chip">명사 210</div>
+    <div class="chip">기본동사 200</div>
+    <div class="chip">다의어 196</div>
+    <div class="chip">부사 124</div>
+    <div class="chip">연결어 68</div>
+    <div class="chip">반의어쌍 30</div>
+  </div>
+  <div class="card">
+    📖 매일 20단어 카드 학습 + 영→한 / 한→영 퀴즈
+  </div>
+</div>
+
+<!-- 8: 학습 리포트 -->
+<div class="slide bg8" id="s8">
+  <div class="emoji">📊</div>
+  <div class="title">학습 <span class="gold">리포트</span></div>
+  <div class="detail">
+    <div class="row"><div class="row-icon">📅</div><div class="row-text">최근 <strong>7일 학습량</strong> 바 차트</div></div>
+    <div class="row"><div class="row-icon">📈</div><div class="row-text">최근 <strong>7일 정답률</strong> 추이</div></div>
+    <div class="row"><div class="row-icon">📋</div><div class="row-text"><strong>유형별 정답률</strong> + 현재 난이도</div></div>
+    <div class="row"><div class="row-icon">🏅</div><div class="row-text"><strong>성취 배지</strong> 획득 현황</div></div>
+    <div class="row"><div class="row-icon">📝</div><div class="row-text"><strong>오늘 학습</strong> 문제수·정답률·유형별 상세</div></div>
+    <div class="row"><div class="row-icon">☁️</div><div class="row-text">Firebase <strong>자동 동기화</strong> (기기 간)</div></div>
+  </div>
+</div>
+
+<!-- 9: 리더보드 & 배지 -->
+<div class="slide bg9" id="s9">
+  <div class="emoji">🏆</div>
+  <div class="title">리더보드 &<br><span class="gold">성취 배지 20개</span></div>
+  <div class="detail">
+    <div class="row"><div class="row-icon">🔥</div><div class="row-text"><strong>연속 학습</strong> 랭킹</div></div>
+    <div class="row"><div class="row-icon">📝</div><div class="row-text"><strong>총 문제수</strong> 랭킹</div></div>
+    <div class="row"><div class="row-icon">🎯</div><div class="row-text"><strong>정답률</strong> 랭킹</div></div>
+  </div>
+  <div class="chips" style="margin-top:14px;">
+    <div class="chip">🌱 첫 걸음</div>
+    <div class="chip">🔥 7일</div>
+    <div class="chip">💪 30일</div>
+    <div class="chip">👑 100일</div>
+    <div class="chip">🎯 80%</div>
+    <div class="chip">💎 90%</div>
+    <div class="chip">✨ 5연속</div>
+    <div class="chip">🏆 1000문제</div>
+  </div>
+</div>
+
+<!-- 10: 요금제 -->
+<div class="slide bg10" id="s10">
+  <div class="emoji">💎</div>
+  <div class="title">요금제</div>
+  <table class="tbl">
+    <tr><th></th><th>무료</th><th style="color:#ffd700;">프리미엄 ₩3,900</th></tr>
+    <tr><td>문제</td><td>하루 5문제</td><td>AI 10 + 은행 무제한</td></tr>
+    <tr><td>어휘</td><td>1,764단어</td><td>1,764단어</td></tr>
+    <tr><td>취약 훈련</td><td>—</td><td>✅</td></tr>
+    <tr><td>유사문제</td><td>—</td><td>✅</td></tr>
+    <tr><td>리포트</td><td>기본</td><td>전체</td></tr>
+    <tr><td>세일링</td><td>—</td><td>✅ 추첨 자격</td></tr>
+  </table>
+  <div class="card" style="text-align:center;">
+    ☕ 커피 한 잔 값으로 AI 과외 선생님!
+  </div>
+</div>
+
+<!-- 11: 비용 최적화 -->
+<div class="slide bg11" id="s11">
+  <div class="emoji">💰</div>
+  <div class="title">비용 <span class="gold">최적화</span> 구조</div>
+  <div class="detail">
+    <div class="row"><div class="row-icon">📦</div><div class="row-text">시작 4문제 = 문제은행 <strong>(비용 0)</strong></div></div>
+    <div class="row"><div class="row-icon">🤖</div><div class="row-text">AI 호출 = 인당 <strong>하루 10회</strong> 제한</div></div>
+    <div class="row"><div class="row-icon">🔄</div><div class="row-text">2일 교체 = 월 <strong>~6,000원</strong></div></div>
+    <div class="row"><div class="row-icon">📊</div><div class="row-text">10회 초과 → 문제은행/오답노트 계속</div></div>
+  </div>
+  <div class="card">
+    100명 기준: 매출 ₩390,000 / 비용 ₩126,000<br>
+    → <strong style="color:#ffd700;">이익률 68%</strong>
+  </div>
+</div>
+
+<!-- 12: 세일링 포상 -->
+<div class="slide bg12" id="s12">
+  <div class="emoji">⛵</div>
+  <div class="title"><span class="gold">500명이 모이면,<br>에게해가 열립니다.</span></div>
+  <div class="detail">
+    <div class="row"><div class="row-icon">📌</div><div class="row-text">유료 회원 + <strong>30일 연속</strong> 학습 달성</div></div>
+    <div class="row"><div class="row-icon">🎲</div><div class="row-text">달성자 중 <strong>추첨 2명</strong> 선발</div></div>
+    <div class="row"><div class="row-icon">✈️</div><div class="row-text"><strong>항공료 + 요트비용 전액 지원</strong></div></div>
+    <div class="row"><div class="row-icon">🌊</div><div class="row-text">대학 입학 후 첫 여름방학, <strong>에게해</strong>로!</div></div>
+  </div>
+</div>
+
+<!-- 13: 관리자 & 인프라 -->
+<div class="slide bg13" id="s13">
+  <div class="emoji">⚙️</div>
+  <div class="title">관리자 & <span class="gold">인프라</span></div>
+  <div class="detail">
+    <div class="row"><div class="row-icon">📊</div><div class="row-text"><strong>관리자 대시보드</strong> — 전체 사용자 현황</div></div>
+    <div class="row"><div class="row-icon">💎</div><div class="row-text"><strong>멤버십 관리</strong> — 수동 전환 가능</div></div>
+    <div class="row"><div class="row-icon">📢</div><div class="row-text"><strong>공지/사진</strong> — 쉼표 라운지 게시</div></div>
+    <div class="row"><div class="row-icon">📱</div><div class="row-text"><strong>PWA</strong> — 홈 화면 추가, 오프라인 지원</div></div>
+    <div class="row"><div class="row-icon">☁️</div><div class="row-text"><strong>Render</strong> 클라우드 자동 배포</div></div>
+    <div class="row"><div class="row-icon">📦</div><div class="row-text">앱 크기 <strong>~650KB</strong> (사진 1장보다 작음)</div></div>
+  </div>
+</div>
+
+<!-- 14: CTA -->
+<div class="slide bg14" id="s14">
+  <div class="emoji">🎉</div>
+  <div class="title"><span class="gold">Prof.AI 수능영어</span></div>
+  <div class="desc">교수가 만든 AI<br>커피 한 잔 값으로 수능을 바꾼다</div>
+  <div style="margin-top:8px;">
+    <a href="https://suneung-english-ai.onrender.com/" style="display:inline-block; background:#ffd700; color:#333; padding:14px 36px; border-radius:50px; font-size:16px; font-weight:800; text-decoration:none;">시작하기 →</a>
+  </div>
+  <div style="margin-top:14px; font-size:12px; opacity:0.4;">suneung-english-ai.onrender.com</div>
+</div>
+
+<!-- 네비게이션 -->
+<div class="nav">
+  <button class="btn back" id="prevBtn" onclick="go(-1)" style="visibility:hidden;">←</button>
+  <div class="dots" id="dots"></div>
+  <button class="btn" id="nextBtn" onclick="go(1)">다음</button>
+</div>
+
+<script>
+const N = 15;
+let cur = 0;
+
+function render() {
+  document.querySelectorAll('.slide').forEach(s => s.classList.remove('active'));
+  document.getElementById('s'+cur).classList.add('active');
+  document.getElementById('dots').innerHTML = Array.from({length:N},(_,i) =>
+    '<div class="dot '+(i===cur?'active':'')+'"></div>').join('');
+  document.getElementById('prevBtn').style.visibility = cur===0?'hidden':'visible';
+  const nb = document.getElementById('nextBtn');
+  nb.style.display = cur===N-1?'none':'block';
+}
+
+function go(d) {
+  const next = cur+d;
+  if (next>=0 && next<N) { cur=next; render(); }
+}
+
+// 스와이프
+let tx=0;
+document.addEventListener('touchstart', e => tx=e.touches[0].clientX);
+document.addEventListener('touchend', e => {
+  const d=tx-e.changedTouches[0].clientX;
+  if (Math.abs(d)>50) go(d>0?1:-1);
+});
+// 키보드
+document.addEventListener('keydown', e => {
+  if (e.key==='ArrowRight'||e.key===' ') go(1);
+  if (e.key==='ArrowLeft') go(-1);
+});
+
+render();
+</script>
+</body>
+</html>
