@@ -1,6 +1,6 @@
 {
-  "name": "수능영어AI",
-  "short_name": "수능영어AI",
+  "name": "Prof.AI 수능영어",
+  "short_name": "Prof.AI 수능영어",
   "description": "AI가 만드는 나만의 수능 영어 트레이너",
   "start_url": "/",
   "display": "standalone",
