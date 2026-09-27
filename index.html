@@ -1772,8 +1772,18 @@ function playWarningBeep() {
   } catch(e) {}
 }
 
+const TYPE_TIMER = {
+  main_idea: 70,
+  grammar: 90,
+  vocab: 90,
+  insert: 100,
+  order: 100,
+  blank: 120,
+};
+
 function startTimer() {
-  state.timerSeconds = 90;
+  const type = state.currentQuiz?._type || '';
+  state.timerSeconds = TYPE_TIMER[type] || 90;
   state.warningPlayed = false;
   updateTimerDisplay();
   if (state.timerInterval) clearInterval(state.timerInterval);
