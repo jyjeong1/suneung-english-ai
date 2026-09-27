@@ -721,8 +721,9 @@ body {
 <div class="page" id="page-rank">
   <h2 style="font-size:20px; font-weight:700; margin-bottom:16px;">🏆 리더보드</h2>
   <div style="display:flex; gap:8px; margin-bottom:16px;">
-    <button class="rank-tab active" id="rankTabStreak" onclick="switchRankTab('streak')">🔥 연속 학습</button>
-    <button class="rank-tab" id="rankTabTotal" onclick="switchRankTab('total')">📝 총 문제수</button>
+    <button class="rank-tab active" id="rankTabScore" onclick="switchRankTab('score')">★ 가중치 점수</button>
+    <button class="rank-tab" id="rankTabStreak" onclick="switchRankTab('streak')">🔥 연속</button>
+    <button class="rank-tab" id="rankTabTotal" onclick="switchRankTab('total')">📝 문제수</button>
     <button class="rank-tab" id="rankTabAccuracy" onclick="switchRankTab('accuracy')">🎯 정답률</button>
   </div>
   <div id="rankMyPosition" style="margin-bottom:12px;"></div>
@@ -1011,6 +1012,7 @@ async function syncToFirestore() {
       stats: {
         total: state.stats.total,
         correct: state.stats.correct,
+        score: state.stats.score || 0,
         types: state.stats.types || {},
       },
       streak: state.streak,
@@ -2089,9 +2091,16 @@ ${JSON.stringify({
 // ═══════════════════════════════════════
 // 통계
 // ═══════════════════════════════════════
+const DIFFICULTY_SCORE = { easy: 1, medium: 2, hard: 3 };
+
 function updateStats(type, correct) {
   state.stats.total++;
   if (correct) state.stats.correct++;
+  // 난이도 가중치 점수
+  const diff = getDifficulty(type);
+  const pts = correct ? (DIFFICULTY_SCORE[diff] || 2) : 0;
+  if (!state.stats.score) state.stats.score = 0;
+  state.stats.score += pts;
   if (!state.stats.types[type]) state.stats.types[type] = { total: 0, correct: 0 };
   state.stats.types[type].total++;
   if (correct) state.stats.types[type].correct++;
@@ -2587,7 +2596,7 @@ function resetVocabToHome() {
 // 리더보드
 // ═══════════════════════════════════════
 let rankData = [];
-let currentRankTab = 'streak';
+let currentRankTab = 'score';
 
 async function loadLeaderboard() {
   if (!db) {
@@ -2616,6 +2625,7 @@ async function loadLeaderboard() {
         streak: d.streak || 0,
         total: d.stats?.total || 0,
         correct: d.stats?.correct || 0,
+        score: d.stats?.score || 0,
         accuracy: d.stats?.total > 0 ? Math.round(d.stats.correct / d.stats.total * 100) : 0,
         photoURL: d.photoURL || '',
       });
@@ -2637,7 +2647,10 @@ function renderLeaderboard() {
   let sorted = [...rankData];
   let valueKey, valueLabel, valueSuffix;
 
-  if (currentRankTab === 'streak') {
+  if (currentRankTab === 'score') {
+    sorted.sort((a,b) => b.score - a.score);
+    valueKey = 'score'; valueLabel = '점수'; valueSuffix = '점';
+  } else if (currentRankTab === 'streak') {
     sorted.sort((a,b) => b.streak - a.streak);
     valueKey = 'streak'; valueLabel = '연속'; valueSuffix = '일';
   } else if (currentRankTab === 'total') {
