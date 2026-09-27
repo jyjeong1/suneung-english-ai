@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Prof.AI — 문제 검수 도구</title>
+<script src="https://www.gstatic.com/firebasejs/10.12.0/firebase-app-compat.js"></script>
+<script src="https://www.gstatic.com/firebasejs/10.12.0/firebase-auth-compat.js"></script>
+<script src="https://www.gstatic.com/firebasejs/10.12.0/firebase-firestore-compat.js"></script>
+<script src="questions.js"></script>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700;900&display=swap');
+*{margin:0;padding:0;box-sizing:border-box;}
+body{font-family:'Noto Sans KR',-apple-system,sans-serif;background:#f0f2f5;color:#111;padding:20px;}
+.container{max-width:900px;margin:0 auto;}
+h1{font-size:22px;font-weight:900;color:#4a0033;margin-bottom:4px;}
+.sub{font-size:13px;color:#666;margin-bottom:20px;}
+.login-box{text-align:center;padding:60px 20px;}
+.login-box button{background:#4285f4;color:#fff;border:none;padding:12px 32px;border-radius:8px;font-size:15px;cursor:pointer;font-weight:600;}
+
+/* 통계 바 */
+.stats-bar{display:flex;gap:12px;margin-bottom:20px;flex-wrap:wrap;}
+.stat-box{flex:1;min-width:100px;background:#fff;border-radius:10px;padding:14px;text-align:center;box-shadow:0 1px 3px rgba(0,0,0,0.06);}
+.stat-box .num{font-size:24px;font-weight:900;}
+.stat-box .label{font-size:11px;color:#666;margin-top:2px;}
+.num-approve{color:#1a8f3c;}
+.num-fix{color:#e65100;}
+.num-reject{color:#d32f2f;}
+.num-pending{color:#0055d4;}
+
+/* 필터 */
+.filter-bar{display:flex;gap:10px;margin-bottom:16px;flex-wrap:wrap;align-items:center;}
+.filter-bar select,.filter-bar button{padding:8px 14px;border:1px solid #ddd;border-radius:8px;font-size:13px;cursor:pointer;}
+.filter-bar button{background:#4a0033;color:#fff;border:none;font-weight:700;}
+
+/* 문제 카드 */
+.q-card{background:#fff;border-radius:14px;padding:24px;box-shadow:0 2px 8px rgba(0,0,0,0.06);margin-bottom:20px;position:relative;}
+.q-header{display:flex;justify-content:space-between;align-items:center;margin-bottom:12px;}
+.q-num{font-size:14px;font-weight:800;color:#4a0033;}
+.q-type{background:#f0e8ff;color:#7b2d8e;padding:3px 10px;border-radius:6px;font-size:12px;font-weight:700;}
+.q-status{padding:3px 10px;border-radius:6px;font-size:11px;font-weight:700;}
+.st-pending{background:#e3f2fd;color:#1565c0;}
+.st-approved{background:#e8f5e9;color:#1a8f3c;}
+.st-fixed{background:#fff3e0;color:#e65100;}
+.st-rejected{background:#ffebee;color:#d32f2f;}
+
+.passage{background:#f8f9fa;border-radius:10px;padding:16px;font-size:13px;line-height:1.8;margin-bottom:14px;max-height:250px;overflow-y:auto;}
+.given-sent{background:#fff3e0;border-radius:8px;padding:10px;font-size:13px;margin-bottom:10px;font-weight:500;}
+.choices{margin-bottom:14px;}
+.choice{padding:6px 0;font-size:13px;border-bottom:1px solid #f0f0f0;}
+.choice.answer{color:#1a8f3c;font-weight:700;}
+.explanation{background:#f5f5f5;border-radius:8px;padding:12px;font-size:12px;line-height:1.7;margin-bottom:14px;color:#555;}
+
+/* 검수 패널 */
+.review-panel{border-top:2px solid #eee;padding-top:16px;}
+.review-panel h4{font-size:14px;font-weight:700;margin-bottom:10px;color:#4a0033;}
+.review-row{display:flex;gap:8px;margin-bottom:10px;flex-wrap:wrap;}
+.review-row label{font-size:12px;color:#666;min-width:80px;padding-top:6px;}
+.review-row select,.review-row input,.review-row textarea{flex:1;padding:8px;border:1px solid #ddd;border-radius:8px;font-size:13px;}
+.review-row textarea{min-height:60px;resize:vertical;}
+
+.btn-row{display:flex;gap:8px;margin-top:14px;}
+.btn{padding:10px 20px;border:none;border-radius:10px;font-size:14px;font-weight:700;cursor:pointer;}
+.btn-approve{background:#1a8f3c;color:#fff;}
+.btn-fix{background:#e65100;color:#fff;}
+.btn-reject{background:#d32f2f;color:#fff;}
+.btn-skip{background:#e0e0e0;color:#666;}
+.btn-nav{background:#4a0033;color:#ffd700;padding:10px 16px;}
+
+/* 네비게이션 */
+.nav-bar{display:flex;justify-content:space-between;align-items:center;margin-bottom:16px;}
+.progress-text{font-size:13px;color:#666;}
+</style>
+</head>
+<body>
+
+<div class="container">
+  <h1>Prof.AI 문제 검수 도구</h1>
+  <p class="sub">AI 생성 문제를 검수하여 품질을 보장합니다</p>
+
+  <div id="loginArea" class="login-box">
+    <p style="margin-bottom:16px;color:#666;">관리자 계정으로 로그인</p>
+    <button onclick="doLogin()">Google 로그인</button>
+  </div>
+
+  <div id="mainArea" style="display:none;">
+
+    <!-- 통계 -->
+    <div class="stats-bar">
+      <div class="stat-box"><div class="num num-pending" id="cntPending">0</div><div class="label">미검수</div></div>
+      <div class="stat-box"><div class="num num-approve" id="cntApproved">0</div><div class="label">승인</div></div>
+      <div class="stat-box"><div class="num num-fix" id="cntFixed">0</div><div class="label">수정승인</div></div>
+      <div class="stat-box"><div class="num num-reject" id="cntRejected">0</div><div class="label">삭제</div></div>
+      <div class="stat-box"><div class="num" id="cntTotal" style="color:#4a0033;">0</div><div class="label">전체</div></div>
+    </div>
+
+    <!-- 필터 -->
+    <div class="filter-bar">
+      <select id="filterType">
+        <option value="all">전체 유형</option>
+        <option value="blank">빈칸 추론</option>
+        <option value="insert">문장 삽입</option>
+        <option value="grammar">어법 판단</option>
+        <option value="vocab">어휘 적절성</option>
+        <option value="main_idea">요지/주제</option>
+        <option value="order">글의 순서</option>
+      </select>
+      <select id="filterStatus">
+        <option value="pending">미검수</option>
+        <option value="all">전체</option>
+        <option value="approved">승인</option>
+        <option value="fixed">수정승인</option>
+        <option value="rejected">삭제</option>
+      </select>
+      <button onclick="applyFilter()">필터 적용</button>
+      <button onclick="exportApproved()" style="background:#1a8f3c;">승인 문제 내보내기</button>
+    </div>
+
+    <!-- 네비게이션 -->
+    <div class="nav-bar">
+      <button class="btn btn-nav" onclick="goQ(-1)">◀ 이전</button>
+      <span class="progress-text" id="progressText">0 / 0</span>
+      <button class="btn btn-nav" onclick="goQ(1)">다음 ▶</button>
+    </div>
+
+    <!-- 문제 카드 -->
+    <div id="questionCard"></div>
+
+    <!-- 피드백 요약 -->
+    <div id="feedbackSummary" style="margin-top:24px;"></div>
+  </div>
+</div>
+
+<script>
+const firebaseConfig = {
+  apiKey: "AIzaSyDv_ArdZ39TyXFIsbV8CaEhYuF3w_zvbVU",
+  authDomain: "suneung-english-34283.firebaseapp.com",
+  projectId: "suneung-english-34283",
+  storageBucket: "suneung-english-34283.firebasestorage.app",
+  messagingSenderId: "436457100278",
+  appId: "1:436457100278:web:dac0755eb8fedbdd512dd7",
+};
+firebase.initializeApp(firebaseConfig);
+const auth = firebase.auth();
+const db = firebase.firestore();
+
+const TYPE_NAMES = {blank:'빈칸 추론',insert:'문장 삽입',grammar:'어법 판단',vocab:'어휘 적절성',main_idea:'요지/주제',order:'글의 순서'};
+
+// 검수 데이터 (localStorage + Firestore)
+let reviewData = JSON.parse(localStorage.getItem('reviewData') || '{}');
+let filtered = [];
+let curIdx = 0;
+
+auth.onAuthStateChanged(user => {
+  if (user) {
+    document.getElementById('loginArea').style.display = 'none';
+    document.getElementById('mainArea').style.display = 'block';
+    loadReviewData();
+  }
+});
+
+function doLogin() {
+  auth.signInWithPopup(new firebase.auth.GoogleAuthProvider());
+}
+
+async function loadReviewData() {
+  // Firestore에서 검수 데이터 로드
+  try {
+    const doc = await db.collection('admin').doc('reviews').get();
+    if (doc.exists) {
+      reviewData = doc.data().reviews || {};
+      localStorage.setItem('reviewData', JSON.stringify(reviewData));
+    }
+  } catch(e) {}
+  applyFilter();
+}
+
+async function saveReviewData() {
+  localStorage.setItem('reviewData', JSON.stringify(reviewData));
+  try {
+    await db.collection('admin').doc('reviews').set({ reviews: reviewData });
+  } catch(e) {}
+}
+
+function getStatus(idx) {
+  return reviewData[idx]?.status || 'pending';
+}
+
+function applyFilter() {
+  const typeF = document.getElementById('filterType').value;
+  const statusF = document.getElementById('filterStatus').value;
+
+  filtered = [];
+  QUESTION_BANK.forEach((q, i) => {
+    if (typeF !== 'all' && q._type !== typeF) return;
+    const st = getStatus(i);
+    if (statusF !== 'all' && st !== statusF) return;
+    filtered.push(i);
+  });
+
+  curIdx = 0;
+  updateStats();
+  renderQuestion();
+}
+
+function updateStats() {
+  let pending=0, approved=0, fixed=0, rejected=0;
+  QUESTION_BANK.forEach((q, i) => {
+    const st = getStatus(i);
+    if (st === 'pending') pending++;
+    else if (st === 'approved') approved++;
+    else if (st === 'fixed') fixed++;
+    else if (st === 'rejected') rejected++;
+  });
+  document.getElementById('cntPending').textContent = pending;
+  document.getElementById('cntApproved').textContent = approved;
+  document.getElementById('cntFixed').textContent = fixed;
+  document.getElementById('cntRejected').textContent = rejected;
+  document.getElementById('cntTotal').textContent = QUESTION_BANK.length;
+}
+
+function goQ(d) {
+  curIdx = Math.max(0, Math.min(filtered.length - 1, curIdx + d));
+  renderQuestion();
+}
+
+function renderQuestion() {
+  if (filtered.length === 0) {
+    document.getElementById('questionCard').innerHTML = '<div style="text-align:center;padding:40px;color:#999;">해당 조건의 문제가 없습니다</div>';
+    document.getElementById('progressText').textContent = '0 / 0';
+    return;
+  }
+
+  const realIdx = filtered[curIdx];
+  const q = QUESTION_BANK[realIdx];
+  const st = getStatus(realIdx);
+  const rd = reviewData[realIdx] || {};
+  const stClass = {pending:'st-pending',approved:'st-approved',fixed:'st-fixed',rejected:'st-rejected'}[st];
+  const stName = {pending:'미검수',approved:'승인',fixed:'수정승인',rejected:'삭제'}[st];
+
+  document.getElementById('progressText').textContent = `${curIdx+1} / ${filtered.length} (문제 #${realIdx+1})`;
+
+  let passageHtml = (q.passage || '').replace(/\n/g, '<br>');
+
+  let choicesHtml = q.choices.map((c, i) =>
+    `<div class="choice ${i === q.answer ? 'answer' : ''}">${c} ${i === q.answer ? '← AI 정답' : ''}</div>`
+  ).join('');
+
+  document.getElementById('questionCard').innerHTML = `
+    <div class="q-card">
+      <div class="q-header">
+        <div>
+          <span class="q-num">#${realIdx+1}</span>
+          <span class="q-type">${TYPE_NAMES[q._type] || q._type}</span>
+          <span class="q-status ${stClass}">${stName}</span>
+        </div>
+      </div>
+
+      ${q.given_sentence ? `<div class="given-sent">📌 삽입 문장: ${q.given_sentence}</div>` : ''}
+
+      <div class="passage">${passageHtml}</div>
+
+      <div class="choices">${choicesHtml}</div>
+
+      <div class="explanation"><strong>AI 해설:</strong> ${q.explanation || '없음'}</div>
+
+      <div class="review-panel">
+        <h4>검수 판정</h4>
+
+        <div class="review-row">
+          <label>정답 확인</label>
+          <select id="rv_answer">
+            <option value="correct" ${rd.answerCheck==='correct'?'selected':''}>정답 맞음</option>
+            <option value="wrong" ${rd.answerCheck==='wrong'?'selected':''}>정답 틀림</option>
+            <option value="ambiguous" ${rd.answerCheck==='ambiguous'?'selected':''}>애매함</option>
+          </select>
+        </div>
+
+        <div class="review-row">
+          <label>올바른 정답</label>
+          <select id="rv_correctAnswer">
+            <option value="-1">변경 없음</option>
+            ${q.choices.map((c,i) => `<option value="${i}" ${rd.correctAnswer==i?'selected':''}>${c}</option>`).join('')}
+          </select>
+        </div>
+
+        <div class="review-row">
+          <label>난이도 평가</label>
+          <select id="rv_difficulty">
+            <option value="" ${!rd.difficulty?'selected':''}>미평가</option>
+            <option value="easy" ${rd.difficulty==='easy'?'selected':''}>하 (쉬움)</option>
+            <option value="medium" ${rd.difficulty==='medium'?'selected':''}>중 (적당)</option>
+            <option value="hard" ${rd.difficulty==='hard'?'selected':''}>상 (어려움)</option>
+          </select>
+        </div>
+
+        <div class="review-row">
+          <label>지문 품질</label>
+          <select id="rv_passage">
+            <option value="" ${!rd.passageQuality?'selected':''}>미평가</option>
+            <option value="good" ${rd.passageQuality==='good'?'selected':''}>좋음 — 수능 수준</option>
+            <option value="ok" ${rd.passageQuality==='ok'?'selected':''}>보통 — 사용 가능</option>
+            <option value="poor" ${rd.passageQuality==='poor'?'selected':''}>부족 — 수능과 거리</option>
+            <option value="error" ${rd.passageQuality==='error'?'selected':''}>오류 있음</option>
+          </select>
+        </div>
+
+        <div class="review-row">
+          <label>선택지 품질</label>
+          <select id="rv_choices">
+            <option value="" ${!rd.choicesQuality?'selected':''}>미평가</option>
+            <option value="good" ${rd.choicesQuality==='good'?'selected':''}>좋음 — 매력적 오답</option>
+            <option value="ok" ${rd.choicesQuality==='ok'?'selected':''}>보통</option>
+            <option value="obvious" ${rd.choicesQuality==='obvious'?'selected':''}>정답 너무 뻔함</option>
+            <option value="poor" ${rd.choicesQuality==='poor'?'selected':''}>부적절</option>
+          </select>
+        </div>
+
+        <div class="review-row">
+          <label>오류 유형</label>
+          <select id="rv_errorType">
+            <option value="" ${!rd.errorType?'selected':''}>없음</option>
+            <option value="wrong_answer" ${rd.errorType==='wrong_answer'?'selected':''}>정답 오류</option>
+            <option value="grammar_error" ${rd.errorType==='grammar_error'?'selected':''}>지문 문법 오류</option>
+            <option value="too_short" ${rd.errorType==='too_short'?'selected':''}>지문 너무 짧음</option>
+            <option value="too_easy" ${rd.errorType==='too_easy'?'selected':''}>너무 쉬움</option>
+            <option value="too_hard" ${rd.errorType==='too_hard'?'selected':''}>너무 어려움</option>
+            <option value="duplicate_choices" ${rd.errorType==='duplicate_choices'?'selected':''}>선택지 중복</option>
+            <option value="unclear" ${rd.errorType==='unclear'?'selected':''}>문제 의도 불명확</option>
+            <option value="other" ${rd.errorType==='other'?'selected':''}>기타</option>
+          </select>
+        </div>
+
+        <div class="review-row">
+          <label>메모</label>
+          <textarea id="rv_memo" placeholder="프롬프트 개선 참고용 메모...">${rd.memo || ''}</textarea>
+        </div>
+
+        <div class="btn-row">
+          <button class="btn btn-approve" onclick="judge('approved')">✅ 승인</button>
+          <button class="btn btn-fix" onclick="judge('fixed')">⚠️ 수정 승인</button>
+          <button class="btn btn-reject" onclick="judge('rejected')">❌ 삭제</button>
+          <button class="btn btn-skip" onclick="goQ(1)">건너뛰기 →</button>
+        </div>
+      </div>
+    </div>
+  `;
+}
+
+function judge(status) {
+  const realIdx = filtered[curIdx];
+  reviewData[realIdx] = {
+    status,
+    answerCheck: document.getElementById('rv_answer').value,
+    correctAnswer: parseInt(document.getElementById('rv_correctAnswer').value),
+    difficulty: document.getElementById('rv_difficulty').value,
+    passageQuality: document.getElementById('rv_passage').value,
+    choicesQuality: document.getElementById('rv_choices').value,
+    errorType: document.getElementById('rv_errorType').value,
+    memo: document.getElementById('rv_memo').value,
+    reviewedAt: new Date().toISOString(),
+  };
+  saveReviewData();
+  updateStats();
+  // 다음 문제로
+  if (curIdx < filtered.length - 1) goQ(1);
+  else renderQuestion();
+}
+
+function exportApproved() {
+  const approved = [];
+  QUESTION_BANK.forEach((q, i) => {
+    const st = getStatus(i);
+    if (st === 'approved' || st === 'fixed') {
+      const rd = reviewData[i] || {};
+      const exported = {...q};
+      // 정답 수정 반영
+      if (rd.correctAnswer >= 0 && rd.correctAnswer !== q.answer) {
+        exported.answer = rd.correctAnswer;
+      }
+      // 검수 난이도 반영
+      if (rd.difficulty) exported._reviewedDifficulty = rd.difficulty;
+      approved.push(exported);
+    }
+  });
+
+  const js = `// Prof.AI 검수 완료 문제은행 — ${approved.length}문제\n// 검수일: ${new Date().toISOString().slice(0,10)}\nconst QUESTION_BANK = ${JSON.stringify(approved, null, 2)};\n`;
+
+  const blob = new Blob([js], {type:'text/javascript'});
+  const a = document.createElement('a');
+  a.href = URL.createObjectURL(blob);
+  a.download = 'questions_reviewed.js';
+  a.click();
+  alert(`승인 문제 ${approved.length}개를 questions_reviewed.js로 내보냈습니다.`);
+}
+
+// 피드백 요약 (프롬프트 개선용)
+function showFeedbackSummary() {
+  const errors = {};
+  const memos = [];
+  Object.values(reviewData).forEach(rd => {
+    if (rd.errorType) errors[rd.errorType] = (errors[rd.errorType]||0) + 1;
+    if (rd.memo) memos.push(rd.memo);
+  });
+
+  let html = '<div style="background:#fff;border-radius:12px;padding:20px;box-shadow:0 1px 4px rgba(0,0,0,0.06);">';
+  html += '<h3 style="font-size:16px;font-weight:700;color:#4a0033;margin-bottom:12px;">피드백 요약 (프롬프트 개선용)</h3>';
+
+  if (Object.keys(errors).length > 0) {
+    html += '<h4 style="font-size:13px;margin:10px 0 6px;">오류 유형 통계</h4>';
+    const errorNames = {wrong_answer:'정답 오류',grammar_error:'지문 문법',too_short:'지문 짧음',too_easy:'너무 쉬움',too_hard:'너무 어려움',duplicate_choices:'선택지 중복',unclear:'의도 불명확',other:'기타'};
+    Object.entries(errors).sort((a,b)=>b[1]-a[1]).forEach(([k,v]) => {
+      html += `<div style="font-size:12px;padding:3px 0;">${errorNames[k]||k}: <strong>${v}건</strong></div>`;
+    });
+  }
+
+  if (memos.length > 0) {
+    html += '<h4 style="font-size:13px;margin:14px 0 6px;">검수 메모</h4>';
+    memos.slice(0,20).forEach(m => {
+      html += `<div style="font-size:12px;padding:3px 0;color:#555;">• ${m}</div>`;
+    });
+  }
+
+  html += '</div>';
+  document.getElementById('feedbackSummary').innerHTML = html;
+}
+
+setInterval(showFeedbackSummary, 5000);
+</script>
+</body>
+</html>
