@@ -107,6 +107,15 @@ tr:hover td { background: #f9f9ff; }
     <input type="text" id="searchName" placeholder="이름 검색..." oninput="renderTable()">
   </div>
 
+  <!-- 검수 리포트 -->
+  <div style="background:#fff; border-radius:12px; padding:24px; box-shadow:0 1px 4px rgba(0,0,0,0.08); margin-bottom:24px;">
+    <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:16px;">
+      <h2 style="font-size:18px; margin:0;">📋 검수 리포트</h2>
+      <button class="refresh-btn" onclick="loadReviewReport()">🔄 리포트 갱신</button>
+    </div>
+    <div id="reviewReport" style="color:#999; text-align:center; padding:20px;">리포트 로딩 중...</div>
+  </div>
+
   <!-- 공지/갤러리 관리 -->
   <div style="background:#fff; border-radius:12px; padding:24px; box-shadow:0 1px 4px rgba(0,0,0,0.08); margin-bottom:24px;">
     <h2 style="font-size:18px; margin-bottom:16px;">📢 공지 & 사진 관리</h2>
@@ -360,8 +369,131 @@ auth && auth.onAuthStateChanged(user => {
     document.getElementById('dashboard').style.display = 'block';
     loadUsers();
     loadPosts();
+    loadReviewReport();
   }
 });
+
+// ═══ 검수 리포트 ═══
+async function loadReviewReport() {
+  const div = document.getElementById('reviewReport');
+  if (!db) { div.innerHTML = 'Firebase 연결 필요'; return; }
+
+  try {
+    const doc = await db.collection('admin').doc('reviews').get();
+    if (!doc.exists || !doc.data().reviews) {
+      div.innerHTML = '<p style="color:#999;">검수 데이터가 없습니다. <a href="/review.html" style="color:#4a0033;">검수 도구</a>에서 검수를 시작하세요.</p>';
+      return;
+    }
+
+    const reviews = doc.data().reviews;
+    const entries = Object.values(reviews);
+    if (entries.length === 0) {
+      div.innerHTML = '<p style="color:#999;">검수 데이터가 없습니다.</p>';
+      return;
+    }
+
+    // 통계
+    let approved=0, fixed=0, rejected=0, pending=0;
+    const errorCounts = {};
+    const typeCounts = {approved:{},fixed:{},rejected:{}};
+    const diffCounts = {easy:0, medium:0, hard:0};
+    const passageCounts = {good:0, ok:0, poor:0, error:0};
+    const choiceCounts = {good:0, ok:0, obvious:0, poor:0};
+    const memos = [];
+
+    const errorNames = {wrong_answer:'정답 오류',grammar_error:'지문 문법 오류',too_short:'지문 너무 짧음',too_easy:'너무 쉬움',too_hard:'너무 어려움',duplicate_choices:'선택지 중복',unclear:'의도 불명확',other:'기타'};
+
+    entries.forEach(r => {
+      if (r.status === 'approved') approved++;
+      else if (r.status === 'fixed') fixed++;
+      else if (r.status === 'rejected') rejected++;
+      else pending++;
+
+      if (r.errorType) errorCounts[r.errorType] = (errorCounts[r.errorType]||0) + 1;
+      if (r.difficulty) diffCounts[r.difficulty]++;
+      if (r.passageQuality) passageCounts[r.passageQuality]++;
+      if (r.choicesQuality) choiceCounts[r.choicesQuality]++;
+      if (r.memo && r.memo.trim()) memos.push(r.memo.trim());
+    });
+
+    const total = entries.length;
+    const approveRate = total > 0 ? Math.round((approved+fixed)/total*100) : 0;
+
+    let html = '';
+
+    // 요약 통계
+    html += '<div style="display:flex;gap:12px;margin-bottom:16px;flex-wrap:wrap;">';
+    html += '<div style="flex:1;min-width:80px;text-align:center;background:#e8f5e9;border-radius:8px;padding:10px;"><div style="font-size:22px;font-weight:900;color:#1a8f3c;">'+approved+'</div><div style="font-size:11px;color:#666;">승인</div></div>';
+    html += '<div style="flex:1;min-width:80px;text-align:center;background:#fff3e0;border-radius:8px;padding:10px;"><div style="font-size:22px;font-weight:900;color:#e65100;">'+fixed+'</div><div style="font-size:11px;color:#666;">수정승인</div></div>';
+    html += '<div style="flex:1;min-width:80px;text-align:center;background:#ffebee;border-radius:8px;padding:10px;"><div style="font-size:22px;font-weight:900;color:#d32f2f;">'+rejected+'</div><div style="font-size:11px;color:#666;">삭제</div></div>';
+    html += '<div style="flex:1;min-width:80px;text-align:center;background:#f5f5f5;border-radius:8px;padding:10px;"><div style="font-size:22px;font-weight:900;">'+total+'</div><div style="font-size:11px;color:#666;">검수완료</div></div>';
+    html += '<div style="flex:1;min-width:80px;text-align:center;background:#e3f2fd;border-radius:8px;padding:10px;"><div style="font-size:22px;font-weight:900;color:#1565c0;">'+approveRate+'%</div><div style="font-size:11px;color:#666;">합격률</div></div>';
+    html += '</div>';
+
+    // 오류 유형 (프롬프트 개선 핵심!)
+    if (Object.keys(errorCounts).length > 0) {
+      html += '<h3 style="font-size:14px;font-weight:700;color:#d32f2f;margin:16px 0 8px;">⚠️ 오류 유형 분석 — 프롬프트 개선 포인트</h3>';
+      html += '<table style="width:100%;font-size:12px;border-collapse:collapse;">';
+      html += '<tr><th style="background:#d32f2f;color:#fff;padding:6px 10px;">오류 유형</th><th style="background:#d32f2f;color:#fff;padding:6px 10px;">건수</th><th style="background:#d32f2f;color:#fff;padding:6px 10px;">개선 방향</th></tr>';
+      const suggestions = {
+        wrong_answer: '정답 판정 조건 강화, "정답이 명확하도록" 지시 추가',
+        grammar_error: '지문 문법 검증 지시 추가, "문법 오류 없는 자연스러운 영어" 강조',
+        too_short: '최소 단어 수 상향 (220→240), "반드시 N단어 이상" 재강조',
+        too_easy: '난이도 상향 지시, 추상적 소재/복잡한 논리 구조 요구',
+        too_hard: '난이도 하향 지시, 친숙한 소재/명확한 주제문 요구',
+        duplicate_choices: '"선택지 5개 모두 다른 표현" 명시',
+        unclear: '문제 의도 명확화 지시, "정답 근거가 지문에 명시적으로" 추가',
+        other: '메모 참조하여 개별 대응',
+      };
+      Object.entries(errorCounts).sort((a,b)=>b[1]-a[1]).forEach(([k,v]) => {
+        html += '<tr><td style="padding:6px 10px;border-bottom:1px solid #eee;">'+(errorNames[k]||k)+'</td>';
+        html += '<td style="padding:6px 10px;border-bottom:1px solid #eee;font-weight:700;color:#d32f2f;">'+v+'건</td>';
+        html += '<td style="padding:6px 10px;border-bottom:1px solid #eee;color:#555;">'+(suggestions[k]||'')+'</td></tr>';
+      });
+      html += '</table>';
+    }
+
+    // 난이도 분포
+    html += '<h3 style="font-size:14px;font-weight:700;margin:16px 0 8px;">난이도 분포</h3>';
+    html += '<div style="display:flex;gap:8px;">';
+    html += '<span style="background:#e8f5e9;padding:4px 12px;border-radius:6px;font-size:12px;">🟢 하: '+diffCounts.easy+'</span>';
+    html += '<span style="background:#fff3e0;padding:4px 12px;border-radius:6px;font-size:12px;">🟡 중: '+diffCounts.medium+'</span>';
+    html += '<span style="background:#ffebee;padding:4px 12px;border-radius:6px;font-size:12px;">🔴 상: '+diffCounts.hard+'</span>';
+    html += '</div>';
+
+    // 지문/선택지 품질
+    html += '<h3 style="font-size:14px;font-weight:700;margin:16px 0 8px;">품질 분포</h3>';
+    html += '<div style="font-size:12px;line-height:2;">';
+    html += '지문: 좋음 '+passageCounts.good+' / 보통 '+passageCounts.ok+' / 부족 '+passageCounts.poor+' / 오류 '+passageCounts.error+'<br>';
+    html += '선택지: 좋음 '+choiceCounts.good+' / 보통 '+choiceCounts.ok+' / 뻔함 '+choiceCounts.obvious+' / 부적절 '+choiceCounts.poor;
+    html += '</div>';
+
+    // 메모 (프롬프트 개선 참조)
+    if (memos.length > 0) {
+      html += '<h3 style="font-size:14px;font-weight:700;margin:16px 0 8px;">📝 검수 메모 ('+memos.length+'건)</h3>';
+      html += '<div style="background:#f8f5ff;border-radius:8px;padding:12px;font-size:12px;line-height:1.8;max-height:200px;overflow-y:auto;">';
+      memos.forEach(m => { html += '• ' + m + '<br>'; });
+      html += '</div>';
+    }
+
+    // 복사용 요약
+    html += '<h3 style="font-size:14px;font-weight:700;margin:16px 0 8px;">📋 프롬프트 개선 요청용 (복사)</h3>';
+    let summary = '검수 결과 요약:\\n';
+    summary += '검수 '+total+'문제: 승인 '+approved+', 수정 '+fixed+', 삭제 '+rejected+' (합격률 '+approveRate+'%)\\n';
+    if (Object.keys(errorCounts).length > 0) {
+      summary += '주요 오류: ' + Object.entries(errorCounts).sort((a,b)=>b[1]-a[1]).map(([k,v])=>(errorNames[k]||k)+' '+v+'건').join(', ') + '\\n';
+    }
+    if (memos.length > 0) {
+      summary += '메모: ' + memos.slice(0,5).join(' / ');
+    }
+    html += '<textarea style="width:100%;height:80px;padding:10px;border:1px solid #ddd;border-radius:8px;font-size:12px;" readonly onclick="this.select()">'+summary+'</textarea>';
+    html += '<p style="font-size:11px;color:#999;margin-top:4px;">↑ 클릭하여 선택 → 복사 → Claude에게 붙여넣기하면 프롬프트를 개선합니다</p>';
+
+    div.innerHTML = html;
+  } catch(e) {
+    div.innerHTML = '<p style="color:#d32f2f;">리포트 로드 실패: '+e.message+'</p>';
+  }
+}
 </script>
 </body>
 </html>
