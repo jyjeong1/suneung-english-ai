@@ -1594,10 +1594,7 @@ async function startDailyQuiz() {
   if (!checkFreeLimit()) return;
   quizQueue = ['blank', 'blank', 'insert', 'grammar', 'vocab'];
   state.currentQuestionIndex = 0;
-  nextQuestionCache = {};
   switchToQuizPage();
-  // 첫 문제 + 다음 문제 동시 요청
-  prefetchNextQuestion(quizQueue[1]);
   await loadQuestion(quizQueue[0]);
 }
 
@@ -1605,7 +1602,6 @@ async function startTypeTraining(type) {
   if (!checkFreeLimit()) return;
   quizQueue = [type];
   state.currentQuestionIndex = 0;
-  nextQuestionCache = {};
   switchToQuizPage();
   await loadQuestion(type);
 }
