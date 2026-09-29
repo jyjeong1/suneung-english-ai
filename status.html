@@ -51,11 +51,11 @@ tr:hover td { background:#f9f5ff; }
 
 <!-- 요약 숫자 -->
 <div class="stat-row">
-  <div class="stat-card"><div class="num">29</div><div class="label">완성 기능</div></div>
+  <div class="stat-card"><div class="num">31</div><div class="label">완성 기능</div></div>
   <div class="stat-card"><div class="num">200+</div><div class="label">문제은행 (매주 증가)</div></div>
   <div class="stat-card"><div class="num">1,764</div><div class="label">어휘 DB</div></div>
   <div class="stat-card"><div class="num">6</div><div class="label">출제 유형</div></div>
-  <div class="stat-card"><div class="num">~500KB</div><div class="label">앱 크기 (API)</div></div>
+  <div class="stat-card"><div class="num">0.02초</div><div class="label">문제 응답속도</div></div>
 </div>
 
 <!-- 배포 URL -->
@@ -74,7 +74,7 @@ tr:hover td { background:#f9f5ff; }
 <p style="font-size:13px;color:#666;">커스텀 도메인: <strong>profai.kr</strong> | 인스타그램: <strong>@prof.ai.app</strong></p>
 
 <!-- 완성 기능 -->
-<h2>완성된 기능 (29개)</h2>
+<h2>완성된 기능 (31개)</h2>
 
 <h3>문제 풀기 (7개)</h3>
 <table>
@@ -82,7 +82,9 @@ tr:hover td { background:#f9f5ff; }
   <tr><td>6유형 문제 생성</td><td>빈칸추론, 문장삽입, 어법판단, 어휘적절성, 요지/주제, 글의순서</td></tr>
   <tr><td>문제은행 200문제</td><td>내장 즉시 출제. 시작 시 4문제 제공 후 AI 전환</td></tr>
   <tr><td>문제은행 자동 추가</td><td>매주 50문제 신규 생성 및 누적 추가 (서버 자동, 대체 아님)</td></tr>
-  <tr><td>서버 API 출제</td><td>/api/questions — 사용자별 중복 방지, 앱 크기 불변</td></tr>
+  <tr><td>서버 API 출제</td><td>/api/questions POST — 0.02초 응답, 유형별 인덱스 최적화</td></tr>
+  <tr><td>중복 방지 (Firestore)</td><td>푼 문제 이력 Firestore 영구 저장, 서버 재시작/기기 변경에도 유지</td></tr>
+  <tr><td>문제 미리 가져오기</td><td>앱 시작/로그인 시 6유형 문제 백그라운드 프리패치, 즉시 출제</td></tr>
   <tr><td>AI 실시간 생성</td><td>Claude Haiku API. 수능 기출 분석 기반 프롬프트 (220~260단어, 학술어휘 4~8개)</td></tr>
   <tr><td>캐시 시스템</td><td>문제은행 4문제 즉시 + AI 백그라운드 미리 생성</td></tr>
   <tr><td>난이도 자동조절</td><td>유형별 정답률 기반 상(80%+)/중/하(50%-). 유형별 독립 적용</td></tr>
@@ -104,7 +106,7 @@ tr:hover td { background:#f9f5ff; }
 <table>
   <tr><th style="width:220px;">기능</th><th>상세</th></tr>
   <tr><td>리더보드 4종</td><td>★가중치점수(기본) / 🔥연속학습 / 📝총문제수 / 🎯정답률</td></tr>
-  <tr><td>난이도 가중치 점수</td><td>하 1점 / 중 2점 / 상 3점. 어려운 문제 맞추면 높은 점수</td></tr>
+  <tr><td>난이도 가중치 점수</td><td>🥉3등급 1점 / 🥈2등급 2점 / 🥇1등급 3점. 문제 화면에 등급 표시</td></tr>
   <tr><td>성취 배지 20개</td><td>연속일수, 문제수, 정답률, 특별 배지 + 골드 토스트 알림</td></tr>
   <tr><td>수능 D-day</td><td>홈에 남은 일수 표시. 매년 자동 계산</td></tr>
 </table>
@@ -113,7 +115,7 @@ tr:hover td { background:#f9f5ff; }
 <table>
   <tr><th style="width:220px;">기능</th><th>상세</th></tr>
   <tr><td>학습 리포트</td><td>7일 학습량 바차트, 7일 정답률 추이, 유형별 프로그레스 바</td></tr>
-  <tr><td>나의 난이도 수준</td><td>6유형 각각 현재 난이도(상/중/하) + 정답률 표시</td></tr>
+  <tr><td>나의 난이도 수준</td><td>6유형 각각 현재 등급(🥇1등급/🥈2등급/🥉3등급 도전) + 정답률 표시</td></tr>
   <tr><td>가중치 점수 + 오늘 상세</td><td>총 가중치 점수, 오늘 문제수/정답률/유형별 내역</td></tr>
 </table>
 
@@ -143,7 +145,9 @@ tr:hover td { background:#f9f5ff; }
   <tr><td>문제 출제 방식</td><td>서버 API (/api/questions)</td><td>server.py + index.html</td></tr>
   <tr><td>중복 방지</td><td>서버에서 사용자별 관리</td><td>server.py (user_question_history)</td></tr>
   <tr><td>커스텀 도메인</td><td>profai.kr</td><td>가비아 DNS + Render</td></tr>
-  <tr><td>가중치 점수</td><td>하 1점 / 중 2점 / 상 3점</td><td>index.html (DIFFICULTY_SCORE)</td></tr>
+  <tr><td>가중치 점수</td><td>🥉3등급 1점 / 🥈2등급 2점 / 🥇1등급 3점</td><td>index.html (DIFFICULTY_SCORE)</td></tr>
+  <tr><td>API 응답 속도</td><td>0.02초 (최적화 후)</td><td>server.py (유형별 인덱스)</td></tr>
+  <tr><td>푼 문제 이력</td><td>Firestore 영구 저장</td><td>index.html (solvedQuestions)</td></tr>
   <tr><td>타이머 - 요지/주제</td><td>70초</td><td>index.html (TYPE_TIMER)</td></tr>
   <tr><td>타이머 - 어법/어휘</td><td>90초</td><td>index.html (TYPE_TIMER)</td></tr>
   <tr><td>타이머 - 삽입/순서</td><td>100초</td><td>index.html (TYPE_TIMER)</td></tr>
