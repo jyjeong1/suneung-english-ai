@@ -908,7 +908,7 @@ const BADGES = [
   {id:'acc_90',     icon:'💎', name:'정답률 90%',  desc:'전체 정답률 90% 이상', check: s => s.stats.total >= 30 && (s.stats.correct/s.stats.total*100) >= 90},
   // 유형 마스터
   {id:'type_all',   icon:'🌟', name:'전 유형 도전', desc:'6유형 모두 풀기', check: s => Object.keys(s.stats.types||{}).length >= 6},
-  {id:'type_hard',  icon:'🔴', name:'난이도 상',   desc:'자동 난이도가 "상"으로 올라감', check: s => Object.values(s.stats.types||{}).some(t => t.total >= 3 && (t.correct/t.total*100) >= 80)},
+  {id:'type_hard',  icon:'🥇', name:'1등급 도전',   desc:'자동 난이도가 1등급으로 올라감', check: s => Object.values(s.stats.types||{}).some(t => t.total >= 3 && (t.correct/t.total*100) >= 80)},
   // 특별
   {id:'first',      icon:'🌱', name:'첫 걸음',     desc:'첫 문제 풀기', check: s => s.stats.total >= 1},
   {id:'perfect_5',  icon:'✨', name:'5연속 정답',  desc:'연속 5문제 정답', check: s => s._consecutiveCorrect >= 5},
@@ -2142,8 +2142,8 @@ function updateStatsDisplay() {
   const diffDiv = document.getElementById('myDifficultyLevel');
   const allTypes = ['blank','insert','grammar','vocab','main_idea','order'];
   const diffColors = {hard:'var(--wrong)', medium:'var(--accent)', easy:'var(--correct)'};
-  const diffNames = {hard:'상 (킬러)', medium:'중 (표준)', easy:'하 (기초)'};
-  const diffIcons = {hard:'🔴', medium:'🟡', easy:'🟢'};
+  const diffNames = {hard:'1등급 도전', medium:'2등급 도전', easy:'3등급 도전'};
+  const diffIcons = {hard:'🥇', medium:'🥈', easy:'🥉'};
   let diffHtml = '';
   allTypes.forEach(type => {
     const ts = state.stats.types[type];
@@ -2210,7 +2210,7 @@ function updateStatsDisplay() {
     const name = TYPE_NAMES[type] || type;
     const color = pct >= 70 ? 'var(--correct)' : pct >= 50 ? 'var(--accent)' : 'var(--wrong)';
     const diff = getDifficulty(type);
-    const diffLabel = diff === 'hard' ? '🔴 상' : diff === 'easy' ? '🟢 하' : '🟡 중';
+    const diffLabel = diff === 'hard' ? '🥇 1등급' : diff === 'easy' ? '🥉 3등급' : '🥈 2등급';
     typeStatsDiv.innerHTML += `
       <div style="margin-bottom:10px;">
         <div style="display:flex; justify-content:space-between; margin-bottom:4px;">
