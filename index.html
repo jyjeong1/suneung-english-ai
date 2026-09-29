@@ -984,6 +984,10 @@ function initFirebase() {
       loadFromFirestore();
       loadSolvedFromFirestore();
       checkPremiumStatus();
+      // 로그인 즉시 문제 미리 가져오기
+      setTimeout(() => {
+        ['blank','insert','grammar','vocab','main_idea','order'].forEach(t => prefetchNextQuestion(t));
+      }, 1000);
     } else {
       document.getElementById('loginBtn').style.display = 'block';
       document.getElementById('userBadge').style.display = 'none';
@@ -1104,6 +1108,9 @@ async function init() {
   updateMembershipUI();
   updateFreeLimitStatus();
   updateDDay();
+
+  // 문제은행에서 6유형 미리 가져오기
+  ['blank','insert','grammar','vocab','main_idea','order'].forEach(t => prefetchNextQuestion(t));
 
   // 서버 키 또는 로컬 키가 있으면 문제 미리 생성
   if (state.hasServerKey || state.apiKey) {
