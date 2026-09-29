@@ -20,8 +20,14 @@ usage_tracker = {}
 
 # 문제은행 서버 메모리 로드
 question_bank = []
+question_ids = {}  # {qid: index} 미리 계산
+question_by_type = {}  # {type: [questions]} 미리 분류
+
+def get_qid(q):
+    return (q.get('passage', '') or '')[:80].strip()
+
 def load_question_bank():
-    global question_bank
+    global question_bank, question_ids, question_by_type
     try:
         with open(os.path.join(os.path.dirname(__file__), 'questions.js'), 'r', encoding='utf-8') as f:
             content = f.read()
@@ -29,7 +35,16 @@ def load_question_bank():
         end = content.rfind(']') + 1
         if start >= 0 and end > 0:
             question_bank = json.loads(content[start:end])
-            print(f"📦 문제은행 로드: {len(question_bank)}문제")
+            # 인덱스 미리 계산
+            question_ids = {}
+            question_by_type = {}
+            for i, q in enumerate(question_bank):
+                question_ids[get_qid(q)] = i
+                t = q.get('_type', '')
+                if t not in question_by_type:
+                    question_by_type[t] = []
+                question_by_type[t].append(q)
+            print(f"📦 문제은행 로드: {len(question_bank)}문제, {len(question_by_type)}유형")
     except Exception as e:
         print(f"⚠️ 문제은행 로드 실패: {e}")
 
@@ -111,6 +126,34 @@ class AppHandler(http.server.SimpleHTTPRequestHandler):
         super().do_GET()
 
     def do_POST(self):
+        if self.path == '/api/questions':
+            content_length = int(self.headers.get('Content-Length', 0))
+            body = self.rfile.read(content_length)
+            data = json.loads(body) if body else {}
+
+            q_type = data.get('type', '')
+            count = int(data.get('count', 1))
+            exclude_set = set(data.get('exclude', []))
+
+            # 미리 분류된 유형별 목록 사용 (빠름)
+            pool = question_by_type.get(q_type, question_bank) if q_type else question_bank
+            if exclude_set:
+                available = [q for q in pool if get_qid(q) not in exclude_set]
+            else:
+                available = pool
+
+            if len(available) < count:
+                available = pool
+
+            selected = random.sample(available, min(count, len(available)))
+
+            self.send_response(200)
+            self.send_header('Content-Type', 'application/json')
+            self.send_header('Access-Control-Allow-Origin', '*')
+            self.end_headers()
+            self.wfile.write(json.dumps(selected, ensure_ascii=False).encode())
+            return
+
         if self.path == '/api/claude':
             content_length = int(self.headers['Content-Length'])
             body = self.rfile.read(content_length)

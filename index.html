@@ -1451,8 +1451,17 @@ function saveSolvedQuestion(q) {
 async function getFromBank(type) {
   try {
     const uid = fbUser ? fbUser.uid : '';
-    const exclude = encodeURIComponent(JSON.stringify(solvedQuestions.slice(-500)));
-    const res = await fetch(`/api/questions?type=${type}&count=1&uid=${uid}&exclude=${exclude}`);
+    // POST로 exclude 목록 전송 (URL 길이 제한 회피)
+    const res = await fetch('/api/questions', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({
+        type: type,
+        count: 1,
+        uid: uid,
+        exclude: solvedQuestions.slice(-500),
+      }),
+    });
     if (!res.ok) return null;
     const questions = await res.json();
     if (questions.length === 0) return null;
