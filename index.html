@@ -1658,7 +1658,10 @@ function renderQuestion() {
   const q = state.currentQuiz;
   document.getElementById('quizLoading').style.display = 'none';
   document.getElementById('quizContent').style.display = 'block';
-  document.getElementById('quizTypeBadge').textContent = q.type || TYPE_NAMES[q._type];
+  const diff = getDifficulty(q._type);
+  const diffLabel = {hard:'🥇 1등급', medium:'🥈 2등급', easy:'🥉 3등급'}[diff] || '🥈 2등급';
+  const diffColor = {hard:'var(--wrong)', medium:'var(--accent)', easy:'var(--correct)'}[diff] || 'var(--accent)';
+  document.getElementById('quizTypeBadge').innerHTML = (q.type || TYPE_NAMES[q._type]) + ' <span style="margin-left:8px;font-size:12px;color:' + diffColor + ';">' + diffLabel + '</span>';
   document.getElementById('quizInstruction').textContent = TYPE_INSTRUCTIONS[q._type];
 
   // 지문
