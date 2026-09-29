@@ -13,7 +13,10 @@
 <meta name="apple-mobile-web-app-title" content="Prof.AI 수능영어">
 <link rel="apple-touch-icon" href="icon-192.png">
 <script src="vocab.js"></script>
-<script src="questions.js"></script>
+<script>
+// 문제은행은 서버 API에서 로드 (questions.js 파일 불필요)
+const QUESTION_BANK = [];
+</script>
 <!-- Firebase SDK -->
 <script src="https://www.gstatic.com/firebasejs/10.12.0/firebase-app-compat.js"></script>
 <script src="https://www.gstatic.com/firebasejs/10.12.0/firebase-auth-compat.js"></script>
@@ -1029,7 +1032,7 @@ async function syncToFirestore() {
       lastDate: state.lastDate,
       todayTotal: todayData.total,
       todayCorrect: todayData.correct,
-      usedBankQ: usedBankQuestions,
+      // usedBankQ는 서버에서 관리
       updatedAt: firebase.firestore.FieldValue.serverTimestamp(),
     }, { merge: true });
 
@@ -1069,10 +1072,7 @@ async function loadFromFirestore() {
         updateStreak();
       }
       // 문제은행 사용 기록 복원
-      if (d.usedBankQ) {
-        Object.assign(usedBankQuestions, d.usedBankQ);
-        localStorage.setItem('usedBankQ', JSON.stringify(usedBankQuestions));
-      }
+      // usedBankQ는 서버에서 관리
     }
   } catch(e) {
     console.warn('Firestore 데이터 로드 실패:', e);
@@ -1093,6 +1093,7 @@ async function init() {
     const res = await fetch('/api/status');
     const status = await res.json();
     state.hasServerKey = status.hasServerKey || false;
+    state.questionCount = status.questionCount || 0;
   } catch(e) {
     state.hasServerKey = false;
   }
@@ -1403,20 +1404,21 @@ function getDifficultyPrompt(type) {
 - 수능 32번 수준 (2~3점)`;
 }
 
-// 문제은행에서 사용한 문제 인덱스 추적
-const usedBankQuestions = JSON.parse(localStorage.getItem('usedBankQ') || '{}');
-
-function getFromBank(type) {
-  if (typeof QUESTION_BANK === 'undefined') return null;
-  const available = QUESTION_BANK.filter((q, i) =>
-    q._type === type && !usedBankQuestions[i]
-  );
-  if (available.length === 0) return null;
-  const pick = available[Math.floor(Math.random() * available.length)];
-  const idx = QUESTION_BANK.indexOf(pick);
-  usedBankQuestions[idx] = true;
-  localStorage.setItem('usedBankQ', JSON.stringify(usedBankQuestions));
-  return { ...pick };
+// 문제은행 서버 API에서 가져오기 (중복 방지 서버 관리)
+async function getFromBank(type) {
+  try {
+    const uid = fbUser ? fbUser.uid : '';
+    const res = await fetch(`/api/questions?type=${type}&count=1&uid=${uid}`);
+    if (!res.ok) return null;
+    const questions = await res.json();
+    if (questions.length === 0) return null;
+    const q = questions[0];
+    q._source = 'bank';
+    return q;
+  } catch(e) {
+    console.warn('문제은행 API 실패:', e);
+    return null;
+  }
 }
 
 // API로 문제 1개 생성 (캐시 보충용 — 문제은행 사용 안 함)
@@ -1484,11 +1486,8 @@ function updateCacheStatus() {
   const types = ['blank', 'insert', 'grammar', 'vocab', 'main_idea', 'order'];
   let cacheTotal = 0;
   types.forEach(t => { cacheTotal += (prefetchCache[t] || []).length; });
-  // 문제은행 잔여
-  let bankRemain = 0;
-  if (typeof QUESTION_BANK !== 'undefined') {
-    bankRemain = QUESTION_BANK.filter((q, i) => !usedBankQuestions[i]).length;
-  }
+  // 문제은행 (서버 API)
+  let bankRemain = state.questionCount || 0;
   if (bankRemain > 0 || cacheTotal > 0) {
     const parts = [];
     if (bankRemain > 0) parts.push(`📦 문제은행 ${bankRemain}문제`);
@@ -1569,9 +1568,9 @@ function switchToQuizPage() {
 let bankServedCount = 0; // 이번 세션에서 문제은행에서 준 문제 수
 
 async function loadQuestion(type) {
-  // 1. 처음 3문제는 문제은행에서 즉시 제공
+  // 1. 처음 4문제는 문제은행 API에서 제공
   if (bankServedCount < 4) {
-    const bankQ = getFromBank(type);
+    const bankQ = await getFromBank(type);
     if (bankQ) {
       bankServedCount++;
       console.log(`📦 문제은행에서 즉시 로드 (${bankServedCount}/3): ${TYPE_NAMES[type]}`);
@@ -1601,8 +1600,8 @@ async function loadQuestion(type) {
   await generateQuestion(type);
 }
 
-function loadBankQuestion(type) {
-  const bankQ = getFromBank(type);
+async function loadBankQuestion(type) {
+  const bankQ = await getFromBank(type);
   if (bankQ) {
     state.currentQuiz = bankQ;
     state.selectedChoice = -1;

@@ -18,6 +18,26 @@ DAILY_LIMIT = int(os.environ.get('DAILY_LIMIT', 10))  # 인당 하루 API 호출
 # 인당 일일 사용량 추적 {날짜: {uid: 횟수}}
 usage_tracker = {}
 
+# 문제은행 서버 메모리 로드
+question_bank = []
+def load_question_bank():
+    global question_bank
+    try:
+        with open(os.path.join(os.path.dirname(__file__), 'questions.js'), 'r', encoding='utf-8') as f:
+            content = f.read()
+        start = content.find('[')
+        end = content.rfind(']') + 1
+        if start >= 0 and end > 0:
+            question_bank = json.loads(content[start:end])
+            print(f"📦 문제은행 로드: {len(question_bank)}문제")
+    except Exception as e:
+        print(f"⚠️ 문제은행 로드 실패: {e}")
+
+load_question_bank()
+
+# 사용자별 푼 문제 이력 {uid: set(인덱스)}
+user_question_history = {}
+
 def check_rate_limit(uid):
     """일일 사용량 체크. True면 허용, False면 초과"""
     if not uid or not SERVER_API_KEY:
@@ -49,7 +69,43 @@ class AppHandler(http.server.SimpleHTTPRequestHandler):
             self.wfile.write(json.dumps({
                 'hasServerKey': bool(SERVER_API_KEY),
                 'dailyLimit': DAILY_LIMIT,
+                'questionCount': len(question_bank),
             }).encode())
+            return
+        if self.path.startswith('/api/questions'):
+            from urllib.parse import urlparse, parse_qs
+            params = parse_qs(urlparse(self.path).query)
+            q_type = params.get('type', [''])[0]
+            count = int(params.get('count', ['1'])[0])
+            uid = params.get('uid', [''])[0]
+
+            # 사용자가 푼 문제 제외
+            used = user_question_history.get(uid, set()) if uid else set()
+            available = [q for i, q in enumerate(question_bank)
+                        if (not q_type or q.get('_type') == q_type) and i not in used]
+
+            # 부족하면 이력 초기화 후 전체에서
+            if len(available) < count:
+                if uid:
+                    user_question_history[uid] = set()
+                available = [q for q in question_bank
+                            if not q_type or q.get('_type') == q_type]
+
+            selected = random.sample(available, min(count, len(available)))
+
+            # 사용자 이력 기록
+            if uid:
+                if uid not in user_question_history:
+                    user_question_history[uid] = set()
+                for sq in selected:
+                    idx = question_bank.index(sq)
+                    user_question_history[uid].add(idx)
+
+            self.send_response(200)
+            self.send_header('Content-Type', 'application/json')
+            self.send_header('Access-Control-Allow-Origin', '*')
+            self.end_headers()
+            self.wfile.write(json.dumps(selected, ensure_ascii=False).encode())
             return
         super().do_GET()
 
@@ -194,8 +250,8 @@ class AppHandler(http.server.SimpleHTTPRequestHandler):
 # ═══════════════════════════════════════
 # 문제은행 자동 교체 (2일마다 100문제)
 # ═══════════════════════════════════════
-REFRESH_INTERVAL = 2 * 24 * 3600  # 2일 (초)
-REFRESH_COUNT = 100  # 교체할 문제 수
+REFRESH_INTERVAL = 7 * 24 * 3600  # 1주일 (초)
+REFRESH_COUNT = 50  # 추가할 문제 수
 QUESTIONS_PATH = os.path.join(os.path.dirname(__file__), 'questions.js')
 
 TYPES_FOR_REFRESH = {
@@ -304,19 +360,19 @@ def refresh_questions():
                 print(f"  ❌ 생성 부족 ({len(new_questions)}문제) — 교체 취소")
                 continue
 
-            # 기존 200문제 중 뒤쪽 100문제를 새 문제로 교체
-            keep = existing[:REFRESH_COUNT]  # 앞 100문제 유지
-            updated = keep + new_questions[:REFRESH_COUNT]  # 뒤 100문제 교체
+            # 기존 문제에 새 문제 추가 (대체 아님)
+            updated = existing + new_questions[:REFRESH_COUNT]
 
             # questions.js 덮어쓰기
             js_content = f"// Prof.AI 수능영어 문제은행 — {len(updated)}문제\n"
-            js_content += f"// 마지막 교체: {datetime.now().strftime('%Y-%m-%d %H:%M')}\n"
+            js_content += f"// 마지막 추가: {datetime.now().strftime('%Y-%m-%d %H:%M')}\n"
             js_content += f"const QUESTION_BANK = {json.dumps(updated, ensure_ascii=False, indent=2)};\n"
 
             with open(QUESTIONS_PATH, 'w', encoding='utf-8') as f:
                 f.write(js_content)
 
-            print(f"  🎉 교체 완료! {len(keep)}(유지) + {len(new_questions[:REFRESH_COUNT])}(신규) = {len(updated)}문제")
+            print(f"  🎉 추가 완료! 기존 {len(existing)} + 신규 {len(new_questions[:REFRESH_COUNT])} = {len(updated)}문제")
+            load_question_bank()  # 서버 메모리도 갱신
 
         except Exception as e:
             print(f"  ❌ 문제은행 교체 오류: {e}")
@@ -329,7 +385,7 @@ if __name__ == '__main__':
         # 문제은행 자동 교체 스레드 시작
         refresh_thread = threading.Thread(target=refresh_questions, daemon=True)
         refresh_thread.start()
-        print(f"🔄 문제은행 자동 교체: {REFRESH_INTERVAL//3600}시간마다 {REFRESH_COUNT}문제")
+        print(f"🔄 문제은행 자동 추가: {REFRESH_INTERVAL//3600//24}일마다 {REFRESH_COUNT}문제 누적")
     else:
         print(f"⚠️  서버 API 키 없음 (학생이 직접 키 입력 필요)")
     print(f"🚀 Prof.AI 수능영어 서버 시작: http://localhost:{PORT}")
