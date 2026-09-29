@@ -79,27 +79,28 @@ class AppHandler(http.server.SimpleHTTPRequestHandler):
             count = int(params.get('count', ['1'])[0])
             uid = params.get('uid', [''])[0]
 
-            # 사용자가 푼 문제 제외
-            used = user_question_history.get(uid, set()) if uid else set()
-            available = [q for i, q in enumerate(question_bank)
-                        if (not q_type or q.get('_type') == q_type) and i not in used]
+            # 사용자가 푼 문제 제외 (클라이언트에서 전달한 exclude 목록)
+            exclude_raw = params.get('exclude', ['[]'])[0]
+            try:
+                from urllib.parse import unquote
+                exclude_list = json.loads(unquote(exclude_raw))
+            except:
+                exclude_list = []
+            exclude_set = set(exclude_list)
 
-            # 부족하면 이력 초기화 후 전체에서
+            def get_qid(q):
+                return (q.get('passage', '') or '')[:80].replace('  ', ' ').strip()
+
+            available = [q for q in question_bank
+                        if (not q_type or q.get('_type') == q_type)
+                        and get_qid(q) not in exclude_set]
+
+            # 부족하면 전체에서 (이력 무시)
             if len(available) < count:
-                if uid:
-                    user_question_history[uid] = set()
                 available = [q for q in question_bank
                             if not q_type or q.get('_type') == q_type]
 
             selected = random.sample(available, min(count, len(available)))
-
-            # 사용자 이력 기록
-            if uid:
-                if uid not in user_question_history:
-                    user_question_history[uid] = set()
-                for sq in selected:
-                    idx = question_bank.index(sq)
-                    user_question_history[uid].add(idx)
 
             self.send_response(200)
             self.send_header('Content-Type', 'application/json')

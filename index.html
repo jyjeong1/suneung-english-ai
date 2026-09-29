@@ -982,6 +982,7 @@ function initFirebase() {
       document.getElementById('userBadge').textContent = '👤 ' + (name.length > 6 ? name.slice(0,6) + '..' : name);
       // 로그인 시 서버에서 데이터 불러오기
       loadFromFirestore();
+      loadSolvedFromFirestore();
       checkPremiumStatus();
     } else {
       document.getElementById('loginBtn').style.display = 'block';
@@ -1405,10 +1406,46 @@ function getDifficultyPrompt(type) {
 }
 
 // 문제은행 서버 API에서 가져오기 (중복 방지 서버 관리)
+// 푼 문제 이력 관리 (Firestore + localStorage)
+let solvedQuestions = JSON.parse(localStorage.getItem('solvedQ') || '[]');
+
+function getQuestionId(q) {
+  // passage 앞 80자로 고유 ID 생성
+  return (q.passage || '').substring(0, 80).replace(/\s+/g, ' ').trim();
+}
+
+async function loadSolvedFromFirestore() {
+  if (!db || !fbUser) return;
+  try {
+    const doc = await db.collection('users').doc(fbUser.uid).get();
+    if (doc.exists && doc.data().solvedQ) {
+      const remote = doc.data().solvedQ;
+      // 로컬과 합치기 (중복 제거)
+      const merged = [...new Set([...solvedQuestions, ...remote])];
+      solvedQuestions = merged;
+      localStorage.setItem('solvedQ', JSON.stringify(solvedQuestions));
+    }
+  } catch(e) {}
+}
+
+function saveSolvedQuestion(q) {
+  const qid = getQuestionId(q);
+  if (!qid || solvedQuestions.includes(qid)) return;
+  solvedQuestions.push(qid);
+  // 최대 2000개 유지
+  if (solvedQuestions.length > 2000) solvedQuestions = solvedQuestions.slice(-2000);
+  localStorage.setItem('solvedQ', JSON.stringify(solvedQuestions));
+  // Firestore에도 저장
+  if (db && fbUser) {
+    db.collection('users').doc(fbUser.uid).set({ solvedQ: solvedQuestions }, { merge: true }).catch(() => {});
+  }
+}
+
 async function getFromBank(type) {
   try {
     const uid = fbUser ? fbUser.uid : '';
-    const res = await fetch(`/api/questions?type=${type}&count=1&uid=${uid}`);
+    const exclude = encodeURIComponent(JSON.stringify(solvedQuestions.slice(-500)));
+    const res = await fetch(`/api/questions?type=${type}&count=1&uid=${uid}&exclude=${exclude}`);
     if (!res.ok) return null;
     const questions = await res.json();
     if (questions.length === 0) return null;
@@ -1541,9 +1578,10 @@ async function startDailyQuiz() {
   if (!checkFreeLimit()) return;
   quizQueue = ['blank', 'blank', 'insert', 'grammar', 'vocab'];
   state.currentQuestionIndex = 0;
-  bankServedCount = 0;
+  nextQuestionCache = {};
   switchToQuizPage();
-  prefetchAll();
+  // 첫 문제 + 다음 문제 동시 요청
+  prefetchNextQuestion(quizQueue[1]);
   await loadQuestion(quizQueue[0]);
 }
 
@@ -1551,9 +1589,8 @@ async function startTypeTraining(type) {
   if (!checkFreeLimit()) return;
   quizQueue = [type];
   state.currentQuestionIndex = 0;
-  bankServedCount = 0;
+  nextQuestionCache = {};
   switchToQuizPage();
-  prefetchForType(type);
   await loadQuestion(type);
 }
 
@@ -1564,39 +1601,51 @@ function switchToQuizPage() {
   document.querySelectorAll('.tab-bar button')[1].classList.add('active');
 }
 
-// 문제 로드: 처음 3문제는 문제은행 → 이후 AI캐시/실시간 생성
-let bankServedCount = 0; // 이번 세션에서 문제은행에서 준 문제 수
+// 다음 문제 미리 가져오기 캐시
+let nextQuestionCache = {};
 
+async function prefetchNextQuestion(type) {
+  if (nextQuestionCache[type]) return; // 이미 있음
+  const q = await getFromBank(type);
+  if (q) nextQuestionCache[type] = q;
+}
+
+// 문제 로드: 캐시 → 문제은행 API → AI 폴백
 async function loadQuestion(type) {
-  // 1. 처음 4문제는 문제은행 API에서 제공
-  if (bankServedCount < 4) {
-    const bankQ = await getFromBank(type);
-    if (bankQ) {
-      bankServedCount++;
-      console.log(`📦 문제은행에서 즉시 로드 (${bankServedCount}/3): ${TYPE_NAMES[type]}`);
-      state.currentQuiz = bankQ;
-      state.selectedChoice = -1;
-      state.answered = false;
-      renderQuestion();
-      updateCacheStatus();
-      return;
-    }
-  }
-
-  // 2. AI 캐시에서 꺼내기
-  const cached = getFromCache(type);
-  if (cached) {
-    console.log(`⚡ AI캐시에서 로드: ${TYPE_NAMES[type]}`);
-    state.currentQuiz = cached;
+  // 1. 미리 가져온 문제가 있으면 즉시 사용
+  if (nextQuestionCache[type]) {
+    state.currentQuiz = nextQuestionCache[type];
+    delete nextQuestionCache[type];
     state.selectedChoice = -1;
     state.answered = false;
     renderQuestion();
-    prefetchForType(type);
     updateCacheStatus();
+    // 다음 문제 미리 가져오기 (백그라운드)
+    const nextType = quizQueue[state.currentQuestionIndex + 1] || type;
+    prefetchNextQuestion(nextType);
     return;
   }
 
-  // 3. 캐시 없음 → 실시간 생성
+  // 로딩 표시
+  document.getElementById('quizLoading').style.display = 'block';
+  document.getElementById('quizLoading').innerHTML = '<div class="spinner"></div><p>문제를 준비하고 있습니다...</p>';
+  document.getElementById('quizContent').style.display = 'none';
+
+  // 2. 문제은행 API에서 제공
+  const bankQ = await getFromBank(type);
+  if (bankQ) {
+    state.currentQuiz = bankQ;
+    state.selectedChoice = -1;
+    state.answered = false;
+    renderQuestion();
+    updateCacheStatus();
+    // 다음 문제 미리 가져오기 (백그라운드)
+    const nextType = quizQueue[state.currentQuestionIndex + 1] || type;
+    prefetchNextQuestion(nextType);
+    return;
+  }
+
+  // 3. 문제은행 부족 → AI 실시간 생성 (폴백)
   await generateQuestion(type);
 }
 
@@ -1660,8 +1709,8 @@ function renderQuestion() {
   document.getElementById('quizContent').style.display = 'block';
   const diff = getDifficulty(q._type);
   const diffLabel = {hard:'🥇 1등급', medium:'🥈 2등급', easy:'🥉 3등급'}[diff] || '🥈 2등급';
-  const diffColor = {hard:'var(--wrong)', medium:'var(--accent)', easy:'var(--correct)'}[diff] || 'var(--accent)';
-  document.getElementById('quizTypeBadge').innerHTML = (q.type || TYPE_NAMES[q._type]) + ' <span style="margin-left:8px;font-size:12px;color:' + diffColor + ';">' + diffLabel + '</span>';
+  const diffColor = {hard:'#c62828', medium:'#e65100', easy:'#2e7d32'}[diff] || '#e65100';
+  document.getElementById('quizTypeBadge').innerHTML = (q.type || TYPE_NAMES[q._type]) + ' <span style="margin-left:8px;font-size:12px;font-weight:800;color:#fff;background:' + diffColor + ';padding:2px 8px;border-radius:4px;">' + diffLabel + '</span>';
   document.getElementById('quizInstruction').textContent = TYPE_INSTRUCTIONS[q._type];
 
   // 지문
@@ -1713,6 +1762,8 @@ function submitAnswer() {
   if (state.answered || state.selectedChoice < 0) return;
   state.answered = true;
   stopTimer();
+  // 푼 문제 이력 저장
+  if (state.currentQuiz) saveSolvedQuestion(state.currentQuiz);
 
   const q = state.currentQuiz;
   const correct = state.selectedChoice === q.answer;
