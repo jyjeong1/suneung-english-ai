@@ -340,6 +340,48 @@ def call_api_for_refresh(prompt):
     result = json.loads(resp.read())
     return result["content"][0]["text"]
 
+def verify_vocab_question(q):
+    """어휘 적절성 문제 자동 검증 — 정답 단어의 반의어가 문맥상 더 적절한지 확인"""
+    if q.get('_type') != 'vocab':
+        return True  # 어휘 문제가 아니면 패스
+    try:
+        passage = q.get('passage', '')
+        answer_idx = q.get('answer', 0)
+        choices = q.get('choices', [])
+        if answer_idx >= len(choices):
+            return False
+        answer_word = choices[answer_idx]
+        # ①word 형식에서 단어 추출
+        import re
+        word_match = re.search(r'[①②③④⑤]\s*(\w+)', answer_word)
+        if not word_match:
+            return False
+        word = word_match.group(1)
+
+        prompt = f"""다음 영어 지문에서 밑줄 친 단어 '{word}'가 문맥상 부적절한지 검증해주세요.
+
+지문:
+{passage[:500]}
+
+검증 기준:
+1. '{word}'의 반의어를 찾으세요.
+2. '{word}'를 그 반의어로 교체했을 때 문맥이 더 자연스러워지는가?
+3. 만약 반의어로 교체한 것이 더 자연스럽다면, '{word}'는 부적절한 단어가 맞습니다 (정답 유효).
+4. 반의어로 교체해도 여전히 어색하다면, 정답이 잘못된 것입니다 (정답 무효).
+
+반드시 아래 형식으로만 답하세요:
+VALID (정답 유효) 또는 INVALID (정답 무효)"""
+
+        result = call_api_for_refresh(prompt)
+        if not result:
+            return True  # API 실패 시 통과
+        is_valid = 'VALID' in result.upper() and 'INVALID' not in result.upper()
+        print(f"    🔍 어휘 검증: '{word}' → {'✅ 유효' if is_valid else '❌ 무효'}")
+        return is_valid
+    except Exception as e:
+        print(f"    ⚠️ 어휘 검증 실패: {e}")
+        return True  # 검증 실패 시 통과
+
 def parse_json_array(text):
     start = text.find("[")
     end = text.rfind("]") + 1
@@ -404,8 +446,22 @@ def refresh_questions():
                 print(f"  ❌ 생성 부족 ({len(new_questions)}문제) — 교체 취소")
                 continue
 
-            # 기존 문제에 새 문제 추가 (대체 아님)
-            updated = existing + new_questions[:REFRESH_COUNT]
+            # 어휘 문제 자동 검증
+            verified = []
+            for q in new_questions[:REFRESH_COUNT]:
+                if q.get('_type') == 'vocab':
+                    if verify_vocab_question(q):
+                        q['_vocabVerified'] = True
+                        verified.append(q)
+                    else:
+                        print(f"    ❌ 어휘 문제 폐기 (반의어 검증 실패)")
+                else:
+                    verified.append(q)
+                time.sleep(0.5)
+            print(f"  🔍 검증 결과: {len(new_questions[:REFRESH_COUNT])}문제 중 {len(verified)}문제 통과")
+
+            # 기존 문제에 검증 통과 문제만 추가
+            updated = existing + verified
 
             # questions.js 덮어쓰기
             js_content = f"// Prof.AI 수능영어 문제은행 — {len(updated)}문제\n"
