@@ -295,7 +295,7 @@ class AppHandler(http.server.SimpleHTTPRequestHandler):
 # 문제은행 자동 교체 (2일마다 100문제)
 # ═══════════════════════════════════════
 REFRESH_INTERVAL = 7 * 24 * 3600  # 1주일 (초)
-REFRESH_COUNT = 50  # 추가할 문제 수
+REFRESH_COUNT = 70  # 추가할 문제 수
 QUESTIONS_PATH = os.path.join(os.path.dirname(__file__), 'questions.js')
 
 TYPES_FOR_REFRESH = {
@@ -417,6 +417,26 @@ def refresh_questions():
 
             print(f"  🎉 추가 완료! 기존 {len(existing)} + 신규 {len(new_questions[:REFRESH_COUNT])} = {len(updated)}문제")
             load_question_bank()  # 서버 메모리도 갱신
+
+            # 신규 문제를 감수용 파일에도 추가
+            sample_path = os.path.join(os.path.dirname(__file__), 'questions_sample.js')
+            try:
+                sample_existing = []
+                if os.path.exists(sample_path):
+                    with open(sample_path, 'r', encoding='utf-8') as sf:
+                        sc = sf.read()
+                    ss = sc.find('['); se = sc.rfind(']') + 1
+                    if ss >= 0 and se > 0:
+                        sample_existing = json.loads(sc[ss:se])
+                sample_updated = sample_existing + new_questions[:REFRESH_COUNT]
+                sample_js = f"// Prof.AI 감수용 문제 — {len(sample_updated)}문제\n"
+                sample_js += f"// 마지막 추가: {datetime.now().strftime('%Y-%m-%d %H:%M')}\n"
+                sample_js += f"const QUESTION_BANK = {json.dumps(sample_updated, ensure_ascii=False, indent=2)};\n"
+                with open(sample_path, 'w', encoding='utf-8') as sf:
+                    sf.write(sample_js)
+                print(f"  📋 감수용에도 추가: {len(sample_updated)}문제 (신규 {len(new_questions[:REFRESH_COUNT])})")
+            except Exception as se:
+                print(f"  ⚠️ 감수용 파일 업데이트 실패: {se}")
 
         except Exception as e:
             print(f"  ❌ 문제은행 교체 오류: {e}")
