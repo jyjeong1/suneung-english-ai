@@ -708,7 +708,11 @@ body {
       <div>✅ 30일 챌린지 → 그리스 세일링 추첨 자격</div>
       <div>✅ 상세 학습 리포트</div>
     </div>
-    <button class="submit-btn primary" style="font-size:16px; padding:16px;" onclick="requestPayment()">💳 카드 결제하기</button>
+    <div style="background:#f5f5f5; border-radius:10px; padding:12px; font-size:13px; line-height:1.7; margin-bottom:12px; text-align:center;">
+      <strong>월 3,900원</strong>이 결제됩니다<br>
+      <span style="font-size:11px; color:var(--sub);">언제든 해지 가능 · 다음 달 자동 갱신 없음</span>
+    </div>
+    <button class="submit-btn primary" style="font-size:16px; padding:16px;" onclick="requestPayment()">💳 월 3,900원 결제하기</button>
     <button class="submit-btn" style="background:var(--border); color:var(--text); margin-top:8px;" onclick="document.getElementById('paymentModal').classList.remove('active')">닫기</button>
   </div>
 </div>
