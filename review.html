@@ -138,6 +138,7 @@ textarea{min-height:60px;resize:vertical}
     <button class="btn btn-secondary" onclick="clearForm()">초기화</button>
     <button class="btn btn-export" onclick="exportCSV()">CSV</button>
     <button class="btn btn-success" onclick="exportJSON()">JSON</button>
+    <button class="btn" style="background:#1a237e;color:#ffd700;" onclick="exportReviewedBank()">감수완료 문제은행 내보내기</button>
   </div>
 
   <!-- 감수 현황 -->
@@ -267,6 +268,34 @@ function exportCSV(){
 function exportJSON(){
   if(!savedItems.length){alert('없음');return;}
   const a=document.createElement('a');a.href=URL.createObjectURL(new Blob([JSON.stringify(savedItems,null,2)],{type:'application/json'}));a.download='감수결과_'+new Date().toISOString().split('T')[0]+'.json';a.click();
+}
+
+function exportReviewedBank(){
+  // 전체 문제은행에 감수 결과 반영
+  const reviewed = [];
+  QUESTION_BANK.forEach((q, i) => {
+    const item = savedItems.find(s => s.qIndex === i);
+    const copy = {...q};
+    if (item && (item.verdict === '승인' || item.verdict === '수정필요')) {
+      copy._reviewed = true;
+      copy._reviewedDate = item.date;
+      copy._reviewer = item.reviewer;
+      // 정답 수정이 있으면 반영
+      if (item.verdict === '수정필요' && item.error) {
+        copy._reviewNote = item.error;
+      }
+    }
+    reviewed.push(copy);
+  });
+  const approvedCount = reviewed.filter(q => q._reviewed).length;
+  const js = '// Prof.AI 문제은행 — 감수 반영 (' + approvedCount + '/' + reviewed.length + '문제 감수완료)\\n'
+    + '// 내보내기: ' + new Date().toISOString().split('T')[0] + '\\n'
+    + 'const QUESTION_BANK = ' + JSON.stringify(reviewed, null, 2) + ';\\n';
+  const a = document.createElement('a');
+  a.href = URL.createObjectURL(new Blob([js], {type:'text/javascript'}));
+  a.download = 'questions_reviewed.js';
+  a.click();
+  alert('감수 반영 문제은행 내보내기 완료!\\n승인/수정필요: ' + approvedCount + '문제에 ✅감수완료 표시됨\\n\\n이 파일을 questions.js로 교체하면 앱에서 감수완료 마크가 표시됩니다.');
 }
 
 const sn=localStorage.getItem('profai_reviewer_name')||'';
