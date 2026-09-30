@@ -418,25 +418,32 @@ def refresh_questions():
             print(f"  🎉 추가 완료! 기존 {len(existing)} + 신규 {len(new_questions[:REFRESH_COUNT])} = {len(updated)}문제")
             load_question_bank()  # 서버 메모리도 갱신
 
-            # 신규 문제를 감수용 파일에도 추가
-            sample_path = os.path.join(os.path.dirname(__file__), 'questions_sample.js')
+            # 신규 문제로 날짜별 감수용 파일 + 감수도구 자동 생성
+            date_str = datetime.now().strftime('%Y%m%d')
+            base_dir = os.path.dirname(__file__)
             try:
-                sample_existing = []
-                if os.path.exists(sample_path):
-                    with open(sample_path, 'r', encoding='utf-8') as sf:
-                        sc = sf.read()
-                    ss = sc.find('['); se = sc.rfind(']') + 1
-                    if ss >= 0 and se > 0:
-                        sample_existing = json.loads(sc[ss:se])
-                sample_updated = sample_existing + new_questions[:REFRESH_COUNT]
-                sample_js = f"// Prof.AI 감수용 문제 — {len(sample_updated)}문제\n"
-                sample_js += f"// 마지막 추가: {datetime.now().strftime('%Y-%m-%d %H:%M')}\n"
-                sample_js += f"const QUESTION_BANK = {json.dumps(sample_updated, ensure_ascii=False, indent=2)};\n"
-                with open(sample_path, 'w', encoding='utf-8') as sf:
+                # 1. 날짜별 감수용 JS 파일
+                sample_js_path = os.path.join(base_dir, f'questions_sample_{date_str}.js')
+                sample_js = f"// Prof.AI 감수용 — {date_str} 신규 {len(new_questions[:REFRESH_COUNT])}문제\n"
+                sample_js += f"const QUESTION_BANK = {json.dumps(new_questions[:REFRESH_COUNT], ensure_ascii=False, indent=2)};\n"
+                with open(sample_js_path, 'w', encoding='utf-8') as sf:
                     sf.write(sample_js)
-                print(f"  📋 감수용에도 추가: {len(sample_updated)}문제 (신규 {len(new_questions[:REFRESH_COUNT])})")
+
+                # 2. 날짜별 감수도구 HTML (review_1.html을 템플릿으로)
+                review_template = os.path.join(base_dir, 'review_1.html')
+                review_new_path = os.path.join(base_dir, f'review_{date_str}.html')
+                if os.path.exists(review_template):
+                    with open(review_template, 'r', encoding='utf-8') as rf:
+                        review_html = rf.read()
+                    review_html = review_html.replace('questions_sample.js', f'questions_sample_{date_str}.js')
+                    review_html = review_html.replace('Prof.AI 문항 감수표', f'Prof.AI 감수 ({date_str}, {len(new_questions[:REFRESH_COUNT])}문제)')
+                    review_html = review_html.replace("profai_review", f"profai_review_{date_str}")
+                    with open(review_new_path, 'w', encoding='utf-8') as rf:
+                        rf.write(review_html)
+
+                print(f"  📋 감수도구 생성: review_{date_str}.html ({len(new_questions[:REFRESH_COUNT])}문제)")
             except Exception as se:
-                print(f"  ⚠️ 감수용 파일 업데이트 실패: {se}")
+                print(f"  ⚠️ 감수도구 생성 실패: {se}")
 
         except Exception as e:
             print(f"  ❌ 문제은행 교체 오류: {e}")
