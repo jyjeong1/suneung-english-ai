@@ -836,7 +836,8 @@ body {
   </div>
   <p style="font-size:12px; color:var(--sub); margin-top:16px; text-align:center;">
     Prof.AI 수능영어 v1.0<br>
-    모든 문제는 수능 영어 전문가가 감수합니다.
+    AI가 생성하고 수능 영어 전문가가 감수합니다.<br>
+    오류 발견 시 알려주세요.
   </p>
 </div>
 
@@ -1722,7 +1723,7 @@ function renderQuestion() {
   const diff = getDifficulty(q._type);
   const diffLabel = {hard:'🥇 1등급', medium:'🥈 2등급', easy:'🥉 3등급'}[diff] || '🥈 2등급';
   const diffColor = {hard:'#c62828', medium:'#e65100', easy:'#2e7d32'}[diff] || '#e65100';
-  const reviewedMark = q._reviewed ? ' <span style="margin-left:6px;font-size:11px;font-weight:700;color:#1a8f3c;background:#e8f5e9;padding:2px 6px;border-radius:4px;">✅ 감수완료</span>' : '';
+  const reviewedMark = q._reviewed ? ' <span style="margin-left:6px;font-size:11px;font-weight:700;color:#1a8f3c;background:#e8f5e9;padding:2px 6px;border-radius:4px;">✅ 감수완료</span>' : ' <span style="margin-left:6px;font-size:11px;font-weight:600;color:#888;background:#f0f0f0;padding:2px 6px;border-radius:4px;">AI 생성</span>';
   document.getElementById('quizTypeBadge').innerHTML = (q.type || TYPE_NAMES[q._type]) + ' <span style="margin-left:8px;font-size:12px;font-weight:800;color:#fff;background:' + diffColor + ';padding:2px 8px;border-radius:4px;">' + diffLabel + '</span>' + reviewedMark;
   document.getElementById('quizInstruction').textContent = TYPE_INSTRUCTIONS[q._type];
 
@@ -3014,7 +3015,7 @@ const ONBOARD_SLIDES = [
   {
     emoji: '👋',
     title: 'Prof.AI 수능영어에\n오신 것을 환영합니다!',
-    desc: '교수가 만든 AI가\n나만의 수능 영어 문제를 생성합니다',
+    desc: 'AI가 문제를 생성하고\n수능 영어 전문가가 감수합니다',
   },
   {
     emoji: '🤖',
