@@ -168,6 +168,8 @@ function renderQuestion(){
   const reviewed=getReviewedIndices();
   const st=reviewed.has(curQ)?'<span style="color:#2e7d32;font-weight:700"> ✅완료</span>':'<span style="color:#e65100"> ⬜미감수</span>';
   let p=(q.passage||'').replace(/\n/g,'<br>');
+  // ①②③④⑤ 밑줄 처리
+  p=p.replace(/([①②③④⑤])(\s*)([\w''\-]+(?:\s+[\w''\-]+){0,3})(\s*\/?\s*)/g,'<u style="text-decoration:underline;text-underline-offset:3px;">$1$2$3</u> ');
   let ch=q.choices.map((c,i)=>'<div class="q-choice'+(i===q.answer?' answer':'')+'">'+c+(i===q.answer?' ← AI정답':'')+'</div>').join('');
   document.getElementById('qInfo').innerHTML=(curQ+1)+'/'+QUESTION_BANK.length+st;
   document.getElementById('prevBtn').disabled=curQ===0;
