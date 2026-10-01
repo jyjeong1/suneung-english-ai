@@ -154,6 +154,58 @@ class AppHandler(http.server.SimpleHTTPRequestHandler):
             self.wfile.write(json.dumps(selected, ensure_ascii=False).encode())
             return
 
+        if self.path == '/api/save-question':
+            content_length = int(self.headers.get('Content-Length', 0))
+            body = self.rfile.read(content_length)
+            data = json.loads(body) if body else {}
+            q = data.get('question')
+            if q and isinstance(q, dict) and q.get('passage'):
+                # 중복 체크 (지문 앞 80자)
+                qid_check = get_qid(q)
+                if qid_check not in question_ids:
+                    # U-xxxx 번호 부여
+                    u_count = sum(1 for bq in question_bank if not bq.get('_reviewed'))
+                    q['_qid'] = f"U-{u_count+1:04d}"
+                    q['_reviewed'] = False
+                    q['_source'] = q.get('_source', 'ai')
+                    question_bank.append(q)
+                    question_ids[qid_check] = len(question_bank) - 1
+                    t = q.get('_type', '')
+                    if t not in question_by_type:
+                        question_by_type[t] = []
+                    question_by_type[t].append(q)
+                    # questions.js에 저장
+                    try:
+                        js_path = os.path.join(os.path.dirname(__file__), 'questions.js')
+                        r_count = sum(1 for bq in question_bank if bq.get('_reviewed'))
+                        u_total = len(question_bank) - r_count
+                        js = f"// 수능영어AI 문제은행 — {len(question_bank)}문제 (R:{r_count} 감수완료, U:{u_total} 미감수)\n"
+                        js += "// 번호체계: R-xxxx(감수완료), U-xxxx(미감수)\n"
+                        js += f"const QUESTION_BANK = {json.dumps(question_bank, ensure_ascii=False, indent=2)};\n"
+                        with open(js_path, 'w', encoding='utf-8') as f:
+                            f.write(js)
+                        print(f"📝 AI 문제 저장: {q['_qid']} ({q.get('_type','')})")
+                    except Exception as e:
+                        print(f"⚠️ 문제 저장 실패: {e}")
+                    self.send_response(200)
+                    self.send_header('Content-Type', 'application/json')
+                    self.send_header('Access-Control-Allow-Origin', '*')
+                    self.end_headers()
+                    self.wfile.write(json.dumps({'saved': True, 'qid': q['_qid']}).encode())
+                else:
+                    self.send_response(200)
+                    self.send_header('Content-Type', 'application/json')
+                    self.send_header('Access-Control-Allow-Origin', '*')
+                    self.end_headers()
+                    self.wfile.write(json.dumps({'saved': False, 'reason': 'duplicate'}).encode())
+            else:
+                self.send_response(400)
+                self.send_header('Content-Type', 'application/json')
+                self.send_header('Access-Control-Allow-Origin', '*')
+                self.end_headers()
+                self.wfile.write(json.dumps({'error': 'invalid question'}).encode())
+            return
+
         if self.path == '/api/claude':
             content_length = int(self.headers['Content-Length'])
             body = self.rfile.read(content_length)

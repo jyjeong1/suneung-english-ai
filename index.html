@@ -1557,7 +1557,22 @@ async function generateOneQuestion(type) {
   const q = JSON.parse(jsonMatch[0]);
   q._type = type;
   q._source = 'ai';
+  // 문제은행에 미감수 상태로 자동 저장
+  saveToBank(q);
   return q;
+}
+
+// AI 생성 문제를 서버 문제은행에 미감수(U-xxxx) 상태로 저장
+async function saveToBank(q) {
+  try {
+    await fetch('/api/save-question', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ question: q }),
+    });
+  } catch(e) {
+    console.warn('문제은행 저장 실패:', e.message);
+  }
 }
 
 
@@ -2232,7 +2247,10 @@ ${JSON.stringify({
     if (!jsonMatch) throw new Error('JSON 파싱 실패');
     const quiz = JSON.parse(jsonMatch[0]);
     quiz._type = note.type;
+    quiz._source = 'ai_similar';
     quiz._similar = true;
+    // 문제은행에 미감수 상태로 자동 저장
+    saveToBank(quiz);
 
     quizQueue = ['_similar'];
     state.currentQuestionIndex = 0;
