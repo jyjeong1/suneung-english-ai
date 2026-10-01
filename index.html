@@ -1154,9 +1154,9 @@ function updateReferralUI() {
       </div>
       ${!used ? `
       <div style="margin-bottom:8px;">
-        <p style="font-size:12px;color:var(--sub);margin-bottom:4px;">추천 코드 입력</p>
+        <p style="font-size:12px;color:var(--sub);margin-bottom:4px;">추천받은 코드 입력 (친구에게 받은 코드)</p>
         <div style="display:flex;gap:6px;">
-          <input type="text" id="referralInput" placeholder="추천 코드" style="flex:1;padding:8px 12px;border:1px solid #ddd;border-radius:8px;font-size:14px;text-transform:uppercase;">
+          <input type="text" id="referralInput" placeholder="친구의 6자리 코드" style="flex:1;padding:8px 12px;border:1px solid #ddd;border-radius:8px;font-size:14px;">
           <button onclick="submitReferralCode()" style="padding:8px 16px;background:#4a0033;color:#fff;border:none;border-radius:8px;font-size:13px;font-weight:700;cursor:pointer;">적용</button>
         </div>
       </div>` : `<p style="font-size:12px;color:var(--correct);">✅ 추천 코드 사용 완료 (${used})</p>`}
