@@ -1606,18 +1606,13 @@ function getFromCache(type) {
 }
 
 // 캐시 상태 표시
-async function updateCacheStatus() {
+function updateCacheStatus() {
   const el = document.getElementById('cacheStatus');
   if (!el) return;
   const types = ['blank', 'insert', 'grammar', 'vocab', 'main_idea', 'order'];
   let cacheTotal = 0;
   types.forEach(t => { cacheTotal += (prefetchCache[t] || []).length; });
-  // 문제은행 (서버 API) — 매번 최신 값 가져오기
-  try {
-    const res = await fetch('/api/status');
-    const st = await res.json();
-    state.questionCount = st.questionCount || 0;
-  } catch(e) {}
+  // 문제은행 (서버 API)
   let bankRemain = state.questionCount || 0;
   if (bankRemain > 0 || cacheTotal > 0) {
     const parts = [];
@@ -1809,22 +1804,17 @@ function renderQuestion() {
   passageHtml = passageHtml.replace(/___________/g, '<span class="blank">___________</span>');
   // ①②③④⑤ 번호가 붙은 어휘/구문에 밑줄 처리 — 선지 단어 수에 맞춰 밑줄 길이 결정
   if (q.choices && q.choices.length > 0) {
-    const markers = ['①','②','③','④','⑤'];
-    markers.forEach((m, i) => {
-      if (i < q.choices.length) {
-        const choiceText = q.choices[i].replace(/^[①②③④⑤]\s*/, '').trim();
-        const wordCount = choiceText.split(/\s+/).length;
-        const pattern = new RegExp(
-          m.replace(/[.*+?^${}()|[\]\\]/g, '\\$&') + '(\\s*)((?:[\\w\\'\'\\-]+(?:\\s+[\\w\\'\'\\-]+){0,' + (wordCount - 1) + '}))(\\s*\\/?\\s*)',
-          'g'
-        );
-        passageHtml = passageHtml.replace(pattern,
-          '<u style="text-decoration:underline; text-underline-offset:3px;">' + m + '$1$2</u> ');
-      }
-    });
+    var markers = ['①','②','③','④','⑤'];
+    for (var mi = 0; mi < markers.length && mi < q.choices.length; mi++) {
+      var choiceText = q.choices[mi].replace(/^[①②③④⑤]\s*/, '').trim();
+      var wc = choiceText.split(/\s+/).length;
+      var esc = markers[mi].replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+      var re = new RegExp(esc + '(\\s*)([\\w\'-]+(?:\\s+[\\w\'-]+){0,' + (wc - 1) + '})(\\s*\\/?\\s*)', 'g');
+      passageHtml = passageHtml.replace(re, '<u style="text-decoration:underline;text-underline-offset:3px;">' + markers[mi] + '$1$2</u> ');
+    }
   } else {
-    passageHtml = passageHtml.replace(/([①②③④⑤])(\s*)([\w''\-]+)(\s*\/?\s*)/g,
-      '<u style="text-decoration:underline; text-underline-offset:3px;">$1$2$3</u> ');
+    passageHtml = passageHtml.replace(/([①②③④⑤])(\s*)([\w'-]+)(\s*\/?\s*)/g,
+      '<u style="text-decoration:underline;text-underline-offset:3px;">$1$2$3</u> ');
   }
   // (A)~(E) 형식에도 밑줄 처리 (뒤의 슬래시 제거)
   passageHtml = passageHtml.replace(/(\([A-E]\))\s*([\w''\-]+(?:\s+[\w''\-]+){0,3})(\s*\/?\s*)/g,
