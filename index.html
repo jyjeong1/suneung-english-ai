@@ -1047,12 +1047,18 @@ function getTotalScore() {
   return getLPScore() + getRPScore();
 }
 
-// 추천 코드 생성 (유저 uid 앞 6자 기반)
+// 추천 코드 생성 (6자리 숫자, uid 기반 해시)
 function getMyReferralCode() {
   if (!fbUser) return '';
   let code = localStorage.getItem('myReferralCode');
   if (!code) {
-    code = 'P' + fbUser.uid.substring(0, 5).toUpperCase();
+    // uid를 숫자 해시로 변환하여 6자리 생성
+    let hash = 0;
+    for (let i = 0; i < fbUser.uid.length; i++) {
+      hash = ((hash << 5) - hash) + fbUser.uid.charCodeAt(i);
+      hash = hash & 0x7FFFFFFF; // 양수 유지
+    }
+    code = String(hash % 1000000).padStart(6, '0');
     localStorage.setItem('myReferralCode', code);
   }
   return code;
