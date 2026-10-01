@@ -494,6 +494,36 @@ body {
 </head>
 <body>
 
+<!-- 스플래시 오버레이 -->
+<div id="splashOverlay" style="
+  position:fixed;top:0;left:0;right:0;bottom:0;z-index:9999;
+  background:linear-gradient(135deg,#0a0014,#1a0030,#0a0014);
+  display:flex;flex-direction:column;justify-content:center;align-items:center;
+  transition:opacity 0.8s ease-out;
+">
+  <div style="text-align:center;opacity:0;transform:scale(0.8);transition:opacity 1s,transform 1s;" id="splashContent">
+    <div style="font-size:56px;font-weight:900;
+      background:linear-gradient(135deg,#ffd700,#fff,#ffd700);
+      -webkit-background-clip:text;-webkit-text-fill-color:transparent;
+      filter:drop-shadow(0 0 30px rgba(255,215,0,0.4));">Prof.AI</div>
+    <div style="font-size:18px;font-weight:500;color:rgba(255,255,255,0.5);letter-spacing:8px;margin-top:8px;">수능영어</div>
+    <div style="font-size:15px;color:rgba(255,255,255,0.6);margin-top:28px;line-height:1.8;">
+      교수가 만들고, 교수가 감수한<br>AI 수능 영어 트레이너
+    </div>
+    <div style="margin-top:32px;width:120px;height:3px;background:rgba(255,215,0,0.2);border-radius:2px;margin-left:auto;margin-right:auto;overflow:hidden;">
+      <div style="width:0%;height:100%;background:linear-gradient(90deg,#ffd700,#ff6b00);border-radius:2px;animation:splashBar 2s ease-out forwards;"></div>
+    </div>
+  </div>
+</div>
+<style>
+@keyframes splashBar{from{width:0%}to{width:100%}}
+</style>
+<script>
+// 스플래시 2초 표시 후 페이드아웃
+setTimeout(()=>{document.getElementById('splashContent').style.opacity='1';document.getElementById('splashContent').style.transform='scale(1)';},100);
+setTimeout(()=>{const s=document.getElementById('splashOverlay');s.style.opacity='0';setTimeout(()=>s.remove(),800);},2500);
+</script>
+
 <!-- 헤더 -->
 <div class="header">
   <h1>Prof.AI 수능영어</h1>
