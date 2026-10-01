@@ -1,5 +1,5 @@
-// Prof.AI 문제은행 — 감수 승인 38문제
-// 1차 감수: 2026-09-30 (SPARK), 2차 감수: 2026-10-01 (JY)
+// Prof.AI 문제은행 — 감수 승인 63문제
+// 1차(SPARK) + 2차(JY) + 3차(JYJ) 감수 완료
 const QUESTION_BANK = [
   {
     "type": "빈칸 추론",
@@ -910,5 +910,605 @@ const QUESTION_BANK = [
     "_reviewed": true,
     "_reviewedDate": "2026-10-01",
     "_reviewer": "JY"
+  },
+  {
+    "type": "빈칸 추론",
+    "passage": "Throughout history, humans have sought to understand the natural world through observation and experimentation. The scientific method emerged as a powerful tool for acquiring knowledge, emphasizing the importance of testing hypotheses through controlled experiments. However, this approach has a significant limitation: it can only investigate phenomena that are ___________ and measurable. Aspects of human experience such as personal values, emotional depth, and spiritual beliefs fall outside the scope of scientific inquiry. This does not mean these dimensions are less important or valid; rather, it suggests that different methods of understanding are needed to explore them fully. Art, philosophy, and literature offer alternative pathways for examining the human condition, providing insights that complement scientific knowledge. The integration of these diverse perspectives creates a more complete picture of reality.",
+    "choices": [
+      "① observable",
+      "② theoretical",
+      "③ subjective",
+      "④ abstract",
+      "⑤ hypothetical"
+    ],
+    "answer": 0,
+    "explanation": "과학적 방법은 제어된 실험을 통해 가설을 검증하는 것을 강조하므로, 과학이 조사할 수 있는 현상은 '관찰 가능한(observable)'이어야 한다. 뒤에 'measurable'과 함께 나오는 표현으로 보아, 과학적 탐구의 대상이 되려면 관찰 가능해야 한다는 의미가 가장 자연스럽다.",
+    "wrong_explanations": {
+      "②": "이론적(theoretical)이라는 표현은 문맥상 부적절하다. 과학은 이론적 현상뿐만 아니라 실제 관찰 가능한 현상을 다룬다.",
+      "③": "주관적(subjective)은 문맥상 맞지 않는다. 오히려 지문은 과학이 주관적 경험을 다룰 수 없다고 지적하고 있다.",
+      "④": "추상적(abstract)은 의미가 맞지 않는다. 과학은 구체적이고 관찰 가능한 현상을 다룬다.",
+      "⑤": "가설적(hypothetical)은 문맥상 부적절하다. 과학은 가설을 검증하지만, 그 대상은 관찰 가능해야 한다."
+    },
+    "_type": "blank",
+    "given_sentence": null,
+    "_reviewed": true,
+    "_reviewedDate": "2026-10-01",
+    "_reviewer": "JYJ"
+  },
+  {
+    "type": "빈칸 추론",
+    "passage": "Successful entrepreneurs often share a common characteristic: the ability to ___________ failure and learn from their mistakes. Rather than viewing setbacks as permanent defeats, they see them as valuable learning opportunities. This mindset transforms challenges into catalysts for growth and improvement. Many famous business leaders, including Steve Jobs and Oprah Winfrey, experienced significant failures before achieving tremendous success. They did not allow initial disappointments to discourage them; instead, they analyzed what went wrong and adjusted their strategies accordingly. This resilience and adaptability distinguish successful individuals from those who give up easily. Organizations that cultivate a culture accepting failure as part of the learning process tend to innovate more effectively and develop stronger solutions to complex problems.",
+    "choices": [
+      "① embrace",
+      "② ignore",
+      "③ punish",
+      "④ hide",
+      "⑤ prevent"
+    ],
+    "answer": 0,
+    "explanation": "성공한 기업가들의 특징이 실패를 '수용하고 받아들이는(embrace)' 것이라는 의미이다. 뒤에 '소중한 학습의 기회'라는 표현과 'setbacks'을 'catalyst for growth'로 본다는 점에서 embrace가 가장 적절하다.",
+    "wrong_explanations": {
+      "②": "무시하다(ignore)는 의미로는 나머지 문맥(배우고, 개선하고)과 모순된다.",
+      "③": "처벌하다(punish)는 의미는 문맥상 전혀 맞지 않는다.",
+      "④": "숨기다(hide)는 의미는 학습과 발전이라는 주제와 맞지 않는다.",
+      "⑤": "예방하다(prevent)는 의미는 실패를 받아들인다는 개념과 맞지 않다."
+    },
+    "_type": "blank",
+    "given_sentence": null,
+    "_reviewed": true,
+    "_reviewedDate": "2026-10-01",
+    "_reviewer": "JYJ"
+  },
+  {
+    "type": "빈칙 추론",
+    "passage": "The rise of social media has fundamentally changed how people communicate and share information. While these platforms have created unprecedented opportunities for connection and expression, they have also introduced new challenges. One significant concern is the spread of misinformation, which can ___________ public opinion and influence decision-making at both personal and societal levels. False or misleading information spreads rapidly across networks, often faster than factual corrections can reach the same audience. This phenomenon has implications for democracy, public health, and social cohesion. To address this issue, media literacy education has become increasingly important, helping individuals develop critical thinking skills to evaluate information sources and assess credibility. Platforms themselves also bear responsibility for implementing fact-checking mechanisms and reducing the visibility of unverified claims.",
+    "choices": [
+      "① distort",
+      "② clarify",
+      "③ analyze",
+      "④ strengthen",
+      "⑤ document"
+    ],
+    "answer": 0,
+    "explanation": "'거짓된 정보가 공중 의견을 왜곡하고 의사결정에 영향을 미칠 수 있다'는 의미이므로 'distort(왜곡하다)'가 정답이다. misinformation과 misleading information이 공중 의견에 부정적 영향을 미친다는 문맥에서 distort가 가장 적절하다.",
+    "wrong_explanations": {
+      "②": "명확히 하다(clarify)는 거짓 정보의 영향을 설명하는 문맥과 맞지 않는다.",
+      "③": "분석하다(analyze)는 여기서 의미가 맞지 않는다.",
+      "④": "강화하다(strengthen)는 misinformation의 부정적 영향을 설명하지 못한다.",
+      "⑤": "기록하다(document)는 문맥상 부적절하다."
+    },
+    "_type": "blank",
+    "given_sentence": null,
+    "_reviewed": true,
+    "_reviewedDate": "2026-10-01",
+    "_reviewer": "JYJ"
+  },
+  {
+    "type": "빈칙 추론",
+    "passage": "Climate change represents one of the most pressing challenges facing humanity today. Rising global temperatures have triggered numerous environmental consequences, from melting polar ice caps to increasingly severe weather patterns. Addressing this crisis requires ___________ action at both individual and governmental levels. While individual efforts such as reducing carbon footprint and supporting sustainable products are important, they alone cannot solve a problem of this magnitude. Governments must implement comprehensive policies that regulate industrial emissions, invest in renewable energy sources, and protect natural ecosystems. International cooperation is equally vital, as climate change is a global phenomenon that transcends national boundaries. Only through coordinated and sustained efforts can we hope to mitigate the worst effects of climate change and secure a livable planet for future generations.",
+    "choices": [
+      "① coordinated",
+      "② temporary",
+      "③ voluntary",
+      "④ limited",
+      "⑤ gradual"
+    ],
+    "answer": 0,
+    "explanation": "문맥에서 개인적 노력만으로는 부족하며, 정부와 국제 협력이 필요하다는 점을 고려할 때, '조정된, 협력적인(coordinated)' 행동이 필요하다는 의미가 가장 적절하다. 마지막 문장의 'coordinated and sustained efforts'에서도 같은 단어가 반복되어 답이 확실하다.",
+    "wrong_explanations": {
+      "②": "임시적인(temporary)은 지속적인 노력이 필요하다는 점과 맞지 않는다.",
+      "③": "자발적인(voluntary)은 정부의 정책이 필요하다는 맥락과 맞지 않는다.",
+      "④": "제한된(limited)은 크기와 범위가 커야 한다는 의미와 모순된다.",
+      "⑤": "점진적인(gradual)은 긴급한 행동이 필요하다는 뉘앙스와 맞지 않는다."
+    },
+    "_type": "blank",
+    "given_sentence": null,
+    "_reviewed": true,
+    "_reviewedDate": "2026-10-01",
+    "_reviewer": "JYJ"
+  },
+  {
+    "type": "빈칙 추론",
+    "passage": "The concept of emotional intelligence has gained recognition in recent decades as researchers have demonstrated its significance in personal and professional success. Emotional intelligence refers to the ability to recognize, understand, and manage one's own emotions, as well as to recognize and respond appropriately to the emotions of others. This capacity to ___________ emotions effectively distinguishes high performers in leadership roles and interpersonal relationships. Individuals with high emotional intelligence tend to communicate more effectively, build stronger relationships, and navigate conflicts more successfully. These skills are not innate; they can be developed and improved through practice and self-reflection. Organizations increasingly recognize the value of emotional intelligence and are incorporating it into training programs and hiring criteria. As workplaces become more collaborative and diverse, the ability to understand and manage emotions becomes an essential component of professional competence.",
+    "choices": [
+      "① regulate",
+      "② suppress",
+      "③ ignore",
+      "④ express",
+      "⑤ avoid"
+    ],
+    "answer": 0,
+    "explanation": "'자신과 타인의 감정을 효과적으로 조절(regulate)하는 능력'이 문맥상 가장 자연스럽다. 감정 지능의 정의(인식하고, 이해하고, 관리하기)와 그 결과(효과적인 소통, 관계 형성)를 연결하는 표현으로 regulate가 적절하다.",
+    "wrong_explanations": {
+      "②": "억압하다(suppress)는 감정을 관리한다는 의미보다 부정적이며, 효과적인 리더십과 관계 형성과 맞지 않는다.",
+      "③": "무시하다(ignore)는 감정 지능의 개념과 완전히 모순된다.",
+      "④": "표현하다(express)는 감정을 관리한다는 의미가 아니다.",
+      "⑤": "피하다(avoid)는 감정을 다루는 것이 아니라 피한다는 의미로 부적절하다."
+    },
+    "_type": "blank",
+    "given_sentence": null,
+    "_reviewed": true,
+    "_reviewedDate": "2026-10-01",
+    "_reviewer": "JYJ"
+  },
+  {
+    "type": "빈칸 추론",
+    "passage": "Throughout human history, people have sought to understand the natural world around them. Early civilizations developed various theories to explain natural phenomena, often attributing them to divine forces. However, as societies became more advanced, a shift occurred in how humans approached knowledge. The scientific method emerged as a powerful tool that emphasized observation, experimentation, and logical reasoning. This approach _____________ replaced the reliance on mere speculation and mythology. Scientists began to test their hypotheses rigorously, gathering empirical evidence to support or refute their claims. This transformation fundamentally changed our relationship with knowledge. Rather than accepting explanations without question, people started to demand proof and verification. The result was unprecedented progress in fields like medicine, physics, and astronomy. Today, scientific inquiry remains central to solving complex problems and improving human life. The commitment to evidence-based understanding continues to shape our civilization's future.",
+    "choices": [
+      "①gradually",
+      "②reluctantly",
+      "③sporadically",
+      "④theoretically",
+      "⑤incidentally"
+    ],
+    "answer": 0,
+    "explanation": "문맥상 과학적 방법이 추측과 신화에 대한 의존을 '점진적으로(gradually)' 대체했음을 나타낸다. 과학 혁명은 한순간에 일어난 것이 아니라 시간에 걸쳐 천천히 진행된 과정이므로 'gradually'가 가장 적절하다.",
+    "wrong_explanations": {
+      "①reluctantly": "마지못해, 꺼려하며라는 뜻으로 맥락에 맞지 않음",
+      "③sporadically": "산발적으로라는 뜻으로 체계적이고 광범위한 변화를 나타내지 못함",
+      "④theoretically": "이론적으로라는 뜻으로 실제 역사적 변화를 설명하지 못함",
+      "⑤incidentally": "우연히라는 뜻으로 의도적이고 체계적인 변화를 반영하지 못함"
+    },
+    "_type": "blank",
+    "given_sentence": null,
+    "_reviewed": true,
+    "_reviewedDate": "2026-10-01",
+    "_reviewer": "JYJ"
+  },
+  {
+    "type": "빈칸 추론",
+    "passage": "Modern technology has transformed the way we communicate, making distance almost irrelevant. People can now maintain relationships with friends and family across continents instantaneously. Video calls, messaging applications, and social media platforms have created unprecedented opportunities for connection. Yet paradoxically, this connectivity has also _____________ a new problem: many individuals report feeling increasingly isolated despite being constantly connected. The quality of digital interactions often differs significantly from face-to-face communication. Non-verbal cues, emotional warmth, and genuine presence are difficult to convey through screens. Furthermore, the constant availability of these technologies can create unhealthy habits. Users may spend hours scrolling through feeds rather than engaging in meaningful conversations. Psychologists warn that this superficial connection cannot fully satisfy our fundamental human need for authentic relationships. While technology offers valuable tools for maintaining bonds, it should complement rather than replace in-person interaction.",
+    "choices": [
+      "①obscured",
+      "②concealed",
+      "③exacerbated",
+      "④diminished",
+      "⑤eliminated"
+    ],
+    "answer": 2,
+    "explanation": "문맥상 기술 발전이 연결성을 제공했지만 동시에 새로운 문제를 '악화시켰다(exacerbated)'. 다음 문장들이 디지털 상호작용의 질 부족과 고립감을 설명하므로 exacerbated가 가장 적절하다.",
+    "wrong_explanations": {
+      "①obscured": "모호하게 만들다는 뜻으로 문제의 심각성을 나타내지 못함",
+      "②concealed": "숨기다는 뜻으로 오히려 문제가 드러나고 있으므로 맞지 않음",
+      "④diminished": "감소시키다는 뜻으로 역설적 상황을 설명하지 못함",
+      "⑤eliminated": "제거하다는 뜻으로 실제로 문제가 존재하므로 거짓"
+    },
+    "_type": "blank",
+    "given_sentence": null,
+    "_reviewed": true,
+    "_reviewedDate": "2026-10-01",
+    "_reviewer": "JYJ"
+  },
+  {
+    "type": "빈칙 추론",
+    "passage": "Environmental conservation efforts often face significant challenges when economic interests conflict with ecological preservation. Industries may resist regulations that limit their operations, arguing that environmental standards increase production costs. However, research increasingly demonstrates that the cost of inaction far _____________ the expenses of preventive measures. Pollution damages public health, requiring expensive medical treatments and reducing workforce productivity. Ecosystem degradation diminishes the availability of natural resources essential for long-term economic stability. Climate change causes catastrophic weather events that destroy infrastructure and disrupt supply chains. Companies that invest in sustainable practices often discover that environmental responsibility aligns with profitability. Green technologies create new job opportunities and open emerging markets. Furthermore, consumers increasingly prefer environmentally conscious brands. Governments worldwide are recognizing that protecting the environment is not an obstacle to economic growth but rather a prerequisite for it. The path forward requires viewing environmental and economic concerns not as competing interests but as interdependent priorities.",
+    "choices": [
+      "①exceeds",
+      "②matches",
+      "③approximates",
+      "④reflects",
+      "⑤supports"
+    ],
+    "answer": 0,
+    "explanation": "문맥상 무행동의 비용이 예방적 조치의 비용을 '초과한다(exceeds)'. 다음 문장들에서 환경 훼손으로 인한 높은 대가들을 구체적으로 설명하므로 exceeds가 정답이다.",
+    "wrong_explanations": {
+      "②matches": "일치한다는 뜻으로 비용 비교에서 차이를 강조하지 못함",
+      "③approximates": "대략 같다는 뜻으로 문맥상 필요한 대조를 표현하지 못함",
+      "④reflects": "반영한다는 뜻으로 비용 비교에 적절하지 않음",
+      "⑤supports": "지지한다는 뜻으로 문맥상 맞지 않음"
+    },
+    "_type": "blank",
+    "given_sentence": null,
+    "_reviewed": true,
+    "_reviewedDate": "2026-10-01",
+    "_reviewer": "JYJ"
+  },
+  {
+    "type": "빈칸 추론",
+    "passage": "The human brain possesses remarkable plasticity, meaning it can reorganize and form new neural connections throughout life. This capacity for change is particularly evident in stroke recovery, where patients often regain lost functions through intensive rehabilitation. When a stroke damages a specific brain region, other areas can sometimes _____________ its functions. Physical therapy, occupational therapy, and cognitive exercises stimulate neural pathways, encouraging the brain to establish alternative routes for information processing. This process takes considerable time and effort, but the results can be extraordinary. Some patients recover abilities they seemed to have lost forever. Scientists have observed that younger brains typically demonstrate greater plasticity, but older brains retain significant capacity for reorganization. Importantly, motivation and consistent practice play crucial roles in successful recovery. Those who engage actively in rehabilitation exercises show markedly better outcomes than passive patients. This discovery has transformed our understanding of brain injury and aging. Rather than viewing neurological damage as permanent and irreversible, we now recognize the brain's inherent ability to adapt and heal.",
+    "choices": [
+      "①assume",
+      "②compensate for",
+      "③substitute",
+      "④modify",
+      "⑤enhance"
+    ],
+    "answer": 1,
+    "explanation": "문맥상 뇌의 다른 영역이 손상된 부분의 기능을 '보상한다(compensate for)'. 다음 문장들에서 재활이 신경 경로를 자극하여 대체 경로를 형성한다고 설명하므로 compensate for이 가장 적절하다.",
+    "wrong_explanations": {
+      "①assume": "맡다는 뜻으로 보상의 개념을 충분히 표현하지 못함",
+      "③substitute": "대체하다는 뜻으로 부분적 보상을 나타내지 못함",
+      "④modify": "수정한다는 뜻으로 기능 대체와 맞지 않음",
+      "⑤enhance": "강화한다는 뜻으로 손상된 부분의 기능 회복을 설명하지 못함"
+    },
+    "_type": "blank",
+    "given_sentence": null,
+    "_reviewed": true,
+    "_reviewedDate": "2026-10-01",
+    "_reviewer": "JYJ"
+  },
+  {
+    "type": "문장 삽입",
+    "passage": "Modern technology has revolutionized the way we communicate with one another. ① Email, instant messaging, and social media platforms have made it easier than ever to stay connected with people around the world. ② However, some researchers argue that this increased connectivity has paradoxically led to feelings of isolation and loneliness among many individuals. ③ They suggest that digital communication often lacks the depth and authenticity of face-to-face interactions. ④ Despite these concerns, technology continues to evolve at a rapid pace, offering new ways to bridge geographical distances. ⑤ As we move forward, it is crucial that we find a balance between embracing technological advancement and maintaining meaningful human relationships.",
+    "given_sentence": "This paradox highlights the tension between our desire for connection and the limitations of virtual communication.",
+    "choices": [
+      "①",
+      "②",
+      "③",
+      "④",
+      "⑤"
+    ],
+    "answer": 2,
+    "explanation": "문장은 '역설'을 언급하고 있고, 이는 앞의 '증가된 연결성이 역설적으로 고립감을 초래했다'는 내용을 받아야 함. ③ 위치에서 연구원들의 주장을 구체화하는 설명으로 적절.",
+    "wrong_explanations": {
+      "0": "기술의 혁신을 소개하는 부분에서 삽입 문장의 '역설' 개념이 맞지 않음",
+      "1": "이미 역설이 언급되었으므로 반복적이 됨",
+      "3": "기술 발전의 긍정적 측면을 다루는 부분에 어울리지 않음",
+      "4": "결론 부분에서는 균형을 찾기 위한 제안을 하고 있어 부적절함"
+    },
+    "_type": "insert",
+    "_reviewed": true,
+    "_reviewedDate": "2026-10-01",
+    "_reviewer": "JYJ"
+  },
+  {
+    "type": "문장 삽입",
+    "passage": "The concept of mindfulness has gained considerable popularity in recent years. ① Many people turn to meditation and breathing exercises to reduce stress and anxiety in their daily lives. ② Research has shown that regular mindfulness practice can improve mental health and overall well-being. ③ Furthermore, corporations have begun implementing mindfulness programs in their workplaces. ④ Employees who participate in these programs report higher levels of job satisfaction and productivity. ⑤ As scientific evidence continues to support these benefits, mindfulness is likely to become an even more integral part of modern wellness culture.",
+    "given_sentence": "However, experts warn that mindfulness is not a cure-all solution and should be combined with other therapeutic approaches.",
+    "choices": [
+      "①",
+      "②",
+      "③",
+      "④",
+      "⑤"
+    ],
+    "answer": 4,
+    "explanation": "'However'는 대조를 나타내는 접속사로, 앞의 긍정적인 효과들을 인정한 후 제한적인 견해를 제시해야 함. ④ 위치에서 마무리 전에 경고를 덧붙이는 것이 논리적으로 적절.",
+    "wrong_explanations": {
+      "0": "문장 도입부에서 긍정적 개념만 다루고 있어 대조 표현이 어색함",
+      "1": "명상의 효과를 설명하는 부분에서 제한 조건을 제시하기 어색함",
+      "2": "기업 프로그램 도입을 소개하기 전에 경고를 두면 흐름이 끊김",
+      "3": "종합적 결론을 내리기 전에 삽입하면 마무리가 불완전함"
+    },
+    "_type": "insert",
+    "_reviewed": true,
+    "_reviewedDate": "2026-10-01",
+    "_reviewer": "JYJ"
+  },
+  {
+    "type": "문장 삽입",
+    "passage": "Climate change represents one of the most pressing challenges facing humanity today. ① Rising global temperatures are causing unprecedented changes to our ecosystems and weather patterns. ② Coastal communities are becoming increasingly vulnerable to flooding and rising sea levels. ③ Scientists have identified human activities, particularly the emission of greenhouse gases, as the primary driver of these changes. ④ International cooperation and policy reforms are essential to mitigate these effects. ⑤ Individuals can also contribute by making sustainable choices in their daily lives.",
+    "given_sentence": "These measures, while necessary, require immediate and sustained action from governments worldwide.",
+    "choices": [
+      "①",
+      "②",
+      "③",
+      "④",
+      "⑤"
+    ],
+    "answer": 3,
+    "explanation": "'These measures'는 앞서 언급된 국제 협력과 정책 개혁을 지칭함. ④ 위치에서 그 필요성을 강조하고 ⑤의 개인적 행동으로 이어지는 것이 자연스러움.",
+    "wrong_explanations": {
+      "0": "기후 변화를 정의하는 초반부에 '조치들'을 언급할 대상이 없음",
+      "1": "해수면 상승의 구체적 영향을 설명하는 부분에 맞지 않음",
+      "2": "원인을 규명하는 부분에서 '조치'를 언급하기는 시기상조",
+      "4": "개인의 지속 가능한 선택을 언급한 후에 국제적 조치를 강조하면 역순임"
+    },
+    "_type": "insert",
+    "_reviewed": true,
+    "_reviewedDate": "2026-10-01",
+    "_reviewer": "JYJ"
+  },
+  {
+    "type": "문장 삽입",
+    "passage": "The ancient practice of storytelling has served as a fundamental means of cultural transmission for thousands of years. ① Through stories, societies have preserved their values, beliefs, and historical experiences. ② Children learn about their heritage and develop a sense of identity through the narratives shared by their elders. ③ In modern times, storytelling has evolved to include digital platforms and multimedia formats. ④ Despite these technological changes, the core purpose of storytelling remains unchanged. ⑤ Whether told around a campfire or through a smartphone screen, stories continue to connect us to our past and to one another.",
+    "given_sentence": "This transformation demonstrates how traditional practices can adapt and thrive in contemporary society.",
+    "choices": [
+      "①",
+      "②",
+      "③",
+      "④",
+      "⑤"
+    ],
+    "answer": 3,
+    "explanation": "'This transformation'은 ③에서 언급된 현대적 진화를 지칭. ④ 위치에서 변화에도 불구하고 본질은 유지된다는 논리로 자연스럽게 연결됨.",
+    "wrong_explanations": {
+      "0": "이야기의 오래된 전통을 소개할 때 '변화'를 먼저 언급하는 것은 순서가 맞지 않음",
+      "1": "문화 전승의 기본 개념을 설명하는 부분에 변화 관련 문장이 어색함",
+      "2": "디지털 형태의 진화를 소개한 직후 삽입하면 ④와의 연결이 약함",
+      "4": "본질의 지속성을 강조한 후에 변화에 대해 말하면 논리가 역순임"
+    },
+    "_type": "insert",
+    "_reviewed": true,
+    "_reviewedDate": "2026-10-01",
+    "_reviewer": "JYJ"
+  },
+  {
+    "type": "문장 삽입",
+    "passage": "The human brain is an extraordinarily complex organ with remarkable capacities for learning and adaptation. ① Its ability to form new neural connections throughout our lifetime enables continuous personal growth. ② Education plays a crucial role in stimulating this neuroplasticity and developing our cognitive abilities. ③ Different learning methods, such as active engagement and spaced repetition, have been shown to enhance memory retention. ④ Moreover, social interaction and collaborative learning provide additional cognitive benefits. ⑤ Understanding how the brain learns should inform our educational policies and teaching strategies.",
+    "given_sentence": "These findings underscore the importance of moving beyond traditional rote memorization approaches in schools.",
+    "choices": [
+      "①",
+      "②",
+      "③",
+      "④",
+      "⑤"
+    ],
+    "answer": 4,
+    "explanation": "'These findings'은 ③과 ④에서 제시된 다양한 학습 방법의 효과를 지칭. ⑤ 위치에서 전통적 방식 비판 및 교육 정책 개선의 필요성을 강조하는 것이 논리적.",
+    "wrong_explanations": {
+      "0": "뇌의 기본 구조 설명 부분에 학습 방법에 대한 연구 결과를 언급하기 부적절",
+      "1": "교육의 역할을 소개하기 전에 구체적 학습 연구 결과를 언급하면 순서가 맞지 않음",
+      "2": "첫 번째 학습 방법을 소개할 때 이미 그 결과를 강조하는 것은 시기상조",
+      "3": "사회적 학습의 이점을 언급한 직후에는 다른 방법을 추가 소개하는 것이 적절함"
+    },
+    "_type": "insert",
+    "_reviewed": true,
+    "_reviewedDate": "2026-10-01",
+    "_reviewer": "JYJ"
+  },
+  {
+    "type": "문장 삽입",
+    "passage": "Modern cities face increasing pressure to become more sustainable. ① Urban planners must consider how to reduce carbon emissions while maintaining economic growth. ② The challenge lies in balancing environmental protection with practical infrastructure needs. ③ Many cities have started implementing green building standards and promoting public transportation. ④ These initiatives require significant investment and long-term commitment from local governments. ⑤ However, the benefits of sustainable urban development extend far beyond environmental concerns, affecting public health, quality of life, and economic competitiveness.",
+    "given_sentence": "Therefore, cities that invest in these strategies today will likely see improved air quality, reduced healthcare costs, and stronger economic growth in the coming decades.",
+    "choices": [
+      "①",
+      "②",
+      "③",
+      "④",
+      "⑤"
+    ],
+    "answer": 4,
+    "explanation": "주어진 문장은 지시어 'these strategies'와 연결어 'Therefore'로 시작합니다. 앞 문장(⑤)에서 sustainable urban development의 benefits를 언급했으므로, 주어진 문장의 'these strategies'는 이를 참조합니다. 'Therefore'는 앞의 내용을 바탕으로 결론을 내리는 구조입니다.",
+    "wrong_explanations": {
+      "①": "도입 문장 바로 뒤이므로 'these strategies'를 참조할 선행 내용이 부족합니다.",
+      "②": "도전과제를 설명하는 부분이므로 구체적인 전략들이 언급되지 않았습니다.",
+      "③": "초기 사례만 제시했을 뿐, 결론을 내릴 충분한 배경이 아닙니다.",
+      "⑤": "주어진 문장의 'Therefore'가 의미적으로 연결되지 않습니다."
+    },
+    "_type": "insert",
+    "_reviewed": true,
+    "_reviewedDate": "2026-10-01",
+    "_reviewer": "JYJ"
+  },
+  {
+    "type": "문장 삽입",
+    "passage": "The human brain processes information through interconnected neural networks. ① Each neuron communicates with thousands of other neurons through chemical and electrical signals. ② This complex system allows us to perceive the world, form memories, and make decisions. ③ Scientists have been studying brain plasticity for decades, discovering that neural connections can be modified throughout life. ④ Research shows that learning new skills strengthens certain neural pathways while weakening others. ⑤ Understanding these mechanisms is crucial for developing treatments for neurological disorders.",
+    "given_sentence": "This remarkable ability means that our brains remain adaptable and capable of change even in adulthood.",
+    "choices": [
+      "①",
+      "②",
+      "③",
+      "④",
+      "⑤"
+    ],
+    "answer": 3,
+    "explanation": "주어진 문장의 지시어 'This remarkable ability'는 앞 문장(④)에서 언급된 '신경 경로의 수정 가능성'을 참조합니다. 'even in adulthood'라는 표현은 ③에서 'throughout life'와 연결되며, 자연스러운 논리적 흐름을 만듭니다.",
+    "wrong_explanations": {
+      "①": "신경 통신 메커니즘에 대한 설명이므로 'adaptability'와 연결되지 않습니다.",
+      "②": "뇌의 일반적인 기능을 설명하는 부분입니다.",
+      "③": "brain plasticity 연구 개시만 언급했을 뿐 구체적 능력이 명확하지 않습니다.",
+      "⑤": "신경 장애 치료 개발 부분으로 문맥상 맞지 않습니다."
+    },
+    "_type": "insert",
+    "_reviewed": true,
+    "_reviewedDate": "2026-10-01",
+    "_reviewer": "JYJ"
+  },
+  {
+    "type": "문장 삽입",
+    "passage": "Climate change is altering migration patterns of many animal species worldwide. ① Birds are arriving at breeding grounds earlier in spring due to warming temperatures. ② Fish populations are moving toward cooler waters in deeper oceans and higher latitudes. ③ These shifts disrupt the delicate timing between predators and prey, affecting entire ecosystems. ④ Many species face extinction if they cannot adapt quickly enough to rapid environmental changes. ⑤ Conservation efforts must therefore focus on creating wildlife corridors that allow animals to relocate safely.",
+    "given_sentence": "Without such measures, the intricate web of ecological relationships that has evolved over millennia could collapse within a single generation.",
+    "choices": [
+      "①",
+      "②",
+      "③",
+      "④",
+      "⑤"
+    ],
+    "answer": 4,
+    "explanation": "주어진 문장은 연결어 'Without such measures'로 시작하며, 앞 문장(⑤)의 'Conservation efforts'에서 제시된 해결책을 참조합니다. 이 문장은 그 조치들이 없을 경우의 심각한 결과를 설명하는 대조적 구조입니다.",
+    "wrong_explanations": {
+      "①": "새의 도래 시간 변화로 '조치'가 언급되지 않습니다.",
+      "②": "물고기 이동 현상을 설명할 뿐입니다.",
+      "③": "생태계 혼란을 언급하지만 해결책이 아닙니다.",
+      "④": "멸종 위험을 설명하지만 구체적 보전 노력은 없습니다."
+    },
+    "_type": "insert",
+    "_reviewed": true,
+    "_reviewedDate": "2026-10-01",
+    "_reviewer": "JYJ"
+  },
+  {
+    "type": "어휘 적절성",
+    "passage": "The startup company faced significant challenges in its first year, yet the team's determination ① sustained their efforts through difficulties. Investors were impressed by the founders' ability to ② adapt quickly to market changes. The business model ③ evolved continuously, allowing the company to stay competitive. Despite setbacks, quarterly revenue ④ surged unexpectedly, demonstrating strong market demand. Management decided to ⑤ discard their expansion plans, recognizing the enormous potential for growth in emerging markets.",
+    "choices": [
+      "① sustained",
+      "② adapt",
+      "③ evolved",
+      "④ surged",
+      "⑤ discard"
+    ],
+    "answer": 4,
+    "explanation": "⑤ 'discard'(버리다, 폐기하다)는 문맥상 부적절합니다. 문장 앞부분에서 매출이 급증하고 성장 잠재력을 인식했다고 했으므로, 이런 상황에서 '확장 계획을 버린다'는 것은 논리적 모순입니다. 원래는 'accelerate(가속화한다)' 또는 'pursue(추진한다)'가 맞습니다.",
+    "wrong_explanations": {
+      "①": "sustained는 '지속하다'라는 의미로 결정의 효과를 표현합니다.",
+      "②": "adapt는 '적응하다'라는 의미로 창업자들의 능력을 보여줍니다.",
+      "③": "evolved는 '진화하다'라는 의미로 비즈니스 모델의 변화를 설명합니다.",
+      "④": "surged는 '급증하다'라는 의미로 매출 증가를 나타냅니다."
+    },
+    "_type": "vocab",
+    "given_sentence": null,
+    "_reviewed": true,
+    "_reviewedDate": "2026-10-01",
+    "_reviewer": "JYJ"
+  },
+  {
+    "type": "글의 순서",
+    "passage": "Many companies struggle with employee turnover, losing valuable talent to competitors every year. Understanding the root causes can help organizations retain their best workers.\n\n(A) Research shows that career advancement opportunities rank among the top reasons employees choose to stay at a company. When workers see a clear path to promotion and skill development, they become more invested in their organization's success. Companies that provide mentorship programs and training initiatives experience significantly lower turnover rates than those that don't.\n\n(B) Another critical factor is workplace culture and management quality. Employees who feel respected and supported by their supervisors are more likely to remain loyal. Creating an inclusive environment where team members can voice opinions without fear of retaliation builds trust and strengthens workplace relationships. Poor management, conversely, drives even talented workers to seek opportunities elsewhere.\n\n(C) To address these issues effectively, organizations should conduct regular employee satisfaction surveys and act on the feedback received. Implementing competitive salaries, flexible work arrangements, and recognition programs also demonstrates commitment to employee wellbeing. When companies invest in their people, retention improves dramatically.",
+    "choices": [
+      "①(A)-(B)-(C)",
+      "②(A)-(C)-(B)",
+      "③(B)-(A)-(C)",
+      "④(B)-(C)-(A)",
+      "⑤(C)-(A)-(B)"
+    ],
+    "answer": 2,
+    "explanation": "도입부에서 직원 이탈의 원인을 이해하는 것의 중요성을 제시합니다. (B)는 업무 환경과 관리자 품질을 첫 번째 요인으로 소개하고, (A)는 경력 발전 기회를 두 번째 요인으로 제시합니다. (C)는 이러한 문제들을 해결하기 위한 구체적인 방안들을 제시하므로 결론부 역할을 합니다. B→A→C 순서가 논리적입니다.",
+    "wrong_explanations": {
+      "0": "(A)-(B)-(C)로 배열하면 경력 발전 기회부터 시작하는데, 도입부의 '원인 이해'와의 연결이 부자연스럽습니다.",
+      "1": "(A)-(C)-(B)는 해결책을 원인보다 먼저 제시하므로 논리 순서가 틀립니다.",
+      "3": "(B)-(C)-(A)는 중간에 해결책을 먼저 제시한 후 추가 원인을 제시하므로 구조가 어색합니다.",
+      "4": "(C)-(A)-(B)는 결론부터 시작하므로 전개 순서가 맞지 않습니다."
+    },
+    "_type": "order",
+    "given_sentence": null,
+    "_reviewed": true,
+    "_reviewedDate": "2026-10-01",
+    "_reviewer": "JYJ"
+  },
+  {
+    "type": "글의 순서",
+    "passage": "Climate change is accelerating at an unprecedented rate, forcing governments and businesses to rethink their environmental strategies. One promising approach is the transition to renewable energy sources.\n\n(A) Wind and solar power have become increasingly cost-competitive with fossil fuels in recent years. Installation costs have dropped by 90% and 89% respectively over the past decade, making renewable energy accessible to developing nations. Many countries now recognize that investing in clean energy is both an environmental and economic imperative.\n\n(B) Despite these advantages, significant challenges remain in widespread adoption. Energy storage technology must improve to handle intermittent power supply, and infrastructure upgrades are needed to support grid modernization. Additionally, political resistance from fossil fuel industries continues to slow the transition process in many regions.\n\n(C) Nations like Denmark and Costa Rica have already demonstrated that high renewable energy penetration is achievable. These success stories provide blueprints for other countries pursuing similar goals. By learning from these examples and addressing current barriers, global renewable energy adoption can accelerate substantially within the next decade.",
+    "choices": [
+      "①(A)-(B)-(C)",
+      "②(A)-(C)-(B)",
+      "③(B)-(A)-(C)",
+      "④(B)-(C)-(A)",
+      "⑤(C)-(B)-(A)"
+    ],
+    "answer": 0,
+    "explanation": "도입부에서 신재생에너지 전환의 필요성을 제시합니다. (A)는 재생에너지의 경제성과 비용 감소를 긍정적 근거로 제시하고, (B)는 이러한 장점에도 불구하고 남아있는 과제들을 설명합니다. (C)는 구체적 성공 사례를 제시하며 희망적인 결론을 제공합니다. 긍정적 측면→도전 과제→성공 사례 순서가 자연스럽습니다.",
+    "wrong_explanations": {
+      "1": "(A)-(C)-(B)는 성공 사례 후에 문제점을 제시하므로 결론 부분의 희망성이 훼손됩니다.",
+      "2": "(B)-(A)-(C)는 먼저 도전 과제를 제시하므로 도입부의 긍정적 흐름과 맞지 않습니다.",
+      "3": "(B)-(C)-(A)는 문제→성공 사례→경제성 순서로 논리가 산산이 흩어집니다.",
+      "4": "(C)-(B)-(A)는 사례와 도전 과제를 먼저 제시한 후 경제성을 설명하므로 부자연스럽습니다."
+    },
+    "_type": "order",
+    "given_sentence": null,
+    "_reviewed": true,
+    "_reviewedDate": "2026-10-01",
+    "_reviewer": "JYJ"
+  },
+  {
+    "type": "요지/주제",
+    "passage": "The concept of 'slow living' has gained popularity in recent years as people seek to escape the demands of modern life. Unlike the fast-paced culture that emphasizes productivity and efficiency, slow living encourages individuals to intentionally reduce their pace and focus on quality over quantity. This movement encompasses various aspects of daily life, from food preparation to work schedules. Advocates believe that by slowing down, people can develop deeper relationships, improve mental health, and reconnect with their communities. However, critics argue that slow living is a luxury available only to the wealthy who can afford to work less and spend more time on leisure activities. Others point out that the movement overlooks systemic issues like poverty and inequality, which force many people to maintain exhausting work schedules simply to survive. While slow living offers valuable insights about the importance of rest and reflection, applying it universally without addressing broader social and economic challenges remains problematic. True change requires not just individual lifestyle adjustments but also systemic reforms.",
+    "choices": [
+      "①느린 생활이 부자들을 위한 사치품인 이유",
+      "②현대인의 삶의 질 향상을 위한 느린 생활의 긍정적 효과",
+      "③느린 생활 운동의 이점과 그것이 간과하는 사회경제적 문제점",
+      "④빠른 생활과 느린 생활 중 어느 것이 더 나은지",
+      "⑤사회 개혁 없이 개인의 라이프스타일만 변화시키는 방법"
+    ],
+    "answer": 2,
+    "explanation": "이 지문은 느린 생활 운동의 긍정적 측면(더 깊은 관계, 정신 건강 개선)을 인정하면서도, 빈곤과 불평등이라는 체계적 문제를 간과한다는 비판을 제시합니다. 진정한 변화는 개인적 조정뿐 아니라 체계적 개혁을 요구한다는 것이 요지입니다.",
+    "wrong_explanations": {
+      "0": "지문은 느린 생활이 사치품이라는 주장도 제시하지만, 이것만이 주요 요지는 아닙니다.",
+      "1": "지문은 느린 생활의 긍정적 효과만을 다루지 않으며, 비판점도 함께 제시합니다.",
+      "3": "지문은 어느 한 쪽이 더 나은지를 판단하지 않으며, 맥락에 따른 문제점을 지적합니다.",
+      "4": "지문은 개인의 라이프스타일 변화만으로는 부족하다고 주장하므로, 선택지 5는 지문의 요지와 맞지 않습니다."
+    },
+    "_type": "main_idea",
+    "given_sentence": null,
+    "_reviewed": true,
+    "_reviewedDate": "2026-10-01",
+    "_reviewer": "JYJ"
+  },
+  {
+    "type": "요지/주제",
+    "passage": "Urban planning has traditionally focused on maximizing efficiency and functionality, prioritizing vehicle movement and economic development. However, growing evidence suggests that cities designed around human-scale considerations—such as walkability, public gathering spaces, and access to nature—produce happier, healthier residents. Recent studies demonstrate that neighborhoods with mixed-use development, pedestrian-friendly streets, and parks have lower rates of depression, obesity, and stress-related illnesses. Barcelona's superblocks and Copenhagen's cycling infrastructure represent successful examples where urban design prioritizes human well-being. Yet many cities continue to expand highways and shopping malls while eliminating public squares and green spaces. The resistance often stems from economic interests: developers profit from sprawling developments, and automobile industries benefit from car-dependent infrastructure. However, this short-term economic thinking ignores long-term costs, including healthcare expenses for sedentary populations and environmental damage. Progressive cities are beginning to recognize that investing in human-centered design yields better public health outcomes and community satisfaction. The challenge is not technical but political—shifting priorities from corporate interests to human welfare requires courageous policy decisions.",
+    "choices": [
+      "①고효율 도시 설계가 경제 발전에 미치는 긍정적 영향",
+      "②인간 중심의 도시 설계가 주민의 건강과 행복에 미치는 영향",
+      "③도시 계획에서 도로 확장의 필요성",
+      "④자동차 산업이 도시 개발에 기여하는 역할",
+      "⑤공원과 녹지를 제거해야 하는 경제적 이유"
+    ],
+    "answer": 1,
+    "explanation": "이 지문은 전통적인 효율성 중심의 도시 계획에서 벗어나 보행 가능성, 공공 공간, 자연 접근성 등 인간 중심의 설계가 주민의 정신 건강, 신체 건강, 스트레스 감소에 미치는 긍정적 영향을 강조합니다. 정치적 결단으로 기업 이익에서 인간 복지로의 전환이 필요하다는 것이 핵심입니다.",
+    "wrong_explanations": {
+      "0": "지문은 오히려 기존의 효율성 중심 설계를 비판합니다.",
+      "2": "지문은 도로 확장의 필요성을 주장하지 않으며, 오히려 그것이 문제임을 지적합니다.",
+      "3": "자동차 산업의 기여도는 부정적 맥락에서만 언급됩니다.",
+      "4": "지문은 공원과 녹지 제거를 정당화하지 않으며, 오히려 그것이 주민의 건강을 해친다고 주장합니다."
+    },
+    "_type": "main_idea",
+    "given_sentence": null,
+    "_reviewed": true,
+    "_reviewedDate": "2026-10-01",
+    "_reviewer": "JYJ"
+  },
+  {
+    "type": "요지/주제",
+    "passage": "The rise of artificial intelligence has sparked both optimism and concern about its impact on employment. Optimists argue that AI will create new job categories and that technological unemployment is a myth, pointing to historical precedent where previous innovations ultimately generated more jobs. Pessimists counter that AI fundamentally differs from past technologies because of its general-purpose nature and learning capabilities, potentially automating cognitive work previously thought secure from technological disruption. However, evidence suggests the real challenge is not whether jobs will exist but whether the transition period will be managed equitably. During previous technological transitions, many workers experienced severe hardship, displacement, and years of unemployment despite eventual overall job growth. Low-skilled and minority workers were disproportionately affected, while wealthier populations benefited from the new opportunities. Addressing AI-driven change requires more than faith in market forces; proactive policies such as education programs, income support, and labor market transition assistance are essential. Countries that successfully navigate technological change tend to invest heavily in social safety nets and worker retraining. The question is not whether AI will displace jobs but whether societies will prepare adequate support systems for those affected during the transition.",
+    "choices": [
+      "①인공지능이 새로운 일자리를 창출할 수 있는 방법",
+      "②과거 기술 혁신과 인공지능이 고용에 미치는 영향의 동일성",
+      "③인공지능으로 인한 실업보다 중요한 공정한 전환 관리의 필요성",
+      "④기술 실업이 신화라는 근거",
+      "⑤자유 시장이 인공지능 시대의 일자리 문제를 해결하는 방법"
+    ],
+    "answer": 2,
+    "explanation": "이 지문의 핵심은 AI로 인한 실업 자체보다, 전환 기간 동안의 불공정한 영향—특히 저숙련 및 소수자 집단의 고통—을 관리하는 것의 중요성입니다. 시장의 자율성이 아니라 교육, 소득 지원, 노동 시장 전환 지원 같은 능동적 정책이 필수라는 것이 요지입니다.",
+    "wrong_explanations": {
+      "0": "지문은 AI가 일자리를 창출하는 방법을 설명하지 않으며, 전환 관리의 중요성을 강조합니다.",
+      "1": "지문은 오히려 AI와 과거 기술의 근본적 차이를 인정하면서도, 전환 관리가 더 중요함을 주장합니다.",
+      "3": "지문은 기술 실업이 신화라는 낙관주의를 비판하며, 전환 기간의 고통을 강조합니다.",
+      "4": "지문은 자유 시장 힘만으로는 부족하며, 적극적 정책이 필요하다고 주장합니다."
+    },
+    "_type": "main_idea",
+    "given_sentence": null,
+    "_reviewed": true,
+    "_reviewedDate": "2026-10-01",
+    "_reviewer": "JYJ"
+  },
+  {
+    "type": "글의 순서",
+    "passage": "The human brain uses approximately 20 percent of the body's total energy, despite comprising only 2 percent of body weight. Scientists have long wondered why such a small organ consumes so much fuel.\n\n(A) Recent studies suggest that maintaining the brain's neural networks requires constant energy expenditure. Neurons must continuously generate electrical signals and transport molecules across membranes, both of which demand significant ATP production. Even during sleep, the brain remains metabolically active.\n\n(B) One unexpected finding is that the brain's glucose consumption doesn't vary dramatically between different cognitive tasks. Whether a person is solving complex problems or resting quietly, energy usage remains relatively stable. This suggests that most energy goes toward maintaining basic brain functions rather than powering specific thoughts.\n\n(C) Understanding the brain's energy demands has important implications for treating neurological diseases. Conditions like Alzheimer's and Parkinson's involve metabolic dysfunction in brain cells. Researchers are now investigating whether targeting energy production could offer new therapeutic approaches.",
+    "choices": [
+      "①(A)-(B)-(C)",
+      "②(B)-(A)-(C)",
+      "③(B)-(C)-(A)",
+      "④(C)-(A)-(B)",
+      "⑤(C)-(B)-(A)"
+    ],
+    "answer": 0,
+    "explanation": "도입부에서 뇌가 왜 많은 에너지를 소비하는지의 의문 제기. (A)는 신경망 유지에 지속적 에너지가 필요하다는 과학적 설명으로 질문에 직접 답변. (B)는 흥미로운 발견으로 뇌 에너지 소비의 특성을 추가 설명. (C)는 이러한 지식의 의료적 응용으로 결론.",
+    "wrong_explanations": {
+      "②": "(B)의 예상 밖의 발견이 (A)의 기본 설명보다 먼저 나오면 혼란스러움",
+      "③": "질문 직후 (B)의 특수한 발견이 나오면 기본 원리 설명이 먼저 필요하므로 부자연스러움",
+      "④": "도입부 질문 직후 의료적 함의부터 나오면 과학적 근거 없이 논의됨",
+      "⑤": "질문의 답변 순서가 역순이 되어 논리적 흐름 붕괴"
+    },
+    "_type": "order",
+    "given_sentence": null,
+    "_reviewed": true,
+    "_reviewedDate": "2026-10-01",
+    "_reviewer": "JYJ"
+  },
+  {
+    "type": "글의 순서",
+    "passage": "In recent decades, the concept of artificial intelligence has moved from science fiction to everyday reality, raising important questions about its impact on society. Businesses, governments, and individuals must navigate this transformation thoughtfully.\n\n(A) AI systems already perform critical functions in healthcare, transportation, and financial services. Diagnostic algorithms can detect diseases earlier than human doctors, autonomous vehicles promise to reduce traffic accidents, and predictive analytics help prevent fraud. Benefits like these demonstrate AI's potential to solve pressing societal challenges.\n\n(B) Simultaneously, AI development raises significant concerns about employment displacement and privacy violations. Workers in routine jobs face obsolescence as machines grow more capable, while data collection practices associated with AI systems threaten personal privacy. Ethical questions about algorithmic bias and accountability remain largely unresolved in current regulatory frameworks.\n\n(C) Meeting these challenges requires coordinated efforts among technologists, policymakers, and the public. Establishing transparent standards for AI development, investing in worker retraining programs, and creating enforceable privacy protections are essential steps. Societies that act proactively can harness AI's benefits while minimizing its potential harms.",
+    "choices": [
+      "①(A)-(B)-(C)",
+      "②(B)-(A)-(C)",
+      "③(C)-(A)-(B)",
+      "④(B)-(C)-(A)",
+      "⑤(C)-(B)-(A)"
+    ],
+    "answer": 0,
+    "explanation": "도입부에서 AI의 현실화와 신중한 대처 필요성 제시. (A)는 AI의 긍정적 사례와 잠재력을 보여줌. (B)는 그 반대편 우려사항과 문제점을 제시하는 균형잡힌 논의. (C)는 양쪽 입장을 고려한 해결책 제시로 결론.",
+    "wrong_explanations": {
+      "②": "문제점을 먼저 제시하고 장점을 설명하면 부정적 편향이 생김",
+      "③": "도입부 직후 해결책부터 나오면 논쟁 자체가 빠져서 불완전",
+      "④": "문제와 해결책이 먼저 나오고 장점이 나중에 나오면 불균형적",
+      "⑤": "해결책-문제-장점 순서는 논리적 인과관계 완전 파괴"
+    },
+    "_type": "order",
+    "given_sentence": null,
+    "_reviewed": true,
+    "_reviewedDate": "2026-10-01",
+    "_reviewer": "JYJ"
   }
 ];
