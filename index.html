@@ -1606,13 +1606,18 @@ function getFromCache(type) {
 }
 
 // 캐시 상태 표시
-function updateCacheStatus() {
+async function updateCacheStatus() {
   const el = document.getElementById('cacheStatus');
   if (!el) return;
   const types = ['blank', 'insert', 'grammar', 'vocab', 'main_idea', 'order'];
   let cacheTotal = 0;
   types.forEach(t => { cacheTotal += (prefetchCache[t] || []).length; });
-  // 문제은행 (서버 API)
+  // 문제은행 (서버 API) — 매번 최신 값 가져오기
+  try {
+    const res = await fetch('/api/status');
+    const st = await res.json();
+    state.questionCount = st.questionCount || 0;
+  } catch(e) {}
   let bankRemain = state.questionCount || 0;
   if (bankRemain > 0 || cacheTotal > 0) {
     const parts = [];
@@ -1802,9 +1807,25 @@ function renderQuestion() {
   // 지문
   let passageHtml = q.passage.replace(/\n/g, '<br>');
   passageHtml = passageHtml.replace(/___________/g, '<span class="blank">___________</span>');
-  // ①②③④⑤ 번호가 붙은 어휘/구문에 밑줄 처리 (뒤의 슬래시 제거)
-  passageHtml = passageHtml.replace(/([①②③④⑤])(\s*)([\w''\-]+(?:\s+[\w''\-]+){0,3})(\s*\/?\s*)/g,
-    '<u style="text-decoration:underline; text-underline-offset:3px;">$1$2$3</u> ');
+  // ①②③④⑤ 번호가 붙은 어휘/구문에 밑줄 처리 — 선지 단어 수에 맞춰 밑줄 길이 결정
+  if (q.choices && q.choices.length > 0) {
+    const markers = ['①','②','③','④','⑤'];
+    markers.forEach((m, i) => {
+      if (i < q.choices.length) {
+        const choiceText = q.choices[i].replace(/^[①②③④⑤]\s*/, '').trim();
+        const wordCount = choiceText.split(/\s+/).length;
+        const pattern = new RegExp(
+          m.replace(/[.*+?^${}()|[\]\\]/g, '\\$&') + '(\\s*)((?:[\\w\\'\'\\-]+(?:\\s+[\\w\\'\'\\-]+){0,' + (wordCount - 1) + '}))(\\s*\\/?\\s*)',
+          'g'
+        );
+        passageHtml = passageHtml.replace(pattern,
+          '<u style="text-decoration:underline; text-underline-offset:3px;">' + m + '$1$2</u> ');
+      }
+    });
+  } else {
+    passageHtml = passageHtml.replace(/([①②③④⑤])(\s*)([\w''\-]+)(\s*\/?\s*)/g,
+      '<u style="text-decoration:underline; text-underline-offset:3px;">$1$2$3</u> ');
+  }
   // (A)~(E) 형식에도 밑줄 처리 (뒤의 슬래시 제거)
   passageHtml = passageHtml.replace(/(\([A-E]\))\s*([\w''\-]+(?:\s+[\w''\-]+){0,3})(\s*\/?\s*)/g,
     '<u style="text-decoration:underline; text-underline-offset:3px;">$1 $2</u> ');
