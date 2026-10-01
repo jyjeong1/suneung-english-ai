@@ -748,10 +748,24 @@ body {
       <div class="big-num" id="statAccuracy">0%</div>
     </div>
     <div class="stat-card">
-      <h3>가중치 점수</h3>
+      <h3>종합 점수</h3>
       <div class="big-num" id="statScore">0</div>
+      <div id="lpRpDetail" style="font-size:12px;color:var(--sub);margin-top:4px;">LP 0 + RP 0</div>
     </div>
   </div>
+
+  <!-- 점수 안내 -->
+  <div class="stat-card" style="margin-bottom:12px;">
+    <h3>점수 안내</h3>
+    <div style="font-size:12px;color:var(--sub);line-height:2;margin-top:8px;">
+      <b>LP (학습 점수)</b>: 정답 2점 (감수완료 문제 3점) · 연속 학습 하루 10점 · 오답 재도전 성공 3점 · 어휘 퀴즈 완료 5점<br>
+      <b>RP (추천 점수)</b>: 추천 코드로 신규 회원 유치 시 +50점<br>
+      <b>종합 점수</b> = LP + RP
+    </div>
+  </div>
+
+  <!-- 추천 프로그램 -->
+  <div id="referralSection"></div>
 
   <!-- 나의 난이도 수준 -->
   <div class="stat-card">
@@ -1013,6 +1027,117 @@ async function handleLogout() {
   }
 }
 
+// ═══════════════════════════════════════
+// LP/RP 점수 시스템
+// ═══════════════════════════════════════
+function getLPScore() {
+  return parseInt(localStorage.getItem('lpScore') || '0');
+}
+function addLP(points, reason) {
+  let lp = getLPScore() + points;
+  localStorage.setItem('lpScore', lp);
+  state.stats.lp = lp;
+  console.log(`LP +${points} (${reason}) → ${lp}`);
+}
+function getRPScore() {
+  return parseInt(localStorage.getItem('rpScore') || '0');
+}
+function getTotalScore() {
+  return getLPScore() + getRPScore();
+}
+
+// 추천 코드 생성 (유저 uid 앞 6자 기반)
+function getMyReferralCode() {
+  if (!fbUser) return '';
+  let code = localStorage.getItem('myReferralCode');
+  if (!code) {
+    code = 'P' + fbUser.uid.substring(0, 5).toUpperCase();
+    localStorage.setItem('myReferralCode', code);
+  }
+  return code;
+}
+
+// 추천 코드 입력 처리
+async function submitReferralCode() {
+  const input = document.getElementById('referralInput');
+  const code = (input.value || '').trim().toUpperCase();
+  if (!code) return alert('추천 코드를 입력하세요');
+  if (!fbUser) return alert('로그인이 필요합니다');
+  if (localStorage.getItem('referralUsed')) return alert('이미 추천 코드를 사용했습니다');
+  if (code === getMyReferralCode()) return alert('자신의 코드는 사용할 수 없습니다');
+
+  try {
+    // Firestore에서 추천 코드 소유자 찾기
+    const snapshot = await db.collection('users').where('referralCode', '==', code).get();
+    if (snapshot.empty) return alert('유효하지 않은 추천 코드입니다');
+
+    const referrerDoc = snapshot.docs[0];
+    const referrerId = referrerDoc.id;
+
+    // 1. 추천인에게 RP +50, 프리미엄 1주 추가
+    const referrerData = referrerDoc.data();
+    const currentRP = (referrerData.rpScore || 0) + 50;
+    const referralCount = (referrerData.referralCount || 0) + 1;
+    // 프리미엄 만료일 계산 (현재 만료일 또는 오늘 + 7일)
+    const now = new Date();
+    let premiumExpiry = referrerData.premiumExpiry ? new Date(referrerData.premiumExpiry) : now;
+    if (premiumExpiry < now) premiumExpiry = now;
+    premiumExpiry.setDate(premiumExpiry.getDate() + 7);
+
+    await db.collection('users').doc(referrerId).update({
+      rpScore: currentRP,
+      referralCount: referralCount,
+      premiumExpiry: premiumExpiry.toISOString(),
+      isPremium: true,
+    });
+
+    // 2. 추천받은 사람 기록
+    localStorage.setItem('referralUsed', code);
+    localStorage.setItem('referredBy', referrerId);
+    await db.collection('users').doc(fbUser.uid).update({
+      referredBy: referrerId,
+      referralCodeUsed: code,
+    });
+
+    input.value = '';
+    alert('추천 코드 적용 완료! ' + (referrerData.displayName || '추천인') + '님에게 프리미엄 1주가 추가되었습니다.');
+    updateReferralUI();
+  } catch(e) {
+    console.error('추천 코드 처리 실패:', e);
+    alert('처리 중 오류가 발생했습니다');
+  }
+}
+
+function updateReferralUI() {
+  const section = document.getElementById('referralSection');
+  if (!section) return;
+  const myCode = getMyReferralCode();
+  const used = localStorage.getItem('referralUsed');
+  const rp = getRPScore();
+
+  section.innerHTML = `
+    <div style="background:var(--card);border-radius:16px;padding:16px;margin-top:12px;">
+      <h3 style="font-size:15px;font-weight:700;margin-bottom:10px;">🎁 추천 프로그램</h3>
+      <div style="background:#f8f0ff;border-radius:10px;padding:12px;margin-bottom:10px;">
+        <p style="font-size:12px;color:var(--sub);margin-bottom:4px;">나의 추천 코드</p>
+        <div style="display:flex;gap:8px;align-items:center;">
+          <span style="font-size:20px;font-weight:900;color:#4a0033;letter-spacing:2px;">${myCode || '로그인 필요'}</span>
+          ${myCode ? '<button onclick="navigator.clipboard.writeText(\''+myCode+'\');this.textContent=\'복사됨!\';setTimeout(()=>this.textContent=\'복사\',1500)" style="font-size:11px;padding:4px 10px;border:1px solid #ccc;border-radius:6px;background:#fff;cursor:pointer;">복사</button>' : ''}
+        </div>
+        <p style="font-size:11px;color:var(--sub);margin-top:6px;">친구에게 코드를 공유하면 <b>프리미엄 1주 무료</b> (추천 1명당)</p>
+      </div>
+      ${!used ? `
+      <div style="margin-bottom:8px;">
+        <p style="font-size:12px;color:var(--sub);margin-bottom:4px;">추천 코드 입력</p>
+        <div style="display:flex;gap:6px;">
+          <input type="text" id="referralInput" placeholder="추천 코드" style="flex:1;padding:8px 12px;border:1px solid #ddd;border-radius:8px;font-size:14px;text-transform:uppercase;">
+          <button onclick="submitReferralCode()" style="padding:8px 16px;background:#4a0033;color:#fff;border:none;border-radius:8px;font-size:13px;font-weight:700;cursor:pointer;">적용</button>
+        </div>
+      </div>` : `<p style="font-size:12px;color:var(--correct);">✅ 추천 코드 사용 완료 (${used})</p>`}
+    </div>
+  `;
+}
+
 // Firestore에 학습 데이터 저장
 async function syncToFirestore() {
   if (!db || !fbUser) return;
@@ -1029,13 +1154,15 @@ async function syncToFirestore() {
         total: state.stats.total,
         correct: state.stats.correct,
         score: state.stats.score || 0,
+        lp: getLPScore(),
         types: state.stats.types || {},
       },
+      rpScore: getRPScore(),
+      referralCode: getMyReferralCode(),
       streak: state.streak,
       lastDate: state.lastDate,
       todayTotal: todayData.total,
       todayCorrect: todayData.correct,
-      // usedBankQ는 서버에서 관리
       updatedAt: firebase.firestore.FieldValue.serverTimestamp(),
     }, { merge: true });
 
@@ -1125,7 +1252,7 @@ function switchPage(pageId) {
   document.getElementById('page-' + pageId).classList.add('active');
   event.currentTarget.classList.add('active');
   if (pageId === 'home') { updateWeakTypeCard(); updateFreeLimitStatus(); }
-  if (pageId === 'stats') { updateStatsDisplay(); renderBadges(); }
+  if (pageId === 'stats') { updateStatsDisplay(); renderBadges(); updateReferralUI(); }
   if (pageId === 'wrong') renderWrongNotes();
   if (pageId === 'rank') loadLeaderboard();
   if (pageId === 'lounge') renderLounge();
@@ -2184,7 +2311,8 @@ function updateRetryResult(correct) {
       notes[q._retryIndex].retried = true;
       notes[q._retryIndex].retriedCorrect = correct;
       if (correct) {
-        // 정답이면 오답노트에서 제거
+        // 정답이면 오답노트에서 제거 + LP 3점
+        addLP(3, '오답재도전 성공');
         notes.splice(q._retryIndex, 1);
       }
       localStorage.setItem('wrongNotes', JSON.stringify(notes));
@@ -2275,11 +2403,16 @@ const DIFFICULTY_SCORE = { easy: 1, medium: 2, hard: 3 };
 function updateStats(type, correct) {
   state.stats.total++;
   if (correct) state.stats.correct++;
-  // 난이도 가중치 점수
+  // 난이도 가중치 점수 (기존 호환)
   const diff = getDifficulty(type);
   const pts = correct ? (DIFFICULTY_SCORE[diff] || 2) : 0;
   if (!state.stats.score) state.stats.score = 0;
   state.stats.score += pts;
+  // LP 점수: 정답 2점 (감수완료 R문제 3점)
+  if (correct) {
+    const isReviewed = state.currentQuiz && state.currentQuiz._reviewed;
+    addLP(isReviewed ? 3 : 2, isReviewed ? '정답(감수완료)' : '정답');
+  }
   if (!state.stats.types[type]) state.stats.types[type] = { total: 0, correct: 0 };
   state.stats.types[type].total++;
   if (correct) state.stats.types[type].correct++;
@@ -2306,7 +2439,12 @@ function updateStatsDisplay() {
   document.getElementById('statTotal').textContent = state.stats.total;
   const acc = state.stats.total > 0 ? Math.round(state.stats.correct / state.stats.total * 100) : 0;
   document.getElementById('statAccuracy').textContent = acc + '%';
-  document.getElementById('statScore').textContent = state.stats.score || 0;
+  document.getElementById('statScore').textContent = getTotalScore();
+  // LP/RP 상세
+  const lpRpDiv = document.getElementById('lpRpDetail');
+  if (lpRpDiv) {
+    lpRpDiv.innerHTML = `LP ${getLPScore()} + RP ${getRPScore()}`;
+  }
 
   // 나의 유형별 난이도 수준
   const diffDiv = document.getElementById('myDifficultyLevel');
@@ -2435,6 +2573,8 @@ function updateStreak() {
     state.lastDate = today;
     localStorage.setItem('streak', state.streak);
     localStorage.setItem('lastDate', state.lastDate);
+    // LP: 연속 학습 하루당 10점
+    addLP(10, '연속학습 ' + state.streak + '일');
   }
   document.getElementById('streakDisplay').textContent = `🔥 ${state.streak}일 연속`;
 }
@@ -2596,7 +2736,8 @@ function showVocabQuizQuestion() {
   document.getElementById('quizVocabNextBtn').onclick = () => nextVocabQuiz();
   document.getElementById('quizVocabWord').style.fontSize = '28px';
   if (vocabQuizIndex >= vocabQuizList.length) {
-    // 퀴즈 완료
+    // 퀴즈 완료 + LP 5점
+    addLP(5, '어휘퀴즈 완료');
     document.getElementById('vocabQuiz').style.display = 'none';
     document.getElementById('vocabResult').style.display = 'block';
     const pct = Math.round(vocabQuizCorrect / vocabQuizList.length * 100);
@@ -2706,6 +2847,7 @@ function startVocabQuizReverse() {
 
 function showVocabQuizReverse() {
   if (vocabQuizIndex >= vocabQuizList.length) {
+    addLP(5, '한영퀴즈 완료');
     document.getElementById('vocabQuiz').style.display = 'none';
     document.getElementById('vocabResult').style.display = 'block';
     const pct = Math.round(vocabQuizCorrect / vocabQuizList.length * 100);
@@ -2829,7 +2971,10 @@ async function loadLeaderboard() {
         streak: d.streak || 0,
         total: d.stats?.total || 0,
         correct: d.stats?.correct || 0,
-        score: d.stats?.score || 0,
+        score: (d.stats?.lp || d.stats?.score || 0) + (d.rpScore || 0),
+        lp: d.stats?.lp || d.stats?.score || 0,
+        rp: d.rpScore || 0,
+        referralCount: d.referralCount || 0,
         accuracy: d.stats?.total > 0 ? Math.round(d.stats.correct / d.stats.total * 100) : 0,
         photoURL: d.photoURL || '',
       });
