@@ -516,6 +516,52 @@ body {
     <div id="freeLimitStatus" style="font-size:12px; margin-bottom:6px; font-weight:600;"></div>
     <div id="cacheStatus" style="font-size:12px; margin-bottom:10px; font-weight:600;"></div>
     <button class="btn-start" onclick="startDailyQuiz()">시작하기 →</button>
+    <button onclick="showReferralGuide()" style="width:100%;margin-top:8px;padding:12px;border:none;border-radius:12px;background:linear-gradient(135deg,#00704A,#00a86b);color:#fff;font-size:15px;font-weight:800;cursor:pointer;font-family:inherit;letter-spacing:-0.3px;">☕ 친구 추천하고 스타벅스 가자!</button>
+  </div>
+
+  <!-- 추천 보상 안내 모달 -->
+  <div id="referralGuideModal" style="display:none;position:fixed;top:0;left:0;right:0;bottom:0;z-index:1000;background:rgba(0,0,0,0.6);justify-content:center;align-items:center;">
+    <div style="background:#fff;border-radius:20px;max-width:380px;width:90%;max-height:85vh;overflow-y:auto;padding:28px 22px;position:relative;">
+      <button onclick="document.getElementById('referralGuideModal').style.display='none'" style="position:absolute;top:12px;right:14px;background:none;border:none;font-size:22px;cursor:pointer;color:#999;">✕</button>
+      <div style="text-align:center;margin-bottom:20px;">
+        <div style="font-size:48px;margin-bottom:8px;">☕</div>
+        <h2 style="font-size:20px;font-weight:900;color:#00704A;">친구 추천하고<br>스타벅스 가자!</h2>
+      </div>
+
+      <div style="background:#f0faf5;border-radius:12px;padding:16px;margin-bottom:16px;">
+        <h3 style="font-size:14px;font-weight:800;color:#00704A;margin-bottom:10px;">추천 보상</h3>
+        <div style="font-size:13px;line-height:2;color:#333;">
+          <b>1명 추천할 때마다</b><br>
+          → 💎 프리미엄 <b>1주 무료</b> 연장<br>
+          → 🏆 RP <b>+50점</b> (종합 점수 반영)<br><br>
+          <b style="color:#00704A;">3명 추천할 때마다</b><br>
+          → ☕ <b>스타벅스 5,000원 상품권</b> 증정<br>
+          <span style="font-size:11px;color:#888;">(3명, 6명, 9명... 계속 받을 수 있어요!)</span>
+        </div>
+      </div>
+
+      <div style="background:#f8f8f8;border-radius:12px;padding:16px;margin-bottom:16px;">
+        <h3 style="font-size:14px;font-weight:800;color:#333;margin-bottom:10px;">참여 방법</h3>
+        <div style="font-size:13px;line-height:2.2;color:#555;">
+          <b>1.</b> 통계 페이지에서 <b>나의 추천 코드</b> 확인<br>
+          <b>2.</b> 친구에게 코드 공유 (카톡, 문자 등)<br>
+          <b>3.</b> 친구가 Prof.AI 가입 후 코드 입력<br>
+          <b>4.</b> 즉시 프리미엄 1주 + RP 적립!
+        </div>
+      </div>
+
+      <div style="background:#fff8e1;border-radius:12px;padding:14px;margin-bottom:20px;border:1px solid #ffe082;">
+        <div style="font-size:12px;color:#e65100;line-height:1.8;">
+          <b>💡 꿀팁:</b> 같은 반 친구 3명만 추천하면 스타벅스 공짜!<br>
+          6명이면 2잔, 9명이면 3잔... 계속 쌓여요 ☕☕☕
+        </div>
+      </div>
+
+      <div style="display:flex;gap:8px;">
+        <button onclick="switchPage('stats');document.querySelectorAll('.tab-bar button')[3].classList.add('active');document.getElementById('referralGuideModal').style.display='none';setTimeout(updateReferralUI,100);" style="flex:1;padding:12px;border:none;border-radius:10px;background:#00704A;color:#fff;font-size:14px;font-weight:700;cursor:pointer;font-family:inherit;">내 추천 코드 확인 →</button>
+        <button onclick="document.getElementById('referralGuideModal').style.display='none'" style="padding:12px 16px;border:1px solid #ddd;border-radius:10px;background:#fff;color:#666;font-size:14px;cursor:pointer;font-family:inherit;">닫기</button>
+      </div>
+    </div>
   </div>
 
   <!-- 포상 배너 -->
@@ -1205,6 +1251,10 @@ async function syncToFirestore() {
   } catch(e) {
     console.warn('Firestore 동기화 실패:', e);
   }
+}
+
+function showReferralGuide() {
+  document.getElementById('referralGuideModal').style.display = 'flex';
 }
 
 // Firestore에서 데이터 불러오기 (최초 로그인 시)
