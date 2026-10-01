@@ -1,0 +1,501 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Prof.AI 신규30문항 감수도구</title>
+<script src="questions_new_types.js"></script>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700&display=swap');
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:'Noto Sans KR',sans-serif;background:#f0f2f5;color:#222;line-height:1.6;height:100vh;overflow:hidden}
+
+header{background:linear-gradient(135deg,#1a237e,#283593);color:#fff;padding:10px 20px;display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:8px}
+header h1{font-size:16px;font-weight:700}
+header .hdr-info{font-size:12px;color:rgba(255,255,255,0.7)}
+.type-filter{display:flex;gap:4px;flex-wrap:wrap}
+.type-filter button{background:rgba(255,255,255,0.15);color:#fff;border:1px solid rgba(255,255,255,0.3);padding:3px 10px;border-radius:12px;font-size:11px;cursor:pointer;font-family:inherit}
+.type-filter button.active{background:#ffd700;color:#1a237e;font-weight:700;border-color:#ffd700}
+
+.split{display:flex;height:calc(100vh - 80px)}
+.left{flex:1;overflow-y:auto;padding:16px;border-right:2px solid #ddd;background:#f8f9ff}
+.right{flex:1;overflow-y:auto;padding:16px;background:#fff}
+
+/* 왼쪽: 문제 */
+.q-nav{display:flex;justify-content:space-between;align-items:center;margin-bottom:10px;gap:6px}
+.q-nav-btn{background:#1a237e;color:#ffd700;border:none;padding:6px 14px;border-radius:6px;font-size:12px;font-weight:700;cursor:pointer}
+.q-nav-btn:disabled{background:#ccc;color:#888;cursor:default}
+.q-info{font-size:12px;color:#666;text-align:center}
+.q-jump{display:flex;gap:3px;align-items:center}
+.q-jump input{width:50px;padding:4px 6px;border:1px solid #ccc;border-radius:4px;font-size:12px;text-align:center}
+.q-jump button{padding:4px 8px;font-size:11px;background:#e8eaf6;border:1px solid #c5cae9;border-radius:4px;cursor:pointer}
+
+.q-type-badge{display:inline-block;padding:3px 10px;border-radius:12px;font-size:11px;font-weight:700;margin-bottom:8px}
+.badge-purpose{background:#e8eaf6;color:#283593}
+.badge-mood{background:#fce4ec;color:#c62828}
+.badge-claim{background:#e0f2f1;color:#00695c}
+.badge-title{background:#fff8e1;color:#f57f17}
+.badge-irrelevant{background:#f3e5f5;color:#7b1fa2}
+.badge-summary{background:#e0f7fa;color:#00838f}
+.badge-blank{background:#e3f2fd;color:#1565c0}
+.badge-insert{background:#f3e5f5;color:#7b1fa2}
+.badge-grammar{background:#e8f5e9;color:#2e7d32}
+.badge-vocab{background:#fff3e0;color:#e65100}
+.badge-main_idea{background:#fce4ec;color:#c62828}
+.badge-order{background:#e0f7fa;color:#00838f}
+
+.q-instruction{font-size:13px;color:#333;font-weight:600;margin-bottom:10px;padding:8px 12px;background:#f5f5f5;border-radius:6px;border-left:3px solid #1a237e}
+.q-passage{background:#fff;border-radius:8px;padding:14px;font-size:13px;line-height:1.9;margin-bottom:10px;border:1px solid #eee;max-height:38vh;overflow-y:auto}
+.q-given{background:#fff3e0;border-radius:6px;padding:10px;font-size:13px;margin-bottom:8px;font-weight:500;border-left:3px solid #f57c00}
+.q-choices{margin-bottom:10px}
+.q-choice{padding:6px 10px;font-size:13px;border-bottom:1px solid #f0f0f0;border-radius:4px;margin:2px 0}
+.q-choice.answer{color:#2e7d32;font-weight:700;background:#e8f5e9;border-left:3px solid #2e7d32}
+.q-explanation{background:#f5f5f5;border-radius:6px;padding:10px;font-size:12px;line-height:1.7;color:#555}
+.q-explanation b{color:#1a237e}
+
+/* 오른쪽: 감수표 */
+.row{display:flex;gap:8px;margin-bottom:10px;flex-wrap:wrap}
+.field{flex:1;min-width:100px}
+.field label{display:block;font-size:11px;font-weight:700;color:#1a237e;margin-bottom:3px}
+.field input,.field select,.field textarea{width:100%;border:1px solid #d0d0d0;border-radius:5px;padding:7px 10px;font-size:13px;font-family:inherit}
+.field input:focus,.field textarea:focus{outline:none;border-color:#1a237e;box-shadow:0 0 0 2px rgba(26,35,126,0.1)}
+
+h2{font-size:14px;color:#1a237e;margin:14px 0 8px;padding-bottom:4px;border-bottom:2px solid #e8eaf6}
+.check-table{width:100%;border-collapse:collapse;margin-bottom:12px}
+.check-table th{background:#e8eaf6;color:#1a237e;padding:6px 10px;text-align:left;font-size:12px;font-weight:700}
+.check-table td{padding:6px 10px;border-bottom:1px solid #f0f0f0;font-size:13px}
+.radio-group{display:flex;gap:12px;justify-content:center;white-space:nowrap}
+.radio-group label{display:inline-flex;align-items:center;gap:3px;cursor:pointer;font-size:13px;padding:4px 8px;border-radius:4px}
+.radio-group label:hover{background:#f0f0ff}
+.radio-group input[type="radio"]{accent-color:#1a237e;width:15px;height:15px}
+.ok{color:#2e7d32;font-weight:500}
+.err{color:#c62828;font-weight:500}
+
+.verdict{display:flex;gap:8px;margin-bottom:12px}
+.verdict label{flex:1;text-align:center;padding:10px 6px;border:2px solid #e0e0e0;border-radius:6px;cursor:pointer;font-size:13px;font-weight:500;transition:all 0.2s}
+.verdict input[type="radio"]{display:none}
+.verdict .v-approve{border-color:#2e7d32;background:#e8f5e9;color:#2e7d32}
+.verdict .v-revise{border-color:#f57c00;background:#fff3e0;color:#e65100}
+.verdict .v-reject{border-color:#c62828;background:#ffebee;color:#c62828}
+.verdict label:has(input:checked).v-approve{background:#2e7d32;color:#fff}
+.verdict label:has(input:checked).v-revise{background:#f57c00;color:#fff}
+.verdict label:has(input:checked).v-reject{background:#c62828;color:#fff}
+
+.error-section{background:#fff8f0;border:1px solid #ffe0b2;border-radius:6px;padding:12px;margin-bottom:12px}
+.error-section h3{font-size:13px;color:#e65100;margin-bottom:6px}
+textarea{min-height:60px;resize:vertical}
+
+.btn-row{display:flex;gap:8px;flex-wrap:wrap}
+.btn{padding:10px 18px;border:none;border-radius:6px;font-size:13px;font-weight:700;font-family:inherit;cursor:pointer;transition:opacity 0.2s}
+.btn:hover{opacity:0.85}
+.btn-primary{background:#1a237e;color:#fff}
+.btn-secondary{background:#e8eaf6;color:#1a237e}
+.btn-success{background:#2e7d32;color:#fff}
+.btn-export{background:#e65100;color:#fff}
+.btn-gold{background:#1a237e;color:#ffd700}
+
+.counter{background:#e8eaf6;padding:8px 12px;border-radius:6px;margin-bottom:10px;font-size:12px;color:#1a237e;display:flex;justify-content:space-between;flex-wrap:wrap;gap:6px}
+.counter b{font-size:14px}
+
+.prog-bar{height:6px;background:#e0e0e0;border-radius:3px;margin-bottom:10px;overflow:hidden}
+.prog-fill{height:100%;background:linear-gradient(90deg,#2e7d32,#66bb6a);border-radius:3px;transition:width 0.3s}
+
+.saved-item{background:#f8f9ff;border:1px solid #e0e0e0;border-radius:6px;padding:8px 12px;margin:4px 0;display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:6px;font-size:12px}
+.saved-item .id{font-weight:700;color:#1a237e}
+.saved-item .verdict-tag{padding:2px 8px;border-radius:4px;font-size:11px;font-weight:700}
+.saved-item .t-approve{background:#e8f5e9;color:#2e7d32}
+.saved-item .t-revise{background:#fff3e0;color:#e65100}
+.saved-item .t-reject{background:#ffebee;color:#c62828}
+.saved-item .actions button{padding:3px 8px;font-size:11px;border:1px solid #ccc;border-radius:4px;background:#fff;cursor:pointer;font-family:inherit}
+
+@media(max-width:900px){
+  .split{flex-direction:column;height:auto;overflow:auto}
+  .left,.right{border:none;max-height:none}
+  body{overflow:auto;height:auto}
+}
+</style>
+</head>
+<body>
+
+<header>
+  <div>
+    <h1>Prof.AI 신규30문항 감수도구</h1>
+    <div class="hdr-info"><span id="hdrCount"></span></div>
+  </div>
+  <div class="type-filter">
+    <button class="active" onclick="filterType('all',this)">전체</button>
+    <button onclick="filterType('purpose',this)">글의목적</button>
+    <button onclick="filterType('mood',this)">심경추론</button>
+    <button onclick="filterType('claim',this)">필자주장</button>
+    <button onclick="filterType('title',this)">제목추론</button>
+    <button onclick="filterType('irrelevant',this)">무관한문장</button>
+    <button onclick="filterType('summary',this)">요약문완성</button>
+  </div>
+</header>
+
+<div class="split">
+
+<!-- 왼쪽: 문제 표시 -->
+<div class="left">
+  <div class="q-nav">
+    <button class="q-nav-btn" onclick="goQ(-1)" id="prevBtn">◀ 이전</button>
+    <div style="text-align:center">
+      <div class="q-info" id="qInfo">0 / 0</div>
+      <div class="q-jump">
+        <input type="number" id="jumpInput" min="1" placeholder="#"><button onclick="jumpTo()">이동</button>
+        <button onclick="goUnreviewed()" title="미감수 문항으로 이동" style="background:#fff3e0;color:#e65100">미감수→</button>
+      </div>
+    </div>
+    <button class="q-nav-btn" onclick="goQ(1)" id="nextBtn">다음 ▶</button>
+  </div>
+  <div id="qContent"></div>
+</div>
+
+<!-- 오른쪽: 감수표 -->
+<div class="right">
+  <div class="prog-bar"><div class="prog-fill" id="progFill" style="width:0%"></div></div>
+
+  <div class="row">
+    <div class="field"><label>문항 ID</label><input type="text" id="itemId" readonly style="background:#f0f0f0"></div>
+    <div class="field"><label>감수자</label><input type="text" id="reviewer" placeholder="이름"></div>
+    <div class="field"><label>감수일</label><input type="date" id="reviewDate"></div>
+  </div>
+
+  <h2>검사 항목</h2>
+  <table class="check-table">
+    <thead><tr><th style="width:55%">항목</th><th style="width:45%;text-align:center">판정</th></tr></thead>
+    <tbody>
+      <tr><td>1. 정답 정확성 <span style="color:#888;font-size:11px">(정답이 정확하고 유일한가?)</span></td>
+        <td><div class="radio-group"><label><input type="radio" name="c1" value="ok"><span class="ok">적합</span></label><label><input type="radio" name="c1" value="err"><span class="err">오류</span></label></div></td></tr>
+      <tr><td>2. 오답 선지 적절성 <span style="color:#888;font-size:11px">(정답 논란 여지 없는가?)</span></td>
+        <td><div class="radio-group"><label><input type="radio" name="c2" value="ok"><span class="ok">적합</span></label><label><input type="radio" name="c2" value="err"><span class="err">오류</span></label></div></td></tr>
+      <tr><td>3. 해설 정확성 <span style="color:#888;font-size:11px">(논리·문법·분석 오류 없는가?)</span></td>
+        <td><div class="radio-group"><label><input type="radio" name="c3" value="ok"><span class="ok">적합</span></label><label><input type="radio" name="c3" value="err"><span class="err">오류</span></label></div></td></tr>
+      <tr><td>4. 교육과정 적합성 <span style="color:#888;font-size:11px">(수능 범위·어휘 수준 맞는가?)</span></td>
+        <td><div class="radio-group"><label><input type="radio" name="c4" value="ok"><span class="ok">적합</span></label><label><input type="radio" name="c4" value="err"><span class="err">오류</span></label></div></td></tr>
+    </tbody>
+  </table>
+
+  <h2>최종 판정</h2>
+  <div class="verdict">
+    <label class="v-approve" onclick="this.querySelector('input').checked=true;updateVerdict()"><input type="radio" name="verdict" value="승인"><span>승인</span></label>
+    <label class="v-revise" onclick="this.querySelector('input').checked=true;updateVerdict()"><input type="radio" name="verdict" value="수정필요"><span>수정필요</span></label>
+    <label class="v-reject" onclick="this.querySelector('input').checked=true;updateVerdict()"><input type="radio" name="verdict" value="반려"><span>반려</span></label>
+  </div>
+
+  <div class="error-section">
+    <h3>오류 내용 및 수정안 (오류 시만 작성)</h3>
+    <textarea id="errorContent" placeholder="예: 3번 선지 — 문법적으로 정답 가능성 있음. 수정 필요."></textarea>
+  </div>
+
+  <div class="btn-row">
+    <button class="btn btn-primary" onclick="saveItem()">저장 & 다음 →</button>
+    <button class="btn btn-secondary" onclick="clearForm()">초기화</button>
+    <button class="btn btn-export" onclick="exportCSV()">CSV 내보내기</button>
+    <button class="btn btn-success" onclick="exportJSON()">JSON 내보내기</button>
+    <button class="btn btn-gold" onclick="exportReviewedBank()">감수완료 문제은행</button>
+  </div>
+
+  <!-- 감수 현황 -->
+  <div class="counter" style="margin-top:14px;">
+    <span>감수: <b id="totalCount">0</b>/30건</span>
+    <span>승인 <b id="approveCount">0</b> | 수정 <b id="reviseCount">0</b> | 반려 <b id="rejectCount">0</b></span>
+  </div>
+  <div id="savedList" style="max-height:200px;overflow-y:auto"></div>
+</div>
+
+</div>
+
+<script>
+const TYPE_NAMES={purpose:'글의 목적',mood:'심경 추론',claim:'필자의 주장',title:'제목 추론',irrelevant:'무관한 문장',summary:'요약문 완성',blank:'빈칸 추론',insert:'문장 삽입',grammar:'어법 판단',vocab:'어휘 적절성',main_idea:'요지/주제',order:'글의 순서'};
+const INSTRUCTIONS={
+  purpose:'다음 글의 목적으로 가장 적절한 것은?',
+  mood:'밑줄 친 부분에 나타난 심경으로 가장 적절한 것은?',
+  claim:'글에서 필자가 주장하는 바로 가장 적절한 것은?',
+  title:'글의 제목으로 가장 적절한 것은?',
+  irrelevant:'글의 흐름과 관계 없는 문장은?',
+  summary:'위 글의 내용을 한 문장으로 요약하고자 한다. 빈칸 (A)와 (B)에 들어갈 말로 가장 적절한 것은?',
+  blank:'다음 글의 빈칸에 들어갈 말로 가장 적절한 것을 고르시오.',
+  insert:'글의 흐름으로 보아, 주어진 문장이 들어가기에 가장 적절한 곳을 고르시오.',
+  grammar:'다음 글의 밑줄 친 부분 중, 어법상 틀린 것은?',
+  vocab:'다음 글의 밑줄 친 부분 중, 문맥상 낱말의 쓰임이 적절하지 않은 것은?',
+  main_idea:'다음 글의 요지로 가장 적절한 것은?',
+  order:'주어진 글 다음에 이어질 글의 순서로 가장 적절한 것을 고르시오.',
+};
+const STORAGE_KEY = 'profai_review_new';
+let savedItems = JSON.parse(localStorage.getItem(STORAGE_KEY) || '[]');
+let curQ = 0;
+let filteredIndices = null; // null = all
+
+function getReviewedIndices(){ return new Set(savedItems.map(i=>i.qIndex).filter(n=>n!==undefined)); }
+
+function filterType(type, btn){
+  document.querySelectorAll('.type-filter button').forEach(b=>b.classList.remove('active'));
+  btn.classList.add('active');
+  if(type==='all'){ filteredIndices=null; }
+  else{ filteredIndices=QUESTION_BANK.map((q,i)=>q._type===type?i:-1).filter(i=>i>=0); }
+  curQ = filteredIndices ? (filteredIndices[0]||0) : 0;
+  renderQuestion(); clearForm();
+}
+
+function getDisplayIndex(){
+  if(!filteredIndices) return curQ;
+  return filteredIndices.indexOf(curQ);
+}
+function getDisplayTotal(){
+  return filteredIndices ? filteredIndices.length : QUESTION_BANK.length;
+}
+
+function goQ(d){
+  if(filteredIndices){
+    const ci = filteredIndices.indexOf(curQ);
+    const ni = Math.max(0,Math.min(filteredIndices.length-1, ci+d));
+    curQ = filteredIndices[ni];
+  } else {
+    curQ = Math.max(0,Math.min(QUESTION_BANK.length-1, curQ+d));
+  }
+  renderQuestion(); clearForm();
+  document.getElementById('itemId').value = makeId(curQ);
+}
+
+function jumpTo(){
+  const v = parseInt(document.getElementById('jumpInput').value);
+  if(v>=1 && v<=QUESTION_BANK.length){ curQ=v-1; renderQuestion(); clearForm(); document.getElementById('itemId').value=makeId(curQ); }
+}
+
+function goUnreviewed(){
+  const reviewed = getReviewedIndices();
+  const pool = filteredIndices || QUESTION_BANK.map((_,i)=>i);
+  for(const idx of pool){
+    if(!reviewed.has(idx)){ curQ=idx; renderQuestion(); clearForm(); document.getElementById('itemId').value=makeId(curQ); return; }
+  }
+  alert('모든 문항 감수 완료!');
+}
+
+function makeId(idx){
+  const q=QUESTION_BANK[idx];
+  return (TYPE_NAMES[q._type]||q._type)+' #'+(idx+1);
+}
+
+function renderQuestion(){
+  if(!QUESTION_BANK||QUESTION_BANK.length===0){document.getElementById('qContent').innerHTML='<p style="color:#999">문제 없음</p>';return;}
+  const q=QUESTION_BANK[curQ];
+  const reviewed=getReviewedIndices();
+  const st=reviewed.has(curQ)?'<span style="color:#2e7d32;font-weight:700"> ✅완료</span>':'<span style="color:#e65100"> ⬜미감수</span>';
+  const badgeClass='badge-'+(q._type||'blank');
+
+  let p=(q.passage||'').replace(/\n/g,'<br>');
+  let ch=q.choices.map((c,i)=>'<div class="q-choice'+(i===q.answer?' answer':'')+'">'+c+(i===q.answer?' ← AI정답':'')+'</div>').join('');
+
+  document.getElementById('qInfo').innerHTML=(getDisplayIndex()+1)+'/'+getDisplayTotal()+' <span style="color:#888">(전체 #'+(curQ+1)+')</span> '+st;
+  document.getElementById('prevBtn').disabled = filteredIndices ? filteredIndices.indexOf(curQ)===0 : curQ===0;
+  document.getElementById('nextBtn').disabled = filteredIndices ? filteredIndices.indexOf(curQ)===filteredIndices.length-1 : curQ===QUESTION_BANK.length-1;
+  document.getElementById('itemId').value=makeId(curQ);
+
+  document.getElementById('qContent').innerHTML=
+    '<span class="q-type-badge '+badgeClass+'">'+(TYPE_NAMES[q._type]||q._type)+'</span>'+
+    '<div class="q-instruction">'+(INSTRUCTIONS[q._type]||'')+'</div>'+
+    (q.given_sentence?'<div class="q-given">📌 '+q.given_sentence+'</div>':'')+
+    '<div class="q-passage">'+p+'</div>'+
+    '<div class="q-choices">'+ch+'</div>'+
+    '<div class="q-explanation"><b>AI 해설:</b> '+(q.explanation||'없음')+'</div>';
+
+  // 이미 감수된 문항이면 폼 복원
+  const existing = savedItems.find(s=>s.qIndex===curQ);
+  if(existing) restoreForm(existing);
+
+  updateHdrCount();
+  updateProgress();
+}
+
+function restoreForm(item){
+  document.getElementById('reviewer').value = item.reviewer||'';
+  document.getElementById('reviewDate').value = item.date||'';
+  for(let i=1;i<=4;i++){
+    const v=item['c'+i];
+    if(v){ const el=document.querySelector('input[name="c'+i+'"][value="'+v+'"]'); if(el)el.checked=true; }
+  }
+  if(item.verdict){
+    const el=document.querySelector('input[name="verdict"][value="'+item.verdict+'"]');
+    if(el){el.checked=true; updateVerdict();}
+  }
+  document.getElementById('errorContent').value = item.error||'';
+}
+
+function updateHdrCount(){
+  const r=getReviewedIndices();
+  document.getElementById('hdrCount').textContent='감수 '+r.size+'/'+QUESTION_BANK.length+'문항';
+}
+
+function updateProgress(){
+  const r=getReviewedIndices();
+  const pct=Math.round(r.size/QUESTION_BANK.length*100);
+  document.getElementById('progFill').style.width=pct+'%';
+}
+
+function updateVerdict(){document.querySelectorAll('.verdict label').forEach(l=>{l.style.opacity=l.querySelector('input').checked?'1':'0.5'});}
+
+function getFormData(){
+  const checks={};
+  for(let i=1;i<=4;i++){const r=document.querySelector('input[name="c'+i+'"]:checked');checks['c'+i]=r?r.value:'';}
+  const v=document.querySelector('input[name="verdict"]:checked');
+  return{
+    id:document.getElementById('itemId').value.trim(),
+    qIndex:curQ,
+    type:QUESTION_BANK[curQ]?._type||'',
+    reviewer:document.getElementById('reviewer').value.trim(),
+    date:document.getElementById('reviewDate').value,
+    ...checks,
+    verdict:v?v.value:'',
+    error:document.getElementById('errorContent').value.trim(),
+    timestamp:new Date().toISOString()
+  };
+}
+
+function saveItem(){
+  const d=getFormData();
+  if(!d.verdict){alert('최종 판정을 선택하세요.');return;}
+  for(let i=1;i<=4;i++){if(!d['c'+i]){alert('검사 항목 '+i+'번을 체크하세요.');return;}}
+  const ex=savedItems.findIndex(i=>i.qIndex===curQ);
+  if(ex>=0) savedItems[ex]=d; else savedItems.push(d);
+  localStorage.setItem(STORAGE_KEY,JSON.stringify(savedItems));
+  renderList();
+
+  // 다음 미감수 문항으로 이동
+  const reviewed=getReviewedIndices();
+  const pool = filteredIndices || QUESTION_BANK.map((_,i)=>i);
+  const curIdx = pool.indexOf(curQ);
+  let found = false;
+  for(let i=curIdx+1;i<pool.length;i++){
+    if(!reviewed.has(pool[i])){ curQ=pool[i]; found=true; break; }
+  }
+  if(!found) for(let i=0;i<curIdx;i++){
+    if(!reviewed.has(pool[i])){ curQ=pool[i]; found=true; break; }
+  }
+  if(!found && curIdx<pool.length-1) curQ=pool[curIdx+1];
+
+  renderQuestion(); clearForm();
+  document.getElementById('itemId').value=makeId(curQ);
+}
+
+function clearForm(){
+  document.getElementById('errorContent').value='';
+  document.querySelectorAll('.right input[type="radio"]').forEach(r=>r.checked=false);
+  document.querySelectorAll('.verdict label').forEach(l=>l.style.opacity='1');
+}
+
+function deleteItem(idx){
+  if(confirm('삭제?')){
+    savedItems.splice(idx,1);
+    localStorage.setItem(STORAGE_KEY,JSON.stringify(savedItems));
+    renderList(); renderQuestion();
+  }
+}
+
+function editItem(idx){
+  const item=savedItems[idx];
+  curQ=item.qIndex||0;
+  renderQuestion();
+}
+
+function renderList(){
+  const list=document.getElementById('savedList');
+  const a=savedItems.filter(i=>i.verdict==='승인').length;
+  const rv=savedItems.filter(i=>i.verdict==='수정필요').length;
+  const rj=savedItems.filter(i=>i.verdict==='반려').length;
+  document.getElementById('totalCount').textContent=savedItems.length;
+  document.getElementById('approveCount').textContent=a;
+  document.getElementById('reviseCount').textContent=rv;
+  document.getElementById('rejectCount').textContent=rj;
+  if(savedItems.length===0){list.innerHTML='<p style="text-align:center;color:#aaa;padding:12px;font-size:12px">감수 내역 없음</p>';return;}
+
+  // 유형별 통계
+  const byType={};
+  savedItems.forEach(item=>{
+    const t=item.type||'unknown';
+    if(!byType[t]) byType[t]={total:0,approve:0,revise:0,reject:0};
+    byType[t].total++;
+    if(item.verdict==='승인') byType[t].approve++;
+    else if(item.verdict==='수정필요') byType[t].revise++;
+    else byType[t].reject++;
+  });
+
+  let statsHtml='<div style="font-size:11px;color:#666;margin:6px 0;padding:6px;background:#f8f9ff;border-radius:4px">';
+  for(const [t,s] of Object.entries(byType)){
+    statsHtml+=`<span style="margin-right:10px">${TYPE_NAMES[t]||t}: ${s.approve}✅ ${s.revise}⚠️ ${s.reject}❌</span>`;
+  }
+  statsHtml+='</div>';
+
+  list.innerHTML=statsHtml+savedItems.slice().reverse().map((item,ri)=>{
+    const idx=savedItems.length-1-ri;
+    const tc=item.verdict==='승인'?'t-approve':item.verdict==='수정필요'?'t-revise':'t-reject';
+    const ck=[1,2,3,4].map(i=>item['c'+i]==='err'?'❌':'✅').join('');
+    return'<div class="saved-item"><div><span class="id">'+item.id+'</span> <span style="color:#888">'+ck+(item.error?' · 메모':'')+'</span></div><div style="display:flex;gap:6px;align-items:center"><span class="verdict-tag '+tc+'">'+item.verdict+'</span><div class="actions"><button onclick="editItem('+idx+')">보기</button><button onclick="deleteItem('+idx+')">삭제</button></div></div></div>';
+  }).join('');
+  updateHdrCount();
+  updateProgress();
+}
+
+function exportCSV(){
+  if(!savedItems.length){alert('감수 내역 없음');return;}
+  const h=['문항ID','유형','감수자','감수일','정답정확성','선지적절성','해설정확성','교육과정적합','최종판정','오류내용'];
+  const rows=savedItems.map(i=>[i.id,TYPE_NAMES[i.type]||i.type,i.reviewer,i.date,i.c1==='ok'?'적합':'오류',i.c2==='ok'?'적합':'오류',i.c3==='ok'?'적합':'오류',i.c4==='ok'?'적합':'오류',i.verdict,'"'+(i.error||'').replace(/"/g,'""')+'"']);
+  const csv='\uFEFF'+[h.join(','),...rows.map(r=>r.join(','))].join('\n');
+  const a=document.createElement('a');a.href=URL.createObjectURL(new Blob([csv],{type:'text/csv;charset=utf-8'}));a.download='감수결과_신규30문항_'+new Date().toISOString().split('T')[0]+'.csv';a.click();
+}
+
+function exportJSON(){
+  if(!savedItems.length){alert('감수 내역 없음');return;}
+  const a=document.createElement('a');a.href=URL.createObjectURL(new Blob([JSON.stringify(savedItems,null,2)],{type:'application/json'}));a.download='감수결과_신규30문항_'+new Date().toISOString().split('T')[0]+'.json';a.click();
+}
+
+function exportReviewedBank(){
+  const reviewed = [];
+  QUESTION_BANK.forEach((q, i) => {
+    const item = savedItems.find(s => s.qIndex === i);
+    const copy = {...q};
+    if (item) {
+      copy._reviewed = true;
+      copy._verdict = item.verdict;
+      copy._reviewedDate = item.date;
+      copy._reviewer = item.reviewer;
+      copy._checks = {c1:item.c1, c2:item.c2, c3:item.c3, c4:item.c4};
+      if (item.error) copy._reviewNote = item.error;
+    }
+    reviewed.push(copy);
+  });
+  const approvedCount = reviewed.filter(q => q._verdict === '승인').length;
+  const js = '// Prof.AI 문제은행 — 감수 반영 (' + approvedCount + '/' + reviewed.length + '문제 승인)\n'
+    + '// 내보내기: ' + new Date().toISOString().split('T')[0] + '\n'
+    + 'const QUESTION_BANK = ' + JSON.stringify(reviewed, null, 2) + ';\n';
+  const a = document.createElement('a');
+  a.href = URL.createObjectURL(new Blob([js], {type:'text/javascript'}));
+  a.download = 'questions_reviewed_50.js';
+  a.click();
+  alert('감수 반영 문제은행 내보내기 완료!\n승인: '+approvedCount+'문제\n\n이 파일을 questions.js로 교체하면 앱에 반영됩니다.');
+}
+
+// 키보드 단축키
+document.addEventListener('keydown',function(e){
+  if(e.target.tagName==='INPUT'||e.target.tagName==='TEXTAREA') return;
+  if(e.key==='ArrowLeft'){e.preventDefault();goQ(-1);}
+  if(e.key==='ArrowRight'){e.preventDefault();goQ(1);}
+  if(e.key==='1') document.querySelectorAll('input[name="c1"]')[0]?.click();
+  if(e.key==='2') document.querySelectorAll('input[name="c2"]')[0]?.click();
+  if(e.key==='3') document.querySelectorAll('input[name="c3"]')[0]?.click();
+  if(e.key==='4') document.querySelectorAll('input[name="c4"]')[0]?.click();
+  if(e.key==='a'||e.key==='A') document.querySelector('input[name="verdict"][value="승인"]')?.click();
+  if(e.key==='r'||e.key==='R') document.querySelector('input[name="verdict"][value="수정필요"]')?.click();
+  if(e.key==='x'||e.key==='X') document.querySelector('input[name="verdict"][value="반려"]')?.click();
+  if(e.key==='Enter'&&e.ctrlKey){e.preventDefault();saveItem();}
+});
+
+// 초기화
+const sn=localStorage.getItem('profai_reviewer_name')||'';
+document.getElementById('reviewer').value=sn;
+document.getElementById('reviewDate').value=new Date().toISOString().split('T')[0];
+document.getElementById('reviewer').addEventListener('change',function(){localStorage.setItem('profai_reviewer_name',this.value.trim());});
+renderQuestion(); renderList();
+</script>
+</body>
+</html>

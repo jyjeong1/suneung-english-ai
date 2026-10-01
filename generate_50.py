@@ -1,17 +1,17 @@
 #!/usr/bin/env python3
-"""수능 영어 문제은행 200문제 자동 생성 스크립트"""
+"""Prof.AI 50문제 생성 (6개 분야) + 감수도구"""
 import json
 import urllib.request
 import ssl
 import time
 import os
 
-API_KEY = os.environ.get("CLAUDE_API_KEY", "")  # 환경변수에서 가져오기
+API_KEY = os.environ.get("CLAUDE_API_KEY", "")
 
 TYPES = {
     "blank": {
         "name": "빈칸 추론",
-        "count": 34,
+        "count": 9,
         "prompt": """한국 수능 영어 빈칸 추론 (33번 스타일) 문제를 5개 생성하세요.
 
 요구사항:
@@ -21,10 +21,6 @@ TYPES = {
 - 난이도: 중간 (고2~고3 수준)
 - 5개 문제의 소재가 서로 겹치지 않게
 
-중요 — 정답-해설 일치 검증:
-- answer 값(0~4)에 해당하는 choices 선택지와, 해설에서 정답이라고 설명하는 선택지가 반드시 동일해야 한다.
-- 해설 작성 후 반드시 검증: 해설에서 말하는 정답 == choices[answer] 인지 확인할 것.
-
 반드시 아래 JSON 배열 형식으로만 출력하세요 (다른 텍스트 없이):
 [
   {
@@ -32,15 +28,14 @@ TYPES = {
     "passage": "지문 (빈칸을 ___________로 표시)",
     "choices": ["①선택지1","②선택지2","③선택지3","④선택지4","⑤선택지5"],
     "answer": 0,
-    "explanation": "정답 해설 (한국어 — 해설에서 언급하는 정답이 answer와 반드시 일치할 것)",
+    "explanation": "정답 해설 (한국어)",
     "wrong_explanations": {}
-  },
-  ...
+  }
 ]"""
     },
     "insert": {
         "name": "문장 삽입",
-        "count": 33,
+        "count": 8,
         "prompt": """한국 수능 영어 문장 삽입 (38번 스타일) 문제를 5개 생성하세요.
 
 요구사항:
@@ -50,12 +45,6 @@ TYPES = {
 - 난이도: 중간 (고2~고3 수준)
 - 5개 문제의 소재가 서로 겹치지 않게
 
-중요 — 정답 번호와 해설 일치 규칙:
-- 정답 번호(answer)는 삽입 문장이 들어갈 "위치 번호" 자체이다.
-- 예: 문장이 ④ 뒤에 들어가야 한다면 정답은 ⑤(index 4)이다. ④(index 3)가 아니다.
-- 해설에서 "N번 위치가 정답"이라고 쓸 때, 그 N이 answer의 index+1과 반드시 일치해야 한다.
-- 해설 작성 후 반드시 검증: 해설에서 말하는 정답 번호 == choices[answer] 인지 확인할 것.
-
 반드시 아래 JSON 배열 형식으로만 출력하세요 (다른 텍스트 없이):
 [
   {
@@ -64,15 +53,14 @@ TYPES = {
     "given_sentence": "삽입할 문장",
     "choices": ["①","②","③","④","⑤"],
     "answer": 0,
-    "explanation": "정답 해설 (한국어, 접속사/지시어 단서 설명 — 해설에서 언급하는 정답 번호가 answer와 반드시 일치할 것)",
+    "explanation": "정답 해설 (한국어, 접속사/지시어 단서 설명)",
     "wrong_explanations": {}
-  },
-  ...
+  }
 ]"""
     },
     "grammar": {
         "name": "어법 판단",
-        "count": 33,
+        "count": 9,
         "prompt": """한국 수능 영어 어법성 판단 (29번 스타일) 문제를 5개 생성하세요.
 
 요구사항:
@@ -80,12 +68,8 @@ TYPES = {
 - 밑줄 친 부분 5개를 ①word/②word/③word/④word/⑤word 형식으로 표시
 - 그 중 어법상 틀린 것 1개
 - 난이도: 중간 (고2~고3 수준)
-- 문법 포인트: 수동태/능동태, 관계대명사, 분사, to부정사/동명사, 주어-동사 수일치 등 다양하게
+- 문법 포인트: 수동태/능동태, 관계대명사, 분사, to부정사/동명사, 주어-동사 수일치, that/what, 대명사 수일치, 병렬구조, 형용사/부사, 조동사+동사원형 등 다양하게
 - 5개 문제의 소재가 서로 겹치지 않게
-
-중요 — 정답-해설 일치 검증:
-- answer 값(0~4)에 해당하는 choices 선택지와, 해설에서 정답이라고 설명하는 선택지가 반드시 동일해야 한다.
-- 해설 작성 후 반드시 검증: 해설에서 말하는 정답 == choices[answer] 인지 확인할 것.
 
 반드시 아래 JSON 배열 형식으로만 출력하세요 (다른 텍스트 없이):
 [
@@ -94,15 +78,14 @@ TYPES = {
     "passage": "지문 (밑줄 부분을 ①word/②word/③word/④word/⑤word 형식으로)",
     "choices": ["①word1", "②word2", "③word3", "④word4", "⑤word5"],
     "answer": 0,
-    "explanation": "정답 해설 (한국어, 문법 규칙 설명 — 해설에서 언급하는 정답이 answer와 반드시 일치할 것)",
+    "explanation": "정답 해설 (한국어, 문법 규칙 설명)",
     "wrong_explanations": {}
-  },
-  ...
+  }
 ]"""
     },
     "vocab": {
         "name": "어휘 적절성",
-        "count": 33,
+        "count": 8,
         "prompt": """한국 수능 영어 어휘 적절성 (30번 스타일) 문제를 5개 생성하세요.
 
 요구사항:
@@ -112,10 +95,6 @@ TYPES = {
 - 난이도: 중간 (고2~고3 수준)
 - 5개 문제의 소재가 서로 겹치지 않게
 
-중요 — 정답-해설 일치 검증:
-- answer 값(0~4)에 해당하는 choices 선택지와, 해설에서 정답이라고 설명하는 선택지가 반드시 동일해야 한다.
-- 해설 작성 후 반드시 검증: 해설에서 말하는 정답 == choices[answer] 인지 확인할 것.
-
 반드시 아래 JSON 배열 형식으로만 출력하세요 (다른 텍스트 없이):
 [
   {
@@ -123,15 +102,14 @@ TYPES = {
     "passage": "지문 (밑줄 어휘를 ①word/②word/③word/④word/⑤word로)",
     "choices": ["①word1", "②word2", "③word3", "④word4", "⑤word5"],
     "answer": 0,
-    "explanation": "정답 해설 (한국어, 왜 부적절하고 어떤 단어가 적절한지 — 해설에서 언급하는 정답이 answer와 반드시 일치할 것)",
+    "explanation": "정답 해설 (한국어, 왜 부적절하고 어떤 단어가 적절한지)",
     "wrong_explanations": {}
-  },
-  ...
+  }
 ]"""
     },
     "main_idea": {
         "name": "요지/주제",
-        "count": 33,
+        "count": 8,
         "prompt": """한국 수능 영어 요지/주제 파악 (22번 스타일) 문제를 5개 생성하세요.
 
 요구사항:
@@ -141,10 +119,6 @@ TYPES = {
 - 난이도: 중간 (고2~고3 수준)
 - 5개 문제의 소재가 서로 겹치지 않게
 
-중요 — 정답-해설 일치 검증:
-- answer 값(0~4)에 해당하는 choices 선택지와, 해설에서 정답이라고 설명하는 선택지가 반드시 동일해야 한다.
-- 해설 작성 후 반드시 검증: 해설에서 말하는 정답 == choices[answer] 인지 확인할 것.
-
 반드시 아래 JSON 배열 형식으로만 출력하세요 (다른 텍스트 없이):
 [
   {
@@ -152,15 +126,14 @@ TYPES = {
     "passage": "지문",
     "choices": ["①한국어 선택지1","②한국어 선택지2","③한국어 선택지3","④한국어 선택지4","⑤한국어 선택지5"],
     "answer": 0,
-    "explanation": "정답 해설 (한국어 — 해설에서 언급하는 정답이 answer와 반드시 일치할 것)",
+    "explanation": "정답 해설 (한국어)",
     "wrong_explanations": {}
-  },
-  ...
+  }
 ]"""
     },
     "order": {
         "name": "글의 순서",
-        "count": 34,
+        "count": 8,
         "prompt": """한국 수능 영어 글의 순서 (36번 스타일) 문제를 5개 생성하세요.
 
 요구사항:
@@ -170,10 +143,6 @@ TYPES = {
 - 난이도: 중간 (고2~고3 수준)
 - 5개 문제의 소재가 서로 겹치지 않게
 
-중요 — 정답-해설 일치 검증:
-- answer 값(0~4)에 해당하는 choices 선택지와, 해설에서 정답이라고 설명하는 순서가 반드시 동일해야 한다.
-- 해설 작성 후 반드시 검증: 해설에서 말하는 정답 순서 == choices[answer] 인지 확인할 것.
-
 반드시 아래 JSON 배열 형식으로만 출력하세요 (다른 텍스트 없이):
 [
   {
@@ -181,13 +150,13 @@ TYPES = {
     "passage": "도입부\\n\\n(A) ...\\n\\n(B) ...\\n\\n(C) ...",
     "choices": ["①(A)-(C)-(B)","②(B)-(A)-(C)","③(B)-(C)-(A)","④(C)-(A)-(B)","⑤(C)-(B)-(A)"],
     "answer": 0,
-    "explanation": "정답 해설 (한국어, 접속사/지시어 단서 설명 — 해설에서 언급하는 정답 순서가 answer와 반드시 일치할 것)",
+    "explanation": "정답 해설 (한국어, 접속사/지시어 단서 설명)",
     "wrong_explanations": {}
-  },
-  ...
+  }
 ]"""
     },
 }
+
 
 def call_api(prompt):
     req_body = json.dumps({
@@ -225,8 +194,6 @@ def call_api(prompt):
 
 
 def parse_questions(text):
-    """JSON 배열 추출"""
-    # [ 로 시작하는 부분 찾기
     start = text.find("[")
     end = text.rfind("]") + 1
     if start < 0 or end <= 0:
@@ -234,54 +201,13 @@ def parse_questions(text):
     try:
         return json.loads(text[start:end])
     except json.JSONDecodeError:
-        print("  ⚠️ JSON 파싱 실패, 스킵")
+        print("  ⚠️ JSON 파싱 실패")
         return []
-
-
-def load_passages():
-    """수집된 지문 로드 — 문제 생성 시 참조용"""
-    passages_path = os.path.join(os.path.dirname(__file__), "passages", "raw_passages.json")
-    if os.path.exists(passages_path):
-        with open(passages_path, "r", encoding="utf-8") as f:
-            passages = json.load(f)
-        print(f"📚 수집 지문 {len(passages)}개 로드 (passages/raw_passages.json)")
-        return passages
-    return []
-
-import random
-
-def build_prompt_with_passage(type_info, passages, used_indices):
-    """수집된 지문을 프롬프트에 포함하여 문제 생성"""
-    base_prompt = type_info["prompt"]
-
-    # 사용하지 않은 지문 중 3개 선택
-    available = [i for i in range(len(passages)) if i not in used_indices]
-    if len(available) < 3:
-        return base_prompt, set()
-
-    selected = random.sample(available, min(3, len(available)))
-    new_used = set(selected)
-
-    passage_texts = ""
-    for idx in selected:
-        p = passages[idx]
-        passage_texts += f"\n\n--- 참고 지문 ({p['title']}, {p['category']}) ---\n{p['passage']}\n"
-
-    enhanced_prompt = base_prompt + f"""
-
-아래 참고 지문들을 활용하거나 영감을 받아 문제를 만드세요.
-지문을 그대로 사용하거나, 주제와 내용을 참고하여 수능 스타일에 맞게 재구성해도 됩니다.
-반드시 참고 지문만 사용할 필요는 없으며, 독자적 지문을 포함해도 됩니다.
-{passage_texts}"""
-
-    return enhanced_prompt, new_used
 
 
 def main():
     all_questions = {}
     total = 0
-    passages = load_passages()
-    used_passage_indices = set()
 
     for type_key, type_info in TYPES.items():
         all_questions[type_key] = []
@@ -294,17 +220,10 @@ def main():
 
         while len(all_questions[type_key]) < needed:
             batch_num += 1
-            remaining = needed - len(all_questions[type_key])
-            print(f"  배치 {batch_num}: 생성 중... (현재 {len(all_questions[type_key])}/{needed})")
+            print(f"  배치 {batch_num}: 생성 중... ({len(all_questions[type_key])}/{needed})")
 
             try:
-                if passages:
-                    prompt, new_used = build_prompt_with_passage(type_info, passages, used_passage_indices)
-                    used_passage_indices.update(new_used)
-                else:
-                    prompt = type_info["prompt"]
-
-                result = call_api(prompt)
+                result = call_api(type_info["prompt"])
                 questions = parse_questions(result)
 
                 for q in questions:
@@ -320,30 +239,31 @@ def main():
             except Exception as e:
                 print(f"  ❌ 에러: {e}")
 
-            time.sleep(1)  # API 부하 방지
+            time.sleep(1)
 
-        # 필요한 수만큼만 유지
         all_questions[type_key] = all_questions[type_key][:needed]
         total += len(all_questions[type_key])
         print(f"  🎯 {type_info['name']}: {len(all_questions[type_key])}문제 완료")
 
-    # questions.js 파일 생성
+    # questions_50.js 파일 생성
     flat_list = []
     for type_key in TYPES:
         flat_list.extend(all_questions[type_key])
 
-    js_content = f"// 수능영어AI 문제은행 — {total}문제 (자동 생성)\n"
-    js_content += f"// 유형별: " + ", ".join(f"{v['name']} {len(all_questions[k])}문제" for k, v in TYPES.items()) + "\n"
+    js_content = f"// Prof.AI 문제은행 — {total}문제 (6개 분야)\n"
+    js_content += f"// " + ", ".join(f"{v['name']} {len(all_questions[k])}문제" for k, v in TYPES.items()) + "\n"
+    js_content += f"// 생성일: {time.strftime('%Y-%m-%d %H:%M')}\n"
     js_content += f"const QUESTION_BANK = {json.dumps(flat_list, ensure_ascii=False, indent=2)};\n"
 
-    output_path = os.path.join(os.path.dirname(__file__), "questions.js")
+    output_path = os.path.join(os.path.dirname(__file__), "questions_50.js")
     with open(output_path, "w", encoding="utf-8") as f:
         f.write(js_content)
 
     print(f"\n{'='*50}")
     print(f"🎉 완료! 총 {total}문제 생성")
+    for k, v in TYPES.items():
+        print(f"  {v['name']}: {len(all_questions[k])}문제")
     print(f"📁 저장: {output_path}")
-    print(f"📊 파일 크기: {os.path.getsize(output_path) / 1024:.1f} KB")
     print(f"{'='*50}")
 
 
