@@ -554,7 +554,8 @@ body {
         <div style="font-size:12px;color:#e65100;line-height:1.8;">
           <b>💡 꿀팁:</b> 같은 반 친구 3명만 추천하면 스타벅스 공짜!<br>
           6명이면 2잔, 9명이면 3잔... 계속 쌓여요 ☕☕☕<br>
-          <span style="font-size:11px;color:#c62828;">※ 고등학생 및 대입 수험생에 한함</span>
+          <span style="font-size:11px;color:#c62828;">※ 고등학생 및 대입 수험생에 한함</span><br>
+          <span style="font-size:11px;color:#1565c0;cursor:pointer;text-decoration:underline;" onclick="document.getElementById('referralGuideModal').style.display='none';requestGift();">📋 상품권 신청하기 (학생증 확인 필요)</span>
         </div>
       </div>
 
@@ -1024,6 +1025,60 @@ function renderBadges() {
 }
 
 // ═══════════════════════════════════════
+// 학생 인증 시스템
+// ═══════════════════════════════════════
+function checkStudentVerification() {
+  if (localStorage.getItem('studentVerified')) return;
+  // 첫 로그인 시 자기 선언 모달
+  document.getElementById('studentVerifyModal').style.display = 'flex';
+}
+
+function confirmStudentStatus() {
+  const checked = document.getElementById('studentCheckbox').checked;
+  if (!checked) return alert('확인 체크를 해주세요.');
+  localStorage.setItem('studentVerified', 'true');
+  document.getElementById('studentVerifyModal').style.display = 'none';
+  if (db && fbUser) {
+    db.collection('users').doc(fbUser.uid).update({ studentVerified: true, studentVerifiedAt: new Date().toISOString() });
+  }
+}
+
+// 상품권 신청 (학생증 업로드)
+function requestGift() {
+  document.getElementById('giftRequestModal').style.display = 'flex';
+}
+
+async function submitGiftRequest() {
+  const fileInput = document.getElementById('studentIdPhoto');
+  if (!fileInput.files.length) return alert('학생증 사진을 첨부해주세요.');
+  if (!fbUser) return alert('로그인이 필요합니다.');
+
+  const file = fileInput.files[0];
+  if (file.size > 5 * 1024 * 1024) return alert('파일 크기는 5MB 이하여야 합니다.');
+
+  try {
+    // Base64로 변환하여 Firestore에 저장
+    const reader = new FileReader();
+    reader.onload = async function(e) {
+      const base64 = e.target.result;
+      await db.collection('gift_verifications').add({
+        uid: fbUser.uid,
+        displayName: fbUser.displayName || '',
+        email: fbUser.email || '',
+        studentIdPhoto: base64,
+        status: 'pending',
+        createdAt: firebase.firestore.FieldValue.serverTimestamp(),
+      });
+      document.getElementById('giftRequestModal').style.display = 'none';
+      alert('학생증 확인 요청이 접수되었습니다.\n관리자 확인 후 상품권이 지급됩니다.');
+    };
+    reader.readAsDataURL(file);
+  } catch(e) {
+    alert('요청 실패: ' + e.message);
+  }
+}
+
+// ═══════════════════════════════════════
 // Firebase 인증 & 동기화
 // ═══════════════════════════════════════
 function initFirebase() {
@@ -1044,6 +1099,7 @@ function initFirebase() {
       loadFromFirestore();
       loadSolvedFromFirestore();
       checkPremiumStatus();
+      checkStudentVerification();
       // 로그인 즉시 문제 미리 가져오기
       setTimeout(() => {
         ['blank','insert','grammar','vocab','main_idea','order'].forEach(t => prefetchNextQuestion(t));
@@ -3432,6 +3488,51 @@ function nextOnboard() {
 // 첫 방문 시 온보딩 표시
 showOnboarding();
 </script>
+
+<!-- 학생 인증 자기선언 모달 -->
+<div id="studentVerifyModal" style="display:none;position:fixed;top:0;left:0;right:0;bottom:0;z-index:1000;background:rgba(0,0,0,0.6);justify-content:center;align-items:center;">
+  <div style="background:#fff;border-radius:20px;max-width:360px;width:90%;padding:28px 22px;text-align:center;">
+    <div style="font-size:40px;margin-bottom:12px;">🎓</div>
+    <h2 style="font-size:18px;font-weight:800;margin-bottom:12px;">학생 확인</h2>
+    <p style="font-size:13px;color:#666;line-height:1.7;margin-bottom:20px;">
+      Prof.AI 수능영어는 고등학생 및 대입 수험생을 위한 서비스입니다.<br>
+      추천 보상(스타벅스 상품권 등)은 학생 인증 후 지급됩니다.
+    </p>
+    <label style="display:flex;align-items:flex-start;gap:10px;text-align:left;margin-bottom:20px;cursor:pointer;">
+      <input type="checkbox" id="studentCheckbox" style="margin-top:3px;width:18px;height:18px;accent-color:#1a237e;">
+      <span style="font-size:13px;color:#333;line-height:1.6;">본인은 <b>고등학생 또는 대입 수험생</b>임을 확인합니다.</span>
+    </label>
+    <button onclick="confirmStudentStatus()" style="width:100%;padding:14px;border:none;border-radius:12px;background:#1a237e;color:#fff;font-size:15px;font-weight:700;cursor:pointer;font-family:inherit;">확인</button>
+  </div>
+</div>
+
+<!-- 상품권 신청 모달 (학생증 업로드) -->
+<div id="giftRequestModal" style="display:none;position:fixed;top:0;left:0;right:0;bottom:0;z-index:1000;background:rgba(0,0,0,0.6);justify-content:center;align-items:center;">
+  <div style="background:#fff;border-radius:20px;max-width:380px;width:90%;padding:28px 22px;">
+    <button onclick="document.getElementById('giftRequestModal').style.display='none'" style="float:right;background:none;border:none;font-size:22px;cursor:pointer;color:#999;">✕</button>
+    <div style="text-align:center;margin-bottom:16px;">
+      <div style="font-size:40px;margin-bottom:8px;">☕</div>
+      <h2 style="font-size:18px;font-weight:800;">스타벅스 상품권 신청</h2>
+    </div>
+    <div style="background:#f8f8f8;border-radius:12px;padding:14px;margin-bottom:16px;">
+      <p style="font-size:13px;color:#555;line-height:1.8;">
+        상품권 지급을 위해 <b>학생증 사진</b>을 제출해주세요.<br>
+        관리자 확인 후 등록된 이메일로 상품권이 발송됩니다.
+      </p>
+    </div>
+    <div style="margin-bottom:16px;">
+      <label style="font-size:12px;font-weight:700;color:#333;display:block;margin-bottom:6px;">학생증 사진 첨부</label>
+      <input type="file" id="studentIdPhoto" accept="image/*" style="font-size:13px;width:100%;">
+      <p style="font-size:11px;color:#999;margin-top:4px;">* 이름, 학교, 학년이 보이도록 촬영 (5MB 이하)</p>
+    </div>
+    <div style="background:#fff3e0;border-radius:8px;padding:10px;margin-bottom:16px;">
+      <p style="font-size:11px;color:#e65100;line-height:1.6;">
+        🔒 제출된 학생증은 본인 확인 용도로만 사용되며, 확인 즉시 삭제됩니다.
+      </p>
+    </div>
+    <button onclick="submitGiftRequest()" style="width:100%;padding:14px;border:none;border-radius:12px;background:#00704A;color:#fff;font-size:15px;font-weight:700;cursor:pointer;font-family:inherit;">신청하기</button>
+  </div>
+</div>
 
 </body>
 </html>
