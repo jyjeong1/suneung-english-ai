@@ -4,11 +4,11 @@ const QUESTION_BANK = [
     "type": "어법 판断",
     "passage": "The researchers ①has been studying the effects of climate change on marine ecosystems for over a decade. Their findings ②show that ocean temperatures are rising at an alarming rate. Many fish species ③are forced to migrate to cooler waters in search of suitable habitats. Scientists believe ④to understand these patterns is crucial for developing effective conservation strategies. The data ⑤which they collected reveals significant changes in biodiversity levels across different regions.",
     "choices": [
-      "has been",
-      "show",
-      "are forced",
-      "to understand",
-      "which"
+      "①has been",
+      "②show",
+      "③are forced",
+      "④to understand",
+      "⑤which"
     ],
     "answer": 0,
     "explanation": "①번이 오답입니다. 주어 'The researchers'는 복수이므로 단수동사 'has'가 아닌 복수동사 'have'를 사용해야 합니다. 정답은 'have been studying'입니다.",
@@ -26,11 +26,11 @@ const QUESTION_BANK = [
     "type": "어법 판断",
     "passage": "Modern technology ①can helps businesses improve their operational efficiency significantly. Companies ②that invest in digital transformation ③are seeing remarkable growth in productivity. Employees ④who work with advanced tools find it easier to complete complex tasks. Organizations must ⑤understand the importance of continuous learning and development in this rapidly evolving landscape.",
     "choices": [
-      "can helps",
-      "that invest",
-      "are seeing",
-      "who work",
-      "understand"
+      "①can helps",
+      "②that invest",
+      "③are seeing",
+      "④who work",
+      "⑤understand"
     ],
     "answer": 0,
     "explanation": "①번이 오답입니다. 조동사 'can' 다음에는 동사원형을 사용해야 하므로 'can helps'가 아닌 'can help'를 사용해야 합니다.",
@@ -48,11 +48,11 @@ const QUESTION_BANK = [
     "type": "어법 판断",
     "passage": "Environmental activists encourage governments ①to studying renewable energy sources more seriously. Transitioning ②to clean energy ③requires significant investment and political commitment. Nations ④that have adopted solar and wind technologies ⑤demonstrate reduced carbon emissions. The transition process involves retraining workers and updating existing infrastructure to support sustainable development.",
     "choices": [
-      "to studying",
-      "to clean",
-      "requires",
-      "that have",
-      "demonstrate"
+      "①to studying",
+      "②to clean",
+      "③requires",
+      "④that have",
+      "⑤demonstrate"
     ],
     "answer": 0,
     "explanation": "①번이 오답입니다. 'encourage' 다음에 목적어와 함께 올 때는 'to+동사원형' 구조를 사용해야 하므로 'to studying'이 아닌 'to study'를 사용해야 합니다.",
@@ -70,11 +70,11 @@ const QUESTION_BANK = [
     "type": "어법 판断",
     "passage": "The students ①who are preparing for the examination ②need consistent practice and guidance. Educational institutions ③must provide resources which ④help learners achieve their academic goals. Teachers ⑤should encourage young people which are interested in advanced studies to pursue higher education.",
     "choices": [
-      "who are",
-      "need",
-      "must provide",
-      "help",
-      "which"
+      "①who are",
+      "②need",
+      "③must provide",
+      "④help",
+      "⑤which"
     ],
     "answer": 4,
     "explanation": "⑤번이 오답입니다. 선행사가 'young people'(사람)이므로 관계대명사 'which'가 아닌 'who'를 사용해야 합니다. 정답은 'who are interested'입니다.",
@@ -92,11 +92,11 @@ const QUESTION_BANK = [
     "type": "어법 판断",
     "passage": "Digital literacy programs ①has transformed the way communities access information and educational resources. Young adults ②who participate in these initiatives ③gain valuable skills for employment. Organizations ④supporting digital training ⑤can create opportunities for underprivileged populations to improve their socioeconomic status.",
     "choices": [
-      "has transformed",
-      "who participate",
-      "gain",
-      "supporting",
-      "can create"
+      "①has transformed",
+      "②who participate",
+      "③gain",
+      "④supporting",
+      "⑤can create"
     ],
     "answer": 0,
     "explanation": "①번이 오답입니다. 주어 'Digital literacy programs'는 복수이므로 단수동사 'has'가 아닌 복수동사 'have'를 사용해야 합니다. 정답은 'have transformed'입니다.",
