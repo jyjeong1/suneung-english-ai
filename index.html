@@ -1673,7 +1673,7 @@ async function startDailyQuiz() {
 
 async function startTypeTraining(type) {
   if (!checkFreeLimit()) return;
-  quizQueue = [type];
+  quizQueue = [type, type, type, type, type];
   state.currentQuestionIndex = 0;
   switchToQuizPage();
   await loadQuestion(type);
