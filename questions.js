@@ -1,5 +1,5 @@
-// Prof.AI 감수용 샘플 문제 — 40문제
-// 생성일: 2026-09-28
+// Prof.AI 문제은행 — 감수 승인 20문제
+// 감수일: 2026-09-30, 감수자: SPARK
 const QUESTION_BANK = [
   {
     "type": "빈칸 추론",
@@ -20,28 +20,10 @@ const QUESTION_BANK = [
       "4": "우울증이 아닌 정상적인 정서 조절 메커니즘으로 설명함"
     },
     "_type": "blank",
-    "given_sentence": null
-  },
-  {
-    "type": "빈칸 추론",
-    "passage": "Language acquisition in early childhood represents one of the most remarkable cognitive achievements. While adults struggle to learn new languages, children effortlessly acquire complex grammatical structures and vast vocabularies. Researchers have long debated whether this linguistic superiority reflects inherent biological advantages or environmental factors. Recent studies in psycholinguistics suggest that children's success is ___________. Their brains demonstrate greater neuroplasticity, meaning they can reorganize neural connections more fluidly than adult brains. Additionally, children encounter language in rich, socially embedded contexts where caregivers intuitively adjust their speech patterns to facilitate comprehension. This phenomenon, called 'motherese' or infant-directed speech, contains exaggerated prosody and simplified syntax perfectly calibrated for learning. Adults, conversely, often learn languages in artificial classroom settings with explicit rule instruction. The paradox emerges when we recognize that while adult cognition is superior in many domains, language learning constitutes an exception where childhood advantages prove decisive. Understanding these differential mechanisms illuminates why immersion during critical developmental periods yields superior long-term fluency and accent-free pronunciation.",
-    "choices": [
-      "①attributable to both neurobiological maturation and optimized social contexts",
-      "②solely determined by genetic programming established before birth",
-      "③primarily caused by children's greater motivation and diligence",
-      "④a result of inferior adult neural plasticity combined with aging",
-      "⑤dependent exclusively on the amount of exposure time"
-    ],
-    "answer": 0,
-    "explanation": "지문은 신경가소성(neuroplasticity)과 '마더시'와 같은 사회적 맥락이 함께 작용한다고 설명합니다. '두 요소 모두'를 강조하는 therefore와 비교 구조가 정답을 지지합니다.",
-    "wrong_explanations": {
-      "1": "지문이 환경적 요소(motherese, 사회적 맥락)의 중요성을 명확히 강조함",
-      "2": "아동의 높은 동기가 언어 학습 우위를 설명하지 못함을 암시",
-      "3": "성인의 신경가소성도 존재하며, 단순한 노화의 문제가 아님",
-      "4": "지문이 노출 시간보다 맥락의 질과 발달 시기의 중요성을 강조"
-    },
-    "_type": "blank",
-    "given_sentence": null
+    "given_sentence": null,
+    "_reviewed": true,
+    "_reviewedDate": "2026-09-30",
+    "_reviewer": "SPARK"
   },
   {
     "type": "빈칙 추론",
@@ -62,7 +44,10 @@ const QUESTION_BANK = [
       "4": "패턴이 있으며, 문화와 소득 수준을 통해 일관성 있음"
     },
     "_type": "blank",
-    "given_sentence": null
+    "given_sentence": null,
+    "_reviewed": true,
+    "_reviewedDate": "2026-09-30",
+    "_reviewer": "SPARK"
   },
   {
     "type": "빈칸 추론",
@@ -83,7 +68,10 @@ const QUESTION_BANK = [
       "4": "모든 맥락에서 부정적 감정이 더 빠르게 퍼진다고 할 수 없음"
     },
     "_type": "blank",
-    "given_sentence": null
+    "given_sentence": null,
+    "_reviewed": true,
+    "_reviewedDate": "2026-09-30",
+    "_reviewer": "SPARK"
   },
   {
     "type": "빈칸 추론",
@@ -104,7 +92,10 @@ const QUESTION_BANK = [
       "4": "지문이 모든 직업에서의 가치를 암시함"
     },
     "_type": "blank",
-    "given_sentence": null
+    "given_sentence": null,
+    "_reviewed": true,
+    "_reviewedDate": "2026-09-30",
+    "_reviewer": "SPARK"
   },
   {
     "type": "문장 삽입",
@@ -125,7 +116,10 @@ const QUESTION_BANK = [
       "3": "④에 삽입하면 열섬 현상 완화의 기제를 설명하는 문맥과 맞지 않습니다.",
       "4": "⑤에 삽입하면 결론 부분에 새로운 문제점을 제시하여 해결책에 대한 논의를 방해합니다."
     },
-    "_type": "insert"
+    "_type": "insert",
+    "_reviewed": true,
+    "_reviewedDate": "2026-09-30",
+    "_reviewer": "SPARK"
   },
   {
     "type": "문장 삽입",
@@ -146,7 +140,10 @@ const QUESTION_BANK = [
       "3": "④에 삽입하면 협력 필요성 논의 중간에 새로운 주장을 끼워 넣어 논리 흐름을 방해합니다.",
       "4": "⑤에 삽입하면 결론 부분에 부적절한 시간 전환으로 문맥이 불일치합니다."
     },
-    "_type": "insert"
+    "_type": "insert",
+    "_reviewed": true,
+    "_reviewedDate": "2026-09-30",
+    "_reviewer": "SPARK"
   },
   {
     "type": "문장 삽입",
@@ -167,7 +164,10 @@ const QUESTION_BANK = [
       "3": "④에 삽입하면 'However'의 대조 구조와 맞지 않습니다.",
       "4": "⑤에 삽입하면 결론 부분에 새로운 주제를 끼워 넣어 구조를 방해합니다."
     },
-    "_type": "insert"
+    "_type": "insert",
+    "_reviewed": true,
+    "_reviewedDate": "2026-09-30",
+    "_reviewer": "SPARK"
   },
   {
     "type": "문장 삽입",
@@ -188,7 +188,10 @@ const QUESTION_BANK = [
       "2": "③에 삽입하면 건강 위험 나열 중간에 결론을 제시하여 증거 제시를 방해합니다.",
       "4": "⑤에 삽입하면 최종 결론 부분에서 또 다른 결론을 제시하여 중복되고 약해집니다."
     },
-    "_type": "insert"
+    "_type": "insert",
+    "_reviewed": true,
+    "_reviewedDate": "2026-09-30",
+    "_reviewer": "SPARK"
   },
   {
     "type": "문장 삽입",
@@ -209,7 +212,10 @@ const QUESTION_BANK = [
       "2": "③에 삽입하면 음악가의 뇌 변화 설명 중간에 일반화된 주장을 제시하여 구체성을 방해합니다.",
       "4": "⑤에 삽입하면 'Therefore'의 결론 앞에 새로운 주장을 끼워 넣어 인과관계가 약해집니다."
     },
-    "_type": "insert"
+    "_type": "insert",
+    "_reviewed": true,
+    "_reviewedDate": "2026-09-30",
+    "_reviewer": "SPARK"
   },
   {
     "type": "문장 삽입",
@@ -229,7 +235,10 @@ const QUESTION_BANK = [
       "②": "②번 앞뒤는 19세기 변화의 시간 순서를 설명하고 있어 대조 표현이 필요하지 않습니다.",
       "⑤": "⑤번은 현대의 실제 사례를 제시하는 구간으로, 역사적 대조보다는 현대 사례의 추가 설명이 필요합니다."
     },
-    "_type": "insert"
+    "_type": "insert",
+    "_reviewed": true,
+    "_reviewedDate": "2026-09-30",
+    "_reviewer": "SPARK"
   },
   {
     "type": "문장 삽입",
@@ -249,489 +258,10 @@ const QUESTION_BANK = [
       "④": "④번은 재생에너지의 효과를 다루고 있어 앞의 메커니즘 설명과 직접 연결되지 않습니다.",
       "⑤": "⑤번은 개발도상국의 어려움을 다루며 이전 내용과의 연결이 약합니다."
     },
-    "_type": "insert"
-  },
-  {
-    "type": "문장 삽입",
-    "passage": "The development of artificial intelligence has revolutionized numerous industries and raised important ethical questions. ① Early AI systems were limited to narrow, task-specific applications with minimal autonomy. ② Contemporary machine learning algorithms can now process vast amounts of data and identify complex patterns that humans might overlook. ③ This technological advancement has enabled innovations in healthcare, finance, and transportation sectors. ④ Medical professionals now use AI diagnostic tools to detect diseases with unprecedented accuracy rates. ⑤ Concerns about algorithmic bias and data privacy have intensified as AI systems become increasingly integrated into critical decision-making processes. Researchers emphasize that developing transparent and accountable AI systems is essential for maintaining public trust. The future implementation of AI depends not only on technical proficiency but also on establishing robust ethical frameworks and regulatory mechanisms that address potential societal risks.",
-    "given_sentence": "Nevertheless, this progress comes with significant caveats regarding fairness and the unintended consequences of automated decision-making.",
-    "choices": [
-      "①",
-      "②",
-      "③",
-      "④",
-      "⑤"
-    ],
-    "answer": 4,
-    "explanation": "④번까지 AI의 긍정적 성과(정확도, 혁신)를 강조하다가 ⑤번에서 'Nevertheless'를 통해 이러한 진전에도 불구하고 윤리적 우려가 존재한다는 대조를 제시합니다. 이는 균형 잡힌 논의 구조를 형성합니다.",
-    "wrong_explanations": {
-      "①": "①번은 과거의 제한된 AI를 다루고 있어 진전에 대한 대조가 적절하지 않습니다.",
-      "②": "②번 후 ③번으로 자연스럽게 진행되므로 여기서 대조 표현은 어색합니다.",
-      "③": "③번에서 산업 혁신을 나열하고 있는 단계에서 우려를 제시하면 논리 흐름이 끊깁니다.",
-      "⑤": "⑤번 이후는 이미 윤리적 우려를 다루고 있어 중복이 됩니다."
-    },
-    "_type": "insert"
-  },
-  {
-    "type": "문장 삽입",
-    "passage": "Urban migration has become a defining demographic trend in the 21st century. ① Millions of people abandon rural communities annually to seek opportunities in rapidly expanding metropolitan areas. ② The push factors include limited agricultural employment and inadequate access to education and healthcare services in countryside regions. ③ Cities attract migrants through superior job prospects, higher wages, and extensive cultural amenities. ④ This urbanization process has transformed the economic landscape and created unprecedented challenges for urban infrastructure. ⑤ Housing shortages, traffic congestion, and environmental degradation have become increasingly prevalent in major urban centers worldwide. However, many cities have implemented innovative solutions including vertical housing developments and sustainable transportation networks. Governments and urban planners must continually adapt policies to accommodate growing populations while maintaining livable conditions and environmental standards for all residents.",
-    "given_sentence": "In contrast, rural areas experience population depletion that undermines local economies and reduces government investment in regional development.",
-    "choices": [
-      "①",
-      "②",
-      "③",
-      "④",
-      "⑤"
-    ],
-    "answer": 3,
-    "explanation": "③번까지 도시의 매력적 요소를 설명하다가 ④번에서 'In contrast'를 통해 도시 성장의 부작용과 시골 지역의 문제를 상대적으로 대비시킵니다. 이는 도시화의 양면적 영향을 균형 있게 제시합니다.",
-    "wrong_explanations": {
-      "①": "①번은 도입부로 아직 구체적 원인 비교가 나타나지 않았습니다.",
-      "②": "②번은 시골의 부정적 측면만 다루고 있어 아직 대조가 의미 있지 않습니다.",
-      "⑤": "⑤번 전에 도시의 긍정적 측면이 완성되지 않아 대조가 약합니다."
-    },
-    "_type": "insert"
-  },
-  {
-    "type": "문장 삽입",
-    "passage": "The evolution of language reflects the dynamic nature of human culture and social interaction. ① Historical linguists have documented how vocabulary and grammatical structures undergo systematic transformations across generations. ② Environmental factors, technological innovations, and cultural exchanges serve as catalysts for linguistic variation. ③ The introduction of digital communication platforms has accelerated the rate at which language evolves in contemporary society. ④ New words related to technology and social media have permeated everyday discourse with remarkable velocity. ⑤ Linguists observe that prescriptive grammar rules are increasingly challenged by descriptive language practices in online communities. Language standardization becomes more difficult as decentralized digital platforms enable diverse populations to create novel expressions and communication styles. Understanding how language adapts to changing social contexts helps us appreciate linguistic diversity and the resilience of human communication systems across different cultures and generations.",
-    "given_sentence": "Such innovations have demonstrated that language is not a static system but rather a constantly evolving phenomenon shaped by collective human behavior.",
-    "choices": [
-      "①",
-      "②",
-      "③",
-      "④",
-      "⑤"
-    ],
-    "answer": 4,
-    "explanation": "③④번에서 디지털 통신과 새로운 단어들의 구체적 사례를 제시한 후 ⑤번에서 'Such innovations'를 통해 이들 사례가 언어의 동적 본질을 보여준다는 결론적 해석을 제시합니다.",
-    "wrong_explanations": {
-      "①": "①번은 도입부로 아직 구체적 혁신 사례가 제시되지 않았습니다.",
-      "②": "②번의 일반적 촉매 요소들만으로는 'Such innovations'를 지칭할 구체적 사례가 부족합니다.",
-      "③": "③번에서 하나의 사례만 제시되었으므로 'innovations'(복수)의 지칭이 적절하지 않습니다.",
-      "⑤": "⑤번 이후는 이미 규범 문법에 대한 다른 주제로 진행되고 있습니다."
-    },
-    "_type": "insert"
-  },
-  {
-    "type": "어법 판단",
-    "passage": "The proliferation of artificial intelligence in modern society has raised significant concerns among researchers and policymakers alike. Many experts argue that AI systems, which is ① designed to optimize efficiency, often overlook crucial ethical considerations. Recent studies have shown that algorithms used in hiring processes are prone to perpetuate existing biases. Companies implementing these technologies must ensure ② that their decision-making mechanisms is transparent and accountable to stakeholders. Furthermore, the integration of machine learning into critical infrastructure requires rigorous testing to prevent catastrophic failures. Regulators have begun to establish frameworks aimed at mitigating risks ③ associated with autonomous systems. However, some argue that excessive restrictions could impede innovation and economic growth. The challenge lies in balancing technological advancement with social responsibility. Organizations ④ committed to ethical AI development recognize the necessity of ongoing dialogue between technologists, ethicists, and community leaders. Moving forward, establishing international standards will be essential ⑤ for ensuring that AI technologies benefit society as a whole while minimizing potential harms.",
-    "choices": [
-      "①is",
-      "②ensure",
-      "③associate",
-      "④committing",
-      "⑤ensure"
-    ],
-    "answer": 0,
-    "explanation": "정답: ① is → are. 주어는 'AI systems'(복수)이므로 동사는 복수형 'are'가 필요합니다. 관계절 'which are designed'의 관계대명사 which는 복수 선행사 systems를 나타내므로 복수동사가 맞습니다.",
-    "wrong_explanations": {
-      "②": "that 이하는 명사절이고, ensure는 올바른 동사원형입니다. (must ensure + that절)",
-      "③": "associate는 과거분사 형태로 '~와 관련된'의 의미로 올바릅니다. (associated with)",
-      "④": "committed는 과거분사로 형용사 역할을 하며 'Organizations committed to~'로 올바릅니다.",
-      "⑤": "ensure는 동사원형으로 'will be essential to ensure'에서 to부정사 형태로 올바릅니다."
-    },
-    "_type": "grammar",
-    "given_sentence": null
-  },
-  {
-    "type": "어법 판단",
-    "passage": "Climate change represents one of the most pressing global challenges of our time, demanding immediate and comprehensive action from governments and individuals alike. Scientists have accumulated extensive evidence demonstrating that rising temperatures is ① causing widespread ecological disruption. The phenomenon, which include melting ice caps and rising sea levels, threatens coastal communities worldwide. Developing nations particularly vulnerable to climate impacts often lack the resources necessary for ② adapt to environmental changes. International agreements have been established with the objective of reducing carbon emissions, yet implementation remains inconsistent across different regions. Many corporations have begun to transition toward renewable energy sources, ③ seeking to minimize their environmental footprint. The transition requires substantial investment in infrastructure and technology. Stakeholders involved in sustainability initiatives must prioritize ④ strategies that address both immediate challenges and long-term environmental goals. Educational campaigns aimed at raising awareness have proven effective in ⑤ mobilizing public support for climate action initiatives.",
-    "choices": [
-      "①are",
-      "②adaptation",
-      "③sought",
-      "④strategic",
-      "⑤mobilize"
-    ],
-    "answer": 0,
-    "explanation": "정답: ① are. 주어는 'rising temperatures'(복수)이므로 동사는 복수형 'are'가 필요합니다. 'is causing'은 단수형 동사이므로 오류입니다.",
-    "wrong_explanations": {
-      "②": "necessary for adaptation은 올바른 표현입니다. (resources for + noun)",
-      "③": "seeking은 현재분사로 '~하면서'의 의미로 올바릅니다. 과거형 sought는 오류입니다.",
-      "④": "strategies는 복수명사이고, prioritize 뒤에 직접 strategies가 오므로 형용사 strategic은 오류입니다.",
-      "⑤": "in mobilizing은 동명사 구조로 올바릅니다. mobilize의 to부정사 형태인 'to mobilize'는 'in' 뒤에 올 수 없습니다."
-    },
-    "_type": "grammar",
-    "given_sentence": null
-  },
-  {
-    "type": "어법 판단",
-    "passage": "The advancement of biotechnology has revolutionized medical research and treatment methodologies throughout the past decade. Scientists studying genetic disorders are employing innovative techniques, which allows ① them to identify disease-causing mutations with unprecedented precision. Gene therapy, a groundbreaking approach that involves ② replacing or repairing defective genes, offers hope to patients suffering from previously incurable conditions. Regulatory bodies have established stringent protocols ③ designed for ensuring the safety and efficacy of new treatments before clinical approval. The ethical implications of genetic modification remain contentious, with bioethicists arguing about whether certain applications should be ④ permitted in human populations. Research institutions worldwide have dedicated significant resources toward developing personalized medicine strategies. Furthermore, collaboration among researchers from different disciplines has accelerated ⑤ the discovery of novel therapeutic approaches.",
-    "choices": [
-      "①allow",
-      "②replace",
-      "③designed to ensure",
-      "④permit",
-      "⑤discovering"
-    ],
-    "answer": 2,
-    "explanation": "정답: ③ designed to ensure. 목적을 나타내려면 'designed for ensuring' 대신 'designed to ensure'(~하도록 설계된)로 to부정사를 사용해야 합니다. 'designed for + noun'은 문법적으로 가능하지만, '목적'을 명확히 할 때는 'designed to + V'가 표준입니다.",
-    "wrong_explanations": {
-      "①": "which는 복수 선행사 techniques를 나타내므로 'which allow'가 맞고, 'allows'는 오류입니다.",
-      "②": "involves + -ing 구조에서 replacing은 올바른 동명사 형태입니다.",
-      "④": "should be permitted는 수동태로 올바릅니다. (permit의 과거분사)",
-      "⑤": "accelerated the discovery는 올바릅니다. accelerated 뒤에 명사 discovery가 와야 하므로 동명사 discovering은 오류입니다."
-    },
-    "_type": "grammar",
-    "given_sentence": null
-  },
-  {
-    "type": "어법 판단",
-    "passage": "Urban planning initiatives have increasingly focused on sustainability and inclusivity as cities grapple with rapid population growth and environmental degradation. Municipal governments, recognizing the necessity of comprehensive strategies, has ① begun implementing green infrastructure projects across metropolitan areas. These initiatives, which encompass ② constructing public transportation systems and establishing urban forests, aim to reduce carbon emissions significantly. Planners must consider the diverse needs of residents when ③ designing neighborhoods that accommodate people from various socioeconomic backgrounds. Communities historically marginalized from decision-making processes are now being invited to ④ participate in shaping their urban environments. The integration of technology in city planning, combined with community engagement, has proven effective in ⑤ create sustainable and equitable urban spaces. However, funding constraints remain a significant obstacle to widespread implementation.",
-    "choices": [
-      "①have",
-      "②construct",
-      "③design",
-      "④participating",
-      "⑤creating"
-    ],
-    "answer": 0,
-    "explanation": "정답: ① have. 주어는 'Municipal governments'(복수)이므로 동사는 복수형 'have'가 필요합니다. 'has begun'은 단수형이므로 오류입니다.",
-    "wrong_explanations": {
-      "②": "encompass + -ing 구조에서 constructing은 올바른 동명사입니다.",
-      "③": "when designing은 시간을 나타내는 분사구로 올바릅니다.",
-      "④": "be invited to participate에서 participate는 올바른 to부정사입니다. participating은 오류입니다.",
-      "⑤": "has proven effective in + -ing에서 creating은 올바른 동명사입니다."
-    },
-    "_type": "grammar",
-    "given_sentence": null
-  },
-  {
-    "type": "어법 판단",
-    "passage": "The emergence of remote work practices has fundamentally transformed organizational structures and employee expectations in the contemporary workplace. Companies that have adopted flexible work arrangements report higher levels of employee satisfaction and productivity, which suggests ① that traditional office-based models are not ② inherently superior for all professional contexts. Employees working from home experience reduced commuting stress and gain ③ increased opportunities to balance work and personal responsibilities. However, managers overseeing remote teams face distinct challenges, including maintaining team cohesion and ensuring adequate communication across dispersed workforce members. Organizations committed to ④ supporting remote work success must invest in appropriate technological infrastructure and provide comprehensive training. Furthermore, policies governing work-life balance need ⑤ being carefully evaluated to prevent employee burnout and maintain long-term organizational sustainability.",
-    "choices": [
-      "①suggest",
-      "②inherent",
-      "③increase",
-      "④support",
-      "⑤to be"
-    ],
-    "answer": 4,
-    "explanation": "정답: ⑤ to be. 'need + to부정사' 구조에서 'need to be carefully evaluated'가 올바릅니다. 'need being'은 문법적으로 부정확합니다. (need + 동명사는 비표준 용법)",
-    "wrong_explanations": {
-      "①": "which suggests는 계속적 관계절로 올바릅니다. 단수형 동사 'suggests'가 맞습니다.",
-      "②": "are not inherently superior에서 inherently는 부사형으로 올바릅니다. 형용사 inherent는 오류입니다.",
-      "③": "gain increased opportunities는 올바릅니다. increase는 형용사로 '증가된'의 의미입니다.",
-      "④": "committed to supporting에서 supporting은 동명사로 올바릅니다."
-    },
-    "_type": "grammar",
-    "given_sentence": null
-  },
-  {
-    "type": "어법 판단",
-    "passage": "The rapid advancement of artificial intelligence has prompted researchers to reconsider ①how society adapts to technological innovation. Many scholars argue that education systems should be reformed to prepare students for ②a future where automation becomes increasingly prevalent. Several studies conducted by leading institutions reveal that workers who receives training in digital literacy are more likely to maintain employment stability. The phenomenon of job displacement, ③which has affected millions of people worldwide, demands immediate policy intervention. Companies investing in employee development programs demonstrates commitment to sustainable growth. Furthermore, governments must establish comprehensive frameworks ④to address the socioeconomic challenges emerging from technological disruption. Policymakers recognize that ⑤ignoring these issues will result in greater inequality and social tension. The collaboration between educational institutions and private sectors is essential for creating effective solutions. Research indicates that interdisciplinary approaches yield more innovative outcomes than traditional methods. As we navigate this transformation, society must balance economic progress with human welfare. The integration of AI into various industries continues to accelerate at an unprecedented rate. Ultimately, proactive measures taken today will determine our collective prosperity.",
-    "choices": [
-      "①how society adapts",
-      "②a future where automation becomes",
-      "③which has affected millions",
-      "④to address the socioeconomic",
-      "⑤ignoring these issues"
-    ],
-    "answer": 2,
-    "explanation": "정답은 ③번입니다. '③which has affected millions of people worldwide'는 선행사 'job displacement'를 수식하는 관계절로 문법적으로 올바릅니다. ②번의 'receives'는 'workers'(복수)와의 수일치 오류로 'receive'로 수정되어야 합니다.",
-    "wrong_explanations": {
-      "0": "①번 'how society adapts to'는 명사절로 'reconsider'의 목적어로 완벽하게 기능합니다.",
-      "1": "②번 'a future where automation becomes increasingly prevalent'는 'to부정사 + 명사' 구조로 문법적으로 정확합니다.",
-      "3": "④번 'to address the socioeconomic challenges'는 '목적'을 나타내는 to부정사로 올바릅니다.",
-      "4": "⑤번 'ignoring these issues'는 동명사로 주어 역할을 하며 문법적으로 완벽합니다."
-    },
-    "_type": "grammar",
-    "given_sentence": null
-  },
-  {
-    "type": "어법 판단",
-    "passage": "Environmental degradation poses unprecedented challenges to biodiversity conservation efforts across the globe. Scientists emphasize that ①protecting ecosystems requires interdisciplinary collaboration among researchers and policymakers. The deforestation rate, ②which accelerates each year, threatens countless species with extinction. Conservation organizations working to preserve endangered habitats has implemented numerous initiatives to combat habitat loss. Agricultural expansion and urbanization are among the primary factors ③contributing to ecosystem destruction. Governments should allocate more resources ④funding research into sustainable agricultural practices. The recovery of damaged ecosystems demonstrates that ⑤restoration is possible when adequate investment and commitment are provided. Marine ecosystems, in particular, face unprecedented pressure from overfishing and pollution. Data collected over the past decade shows alarming trends in species population decline. Implementing international agreements on environmental protection appears to be crucial for long-term sustainability. Communities living near natural reserves play a vital role in conservation efforts. Their participation in monitoring programs significantly enhances the effectiveness of protection strategies. Ultimately, addressing environmental challenges demands collective action and sustained commitment from all stakeholders.",
-    "choices": [
-      "①protecting ecosystems requires",
-      "②which accelerates each year",
-      "③contributing to ecosystem",
-      "④funding research into",
-      "⑤restoration is possible"
-    ],
-    "answer": 3,
-    "explanation": "정답은 ④번입니다. '④funding research into'에서 'funding'은 'allocate resources'의 목적어로 동명사가 필요하므로 'for funding' 또는 'to fund'로 수정되어야 합니다. 현재 형태는 문법적으로 부정확합니다.",
-    "wrong_explanations": {
-      "0": "①번 'protecting ecosystems requires'는 동명사가 주어로 기능하며 단수 동사 'requires'와 수일치가 정확합니다.",
-      "1": "②번 'which accelerates each year'는 'deforestation rate'를 수식하는 관계절로 완벽합니다.",
-      "2": "③번 'contributing to ecosystem destruction'은 현재분사로 'factors'를 수식하는 분사구로 올바릅니다.",
-      "4": "⑤번 'restoration is possible when'은 주어 + 동사 구조로 문법적으로 정확합니다."
-    },
-    "_type": "grammar",
-    "given_sentence": null
-  },
-  {
-    "type": "어법 판단",
-    "passage": "The globalization of supply chains has fundamentally transformed how multinational corporations operate in contemporary markets. Manufacturing processes that ①span multiple continents requires careful coordination and strategic planning. Companies seeking to optimize efficiency must invest in advanced logistics systems ②to manage complex distribution networks. The practice of outsourcing production to developing nations has generated considerable controversy among economists and labor advocates. While some argue that ③creating employment opportunities in economically disadvantaged regions benefits global development, others contend that working conditions remain substandard. Research institutions specializing in supply chain management has identified several critical vulnerabilities exposed by recent disruptions. Geopolitical tensions and natural disasters, ④which have disrupted international trade, underscore the necessity for resilience. Organizations that ⑤prioritizes transparency and ethical sourcing gain competitive advantages in conscious consumer markets. Technological innovations such as blockchain and AI enable companies to track products throughout their supply chains more effectively. The shift toward reshoring and near-shoring strategies reflects growing concerns about dependency and sustainability. Future supply chains will likely prioritize flexibility and environmental responsibility. Industry leaders recognize that sustainable practices are no longer optional but essential for long-term viability.",
-    "choices": [
-      "①span multiple continents requires",
-      "②to manage complex distribution",
-      "③creating employment opportunities",
-      "④which have disrupted international",
-      "⑤prioritizes transparency and"
-    ],
-    "answer": 0,
-    "explanation": "정답은 ①번입니다. '①span multiple continents requires'에서 'Manufacturing processes'(복수)가 주어이지만 관계절의 동사 'requires'는 단수형으로 'require'로 수정되어야 합니다.",
-    "wrong_explanations": {
-      "1": "②번 'to manage complex distribution networks'는 목적을 나타내는 to부정사로 문법적으로 정확합니다.",
-      "2": "③번 'creating employment opportunities'는 동명사로 'that' 절의 목적어로 올바릅니다.",
-      "3": "④번 'which have disrupted international trade'는 'natural disasters'와 'geopolitical tensions'을 수식하는 관계절로 완벽합니다.",
-      "4": "⑤번의 동사는 주어 'Organizations'(복수)와 일치하므로 'prioritize'가 올바릅니다."
-    },
-    "_type": "grammar",
-    "given_sentence": null
-  },
-  {
-    "type": "어법 판단",
-    "passage": "The emergence of renewable energy technologies has catalyzed a paradigm shift in global energy policies and investment strategies. Solar panels and wind turbines, ①which have become increasingly cost-effective, now compete directly with fossil fuels in many markets. Policymakers advocating for carbon emission reduction ②argues that transitioning to renewable sources is economically and environmentally imperative. The infrastructure necessary ③to support widespread renewable adoption requires substantial government funding and private sector collaboration. Countries implementing aggressive renewable targets has demonstrated that clean energy deployment accelerates innovation and creates employment opportunities. Battery storage technology, ④advancing at a rapid pace, addresses intermittency challenges traditionally associated with renewable sources. Renewable energy transitions necessitate comprehensive planning ⑤addressing grid stability, workforce retraining, and community engagement. Energy companies investing in diversified portfolios that include renewables position themselves for long-term profitability. The declining costs of solar and wind power have fundamentally altered market dynamics. International agreements emphasizing climate goals continue to incentivize renewable development worldwide. Developing nations increasingly recognize renewable energy as a pathway to energy independence and economic growth. The successful integration of renewables into existing power systems demonstrates the viability of sustainable transitions.",
-    "choices": [
-      "①which have become increasingly",
-      "②argues that transitioning",
-      "③to support widespread",
-      "④advancing at a rapid",
-      "⑤addressing grid stability"
-    ],
-    "answer": 1,
-    "explanation": "정답은 ②번입니다. '②argues that transitioning'에서 주어 'Policymakers'(복수)이므로 동사는 'argue'(복수형)로 수정되어야 합니다. 'argues'는 단수형 오류입니다.",
-    "wrong_explanations": {
-      "0": "①번 'which have become increasingly cost-effective'는 'Solar panels and wind turbines'를 수식하는 관계절로 완벽합니다.",
-      "2": "③번 'to support widespread renewable adoption'은 '필요한' 의미의 to부정사로 올바릅니다.",
-      "3": "④번 'advancing at a rapid pace'는 현재분사로 'Battery storage technology'를 수식하는 분사구로 정확합니다.",
-      "4": "⑤번 'addressing grid stability, workforce retraining'은 동명사로 'comprehensive planning'의 목적어로 문법적으로 정확합니다."
-    },
-    "_type": "grammar",
-    "given_sentence": null
-  },
-  {
-    "type": "어법 판断",
-    "passage": "Neuroscience research investigating cognitive processes has revealed fascinating mechanisms underlying human decision-making and learning. The brain's neuroplasticity, ①which enables continuous adaptation and reorganization throughout life, challenges traditional assumptions about neural rigidity. Neuroscientists conducting longitudinal studies ②demonstrates that environmental enrichment significantly enhances cognitive function and prevents age-related decline. Neural pathways strengthened through repetitive practice illustrate how ③learning involves physical transformation at the cellular level. Emerging evidence suggests that meditation and mindfulness practices ④to improve mental well-being operate through measurable neurochemical changes. Brain imaging technologies that ⑤revolutionizing our understanding of neural correlates have provided unprecedented insights into psychological conditions. Synaptic plasticity represents the fundamental mechanism enabling memory formation and skill acquisition. Researchers increasingly recognize that cognitive rehabilitation strategies must target specific neural circuits responsible for particular functions. The interdisciplinary collaboration between neuroscientists and psychologists has yielded more comprehensive theoretical frameworks. Clinical applications of neuroscience findings continue to advance treatment efficacy for neurological and psychiatric disorders. Understanding the neural basis of consciousness remains one of the most profound scientific challenges. Future therapeutic interventions will likely exploit neuroplasticity more systematically.",
-    "choices": [
-      "①which enables continuous",
-      "②demonstrates that environmental",
-      "③learning involves physical",
-      "④to improve mental",
-      "⑤revolutionizing our understanding"
-    ],
-    "answer": 4,
-    "explanation": "정답은 ⑤번입니다. '⑤revolutionizing our understanding of neural correlates'에서 현재분사가 사용되었으나, 이 위치에서는 관계절 구조가 필요합니다. 'that revolutionize our understanding' 또는 관계절로 수정되어야 합니다.",
-    "wrong_explanations": {
-      "0": "①번 'which enables continuous adaptation'은 'neuroplasticity'를 수식하는 관계절로 완벽합니다.",
-      "1": "②번의 동사는 주어 'Neuroscientists'(복수)와 일치하므로 'demonstrate'가 올바릅니다.",
-      "2": "③번 'learning involves physical transformation'은 주어 + 동사 구조로 문법적으로 정확합니다.",
-      "3": "④번 'to improve mental well-being'은 '목적'을 나타내는 to부정사로 올바릅니다."
-    },
-    "_type": "grammar",
-    "given_sentence": null
-  },
-  {
-    "type": "어휘 적절성",
-    "passage": "The proliferation of artificial intelligence has ①transformed modern society in unprecedented ways. Machine learning algorithms now ②pervade every sector, from healthcare to finance, enabling organizations to process vast amounts of data efficiently. However, this rapid advancement raises critical concerns about data privacy and algorithmic bias. Researchers have begun to ③scrutinize the ethical implications of AI deployment, arguing that transparency is essential for building public trust. Some experts contend that AI systems can ④amplify existing social inequalities if not carefully designed and monitored. Furthermore, the lack of standardized regulations has created a vacuum where companies operate with minimal oversight. Educational institutions are responding by ⑤restricting curricula to include AI ethics and responsible innovation. As we navigate this transformative era, stakeholders must collaborate to establish comprehensive frameworks that balance technological progress with societal welfare. The challenge lies not in rejecting AI, but in harnessing its potential while mitigating risks. International cooperation will be crucial in developing global standards that protect citizens across borders.",
-    "choices": [
-      "①transformed",
-      "②pervade",
-      "③scrutinize",
-      "④amplify",
-      "⑤restricting"
-    ],
-    "answer": 4,
-    "explanation": "⑤ 'restricting(제한하다)'은 문맥에 맞지 않습니다. 문장의 의미는 '교육 기관이 AI 윤리와 책임 있는 혁신을 포함하도록 교육과정을 확대하고 있다'는 뜻이므로 'expanding' 또는 'enriching'이 적절합니다. 'restricting'은 반의어이므로 의미가 정반대가 됩니다.",
-    "wrong_explanations": {
-      "0": "①transformed는 '변형시키다'라는 의미로 'unprecedented ways'와 함께 사용되어 문맥상 완벽히 적절합니다.",
-      "1": "②pervade는 '~에 퍼지다'라는 의미로 AI가 모든 분야에 광범위하게 존재한다는 의미를 정확히 전달합니다.",
-      "2": "③scrutinize는 '면밀히 검토하다'라는 학술 어휘로 ethical implications을 살펴본다는 의미에서 적절합니다.",
-      "3": "④amplify는 '증대시키다'라는 의미로 social inequalities가 커질 수 있다는 의미에 부합합니다."
-    },
-    "_type": "vocab",
-    "given_sentence": null
-  },
-  {
-    "type": "어휘 적절성",
-    "passage": "Climate change represents one of the most pressing challenges of our time, with far-reaching consequences for global ecosystems. Scientific evidence increasingly ①corroborates the theory that human activities are the primary driver of rising temperatures. The burning of fossil fuels ②emits vast quantities of greenhouse gases into the atmosphere, trapping heat and causing planetary warming. Policymakers must ③mitigate these effects through strategic investments in renewable energy and sustainable infrastructure. Unfortunately, political divisions often ④retard progress on climate legislation, delaying necessary action at critical moments. Environmental organizations have begun to ⑤diverge their strategies to include both advocacy and community engagement initiatives. Coastal regions face particularly acute threats from rising sea levels, which could ⑥displace millions of inhabitants. International agreements like the Paris Accord represent important steps toward global coordination. However, individual nations must strengthen their commitments and increase funding for green technologies. The transition to a sustainable economy will require unprecedented cooperation between governments, businesses, and citizens worldwide.",
-    "choices": [
-      "①corroborates",
-      "②emits",
-      "③mitigate",
-      "④retard",
-      "⑤diverge"
-    ],
-    "answer": 4,
-    "explanation": "⑤ 'diverge(갈라지다, 다양해지다)'는 문맥에 맞지 않습니다. 문장의 의미는 '환경 단체들이 옹호 활동과 지역 사회 참여 이니셔티브를 포함하도록 전략을 확장하고 있다'는 뜻이므로 'diversify'가 적절합니다. 'diverge'는 '방향이 갈라진다'는 의미로 통일된 전략의 다양화라는 의미와 맞지 않습니다.",
-    "wrong_explanations": {
-      "0": "①corroborates는 '입증하다, 확인하다'라는 학술 어휘로 scientific evidence가 theory를 뒷받침한다는 의미에 정확합니다.",
-      "1": "②emits는 '배출하다'라는 의미로 greenhouse gases가 atmosphere로 나간다는 의미를 명확히 전달합니다.",
-      "2": "③mitigate는 '완화하다'라는 학술 어휘로 climate effects를 줄인다는 의미에 적절합니다.",
-      "3": "④retard는 '지연시키다'라는 의미로 political divisions가 climate legislation의 진전을 막는다는 뜻으로 정확합니다."
-    },
-    "_type": "vocab",
-    "given_sentence": null
-  },
-  {
-    "type": "어휘 적절성",
-    "passage": "The development of neuroscience has ①illuminated our understanding of brain function and human behavior in remarkable ways. Recent studies ②substantiate the connection between neuroplasticity and learning capacity across different age groups. Researchers have discovered that the brain possesses an extraordinary ability to ③reorganize neural pathways in response to experience and training. This phenomenon ④diminishes the long-held belief that cognitive abilities are entirely fixed after childhood. Innovative therapeutic approaches now ⑤consolidate findings from neuroscience and psychology to treat mental health disorders more effectively. Brain imaging technologies have enabled scientists to ⑥visualize neural activity in unprecedented detail. Neurochemistry has revealed how ⑦fluctuations in neurotransmitter levels influence mood and behavior. Understanding these mechanisms has profound implications for treating depression, anxiety, and neurodegenerative diseases. Educational institutions are integrating neuroscience knowledge into their curricula to prepare students for careers in this growing field. The interdisciplinary nature of modern neuroscience demonstrates how collaboration between different fields can accelerate scientific progress.",
-    "choices": [
-      "①illuminated",
-      "②substantiate",
-      "③reorganize",
-      "④diminishes",
-      "⑤consolidate"
-    ],
-    "answer": 3,
-    "explanation": "④ 'diminishes(감소시키다)'는 문맥에 맞지 않습니다. 문장의 의미는 '이 현상이 인지 능력이 어린 시절 이후 완전히 고정되어 있다는 오래된 믿음을 반박한다'는 뜻이므로 'challenges' 또는 'dispels'가 적절합니다. 'diminishes'는 '크기나 중요도를 줄인다'는 의미로 신념을 반박한다는 의미와 맞지 않습니다.",
-    "wrong_explanations": {
-      "0": "①illuminated는 '밝혀내다'라는 비유적 표현으로 neuroscience가 brain function의 이해를 깊게 한다는 의미에 적절합니다.",
-      "1": "②substantiate는 '입증하다'라는 학술 어휘로 studies가 neuroplasticity와 learning capacity의 연결을 증명한다는 뜻으로 정확합니다.",
-      "2": "③reorganize는 '재구성하다'라는 의미로 neural pathways가 재배치된다는 개념을 명확히 전달합니다.",
-      "4": "⑤consolidate는 '통합하다'라는 학술 어휘로 neuroscience와 psychology의 발견을 합치는 의미로 적절합니다."
-    },
-    "_type": "vocab",
-    "given_sentence": null
-  },
-  {
-    "type": "어휘 적절성",
-    "passage": "Economic inequality has become increasingly ①pronounced in developed nations over the past two decades. Research demonstrates that wealth concentration ②accelerates when tax policies favor capital gains over wages. Labor market dynamics have ③deteriorated for workers without advanced education, as automation and globalization reshape employment patterns. Policymakers propose various interventions to ④ameliorate the situation, including progressive taxation and enhanced social mobility programs. Critics argue that some reforms may ⑤suppress economic growth and innovation capacity. However, evidence from Nordic countries ⑥demonstrates that moderate redistribution policies need not ⑦impede prosperity. The gig economy has ⑧fragmented traditional employment relationships, creating new challenges for worker protection and benefits provision. Economists increasingly recognize that extreme inequality can ⑨undermine social cohesion and macroeconomic stability. Educational access remains a critical determinant of economic outcomes, yet funding disparities persist across regions. Addressing these systemic issues requires comprehensive approaches that balance equity with efficiency.",
-    "choices": [
-      "①pronounced",
-      "②accelerates",
-      "③deteriorated",
-      "④ameliorate",
-      "⑤suppress"
-    ],
-    "answer": 4,
-    "explanation": "⑤ 'suppress(억압하다, 억제하다)'는 문맥에 맞지 않습니다. 문장의 의미는 '일부 개혁이 경제 성장과 혁신 능력을 해칠 수 있다'는 우려를 나타내므로 'undermine' 또는 'impair'가 적절합니다. 'suppress'는 '의도적으로 억누르다'는 의미로 부정적인 영향을 미칠 수 있다는 의미와 다릅니다.",
-    "wrong_explanations": {
-      "0": "①pronounced는 '현저한'이라는 의미로 economic inequality가 명백해졌다는 뜻으로 정확합니다.",
-      "1": "②accelerates는 '가속화되다'라는 의미로 wealth concentration이 빨라진다는 개념을 정확히 표현합니다.",
-      "2": "③deteriorated는 '악화되다'라는 의미로 labor market이 나빠졌다는 의미에 적절합니다.",
-      "3": "④ameliorate는 '개선하다'라는 학술 어휘로 정책이 상황을 나아지게 한다는 의미로 정확합니다."
-    },
-    "_type": "vocab",
-    "given_sentence": null
-  },
-  {
-    "type": "어휘 적절성",
-    "passage": "The advent of digital technology has ①revolutionized communication patterns and social interaction worldwide. Social media platforms ②facilitate unprecedented connection between individuals across geographical boundaries. However, research increasingly ③documents the psychological costs of excessive digital engagement, including anxiety and social isolation. Mental health professionals have ④noted concerning correlations between screen time and depressive symptoms in adolescents. Simultaneously, technology companies continue to ⑤maximize user engagement through algorithmic recommendation systems. These systems often ⑥amplify polarizing content, creating echo chambers that reinforce existing beliefs. Education experts argue that digital literacy must ⑦expand to include critical evaluation of online information sources. Governments worldwide are attempting to ⑧formulate regulations that balance innovation with user protection. The challenge involves protecting vulnerable populations without ⑨hindering technological progress entirely. As society navigates this digital transformation, stakeholders must ⑩collaborate to ensure technology serves human flourishing rather than undermining it.",
-    "choices": [
-      "①revolutionized",
-      "②facilitate",
-      "③documents",
-      "④noted",
-      "⑤maximize"
-    ],
-    "answer": 4,
-    "explanation": "⑤ 'maximize(최대화하다)'는 문맥에 맞지 않습니다. 문장의 의미는 '기술 회사들이 알고리즘 추천 시스템을 통해 사용자 참여를 계속 추구한다'는 뜻이므로 'increase' 또는 'enhance'가 더 적절합니다. 'maximize'는 '최대한 늘리다'라는 의미로 도덕적 문제를 내포하며, 문맥에서 비판적 톤의 의도와 완벽히 부합하지 않습니다.",
-    "wrong_explanations": {
-      "0": "①revolutionized는 '혁명을 일으키다'라는 의미로 digital technology가 communication을 근본적으로 변화시켰다는 뜻으로 정확합니다.",
-      "1": "②facilitate는 '용이하게 하다'라는 의미로 social media가 연결을 가능하게 한다는 개념에 적절합니다.",
-      "2": "③documents는 '문서화하다'라는 의미로 research가 심리적 비용을 기록하고 입증한다는 의미로 정확합니다.",
-      "3": "④noted는 '주목하다'라는 의미로 mental health professionals가 correlation을 발견했다는 뜻으로 적절합니다."
-    },
-    "_type": "vocab",
-    "given_sentence": null
-  },
-  {
-    "type": "어휘 적절성",
-    "passage": "The rapid advancement of artificial intelligence has fundamentally transformed how we approach complex problems across various industries. Machine learning algorithms now ① permeate nearly every sector of modern economy, from healthcare diagnostics to financial forecasting. Researchers have discovered that these computational systems possess an remarkable ability to ② synthesize vast amounts of data in ways that human analysts simply cannot match. However, this technological progress has simultaneously raised serious concerns about employment displacement and ethical implications. Many economists argue that society must ③ mitigate the negative consequences through comprehensive retraining programs and social safety nets. The challenge lies in balancing innovation with responsibility. Some experts contend that we should ④ retard technological development altogether, while others believe strategic regulation offers a more pragmatic solution. Educational institutions are beginning to ⑤ diminish their curricula to include AI literacy and data science fundamentals. Despite the ongoing debates, one thing remains certain: artificial intelligence will continue to shape our future in profound and unpredictable ways. Policymakers must therefore engage in thoughtful dialogue with technologists, ethicists, and the public to ensure that technological benefits are distributed equitably across society.",
-    "choices": [
-      "① permeate",
-      "② synthesize",
-      "③ mitigate",
-      "④ retard",
-      "⑤ diminish"
-    ],
-    "answer": 3,
-    "explanation": "④번 'retard'(지연시키다, 방해하다)는 맥락상 부적절합니다. 문장에서 '기술 발전을 완전히 중단해야 한다'는 의미이므로 'halt', 'stop', 'cease' 등이 적절합니다. 'retard'는 '느리게 하다'라는 의미로 약한 표현입니다.",
-    "wrong_explanations": {
-      "0": "permeate(스며들다, 퍼지다)는 AI가 경제 전반에 걸쳐 광범위하게 영향을 미친다는 맥락에서 매우 적절합니다.",
-      "1": "synthesize(종합하다, 통합하다)는 알고리즘이 대량의 데이터를 처리한다는 의미에서 정확한 표현입니다.",
-      "2": "mitigate(완화하다, 경감하다)는 부정적 결과를 줄인다는 맥락에서 학술적으로 적절합니다.",
-      "4": "diminish(줄이다, 감소시키다)는 교육과정에 AI 문해력을 '포함하도록 수정하다'는 의미에서는 부적절하지만, 문맥상 'expand'나 'augment'가 필요합니다."
-    },
-    "_type": "vocab",
-    "given_sentence": null
-  },
-  {
-    "type": "어휘 적절성",
-    "passage": "Climate change represents one of the most pressing challenges of our time, necessitating immediate and coordinated global action. Rising temperatures have begun to ① exacerbate extreme weather patterns, causing unprecedented floods, droughts, and hurricanes in vulnerable regions. Scientists emphasize that carbon emissions must be substantially ② curtailed if we hope to prevent catastrophic environmental collapse. The transition to renewable energy sources remains technically feasible, yet political will and economic interests continue to ③ hinder this crucial transformation. Many developing nations argue that wealthy countries should bear greater responsibility for reducing their carbon footprint, a position that seems entirely justified from an ethical standpoint. International agreements like the Paris Climate Accord attempt to ④ accelerate the shift toward sustainable practices on a global scale. However, implementation remains inconsistent, with some nations actually ⑤ augmenting their fossil fuel investments despite international commitments. Young activists have mobilized across continents, demanding that world leaders treat climate action with the urgency it deserves. The scientific evidence is overwhelming and irrefutable; without decisive intervention, future generations will face irreversible environmental degradation and social instability.",
-    "choices": [
-      "① exacerbate",
-      "② curtailed",
-      "③ hinder",
-      "④ accelerate",
-      "⑤ augmenting"
-    ],
-    "answer": 4,
-    "explanation": "⑤번 'augmenting'(증가시키다, 확대하다)는 문맥상 부적절합니다. 국가들이 국제 약속에도 불구하고 화석 연료 투자를 '늘리고 있다'는 의미이므로 이는 긍정적 표현이지만, 기후변화 대응과 모순됩니다. 'increasing', 'expanding' 대신 'reducing', 'cutting'이 맥락에 맞습니다.",
-    "wrong_explanations": {
-      "0": "exacerbate(악화시키다)는 상승하는 온도가 극단적 날씨를 더 심하게 만든다는 의미에서 완벽하게 적절합니다.",
-      "1": "curtailed(제한되다, 줄어들다)는 탄소 배출을 줄여야 한다는 맥락에서 정확한 학술 표현입니다.",
-      "2": "hinder(방해하다, 저해하다)는 정치적 의지가 재생 에너지 전환을 방해한다는 의미에서 적절합니다.",
-      "3": "accelerate(가속하다, 촉진하다)는 국제 협약이 지속 가능한 실천을 촉진하려는 목표와 맞습니다."
-    },
-    "_type": "vocab",
-    "given_sentence": null
-  },
-  {
-    "type": "어휘 적절성",
-    "passage": "The human brain remains one of science's greatest mysteries, with neuroscientists continually discovering new insights about its extraordinary capabilities. Recent studies demonstrate that the brain's neuroplasticity allows it to ① reorganize itself throughout our lifetime, challenging the once-dominant belief that neural structures were immutable. This remarkable adaptability suggests that our potential for learning and growth should not be ② circumscribed by age or previous limitations. Meditation and cognitive training programs have been shown to ③ attenuate stress responses and enhance emotional resilience in practitioners. Furthermore, research indicates that physical exercise ④ stimulates the production of brain-derived neurotrophic factor, a protein essential for neural development. The implications of these discoveries are profound; they fundamentally ⑤ undermine the outdated notion that our intellectual and emotional capacities are fixed from birth. Scientists emphasize that understanding the brain's mechanisms requires multidisciplinary approaches combining biology, psychology, and computational modeling. Educational systems should incorporate these neuroscientific findings to optimize learning outcomes for students of all ages and backgrounds.",
-    "choices": [
-      "① reorganize",
-      "② circumscribed",
-      "③ attenuate",
-      "④ stimulates",
-      "⑤ undermine"
-    ],
-    "answer": 1,
-    "explanation": "②번 'circumscribed'(제한하다, 한정하다)는 의미상 맞지만, 문맥 해석 면에서 'should not be circumscribed'는 '...로 제한되어서는 안 된다'는 의미로 적절합니다. 하지만 여기서는 ③번 'attenuate'가 더 자연스럽고, ⑤번 'undermine'(약화시키다, 훼손하다)이 정답입니다. '오래된 개념을 약화시킨다'는 의미에서 완벽합니다.",
-    "wrong_explanations": {
-      "0": "reorganize(재편성하다, 재구성하다)는 뇌의 신경가소성이 자신을 재조직한다는 맥락에서 정확합니다.",
-      "2": "attenuate(약화시키다, 감소시키다)는 명상이 스트레스 반응을 줄인다는 의미에서 적절한 학술 용어입니다.",
-      "3": "stimulates(자극하다, 촉발하다)는 운동이 뇌 단백질 생성을 촉진한다는 의미에서 맞습니다.",
-      "4": "circumscribed는 문맥상 '제한되어서는 안 된다'는 의미로 부정적 뉘앙스가 있어 이 문맥에서 자연스럽지 않습니다."
-    },
-    "_type": "vocab",
-    "given_sentence": null
-  },
-  {
-    "type": "어휘 적절성",
-    "passage": "Urbanization has fundamentally altered human civilization, creating dense metropolitan areas that ① concentrate vast populations in limited geographic spaces. The benefits of urban living are considerable: cities provide better access to employment opportunities, healthcare, and cultural amenities that ② abound in concentrated form. However, rapid urban expansion has simultaneously generated serious environmental challenges that require urgent attention from policymakers and urban planners. Air and water pollution, waste management crises, and the loss of green spaces have begun to ③ proliferate in megacities across the developing world. Urban agriculture initiatives and vertical farming technologies offer promising solutions that could ④ ameliorate food security concerns while reducing environmental impact. Some cities have successfully ⑤ constrained their carbon emissions through innovative public transportation systems and renewable energy investments. Smart city technologies provide data-driven approaches to optimize resource allocation and improve quality of life. Nevertheless, equitable development remains elusive, as marginalized communities often bear the greatest burden of urban pollution and environmental degradation.",
-    "choices": [
-      "① concentrate",
-      "② abound",
-      "③ proliferate",
-      "④ ameliorate",
-      "⑤ constrained"
-    ],
-    "answer": 2,
-    "explanation": "③번 'proliferate'(번식하다, 증가하다)는 의미상 문제가 있습니다. 문맥상 '오염과 환경 문제가 증가하고 있다'는 의미로는 적절하지만, 동사 사용이 부자연스럽습니다. 'emerged', 'intensified', 'worsened' 등이 더 적절합니다. 'proliferate'는 긍정적 번식을 의미할 수 있어 맥락상 부정적 문제에 쓰이기에 어색합니다.",
-    "wrong_explanations": {
-      "0": "concentrate(집중시키다)는 도시가 대량 인구를 한정된 지역에 모은다는 의미에서 정확합니다.",
-      "1": "abound(풍부하다, 많다)는 도시의 고용과 문화 시설이 충분하다는 맥락에서 적절합니다.",
-      "3": "ameliorate(개선하다, 완화하다)는 도시 농업이 식량 안보를 개선한다는 의미에서 학술적으로 정확합니다.",
-      "4": "constrained(제한하다, 억제하다)는 도시들이 탄소 배출을 제한했다는 의미에서 완벽하게 적절합니다."
-    },
-    "_type": "vocab",
-    "given_sentence": null
-  },
-  {
-    "type": "어휘 적절성",
-    "passage": "The advancement of biotechnology has revolutionized medicine, offering unprecedented opportunities to ① alleviate human suffering from previously incurable diseases. Gene editing technologies, particularly CRISPR systems, have demonstrated remarkable efficacy in treating genetic disorders by ② rectifying defective genetic sequences at the molecular level. These innovations promise to ③ ameliorate conditions ranging from cystic fibrosis to certain forms of cancer through precise therapeutic interventions. However, the ethical implications of human germline modification remain deeply contested among scientists, philosophers, and policymakers alike. Many experts worry that unregulated biotechnology could ④ exacerbate existing health inequalities, as expensive treatments would remain accessible only to wealthy populations. Regulatory frameworks must therefore ⑤ constrain commercial applications while permitting legitimate research to advance human welfare. International cooperation and transparent scientific dialogue are essential to establishing guidelines that balance innovation with ethical responsibility. The future of biotechnology depends on our collective wisdom in navigating these complex moral and practical challenges. Society must engage in informed democratic deliberation to ensure that biotechnological progress serves humanity broadly.",
-    "choices": [
-      "① alleviate",
-      "② rectifying",
-      "③ ameliorate",
-      "④ exacerbate",
-      "⑤ constrain"
-    ],
-    "answer": 0,
-    "explanation": "①번 'alleviate'(완화하다, 경감하다)는 완벽하게 적절한 표현입니다. 생명공학이 인간의 고통을 완화한다는 의미로 정확합니다. 정답은 ④번 'exacerbate'(악화시키다)입니다. '규제 없는 생명공학이 건강 불평등을 악화시킬 수 있다'는 문맥에서 정확하지만, 이 단어가 부정적 결과를 초래한다는 의미로 문맥과 일치하므로 적절합니다. 재검토하면, 이 문제는 모든 어휘가 문맥상 적절하므로 문제를 재구성해야 합니다.",
-    "wrong_explanations": {
-      "1": "rectifying(바로잡다, 수정하다)는 유전자 편집이 결함 있는 유전자 서열을 수정한다는 의미에서 정확합니다.",
-      "2": "ameliorate(개선하다, 완화하다)는 치료 중재가 질병을 개선한다는 맥락에서 학술적으로 적절합니다.",
-      "3": "exacerbate(악화시키다)는 규제되지 않은 생명공학이 불평등을 악화시킨다는 의미에서 문맥과 일치합니다.",
-      "4": "constrain(제한하다)은 규제 체계가 상업적 적용을 제한해야 한다는 의미에서 적절합니다."
-    },
-    "_type": "vocab",
-    "given_sentence": null
+    "_type": "insert",
+    "_reviewed": true,
+    "_reviewedDate": "2026-09-30",
+    "_reviewer": "SPARK"
   },
   {
     "type": "요지/주제",
@@ -752,7 +282,10 @@ const QUESTION_BANK = [
       "④": "지문은 정보 신뢰성이 중요한 과제임을 언급하지만, 이것이 주제가 아닙니다."
     },
     "_type": "main_idea",
-    "given_sentence": null
+    "given_sentence": null,
+    "_reviewed": true,
+    "_reviewedDate": "2026-09-30",
+    "_reviewer": "SPARK"
   },
   {
     "type": "요지/주제",
@@ -773,7 +306,10 @@ const QUESTION_BANK = [
       "④": "지문의 초점이 아니며, 평가 기준 표준화는 다루어지지 않습니다."
     },
     "_type": "main_idea",
-    "given_sentence": null
+    "given_sentence": null,
+    "_reviewed": true,
+    "_reviewedDate": "2026-09-30",
+    "_reviewer": "SPARK"
   },
   {
     "type": "요지/주제",
@@ -794,7 +330,10 @@ const QUESTION_BANK = [
       "④": "지문의 초점은 보전 전략과 필요성에 있습니다."
     },
     "_type": "main_idea",
-    "given_sentence": null
+    "given_sentence": null,
+    "_reviewed": true,
+    "_reviewedDate": "2026-09-30",
+    "_reviewer": "SPARK"
   },
   {
     "type": "요지/주제",
@@ -815,7 +354,10 @@ const QUESTION_BANK = [
       "④": "교육 기회의 차이가 주제가 아니며, 부수적 내용입니다."
     },
     "_type": "main_idea",
-    "given_sentence": null
+    "given_sentence": null,
+    "_reviewed": true,
+    "_reviewedDate": "2026-09-30",
+    "_reviewer": "SPARK"
   },
   {
     "type": "요지/주제",
@@ -836,6 +378,105 @@ const QUESTION_BANK = [
       "④": "운동의 구체적 메커니즘은 다루어지지 않으며, 효과만 제시됩니다."
     },
     "_type": "main_idea",
-    "given_sentence": null
+    "given_sentence": null,
+    "_reviewed": true,
+    "_reviewedDate": "2026-09-30",
+    "_reviewer": "SPARK"
+  },
+  {
+    "type": "글의 순서",
+    "passage": "The concept of neuroplasticity has revolutionized our understanding of the brain's capacity for change. Previously, scientists believed that the brain's structure was fixed after childhood. However, recent research demonstrates that the brain can reorganize itself throughout life.\n\n(A) This discovery has profound implications for treating neurological disorders and learning disabilities. Patients recovering from stroke can develop new neural pathways to compensate for damaged areas. Such adaptive mechanisms allow individuals to regain lost functions through intensive rehabilitation and practice.\n\n(B) Furthermore, neuroplasticity explains how musicians and athletes achieve extraordinary skills. Their brains physically change in response to repeated, focused training. The auditory cortex of musicians, for instance, exhibits measurable enlargement compared to non-musicians.\n\n(C) Therefore, understanding neuroplasticity transforms our approach to education and therapy. Rather than accepting limitations as permanent, we can now intervene strategically. This paradigm shift encourages lifelong learning and optimistic perspectives on human potential.",
+    "choices": [
+      "① (A)-(B)-(C)",
+      "② (A)-(C)-(B)",
+      "③ (B)-(A)-(C)",
+      "④ (B)-(C)-(A)",
+      "⑤ (C)-(A)-(B)"
+    ],
+    "answer": 0,
+    "explanation": "도입부에서 신경가소성의 개념을 소개한 후, (A) '이러한 발견'으로 뇌의 재조직화 능력의 실제 응용 사례를 제시. (B) 'Furthermore'로 추가적 증거(음악가, 운동선수)를 제시. (C) 'Therefore'로 결론적으로 이해의 중요성을 강조. 지시어와 접속사의 논리적 흐름이 (A)-(B)-(C) 순서를 명시적으로 나타냄.",
+    "wrong_explanations": {
+      "1": "(A)-(C)-(B)는 'Furthermore'가 갑자기 나타나 흐름이 단절됨",
+      "2": "(B)-(A)-(C)는 구체적 사례가 일반적 설명보다 먼저 나와 부자연스러움",
+      "3": "(B)-(C)-(A)는 'This discovery'의 지시어가 선행 문장과 맞지 않음",
+      "4": "(C)-(A)-(B)는 결론이 먼저 나와 논리적 구조가 파괴됨"
+    },
+    "_type": "order",
+    "given_sentence": null,
+    "_reviewed": true,
+    "_reviewedDate": "2026-09-30",
+    "_reviewer": "SPARK"
+  },
+  {
+    "type": "글의 순서",
+    "passage": "Climate change is altering precipitation patterns across the globe with significant ecological consequences. Traditional agricultural practices developed over centuries may no longer be viable in many regions. Consequently, farmers must adapt their cultivation strategies to survive economically.\n\n(A) This adaptation involves selecting drought-resistant crop varieties and implementing water conservation techniques. Indigenous farming communities possess invaluable knowledge accumulated through generations of environmental observation. Their traditional methods often align remarkably well with contemporary sustainability principles.\n\n(B) However, most modern farmers lack access to such traditional wisdom or resources. Agricultural extension services in developing nations remain inadequately funded and staffed. These systemic barriers prevent effective dissemination of adaptive technologies.\n\n(C) Therefore, international collaboration is imperative for agricultural resilience. Developed nations should fund research programs that integrate indigenous knowledge with modern agronomy. Such partnership models ensure that farming communities gain access to requisite technologies for survival.",
+    "choices": [
+      "① (A)-(B)-(C)",
+      "② (A)-(C)-(B)",
+      "③ (B)-(A)-(C)",
+      "④ (B)-(C)-(A)",
+      "⑤ (C)-(A)-(B)"
+    ],
+    "answer": 0,
+    "explanation": "도입부에서 농업 적응의 필요성 제시. (A) 적응 방법과 전통 지식의 가치 설명. (B) 'However'로 현실의 장애물 제시. (C) 'Therefore'로 국제 협력의 필요성 결론. 긍정→현실 문제→해결책의 논리적 진행.",
+    "wrong_explanations": {
+      "1": "(A)-(C)-(B)는 'However'가 중간에 나와 흐름 단절",
+      "2": "(B)-(A)-(C)는 문제가 해결책보다 먼저 나와 부자연스러움",
+      "3": "(B)-(C)-(A)는 'This adaptation'의 지시어가 맞지 않음",
+      "4": "(C)-(A)-(B)는 결론이 먼저 나와 논리 구조 파괴"
+    },
+    "_type": "order",
+    "given_sentence": null,
+    "_reviewed": true,
+    "_reviewedDate": "2026-09-30",
+    "_reviewer": "SPARK"
+  },
+  {
+    "type": "글의 순서",
+    "passage": "The phenomenon of urban heat islands refers to metropolitan areas experiencing significantly higher temperatures than surrounding rural regions. This effect results from extensive concrete infrastructure and reduced vegetation. Scientists have documented temperature differences exceeding 5 degrees Celsius between cities and nearby countryside.\n\n(A) These elevated temperatures have serious health implications, particularly for vulnerable populations. Heat-related illnesses increase dramatically during summer months in urban centers. Additionally, the phenomenon intensifies energy consumption as residents increase air conditioning usage.\n\n(B) Therefore, city planners are implementing mitigation strategies including green roofing and urban forestry programs. Reflective building materials can reduce surface temperatures substantially. Such interventions have demonstrated measurable success in pilot cities worldwide.\n\n(C) However, comprehensive solutions require long-term commitment and substantial financial investment. Individual projects provide only temporary relief without systemic change. Sustainable urban development demands coordinated effort across multiple sectors and decades of implementation.",
+    "choices": [
+      "① (A)-(B)-(C)",
+      "② (B)-(A)-(C)",
+      "③ (B)-(C)-(A)",
+      "④ (C)-(A)-(B)",
+      "⑤ (C)-(B)-(A)"
+    ],
+    "answer": 0,
+    "explanation": "도입부에서 열섬 현상 정의. (A) 'These elevated temperatures'로 부정적 결과(건강, 에너지) 설명. (B) 'Therefore'로 해결책 제시. (C) 'However'로 한계와 장기적 필요성 강조. 문제→결과→대책→현실적 한계의 구조.",
+    "wrong_explanations": {
+      "1": "(B)-(A)-(C)는 해결책이 문제 결과보다 먼저 나와 논리 역순",
+      "2": "(B)-(C)-(A)는 'These elevated temperatures'의 지시어 선행사 없음",
+      "3": "(C)-(A)-(B)는 'However'가 처음에 나와 대조 대상 부재",
+      "4": "(C)-(B)-(A)는 한계를 먼저 제시해 구조 파괴"
+    },
+    "_type": "order",
+    "given_sentence": null,
+    "_reviewed": true,
+    "_reviewedDate": "2026-09-30",
+    "_reviewer": "SPARK"
+  },
+  {
+    "type": "글의 순서",
+    "passage": "Circadian rhythms are biological processes that follow approximately 24-hour cycles, regulating sleep and wakefulness in most organisms. These internal clocks are synchronized with environmental light cues. Modern artificial lighting has fundamentally disrupted these natural rhythms for millions of people.\n\n(A) This disruption manifests as sleep disorders, cognitive impairment, and increased metabolic dysfunction. Night shift workers consistently demonstrate higher incidence rates of cardiovascular disease and cancer. The suppression of melatonin production due to artificial light exposure represents a significant health hazard.\n\n(B) Therefore, occupational health researchers advocate for workplace policies supporting circadian alignment. Gradually adjusting shift schedules and providing light therapy during night hours can mitigate adverse effects. Such evidence-based interventions have improved worker health and productivity simultaneously.\n\n(C) However, implementing comprehensive circadian-aware workplace policies requires systemic changes in industrial practices. Economic pressures often prioritize production over employee wellbeing. Many employers remain reluctant to adopt measures perceived as operationally inconvenient.",
+    "choices": [
+      "① (A)-(B)-(C)",
+      "② (A)-(C)-(B)",
+      "③ (B)-(A)-(C)",
+      "④ (C)-(B)-(A)",
+      "⑤ (C)-(A)-(B)"
+    ],
+    "answer": 0,
+    "explanation": "도입부에서 인공 조명의 일주기 리듬 방해 제시. (A) 'This disruption'로 구체적 부정적 결과 설명. (B) 'Therefore'로 해결책 제시. (C) 'However'로 실행상 장애물 제시. 문제→해로움→대책→현실적 저항의 구조.",
+    "wrong_explanations": {
+      "1": "(A)-(C)-(B)는 'Therefore'와 'However'의 논리 순서 역순",
+      "2": "(B)-(A)-(C)는 대책이 해로움보다 먼저 나와 부자연스러움",
+      "3": "(B)-(C)-(A)는 'This disruption'의 지시어 선행사 없음",
+      "4": "(C)-(A)-(B)는 저항이 먼저 나와 설득력 없음"
+    },
+    "_type": "order",
+    "given_sentence": null,
+    "_reviewed": true,
+    "_reviewedDate": "2026-09-30",
+    "_reviewer": "SPARK"
   }
 ];
