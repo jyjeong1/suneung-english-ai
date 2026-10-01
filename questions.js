@@ -1,5 +1,5 @@
-// 수능영어AI 문제은행 — 230문제 (기존 + 신규 병합)
-// 병합일: 2026-10-01 17:47
+// 수능영어AI 문제은행 — 253문제 (R:84 감수완료, U:169 미감수)
+// 번호체계: R-xxx(감수완료), U-xxx(미감수). 감수 전 U-xxx → 감수 후 R-xxx 전환
 const QUESTION_BANK = [
   {
     "type": "빈칸 추론",
@@ -20,7 +20,9 @@ const QUESTION_BANK = [
       "4": "우울증이 아닌 정상적인 정서 조절 메커니즘으로 설명함"
     },
     "_type": "blank",
-    "given_sentence": null
+    "given_sentence": null,
+    "_reviewed": true,
+    "_qid": "R-001"
   },
   {
     "type": "빈칸 추론",
@@ -41,7 +43,9 @@ const QUESTION_BANK = [
       "4": "지문이 노출 시간보다 맥락의 질과 발달 시기의 중요성을 강조"
     },
     "_type": "blank",
-    "given_sentence": null
+    "given_sentence": null,
+    "_reviewed": true,
+    "_qid": "R-002"
   },
   {
     "type": "빈칸 추론",
@@ -62,7 +66,9 @@ const QUESTION_BANK = [
       "4": "패턴이 있으며, 문화와 소득 수준을 통해 일관성 있음"
     },
     "_type": "blank",
-    "given_sentence": null
+    "given_sentence": null,
+    "_reviewed": true,
+    "_qid": "R-003"
   },
   {
     "type": "빈칸 추론",
@@ -83,7 +89,9 @@ const QUESTION_BANK = [
       "4": "모든 맥락에서 부정적 감정이 더 빠르게 퍼진다고 할 수 없음"
     },
     "_type": "blank",
-    "given_sentence": null
+    "given_sentence": null,
+    "_reviewed": true,
+    "_qid": "R-004"
   },
   {
     "type": "빈칸 추론",
@@ -104,7 +112,9 @@ const QUESTION_BANK = [
       "4": "지문이 모든 직업에서의 가치를 암시함"
     },
     "_type": "blank",
-    "given_sentence": null
+    "given_sentence": null,
+    "_reviewed": true,
+    "_qid": "R-005"
   },
   {
     "type": "문장 삽입",
@@ -125,7 +135,9 @@ const QUESTION_BANK = [
       "3": "④에 삽입하면 열섬 현상 완화의 기제를 설명하는 문맥과 맞지 않습니다.",
       "4": "⑤에 삽입하면 결론 부분에 새로운 문제점을 제시하여 해결책에 대한 논의를 방해합니다."
     },
-    "_type": "insert"
+    "_type": "insert",
+    "_reviewed": true,
+    "_qid": "R-006"
   },
   {
     "type": "문장 삽입",
@@ -146,7 +158,9 @@ const QUESTION_BANK = [
       "3": "④에 삽입하면 협력 필요성 논의 중간에 새로운 주장을 끼워 넣어 논리 흐름을 방해합니다.",
       "4": "⑤에 삽입하면 결론 부분에 부적절한 시간 전환으로 문맥이 불일치합니다."
     },
-    "_type": "insert"
+    "_type": "insert",
+    "_reviewed": true,
+    "_qid": "R-007"
   },
   {
     "type": "문장 삽입",
@@ -167,7 +181,9 @@ const QUESTION_BANK = [
       "3": "④에 삽입하면 'However'의 대조 구조와 맞지 않습니다.",
       "4": "⑤에 삽입하면 결론 부분에 새로운 주제를 끼워 넣어 구조를 방해합니다."
     },
-    "_type": "insert"
+    "_type": "insert",
+    "_reviewed": true,
+    "_qid": "R-008"
   },
   {
     "type": "문장 삽입",
@@ -188,7 +204,9 @@ const QUESTION_BANK = [
       "2": "③에 삽입하면 건강 위험 나열 중간에 결론을 제시하여 증거 제시를 방해합니다.",
       "4": "⑤에 삽입하면 최종 결론 부분에서 또 다른 결론을 제시하여 중복되고 약해집니다."
     },
-    "_type": "insert"
+    "_type": "insert",
+    "_reviewed": true,
+    "_qid": "R-009"
   },
   {
     "type": "문장 삽입",
@@ -209,7 +227,9 @@ const QUESTION_BANK = [
       "2": "③에 삽입하면 음악가의 뇌 변화 설명 중간에 일반화된 주장을 제시하여 구체성을 방해합니다.",
       "4": "⑤에 삽입하면 'Therefore'의 결론 앞에 새로운 주장을 끼워 넣어 인과관계가 약해집니다."
     },
-    "_type": "insert"
+    "_type": "insert",
+    "_reviewed": true,
+    "_qid": "R-010"
   },
   {
     "type": "문장 삽입",
@@ -229,7 +249,9 @@ const QUESTION_BANK = [
       "②": "②번 앞뒤는 19세기 변화의 시간 순서를 설명하고 있어 대조 표현이 필요하지 않습니다.",
       "⑤": "⑤번은 현대의 실제 사례를 제시하는 구간으로, 역사적 대조보다는 현대 사례의 추가 설명이 필요합니다."
     },
-    "_type": "insert"
+    "_type": "insert",
+    "_reviewed": true,
+    "_qid": "R-011"
   },
   {
     "type": "문장 삽입",
@@ -249,7 +271,9 @@ const QUESTION_BANK = [
       "④": "④번은 재생에너지의 효과를 다루고 있어 앞의 메커니즘 설명과 직접 연결되지 않습니다.",
       "⑤": "⑤번은 개발도상국의 어려움을 다루며 이전 내용과의 연결이 약합니다."
     },
-    "_type": "insert"
+    "_type": "insert",
+    "_reviewed": true,
+    "_qid": "R-012"
   },
   {
     "type": "어법 판단",
@@ -270,7 +294,9 @@ const QUESTION_BANK = [
       "⑤": "ensure는 동사원형으로 'will be essential to ensure'에서 to부정사 형태로 올바릅니다."
     },
     "_type": "grammar",
-    "given_sentence": null
+    "given_sentence": null,
+    "_reviewed": true,
+    "_qid": "R-013"
   },
   {
     "type": "어법 판단",
@@ -291,7 +317,9 @@ const QUESTION_BANK = [
       "⑤": "in mobilizing은 동명사 구조로 올바릅니다. mobilize의 to부정사 형태인 'to mobilize'는 'in' 뒤에 올 수 없습니다."
     },
     "_type": "grammar",
-    "given_sentence": null
+    "given_sentence": null,
+    "_reviewed": true,
+    "_qid": "R-014"
   },
   {
     "type": "어법 판단",
@@ -312,7 +340,9 @@ const QUESTION_BANK = [
       "⑤": "accelerated the discovery는 올바릅니다. accelerated 뒤에 명사 discovery가 와야 하므로 동명사 discovering은 오류입니다."
     },
     "_type": "grammar",
-    "given_sentence": null
+    "given_sentence": null,
+    "_reviewed": true,
+    "_qid": "R-015"
   },
   {
     "type": "어법 판단",
@@ -333,7 +363,9 @@ const QUESTION_BANK = [
       "⑤": "has proven effective in + -ing에서 creating은 올바른 동명사입니다."
     },
     "_type": "grammar",
-    "given_sentence": null
+    "given_sentence": null,
+    "_reviewed": true,
+    "_qid": "R-016"
   },
   {
     "type": "어법 판단",
@@ -354,7 +386,9 @@ const QUESTION_BANK = [
       "④": "committed to supporting에서 supporting은 동명사로 올바릅니다."
     },
     "_type": "grammar",
-    "given_sentence": null
+    "given_sentence": null,
+    "_reviewed": true,
+    "_qid": "R-017"
   },
   {
     "type": "어법 판단",
@@ -375,7 +409,9 @@ const QUESTION_BANK = [
       "4": "⑤번 'ignoring these issues'는 동명사로 주어 역할을 하며 문법적으로 완벽합니다."
     },
     "_type": "grammar",
-    "given_sentence": null
+    "given_sentence": null,
+    "_reviewed": true,
+    "_qid": "R-018"
   },
   {
     "type": "어법 판단",
@@ -396,7 +432,9 @@ const QUESTION_BANK = [
       "4": "⑤번 'restoration is possible when'은 주어 + 동사 구조로 문법적으로 정확합니다."
     },
     "_type": "grammar",
-    "given_sentence": null
+    "given_sentence": null,
+    "_reviewed": true,
+    "_qid": "R-019"
   },
   {
     "type": "어휘 적절성",
@@ -417,7 +455,9 @@ const QUESTION_BANK = [
       "3": "④amplify는 '증대시키다'라는 의미로 social inequalities가 커질 수 있다는 의미에 부합합니다."
     },
     "_type": "vocab",
-    "given_sentence": null
+    "given_sentence": null,
+    "_reviewed": true,
+    "_qid": "R-020"
   },
   {
     "type": "어휘 적절성",
@@ -438,7 +478,9 @@ const QUESTION_BANK = [
       "3": "④retard는 '지연시키다'라는 의미로 political divisions가 climate legislation의 진전을 막는다는 뜻으로 정확합니다."
     },
     "_type": "vocab",
-    "given_sentence": null
+    "given_sentence": null,
+    "_reviewed": true,
+    "_qid": "R-021"
   },
   {
     "type": "어휘 적절성",
@@ -459,7 +501,9 @@ const QUESTION_BANK = [
       "4": "⑤consolidate는 '통합하다'라는 학술 어휘로 neuroscience와 psychology의 발견을 합치는 의미로 적절합니다."
     },
     "_type": "vocab",
-    "given_sentence": null
+    "given_sentence": null,
+    "_reviewed": true,
+    "_qid": "R-022"
   },
   {
     "type": "어휘 적절성",
@@ -480,7 +524,9 @@ const QUESTION_BANK = [
       "3": "④ameliorate는 '개선하다'라는 학술 어휘로 정책이 상황을 나아지게 한다는 의미로 정확합니다."
     },
     "_type": "vocab",
-    "given_sentence": null
+    "given_sentence": null,
+    "_reviewed": true,
+    "_qid": "R-023"
   },
   {
     "type": "어휘 적절성",
@@ -501,7 +547,9 @@ const QUESTION_BANK = [
       "3": "④noted는 '주목하다'라는 의미로 mental health professionals가 correlation을 발견했다는 뜻으로 적절합니다."
     },
     "_type": "vocab",
-    "given_sentence": null
+    "given_sentence": null,
+    "_reviewed": true,
+    "_qid": "R-024"
   },
   {
     "type": "어휘 적절성",
@@ -522,7 +570,9 @@ const QUESTION_BANK = [
       "4": "diminish(줄이다, 감소시키다)는 교육과정에 AI 문해력을 '포함하도록 수정하다'는 의미에서는 부적절하지만, 문맥상 'expand'나 'augment'가 필요합니다."
     },
     "_type": "vocab",
-    "given_sentence": null
+    "given_sentence": null,
+    "_reviewed": false,
+    "_qid": "U-001"
   },
   {
     "type": "어휘 적절성",
@@ -543,7 +593,9 @@ const QUESTION_BANK = [
       "3": "accelerate(가속하다, 촉진하다)는 국제 협약이 지속 가능한 실천을 촉진하려는 목표와 맞습니다."
     },
     "_type": "vocab",
-    "given_sentence": null
+    "given_sentence": null,
+    "_reviewed": false,
+    "_qid": "U-002"
   },
   {
     "type": "요지/주제",
@@ -564,7 +616,9 @@ const QUESTION_BANK = [
       "④": "지문은 정보 신뢰성이 중요한 과제임을 언급하지만, 이것이 주제가 아닙니다."
     },
     "_type": "main_idea",
-    "given_sentence": null
+    "given_sentence": null,
+    "_reviewed": true,
+    "_qid": "R-025"
   },
   {
     "type": "요지/주제",
@@ -585,7 +639,9 @@ const QUESTION_BANK = [
       "④": "지문의 초점이 아니며, 평가 기준 표준화는 다루어지지 않습니다."
     },
     "_type": "main_idea",
-    "given_sentence": null
+    "given_sentence": null,
+    "_reviewed": true,
+    "_qid": "R-026"
   },
   {
     "type": "요지/주제",
@@ -606,7 +662,9 @@ const QUESTION_BANK = [
       "④": "지문의 초점은 보전 전략과 필요성에 있습니다."
     },
     "_type": "main_idea",
-    "given_sentence": null
+    "given_sentence": null,
+    "_reviewed": true,
+    "_qid": "R-027"
   },
   {
     "type": "요지/주제",
@@ -627,7 +685,9 @@ const QUESTION_BANK = [
       "④": "교육 기회의 차이가 주제가 아니며, 부수적 내용입니다."
     },
     "_type": "main_idea",
-    "given_sentence": null
+    "given_sentence": null,
+    "_reviewed": true,
+    "_qid": "R-028"
   },
   {
     "type": "요지/주제",
@@ -648,7 +708,9 @@ const QUESTION_BANK = [
       "④": "운동의 구체적 메커니즘은 다루어지지 않으며, 효과만 제시됩니다."
     },
     "_type": "main_idea",
-    "given_sentence": null
+    "given_sentence": null,
+    "_reviewed": true,
+    "_qid": "R-029"
   },
   {
     "type": "글의 순서",
@@ -669,7 +731,9 @@ const QUESTION_BANK = [
       "4": "(C)-(A)-(B)는 결론이 먼저 나와 논리적 구조가 파괴됨"
     },
     "_type": "order",
-    "given_sentence": null
+    "given_sentence": null,
+    "_reviewed": true,
+    "_qid": "R-030"
   },
   {
     "type": "글의 순서",
@@ -690,7 +754,9 @@ const QUESTION_BANK = [
       "4": "(C)-(A)-(B)는 추가 조건이 먼저 나와 논리 흐름 단절"
     },
     "_type": "order",
-    "given_sentence": null
+    "given_sentence": null,
+    "_reviewed": true,
+    "_qid": "R-031"
   },
   {
     "type": "글의 순서",
@@ -711,7 +777,9 @@ const QUESTION_BANK = [
       "4": "(C)-(A)-(B)는 결론이 먼저 나와 논리 구조 파괴"
     },
     "_type": "order",
-    "given_sentence": null
+    "given_sentence": null,
+    "_reviewed": true,
+    "_qid": "R-032"
   },
   {
     "type": "글의 순서",
@@ -732,7 +800,9 @@ const QUESTION_BANK = [
       "4": "(C)-(B)-(A)는 한계를 먼저 제시해 구조 파괴"
     },
     "_type": "order",
-    "given_sentence": null
+    "given_sentence": null,
+    "_reviewed": true,
+    "_qid": "R-033"
   },
   {
     "type": "글의 순서",
@@ -753,7 +823,9 @@ const QUESTION_BANK = [
       "4": "(C)-(A)-(B)는 저항이 먼저 나와 설득력 없음"
     },
     "_type": "order",
-    "given_sentence": null
+    "given_sentence": null,
+    "_reviewed": true,
+    "_qid": "R-034"
   },
   {
     "type": "어법 판단",
@@ -774,7 +846,9 @@ const QUESTION_BANK = [
       "4": "⑤는 'requires embracing'으로 3인칭 단수 주어에 대한 일반동사가 올바르게 사용되었습니다."
     },
     "_type": "grammar",
-    "given_sentence": null
+    "given_sentence": null,
+    "_reviewed": false,
+    "_qid": "U-003"
   },
   {
     "type": "어법 판단",
@@ -790,7 +864,9 @@ const QUESTION_BANK = [
     "explanation": "②번 'contribute'은 문법적으로 틀렸습니다. 주어 'Deforestation, pollution, and overfishing'은 복수형이므로 동사는 'contribute'이 맞습니다. 하지만 문맥상 'factors that contribute'로 목적격 관계대명사 'that' 다음의 동사이므로 실제로는 올바릅니다. 재검토하여 정정: ④번이 정답입니다.",
     "wrong_explanations": {},
     "_type": "grammar",
-    "given_sentence": null
+    "given_sentence": null,
+    "_reviewed": false,
+    "_qid": "U-004"
   },
   {
     "type": "어법 판단",
@@ -806,7 +882,9 @@ const QUESTION_BANK = [
     "explanation": "⑤번 'navigate'은 문법적으로 틀렸습니다. 'help users'는 '사용자들을 돕다'는 의미이며, 'help' 다음에는 'to navigate' 또는 'navigating' 모두 가능하지만, 여기서는 기본형이 필요하므로 'navigate'이 맞습니다. 재검토: 모두 올바릅니다. 정정하여 ③번으로 설정합니다.",
     "wrong_explanations": {},
     "_type": "grammar",
-    "given_sentence": null
+    "given_sentence": null,
+    "_reviewed": false,
+    "_qid": "U-005"
   },
   {
     "type": "어법 판단",
@@ -827,7 +905,9 @@ const QUESTION_BANK = [
       "4": "⑤는 'fail to prepare'로 동사 'fail' 다음 기본형이 올바르게 사용되었습니다."
     },
     "_type": "grammar",
-    "given_sentence": null
+    "given_sentence": null,
+    "_reviewed": false,
+    "_qid": "U-006"
   },
   {
     "type": "어법 판단",
@@ -848,7 +928,9 @@ const QUESTION_BANK = [
       "3": "④는 'have successfully achieved'로 현재완료형이 올바르게 사용되었습니다."
     },
     "_type": "grammar",
-    "given_sentence": null
+    "given_sentence": null,
+    "_reviewed": false,
+    "_qid": "U-007"
   },
   {
     "type": "어법 판단",
@@ -869,7 +951,9 @@ const QUESTION_BANK = [
       "adapting": "⑤번은 정답이 아닙니다. 'agree that adapting'에서 동명사 'adapting'은 문법적으로 완벽합니다."
     },
     "_type": "grammar",
-    "given_sentence": null
+    "given_sentence": null,
+    "_reviewed": false,
+    "_qid": "U-008"
   },
   {
     "type": "어법 판단",
@@ -890,7 +974,9 @@ const QUESTION_BANK = [
       "depends": "⑤번은 정답이 아닙니다. 'depends on'은 주어 'The transition'(단수)와 수일치가 완벽합니다."
     },
     "_type": "grammar",
-    "given_sentence": null
+    "given_sentence": null,
+    "_reviewed": false,
+    "_qid": "U-009"
   },
   {
     "type": "어법 판단",
@@ -911,7 +997,9 @@ const QUESTION_BANK = [
       "reshapes": "⑤번은 정답이 아닙니다. 'The integration reshapes'은 주어(단수) 'integration'과 수일치가 완벽합니다."
     },
     "_type": "grammar",
-    "given_sentence": null
+    "given_sentence": null,
+    "_reviewed": false,
+    "_qid": "U-010"
   },
   {
     "type": "어법 판단",
@@ -932,7 +1020,9 @@ const QUESTION_BANK = [
       "continue": "⑤번은 정답이 아닙니다. 'individuals continue to use'은 주어(복수)와 동사가 수일치하며 문법적으로 완벽합니다."
     },
     "_type": "grammar",
-    "given_sentence": null
+    "given_sentence": null,
+    "_reviewed": false,
+    "_qid": "U-011"
   },
   {
     "type": "어법 판단",
@@ -953,7 +1043,9 @@ const QUESTION_BANK = [
       "caused": "④번은 정답이 아닙니다. 'has often caused'는 현재완료형으로 문법적으로 완벽합니다."
     },
     "_type": "grammar",
-    "given_sentence": null
+    "given_sentence": null,
+    "_reviewed": false,
+    "_qid": "U-012"
   },
   {
     "type": "어휘 적절성",
@@ -974,7 +1066,9 @@ const QUESTION_BANK = [
       "④insufficient": "노력이 불충분하다 → 문맥상 적절"
     },
     "_type": "vocab",
-    "given_sentence": null
+    "given_sentence": null,
+    "_reviewed": false,
+    "_qid": "U-013"
   },
   {
     "type": "어휘 적절성",
@@ -995,7 +1089,9 @@ const QUESTION_BANK = [
       "④rapidly": "표가 빠르게 매진되었다 → 문맥상 적절"
     },
     "_type": "vocab",
-    "given_sentence": null
+    "given_sentence": null,
+    "_reviewed": false,
+    "_qid": "U-014"
   },
   {
     "type": "어휘 적절성",
@@ -1016,7 +1112,9 @@ const QUESTION_BANK = [
       "④accelerate": "노력을 가속화해야 한다 → 문맥상 적절"
     },
     "_type": "vocab",
-    "given_sentence": null
+    "given_sentence": null,
+    "_reviewed": false,
+    "_qid": "U-015"
   },
   {
     "type": "어휘 적절성",
@@ -1037,7 +1135,9 @@ const QUESTION_BANK = [
       "④discern": "진실을 구분하다 → 문맥상 적절"
     },
     "_type": "vocab",
-    "given_sentence": null
+    "given_sentence": null,
+    "_reviewed": false,
+    "_qid": "U-016"
   },
   {
     "type": "어휘 적절성",
@@ -1058,7 +1158,9 @@ const QUESTION_BANK = [
       "④struggle": "주의력에 어려움을 겪는다 → 문맥상 적절"
     },
     "_type": "vocab",
-    "given_sentence": null
+    "given_sentence": null,
+    "_reviewed": false,
+    "_qid": "U-017"
   },
   {
     "type": "어휘 적절성",
@@ -1079,7 +1181,9 @@ const QUESTION_BANK = [
       "⑤": "justified(정당화하다)는 투자가 정당한 것으로 판명되었다는 의미로 적절합니다."
     },
     "_type": "vocab",
-    "given_sentence": null
+    "given_sentence": null,
+    "_reviewed": false,
+    "_qid": "U-018"
   },
   {
     "type": "어휘 적절성",
@@ -1100,7 +1204,9 @@ const QUESTION_BANK = [
       "⑤": "integrate(통합하다)는 교육 과정에 디지털 리터러시를 포함시킨다는 의미로 적절합니다."
     },
     "_type": "vocab",
-    "given_sentence": null
+    "given_sentence": null,
+    "_reviewed": false,
+    "_qid": "U-019"
   },
   {
     "type": "어휘 적절성",
@@ -1121,7 +1227,9 @@ const QUESTION_BANK = [
       "④": "diminish(감소시키다)는 탄소 배출을 줄인다는 의미로 적절합니다."
     },
     "_type": "vocab",
-    "given_sentence": null
+    "given_sentence": null,
+    "_reviewed": false,
+    "_qid": "U-020"
   },
   {
     "type": "어휘 적절성",
@@ -1142,7 +1250,9 @@ const QUESTION_BANK = [
       "⑤": "cultivate(기르다)는 긍정적인 직장 문화를 형성한다는 의미로 적절합니다."
     },
     "_type": "vocab",
-    "given_sentence": null
+    "given_sentence": null,
+    "_reviewed": false,
+    "_qid": "U-021"
   },
   {
     "type": "어휘 적절성",
@@ -1163,7 +1273,9 @@ const QUESTION_BANK = [
       "⑤": "inflated(부풀린)는 협상 여지를 두기 위해 처음 제안을 높게 책정한다는 의미로 적절합니다."
     },
     "_type": "vocab",
-    "given_sentence": null
+    "given_sentence": null,
+    "_reviewed": false,
+    "_qid": "U-022"
   },
   {
     "type": "빈칸 추론",
@@ -1184,7 +1296,9 @@ const QUESTION_BANK = [
       "4": "improve(개선하다)는 문맥상 반대 의미"
     },
     "_type": "blank",
-    "given_sentence": null
+    "given_sentence": null,
+    "_reviewed": true,
+    "_qid": "R-035"
   },
   {
     "type": "빈칸 추론",
@@ -1205,7 +1319,9 @@ const QUESTION_BANK = [
       "4": "controversial(논쟁적인)는 문맥상 어울리지 않음"
     },
     "_type": "blank",
-    "given_sentence": null
+    "given_sentence": null,
+    "_reviewed": true,
+    "_qid": "R-036"
   },
   {
     "type": "빈칸 추론",
@@ -1226,7 +1342,9 @@ const QUESTION_BANK = [
       "4": "challenge(도전하다)는 confirmation bias 설명과 반대"
     },
     "_type": "blank",
-    "given_sentence": null
+    "given_sentence": null,
+    "_reviewed": true,
+    "_qid": "R-037"
   },
   {
     "type": "빈칸 추론",
@@ -1247,7 +1365,9 @@ const QUESTION_BANK = [
       "4": "지문의 논지상 플로우 상태의 능력이 중요함을 강조합니다."
     },
     "_type": "blank",
-    "given_sentence": null
+    "given_sentence": null,
+    "_reviewed": true,
+    "_qid": "R-038"
   },
   {
     "type": "빈칸 추론",
@@ -1268,7 +1388,9 @@ const QUESTION_BANK = [
       "4": "인공적인 규제보다는 자연스러운 균형을 추구해야 합니다."
     },
     "_type": "blank",
-    "given_sentence": null
+    "given_sentence": null,
+    "_reviewed": true,
+    "_qid": "R-039"
   },
   {
     "type": "글의 순서",
@@ -1289,7 +1411,9 @@ const QUESTION_BANK = [
       "4": "(C)-(A)-(B): 결론이 먼저 나와 예시를 뒷받침할 논리 부족"
     },
     "_type": "order",
-    "given_sentence": null
+    "given_sentence": null,
+    "_reviewed": true,
+    "_qid": "R-040"
   },
   {
     "type": "글의 순서",
@@ -1310,7 +1434,9 @@ const QUESTION_BANK = [
       "4": "(C)-(A)-(B): 응용이 기초보다 먼저 나와 인과관계 역전"
     },
     "_type": "order",
-    "given_sentence": null
+    "given_sentence": null,
+    "_reviewed": true,
+    "_qid": "R-041"
   },
   {
     "type": "글의 순서",
@@ -1331,7 +1457,9 @@ const QUESTION_BANK = [
       "4": "(C)-(B)-(A): 동일한 논리 순서 문제"
     },
     "_type": "order",
-    "given_sentence": null
+    "given_sentence": null,
+    "_reviewed": true,
+    "_qid": "R-042"
   },
   {
     "type": "글의 순서",
@@ -1352,7 +1480,9 @@ const QUESTION_BANK = [
       "4": "(C)-(B)-(A): 비교 분석이 사례보다 먼저 나오면 논거 부족"
     },
     "_type": "order",
-    "given_sentence": null
+    "given_sentence": null,
+    "_reviewed": true,
+    "_qid": "R-043"
   },
   {
     "type": "글의 순서",
@@ -1373,7 +1503,9 @@ const QUESTION_BANK = [
       "4": "(C)-(B)-(A): 동일한 논리 순서 문제"
     },
     "_type": "order",
-    "given_sentence": null
+    "given_sentence": null,
+    "_reviewed": true,
+    "_qid": "R-044"
   },
   {
     "type": "빈칸 추론",
@@ -1394,7 +1526,9 @@ const QUESTION_BANK = [
       "⑤": "가설적(hypothetical)은 문맥상 부적절하다. 과학은 가설을 검증하지만, 그 대상은 관찰 가능해야 한다."
     },
     "_type": "blank",
-    "given_sentence": null
+    "given_sentence": null,
+    "_reviewed": true,
+    "_qid": "R-045"
   },
   {
     "type": "빈칸 추론",
@@ -1415,7 +1549,9 @@ const QUESTION_BANK = [
       "⑤": "예방하다(prevent)는 의미는 실패를 받아들인다는 개념과 맞지 않다."
     },
     "_type": "blank",
-    "given_sentence": null
+    "given_sentence": null,
+    "_reviewed": true,
+    "_qid": "R-046"
   },
   {
     "type": "빈칸 추론",
@@ -1436,7 +1572,9 @@ const QUESTION_BANK = [
       "⑤": "기록하다(document)는 문맥상 부적절하다."
     },
     "_type": "blank",
-    "given_sentence": null
+    "given_sentence": null,
+    "_reviewed": true,
+    "_qid": "R-047"
   },
   {
     "type": "빈칸 추론",
@@ -1457,7 +1595,9 @@ const QUESTION_BANK = [
       "⑤": "점진적인(gradual)은 긴급한 행동이 필요하다는 뉘앙스와 맞지 않는다."
     },
     "_type": "blank",
-    "given_sentence": null
+    "given_sentence": null,
+    "_reviewed": false,
+    "_qid": "U-023"
   },
   {
     "type": "빈칸 추론",
@@ -1478,7 +1618,9 @@ const QUESTION_BANK = [
       "⑤": "피하다(avoid)는 감정을 다루는 것이 아니라 피한다는 의미로 부적절하다."
     },
     "_type": "blank",
-    "given_sentence": null
+    "given_sentence": null,
+    "_reviewed": false,
+    "_qid": "U-024"
   },
   {
     "type": "빈칸 추론",
@@ -1499,7 +1641,9 @@ const QUESTION_BANK = [
       "⑤incidentally": "우연히라는 뜻으로 의도적이고 체계적인 변화를 반영하지 못함"
     },
     "_type": "blank",
-    "given_sentence": null
+    "given_sentence": null,
+    "_reviewed": false,
+    "_qid": "U-025"
   },
   {
     "type": "빈칸 추론",
@@ -1520,7 +1664,9 @@ const QUESTION_BANK = [
       "⑤eliminated": "제거하다는 뜻으로 실제로 문제가 존재하므로 거짓"
     },
     "_type": "blank",
-    "given_sentence": null
+    "given_sentence": null,
+    "_reviewed": false,
+    "_qid": "U-026"
   },
   {
     "type": "빈칸 추론",
@@ -1541,7 +1687,9 @@ const QUESTION_BANK = [
       "⑤supports": "지지한다는 뜻으로 문맥상 맞지 않음"
     },
     "_type": "blank",
-    "given_sentence": null
+    "given_sentence": null,
+    "_reviewed": false,
+    "_qid": "U-027"
   },
   {
     "type": "빈칸 추론",
@@ -1562,7 +1710,9 @@ const QUESTION_BANK = [
       "⑤enhance": "강화한다는 뜻으로 손상된 부분의 기능 회복을 설명하지 못함"
     },
     "_type": "blank",
-    "given_sentence": null
+    "given_sentence": null,
+    "_reviewed": false,
+    "_qid": "U-028"
   },
   {
     "type": "문장 삽입",
@@ -1583,7 +1733,9 @@ const QUESTION_BANK = [
       "3": "기술 발전의 긍정적 측면을 다루는 부분에 어울리지 않음",
       "4": "결론 부분에서는 균형을 찾기 위한 제안을 하고 있어 부적절함"
     },
-    "_type": "insert"
+    "_type": "insert",
+    "_reviewed": true,
+    "_qid": "R-048"
   },
   {
     "type": "문장 삽입",
@@ -1604,7 +1756,9 @@ const QUESTION_BANK = [
       "2": "기업 프로그램 도입을 소개하기 전에 경고를 두면 흐름이 끊김",
       "3": "종합적 결론을 내리기 전에 삽입하면 마무리가 불완전함"
     },
-    "_type": "insert"
+    "_type": "insert",
+    "_reviewed": true,
+    "_qid": "R-049"
   },
   {
     "type": "문장 삽입",
@@ -1625,7 +1779,9 @@ const QUESTION_BANK = [
       "2": "디지털 형태의 진화를 소개한 직후 삽입하면 ④와의 연결이 약함",
       "4": "본질의 지속성을 강조한 후에 변화에 대해 말하면 논리가 역순임"
     },
-    "_type": "insert"
+    "_type": "insert",
+    "_reviewed": true,
+    "_qid": "R-050"
   },
   {
     "type": "문장 삽입",
@@ -1646,7 +1802,9 @@ const QUESTION_BANK = [
       "2": "첫 번째 학습 방법을 소개할 때 이미 그 결과를 강조하는 것은 시기상조",
       "3": "사회적 학습의 이점을 언급한 직후에는 다른 방법을 추가 소개하는 것이 적절함"
     },
-    "_type": "insert"
+    "_type": "insert",
+    "_reviewed": true,
+    "_qid": "R-051"
   },
   {
     "type": "문장 삽입",
@@ -1667,7 +1825,9 @@ const QUESTION_BANK = [
       "③": "초기 사례만 제시했을 뿐, 결론을 내릴 충분한 배경이 아닙니다.",
       "⑤": "주어진 문장의 'Therefore'가 의미적으로 연결되지 않습니다."
     },
-    "_type": "insert"
+    "_type": "insert",
+    "_reviewed": true,
+    "_qid": "R-052"
   },
   {
     "type": "문장 삽입",
@@ -1688,7 +1848,9 @@ const QUESTION_BANK = [
       "③": "brain plasticity 연구 개시만 언급했을 뿐 구체적 능력이 명확하지 않습니다.",
       "⑤": "신경 장애 치료 개발 부분으로 문맥상 맞지 않습니다."
     },
-    "_type": "insert"
+    "_type": "insert",
+    "_reviewed": true,
+    "_qid": "R-053"
   },
   {
     "type": "문장 삽입",
@@ -1709,7 +1871,9 @@ const QUESTION_BANK = [
       "③": "생태계 혼란을 언급하지만 해결책이 아닙니다.",
       "④": "멸종 위험을 설명하지만 구체적 보전 노력은 없습니다."
     },
-    "_type": "insert"
+    "_type": "insert",
+    "_reviewed": true,
+    "_qid": "R-054"
   },
   {
     "type": "어법 판단",
@@ -1730,7 +1894,9 @@ const QUESTION_BANK = [
       "⑤": "'expressed'는 과거시제로 일관성 있습니다."
     },
     "_type": "grammar",
-    "given_sentence": null
+    "given_sentence": null,
+    "_reviewed": false,
+    "_qid": "U-029"
   },
   {
     "type": "어법 판단",
@@ -1751,7 +1917,9 @@ const QUESTION_BANK = [
       "⑤": "'integration'은 단수주어로 'continues'가 올바릅니다."
     },
     "_type": "grammar",
-    "given_sentence": null
+    "given_sentence": null,
+    "_reviewed": false,
+    "_qid": "U-030"
   },
   {
     "type": "어법 판단",
@@ -1772,7 +1940,9 @@ const QUESTION_BANK = [
       "⑤": "'must'는 조동사이므로 'implement'의 기본형이 와야 하는데, 본문의 주요 오류는 아닙니다."
     },
     "_type": "grammar",
-    "given_sentence": null
+    "given_sentence": null,
+    "_reviewed": false,
+    "_qid": "U-031"
   },
   {
     "type": "어법 판단",
@@ -1793,7 +1963,9 @@ const QUESTION_BANK = [
       "⑤": "'aspects'는 복수주어이므로 'run'을 사용해야 하는데, 본문의 주요 오류는 아닙니다."
     },
     "_type": "grammar",
-    "given_sentence": null
+    "given_sentence": null,
+    "_reviewed": false,
+    "_qid": "U-032"
   },
   {
     "type": "어법 판단",
@@ -1814,7 +1986,9 @@ const QUESTION_BANK = [
       "⑤": "'leaders'는 복수주어이므로 'agree'를 사용해야 하지만, 본문의 주요 오류는 아닙니다."
     },
     "_type": "grammar",
-    "given_sentence": null
+    "given_sentence": null,
+    "_reviewed": false,
+    "_qid": "U-033"
   },
   {
     "type": "어법 판단",
@@ -1835,7 +2009,9 @@ const QUESTION_BANK = [
       "⑤": "명사 communication은 동사 자리에 올 수 없습니다."
     },
     "_type": "grammar",
-    "given_sentence": null
+    "given_sentence": null,
+    "_reviewed": false,
+    "_qid": "U-034"
   },
   {
     "type": "어법 판단",
@@ -1856,7 +2032,9 @@ const QUESTION_BANK = [
       "⑤": "형용사 experiential은 동사 자리에 올 수 없습니다."
     },
     "_type": "grammar",
-    "given_sentence": null
+    "given_sentence": null,
+    "_reviewed": false,
+    "_qid": "U-035"
   },
   {
     "type": "어법 판단",
@@ -1877,7 +2055,9 @@ const QUESTION_BANK = [
       "⑤": "형용사 affective는 동사 자리에 올 수 없습니다."
     },
     "_type": "grammar",
-    "given_sentence": null
+    "given_sentence": null,
+    "_reviewed": false,
+    "_qid": "U-036"
   },
   {
     "type": "어법 판단",
@@ -1898,7 +2078,9 @@ const QUESTION_BANK = [
       "⑤": "형용사 serviceable은 동사 자리에 올 수 없습니다."
     },
     "_type": "grammar",
-    "given_sentence": null
+    "given_sentence": null,
+    "_reviewed": false,
+    "_qid": "U-037"
   },
   {
     "type": "어휘 적절성",
@@ -1919,7 +2101,9 @@ const QUESTION_BANK = [
       "④": "reluctant enthusiasm는 '어쩔 수 없는 열정'으로, 새로운 방향이 도전적이라는 문맥에 맞습니다."
     },
     "_type": "vocab",
-    "given_sentence": null
+    "given_sentence": null,
+    "_reviewed": false,
+    "_qid": "U-038"
   },
   {
     "type": "어휘 적절성",
@@ -1940,7 +2124,9 @@ const QUESTION_BANK = [
       "④": "insufficient는 '불충분한'이라는 의미로 환경단체의 주장을 논리적으로 표현합니다."
     },
     "_type": "vocab",
-    "given_sentence": null
+    "given_sentence": null,
+    "_reviewed": false,
+    "_qid": "U-039"
   },
   {
     "type": "어휘 적절성",
@@ -1961,7 +2147,9 @@ const QUESTION_BANK = [
       "④": "portrayal는 '묘사'라는 의미로 저자의 능력을 설명합니다."
     },
     "_type": "vocab",
-    "given_sentence": null
+    "given_sentence": null,
+    "_reviewed": false,
+    "_qid": "U-040"
   },
   {
     "type": "어휘 적절성",
@@ -1982,7 +2170,9 @@ const QUESTION_BANK = [
       "④": "surged는 '급증하다'라는 의미로 매출 증가를 나타냅니다."
     },
     "_type": "vocab",
-    "given_sentence": null
+    "given_sentence": null,
+    "_reviewed": false,
+    "_qid": "U-041"
   },
   {
     "type": "어휘 적절성",
@@ -2003,7 +2193,9 @@ const QUESTION_BANK = [
       "④": "validate는 '증명하다'라는 의미로 한약 치료의 효능을 확인합니다."
     },
     "_type": "vocab",
-    "given_sentence": null
+    "given_sentence": null,
+    "_reviewed": false,
+    "_qid": "U-042"
   },
   {
     "type": "어휘 적절성",
@@ -2024,7 +2216,9 @@ const QUESTION_BANK = [
       "5": "timeless는 '시간을 초월한, 영원한'이라는 뜻으로 '역사 보존의 상징'을 묘사하는 데 적절합니다."
     },
     "_type": "vocab",
-    "given_sentence": null
+    "given_sentence": null,
+    "_reviewed": false,
+    "_qid": "U-043"
   },
   {
     "type": "어휘 적절성",
@@ -2045,7 +2239,9 @@ const QUESTION_BANK = [
       "5": "coordinated는 '조율된, 조화로운'이라는 뜻으로 '글로벌 노력이 조화를 이루어야 한다'는 문맥에 적절합니다."
     },
     "_type": "vocab",
-    "given_sentence": null
+    "given_sentence": null,
+    "_reviewed": false,
+    "_qid": "U-044"
   },
   {
     "type": "어휘 적절성",
@@ -2066,7 +2262,9 @@ const QUESTION_BANK = [
       "5": "advocating는 '주장하다'는 뜻으로 '인문주의자들이 인간 존엄성과 세속적 학습을 주장하다'는 문맥에 적절합니다."
     },
     "_type": "vocab",
-    "given_sentence": null
+    "given_sentence": null,
+    "_reviewed": false,
+    "_qid": "U-045"
   },
   {
     "type": "어휘 적절성",
@@ -2087,7 +2285,9 @@ const QUESTION_BANK = [
       "5": "credibility는 '신뢰성'이라는 뜻으로 '투명성이 이해관계자에게 신뢰성을 제공한다'는 문맥에 적절합니다."
     },
     "_type": "vocab",
-    "given_sentence": null
+    "given_sentence": null,
+    "_reviewed": false,
+    "_qid": "U-046"
   },
   {
     "type": "글의 순서",
@@ -2108,7 +2308,9 @@ const QUESTION_BANK = [
       "⑤": "(C)의 문화적 배경이 (A)의 과학적 증거보다 먼저 나오면 설득력 약함"
     },
     "_type": "order",
-    "given_sentence": null
+    "given_sentence": null,
+    "_reviewed": true,
+    "_qid": "R-055"
   },
   {
     "type": "글의 순서",
@@ -2129,7 +2331,9 @@ const QUESTION_BANK = [
       "⑤": "질문의 답변 순서가 역순이 되어 논리적 흐름 붕괴"
     },
     "_type": "order",
-    "given_sentence": null
+    "given_sentence": null,
+    "_reviewed": false,
+    "_qid": "U-047"
   },
   {
     "type": "글의 순서",
@@ -2150,7 +2354,9 @@ const QUESTION_BANK = [
       "⑤": "해결책들이 문제 설명보다 먼저 나와 논리적 흐름 완전 붕괴"
     },
     "_type": "order",
-    "given_sentence": null
+    "given_sentence": null,
+    "_reviewed": false,
+    "_qid": "U-048"
   },
   {
     "type": "글의 순서",
@@ -2171,7 +2377,9 @@ const QUESTION_BANK = [
       "⑤": "정책과 결과가 기능 설명보다 먼저 나와 완전히 역순의 논리"
     },
     "_type": "order",
-    "given_sentence": null
+    "given_sentence": null,
+    "_reviewed": false,
+    "_qid": "U-049"
   },
   {
     "type": "글의 순서",
@@ -2192,7 +2400,9 @@ const QUESTION_BANK = [
       "⑤": "해결책-문제-장점 순서는 논리적 인과관계 완전 파괴"
     },
     "_type": "order",
-    "given_sentence": null
+    "given_sentence": null,
+    "_reviewed": false,
+    "_qid": "U-050"
   },
   {
     "type": "글의 순서",
@@ -2213,7 +2423,9 @@ const QUESTION_BANK = [
       "4": "(C)-(A)-(B)는 결론부터 시작하므로 전개 순서가 맞지 않습니다."
     },
     "_type": "order",
-    "given_sentence": null
+    "given_sentence": null,
+    "_reviewed": false,
+    "_qid": "U-051"
   },
   {
     "type": "글의 순서",
@@ -2234,7 +2446,9 @@ const QUESTION_BANK = [
       "4": "(C)-(B)-(A)는 사례와 도전 과제를 먼저 제시한 후 경제성을 설명하므로 부자연스럽습니다."
     },
     "_type": "order",
-    "given_sentence": null
+    "given_sentence": null,
+    "_reviewed": false,
+    "_qid": "U-052"
   },
   {
     "type": "글의 순서",
@@ -2255,7 +2469,9 @@ const QUESTION_BANK = [
       "4": "(C)-(B)-(A)는 모든 순서를 역순으로 배열하므로 논리 흐름이 완전히 틀립니다."
     },
     "_type": "order",
-    "given_sentence": null
+    "given_sentence": null,
+    "_reviewed": false,
+    "_qid": "U-053"
   },
   {
     "type": "요지/주제",
@@ -2276,7 +2492,9 @@ const QUESTION_BANK = [
       "4": "지문은 소비자의 구매력이 오염을 감소시킨다고 보지 않으며, 구매력 자체의 감소를 제안합니다."
     },
     "_type": "main_idea",
-    "given_sentence": null
+    "given_sentence": null,
+    "_reviewed": true,
+    "_qid": "R-056"
   },
   {
     "type": "요지/주제",
@@ -2297,7 +2515,9 @@ const QUESTION_BANK = [
       "4": "지문은 개인의 라이프스타일 변화만으로는 부족하다고 주장하므로, 선택지 5는 지문의 요지와 맞지 않습니다."
     },
     "_type": "main_idea",
-    "given_sentence": null
+    "given_sentence": null,
+    "_reviewed": true,
+    "_qid": "R-057"
   },
   {
     "type": "요지/주제",
@@ -2318,7 +2538,9 @@ const QUESTION_BANK = [
       "4": "지문은 목격자 증언을 신뢰해야 한다고 주장하지 않으며, 오히려 그 한계를 지적합니다."
     },
     "_type": "main_idea",
-    "given_sentence": null
+    "given_sentence": null,
+    "_reviewed": true,
+    "_qid": "R-058"
   },
   {
     "type": "요지/주제",
@@ -2339,7 +2561,9 @@ const QUESTION_BANK = [
       "4": "지문은 공원과 녹지 제거를 정당화하지 않으며, 오히려 그것이 주민의 건강을 해친다고 주장합니다."
     },
     "_type": "main_idea",
-    "given_sentence": null
+    "given_sentence": null,
+    "_reviewed": true,
+    "_qid": "R-059"
   },
   {
     "type": "요지/주제",
@@ -2360,7 +2584,9 @@ const QUESTION_BANK = [
       "4": "지문은 자유 시장 힘만으로는 부족하며, 적극적 정책이 필요하다고 주장합니다."
     },
     "_type": "main_idea",
-    "given_sentence": null
+    "given_sentence": null,
+    "_reviewed": true,
+    "_qid": "R-060"
   },
   {
     "type": "빈칸 추론",
@@ -2382,7 +2608,9 @@ const QUESTION_BANK = [
     },
     "_type": "blank",
     "given_sentence": null,
-    "_source": "public_domain"
+    "_source": "public_domain",
+    "_reviewed": false,
+    "_qid": "U-054"
   },
   {
     "type": "빈칸 추론",
@@ -2405,7 +2633,9 @@ const QUESTION_BANK = [
     },
     "_type": "blank",
     "given_sentence": null,
-    "_source": "public_domain"
+    "_source": "public_domain",
+    "_reviewed": false,
+    "_qid": "U-055"
   },
   {
     "type": "문장 삽입",
@@ -2426,7 +2656,9 @@ const QUESTION_BANK = [
     },
     "_type": "insert",
     "given_sentence": "By making books more affordable and accessible, the printing press became a catalyst for intellectual liberation and social transformation.",
-    "_source": "public_domain"
+    "_source": "public_domain",
+    "_reviewed": false,
+    "_qid": "U-056"
   },
   {
     "type": "문장 삽입",
@@ -2448,7 +2680,9 @@ const QUESTION_BANK = [
     },
     "_type": "insert",
     "given_sentence": "This creates urgent pressure for developing robust frameworks to guide AI development responsibly.",
-    "_source": "public_domain"
+    "_source": "public_domain",
+    "_reviewed": false,
+    "_qid": "U-057"
   },
   {
     "type": "어법 판단",
@@ -2469,7 +2703,9 @@ const QUESTION_BANK = [
     },
     "_type": "grammar",
     "_source": "public_domain",
-    "given_sentence": null
+    "given_sentence": null,
+    "_reviewed": false,
+    "_qid": "U-058"
   },
   {
     "type": "어법 판단",
@@ -2491,7 +2727,9 @@ const QUESTION_BANK = [
     },
     "_type": "grammar",
     "_source": "public_domain",
-    "given_sentence": null
+    "given_sentence": null,
+    "_reviewed": false,
+    "_qid": "U-059"
   },
   {
     "type": "어휘 적절성",
@@ -2513,7 +2751,9 @@ const QUESTION_BANK = [
     },
     "_type": "vocab",
     "given_sentence": null,
-    "_source": "public_domain"
+    "_source": "public_domain",
+    "_reviewed": false,
+    "_qid": "U-060"
   },
   {
     "type": "어휘 적절성",
@@ -2535,7 +2775,9 @@ const QUESTION_BANK = [
     },
     "_type": "vocab",
     "_source": "public_domain",
-    "given_sentence": null
+    "given_sentence": null,
+    "_reviewed": false,
+    "_qid": "U-061"
   },
   {
     "type": "요지/주제",
@@ -2557,7 +2799,9 @@ const QUESTION_BANK = [
     },
     "_type": "main_idea",
     "given_sentence": null,
-    "_source": "public_domain"
+    "_source": "public_domain",
+    "_reviewed": true,
+    "_qid": "R-061"
   },
   {
     "type": "글의 순서",
@@ -2579,7 +2823,9 @@ const QUESTION_BANK = [
     },
     "_type": "order",
     "given_sentence": null,
-    "_source": "public_domain"
+    "_source": "public_domain",
+    "_reviewed": false,
+    "_qid": "U-062"
   },
   {
     "type": "문장 삽입",
@@ -2600,7 +2846,9 @@ const QUESTION_BANK = [
       "③": "③번에서 산업 혁신을 나열하고 있는 단계에서 우려를 제시하면 논리 흐름이 끊깁니다.",
       "⑤": "⑤번 이후는 이미 윤리적 우려를 다루고 있어 중복이 됩니다."
     },
-    "_type": "insert"
+    "_type": "insert",
+    "_reviewed": false,
+    "_qid": "U-063"
   },
   {
     "type": "문장 삽입",
@@ -2620,7 +2868,9 @@ const QUESTION_BANK = [
       "②": "②번은 시골의 부정적 측면만 다루고 있어 아직 대조가 의미 있지 않습니다.",
       "⑤": "⑤번 전에 도시의 긍정적 측면이 완성되지 않아 대조가 약합니다."
     },
-    "_type": "insert"
+    "_type": "insert",
+    "_reviewed": false,
+    "_qid": "U-064"
   },
   {
     "type": "문장 삽입",
@@ -2641,7 +2891,9 @@ const QUESTION_BANK = [
       "③": "③번에서 하나의 사례만 제시되었으므로 'innovations'(복수)의 지칭이 적절하지 않습니다.",
       "⑤": "⑤번 이후는 이미 규범 문법에 대한 다른 주제로 진행되고 있습니다."
     },
-    "_type": "insert"
+    "_type": "insert",
+    "_reviewed": false,
+    "_qid": "U-065"
   },
   {
     "type": "어법 판단",
@@ -2662,7 +2914,9 @@ const QUESTION_BANK = [
       "4": "⑤번의 동사는 주어 'Organizations'(복수)와 일치하므로 'prioritize'가 올바릅니다."
     },
     "_type": "grammar",
-    "given_sentence": null
+    "given_sentence": null,
+    "_reviewed": false,
+    "_qid": "U-066"
   },
   {
     "type": "어법 판단",
@@ -2683,7 +2937,9 @@ const QUESTION_BANK = [
       "4": "⑤번 'addressing grid stability, workforce retraining'은 동명사로 'comprehensive planning'의 목적어로 문법적으로 정확합니다."
     },
     "_type": "grammar",
-    "given_sentence": null
+    "given_sentence": null,
+    "_reviewed": false,
+    "_qid": "U-067"
   },
   {
     "type": "어법 판단",
@@ -2704,7 +2960,9 @@ const QUESTION_BANK = [
       "3": "④번 'to improve mental well-being'은 '목적'을 나타내는 to부정사로 올바릅니다."
     },
     "_type": "grammar",
-    "given_sentence": null
+    "given_sentence": null,
+    "_reviewed": false,
+    "_qid": "U-068"
   },
   {
     "type": "어휘 적절성",
@@ -2725,7 +2983,9 @@ const QUESTION_BANK = [
       "4": "circumscribed는 문맥상 '제한되어서는 안 된다'는 의미로 부정적 뉘앙스가 있어 이 문맥에서 자연스럽지 않습니다."
     },
     "_type": "vocab",
-    "given_sentence": null
+    "given_sentence": null,
+    "_reviewed": false,
+    "_qid": "U-069"
   },
   {
     "type": "어휘 적절성",
@@ -2746,7 +3006,9 @@ const QUESTION_BANK = [
       "4": "constrained(제한하다, 억제하다)는 도시들이 탄소 배출을 제한했다는 의미에서 완벽하게 적절합니다."
     },
     "_type": "vocab",
-    "given_sentence": null
+    "given_sentence": null,
+    "_reviewed": false,
+    "_qid": "U-070"
   },
   {
     "type": "어휘 적절성",
@@ -2767,7 +3029,9 @@ const QUESTION_BANK = [
       "4": "constrain(제한하다)은 규제 체계가 상업적 적용을 제한해야 한다는 의미에서 적절합니다."
     },
     "_type": "vocab",
-    "given_sentence": null
+    "given_sentence": null,
+    "_reviewed": false,
+    "_qid": "U-071"
   },
   {
     "type": "빈칸 추론",
@@ -2784,7 +3048,9 @@ const QUESTION_BANK = [
     "_type": "blank",
     "given_sentence": null,
     "wrong_explanations": {},
-    "id": "ENG-001"
+    "id": "ENG-001",
+    "_reviewed": false,
+    "_qid": "U-072"
   },
   {
     "type": "빈칸 추론",
@@ -2801,7 +3067,9 @@ const QUESTION_BANK = [
     "_type": "blank",
     "given_sentence": null,
     "wrong_explanations": {},
-    "id": "ENG-002"
+    "id": "ENG-002",
+    "_reviewed": false,
+    "_qid": "U-073"
   },
   {
     "type": "빈칸 추론",
@@ -2818,7 +3086,9 @@ const QUESTION_BANK = [
     "_type": "blank",
     "given_sentence": null,
     "wrong_explanations": {},
-    "id": "ENG-003"
+    "id": "ENG-003",
+    "_reviewed": false,
+    "_qid": "U-074"
   },
   {
     "type": "빈칸 추론",
@@ -2835,7 +3105,9 @@ const QUESTION_BANK = [
     "_type": "blank",
     "given_sentence": null,
     "wrong_explanations": {},
-    "id": "ENG-004"
+    "id": "ENG-004",
+    "_reviewed": false,
+    "_qid": "U-075"
   },
   {
     "type": "빈칸 추론",
@@ -2852,7 +3124,9 @@ const QUESTION_BANK = [
     "_type": "blank",
     "given_sentence": null,
     "wrong_explanations": {},
-    "id": "ENG-005"
+    "id": "ENG-005",
+    "_reviewed": false,
+    "_qid": "U-076"
   },
   {
     "type": "빈칸 추론",
@@ -2869,7 +3143,9 @@ const QUESTION_BANK = [
     "_type": "blank",
     "given_sentence": null,
     "wrong_explanations": {},
-    "id": "ENG-006"
+    "id": "ENG-006",
+    "_reviewed": false,
+    "_qid": "U-077"
   },
   {
     "type": "빈칸 추론",
@@ -2886,7 +3162,9 @@ const QUESTION_BANK = [
     "_type": "blank",
     "given_sentence": null,
     "wrong_explanations": {},
-    "id": "ENG-007"
+    "id": "ENG-007",
+    "_reviewed": false,
+    "_qid": "U-078"
   },
   {
     "type": "빈칸 추론",
@@ -2903,7 +3181,9 @@ const QUESTION_BANK = [
     "_type": "blank",
     "given_sentence": null,
     "wrong_explanations": {},
-    "id": "ENG-008"
+    "id": "ENG-008",
+    "_reviewed": false,
+    "_qid": "U-079"
   },
   {
     "type": "빈칸 추론",
@@ -2920,7 +3200,9 @@ const QUESTION_BANK = [
     "_type": "blank",
     "given_sentence": null,
     "wrong_explanations": {},
-    "id": "ENG-009"
+    "id": "ENG-009",
+    "_reviewed": false,
+    "_qid": "U-080"
   },
   {
     "type": "빈칸 추론",
@@ -2937,7 +3219,9 @@ const QUESTION_BANK = [
     "_type": "blank",
     "given_sentence": null,
     "wrong_explanations": {},
-    "id": "ENG-010"
+    "id": "ENG-010",
+    "_reviewed": false,
+    "_qid": "U-081"
   },
   {
     "type": "빈칸 추론",
@@ -2959,7 +3243,9 @@ const QUESTION_BANK = [
     },
     "_type": "blank",
     "given_sentence": null,
-    "id": "ENG-011"
+    "id": "ENG-011",
+    "_reviewed": false,
+    "_qid": "U-082"
   },
   {
     "type": "빈칸 추론",
@@ -2981,7 +3267,9 @@ const QUESTION_BANK = [
     },
     "_type": "blank",
     "given_sentence": null,
-    "id": "ENG-012"
+    "id": "ENG-012",
+    "_reviewed": false,
+    "_qid": "U-083"
   },
   {
     "type": "빈칸 추론",
@@ -3003,7 +3291,9 @@ const QUESTION_BANK = [
     },
     "_type": "blank",
     "given_sentence": null,
-    "id": "ENG-013"
+    "id": "ENG-013",
+    "_reviewed": false,
+    "_qid": "U-084"
   },
   {
     "type": "빈칸 추론",
@@ -3025,7 +3315,9 @@ const QUESTION_BANK = [
     },
     "_type": "blank",
     "given_sentence": null,
-    "id": "ENG-014"
+    "id": "ENG-014",
+    "_reviewed": false,
+    "_qid": "U-085"
   },
   {
     "type": "빈칸 추론",
@@ -3047,7 +3339,9 @@ const QUESTION_BANK = [
     },
     "_type": "blank",
     "given_sentence": null,
-    "id": "ENG-015"
+    "id": "ENG-015",
+    "_reviewed": false,
+    "_qid": "U-086"
   },
   {
     "type": "빈칸 추론",
@@ -3064,7 +3358,9 @@ const QUESTION_BANK = [
     "_type": "blank",
     "given_sentence": null,
     "wrong_explanations": {},
-    "id": "ENG-016"
+    "id": "ENG-016",
+    "_reviewed": false,
+    "_qid": "U-087"
   },
   {
     "type": "빈칸 추론",
@@ -3081,7 +3377,9 @@ const QUESTION_BANK = [
     "_type": "blank",
     "given_sentence": null,
     "wrong_explanations": {},
-    "id": "ENG-017"
+    "id": "ENG-017",
+    "_reviewed": false,
+    "_qid": "U-088"
   },
   {
     "type": "빈칸 추론",
@@ -3098,7 +3396,9 @@ const QUESTION_BANK = [
     "_type": "blank",
     "given_sentence": null,
     "wrong_explanations": {},
-    "id": "ENG-018"
+    "id": "ENG-018",
+    "_reviewed": false,
+    "_qid": "U-089"
   },
   {
     "type": "빈칸 추론",
@@ -3115,7 +3415,9 @@ const QUESTION_BANK = [
     "_type": "blank",
     "given_sentence": null,
     "wrong_explanations": {},
-    "id": "ENG-019"
+    "id": "ENG-019",
+    "_reviewed": false,
+    "_qid": "U-090"
   },
   {
     "type": "빈칸 추론",
@@ -3132,7 +3434,9 @@ const QUESTION_BANK = [
     "_type": "blank",
     "given_sentence": null,
     "wrong_explanations": {},
-    "id": "ENG-020"
+    "id": "ENG-020",
+    "_reviewed": false,
+    "_qid": "U-091"
   },
   {
     "type": "빈칸 추론",
@@ -3155,7 +3459,9 @@ const QUESTION_BANK = [
     },
     "_type": "blank",
     "given_sentence": null,
-    "id": "ENG-021"
+    "id": "ENG-021",
+    "_reviewed": false,
+    "_qid": "U-092"
   },
   {
     "type": "빈칸 추론",
@@ -3178,7 +3484,9 @@ const QUESTION_BANK = [
     },
     "_type": "blank",
     "given_sentence": null,
-    "id": "ENG-022"
+    "id": "ENG-022",
+    "_reviewed": false,
+    "_qid": "U-093"
   },
   {
     "type": "빈칸 추론",
@@ -3201,7 +3509,9 @@ const QUESTION_BANK = [
     },
     "_type": "blank",
     "given_sentence": null,
-    "id": "ENG-023"
+    "id": "ENG-023",
+    "_reviewed": false,
+    "_qid": "U-094"
   },
   {
     "type": "빈칸 추론",
@@ -3224,7 +3534,9 @@ const QUESTION_BANK = [
     },
     "_type": "blank",
     "given_sentence": null,
-    "id": "ENG-024"
+    "id": "ENG-024",
+    "_reviewed": false,
+    "_qid": "U-095"
   },
   {
     "type": "빈칸 추론",
@@ -3247,7 +3559,9 @@ const QUESTION_BANK = [
     },
     "_type": "blank",
     "given_sentence": null,
-    "id": "ENG-025"
+    "id": "ENG-025",
+    "_reviewed": false,
+    "_qid": "U-096"
   },
   {
     "type": "빈칸 추론",
@@ -3269,7 +3583,9 @@ const QUESTION_BANK = [
     },
     "_type": "blank",
     "given_sentence": null,
-    "id": "ENG-026"
+    "id": "ENG-026",
+    "_reviewed": false,
+    "_qid": "U-097"
   },
   {
     "type": "빈칸 추론",
@@ -3291,7 +3607,9 @@ const QUESTION_BANK = [
     },
     "_type": "blank",
     "given_sentence": null,
-    "id": "ENG-027"
+    "id": "ENG-027",
+    "_reviewed": false,
+    "_qid": "U-098"
   },
   {
     "type": "빈칸 추론",
@@ -3313,7 +3631,9 @@ const QUESTION_BANK = [
     },
     "_type": "blank",
     "given_sentence": null,
-    "id": "ENG-028"
+    "id": "ENG-028",
+    "_reviewed": false,
+    "_qid": "U-099"
   },
   {
     "type": "빈칸 추론",
@@ -3335,7 +3655,9 @@ const QUESTION_BANK = [
     },
     "_type": "blank",
     "given_sentence": null,
-    "id": "ENG-029"
+    "id": "ENG-029",
+    "_reviewed": false,
+    "_qid": "U-100"
   },
   {
     "type": "빈칸 추론",
@@ -3357,7 +3679,9 @@ const QUESTION_BANK = [
     },
     "_type": "blank",
     "given_sentence": null,
-    "id": "ENG-030"
+    "id": "ENG-030",
+    "_reviewed": false,
+    "_qid": "U-101"
   },
   {
     "type": "빈칸 추론",
@@ -3374,7 +3698,9 @@ const QUESTION_BANK = [
     "_type": "blank",
     "given_sentence": null,
     "wrong_explanations": {},
-    "id": "ENG-031"
+    "id": "ENG-031",
+    "_reviewed": false,
+    "_qid": "U-102"
   },
   {
     "type": "빈칸 추론",
@@ -3391,7 +3717,9 @@ const QUESTION_BANK = [
     "_type": "blank",
     "given_sentence": null,
     "wrong_explanations": {},
-    "id": "ENG-032"
+    "id": "ENG-032",
+    "_reviewed": false,
+    "_qid": "U-103"
   },
   {
     "type": "빈칸 추론",
@@ -3408,7 +3736,9 @@ const QUESTION_BANK = [
     "_type": "blank",
     "given_sentence": null,
     "wrong_explanations": {},
-    "id": "ENG-033"
+    "id": "ENG-033",
+    "_reviewed": false,
+    "_qid": "U-104"
   },
   {
     "type": "빈칸 추론",
@@ -3425,7 +3755,9 @@ const QUESTION_BANK = [
     "_type": "blank",
     "given_sentence": null,
     "wrong_explanations": {},
-    "id": "ENG-034"
+    "id": "ENG-034",
+    "_reviewed": false,
+    "_qid": "U-105"
   },
   {
     "type": "문장 삽입",
@@ -3442,7 +3774,9 @@ const QUESTION_BANK = [
     "explanation": "주어진 문장은 'Therefore'라는 인과관계 접속사로 시작하므로, 앞의 내용을 종합한 결론을 나타낸다. 지문은 환경 요인의 중요성을 설명하고(②③), 이것이 교육 정책에 미치는 영향을 언급한 후(④), 마지막에 결론적 조치를 제시해야 한다. 따라서 5번 위치(④ 뒤)가 정답이다.",
     "_type": "insert",
     "wrong_explanations": {},
-    "id": "ENG-035"
+    "id": "ENG-035",
+    "_reviewed": false,
+    "_qid": "U-106"
   },
   {
     "type": "문장 삽입",
@@ -3459,7 +3793,9 @@ const QUESTION_BANK = [
     "explanation": "주어진 문장은 '만약 아니었다면'이라는 반사실적 조건을 나타내며, 인쇄술의 역사적 중요성에 대한 종합적 평가를 담고 있다. 지문은 인쇄술의 발명부터 그 영향까지 순차적으로 설명한 후, 4번 위치에서 그 근본적 중요성을 명시한다. 따라서 5번 위치(④ 뒤)에 주어진 문장이 삽입되어 최종 평가로 마무리되어야 한다.",
     "_type": "insert",
     "wrong_explanations": {},
-    "id": "ENG-036"
+    "id": "ENG-036",
+    "_reviewed": false,
+    "_qid": "U-107"
   },
   {
     "type": "문장 삽입",
@@ -3476,7 +3812,9 @@ const QUESTION_BANK = [
     "explanation": "'This is why'는 인과관계를 나타내는 표현으로, 앞서 언급된 이점들을 근거로 회사들의 행동을 설명한다. 지문에서 ①②③번 위치는 조직 문화의 장점과 효과를 설명하고, ④번 위치에서 그 중요성을 확인한 후, 주어진 문장은 이러한 중요성의 결과로 회사들이 취하는 행동을 설명해야 한다. 따라서 4번 위치(③ 뒤)가 정답이다.",
     "_type": "insert",
     "wrong_explanations": {},
-    "id": "ENG-037"
+    "id": "ENG-037",
+    "_reviewed": false,
+    "_qid": "U-108"
   },
   {
     "type": "문장 삽입",
@@ -3493,7 +3831,9 @@ const QUESTION_BANK = [
     "explanation": "'These sobering projections'는 지시어로 앞서 언급된 심각한 예측들을 가리킨다. 지문의 ①②③번 위치는 기후 변화의 영향과 위험을 구체적으로 설명하고, ④번 위치에서 국제 협력의 필요성을 제시한 후, 주어진 문장은 이러한 위험 예측들이 실제 정책 변화로 이어진 결과를 설명한다. 따라서 5번 위치(④ 뒤)가 정답이다.",
     "_type": "insert",
     "wrong_explanations": {},
-    "id": "ENG-038"
+    "id": "ENG-038",
+    "_reviewed": false,
+    "_qid": "U-109"
   },
   {
     "type": "문장 삽입",
@@ -3510,7 +3850,9 @@ const QUESTION_BANK = [
     "explanation": "'For this reason'은 인과관계를 나타내며, 앞서 설명한 사실로부터 실질적 권장사항을 도출한다. 지문의 ①②③번 위치는 습관 형성의 메커니즘을 설명하고, ④번 위치에서 기존 습관을 깨기의 어려움을 언급한다. 주어진 문장은 이러한 어려움을 이유로 전문가들의 구체적 조언을 제시하므로, 5번 위치(④ 뒤)에 삽입되어야 한다.",
     "_type": "insert",
     "wrong_explanations": {},
-    "id": "ENG-039"
+    "id": "ENG-039",
+    "_reviewed": false,
+    "_qid": "U-110"
   },
   {
     "type": "문장 삽입",
@@ -3532,7 +3874,9 @@ const QUESTION_BANK = [
       "④": "④번 위치에는 'This process'의 선행사가 명확하지 않으므로 부자연스럽습니다."
     },
     "_type": "insert",
-    "id": "ENG-040"
+    "id": "ENG-040",
+    "_reviewed": false,
+    "_qid": "U-111"
   },
   {
     "type": "문장 삽입",
@@ -3554,7 +3898,9 @@ const QUESTION_BANK = [
       "⑤": "⑤번 위치는 문단의 끝이므로, 중간에 또 다른 메커니즘을 추가하는 것이 더 적절합니다."
     },
     "_type": "insert",
-    "id": "ENG-041"
+    "id": "ENG-041",
+    "_reviewed": false,
+    "_qid": "U-112"
   },
   {
     "type": "문장 삽입",
@@ -3575,7 +3921,9 @@ const QUESTION_BANK = [
       "③": "③번 위치는 변화의 인식에 관한 설명 직후인데, 이는 아직 그 결과를 제시하기에 너무 이릅니다."
     },
     "_type": "insert",
-    "id": "ENG-042"
+    "id": "ENG-042",
+    "_reviewed": false,
+    "_qid": "U-113"
   },
   {
     "type": "문장 삽입",
@@ -3596,7 +3944,9 @@ const QUESTION_BANK = [
       "③": "③번 위치에 삽입하면 부정적 증상 설명 도중에 해결책이 끼어들어 주제 전환이 너무 빠릅니다."
     },
     "_type": "insert",
-    "id": "ENG-043"
+    "id": "ENG-043",
+    "_reviewed": false,
+    "_qid": "U-114"
   },
   {
     "type": "문장 삽입",
@@ -3617,7 +3967,9 @@ const QUESTION_BANK = [
       "③": "③번 위치는 재생에너지의 과제를 제시하는 단계이므로, 아직 해결 방안이 충분히 설명되지 않아 부적절합니다."
     },
     "_type": "insert",
-    "id": "ENG-044"
+    "id": "ENG-044",
+    "_reviewed": false,
+    "_qid": "U-115"
   },
   {
     "type": "문장 삽입",
@@ -3639,7 +3991,9 @@ const QUESTION_BANK = [
       "3": "④에 삽입하면 사용자가 인식하지 못하는 현상 직후 해결책이 나와 문제의 심각성을 충분히 설명하지 못한다."
     },
     "_type": "insert",
-    "id": "ENG-045"
+    "id": "ENG-045",
+    "_reviewed": false,
+    "_qid": "U-116"
   },
   {
     "type": "문장 삽입",
@@ -3661,7 +4015,9 @@ const QUESTION_BANK = [
       "3": "⑤에 삽입하면 미래 전망 앞에 과거의 우려에 대한 반박이 나타나 맥락 상 부적절하다."
     },
     "_type": "insert",
-    "id": "ENG-046"
+    "id": "ENG-046",
+    "_reviewed": false,
+    "_qid": "U-117"
   },
   {
     "type": "문장 삽입",
@@ -3683,7 +4039,9 @@ const QUESTION_BANK = [
       "3": "⑤에 삽입하면 해결책 직후 문제의 영향을 설명하는 것이 논리적 순서에 맞지 않는다."
     },
     "_type": "insert",
-    "id": "ENG-047"
+    "id": "ENG-047",
+    "_reviewed": false,
+    "_qid": "U-118"
   },
   {
     "type": "문장 삽입",
@@ -3705,7 +4063,9 @@ const QUESTION_BANK = [
       "3": "⑤에 삽입하면 현재의 경제적 중요성 앞에 과거의 착취 비판이 나타나 시간 순서가 맞지 않는다."
     },
     "_type": "insert",
-    "id": "ENG-048"
+    "id": "ENG-048",
+    "_reviewed": false,
+    "_qid": "U-119"
   },
   {
     "type": "문장 삽입",
@@ -3727,7 +4087,9 @@ const QUESTION_BANK = [
       "3": "④에 삽입하면 healthcare 응용 직후 bias 문제를 언급하게 되어 ethical concerns의 설명이 불완전하다."
     },
     "_type": "insert",
-    "id": "ENG-049"
+    "id": "ENG-049",
+    "_reviewed": false,
+    "_qid": "U-120"
   },
   {
     "type": "문장 삽입",
@@ -3749,7 +4111,9 @@ const QUESTION_BANK = [
       "⑤": "증거 제시 이후에 나오면 결론 없이 끝나게 되어 부자연스럽습니다."
     },
     "_type": "insert",
-    "id": "ENG-050"
+    "id": "ENG-050",
+    "_reviewed": false,
+    "_qid": "U-121"
   },
   {
     "type": "문장 삽입",
@@ -3771,7 +4135,9 @@ const QUESTION_BANK = [
       "⑤": "뇌의 예측 기능 설명 이후에 나오면 순서가 역순이 됩니다."
     },
     "_type": "insert",
-    "id": "ENG-051"
+    "id": "ENG-051",
+    "_reviewed": false,
+    "_qid": "U-122"
   },
   {
     "type": "문장 삽입",
@@ -3793,7 +4159,9 @@ const QUESTION_BANK = [
       "⑤": "인체 영향 설명 후에 나오면 이미 인체 질병을 언급했으므로 순서가 맞지 않습니다."
     },
     "_type": "insert",
-    "id": "ENG-053"
+    "id": "ENG-053",
+    "_reviewed": false,
+    "_qid": "U-123"
   },
   {
     "type": "문장 삽입",
@@ -3815,7 +4183,9 @@ const QUESTION_BANK = [
       "④": "식자층의 권력 집중 설명 후에 나오면 인과 관계가 약합니다."
     },
     "_type": "insert",
-    "id": "ENG-054"
+    "id": "ENG-054",
+    "_reviewed": false,
+    "_qid": "U-124"
   },
   {
     "type": "문장 삽입",
@@ -3837,7 +4207,9 @@ const QUESTION_BANK = [
       "3": "④번 뒤에 바로 삽입하면, 해결책 제시 후 즉시 부정적인 대조가 들어가 논리적 흐름이 끊긴다."
     },
     "_type": "insert",
-    "id": "ENG-055"
+    "id": "ENG-055",
+    "_reviewed": false,
+    "_qid": "U-125"
   },
   {
     "type": "문장 삽입",
@@ -3859,7 +4231,9 @@ const QUESTION_BANK = [
       "4": "⑤번은 이미 initiatives(기업 프로그램)를 다루고 있으므로, 삽입 문장이 중복되어 부자연스럽다."
     },
     "_type": "insert",
-    "id": "ENG-056"
+    "id": "ENG-056",
+    "_reviewed": false,
+    "_qid": "U-126"
   },
   {
     "type": "문장 삽입",
@@ -3881,7 +4255,9 @@ const QUESTION_BANK = [
       "4": "⑤번은 이미 해결책을 전개하고 있는 단계이므로, 문제의 긴급성을 강조하는 것이 시기적으로 맞지 않다."
     },
     "_type": "insert",
-    "id": "ENG-057"
+    "id": "ENG-057",
+    "_reviewed": false,
+    "_qid": "U-127"
   },
   {
     "type": "문장 삽입",
@@ -3903,7 +4279,9 @@ const QUESTION_BANK = [
       "4": "⑤번은 결론 부분이므로, 인과관계를 설명하는 문장이 들어가면 논리적 흐름을 방해한다."
     },
     "_type": "insert",
-    "id": "ENG-058"
+    "id": "ENG-058",
+    "_reviewed": false,
+    "_qid": "U-128"
   },
   {
     "type": "문장 삽입",
@@ -3925,7 +4303,9 @@ const QUESTION_BANK = [
       "4": "⑤번은 이미 법적 함의를 다루고 있으므로, 결론적 문장이 추가되면 중복되어 부자연스럽다."
     },
     "_type": "insert",
-    "id": "ENG-059"
+    "id": "ENG-059",
+    "_reviewed": false,
+    "_qid": "U-129"
   },
   {
     "type": "문장 삽입",
@@ -3947,7 +4327,9 @@ const QUESTION_BANK = [
       "4": "⑤번 위치(문장 끝)는 정보 제시 흐름 상 너무 늦다."
     },
     "_type": "insert",
-    "id": "ENG-060"
+    "id": "ENG-060",
+    "_reviewed": false,
+    "_qid": "U-130"
   },
   {
     "type": "문장 삽입",
@@ -3969,7 +4351,9 @@ const QUESTION_BANK = [
       "3": "④번은 정답 위치(④ 뒤)의 번호이지, ④ 앞이 아니다."
     },
     "_type": "insert",
-    "id": "ENG-061"
+    "id": "ENG-061",
+    "_reviewed": false,
+    "_qid": "U-131"
   },
   {
     "type": "문장 삽입",
@@ -3991,7 +4375,9 @@ const QUESTION_BANK = [
       "3": "④번은 결과 제시이지만, 주어진 문장의 '이 현상'을 충분히 설명하려면 모든 비교가 완료된 후여야 한다."
     },
     "_type": "insert",
-    "id": "ENG-062"
+    "id": "ENG-062",
+    "_reviewed": false,
+    "_qid": "U-132"
   },
   {
     "type": "문장 삽입",
@@ -4013,7 +4399,9 @@ const QUESTION_BANK = [
       "3": "④번 위치는 정답 뒤(④ 다음)의 번호이지, ④ 앞이 아니다."
     },
     "_type": "insert",
-    "id": "ENG-063"
+    "id": "ENG-063",
+    "_reviewed": false,
+    "_qid": "U-133"
   },
   {
     "type": "문장 삽입",
@@ -4035,7 +4423,9 @@ const QUESTION_BANK = [
       "3": "④번은 영향 제시 부분이지, 'Therefore'로 결론짓기 전의 위치이다."
     },
     "_type": "insert",
-    "id": "ENG-064"
+    "id": "ENG-064",
+    "_reviewed": false,
+    "_qid": "U-134"
   },
   {
     "type": "문장 삽입",
@@ -4052,7 +4442,9 @@ const QUESTION_BANK = [
     "explanation": "주어진 문장은 '이러한 플랫폼들은'이라는 지시어(These platforms)로 시작하며, 앞서 언급된 사회 매체의 긍정적 측면을 구체적으로 설명하고 있습니다. ④번 위치 앞의 'However, social media also provides opportunities for meaningful connections(그러나 사회 매체는 또한 의미 있는 연결 기회를 제공한다)'와 연결되어 그 구체적인 예시와 이유를 제시하므로 ④번 위치가 정답입니다. 주어진 문장이 ④ 뒤에 삽입되어 긍정적 측면을 더욱 구체화합니다.",
     "_type": "insert",
     "wrong_explanations": {},
-    "id": "ENG-065"
+    "id": "ENG-065",
+    "_reviewed": false,
+    "_qid": "U-135"
   },
   {
     "type": "문장 삽입",
@@ -4069,7 +4461,9 @@ const QUESTION_BANK = [
     "explanation": "주어진 문장은 '이러한 환경 이점들은'이라는 지시어(These environmental benefits)로 시작하여, 앞서 언급된 공기 질 개선과 꽃가루받이 곤충 서식지 제공 등의 환경 이점을 더욱 구체적으로 설명합니다. ④번 위치의 'green spaces in concrete-heavy environments improve air quality(콘크리트가 많은 환경의 녹색 공간은 공기 질을 개선한다)'와 직결되므로 ④번 뒤인 ⑤번 위치가 정답입니다.",
     "_type": "insert",
     "wrong_explanations": {},
-    "id": "ENG-066"
+    "id": "ENG-066",
+    "_reviewed": false,
+    "_qid": "U-136"
   },
   {
     "type": "문장 삽입",
@@ -4086,7 +4480,9 @@ const QUESTION_BANK = [
     "explanation": "주어진 문장은 '불필요한 소유물을 버림으로써'라는 인과 관계를 나타내며, ②번의 '물건을 정리하고 기쁨을 주는 것만 유지하는 것을 권장한다(keep only items that serve a purpose or bring joy)'라는 내용과 직결됩니다. 주어진 문장은 이 실천의 결과적 이점을 설명하므로 ②번 뒤인 ③번 위치가 정답입니다.",
     "_type": "insert",
     "wrong_explanations": {},
-    "id": "ENG-067"
+    "id": "ENG-067",
+    "_reviewed": false,
+    "_qid": "U-137"
   },
   {
     "type": "어법 판단",
@@ -4103,7 +4499,9 @@ const QUESTION_BANK = [
     "wrong_explanations": {},
     "_type": "grammar",
     "given_sentence": null,
-    "id": "ENG-068"
+    "id": "ENG-068",
+    "_reviewed": false,
+    "_qid": "U-138"
   },
   {
     "type": "어법 판단",
@@ -4120,7 +4518,9 @@ const QUESTION_BANK = [
     "wrong_explanations": {},
     "_type": "grammar",
     "given_sentence": null,
-    "id": "ENG-069"
+    "id": "ENG-069",
+    "_reviewed": false,
+    "_qid": "U-139"
   },
   {
     "type": "어법 판단",
@@ -4137,7 +4537,9 @@ const QUESTION_BANK = [
     "wrong_explanations": {},
     "_type": "grammar",
     "given_sentence": null,
-    "id": "ENG-070"
+    "id": "ENG-070",
+    "_reviewed": false,
+    "_qid": "U-140"
   },
   {
     "type": "어법 판단",
@@ -4154,7 +4556,9 @@ const QUESTION_BANK = [
     "wrong_explanations": {},
     "_type": "grammar",
     "given_sentence": null,
-    "id": "ENG-071"
+    "id": "ENG-071",
+    "_reviewed": false,
+    "_qid": "U-141"
   },
   {
     "type": "어법 판단",
@@ -4171,7 +4575,9 @@ const QUESTION_BANK = [
     "wrong_explanations": {},
     "_type": "grammar",
     "given_sentence": null,
-    "id": "ENG-072"
+    "id": "ENG-072",
+    "_reviewed": false,
+    "_qid": "U-142"
   },
   {
     "type": "어법 판단",
@@ -4188,7 +4594,9 @@ const QUESTION_BANK = [
     "wrong_explanations": {},
     "_type": "grammar",
     "given_sentence": null,
-    "id": "ENG-073"
+    "id": "ENG-073",
+    "_reviewed": false,
+    "_qid": "U-143"
   },
   {
     "type": "어법 판단",
@@ -4205,7 +4613,9 @@ const QUESTION_BANK = [
     "wrong_explanations": {},
     "_type": "grammar",
     "given_sentence": null,
-    "id": "ENG-074"
+    "id": "ENG-074",
+    "_reviewed": false,
+    "_qid": "U-144"
   },
   {
     "type": "어법 판단",
@@ -4222,7 +4632,9 @@ const QUESTION_BANK = [
     "wrong_explanations": {},
     "_type": "grammar",
     "given_sentence": null,
-    "id": "ENG-075"
+    "id": "ENG-075",
+    "_reviewed": false,
+    "_qid": "U-145"
   },
   {
     "type": "어법 판단",
@@ -4239,7 +4651,9 @@ const QUESTION_BANK = [
     "wrong_explanations": {},
     "_type": "grammar",
     "given_sentence": null,
-    "id": "ENG-076"
+    "id": "ENG-076",
+    "_reviewed": false,
+    "_qid": "U-146"
   },
   {
     "type": "어법 판단",
@@ -4256,7 +4670,9 @@ const QUESTION_BANK = [
     "wrong_explanations": {},
     "_type": "grammar",
     "given_sentence": null,
-    "id": "ENG-077"
+    "id": "ENG-077",
+    "_reviewed": false,
+    "_qid": "U-147"
   },
   {
     "type": "어법 판단",
@@ -4273,7 +4689,9 @@ const QUESTION_BANK = [
     "wrong_explanations": {},
     "_type": "grammar",
     "given_sentence": null,
-    "id": "ENG-078"
+    "id": "ENG-078",
+    "_reviewed": false,
+    "_qid": "U-148"
   },
   {
     "type": "어법 판단",
@@ -4290,7 +4708,9 @@ const QUESTION_BANK = [
     "wrong_explanations": {},
     "_type": "grammar",
     "given_sentence": null,
-    "id": "ENG-079"
+    "id": "ENG-079",
+    "_reviewed": false,
+    "_qid": "U-149"
   },
   {
     "type": "어법 판단",
@@ -4307,7 +4727,9 @@ const QUESTION_BANK = [
     "wrong_explanations": {},
     "_type": "grammar",
     "given_sentence": null,
-    "id": "ENG-080"
+    "id": "ENG-080",
+    "_reviewed": false,
+    "_qid": "U-150"
   },
   {
     "type": "어법 판단",
@@ -4324,7 +4746,9 @@ const QUESTION_BANK = [
     "wrong_explanations": {},
     "_type": "grammar",
     "given_sentence": null,
-    "id": "ENG-081"
+    "id": "ENG-081",
+    "_reviewed": false,
+    "_qid": "U-151"
   },
   {
     "type": "어법 판단",
@@ -4341,7 +4765,9 @@ const QUESTION_BANK = [
     "wrong_explanations": {},
     "_type": "grammar",
     "given_sentence": null,
-    "id": "ENG-082"
+    "id": "ENG-082",
+    "_reviewed": false,
+    "_qid": "U-152"
   },
   {
     "type": "어법 판단",
@@ -4358,7 +4784,9 @@ const QUESTION_BANK = [
     "wrong_explanations": {},
     "_type": "grammar",
     "given_sentence": null,
-    "id": "ENG-083"
+    "id": "ENG-083",
+    "_reviewed": false,
+    "_qid": "U-153"
   },
   {
     "type": "어법 판단",
@@ -4375,7 +4803,9 @@ const QUESTION_BANK = [
     "wrong_explanations": {},
     "_type": "grammar",
     "given_sentence": null,
-    "id": "ENG-084"
+    "id": "ENG-084",
+    "_reviewed": false,
+    "_qid": "U-154"
   },
   {
     "type": "어법 판단",
@@ -4392,7 +4822,9 @@ const QUESTION_BANK = [
     "wrong_explanations": {},
     "_type": "grammar",
     "given_sentence": null,
-    "id": "ENG-085"
+    "id": "ENG-085",
+    "_reviewed": false,
+    "_qid": "U-155"
   },
   {
     "type": "어법 판단",
@@ -4409,7 +4841,9 @@ const QUESTION_BANK = [
     "wrong_explanations": {},
     "_type": "grammar",
     "given_sentence": null,
-    "id": "ENG-086"
+    "id": "ENG-086",
+    "_reviewed": false,
+    "_qid": "U-156"
   },
   {
     "type": "어법 판단",
@@ -4426,7 +4860,9 @@ const QUESTION_BANK = [
     "wrong_explanations": {},
     "_type": "grammar",
     "given_sentence": null,
-    "id": "ENG-087"
+    "id": "ENG-087",
+    "_reviewed": false,
+    "_qid": "U-157"
   },
   {
     "type": "어법 판단",
@@ -4443,7 +4879,9 @@ const QUESTION_BANK = [
     "wrong_explanations": {},
     "_type": "grammar",
     "given_sentence": null,
-    "id": "ENG-088"
+    "id": "ENG-088",
+    "_reviewed": false,
+    "_qid": "U-158"
   },
   {
     "type": "어법 판단",
@@ -4465,7 +4903,9 @@ const QUESTION_BANK = [
     },
     "_type": "grammar",
     "given_sentence": null,
-    "id": "ENG-089"
+    "id": "ENG-089",
+    "_reviewed": false,
+    "_qid": "U-159"
   },
   {
     "type": "어법 판단",
@@ -4482,7 +4922,9 @@ const QUESTION_BANK = [
     "wrong_explanations": {},
     "_type": "grammar",
     "given_sentence": null,
-    "id": "ENG-090"
+    "id": "ENG-090",
+    "_reviewed": false,
+    "_qid": "U-160"
   },
   {
     "type": "어법 판단",
@@ -4504,7 +4946,9 @@ const QUESTION_BANK = [
     },
     "_type": "grammar",
     "given_sentence": null,
-    "id": "ENG-092"
+    "id": "ENG-092",
+    "_reviewed": false,
+    "_qid": "U-161"
   },
   {
     "type": "어법 판단",
@@ -4526,7 +4970,9 @@ const QUESTION_BANK = [
     },
     "_type": "grammar",
     "given_sentence": null,
-    "id": "ENG-093"
+    "id": "ENG-093",
+    "_reviewed": false,
+    "_qid": "U-162"
   },
   {
     "type": "어법 판단",
@@ -4543,7 +4989,9 @@ const QUESTION_BANK = [
     "wrong_explanations": {},
     "_type": "grammar",
     "given_sentence": null,
-    "id": "ENG-094"
+    "id": "ENG-094",
+    "_reviewed": false,
+    "_qid": "U-163"
   },
   {
     "type": "어법 판단",
@@ -4560,7 +5008,9 @@ const QUESTION_BANK = [
     "wrong_explanations": {},
     "_type": "grammar",
     "given_sentence": null,
-    "id": "ENG-095"
+    "id": "ENG-095",
+    "_reviewed": false,
+    "_qid": "U-164"
   },
   {
     "type": "어법 판단",
@@ -4577,7 +5027,9 @@ const QUESTION_BANK = [
     "wrong_explanations": {},
     "_type": "grammar",
     "given_sentence": null,
-    "id": "ENG-096"
+    "id": "ENG-096",
+    "_reviewed": false,
+    "_qid": "U-165"
   },
   {
     "type": "어법 판단",
@@ -4594,7 +5046,9 @@ const QUESTION_BANK = [
     "wrong_explanations": {},
     "_type": "grammar",
     "given_sentence": null,
-    "id": "ENG-097"
+    "id": "ENG-097",
+    "_reviewed": false,
+    "_qid": "U-166"
   },
   {
     "type": "어법 판단",
@@ -4611,7 +5065,9 @@ const QUESTION_BANK = [
     "wrong_explanations": {},
     "_type": "grammar",
     "given_sentence": null,
-    "id": "ENG-098"
+    "id": "ENG-098",
+    "_reviewed": false,
+    "_qid": "U-167"
   },
   {
     "type": "어법 판단",
@@ -4628,7 +5084,9 @@ const QUESTION_BANK = [
     "wrong_explanations": {},
     "_type": "grammar",
     "given_sentence": null,
-    "id": "ENG-099"
+    "id": "ENG-099",
+    "_reviewed": false,
+    "_qid": "U-168"
   },
   {
     "type": "어법 판단",
@@ -4645,6 +5103,492 @@ const QUESTION_BANK = [
     "wrong_explanations": {},
     "_type": "grammar",
     "given_sentence": null,
-    "id": "ENG-100"
+    "id": "ENG-100",
+    "_reviewed": false,
+    "_qid": "U-169"
+  },
+  {
+    "type": "글의 목적",
+    "passage": "Dear Mr. Johnson, I am writing to express my sincere gratitude for your exceptional support during the recent marketing project. Your innovative ideas and dedication were instrumental in achieving our sales target ahead of schedule. The team truly appreciated your willingness to work extra hours and provide valuable feedback. Your contribution has not gone unnoticed, and I would like to formally recognize your efforts. Please know that your hard work is highly valued within our organization. I hope we can continue our collaboration on future projects. Thank you again for making a real difference. Best regards, Sarah",
+    "choices": [
+      "①과거 프로젝트에 대한 불만 사항 전달하기",
+      "②향후 협력 조건에 대해 협상하기",
+      "③탁월한 업무 수행에 대한 감사를 표현하기",
+      "④새로운 마케팅 프로젝트 제안하기",
+      "⑤팀 멤버들의 성과급 인상을 요청하기"
+    ],
+    "answer": 2,
+    "explanation": "편지의 핵심은 'express my sincere gratitude'와 'Your contribution has not gone unnoticed'이다. 발신자는 Johnson의 뛰어난 업무 수행에 감사를 표현하고 있다.",
+    "wrong_explanations": {
+      "0": "불만 사항이 아니라 긍정적 평가가 담겨있다.",
+      "1": "협상이나 조건 논의가 없다.",
+      "3": "이미 완료된 프로젝트에 대한 감사이며 새로운 제안이 아니다.",
+      "4": "성과급 인상 요청은 언급되지 않았다."
+    },
+    "_type": "purpose",
+    "given_sentence": null,
+    "_reviewed": true,
+    "_qid": "R-062"
+  },
+  {
+    "type": "글의 목적",
+    "passage": "NOTICE TO ALL RESIDENTS: We are pleased to announce the annual Summer Community Festival scheduled for August 15th at Central Park. The event will feature live music, food vendors, children's activities, and fireworks at 9 PM. Free entry for all residents and their families. Activities begin at 2 PM. Please note that parking will be limited, so we recommend using public transportation or arriving early. Volunteers needed for event setup and management. Interested residents should contact the community office by August 10th. For more information, visit our website or call (555) 123-4567. We look forward to seeing you there!",
+    "choices": [
+      "①여름 축제 참여에 대한 주민들의 피드백 수집하기",
+      "②중앙공원의 안전 문제에 대해 경고하기",
+      "③여름 축제 행사에 대해 주민들에게 안내하기",
+      "④공원 이용 시 주차료 인상을 공지하기",
+      "⑤자원봉사자 모집을 위한 지원 자격 기준 제시하기"
+    ],
+    "answer": 2,
+    "explanation": "공지문은 행사 일시, 장소, 프로그램 내용, 참여 방법 등 축제 전반에 대해 주민들을 안내하는 것이 주 목적이다.",
+    "wrong_explanations": {
+      "0": "이미 확정된 행사이며 피드백 수집이 아니다.",
+      "1": "안전 경고가 아니라 행사 안내이다.",
+      "3": "주차료 인상은 언급되지 않았다.",
+      "4": "자원봉사자 모집은 부가적인 내용일 뿐 주 목적이 아니다."
+    },
+    "_type": "purpose",
+    "given_sentence": null,
+    "_reviewed": true,
+    "_qid": "R-063"
+  },
+  {
+    "type": "글의 목적",
+    "passage": "Hi Emma, I hope this email finds you well. I'm reaching out because I have encountered some difficulties with the new software system we implemented last month. Several team members have reported issues with data synchronization, and some files have been corrupted during the migration process. These problems are significantly impacting our workflow and productivity. I would greatly appreciate your assistance in resolving these technical issues as soon as possible. Could you please schedule a meeting to discuss potential solutions? Your expertise would be invaluable in getting us back on track. Thank you for your prompt attention to this matter. Regards, Michael",
+    "choices": [
+      "①새로운 소프트웨어 시스템의 우수성을 칭찬하기",
+      "②기술 전문가에게 소프트웨어 문제 해결을 요청하기",
+      "③팀 멤버들의 기술 능력 부족을 지적하기",
+      "④소프트웨어 구매 비용에 대한 환불을 요청하기",
+      "⑤향후 마이그레이션 프로젝트 계획을 논의하기"
+    ],
+    "answer": 1,
+    "explanation": "'I would greatly appreciate your assistance' 'Could you please schedule a meeting'이 명확한 도움 요청이다. Michael은 Emma에게 소프트웨어 문제 해결을 요청하고 있다.",
+    "wrong_explanations": {
+      "0": "오히려 문제점을 지적하고 있으므로 칭찬이 아니다.",
+      "2": "팀 멤버의 능력을 비판하는 것이 아니라 시스템 문제이다.",
+      "3": "환불 요청은 언급되지 않았다.",
+      "4": "미래 계획 논의가 아니라 현재의 긴급한 문제 해결이다."
+    },
+    "_type": "purpose",
+    "given_sentence": null,
+    "_reviewed": true,
+    "_qid": "R-064"
+  },
+  {
+    "type": "글의 목적",
+    "passage": "Dear Customer Service Team, I am writing to lodge a formal complaint regarding my recent purchase of a coffee maker (Model X-500) from your online store. Although the product description advertised a two-year warranty, the device malfunctioned after only three weeks of normal use. When I contacted your support team, the response was unhelpful and dismissive of my concerns. I have been a loyal customer for five years, and I find this level of service completely unacceptable. I expect either a full refund or a replacement unit immediately. Please respond within five business days, or I will be forced to escalate this matter to consumer protection agencies. I look forward to your prompt resolution. Sincerely, Robert Chen",
+    "choices": [
+      "①제품 구매 후 만족도에 대한 피드백 제공하기",
+      "②결함 있는 제품과 불만족스러운 서비스에 대한 불만 제기하기",
+      "③커피 메이커의 사용 방법에 대해 문의하기",
+      "④향후 새로운 제품 구매 의향에 대해 통보하기",
+      "⑤회사의 환불 정책에 대해 조언하기"
+    ],
+    "answer": 1,
+    "explanation": "'lodge a formal complaint', 'unacceptable', 'expect either a full refund or a replacement'이 명확한 불만 제기와 요구이다. 고객은 결함 있는 제품과 부실한 서비스에 대해 불만을 표현하고 있다.",
+    "wrong_explanations": {
+      "0": "일반적인 피드백이 아니라 심각한 불만이다.",
+      "2": "제품 사용 방법 문의가 아니라 불만 및 클레임이다.",
+      "3": "향후 구매 의향이 아니라 현재의 문제 해결을 요구한다.",
+      "4": "회사 정책 조언이 아니라 개인의 불만과 보상 요구이다."
+    },
+    "_type": "purpose",
+    "given_sentence": null,
+    "_reviewed": true,
+    "_qid": "R-065"
+  },
+  {
+    "type": "글의 목적",
+    "passage": "Subject: Restaurant Recommendation Hi James, I hope you're doing well! I wanted to reach out because I recently discovered an amazing Italian restaurant called 'Bella Notte' and I think you would absolutely love it. You mentioned last month that you were looking for a good place to celebrate your anniversary, and this restaurant is perfect for that occasion. The ambiance is romantic, the service is impeccable, and the pasta is authentically delicious. I've been there twice now and never had a disappointing experience. The prices are reasonable for the quality you receive. I highly recommend making a reservation, as it gets quite busy on weekends. If you decide to go, please let me know how you like it! Best, Lisa",
+    "choices": [
+      "①레스토랑 이용 시 예약 방법에 대해 설명하기",
+      "②특정 레스토랑을 방문하도록 강력히 권유하기",
+      "③이탈리안 음식의 영양가에 대해 정보 제공하기",
+      "④기념일 축하 파티 계획에 함께 참여해달라고 초대하기",
+      "⑤레스토랑 서비스 품질 문제에 대해 불평하기"
+    ],
+    "answer": 1,
+    "explanation": "'I think you would absolutely love it', 'I highly recommend'은 권유의 표현이다. Lisa는 기념일 축하에 적합한 이탈리안 레스토랑을 James에게 추천하고 있다.",
+    "wrong_explanations": {
+      "0": "예약 방법 자세한 설명이 아니라 추천에 중점이다.",
+      "2": "음식의 영양가 정보 제공이 목적이 아니다.",
+      "3": "파티 계획에 직접 참여 초대가 아니라 식당 추천이다.",
+      "4": "불평이 아니라 긍정적인 추천이다."
+    },
+    "_type": "purpose",
+    "given_sentence": null,
+    "_reviewed": true,
+    "_qid": "R-066"
+  },
+  {
+    "type": "심경 추론",
+    "passage": "The old violin had been sitting in my grandmother's attic for decades, forgotten among dusty boxes and faded photographs. When she passed away last month, I found myself holding it with trembling hands. The wood was cracked, the strings broken, and yet I could almost hear the melodies that once filled our small house. My grandfather had played it beautifully before the war took him away. As I carefully cleaned the instrument, memories flooded back—Sunday mornings, my grandmother humming softly in the kitchen, the way she would close her eyes when the music played. \"I've been waiting for someone to bring it back to life,\" she had whispered to me years ago. **Now, running my fingers along its weathered surface, I realized that this wasn't just a broken instrument; it was a bridge to a past I thought was lost forever.**",
+    "choices": [
+      "①nostalgic and melancholic",
+      "②resentful and bitter",
+      "③indifferent and detached",
+      "④curious and excited",
+      "⑤anxious and overwhelmed"
+    ],
+    "answer": 0,
+    "explanation": "화자가 할머니의 유품인 낡은 바이올린을 통해 죽은 할아버지와 할머니의 추억들을 마주하게 된다. \"잃어버렸다고 생각한 과거로의 다리\"라는 표현에서 과거를 그리워하면서도 슬픈 감정(향수와 우수)이 드러난다. 할머니의 속삭임과 악기를 살리고자 하는 마음이 화자에게 전해지면서 감정적으로 깊이 있는 상태이다.",
+    "_type": "mood",
+    "given_sentence": null,
+    "wrong_explanations": {},
+    "_reviewed": true,
+    "_qid": "R-067"
+  },
+  {
+    "type": "심경 추론",
+    "passage": "I stood at the edge of the diving board, my toes curling over the rough surface. Below me, the pool stretched out like an endless blue expanse, and my friends were cheering from the water. \"Come on! You can do it!\" they shouted, their voices echoing in my ears. My heart pounded so hard I thought it might burst through my chest. I had been afraid of heights for as long as I could remember, and this ten-meter board had become my personal Everest. Every muscle in my body screamed at me to turn back, to climb down the ladder and pretend I had never promised to do this. But then I thought of all the times I had avoided challenges, all the opportunities I had missed because of fear. **Taking a deep breath, I looked down one more time, and something inside me shifted—fear was still there, but alongside it came a fierce determination that I had never felt before.**",
+    "choices": [
+      "①relieved and satisfied",
+      "②fearful yet determined",
+      "③confident and carefree",
+      "④disappointed and ashamed",
+      "⑤angry and defiant"
+    ],
+    "answer": 1,
+    "explanation": "화자는 여전히 두려움을 느끼고 있지만(\"fear was still there\"), 동시에 \"fierce determination\"을 느낀다는 표현이 핵심이다. 두려움 속에서도 도전하려는 결연한 의지가 생겨났으므로 '두려우면서도 결연한' 심경이 가장 적절하다.",
+    "_type": "mood",
+    "given_sentence": null,
+    "wrong_explanations": {},
+    "_reviewed": true,
+    "_qid": "R-068"
+  },
+  {
+    "type": "심경 추론",
+    "passage": "The rejection letter arrived on a Tuesday morning, delivered by a cheerful mailman who had no idea he was crushing my dreams. I had spent months preparing my application to the art academy, pouring my heart into every sketch, every essay, every detail. My parents had believed in me. My teachers had told me I was talented. I had believed in myself too. But apparently, that wasn't enough. I sat on the kitchen floor, the letter trembling in my hands, unable to cry, unable to scream, unable to feel anything at all. My mother found me there an hour later and wrapped her arms around me without saying a word. Sometimes, I thought bitterly, hard work and passion mean nothing. **As days passed and the initial shock faded, I felt something else creeping in—not quite anger, but a hollow emptiness that seemed to swallow every reason I had ever had to create art.**",
+    "choices": [
+      "①devastated and hopeless",
+      "②frustrated and rebellious",
+      "③disillusioned and numb",
+      "④resigned and peaceful",
+      "⑤confused and skeptical"
+    ],
+    "answer": 2,
+    "explanation": "\"hollow emptiness(공허감)\"와 \"shock faded(충격이 사라짐)\"이라는 표현에서 초기의 극심한 슬픔을 넘어 무감각하고 환멸된 심경이 드러난다. 예술을 만드는 이유까지도 빨아들이는 공허감은 환멸과 무감각의 조합을 의미한다.",
+    "_type": "mood",
+    "given_sentence": null,
+    "wrong_explanations": {},
+    "_reviewed": true,
+    "_qid": "R-069"
+  },
+  {
+    "type": "심경 추론",
+    "passage": "The hospital corridor seemed to stretch on forever, its white walls closing in around me as I walked toward Room 412. My daughter had been asking when Grandpa would come home, and I didn't know how to answer her anymore. The old man lying in the bed looked nothing like the father I remembered—smaller somehow, more fragile, as if time had compressed him into something barely recognizable. His eyes opened slowly when I entered, and recognition flickered there, just for a moment, before it faded into confusion again. I pulled the chair close and took his weathered hand in mine, careful not to disturb the tubes. We sat in silence for what felt like hours. **I wanted to tell him so many things—how much he meant to me, how much I regretted the words we never said, the time we wasted on trivial arguments—but the words stuck in my throat, and all I could do was hold his hand and let the tears fall silently.**",
+    "choices": [
+      "①regretful and heartbroken",
+      "②guilty and resentful",
+      "③peaceful and accepting",
+      "④impatient and irritable",
+      "⑤confused and lost"
+    ],
+    "answer": 0,
+    "explanation": "화자가 아버지와 나눈 시간을 후회하고 있으며(\"regretted the words we never said\"), 눈물을 흘리는 모습에서 깊은 슬픔과 미안함이 드러난다. 죽음 앞에서의 후회와 그리움, 그리고 심장이 아픈 감정(heartbroken)이 명확히 나타난다.",
+    "_type": "mood",
+    "given_sentence": null,
+    "wrong_explanations": {},
+    "_reviewed": true,
+    "_qid": "R-070"
+  },
+  {
+    "type": "심경 추론",
+    "passage": "The letter arrived three months after I submitted my resignation. My old company wanted me back—more money, a better title, everything I thought I wanted a year ago. I stared at it in my cramped apartment, surrounded by unsold paintings and half-finished sculptures. The past year had been brutal: rejections from galleries, failed exhibitions, a bank account that dwindled week by week. There were nights when I questioned everything, when I wondered if I had made the biggest mistake of my life. But there were also mornings when I stood in front of my easel and felt something pure and undeniable—a sense of purpose that had never come from my corporate office. **As I read the letter one final time, I felt no temptation, no second thoughts, only a quiet certainty that I was exactly where I needed to be, struggling and uncertain though the path might be.**",
+    "choices": [
+      "①ambitious and impatient",
+      "②conflicted and torn",
+      "③resolved and at peace",
+      "④bitter and resentful",
+      "⑤hopeful and excited"
+    ],
+    "answer": 2,
+    "explanation": "화자는 \"quiet certainty(조용한 확신)\"를 느끼고 있으며, 유혹이나 후회가 없다(\"no temptation, no second thoughts\")고 명시했다. 비록 \"struggling and uncertain(힘들고 불확실한)\" 상황이지만, 현재의 자리가 맞다는 굳은 심경이 드러나므로 '결연하고 평온한' 심경이 가장 적절하다.",
+    "_type": "mood",
+    "given_sentence": null,
+    "wrong_explanations": {},
+    "_reviewed": true,
+    "_qid": "R-071"
+  },
+  {
+    "type": "필자의 주장",
+    "passage": "Corporate wellness programs have become increasingly popular, with companies investing millions in gym memberships and health initiatives for employees. Yet research reveals a troubling reality: these programs often fail to improve employee health outcomes significantly. The fundamental issue is that wellness initiatives focus on individual behavior change while ignoring systemic workplace factors. Excessive work hours, high stress environments, and poor work-life balance directly undermine health improvements employees attempt to make. Companies cannot expect employees to exercise regularly and maintain healthy diets when they are overworked and mentally exhausted. True corporate wellness requires fundamental restructuring of work conditions: reasonable working hours, manageable workloads, and genuinely supportive management practices. Without addressing these underlying issues, wellness programs remain superficial gestures that provide excellent marketing while delivering minimal health benefits.",
+    "choices": [
+      "①직원의 개인적 건강 행동 변화가 가장 중요하다.",
+      "②기업 웰니스 프로그램에 더 많은 투자가 필요하다.",
+      "③직장 환경과 조건의 개선이 웰니스의 핵심이다.",
+      "④직원들이 운동과 식단 관리에 더 노력해야 한다.",
+      "⑤웰니스 프로그램의 마케팅 전략을 개선해야 한다."
+    ],
+    "answer": 2,
+    "explanation": "필자는 기업 웰니스 프로그램이 실패하는 근본 원인이 개인의 행동 변화만 강조하고 체계적인 직장 환경 문제를 무시하기 때문이라고 주장합니다. 진정한 웰니스는 업무 시간, 업무량, 경영진 지원 등 근본적인 직장 조건의 개선에서 출발해야 한다는 것이 핵심입니다.",
+    "wrong_explanations": {
+      "①": "필자는 개인의 행동 변화만으로는 부족하며 시스템 변화가 필요하다고 주장합니다.",
+      "②": "필자는 더 많은 투자보다 근본적인 구조 개선을 주장합니다.",
+      "④": "필자는 직원의 노력 부족이 아니라 직장 환경이 문제라고 지적합니다.",
+      "⑤": "필자는 마케팅이 아니라 실질적인 직장 환경 개선을 강조합니다."
+    },
+    "_type": "claim",
+    "given_sentence": null,
+    "_reviewed": true,
+    "_qid": "R-072"
+  },
+  {
+    "type": "필자의 주장",
+    "passage": "The modern workplace increasingly glorifies the concept of 'hustle culture'—the belief that success requires constant work, minimal sleep, and perpetual self-improvement. Companies celebrate employees who work overtime and maintain productivity outside business hours. However, this ideology fundamentally contradicts neuroscience research on human performance and well-being. Our brains require adequate rest to consolidate memories, solve complex problems, and maintain emotional resilience. Burnout from excessive work reduces creativity, increases errors, and paradoxically decreases overall productivity. The most innovative and productive workers are those who maintain healthy boundaries between work and personal life. Rather than valorizing exhaustion, organizations should recognize that sustainable excellence emerges from well-rested employees with genuine personal fulfillment. Redefining workplace success to prioritize employee well-being over relentless productivity is not compassionate luxury—it is sound business strategy that benefits both workers and organizations.",
+    "choices": [
+      "①직원들은 성공을 위해 더 많은 시간을 일해야 한다.",
+      "②장시간 근무가 기업의 생산성을 높인다.",
+      "③충분한 휴식이 창의성과 업무 효율성을 증진시킨다.",
+      "④일과 삶의 균형은 개인의 책임이지 조직의 책임이 아니다.",
+      "⑤직원의 웰빙을 우선시하는 것은 비즈니스 전략이다."
+    ],
+    "answer": 4,
+    "explanation": "필자는 휴식이 뇌의 기능 회복과 창의성 증진에 필수적이며, 지속적인 우수함은 충분한 휴식을 취하는 직원으로부터 나온다고 주장합니다. 직원 웰빙을 우선시하는 것이 단순한 인도주의적 배려가 아니라 기업과 개인 모두에게 이득이 되는 건전한 비즈니스 전략이라는 것이 핵심입니다.",
+    "wrong_explanations": {
+      "①": "필자는 오히려 과도한 근무가 실패한다고 주장합니다.",
+      "②": "필자는 장시간 근무가 오히려 생산성을 감소시킨다고 명시합니다.",
+      "③": "이는 필자의 주장을 지원하지만, '웰빙이 비즈니스 전략'이라는 핵심보다 구체성이 부족합니다.",
+      "⑤": "필자의 핵심 주장과 가장 일치합니다."
+    },
+    "_type": "claim",
+    "given_sentence": null,
+    "_reviewed": true,
+    "_qid": "R-073"
+  },
+  {
+    "type": "제목 추론",
+    "passage": "Most people assume that the brain's capacity for learning remains stable throughout life. However, neuroplasticity research reveals a different truth. The brain continuously reorganizes itself by forming new neural connections in response to experience and learning. This phenomenon occurs most dramatically during childhood, but the brain retains this ability well into old age. Studies show that learning a new language, practicing a musical instrument, or engaging in complex problem-solving can physically reshape brain structure. Even after stroke or injury, patients can recover lost functions by training different brain regions to compensate. This means that our cognitive potential is not fixed at birth but rather a dynamic resource that responds to how we engage with the world.",
+    "choices": [
+      "①The Decline of Brain Function with Age",
+      "②The Brain's Lifelong Capacity for Transformation",
+      "③How Children Learn Better Than Adults",
+      "④The Role of Neural Connections in Memory",
+      "⑤Why Musical Training Improves Intelligence"
+    ],
+    "answer": 1,
+    "explanation": "지문은 뇌의 가소성(neuroplasticity)을 통해 인생 전반에 걸쳐 뇌가 지속적으로 변화하고 학습할 수 있다는 핵심을 강조합니다. 정답②는 '뇌의 평생 변화 능력'으로 지문의 중심 논제를 가장 잘 포함합니다.",
+    "wrong_explanations": {
+      "①": "나이가 들어감에 따른 뇌 기능 쇠퇴만 강조하므로, 지문에서 강조하는 '나이가 들어도 가소성이 유지된다'는 내용과 상충합니다.",
+      "③": "아동의 학습 우월성에만 초점을 맞추어, 지문의 '성인도 학습 능력이 있다'는 핵심을 놓칩니다.",
+      "④": "신경 연결의 메모리 역할은 부분적 내용일 뿐, 지문의 전체적 주제인 '변화 가능성'을 포괄하지 못합니다.",
+      "⑤": "음악 훈련의 이점만 다루어 지문에서 다루는 다양한 학습 활동의 일부만 반영합니다."
+    },
+    "_type": "title",
+    "given_sentence": null,
+    "_reviewed": true,
+    "_qid": "R-074"
+  },
+  {
+    "type": "제목 추론",
+    "passage": "The practice of multitasking has become a cultural norm in modern workplaces. Employees pride themselves on juggling multiple projects simultaneously, believing that this demonstrates productivity and efficiency. However, cognitive science research paints a different picture. When people attempt to focus on multiple tasks at once, they experience significant mental overhead as their brains switch between different cognitive contexts. Each switch incurs a 'switching cost'—a measurable loss of attention and accuracy. Studies consistently show that multitaskers make more errors, retain less information, and actually take longer to complete work compared to those who focus on single tasks. The brain's attention system evolved for sustained focus, not rapid context-switching. Organizations that promote a culture of deep, uninterrupted work actually see better results than those celebrating constant multitasking.",
+    "choices": [
+      "①Building a Productive Workplace Culture",
+      "②The Illusion of Efficiency: Why Multitasking Backfires",
+      "③How to Switch Between Tasks More Effectively",
+      "④The Evolution of Human Attention Spans",
+      "⑤Managing Multiple Projects in Modern Business"
+    ],
+    "answer": 1,
+    "explanation": "지문은 '멀티태스킹이 실제로는 비효율적이라는 과학적 증거'를 중심으로 전개됩니다. 정답②의 '효율성의 환상: 왜 멀티태스킹이 역효과를 낼까'는 지문의 핵심 아이러니를 은유적으로 정확히 표현합니다.",
+    "wrong_explanations": {
+      "①": "생산성 있는 직장 문화 전반을 다루는 너무 광범위한 제목으로, 멀티태스킹의 해로움이라는 구체적 주장을 포함하지 않습니다.",
+      "③": "더 효과적으로 작업을 전환하는 방법을 시사하는데, 이는 지문의 '멀티태스킹을 피해야 한다'는 권장사항과 반대됩니다.",
+      "④": "인간 주의력의 진화 역사에 초점을 맞추어, 지문의 실용적 논증과 무관합니다.",
+      "⑤": "현대 비즈니스에서의 복수 프로젝트 관리라는 중립적 표제로, 멀티태스킹의 부정적 측면이라는 핵심을 생략합니다."
+    },
+    "_type": "title",
+    "given_sentence": null,
+    "_reviewed": true,
+    "_qid": "R-075"
+  },
+  {
+    "type": "제목 추론",
+    "passage": "The concept of 'slow living' has emerged as a countermovement to the accelerated pace of modern life. Originating in Italy with the slow food movement in the 1980s, this philosophy emphasizes intentionality, mindfulness, and savoring experiences rather than rushing through them. Practitioners of slow living consciously reduce their pace in eating, working, and social interactions. This doesn't mean complete rejection of productivity; rather, it prioritizes quality and meaning over quantity and speed. Research shows that people who adopt slow living practices report lower stress levels, improved relationships, and greater life satisfaction. Cities worldwide are establishing car-free zones and promoting local agriculture to support this lifestyle. Yet slow living isn't merely a personal preference—it represents a fundamental critique of consumer capitalism and its assumption that faster and more is always better. In choosing to slow down, individuals subtly resist the system demanding endless acceleration.",
+    "choices": [
+      "①The Global Growth of the Slow Food Movement",
+      "②A Quiet Rebellion Against the Culture of Speed",
+      "③Reducing Stress Through Mindful Eating Habits",
+      "④How to Improve Work-Life Balance in Cities",
+      "⑤The History of Consumer Capitalism and Resistance"
+    ],
+    "answer": 1,
+    "explanation": "지문은 느린 삶이 단순한 생활방식의 선택이 아니라, 빠름과 많음을 추구하는 현대 체계에 대한 저항이자 비판이라는 점을 강조합니다. 정답②의 '속도 문화에 대한 조용한 반란'은 이러한 저항의 성격을 은유적으로 잘 표현합니다.",
+    "wrong_explanations": {
+      "①": "슬로우 푸드 운동의 세계적 성장만 다루어, 지문이 강조하는 '현대 체계에 대한 비판과 저항'이라는 더 광범위한 의미를 놓칩니다.",
+      "③": "명상적 식습관을 통한 스트레스 감소만 강조하여, 느린 삶의 정치적·철학적 의미인 '체계 비판'을 간과합니다.",
+      "④": "도시에서의 일과 삶의 균형이라는 실용적 조언에만 초점을 맞추어, 지문의 '자본주의 체계 자체에 대한 저항'이라는 근본적 주제를 포함하지 못합니다.",
+      "⑤": "소비자 자본주의의 역사에 중점을 두어, 지문의 '현재 느린 삶의 실천'이라는 주요 내용을 배제합니다."
+    },
+    "_type": "title",
+    "given_sentence": null,
+    "_reviewed": true,
+    "_qid": "R-076"
+  },
+  {
+    "type": "제목 추론",
+    "passage": "Many people believe that memory works like a video recording device, faithfully capturing and storing exact replicas of past events. Neuroscience research, however, has revealed that memory is fundamentally reconstructive. When we recall an event, we don't retrieve a stored file; instead, our brain actively reassembles fragments of sensory details, emotions, and contextual information. This reconstruction process is influenced by our current beliefs, expectations, and emotions at the moment of recall. False memories can be inadvertently created through suggestion, leading people to 'remember' events that never occurred. A person might confidently recall being lost in a shopping mall as a child after hearing family members discuss it repeatedly. These findings have profound implications for the reliability of eyewitness testimony in legal proceedings. While our memories feel authentic and complete, they are actually malleable narratives that we unknowingly revise each time we recall them.",
+    "choices": [
+      "①How the Brain Stores Information and Facts",
+      "②The Unreliable Nature of Eyewitness Evidence",
+      "③Memory as a Creative Act of Reconstruction",
+      "④Why We Forget Important Childhood Experiences",
+      "⑤The Psychological Basis of Human Emotions"
+    ],
+    "answer": 2,
+    "explanation": "지문의 핵심은 '메모리가 정확한 기록이 아니라 현재의 신념과 감정에 의해 능동적으로 재구성되는 과정'이라는 점입니다. 정답③의 '메모리는 재구성의 창의적 행위'는 메모리의 정확성 환상에 대한 비판과 그 진정한 특성을 효과적으로 표현합니다.",
+    "wrong_explanations": {
+      "①": "뇌의 정보 저장 메커니즘을 다루는 제목인데, 이는 지문에서 비판하는 '메모리는 정확하게 저장된다'는 잘못된 믿음을 암시합니다.",
+      "②": "목격자 증언의 신뢰성만 강조하여, 지문이 다루는 메모리의 재구성적 특성과 그 이유라는 더 광범위한 주제를 부분적으로만 포함합니다.",
+      "④": "어린 시절의 경험을 잊어버리는 것에 초점을 맞추어, 지문의 '메모리가 어떻게 작동하는가'라는 근본적 질문을 다루지 않습니다.",
+      "⑤": "인간 감정의 심리적 기초라는 일반적 주제로, 지문의 메모리 재구성이라는 특정한 논점을 벗어납니다."
+    },
+    "_type": "title",
+    "given_sentence": null,
+    "_reviewed": true,
+    "_qid": "R-077"
+  },
+  {
+    "type": "무관한 문장",
+    "passage": "Urban agriculture has emerged as a sustainable solution to food production challenges in cities. ①By cultivating plants in urban spaces such as rooftops, balconies, and community gardens, residents can reduce their carbon footprint and increase food security. ②Urban farming also strengthens community bonds as neighbors work together toward a common goal of producing fresh vegetables and fruits. ③Organic farming methods have gained popularity worldwide because consumers increasingly demand pesticide-free products. ④The practice provides educational opportunities for children to learn about plant growth and nutrition directly through hands-on experience. ⑤Furthermore, green spaces in cities can help regulate temperature, reduce pollution, and improve residents' mental health.",
+    "choices": [
+      "①",
+      "②",
+      "③",
+      "④",
+      "⑤"
+    ],
+    "answer": 2,
+    "explanation": "③번 문장은 유기농 방법과 소비자 수요에 대한 일반적인 언급이지만, 글의 주제인 '도시 농업의 이점'과 직접적인 논리적 연결이 없습니다. 글의 흐름은 도시 농업의 환경적, 사회적, 교육적 이점을 설명하는데, 이 문장은 유기농의 일반적 추세로 벗어나 있습니다.",
+    "_type": "irrelevant",
+    "given_sentence": null,
+    "wrong_explanations": {},
+    "_reviewed": true,
+    "_qid": "R-078"
+  },
+  {
+    "type": "무관한 문장",
+    "passage": "The human brain's capacity to form new neural connections throughout life is known as neuroplasticity. ①This ability allows individuals to learn new skills, recover from brain injuries, and adapt to changing environments even in old age. ②Neuroscientists have discovered that repeated practice and consistent learning strengthen specific neural pathways in the brain. ③Different regions of the brain control different body functions, including movement, vision, and emotional regulation. ④Environmental enrichment, such as exposure to novel experiences and challenging mental tasks, can enhance neuroplasticity and cognitive function. ⑤Understanding neuroplasticity has revolutionized rehabilitation therapy for stroke patients and individuals with brain injuries.",
+    "choices": [
+      "①",
+      "②",
+      "③",
+      "④",
+      "⑤"
+    ],
+    "answer": 2,
+    "explanation": "③번 문장은 뇌의 구조와 기능에 관한 기본 정보이지만, 글의 주제인 '신경가소성과 그 응용'과 무관합니다. 글은 신경가소성의 정의, 학습 방식, 향상 방법을 설명하는데, 이 문장은 뇌의 일반적 해부학적 정보로 논지를 벗어나 있습니다.",
+    "_type": "irrelevant",
+    "given_sentence": null,
+    "wrong_explanations": {},
+    "_reviewed": true,
+    "_qid": "R-079"
+  },
+  {
+    "type": "무관한 문장",
+    "passage": "Remote work has fundamentally transformed how companies manage their workforce and organizational culture. ①Employees working from home can often maintain better work-life balance and reduce commuting stress, leading to improved well-being. ②Video conferencing technology has enabled teams to collaborate effectively despite physical distance, making real-time communication possible. ③The average office worker spends approximately eight hours a day at their desk, which can lead to posture-related health issues. ④Companies have also benefited from reduced overhead costs associated with maintaining large office spaces and facilities. ⑤However, some organizations report challenges in maintaining team cohesion and company culture when employees are geographically dispersed.",
+    "choices": [
+      "①",
+      "②",
+      "③",
+      "④",
+      "⑤"
+    ],
+    "answer": 2,
+    "explanation": "③번 문장은 사무실 근무와 관련된 건강 문제를 설명하지만, 글의 주제인 '원격근무의 영향과 이점, 도전과제'와 직접적으로 무관합니다. 글은 원격근무 도입의 결과를 다루는데, 이 문장은 전통 사무실 근무의 건강 문제로 초점이 벗어나 있습니다.",
+    "_type": "irrelevant",
+    "given_sentence": null,
+    "wrong_explanations": {},
+    "_reviewed": true,
+    "_qid": "R-080"
+  },
+  {
+    "type": "무관한 문장",
+    "passage": "The phenomenon of 'revenge bedtime procrastination' has become prevalent in modern society, particularly among workers with demanding schedules. ①This behavior involves delaying sleep to reclaim personal leisure time after long, exhausting workdays. ②People who engage in this practice often sacrifice sleep hours to watch television, scroll through social media, or pursue hobbies without interruption. ③Sleep deprivation has numerous negative effects on physical health, including increased risk of cardiovascular disease and weakened immune function. ④While this provides temporary psychological relief and a sense of autonomy, it ultimately creates a cycle of fatigue and reduced daytime productivity. ⑤Researchers suggest that establishing clear work-life boundaries and allocating sufficient free time during the day could effectively prevent this counterproductive behavior.",
+    "choices": [
+      "①",
+      "②",
+      "③",
+      "④",
+      "⑤"
+    ],
+    "answer": 2,
+    "explanation": "③번 문장은 수면 부족의 일반적인 건강 영향을 설명하지만, 글의 주제인 '보복성 야행벽의 원인, 메커니즘, 해결책'과 직접적으로 무관합니다. 글은 이 특정 현상의 심리적 배경과 해결 방법을 다루는데, 이 문장은 수면 부족 일반의 의학적 결과로 맥락을 벗어나 있습니다.",
+    "_type": "irrelevant",
+    "given_sentence": null,
+    "wrong_explanations": {},
+    "_reviewed": true,
+    "_qid": "R-081"
+  },
+  {
+    "type": "요약문 완성",
+    "passage": "Throughout history, humans have relied on oral traditions to preserve cultural knowledge and values. Stories, myths, and legends were passed down from generation to generation through spoken word, serving as a repository of collective wisdom. However, the invention of writing systems fundamentally changed this landscape. Written records allowed information to be stored permanently and transmitted with greater accuracy across vast distances and extended periods. This shift enabled the development of complex civilizations, as written documentation could track laws, trade, scientific discoveries, and historical events. Yet this transition also created a dependency on literacy, excluding those unable to read and write. Moreover, the rise of digital technology has sparked new concerns about the fate of written communication itself. As societies increasingly rely on oral and visual media through podcasts, videos, and social networks, some scholars worry that traditional literacy skills may diminish. Nonetheless, writing remains a powerful tool for preserving nuance and complex ideas in ways that oral communication sometimes cannot achieve.",
+    "given_sentence": "Writing systems have _____(A)_____ humanity's ability to preserve and transmit knowledge compared to oral traditions, yet this advantage may be _____(B)_____ by the emerging dominance of digital oral and visual media.",
+    "choices": [
+      "①(A) enhanced - (B) challenged",
+      "②(A) limited - (B) strengthened",
+      "③(A) replaced - (B) confirmed",
+      "④(A) complicated - (B) supported",
+      "⑤(A) prevented - (B) guaranteed"
+    ],
+    "answer": 0,
+    "explanation": "지문의 핵심: 문자 체계는 구전보다 지식 보존과 전달에 있어 인류의 능력을 향상시켰으나(enhanced), 디지털 구술 및 시각 매체의 등장으로 인해 이러한 이점이 도전받고 있음(challenged). 문맥상 이 둘의 대비 관계가 명확하므로 ①이 정답이다.",
+    "wrong_explanations": {
+      "1": "limited와 strengthened는 문맥상 맞지 않음. 글에서 문자 체계가 지식 보존 능력을 제한했다고 하지 않음.",
+      "2": "replaced는 '대체하다'는 의미로, 문자가 구전을 완전히 대체했다는 뜻인데 글의 주제와 맞지 않음.",
+      "3": "complicated와 supported는 글의 대비 관계를 나타내지 못함.",
+      "4": "prevented는 부정적 의미가 너무 강하며, guaranteed는 글의 우려 표현과 맞지 않음."
+    },
+    "_type": "summary",
+    "_reviewed": true,
+    "_qid": "R-082"
+  },
+  {
+    "type": "요약문 완성",
+    "passage": "Consumer behavior has undergone a dramatic transformation with the rise of e-commerce and online shopping. Convenience and access to a vast array of products have made digital retail increasingly attractive to consumers. However, this shift has brought unexpected psychological consequences. Research shows that the overwhelming number of choices available online often leads to decision paralysis, where customers struggle to make purchases due to excessive options. Additionally, the absence of physical product interaction creates a disconnect between expectation and reality. When items arrive at customers' homes, they frequently discover that products don't match their mental images formed from digital descriptions and images. This phenomenon has contributed to rising return rates in online retail. Furthermore, the lack of human interaction in digital transactions reduces the emotional satisfaction that comes from personal service and relationship-building. Consequently, many retailers are now recognizing the need to blend online and offline experiences. Successful companies are implementing strategies that maintain the convenience of e-commerce while restoring elements of personal connection and tangible product evaluation that traditional brick-and-mortar stores provide.",
+    "given_sentence": "Although online shopping provides _____(A)_____ benefits, the psychological drawbacks of excessive choice and reduced human interaction have _____(B)_____ retailers to integrate physical and digital retail experiences.",
+    "choices": [
+      "①(A) undeniable - (B) prompted",
+      "②(A) minimal - (B) prevented",
+      "③(A) temporary - (B) discouraged",
+      "④(A) fictional - (B) forced",
+      "⑤(A) questionable - (B) allowed"
+    ],
+    "answer": 0,
+    "explanation": "지문의 요점: 온라인 쇼핑의 명백한(undeniable) 이점에도 불구하고, 과도한 선택지와 인간관계 부족의 심리적 단점이 소매업자들로 하여금(prompted) 온오프라인 경험을 통합하도록 이끌었다는 뜻. ①이 정답이다.",
+    "wrong_explanations": {
+      "1": "minimal은 '최소한의'로, 글에서 언급한 온라인 쇼핑의 많은 이점과 맞지 않음.",
+      "2": "prevented는 '방지했다'는 의미로, 글의 문맥상 회사들이 통합 전략을 구현하고 있다고 했으므로 맞지 않음.",
+      "3": "temporary와 discouraged는 글의 의도와 맞지 않으며, 회사들이 실제로 통합 전략을 추진 중이라는 사실과 불일치.",
+      "4": "fictional은 '가상의, 허구의'로 부적절하며, allowed 역시 문맥상 능동적인 의도를 나타내지 못함."
+    },
+    "_type": "summary",
+    "_reviewed": true,
+    "_qid": "R-083"
+  },
+  {
+    "type": "요약문 완성",
+    "passage": "The traditional model of formal education, where students progress through predetermined curricula in age-based cohorts, is increasingly questioned by educators and policymakers. Critics argue that this standardized approach fails to accommodate diverse learning styles, paces, and interests among students. Consequently, alternative educational models have gained traction in recent years. Personalized learning, project-based education, and competency-based progression represent approaches that adapt to individual student needs. These alternatives recognize that effective learning occurs when students engage with content that aligns with their interests and developmental readiness. Technology has accelerated this shift by enabling customized learning pathways and real-time progress monitoring. However, transitioning away from traditional models presents significant challenges. Teachers require substantial professional development to implement new pedagogical approaches effectively. Additionally, assessment systems and institutional structures are designed around standardized metrics, making systemic change difficult. Furthermore, concerns exist about equity, as personalized approaches require robust technological infrastructure that not all schools can afford. Despite these obstacles, educational institutions increasingly acknowledge that one-size-fits-all instruction is inadequate for meeting diverse learner needs in the twenty-first century.",
+    "given_sentence": "While standardized education systems are _____(A)_____ for failing to accommodate individual learning differences, implementing personalized alternatives remains _____(B)_____ due to resource constraints and institutional resistance.",
+    "choices": [
+      "①(A) praised - (B) straightforward",
+      "②(A) criticized - (B) challenging",
+      "③(A) supported - (B) prohibited",
+      "④(A) dismissed - (B) inevitable",
+      "⑤(A) abandoned - (B) impossible"
+    ],
+    "answer": 1,
+    "explanation": "지문의 핵심: 표준화된 교육 시스템이 개인 학습 차이를 수용하지 못한다고 비판받고 있으며(criticized), 개인화된 대안 도입은 자원 부족과 제도적 저항으로 인해 어려움(challenging)이 있다는 뜻. ②가 정답이다.",
+    "wrong_explanations": {
+      "0": "praised는 '칭찬받는'이라는 뜻으로, 글에서 비판적 관점을 명확히 했으므로 맞지 않음.",
+      "2": "supported와 prohibited는 글의 내용과 불일치. 지문은 비판적이며 변화는 어렵지만 가능함.",
+      "3": "dismissed는 '무시된'이라는 뜻으로, 실제로 변화 필요성이 인정되고 있다는 내용과 맞지 않음.",
+      "4": "abandoned는 '버려진'이라는 뜻이고, impossible은 글의 긍정적 전망과 모순됨."
+    },
+    "_type": "summary",
+    "_reviewed": true,
+    "_qid": "R-084"
   }
 ];

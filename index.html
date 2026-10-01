@@ -1795,8 +1795,9 @@ function renderQuestion() {
   const diff = getDifficulty(q._type);
   const diffLabel = {hard:'🥇 1등급', medium:'🥈 2등급', easy:'🥉 3등급'}[diff] || '🥈 2등급';
   const diffColor = {hard:'#c62828', medium:'#e65100', easy:'#2e7d32'}[diff] || '#e65100';
-  const reviewedMark = q._reviewed ? ' <span style="margin-left:6px;font-size:11px;font-weight:700;color:#1a8f3c;background:#e8f5e9;padding:2px 6px;border-radius:4px;">✅ 감수완료</span>' : ' <span style="margin-left:6px;font-size:11px;font-weight:600;color:#888;background:#f0f0f0;padding:2px 6px;border-radius:4px;">AI 생성</span>';
-  document.getElementById('quizTypeBadge').innerHTML = (q.type || TYPE_NAMES[q._type]) + ' <span style="margin-left:8px;font-size:12px;font-weight:800;color:#fff;background:' + diffColor + ';padding:2px 8px;border-radius:4px;">' + diffLabel + '</span>' + reviewedMark;
+  const qidBadge = q._qid ? ' <span style="margin-left:6px;font-size:10px;font-weight:600;color:#666;background:#f0f0f0;padding:2px 6px;border-radius:4px;">' + q._qid + '</span>' : '';
+  const reviewedMark = q._reviewed ? ' <span style="margin-left:4px;font-size:11px;font-weight:700;color:#1a8f3c;background:#e8f5e9;padding:2px 6px;border-radius:4px;">감수완료</span>' : ' <span style="margin-left:4px;font-size:11px;font-weight:600;color:#888;background:#f0f0f0;padding:2px 6px;border-radius:4px;">AI 생성</span>';
+  document.getElementById('quizTypeBadge').innerHTML = (q.type || TYPE_NAMES[q._type]) + ' <span style="margin-left:8px;font-size:12px;font-weight:800;color:#fff;background:' + diffColor + ';padding:2px 8px;border-radius:4px;">' + diffLabel + '</span>' + qidBadge + reviewedMark;
   document.getElementById('quizInstruction').textContent = TYPE_INSTRUCTIONS[q._type];
 
   // 지문
