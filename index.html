@@ -1919,6 +1919,7 @@ function updateCacheStatus() {
 // 문제 풀기
 // ═══════════════════════════════════════
 const FREE_DAILY_LIMIT = 5;
+const PREMIUM_DAILY_LIMIT = 30;
 let quizQueue = [];
 
 function getTodayQuizCount() {
@@ -1928,10 +1929,14 @@ function getTodayQuizCount() {
 }
 
 function checkFreeLimit() {
-  if (state.isPremium) return true;
   const todayCount = getTodayQuizCount();
-  if (todayCount >= FREE_DAILY_LIMIT) {
-    document.getElementById('paymentModal').classList.add('active');
+  const limit = state.isPremium ? PREMIUM_DAILY_LIMIT : FREE_DAILY_LIMIT;
+  if (todayCount >= limit) {
+    if (state.isPremium) {
+      alert('오늘의 학습 한도(30문제)에 도달했습니다.\n내일 다시 도전하세요!');
+    } else {
+      document.getElementById('paymentModal').classList.add('active');
+    }
     return false;
   }
   return true;
@@ -1940,11 +1945,12 @@ function checkFreeLimit() {
 function updateFreeLimitStatus() {
   const el = document.getElementById('freeLimitStatus');
   if (!el) return;
+  const limit = state.isPremium ? PREMIUM_DAILY_LIMIT : FREE_DAILY_LIMIT;
+  const remain = Math.max(0, limit - getTodayQuizCount());
   if (state.isPremium) {
-    el.textContent = '💎 프리미엄 — 무제한';
-    el.style.color = 'var(--correct)';
+    el.textContent = `💎 프리미엄 | 오늘 남은 문제: ${remain}/${PREMIUM_DAILY_LIMIT}`;
+    el.style.color = remain > 0 ? 'var(--correct)' : 'var(--accent)';
   } else {
-    const remain = Math.max(0, FREE_DAILY_LIMIT - getTodayQuizCount());
     el.textContent = `무료버전 | 오늘 남은 문제: ${remain}/${FREE_DAILY_LIMIT}`;
     el.style.color = remain > 0 ? 'var(--accent)' : 'var(--wrong)';
   }
