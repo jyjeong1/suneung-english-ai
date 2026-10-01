@@ -145,7 +145,15 @@ class AppHandler(http.server.SimpleHTTPRequestHandler):
             if len(available) < count:
                 available = pool
 
-            selected = random.sample(available, min(count, len(available)))
+            # 감수완료(R) 문제 우선 제공
+            reviewed = [q for q in available if q.get('_reviewed')]
+            unreviewed = [q for q in available if not q.get('_reviewed')]
+            if len(reviewed) >= count:
+                selected = random.sample(reviewed, count)
+            elif reviewed:
+                selected = reviewed + random.sample(unreviewed, min(count - len(reviewed), len(unreviewed)))
+            else:
+                selected = random.sample(available, min(count, len(available)))
 
             self.send_response(200)
             self.send_header('Content-Type', 'application/json')
