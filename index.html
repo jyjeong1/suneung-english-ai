@@ -1809,11 +1809,11 @@ function renderQuestion() {
       var choiceText = q.choices[mi].replace(/^[①②③④⑤]\s*/, '').trim();
       var wc = choiceText.split(/\s+/).length;
       var esc = markers[mi].replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
-      var re = new RegExp(esc + '(\\s*)([\\w\'-]+(?:\\s+[\\w\'-]+){0,' + (wc - 1) + '})(\\s*\\/?\\s*)', 'g');
+      var re = new RegExp(esc + '(\\s*)(\\w+(?:\\s+\\w+){0,' + (wc - 1) + '})(\\s*\\/?\\s*)', 'g');
       passageHtml = passageHtml.replace(re, '<u style="text-decoration:underline;text-underline-offset:3px;">' + markers[mi] + '$1$2</u> ');
     }
   } else {
-    passageHtml = passageHtml.replace(/([①②③④⑤])(\s*)([\w'-]+)(\s*\/?\s*)/g,
+    passageHtml = passageHtml.replace(/([①②③④⑤])(\s*)(\w+)(\s*\/?\s*)/g,
       '<u style="text-decoration:underline;text-underline-offset:3px;">$1$2$3</u> ');
   }
   // (A)~(E) 형식에도 밑줄 처리 (뒤의 슬래시 제거)
