@@ -1,5 +1,4 @@
-// Prof.AI 3차 감수용 — 48문제 (6유형 전체)
-// 생성일: 2026-10-01
+// Prof.AI 3차 감수용 — 48문제
 const QUESTION_BANK = [
   {
     "type": "빈칸 추론",
@@ -737,111 +736,6 @@ const QUESTION_BANK = [
     "given_sentence": null
   },
   {
-    "type": "main_idea",
-    "passage": "현대 사회에서 우리는 끊임없이 변화하는 정보의 홍수 속에 살고 있습니다. 스마트폰과 인터넷의 발전으로 우리는 언제 어디서나 정보에 접근할 수 있게 되었습니다. 그러나 이러한 편의성은 새로운 문제를 야기했습니다. 정보의 신뢰성을 검증하기 어려워졌고, 거짓 정보가 빠르게 확산되는 현상이 일어나고 있습니다. 특히 소셜 미디어를 통해 검증되지 않은 뉴스가 수백만 명에게 전달됩니다. 이러한 상황에서 개인의 비판적 사고력과 정보 검증 능력이 매우 중요해졌습니다. 우리는 출처를 확인하고, 다양한 관점에서 정보를 검토하며, 전문가의 의견을 참고해야 합니다. 이러한 미디어 리터러시 능력은 더 이상 선택이 아닌 필수 역량이 되었습니다.",
-    "choices": [
-      "① 스마트폰 기술의 빠른 발전 과정",
-      "② 현대 사회에서 정보 검증 능력의 필수성",
-      "③ 소셜 미디어의 사용 시간 증가 추세",
-      "④ 인터넷 뉴스 매체의 역사와 발전",
-      "⑤ 거짓 정보가 확산되는 구체적인 사례"
-    ],
-    "answer": 1,
-    "explanation": "지문은 정보의 홍수 속에서 거짓 정보의 확산 문제를 제시하고, 이를 해결하기 위해 개인의 비판적 사고력과 정보 검증 능력(미디어 리터러시)이 필수적이라는 점을 강조합니다.",
-    "wrong_explanations": {
-      "0": "스마트폰 기술의 발전은 배경 설명일 뿐 주요 주제가 아닙니다.",
-      "2": "소셜 미디어의 사용 시간 증가는 지문에서 언급되지 않습니다.",
-      "3": "인터넷 뉴스의 역사가 아니라 현재의 문제점과 해결방안을 다룹니다.",
-      "4": "거짓 정보 확산의 구체적 사례보다는 일반적인 현상과 필요한 능력을 강조합니다."
-    },
-    "given_sentence": null,
-    "_type": "main_idea"
-  },
-  {
-    "type": "main_idea",
-    "passage": "운동은 단순히 신체 건강을 위한 것이 아닙니다. 최근 연구들은 정기적인 신체 활동이 정신 건강에 미치는 긍정적 영향을 강조하고 있습니다. 운동을 할 때 뇌는 엔도르핀이라는 화학물질을 분비하며, 이는 기분을 좋게 만들고 스트레스를 감소시킵니다. 또한 규칙적인 운동은 불안감과 우울증의 증상을 완화하는 데 도움이 됩니다. 더욱 놀랍게도, 운동은 뇌의 신경 세포 재생을 촉진하여 인지 기능과 기억력을 향상시킵니다. 많은 전문가들은 운동이 약물 치료만큼 효과적일 수 있다고 주장합니다. 따라서 건강한 삶을 위해서는 신체 운동을 정신 건강 관리의 중요한 부분으로 인식해야 합니다.",
-    "choices": [
-      "① 효과적인 운동 방법과 기술",
-      "② 신체 운동이 정신 건강에 미치는 긍정적 영향",
-      "③ 다양한 우울증 치료법의 비교",
-      "④ 엔도르핀이 신체에 미치는 부작용",
-      "⑤ 운동 선수들의 훈련 프로그램"
-    ],
-    "answer": 1,
-    "explanation": "지문은 운동이 단순한 신체 건강뿐 아니라 정신 건강 개선에도 효과적이라는 점을 중심으로 설명하고 있습니다. 엔도르핀 분비, 스트레스 감소, 인지 기능 향상 등 여러 긍정적 영향을 제시합니다.",
-    "wrong_explanations": {
-      "0": "지문은 운동 방법과 기술에 대해 구체적으로 설명하지 않습니다.",
-      "2": "우울증 치료법의 비교가 주 내용이 아니라 운동의 효과 설명이 중점입니다.",
-      "3": "엔도르핀의 부작용이 아닌 긍정적 역할을 강조합니다.",
-      "4": "운동 선수의 훈련 프로그램은 지문의 내용이 아닙니다."
-    },
-    "given_sentence": null,
-    "_type": "main_idea"
-  },
-  {
-    "type": "main_idea",
-    "passage": "자동화 기술의 발전은 많은 산업에서 인간의 노동을 대체하고 있습니다. 제조업에서 로봇이 반복적인 작업을 수행하고, 서비스 산업에서도 AI 챗봇이 고객 상담을 처리합니다. 이로 인해 일부 직업은 사라질 위험에 처해 있습니다. 그러나 동시에 새로운 유형의 일자리가 창출되고 있습니다. 기술을 관리하고 유지보수하는 직업, 그리고 인간의 창의성과 공감 능력이 필요한 직업들의 수요가 증가하고 있습니다. 전문가들은 미래의 경쟁력은 기술 능력뿐 아니라 인간만의 독특한 능력에 있다고 강조합니다. 따라서 우리는 변화하는 노동 시장에 적응하기 위해 지속적인 학습과 기술 개발에 투자해야 합니다.",
-    "choices": [
-      "① 자동화 기술의 역사적 발전과정",
-      "② 인공지능 챗봇의 기술적 원리",
-      "③ 자동화로 인한 노동 시장 변화와 적응의 필요성",
-      "④ 제조업 로봇의 성능 비교",
-      "⑤ 사라질 위험이 있는 직업의 구체적 목록"
-    ],
-    "answer": 2,
-    "explanation": "지문은 자동화로 인한 일자리 감소를 언급하지만, 핵심은 동시에 새로운 일자리 창출과 변화하는 시장에 대한 지속적인 학습의 필요성을 강조하는 것입니다.",
-    "wrong_explanations": {
-      "0": "기술의 역사적 발전 과정이 아니라 현재의 변화와 대응 방안을 다룹니다.",
-      "1": "AI의 기술적 원리는 지문의 주요 내용이 아닙니다.",
-      "3": "로봇 성능 비교는 지문에서 다루지 않습니다.",
-      "4": "사라질 직업의 목록보다는 미래 적응 전략을 강조합니다."
-    },
-    "given_sentence": null,
-    "_type": "main_idea"
-  },
-  {
-    "type": "main_idea",
-    "passage": "환경 보호는 더 이상 선택의 문제가 아니라 생존의 문제입니다. 전 지구적 기후 변화로 인해 극단적인 날씨 현상이 빈번해지고 있으며, 생태계의 균형이 파괴되고 있습니다. 산업 발전과 도시화는 자연 서식지를 파괴하고 여러 종의 멸종을 초래했습니다. 플라스틱 오염은 바다와 토양을 오염시켜 식량 안보를 위협하고 있습니다. 그러나 희망이 있습니다. 재생 에너지의 사용 증대, 순환 경제의 확대, 그리고 국제적 협력을 통해 우리는 이러한 위기를 극복할 수 있습니다. 개인의 작은 노력, 예를 들어 플라스틱 사용 줄이기와 에너지 절약도 중요한 역할을 합니다. 모두가 함께 행동한다면 지속 가능한 미래를 만들 수 있습니다.",
-    "choices": [
-      "① 플라스틱 제품 제조 기술의 개선",
-      "② 도시화의 장점과 단점",
-      "③ 환경 위기의 심각성과 그 해결 방안",
-      "④ 멸종 위기에 처한 동물 종의 연구",
-      "⑤ 재생 에너지 기술의 종류별 효율성"
-    ],
-    "answer": 2,
-    "explanation": "지문은 환경 오염과 기후 변화의 심각한 현황을 제시한 후, 재생 에너지, 순환 경제, 국제 협력, 개인의 실천 등 다양한 해결 방안을 제시하고 있습니다.",
-    "wrong_explanations": {
-      "0": "플라스틱 제품 제조 기술 개선은 해결 방안 중 하나일 뿐 주요 주제가 아닙니다.",
-      "1": "도시화의 장단점 비교가 아니라 환경 위기 극복에 초점을 맞춥니다.",
-      "3": "멸종 동물 연구는 문제의 일부일 뿐 전체 맥락이 아닙니다.",
-      "4": "재생 에너지의 효율성 비교보다는 환경 문제의 해결 방안을 강조합니다."
-    },
-    "given_sentence": null,
-    "_type": "main_idea"
-  },
-  {
-    "type": "main_idea",
-    "passage": "문화적 다양성은 사회의 강점입니다. 서로 다른 배경과 관점을 가진 사람들이 모일 때, 혁신적인 아이디어와 창의적인 해결책이 나타납니다. 역사를 보면 많은 위대한 업적들이 다양한 문화의 교류와 협력 속에서 이루어졌습니다. 그러나 현재 많은 사회에서는 문화적 동질성을 강요하거나 소수 문화를 무시하는 경향이 있습니다. 이는 사회의 잠재력을 낭비하는 것입니다. 진정한 발전을 위해서는 모든 문화의 가치를 인정하고, 서로 다른 관점을 존중하며, 포용적인 환경을 만들어야 합니다. 교육, 미디어, 정책 등 모든 영역에서 다양성이 반영될 때, 우리는 더욱 풍요롭고 강한 사회를 건설할 수 있습니다.",
-    "choices": [
-      "① 세계 여러 나라의 문화 특징 소개",
-      "② 문화적 다양성의 중요성과 포용적 사회 구축의 필요성",
-      "③ 소수 문화 보존을 위한 정부 정책",
-      "④ 문화 교류로 인한 갈등 사례",
-      "⑤ 역사 속 위대한 업적의 구체적 사례"
-    ],
-    "answer": 1,
-    "explanation": "지문은 문화적 다양성이 사회의 강점이며, 동질성 강요 문제를 지적하고, 모든 문화를 존중하는 포용적 사회 구축의 필요성을 강조하고 있습니다.",
-    "wrong_explanations": {
-      "0": "문화 특징 소개보다는 다양성의 가치와 중요성을 강조합니다.",
-      "2": "정부 정책이 아니라 사회 전반의 포용적 태도를 강조합니다.",
-      "3": "문화 교류로 인한 갈등이 아니라 다양성의 긍정적 영향을 다룹니다.",
-      "4": "역사적 사례는 보조적 근거일 뿐 주요 주제가 아닙니다."
-    },
-    "given_sentence": null,
-    "_type": "main_idea"
-  },
-  {
     "type": "글의 순서",
     "passage": "Many people believe that multitasking makes them more productive. Research, however, suggests otherwise.\n\n(A) When the brain switches between tasks, it requires time to refocus on each new activity. Scientists have found that this switching cost can reduce overall efficiency by up to 40 percent. Moreover, the quality of work tends to decline when people attempt simultaneous tasks.\n\n(B) Instead of juggling multiple activities, experts recommend focusing on one task at a time. This approach, known as single-tasking, allows the brain to enter a state of deep concentration. Employees who practice single-tasking complete projects faster and make fewer errors than those who multitask.\n\n(C) The myth of multitasking has been perpetuated by modern workplace culture, which often glorifies busy schedules. Companies are now recognizing that encouraging workers to focus on individual tasks leads to better results. Some organizations have even implemented no-meeting days to eliminate interruptions.",
     "choices": [
@@ -1007,6 +901,111 @@ const QUESTION_BANK = [
       "4": "(C)-(B)-(A)는 모든 순서를 역순으로 배열하므로 논리 흐름이 완전히 틀립니다."
     },
     "_type": "order",
+    "given_sentence": null
+  },
+  {
+    "type": "요지/주제",
+    "passage": "Modern consumers are increasingly aware of their environmental impact and are making purchasing decisions based on sustainability. Companies that once ignored environmental concerns are now competing to offer eco-friendly products. However, research suggests that many consumers engage in what researchers call 'green washing'—they purchase environmentally friendly products while maintaining overall consumption patterns that are harmful to the planet. For instance, a person might buy organic cotton clothes while still buying excessive amounts of clothing. The real solution requires a fundamental shift in consumer behavior, not just switching to greener products. Experts argue that true sustainability demands reducing overall consumption, repairing items instead of replacing them, and supporting businesses with transparent supply chains. Without addressing the root cause of overconsumption, green products become merely a way for consumers to feel good about themselves without making meaningful environmental changes. The challenge for companies and consumers alike is to move beyond superficial environmental measures toward genuine sustainability practices.",
+    "choices": [
+      "①환경 친화적 제품의 종류와 특징",
+      "②겉보기만 친환경적인 소비 행태의 한계와 진정한 지속 가능성의 필요성",
+      "③기업의 환경 마케팅 전략이 소비자에게 미치는 긍정적 영향",
+      "④친환경 제품이 전통 제품보다 우수한 이유",
+      "⑤소비자의 구매력이 환경 오염을 감소시키는 방법"
+    ],
+    "answer": 1,
+    "explanation": "이 지문은 많은 소비자들이 친환경 제품을 구매하면서도 전반적인 과다 소비 패턴은 유지하는 '그린 워싱'의 문제점을 지적합니다. 지문의 핵심은 단순히 친환경 제품으로 전환하는 것만으로는 부족하며, 소비 자체를 줄이고 투명한 공급망을 지원하는 등 진정한 지속 가능성으로의 전환이 필요하다는 것입니다.",
+    "wrong_explanations": {
+      "0": "지문은 친환경 제품의 종류를 설명하지 않으며, 제품 자체보다는 소비 행태를 비판합니다.",
+      "2": "지문은 환경 마케팅의 긍정적 영향이 아니라 그린 워싱의 한계를 지적합니다.",
+      "3": "지문은 친환경 제품의 우월성을 주장하지 않으며, 오히려 그러한 제품만으로는 부족함을 강조합니다.",
+      "4": "지문은 소비자의 구매력이 오염을 감소시킨다고 보지 않으며, 구매력 자체의 감소를 제안합니다."
+    },
+    "_type": "main_idea",
+    "given_sentence": null
+  },
+  {
+    "type": "요지/주제",
+    "passage": "The concept of 'slow living' has gained popularity in recent years as people seek to escape the demands of modern life. Unlike the fast-paced culture that emphasizes productivity and efficiency, slow living encourages individuals to intentionally reduce their pace and focus on quality over quantity. This movement encompasses various aspects of daily life, from food preparation to work schedules. Advocates believe that by slowing down, people can develop deeper relationships, improve mental health, and reconnect with their communities. However, critics argue that slow living is a luxury available only to the wealthy who can afford to work less and spend more time on leisure activities. Others point out that the movement overlooks systemic issues like poverty and inequality, which force many people to maintain exhausting work schedules simply to survive. While slow living offers valuable insights about the importance of rest and reflection, applying it universally without addressing broader social and economic challenges remains problematic. True change requires not just individual lifestyle adjustments but also systemic reforms.",
+    "choices": [
+      "①느린 생활이 부자들을 위한 사치품인 이유",
+      "②현대인의 삶의 질 향상을 위한 느린 생활의 긍정적 효과",
+      "③느린 생활 운동의 이점과 그것이 간과하는 사회경제적 문제점",
+      "④빠른 생활과 느린 생활 중 어느 것이 더 나은지",
+      "⑤사회 개혁 없이 개인의 라이프스타일만 변화시키는 방법"
+    ],
+    "answer": 2,
+    "explanation": "이 지문은 느린 생활 운동의 긍정적 측면(더 깊은 관계, 정신 건강 개선)을 인정하면서도, 빈곤과 불평등이라는 체계적 문제를 간과한다는 비판을 제시합니다. 진정한 변화는 개인적 조정뿐 아니라 체계적 개혁을 요구한다는 것이 요지입니다.",
+    "wrong_explanations": {
+      "0": "지문은 느린 생활이 사치품이라는 주장도 제시하지만, 이것만이 주요 요지는 아닙니다.",
+      "1": "지문은 느린 생활의 긍정적 효과만을 다루지 않으며, 비판점도 함께 제시합니다.",
+      "3": "지문은 어느 한 쪽이 더 나은지를 판단하지 않으며, 맥락에 따른 문제점을 지적합니다.",
+      "4": "지문은 개인의 라이프스타일 변화만으로는 부족하다고 주장하므로, 선택지 5는 지문의 요지와 맞지 않습니다."
+    },
+    "_type": "main_idea",
+    "given_sentence": null
+  },
+  {
+    "type": "요지/주제",
+    "passage": "Memory is often viewed as a recording device that accurately captures events from our past. However, neuroscientists have discovered that memory is far more reconstructive and fragile than previously believed. Each time we recall a memory, we are not simply retrieving a stored file but actively reconstructing it based on current beliefs, emotions, and available information. This reconstruction process means that our memories are constantly being modified and reshaped. Furthermore, studies show that false memories can be implanted through suggestion and imagination exercises, demonstrating how malleable memory truly is. Eyewitness testimony, once considered highly reliable in legal proceedings, is now recognized as subject to significant distortion. The implications are profound: our sense of personal identity, which relies heavily on autobiographical memory, may be less stable than we assume. This does not mean memories are worthless; rather, it highlights the importance of corroborating evidence and multiple perspectives when reconstructing historical events or evaluating testimonies. Understanding memory's limitations helps us become more humble about what we think we know about our past.",
+    "choices": [
+      "①기억을 정확하게 저장하고 검색하는 뇌의 메커니즘",
+      "②기억이 단순한 기록이 아니라 재구성되는 과정과 그 함의",
+      "③거짓 기억이 형성되는 심리학적 이유",
+      "④개인의 정체성이 자전적 기억에 전적으로 의존하는 이유",
+      "⑤법정에서 목격자 증언을 신뢰해야 하는 이유"
+    ],
+    "answer": 1,
+    "explanation": "이 지문의 핵심은 기억이 정확한 기록이 아니라 현재의 신념, 감정, 이용 가능한 정보에 기반하여 능동적으로 재구성된다는 것입니다. 이러한 기억의 재구성 특성이 개인의 정체성, 법적 증거, 과거 재구성에 미치는 중요한 함의를 제시합니다.",
+    "wrong_explanations": {
+      "0": "지문은 뇌가 기억을 정확하게 저장한다는 관점을 비판합니다.",
+      "2": "거짓 기억의 형성은 예시일 뿐, 지문의 주요 요지가 아닙니다.",
+      "3": "개인의 정체성에 대한 설명은 기억의 재구성 특성에서 비롯된 함의일 뿐입니다.",
+      "4": "지문은 목격자 증언을 신뢰해야 한다고 주장하지 않으며, 오히려 그 한계를 지적합니다."
+    },
+    "_type": "main_idea",
+    "given_sentence": null
+  },
+  {
+    "type": "요지/주제",
+    "passage": "Urban planning has traditionally focused on maximizing efficiency and functionality, prioritizing vehicle movement and economic development. However, growing evidence suggests that cities designed around human-scale considerations—such as walkability, public gathering spaces, and access to nature—produce happier, healthier residents. Recent studies demonstrate that neighborhoods with mixed-use development, pedestrian-friendly streets, and parks have lower rates of depression, obesity, and stress-related illnesses. Barcelona's superblocks and Copenhagen's cycling infrastructure represent successful examples where urban design prioritizes human well-being. Yet many cities continue to expand highways and shopping malls while eliminating public squares and green spaces. The resistance often stems from economic interests: developers profit from sprawling developments, and automobile industries benefit from car-dependent infrastructure. However, this short-term economic thinking ignores long-term costs, including healthcare expenses for sedentary populations and environmental damage. Progressive cities are beginning to recognize that investing in human-centered design yields better public health outcomes and community satisfaction. The challenge is not technical but political—shifting priorities from corporate interests to human welfare requires courageous policy decisions.",
+    "choices": [
+      "①고효율 도시 설계가 경제 발전에 미치는 긍정적 영향",
+      "②인간 중심의 도시 설계가 주민의 건강과 행복에 미치는 영향",
+      "③도시 계획에서 도로 확장의 필요성",
+      "④자동차 산업이 도시 개발에 기여하는 역할",
+      "⑤공원과 녹지를 제거해야 하는 경제적 이유"
+    ],
+    "answer": 1,
+    "explanation": "이 지문은 전통적인 효율성 중심의 도시 계획에서 벗어나 보행 가능성, 공공 공간, 자연 접근성 등 인간 중심의 설계가 주민의 정신 건강, 신체 건강, 스트레스 감소에 미치는 긍정적 영향을 강조합니다. 정치적 결단으로 기업 이익에서 인간 복지로의 전환이 필요하다는 것이 핵심입니다.",
+    "wrong_explanations": {
+      "0": "지문은 오히려 기존의 효율성 중심 설계를 비판합니다.",
+      "2": "지문은 도로 확장의 필요성을 주장하지 않으며, 오히려 그것이 문제임을 지적합니다.",
+      "3": "자동차 산업의 기여도는 부정적 맥락에서만 언급됩니다.",
+      "4": "지문은 공원과 녹지 제거를 정당화하지 않으며, 오히려 그것이 주민의 건강을 해친다고 주장합니다."
+    },
+    "_type": "main_idea",
+    "given_sentence": null
+  },
+  {
+    "type": "요지/주제",
+    "passage": "The rise of artificial intelligence has sparked both optimism and concern about its impact on employment. Optimists argue that AI will create new job categories and that technological unemployment is a myth, pointing to historical precedent where previous innovations ultimately generated more jobs. Pessimists counter that AI fundamentally differs from past technologies because of its general-purpose nature and learning capabilities, potentially automating cognitive work previously thought secure from technological disruption. However, evidence suggests the real challenge is not whether jobs will exist but whether the transition period will be managed equitably. During previous technological transitions, many workers experienced severe hardship, displacement, and years of unemployment despite eventual overall job growth. Low-skilled and minority workers were disproportionately affected, while wealthier populations benefited from the new opportunities. Addressing AI-driven change requires more than faith in market forces; proactive policies such as education programs, income support, and labor market transition assistance are essential. Countries that successfully navigate technological change tend to invest heavily in social safety nets and worker retraining. The question is not whether AI will displace jobs but whether societies will prepare adequate support systems for those affected during the transition.",
+    "choices": [
+      "①인공지능이 새로운 일자리를 창출할 수 있는 방법",
+      "②과거 기술 혁신과 인공지능이 고용에 미치는 영향의 동일성",
+      "③인공지능으로 인한 실업보다 중요한 공정한 전환 관리의 필요성",
+      "④기술 실업이 신화라는 근거",
+      "⑤자유 시장이 인공지능 시대의 일자리 문제를 해결하는 방법"
+    ],
+    "answer": 2,
+    "explanation": "이 지문의 핵심은 AI로 인한 실업 자체보다, 전환 기간 동안의 불공정한 영향—특히 저숙련 및 소수자 집단의 고통—을 관리하는 것의 중요성입니다. 시장의 자율성이 아니라 교육, 소득 지원, 노동 시장 전환 지원 같은 능동적 정책이 필수라는 것이 요지입니다.",
+    "wrong_explanations": {
+      "0": "지문은 AI가 일자리를 창출하는 방법을 설명하지 않으며, 전환 관리의 중요성을 강조합니다.",
+      "1": "지문은 오히려 AI와 과거 기술의 근본적 차이를 인정하면서도, 전환 관리가 더 중요함을 주장합니다.",
+      "3": "지문은 기술 실업이 신화라는 낙관주의를 비판하며, 전환 기간의 고통을 강조합니다.",
+      "4": "지문은 자유 시장 힘만으로는 부족하며, 적극적 정책이 필요하다고 주장합니다."
+    },
+    "_type": "main_idea",
     "given_sentence": null
   }
 ];
