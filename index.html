@@ -555,6 +555,7 @@ body {
           <b>💡 꿀팁:</b> 같은 반 친구 3명만 추천하면 스타벅스 공짜!<br>
           6명이면 2잔, 9명이면 3잔... 계속 쌓여요 ☕☕☕<br>
           <span style="font-size:11px;color:#c62828;">※ 고등학생 및 대입 수험생에 한함</span><br>
+          <span style="font-size:11px;color:#c62828;">※ 추천 보상은 무료회원 500명 도달 시까지 한정</span><br>
           <span style="font-size:11px;color:#1565c0;cursor:pointer;text-decoration:underline;" onclick="document.getElementById('referralGuideModal').style.display='none';requestGift();">📋 상품권 신청하기 (학생증 확인 필요)</span>
         </div>
       </div>
@@ -1285,7 +1286,7 @@ function updateReferralUI() {
           <span style="font-size:20px;font-weight:900;color:#4a0033;letter-spacing:2px;">${myCode || '로그인 필요'}</span>
           ${myCode ? '<button onclick="navigator.clipboard.writeText(\''+myCode+'\');this.textContent=\'복사됨!\';setTimeout(()=>this.textContent=\'복사\',1500)" style="font-size:11px;padding:4px 10px;border:1px solid #ccc;border-radius:6px;background:#fff;cursor:pointer;">복사</button>' : ''}
         </div>
-        <p style="font-size:11px;color:var(--sub);margin-top:6px;">친구에게 코드를 공유하면 <b>프리미엄 1주 무료</b> (추천 1명당)<br>+ <b style="color:#00704A;">3명마다 스타벅스 5,000원 상품권</b> 증정</p>
+        <p style="font-size:11px;color:var(--sub);margin-top:6px;">친구에게 코드를 공유하면 <b>프리미엄 1주 무료</b> (추천 1명당)<br>+ <b style="color:#00704A;">3명마다 스타벅스 5,000원 상품권</b> 증정<br><span style="color:#c62828;">※ 무료회원 500명 도달 시까지 한정</span></p>
       </div>
       ${!used ? `
       <div style="margin-bottom:8px;">
