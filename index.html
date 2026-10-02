@@ -942,7 +942,7 @@ let state = {
   timerSeconds: 90,
   badges: JSON.parse(localStorage.getItem('badges') || '{}'),
   hasServerKey: false,
-  isPremium: localStorage.getItem('isPremium') === 'true',
+  isPremium: localStorage.getItem(ukey('isPremium')) === 'true',
 };
 
 // ═══════════════════════════════════════
@@ -988,7 +988,7 @@ function checkBadges() {
     }
   });
   if (newBadges.length > 0) {
-    localStorage.setItem('badges', JSON.stringify(state.badges));
+    localStorage.setItem(ukey('badges'), JSON.stringify(state.badges));
     // 토스트 알림
     newBadges.forEach((b, i) => {
       setTimeout(() => showBadgeToast(b), i * 1500);
@@ -1028,7 +1028,7 @@ function renderBadges() {
 // 학생 인증 시스템
 // ═══════════════════════════════════════
 function checkStudentVerification() {
-  if (localStorage.getItem('studentVerified')) return;
+  if (localStorage.getItem(ukey('studentVerified'))) return;
   // 첫 로그인 시 자기 선언 모달
   document.getElementById('studentVerifyModal').style.display = 'flex';
 }
@@ -1036,7 +1036,7 @@ function checkStudentVerification() {
 function confirmStudentStatus() {
   const checked = document.getElementById('studentCheckbox').checked;
   if (!checked) return alert('확인 체크를 해주세요.');
-  localStorage.setItem('studentVerified', 'true');
+  localStorage.setItem(ukey('studentVerified'), 'true');
   document.getElementById('studentVerifyModal').style.display = 'none';
   if (db && fbUser) {
     db.collection('users').doc(fbUser.uid).update({ studentVerified: true, studentVerifiedAt: new Date().toISOString() });
@@ -1099,6 +1099,8 @@ function initFirebase() {
       document.getElementById('userBadge').style.display = 'block';
       const name = user.displayName || user.email;
       document.getElementById('userBadge').textContent = '👤 ' + (name.length > 6 ? name.slice(0,6) + '..' : name);
+      // 유저별 로컬 데이터 로드
+      loadUserLocalData();
       // 로그인 시 서버에서 데이터 불러오기
       loadFromFirestore();
       loadSolvedFromFirestore();
@@ -1131,23 +1133,51 @@ async function handleLogout() {
   if (confirm('로그아웃 하시겠습니까?')) {
     await auth.signOut();
     fbUser = null;
+    // 공용 state 초기화
+    state.stats = {total:0,correct:0,types:{},daily:{}};
+    state.streak = 0;
+    state.lastDate = '';
+    state.badges = {};
+    state.isPremium = false;
+    updateStatsDisplay();
+    updateStreak();
+    updateFreeLimitStatus();
   }
+}
+
+// 유저별 로컬 데이터 로드 (로그인 시)
+function loadUserLocalData() {
+  state.stats = JSON.parse(localStorage.getItem(ukey('stats')) || '{"total":0,"correct":0,"types":{},"daily":{}}');
+  state.streak = parseInt(localStorage.getItem(ukey('streak')) || '0');
+  state.lastDate = localStorage.getItem(ukey('lastDate')) || '';
+  state.badges = JSON.parse(localStorage.getItem(ukey('badges')) || '{}');
+  state.isPremium = localStorage.getItem(ukey('isPremium')) === 'true';
+  updateStatsDisplay();
+  updateStreak();
+  updateFreeLimitStatus();
+}
+
+// ═══════════════════════════════════════
+// 유저별 localStorage (uid prefix)
+// ═══════════════════════════════════════
+function ukey(key) {
+  return fbUser ? fbUser.uid.substring(0,8) + '_' + key : key;
 }
 
 // ═══════════════════════════════════════
 // LP/RP 점수 시스템
 // ═══════════════════════════════════════
 function getLPScore() {
-  return parseInt(localStorage.getItem('lpScore') || '0');
+  return parseInt(localStorage.getItem(ukey('lpScore')) || '0');
 }
 function addLP(points, reason) {
   let lp = getLPScore() + points;
-  localStorage.setItem('lpScore', lp);
+  localStorage.setItem(ukey('lpScore'), lp);
   state.stats.lp = lp;
   console.log(`LP +${points} (${reason}) → ${lp}`);
 }
 function getRPScore() {
-  return parseInt(localStorage.getItem('rpScore') || '0');
+  return parseInt(localStorage.getItem(ukey('rpScore')) || '0');
 }
 function getTotalScore() {
   return getLPScore() + getRPScore();
@@ -1156,16 +1186,15 @@ function getTotalScore() {
 // 추천 코드 생성 (6자리 숫자, uid 기반 해시)
 function getMyReferralCode() {
   if (!fbUser) return '';
-  let code = localStorage.getItem('myReferralCode');
+  let code = localStorage.getItem(ukey('myReferralCode'));
   if (!code) {
-    // uid를 숫자 해시로 변환하여 6자리 생성
     let hash = 0;
     for (let i = 0; i < fbUser.uid.length; i++) {
       hash = ((hash << 5) - hash) + fbUser.uid.charCodeAt(i);
-      hash = hash & 0x7FFFFFFF; // 양수 유지
+      hash = hash & 0x7FFFFFFF;
     }
     code = String(hash % 1000000).padStart(6, '0');
-    localStorage.setItem('myReferralCode', code);
+    localStorage.setItem(ukey('myReferralCode'), code);
   }
   return code;
 }
@@ -1176,7 +1205,7 @@ async function submitReferralCode() {
   const code = (input.value || '').trim().toUpperCase();
   if (!code) return alert('추천 코드를 입력하세요');
   if (!fbUser) return alert('로그인이 필요합니다');
-  if (localStorage.getItem('referralUsed')) return alert('이미 추천 코드를 사용했습니다');
+  if (localStorage.getItem(ukey('referralUsed'))) return alert('이미 추천 코드를 사용했습니다');
   if (code === getMyReferralCode()) return alert('자신의 코드는 사용할 수 없습니다');
 
   try {
@@ -1222,8 +1251,8 @@ async function submitReferralCode() {
     }
 
     // 2. 추천받은 사람 기록
-    localStorage.setItem('referralUsed', code);
-    localStorage.setItem('referredBy', referrerId);
+    localStorage.setItem(ukey('referralUsed'), code);
+    localStorage.setItem(ukey('referredBy'), referrerId);
     await db.collection('users').doc(fbUser.uid).update({
       referredBy: referrerId,
       referralCodeUsed: code,
@@ -1244,7 +1273,7 @@ function updateReferralUI() {
   const section = document.getElementById('referralSection');
   if (!section) return;
   const myCode = getMyReferralCode();
-  const used = localStorage.getItem('referralUsed');
+  const used = localStorage.getItem(ukey('referralUsed'));
   const rp = getRPScore();
 
   section.innerHTML = `
@@ -1319,7 +1348,7 @@ function showReferralGuide() {
 
 function goToReferralWithVerify() {
   document.getElementById('referralGuideModal').style.display = 'none';
-  if (!localStorage.getItem('studentVerified')) {
+  if (!localStorage.getItem(ukey('studentVerified'))) {
     // 학생 인증 먼저
     checkStudentVerification();
     return;
@@ -1343,9 +1372,9 @@ async function loadFromFirestore() {
         state.stats.types = d.stats.types || {};
         state.streak = d.streak || 0;
         state.lastDate = d.lastDate || '';
-        localStorage.setItem('stats', JSON.stringify(state.stats));
-        localStorage.setItem('streak', state.streak);
-        localStorage.setItem('lastDate', state.lastDate);
+        localStorage.setItem(ukey('stats'), JSON.stringify(state.stats));
+        localStorage.setItem(ukey('streak'), state.streak);
+        localStorage.setItem(ukey('lastDate'), state.lastDate);
         updateStatsDisplay();
         updateStreak();
       }
@@ -2578,7 +2607,7 @@ function updateStats(type, correct) {
   if (!state.stats.daily[today].types[type]) state.stats.daily[today].types[type] = { total: 0, correct: 0 };
   state.stats.daily[today].types[type].total++;
   if (correct) state.stats.daily[today].types[type].correct++;
-  localStorage.setItem('stats', JSON.stringify(state.stats));
+  localStorage.setItem(ukey('stats'), JSON.stringify(state.stats));
   // 연속 정답 추적
   let cc = parseInt(localStorage.getItem('consecutiveCorrect') || '0');
   if (correct) { cc++; } else { cc = 0; }
@@ -2724,8 +2753,8 @@ function updateStreak() {
       state.streak = 1;
     }
     state.lastDate = today;
-    localStorage.setItem('streak', state.streak);
-    localStorage.setItem('lastDate', state.lastDate);
+    localStorage.setItem(ukey('streak'), state.streak);
+    localStorage.setItem(ukey('lastDate'), state.lastDate);
     // LP: 연속 학습 하루당 10점
     addLP(10, '연속학습 ' + state.streak + '일');
   }
@@ -3381,7 +3410,7 @@ async function checkPremiumStatus() {
     const doc = await db.collection('users').doc(fbUser.uid).get();
     if (doc.exists && doc.data().isPremium) {
       state.isPremium = true;
-      localStorage.setItem('isPremium', 'true');
+      localStorage.setItem(ukey('isPremium'), 'true');
     }
   } catch(e) {}
   updateMembershipUI();
