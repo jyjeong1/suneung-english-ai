@@ -2429,7 +2429,7 @@ function calcTimer(q) {
   if (!q || !q.passage) return 90;
   var wordCount = q.passage.split(/\s+/).length;
   var tens = Math.round(wordCount / 10); // 10단어 단위 반올림
-  var base = tens * 7; // 10단어당 7초
+  var base = tens * 10; // 10단어당 10초
   var weight = TYPE_TIMER_WEIGHT[q._type] || 1.0;
   return Math.round(base * weight);
 }
