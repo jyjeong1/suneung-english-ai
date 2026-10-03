@@ -5614,7 +5614,7 @@ const QUESTION_BANK = [
   },
   {
     "type": "빈칙 추론",
-    "passage": "Creativity is often romanticized as a spontaneous burst of inspiration that cannot be taught or trained. However, neuroscientific research reveals a different picture. The creative process involves specific cognitive mechanisms: pattern recognition, remote association*, and cognitive flexibility. Individuals who excel at creativity don't simply wait for inspiration; they ___________. Regular practice in problem-solving, exposure to diverse fields, and deliberate experimentation strengthen neural networks associated with creative thinking. Studies of accomplished artists and innovators show that their creative breakthroughs typically follow periods of intense focused work. This suggests that creativity, like athletics or music, can be developed through systematic training and environmental support.",
+    "passage": "Creativity is often romanticized as a spontaneous burst of inspiration that cannot be taught or trained. However, brain research research reveals a different picture. The creative process involves specific cognitive mechanisms: pattern recognition, remote association*, and cognitive flexibility. Individuals who excel at creativity don't simply wait for inspiration; they ___________. Regular practice in problem-solving, exposure to diverse fields, and deliberate experimentation strengthen neural networks associated with creative thinking. Studies of accomplished artists and innovators show that their creative breakthroughs typically follow periods of intense focused work. This suggests that creativity, like athletics or music, can be developed through systematic training and environmental support.",
     "choices": [
       "① abandon logical thinking in favor of pure intuition",
       "② engage in sustained practice and deliberate experimentation",
@@ -5634,7 +5634,7 @@ const QUESTION_BANK = [
   },
   {
     "type": "빈칸 추론",
-    "passage": "Social norms are the implicit rules that govern behavior within communities and societies. They are maintained not through formal laws but through subtle mechanisms of social approval and disapproval. Individuals who conform to norms receive social acceptance and trust, while those who deviate face criticism or exclusion. In addition, ___________. People internalize social norms during childhood and adolescence through observation and reinforcement, developing an intrinsic motivation to follow them. This internalization explains why people often follow norms even when external enforcement is absent. However, norms are not static; they evolve as societies change and new generations challenge established expectations. Understanding this dynamic nature of norms is essential for social change.",
+    "passage": "Social norms are the implicit rules that govern behavior within communities and societies. They are maintained not through formal laws but through subtle mechanisms of social approval and disapproval. Individuals who conform to norms receive social acceptance and trust, while those who deviate face criticism or exclusion. In addition, ___________. People internalize social norms during childhood and adolescence through observation and reinforcement, developing an intrinsic motivation to follow them. This absorption explains why people often follow norms even when external enforcement is absent. However, norms are not static; they evolve as societies change and new generations challenge established expectations. Understanding this dynamic nature of norms is essential for social change.",
     "choices": [
       "① norms are purely conscious decisions made by individuals",
       "② social enforcement mechanisms ensure compliance through internalized values",
@@ -5654,7 +5654,7 @@ const QUESTION_BANK = [
   },
   {
     "type": "빈칙 추론",
-    "passage": "Photosynthesis is the biochemical process by which plants convert light energy into chemical energy stored in glucose molecules. This process occurs in two main stages: light-dependent reactions in the thylakoid membrane* and light-independent reactions in the stroma*. The efficiency of photosynthesis varies significantly across plant species and environmental conditions. However, ___________. A plant's photosynthetic rate depends on light intensity, carbon dioxide concentration, temperature, and water availability. When any of these factors becomes limiting, the overall rate decreases regardless of other favorable conditions. This principle, known as Liebig's Law of the Minimum*, explains why optimizing all factors is crucial for agricultural productivity and crop yield.",
+    "passage": "Photosynthesis is the biochemical process by which plants convert light energy into chemical energy stored in glucose molecules. This process occurs in two main stages: light-dependent reactions in the thylakoid membrane* and light-independent reactions in the stroma*. The efficiency of photosynthesis varies significantly across plant species and environmental conditions. However, ___________. A plant's light-absorbing rate depends on light intensity, carbon dioxide concentration, temperature, and water availability. When any of these factors becomes limiting, the overall rate decreases regardless of other favorable conditions. This principle, known as Liebig's Law of the Minimum*, explains why optimizing all factors is crucial for agricultural productivity and crop yield.",
     "choices": [
       "① most plants can perform photosynthesis in complete darkness",
       "② a single limiting factor determines the overall photosynthetic rate",
@@ -5663,7 +5663,7 @@ const QUESTION_BANK = [
       "⑤ glucose is converted back into light energy immediately"
     ],
     "answer": 1,
-    "explanation": "지문은 '광합성 효율이 종(種)과 환경 조건에 따라 다르다'는 주장을 'However'로 반전시킵니다. 'A plant's photosynthetic rate depends on'으로 여러 요소를 나열하고, '이 요소 중 하나가 제한되면 전체 속도가 감소한다'고 설명합니다. 빈칸은 '효율의 차이'가 무엇 때문인지를 설명해야 하며, 바로 다음 문장에서 '제한 요소(limiting factor)' 개념으로 구체화됩니다. ②번 'a single limiting factor determines the overall photosynthetic rate'는 'Liebig's Law of the Minimum'을 정확히 환언하며, 지문의 핵심 논거입니다. ①③④⑤는 광합성의 기본 원리와 모순됩니다.",
+    "explanation": "지문은 '광합성 효율이 종(種)과 환경 조건에 따라 다르다'는 주장을 'However'로 반전시킵니다. 'A plant's light-absorbing rate depends on'으로 여러 요소를 나열하고, '이 요소 중 하나가 제한되면 전체 속도가 감소한다'고 설명합니다. 빈칸은 '효율의 차이'가 무엇 때문인지를 설명해야 하며, 바로 다음 문장에서 '제한 요소(limiting factor)' 개념으로 구체화됩니다. ②번 'a single limiting factor determines the overall light-absorbing rate'는 'Liebig's Law of the Minimum'을 정확히 환언하며, 지문의 핵심 논거입니다. ①③④⑤는 광합성의 기본 원리와 모순됩니다.",
     "_type": "blank",
     "given_sentence": null,
     "wrong_explanations": {},
@@ -5754,7 +5754,7 @@ const QUESTION_BANK = [
   },
   {
     "type": "문장 삽입",
-    "passage": "Photosynthesis is the fundamental process by which plants convert sunlight into chemical energy. This process occurs primarily in the leaves, where chlorophyll absorbs light wavelengths. (①) The process begins when light particles, called photons, strike chlorophyll molecules in the thylakoid membranes*. (②) These molecules then release electrons that travel through an electron transport chain*, generating energy-rich ATP molecules. (③) However, the efficiency of photosynthesis varies significantly depending on light intensity, temperature, and carbon dioxide availability. (④) In laboratory conditions, scientists have measured photosynthetic rates under carefully controlled variables. (⑤)",
+    "passage": "Photosynthesis is the fundamental process by which plants convert sunlight into chemical energy. This process occurs primarily in the leaves, where chlorophyll absorbs light wavelengths. (①) The process begins when light particles, called photons, strike chlorophyll molecules in the thylakoid membranes*. (②) These molecules then release electrons that travel through an electron transport chain*, generating energy-rich ATP molecules. (③) However, the efficiency of photosynthesis varies significantly depending on light intensity, temperature, and carbon dioxide availability. (④) In laboratory conditions, scientists have measured light-absorbing rates under carefully controlled variables. (⑤)",
     "given_sentence": "Research shows that plants operating in optimal conditions can achieve photosynthetic efficiency rates exceeding 11 percent.",
     "choices": [
       "①",
@@ -5774,7 +5774,7 @@ const QUESTION_BANK = [
   },
   {
     "type": "문장 삽입",
-    "passage": "Ocean acidification represents one of the most pressing environmental challenges of our time. As atmospheric carbon dioxide levels rise, more CO₂ dissolves into seawater, forming carbonic acid. (①) This chemical reaction lowers the pH of ocean water, making it increasingly acidic. (②) Marine organisms with calcium carbonate shells, such as oysters and corals, are particularly vulnerable to this change. (③) In addition, the acidification process has already reduced the availability of carbonate ions necessary for shell formation. (④) However, some research suggests that certain species may adapt to these conditions over evolutionary timescales. (⑤)",
+    "passage": "Ocean rising acidity represents one of the most pressing environmental challenges of our time. As atmospheric carbon dioxide levels rise, more CO₂ dissolves into seawater, forming carbonic acid. (①) This chemical reaction lowers the pH of ocean water, making it increasingly acidic. (②) Marine organisms with calcium carbonate shells, such as oysters and corals, are particularly vulnerable to this change. (③) In addition, the rising acidity process has already reduced the availability of carbonate ions necessary for shell formation. (④) However, some research suggests that certain species may adapt to these conditions over evolutionary timescales. (⑤)",
     "given_sentence": "The shells of some mollusks have become visibly thinner in recent decades due to this chemical shift.",
     "choices": [
       "①",
@@ -5834,7 +5834,7 @@ const QUESTION_BANK = [
   },
   {
     "type": "문장 삽입",
-    "passage": "The precision of modern weather forecasting relies heavily on satellite technology and computer models. Meteorologists collect data from thousands of observation points across the globe every hour. (①) This information is processed by supercomputers that simulate atmospheric conditions. (②) However, even with advanced technology, forecasts become less accurate beyond ten days. (③) The chaotic nature of weather systems means small changes can produce vastly different outcomes. (④) Scientists continue to improve prediction models by analyzing historical weather patterns and refining algorithms. (⑤)",
+    "passage": "The precision of modern weather forecasting relies heavily on satellite technology and computer models. Meteorologists collect data from thousands of observation points across the globe every hour. (①) This information is processed by powerful computers that simulate atmospheric conditions. (②) However, even with advanced technology, forecasts become less accurate beyond ten days. (③) The chaotic nature of weather systems means small changes can produce vastly different outcomes. (④) Scientists continue to improve prediction models by analyzing historical weather patterns and refining algorithms. (⑤)",
     "given_sentence": "The atmosphere contains countless variables that interact in complex ways.",
     "choices": [
       "①",
@@ -5894,7 +5894,7 @@ const QUESTION_BANK = [
   },
   {
     "type": "어법 判断",
-    "passage": "Carbon sequestration* technology ①works by capturing atmospheric CO₂ and storing it in ways that ②prevents its release back into the environment. Innovations in this field ③have demonstrated promising results in industrial applications. However, the cost of implementing these systems ④remains prohibitively high for most developing nations. Rather than being ⑤abandoned entirely, researchers continue seeking cost-effective solutions.",
+    "passage": "Carbon storage* technology ①works by capturing atmospheric CO₂ and storing it in ways that ②prevents its release back into the environment. Innovations in this field ③have demonstrated promising results in industrial applications. However, the cost of implementing these systems ④remains prohibitively high for most developing nations. Rather than being ⑤abandoned entirely, researchers continue seeking cost-effective solutions.",
     "choices": [
       "① works",
       "② prevents",
@@ -5903,7 +5903,7 @@ const QUESTION_BANK = [
       "⑤ abandoned"
     ],
     "answer": 1,
-    "explanation": "②번이 정답입니다. 주어 'ways'는 복수명사이므로 'prevents' → 'prevent'로 수정되어야 합니다. *sequestration: 격리, 저장. ①③④⑤는 모두 정확합니다.",
+    "explanation": "②번이 정답입니다. 주어 'ways'는 복수명사이므로 'prevents' → 'prevent'로 수정되어야 합니다. *storage: 격리, 저장. ①③④⑤는 모두 정확합니다.",
     "_type": "grammar",
     "given_sentence": null,
     "wrong_explanations": {},
@@ -5994,7 +5994,7 @@ const QUESTION_BANK = [
   },
   {
     "type": "어휘 적절성",
-    "passage": "The Amazon rainforest functions as Earth's ①largest biological repository, harboring millions of species across diverse ecosystems. Deforestation rates have ②accelerated dramatically over the past two decades, threatening countless organisms. However, conservation efforts have begun to ③weaken the momentum of habitat destruction in certain regions. Indigenous communities have ④demonstrated remarkable knowledge of sustainable forest management practices. In addition, international agreements ⑤strengthen commitments to protecting this vital ecosystem for future generations.",
+    "passage": "The Amazon rainforest functions as Earth's ①largest biological repository, harboring millions of species across diverse ecosystems. Forest destruction rates have ②accelerated dramatically over the past two decades, threatening countless organisms. However, conservation efforts have begun to ③weaken the momentum of habitat destruction in certain regions. Indigenous communities have ④demonstrated remarkable knowledge of sustainable forest management practices. In addition, international agreements ⑤strengthen commitments to protecting this vital ecosystem for future generations.",
     "choices": [
       "① largest",
       "② accelerated",
@@ -6014,7 +6014,7 @@ const QUESTION_BANK = [
   },
   {
     "type": "어휘 적절성",
-    "passage": "The immune system's ability to recognize pathogens depends on specialized cells that ①identify foreign invaders with precision. Lymphocytes ②produce antibodies that bind to specific antigens*, ③relaxing their harmful effects through neutralization. Rather than attacking indiscriminately, the adaptive immune response ④targets pathogens with remarkable specificity. Moreover, memory cells ⑤retain information about past infections, enabling rapid responses to recurring threats.",
+    "passage": "The immune system's ability to recognize pathogens depends on specialized cells that ①identify foreign invaders with precision. Lymphocytes ②produce antibodies that bind to specific antigens*, ③relaxing their harmful effects through balancing out. Rather than attacking indiscriminately, the adaptive immune response ④targets pathogens with remarkable specificity. Moreover, memory cells ⑤retain information about past infections, enabling rapid responses to recurring threats.",
     "choices": [
       "① identify",
       "② produce",
@@ -6094,7 +6094,7 @@ const QUESTION_BANK = [
   },
   {
     "type": "요지",
-    "passage": "Plastic pollution has become a critical environmental crisis affecting marine ecosystems worldwide. Single-use plastics account for approximately 50 percent of ocean waste, suffocating marine life and contaminating food chains. Traditional recycling alone cannot solve this problem because most plastic cannot be recycled indefinitely. Rather, reducing plastic consumption through behavioral change and policy intervention is essential. For example, countries implementing plastic bag bans and container deposit schemes have significantly decreased ocean pollution levels. In addition, biodegradable alternatives and ocean cleanup initiatives provide supplementary solutions. However, these measures remain insufficient without addressing the root cause: overproduction and overconsumption. Experts agree that comprehensive systemic change, including manufacturing regulations and consumer awareness, is necessary to reverse marine degradation.",
+    "passage": "Plastic pollution has become a critical environmental crisis affecting marine ecosystems worldwide. Single-use plastics account for approximately 50 percent of ocean waste, suffocating marine life and contaminating food chains. Traditional recycling alone cannot solve this problem because most plastic cannot be recycled indefinitely. Rather, reducing plastic consumption through behavioral change and policy intervention is essential. For example, countries implementing plastic bag bans and container deposit schemes have significantly decreased ocean pollution levels. In addition, naturally decomposable alternatives and ocean cleanup initiatives provide supplementary solutions. However, these measures remain insufficient without addressing the root cause: overproduction and overconsumption. Experts agree that comprehensive systemic change, including manufacturing regulations and consumer awareness, is necessary to reverse marine degradation.",
     "choices": [
       "①일회용 플라스틱은 해양 환경에만 영향을 미친다.",
       "②해양 오염 감소를 위해서는 소비 감소와 정책 개입이 필수적이다.",
@@ -6114,7 +6114,7 @@ const QUESTION_BANK = [
   },
   {
     "type": "요지",
-    "passage": "Artificial intelligence has transformed medical diagnosis from a time-consuming manual process to a rapid, data-driven procedure. AI algorithms can analyze medical images with accuracy rates exceeding 95 percent, surpassing many human radiologists. However, physicians remain skeptical about fully automating diagnostic decisions because AI systems lack contextual understanding and cannot account for rare conditions. Rather than replacing doctors, AI functions most effectively as a diagnostic assistant that enhances human judgment. For example, AI-supported systems reduce diagnostic errors by 30 percent while maintaining physician oversight. In addition, machine learning improves continuously as it processes more patient data. The future of healthcare lies not in choosing between human expertise and artificial intelligence, but in leveraging their complementary strengths.",
+    "passage": "Artificial intelligence has transformed medical diagnosis from a time-consuming manual process to a rapid, data-driven procedure. AI algorithms can analyze medical images with accuracy rates exceeding 95 percent, surpassing many human medical imaging specialists. However, physicians remain skeptical about fully automating diagnostic decisions because AI systems lack contextual understanding and cannot account for rare conditions. Rather than replacing doctors, AI functions most effectively as a diagnostic assistant that enhances human judgment. For example, AI-supported systems reduce diagnostic errors by 30 percent while maintaining physician oversight. In addition, machine learning improves continuously as it processes more patient data. The future of healthcare lies not in choosing between human expertise and artificial intelligence, but in leveraging their complementary strengths.",
     "choices": [
       "①인공지능 진단 시스템의 정확도가 의사의 능력을 완전히 능가한다.",
       "②인공지능이 의료 진단에서 의사를 완전히 대체해야 한다.",
@@ -6174,7 +6174,7 @@ const QUESTION_BANK = [
   },
   {
     "type": "글의 순서",
-    "passage": "The human brain processes information through interconnected neural networks that operate simultaneously across multiple regions. Traditional neuroscience long assumed that brain functions were localized in specific areas, with each region controlling distinct abilities. Yet recent neuroimaging technologies have fundamentally challenged this compartmentalized* view of brain organization.\n\n(A) Scientists now understand that even seemingly simple tasks like reading require coordination among the visual cortex, language centers, and memory regions. For instance, recognizing a single word involves at least seven different brain areas working in synchronized patterns. This networked approach explains why damage to one region often causes broader cognitive effects than previously predicted.\n\n(B) Advanced brain-scanning techniques revealed that thinking, memory, and emotion are distributed across the entire brain rather than confined to isolated zones. Researchers observed that neurons in distant regions fire together when processing information, creating dynamic* pathways that shift depending on the task and individual experience. This discovery marked a paradigm shift in understanding brain plasticity*.\n\n(C) Modern therapeutic approaches capitalize on this interconnected model by targeting neural rehabilitation* across multiple systems simultaneously. Treatment strategies for stroke and brain injury now focus on reactivating distributed networks rather than isolating damaged regions. This integrated method has significantly improved patient recovery rates compared to traditional localized intervention approaches.",
+    "passage": "The human brain processes information through interconnected neural networks that operate simultaneously across multiple regions. Traditional brain research long assumed that brain functions were localized in specific areas, with each region controlling distinct abilities. Yet recent brain scanning technologies have fundamentally challenged this compartmentalized* view of brain organization.\n\n(A) Scientists now understand that even seemingly simple tasks like reading require coordination among the visual cortex, language centers, and memory regions. For instance, recognizing a single word involves at least seven different brain areas working in synchronized patterns. This networked approach explains why damage to one region often causes broader cognitive effects than previously predicted.\n\n(B) Advanced brain-scanning techniques revealed that thinking, memory, and emotion are distributed across the entire brain rather than confined to isolated zones. Researchers observed that neurons in distant regions fire together when processing information, creating dynamic* pathways that shift depending on the task and individual experience. This discovery marked a paradigm shift in understanding brain plasticity*.\n\n(C) Modern therapeutic approaches capitalize on this interconnected model by targeting neural rehabilitation* across multiple systems simultaneously. Treatment strategies for stroke and brain injury now focus on restarting distributed networks rather than isolating damaged regions. This integrated method has significantly improved patient recovery rates compared to traditional localized intervention approaches.",
     "choices": [
       "①(A)-(C)-(B)",
       "②(B)-(A)-(C)",
@@ -6414,7 +6414,7 @@ const QUESTION_BANK = [
   },
   {
     "type": "무관한 문장",
-    "passage": "①The efficiency of renewable energy systems has become a critical factor in addressing climate change worldwide. ②Solar panels convert sunlight into electricity through the photovoltaic effect*, which involves the movement of electrons when light strikes semiconductor materials. ③The average human can walk approximately 35,000 kilometers in a lifetime, covering distances equivalent to circling the Earth multiple times. ④Wind turbines, on the other hand, harness kinetic energy from moving air masses and transform it into electrical power through rotating blades. ⑤However, both technologies require significant initial investments and face challenges related to energy storage and grid integration* in developing regions.",
+    "passage": "①The efficiency of renewable energy systems has become a critical factor in addressing climate change worldwide. ②Solar panels convert sunlight into electricity through the solar energy effect*, which involves the movement of electrons when light strikes electronic chip materials. ③The average human can walk approximately 35,000 kilometers in a lifetime, covering distances equivalent to circling the Earth multiple times. ④Wind turbines, on the other hand, harness kinetic energy from moving air masses and transform it into electrical power through rotating blades. ⑤However, both technologies require significant initial investments and face challenges related to energy storage and grid integration* in developing regions.",
     "choices": [
       "①",
       "②",
