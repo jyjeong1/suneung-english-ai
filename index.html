@@ -695,7 +695,35 @@ body {
     <div id="afterAnswerBtns" style="display:none; gap:10px;">
       <button class="submit-btn next" id="nextBtn" onclick="nextQuestion()" style="flex:1;">다음 문제 →</button>
       <button class="submit-btn" id="pauseBtn" onclick="togglePause()" style="flex:1; background:var(--border); color:var(--text);">⏸ 쉬기</button>
+      <button class="submit-btn" onclick="showReportModal()" style="flex:0;padding:10px 14px;background:transparent;color:var(--wrong);border:1px solid var(--wrong);font-size:12px;">⚠ 오류신고</button>
     </div>
+  </div>
+</div>
+
+<!-- 오류 신고 모달 -->
+<div id="reportModal" style="display:none;position:fixed;top:0;left:0;right:0;bottom:0;z-index:1000;background:rgba(0,0,0,0.6);justify-content:center;align-items:center;">
+  <div style="background:#fff;border-radius:20px;max-width:380px;width:90%;padding:24px 20px;">
+    <button onclick="document.getElementById('reportModal').style.display='none'" style="float:right;background:none;border:none;font-size:22px;cursor:pointer;color:#999;">✕</button>
+    <h3 style="font-size:17px;font-weight:800;color:#c62828;margin-bottom:14px;">⚠ 문제 오류 신고</h3>
+    <p style="font-size:12px;color:#888;margin-bottom:10px;" id="reportQid"></p>
+    <div style="margin-bottom:12px;">
+      <label style="font-size:13px;font-weight:700;display:block;margin-bottom:6px;">오류 유형</label>
+      <select id="reportType" style="width:100%;padding:10px;border:1px solid #ddd;border-radius:8px;font-size:14px;">
+        <option value="wrong_answer">정답이 틀림</option>
+        <option value="multiple_answer">정답이 2개 이상</option>
+        <option value="no_answer">정답이 없음</option>
+        <option value="passage_error">지문에 오류</option>
+        <option value="choice_mismatch">선지와 본문 불일치</option>
+        <option value="explanation_error">해설이 틀림</option>
+        <option value="too_hard">수능 범위 초과</option>
+        <option value="other">기타</option>
+      </select>
+    </div>
+    <div style="margin-bottom:14px;">
+      <label style="font-size:13px;font-weight:700;display:block;margin-bottom:6px;">상세 설명 (선택)</label>
+      <textarea id="reportDetail" placeholder="어떤 오류인지 설명해주세요" style="width:100%;height:80px;padding:10px;border:1px solid #ddd;border-radius:8px;font-size:13px;resize:vertical;"></textarea>
+    </div>
+    <button onclick="submitReport()" style="width:100%;padding:14px;border:none;border-radius:12px;background:#c62828;color:#fff;font-size:15px;font-weight:700;cursor:pointer;font-family:inherit;">신고하기</button>
   </div>
 </div>
 
@@ -1357,6 +1385,59 @@ function goToReferralWithVerify() {
   switchPage('stats');
   document.querySelectorAll('.tab-bar button')[3].classList.add('active');
   setTimeout(updateReferralUI, 100);
+}
+
+// ═══════════════════════════════════════
+// 오류 신고
+// ═══════════════════════════════════════
+function showReportModal() {
+  const q = state.currentQuiz;
+  if (!q) return;
+  document.getElementById('reportQid').textContent = (q._qid || '') + ' ' + (q.type || q._type || '');
+  document.getElementById('reportDetail').value = '';
+  document.getElementById('reportModal').style.display = 'flex';
+}
+
+async function submitReport() {
+  const q = state.currentQuiz;
+  if (!q) return;
+  const reportType = document.getElementById('reportType').value;
+  const detail = document.getElementById('reportDetail').value.trim();
+
+  const report = {
+    qid: q._qid || '',
+    type: q._type || '',
+    reportType: reportType,
+    detail: detail,
+    passage: (q.passage || '').substring(0, 200),
+    choices: q.choices || [],
+    answer: q.answer,
+    userId: fbUser ? fbUser.uid : 'anonymous',
+    userName: fbUser ? fbUser.displayName || '' : '',
+    createdAt: new Date().toISOString(),
+    status: 'pending',
+  };
+
+  // Firestore에 저장
+  if (db) {
+    try {
+      await db.collection('question_reports').add(report);
+    } catch(e) {
+      console.warn('Firestore 신고 저장 실패:', e);
+    }
+  }
+
+  // 서버에도 저장 (백업)
+  try {
+    await fetch('/api/save-question', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ report: report }),
+    });
+  } catch(e) {}
+
+  document.getElementById('reportModal').style.display = 'none';
+  alert('오류 신고가 접수되었습니다.\n검토 후 수정하겠습니다. 감사합니다!');
 }
 
 // Firestore에서 데이터 불러오기 (최초 로그인 시)

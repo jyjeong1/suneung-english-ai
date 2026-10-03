@@ -154,6 +154,22 @@ tr:hover td { background: #f9f9ff; }
     <tbody id="userTable"></tbody>
   </table>
 
+  <!-- ═══ 오류 신고 관리 ═══ -->
+  <div style="background:#fff; border-radius:12px; padding:24px; box-shadow:0 1px 4px rgba(0,0,0,0.08); margin-top:24px;">
+    <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:16px;">
+      <h2 style="font-size:18px; margin:0;">⚠ 문제 오류 신고</h2>
+      <button class="refresh-btn" onclick="loadReports()">🔄 새로고침</button>
+    </div>
+    <div class="summary-row">
+      <div class="summary-card"><h3>미처리</h3><div class="num orange" id="reportPending">0</div></div>
+      <div class="summary-card"><h3>처리완료</h3><div class="num green" id="reportResolved">0</div></div>
+    </div>
+    <table>
+      <thead><tr><th>#</th><th>문제ID</th><th>유형</th><th>신고유형</th><th>설명</th><th>신고자</th><th>날짜</th><th>상태</th></tr></thead>
+      <tbody id="reportTable"></tbody>
+    </table>
+  </div>
+
   <!-- ═══ 상품권 관리 ═══ -->
   <div style="background:#fff; border-radius:12px; padding:24px; box-shadow:0 1px 4px rgba(0,0,0,0.08); margin-top:24px;">
     <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:16px;">
@@ -409,6 +425,7 @@ auth && auth.onAuthStateChanged(user => {
     loadPosts();
     loadReviewReport();
     loadGiftRequests();
+    loadReports();
   }
 });
 
@@ -533,6 +550,46 @@ async function loadReviewReport() {
     div.innerHTML = '<p style="color:#d32f2f;">리포트 로드 실패: '+e.message+'</p>';
   }
 }
+// ═══ 오류 신고 관리 ═══
+async function loadReports() {
+  if (!db) return;
+  try {
+    const snap = await db.collection('question_reports').orderBy('createdAt', 'desc').get();
+    let pending = 0, resolved = 0;
+    const rows = [];
+    const reportTypes = {wrong_answer:'정답 오류',multiple_answer:'복수 정답',no_answer:'정답 없음',passage_error:'지문 오류',choice_mismatch:'선지 불일치',explanation_error:'해설 오류',too_hard:'범위 초과',other:'기타'};
+    snap.forEach((doc, idx) => {
+      const d = doc.data();
+      if (d.status === 'pending') pending++; else resolved++;
+      const date = d.createdAt ? new Date(d.createdAt).toLocaleDateString('ko-KR') : '-';
+      const statusBtn = d.status === 'pending'
+        ? `<button onclick="resolveReport('${doc.id}')" style="padding:3px 8px;font-size:11px;border:none;background:#1a8f3c;color:#fff;border-radius:4px;cursor:pointer;">처리완료</button>`
+        : '<span style="color:#1a8f3c;font-size:12px;font-weight:700;">완료</span>';
+      rows.push(`<tr>
+        <td>${rows.length+1}</td>
+        <td style="font-weight:700;color:#1a237e;">${d.qid||'-'}</td>
+        <td>${d.type||'-'}</td>
+        <td>${reportTypes[d.reportType]||d.reportType}</td>
+        <td style="font-size:12px;max-width:200px;overflow:hidden;text-overflow:ellipsis;">${d.detail||'-'}</td>
+        <td style="font-size:12px;">${d.userName||'익명'}</td>
+        <td style="font-size:12px;">${date}</td>
+        <td>${statusBtn}</td>
+      </tr>`);
+    });
+    document.getElementById('reportPending').textContent = pending;
+    document.getElementById('reportResolved').textContent = resolved;
+    document.getElementById('reportTable').innerHTML = rows.length > 0 ? rows.join('') : '<tr><td colspan="8" style="text-align:center;color:#999;padding:20px;">신고 없음</td></tr>';
+  } catch(e) { console.error('신고 로드 실패:', e); }
+}
+
+async function resolveReport(docId) {
+  if (!confirm('처리완료로 변경하시겠습니까?')) return;
+  try {
+    await db.collection('question_reports').doc(docId).update({ status: 'resolved', resolvedAt: firebase.firestore.FieldValue.serverTimestamp() });
+    loadReports();
+  } catch(e) { alert('처리 실패: ' + e.message); }
+}
+
 // ═══ 상품권 관리 ═══
 let giftData = [];
 
