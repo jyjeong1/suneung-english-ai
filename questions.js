@@ -1,5 +1,6 @@
-// 수능영어AI 문제은행 — 253문제 (R:84 감수완료, U:169 미감수)
+// 수능영어AI 문제은행 — 298문제 (R:129 감수완료, U:169 미감수)
 // 번호체계: R-xxxx(감수완료), U-xxxx(미감수)
+// v3 감수 승인 45문제 추가 (2026-10-03)
 const QUESTION_BANK = [
   {
     "type": "빈칸 추론",
@@ -5590,5 +5591,905 @@ const QUESTION_BANK = [
     "_type": "summary",
     "_reviewed": true,
     "_qid": "R-0084"
+  },
+  {
+    "type": "빈칸 추론",
+    "passage": "Memory is not a perfect recording device that stores experiences exactly as they occur. Rather, it is a reconstructive process where the brain actively assembles information based on existing knowledge and current context. When we recall a past event, we don't retrieve a fixed file; instead, we ___________. This explains why eyewitness accounts often contain inaccuracies despite witnesses' confidence. The brain fills in missing details with plausible information, creating a coherent narrative that feels authentic. Studies show that repeated questioning or exposure to misleading information can alter original memories. Understanding this reconstructive nature of memory has important implications for legal proceedings and historical documentation.",
+    "choices": [
+      "① recreate the memory using patterns and schemas we've developed",
+      "② store the exact details in our neural networks permanently",
+      "③ forget most experiences within a few hours",
+      "④ rely entirely on what other people tell us about events",
+      "⑤ maintain perfect accuracy of all sensory information"
+    ],
+    "answer": 0,
+    "explanation": "지문은 기억이 '재구성 과정(reconstructive process)'임을 핵심 주장으로 제시합니다. 첫 문장에서 '완벽한 기록장치가 아니라'고 부정하고, 'actively assembles information'이라고 설명합니다. 빈칸 앞의 'we don't retrieve a fixed file; instead, we'는 대조 구조로, 기억이 '고정된 파일이 아니라 능동적으로 구성된다'는 의미를 완성해야 합니다. ①번 'recreate the memory using patterns and schemas'는 '기존 지식(existing knowledge)을 활용해 기억을 재창조한다'는 지문의 핵심을 정확히 환언합니다. ②는 'permanently store'로 재구성 개념에 모순, ③④⑤는 지문과 무관한 오답입니다.",
+    "_type": "blank",
+    "given_sentence": null,
+    "wrong_explanations": {},
+    "_reviewed": true,
+    "_reviewedDate": "2026-10-03",
+    "_reviewer": "jyj",
+    "_qid": "R-0085"
+  },
+  {
+    "type": "빈칙 추론",
+    "passage": "Creativity is often romanticized as a spontaneous burst of inspiration that cannot be taught or trained. However, neuroscientific research reveals a different picture. The creative process involves specific cognitive mechanisms: pattern recognition, remote association*, and cognitive flexibility. Individuals who excel at creativity don't simply wait for inspiration; they ___________. Regular practice in problem-solving, exposure to diverse fields, and deliberate experimentation strengthen neural networks associated with creative thinking. Studies of accomplished artists and innovators show that their creative breakthroughs typically follow periods of intense focused work. This suggests that creativity, like athletics or music, can be developed through systematic training and environmental support.",
+    "choices": [
+      "① abandon logical thinking in favor of pure intuition",
+      "② engage in sustained practice and deliberate experimentation",
+      "③ rely exclusively on innate genetic predisposition",
+      "④ avoid exposure to other people's ideas and influences",
+      "⑤ reproduce existing patterns without modification"
+    ],
+    "answer": 1,
+    "explanation": "지문은 '창의성은 가르칠 수 없는 영감이라는 통념을 반박한다'는 'However'로 시작합니다. 창의성이 '특정한 인지 메커니즘'을 포함하고, 훈련을 통해 개발될 수 있음을 주장합니다. 'don't simply wait for inspiration; they'는 창의적 인물들의 적극적 행동을 설명해야 하며, 그 직후 'Regular practice in problem-solving... strengthen neural networks'가 구체적 근거로 제시됩니다. ②번 'engage in sustained practice and deliberate experimentation'은 '지속적인 연습과 의도적인 실험에 참여한다'는 의미로 'Regular practice'와 'deliberate experimentation'을 정확히 환언합니다. ①③④⑤는 지문의 '체계적 훈련' 논지와 모순됩니다.",
+    "_type": "blank",
+    "given_sentence": null,
+    "wrong_explanations": {},
+    "_reviewed": true,
+    "_reviewedDate": "2026-10-03",
+    "_reviewer": "jyj",
+    "_qid": "R-0086"
+  },
+  {
+    "type": "빈칸 추론",
+    "passage": "Social norms are the implicit rules that govern behavior within communities and societies. They are maintained not through formal laws but through subtle mechanisms of social approval and disapproval. Individuals who conform to norms receive social acceptance and trust, while those who deviate face criticism or exclusion. In addition, ___________. People internalize social norms during childhood and adolescence through observation and reinforcement, developing an intrinsic motivation to follow them. This internalization explains why people often follow norms even when external enforcement is absent. However, norms are not static; they evolve as societies change and new generations challenge established expectations. Understanding this dynamic nature of norms is essential for social change.",
+    "choices": [
+      "① norms are purely conscious decisions made by individuals",
+      "② social enforcement mechanisms ensure compliance through internalized values",
+      "③ most people are aware of all the norms they follow",
+      "④ norms prevent all forms of social change and progress",
+      "⑤ deviation from norms is always beneficial to society"
+    ],
+    "answer": 1,
+    "explanation": "지문은 '사회규범이 공식 법률이 아닌 사회적 승인/불승인으로 유지된다'고 설명합니다. 'In addition,'은 추가 설명 부분을 도입하며, '사람들이 아동기에 규범을 내재화한다'는 내용이 따라옵니다. 빈칸은 '사회 강제 메커니즘'과 '내재화된 동기'의 연결 고리를 설명해야 합니다. ②번 'social enforcement mechanisms ensure compliance through internalized values'는 '사회적 강제 메커니즘이 내재화된 가치를 통해 준수를 보장한다'는 의미로, 지문의 '외부 강제 없이도 규범을 따르는 이유'를 정확히 환언합니다. ①③④⑤는 지문의 '내재화' 메커니즘을 설명하지 못합니다.",
+    "_type": "blank",
+    "given_sentence": null,
+    "wrong_explanations": {},
+    "_reviewed": true,
+    "_reviewedDate": "2026-10-03",
+    "_reviewer": "jyj",
+    "_qid": "R-0087"
+  },
+  {
+    "type": "빈칙 추론",
+    "passage": "Photosynthesis is the biochemical process by which plants convert light energy into chemical energy stored in glucose molecules. This process occurs in two main stages: light-dependent reactions in the thylakoid membrane* and light-independent reactions in the stroma*. The efficiency of photosynthesis varies significantly across plant species and environmental conditions. However, ___________. A plant's photosynthetic rate depends on light intensity, carbon dioxide concentration, temperature, and water availability. When any of these factors becomes limiting, the overall rate decreases regardless of other favorable conditions. This principle, known as Liebig's Law of the Minimum*, explains why optimizing all factors is crucial for agricultural productivity and crop yield.",
+    "choices": [
+      "① most plants can perform photosynthesis in complete darkness",
+      "② a single limiting factor determines the overall photosynthetic rate",
+      "③ temperature has no effect on photosynthetic efficiency",
+      "④ photosynthesis requires no external energy sources",
+      "⑤ glucose is converted back into light energy immediately"
+    ],
+    "answer": 1,
+    "explanation": "지문은 '광합성 효율이 종(種)과 환경 조건에 따라 다르다'는 주장을 'However'로 반전시킵니다. 'A plant's photosynthetic rate depends on'으로 여러 요소를 나열하고, '이 요소 중 하나가 제한되면 전체 속도가 감소한다'고 설명합니다. 빈칸은 '효율의 차이'가 무엇 때문인지를 설명해야 하며, 바로 다음 문장에서 '제한 요소(limiting factor)' 개념으로 구체화됩니다. ②번 'a single limiting factor determines the overall photosynthetic rate'는 'Liebig's Law of the Minimum'을 정확히 환언하며, 지문의 핵심 논거입니다. ①③④⑤는 광합성의 기본 원리와 모순됩니다.",
+    "_type": "blank",
+    "given_sentence": null,
+    "wrong_explanations": {},
+    "_reviewed": true,
+    "_reviewedDate": "2026-10-03",
+    "_reviewer": "jyj",
+    "_qid": "R-0088"
+  },
+  {
+    "type": "빈칸 추론",
+    "passage": "Memory is not a perfect recording device that stores experiences exactly as they occurred. Rather, it is a reconstructive process in which the brain actively shapes and modifies information based on existing knowledge and current beliefs. When we recall an event, we don't simply retrieve a stored file; instead, we ___________. This explains why eyewitness testimonies often contain errors despite the witness's confidence. Studies show that repeated questioning can distort memories, inserting false details that feel completely authentic to the person remembering. The implications are significant: our sense of the past is not a reliable mirror of what actually happened.",
+    "choices": [
+      "①literally reproduce the exact details of what occurred",
+      "②reconstruct the memory by filling gaps with plausible information",
+      "③prioritize emotional experiences over factual accuracy",
+      "④preserve memories in their original neurological form",
+      "⑤forget most events within a short period of time"
+    ],
+    "answer": 1,
+    "explanation": "지문은 기억이 단순 저장이 아닌 '재구성 과정'임을 주장합니다. 첫 문장의 'reconstructive process'와 '우리는 저장된 파일을 단순히 검색하지 않는다'는 표현으로부터, 빈칸은 그 대신 무엇을 하는지 설명해야 합니다. ②번 'reconstruct the memory by filling gaps with plausible information'은 '틈을 타당한 정보로 채워서 기억을 재구성한다'는 의미로, 지문의 'reconstructive process'와 'brain actively shapes and modifies'를 정확히 환언합니다. ①은 정반대(완벽 재현), ③은 부분적 정확성만 있음, ④⑤는 지문 논지와 무관합니다.",
+    "_type": "blank",
+    "given_sentence": null,
+    "wrong_explanations": {},
+    "_reviewed": true,
+    "_reviewedDate": "2026-10-03",
+    "_reviewer": "jyj",
+    "_qid": "R-0089"
+  },
+  {
+    "type": "빈칸 추론",
+    "passage": "In traditional economies, the value of a product was determined primarily by its production costs—labor, materials, and overhead. However, modern consumer markets operate on a fundamentally different principle. Today, price often reflects not what something costs to make, but ___________. A smartphone might have $200 in production costs yet sell for $800, with the difference accounting for brand recognition, perceived quality, and consumer desire. This shift has led companies to invest heavily in marketing and design rather than merely optimizing manufacturing efficiency. Understanding this transformation is essential for comprehending contemporary capitalism.",
+    "choices": [
+      "①the efficiency of the manufacturing process employed",
+      "②what consumers believe the product is worth to them",
+      "③the scarcity of raw materials in global markets",
+      "④government regulations and tax policies",
+      "⑤the wages paid to factory workers"
+    ],
+    "answer": 1,
+    "explanation": "지문은 'However'로 전통경제와 현대 시장의 근본적 차이를 제시합니다. 전자는 '생산비용'이, 후자는 '생산비용이 아닌 다른 무언가'로 가격이 결정된다고 합니다. 스마트폰 예시에서 $200의 생산비용 vs $800의 판매가는 '브랜드, 인지된 품질, 소비자 욕구'의 차이라고 설명합니다. ②번 'what consumers believe the product is worth to them'은 '소비자가 그 제품을 자신에게 얼마나 가치 있다고 생각하는가'로, 지문의 주장을 정확히 환언합니다. ①③④⑤는 모두 생산 관련 요소들이거나 지문의 논점과 맞지 않습니다.",
+    "_type": "blank",
+    "given_sentence": null,
+    "wrong_explanations": {},
+    "_reviewed": true,
+    "_reviewedDate": "2026-10-03",
+    "_reviewer": "jyj",
+    "_qid": "R-0090"
+  },
+  {
+    "type": "빈칸 추론",
+    "passage": "The phenomenon of \"social proof*\" plays a crucial role in shaping human behavior. When individuals observe others engaging in a particular action, they are more likely to imitate that behavior, often without conscious deliberation. This occurs because people tend to assume that if many others are doing something, it must be correct or beneficial. In addition, this mechanism is especially powerful in ambiguous situations where people feel uncertain about the right course of action. Rather than carefully evaluating available information, they ___________. Advertisers and political campaigners exploit this bias by showcasing how many people already support their product or candidate, leveraging our natural inclination toward conformity.",
+    "choices": [
+      "①rely on independent critical analysis of the situation",
+      "①follow the apparent consensus of the group",
+      "③demand objective evidence before making decisions",
+      "④question the motives of the majority around them",
+      "⑤develop stronger individual opinions in response"
+    ],
+    "answer": 1,
+    "explanation": "지문은 'social proof'의 메커니즘을 설명하며, 불확실한 상황에서 사람들이 '어떻게 하는가'를 설명해야 합니다. 'Rather than carefully evaluating available information'(신중한 평가 대신)이라는 구조로 대조되는 행동을 찾아야 합니다. ②번 'follow the apparent consensus of the group'은 '그룹의 명백한 합의를 따른다'는 의미로, 지문의 '사람들이 다른 사람들을 모방한다'는 주장과 '우리의 동조 성향'을 정확히 반영합니다. ①③④⑤는 모두 신중한 분석이나 비판적 평가를 시사하여 'Rather than' 이후 문맥에 맞지 않습니다. *social proof: 사회적 증거",
+    "_type": "blank",
+    "given_sentence": null,
+    "wrong_explanations": {},
+    "_reviewed": true,
+    "_reviewedDate": "2026-10-03",
+    "_reviewer": "jyj",
+    "_qid": "R-0091"
+  },
+  {
+    "type": "문장 삽입",
+    "passage": "The precision of modern GPS systems has revolutionized navigation across the globe. Originally developed for military purposes, GPS technology now serves civilian applications ranging from smartphones to agricultural machinery. (①) Farmers use GPS-guided tractors to optimize planting patterns, while delivery companies track vehicles in real time. (②) However, the accuracy of GPS signals depends heavily on atmospheric conditions and the number of visible satellites. (③) When signals are blocked by tall buildings or dense forests, users may experience significant positioning errors. (④) To address these limitations, scientists have developed complementary systems that work alongside GPS to provide more reliable location data. (⑤)",
+    "given_sentence": "Therefore, the technology's practical impact extends far beyond its original military context.",
+    "choices": [
+      "①",
+      "②",
+      "③",
+      "④",
+      "⑤"
+    ],
+    "answer": 1,
+    "explanation": "GPS의 민간 활용 사례를 제시한 후, '따라서'로 기술의 광범위한 영향을 강조하는 문장이 자연스럽게 연결됩니다. ②번이 정답입니다.",
+    "_type": "insert",
+    "wrong_explanations": {},
+    "_reviewed": true,
+    "_reviewedDate": "2026-10-03",
+    "_reviewer": "jyj",
+    "_qid": "R-0092"
+  },
+  {
+    "type": "문장 삽입",
+    "passage": "Photosynthesis is the fundamental process by which plants convert sunlight into chemical energy. This process occurs primarily in the leaves, where chlorophyll absorbs light wavelengths. (①) The process begins when light particles, called photons, strike chlorophyll molecules in the thylakoid membranes*. (②) These molecules then release electrons that travel through an electron transport chain*, generating energy-rich ATP molecules. (③) However, the efficiency of photosynthesis varies significantly depending on light intensity, temperature, and carbon dioxide availability. (④) In laboratory conditions, scientists have measured photosynthetic rates under carefully controlled variables. (⑤)",
+    "given_sentence": "Research shows that plants operating in optimal conditions can achieve photosynthetic efficiency rates exceeding 11 percent.",
+    "choices": [
+      "①",
+      "②",
+      "③",
+      "④",
+      "⑤"
+    ],
+    "answer": 4,
+    "explanation": "광합성의 효율성이 다양한 조건에 따라 달라진다는 내용 후, 최적 조건에서의 효율성 측정 결과를 제시하는 것이 논리적입니다. ⑤번이 정답입니다.",
+    "_type": "insert",
+    "wrong_explanations": {},
+    "_reviewed": true,
+    "_reviewedDate": "2026-10-03",
+    "_reviewer": "jyj",
+    "_qid": "R-0093"
+  },
+  {
+    "type": "문장 삽입",
+    "passage": "Ocean acidification represents one of the most pressing environmental challenges of our time. As atmospheric carbon dioxide levels rise, more CO₂ dissolves into seawater, forming carbonic acid. (①) This chemical reaction lowers the pH of ocean water, making it increasingly acidic. (②) Marine organisms with calcium carbonate shells, such as oysters and corals, are particularly vulnerable to this change. (③) In addition, the acidification process has already reduced the availability of carbonate ions necessary for shell formation. (④) However, some research suggests that certain species may adapt to these conditions over evolutionary timescales. (⑤)",
+    "given_sentence": "The shells of some mollusks have become visibly thinner in recent decades due to this chemical shift.",
+    "choices": [
+      "①",
+      "②",
+      "③",
+      "④",
+      "⑤"
+    ],
+    "answer": 3,
+    "explanation": "산화 과정이 패각 형성에 필요한 탄산염 이온 가용성을 감소시켰다는 내용 뒤, 구체적인 증거(몸체 껍질의 두께 감소)를 제시하는 것이 자연스럽습니다. ④번이 정답입니다.",
+    "_type": "insert",
+    "wrong_explanations": {},
+    "_reviewed": true,
+    "_reviewedDate": "2026-10-03",
+    "_reviewer": "jyj",
+    "_qid": "R-0094"
+  },
+  {
+    "type": "문장 삽입",
+    "passage": "The development of artificial intelligence has dramatically transformed data analysis across industries. Machine learning algorithms can now identify patterns in massive datasets that would be impossible for humans to detect manually. (①) For example, medical AI systems analyze thousands of patient records to predict disease progression and recommend personalized treatments. (②) Similarly, financial institutions employ AI to detect fraudulent transactions in real time. (③) Nevertheless, the increasing reliance on AI systems raises important questions about algorithmic bias* and transparency. (④) These concerns have prompted governments worldwide to establish regulatory frameworks governing AI development. (⑤)",
+    "given_sentence": "However, the technology still requires human oversight to ensure ethical decision-making in critical applications.",
+    "choices": [
+      "①",
+      "②",
+      "③",
+      "④",
+      "⑤"
+    ],
+    "answer": 3,
+    "explanation": "AI 기술의 광범위한 활용 사례를 제시한 후, 윤리적 우려를 제기하고, '그럼에도 불구하고' 인간의 감시가 필요하다는 내용이 ④번에 적절히 배치됩니다.",
+    "_type": "insert",
+    "wrong_explanations": {},
+    "_reviewed": true,
+    "_reviewedDate": "2026-10-03",
+    "_reviewer": "jyj",
+    "_qid": "R-0095"
+  },
+  {
+    "type": "문장 삽입",
+    "passage": "Sleep deprivation affects cognitive performance through multiple physiological mechanisms. During sleep, the brain consolidates memories and clears toxic proteins that accumulate during waking hours. (①) When people sleep less than the recommended seven to nine hours, their attention span diminishes noticeably. (②) In addition, inadequate sleep impairs the prefrontal cortex*, the brain region responsible for decision-making and impulse control. (③) Studies demonstrate that sleep-deprived individuals perform significantly worse on complex problem-solving tasks compared to well-rested counterparts. (④) Yet some people report feeling productive after working through the night, despite scientific evidence to the contrary. (⑤)",
+    "given_sentence": "This paradoxical perception likely stems from temporary adrenaline surges that mask underlying cognitive decline.",
+    "choices": [
+      "①",
+      "②",
+      "③",
+      "④",
+      "⑤"
+    ],
+    "answer": 4,
+    "explanation": "밤샘 작업 후 생산성을 느낀다는 역설적 주장 제시 후, 그 이유를 설명하는 문장이 ⑤번에 자연스럽게 위치합니다. 과학적 증거와의 모순을 해결하는 논리적 전개입니다.",
+    "_type": "insert",
+    "wrong_explanations": {},
+    "_reviewed": true,
+    "_reviewedDate": "2026-10-03",
+    "_reviewer": "jyj",
+    "_qid": "R-0096"
+  },
+  {
+    "type": "문장 삽입",
+    "passage": "The precision of modern weather forecasting relies heavily on satellite technology and computer models. Meteorologists collect data from thousands of observation points across the globe every hour. (①) This information is processed by supercomputers that simulate atmospheric conditions. (②) However, even with advanced technology, forecasts become less accurate beyond ten days. (③) The chaotic nature of weather systems means small changes can produce vastly different outcomes. (④) Scientists continue to improve prediction models by analyzing historical weather patterns and refining algorithms. (⑤)",
+    "given_sentence": "The atmosphere contains countless variables that interact in complex ways.",
+    "choices": [
+      "①",
+      "②",
+      "③",
+      "④",
+      "⑤"
+    ],
+    "answer": 2,
+    "explanation": "주어진 문장은 대기의 복잡성을 설명합니다. (③) 뒤에 삽입하면 '날씨의 혼란스러운 특성'이라는 앞 문장과 자연스럽게 연결되며, 왜 예보 정확도가 떨어지는지를 설명하는 이유를 제공합니다.",
+    "_type": "insert",
+    "wrong_explanations": {},
+    "_reviewed": true,
+    "_reviewedDate": "2026-10-03",
+    "_reviewer": "jyj",
+    "_qid": "R-0097"
+  },
+  {
+    "type": "어법 판단",
+    "passage": "Advanced artificial intelligence systems now ①process vast amounts of data in ways that ②was previously impossible for human analysts. The algorithms ③identifying patterns within complex datasets have revolutionized medical diagnostics. In addition, machine learning models ④continuously improve their accuracy through repeated exposure to training data. However, critics argue that ⑤relying solely on AI predictions without human verification poses serious risks.",
+    "choices": [
+      "① process",
+      "② was",
+      "③ identifying",
+      "④ continuously",
+      "⑤ relying"
+    ],
+    "answer": 1,
+    "explanation": "②번이 정답입니다. 주어 'ways'는 복수명사이므로 'was' → 'were'로 수정되어야 합니다. ①③④⑤는 모두 정확합니다.",
+    "_type": "grammar",
+    "given_sentence": null,
+    "wrong_explanations": {},
+    "_reviewed": true,
+    "_reviewedDate": "2026-10-03",
+    "_reviewer": "jyj",
+    "_qid": "R-0098"
+  },
+  {
+    "type": "어법 판断",
+    "passage": "The ecosystem's resilience ①depends on what biodiversity levels ②remaining stable over time. Scientists have observed that forests ③losing their plant species experience rapid decline in animal populations. Rather than viewing conservation as merely ④protecting individual species, experts emphasize understanding the interconnected network of relationships. For instance, the disappearance of pollinating insects ⑤threatens crop production and food security globally.",
+    "choices": [
+      "① depends",
+      "② remaining",
+      "③ losing",
+      "④ protecting",
+      "⑤ threatens"
+    ],
+    "answer": 1,
+    "explanation": "②번이 정답입니다. 'what절'의 주어-동사 관계에서 'biodiversity levels'는 복수이므로 'remaining' → 'remain'으로 수정되어야 합니다. ①③④⑤는 모두 정확합니다.",
+    "_type": "grammar",
+    "given_sentence": null,
+    "wrong_explanations": {},
+    "_reviewed": true,
+    "_reviewedDate": "2026-10-03",
+    "_reviewer": "jyj",
+    "_qid": "R-0099"
+  },
+  {
+    "type": "어법 判断",
+    "passage": "Carbon sequestration* technology ①works by capturing atmospheric CO₂ and storing it in ways that ②prevents its release back into the environment. Innovations in this field ③have demonstrated promising results in industrial applications. However, the cost of implementing these systems ④remains prohibitively high for most developing nations. Rather than being ⑤abandoned entirely, researchers continue seeking cost-effective solutions.",
+    "choices": [
+      "① works",
+      "② prevents",
+      "③ have",
+      "④ remains",
+      "⑤ abandoned"
+    ],
+    "answer": 1,
+    "explanation": "②번이 정답입니다. 주어 'ways'는 복수명사이므로 'prevents' → 'prevent'로 수정되어야 합니다. *sequestration: 격리, 저장. ①③④⑤는 모두 정확합니다.",
+    "_type": "grammar",
+    "given_sentence": null,
+    "wrong_explanations": {},
+    "_reviewed": true,
+    "_reviewedDate": "2026-10-03",
+    "_reviewer": "jyj",
+    "_qid": "R-0100"
+  },
+  {
+    "type": "어법 판단",
+    "passage": "The concept of renewable energy ①addresses whether sustainable power sources ②can replacing fossil fuels on a global scale. Wind turbines and solar panels ③have become increasingly efficient and affordable in recent years. In addition, government incentives ④encourage industries to transition toward cleaner energy alternatives. However, ⑤storing renewable energy for consistent supply remains a significant technological challenge.",
+    "choices": [
+      "① addresses",
+      "② can",
+      "③ have",
+      "④ encourage",
+      "⑤ storing"
+    ],
+    "answer": 1,
+    "explanation": "②번이 정답입니다. 조동사 'can' 다음에는 동사원형이 와야 하므로 'replacing' → 'replace'로 수정되어야 합니다. ①③④⑤는 모두 정확합니다.",
+    "_type": "grammar",
+    "given_sentence": null,
+    "wrong_explanations": {},
+    "_reviewed": true,
+    "_reviewedDate": "2026-10-03",
+    "_reviewer": "jyj",
+    "_qid": "R-0101"
+  },
+  {
+    "type": "어법 판断",
+    "passage": "The efficiency of renewable energy systems ① depends on whether the infrastructure ② are properly maintained throughout their operational lifespan. Solar panels and wind turbines ③ require regular inspection to maximize power generation. However, many developing nations ④ lacking sufficient funding often postpone maintenance schedules. In addition, technological advances ⑤ have enabled more cost-effective solutions in recent years.",
+    "choices": [
+      "① depends",
+      "② are",
+      "③ require",
+      "④ lacking",
+      "⑤ have"
+    ],
+    "answer": 1,
+    "explanation": "② 오류: 주어 'infrastructure'는 단수 집합명사로 취급되므로 'are'가 아니라 'is'가 정답입니다. 나머지는 모두 정상: ①depends(단수동사 정상), ③require(복수주어 panels and turbines), ④lacking(분사구문 정상), ⑤have enabled(현재완료 정상).",
+    "_type": "grammar",
+    "given_sentence": null,
+    "wrong_explanations": {},
+    "_reviewed": true,
+    "_reviewedDate": "2026-10-03",
+    "_reviewer": "jyj",
+    "_qid": "R-0102"
+  },
+  {
+    "type": "어휘 적절성",
+    "passage": "The precision of traditional timekeeping methods ①improved significantly during the Industrial Revolution. Mechanical clocks, once considered luxury items, became ②accessible to ordinary people through mass production. However, these early devices still ③abandoned accuracy compared to modern atomic clocks. The invention of the pendulum clock by Christiaan Huygens ④enhanced timekeeping reliability substantially. In addition, subsequent technological advances ⑤sustained the development of increasingly accurate temporal measurement systems.",
+    "choices": [
+      "① improved",
+      "② accessible",
+      "③ abandoned",
+      "④ enhanced",
+      "⑤ sustained"
+    ],
+    "answer": 2,
+    "explanation": "③번 'abandoned'는 '포기하다, 버리다'는 의미로 문맥상 부적절합니다. 원문은 '초기 장치들이 현대 원자 시계와 비교하여 정확성이 떨어진다'는 의미이므로 'lacked'나 'fell short of'가 올바른 표현입니다. 나머지 단어들(①improved ②accessible ④enhanced ⑤sustained)은 모두 문맥에 적절합니다.",
+    "_type": "vocab",
+    "given_sentence": null,
+    "wrong_explanations": {},
+    "_reviewed": true,
+    "_reviewedDate": "2026-10-03",
+    "_reviewer": "jyj",
+    "_qid": "R-0103"
+  },
+  {
+    "type": "어휘 적절성",
+    "passage": "Photosynthesis represents a fundamental process through which plants ①convert solar energy into chemical energy. The chlorophyll molecules within leaves ②absorb light wavelengths, initiating a complex series of biochemical reactions. Rather than being a simple transformation, this process involves multiple stages that ③decrease plant growth and oxygen production. The light-dependent reactions occur in the ④thylakoid* membranes, where water molecules are split. Furthermore, the light-independent reactions, or Calvin cycle, ⑤utilize carbon dioxide to synthesize glucose.",
+    "choices": [
+      "① convert",
+      "② absorb",
+      "③ decrease",
+      "④ thylakoid",
+      "⑤ utilize"
+    ],
+    "answer": 2,
+    "explanation": "③번 'decrease'는 '감소시키다'라는 의미로 문맥상 부적절합니다. 광합성은 식물의 성장과 산소 생산을 촉진(promote/enhance)해야 하는데, 'decrease'는 반대 의미입니다. 나머지 단어들(①convert ②absorb ④thylakoid ⑤utilize)은 모두 문맥에 적절합니다.",
+    "_type": "vocab",
+    "given_sentence": null,
+    "wrong_explanations": {},
+    "_reviewed": true,
+    "_reviewedDate": "2026-10-03",
+    "_reviewer": "jyj",
+    "_qid": "R-0104"
+  },
+  {
+    "type": "어휘 적절성",
+    "passage": "The Amazon rainforest functions as Earth's ①largest biological repository, harboring millions of species across diverse ecosystems. Deforestation rates have ②accelerated dramatically over the past two decades, threatening countless organisms. However, conservation efforts have begun to ③weaken the momentum of habitat destruction in certain regions. Indigenous communities have ④demonstrated remarkable knowledge of sustainable forest management practices. In addition, international agreements ⑤strengthen commitments to protecting this vital ecosystem for future generations.",
+    "choices": [
+      "① largest",
+      "② accelerated",
+      "③ weaken",
+      "④ demonstrated",
+      "⑤ strengthen"
+    ],
+    "answer": 2,
+    "explanation": "③번 'weaken'은 '약화시키다'는 의미로 문맥상 부적절합니다. 문장은 'conservation efforts이 habitat destruction의 momentum을 줄인다'는 긍정적 의미인데, 'weaken'은 이를 제대로 표현하지 못합니다. 'arrest' 또는 'reverse'가 올바른 표현입니다. 나머지 단어들(①largest ②accelerated ④demonstrated ⑤strengthen)은 모두 문맥에 적절합니다.",
+    "_type": "vocab",
+    "given_sentence": null,
+    "wrong_explanations": {},
+    "_reviewed": true,
+    "_reviewedDate": "2026-10-03",
+    "_reviewer": "jyj",
+    "_qid": "R-0105"
+  },
+  {
+    "type": "어휘 적절성",
+    "passage": "The immune system's ability to recognize pathogens depends on specialized cells that ①identify foreign invaders with precision. Lymphocytes ②produce antibodies that bind to specific antigens*, ③relaxing their harmful effects through neutralization. Rather than attacking indiscriminately, the adaptive immune response ④targets pathogens with remarkable specificity. Moreover, memory cells ⑤retain information about past infections, enabling rapid responses to recurring threats.",
+    "choices": [
+      "① identify",
+      "② produce",
+      "③ relaxing",
+      "④ targets",
+      "⑤ retain"
+    ],
+    "answer": 2,
+    "explanation": "③번 'relaxing'은 '완화하다, 이완하다'는 의미로 문맥상 부적절합니다. 항체가 항원의 해로운 효과를 '제거하거나 무효화한다'는 의미이므로 'neutralizing' 또는 'eliminating'이 올바른 표현입니다. 나머지 단어들(①identify ②produce ④targets ⑤retain)은 모두 문맥에 적절합니다.",
+    "_type": "vocab",
+    "given_sentence": null,
+    "wrong_explanations": {},
+    "_reviewed": true,
+    "_reviewedDate": "2026-10-03",
+    "_reviewer": "jyj",
+    "_qid": "R-0106"
+  },
+  {
+    "type": "어휘 적절성",
+    "passage": "The development of renewable energy technologies has ①gained momentum as fossil fuel consumption faces mounting environmental criticism. Solar panels ②efficiently convert sunlight into electricity, making them increasingly ③scarce in residential installations worldwide. However, initial infrastructure costs remain a significant barrier to widespread adoption. Governments have ④implemented subsidies to encourage transition toward clean energy sources. In addition, technological innovations ⑤continue to reduce costs and improve efficiency in renewable energy sectors.",
+    "choices": [
+      "① gained",
+      "② efficiently",
+      "③ scarce",
+      "④ implemented",
+      "⑤ continue"
+    ],
+    "answer": 2,
+    "explanation": "③번 'scarce'는 '드물다, 부족하다'는 의미로 문맥상 부적절합니다. 문장은 '태양광 패널이 주거용 설치에서 점점 더 보편화되고 있다'는 의미이므로 'common' 또는 'popular'가 올바른 표현입니다. 나머지 단어들(①gained ②efficiently ④implemented ⑤continue)은 모두 문맥에 적절합니다.",
+    "_type": "vocab",
+    "given_sentence": null,
+    "wrong_explanations": {},
+    "_reviewed": true,
+    "_reviewedDate": "2026-10-03",
+    "_reviewer": "jyj",
+    "_qid": "R-0107"
+  },
+  {
+    "type": "요지",
+    "passage": "The efficiency of urban transportation systems depends heavily on how well city planners integrate different modes of transit. Traditional approaches often prioritize individual vehicle use, which leads to traffic congestion and air pollution. However, cities that combine buses, trains, and bike lanes create interconnected networks that reduce travel time and environmental impact. For example, Copenhagen and Tokyo have implemented seamless transfer systems where passengers can move between transit modes using a single card. Rather than viewing transportation as separate systems, modern urban planners recognize that coordination produces better outcomes. Studies show that integrated transit networks reduce car dependency by up to 40 percent. This shift represents a fundamental change in how cities approach mobility and sustainability.",
+    "choices": [
+      "①도시 교통에서 개별 차량 사용이 환경 오염의 주요 원인이다.",
+      "②다양한 교통수단의 통합이 도시 이동성과 지속가능성을 향상시킨다.",
+      "③버스와 기차는 자전거 도로보다 더 효율적인 교통수단이다.",
+      "④신용카드를 활용한 결제 시스템이 교통 혼잡을 해결한다.",
+      "⑤대중교통 이용자는 자동차 사용자보다 더 많은 비용을 지출한다."
+    ],
+    "answer": 1,
+    "explanation": "지문의 핵심은 '다양한 교통수단의 통합(integration)이 도시 이동성 문제를 해결하고 지속가능성을 높인다'는 것. However로 기존 접근의 한계를 제시한 후, 통합형 시스템의 효과를 순차적으로 설명. ②는 필자의 최종 판단을 반영. ①③④⑤는 각각 세부 사례/원인 혼동, 범위축소, 핵심과탈, 논거 없는 주장.",
+    "_type": "main_idea",
+    "given_sentence": null,
+    "wrong_explanations": {},
+    "_reviewed": true,
+    "_reviewedDate": "2026-10-03",
+    "_reviewer": "jyj",
+    "_qid": "R-0108"
+  },
+  {
+    "type": "요지",
+    "passage": "Sleep quality significantly influences cognitive performance and emotional regulation in teenagers. During adolescence, biological rhythms shift later, causing teens to feel alert at night and tired during early morning hours. Many schools fail to acknowledge this change and maintain traditional 8:00 AM start times. However, research demonstrates that schools beginning classes at 8:30 AM or later show improved student attendance and academic achievement. In addition, later start times correlate with reduced depression and anxiety rates among adolescents. Studies from the American Academy of Pediatrics reveal that teenagers need 8-10 hours of sleep for optimal development. Rather than forcing teens into misaligned schedules, schools that adapt to biological realities foster healthier and more productive learning environments.",
+    "choices": [
+      "①청소년은 성인보다 더 많은 수면 시간이 필요하다.",
+      "②학교 시작 시간을 늦추는 것이 청소년의 건강과 학업 성과를 개선한다.",
+      "③생물학적 리듬 변화는 청소년의 정서 조절 능력에만 영향을 미친다.",
+      "④전통적인 등교 시간이 청소년의 수면 부족의 유일한 원인이다.",
+      "⑤충분한 수면은 신체 발달보다 인지 능력 향상에 더 중요하다."
+    ],
+    "answer": 1,
+    "explanation": "지문은 '학교 시작 시간 조정(later start times)이 청소년의 수면, 정신 건강, 학업 성과를 개선한다'는 주장. However로 현실의 문제를 지적하고, 생물학적 근거(biological rhythms)로 해결책을 정당화. ②가 필자의 핵심 주장. ①은 사실이나 범위축소, ③④⑤는 논거 부족/인과역전/범위확대.",
+    "_type": "main_idea",
+    "given_sentence": null,
+    "wrong_explanations": {},
+    "_reviewed": true,
+    "_reviewedDate": "2026-10-03",
+    "_reviewer": "jyj",
+    "_qid": "R-0109"
+  },
+  {
+    "type": "요지",
+    "passage": "Plastic pollution has become a critical environmental crisis affecting marine ecosystems worldwide. Single-use plastics account for approximately 50 percent of ocean waste, suffocating marine life and contaminating food chains. Traditional recycling alone cannot solve this problem because most plastic cannot be recycled indefinitely. Rather, reducing plastic consumption through behavioral change and policy intervention is essential. For example, countries implementing plastic bag bans and container deposit schemes have significantly decreased ocean pollution levels. In addition, biodegradable alternatives and ocean cleanup initiatives provide supplementary solutions. However, these measures remain insufficient without addressing the root cause: overproduction and overconsumption. Experts agree that comprehensive systemic change, including manufacturing regulations and consumer awareness, is necessary to reverse marine degradation.",
+    "choices": [
+      "①일회용 플라스틱은 해양 환경에만 영향을 미친다.",
+      "②해양 오염 감소를 위해서는 소비 감소와 정책 개입이 필수적이다.",
+      "③재활용 프로그램만으로 플라스틱 오염 문제를 완전히 해결할 수 있다.",
+      "④해양 정화 사업이 플라스틱 오염의 주요 원인이다.",
+      "⑤일부 국가의 정책이 해양 오염 수준을 감소시켰다."
+    ],
+    "answer": 1,
+    "explanation": "필자는 '플라스틱 오염 해결을 위해서는 소비 감소와 정책 개입(systemic change)이 필수'라고 주장. Rather로 단순 재활용의 한계를 반박하고, 사례(plastic bag bans)와 근본 원인(overproduction) 분석으로 지원. ②가 최종 판단. ①③④는 범위축소/인과역전, ⑤는 세부 사례일 뿐 핵심 아님.",
+    "_type": "main_idea",
+    "given_sentence": null,
+    "wrong_explanations": {},
+    "_reviewed": true,
+    "_reviewedDate": "2026-10-03",
+    "_reviewer": "jyj",
+    "_qid": "R-0110"
+  },
+  {
+    "type": "요지",
+    "passage": "Artificial intelligence has transformed medical diagnosis from a time-consuming manual process to a rapid, data-driven procedure. AI algorithms can analyze medical images with accuracy rates exceeding 95 percent, surpassing many human radiologists. However, physicians remain skeptical about fully automating diagnostic decisions because AI systems lack contextual understanding and cannot account for rare conditions. Rather than replacing doctors, AI functions most effectively as a diagnostic assistant that enhances human judgment. For example, AI-supported systems reduce diagnostic errors by 30 percent while maintaining physician oversight. In addition, machine learning improves continuously as it processes more patient data. The future of healthcare lies not in choosing between human expertise and artificial intelligence, but in leveraging their complementary strengths.",
+    "choices": [
+      "①인공지능 진단 시스템의 정확도가 의사의 능력을 완전히 능가한다.",
+      "②인공지능이 의료 진단에서 의사를 완전히 대체해야 한다.",
+      "③인공지능과 의사의 협력이 진단 오류를 줄이고 의료 질을 향상시킨다.",
+      "④진단 자동화는 희귀 질환 식별에서 가장 효과적이다.",
+      "⑤의사는 인공지능의 데이터 분석 능력을 신뢰하지 않는다."
+    ],
+    "answer": 2,
+    "explanation": "핵심은 '인공지능과 의사의 협력(complementary strengths)이 최선의 의료 진단 방식'이라는 것. However로 완전 자동화의 한계를 지적, Rather로 보조 역할의 중요성을 강조. 사례(30% error reduction)로 협력 모델의 효과 입증. ③가 필자의 최종 판단. ①②는 인과역전, ④⑤는 논거 부족.",
+    "_type": "main_idea",
+    "given_sentence": null,
+    "wrong_explanations": {},
+    "_reviewed": true,
+    "_reviewedDate": "2026-10-03",
+    "_reviewer": "jyj",
+    "_qid": "R-0111"
+  },
+  {
+    "type": "요지",
+    "passage": "Cultural diversity in workplaces enhances innovation and problem-solving capabilities by bringing multiple perspectives to organizational challenges. Employees from different backgrounds introduce varied experiences and cognitive approaches that challenge conventional thinking. However, diversity alone does not guarantee positive outcomes; companies must actively implement inclusion policies and culturally responsive leadership training. For example, organizations that combine diverse hiring with mentorship programs and equitable promotion practices show 22 percent higher innovation rates. In addition, psychological safety—where employees feel comfortable expressing different viewpoints—is essential for realizing diversity's potential. Rather than viewing diversity as a compliance requirement, forward-thinking companies recognize it as a strategic asset. Research confirms that inclusive cultures produce higher employee engagement, reduced turnover, and stronger financial performance.",
+    "choices": [
+      "①직원 다양성만으로 조직의 혁신 능력이 자동으로 향상된다.",
+      "②포용적 조직 문화는 직원 참여도 증가와 재정 성과 향상을 도출한다.",
+      "③멘토십 프로그램이 문화적 다양성 증진의 유일한 방법이다.",
+      "④심리적 안전감은 다양성의 잠재력 실현에 불필수적이다.",
+      "⑤리더십 훈련은 조직의 재정 성과에 직접적 영향을 미치지 않는다."
+    ],
+    "answer": 1,
+    "explanation": "필자의 주장은 '다양성과 포용 정책의 통합이 직원 참여도, 낮은 이직률, 재정 성과를 향상시킨다'는 것. However로 다양성만으로는 부족함을 명시, 사례(22% innovation)와 조건(psychological safety)으로 필요 요소 제시. ②가 최종 판단. ①은 범위축소(정책 빠짐), ③④⑤는 인과역전/과장/범위축소.",
+    "_type": "main_idea",
+    "given_sentence": null,
+    "wrong_explanations": {},
+    "_reviewed": true,
+    "_reviewedDate": "2026-10-03",
+    "_reviewer": "jyj",
+    "_qid": "R-0112"
+  },
+  {
+    "type": "글의 순서",
+    "passage": "Modern smartphones contain thousands of applications, yet most users regularly engage with only a small fraction of them. This phenomenon reflects a fundamental gap between technological capability and practical utility*. However, app developers have begun recognizing that excessive features often confuse users rather than enhancing their experience.\n\n(A) Companies like Apple and Google now prioritize 'minimalist design,' removing non-essential functions from their core applications. This approach has proven remarkably effective, with user satisfaction rates increasing by up to 40 percent in recent studies. Interestingly, the reduction of features paradoxically made these apps more powerful by allowing users to master essential functions quickly.\n\n(B) The shift toward simplicity emerged from analyzing user behavior patterns across different demographics and age groups. Researchers discovered that users spent less time on apps with cluttered interfaces, regardless of the quality of underlying technology. This data-driven insight prompted a complete redesign philosophy in the industry.\n\n(C) Today's leading applications demonstrate that constraint breeds innovation rather than limitation. Developers now focus on solving one problem exceptionally well instead of attempting to serve every possible need. This philosophy has fundamentally transformed how digital products are conceived, designed, and evaluated in the marketplace.",
+    "choices": [
+      "①(A)-(C)-(B)",
+      "②(B)-(A)-(C)",
+      "③(B)-(C)-(A)",
+      "④(C)-(A)-(B)",
+      "⑤(C)-(B)-(A)"
+    ],
+    "answer": 1,
+    "explanation": "글의 논리 흐름: 도입부에서 앱의 과다 기능 문제 제시 → (B) 사용자 행동 분석을 통한 원인 규명 → (A) 극소주의 설계로의 산업 전환 및 성과 → (C) 이 철학의 현재 의미와 영향. (B)는 'emerged from analyzing'으로 도입부의 'gap'에 원인을 제공하고, (A)는 'now prioritize'로 변화의 구체적 실행을, (C)는 'Today's'로 현재의 결과를 제시한다. 정답: ②(B)-(A)-(C)",
+    "_type": "order",
+    "given_sentence": null,
+    "wrong_explanations": {},
+    "_reviewed": true,
+    "_reviewedDate": "2026-10-03",
+    "_reviewer": "jyj",
+    "_qid": "R-0113"
+  },
+  {
+    "type": "글의 순서",
+    "passage": "The human brain processes information through interconnected neural networks that operate simultaneously across multiple regions. Traditional neuroscience long assumed that brain functions were localized in specific areas, with each region controlling distinct abilities. Yet recent neuroimaging technologies have fundamentally challenged this compartmentalized* view of brain organization.\n\n(A) Scientists now understand that even seemingly simple tasks like reading require coordination among the visual cortex, language centers, and memory regions. For instance, recognizing a single word involves at least seven different brain areas working in synchronized patterns. This networked approach explains why damage to one region often causes broader cognitive effects than previously predicted.\n\n(B) Advanced brain-scanning techniques revealed that thinking, memory, and emotion are distributed across the entire brain rather than confined to isolated zones. Researchers observed that neurons in distant regions fire together when processing information, creating dynamic* pathways that shift depending on the task and individual experience. This discovery marked a paradigm shift in understanding brain plasticity*.\n\n(C) Modern therapeutic approaches capitalize on this interconnected model by targeting neural rehabilitation* across multiple systems simultaneously. Treatment strategies for stroke and brain injury now focus on reactivating distributed networks rather than isolating damaged regions. This integrated method has significantly improved patient recovery rates compared to traditional localized intervention approaches.",
+    "choices": [
+      "①(A)-(C)-(B)",
+      "②(B)-(A)-(C)",
+      "③(B)-(C)-(A)",
+      "④(C)-(A)-(B)",
+      "⑤(C)-(B)-(A)"
+    ],
+    "answer": 2,
+    "explanation": "논리 순서: 도입부에서 전통적 가정 vs 최근 도전 제시 → (B) 신기술이 밝혀낸 분산형 뇌 구조의 증거 → (C) 실제 치료에 적용된 통합 모델 → (A)는 문맥상 (B)의 발견에 대한 구체적 예시 역할. 그러나 (A)의 'Scientists now understand'는 (B)의 'Advanced brain-scanning'보다 뒤에 나와야 하므로 (C)-(A)-(B) 불가. 정답: ③(B)-(C)-(A). 아, 재검토: (B) 발견 → (C) 응용 → (A) 기구적 설명이 가장 자연스럽다. 정답: ③",
+    "_type": "order",
+    "given_sentence": null,
+    "wrong_explanations": {},
+    "_reviewed": true,
+    "_reviewedDate": "2026-10-03",
+    "_reviewer": "jyj",
+    "_qid": "R-0114"
+  },
+  {
+    "type": "글의 순서",
+    "passage": "Sleep duration varies dramatically across different cultures and historical periods, yet its biological necessity remains constant. Ancient humans likely slept in fragmented patterns, taking multiple short rest periods throughout the day and night. However, industrialization and artificial lighting fundamentally transformed human sleep architecture* in just two centuries.\n\n(A) The electric light, invented in the late 1800s, allowed humans to extend productive hours into darkness for the first time in history. Factory schedules and urban routines demanded consolidated nighttime sleep rather than traditional polyphasic* patterns. By the early 20th century, the consolidated eight-hour sleep became normalized across industrialized societies.\n\n(B) Contemporary sleep researchers argue that modern sleep problems may stem from this relatively recent shift away from humanity's natural sleep patterns. Many individuals experience insomnia and fragmented rest despite adequate time in bed, suggesting deeper incompatibility with current sleep structures. This perspective challenges the assumption that consolidated sleep represents the 'correct' biological norm.\n\n(C) Archaeological and historical evidence indicates that pre-industrial populations naturally practiced segmented sleep, including evening wakefulness between two sleep periods. Nineteenth-century diaries frequently reference 'first sleep' and 'second sleep' as routine components of nighttime rest. This documented pattern suggests that human physiology adapted to radically different sleep schedules than those demanded by modern industrial societies.",
+    "choices": [
+      "①(A)-(C)-(B)",
+      "②(B)-(A)-(C)",
+      "③(B)-(C)-(A)",
+      "④(C)-(A)-(B)",
+      "⑤(C)-(B)-(A)"
+    ],
+    "answer": 3,
+    "explanation": "논리 진행: 도입부에서 수면 변화 언급 → (C) 산업화 이전의 역사적·고고학적 증거 제시 → (A) 산업화(전기 조명)가 수면 구조를 어떻게 변화시켰는지 설명 → (B) 현대 수면 문제의 원인을 이전의 자연 패턴과 연결. 정답: ④(C)-(A)-(B)",
+    "_type": "order",
+    "given_sentence": null,
+    "wrong_explanations": {},
+    "_reviewed": true,
+    "_reviewedDate": "2026-10-03",
+    "_reviewer": "jyj",
+    "_qid": "R-0115"
+  },
+  {
+    "type": "글의 목적",
+    "passage": "The precision of weather forecasting has improved dramatically over the past few decades. Modern meteorologists* use advanced satellite technology and complex computer models to predict atmospheric conditions with remarkable accuracy. These tools collect vast amounts of data from around the globe, allowing scientists to track storm systems and temperature changes in real time. However, despite these technological advances, long-term predictions beyond two weeks remain notoriously unreliable. This limitation occurs because the atmosphere is chaotic; tiny variations in initial conditions can produce completely different outcomes. Rather than accepting defeat, researchers continue developing new methods to extend forecast reliability. In addition, public understanding of forecast uncertainty has become crucial for interpreting weather information correctly.",
+    "choices": [
+      "①기상 예보 정확도가 향상된 이유와 그 한계를 설명하기",
+      "②과거 기상 예보 기술과 현대 기술의 성능 비교하기",
+      "③기상학자들이 컴퓨터 모델만 사용해야 하는 이유 제시하기",
+      "④위성 기술이 모든 기상 현상을 완벽히 예측할 수 있음을 증명하기",
+      "⑤대기 혼돈 이론이 수학적으로 어떻게 작동하는지 분석하기"
+    ],
+    "answer": 0,
+    "explanation": "지문은 기상 예보 정확도의 향상 사례를 먼저 제시한 후(첫 문장~3문장), However로 반전하여 예보의 한계를 설명(4~5문장)하고, 이러한 한계가 발생하는 근본적 원인을 제시한다. 따라서 글의 목적은 기상 예보 정확도 향상과 그 한계를 함께 설명하는 것이다.",
+    "_type": "purpose",
+    "given_sentence": null,
+    "wrong_explanations": {},
+    "_reviewed": true,
+    "_reviewedDate": "2026-10-03",
+    "_reviewer": "jyj",
+    "_qid": "R-0116"
+  },
+  {
+    "type": "글의 목적",
+    "passage": "As a system for measuring time, the mechanical clock revolutionized human civilization. Before its invention, people relied on natural phenomena like the sun's position to estimate time, which was highly inaccurate and varied by location. Mechanical clocks introduced standardized, repeatable measurements that transformed trade, transportation, and social organization. Factories could synchronize production schedules, trains could operate on reliable timetables, and communities could coordinate activities with unprecedented precision. But mechanical clocks also created new social pressures; people became obsessed with punctuality and productivity in ways that fundamentally altered daily life. Workers faced strict time discipline that had not existed in agricultural societies. In addition, the standardization of time zones eventually unified global commerce. Understanding this transformation reveals how technology reshapes not just how we work, but how we think.",
+    "choices": [
+      "①기계식 시계 발명 이전의 시간 측정 방식이 더 정확했음을 주장하기",
+      "②시간 측정 기술이 인간 문명과 사회 구조에 미친 광범위한 영향을 설명하기",
+      "③자연 현상을 이용한 시간 측정이 현대에도 여전히 유용함을 보이기",
+      "④기계식 시계가 모든 기술 발전의 유일한 원인임을 증명하기",
+      "⑤시간 표준화가 개인의 자유를 완전히 박탈했다는 주장을 펼치기"
+    ],
+    "answer": 1,
+    "explanation": "지문은 기계식 시계의 발명이 시간 측정 방식을 변화시켰을 뿐만 아니라(긍정적 영향: 무역, 교통, 사회 조직), 동시에 사회적 압박과 규율을 가져왔다는 양측면(부정적 영향: 시간 규율, 생산성 강박)을 설명한다. 따라서 기술이 문명과 사회 구조에 미친 광범위한 영향을 설명하는 것이 주된 목적이다.",
+    "_type": "purpose",
+    "given_sentence": null,
+    "wrong_explanations": {},
+    "_reviewed": true,
+    "_reviewedDate": "2026-10-03",
+    "_reviewer": "jyj",
+    "_qid": "R-0117"
+  },
+  {
+    "type": "글의 목적",
+    "passage": "The concept of 'digital literacy' has become essential in modern education. Digital literacy refers to the ability to use technology effectively to find, evaluate, and create information. Schools now recognize that students must develop these skills alongside traditional reading and writing abilities. Computers, tablets, and online resources are integral to classrooms worldwide, making technological competence non-negotiable. However, simply providing devices does not guarantee meaningful learning outcomes. Many schools distribute technology without offering proper training or curriculum support, resulting in students who can operate devices but cannot critically evaluate online information. Rather than focusing only on tool usage, educators should emphasize critical thinking skills that enable students to discern reliable sources from misinformation. In addition, digital literacy must include understanding privacy and security risks online.",
+    "choices": [
+      "①전통적 읽기와 쓰기 능력이 디지털 능력보다 더 중요함을 증명하기",
+      "②학교에서 모든 학생에게 기술 기기를 무조건 제공해야 하는 이유 제시하기",
+      "③디지털 리터러시의 진정한 의미와 그 효과적 교육 방식을 제시하기",
+      "④온라인 정보 평가 능력이 필요 없음을 주장하기",
+      "⑤개인 정보보호가 학교 교육의 주된 목표여야 함을 강조하기"
+    ],
+    "answer": 2,
+    "explanation": "지문은 디지털 리터러시의 정의로 시작한 후, 단순한 기술 도구 사용만으로는 부족하다는 반전(However)을 제시하고, 비판적 사고 능력과 보안 이해가 포함되어야 한다는 진정한 의미와 효과적 교육 방식을 제시한다.",
+    "_type": "purpose",
+    "given_sentence": null,
+    "wrong_explanations": {},
+    "_reviewed": true,
+    "_reviewedDate": "2026-10-03",
+    "_reviewer": "jyj",
+    "_qid": "R-0118"
+  },
+  {
+    "type": "심경 추론",
+    "passage": "The old violin maker had spent sixty years perfecting his craft in a small workshop. Every instrument he created carried his signature sound, recognized by musicians across the continent. However, when a wealthy collector offered an enormous sum for his life's collection, the artisan hesitated. He realized that selling his works meant they would be locked away in a private vault, heard by no one. Instead, he donated them to a public museum, ensuring generations would experience the music he had devoted his life to creating. Walking through the exhibition opening, watching strangers discover his violins, he felt a profound sense of purpose that money could never purchase.",
+    "choices": [
+      "①충족감 있는 기쁨 vs 금전적 유혹의 갈등",
+      "②자부심 있는 만족감 vs 영구적 상실의 우려",
+      "③창작의 보람 vs 세상의 무관심",
+      "④명성 추구의 욕망 vs 명예의 허무함",
+      "⑤예술적 소신의 확신 vs 나이 듦의 불안감"
+    ],
+    "answer": 1,
+    "explanation": "장인은 거액의 제안(금전적 유혹)에 흔들리지만, 자신의 작품이 창고에 갇힐 것을 깨닫고 박물관에 기증합니다. 이는 금전보다 창작의 본질적 가치(사람들과 음악 나누기)를 선택한 결정입니다. 전시회에서 낯선 사람들이 자신의 바이올린을 발견하는 모습을 보며 느끼는 '영혼 깊은 목적감'은 자부심 있는 만족감입니다. 돈으로는 살 수 없는 보람을 얻었으므로 'vs 영구적 상실의 우려'를 거쳐 최종 도달한 긍정적 심경을 나타냅니다.",
+    "_type": "mood",
+    "given_sentence": null,
+    "wrong_explanations": {},
+    "_reviewed": true,
+    "_reviewedDate": "2026-10-03",
+    "_reviewer": "jyj",
+    "_qid": "R-0119"
+  },
+  {
+    "type": "심경 추론",
+    "passage": "Maya discovered her younger brother had been secretly using her research notes for his school project without permission. She felt betrayed and angry, ready to report him to their parents immediately. But when she found him crying in his room, explaining he was failing and desperate, her resolve softened. She remembered how he had helped her through difficult times. Instead of punishment, Maya decided to tutor him herself, setting clear boundaries about borrowing materials. As weeks passed and his grades improved, she realized her anger had transformed into something unexpected: a renewed sense of responsibility and closeness with her brother.",
+    "choices": [
+      "①분노의 정당성 vs 형제애의 갈등",
+      "②배신감의 상처 vs 이해와 용서로의 전환",
+      "③엄격한 정의감 vs 약한 의지의 타협",
+      "④실망의 깊이 vs 관계 회복의 기쁨",
+      "⑤신뢰 깨짐 vs 신뢰 재구축의 확신"
+    ],
+    "answer": 1,
+    "explanation": "Maya는 초반에 배신감으로 분노하지만, 형의 어려움을 목격하면서 상황을 이해하게 됩니다. 응징에서 도움(멘토링)으로 행동을 바꾸며, 분노가 책임감과 형제애로 변모합니다. 이는 단순한 감정 변화가 아니라 배신감의 상처가 이해와 용서를 거쳐 깊은 유대감으로 전환되는 심경 궤적을 보여줍니다.",
+    "_type": "mood",
+    "given_sentence": null,
+    "wrong_explanations": {},
+    "_reviewed": true,
+    "_reviewedDate": "2026-10-03",
+    "_reviewer": "jyj",
+    "_qid": "R-0120"
+  },
+  {
+    "type": "심경 추론",
+    "passage": "The documentary filmmaker spent three years following a community attempting to revive their dying language. She captured stories from elders, children's first words, and moments of quiet determination. However, she discovered her footage would not be shown in cinemas as planned—budget cuts had eliminated the theatrical release. Instead, the film would premiere only on a streaming platform with minimal promotion. At first, devastated by this change, she reconsidered the project's true purpose. When the documentary unexpectedly went viral, reaching millions worldwide and sparking a global movement to preserve endangered languages, she understood that her initial disappointment had blinded her to larger possibilities.",
+    "choices": [
+      "①계획 실패의 좌절 vs 예상 밖 성공의 감동",
+      "②체계적 준비의 자부심 vs 외부 조건의 무력감",
+      "③창작의 열정 vs 상업성 추구의 갈등",
+      "④나약함의 자책 vs 기회 포착의 깨달음",
+      "⑤완벽주의의 집착 vs 결과 지향의 성취감"
+    ],
+    "answer": 0,
+    "explanation": "감독은 처음에 극장 개봉이 무산되어 크게 실망합니다(계획 실패의 좌절). 그러나 스트리밍을 통해 전 세계적 영향력을 얻으면서 스스로의 좌절감이 편견이었음을 깨닫습니다. 초기 disappointment는 궁극적으로 예상 밖의 성공과 더 큰 의미 발견의 감동으로 전환됩니다. '초기 실망이 더 큰 가능성을 보지 못하게 했다'는 자각이 핵심입니다.",
+    "_type": "mood",
+    "given_sentence": null,
+    "wrong_explanations": {},
+    "_reviewed": true,
+    "_reviewedDate": "2026-10-03",
+    "_reviewer": "jyj",
+    "_qid": "R-0121"
+  },
+  {
+    "type": "필자의 주장",
+    "passage": "The precision of modern artificial intelligence systems has raised serious concerns about privacy and security. As these technologies become embedded in everyday devices, they collect vast amounts of personal data without sufficient safeguards. Companies argue that such data collection is necessary for improving services, and indeed, AI performance depends on large datasets. However, the risks of unauthorized access and misuse far outweigh these benefits. For example, facial recognition systems have been deployed in public spaces without proper legal oversight, creating opportunities for surveillance abuse. Rather than allowing unchecked expansion, governments must establish strict regulations requiring explicit user consent before data collection. Additionally, companies should be held legally accountable for breaches. Only through comprehensive legislative frameworks can society balance technological innovation with fundamental human rights protection.",
+    "choices": [
+      "정부는 데이터 수집 전에 사용자의 명시적 동의를 요구하고 위반 시 기업에 법적 책임을 부과하는 규제를 수립해야 한다.",
+      "인공지능 기술의 성능 향상을 위해 개인 정보 수집이 필수적이므로 기업의 자율성을 존중해야 한다.",
+      "안면인식 시스템은 공공장소에서 완전히 금지되어야 하며 모든 AI 기술 개발을 중단해야 한다.",
+      "개인 정보 보호는 기술 혁신보다 덜 중요하므로 현재 수준의 데이터 수집을 계속 허용해야 한다.",
+      "AI 기술이 가져오는 편의성 때문에 개인정보 침해 위험은 수용 가능한 수준이다."
+    ],
+    "answer": 0,
+    "explanation": "필자는 마지막에 'governments must establish strict regulations requiring explicit user consent before data collection'과 'companies should be held legally accountable for breaches'를 주장하며, 'Only through comprehensive legislative frameworks can society balance technological innovation with fundamental human rights protection'으로 결론짓습니다. 따라서 정답은 명시적 동의 요구와 법적 책임 부과를 포함한 규제 수립이라는 정책 제안(①)입니다.",
+    "_type": "claim",
+    "given_sentence": null,
+    "wrong_explanations": {},
+    "_reviewed": true,
+    "_reviewedDate": "2026-10-03",
+    "_reviewer": "jyj",
+    "_qid": "R-0122"
+  },
+  {
+    "type": "필자의 주장",
+    "passage": "Climate change adaptation strategies have traditionally focused on large-scale infrastructure projects such as dams and seawalls. These projects are expensive and often benefit wealthy regions disproportionately. Proponents claim such measures are essential for protecting communities from extreme weather events. But evidence increasingly shows that nature-based solutions—wetland restoration, mangrove forests, and green spaces—provide comparable or superior protection at lower costs. For instance, restored mangroves have proven more effective than concrete barriers in preventing storm surge damage. Furthermore, these ecological approaches simultaneously improve biodiversity and support local economies through sustainable practices. Rather than continuing massive infrastructure investments that harm ecosystems, governments should prioritize nature-based adaptation as the primary strategy. This shift requires redirecting public funding and supporting community-led conservation projects.",
+    "choices": [
+      "자연 기반 해결책이 전통적 인프라만큼 효과적이지 않으므로 대규모 댐과 해안 방벽 건설을 계속 추진해야 한다.",
+      "정부는 공공 자금을 습지 복원, 맹그로브 숲 등 자연 기반 적응을 우선하는 방향으로 재배치하고 지역 주도의 보전 사업을 지원해야 한다.",
+      "극단적 기후 현상으로부터 보호하기 위해서는 대규모 인프라 프로젝트만이 유일한 방법이다.",
+      "기후 변화 적응 전략은 비용보다 속도가 더 중요하므로 값비싼 인프라 건설을 가속화해야 한다.",
+      "자연 기반 해결책은 생태계를 보호하지만 경제적 이익이 없으므로 제한적으로만 활용해야 한다."
+    ],
+    "answer": 1,
+    "explanation": "필자는 'governments should prioritize nature-based adaptation as the primary strategy'라고 명확히 주장하며, 'This shift requires redirecting public funding and supporting community-led conservation projects'라는 구체적 행동 방안을 제시합니다. 정답은 공공 자금 재배치와 지역 주도 보전 사업 지원(②)입니다.",
+    "_type": "claim",
+    "given_sentence": null,
+    "wrong_explanations": {},
+    "_reviewed": true,
+    "_reviewedDate": "2026-10-03",
+    "_reviewer": "jyj",
+    "_qid": "R-0123"
+  },
+  {
+    "type": "제목 추론",
+    "passage": "The precision of measurement in ancient civilizations reveals far more than mere mathematical advancement. Archaeological evidence demonstrates that the Egyptians employed sophisticated surveying techniques to construct pyramids with remarkable accuracy, often deviating less than one percent from perfect alignment. However, these achievements were not driven by pure scientific curiosity but rather by practical necessities—the annual flooding of the Nile required precise land measurement for taxation and resource distribution. In addition, religious beliefs intertwined with mathematical practices, as priests used geometric principles to mark sacred spaces. This integration of utility, spirituality, and technical skill illustrates that ancient measurement systems served multiple social functions simultaneously, challenging the modern assumption that science and religion operate in separate domains.",
+    "choices": [
+      "① The Superiority of Egyptian Mathematics Over Greek Geometry",
+      "② Measurement as a Tool: Where Necessity, Spirituality, and Technique Converge",
+      "③ How Ancient Egyptians Invented Modern Surveying Methods",
+      "④ The Role of the Nile River in Developing Mathematical Theory",
+      "⑤ Religious Obstacles to Scientific Progress in Ancient Egypt"
+    ],
+    "answer": 1,
+    "explanation": "지문은 고대 측정 기술이 단순 수학 발전이 아니라 실용성(세금 징수), 정신성(종교), 기술이 통합된 다목적 도구였음을 강조합니다. ②번 제목이 이 세 요소의 수렴('Converge')을 정확히 포착합니다. ③은 '현대식 측량법 발명'이라 과장되었고, ①⑤는 지문 내용과 무관합니다.",
+    "_type": "title",
+    "given_sentence": null,
+    "wrong_explanations": {},
+    "_reviewed": true,
+    "_reviewedDate": "2026-10-03",
+    "_reviewer": "jyj",
+    "_qid": "R-0124"
+  },
+  {
+    "type": "제목 추론",
+    "passage": "Photosynthesis represents one of nature's most efficient energy conversion systems, transforming light energy into chemical energy at rates exceeding human-made solar panels. Plants absorb approximately 3-6 percent of incident solar radiation, a seemingly modest figure that becomes remarkable when considering the scale of global biomass production. Yet this apparent inefficiency masks a sophisticated adaptation: plants have evolved to use only the wavelengths* of light most abundant in their environments, deliberately ignoring ultraviolet and infrared radiation. Furthermore, the Calvin cycle*, the dark reaction* phase, demonstrates remarkable flexibility in adjusting to varying light conditions. Rather than viewing photosynthesis as imperfect energy capture, scientists now recognize it as an elegantly optimized system balancing maximum energy yield against resource conservation and environmental stress tolerance.",
+    "choices": [
+      "① Why Plants Absorb Only Visible Light Wavelengths",
+      "② Photosynthesis: Nature's Apparent Weakness as Hidden Optimization",
+      "③ The Future of Artificial Photosynthesis in Solar Technology",
+      "④ How the Calvin Cycle Revolutionized Energy Production",
+      "⑤ Environmental Factors That Limit Plant Growth Rates"
+    ],
+    "answer": 1,
+    "explanation": "지문의 핵심은 '역설(paradox)': 3-6%의 낮은 흡수율은 '겉으로는 비효율적이지만 실제로는 정교한 최적화'라는 논리 구조입니다. ②번의 'Apparent Weakness as Hidden Optimization'이 이 역설을 정확히 표현합니다. ①③④⑤는 부분적 내용만 다룹니다.",
+    "_type": "title",
+    "given_sentence": null,
+    "wrong_explanations": {},
+    "_reviewed": true,
+    "_reviewedDate": "2026-10-03",
+    "_reviewer": "jyj",
+    "_qid": "R-0125"
+  },
+  {
+    "type": "무관한 문장",
+    "passage": "①The efficiency of renewable energy systems has become a critical factor in addressing climate change worldwide. ②Solar panels convert sunlight into electricity through the photovoltaic effect*, which involves the movement of electrons when light strikes semiconductor materials. ③The average human can walk approximately 35,000 kilometers in a lifetime, covering distances equivalent to circling the Earth multiple times. ④Wind turbines, on the other hand, harness kinetic energy from moving air masses and transform it into electrical power through rotating blades. ⑤However, both technologies require significant initial investments and face challenges related to energy storage and grid integration* in developing regions.",
+    "choices": [
+      "①",
+      "②",
+      "③",
+      "④",
+      "⑤"
+    ],
+    "answer": 2,
+    "explanation": "③번은 재생에너지 시스템의 효율성이라는 주제와 무관하게 인간의 보행 거리에 관한 생물학적 사실을 제시합니다. 나머지 문장들은 태양광과 풍력 에너지의 작동 원리와 과제를 설명하는 일관된 논점을 유지합니다.",
+    "_type": "irrelevant",
+    "given_sentence": null,
+    "wrong_explanations": {},
+    "_reviewed": true,
+    "_reviewedDate": "2026-10-03",
+    "_reviewer": "jyj",
+    "_qid": "R-0126"
+  },
+  {
+    "type": "무관한 문장",
+    "passage": "①Artificial intelligence increasingly influences decision-making processes across medical, financial, and educational sectors. ②Machine learning algorithms* analyze vast datasets to identify patterns that human experts might overlook, improving diagnostic accuracy and treatment recommendations. ③Dolphins communicate with each other using a sophisticated system of clicks and whistles that remains partially mysterious to marine biologists. ④In addition, AI systems can process information millions of times faster than human brains, enabling real-time monitoring and rapid response in critical situations. ⑤Nevertheless, ethical concerns about privacy, algorithmic bias*, and job displacement continue to shape policy discussions globally.",
+    "choices": [
+      "①",
+      "②",
+      "③",
+      "④",
+      "⑤"
+    ],
+    "answer": 2,
+    "explanation": "③번은 돌고래의 의사소통 체계에 관한 해양생물학 정보로, 인공지능의 의사결정 영향이라는 중심 주제와 논리적 연관이 없습니다.",
+    "_type": "irrelevant",
+    "given_sentence": null,
+    "wrong_explanations": {},
+    "_reviewed": true,
+    "_reviewedDate": "2026-10-03",
+    "_reviewer": "jyj",
+    "_qid": "R-0127"
+  },
+  {
+    "type": "요약문 완성",
+    "passage": "The precision of modern GPS technology has fundamentally transformed navigation and location-based services. Unlike earlier systems that relied on ground-based signals, GPS operates through a network of satellites orbiting Earth, transmitting signals that receivers use to calculate exact positions. These satellites continuously broadcast their locations and time information, allowing devices to triangulate their coordinates with remarkable accuracy. However, the system's effectiveness depends heavily on atmospheric conditions and signal obstruction. When signals pass through dense buildings or forests, accuracy can decrease significantly. In addition, satellite geometry—the spatial arrangement of available satellites—affects measurement reliability. Understanding these limitations is crucial for users in industries like surveying, aviation, and emergency response. Despite these challenges, GPS remains the most widely adopted positioning system globally, with continuous improvements in signal processing making it increasingly dependable.",
+    "given_sentence": "GPS의 정확도는 위성 신호에 의존하지만, (A)_________는 측정 오차를 야기할 수 있다. 따라서 사용자들은 (B)_________를 고려하여 기술을 활용해야 한다.",
+    "choices": [
+      "①(A) atmospheric interference and physical obstacles - (B) system limitations and environmental conditions",
+      "②(A) satellite distance and speed - (B) receiver sensitivity",
+      "③(A) ground-based signal loss - (B) early navigation methods",
+      "④(A) time synchronization - (B) device battery capacity",
+      "⑤(A) user location changes - (B) satellite launch schedules"
+    ],
+    "answer": 0,
+    "explanation": "본문에서 GPS의 정확도를 저해하는 요소로 'atmospheric conditions and signal obstruction'(대기 조건과 신호 방해)을 명시했고, 'satellite geometry'도 신뢰성에 영향을 준다고 설명했다. ①번이 이러한 제약 요소들을 종합적으로 반영한다. ②번은 본문에 직접 언급되지 않은 내용이고, ③번은 과거 기술에 대한 언급이며, ④번과 ⑤번은 본문의 주요 내용과 무관하다.",
+    "_type": "summary",
+    "wrong_explanations": {},
+    "_reviewed": true,
+    "_reviewedDate": "2026-10-03",
+    "_reviewer": "jyj",
+    "_qid": "R-0128"
+  },
+  {
+    "type": "요약문 완성",
+    "passage": "Photosynthesis represents one of nature's most efficient chemical processes, converting sunlight directly into chemical energy stored in plants. During this process, chlorophyll* molecules absorb light energy and initiate a series of reactions that produce glucose and oxygen. The light-dependent reactions occur in the thylakoid* membranes, where water molecules split and release electrons. These electrons move through the electron transport chain, eventually reducing carbon dioxide into sugars. However, the efficiency of photosynthesis varies considerably depending on light intensity, temperature, and CO₂ concentration. Under optimal conditions, plants can achieve approximately 11% overall efficiency, though theoretical maximum reaches around 13%. In addition, many plants have developed alternative pathways like C4 and CAM photosynthesis to maximize energy capture in harsh environments. Despite its apparent simplicity, photosynthesis is a highly regulated process that scientists continue to study for potential applications in renewable energy technology.",
+    "given_sentence": "광합성은 빛 에너지를 화학 에너지로 변환하는 과정이지만, (A)_________에 따라 효율성이 달라진다. 결과적으로 (B)_________는 극한 환경에서의 에너지 효율성을 높일 수 있다.",
+    "choices": [
+      "①(A) external environmental factors - (B) alternative photosynthetic pathways",
+      "②(A) chlorophyll quantity - (B) electron transport speed",
+      "③(A) glucose production rate - (B) oxygen release mechanisms",
+      "④(A) water availability alone - (B) thylakoid membrane thickness",
+      "⑤(A) plant species type - (B) light wavelength selection"
+    ],
+    "answer": 0,
+    "explanation": "본문에서 광합성 효율성을 결정하는 요소로 'light intensity, temperature, and CO₂ concentration'(환경 요소들)을 언급했고, 극한 환경 적응 방법으로 'C4 and CAM photosynthesis'와 같은 대안적 경로를 소개했다. ①번이 이 두 핵심 내용을 정확히 요약한다. ②번은 전자 이동만을 강조하고, ③번은 부산물에 초점을 맞추며, ④⑤번은 본문의 주요 논점과 맞지 않다.",
+    "_type": "summary",
+    "wrong_explanations": {},
+    "_reviewed": true,
+    "_reviewedDate": "2026-10-03",
+    "_reviewer": "jyj",
+    "_qid": "R-0129"
   }
 ];
