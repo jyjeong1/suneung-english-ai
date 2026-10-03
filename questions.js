@@ -1,5 +1,6 @@
-// 수능영어AI 문제은행 — 296문제 (R:129 감수완료, U:167 미감수)
+// 수능영어AI 문제은행 — 285문제 (R:129 감수완료, U:156 미감수)
 // 번호체계: R-xxxx(감수완료), U-xxxx(미감수)
+// 어법 3중 검증 완료 (2026-10-03)
 const QUESTION_BANK = [
   {
     "type": "빈칸 추론",
@@ -1830,213 +1831,6 @@ const QUESTION_BANK = [
     "_qid": "R-0054"
   },
   {
-    "type": "어법 판단",
-    "passage": "The conference, which was held in Seoul last month, brought together leading experts from around the world. The main purpose of the gathering was to discuss innovative solutions for environmental problems that has been affecting our planet for decades. Participants shared their research findings and exchanged ideas about sustainable development. One of the most impressive presentations was delivered by Dr. Kim, whose groundbreaking work on renewable energy has revolutionized the industry. The attendees were deeply impressed by the quality of discussions and the collaborative spirit that characterized the entire event. Many delegates expressed their intention to continue working together on future projects.",
-    "choices": [
-      "①has",
-      "②was held",
-      "③have been affecting",
-      "④was delivered",
-      "⑤expressed"
-    ],
-    "answer": 2,
-    "explanation": "'problems'는 복수형이므로 단수동사 'has'가 아니라 복수동사 'have'를 사용해야 합니다. 정답은 ③ 'have been affecting'입니다.",
-    "wrong_explanations": {
-      "①": "'which was held'은 관계절로 수동태가 올바릅니다.",
-      "②": "과거 시제 수동태가 문맥상 적절합니다.",
-      "④": "'was delivered'는 단수주어 'presentation'에 맞는 수동태입니다.",
-      "⑤": "'expressed'는 과거시제로 일관성 있습니다."
-    },
-    "_type": "grammar",
-    "given_sentence": null,
-    "_reviewed": false,
-    "_qid": "U-0027"
-  },
-  {
-    "type": "어법 판단",
-    "passage": "Modern technology have transformed the way people communicate and conduct business in the 21st century. Smartphones and social media platforms enables individuals to connect instantly across geographical boundaries. The rapid advancement of artificial intelligence and machine learning has created new opportunities in various industries. Companies are investing heavily in digital infrastructure to improve their efficiency and competitiveness. However, experts warn that increased reliance on technology pose potential risks to privacy and security. Despite these challenges, the integration of technology into our daily lives continues to accelerate, shaping our future in unprecedented ways.",
-    "choices": [
-      "①have transformed",
-      "②enables",
-      "③has created",
-      "④pose",
-      "⑤continues"
-    ],
-    "answer": 0,
-    "explanation": "'Modern technology'는 단수주어이므로 'have'가 아니라 'has'를 사용해야 합니다. 정답은 ① 'has transformed'입니다.",
-    "wrong_explanations": {
-      "②": "'platforms'가 복수주어이므로 'enable'이어야 하지만, 본문의 오류는 다른 곳입니다.",
-      "③": "'advancement'는 단수주어로 'has created'가 올바릅니다.",
-      "④": "'reliance'는 단수주어이므로 'poses'를 사용해야 하는데, 본문의 주요 오류는 아닙니다.",
-      "⑤": "'integration'은 단수주어로 'continues'가 올바릅니다."
-    },
-    "_type": "grammar",
-    "given_sentence": null,
-    "_reviewed": false,
-    "_qid": "U-0028"
-  },
-  {
-    "type": "어법 판단",
-    "passage": "The research team has been studying the effects of climate change on marine ecosystems for over a decade. Their findings reveals significant alterations in fish migration patterns and ocean temperature fluctuations. Scientists are concerned that these changes could disrupts the entire food chain in ocean environments. The data collected from various monitoring stations showed that sea levels are rising at an alarming rate. International cooperation and immediate action is necessary to address this global crisis. Governments must implementing policies that reduce carbon emissions and protect endangered marine species from further harm.",
-    "choices": [
-      "①has been studying",
-      "②reveals",
-      "③disrupts",
-      "④is necessary",
-      "⑤implementing"
-    ],
-    "answer": 1,
-    "explanation": "'findings'는 복수형이므로 단수동사 'reveals'가 아니라 복수동사 'reveal'을 사용해야 합니다. 정답은 ② 'reveal'입니다.",
-    "wrong_explanations": {
-      "①": "'The research team'은 단수주어로 'has been studying'이 올바릅니다.",
-      "③": "'could disrupt'는 법조동사 뒤의 기본형으로 올바릅니다.",
-      "④": "'cooperation and immediate action'은 병렬구조의 복합주어로 'are necessary'가 맞지만, 본문의 오류는 다른 곳입니다.",
-      "⑤": "'must'는 조동사이므로 'implement'의 기본형이 와야 하는데, 본문의 주요 오류는 아닙니다."
-    },
-    "_type": "grammar",
-    "given_sentence": null,
-    "_reviewed": false,
-    "_qid": "U-0029"
-  },
-  {
-    "type": "어법 판단",
-    "passage": "The festival, which attracts thousands of visitors annually, celebrate the rich cultural heritage of the region. Traditional music performances and dance shows is the highlight of the three-day event. Artisans display their handmade crafts, and local restaurants serves authentic regional cuisine. The organizers have been working tirelessly to ensure that all aspects of the festival runs smoothly. Community members volunteers their time to help coordinate various activities and guide visitors. This year's event promises to be even more spectacular, with international performers joining domestic talents in creating an unforgettable experience.",
-    "choices": [
-      "①attracts",
-      "②celebrates",
-      "③are",
-      "④serves",
-      "⑤runs"
-    ],
-    "answer": 1,
-    "explanation": "'The festival'은 단수주어이므로 복수동사 'celebrate'가 아니라 단수동사 'celebrates'를 사용해야 합니다. 정답은 ② 'celebrates'입니다.",
-    "wrong_explanations": {
-      "①": "'which'의 선행사인 'festival'이 단수이므로 'attracts'가 올바릅니다.",
-      "③": "'performances and shows'는 병렬구조의 복수주어이므로 'are'가 올바릅니다.",
-      "④": "'restaurants'는 복수주어이므로 'serve'를 사용해야 하는데, 본문의 주요 오류는 아닙니다.",
-      "⑤": "'aspects'는 복수주어이므로 'run'을 사용해야 하는데, 본문의 주요 오류는 아닙니다."
-    },
-    "_type": "grammar",
-    "given_sentence": null,
-    "_reviewed": false,
-    "_qid": "U-0030"
-  },
-  {
-    "type": "어법 판단",
-    "passage": "Educational institutions around the world recognizes the importance of integrating critical thinking skills into their curriculum. Students today needs to develop abilities that helps them analyze information, solve complex problems, and make informed decisions. Teachers are implementing new pedagogical approaches that encourages active participation and independent learning. The combination of traditional teaching methods and modern technology create a dynamic learning environment. Research demonstrates that students who engages in critical thinking exercises performs better on standardized assessments. Educational leaders agrees that fostering these skills is essential for preparing students to succeed in an increasingly complex world.",
-    "choices": [
-      "①recognizes",
-      "②needs",
-      "③helps",
-      "④creates",
-      "⑤agrees"
-    ],
-    "answer": 0,
-    "explanation": "'Educational institutions'는 복수주어이므로 단수동사 'recognizes'가 아니라 복수동사 'recognize'를 사용해야 합니다. 정답은 ① 'recognize'입니다.",
-    "wrong_explanations": {
-      "②": "'Students'는 복수주어이므로 'need'를 사용해야 하지만, 본문의 주요 오류는 다른 곳입니다.",
-      "③": "'abilities'를 선행사로 하는 관계대명사절에서 복수주어이므로 'help'를 사용해야 하지만, 본문의 주요 오류는 아닙니다.",
-      "④": "'combination'은 단수주어이므로 'creates'가 올바릅니다.",
-      "⑤": "'leaders'는 복수주어이므로 'agree'를 사용해야 하지만, 본문의 주요 오류는 아닙니다."
-    },
-    "_type": "grammar",
-    "given_sentence": null,
-    "_reviewed": false,
-    "_qid": "U-0031"
-  },
-  {
-    "type": "어법 판단",
-    "passage": "The success of any organization depends on how well its members communicates with each other. In today's digital workplace, effective communication has become more critical than ever before. Employees who are able to express their ideas clearly and listen to their colleagues' feedback tend to perform better in their roles. Furthermore, when team members understand the importance of sharing information transparently, they are more likely to collaborate effectively on projects. Companies that invest in communication training for their staff often see improvements in productivity and employee satisfaction. Research shows that organizations with strong internal communication systems experience fewer conflicts and higher employee retention rates. Therefore, managers should prioritize creating an environment where open dialogue is encouraged and valued.",
-    "choices": [
-      "①communicates",
-      "②communicate",
-      "③communicated",
-      "④communicating",
-      "⑤communication"
-    ],
-    "answer": 1,
-    "explanation": "주어 'members'는 복수형이므로 단수동사 'communicates'가 아닌 복수동사 'communicate'를 사용해야 합니다. 정답은 ②번입니다.",
-    "wrong_explanations": {
-      "①": "members는 복수형이므로 단수동사 communicates는 주어-동사 수일치 오류입니다.",
-      "③": "과거형 communicated는 현재 상황을 설명하는 본문의 시제와 맞지 않습니다.",
-      "④": "동명사 communicating은 문법적으로 맞지 않습니다.",
-      "⑤": "명사 communication은 동사 자리에 올 수 없습니다."
-    },
-    "_type": "grammar",
-    "given_sentence": null,
-    "_reviewed": false,
-    "_qid": "U-0032"
-  },
-  {
-    "type": "어법 판단",
-    "passage": "Social media platforms have revolutionized the way people share information and connect with others around the world. However, excessive use of these platforms can lead to negative consequences for mental health. Research indicates that individuals who spend too much time on social media experiences increased levels of anxiety and depression. The constant comparison with others' curated lives creates unrealistic standards and diminishes self-esteem. Additionally, the addictive nature of social media algorithms keeps users engaged for longer periods than they intend. Experts recommend that people should establish healthy boundaries and allocate specific times for social media use. Taking regular breaks from these platforms allows individuals to focus on face-to-face relationships and real-world activities that promote genuine well-being.",
-    "choices": [
-      "①experiences",
-      "②experience",
-      "③experiencing",
-      "④experienced",
-      "⑤experiential"
-    ],
-    "answer": 1,
-    "explanation": "주어 'individuals'는 복수형이므로 단수동사 'experiences'가 아닌 복수동사 'experience'를 사용해야 합니다. 정답은 ②번입니다.",
-    "wrong_explanations": {
-      "①": "주어 individuals는 복수형이므로 단수동사 experiences는 주어-동사 수일치 오류입니다.",
-      "③": "현재분사 experiencing은 동사 자리에 올 수 없습니다.",
-      "④": "과거형 experienced는 현재의 일반적 사실을 설명하는 문맥에 맞지 않습니다.",
-      "⑤": "형용사 experiential은 동사 자리에 올 수 없습니다."
-    },
-    "_type": "grammar",
-    "given_sentence": null,
-    "_reviewed": false,
-    "_qid": "U-0033"
-  },
-  {
-    "type": "어법 판단",
-    "passage": "Climate change has become one of the most pressing challenges facing humanity in the twenty-first century. Rising global temperatures affects weather patterns, sea levels, and ecosystems across the planet. Scientists agree that human activities, particularly the burning of fossil fuels, are the primary driver of climate change. The consequences are already visible in increased frequency of extreme weather events, droughts, and flooding in various regions. To address this crisis, governments, businesses, and individuals must work together to reduce carbon emissions. Renewable energy sources such as solar and wind power offers promising alternatives to traditional fossil fuels. Public awareness campaigns and environmental education play crucial roles in motivating people to make sustainable choices in their daily lives.",
-    "choices": [
-      "①affects",
-      "②affect",
-      "③affecting",
-      "④affected",
-      "⑤affective"
-    ],
-    "answer": 1,
-    "explanation": "주어 'Rising global temperatures'는 복수형이므로 단수동사 'affects'가 아닌 복수동사 'affect'를 사용해야 합니다. 정답은 ②번입니다.",
-    "wrong_explanations": {
-      "①": "주어가 복수형(temperatures)이므로 단수동사 affects는 주어-동사 수일치 오류입니다.",
-      "③": "현재분사 affecting은 동사 자리에 올 수 없습니다.",
-      "④": "과거형 affected는 현재의 일반적 사실을 설명하는 문맥에 맞지 않습니다.",
-      "⑤": "형용사 affective는 동사 자리에 올 수 없습니다."
-    },
-    "_type": "grammar",
-    "given_sentence": null,
-    "_reviewed": false,
-    "_qid": "U-0034"
-  },
-  {
-    "type": "어법 판단",
-    "passage": "The art of storytelling has captivated human audiences for thousands of years across different cultures and civilizations. Stories serves as powerful tools for transmitting cultural values, historical knowledge, and moral lessons to younger generations. Through narratives, people can explore complex emotions and universal human experiences in meaningful ways. The most effective stories often contains characters that readers can relate to and situations that resonate with their own lives. In modern times, storytelling has evolved to include various media formats such as literature, film, television, and digital content. Writers and filmmakers continuously adapt classic tales to contemporary settings while preserving their essential messages. The enduring appeal of stories demonstrates the fundamental human need for connection, understanding, and shared experience.",
-    "choices": [
-      "①serves",
-      "②serve",
-      "③serving",
-      "④served",
-      "⑤serviceable"
-    ],
-    "answer": 1,
-    "explanation": "주어 'Stories'는 복수형이므로 단수동사 'serves'가 아닌 복수동사 'serve'를 사용해야 합니다. 정답은 ②번입니다.",
-    "wrong_explanations": {
-      "①": "주어 Stories는 복수형이므로 단수동사 serves는 주어-동사 수일치 오류입니다.",
-      "③": "현재분사 serving은 동사 자리에 올 수 없습니다.",
-      "④": "과거형 served는 현재의 일반적 사실을 설명하는 문맥에 맞지 않습니다.",
-      "⑤": "형용사 serviceable은 동사 자리에 올 수 없습니다."
-    },
-    "_type": "grammar",
-    "given_sentence": null,
-    "_reviewed": false,
-    "_qid": "U-0035"
-  },
-  {
     "type": "어휘 적절성",
     "passage": "The research team decided to ① abandon their original hypothesis after discovering contradictory evidence. Dr. Kim spent months analyzing the data, and her meticulous approach ② revealed unexpected patterns in the results. Although the initial findings seemed promising, the team had to ③ reject their assumptions. The new direction was challenging, but team members showed ④ reluctant enthusiasm about exploring alternative theories. Their persistence and collaborative spirit ⑤ hindered the project's success, earning them recognition in the academic community.",
     "choices": [
@@ -2057,7 +1851,7 @@ const QUESTION_BANK = [
     "_type": "vocab",
     "given_sentence": null,
     "_reviewed": false,
-    "_qid": "U-0036"
+    "_qid": "U-0027"
   },
   {
     "type": "어휘 적절성",
@@ -2080,7 +1874,7 @@ const QUESTION_BANK = [
     "_type": "vocab",
     "given_sentence": null,
     "_reviewed": false,
-    "_qid": "U-0037"
+    "_qid": "U-0028"
   },
   {
     "type": "어휘 적절성",
@@ -2103,7 +1897,7 @@ const QUESTION_BANK = [
     "_type": "vocab",
     "given_sentence": null,
     "_reviewed": false,
-    "_qid": "U-0038"
+    "_qid": "U-0029"
   },
   {
     "type": "어휘 적절성",
@@ -2126,7 +1920,7 @@ const QUESTION_BANK = [
     "_type": "vocab",
     "given_sentence": null,
     "_reviewed": false,
-    "_qid": "U-0039"
+    "_qid": "U-0030"
   },
   {
     "type": "어휘 적절성",
@@ -2149,7 +1943,7 @@ const QUESTION_BANK = [
     "_type": "vocab",
     "given_sentence": null,
     "_reviewed": false,
-    "_qid": "U-0040"
+    "_qid": "U-0031"
   },
   {
     "type": "어휘 적절성",
@@ -2172,7 +1966,7 @@ const QUESTION_BANK = [
     "_type": "vocab",
     "given_sentence": null,
     "_reviewed": false,
-    "_qid": "U-0041"
+    "_qid": "U-0032"
   },
   {
     "type": "어휘 적절성",
@@ -2195,7 +1989,7 @@ const QUESTION_BANK = [
     "_type": "vocab",
     "given_sentence": null,
     "_reviewed": false,
-    "_qid": "U-0042"
+    "_qid": "U-0033"
   },
   {
     "type": "어휘 적절성",
@@ -2218,7 +2012,7 @@ const QUESTION_BANK = [
     "_type": "vocab",
     "given_sentence": null,
     "_reviewed": false,
-    "_qid": "U-0043"
+    "_qid": "U-0034"
   },
   {
     "type": "어휘 적절성",
@@ -2241,7 +2035,7 @@ const QUESTION_BANK = [
     "_type": "vocab",
     "given_sentence": null,
     "_reviewed": false,
-    "_qid": "U-0044"
+    "_qid": "U-0035"
   },
   {
     "type": "글의 순서",
@@ -2287,7 +2081,7 @@ const QUESTION_BANK = [
     "_type": "order",
     "given_sentence": null,
     "_reviewed": false,
-    "_qid": "U-0045"
+    "_qid": "U-0036"
   },
   {
     "type": "글의 순서",
@@ -2310,7 +2104,7 @@ const QUESTION_BANK = [
     "_type": "order",
     "given_sentence": null,
     "_reviewed": false,
-    "_qid": "U-0046"
+    "_qid": "U-0037"
   },
   {
     "type": "글의 순서",
@@ -2333,7 +2127,7 @@ const QUESTION_BANK = [
     "_type": "order",
     "given_sentence": null,
     "_reviewed": false,
-    "_qid": "U-0047"
+    "_qid": "U-0038"
   },
   {
     "type": "글의 순서",
@@ -2356,7 +2150,7 @@ const QUESTION_BANK = [
     "_type": "order",
     "given_sentence": null,
     "_reviewed": false,
-    "_qid": "U-0048"
+    "_qid": "U-0039"
   },
   {
     "type": "글의 순서",
@@ -2379,7 +2173,7 @@ const QUESTION_BANK = [
     "_type": "order",
     "given_sentence": null,
     "_reviewed": false,
-    "_qid": "U-0049"
+    "_qid": "U-0040"
   },
   {
     "type": "글의 순서",
@@ -2402,7 +2196,7 @@ const QUESTION_BANK = [
     "_type": "order",
     "given_sentence": null,
     "_reviewed": false,
-    "_qid": "U-0050"
+    "_qid": "U-0041"
   },
   {
     "type": "글의 순서",
@@ -2425,7 +2219,7 @@ const QUESTION_BANK = [
     "_type": "order",
     "given_sentence": null,
     "_reviewed": false,
-    "_qid": "U-0051"
+    "_qid": "U-0042"
   },
   {
     "type": "요지/주제",
@@ -2564,7 +2358,7 @@ const QUESTION_BANK = [
     "given_sentence": null,
     "_source": "public_domain",
     "_reviewed": false,
-    "_qid": "U-0052"
+    "_qid": "U-0043"
   },
   {
     "type": "빈칸 추론",
@@ -2589,7 +2383,7 @@ const QUESTION_BANK = [
     "given_sentence": null,
     "_source": "public_domain",
     "_reviewed": false,
-    "_qid": "U-0053"
+    "_qid": "U-0044"
   },
   {
     "type": "문장 삽입",
@@ -2612,7 +2406,7 @@ const QUESTION_BANK = [
     "given_sentence": "By making books more affordable and accessible, the printing press became a catalyst for intellectual liberation and social transformation.",
     "_source": "public_domain",
     "_reviewed": false,
-    "_qid": "U-0054"
+    "_qid": "U-0045"
   },
   {
     "type": "문장 삽입",
@@ -2636,7 +2430,7 @@ const QUESTION_BANK = [
     "given_sentence": "This creates urgent pressure for developing robust frameworks to guide AI development responsibly.",
     "_source": "public_domain",
     "_reviewed": false,
-    "_qid": "U-0055"
+    "_qid": "U-0046"
   },
   {
     "type": "어법 판단",
@@ -2659,7 +2453,7 @@ const QUESTION_BANK = [
     "_source": "public_domain",
     "given_sentence": null,
     "_reviewed": false,
-    "_qid": "U-0056"
+    "_qid": "U-0047"
   },
   {
     "type": "어법 판단",
@@ -2683,7 +2477,7 @@ const QUESTION_BANK = [
     "_source": "public_domain",
     "given_sentence": null,
     "_reviewed": false,
-    "_qid": "U-0057"
+    "_qid": "U-0048"
   },
   {
     "type": "어휘 적절성",
@@ -2707,7 +2501,7 @@ const QUESTION_BANK = [
     "given_sentence": null,
     "_source": "public_domain",
     "_reviewed": false,
-    "_qid": "U-0058"
+    "_qid": "U-0049"
   },
   {
     "type": "어휘 적절성",
@@ -2731,7 +2525,7 @@ const QUESTION_BANK = [
     "_source": "public_domain",
     "given_sentence": null,
     "_reviewed": false,
-    "_qid": "U-0059"
+    "_qid": "U-0050"
   },
   {
     "type": "요지/주제",
@@ -2779,7 +2573,7 @@ const QUESTION_BANK = [
     "given_sentence": null,
     "_source": "public_domain",
     "_reviewed": false,
-    "_qid": "U-0060"
+    "_qid": "U-0051"
   },
   {
     "type": "문장 삽입",
@@ -2802,7 +2596,7 @@ const QUESTION_BANK = [
     },
     "_type": "insert",
     "_reviewed": false,
-    "_qid": "U-0061"
+    "_qid": "U-0052"
   },
   {
     "type": "문장 삽입",
@@ -2824,7 +2618,7 @@ const QUESTION_BANK = [
     },
     "_type": "insert",
     "_reviewed": false,
-    "_qid": "U-0062"
+    "_qid": "U-0053"
   },
   {
     "type": "문장 삽입",
@@ -2847,7 +2641,7 @@ const QUESTION_BANK = [
     },
     "_type": "insert",
     "_reviewed": false,
-    "_qid": "U-0063"
+    "_qid": "U-0054"
   },
   {
     "type": "어법 판단",
@@ -2870,7 +2664,7 @@ const QUESTION_BANK = [
     "_type": "grammar",
     "given_sentence": null,
     "_reviewed": false,
-    "_qid": "U-0064"
+    "_qid": "U-0055"
   },
   {
     "type": "어법 판단",
@@ -2893,7 +2687,7 @@ const QUESTION_BANK = [
     "_type": "grammar",
     "given_sentence": null,
     "_reviewed": false,
-    "_qid": "U-0065"
+    "_qid": "U-0056"
   },
   {
     "type": "어법 판단",
@@ -2916,7 +2710,7 @@ const QUESTION_BANK = [
     "_type": "grammar",
     "given_sentence": null,
     "_reviewed": false,
-    "_qid": "U-0066"
+    "_qid": "U-0057"
   },
   {
     "type": "어휘 적절성",
@@ -2939,7 +2733,7 @@ const QUESTION_BANK = [
     "_type": "vocab",
     "given_sentence": null,
     "_reviewed": false,
-    "_qid": "U-0067"
+    "_qid": "U-0058"
   },
   {
     "type": "어휘 적절성",
@@ -2962,7 +2756,7 @@ const QUESTION_BANK = [
     "_type": "vocab",
     "given_sentence": null,
     "_reviewed": false,
-    "_qid": "U-0068"
+    "_qid": "U-0059"
   },
   {
     "type": "어휘 적절성",
@@ -2985,7 +2779,7 @@ const QUESTION_BANK = [
     "_type": "vocab",
     "given_sentence": null,
     "_reviewed": false,
-    "_qid": "U-0069"
+    "_qid": "U-0060"
   },
   {
     "type": "빈칸 추론",
@@ -3004,7 +2798,7 @@ const QUESTION_BANK = [
     "wrong_explanations": {},
     "id": "ENG-001",
     "_reviewed": false,
-    "_qid": "U-0070"
+    "_qid": "U-0061"
   },
   {
     "type": "빈칸 추론",
@@ -3023,7 +2817,7 @@ const QUESTION_BANK = [
     "wrong_explanations": {},
     "id": "ENG-002",
     "_reviewed": false,
-    "_qid": "U-0071"
+    "_qid": "U-0062"
   },
   {
     "type": "빈칸 추론",
@@ -3042,7 +2836,7 @@ const QUESTION_BANK = [
     "wrong_explanations": {},
     "id": "ENG-003",
     "_reviewed": false,
-    "_qid": "U-0072"
+    "_qid": "U-0063"
   },
   {
     "type": "빈칸 추론",
@@ -3061,7 +2855,7 @@ const QUESTION_BANK = [
     "wrong_explanations": {},
     "id": "ENG-004",
     "_reviewed": false,
-    "_qid": "U-0073"
+    "_qid": "U-0064"
   },
   {
     "type": "빈칸 추론",
@@ -3080,7 +2874,7 @@ const QUESTION_BANK = [
     "wrong_explanations": {},
     "id": "ENG-005",
     "_reviewed": false,
-    "_qid": "U-0074"
+    "_qid": "U-0065"
   },
   {
     "type": "빈칸 추론",
@@ -3099,7 +2893,7 @@ const QUESTION_BANK = [
     "wrong_explanations": {},
     "id": "ENG-006",
     "_reviewed": false,
-    "_qid": "U-0075"
+    "_qid": "U-0066"
   },
   {
     "type": "빈칸 추론",
@@ -3118,7 +2912,7 @@ const QUESTION_BANK = [
     "wrong_explanations": {},
     "id": "ENG-007",
     "_reviewed": false,
-    "_qid": "U-0076"
+    "_qid": "U-0067"
   },
   {
     "type": "빈칸 추론",
@@ -3137,7 +2931,7 @@ const QUESTION_BANK = [
     "wrong_explanations": {},
     "id": "ENG-008",
     "_reviewed": false,
-    "_qid": "U-0077"
+    "_qid": "U-0068"
   },
   {
     "type": "빈칸 추론",
@@ -3156,7 +2950,7 @@ const QUESTION_BANK = [
     "wrong_explanations": {},
     "id": "ENG-009",
     "_reviewed": false,
-    "_qid": "U-0078"
+    "_qid": "U-0069"
   },
   {
     "type": "빈칸 추론",
@@ -3175,7 +2969,7 @@ const QUESTION_BANK = [
     "wrong_explanations": {},
     "id": "ENG-010",
     "_reviewed": false,
-    "_qid": "U-0079"
+    "_qid": "U-0070"
   },
   {
     "type": "빈칸 추론",
@@ -3199,7 +2993,7 @@ const QUESTION_BANK = [
     "given_sentence": null,
     "id": "ENG-011",
     "_reviewed": false,
-    "_qid": "U-0080"
+    "_qid": "U-0071"
   },
   {
     "type": "빈칸 추론",
@@ -3223,7 +3017,7 @@ const QUESTION_BANK = [
     "given_sentence": null,
     "id": "ENG-012",
     "_reviewed": false,
-    "_qid": "U-0081"
+    "_qid": "U-0072"
   },
   {
     "type": "빈칸 추론",
@@ -3247,7 +3041,7 @@ const QUESTION_BANK = [
     "given_sentence": null,
     "id": "ENG-013",
     "_reviewed": false,
-    "_qid": "U-0082"
+    "_qid": "U-0073"
   },
   {
     "type": "빈칸 추론",
@@ -3271,7 +3065,7 @@ const QUESTION_BANK = [
     "given_sentence": null,
     "id": "ENG-014",
     "_reviewed": false,
-    "_qid": "U-0083"
+    "_qid": "U-0074"
   },
   {
     "type": "빈칸 추론",
@@ -3295,7 +3089,7 @@ const QUESTION_BANK = [
     "given_sentence": null,
     "id": "ENG-015",
     "_reviewed": false,
-    "_qid": "U-0084"
+    "_qid": "U-0075"
   },
   {
     "type": "빈칸 추론",
@@ -3314,7 +3108,7 @@ const QUESTION_BANK = [
     "wrong_explanations": {},
     "id": "ENG-016",
     "_reviewed": false,
-    "_qid": "U-0085"
+    "_qid": "U-0076"
   },
   {
     "type": "빈칸 추론",
@@ -3333,7 +3127,7 @@ const QUESTION_BANK = [
     "wrong_explanations": {},
     "id": "ENG-017",
     "_reviewed": false,
-    "_qid": "U-0086"
+    "_qid": "U-0077"
   },
   {
     "type": "빈칸 추론",
@@ -3352,7 +3146,7 @@ const QUESTION_BANK = [
     "wrong_explanations": {},
     "id": "ENG-018",
     "_reviewed": false,
-    "_qid": "U-0087"
+    "_qid": "U-0078"
   },
   {
     "type": "빈칸 추론",
@@ -3371,7 +3165,7 @@ const QUESTION_BANK = [
     "wrong_explanations": {},
     "id": "ENG-019",
     "_reviewed": false,
-    "_qid": "U-0088"
+    "_qid": "U-0079"
   },
   {
     "type": "빈칸 추론",
@@ -3390,7 +3184,7 @@ const QUESTION_BANK = [
     "wrong_explanations": {},
     "id": "ENG-020",
     "_reviewed": false,
-    "_qid": "U-0089"
+    "_qid": "U-0080"
   },
   {
     "type": "빈칸 추론",
@@ -3415,7 +3209,7 @@ const QUESTION_BANK = [
     "given_sentence": null,
     "id": "ENG-021",
     "_reviewed": false,
-    "_qid": "U-0090"
+    "_qid": "U-0081"
   },
   {
     "type": "빈칸 추론",
@@ -3440,7 +3234,7 @@ const QUESTION_BANK = [
     "given_sentence": null,
     "id": "ENG-022",
     "_reviewed": false,
-    "_qid": "U-0091"
+    "_qid": "U-0082"
   },
   {
     "type": "빈칸 추론",
@@ -3465,7 +3259,7 @@ const QUESTION_BANK = [
     "given_sentence": null,
     "id": "ENG-023",
     "_reviewed": false,
-    "_qid": "U-0092"
+    "_qid": "U-0083"
   },
   {
     "type": "빈칸 추론",
@@ -3490,7 +3284,7 @@ const QUESTION_BANK = [
     "given_sentence": null,
     "id": "ENG-024",
     "_reviewed": false,
-    "_qid": "U-0093"
+    "_qid": "U-0084"
   },
   {
     "type": "빈칸 추론",
@@ -3515,7 +3309,7 @@ const QUESTION_BANK = [
     "given_sentence": null,
     "id": "ENG-025",
     "_reviewed": false,
-    "_qid": "U-0094"
+    "_qid": "U-0085"
   },
   {
     "type": "빈칸 추론",
@@ -3539,7 +3333,7 @@ const QUESTION_BANK = [
     "given_sentence": null,
     "id": "ENG-026",
     "_reviewed": false,
-    "_qid": "U-0095"
+    "_qid": "U-0086"
   },
   {
     "type": "빈칸 추론",
@@ -3563,7 +3357,7 @@ const QUESTION_BANK = [
     "given_sentence": null,
     "id": "ENG-027",
     "_reviewed": false,
-    "_qid": "U-0096"
+    "_qid": "U-0087"
   },
   {
     "type": "빈칸 추론",
@@ -3587,7 +3381,7 @@ const QUESTION_BANK = [
     "given_sentence": null,
     "id": "ENG-028",
     "_reviewed": false,
-    "_qid": "U-0097"
+    "_qid": "U-0088"
   },
   {
     "type": "빈칸 추론",
@@ -3611,7 +3405,7 @@ const QUESTION_BANK = [
     "given_sentence": null,
     "id": "ENG-029",
     "_reviewed": false,
-    "_qid": "U-0098"
+    "_qid": "U-0089"
   },
   {
     "type": "빈칸 추론",
@@ -3635,7 +3429,7 @@ const QUESTION_BANK = [
     "given_sentence": null,
     "id": "ENG-030",
     "_reviewed": false,
-    "_qid": "U-0099"
+    "_qid": "U-0090"
   },
   {
     "type": "빈칸 추론",
@@ -3654,7 +3448,7 @@ const QUESTION_BANK = [
     "wrong_explanations": {},
     "id": "ENG-031",
     "_reviewed": false,
-    "_qid": "U-0100"
+    "_qid": "U-0091"
   },
   {
     "type": "빈칸 추론",
@@ -3673,7 +3467,7 @@ const QUESTION_BANK = [
     "wrong_explanations": {},
     "id": "ENG-032",
     "_reviewed": false,
-    "_qid": "U-0101"
+    "_qid": "U-0092"
   },
   {
     "type": "빈칸 추론",
@@ -3692,7 +3486,7 @@ const QUESTION_BANK = [
     "wrong_explanations": {},
     "id": "ENG-033",
     "_reviewed": false,
-    "_qid": "U-0102"
+    "_qid": "U-0093"
   },
   {
     "type": "빈칸 추론",
@@ -3711,7 +3505,7 @@ const QUESTION_BANK = [
     "wrong_explanations": {},
     "id": "ENG-034",
     "_reviewed": false,
-    "_qid": "U-0103"
+    "_qid": "U-0094"
   },
   {
     "type": "문장 삽입",
@@ -3730,7 +3524,7 @@ const QUESTION_BANK = [
     "wrong_explanations": {},
     "id": "ENG-035",
     "_reviewed": false,
-    "_qid": "U-0104"
+    "_qid": "U-0095"
   },
   {
     "type": "문장 삽입",
@@ -3749,7 +3543,7 @@ const QUESTION_BANK = [
     "wrong_explanations": {},
     "id": "ENG-036",
     "_reviewed": false,
-    "_qid": "U-0105"
+    "_qid": "U-0096"
   },
   {
     "type": "문장 삽입",
@@ -3768,7 +3562,7 @@ const QUESTION_BANK = [
     "wrong_explanations": {},
     "id": "ENG-037",
     "_reviewed": false,
-    "_qid": "U-0106"
+    "_qid": "U-0097"
   },
   {
     "type": "문장 삽입",
@@ -3787,7 +3581,7 @@ const QUESTION_BANK = [
     "wrong_explanations": {},
     "id": "ENG-038",
     "_reviewed": false,
-    "_qid": "U-0107"
+    "_qid": "U-0098"
   },
   {
     "type": "문장 삽입",
@@ -3806,7 +3600,7 @@ const QUESTION_BANK = [
     "wrong_explanations": {},
     "id": "ENG-039",
     "_reviewed": false,
-    "_qid": "U-0108"
+    "_qid": "U-0099"
   },
   {
     "type": "문장 삽입",
@@ -3830,7 +3624,7 @@ const QUESTION_BANK = [
     "_type": "insert",
     "id": "ENG-040",
     "_reviewed": false,
-    "_qid": "U-0109"
+    "_qid": "U-0100"
   },
   {
     "type": "문장 삽입",
@@ -3854,7 +3648,7 @@ const QUESTION_BANK = [
     "_type": "insert",
     "id": "ENG-041",
     "_reviewed": false,
-    "_qid": "U-0110"
+    "_qid": "U-0101"
   },
   {
     "type": "문장 삽입",
@@ -3877,7 +3671,7 @@ const QUESTION_BANK = [
     "_type": "insert",
     "id": "ENG-042",
     "_reviewed": false,
-    "_qid": "U-0111"
+    "_qid": "U-0102"
   },
   {
     "type": "문장 삽입",
@@ -3900,7 +3694,7 @@ const QUESTION_BANK = [
     "_type": "insert",
     "id": "ENG-043",
     "_reviewed": false,
-    "_qid": "U-0112"
+    "_qid": "U-0103"
   },
   {
     "type": "문장 삽입",
@@ -3923,7 +3717,7 @@ const QUESTION_BANK = [
     "_type": "insert",
     "id": "ENG-044",
     "_reviewed": false,
-    "_qid": "U-0113"
+    "_qid": "U-0104"
   },
   {
     "type": "문장 삽입",
@@ -3947,7 +3741,7 @@ const QUESTION_BANK = [
     "_type": "insert",
     "id": "ENG-045",
     "_reviewed": false,
-    "_qid": "U-0114"
+    "_qid": "U-0105"
   },
   {
     "type": "문장 삽입",
@@ -3971,7 +3765,7 @@ const QUESTION_BANK = [
     "_type": "insert",
     "id": "ENG-046",
     "_reviewed": false,
-    "_qid": "U-0115"
+    "_qid": "U-0106"
   },
   {
     "type": "문장 삽입",
@@ -3995,7 +3789,7 @@ const QUESTION_BANK = [
     "_type": "insert",
     "id": "ENG-047",
     "_reviewed": false,
-    "_qid": "U-0116"
+    "_qid": "U-0107"
   },
   {
     "type": "문장 삽입",
@@ -4019,7 +3813,7 @@ const QUESTION_BANK = [
     "_type": "insert",
     "id": "ENG-048",
     "_reviewed": false,
-    "_qid": "U-0117"
+    "_qid": "U-0108"
   },
   {
     "type": "문장 삽입",
@@ -4043,7 +3837,7 @@ const QUESTION_BANK = [
     "_type": "insert",
     "id": "ENG-049",
     "_reviewed": false,
-    "_qid": "U-0118"
+    "_qid": "U-0109"
   },
   {
     "type": "문장 삽입",
@@ -4067,7 +3861,7 @@ const QUESTION_BANK = [
     "_type": "insert",
     "id": "ENG-050",
     "_reviewed": false,
-    "_qid": "U-0119"
+    "_qid": "U-0110"
   },
   {
     "type": "문장 삽입",
@@ -4091,7 +3885,7 @@ const QUESTION_BANK = [
     "_type": "insert",
     "id": "ENG-051",
     "_reviewed": false,
-    "_qid": "U-0120"
+    "_qid": "U-0111"
   },
   {
     "type": "문장 삽입",
@@ -4115,7 +3909,7 @@ const QUESTION_BANK = [
     "_type": "insert",
     "id": "ENG-053",
     "_reviewed": false,
-    "_qid": "U-0121"
+    "_qid": "U-0112"
   },
   {
     "type": "문장 삽입",
@@ -4139,7 +3933,7 @@ const QUESTION_BANK = [
     "_type": "insert",
     "id": "ENG-054",
     "_reviewed": false,
-    "_qid": "U-0122"
+    "_qid": "U-0113"
   },
   {
     "type": "문장 삽입",
@@ -4163,7 +3957,7 @@ const QUESTION_BANK = [
     "_type": "insert",
     "id": "ENG-055",
     "_reviewed": false,
-    "_qid": "U-0123"
+    "_qid": "U-0114"
   },
   {
     "type": "문장 삽입",
@@ -4187,7 +3981,7 @@ const QUESTION_BANK = [
     "_type": "insert",
     "id": "ENG-056",
     "_reviewed": false,
-    "_qid": "U-0124"
+    "_qid": "U-0115"
   },
   {
     "type": "문장 삽입",
@@ -4211,7 +4005,7 @@ const QUESTION_BANK = [
     "_type": "insert",
     "id": "ENG-057",
     "_reviewed": false,
-    "_qid": "U-0125"
+    "_qid": "U-0116"
   },
   {
     "type": "문장 삽입",
@@ -4235,7 +4029,7 @@ const QUESTION_BANK = [
     "_type": "insert",
     "id": "ENG-058",
     "_reviewed": false,
-    "_qid": "U-0126"
+    "_qid": "U-0117"
   },
   {
     "type": "문장 삽입",
@@ -4259,7 +4053,7 @@ const QUESTION_BANK = [
     "_type": "insert",
     "id": "ENG-059",
     "_reviewed": false,
-    "_qid": "U-0127"
+    "_qid": "U-0118"
   },
   {
     "type": "문장 삽입",
@@ -4283,7 +4077,7 @@ const QUESTION_BANK = [
     "_type": "insert",
     "id": "ENG-060",
     "_reviewed": false,
-    "_qid": "U-0128"
+    "_qid": "U-0119"
   },
   {
     "type": "문장 삽입",
@@ -4307,7 +4101,7 @@ const QUESTION_BANK = [
     "_type": "insert",
     "id": "ENG-061",
     "_reviewed": false,
-    "_qid": "U-0129"
+    "_qid": "U-0120"
   },
   {
     "type": "문장 삽입",
@@ -4331,7 +4125,7 @@ const QUESTION_BANK = [
     "_type": "insert",
     "id": "ENG-062",
     "_reviewed": false,
-    "_qid": "U-0130"
+    "_qid": "U-0121"
   },
   {
     "type": "문장 삽입",
@@ -4355,7 +4149,7 @@ const QUESTION_BANK = [
     "_type": "insert",
     "id": "ENG-063",
     "_reviewed": false,
-    "_qid": "U-0131"
+    "_qid": "U-0122"
   },
   {
     "type": "문장 삽입",
@@ -4379,7 +4173,7 @@ const QUESTION_BANK = [
     "_type": "insert",
     "id": "ENG-064",
     "_reviewed": false,
-    "_qid": "U-0132"
+    "_qid": "U-0123"
   },
   {
     "type": "문장 삽입",
@@ -4398,7 +4192,7 @@ const QUESTION_BANK = [
     "wrong_explanations": {},
     "id": "ENG-065",
     "_reviewed": false,
-    "_qid": "U-0133"
+    "_qid": "U-0124"
   },
   {
     "type": "문장 삽입",
@@ -4417,7 +4211,7 @@ const QUESTION_BANK = [
     "wrong_explanations": {},
     "id": "ENG-066",
     "_reviewed": false,
-    "_qid": "U-0134"
+    "_qid": "U-0125"
   },
   {
     "type": "문장 삽입",
@@ -4436,7 +4230,7 @@ const QUESTION_BANK = [
     "wrong_explanations": {},
     "id": "ENG-067",
     "_reviewed": false,
-    "_qid": "U-0135"
+    "_qid": "U-0126"
   },
   {
     "type": "어법 판단",
@@ -4455,7 +4249,7 @@ const QUESTION_BANK = [
     "given_sentence": null,
     "id": "ENG-068",
     "_reviewed": false,
-    "_qid": "U-0136"
+    "_qid": "U-0127"
   },
   {
     "type": "어법 판단",
@@ -4474,7 +4268,7 @@ const QUESTION_BANK = [
     "given_sentence": null,
     "id": "ENG-069",
     "_reviewed": false,
-    "_qid": "U-0137"
+    "_qid": "U-0128"
   },
   {
     "type": "어법 판단",
@@ -4493,7 +4287,7 @@ const QUESTION_BANK = [
     "given_sentence": null,
     "id": "ENG-070",
     "_reviewed": false,
-    "_qid": "U-0138"
+    "_qid": "U-0129"
   },
   {
     "type": "어법 판단",
@@ -4512,7 +4306,7 @@ const QUESTION_BANK = [
     "given_sentence": null,
     "id": "ENG-071",
     "_reviewed": false,
-    "_qid": "U-0139"
+    "_qid": "U-0130"
   },
   {
     "type": "어법 판단",
@@ -4531,7 +4325,7 @@ const QUESTION_BANK = [
     "given_sentence": null,
     "id": "ENG-072",
     "_reviewed": false,
-    "_qid": "U-0140"
+    "_qid": "U-0131"
   },
   {
     "type": "어법 판단",
@@ -4550,7 +4344,7 @@ const QUESTION_BANK = [
     "given_sentence": null,
     "id": "ENG-073",
     "_reviewed": false,
-    "_qid": "U-0141"
+    "_qid": "U-0132"
   },
   {
     "type": "어법 판단",
@@ -4569,7 +4363,7 @@ const QUESTION_BANK = [
     "given_sentence": null,
     "id": "ENG-074",
     "_reviewed": false,
-    "_qid": "U-0142"
+    "_qid": "U-0133"
   },
   {
     "type": "어법 판단",
@@ -4588,7 +4382,7 @@ const QUESTION_BANK = [
     "given_sentence": null,
     "id": "ENG-075",
     "_reviewed": false,
-    "_qid": "U-0143"
+    "_qid": "U-0134"
   },
   {
     "type": "어법 판단",
@@ -4600,14 +4394,14 @@ const QUESTION_BANK = [
       "one indulges",
       "eventually develops"
     ],
-    "answer": 4,
+    "answer": 3,
     "explanation": "정답은 ④번 'one indulges'입니다. 이 부분은 관계절에서 선행사가 'insights'이므로, 관계대명사 that이 생략되어 있고 'one indulges in'의 형태가 되어야 합니다. 문맥상 'in which one indulges' 또는 '관계대명사 that을 사용하여 one indulges in'이 올바른 형태입니다. 현재 형태 'one indulges'는 전치사 in이 빠져 있어 부정확합니다. ①은 단수 주어에 맞는 동사, ②는 복수 주어 practitioners에 맞는 동사, ③은 동사 contemplate의 올바른 사용, ⑤는 주어 which(insights)에 대한 3인칭 단수 동사로 올바릅니다.",
     "wrong_explanations": {},
     "_type": "grammar",
     "given_sentence": null,
     "id": "ENG-076",
     "_reviewed": false,
-    "_qid": "U-0144"
+    "_qid": "U-0135"
   },
   {
     "type": "어법 판단",
@@ -4626,7 +4420,7 @@ const QUESTION_BANK = [
     "given_sentence": null,
     "id": "ENG-077",
     "_reviewed": false,
-    "_qid": "U-0145"
+    "_qid": "U-0136"
   },
   {
     "type": "어법 판단",
@@ -4645,7 +4439,7 @@ const QUESTION_BANK = [
     "given_sentence": null,
     "id": "ENG-078",
     "_reviewed": false,
-    "_qid": "U-0146"
+    "_qid": "U-0137"
   },
   {
     "type": "어법 판단",
@@ -4664,7 +4458,7 @@ const QUESTION_BANK = [
     "given_sentence": null,
     "id": "ENG-079",
     "_reviewed": false,
-    "_qid": "U-0147"
+    "_qid": "U-0138"
   },
   {
     "type": "어법 판단",
@@ -4683,7 +4477,7 @@ const QUESTION_BANK = [
     "given_sentence": null,
     "id": "ENG-080",
     "_reviewed": false,
-    "_qid": "U-0148"
+    "_qid": "U-0139"
   },
   {
     "type": "어법 판단",
@@ -4702,7 +4496,7 @@ const QUESTION_BANK = [
     "given_sentence": null,
     "id": "ENG-081",
     "_reviewed": false,
-    "_qid": "U-0149"
+    "_qid": "U-0140"
   },
   {
     "type": "어법 판단",
@@ -4721,7 +4515,7 @@ const QUESTION_BANK = [
     "given_sentence": null,
     "id": "ENG-082",
     "_reviewed": false,
-    "_qid": "U-0150"
+    "_qid": "U-0141"
   },
   {
     "type": "어법 판단",
@@ -4740,7 +4534,7 @@ const QUESTION_BANK = [
     "given_sentence": null,
     "id": "ENG-083",
     "_reviewed": false,
-    "_qid": "U-0151"
+    "_qid": "U-0142"
   },
   {
     "type": "어법 판단",
@@ -4759,7 +4553,7 @@ const QUESTION_BANK = [
     "given_sentence": null,
     "id": "ENG-084",
     "_reviewed": false,
-    "_qid": "U-0152"
+    "_qid": "U-0143"
   },
   {
     "type": "어법 판단",
@@ -4771,14 +4565,14 @@ const QUESTION_BANK = [
       "④researching",
       "⑤praise"
     ],
-    "answer": 4,
+    "answer": 3,
     "explanation": "정답은 ④번 'researching'입니다. 분사 구문의 오류입니다. 'experts researching climate change'에서 'researching'은 현재분사로 사용되었는데, 이는 문법적으로 문제가 없습니다. 재검토 결과, 실제 오류는 ⑤번 'praise'입니다. 주어 'Viewers'는 복수형이므로 'praise'가 올바릅니다. 모든 선택지가 정확하므로 문제 재구성이 필요합니다.",
     "wrong_explanations": {},
     "_type": "grammar",
     "given_sentence": null,
     "id": "ENG-085",
     "_reviewed": false,
-    "_qid": "U-0153"
+    "_qid": "U-0144"
   },
   {
     "type": "어법 판단",
@@ -4797,7 +4591,7 @@ const QUESTION_BANK = [
     "given_sentence": null,
     "id": "ENG-086",
     "_reviewed": false,
-    "_qid": "U-0154"
+    "_qid": "U-0145"
   },
   {
     "type": "어법 판단",
@@ -4816,7 +4610,7 @@ const QUESTION_BANK = [
     "given_sentence": null,
     "id": "ENG-087",
     "_reviewed": false,
-    "_qid": "U-0155"
+    "_qid": "U-0146"
   },
   {
     "type": "어법 판단",
@@ -4835,7 +4629,7 @@ const QUESTION_BANK = [
     "given_sentence": null,
     "id": "ENG-088",
     "_reviewed": false,
-    "_qid": "U-0156"
+    "_qid": "U-0147"
   },
   {
     "type": "어법 판단",
@@ -4859,7 +4653,7 @@ const QUESTION_BANK = [
     "given_sentence": null,
     "id": "ENG-089",
     "_reviewed": false,
-    "_qid": "U-0157"
+    "_qid": "U-0148"
   },
   {
     "type": "어법 판단",
@@ -4878,55 +4672,7 @@ const QUESTION_BANK = [
     "given_sentence": null,
     "id": "ENG-090",
     "_reviewed": false,
-    "_qid": "U-0158"
-  },
-  {
-    "type": "어법 판단",
-    "passage": "Evidence-based medicine (EBM) is ①defined as the conscientious and judicious use of current best evidence in making decisions about patient care. ②Integrating individual clinical expertise with the best available external evidence from systematic research, EBM aims ③to combine the clinician's experience with patient values and scientific information. The EBM Pyramid is a tool ④that helps visualize the hierarchy of evidence, ⑤ranging from expert opinions to systematic reviews. Adoption of evidence-based medicine ⑤is necessary for a rights-based approach to public health.",
-    "choices": [
-      "①defined",
-      "②Integrating",
-      "③to combine",
-      "④that helps",
-      "⑤ranging"
-    ],
-    "answer": 4,
-    "explanation": "정답: ⑤ranging → which ranges. 문장을 분석하면, 'The EBM Pyramid is a tool that helps visualize..., ranging from expert opinions to systematic reviews.'에서 ④'that helps'는 관계절입니다. ⑤'ranging'은 분사구문인데, 선행 절과의 연결이 부자연스럽습니다. 'ranging'이 'tool'을 수식하려면 'a tool ranging from'의 형태여야 하는데, 현재는 'that helps'와 중복되어 있습니다. 따라서 ⑤'ranging'은 'which ranges' 또는 단순히 'from'으로 시작하는 전치사구로 수정되어야 합니다.",
-    "wrong_explanations": {
-      "①defined": "'defined as'는 올바른 표현입니다.",
-      "②Integrating": "분사구문으로 올바르게 사용되었습니다.",
-      "③to combine": "to부정사의 목적을 나타내므로 올바릅니다.",
-      "④that helps": "관계대명사 'that'은 'tool'을 선행사로 하며 올바릅니다."
-    },
-    "_type": "grammar",
-    "given_sentence": null,
-    "id": "ENG-092",
-    "_reviewed": false,
-    "_qid": "U-0159"
-  },
-  {
-    "type": "어법 판단",
-    "passage": "Remote work has transformed how people ①view the importance of third places in their communities. Many employees ②who previously commuted to offices now ③seeking alternative social environments to prevent isolation. Urban planners ④recognize that accessible third places serve as essential components of community infrastructure, ⑤providing neutral grounds where diverse groups interact. The pandemic's impact on work patterns has ⑤renewed interest in designing neighborhoods that encourage casual encounters and foster social cohesion.",
-    "choices": [
-      "①view",
-      "②who previously",
-      "③seeking",
-      "④recognize",
-      "⑤providing"
-    ],
-    "answer": 2,
-    "explanation": "정답: ③seeking → seek. 문장 구조상 'Many employees who previously commuted to offices now seek alternative social environments'가 되어야 합니다. ③번 'seeking'은 현재분사인데, 주절의 동사 자리에 와야 하므로 기본형 'seek'으로 수정되어야 합니다. 'now seeking'은 진행형이 아니라 단순현재를 나타내야 하는 상황이므로, ③'seeking'을 ③'seek'으로 변경해야 합니다.",
-    "wrong_explanations": {
-      "①view": "동사 'view'는 주어 'people'과 수일치하며 올바릅니다.",
-      "②who previously": "관계절로 올바르게 사용되었습니다.",
-      "④recognize": "동사 'recognize'는 주어 'planners'와 수일치하며 올바릅니다.",
-      "⑤providing": "분사구문으로 앞의 절을 수식하므로 올바릅니다."
-    },
-    "_type": "grammar",
-    "given_sentence": null,
-    "id": "ENG-093",
-    "_reviewed": false,
-    "_qid": "U-0160"
+    "_qid": "U-0149"
   },
   {
     "type": "어법 판단",
@@ -4945,7 +4691,7 @@ const QUESTION_BANK = [
     "given_sentence": null,
     "id": "ENG-094",
     "_reviewed": false,
-    "_qid": "U-0161"
+    "_qid": "U-0150"
   },
   {
     "type": "어법 판단",
@@ -4964,7 +4710,7 @@ const QUESTION_BANK = [
     "given_sentence": null,
     "id": "ENG-095",
     "_reviewed": false,
-    "_qid": "U-0162"
+    "_qid": "U-0151"
   },
   {
     "type": "어법 판단",
@@ -4983,7 +4729,7 @@ const QUESTION_BANK = [
     "given_sentence": null,
     "id": "ENG-096",
     "_reviewed": false,
-    "_qid": "U-0163"
+    "_qid": "U-0152"
   },
   {
     "type": "어법 판단",
@@ -5002,7 +4748,7 @@ const QUESTION_BANK = [
     "given_sentence": null,
     "id": "ENG-097",
     "_reviewed": false,
-    "_qid": "U-0164"
+    "_qid": "U-0153"
   },
   {
     "type": "어법 판단",
@@ -5021,7 +4767,7 @@ const QUESTION_BANK = [
     "given_sentence": null,
     "id": "ENG-098",
     "_reviewed": false,
-    "_qid": "U-0165"
+    "_qid": "U-0154"
   },
   {
     "type": "어법 판단",
@@ -5040,7 +4786,7 @@ const QUESTION_BANK = [
     "given_sentence": null,
     "id": "ENG-099",
     "_reviewed": false,
-    "_qid": "U-0166"
+    "_qid": "U-0155"
   },
   {
     "type": "어법 판단",
@@ -5059,7 +4805,7 @@ const QUESTION_BANK = [
     "given_sentence": null,
     "id": "ENG-100",
     "_reviewed": false,
-    "_qid": "U-0167"
+    "_qid": "U-0156"
   },
   {
     "type": "글의 목적",
