@@ -1422,17 +1422,22 @@ async function submitReport() {
   if (db) {
     try {
       await db.collection('question_reports').add(report);
+      // 해당 문제의 신고 카운트 증가
+      if (q._qid) {
+        const countRef = db.collection('question_report_counts').doc(q._qid);
+        await countRef.set({ count: firebase.firestore.FieldValue.increment(1), qid: q._qid, lastReport: new Date().toISOString() }, { merge: true });
+      }
     } catch(e) {
       console.warn('Firestore 신고 저장 실패:', e);
     }
   }
 
-  // 서버에도 저장 (백업)
+  // 서버에 비활성화 요청 (3건 이상 시)
   try {
-    await fetch('/api/save-question', {
+    await fetch('/api/report-question', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({ report: report }),
+      body: JSON.stringify({ qid: q._qid, reportType: reportType }),
     });
   } catch(e) {}
 

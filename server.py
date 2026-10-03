@@ -145,6 +145,9 @@ class AppHandler(http.server.SimpleHTTPRequestHandler):
             if len(available) < count:
                 available = pool
 
+            # 비활성화 문제 제외
+            available = [q for q in available if not q.get('_disabled')]
+
             # 감수완료(R) 문제 우선 제공
             reviewed = [q for q in available if q.get('_reviewed')]
             unreviewed = [q for q in available if not q.get('_reviewed')]
@@ -160,6 +163,41 @@ class AppHandler(http.server.SimpleHTTPRequestHandler):
             self.send_header('Access-Control-Allow-Origin', '*')
             self.end_headers()
             self.wfile.write(json.dumps(selected, ensure_ascii=False).encode())
+            return
+
+        if self.path == '/api/report-question':
+            content_length = int(self.headers.get('Content-Length', 0))
+            body = self.rfile.read(content_length)
+            data = json.loads(body) if body else {}
+            qid = data.get('qid', '')
+            if qid:
+                # 신고 카운트 증가
+                if not hasattr(self, '_report_counts'):
+                    type(self)._report_counts = {}
+                counts = type(self)._report_counts
+                counts[qid] = counts.get(qid, 0) + 1
+                count = counts[qid]
+                disabled = False
+                # 3건 이상이면 비활성화
+                if count >= 3:
+                    for q in question_bank:
+                        if q.get('_qid') == qid:
+                            q['_disabled'] = True
+                            q['_disabledReason'] = f'신고 {count}건 누적'
+                            disabled = True
+                            print(f"⚠️ 문제 비활성화: {qid} (신고 {count}건)")
+                            break
+                self.send_response(200)
+                self.send_header('Content-Type', 'application/json')
+                self.send_header('Access-Control-Allow-Origin', '*')
+                self.end_headers()
+                self.wfile.write(json.dumps({'qid': qid, 'reportCount': count, 'disabled': disabled}).encode())
+            else:
+                self.send_response(400)
+                self.send_header('Content-Type', 'application/json')
+                self.send_header('Access-Control-Allow-Origin', '*')
+                self.end_headers()
+                self.wfile.write(json.dumps({'error': 'qid required'}).encode())
             return
 
         if self.path == '/api/save-question':
