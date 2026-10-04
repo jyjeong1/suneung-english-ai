@@ -2164,43 +2164,8 @@ async function startTypeTraining(type) {
   if (!checkFreeLimit()) return;
   quizQueue = [type, type, type, type, type];
   state.currentQuestionIndex = 0;
-  state._lastPassage = null; // 장문 그룹 초기화
   switchToQuizPage();
   await loadQuestion(type);
-}
-
-// 장문 모드: 같은 지문으로 2~3문제 연속 출제
-async function startLongPassage() {
-  if (!checkFreeLimit()) return;
-  try {
-    // 서버에서 장문 그룹 요청
-    const res = await fetch('/api/questions', {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({ type: 'blank', count: 1, uid: fbUser ? fbUser.uid : '', exclude: [] }),
-    });
-    const questions = await res.json();
-    if (questions.length === 0) return alert('문제가 부족합니다');
-
-    const baseQ = questions[0];
-    // 같은 지문으로 제목+어휘 문제 생성 (41~42번 스타일)
-    const titleQ = { ...baseQ, _type: 'title', type: '제목 추론', _groupId: 'long', _groupOrder: 1,
-      choices: ['①' + baseQ.passage.substring(0,30), '②The Hidden Truth Behind...', '③A New Perspective on...', '④Why We Should Rethink...', '⑤The Unexpected Impact of...'],
-      answer: 3 };
-    // 실제로는 서버에서 같은 지문 기반 문제 세트를 제공해야 함
-
-    quizQueue = ['_long_1', '_long_2'];
-    state.currentQuestionIndex = 0;
-    state._lastPassage = null;
-    state._longQuestions = [baseQ, { ...baseQ, _type: 'vocab', type: '어휘 적절성' }];
-    switchToQuizPage();
-    state.currentQuiz = state._longQuestions[0];
-    state.selectedChoice = -1;
-    state.answered = false;
-    renderQuestion();
-  } catch(e) {
-    console.error('장문 모드 실패:', e);
-  }
 }
 
 function switchToQuizPage() {
@@ -2326,13 +2291,6 @@ function renderQuestion() {
   document.getElementById('quizTypeBadge').innerHTML = (q.type || TYPE_NAMES[q._type]) + ' <span style="margin-left:8px;font-size:12px;font-weight:800;color:#fff;background:' + diffColor + ';padding:2px 8px;border-radius:4px;">' + diffLabel + '</span>' + qidBadge + reviewedMark;
   document.getElementById('quizInstruction').textContent = TYPE_INSTRUCTIONS[q._type];
 
-  // 장문 그룹: 같은 지문이 연속되면 "앞과 같은 지문" 표시 + 접기/펼치기
-  var isGroupContinuation = false;
-  if (state._lastPassage && q.passage && state._lastPassage === q.passage) {
-    isGroupContinuation = true;
-  }
-  state._lastPassage = q.passage;
-
   // 지문
   let passageHtml = q.passage.replace(/\n/g, '<br>');
   passageHtml = passageHtml.replace(/___________/g, '<span class="blank">___________</span>');
@@ -2357,16 +2315,7 @@ function renderQuestion() {
     passageHtml = `<div style="background:#fff3e0; padding:12px; border-radius:8px; margin-bottom:12px; font-weight:500;">
       📌 ${q.given_sentence}</div>` + passageHtml;
   }
-  if (isGroupContinuation) {
-    document.getElementById('quizPassage').innerHTML = `
-      <div style="background:#e3f2fd;padding:10px 14px;border-radius:8px;margin-bottom:10px;display:flex;justify-content:space-between;align-items:center;">
-        <span style="font-size:13px;color:#1565c0;font-weight:700;">📄 앞과 같은 지문</span>
-        <button onclick="var p=this.parentElement.nextElementSibling;if(p.style.display==='none'){p.style.display='block';this.textContent='접기';}else{p.style.display='none';this.textContent='펼치기';}" style="font-size:12px;padding:4px 10px;border:1px solid #1565c0;color:#1565c0;border-radius:6px;background:#fff;cursor:pointer;">펼치기</button>
-      </div>
-      <div style="display:none;">${passageHtml}</div>`;
-  } else {
-    document.getElementById('quizPassage').innerHTML = passageHtml;
-  }
+  document.getElementById('quizPassage').innerHTML = passageHtml;
 
   // 선택지
   const choicesDiv = document.getElementById('quizChoices');
