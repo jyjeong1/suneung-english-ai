@@ -2190,7 +2190,48 @@ async function startDiagnosis() {
   state._diagMode = true;
   state._diagResults = {};
   state._diagRound = 0;
-  startDiagRound(0);
+  showDiagIntro();
+}
+
+function showDiagIntro() {
+  switchToQuizPage();
+  document.getElementById('quizLoading').style.display = 'block';
+  document.getElementById('quizContent').style.display = 'none';
+  document.getElementById('quizLoading').innerHTML = `
+    <div style="text-align:center;max-width:420px;margin:0 auto;">
+      <p style="font-size:48px;margin-bottom:8px;">📋</p>
+      <h2 style="font-size:28px;font-weight:900;color:var(--primary);margin-bottom:8px;">수능 영어 실력 진단</h2>
+      <p style="font-size:14px;color:var(--sub);margin-bottom:20px;">로그인 없이 무료! 원하는 단계에서 멈출 수 있습니다.</p>
+
+      <div style="text-align:left;margin-bottom:20px;">
+        <div style="background:rgba(21,101,192,0.1);border-radius:10px;padding:12px;margin-bottom:8px;">
+          <span style="font-weight:700;color:#1565c0;">라운드 1 — 기초</span>
+          <span style="font-size:12px;color:var(--sub);float:right;">지문 짧음</span>
+          <p style="font-size:13px;color:var(--sub);margin-top:4px;">글의 목적 · 심경 추론 · 필자의 주장</p>
+        </div>
+        <div style="background:rgba(230,81,0,0.08);border-radius:10px;padding:12px;margin-bottom:8px;">
+          <span style="font-weight:700;color:#e65100;">라운드 2 — 중급</span>
+          <span style="font-size:12px;color:var(--sub);float:right;">독해+어법</span>
+          <p style="font-size:13px;color:var(--sub);margin-top:4px;">요지/주제 · 제목 추론 · 어법 판단</p>
+        </div>
+        <div style="background:rgba(198,40,40,0.08);border-radius:10px;padding:12px;margin-bottom:8px;">
+          <span style="font-weight:700;color:#c62828;">라운드 3 — 상급</span>
+          <span style="font-size:12px;color:var(--sub);float:right;">어휘+논리</span>
+          <p style="font-size:13px;color:var(--sub);margin-top:4px;">어휘 적절성 · 무관한 문장 · 요약문 완성</p>
+        </div>
+        <div style="background:rgba(74,0,51,0.08);border-radius:10px;padding:12px;">
+          <span style="font-weight:700;color:#4a0033;">라운드 4 — 킬러</span>
+          <span style="font-size:12px;color:var(--sub);float:right;">추론+구조</span>
+          <p style="font-size:13px;color:var(--sub);margin-top:4px;">빈칸 추론 · 글의 순서 · 문장 삽입</p>
+        </div>
+      </div>
+
+      <p style="font-size:12px;color:var(--sub);margin-bottom:16px;">각 라운드 3문제 · 라운드 끝마다 중간 결과 확인</p>
+
+      <button class="submit-btn primary" style="width:100%;padding:14px;font-size:16px;" onclick="startDiagRound(0)">진단 시작 →</button>
+      <button class="submit-btn" style="width:100%;margin-top:8px;background:var(--border);color:var(--text);" onclick="state._diagMode=false;switchPage('home');document.querySelectorAll('.tab-bar button')[0].classList.add('active');">홈으로</button>
+    </div>
+  `;
 }
 
 async function startDiagRound(roundIdx) {
@@ -2201,8 +2242,39 @@ async function startDiagRound(roundIdx) {
   state._diagRound = roundIdx;
   quizQueue = DIAG_ROUNDS[roundIdx];
   state.currentQuestionIndex = 0;
+  state._diagQueueIdx = 0;
+  showDiagTypeIntro(roundIdx, 0);
+}
+
+const TYPE_KR_DIAG = {purpose:'글의 목적',mood:'심경 추론',claim:'필자의 주장',main_idea:'요지/주제',title:'제목 추론',grammar:'어법 판단',vocab:'어휘 적절성',blank:'빈칸 추론',irrelevant:'무관한 문장',order:'글의 순서',insert:'문장 삽입',summary:'요약문 완성'};
+const TYPE_SUNEUNG_NUM = {purpose:'18번',mood:'19번',claim:'20번',main_idea:'22~23번',title:'24번',grammar:'29번',vocab:'30번',blank:'31~34번',irrelevant:'35번',order:'36~37번',insert:'38~39번',summary:'40번'};
+const ROUND_COLORS = ['#1565c0','#e65100','#c62828','#4a0033'];
+
+function showDiagTypeIntro(roundIdx, qIdx) {
+  const type = DIAG_ROUNDS[roundIdx][qIdx];
+  const typeName = TYPE_KR_DIAG[type] || type;
+  const typeNum = TYPE_SUNEUNG_NUM[type] || '';
+  const roundColor = ROUND_COLORS[roundIdx];
+  const totalQ = Object.keys(state._diagResults).length + qIdx + 1;
+
   switchToQuizPage();
-  await loadQuestion(quizQueue[0]);
+  document.getElementById('quizLoading').style.display = 'block';
+  document.getElementById('quizContent').style.display = 'none';
+  document.getElementById('quizLoading').innerHTML = `
+    <div style="text-align:center;max-width:380px;margin:0 auto;">
+      <p style="font-size:13px;color:var(--sub);margin-bottom:6px;">라운드 ${roundIdx+1}/4 · 문제 ${qIdx+1}/3 · 전체 ${totalQ}/12</p>
+      <div style="background:${roundColor};color:#fff;display:inline-block;padding:6px 16px;border-radius:20px;font-size:13px;font-weight:700;margin-bottom:16px;">${DIAG_ROUND_NAMES[roundIdx]}</div>
+      <h2 style="font-size:36px;font-weight:900;color:var(--primary);margin-bottom:8px;">${typeName}</h2>
+      <p style="font-size:16px;color:var(--sub);margin-bottom:24px;">수능 ${typeNum}</p>
+      <button class="submit-btn primary" style="width:100%;padding:14px;font-size:16px;" onclick="loadDiagQuestion(${roundIdx},${qIdx})">문제 풀기 →</button>
+    </div>
+  `;
+}
+
+async function loadDiagQuestion(roundIdx, qIdx) {
+  state._diagQueueIdx = qIdx;
+  state.currentQuestionIndex = qIdx;
+  await loadQuestion(DIAG_ROUNDS[roundIdx][qIdx]);
 }
 
 function recordDiagResult(type, correct) {
@@ -2562,6 +2634,11 @@ async function nextQuestion() {
   if (!state._diagMode && !checkFreeLimit()) return;
   state.currentQuestionIndex++;
   if (state.currentQuestionIndex < quizQueue.length) {
+    // 진단 모드: 다음 문제 전에 유형 인트로 표시
+    if (state._diagMode) {
+      showDiagTypeIntro(state._diagRound, state.currentQuestionIndex);
+      return;
+    }
     await loadQuestion(quizQueue[state.currentQuestionIndex]);
   } else {
     // 진단 모드: 라운드 완료 체크
