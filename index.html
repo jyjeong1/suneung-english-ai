@@ -2302,6 +2302,14 @@ function showDiagRoundResult() {
   const totalCorrect = Object.values(results).filter(v => v).length;
   const roundCorrect = roundTypes.filter(t => results[t]).length;
 
+  // 라운드별 등급 판정
+  const ROUND_GRADE = [4, 3, 2, 2];
+  const baseGrade = ROUND_GRADE[roundIdx];
+  let roundGradeLabel;
+  if (roundCorrect >= 3) roundGradeLabel = `${baseGrade}등급 이상`;
+  else if (roundCorrect === 2) roundGradeLabel = `${baseGrade}등급`;
+  else roundGradeLabel = `${baseGrade}등급 이하`;
+
   const TYPE_KR = {purpose:'글의 목적',mood:'심경 추론',claim:'필자의 주장',main_idea:'요지/주제',title:'제목 추론',grammar:'어법 판단',vocab:'어휘 적절성',blank:'빈칸 추론',irrelevant:'무관한 문장',order:'글의 순서',insert:'문장 삽입',summary:'요약문 완성'};
 
   let roundDetail = roundTypes.map(t => {
@@ -2321,7 +2329,8 @@ function showDiagRoundResult() {
     <div style="text-align:center;max-width:400px;margin:0 auto;">
       <p style="font-size:14px;color:var(--accent);font-weight:700;margin-bottom:6px;">라운드 ${roundIdx+1}/4 완료</p>
       <h2 style="font-size:22px;font-weight:900;margin-bottom:4px;">${DIAG_ROUND_NAMES[roundIdx]}</h2>
-      <p style="font-size:28px;font-weight:900;color:var(--primary);margin-bottom:16px;">${roundCorrect}/3 정답</p>
+      <p style="font-size:28px;font-weight:900;color:var(--primary);margin-bottom:8px;">${roundCorrect}/3 정답</p>
+      <p style="font-size:18px;font-weight:700;color:${roundCorrect>=2?'var(--correct)':'var(--wrong)'};margin-bottom:16px;">→ ${roundGradeLabel}</p>
 
       <div style="text-align:left;margin-bottom:16px;">${roundDetail}</div>
 
@@ -2346,16 +2355,49 @@ function showDiagReport() {
   const results = state._diagResults;
   const total = Object.keys(results).length;
   const correct = Object.values(results).filter(v => v).length;
-  const pct = total > 0 ? Math.round(correct / total * 100) : 0;
-
-  let grade, gradeColor, gradeIcon;
-  if (pct >= 90) { grade = '1등급'; gradeColor = '#ffd700'; gradeIcon = '🥇'; }
-  else if (pct >= 75) { grade = '2등급'; gradeColor = '#c0c0c0'; gradeIcon = '🥈'; }
-  else if (pct >= 58) { grade = '3등급'; gradeColor = '#cd7f32'; gradeIcon = '🥉'; }
-  else if (pct >= 42) { grade = '4등급'; gradeColor = '#e65100'; gradeIcon = '📊'; }
-  else { grade = '5등급 이하'; gradeColor = '#c62828'; gradeIcon = '💪'; }
 
   const TYPE_KR = {purpose:'글의 목적',mood:'심경 추론',claim:'필자의 주장',main_idea:'요지/주제',title:'제목 추론',grammar:'어법 판단',vocab:'어휘 적절성',blank:'빈칸 추론',irrelevant:'무관한 문장',order:'글의 순서',insert:'문장 삽입',summary:'요약문 완성'};
+
+  // 라운드별 등급 판정: R1=4등급, R2=3등급, R3=2등급, R4=2등급
+  // 3개 다 맞추면 해당 등급 이상, 2개면 해당 등급, 1개 이하면 해당 등급 이하
+  const ROUND_GRADE = [4, 3, 2, 2]; // 라운드별 기준 등급
+  let bestGrade = 6; // 6 = 미진단
+
+  let roundResults = [];
+  for (let ri = 0; ri <= state._diagRound; ri++) {
+    const types = DIAG_ROUNDS[ri];
+    const tested = types.filter(t => t in results);
+    if (tested.length === 0) continue;
+    const roundCorrect = tested.filter(t => results[t]).length;
+    const baseGrade = ROUND_GRADE[ri];
+    let roundGrade, roundLabel;
+    if (roundCorrect >= 3) {
+      roundGrade = Math.max(1, baseGrade - 1);
+      roundLabel = `${baseGrade}등급 이상`;
+    } else if (roundCorrect === 2) {
+      roundGrade = baseGrade;
+      roundLabel = `${baseGrade}등급`;
+    } else {
+      roundGrade = Math.min(5, baseGrade + 1);
+      roundLabel = `${baseGrade}등급 이하`;
+    }
+    roundResults.push({ ri, roundCorrect, baseGrade, roundGrade, roundLabel, types: tested });
+    if (roundGrade < bestGrade) bestGrade = roundGrade;
+  }
+
+  // 최종 등급: 가장 높은 라운드까지 진행한 결과 기반
+  const lastRound = roundResults[roundResults.length - 1];
+  let grade = lastRound ? lastRound.roundLabel : '진단 불가';
+  let gradeNum = lastRound ? lastRound.roundGrade : 5;
+
+  const gradeStyles = {
+    1: { color: '#ffd700', icon: '🥇' },
+    2: { color: '#c0c0c0', icon: '🥈' },
+    3: { color: '#cd7f32', icon: '🥉' },
+    4: { color: '#e65100', icon: '📊' },
+    5: { color: '#c62828', icon: '💪' },
+  };
+  const gs = gradeStyles[gradeNum] || gradeStyles[5];
 
   let weakTypes = [];
   let strongTypes = [];
@@ -2364,34 +2406,43 @@ function showDiagReport() {
     else weakTypes.push(TYPE_KR[type] || type);
   }
 
-  let detailHtml = Object.entries(results).map(([t, ok]) => `
-    <div style="display:flex;justify-content:space-between;padding:6px 0;border-bottom:1px solid rgba(255,255,255,0.05);">
-      <span style="font-size:13px;">${TYPE_KR[t]||t}</span>
-      <span style="font-size:13px;font-weight:700;color:${ok?'var(--correct)':'var(--wrong)'};">${ok?'✅':'❌'}</span>
-    </div>
-  `).join('');
+  // 라운드별 상세
+  let roundDetailHtml = roundResults.map(r => {
+    const roundName = DIAG_ROUND_NAMES[r.ri];
+    const items = r.types.map(t => `
+      <span style="font-size:12px;margin-right:8px;color:${results[t]?'var(--correct)':'var(--wrong)'};">${results[t]?'✅':'❌'}${TYPE_KR[t]}</span>
+    `).join('');
+    return `
+      <div style="background:rgba(255,255,255,0.05);border-radius:8px;padding:10px;margin-bottom:6px;">
+        <div style="display:flex;justify-content:space-between;margin-bottom:4px;">
+          <span style="font-size:13px;font-weight:700;">${roundName}</span>
+          <span style="font-size:13px;font-weight:700;color:${r.roundCorrect>=2?'var(--correct)':'var(--wrong)'};">${r.roundCorrect}/3 → ${r.roundLabel}</span>
+        </div>
+        <div>${items}</div>
+      </div>`;
+  }).join('');
 
-  const testedLabel = total < 12 ? ` (${total}/12유형 진단)` : ' (전체 12유형)';
+  const testedLabel = total < 12 ? `${total}/12유형 진단 (라운드 ${state._diagRound + 1}까지)` : '전체 12유형 진단 완료';
 
   document.getElementById('quizLoading').style.display = 'block';
   document.getElementById('quizContent').style.display = 'none';
   document.getElementById('quizLoading').innerHTML = `
-    <div style="text-align:center;max-width:400px;margin:0 auto;">
-      <p style="font-size:48px;margin-bottom:8px;">${gradeIcon}</p>
-      <h2 style="font-size:28px;font-weight:900;color:${gradeColor};margin-bottom:4px;">진단 결과: ${grade}</h2>
-      <p style="font-size:12px;color:var(--sub);margin-bottom:12px;">${testedLabel}</p>
-      <p style="font-size:20px;font-weight:700;margin-bottom:16px;">${correct}/${total} 정답 (${pct}%)</p>
+    <div style="text-align:center;max-width:420px;margin:0 auto;">
+      <p style="font-size:48px;margin-bottom:8px;">${gs.icon}</p>
+      <h2 style="font-size:28px;font-weight:900;color:${gs.color};margin-bottom:4px;">진단 결과: ${grade}</h2>
+      <p style="font-size:12px;color:var(--sub);margin-bottom:4px;">${testedLabel}</p>
+      <p style="font-size:20px;font-weight:700;margin-bottom:16px;">${correct}/${total} 정답</p>
 
-      <div style="text-align:left;margin-bottom:12px;">${detailHtml}</div>
+      <div style="text-align:left;margin-bottom:12px;">${roundDetailHtml}</div>
 
       ${weakTypes.length > 0 ? `
-      <div style="background:rgba(198,40,40,0.1);border-radius:10px;padding:12px;margin-bottom:10px;text-align:left;">
+      <div style="background:rgba(198,40,40,0.1);border-radius:10px;padding:10px;margin-bottom:8px;text-align:left;">
         <p style="font-size:13px;font-weight:700;color:#c62828;margin-bottom:4px;">❌ 취약 유형</p>
         <p style="font-size:12px;color:#c62828;">${weakTypes.join(', ')}</p>
       </div>` : ''}
 
       ${strongTypes.length > 0 ? `
-      <div style="background:rgba(46,125,50,0.1);border-radius:10px;padding:12px;margin-bottom:14px;text-align:left;">
+      <div style="background:rgba(46,125,50,0.1);border-radius:10px;padding:10px;margin-bottom:12px;text-align:left;">
         <p style="font-size:13px;font-weight:700;color:#2e7d32;margin-bottom:4px;">✅ 강점 유형</p>
         <p style="font-size:12px;color:#2e7d32;">${strongTypes.join(', ')}</p>
       </div>` : ''}
