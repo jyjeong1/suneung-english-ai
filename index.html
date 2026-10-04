@@ -516,6 +516,7 @@ body {
     <div id="freeLimitStatus" style="font-size:12px; margin-bottom:6px; font-weight:600;"></div>
     <div id="cacheStatus" style="font-size:12px; margin-bottom:10px; font-weight:600;"></div>
     <button class="btn-start" onclick="startDailyQuiz()">시작하기 →</button>
+    <button onclick="startDiagnosis()" style="width:100%;margin-top:8px;padding:12px;border:none;border-radius:12px;background:linear-gradient(135deg,#1565c0,#1976d2);color:#fff;font-size:15px;font-weight:800;cursor:pointer;font-family:inherit;letter-spacing:-0.3px;">📋 실력 진단 (12유형 × 1문제)</button>
     <button onclick="showReferralGuide()" style="width:100%;margin-top:8px;padding:12px;border:none;border-radius:12px;background:linear-gradient(135deg,#00704A,#00a86b);color:#fff;font-size:15px;font-weight:800;cursor:pointer;font-family:inherit;letter-spacing:-0.3px;">☕ 친구 추천하고 스타벅스 가자!</button>
   </div>
 
@@ -2168,6 +2169,166 @@ async function startTypeTraining(type) {
   await loadQuestion(type);
 }
 
+// ═══ 실력 진단 프로토콜 ═══
+// 4라운드 × 3유형 = 12유형. 라운드별로 멈출 수 있음.
+// 1라운드: 지문 없거나 짧은 유형 (목적/심경/주장)
+// 2라운드: 중간 길이 (요지/제목/어법)
+// 3라운드: 독해 중심 (어휘/무관문장/요약)
+// 4라운드: 고난도 (빈칸/순서/삽입)
+const DIAG_ROUNDS = [
+  ['purpose','mood','claim'],
+  ['main_idea','title','grammar'],
+  ['vocab','irrelevant','summary'],
+  ['blank','order','insert'],
+];
+const DIAG_ROUND_NAMES = ['기초 (지문 짧음)','중급 (독해+어법)','상급 (어휘+논리)','킬러 (추론+구조)'];
+
+async function startDiagnosis() {
+  state._diagMode = true;
+  state._diagResults = {};
+  state._diagRound = 0;
+  startDiagRound(0);
+}
+
+async function startDiagRound(roundIdx) {
+  if (roundIdx >= DIAG_ROUNDS.length) {
+    showDiagReport();
+    return;
+  }
+  state._diagRound = roundIdx;
+  quizQueue = DIAG_ROUNDS[roundIdx];
+  state.currentQuestionIndex = 0;
+  switchToQuizPage();
+  await loadQuestion(quizQueue[0]);
+}
+
+function recordDiagResult(type, correct) {
+  if (!state._diagMode) return;
+  state._diagResults[type] = correct;
+}
+
+// 진단 모드에서 3문제 라운드 완료 시 호출
+function checkDiagRoundEnd() {
+  if (!state._diagMode) return false;
+  const roundTypes = DIAG_ROUNDS[state._diagRound];
+  const done = roundTypes.every(t => t in state._diagResults);
+  if (done) {
+    showDiagRoundResult();
+    return true;
+  }
+  return false;
+}
+
+function showDiagRoundResult() {
+  const roundIdx = state._diagRound;
+  const roundTypes = DIAG_ROUNDS[roundIdx];
+  const results = state._diagResults;
+  const totalDone = Object.keys(results).length;
+  const totalCorrect = Object.values(results).filter(v => v).length;
+  const roundCorrect = roundTypes.filter(t => results[t]).length;
+
+  const TYPE_KR = {purpose:'글의 목적',mood:'심경 추론',claim:'필자의 주장',main_idea:'요지/주제',title:'제목 추론',grammar:'어법 판단',vocab:'어휘 적절성',blank:'빈칸 추론',irrelevant:'무관한 문장',order:'글의 순서',insert:'문장 삽입',summary:'요약문 완성'};
+
+  let roundDetail = roundTypes.map(t => {
+    const ok = results[t];
+    return `<div style="display:flex;justify-content:space-between;padding:6px 0;border-bottom:1px solid rgba(255,255,255,0.05);">
+      <span style="font-size:14px;">${TYPE_KR[t]||t}</span>
+      <span style="font-size:14px;font-weight:700;color:${ok?'var(--correct)':'var(--wrong)'};">${ok?'✅ 정답':'❌ 오답'}</span>
+    </div>`;
+  }).join('');
+
+  const isLast = roundIdx >= DIAG_ROUNDS.length - 1;
+  const nextRoundName = isLast ? '' : DIAG_ROUND_NAMES[roundIdx + 1];
+
+  document.getElementById('quizLoading').style.display = 'block';
+  document.getElementById('quizContent').style.display = 'none';
+  document.getElementById('quizLoading').innerHTML = `
+    <div style="text-align:center;max-width:400px;margin:0 auto;">
+      <p style="font-size:14px;color:var(--accent);font-weight:700;margin-bottom:6px;">라운드 ${roundIdx+1}/4 완료</p>
+      <h2 style="font-size:22px;font-weight:900;margin-bottom:4px;">${DIAG_ROUND_NAMES[roundIdx]}</h2>
+      <p style="font-size:28px;font-weight:900;color:var(--primary);margin-bottom:16px;">${roundCorrect}/3 정답</p>
+
+      <div style="text-align:left;margin-bottom:16px;">${roundDetail}</div>
+
+      <div style="background:rgba(255,255,255,0.05);border-radius:10px;padding:12px;margin-bottom:16px;">
+        <p style="font-size:13px;color:var(--sub);">누적: ${totalCorrect}/${totalDone} 정답 (${Math.round(totalCorrect/totalDone*100)}%)</p>
+      </div>
+
+      ${!isLast ? `
+      <button class="submit-btn primary" style="margin-bottom:8px;" onclick="startDiagRound(${roundIdx+1})">다음 라운드: ${nextRoundName} →</button>
+      <button class="submit-btn" style="background:var(--border);color:var(--text);margin-bottom:8px;" onclick="showDiagReport()">여기서 진단 결과 보기</button>
+      ` : `
+      <button class="submit-btn primary" style="margin-bottom:8px;" onclick="showDiagReport()">최종 진단 결과 보기 →</button>
+      `}
+
+      <button class="submit-btn" style="background:transparent;color:var(--sub);border:1px solid var(--border);" onclick="state._diagMode=false;switchPage('home');document.querySelectorAll('.tab-bar button')[0].classList.add('active');">홈으로</button>
+    </div>
+  `;
+}
+
+function showDiagReport() {
+  state._diagMode = false;
+  const results = state._diagResults;
+  const total = Object.keys(results).length;
+  const correct = Object.values(results).filter(v => v).length;
+  const pct = total > 0 ? Math.round(correct / total * 100) : 0;
+
+  let grade, gradeColor, gradeIcon;
+  if (pct >= 90) { grade = '1등급'; gradeColor = '#ffd700'; gradeIcon = '🥇'; }
+  else if (pct >= 75) { grade = '2등급'; gradeColor = '#c0c0c0'; gradeIcon = '🥈'; }
+  else if (pct >= 58) { grade = '3등급'; gradeColor = '#cd7f32'; gradeIcon = '🥉'; }
+  else if (pct >= 42) { grade = '4등급'; gradeColor = '#e65100'; gradeIcon = '📊'; }
+  else { grade = '5등급 이하'; gradeColor = '#c62828'; gradeIcon = '💪'; }
+
+  const TYPE_KR = {purpose:'글의 목적',mood:'심경 추론',claim:'필자의 주장',main_idea:'요지/주제',title:'제목 추론',grammar:'어법 판단',vocab:'어휘 적절성',blank:'빈칸 추론',irrelevant:'무관한 문장',order:'글의 순서',insert:'문장 삽입',summary:'요약문 완성'};
+
+  let weakTypes = [];
+  let strongTypes = [];
+  for (const [type, ok] of Object.entries(results)) {
+    if (ok) strongTypes.push(TYPE_KR[type] || type);
+    else weakTypes.push(TYPE_KR[type] || type);
+  }
+
+  let detailHtml = Object.entries(results).map(([t, ok]) => `
+    <div style="display:flex;justify-content:space-between;padding:6px 0;border-bottom:1px solid rgba(255,255,255,0.05);">
+      <span style="font-size:13px;">${TYPE_KR[t]||t}</span>
+      <span style="font-size:13px;font-weight:700;color:${ok?'var(--correct)':'var(--wrong)'};">${ok?'✅':'❌'}</span>
+    </div>
+  `).join('');
+
+  const testedLabel = total < 12 ? ` (${total}/12유형 진단)` : ' (전체 12유형)';
+
+  document.getElementById('quizLoading').style.display = 'block';
+  document.getElementById('quizContent').style.display = 'none';
+  document.getElementById('quizLoading').innerHTML = `
+    <div style="text-align:center;max-width:400px;margin:0 auto;">
+      <p style="font-size:48px;margin-bottom:8px;">${gradeIcon}</p>
+      <h2 style="font-size:28px;font-weight:900;color:${gradeColor};margin-bottom:4px;">진단 결과: ${grade}</h2>
+      <p style="font-size:12px;color:var(--sub);margin-bottom:12px;">${testedLabel}</p>
+      <p style="font-size:20px;font-weight:700;margin-bottom:16px;">${correct}/${total} 정답 (${pct}%)</p>
+
+      <div style="text-align:left;margin-bottom:12px;">${detailHtml}</div>
+
+      ${weakTypes.length > 0 ? `
+      <div style="background:rgba(198,40,40,0.1);border-radius:10px;padding:12px;margin-bottom:10px;text-align:left;">
+        <p style="font-size:13px;font-weight:700;color:#c62828;margin-bottom:4px;">❌ 취약 유형</p>
+        <p style="font-size:12px;color:#c62828;">${weakTypes.join(', ')}</p>
+      </div>` : ''}
+
+      ${strongTypes.length > 0 ? `
+      <div style="background:rgba(46,125,50,0.1);border-radius:10px;padding:12px;margin-bottom:14px;text-align:left;">
+        <p style="font-size:13px;font-weight:700;color:#2e7d32;margin-bottom:4px;">✅ 강점 유형</p>
+        <p style="font-size:12px;color:#2e7d32;">${strongTypes.join(', ')}</p>
+      </div>` : ''}
+
+      <p style="font-size:12px;color:var(--sub);margin-bottom:14px;">로그인하면 학습 기록이 저장되고<br>취약 유형 집중 훈련을 받을 수 있습니다</p>
+
+      <button class="submit-btn primary" style="margin-bottom:8px;" onclick="switchPage('home');document.querySelectorAll('.tab-bar button')[0].classList.add('active');">학습 시작 →</button>
+      <button class="submit-btn" style="background:var(--border);color:var(--text);" onclick="switchPage('home');document.querySelectorAll('.tab-bar button')[0].classList.add('active');">홈으로</button>
+    </div>
+  `;
+}
+
 function switchToQuizPage() {
   document.querySelectorAll('.page').forEach(p => p.classList.remove('active'));
   document.getElementById('page-quiz').classList.add('active');
@@ -2395,12 +2556,14 @@ function submitAnswer() {
 }
 
 async function nextQuestion() {
-  if (!checkFreeLimit()) return;
+  if (!state._diagMode && !checkFreeLimit()) return;
   state.currentQuestionIndex++;
   if (state.currentQuestionIndex < quizQueue.length) {
     await loadQuestion(quizQueue[state.currentQuestionIndex]);
   } else {
-    // 완료
+    // 진단 모드: 라운드 완료 체크
+    if (state._diagMode && checkDiagRoundEnd()) return;
+    // 일반 완료
     switchPage('home');
     document.querySelectorAll('.tab-bar button')[0].classList.add('active');
   }
@@ -2760,6 +2923,8 @@ ${JSON.stringify({
 const DIFFICULTY_SCORE = { easy: 1, medium: 2, hard: 3 };
 
 function updateStats(type, correct) {
+  // 진단 모드 결과 기록
+  recordDiagResult(type, correct);
   state.stats.total++;
   if (correct) state.stats.correct++;
   // 난이도 가중치 점수 (기존 호환)
