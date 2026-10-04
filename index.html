@@ -516,7 +516,6 @@ body {
     <div id="freeLimitStatus" style="font-size:12px; margin-bottom:6px; font-weight:600;"></div>
     <div id="cacheStatus" style="font-size:12px; margin-bottom:10px; font-weight:600;"></div>
     <button class="btn-start" onclick="startDailyQuiz()">시작하기 →</button>
-    <button onclick="startDiagnosis()" style="width:100%;margin-top:8px;padding:12px;border:none;border-radius:12px;background:linear-gradient(135deg,#1565c0,#1976d2);color:#fff;font-size:15px;font-weight:800;cursor:pointer;font-family:inherit;letter-spacing:-0.3px;">📋 실력 진단 (12유형 × 1문제)</button>
     <button onclick="showReferralGuide()" style="width:100%;margin-top:8px;padding:12px;border:none;border-radius:12px;background:linear-gradient(135deg,#00704A,#00a86b);color:#fff;font-size:15px;font-weight:800;cursor:pointer;font-family:inherit;letter-spacing:-0.3px;">☕ 친구 추천하고 스타벅스 가자!</button>
   </div>
 
@@ -1513,7 +1512,11 @@ async function init() {
   // 문제은행에서 6유형 미리 가져오기
   ['blank','insert','grammar','vocab','main_idea','order'].forEach(t => prefetchNextQuestion(t));
 
-  // 문제은행에서만 제공 (AI 프리패치 비활성화)
+  // URL 파라미터로 진단 모드 자동 시작 (?diag=1)
+  const urlParams = new URLSearchParams(window.location.search);
+  if (urlParams.get('diag') === '1') {
+    setTimeout(() => startDiagnosis(), 500);
+  }
 }
 
 // ═══════════════════════════════════════
