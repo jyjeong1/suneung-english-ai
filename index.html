@@ -2302,7 +2302,7 @@ function showDiagRoundResult() {
   const totalCorrect = Object.values(results).filter(v => v).length;
   const roundCorrect = roundTypes.filter(t => results[t]).length;
 
-  // 라운드별 등급 판정
+  // 라운드별 등급 판정: 3개=이상, 2개=해당등급, 1개이하=이하
   const ROUND_GRADE = [4, 3, 2, 2];
   const baseGrade = ROUND_GRADE[roundIdx];
   let roundGradeLabel;
@@ -2372,23 +2372,29 @@ function showDiagReport() {
     const baseGrade = ROUND_GRADE[ri];
     let roundGrade, roundLabel;
     if (roundCorrect >= 3) {
-      roundGrade = Math.max(1, baseGrade - 1);
+      roundGrade = baseGrade;
       roundLabel = `${baseGrade}등급 이상`;
     } else if (roundCorrect === 2) {
       roundGrade = baseGrade;
       roundLabel = `${baseGrade}등급`;
     } else {
-      roundGrade = Math.min(5, baseGrade + 1);
+      roundGrade = baseGrade;
       roundLabel = `${baseGrade}등급 이하`;
     }
     roundResults.push({ ri, roundCorrect, baseGrade, roundGrade, roundLabel, types: tested });
     if (roundGrade < bestGrade) bestGrade = roundGrade;
   }
 
-  // 최종 등급: 가장 높은 라운드까지 진행한 결과 기반
+  // 최종 등급: 마지막 라운드 결과 기준
   const lastRound = roundResults[roundResults.length - 1];
   let grade = lastRound ? lastRound.roundLabel : '진단 불가';
-  let gradeNum = lastRound ? lastRound.roundGrade : 5;
+  let gradeNum = lastRound ? lastRound.baseGrade : 5;
+
+  // 3개 맞추면 등급 숫자를 올려서 아이콘 표시
+  if (lastRound) {
+    if (lastRound.roundCorrect >= 3) gradeNum = Math.max(1, lastRound.baseGrade - 1);
+    else if (lastRound.roundCorrect <= 1) gradeNum = Math.min(5, lastRound.baseGrade + 1);
+  }
 
   const gradeStyles = {
     1: { color: '#ffd700', icon: '🥇' },
