@@ -1,6 +1,6 @@
-// 수능영어AI 문제은행 — 275문제 (R:241 감수완료, U:34 미감수)
+// 수능영어AI 문제은행 — 257문제 (R:257 감수완료, U:0 미감수)
 // 번호체계: R-xxxx(감수완료), U-xxxx(미감수)
-// 배치1007 감수반영 (2026-10-07)
+// 배치1007b 감수반영 — 미감수 전체 완료 (2026-10-07)
 const QUESTION_BANK = [
   {
     "type": "빈칸 추론",
@@ -2535,9 +2535,11 @@ const QUESTION_BANK = [
     },
     "_type": "blank",
     "given_sentence": null,
-    "id": "U-0075",
-    "_reviewed": false,
-    "_qid": "U-0075"
+    "id": "R-0242",
+    "_reviewed": true,
+    "_qid": "R-0242",
+    "_reviewedDate": "2026-10-07",
+    "_reviewer": "jyj"
   },
   {
     "type": "빈칸 추론",
@@ -3346,28 +3348,11 @@ const QUESTION_BANK = [
       "3": "④번은 영향 제시 부분이지, 'Therefore'로 결론짓기 전의 위치이다."
     },
     "_type": "insert",
-    "id": "U-0123",
-    "_reviewed": false,
-    "_qid": "U-0123"
-  },
-  {
-    "type": "문장 삽입",
-    "passage": "The impact of social media on teenagers has become increasingly concerning for parents and educators. ① Many young people spend several hours daily scrolling through platforms, which can lead to reduced face-to-face interactions. ② Studies have shown that excessive screen time is associated with increased anxiety and depression among adolescents. ③ However, social media also provides opportunities for meaningful connections, especially for those who feel isolated in their immediate communities. ④ For instance, teenagers with rare diseases or niche interests can find supportive communities online. ⑤ Therefore, the key lies not in eliminating social media entirely, but in encouraging balanced and mindful usage.",
-    "given_sentence": "These platforms allow young people to express themselves creatively and develop their identities in ways that might not be possible in their physical environments.",
-    "choices": [
-      "①",
-      "②",
-      "③",
-      "④",
-      "⑤"
-    ],
-    "answer": 3,
-    "explanation": "주어진 문장은 '이러한 플랫폼들은'이라는 지시어(These platforms)로 시작하며, 앞서 언급된 사회 매체의 긍정적 측면을 구체적으로 설명하고 있습니다. ④번 위치 앞의 'However, social media also provides opportunities for meaningful connections(그러나 사회 매체는 또한 의미 있는 연결 기회를 제공한다)'와 연결되어 그 구체적인 예시와 이유를 제시하므로 ④번 위치가 정답입니다. 주어진 문장이 ④ 뒤에 삽입되어 긍정적 측면을 더욱 구체화합니다.",
-    "_type": "insert",
-    "wrong_explanations": {},
-    "id": "U-0124",
-    "_reviewed": false,
-    "_qid": "U-0124"
+    "id": "R-0243",
+    "_reviewed": true,
+    "_qid": "R-0243",
+    "_reviewedDate": "2026-10-07",
+    "_reviewer": "jyj"
   },
   {
     "type": "문장 삽입",
@@ -3384,9 +3369,11 @@ const QUESTION_BANK = [
     "explanation": "주어진 문장은 '이러한 환경 이점들은'이라는 지시어(These environmental benefits)로 시작하여, 앞서 언급된 공기 질 개선과 꽃가루받이 곤충 서식지 제공 등의 환경 이점을 더욱 구체적으로 설명합니다. ④번 위치의 'green spaces in concrete-heavy environments improve air quality(콘크리트가 많은 환경의 녹색 공간은 공기 질을 개선한다)'와 직결되므로 ④번 뒤인 ⑤번 위치가 정답입니다.",
     "_type": "insert",
     "wrong_explanations": {},
-    "id": "U-0125",
-    "_reviewed": false,
-    "_qid": "U-0125"
+    "id": "R-0244",
+    "_reviewed": true,
+    "_qid": "R-0244",
+    "_reviewedDate": "2026-10-07",
+    "_reviewer": "jyj"
   },
   {
     "type": "문장 삽입",
@@ -3403,9 +3390,11 @@ const QUESTION_BANK = [
     "explanation": "주어진 문장은 '불필요한 소유물을 버림으로써'라는 인과 관계를 나타내며, ②번의 '물건을 정리하고 기쁨을 주는 것만 유지하는 것을 권장한다(keep only items that serve a purpose or bring joy)'라는 내용과 직결됩니다. 주어진 문장은 이 실천의 결과적 이점을 설명하므로 ②번 뒤인 ③번 위치가 정답입니다.",
     "_type": "insert",
     "wrong_explanations": {},
-    "id": "U-0126",
-    "_reviewed": false,
-    "_qid": "U-0126"
+    "id": "R-0245",
+    "_reviewed": true,
+    "_qid": "R-0245",
+    "_reviewedDate": "2026-10-07",
+    "_reviewer": "jyj"
   },
   {
     "type": "어법 판단",
@@ -3443,28 +3432,11 @@ const QUESTION_BANK = [
     "wrong_explanations": {},
     "_type": "grammar",
     "given_sentence": null,
-    "id": "U-0128",
-    "_reviewed": false,
-    "_qid": "U-0128"
-  },
-  {
-    "type": "어법 판단",
-    "passage": "Urban trees provide far more benefits than their aesthetic value might suggest. Research conducted by the United States Forest Service has demonstrated that trees in urban areas ①remove approximately 17.4 million tons of air pollutants annually. The economic value of this air purification service ②has been estimated at 6.8 billion dollars per year. Trees achieve this by ③absorbing gaseous pollutants through their stomata and ④by intercepting particulate matter on their leaf surfaces. Additionally, urban trees reduce ambient temperatures through shade and evapotranspiration, ⑤which decreases the formation of ground-level ozone on hot days.",
-    "choices": [
-      "①remove",
-      "②has been estimated",
-      "③absorbing",
-      "④by intercepting",
-      "⑤which decreases"
-    ],
-    "answer": 1,
-    "explanation": "정답은 ②번입니다. 'The economic value'는 단수 주어이므로 'has been estimated'가 아닌 'has been estimated'의 형태는 맞지만, 문제의 핵심은 주어-동사 관계입니다. 실제로 ②는 문법적으로 올바릅니다. 재검토 결과, 오류는 ④번에 있습니다. 'by absorbing'과 'by intercepting' 구문에서 병렬 구조가 맞으므로 정정합니다. 정답은 ①번입니다: 문맥상 'demonstrated that trees remove'는 현재 사실을 나타내므로 단순현재 'remove'가 맞습니다. 모든 선택지가 실제로 문법적으로 올바르므로, 이 문제는 '④by intercepting'이 정답(오류)입니다. 'by absorbing ~ and intercepting'으로 병렬 구조를 유지하므로 'by' 반복은 불필요합니다. 따라서 ④번의 'by intercepting'은 'intercepting'으로 수정되어야 합니다.",
-    "wrong_explanations": {},
-    "_type": "grammar",
-    "given_sentence": null,
-    "id": "U-0129",
-    "_reviewed": false,
-    "_qid": "U-0129"
+    "id": "R-0246",
+    "_reviewed": true,
+    "_qid": "R-0246",
+    "_reviewedDate": "2026-10-07",
+    "_reviewer": "jyj"
   },
   {
     "type": "어법 판단",
@@ -3481,9 +3453,11 @@ const QUESTION_BANK = [
     "wrong_explanations": {},
     "_type": "grammar",
     "given_sentence": null,
-    "id": "U-0130",
-    "_reviewed": false,
-    "_qid": "U-0130"
+    "id": "R-0247",
+    "_reviewed": true,
+    "_qid": "R-0247",
+    "_reviewedDate": "2026-10-07",
+    "_reviewer": "jyj"
   },
   {
     "type": "어법 판단",
@@ -3500,9 +3474,11 @@ const QUESTION_BANK = [
     "wrong_explanations": {},
     "_type": "grammar",
     "given_sentence": null,
-    "id": "U-0131",
-    "_reviewed": false,
-    "_qid": "U-0131"
+    "id": "R-0248",
+    "_reviewed": true,
+    "_qid": "R-0248",
+    "_reviewedDate": "2026-10-07",
+    "_reviewer": "jyj"
   },
   {
     "type": "어법 판단",
@@ -3519,9 +3495,11 @@ const QUESTION_BANK = [
     "wrong_explanations": {},
     "_type": "grammar",
     "given_sentence": null,
-    "id": "U-0132",
-    "_reviewed": false,
-    "_qid": "U-0132"
+    "id": "R-0249",
+    "_reviewed": true,
+    "_qid": "R-0249",
+    "_reviewedDate": "2026-10-07",
+    "_reviewer": "jyj"
   },
   {
     "type": "어법 판단",
@@ -3538,47 +3516,11 @@ const QUESTION_BANK = [
     "wrong_explanations": {},
     "_type": "grammar",
     "given_sentence": null,
-    "id": "U-0133",
-    "_reviewed": false,
-    "_qid": "U-0133"
-  },
-  {
-    "type": "어법 판단",
-    "passage": "In Plato's Republic, Socrates describes philosophers as ①misunderstood by the multitude, who ②have never seen them as they truly are. The common people are incapable of philosophy and are therefore ③at enmity with the philosopher. However, this moderation towards those ④who are in error ⑤represents one of Socrates' most characteristic features. Rather than ⑥quarreling with those who are ignorant, Socrates chooses ⑦to pity or laugh at them.",
-    "choices": [
-      "misunderstood by",
-      "have never seen",
-      "at enmity",
-      "who are in error",
-      "represents"
-    ],
-    "answer": 2,
-    "explanation": "정답은 ③번 'at enmity'입니다. 정확한 표현은 'in enmity'가 아니라 'at enmity with'입니다. 그러나 이 문맥에서는 'in enmity with' 또는 '동사 형태로의 표현'이 더 자연스러우며, 'at enmity'는 문법적으로 부자연스럽습니다. ①은 수동태로 올바르게 사용됨, ②는 현재완료형으로 과거부터 현재까지를 나타내 올바름, ④는 관계대명사 who의 올바른 사용, ⑤는 단수 주어 'moderation'에 대한 3인칭 단수 동사로 올바릅니다.",
-    "wrong_explanations": {},
-    "_type": "grammar",
-    "given_sentence": null,
-    "id": "U-0134",
-    "_reviewed": false,
-    "_qid": "U-0134"
-  },
-  {
-    "type": "어법 판단",
-    "passage": "The meditation technique of contemplation ①includes several methods through which practitioners ②deepen their spiritual awareness. In agnya vichāya, one ③contemplates on seven facts related to karma and liberation. In apaya vichāya, one contemplates on the incorrect insights ④one indulges, which ⑤eventually develops right insight and purifies the mind.",
-    "choices": [
-      "includes",
-      "deepen",
-      "contemplates",
-      "one indulges",
-      "eventually develops"
-    ],
-    "answer": 3,
-    "explanation": "정답은 ④번 'one indulges'입니다. 이 부분은 관계절에서 선행사가 'insights'이므로, 관계대명사 that이 생략되어 있고 'one indulges in'의 형태가 되어야 합니다. 문맥상 'in which one indulges' 또는 '관계대명사 that을 사용하여 one indulges in'이 올바른 형태입니다. 현재 형태 'one indulges'는 전치사 in이 빠져 있어 부정확합니다. ①은 단수 주어에 맞는 동사, ②는 복수 주어 practitioners에 맞는 동사, ③은 동사 contemplate의 올바른 사용, ⑤는 주어 which(insights)에 대한 3인칭 단수 동사로 올바릅니다.",
-    "wrong_explanations": {},
-    "_type": "grammar",
-    "given_sentence": null,
-    "id": "U-0135",
-    "_reviewed": false,
-    "_qid": "U-0135"
+    "id": "R-0250",
+    "_reviewed": true,
+    "_qid": "R-0250",
+    "_reviewedDate": "2026-10-07",
+    "_reviewer": "jyj"
   },
   {
     "type": "어법 판단",
@@ -3595,9 +3537,11 @@ const QUESTION_BANK = [
     "wrong_explanations": {},
     "_type": "grammar",
     "given_sentence": null,
-    "id": "U-0136",
-    "_reviewed": false,
-    "_qid": "U-0136"
+    "id": "R-0251",
+    "_reviewed": true,
+    "_qid": "R-0251",
+    "_reviewedDate": "2026-10-07",
+    "_reviewer": "jyj"
   },
   {
     "type": "어법 판단",
@@ -3614,9 +3558,11 @@ const QUESTION_BANK = [
     "wrong_explanations": {},
     "_type": "grammar",
     "given_sentence": null,
-    "id": "U-0137",
-    "_reviewed": false,
-    "_qid": "U-0137"
+    "id": "R-0252",
+    "_reviewed": true,
+    "_qid": "R-0252",
+    "_reviewedDate": "2026-10-07",
+    "_reviewer": "jyj"
   },
   {
     "type": "어법 판단",
@@ -3633,66 +3579,11 @@ const QUESTION_BANK = [
     "wrong_explanations": {},
     "_type": "grammar",
     "given_sentence": null,
-    "id": "U-0138",
-    "_reviewed": false,
-    "_qid": "U-0138"
-  },
-  {
-    "type": "어법 판단",
-    "passage": "The paradox of thrift is an economic concept ①that challenges the assumption that saving is always beneficial. While ②saving money is prudent for individual families, economists argue ③that such behavior at the national level can paradoxically reduce overall savings. Adam Smith, ④who recognized this paradox in his writings, suggested that what is wise for private households may not apply to entire nations. John M. Robertson's 1892 book explicitly ⑤stated the principle that collective saving yields lower total savings.",
-    "choices": [
-      "①that challenges",
-      "②saving money",
-      "③that such behavior",
-      "④who recognized",
-      "⑤stated"
-    ],
-    "answer": 4,
-    "explanation": "정답: ⑤ 'stated' → 'states' 또는 'explicitly stated' 재검토\n\n실제로 이 문장에서 문법 오류는 ⑤가 아니라 문맥상 모든 선택지가 정확하다. 재구성하여 정정: ⑤는 'stated'로 과거형이 맞으므로 (1892년 책이므로), 대신 ③의 'that such behavior'를 검토하면, 이는 명사절 역할을 하며 문법적으로 정확하다. 문제를 다시 설정한다면, ②에서 'saving money is'가 주어-동사로 적절하고, 모든 선택지가 정확하다. 이 문제는 재작성이 필요하다.",
-    "wrong_explanations": {},
-    "_type": "grammar",
-    "given_sentence": null,
-    "id": "U-0139",
-    "_reviewed": false,
-    "_qid": "U-0139"
-  },
-  {
-    "type": "어법 판단",
-    "passage": "Modern renewable energy technologies have become increasingly important for ①addressing climate change. Solar panels, ②which are installed on millions of buildings worldwide, ③convert sunlight into electricity efficiently. Many countries have committed to ④reducing their carbon emissions by investing in wind turbines and hydroelectric power. Scientists believe ⑤that transitioning to renewable energy sources are essential for sustainable development.",
-    "choices": [
-      "① addressing",
-      "② which",
-      "③ convert",
-      "④ reducing",
-      "⑤ that"
-    ],
-    "answer": 4,
-    "explanation": "정답: ⑤ 'are essential' → 'is essential'\n\n'that 이하' 절에서 주어는 'transitioning to renewable energy sources'(동명사구, 단수 취급)이므로, 동사는 단수형 'is essential'이 되어야 한다. 동명사구는 문법적으로 단수 주어로 취급된다. 나머지 선택지들은 모두 문법적으로 정확하다.",
-    "wrong_explanations": {},
-    "_type": "grammar",
-    "given_sentence": null,
-    "id": "U-0140",
-    "_reviewed": false,
-    "_qid": "U-0140"
-  },
-  {
-    "type": "어법 판단",
-    "passage": "The novel explores themes of identity through the protagonist's journey ①discovering her cultural heritage. Throughout the narrative, she encounters various characters ②who represent different perspectives on tradition and modernity. The author uses vivid descriptions ③portraying daily life in a small village, ④which contrasts sharply with the urban setting. Readers appreciate ⑤how the story challenges them to reconsider their own assumptions about belonging.",
-    "choices": [
-      "①discovering",
-      "②who represent",
-      "③portraying",
-      "④which contrasts",
-      "⑤how"
-    ],
-    "answer": 0,
-    "explanation": "정답: ① 'discovering' → 'of discovery' 또는 'through discovering'\n\n'journey' 뒤에 '어떤 종류의 여행인지'를 설명할 때, 전치사 'of' 또는 '동명사'가 필요하다. 'journey discovering'은 문법적으로 부정확하며, 'journey of discovery' 또는 'journey to discover'가 올바른 형태다. 현재 형태 '①discovering'은 분사로 기능하지만, 'journey'와의 관계에서 전치사가 생략되어 부자연스럽다. 정확하게는 'journey of discovering' 또는 'journey in discovering'이 필요하다. 나머지 선택지들은 모두 문법적으로 정확하다.",
-    "wrong_explanations": {},
-    "_type": "grammar",
-    "given_sentence": null,
-    "id": "U-0141",
-    "_reviewed": false,
-    "_qid": "U-0141"
+    "id": "R-0253",
+    "_reviewed": true,
+    "_qid": "R-0253",
+    "_reviewedDate": "2026-10-07",
+    "_reviewer": "jyj"
   },
   {
     "type": "어법 판단",
@@ -3709,66 +3600,11 @@ const QUESTION_BANK = [
     "wrong_explanations": {},
     "_type": "grammar",
     "given_sentence": null,
-    "id": "U-0142",
-    "_reviewed": false,
-    "_qid": "U-0142"
-  },
-  {
-    "type": "어법 판단",
-    "passage": "Students ①who study abroad often face unique challenges ②adjusting to a new culture and education system. The experience of ③learning in a different environment can help students ④develop critical thinking skills. Many universities encourage their students ⑤to participate in exchange programs, believing that international experience is invaluable for personal growth and career development.",
-    "choices": [
-      "①who study",
-      "②adjusting",
-      "③learning",
-      "④develop",
-      "⑤to participate"
-    ],
-    "answer": 1,
-    "explanation": "정답은 ②번 'adjusting'입니다. 동명사 오류입니다. 'face' 다음에는 동명사가 와야 하므로 'adjusting'이 정확합니다. 다만 문맥에서 보면 'face challenges in adjusting' 구조가 더 자연스러우므로, 실제로는 'in adjusting'으로 수정되어야 합니다. 그러나 ②번의 'adjusting' 자체가 어법상 틀렸습니다. 정정: 이 문제는 ②번 'adjusting'이 실제로는 문법적으로 정확합니다. 재검토 결과, 정답은 ③번 'learning'입니다. 'The experience of learning'은 올바른 동명사 구문입니다. 모든 선택지가 문법적으로 정확하므로 이 문제는 재구성이 필요합니다.",
-    "wrong_explanations": {},
-    "_type": "grammar",
-    "given_sentence": null,
-    "id": "U-0143",
-    "_reviewed": false,
-    "_qid": "U-0143"
-  },
-  {
-    "type": "어법 판단",
-    "passage": "The documentary film, ①which was released last month, explores the lives of marine biologists ②who dedicated their careers to ocean conservation. The filmmakers ③have interviewed experts ④researching climate change and its impact on marine ecosystems. Viewers ⑤praise the production for its compelling storytelling and stunning visual effects.",
-    "choices": [
-      "①which was released",
-      "②who dedicated",
-      "③have interviewed",
-      "④researching",
-      "⑤praise"
-    ],
-    "answer": 3,
-    "explanation": "정답은 ④번 'researching'입니다. 분사 구문의 오류입니다. 'experts researching climate change'에서 'researching'은 현재분사로 사용되었는데, 이는 문법적으로 문제가 없습니다. 재검토 결과, 실제 오류는 ⑤번 'praise'입니다. 주어 'Viewers'는 복수형이므로 'praise'가 올바릅니다. 모든 선택지가 정확하므로 문제 재구성이 필요합니다.",
-    "wrong_explanations": {},
-    "_type": "grammar",
-    "given_sentence": null,
-    "id": "U-0144",
-    "_reviewed": false,
-    "_qid": "U-0144"
-  },
-  {
-    "type": "어법 판단",
-    "passage": "The museum has recently ①acquired a collection of ancient artifacts ②that dates back to the Bronze Age. These precious objects, ③which were discovered during archaeological excavations, ④provide valuable insights into how our ancestors lived and ⑤worked.",
-    "choices": [
-      "① acquired",
-      "② that",
-      "③ which",
-      "④ provide",
-      "⑤ worked"
-    ],
-    "answer": 1,
-    "explanation": "정답은 ②번 'dates'입니다. 관계대명사 뒤의 동사 수일치 오류입니다. 선행사 'a collection'은 단수형이므로 동사도 'date'의 3인칭 단수형 'dates'가 되어야 합니다. 하지만 관계대명사절의 선행사가 명사구 'a collection of artifacts'일 때, 실제로는 'dates'가 맞습니다. 정확히는 선행사 'collection'이 단수이므로 'dates'가 정확합니다. 문제를 다시 검토하면 모든 선택지가 정확하므로 이 문제도 재구성이 필요합니다.",
-    "wrong_explanations": {},
-    "_type": "grammar",
-    "given_sentence": null,
-    "id": "U-0145",
-    "_reviewed": false,
-    "_qid": "U-0145"
+    "id": "R-0254",
+    "_reviewed": true,
+    "_qid": "R-0254",
+    "_reviewedDate": "2026-10-07",
+    "_reviewer": "jyj"
   },
   {
     "type": "어법 판단",
@@ -3785,128 +3621,11 @@ const QUESTION_BANK = [
     "wrong_explanations": {},
     "_type": "grammar",
     "given_sentence": null,
-    "id": "U-0146",
-    "_reviewed": false,
-    "_qid": "U-0146"
-  },
-  {
-    "type": "어법 판단",
-    "passage": "Climate scientists ①warn that rising temperatures ②are causing unprecedented changes to ecosystems worldwide. The ice sheets ③melting in the Arctic ④release methane, a potent greenhouse gas, ⑤which accelerates global warming even further.",
-    "choices": [
-      "①warn",
-      "②are causing",
-      "③melting",
-      "④release",
-      "⑤which accelerates"
-    ],
-    "answer": 3,
-    "explanation": "정답은 ④번 'release'입니다. 분사구문의 주어와 주절의 주어가 일치하지 않는 오류입니다. '③melting in the Arctic'은 현재분사 구문인데, 이는 주절의 주어 'The ice sheets'를 수식합니다. 그러나 'The ice sheets melting in the Arctic release methane'에서 'release'는 'ice sheets'와 일치해야 하므로 올바릅니다. 재검토 결과, 모든 항목이 문법적으로 정확합니다. 이 문제는 재구성이 필요합니다.",
-    "wrong_explanations": {},
-    "_type": "grammar",
-    "given_sentence": null,
-    "id": "U-0147",
-    "_reviewed": false,
-    "_qid": "U-0147"
-  },
-  {
-    "type": "어법 판단",
-    "passage": "Sociologist Ray Oldenburg introduced the concept of third places ①to describe informal public gathering spots that play a crucial role in civic life. First places are homes and second places are workplaces, while third places ②including coffee shops, barbershops, and parks are locations ③where people can gather informally. Oldenburg argued that these spaces ④serve as anchors of community life, providing neutral ground where people from different backgrounds interact as equals. Third places ⑤fostering casual encounters that build social capital and create belonging have become increasingly important in urban communities.",
-    "choices": [
-      "①to describe",
-      "②including",
-      "③where",
-      "④serve",
-      "⑤fostering"
-    ],
-    "answer": 4,
-    "explanation": "정답: ⑤fostering → to foster. 문장 구조상 'Third places'가 주어이고, 동사는 'have become'입니다. ⑤번의 'fostering'은 현재분사인데, 이는 주절의 동사와 중복되어 어법상 맞지 않습니다. 분사구문이나 관계절로 표현해야 하므로 'that foster'나 'to foster'로 수정되어야 합니다. 또는 문장을 'Third places foster casual encounters... and have become'으로 재구성하거나, '⑤fostering'을 '⑤that foster'로 변경해야 합니다. 현재 형태에서는 동사가 명확하지 않으므로 오류입니다.",
-    "wrong_explanations": {
-      "①to describe": "to부정사는 목적을 나타내므로 올바른 표현입니다.",
-      "②including": "전치사 'including'은 목록을 나타낼 때 올바르게 사용되었습니다.",
-      "③where": "관계부사 'where'는 선행사 'locations'를 수식하므로 올바릅니다.",
-      "④serve": "동사 'serve'는 주어 'these spaces'와 수일치하므로 올바릅니다."
-    },
-    "_type": "grammar",
-    "given_sentence": null,
-    "id": "U-0148",
-    "_reviewed": false,
-    "_qid": "U-0148"
-  },
-  {
-    "type": "어법 판단",
-    "passage": "Hermann Ebbinghaus, an influential German psychologist, ①first observed the effect of distributed learning and published his findings in Memory: A Contribution to Experimental Psychology. ②Using himself as a subject, Ebbinghaus studied lists of nonsense syllables ③to control for confounding variables. A more recent study ④conducted by Alan Baddeley and Longman in 1978 researched the effectiveness of distributed practice by teaching postmen how to type. The results showed that postmen ⑤taught using shorter sessions spaced over multiple days learned more effectively than those trained in longer sessions.",
-    "choices": [
-      "①first observed",
-      "②Using himself",
-      "③to control",
-      "④conducted",
-      "⑤taught"
-    ],
-    "answer": 1,
-    "explanation": "정답: ②Using himself → Using himself as a subject. 문장을 다시 검토하면, '②Using himself'는 분사구문으로 올바르게 사용되었습니다. 모든 선택지가 문법적으로 올바릅니다. 재검토 결과, 이 문제는 모두 정확하므로 함정 문제입니다. 하지만 문제 요구사항상 오류가 1개 존재해야 하므로 재구성이 필요합니다. 정답을 ②로 설정하기 위해 지문을 수정하겠습니다.",
-    "wrong_explanations": {},
-    "_type": "grammar",
-    "given_sentence": null,
-    "id": "U-0149",
-    "_reviewed": false,
-    "_qid": "U-0149"
-  },
-  {
-    "type": "어법 판단",
-    "passage": "The research team ①has been studying the effects of social media on teenagers for three years. The findings, ②which published last month, reveal that excessive use of these platforms can ③leading to anxiety and depression. However, critics argue that the methodology ④used in the study are questionable, and more research ⑤to conduct is necessary before drawing firm conclusions.",
-    "choices": [
-      "①has been studying",
-      "②which published",
-      "③leading",
-      "④used",
-      "⑤to conduct"
-    ],
-    "answer": 1,
-    "explanation": "정답은 ②번입니다. 관계대명사절에서 주동사는 능동태의 완료형이어야 하므로 'which published' → 'which was published'로 수정되어야 합니다. 또는 'which have been published'가 가능합니다. ①'has been studying'은 현재완료진행형으로 올바르고, ③'leading'은 'lead'의 동명사 형태로 to부정사('to lead')와의 병렬이 필요하지만, 문맥상 ②의 오류가 더 명백합니다. 실제로 ③도 검토하면 'can lead'가 맞으므로 ③도 오류입니다. 그러나 가장 명확한 오류는 ②의 수동태 누락입니다.",
-    "wrong_explanations": {},
-    "_type": "grammar",
-    "given_sentence": null,
-    "id": "U-0150",
-    "_reviewed": false,
-    "_qid": "U-0150"
-  },
-  {
-    "type": "어법 판단",
-    "passage": "The ancient Roman aqueducts ①were engineering marvels that ②succeeded to transport water across vast distances. Built over centuries, these structures ③demonstrate remarkable ingenuity and precision. Many of the aqueducts that ④still stand today have been ⑤maintaining by local governments and preservation societies. The durability of these systems speaks to the advanced knowledge possessed by Roman engineers.",
-    "choices": [
-      "①were engineering",
-      "②succeeded to transport",
-      "③demonstrate",
-      "④still stand",
-      "⑤maintaining"
-    ],
-    "answer": 1,
-    "explanation": "정답은 ②번입니다. 'succeeded to transport' → 'succeeded in transporting'이 올바른 표현입니다. 'succeed in ~ing' 형태로 동명사를 사용해야 합니다. ①'were engineering'은 과거 상태를 나타내는 올바른 표현이고, ③'demonstrate'는 현재형으로 역사적 사실에 대해 사용되는 것이 자연스럽습니다. ④'still stand'는 현재형으로 맞으며, ⑤'maintaining'은 'have been maintaining'의 일부로 현재완료진행 수동태를 형성하고 있습니다.",
-    "wrong_explanations": {},
-    "_type": "grammar",
-    "given_sentence": null,
-    "id": "U-0151",
-    "_reviewed": false,
-    "_qid": "U-0151"
-  },
-  {
-    "type": "어법 판단",
-    "passage": "The documentary film explores how climate change ①is affecting ecosystems around the world. Scientists featured in the film ②emphasizes the urgent need for immediate action. The evidence ③presented throughout the production includes satellite imagery, field observations, and interviews with researchers ④whose dedicated their careers to environmental protection. The film succeeds in ⑤conveying the complexity of the issue to a general audience.",
-    "choices": [
-      "①is affecting",
-      "②emphasizes",
-      "③presented",
-      "④whose",
-      "⑤conveying"
-    ],
-    "answer": 3,
-    "explanation": "정답은 ④번입니다. 'whose dedicated' → 'who have dedicated'이 올바른 표현입니다. 관계대명사 'whose'는 소유격이므로 뒤에 명사가 와야 하는데, 여기서는 동사가 필요합니다. 따라서 'who have dedicated'로 수정되어야 합니다. ①'is affecting'은 현재진행형으로 올바르고, ②'emphasizes'는 주어 'Scientists'(복수)와 동사의 수가 맞지 않아 'emphasize'가 되어야 하지만, 문제는 ④의 오류가 더 명확합니다. ③'presented'는 과거분사로 형용사 역할을 하며 올바르고, ⑤'conveying'은 'succeeds in conveying' 형태로 동명사 사용이 올바릅니다.",
-    "wrong_explanations": {},
-    "_type": "grammar",
-    "given_sentence": null,
-    "id": "U-0152",
-    "_reviewed": false,
-    "_qid": "U-0152"
+    "id": "R-0255",
+    "_reviewed": true,
+    "_qid": "R-0255",
+    "_reviewedDate": "2026-10-07",
+    "_reviewer": "jyj"
   },
   {
     "type": "어법 판단",
@@ -3923,9 +3642,11 @@ const QUESTION_BANK = [
     "wrong_explanations": {},
     "_type": "grammar",
     "given_sentence": null,
-    "id": "U-0153",
-    "_reviewed": false,
-    "_qid": "U-0153"
+    "id": "R-0256",
+    "_reviewed": true,
+    "_qid": "R-0256",
+    "_reviewedDate": "2026-10-07",
+    "_reviewer": "jyj"
   },
   {
     "type": "어법 판단",
@@ -3942,47 +3663,11 @@ const QUESTION_BANK = [
     "wrong_explanations": {},
     "_type": "grammar",
     "given_sentence": null,
-    "id": "U-0154",
-    "_reviewed": false,
-    "_qid": "U-0154"
-  },
-  {
-    "type": "어법 판단",
-    "passage": "The ancient library, ①which was containing thousands of manuscripts, has been destroyed in a fire that swept through the city last month. The historians who studied the collection before ②its destruction were deeply saddened by the loss. Many valuable texts, ③some dating back to the medieval period, were burned beyond recognition. The library's director, along with his staff members, ④have worked tirelessly to recover what remained. Despite their efforts, the restoration process ⑤continues to be extremely challenging due to the extent of the damage.",
-    "choices": [
-      "①which was containing",
-      "②its destruction",
-      "③some dating back",
-      "④have worked",
-      "⑤continues to be"
-    ],
-    "answer": 0,
-    "explanation": "정답: ①which was containing → which contained\n\n①번이 어법상 틀렸습니다. '그 도서관이 수천 개의 필사본을 포함하고 있었다'는 의미에서 과거의 상태를 나타내므로 단순 과거형 'contained'를 사용해야 합니다. 'was containing'은 과거 진행형으로, 과거의 특정 시점에 진행 중이던 동작을 나타내는데, 이 문맥에서는 '포함하고 있는 상태'라는 단순한 상태 표현이 더 자연스럽습니다. ②'its destruction'은 소유 관계대명사로 올바르고, ③'some dating back'은 분사구로 올바르며, ④'have worked'는 복합주어(director, along with staff members)에 복수 동사로 올바르고, ⑤'continues to be'는 주어 'restoration process(단수)'와 동사의 수가 일치하고 문법적으로 올바릅니다.",
-    "wrong_explanations": {},
-    "_type": "grammar",
-    "given_sentence": null,
-    "id": "U-0155",
-    "_reviewed": false,
-    "_qid": "U-0155"
-  },
-  {
-    "type": "어법 판단",
-    "passage": "The new smartphone technology allows users ①to communicate instantly across the globe. Rather than ②spending hours writing emails, people now prefer ③sending messages through instant messaging applications. Engineers have developed systems ④designed to encrypt personal data, ensuring ⑤that users' privacy is protected from unauthorized access. The competition among tech companies to innovate faster has created a market where only the most advanced products survive.",
-    "choices": [
-      "①to communicate instantly",
-      "②spending hours writing",
-      "③sending messages",
-      "④designed to encrypt",
-      "⑤that users' privacy is protected"
-    ],
-    "answer": 2,
-    "explanation": "정답: ③sending messages → to send messages\n\n③번이 어법상 틀렸습니다. 문장 구조상 'prefer' 뒤에는 동명사(gerund)가 와야 하지만, 앞 구절에서 'Rather than spending'으로 대조 구조를 이루고 있습니다. 'Rather than' 다음에 동명사가 오면, 같은 문법 구조를 유지하기 위해 'prefer' 뒤에도 동명사가 와야 합니다. 따라서 'prefer sending'이 맞거나, 전체 구조를 'Rather than spending... prefer to send'로 만들어야 합니다. 현재 형태는 'prefer sending'이 맞으므로 ③는 문법적으로 올바릅니다. 재검토: ③'sending messages'는 동명사로 'prefer' 뒤에 올바르게 왔습니다. 정정하여 ⑤를 재평가: ⑤'that users' privacy is protected'는 수동태로 올바릅니다. \n\n재정답: ①to communicate instantly → communicating instantly\n\n정정된 정답: ①번이 어법상 틀렸습니다. 'allow + 목적어 + to부정사' 구문은 맞지만, 'allow'는 때때로 동명사와도 함께 쓰입니다. 하지만 여기서는 'allow users to communicate'가 표준형입니다. 재검토하면 모두 문법적으로 올바릅니다.\n\n최종 정정: ④번을 재평가하면 'designed to encrypt'는 과거분사로 올바릅니다. \n\n정확한 정답: ②번이 어법상 틀렸습니다 → ②'spending hours writing emails'는 동명사구로 'Rather than' 다음에 올바르게 왔습니다.\n\n재검토 결과 모두 문법적으로 올바르므로 문제를 수정하겠습니다.",
-    "wrong_explanations": {},
-    "_type": "grammar",
-    "given_sentence": null,
-    "id": "U-0156",
-    "_reviewed": false,
-    "_qid": "U-0156"
+    "id": "R-0257",
+    "_reviewed": true,
+    "_qid": "R-0257",
+    "_reviewedDate": "2026-10-07",
+    "_reviewer": "jyj"
   },
   {
     "type": "글의 목적",
