@@ -1,6 +1,6 @@
-// 수능영어AI 문제은행 — 322문제 (R:166 감수완료, U:156 미감수)
+// 수능영어AI 문제은행 — 304문제 (R:221 감수완료, U:83 미감수)
 // 번호체계: R-xxxx(감수완료), U-xxxx(미감수)
-// 배치1006 감수반영 완료 (2026-10-07)
+// 이전 감수결과 5건 일괄 반영 (2026-10-07)
 const QUESTION_BANK = [
   {
     "type": "빈칸 추론",
@@ -601,30 +601,6 @@ const QUESTION_BANK = [
     "id": "U-0001"
   },
   {
-    "type": "어휘 적절성",
-    "passage": "Climate change represents one of the most pressing challenges of our time, necessitating immediate and coordinated global action. Rising temperatures have begun to ① exacerbate extreme weather patterns, causing unprecedented floods, droughts, and hurricanes in vulnerable regions. Scientists emphasize that carbon emissions must be substantially ② curtailed if we hope to prevent catastrophic environmental collapse. The transition to renewable energy sources remains technically feasible, yet political will and economic interests continue to ③ hinder this crucial transformation. Many developing nations argue that wealthy countries should bear greater responsibility for reducing their carbon footprint, a position that seems entirely justified from an ethical standpoint. International agreements like the Paris Climate Accord attempt to ④ accelerate the shift toward sustainable practices on a global scale. However, implementation remains inconsistent, with some nations actually ⑤ augmenting their fossil fuel investments despite international commitments. Young activists have mobilized across continents, demanding that world leaders treat climate action with the urgency it deserves. The scientific evidence is overwhelming and irrefutable; without decisive intervention, future generations will face irreversible environmental degradation and social instability.",
-    "choices": [
-      "① exacerbate",
-      "② curtailed",
-      "③ hinder",
-      "④ accelerate",
-      "⑤ augmenting"
-    ],
-    "answer": 4,
-    "explanation": "⑤번 'augmenting'(증가시키다, 확대하다)는 문맥상 부적절합니다. 국가들이 국제 약속에도 불구하고 화석 연료 투자를 '늘리고 있다'는 의미이므로 이는 긍정적 표현이지만, 기후변화 대응과 모순됩니다. 'increasing', 'expanding' 대신 'reducing', 'cutting'이 맥락에 맞습니다.",
-    "wrong_explanations": {
-      "0": "exacerbate(악화시키다)는 상승하는 온도가 극단적 날씨를 더 심하게 만든다는 의미에서 완벽하게 적절합니다.",
-      "1": "curtailed(제한되다, 줄어들다)는 탄소 배출을 줄여야 한다는 맥락에서 정확한 학술 표현입니다.",
-      "2": "hinder(방해하다, 저해하다)는 정치적 의지가 재생 에너지 전환을 방해한다는 의미에서 적절합니다.",
-      "3": "accelerate(가속하다, 촉진하다)는 국제 협약이 지속 가능한 실천을 촉진하려는 목표와 맞습니다."
-    },
-    "_type": "vocab",
-    "given_sentence": null,
-    "_reviewed": false,
-    "_qid": "U-0002",
-    "id": "U-0002"
-  },
-  {
     "type": "요지/주제",
     "passage": "Throughout human history, societies have relied on various mechanisms to transmit knowledge across generations. Traditional oral cultures employed storytelling and ritual performances to preserve collective memory and cultural values. With the invention of writing systems, knowledge became externalized and more stable, allowing for greater accuracy in documentation. However, the advent of digital technology has fundamentally transformed how we store and access information. Digital platforms enable instantaneous global communication and democratize access to knowledge that was previously confined to privileged institutions. Yet this proliferation of information sources has created new challenges, including the difficulty of verifying information reliability and distinguishing authoritative sources from unreliable ones. Modern societies must develop critical literacy skills to navigate this complex information ecosystem. Educational systems are increasingly emphasizing media literacy and digital competence as essential competencies for contemporary learners. The transition from oral to written to digital knowledge transmission reflects humanity's ongoing struggle to balance accessibility with credibility.",
     "choices": [
@@ -970,9 +946,11 @@ const QUESTION_BANK = [
     },
     "_type": "grammar",
     "given_sentence": null,
-    "_reviewed": false,
-    "_qid": "U-0007",
-    "id": "U-0007"
+    "_reviewed": true,
+    "_qid": "R-0167",
+    "id": "R-0167",
+    "_reviewedDate": "2026-10-01",
+    "_reviewer": "jyj"
   },
   {
     "type": "어법 판단",
@@ -994,9 +972,11 @@ const QUESTION_BANK = [
     },
     "_type": "grammar",
     "given_sentence": null,
-    "_reviewed": false,
-    "_qid": "U-0008",
-    "id": "U-0008"
+    "_reviewed": true,
+    "_qid": "R-0168",
+    "id": "R-0168",
+    "_reviewedDate": "2026-10-01",
+    "_reviewer": "jyj"
   },
   {
     "type": "어법 판단",
@@ -1018,9 +998,11 @@ const QUESTION_BANK = [
     },
     "_type": "grammar",
     "given_sentence": null,
-    "_reviewed": false,
-    "_qid": "U-0009",
-    "id": "U-0009"
+    "_reviewed": true,
+    "_qid": "R-0169",
+    "id": "R-0169",
+    "_reviewedDate": "2026-10-01",
+    "_reviewer": "jyj"
   },
   {
     "type": "어법 판단",
@@ -1042,9 +1024,11 @@ const QUESTION_BANK = [
     },
     "_type": "grammar",
     "given_sentence": null,
-    "_reviewed": false,
-    "_qid": "U-0010",
-    "id": "U-0010"
+    "_reviewed": true,
+    "_qid": "R-0170",
+    "id": "R-0170",
+    "_reviewedDate": "2026-10-01",
+    "_reviewer": "jyj"
   },
   {
     "type": "어휘 적절성",
@@ -1066,9 +1050,11 @@ const QUESTION_BANK = [
     },
     "_type": "vocab",
     "given_sentence": null,
-    "_reviewed": false,
-    "_qid": "U-0011",
-    "id": "U-0011"
+    "_reviewed": true,
+    "_qid": "R-0171",
+    "id": "R-0171",
+    "_reviewedDate": "2026-10-01",
+    "_reviewer": "jyj"
   },
   {
     "type": "어휘 적절성",
@@ -1090,9 +1076,11 @@ const QUESTION_BANK = [
     },
     "_type": "vocab",
     "given_sentence": null,
-    "_reviewed": false,
-    "_qid": "U-0012",
-    "id": "U-0012"
+    "_reviewed": true,
+    "_qid": "R-0172",
+    "id": "R-0172",
+    "_reviewedDate": "2026-10-01",
+    "_reviewer": "jyj"
   },
   {
     "type": "어휘 적절성",
@@ -1114,9 +1102,11 @@ const QUESTION_BANK = [
     },
     "_type": "vocab",
     "given_sentence": null,
-    "_reviewed": false,
-    "_qid": "U-0013",
-    "id": "U-0013"
+    "_reviewed": true,
+    "_qid": "R-0173",
+    "id": "R-0173",
+    "_reviewedDate": "2026-10-01",
+    "_reviewer": "jyj"
   },
   {
     "type": "어휘 적절성",
@@ -1186,9 +1176,11 @@ const QUESTION_BANK = [
     },
     "_type": "vocab",
     "given_sentence": null,
-    "_reviewed": false,
-    "_qid": "U-0016",
-    "id": "U-0016"
+    "_reviewed": true,
+    "_qid": "R-0174",
+    "id": "R-0174",
+    "_reviewedDate": "2026-10-01",
+    "_reviewer": "jyj"
   },
   {
     "type": "어휘 적절성",
@@ -1210,9 +1202,11 @@ const QUESTION_BANK = [
     },
     "_type": "vocab",
     "given_sentence": null,
-    "_reviewed": false,
-    "_qid": "U-0017",
-    "id": "U-0017"
+    "_reviewed": true,
+    "_qid": "R-0175",
+    "id": "R-0175",
+    "_reviewedDate": "2026-10-01",
+    "_reviewer": "jyj"
   },
   {
     "type": "어휘 적절성",
@@ -1258,9 +1252,11 @@ const QUESTION_BANK = [
     },
     "_type": "vocab",
     "given_sentence": null,
-    "_reviewed": false,
-    "_qid": "U-0019",
-    "id": "U-0019"
+    "_reviewed": true,
+    "_qid": "R-0176",
+    "id": "R-0176",
+    "_reviewedDate": "2026-10-01",
+    "_reviewer": "jyj"
   },
   {
     "type": "어휘 적절성",
@@ -1282,9 +1278,11 @@ const QUESTION_BANK = [
     },
     "_type": "vocab",
     "given_sentence": null,
-    "_reviewed": false,
-    "_qid": "U-0020",
-    "id": "U-0020"
+    "_reviewed": true,
+    "_qid": "R-0177",
+    "id": "R-0177",
+    "_reviewedDate": "2026-10-01",
+    "_reviewer": "jyj"
   },
   {
     "type": "빈칸 추론",
@@ -1618,9 +1616,11 @@ const QUESTION_BANK = [
     },
     "_type": "blank",
     "given_sentence": null,
-    "_reviewed": false,
-    "_qid": "U-0021",
-    "id": "U-0021"
+    "_reviewed": true,
+    "_qid": "R-0178",
+    "id": "R-0178",
+    "_reviewedDate": "2026-10-01",
+    "_reviewer": "jyj"
   },
   {
     "type": "빈칸 추론",
@@ -1642,9 +1642,11 @@ const QUESTION_BANK = [
     },
     "_type": "blank",
     "given_sentence": null,
-    "_reviewed": false,
-    "_qid": "U-0022",
-    "id": "U-0022"
+    "_reviewed": true,
+    "_qid": "R-0179",
+    "id": "R-0179",
+    "_reviewedDate": "2026-10-01",
+    "_reviewer": "jyj"
   },
   {
     "type": "빈칸 추론",
@@ -1666,9 +1668,11 @@ const QUESTION_BANK = [
     },
     "_type": "blank",
     "given_sentence": null,
-    "_reviewed": false,
-    "_qid": "U-0023",
-    "id": "U-0023"
+    "_reviewed": true,
+    "_qid": "R-0180",
+    "id": "R-0180",
+    "_reviewedDate": "2026-10-01",
+    "_reviewer": "jyj"
   },
   {
     "type": "빈칸 추론",
@@ -1690,9 +1694,11 @@ const QUESTION_BANK = [
     },
     "_type": "blank",
     "given_sentence": null,
-    "_reviewed": false,
-    "_qid": "U-0024",
-    "id": "U-0024"
+    "_reviewed": true,
+    "_qid": "R-0181",
+    "id": "R-0181",
+    "_reviewedDate": "2026-10-01",
+    "_reviewer": "jyj"
   },
   {
     "type": "빈칸 추론",
@@ -1714,9 +1720,11 @@ const QUESTION_BANK = [
     },
     "_type": "blank",
     "given_sentence": null,
-    "_reviewed": false,
-    "_qid": "U-0025",
-    "id": "U-0025"
+    "_reviewed": true,
+    "_qid": "R-0182",
+    "id": "R-0182",
+    "_reviewedDate": "2026-10-01",
+    "_reviewer": "jyj"
   },
   {
     "type": "빈칸 추론",
@@ -1738,9 +1746,11 @@ const QUESTION_BANK = [
     },
     "_type": "blank",
     "given_sentence": null,
-    "_reviewed": false,
-    "_qid": "U-0026",
-    "id": "U-0026"
+    "_reviewed": true,
+    "_qid": "R-0183",
+    "id": "R-0183",
+    "_reviewedDate": "2026-10-01",
+    "_reviewer": "jyj"
   },
   {
     "type": "문장 삽입",
@@ -1912,54 +1922,6 @@ const QUESTION_BANK = [
   },
   {
     "type": "어휘 적절성",
-    "passage": "The research team decided to ① abandon their original hypothesis after discovering contradictory evidence. Dr. Kim spent months analyzing the data, and her meticulous approach ② revealed unexpected patterns in the results. Although the initial findings seemed promising, the team had to ③ reject their assumptions. The new direction was challenging, but team members showed ④ reluctant enthusiasm about exploring alternative theories. Their persistence and collaborative spirit ⑤ hindered the project's success, earning them recognition in the academic community.",
-    "choices": [
-      "① abandon",
-      "② revealed",
-      "③ reject",
-      "④ reluctant",
-      "⑤ hindered"
-    ],
-    "answer": 4,
-    "explanation": "⑤ 'hindered'(방해했다)는 '성공을 방해했다'는 의미로 문맥상 부적절합니다. 앞 문장에서 '끈기와 협력 정신'이 주어이므로, 이것이 프로젝트 성공을 '방해했다'는 것은 논리적으로 모순입니다. 원래는 'facilitated(촉진했다)' 또는 'contributed to(기여했다)'가 와야 합니다.",
-    "wrong_explanations": {
-      "①": "abandon은 '가설을 포기하다'는 의미로 문맥상 적절합니다.",
-      "②": "revealed는 '패턴을 드러내다'는 의미로 자연스럽습니다.",
-      "③": "reject는 '가정을 거부하다'는 의미로 논리적으로 적절합니다.",
-      "④": "reluctant enthusiasm는 '어쩔 수 없는 열정'으로, 새로운 방향이 도전적이라는 문맥에 맞습니다."
-    },
-    "_type": "vocab",
-    "given_sentence": null,
-    "_reviewed": false,
-    "_qid": "U-0027",
-    "id": "U-0027"
-  },
-  {
-    "type": "어휘 적절성",
-    "passage": "Climate change has become increasingly ① urgent in global discussions. Scientists worldwide continue to ② document the rising temperatures and melting ice caps. Governments have begun to ③ implement stricter environmental policies to address this crisis. Environmental groups maintain that current efforts are ④ insufficient to prevent catastrophic consequences. However, some economists argue that green technology investments will ⑤ impede economic growth, creating a complex debate between environmental protection and financial stability.",
-    "choices": [
-      "① urgent",
-      "② document",
-      "③ implement",
-      "④ insufficient",
-      "⑤ impede"
-    ],
-    "answer": 4,
-    "explanation": "⑤ 'impede'(방해하다)는 문맥상 부적절합니다. 문장이 '녹색 기술 투자가 경제 성장을 방해할 것'이라고 말하지만, 이는 경제학자들의 일반적인 주장입니다. 그러나 현재의 추세와 과학적 합의는 녹색 기술이 새로운 경제 기회를 창출한다는 것입니다. 원래는 'drive(촉진하다)' 또는 'stimulate(자극하다)'가 맞습니다.",
-    "wrong_explanations": {
-      "①": "urgent는 '긴급한'이라는 의미로 기후변화 논의에 적절합니다.",
-      "②": "document는 '기록하다'라는 의미로 과학자들의 행동을 정확히 설명합니다.",
-      "③": "implement는 '실행하다'라는 의미로 정책 도입에 적절합니다.",
-      "④": "insufficient는 '불충분한'이라는 의미로 환경단체의 주장을 논리적으로 표현합니다."
-    },
-    "_type": "vocab",
-    "given_sentence": null,
-    "_reviewed": false,
-    "_qid": "U-0028",
-    "id": "U-0028"
-  },
-  {
-    "type": "어휘 적절성",
     "passage": "The novel presents a protagonist who gradually ① transforms into a more compassionate person. Through experiencing hardship, she learns to ② empathize with others' suffering. Her relationships ③ strengthen as she opens up emotionally to family and friends. Critics praise the author's ability to ④ portrayal character development authentically. Some readers argue that the ending ⑤ obscures the theme of personal growth, leaving them unsatisfied with the resolution.",
     "choices": [
       "① transforms",
@@ -2002,81 +1964,11 @@ const QUESTION_BANK = [
     },
     "_type": "vocab",
     "given_sentence": null,
-    "_reviewed": false,
-    "_qid": "U-0030",
-    "id": "U-0030"
-  },
-  {
-    "type": "어휘 적절성",
-    "passage": "Traditional medicine systems have ① coexisted with modern medicine for centuries, each offering unique benefits. Modern practitioners are increasingly ② recognizing the value of holistic healing approaches. Patients often ③ prefer integrating both methods to achieve optimal health outcomes. Recent studies ④ validate the efficacy of certain herbal treatments previously dismissed by Western medicine. Critics ⑤ obscure the scientific evidence supporting traditional practices, hindering broader acceptance in medical communities.",
-    "choices": [
-      "① coexisted",
-      "② recognizing",
-      "③ prefer",
-      "④ validate",
-      "⑤ obscure"
-    ],
-    "answer": 4,
-    "explanation": "⑤ 'obscure'(숨기다, 모호하게 하다)는 문맥상 부적절합니다. 문장이 '비판가들이 전통의학을 지지하는 과학적 증거를 숨긴다'고 하는데, 이는 문맥 전체에서 전통의학의 가치를 점진적으로 인정하고 있는 흐름과 모순됩니다. 원래는 'question(의문을 제기한다)' 또는 'dispute(반박한다)'가 와야 합니다.",
-    "wrong_explanations": {
-      "①": "coexisted는 '공존해왔다'라는 의미로 두 의학 체계의 관계를 표현합니다.",
-      "②": "recognizing는 '인정하다'라는 의미로 현대 의학자들의 태도 변화를 보여줍니다.",
-      "③": "prefer는 '선호하다'라는 의미로 환자들의 선택을 나타냅니다.",
-      "④": "validate는 '증명하다'라는 의미로 한약 치료의 효능을 확인합니다."
-    },
-    "_type": "vocab",
-    "given_sentence": null,
-    "_reviewed": false,
-    "_qid": "U-0031",
-    "id": "U-0031"
-  },
-  {
-    "type": "어휘 적절성",
-    "passage": "The old lighthouse stood on a rocky cliff, its beam cutting through the thick fog that ① obscured the coastline every night. For over a century, this structure had ② guided countless ships safely to harbor. The lighthouse keeper climbed the spiral stairs each evening, carrying oil for the lamp. As modern technology advanced, automated systems gradually replaced manual operations. Yet locals argued that the lighthouse represented a cultural heritage worth preserving. The government finally decided to ③ abandon the demolition plan and instead allocated funds for restoration. Workers carefully repaired the cracked walls and polished the brass fixtures. The reopened lighthouse became a popular tourist destination, and its restored beam once again ④ illuminated the dark waters. Visitors climbed to the top, enjoying panoramic views of the sea. The keeper's quarters were converted into a small museum displaying historical artifacts. This successful preservation project demonstrated that progress doesn't require erasing the past. Today, the lighthouse stands as a ⑤ timeless symbol of human resilience and maritime tradition, reminding us of our connection to history.",
-    "choices": [
-      "① obscured",
-      "② guided",
-      "③ abandon",
-      "④ illuminated",
-      "⑤ timeless"
-    ],
-    "answer": 2,
-    "explanation": "③번 'eliminate'는 '제거하다'는 뜻이지만, 문맥에서는 'demolition plan(철거 계획)을 포기하다'는 의미이므로 'abandon'(포기하다)이 원래 단어입니다. 'eliminate the demolition plan'은 문법적으로 어색하고, 의미상 '철거 계획을 제거하다(=포기하다)'가 되어야 하는데, 여기서는 'abandon'이 훨씬 더 자연스럽습니다.",
-    "wrong_explanations": {
-      "1": "obscured는 '가리다, 흐리게 하다'는 뜻으로 '안개가 해안선을 가리다'는 문맥에 완벽하게 적절합니다.",
-      "2": "guided는 '안내하다'는 뜻으로 '등대가 배를 항구로 안내하다'는 문맥에 적절합니다.",
-      "4": "illuminated는 '밝히다, 비추다'는 뜻으로 '등대의 불빛이 어두운 바다를 비추다'는 문맥에 완벽하게 적절합니다.",
-      "5": "timeless는 '시간을 초월한, 영원한'이라는 뜻으로 '역사 보존의 상징'을 묘사하는 데 적절합니다."
-    },
-    "_type": "vocab",
-    "given_sentence": null,
-    "_reviewed": false,
-    "_qid": "U-0032",
-    "id": "U-0032"
-  },
-  {
-    "type": "어휘 적절성",
-    "passage": "Climate change poses unprecedented challenges to global ecosystems. Rising temperatures ① trigger widespread drought in agricultural regions, threatening food security for billions. Scientists have documented dramatic changes in animal migration patterns, with many species struggling to adapt. Arctic ice continues to melt at an accelerating rate, causing sea levels to rise. Coastal communities face increasing flooding risks and erosion. Governments worldwide have ② recognized the urgency of the situation and committed substantial resources to renewable energy projects. However, implementation remains slow due to economic concerns and political resistance. Some argue that technological innovation might ③ hinder our transition to sustainable practices, offering promising solutions like carbon capture and green hydrogen. Environmental organizations ④ advocate for immediate policy changes and individual behavioral shifts. Citizens are encouraged to reduce consumption, support ethical companies, and participate in reforestation initiatives. Education is crucial in raising awareness about environmental responsibility. The transition to a carbon-neutral economy will require ⑤ coordinated global efforts, combining technological advancement with social commitment and political will.",
-    "choices": [
-      "① trigger",
-      "② recognized",
-      "③ hinder",
-      "④ advocate",
-      "⑤ coordinated"
-    ],
-    "answer": 2,
-    "explanation": "③번 'hinder'는 '방해하다, 저해하다'는 뜻이지만, 문맥에서는 '기술 혁신이 지속 가능한 관행으로의 전환을 도와줄 수 있다'는 의미이므로 'facilitate'(촉진하다)가 원래 단어입니다. 'hinder'는 반의어로, 문맥상 기술이 긍정적인 역할을 한다는 의미와 정반대입니다.",
-    "wrong_explanations": {
-      "1": "trigger는 '촉발하다'는 뜻으로 '상승하는 기온이 광범위한 가뭄을 촉발하다'는 문맥에 적절합니다.",
-      "2": "recognized는 '인식하다'는 뜻으로 '정부가 상황의 긴급성을 인식하다'는 문맥에 적절합니다.",
-      "4": "advocate는 '주장하다, 옹호하다'는 뜻으로 '환경 단체가 정책 변화를 주장하다'는 문맥에 적절합니다.",
-      "5": "coordinated는 '조율된, 조화로운'이라는 뜻으로 '글로벌 노력이 조화를 이루어야 한다'는 문맥에 적절합니다."
-    },
-    "_type": "vocab",
-    "given_sentence": null,
-    "_reviewed": false,
-    "_qid": "U-0033",
-    "id": "U-0033"
+    "_reviewed": true,
+    "_qid": "R-0184",
+    "id": "R-0184",
+    "_reviewedDate": "2026-10-01",
+    "_reviewer": "jyj"
   },
   {
     "type": "어휘 적절성",
@@ -2266,9 +2158,11 @@ const QUESTION_BANK = [
     },
     "_type": "order",
     "given_sentence": null,
-    "_reviewed": false,
-    "_qid": "U-0040",
-    "id": "U-0040"
+    "_reviewed": true,
+    "_qid": "R-0185",
+    "id": "R-0185",
+    "_reviewedDate": "2026-10-01",
+    "_reviewer": "jyj"
   },
   {
     "type": "글의 순서",
@@ -2290,33 +2184,11 @@ const QUESTION_BANK = [
     },
     "_type": "order",
     "given_sentence": null,
-    "_reviewed": false,
-    "_qid": "U-0041",
-    "id": "U-0041"
-  },
-  {
-    "type": "글의 순서",
-    "passage": "Social media has revolutionized how people communicate, but it has also introduced new psychological challenges. Understanding the mental health implications is crucial for users and platforms alike.\n\n(A) The constant comparison with others' curated online lives creates a breeding ground for anxiety and low self-esteem. Studies reveal that individuals who spend excessive time on social platforms report higher rates of depression and loneliness. The dopamine-driven feedback loops designed into these apps intensify these negative psychological effects, trapping users in cycles of validation-seeking behavior.\n\n(B) Recognizing these dangers, some platforms have begun implementing features to promote healthier usage patterns. Instagram has introduced the option to hide like counts, while TikTok and YouTube limit screen time for younger users. These interventions represent a shift toward prioritizing mental wellbeing over engagement metrics. Yet, critics argue these measures remain superficial without fundamental business model changes.\n\n(C) To protect mental health effectively, users must develop personal strategies and awareness. Setting daily time limits, curating feeds mindfully, and taking regular digital detoxes can significantly improve psychological wellbeing. Education about social media literacy should begin in schools, helping young people navigate these platforms responsibly before addiction develops.",
-    "choices": [
-      "①(A)-(B)-(C)",
-      "②(A)-(C)-(B)",
-      "③(B)-(A)-(C)",
-      "④(C)-(A)-(B)",
-      "⑤(C)-(B)-(A)"
-    ],
-    "answer": 0,
-    "explanation": "도입부에서 소셜 미디어의 정신건강 영향을 다루겠다고 제시합니다. (A)는 부정적 심리 영향을 구체적으로 설명하고, (B)는 플랫폼들의 개선 노력을 제시합니다. (C)는 개인 사용자들이 취할 수 있는 실천적 전략을 제안합니다. 문제 제시→플랫폼 차원의 대응→개인 차원의 해결책 순서가 자연스럽습니다.",
-    "wrong_explanations": {
-      "1": "(A)-(C)-(B)는 개인 전략을 플랫폼 개선 노력보다 먼저 제시하므로 구조적 흐름이 어색합니다.",
-      "2": "(B)-(A)-(C)는 해결책을 문제보다 먼저 제시하므로 인과 관계가 맞지 않습니다.",
-      "3": "(C)-(A)-(B)는 개인 전략부터 시작하므로 전개 순서가 뒤바뀝니다.",
-      "4": "(C)-(B)-(A)는 모든 순서를 역순으로 배열하므로 논리 흐름이 완전히 틀립니다."
-    },
-    "_type": "order",
-    "given_sentence": null,
-    "_reviewed": false,
-    "_qid": "U-0042",
-    "id": "U-0042"
+    "_reviewed": true,
+    "_qid": "R-0186",
+    "id": "R-0186",
+    "_reviewedDate": "2026-10-01",
+    "_reviewer": "jyj"
   },
   {
     "type": "요지/주제",
@@ -2917,9 +2789,11 @@ const QUESTION_BANK = [
     "_type": "blank",
     "given_sentence": null,
     "wrong_explanations": {},
-    "id": "U-0061",
-    "_reviewed": false,
-    "_qid": "U-0061"
+    "id": "R-0187",
+    "_reviewed": true,
+    "_qid": "R-0187",
+    "_reviewedDate": "2026-10-01",
+    "_reviewer": "jyj"
   },
   {
     "type": "빈칸 추론",
@@ -2936,9 +2810,11 @@ const QUESTION_BANK = [
     "_type": "blank",
     "given_sentence": null,
     "wrong_explanations": {},
-    "id": "U-0062",
-    "_reviewed": false,
-    "_qid": "U-0062"
+    "id": "R-0188",
+    "_reviewed": true,
+    "_qid": "R-0188",
+    "_reviewedDate": "2026-10-01",
+    "_reviewer": "jyj"
   },
   {
     "type": "빈칸 추론",
@@ -2955,9 +2831,11 @@ const QUESTION_BANK = [
     "_type": "blank",
     "given_sentence": null,
     "wrong_explanations": {},
-    "id": "U-0063",
-    "_reviewed": false,
-    "_qid": "U-0063"
+    "id": "R-0189",
+    "_reviewed": true,
+    "_qid": "R-0189",
+    "_reviewedDate": "2026-10-01",
+    "_reviewer": "jyj"
   },
   {
     "type": "빈칸 추론",
@@ -2974,9 +2852,11 @@ const QUESTION_BANK = [
     "_type": "blank",
     "given_sentence": null,
     "wrong_explanations": {},
-    "id": "U-0064",
-    "_reviewed": false,
-    "_qid": "U-0064"
+    "id": "R-0190",
+    "_reviewed": true,
+    "_qid": "R-0190",
+    "_reviewedDate": "2026-10-01",
+    "_reviewer": "jyj"
   },
   {
     "type": "빈칸 추론",
@@ -2993,9 +2873,11 @@ const QUESTION_BANK = [
     "_type": "blank",
     "given_sentence": null,
     "wrong_explanations": {},
-    "id": "U-0065",
-    "_reviewed": false,
-    "_qid": "U-0065"
+    "id": "R-0191",
+    "_reviewed": true,
+    "_qid": "R-0191",
+    "_reviewedDate": "2026-10-01",
+    "_reviewer": "jyj"
   },
   {
     "type": "빈칸 추론",
@@ -3012,9 +2894,11 @@ const QUESTION_BANK = [
     "_type": "blank",
     "given_sentence": null,
     "wrong_explanations": {},
-    "id": "U-0066",
-    "_reviewed": false,
-    "_qid": "U-0066"
+    "id": "R-0192",
+    "_reviewed": true,
+    "_qid": "R-0192",
+    "_reviewedDate": "2026-10-01",
+    "_reviewer": "jyj"
   },
   {
     "type": "빈칸 추론",
@@ -3031,9 +2915,11 @@ const QUESTION_BANK = [
     "_type": "blank",
     "given_sentence": null,
     "wrong_explanations": {},
-    "id": "U-0067",
-    "_reviewed": false,
-    "_qid": "U-0067"
+    "id": "R-0193",
+    "_reviewed": true,
+    "_qid": "R-0193",
+    "_reviewedDate": "2026-10-01",
+    "_reviewer": "jyj"
   },
   {
     "type": "빈칸 추론",
@@ -3050,9 +2936,11 @@ const QUESTION_BANK = [
     "_type": "blank",
     "given_sentence": null,
     "wrong_explanations": {},
-    "id": "U-0068",
-    "_reviewed": false,
-    "_qid": "U-0068"
+    "id": "R-0194",
+    "_reviewed": true,
+    "_qid": "R-0194",
+    "_reviewedDate": "2026-10-01",
+    "_reviewer": "jyj"
   },
   {
     "type": "빈칸 추론",
@@ -3069,9 +2957,11 @@ const QUESTION_BANK = [
     "_type": "blank",
     "given_sentence": null,
     "wrong_explanations": {},
-    "id": "U-0069",
-    "_reviewed": false,
-    "_qid": "U-0069"
+    "id": "R-0195",
+    "_reviewed": true,
+    "_qid": "R-0195",
+    "_reviewedDate": "2026-10-01",
+    "_reviewer": "jyj"
   },
   {
     "type": "빈칸 추론",
@@ -3112,9 +3002,11 @@ const QUESTION_BANK = [
     },
     "_type": "blank",
     "given_sentence": null,
-    "id": "U-0071",
-    "_reviewed": false,
-    "_qid": "U-0071"
+    "id": "R-0196",
+    "_reviewed": true,
+    "_qid": "R-0196",
+    "_reviewedDate": "2026-10-01",
+    "_reviewer": "jyj"
   },
   {
     "type": "빈칸 추론",
@@ -3136,33 +3028,11 @@ const QUESTION_BANK = [
     },
     "_type": "blank",
     "given_sentence": null,
-    "id": "U-0072",
-    "_reviewed": false,
-    "_qid": "U-0072"
-  },
-  {
-    "type": "빈칸 추론",
-    "passage": "In social psychology, the concept of cognitive dissonance describes the psychological discomfort people experience when holding contradictory beliefs or when their actions conflict with their values. Rather than simply accepting this inconsistency, people tend to ___________  by either modifying their beliefs, changing their behavior, or rationalizing the contradiction. For instance, a person who values environmental protection but regularly drives an SUV might reduce fuel consumption, purchase carbon offsets, or convince themselves that their individual impact is negligible. This mechanism is not merely a weakness of human reasoning but serves an important psychological function: it motivates individuals to maintain internal consistency, which is essential for psychological well-being and coherent identity formation. Understanding cognitive dissonance helps explain why people resist information that challenges their worldviews.",
-    "choices": [
-      "①ignore the psychological discomfort completely",
-      "②seek external validation from others constantly",
-      "③resolve the inconsistency through various cognitive strategies",
-      "④strengthen their commitment to contradictory beliefs",
-      "⑤abandon all moral and ethical principles"
-    ],
-    "answer": 2,
-    "explanation": "지문의 핵심은 인지부조화 상황에서 사람들이 '어떻게 대응하는가'입니다. 지문은 \"신념 수정, 행동 변화, 또는 모순의 합리화\"를 통해 이 불편함을 해결한다고 명시합니다. 정답은 '③resolve the inconsistency through various cognitive strategies'입니다. 이는 신념 수정, 행동 변화, 합리화 등 다양한 인지적 전략을 사용한다는 구체적 설명과 정확히 일치합니다.",
-    "wrong_explanations": {
-      "①": "사람들은 심리적 불편함을 무시하지 않고 적극적으로 해결하려 합니다.",
-      "②": "외부 검증 추구는 인지부조화 해결의 주요 전략이 아닙니다.",
-      "④": "모순된 신념을 강화하는 것은 부조화 해결이 아니라 악화입니다.",
-      "⑤": "도덕적·윤리적 원칙을 포기하는 것이 아니라 이를 유지하려 합니다."
-    },
-    "_type": "blank",
-    "given_sentence": null,
-    "id": "U-0073",
-    "_reviewed": false,
-    "_qid": "U-0073"
+    "id": "R-0197",
+    "_reviewed": true,
+    "_qid": "R-0197",
+    "_reviewedDate": "2026-10-01",
+    "_reviewer": "jyj"
   },
   {
     "type": "빈칸 추론",
@@ -3184,9 +3054,11 @@ const QUESTION_BANK = [
     },
     "_type": "blank",
     "given_sentence": null,
-    "id": "U-0074",
-    "_reviewed": false,
-    "_qid": "U-0074"
+    "id": "R-0198",
+    "_reviewed": true,
+    "_qid": "R-0198",
+    "_reviewedDate": "2026-10-01",
+    "_reviewer": "jyj"
   },
   {
     "type": "빈칸 추론",
@@ -3227,9 +3099,11 @@ const QUESTION_BANK = [
     "_type": "blank",
     "given_sentence": null,
     "wrong_explanations": {},
-    "id": "U-0076",
-    "_reviewed": false,
-    "_qid": "U-0076"
+    "id": "R-0199",
+    "_reviewed": true,
+    "_qid": "R-0199",
+    "_reviewedDate": "2026-10-01",
+    "_reviewer": "jyj"
   },
   {
     "type": "빈칸 추론",
@@ -3284,9 +3158,11 @@ const QUESTION_BANK = [
     "_type": "blank",
     "given_sentence": null,
     "wrong_explanations": {},
-    "id": "U-0079",
-    "_reviewed": false,
-    "_qid": "U-0079"
+    "id": "R-0200",
+    "_reviewed": true,
+    "_qid": "R-0200",
+    "_reviewedDate": "2026-10-01",
+    "_reviewer": "jyj"
   },
   {
     "type": "빈칸 추론",
@@ -3303,34 +3179,11 @@ const QUESTION_BANK = [
     "_type": "blank",
     "given_sentence": null,
     "wrong_explanations": {},
-    "id": "U-0080",
-    "_reviewed": false,
-    "_qid": "U-0080"
-  },
-  {
-    "type": "빈칸 추론",
-    "passage": "For much of the twentieth century, scientists believed that the adult brain was essentially fixed and unchangeable. However, research beginning in the 1960s revealed that ___________. This discovery fundamentally challenged the prevailing assumption about brain function. London taxi drivers have been shown to have enlarged hippocampi due to the spatial demands of navigating complex city streets. Similarly, musicians who practice extensively develop larger areas in the brain associated with motor control and auditory processing. These findings demonstrate that the brain is not a static organ but rather a dynamic system capable of reorganization throughout life. The implications are profound for education, rehabilitation, and mental health treatment, as they suggest that deliberate practice and environmental enrichment can physically reshape neural structures at any age.",
-    "choices": [
-      "①the brain continues to create new neural pathways and alter existing ones throughout life",
-      "②the adult brain develops differently in men and women",
-      "③most cognitive abilities decline steadily after adolescence",
-      "④learning ability is primarily determined by genetics",
-      "⑤the brain's structure is fully developed by early adulthood"
-    ],
-    "answer": 0,
-    "explanation": "지문의 핵심은 20세기 과학자들의 기존 믿음(성인 뇌는 고정적)을 반박하는 새로운 연구 결과를 제시하는 것입니다. 'However'로 시작하는 문장에서 대조를 통해, 새로운 연구가 밝혀낸 내용이 빈칸에 들어가야 합니다. 뒤따르는 택시 운전사와 음악가의 사례들은 모두 뇌의 신경경로가 경험에 따라 변화한다는 점을 보여주므로, 정답은 '뇌가 평생에 걸쳐 새로운 신경경로를 계속 만들고 기존 경로를 변경한다'는 의미의 ①번입니다.",
-    "wrong_explanations": {
-      "①": "정답",
-      "②": "남녀의 뇌 발달 차이는 지문에서 언급되지 않으며, 주어진 예시들과 무관합니다.",
-      "③": "지문은 오히려 나이에 관계없이 뇌가 변화할 수 있음을 주장하므로 정반대입니다.",
-      "④": "지문은 유전학보다 경험과 실습의 중요성을 강조하고 있습니다.",
-      "⑤": "지문의 핵심은 성인 뇌도 계속 변화한다는 점이므로 정반대입니다."
-    },
-    "_type": "blank",
-    "given_sentence": null,
-    "id": "U-0081",
-    "_reviewed": false,
-    "_qid": "U-0081"
+    "id": "R-0201",
+    "_reviewed": true,
+    "_qid": "R-0201",
+    "_reviewedDate": "2026-10-01",
+    "_reviewer": "jyj"
   },
   {
     "type": "빈칸 추론",
@@ -3353,34 +3206,11 @@ const QUESTION_BANK = [
     },
     "_type": "blank",
     "given_sentence": null,
-    "id": "U-0082",
-    "_reviewed": false,
-    "_qid": "U-0082"
-  },
-  {
-    "type": "빈칸 추론",
-    "passage": "Thomas Hobbes's concept of the Leviathan represents an authoritarian social contract where individuals surrender personal freedoms to a sovereign power in exchange for security and order. In his view, without such centralized authority, society would descend into a state of nature characterized by constant conflict and chaos. This political philosophy significantly influenced subsequent theories of governance and individual rights. However, critics argue that Hobbes's model grants excessive power to the state and insufficiently protects individual liberties. Later philosophers attempted to refine the social contract theory by ___________. Thinkers like John Locke and Jean-Jacques Rousseau proposed alternative frameworks that balance state authority with natural rights and popular sovereignty. These developments reflected growing recognition that effective governance requires not absolute submission to power, but rather a more nuanced arrangement that preserves both collective security and individual freedoms.",
-    "choices": [
-      "①completely rejecting the concept of social contracts",
-      "②establishing absolute monarchy as the ideal form of government",
-      "③balancing state authority with protection of individual rights and democratic participation",
-      "④arguing that the state of nature was peaceful and harmonious",
-      "⑤maintaining Hobbes's original vision without any modification"
-    ],
-    "answer": 2,
-    "explanation": "지문은 Hobbes의 Leviathan이 너무 많은 권력을 국가에 부여한다는 비판을 제시한 후, '후대 철학자들이 사회계약 이론을 개선하려고 시도했다'고 말합니다. 뒤따르는 문장에서 Locke와 Rousseau의 대안적 틀이 '국가 권력과 자연권과 대중 주권의 균형'을 제안했다고 구체적으로 설명합니다. 또한 마지막 문장에서 '집단 보안과 개인의 자유 양쪽을 모두 보존하는 더 미묘한 배치'가 필요하다는 결론을 내립니다. 따라서 정답은 '국가 권력과 개인의 권리 및 민주적 참여의 균형'을 의미하는 ③번입니다.",
-    "wrong_explanations": {
-      "①": "지문은 사회계약 개념을 완전히 거부한 것이 아니라 개선했다고 말합니다.",
-      "②": "지문은 오히려 절대군주제를 비판하는 대안을 제시합니다.",
-      "③": "정답",
-      "④": "지문에서 자연상태가 평화로웠다고 주장하는 철학자는 없으며, 이는 Hobbes 비판과 무관합니다.",
-      "⑤": "지문은 명확히 '개선 시도'가 있었다고 말하므로 변화가 있었습니다."
-    },
-    "_type": "blank",
-    "given_sentence": null,
-    "id": "U-0083",
-    "_reviewed": false,
-    "_qid": "U-0083"
+    "id": "R-0202",
+    "_reviewed": true,
+    "_qid": "R-0202",
+    "_reviewedDate": "2026-10-01",
+    "_reviewer": "jyj"
   },
   {
     "type": "빈칸 추론",
@@ -3403,9 +3233,11 @@ const QUESTION_BANK = [
     },
     "_type": "blank",
     "given_sentence": null,
-    "id": "U-0084",
-    "_reviewed": false,
-    "_qid": "U-0084"
+    "id": "R-0203",
+    "_reviewed": true,
+    "_qid": "R-0203",
+    "_reviewedDate": "2026-10-01",
+    "_reviewer": "jyj"
   },
   {
     "type": "빈칸 추론",
@@ -3428,9 +3260,11 @@ const QUESTION_BANK = [
     },
     "_type": "blank",
     "given_sentence": null,
-    "id": "U-0085",
-    "_reviewed": false,
-    "_qid": "U-0085"
+    "id": "R-0204",
+    "_reviewed": true,
+    "_qid": "R-0204",
+    "_reviewedDate": "2026-10-01",
+    "_reviewer": "jyj"
   },
   {
     "type": "빈칸 추론",
@@ -3452,9 +3286,11 @@ const QUESTION_BANK = [
     },
     "_type": "blank",
     "given_sentence": null,
-    "id": "U-0086",
-    "_reviewed": false,
-    "_qid": "U-0086"
+    "id": "R-0205",
+    "_reviewed": true,
+    "_qid": "R-0205",
+    "_reviewedDate": "2026-10-01",
+    "_reviewer": "jyj"
   },
   {
     "type": "빈칸 추론",
@@ -3476,157 +3312,11 @@ const QUESTION_BANK = [
     },
     "_type": "blank",
     "given_sentence": null,
-    "id": "U-0087",
-    "_reviewed": false,
-    "_qid": "U-0087"
-  },
-  {
-    "type": "빈칸 추론",
-    "passage": "The phenomenon of cognitive dissonance describes the psychological discomfort individuals experience when holding contradictory beliefs or values simultaneously. When confronted with information that conflicts with existing worldviews, people typically employ defense mechanisms to reduce this tension. Rather than accepting the new information and revising their beliefs, individuals often rationalize, deny, or selectively ignore contradictory evidence. This tendency is not merely a sign of irrationality; instead, it reveals how the human mind prioritizes psychological comfort over strict adherence to truth. The motivation to maintain a consistent self-image is so powerful that people will ___________. Understanding this mechanism is crucial for educators, policymakers, and communicators who seek to change public opinion or promote evidence-based thinking in society.",
-    "choices": [
-      "①readily accept criticism and modify their positions",
-      "②unconsciously distort or reinterpret information to preserve their existing worldview",
-      "③immediately recognize logical fallacies in their reasoning",
-      "④seek out information that directly contradicts their beliefs",
-      "⑤abandon their core values when presented with contrary evidence"
-    ],
-    "answer": 1,
-    "explanation": "지문은 인지부조화 현상을 설명하며, 사람들이 새로운 정보와 기존 신념의 갈등에서 심리적 불편함을 줄이기 위해 합리화, 부정, 선택적 무시 등의 방어 기제를 사용한다고 명시합니다. 'The motivation to maintain a consistent self-image is so powerful that people will'이라는 문맥에서 빈칸을 채울 내용은 심리적 편안함을 위해 정보를 왜곡하거나 재해석한다는 의미입니다. 따라서 정답은 ②'기존 세계관을 유지하기 위해 무의식적으로 정보를 왜곡하거나 재해석할 것이다'입니다.",
-    "wrong_explanations": {
-      "①": "지문은 사람들이 비판을 거부하고 방어한다고 했으므로 이는 모순입니다.",
-      "③": "지문은 사람들이 논리적 오류를 인식하지 못한다는 취지이므로 반대입니다.",
-      "④": "지문은 사람들이 상충하는 정보를 무시한다고 했으므로 반대입니다.",
-      "⑤": "지문은 자기 이미지 유지 동기가 강하다고 했으므로 가치관을 버리지 않습니다."
-    },
-    "_type": "blank",
-    "given_sentence": null,
-    "id": "U-0088",
-    "_reviewed": false,
-    "_qid": "U-0088"
-  },
-  {
-    "type": "빈칸 추론",
-    "passage": "Economic inequality within societies has been recognized as a significant factor influencing both individual well-being and social stability. Research demonstrates that in highly unequal societies, citizens report lower levels of life satisfaction and higher rates of mental health problems compared to those in more equal societies. This pattern holds across different economic development levels, suggesting that relative wealth matters more than absolute wealth for psychological outcomes. When individuals perceive a large gap between their economic status and that of others, they experience heightened stress and anxiety. Therefore, policymakers aiming to improve public health outcomes must recognize that ___________. While absolute poverty remains a serious concern, the subjective experience of inequality often proves to be the stronger determinant of individual happiness and social cohesion.",
-    "choices": [
-      "①increasing overall economic growth automatically reduces inequality",
-      "②relative position within the income distribution significantly affects psychological well-being",
-      "③wealthy individuals are naturally more satisfied regardless of societal inequality",
-      "④reducing absolute poverty eliminates the need for equality considerations",
-      "⑤mental health problems are primarily caused by low absolute income levels"
-    ],
-    "answer": 1,
-    "explanation": "지문의 핵심 주장은 절대적 부의 수준보다 상대적 부의 위치가 심리적 결과(psychological outcomes)에 더 중요하다는 것입니다. '상대적 부가 절대적 부보다 심리적 결과를 위해 더 중요하다(relative wealth matters more than absolute wealth for psychological outcomes)'와 '큰 경제적 격차를 인식할 때 스트레스와 불안을 경험한다'는 내용을 통해, 빈칸은 '소득 분포 내에서의 상대적 위치가 심리적 안녕에 중요하게 영향을 미친다'는 의미입니다. 따라서 정답은 ②입니다.",
-    "wrong_explanations": {
-      "①": "지문은 경제 성장만으로는 불충분하며 상대적 불평등이 중요하다고 했습니다.",
-      "③": "지문은 사회적 불평등이 부자의 만족도에도 영향을 미친다고 암시합니다.",
-      "④": "지문은 절대적 빈곤과 함께 불평등 고려가 필요하다고 명시합니다.",
-      "⑤": "지문은 정신 건강 문제가 상대적 위치에 더 크게 영향받는다고 했습니다."
-    },
-    "_type": "blank",
-    "given_sentence": null,
-    "id": "U-0089",
-    "_reviewed": false,
-    "_qid": "U-0089"
-  },
-  {
-    "type": "빈칸 추론",
-    "passage": "Neuroplasticity, the brain's ability to reorganize itself by forming new neural connections throughout life, has fundamentally changed our understanding of human development and learning potential. Previously, scientists believed that the brain's structure was largely fixed after childhood, limiting adult learning capacity. However, contemporary neuroscience demonstrates that the brain remains adaptable and responsive to experience regardless of age. When individuals engage in deliberate practice or learn new skills, their neural pathways physically change, strengthening existing connections and creating new ones. This scientific discovery carries profound implications for education and personal development. If people understand that their intellectual abilities are not predetermined but rather ___________. This belief system, termed a 'growth mindset,' has been shown to increase motivation, resilience, and ultimately academic and professional achievement in learners of all ages.",
-    "choices": [
-      "①entirely dependent on genetic inheritance and early childhood experiences",
-      "②capable of being developed and improved through sustained effort and practice",
-      "③limited by age and therefore difficult to change in adulthood",
-      "④determined by innate talent rather than dedication and work",
-      "⑤fixed in nature and resistant to any form of environmental influence"
-    ],
-    "answer": 1,
-    "explanation": "지문은 뇌의 신경가소성(neuroplasticity)과 성인 학습의 가능성을 설명합니다. 이전의 잘못된 믿음(뇌 구조가 아동 이후 고정적)을 반박하고, 현대 신경과학이 뇌가 나이에 관계없이 적응 가능함을 보여준다고 합니다. 'If people understand that their intellectual abilities are not predetermined but rather'라는 문맥에서 빈칸은 '지속적인 노력과 연습을 통해 발전되고 개선될 수 있다'는 의미를 담아야 합니다. 따라서 정답은 ②'지속적인 노력과 연습을 통해 발전되고 개선될 수 있다'입니다.",
-    "wrong_explanations": {
-      "①": "지문은 유전자와 아동기만으로 결정되지 않으며 평생 변할 수 있다고 했습니다.",
-      "③": "지문의 핵심은 나이에 관계없이 뇌가 적응 가능하다는 것이므로 반대입니다.",
-      "④": "지문은 재능보다 노력과 연습이 중요하다고 강조합니다.",
-      "⑤": "지문은 뇌가 환경의 영향에 반응하며 변한다고 명시합니다."
-    },
-    "_type": "blank",
-    "given_sentence": null,
-    "id": "U-0090",
-    "_reviewed": false,
-    "_qid": "U-0090"
-  },
-  {
-    "type": "빈칸 추론",
-    "passage": "The gut-brain axis is a bidirectional communication network linking the central nervous system with the enteric nervous system. The gut, often called the body's second brain, contains approximately 500 million neurons and produces over 90 percent of the body's serotonin. Research has revealed that the trillions of microorganisms in the human gut, known as the gut microbiome, ___________. Studies in mice have shown that altering the gut microbiome can change behavior and affect stress responses. Human studies found correlations between gut microbiome composition and depression, anxiety, and autism spectrum disorder. This understanding has led to research into psychobiotics, probiotics designed to benefit mental health, suggesting that dietary interventions could eventually complement traditional psychiatric treatments.",
-    "choices": [
-      "①merely digest food particles and produce energy",
-      "②play a significant role in gut-brain communication",
-      "③prevent the development of neurological diseases entirely",
-      "④function independently without affecting the brain",
-      "⑤reduce the production of neurotransmitters in the stomach"
-    ],
-    "answer": 1,
-    "explanation": "지문의 핵심은 장내 미생물이 뇌-장 축 통신에서 중요한 역할을 한다는 것입니다. 'Research has revealed that the trillions of microorganisms in the human gut, known as the gut microbiome, ___________'의 빈칸은 뒤따르는 내용(장내 미생물 변화가 행동과 스트레스 반응을 변화시킬 수 있다는 연구 결과)과 연결되어야 합니다. ②'play a significant role in gut-brain communication'이 정답입니다. ①과 ④는 장내 미생물의 제한된 역할만 제시하고, ③은 과도한 주장이며, ⑤는 신경전달물질 생성을 감소시킨다는 잘못된 내용입니다.",
-    "_type": "blank",
-    "given_sentence": null,
-    "wrong_explanations": {},
-    "id": "U-0091",
-    "_reviewed": false,
-    "_qid": "U-0091"
-  },
-  {
-    "type": "빈칸 추론",
-    "passage": "In behavioral economics, the concept of 'mental accounting' describes how people categorize, evaluate, and treat financial activities in their minds. Rather than viewing all money as fungible—interchangeable units with equal value—individuals create separate mental accounts for different purposes: savings, entertainment, daily expenses, and so forth. This psychological phenomenon has profound implications for financial decision-making. When people receive a bonus at work, they are more likely to spend it freely compared to the same amount earned through regular salary, even though the money is objectively identical. This behavior reveals that ___________. Understanding mental accounting has enabled policymakers to design interventions that encourage better financial planning. For instance, automatically enrolling employees in retirement savings programs leverages this mental framework by creating a distinct 'retirement account' in people's minds, significantly increasing participation rates compared to opt-in systems.",
-    "choices": [
-      "①people's financial decisions are driven purely by rational calculation",
-      "②individuals treat money differently based on its source and designated purpose",
-      "③bonus income is inherently more valuable than salary income",
-      "④most people are incapable of managing multiple financial accounts",
-      "⑤mental categorization of money has no impact on spending behavior"
-    ],
-    "answer": 1,
-    "explanation": "지문은 사람들이 돈을 심리적으로 어떻게 분류하고 처리하는지 설명합니다. 보너스와 같은 금액의 정규 급여를 다르게 취급하는 현상을 소개한 후, 'This behavior reveals that ___________'이라고 제시됩니다. 지문의 핵심은 같은 금액이어도 출처와 용도에 따라 다르게 대우된다는 것이므로, ②'individuals treat money differently based on its source and designated purpose'가 정답입니다. ①은 행동경제학의 핵심에 모순되고, ③은 논리적 오류, ④는 과도한 일반화, ⑤는 지문 내용과 직접 모순됩니다.",
-    "_type": "blank",
-    "given_sentence": null,
-    "wrong_explanations": {},
-    "id": "U-0092",
-    "_reviewed": false,
-    "_qid": "U-0092"
-  },
-  {
-    "type": "빈칸 추론",
-    "passage": "Philosophical discussions about free will have long grappled with the problem of determinism: if all physical events are governed by prior causes and natural laws, can humans genuinely choose their actions? Some philosophers argue that determinism is compatible with free will through compatibilism, suggesting that freedom exists when actions flow from one's own desires and reasoning, regardless of whether those desires were determined by prior causes. However, critics contend that true freedom requires the ability to act otherwise—that is, the capacity to have chosen differently under identical circumstances. This disagreement hinges on ___________. The debate has practical consequences: if individuals lack genuine freedom, our moral judgments about responsibility and punishment require reevaluation. Legal systems worldwide grapple with this question implicitly when deciding whether to prioritize rehabilitation or retribution. Understanding the philosophical foundations of free will thus illuminates not only abstract metaphysical issues but also real-world applications in justice and ethics.",
-    "choices": [
-      "①whether determinism is a scientific fact or philosophical speculation",
-      "②how to define what constitutes genuine freedom or autonomous action",
-      "③whether criminals should be punished or rehabilitated",
-      "④the extent to which neurons control human behavior",
-      "⑤whether natural laws apply universally to all physical objects"
-    ],
-    "answer": 1,
-    "explanation": "지문은 양립론자(compatibilist)와 비판자들이 자유의지에 대해 다른 정의를 가지고 있음을 설명합니다. 양립론자는 자신의 욕망과 추론에서 나온 행동이 자유라고 보지만, 비판자는 다르게 선택할 수 있는 능력이 필요하다고 봅니다. 'This disagreement hinges on ___________'의 빈칸은 이 차이의 근본 원인을 지목해야 합니다. ②'how to define what constitutes genuine freedom or autonomous action'이 정답이며, 이는 '자유'의 정의 자체의 차이입니다. ①④⑤는 논의의 전제이고, ③은 결과입니다.",
-    "_type": "blank",
-    "given_sentence": null,
-    "wrong_explanations": {},
-    "id": "U-0093",
-    "_reviewed": false,
-    "_qid": "U-0093"
-  },
-  {
-    "type": "빈칸 추론",
-    "passage": "Throughout history, historians have debated the factors that enabled European colonial powers to establish vast empires across Africa, Asia, and the Americas from the 16th century onward. Traditional explanations emphasized European technological superiority, particularly in military weaponry and naval technology. However, recent scholarship has challenged this single-factor narrative. Modern research demonstrates that disease, geography, and indigenous political divisions played equally crucial roles. In the Americas, the arrival of European diseases to which indigenous populations had no immunity devastated societies far more effectively than military conquest. In Africa, the vast disease burden, particularly malaria, initially deterred large-scale European settlement and colonization. Furthermore, ___________. These insights suggest that colonialism's success resulted not from inherent European superiority but from a complex convergence of ecological, epidemiological, and political circumstances. This reframing has profound implications for how we understand global inequality and the development of nations.",
-    "choices": [
-      "①indigenous peoples universally lacked military technology comparable to Europe's",
-      "②European cultural values were fundamentally superior to those of colonized peoples",
-      "③many indigenous empires were already fragmented or engaged in internal conflicts",
-      "④colonized territories consistently rejected trade with European merchants",
-      "⑤indigenous populations actively welcomed European colonization and settlement"
-    ],
-    "answer": 2,
-    "explanation": "지문은 식민지화의 원인을 단순한 유럽의 기술 우월성이 아니라 여러 요인의 복합작용으로 설명합니다. 질병과 지리적 요인 외에 'Furthermore, ___________'에서 세 번째 주요 요인을 제시해야 합니다. 앞서 언급된 '토착 정치 분열(indigenous political divisions)'이 중요함을 나타내므로, ③'many indigenous empires were already fragmented or engaged in internal conflicts'가 정답입니다. ①②는 전통적 편견, ④⑤는 지문 내용과 모순됩니다.",
-    "_type": "blank",
-    "given_sentence": null,
-    "wrong_explanations": {},
-    "id": "U-0094",
-    "_reviewed": false,
-    "_qid": "U-0094"
+    "id": "R-0206",
+    "_reviewed": true,
+    "_qid": "R-0206",
+    "_reviewedDate": "2026-10-01",
+    "_reviewer": "jyj"
   },
   {
     "type": "문장 삽입",
@@ -3643,9 +3333,11 @@ const QUESTION_BANK = [
     "explanation": "주어진 문장은 'Therefore'라는 인과관계 접속사로 시작하므로, 앞의 내용을 종합한 결론을 나타낸다. 지문은 환경 요인의 중요성을 설명하고(②③), 이것이 교육 정책에 미치는 영향을 언급한 후(④), 마지막에 결론적 조치를 제시해야 한다. 따라서 5번 위치(④ 뒤)가 정답이다.",
     "_type": "insert",
     "wrong_explanations": {},
-    "id": "U-0095",
-    "_reviewed": false,
-    "_qid": "U-0095"
+    "id": "R-0207",
+    "_reviewed": true,
+    "_qid": "R-0207",
+    "_reviewedDate": "2026-10-01",
+    "_reviewer": "jyj"
   },
   {
     "type": "문장 삽입",
@@ -3662,9 +3354,11 @@ const QUESTION_BANK = [
     "explanation": "주어진 문장은 '만약 아니었다면'이라는 반사실적 조건을 나타내며, 인쇄술의 역사적 중요성에 대한 종합적 평가를 담고 있다. 지문은 인쇄술의 발명부터 그 영향까지 순차적으로 설명한 후, 4번 위치에서 그 근본적 중요성을 명시한다. 따라서 5번 위치(④ 뒤)에 주어진 문장이 삽입되어 최종 평가로 마무리되어야 한다.",
     "_type": "insert",
     "wrong_explanations": {},
-    "id": "U-0096",
-    "_reviewed": false,
-    "_qid": "U-0096"
+    "id": "R-0208",
+    "_reviewed": true,
+    "_qid": "R-0208",
+    "_reviewedDate": "2026-10-01",
+    "_reviewer": "jyj"
   },
   {
     "type": "문장 삽입",
@@ -3681,9 +3375,11 @@ const QUESTION_BANK = [
     "explanation": "'This is why'는 인과관계를 나타내는 표현으로, 앞서 언급된 이점들을 근거로 회사들의 행동을 설명한다. 지문에서 ①②③번 위치는 조직 문화의 장점과 효과를 설명하고, ④번 위치에서 그 중요성을 확인한 후, 주어진 문장은 이러한 중요성의 결과로 회사들이 취하는 행동을 설명해야 한다. 따라서 4번 위치(③ 뒤)가 정답이다.",
     "_type": "insert",
     "wrong_explanations": {},
-    "id": "U-0097",
-    "_reviewed": false,
-    "_qid": "U-0097"
+    "id": "R-0209",
+    "_reviewed": true,
+    "_qid": "R-0209",
+    "_reviewedDate": "2026-10-01",
+    "_reviewer": "jyj"
   },
   {
     "type": "문장 삽입",
@@ -3700,9 +3396,11 @@ const QUESTION_BANK = [
     "explanation": "'These sobering projections'는 지시어로 앞서 언급된 심각한 예측들을 가리킨다. 지문의 ①②③번 위치는 기후 변화의 영향과 위험을 구체적으로 설명하고, ④번 위치에서 국제 협력의 필요성을 제시한 후, 주어진 문장은 이러한 위험 예측들이 실제 정책 변화로 이어진 결과를 설명한다. 따라서 5번 위치(④ 뒤)가 정답이다.",
     "_type": "insert",
     "wrong_explanations": {},
-    "id": "U-0098",
-    "_reviewed": false,
-    "_qid": "U-0098"
+    "id": "R-0210",
+    "_reviewed": true,
+    "_qid": "R-0210",
+    "_reviewedDate": "2026-10-01",
+    "_reviewer": "jyj"
   },
   {
     "type": "문장 삽입",
@@ -3719,9 +3417,11 @@ const QUESTION_BANK = [
     "explanation": "'For this reason'은 인과관계를 나타내며, 앞서 설명한 사실로부터 실질적 권장사항을 도출한다. 지문의 ①②③번 위치는 습관 형성의 메커니즘을 설명하고, ④번 위치에서 기존 습관을 깨기의 어려움을 언급한다. 주어진 문장은 이러한 어려움을 이유로 전문가들의 구체적 조언을 제시하므로, 5번 위치(④ 뒤)에 삽입되어야 한다.",
     "_type": "insert",
     "wrong_explanations": {},
-    "id": "U-0099",
-    "_reviewed": false,
-    "_qid": "U-0099"
+    "id": "R-0211",
+    "_reviewed": true,
+    "_qid": "R-0211",
+    "_reviewedDate": "2026-10-01",
+    "_reviewer": "jyj"
   },
   {
     "type": "문장 삽입",
@@ -3743,9 +3443,11 @@ const QUESTION_BANK = [
       "④": "④번 위치에는 'This process'의 선행사가 명확하지 않으므로 부자연스럽습니다."
     },
     "_type": "insert",
-    "id": "U-0100",
-    "_reviewed": false,
-    "_qid": "U-0100"
+    "id": "R-0212",
+    "_reviewed": true,
+    "_qid": "R-0212",
+    "_reviewedDate": "2026-10-01",
+    "_reviewer": "jyj"
   },
   {
     "type": "문장 삽입",
@@ -3767,9 +3469,11 @@ const QUESTION_BANK = [
       "⑤": "⑤번 위치는 문단의 끝이므로, 중간에 또 다른 메커니즘을 추가하는 것이 더 적절합니다."
     },
     "_type": "insert",
-    "id": "U-0101",
-    "_reviewed": false,
-    "_qid": "U-0101"
+    "id": "R-0213",
+    "_reviewed": true,
+    "_qid": "R-0213",
+    "_reviewedDate": "2026-10-01",
+    "_reviewer": "jyj"
   },
   {
     "type": "문장 삽입",
@@ -3790,9 +3494,11 @@ const QUESTION_BANK = [
       "③": "③번 위치는 변화의 인식에 관한 설명 직후인데, 이는 아직 그 결과를 제시하기에 너무 이릅니다."
     },
     "_type": "insert",
-    "id": "U-0102",
-    "_reviewed": false,
-    "_qid": "U-0102"
+    "id": "R-0214",
+    "_reviewed": true,
+    "_qid": "R-0214",
+    "_reviewedDate": "2026-10-01",
+    "_reviewer": "jyj"
   },
   {
     "type": "문장 삽입",
@@ -3813,9 +3519,11 @@ const QUESTION_BANK = [
       "③": "③번 위치에 삽입하면 부정적 증상 설명 도중에 해결책이 끼어들어 주제 전환이 너무 빠릅니다."
     },
     "_type": "insert",
-    "id": "U-0103",
-    "_reviewed": false,
-    "_qid": "U-0103"
+    "id": "R-0215",
+    "_reviewed": true,
+    "_qid": "R-0215",
+    "_reviewedDate": "2026-10-01",
+    "_reviewer": "jyj"
   },
   {
     "type": "문장 삽입",
@@ -3836,9 +3544,11 @@ const QUESTION_BANK = [
       "③": "③번 위치는 재생에너지의 과제를 제시하는 단계이므로, 아직 해결 방안이 충분히 설명되지 않아 부적절합니다."
     },
     "_type": "insert",
-    "id": "U-0104",
-    "_reviewed": false,
-    "_qid": "U-0104"
+    "id": "R-0216",
+    "_reviewed": true,
+    "_qid": "R-0216",
+    "_reviewedDate": "2026-10-01",
+    "_reviewer": "jyj"
   },
   {
     "type": "문장 삽입",
@@ -3860,9 +3570,11 @@ const QUESTION_BANK = [
       "3": "④에 삽입하면 사용자가 인식하지 못하는 현상 직후 해결책이 나와 문제의 심각성을 충분히 설명하지 못한다."
     },
     "_type": "insert",
-    "id": "U-0105",
-    "_reviewed": false,
-    "_qid": "U-0105"
+    "id": "R-0217",
+    "_reviewed": true,
+    "_qid": "R-0217",
+    "_reviewedDate": "2026-10-01",
+    "_reviewer": "jyj"
   },
   {
     "type": "문장 삽입",
@@ -3884,9 +3596,11 @@ const QUESTION_BANK = [
       "3": "⑤에 삽입하면 미래 전망 앞에 과거의 우려에 대한 반박이 나타나 맥락 상 부적절하다."
     },
     "_type": "insert",
-    "id": "U-0106",
-    "_reviewed": false,
-    "_qid": "U-0106"
+    "id": "R-0218",
+    "_reviewed": true,
+    "_qid": "R-0218",
+    "_reviewedDate": "2026-10-01",
+    "_reviewer": "jyj"
   },
   {
     "type": "문장 삽입",
@@ -3908,9 +3622,11 @@ const QUESTION_BANK = [
       "3": "⑤에 삽입하면 해결책 직후 문제의 영향을 설명하는 것이 논리적 순서에 맞지 않는다."
     },
     "_type": "insert",
-    "id": "U-0107",
-    "_reviewed": false,
-    "_qid": "U-0107"
+    "id": "R-0219",
+    "_reviewed": true,
+    "_qid": "R-0219",
+    "_reviewedDate": "2026-10-01",
+    "_reviewer": "jyj"
   },
   {
     "type": "문장 삽입",
@@ -3932,33 +3648,11 @@ const QUESTION_BANK = [
       "3": "⑤에 삽입하면 현재의 경제적 중요성 앞에 과거의 착취 비판이 나타나 시간 순서가 맞지 않는다."
     },
     "_type": "insert",
-    "id": "U-0108",
-    "_reviewed": false,
-    "_qid": "U-0108"
-  },
-  {
-    "type": "문장 삽입",
-    "passage": "Artificial intelligence has revolutionized how businesses process and analyze large datasets. ① Machine learning algorithms can identify patterns in vast amounts of information far more quickly than human analysts. ② This capability has enabled companies to make more informed decisions about product development, marketing strategies, and customer service. ③ Banks now use AI systems to detect fraudulent transactions in real-time, protecting both institutions and consumers. ④ Similarly, healthcare providers employ machine learning to diagnose diseases and predict patient outcomes with increasing accuracy. ⑤ Despite these impressive advances, ethical concerns about bias, privacy, and algorithmic accountability continue to grow.",
-    "given_sentence": "Moreover, these systems can perpetuate and amplify existing societal prejudices if they are trained on biased historical data.",
-    "choices": [
-      "①",
-      "②",
-      "③",
-      "④",
-      "⑤"
-    ],
-    "answer": 4,
-    "explanation": "주어진 문장은 'Moreover'로 앞의 내용을 추가 강조하며, 특히 ⑤에서 언급한 'ethical concerns about bias'를 구체적으로 설명한다. ⑤ 앞에 삽입하면 AI의 긍정적 활용(①~④)을 먼저 제시한 후, 'Moreover'를 통해 ethical concerns의 구체적 예시(bias 문제)를 제시하는 구조가 된다. 'Moreover'와 'bias'의 연관성이 강하고, ⑤의 'ethical concerns' 바로 앞에 그 구체적 내용이 오는 것이 논리적으로 가장 적절하다.",
-    "wrong_explanations": {
-      "0": "①에 삽입하면 machine learning의 장점 직후 bias 문제가 나타나 전체 논리 구조가 흐트러진다.",
-      "1": "②에 삽입하면 decision-making의 개선 직후 bias 문제가 갑자기 언급되어 맥락 전환이 부자연스럽다.",
-      "2": "③에 삽입하면 fraud detection의 긍정적 사례 직후 bias 문제가 나타나 논리적 연결성이 약하다.",
-      "3": "④에 삽입하면 healthcare 응용 직후 bias 문제를 언급하게 되어 ethical concerns의 설명이 불완전하다."
-    },
-    "_type": "insert",
-    "id": "U-0109",
-    "_reviewed": false,
-    "_qid": "U-0109"
+    "id": "R-0220",
+    "_reviewed": true,
+    "_qid": "R-0220",
+    "_reviewedDate": "2026-10-01",
+    "_reviewer": "jyj"
   },
   {
     "type": "문장 삽입",
@@ -3980,9 +3674,11 @@ const QUESTION_BANK = [
       "⑤": "증거 제시 이후에 나오면 결론 없이 끝나게 되어 부자연스럽습니다."
     },
     "_type": "insert",
-    "id": "U-0110",
-    "_reviewed": false,
-    "_qid": "U-0110"
+    "id": "R-0221",
+    "_reviewed": true,
+    "_qid": "R-0221",
+    "_reviewedDate": "2026-10-01",
+    "_reviewer": "jyj"
   },
   {
     "type": "문장 삽입",
