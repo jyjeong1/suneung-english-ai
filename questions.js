@@ -1,6 +1,6 @@
-// 수능영어AI 문제은행 — 304문제 (R:221 감수완료, U:83 미감수)
+// 수능영어AI 문제은행 — 275문제 (R:241 감수완료, U:34 미감수)
 // 번호체계: R-xxxx(감수완료), U-xxxx(미감수)
-// 이전 감수결과 5건 일괄 반영 (2026-10-07)
+// 배치1007 감수반영 (2026-10-07)
 const QUESTION_BANK = [
   {
     "type": "빈칸 추론",
@@ -577,30 +577,6 @@ const QUESTION_BANK = [
     "id": "R-0024"
   },
   {
-    "type": "어휘 적절성",
-    "passage": "The rapid advancement of artificial intelligence has fundamentally transformed how we approach complex problems across various industries. Machine learning algorithms now ① permeate nearly every sector of modern economy, from healthcare diagnostics to financial forecasting. Researchers have discovered that these computational systems possess an remarkable ability to ② synthesize vast amounts of data in ways that human analysts simply cannot match. However, this technological progress has simultaneously raised serious concerns about employment displacement and ethical implications. Many economists argue that society must ③ mitigate the negative consequences through comprehensive retraining programs and social safety nets. The challenge lies in balancing innovation with responsibility. Some experts contend that we should ④ retard technological development altogether, while others believe strategic regulation offers a more pragmatic solution. Educational institutions are beginning to ⑤ diminish their curricula to include AI literacy and data science fundamentals. Despite the ongoing debates, one thing remains certain: artificial intelligence will continue to shape our future in profound and unpredictable ways. Policymakers must therefore engage in thoughtful dialogue with technologists, ethicists, and the public to ensure that technological benefits are distributed equitably across society.",
-    "choices": [
-      "① permeate",
-      "② synthesize",
-      "③ mitigate",
-      "④ retard",
-      "⑤ diminish"
-    ],
-    "answer": 3,
-    "explanation": "④번 'retard'(지연시키다, 방해하다)는 맥락상 부적절합니다. 문장에서 '기술 발전을 완전히 중단해야 한다'는 의미이므로 'halt', 'stop', 'cease' 등이 적절합니다. 'retard'는 '느리게 하다'라는 의미로 약한 표현입니다.",
-    "wrong_explanations": {
-      "0": "permeate(스며들다, 퍼지다)는 AI가 경제 전반에 걸쳐 광범위하게 영향을 미친다는 맥락에서 매우 적절합니다.",
-      "1": "synthesize(종합하다, 통합하다)는 알고리즘이 대량의 데이터를 처리한다는 의미에서 정확한 표현입니다.",
-      "2": "mitigate(완화하다, 경감하다)는 부정적 결과를 줄인다는 맥락에서 학술적으로 적절합니다.",
-      "4": "diminish(줄이다, 감소시키다)는 교육과정에 AI 문해력을 '포함하도록 수정하다'는 의미에서는 부적절하지만, 문맥상 'expand'나 'augment'가 필요합니다."
-    },
-    "_type": "vocab",
-    "given_sentence": null,
-    "_reviewed": false,
-    "_qid": "U-0001",
-    "id": "U-0001"
-  },
-  {
     "type": "요지/주제",
     "passage": "Throughout human history, societies have relied on various mechanisms to transmit knowledge across generations. Traditional oral cultures employed storytelling and ritual performances to preserve collective memory and cultural values. With the invention of writing systems, knowledge became externalized and more stable, allowing for greater accuracy in documentation. However, the advent of digital technology has fundamentally transformed how we store and access information. Digital platforms enable instantaneous global communication and democratize access to knowledge that was previously confined to privileged institutions. Yet this proliferation of information sources has created new challenges, including the difficulty of verifying information reliability and distinguishing authoritative sources from unreliable ones. Modern societies must develop critical literacy skills to navigate this complex information ecosystem. Educational systems are increasingly emphasizing media literacy and digital competence as essential competencies for contemporary learners. The transition from oral to written to digital knowledge transmission reflects humanity's ongoing struggle to balance accessibility with credibility.",
     "choices": [
@@ -842,92 +818,6 @@ const QUESTION_BANK = [
   },
   {
     "type": "어법 판단",
-    "passage": "The modern workplace has undergone significant transformations in recent years. Many companies are now ① adopting flexible work arrangements that allow employees to work remotely. This shift has proven beneficial for both employers and workers, as it increases productivity and employee satisfaction. Research shows that workers who have the ② opportunity to choose their working environment tend to perform better. However, some organizations remain hesitant about implementing such policies. They worry that remote work might ③ weakening team cohesion and company culture. Despite these concerns, the trend continues to grow globally. Companies that fail to ④ adapting to this change risk losing talented employees to competitors. Furthermore, younger generations increasingly expect flexible arrangements as a standard benefit. Organizations must recognize that the future of work ⑤ requires embracing these new models to remain competitive in an evolving market.",
-    "choices": [
-      "adopting",
-      "opportunity",
-      "weakening",
-      "adapting",
-      "requires"
-    ],
-    "answer": 2,
-    "explanation": "③번 'weakening'은 문법적으로 틀렸습니다. 'might' 다음에는 기본형 동사가 와야 하므로 'weaken'이 올바른 형태입니다. 'might weakening'은 조동사 다음에 -ing형이 올 수 없으므로 부정확합니다.",
-    "wrong_explanations": {
-      "0": "①은 'are now adopting'으로 현재진행형이 올바르게 사용되었습니다.",
-      "1": "②는 'have the opportunity to choose'로 명사형이 올바르게 사용되었습니다.",
-      "3": "④는 'fail to adapting' 대신 'fail to adapt'이어야 하는데, 문제에서 'adapting'으로 표기되어 있으므로 이것이 정답입니다.",
-      "4": "⑤는 'requires embracing'으로 3인칭 단수 주어에 대한 일반동사가 올바르게 사용되었습니다."
-    },
-    "_type": "grammar",
-    "given_sentence": null,
-    "_reviewed": false,
-    "_qid": "U-0003",
-    "id": "U-0003"
-  },
-  {
-    "type": "어법 판단",
-    "passage": "Environmental conservation has become increasingly important as climate change threatens ecosystems worldwide. Scientists warn that biodiversity ① is declining at an alarming rate due to human activities. Deforestation, pollution, and overfishing are primary factors that ② contribute to this crisis. Many countries have begun ③ implementing strict regulations to protect endangered species. These measures include establishing protected areas where wildlife can thrive undisturbed. Conservation organizations work tirelessly to educate the public about environmental issues. They emphasize that individuals have a responsibility to ④ reduce their carbon footprint through sustainable choices. Community involvement is crucial for success, as large-scale change requires participation from all sectors of society. Despite the challenges ahead, there is growing hope that ⑤ coordinated global efforts will help reverse environmental damage.",
-    "choices": [
-      "is declining",
-      "contribute",
-      "implementing",
-      "reduce",
-      "coordinated"
-    ],
-    "answer": 1,
-    "explanation": "②번 'contribute'은 문법적으로 틀렸습니다. 주어 'Deforestation, pollution, and overfishing'은 복수형이므로 동사는 'contribute'이 맞습니다. 하지만 문맥상 'factors that contribute'로 목적격 관계대명사 'that' 다음의 동사이므로 실제로는 올바릅니다. 재검토하여 정정: ④번이 정답입니다.",
-    "wrong_explanations": {},
-    "_type": "grammar",
-    "given_sentence": null,
-    "_reviewed": false,
-    "_qid": "U-0004",
-    "id": "U-0004"
-  },
-  {
-    "type": "어법 판단",
-    "passage": "Digital technology has revolutionized how we communicate and access information. The internet's rapid expansion has ① created unprecedented opportunities for businesses and individuals alike. Students can now ② access educational resources from anywhere in the world through online platforms. This democratization of knowledge has ③ enabled millions of people to acquire new skills without expensive formal education. However, the digital divide remains a significant challenge in developing nations. Many communities lack the infrastructure necessary for reliable internet connectivity. Technology companies are working to ④ bridge this gap by providing affordable devices and services. Digital literacy programs have also emerged to help users ⑤ navigate the complexities of online environments safely and effectively.",
-    "choices": [
-      "created",
-      "access",
-      "enabled",
-      "bridge",
-      "navigate"
-    ],
-    "answer": 4,
-    "explanation": "⑤번 'navigate'은 문법적으로 틀렸습니다. 'help users'는 '사용자들을 돕다'는 의미이며, 'help' 다음에는 'to navigate' 또는 'navigating' 모두 가능하지만, 여기서는 기본형이 필요하므로 'navigate'이 맞습니다. 재검토: 모두 올바릅니다. 정정하여 ③번으로 설정합니다.",
-    "wrong_explanations": {},
-    "_type": "grammar",
-    "given_sentence": null,
-    "_reviewed": false,
-    "_qid": "U-0005",
-    "id": "U-0005"
-  },
-  {
-    "type": "어법 판단",
-    "passage": "Modern education systems face increasing pressure to prepare students for a rapidly changing job market. Schools must balance traditional academic subjects with practical skills development. Many institutions are now ① incorporating project-based learning approaches that encourage critical thinking. Students benefit from opportunities to ② collaborate with peers on real-world problems and solutions. This method of teaching has proven effective in ③ developing creativity and problem-solving abilities in learners. Teachers play a vital role in ④ guiding students through these experiential learning experiences. However, implementing such changes requires significant investment in teacher training and resources. Educational policymakers recognize that outdated curricula fail to ⑤ prepare students adequately for modern careers, yet funding remains limited in many regions.",
-    "choices": [
-      "incorporating",
-      "collaborate",
-      "developing",
-      "guiding",
-      "prepare"
-    ],
-    "answer": 1,
-    "explanation": "②번 'collaborate'은 문법적으로 틀렸습니다. 'benefit from + -ing' 구조이므로 'collaborating'이 와야 합니다. 'collaborate'은 기본형이므로 이 문맥에서 부정확합니다.",
-    "wrong_explanations": {
-      "0": "①은 'are now incorporating'으로 현재진행형이 올바르게 사용되었습니다.",
-      "2": "③은 'proven effective in developing'으로 -ing형이 전치사 'in' 다음에 올바르게 사용되었습니다.",
-      "3": "④는 'in guiding'으로 전치사 다음 -ing형이 올바르게 사용되었습니다.",
-      "4": "⑤는 'fail to prepare'로 동사 'fail' 다음 기본형이 올바르게 사용되었습니다."
-    },
-    "_type": "grammar",
-    "given_sentence": null,
-    "_reviewed": false,
-    "_qid": "U-0006",
-    "id": "U-0006"
-  },
-  {
-    "type": "어법 판단",
     "passage": "Corporate social responsibility has become a central concern for businesses worldwide. Companies increasingly recognize that ① profitability and social impact are not mutually exclusive goals. Many organizations are committed to ② reducing their environmental footprint through sustainable practices. Implementing green initiatives requires employees to ③ modify their daily work habits and processes. Some corporations have successfully ④ achieved significant reductions in waste and energy consumption. These efforts demonstrate that businesses can contribute positively to society while maintaining financial success. However, critics argue that some companies merely use social responsibility ⑤ masking unethical practices in developing countries, demanding greater transparency and accountability from corporations.",
     "choices": [
       "profitability",
@@ -1110,54 +1000,6 @@ const QUESTION_BANK = [
   },
   {
     "type": "어휘 적절성",
-    "passage": "Social media has ① profoundly transformed how people communicate and share information. While these platforms offer ② tremendous opportunities for connection, they also present significant challenges. The ③ proliferation of misinformation online has become a serious concern for society. Users often encounter contradictory information that makes it difficult to ④ discern truth from falsehood. Many individuals have become ⑤ oblivious to the importance of critical thinking. Experts recommend that people verify sources before sharing content. Educational institutions are increasingly teaching digital literacy to young students. Companies are implementing better fact-checking systems to combat false information. The responsibility for ensuring accuracy falls on both platforms and users. Building a more trustworthy information ecosystem requires collective effort and awareness.",
-    "choices": [
-      "①profoundly",
-      "②tremendous",
-      "③proliferation",
-      "④discern",
-      "⑤oblivious"
-    ],
-    "answer": 4,
-    "explanation": "⑤ 'oblivious'(인식하지 못한, 무관심한)은 문맥상 부적절합니다. '비판적 사고의 중요성에 대해 무관심해졌다'는 문제를 지적하는 문맥인데, 이는 교육과 인식의 필요성을 강조하는 맥락과 모순됩니다. 올바른 단어는 'aware'(인식한) 또는 'cognizant'(알아차린)입니다.",
-    "wrong_explanations": {
-      "①profoundly": "깊이 있게 변환했다 → 문맥상 적절",
-      "②tremendous": "엄청난 기회를 제공한다 → 문맥상 적절",
-      "③proliferation": "잘못된 정보의 확산 → 문맥상 적절",
-      "④discern": "진실을 구분하다 → 문맥상 적절"
-    },
-    "_type": "vocab",
-    "given_sentence": null,
-    "_reviewed": false,
-    "_qid": "U-0014",
-    "id": "U-0014"
-  },
-  {
-    "type": "어휘 적절성",
-    "passage": "The smartphone revolution has ① dramatically altered human behavior and social structures. Companies continue to ② innovate at an impressive pace, introducing new features regularly. However, excessive screen time has ③ adverse effects on mental health and sleep patterns. Research shows that children spending prolonged periods on devices ④ struggle with attention and focus. Parents are increasingly ⑤ indifferent to monitoring their children's digital activities and setting boundaries. Psychologists emphasize the importance of digital wellness programs in schools and homes. Many experts recommend designating screen-free times during meals and before bedtime. Some countries have implemented regulations to protect younger users from harmful content. Technology companies should develop features that promote healthier usage patterns. Balance between technological engagement and offline activities is essential for overall well-being.",
-    "choices": [
-      "①dramatically",
-      "②innovate",
-      "③adverse",
-      "④struggle",
-      "⑤indifferent"
-    ],
-    "answer": 4,
-    "explanation": "⑤ 'indifferent'(무관심한, 낮무심한)은 문맥상 부적절합니다. '부모들이 아이들의 디지털 활동을 모니터링해야 한다'는 전후 문맥에서 긍정적인 개입 필요성을 강조하는데, indifferent는 이를 부정합니다. 올바른 단어는 'concerned'(우려하는) 또는 'vigilant'(주의 깊은)입니다.",
-    "wrong_explanations": {
-      "①dramatically": "극적으로 변화시켰다 → 문맥상 적절",
-      "②innovate": "지속적으로 혁신한다 → 문맥상 적절",
-      "③adverse": "부정적인 영향 → 문맥상 적절",
-      "④struggle": "주의력에 어려움을 겪는다 → 문맥상 적절"
-    },
-    "_type": "vocab",
-    "given_sentence": null,
-    "_reviewed": false,
-    "_qid": "U-0015",
-    "id": "U-0015"
-  },
-  {
-    "type": "어휘 적절성",
     "passage": "Modern architecture has become increasingly ① diverse in its approach to sustainable design. Architects now recognize that buildings must ② adapt to their surrounding environments rather than dominate them. The principle of biophilic design, which incorporates natural elements into indoor spaces, has proven remarkably effective. Green roofs and living walls ③ diminish the urban heat island effect while improving air quality. Furthermore, smart building systems now ④ deteriorate energy consumption by up to 40 percent through automated climate control. These innovations demonstrate that environmental responsibility and aesthetic excellence are not mutually exclusive goals. Many developers initially resisted these changes, fearing increased costs, but long-term savings have ⑤ justified their investment. Today's sustainable buildings serve as models for future construction projects worldwide. The integration of technology and nature represents a paradigm shift in how we design our cities. Younger generations increasingly demand that new structures meet rigorous environmental standards. This momentum suggests that green building practices will continue to shape the architectural landscape for decades to come.",
     "choices": [
       "①diverse",
@@ -1207,30 +1049,6 @@ const QUESTION_BANK = [
     "id": "R-0175",
     "_reviewedDate": "2026-10-01",
     "_reviewer": "jyj"
-  },
-  {
-    "type": "어휘 적절성",
-    "passage": "Climate change presents unprecedented challenges that demand ① urgent action from all sectors of society. The melting of polar ice caps is undeniably ② accelerating, causing sea levels to rise at alarming rates. Coastal communities face the real prospect of displacement as their habitats become increasingly ③ vulnerable to flooding and erosion. Industrial nations have begun to ④ diminish their carbon emissions through renewable energy investments and policy reforms. However, developing countries often ⑤ obstruct progress by prioritizing short-term economic growth over environmental protection. The interconnected nature of global ecosystems means that one region's inaction affects communities thousands of miles away. International agreements like the Paris Accord represent attempts to coordinate collective responses to this crisis. Scientists warn that without substantial changes in the coming decade, irreversible damage may become inevitable. Young activists worldwide are increasingly vocal about demanding accountability from political leaders. Investment in green technology and sustainable practices offers pathways toward meaningful progress. The transition to a carbon-neutral economy requires unprecedented levels of cooperation and commitment.",
-    "choices": [
-      "①urgent",
-      "②accelerating",
-      "③vulnerable",
-      "④diminish",
-      "⑤obstruct"
-    ],
-    "answer": 4,
-    "explanation": "⑤번 'obstruct'(방해하다)는 문맥에 부적절합니다. 개발도상국들이 환경 보호 대신 경제 성장을 '우선시한다'는 의미인데, '방해한다'는 의미로는 맥락이 맞지 않습니다. 원래 단어는 'prioritize'(우선시하다) 또는 'favor'(선호하다)이어야 합니다.",
-    "wrong_explanations": {
-      "①": "urgent(긴급한)은 기후 변화 대응이 시급하다는 의미로 적절합니다.",
-      "②": "accelerating(가속화되는)은 빙하가 녹는 속도가 빨라지고 있다는 의미로 적절합니다.",
-      "③": "vulnerable(취약한)은 해안 지역이 범람과 침식에 약하다는 의미로 적절합니다.",
-      "④": "diminish(감소시키다)는 탄소 배출을 줄인다는 의미로 적절합니다."
-    },
-    "_type": "vocab",
-    "given_sentence": null,
-    "_reviewed": false,
-    "_qid": "U-0018",
-    "id": "U-0018"
   },
   {
     "type": "어휘 적절성",
@@ -1922,30 +1740,6 @@ const QUESTION_BANK = [
   },
   {
     "type": "어휘 적절성",
-    "passage": "The novel presents a protagonist who gradually ① transforms into a more compassionate person. Through experiencing hardship, she learns to ② empathize with others' suffering. Her relationships ③ strengthen as she opens up emotionally to family and friends. Critics praise the author's ability to ④ portrayal character development authentically. Some readers argue that the ending ⑤ obscures the theme of personal growth, leaving them unsatisfied with the resolution.",
-    "choices": [
-      "① transforms",
-      "② empathize",
-      "③ strengthen",
-      "④ portrayal",
-      "⑤ obscures"
-    ],
-    "answer": 4,
-    "explanation": "⑤ 'obscures'(모호하게 하다, 숨기다)는 문맥상 부적절합니다. 소설이 '개인적 성장'이라는 주제를 명확히 드러내고 있으므로, 이를 '모호하게 한다'는 표현은 모순입니다. 원래는 'reinforces(강화한다)' 또는 'emphasizes(강조한다)'가 와야 합니다.",
-    "wrong_explanations": {
-      "①": "transforms는 '변화하다'라는 의미로 주인공의 성장을 표현합니다.",
-      "②": "empathize는 '공감하다'라는 의미로 감정적 성장을 보여줍니다.",
-      "③": "strengthen는 '강화되다'라는 의미로 관계 발전을 나타냅니다.",
-      "④": "portrayal는 '묘사'라는 의미로 저자의 능력을 설명합니다."
-    },
-    "_type": "vocab",
-    "given_sentence": null,
-    "_reviewed": false,
-    "_qid": "U-0029",
-    "id": "U-0029"
-  },
-  {
-    "type": "어휘 적절성",
     "passage": "The startup company faced significant challenges in its first year, yet the team's determination ① sustained their efforts through difficulties. Investors were impressed by the founders' ability to ② adapt quickly to market changes. The business model ③ evolved continuously, allowing the company to stay competitive. Despite setbacks, quarterly revenue ④ surged unexpectedly, demonstrating strong market demand. Management decided to ⑤ discard their expansion plans, recognizing the enormous potential for growth in emerging markets.",
     "choices": [
       "① sustained",
@@ -1990,9 +1784,11 @@ const QUESTION_BANK = [
     },
     "_type": "vocab",
     "given_sentence": null,
-    "_reviewed": false,
-    "_qid": "U-0034",
-    "id": "U-0034"
+    "_reviewed": true,
+    "_qid": "R-0230",
+    "id": "R-0230",
+    "_reviewedDate": "2026-10-07",
+    "_reviewer": "jyj"
   },
   {
     "type": "어휘 적절성",
@@ -2014,9 +1810,11 @@ const QUESTION_BANK = [
     },
     "_type": "vocab",
     "given_sentence": null,
-    "_reviewed": false,
-    "_qid": "U-0035",
-    "id": "U-0035"
+    "_reviewed": true,
+    "_qid": "R-0231",
+    "id": "R-0231",
+    "_reviewedDate": "2026-10-07",
+    "_reviewer": "jyj"
   },
   {
     "type": "글의 순서",
@@ -2062,57 +1860,11 @@ const QUESTION_BANK = [
     },
     "_type": "order",
     "given_sentence": null,
-    "_reviewed": false,
-    "_qid": "U-0036",
-    "id": "U-0036"
-  },
-  {
-    "type": "글의 순서",
-    "passage": "Throughout history, cities have faced challenges related to waste management and urban sanitation. In the 21st century, these problems have reached critical levels as populations continue to grow.\n\n(A) Urban planners are now turning to innovative solutions, including vertical farms and green roofs. Such initiatives not only reduce waste but also improve air quality and provide residents with fresh produce. Cities like Singapore and Copenhagen have become models for sustainable urban development.\n\n(B) The accumulation of waste in cities has multiple negative effects on both human health and the environment. Landfills release methane, a potent greenhouse gas, while improper waste disposal contaminates groundwater and soil. Urban areas with inadequate waste management systems often experience higher rates of disease and respiratory problems.\n\n(C) Governments worldwide are implementing strict regulations to combat these issues, including mandatory recycling programs and bans on single-use plastics. Corporate partnerships and community education campaigns have proven effective in changing consumer behavior. Early results show that cities adopting comprehensive waste reduction strategies can decrease overall waste by up to 30 percent.",
-    "choices": [
-      "①(A)-(B)-(C)",
-      "②(A)-(C)-(B)",
-      "③(B)-(C)-(A)",
-      "④(B)-(A)-(C)",
-      "⑤(C)-(B)-(A)"
-    ],
-    "answer": 3,
-    "explanation": "도입부에서 도시 폐기물 관리의 심각성 언급. (B)는 그 부정적 영향을 구체적으로 설명하여 문제의 심각성을 드러냄. (C)는 정부의 규제 및 정책 대응을 제시. (A)는 도시 계획가들의 혁신적 해결책으로 앞선 노력들의 구체적 사례 제시.",
-    "wrong_explanations": {
-      "①": "(A)의 창의적 솔루션이 (B)의 문제 설명보다 먼저 나오면 배경 없이 답변만 제시되는 꼴",
-      "②": "(C)의 정책이 (B)의 문제보다 먼저 나와 원인-결과 관계 역전",
-      "③": "(B) 다음 (A)가 바로 오면 (C)의 정부 대응이 고립되어 보임",
-      "⑤": "해결책들이 문제 설명보다 먼저 나와 논리적 흐름 완전 붕괴"
-    },
-    "_type": "order",
-    "given_sentence": null,
-    "_reviewed": false,
-    "_qid": "U-0037",
-    "id": "U-0037"
-  },
-  {
-    "type": "글의 순서",
-    "passage": "Sleep is often viewed as a luxury in modern society, with many people treating it as expendable in pursuit of productivity. Research increasingly challenges this perspective and highlights sleep's critical role in maintaining health.\n\n(A) During sleep, the brain consolidates memories and clears out metabolic waste products that accumulate during waking hours. A protein called glymphatic system actively removes toxins while we sleep, preventing neurological damage. Without adequate sleep, these toxins accumulate and impair cognitive function over time.\n\n(B) The consequences of chronic sleep deprivation extend beyond mental fatigue and include serious health risks. People who consistently sleep fewer than six hours per night show increased susceptibility to heart disease, diabetes, and obesity. Moreover, sleep-deprived individuals exhibit weakened immune responses, making them more vulnerable to infections.\n\n(C) Organizations and educational institutions are beginning to recognize the importance of rest and are revising policies accordingly. Some companies now offer nap rooms, while schools have adjusted start times to align with adolescent sleep patterns. These changes reflect a growing understanding that prioritizing sleep enhances overall performance and well-being.",
-    "choices": [
-      "①(A)-(B)-(C)",
-      "②(A)-(C)-(B)",
-      "③(B)-(A)-(C)",
-      "④(C)-(A)-(B)",
-      "⑤(C)-(B)-(A)"
-    ],
-    "answer": 1,
-    "explanation": "도입부에서 수면의 중요성에 대한 인식 부족 언급. (A)는 수면 중 뇌의 구체적 기능을 설명하여 수면이 왜 중요한지 보여줌. (C)는 조직들이 이러한 중요성을 인정하고 정책을 변화시키는 사례 제시. (B)를 끼워 넣으면 기능 설명 중간에 부작용 나열로 어색해짐.",
-    "wrong_explanations": {
-      "①": "(B)의 부정적 결과가 (A)의 긍정적 기능보다 먼저 나오면 순서 부자연스러움",
-      "③": "수면 부족의 결과가 수면의 기능보다 먼저 설명되어 인과관계 불명확",
-      "④": "도입부 직후 정책 변화부터 언급하면 그 배경이 아직 설명되지 않아 부정확",
-      "⑤": "정책과 결과가 기능 설명보다 먼저 나와 완전히 역순의 논리"
-    },
-    "_type": "order",
-    "given_sentence": null,
-    "_reviewed": false,
-    "_qid": "U-0038",
-    "id": "U-0038"
+    "_reviewed": true,
+    "_qid": "R-0235",
+    "id": "R-0235",
+    "_reviewedDate": "2026-10-07",
+    "_reviewer": "jyj"
   },
   {
     "type": "글의 순서",
@@ -2134,9 +1886,11 @@ const QUESTION_BANK = [
     },
     "_type": "order",
     "given_sentence": null,
-    "_reviewed": false,
-    "_qid": "U-0039",
-    "id": "U-0039"
+    "_reviewed": true,
+    "_qid": "R-0236",
+    "id": "R-0236",
+    "_reviewedDate": "2026-10-07",
+    "_reviewer": "jyj"
   },
   {
     "type": "글의 순서",
@@ -2331,9 +2085,11 @@ const QUESTION_BANK = [
     "_type": "blank",
     "given_sentence": null,
     "_source": "public_domain",
-    "_reviewed": false,
-    "_qid": "U-0043",
-    "id": "U-0043"
+    "_reviewed": true,
+    "_qid": "R-0232",
+    "id": "R-0232",
+    "_reviewedDate": "2026-10-07",
+    "_reviewer": "jyj"
   },
   {
     "type": "빈칸 추론",
@@ -2357,9 +2113,11 @@ const QUESTION_BANK = [
     "_type": "blank",
     "given_sentence": null,
     "_source": "public_domain",
-    "_reviewed": false,
-    "_qid": "U-0044",
-    "id": "U-0044"
+    "_reviewed": true,
+    "_qid": "R-0233",
+    "id": "R-0233",
+    "_reviewedDate": "2026-10-07",
+    "_reviewer": "jyj"
   },
   {
     "type": "문장 삽입",
@@ -2381,133 +2139,11 @@ const QUESTION_BANK = [
     "_type": "insert",
     "given_sentence": "By making books more affordable and accessible, the printing press became a catalyst for intellectual liberation and social transformation.",
     "_source": "public_domain",
-    "_reviewed": false,
-    "_qid": "U-0045",
-    "id": "U-0045"
-  },
-  {
-    "type": "문장 삽입",
-    "passage": "Artificial intelligence has become increasingly sophisticated, with machine learning algorithms now capable of performing tasks previously thought to require human cognition. Deep learning networks, inspired by biological neural architecture, process vast datasets to identify complex patterns and make predictions with remarkable accuracy. The transformer architecture, introduced in 2017, revolutionized natural language processing by enabling models to understand contextual relationships in text. Large language models demonstrate impressive capabilities in translation, summarization, and creative writing tasks. ① However, significant challenges persist regarding transparency and interpretability; scientists cannot fully explain how these systems arrive at specific conclusions. ② Additionally, AI systems exhibit troubling biases reflecting historical inequalities in training data, raising ethical concerns about fairness and discrimination. ③ The technology's environmental footprint is substantial, with training large models consuming enormous amounts of electricity. ④ Despite these limitations, AI continues reshaping industries from healthcare to finance, improving diagnostic accuracy and financial forecasting. ⑤ Policymakers struggle to develop appropriate regulations balancing innovation with safety, requiring collaboration between technologists, ethicists, and governments.",
-    "choices": [
-      "①",
-      "②",
-      "③",
-      "④",
-      "⑤"
-    ],
-    "answer": 3,
-    "explanation": "주어진 문장 'This creates urgent pressure for developing robust frameworks to guide AI development responsibly'는 AI의 환경 문제와 산업 개선 사이에서 규제와 지침 개발의 필요성을 연결하는 역할을 합니다. ④번 위치(Despite these limitations와 Policymakers 사이)에 삽입하면, AI의 실제 한계들(투명성, 편향, 환경 발자국)을 먼저 언급한 후, 이러한 문제들로 인해 책임감 있는 가이드라인 개발이 시급하고, 따라서 정책 입안자들이 규제를 개발해야 한다는 논리적 흐름이 자연스럽게 형성됩니다.",
-    "wrong_explanations": {
-      "①": "문장이 구체적인 문제(투명성)를 언급하기 전에 나타나므로 문맥상 맞지 않습니다.",
-      "②": "편향성 문제 설명 중간에 위치하여 주제 전환이 어색합니다.",
-      "③": "환경 발자국 논의 중에 갑자기 다른 주제가 삽입되어 연결성이 떨어집니다.",
-      "⑤": "문장이 결론 부분에 위치하기에는 논의 흐름을 방해합니다."
-    },
-    "_type": "insert",
-    "given_sentence": "This creates urgent pressure for developing robust frameworks to guide AI development responsibly.",
-    "_source": "public_domain",
-    "_reviewed": false,
-    "_qid": "U-0046",
-    "id": "U-0046"
-  },
-  {
-    "type": "어법 판단",
-    "passage": "Climate change represents one of humanity's most pressing environmental challenges, ① driven primarily by increased atmospheric greenhouse gas concentrations from industrial activities. Carbon dioxide levels have risen approximately 50 percent since pre-industrial times, ② trapping additional solar radiation and elevating global temperatures. This warming phenomenon causes cascading environmental consequences including rising sea levels, ecosystem disruption, and increasingly severe weather events. Ocean acidification, resulting from CO₂ absorption, threatens marine biodiversity and food security for billions of people dependent on seafood. Importantly, climate impacts ③ disproportionately affect vulnerable populations lacking resources for adaptation and mitigation. Small island nations face existential threats from rising waters, while developing countries ④ experiencing droughts face agricultural collapse. Renewable energy technologies including solar and wind power offer promising alternatives to fossil fuels, though transitioning infrastructure requires substantial investment and political will. International agreements like the Paris Climate Accord represent collective commitment to limiting warming, yet current policies remain ⑤ insufficient for preventing catastrophic scenarios.",
-    "choices": [
-      "driven primarily by increased atmospheric greenhouse gas concentrations from industrial activities",
-      "trapping additional solar radiation and elevating global temperatures",
-      "disproportionately affect vulnerable populations lacking resources for adaptation and mitigation",
-      "experiencing droughts face agricultural collapse",
-      "insufficient for preventing catastrophic scenarios"
-    ],
-    "answer": 3,
-    "explanation": "④번이 정답입니다. '~하면서 동시에 ~하다'라는 의미로 분사구문이 필요하므로 'experiencing'은 현재분사로 올바른 형태입니다. 따라서 정답 선택지는 '④ experiencing droughts face agricultural collapse'이며, 이를 틀린 형태로 교체하면 '④ while developing countries experienced droughts face agricultural collapse'(과거형 사용으로 오류) 또는 '④ while developing countries experiences droughts face agricultural collapse'(3인칭 단수로 오류)로 변경해야 합니다.",
-    "wrong_explanations": {
-      "①": "현재분사 driven은 수동의 의미로 climate change를 수식하므로 문법적으로 올바름",
-      "②": "현재분사 trapping은 앞의 동작의 결과를 나타내는 분사구문으로 올바름",
-      "⑤": "be동사 + insufficient + for ~ing은 '~하기에 충분하지 않다'는 의미로 올바른 표현"
-    },
-    "_type": "grammar",
-    "_source": "public_domain",
-    "given_sentence": null,
-    "_reviewed": false,
-    "_qid": "U-0047",
-    "id": "U-0047"
-  },
-  {
-    "type": "어법 판단",
-    "passage": "Socialization processes fundamentally shape individual identity and social behavior throughout the lifespan. From infancy, children internalize cultural norms, values, and expectations through interaction with family members, peers, and institutions. Primary socialization, ① occurring within families, establishes foundational personality characteristics and attachment patterns affecting future relationships. Secondary socialization through schools and peer groups ② refines social skills and introduces broader cultural perspectives beyond family contexts. Remarkably, socialization ③ continues throughout adulthood as individuals encounter new social roles and environmental contexts, contradicting earlier theories positing fixed personality development. Cross-cultural research reveals that socialization emphases vary significantly; collectivist societies prioritize group harmony while individualist cultures ④ stress personal achievement. The internet has introduced novel socialization mechanisms, with virtual communities now influencing identity formation and social norms particularly among younger generations. Social media platforms create unprecedented opportunities for connection but simultaneously facilitate echo chambers reinforcing existing beliefs. Understanding socialization processes ⑤ proves essential for addressing social problems and designing effective interventions, as many behavioral patterns originate from early social learning experiences rather than genetic predisposition.",
-    "choices": [
-      "occurring within families",
-      "refines social skills and introduces",
-      "continues throughout adulthood as",
-      "stress personal achievement",
-      "proves essential for addressing"
-    ],
-    "answer": 1,
-    "explanation": "②번이 오답입니다. 'Secondary socialization through schools and peer groups'는 단수 주어이므로 동사도 단수형이어야 합니다. 따라서 'refines'는 올바르지만, 'introduces'도 단수형이어야 하므로 문제없습니다. 그러나 이 문장에서는 주어 'Secondary socialization'와 동사 'refines and introduces'의 수 일치가 정확합니다. 정답 수정: ②번 'refines social skills and introduces'는 'refine social skills and introduce'로 수정되어야 합니다. 두 개의 병렬 동사가 같은 시제와 형태를 유지해야 하기 때문입니다.",
-    "wrong_explanations": {
-      "0": "occurring은 분사구문으로 올바른 형태입니다.",
-      "2": "continues는 현재형으로 일반적 사실을 나타내며 올바릅니다.",
-      "3": "stress는 복수 주어 'cultures'에 대한 올바른 동사형입니다.",
-      "4": "proves는 동명사 'Understanding'에 대한 올바른 단수 동사입니다."
-    },
-    "_type": "grammar",
-    "_source": "public_domain",
-    "given_sentence": null,
-    "_reviewed": false,
-    "_qid": "U-0048",
-    "id": "U-0048"
-  },
-  {
-    "type": "어휘 적절성",
-    "passage": "Educational psychology investigates how individuals acquire knowledge and develop skills, examining cognitive processes underlying learning. Constructivist theory proposes that learners actively construct understanding through experience rather than passively receiving information. This approach contrasts with traditional transmission models where teachers deliver content to receptive students. Metacognition, understanding one's own thinking processes, proves crucial for academic success; students who monitor comprehension and adjust strategies accordingly demonstrate superior learning outcomes. Research demonstrates that spaced retrieval practice surpasses massed practice, yet students paradoxically favor inefficient study methods. Motivation plays equally important roles, with intrinsic motivation fostering deeper learning than external rewards. Growth mindset, believing abilities develop through effort, correlates with persistence and academic achievement. Conversely, fixed mindset perspectives that abilities remain unchangeable correlate with learned helplessness and poor performance. Educational technology increasingly personalizes learning experiences through adaptive algorithms adjusting difficulty based on individual progress. However, technology cannot ① replace human pedagogical expertise; effective teachers create ② supportive environments fostering ③ engagement. Contemporary education faces ④ challenges integrating these research findings while managing diverse learner needs and ⑤ socioeconomic disparities.",
-    "choices": [
-      "① replace",
-      "② supportive",
-      "③ engagement",
-      "④ challenges",
-      "⑤ socioeconomic"
-    ],
-    "answer": 0,
-    "explanation": "④번 'challenges'는 문맥상 '직면하다'는 의미의 동사로 쓰였는데, ①번 'replace'를 '보완하다'의 의미인 'complement'로 교체하면 '기술은 인간의 교육 전문성을 보완할 수 없다'는 문맥에 맞지 않습니다. 정답은 ①번으로, 원문의 'replace(대체하다)'를 반의어인 'complement(보완하다)'로 바꾸면 의미가 180도 달라집니다.",
-    "wrong_explanations": {
-      "②supportive": "문맥상 '지지적인, 도움이 되는' 환경을 만든다는 의미로 완전히 적절함",
-      "③engagement": "문맥상 '참여, 몰입'을 조성한다는 의미로 완전히 적절함",
-      "④challenges": "문맥상 '직면하다, 마주하다'는 의미의 동사로 완전히 적절함",
-      "⑤socioeconomic disparities": "문맥상 '사회경제적 불평등'이라는 명사로 완전히 적절함"
-    },
-    "_type": "vocab",
-    "given_sentence": null,
-    "_source": "public_domain",
-    "_reviewed": false,
-    "_qid": "U-0049",
-    "id": "U-0049"
-  },
-  {
-    "type": "어휘 적절성",
-    "passage": "Cultural evolution represents how societies develop and transform belief systems, artistic expressions, and social institutions across generations. Anthropologists view culture as cumulative knowledge transmitted through learning rather than genetic inheritance, enabling rapid adaptation without biological evolution. Languages exemplify cultural evolution; they constantly acquire new vocabulary addressing contemporary experiences while gradually shifting grammatical structures. Technological innovations drive significant cultural changes; the smartphone revolutionized communication patterns and social norms regarding privacy and attention. Globalization intensifies cultural exchange, creating unprecedented hybridization where local traditions blend with international influences. However, this process raises concerns about cultural homogenization threatening indigenous knowledge systems and artistic traditions. Cultural relativism emphasizes understanding practices within their original contexts rather than judging against external standards, yet absolute relativism struggles addressing genuinely harmful practices. Successful cultural preservation requires communities actively ① maintaining traditions while ② selectively adopting beneficial innovations, balancing continuity with necessary change. Museums, UNESCO programs, and digital archives ③ facilitate cultural documentation ensuring future generations ④ access heritage information. Ultimately, cultural evolution reflects human creativity and adaptability, yet requires ⑤ thoughtful stewardship preventing irreversible loss of diverse perspectives.",
-    "choices": [
-      "maintaining",
-      "selectively",
-      "facilitate",
-      "access",
-      "thoughtful"
-    ],
-    "answer": 4,
-    "explanation": "⑤번 'thoughtful'(사려 깊은, 신중한)을 'careless'(부주의한)로 바꾸면 의미가 맞지 않습니다. 문맥상 '문화유산의 돌이킬 수 없는 손실을 막기 위해서는 신중한 관리가 필요하다'는 의미이므로, 반의어 'careless'를 사용하면 논리적으로 모순됩니다. 따라서 ⑤번이 어휘 적절성 문제의 정답입니다.",
-    "wrong_explanations": {
-      "①": "'maintaining'(유지하다)은 전통을 보존하는 맥락에서 완벽히 적절합니다.",
-      "②": "'selectively'(선별적으로)는 유익한 혁신을 신중하게 채택하는 의미로 문맥상 적절합니다.",
-      "③": "'facilitate'(촉진하다)는 박물관과 디지털 아카이브가 문화 기록을 용이하게 한다는 의미로 적절합니다.",
-      "④": "'access'(접근하다)는 미래 세대가 유산 정보에 접근한다는 의미로 문맥상 적절합니다."
-    },
-    "_type": "vocab",
-    "_source": "public_domain",
-    "given_sentence": null,
-    "_reviewed": false,
-    "_qid": "U-0050",
-    "id": "U-0050"
+    "_reviewed": true,
+    "_qid": "R-0224",
+    "id": "R-0224",
+    "_reviewedDate": "2026-10-07",
+    "_reviewer": "jyj"
   },
   {
     "type": "요지/주제",
@@ -2535,31 +2171,6 @@ const QUESTION_BANK = [
     "id": "R-0061"
   },
   {
-    "type": "글의 순서",
-    "passage": "The study of social psychology reveals how individuals' thoughts, feelings, and behaviors respond to social contexts. ① Interestingly, minimal groups created experimentally trigger favoritism, suggesting group identity proves psychologically powerful even without meaningful distinctions. ② Contact hypothesis proposes that intergroup interaction under appropriate conditions reduces prejudice, yet mere exposure proves insufficient; equality, common goals, and institutional support prove necessary. ③ Attribution theory explains how people assign causes to observed behaviors, frequently committing fundamental attribution error by overestimating dispositional factors while underestimating situational influences. Conformity experiments demonstrated that individuals often abandon accurate perceptions to align with group consensus, prioritizing social acceptance over personal judgment. Cognitive biases systematically distort reasoning; confirmation bias leads people seeking information supporting existing beliefs while dismissing contradictory evidence. In-group bias favors members of groups one belongs to, fueling discrimination and intergroup conflict. Social identity theory proposes that self-concept partly derives from group memberships, affecting behavior and attitude formation.",
-    "choices": [
-      "③ - ① - ②",
-      "① - ② - ③",
-      "② - ③ - ①",
-      "③ - ② - ①",
-      "② - ① - ③"
-    ],
-    "answer": 0,
-    "explanation": "도입부에서 사회심리학의 범위를 제시한 후, ③번에서 귀인이론, 동조성, 인지편향, 내집단 편향, 사회정체성이론 등 핵심 이론들을 설명하고, ①번에서 최소집단 상황 실험을 통해 집단 정체성의 심리적 강력함을 보여주며, ②번에서 편견 감소를 위한 접촉가설과 필요조건들을 제시하는 것이 논리적 흐름입니다. 이론 설명 → 이론의 증거 제시 → 실제 해결책 제안의 순서가 적절합니다.",
-    "wrong_explanations": {
-      "1": "① - ② - ③ 순서는 핵심 이론 설명 전에 최소집단 실험을 먼저 제시하므로 비논리적입니다.",
-      "2": "② - ③ - ① 순서는 해결책을 먼저 제시하고 이론을 설명하므로 인과관계가 역순입니다.",
-      "3": "③ - ② - ① 순서는 편견 감소 방법을 먼저 제시하고 이론의 증거를 마지막에 배치하므로 부자연스럽습니다.",
-      "4": "② - ① - ③ 순서는 도입부 바로 다음에 핵심 이론이 없이 구체적 내용들부터 시작하므로 적절하지 않습니다."
-    },
-    "_type": "order",
-    "given_sentence": null,
-    "_source": "public_domain",
-    "_reviewed": false,
-    "_qid": "U-0051",
-    "id": "U-0051"
-  },
-  {
     "type": "문장 삽입",
     "passage": "The development of artificial intelligence has revolutionized numerous industries and raised important ethical questions. ① Early AI systems were limited to narrow, task-specific applications with minimal autonomy. ② Contemporary machine learning algorithms can now process vast amounts of data and identify complex patterns that humans might overlook. ③ This technological advancement has enabled innovations in healthcare, finance, and transportation sectors. ④ Medical professionals now use AI diagnostic tools to detect diseases with unprecedented accuracy rates. ⑤ Concerns about algorithmic bias and data privacy have intensified as AI systems become increasingly integrated into critical decision-making processes. Researchers emphasize that developing transparent and accountable AI systems is essential for maintaining public trust. The future implementation of AI depends not only on technical proficiency but also on establishing robust ethical frameworks and regulatory mechanisms that address potential societal risks.",
     "given_sentence": "Nevertheless, this progress comes with significant caveats regarding fairness and the unintended consequences of automated decision-making.",
@@ -2579,32 +2190,11 @@ const QUESTION_BANK = [
       "⑤": "⑤번 이후는 이미 윤리적 우려를 다루고 있어 중복이 됩니다."
     },
     "_type": "insert",
-    "_reviewed": false,
-    "_qid": "U-0052",
-    "id": "U-0052"
-  },
-  {
-    "type": "문장 삽입",
-    "passage": "Urban migration has become a defining demographic trend in the 21st century. ① Millions of people abandon rural communities annually to seek opportunities in rapidly expanding metropolitan areas. ② The push factors include limited agricultural employment and inadequate access to education and healthcare services in countryside regions. ③ Cities attract migrants through superior job prospects, higher wages, and extensive cultural amenities. ④ This urbanization process has transformed the economic landscape and created unprecedented challenges for urban infrastructure. ⑤ Housing shortages, traffic congestion, and environmental degradation have become increasingly prevalent in major urban centers worldwide. However, many cities have implemented innovative solutions including vertical housing developments and sustainable transportation networks. Governments and urban planners must continually adapt policies to accommodate growing populations while maintaining livable conditions and environmental standards for all residents.",
-    "given_sentence": "In contrast, rural areas experience population depletion that undermines local economies and reduces government investment in regional development.",
-    "choices": [
-      "①",
-      "②",
-      "③",
-      "④",
-      "⑤"
-    ],
-    "answer": 3,
-    "explanation": "③번까지 도시의 매력적 요소를 설명하다가 ④번에서 'In contrast'를 통해 도시 성장의 부작용과 시골 지역의 문제를 상대적으로 대비시킵니다. 이는 도시화의 양면적 영향을 균형 있게 제시합니다.",
-    "wrong_explanations": {
-      "①": "①번은 도입부로 아직 구체적 원인 비교가 나타나지 않았습니다.",
-      "②": "②번은 시골의 부정적 측면만 다루고 있어 아직 대조가 의미 있지 않습니다.",
-      "⑤": "⑤번 전에 도시의 긍정적 측면이 완성되지 않아 대조가 약합니다."
-    },
-    "_type": "insert",
-    "_reviewed": false,
-    "_qid": "U-0053",
-    "id": "U-0053"
+    "_reviewed": true,
+    "_qid": "R-0225",
+    "id": "R-0225",
+    "_reviewedDate": "2026-10-07",
+    "_reviewer": "jyj"
   },
   {
     "type": "문장 삽입",
@@ -2626,33 +2216,11 @@ const QUESTION_BANK = [
       "⑤": "⑤번 이후는 이미 규범 문법에 대한 다른 주제로 진행되고 있습니다."
     },
     "_type": "insert",
-    "_reviewed": false,
-    "_qid": "U-0054",
-    "id": "U-0054"
-  },
-  {
-    "type": "어법 판단",
-    "passage": "The globalization of supply chains has fundamentally transformed how multinational corporations operate in contemporary markets. Manufacturing processes that ①span multiple continents requires careful coordination and strategic planning. Companies seeking to optimize efficiency must invest in advanced logistics systems ②to manage complex distribution networks. The practice of outsourcing production to developing nations has generated considerable controversy among economists and labor advocates. While some argue that ③creating employment opportunities in economically disadvantaged regions benefits global development, others contend that working conditions remain substandard. Research institutions specializing in supply chain management has identified several critical vulnerabilities exposed by recent disruptions. Geopolitical tensions and natural disasters, ④which have disrupted international trade, underscore the necessity for resilience. Organizations that ⑤prioritizes transparency and ethical sourcing gain competitive advantages in conscious consumer markets. Technological innovations such as blockchain and AI enable companies to track products throughout their supply chains more effectively. The shift toward reshoring and near-shoring strategies reflects growing concerns about dependency and sustainability. Future supply chains will likely prioritize flexibility and environmental responsibility. Industry leaders recognize that sustainable practices are no longer optional but essential for long-term viability.",
-    "choices": [
-      "①span multiple continents requires",
-      "②to manage complex distribution",
-      "③creating employment opportunities",
-      "④which have disrupted international",
-      "⑤prioritizes transparency and"
-    ],
-    "answer": 0,
-    "explanation": "정답은 ①번입니다. '①span multiple continents requires'에서 'Manufacturing processes'(복수)가 주어이지만 관계절의 동사 'requires'는 단수형으로 'require'로 수정되어야 합니다.",
-    "wrong_explanations": {
-      "1": "②번 'to manage complex distribution networks'는 목적을 나타내는 to부정사로 문법적으로 정확합니다.",
-      "2": "③번 'creating employment opportunities'는 동명사로 'that' 절의 목적어로 올바릅니다.",
-      "3": "④번 'which have disrupted international trade'는 'natural disasters'와 'geopolitical tensions'을 수식하는 관계절로 완벽합니다.",
-      "4": "⑤번의 동사는 주어 'Organizations'(복수)와 일치하므로 'prioritize'가 올바릅니다."
-    },
-    "_type": "grammar",
-    "given_sentence": null,
-    "_reviewed": false,
-    "_qid": "U-0055",
-    "id": "U-0055"
+    "_reviewed": true,
+    "_qid": "R-0226",
+    "id": "R-0226",
+    "_reviewedDate": "2026-10-07",
+    "_reviewer": "jyj"
   },
   {
     "type": "어법 판단",
@@ -2674,105 +2242,11 @@ const QUESTION_BANK = [
     },
     "_type": "grammar",
     "given_sentence": null,
-    "_reviewed": false,
-    "_qid": "U-0056",
-    "id": "U-0056"
-  },
-  {
-    "type": "어법 판단",
-    "passage": "Neuroscience research investigating cognitive processes has revealed fascinating mechanisms underlying human decision-making and learning. The brain's neuroplasticity, ①which enables continuous adaptation and reorganization throughout life, challenges traditional assumptions about neural rigidity. Neuroscientists conducting longitudinal studies ②demonstrates that environmental enrichment significantly enhances cognitive function and prevents age-related decline. Neural pathways strengthened through repetitive practice illustrate how ③learning involves physical transformation at the cellular level. Emerging evidence suggests that meditation and mindfulness practices ④to improve mental well-being operate through measurable neurochemical changes. Brain imaging technologies that ⑤revolutionizing our understanding of neural correlates have provided unprecedented insights into psychological conditions. Synaptic plasticity represents the fundamental mechanism enabling memory formation and skill acquisition. Researchers increasingly recognize that cognitive rehabilitation strategies must target specific neural circuits responsible for particular functions. The interdisciplinary collaboration between neuroscientists and psychologists has yielded more comprehensive theoretical frameworks. Clinical applications of neuroscience findings continue to advance treatment efficacy for neurological and psychiatric disorders. Understanding the neural basis of consciousness remains one of the most profound scientific challenges. Future therapeutic interventions will likely exploit neuroplasticity more systematically.",
-    "choices": [
-      "①which enables continuous",
-      "②demonstrates that environmental",
-      "③learning involves physical",
-      "④to improve mental",
-      "⑤revolutionizing our understanding"
-    ],
-    "answer": 4,
-    "explanation": "정답은 ⑤번입니다. '⑤revolutionizing our understanding of neural correlates'에서 현재분사가 사용되었으나, 이 위치에서는 관계절 구조가 필요합니다. 'that revolutionize our understanding' 또는 관계절로 수정되어야 합니다.",
-    "wrong_explanations": {
-      "0": "①번 'which enables continuous adaptation'은 'neuroplasticity'를 수식하는 관계절로 완벽합니다.",
-      "1": "②번의 동사는 주어 'Neuroscientists'(복수)와 일치하므로 'demonstrate'가 올바릅니다.",
-      "2": "③번 'learning involves physical transformation'은 주어 + 동사 구조로 문법적으로 정확합니다.",
-      "3": "④번 'to improve mental well-being'은 '목적'을 나타내는 to부정사로 올바릅니다."
-    },
-    "_type": "grammar",
-    "given_sentence": null,
-    "_reviewed": false,
-    "_qid": "U-0057",
-    "id": "U-0057"
-  },
-  {
-    "type": "어휘 적절성",
-    "passage": "The human brain remains one of science's greatest mysteries, with neuroscientists continually discovering new insights about its extraordinary capabilities. Recent studies demonstrate that the brain's neuroplasticity allows it to ① reorganize itself throughout our lifetime, challenging the once-dominant belief that neural structures were immutable. This remarkable adaptability suggests that our potential for learning and growth should not be ② circumscribed by age or previous limitations. Meditation and cognitive training programs have been shown to ③ attenuate stress responses and enhance emotional resilience in practitioners. Furthermore, research indicates that physical exercise ④ stimulates the production of brain-derived neurotrophic factor, a protein essential for neural development. The implications of these discoveries are profound; they fundamentally ⑤ undermine the outdated notion that our intellectual and emotional capacities are fixed from birth. Scientists emphasize that understanding the brain's mechanisms requires multidisciplinary approaches combining biology, psychology, and computational modeling. Educational systems should incorporate these neuroscientific findings to optimize learning outcomes for students of all ages and backgrounds.",
-    "choices": [
-      "① reorganize",
-      "② circumscribed",
-      "③ attenuate",
-      "④ stimulates",
-      "⑤ undermine"
-    ],
-    "answer": 1,
-    "explanation": "②번 'circumscribed'(제한하다, 한정하다)는 의미상 맞지만, 문맥 해석 면에서 'should not be circumscribed'는 '...로 제한되어서는 안 된다'는 의미로 적절합니다. 하지만 여기서는 ③번 'attenuate'가 더 자연스럽고, ⑤번 'undermine'(약화시키다, 훼손하다)이 정답입니다. '오래된 개념을 약화시킨다'는 의미에서 완벽합니다.",
-    "wrong_explanations": {
-      "0": "reorganize(재편성하다, 재구성하다)는 뇌의 신경가소성이 자신을 재조직한다는 맥락에서 정확합니다.",
-      "2": "attenuate(약화시키다, 감소시키다)는 명상이 스트레스 반응을 줄인다는 의미에서 적절한 학술 용어입니다.",
-      "3": "stimulates(자극하다, 촉발하다)는 운동이 뇌 단백질 생성을 촉진한다는 의미에서 맞습니다.",
-      "4": "circumscribed는 문맥상 '제한되어서는 안 된다'는 의미로 부정적 뉘앙스가 있어 이 문맥에서 자연스럽지 않습니다."
-    },
-    "_type": "vocab",
-    "given_sentence": null,
-    "_reviewed": false,
-    "_qid": "U-0058",
-    "id": "U-0058"
-  },
-  {
-    "type": "어휘 적절성",
-    "passage": "Urbanization has fundamentally altered human civilization, creating dense metropolitan areas that ① concentrate vast populations in limited geographic spaces. The benefits of urban living are considerable: cities provide better access to employment opportunities, healthcare, and cultural amenities that ② abound in concentrated form. However, rapid urban expansion has simultaneously generated serious environmental challenges that require urgent attention from policymakers and urban planners. Air and water pollution, waste management crises, and the loss of green spaces have begun to ③ proliferate in megacities across the developing world. Urban agriculture initiatives and vertical farming technologies offer promising solutions that could ④ ameliorate food security concerns while reducing environmental impact. Some cities have successfully ⑤ constrained their carbon emissions through innovative public transportation systems and renewable energy investments. Smart city technologies provide data-driven approaches to optimize resource allocation and improve quality of life. Nevertheless, equitable development remains elusive, as marginalized communities often bear the greatest burden of urban pollution and environmental degradation.",
-    "choices": [
-      "① concentrate",
-      "② abound",
-      "③ proliferate",
-      "④ ameliorate",
-      "⑤ constrained"
-    ],
-    "answer": 2,
-    "explanation": "③번 'proliferate'(번식하다, 증가하다)는 의미상 문제가 있습니다. 문맥상 '오염과 환경 문제가 증가하고 있다'는 의미로는 적절하지만, 동사 사용이 부자연스럽습니다. 'emerged', 'intensified', 'worsened' 등이 더 적절합니다. 'proliferate'는 긍정적 번식을 의미할 수 있어 맥락상 부정적 문제에 쓰이기에 어색합니다.",
-    "wrong_explanations": {
-      "0": "concentrate(집중시키다)는 도시가 대량 인구를 한정된 지역에 모은다는 의미에서 정확합니다.",
-      "1": "abound(풍부하다, 많다)는 도시의 고용과 문화 시설이 충분하다는 맥락에서 적절합니다.",
-      "3": "ameliorate(개선하다, 완화하다)는 도시 농업이 식량 안보를 개선한다는 의미에서 학술적으로 정확합니다.",
-      "4": "constrained(제한하다, 억제하다)는 도시들이 탄소 배출을 제한했다는 의미에서 완벽하게 적절합니다."
-    },
-    "_type": "vocab",
-    "given_sentence": null,
-    "_reviewed": false,
-    "_qid": "U-0059",
-    "id": "U-0059"
-  },
-  {
-    "type": "어휘 적절성",
-    "passage": "The advancement of biotechnology has revolutionized medicine, offering unprecedented opportunities to ① alleviate human suffering from previously incurable diseases. Gene editing technologies, particularly CRISPR systems, have demonstrated remarkable efficacy in treating genetic disorders by ② rectifying defective genetic sequences at the molecular level. These innovations promise to ③ ameliorate conditions ranging from cystic fibrosis to certain forms of cancer through precise therapeutic interventions. However, the ethical implications of human germline modification remain deeply contested among scientists, philosophers, and policymakers alike. Many experts worry that unregulated biotechnology could ④ exacerbate existing health inequalities, as expensive treatments would remain accessible only to wealthy populations. Regulatory frameworks must therefore ⑤ constrain commercial applications while permitting legitimate research to advance human welfare. International cooperation and transparent scientific dialogue are essential to establishing guidelines that balance innovation with ethical responsibility. The future of biotechnology depends on our collective wisdom in navigating these complex moral and practical challenges. Society must engage in informed democratic deliberation to ensure that biotechnological progress serves humanity broadly.",
-    "choices": [
-      "① alleviate",
-      "② rectifying",
-      "③ ameliorate",
-      "④ exacerbate",
-      "⑤ constrain"
-    ],
-    "answer": 0,
-    "explanation": "①번 'alleviate'(완화하다, 경감하다)는 완벽하게 적절한 표현입니다. 생명공학이 인간의 고통을 완화한다는 의미로 정확합니다. 정답은 ④번 'exacerbate'(악화시키다)입니다. '규제 없는 생명공학이 건강 불평등을 악화시킬 수 있다'는 문맥에서 정확하지만, 이 단어가 부정적 결과를 초래한다는 의미로 문맥과 일치하므로 적절합니다. 재검토하면, 이 문제는 모든 어휘가 문맥상 적절하므로 문제를 재구성해야 합니다.",
-    "wrong_explanations": {
-      "1": "rectifying(바로잡다, 수정하다)는 유전자 편집이 결함 있는 유전자 서열을 수정한다는 의미에서 정확합니다.",
-      "2": "ameliorate(개선하다, 완화하다)는 치료 중재가 질병을 개선한다는 맥락에서 학술적으로 적절합니다.",
-      "3": "exacerbate(악화시키다)는 규제되지 않은 생명공학이 불평등을 악화시킨다는 의미에서 문맥과 일치합니다.",
-      "4": "constrain(제한하다)은 규제 체계가 상업적 적용을 제한해야 한다는 의미에서 적절합니다."
-    },
-    "_type": "vocab",
-    "given_sentence": null,
-    "_reviewed": false,
-    "_qid": "U-0060",
-    "id": "U-0060"
+    "_reviewed": true,
+    "_qid": "R-0222",
+    "id": "R-0222",
+    "_reviewedDate": "2026-10-07",
+    "_reviewer": "jyj"
   },
   {
     "type": "빈칸 추론",
@@ -2965,25 +2439,6 @@ const QUESTION_BANK = [
   },
   {
     "type": "빈칸 추론",
-    "passage": "The phenomenon of cognitive dissonance—the psychological discomfort experienced when holding contradictory beliefs—___________ explains many seemingly irrational human behaviors. When people encounter information that conflicts with their existing beliefs, they typically do not revise their views; instead, they rationalize or dismiss the contradictory evidence. A person who considers themselves environmentally conscious but drives a large SUV may reduce the discomfort by minimizing the severity of climate change or by emphasizing their recycling habits. This tendency is not a character flaw but rather a fundamental feature of human psychology that helps maintain psychological stability. However, understanding cognitive dissonance can be dangerous if exploited by propagandists and advertisers who deliberately create narratives that align with people's preexisting worldviews. The implications are significant: individuals may become locked in their perspectives, resistant to factual corrections, and increasingly polarized in their thinking. Recognizing this cognitive bias is essential for promoting critical thinking and fostering more informed citizens.",
-    "choices": [
-      "①partly",
-      "②helpfully",
-      "③substantially",
-      "④theoretically",
-      "⑤unfortunately"
-    ],
-    "answer": 2,
-    "explanation": "지문은 인지부조화가 '많은 무리해 보이는 인간 행동들을 설명한다'는 주장을 펼칩니다. 뒤따르는 구체적인 예시들(환경 의식 있는 사람이 대형 SUV 운전)과 설명이 이 심리현상이 얼마나 광범위하게 인간 행동에 영향을 미치는지 보여줍니다. 그리고 부정적 영향까지 설명하며 이 개념이 상당히 중요함을 강조합니다. ③번 'substantially(상당히, 실질적으로)'가 정답입니다. 'partly(부분적으로)'나 'theoretically(이론적으로)'는 지문의 강한 주장을 충분히 반영하지 못합니다.",
-    "_type": "blank",
-    "given_sentence": null,
-    "wrong_explanations": {},
-    "id": "U-0070",
-    "_reviewed": false,
-    "_qid": "U-0070"
-  },
-  {
-    "type": "빈칸 추론",
     "passage": "Stress is an organism's response to a stressor, and when humans experience stress, two major physiological systems activate. The sympathetic nervous system triggers the fight-or-flight response, releasing adrenaline to prepare the body for immediate action. However, this heightened state cannot be sustained indefinitely. The parasympathetic nervous system must then ___________  in order to restore the body to its normal state of equilibrium. Meanwhile, the HPA axis regulates cortisol release, which influences metabolic and immunological functions. When stress becomes chronic, these systems remain constantly activated, leading to increased susceptibility to disease and mental health disorders. Understanding these mechanisms is crucial for developing effective stress management strategies.",
     "choices": [
       "①maximize the intensity of the stress response",
@@ -3107,25 +2562,6 @@ const QUESTION_BANK = [
   },
   {
     "type": "빈칸 추론",
-    "passage": "Historians studying the Industrial Revolution have long debated whether technological innovations were the primary cause of social transformation or whether social and economic conditions ___________ these innovations. Recent scholarship suggests that the relationship between technology and society is more reciprocal than previously assumed. The steam engine, for instance, was not invented in a vacuum but emerged from the pressing need for efficient pumping systems in coal mines. Similarly, the social structures and economic incentives of 18th-century Britain created an environment where such innovations could flourish and be rapidly adopted. This perspective challenges the notion of technological determinism—the idea that technology alone drives historical change. Instead, historians now recognize that society shapes technology as much as technology shapes society, creating a complex feedback loop where innovations respond to social needs and subsequently reshape social institutions.",
-    "choices": [
-      "①prevented",
-      "②prompted",
-      "③enabled",
-      "④displaced",
-      "⑤contradicted"
-    ],
-    "answer": 2,
-    "explanation": "지문의 핵심 주장은 기술 혁신과 사회의 관계가 상호적(reciprocal)이며, 사회적·경제적 조건이 기술 혁신을 가능하게 만든다는 것입니다. 증기기관의 사례에서 당시 사회의 필요성이 혁신을 이끌어냈고, '18세기 영국의 사회 구조와 경제적 인센티브가 그러한 혁신이 성장할 수 있는 환경을 창조했다'고 설명합니다. 따라서 정답은 ③enabled (가능하게 했다)입니다.",
-    "_type": "blank",
-    "given_sentence": null,
-    "wrong_explanations": {},
-    "id": "U-0077",
-    "_reviewed": false,
-    "_qid": "U-0077"
-  },
-  {
-    "type": "빈칸 추론",
     "passage": "In evolutionary biology, the concept of convergent evolution demonstrates that different species facing similar environmental pressures often develop ___________ solutions to the same problems. For example, the wings of birds, bats, and insects evolved independently from different ancestral structures, yet they serve the same function of flight. Similarly, the eye has evolved separately in octopuses and vertebrates, resulting in remarkably similar sensory organs despite completely different evolutionary paths. This phenomenon suggests that natural selection can arrive at comparable solutions when organisms encounter identical selective pressures. However, convergent evolution is not inevitable—the specific form that a solution takes depends on the particular constraints and opportunities provided by each species' genetic and developmental heritage. Understanding convergent evolution provides evidence for the power of natural selection and reveals the principles underlying the organization of life on Earth.",
     "choices": [
       "①different",
@@ -3139,9 +2575,11 @@ const QUESTION_BANK = [
     "_type": "blank",
     "given_sentence": null,
     "wrong_explanations": {},
-    "id": "U-0078",
-    "_reviewed": false,
-    "_qid": "U-0078"
+    "id": "R-0234",
+    "_reviewed": true,
+    "_qid": "R-0234",
+    "_reviewedDate": "2026-10-07",
+    "_reviewer": "jyj"
   },
   {
     "type": "빈칸 추론",
@@ -3700,9 +3138,11 @@ const QUESTION_BANK = [
       "⑤": "뇌의 예측 기능 설명 이후에 나오면 순서가 역순이 됩니다."
     },
     "_type": "insert",
-    "id": "U-0111",
-    "_reviewed": false,
-    "_qid": "U-0111"
+    "id": "R-0227",
+    "_reviewed": true,
+    "_qid": "R-0227",
+    "_reviewedDate": "2026-10-07",
+    "_reviewer": "jyj"
   },
   {
     "type": "문장 삽입",
@@ -3724,9 +3164,11 @@ const QUESTION_BANK = [
       "⑤": "인체 영향 설명 후에 나오면 이미 인체 질병을 언급했으므로 순서가 맞지 않습니다."
     },
     "_type": "insert",
-    "id": "U-0112",
-    "_reviewed": false,
-    "_qid": "U-0112"
+    "id": "R-0228",
+    "_reviewed": true,
+    "_qid": "R-0228",
+    "_reviewedDate": "2026-10-07",
+    "_reviewer": "jyj"
   },
   {
     "type": "문장 삽입",
@@ -3748,57 +3190,11 @@ const QUESTION_BANK = [
       "④": "식자층의 권력 집중 설명 후에 나오면 인과 관계가 약합니다."
     },
     "_type": "insert",
-    "id": "U-0113",
-    "_reviewed": false,
-    "_qid": "U-0113"
-  },
-  {
-    "type": "문장 삽입",
-    "passage": "Modern smartphones have revolutionized the way we communicate, but they also come with hidden costs. ① Studies show that excessive phone use can reduce our ability to focus on complex tasks. ② The constant notifications and alerts train our brains to seek instant gratification rather than pursue long-term goals. ③ Furthermore, the blue light emitted by screens disrupts our sleep patterns and can lead to chronic fatigue. ④ Many experts now recommend setting strict boundaries around device usage, especially before bedtime. ⑤ By doing so, we can reclaim our attention and improve both our mental health and productivity.",
-    "given_sentence": "However, awareness alone is not enough to change our habits.",
-    "choices": [
-      "①",
-      "②",
-      "③",
-      "④",
-      "⑤"
-    ],
-    "answer": 4,
-    "explanation": "정답은 ⑤번 위치이다. 지문은 스마트폰의 부정적 영향(①②③)을 설명한 후, ④에서 전문가들의 해결책(경계 설정)을 제시한다. 삽입 문장의 접속사 'However'는 앞의 '경계 설정 권장'과 대조되는 내용(인식만으로는 부족함)을 도입하며, 마지막 문장 'By doing so'로 이어지는 구조를 자연스럽게 만든다. ④ 뒤에 삽입되어야 논리적 흐름이 완성된다.",
-    "wrong_explanations": {
-      "0": "①번은 지문의 도입 부분으로, 아직 스마트폰의 부정적 영향을 구체적으로 나열하는 단계이다.",
-      "1": "②번은 부정적 영향들이 열거되는 과정 중간이므로, 'However'와 같은 전환 접속사가 부자연스럽다.",
-      "2": "③번 역시 부정적 영향의 나열이 진행 중이며, 해결책으로의 전환이 너무 이르다.",
-      "3": "④번 뒤에 바로 삽입하면, 해결책 제시 후 즉시 부정적인 대조가 들어가 논리적 흐름이 끊긴다."
-    },
-    "_type": "insert",
-    "id": "U-0114",
-    "_reviewed": false,
-    "_qid": "U-0114"
-  },
-  {
-    "type": "문장 삽입",
-    "passage": "The ancient practice of meditation has gained scientific credibility in recent decades. ① Brain imaging studies show that regular meditation increases gray matter density in regions associated with emotional regulation and self-awareness. ② Practitioners report feeling calmer and more focused after consistent practice. ③ Research also indicates that meditation can lower blood pressure and reduce anxiety symptoms. ④ Many corporations have begun introducing meditation programs in their workplaces. ⑤ These initiatives demonstrate recognition of meditation's powerful effects on employee wellbeing and performance.",
-    "given_sentence": "This shift in attitude reflects a broader change in how modern society views holistic health practices.",
-    "choices": [
-      "①",
-      "②",
-      "③",
-      "④",
-      "⑤"
-    ],
-    "answer": 3,
-    "explanation": "정답은 ④번 위치이다. 지문은 명상의 과학적 효과(①②③)를 설명하다가, ④에서 기업들이 명상 프로그램을 도입하기 시작했다는 새로운 사례를 제시한다. 삽입 문장의 지시어 'This shift in attitude'는 기업의 새로운 움직임(④)을 가리키며, 직후의 'These initiatives'로 이어진다. 따라서 ④ 뒤에 삽입되어야 한다.",
-    "wrong_explanations": {
-      "0": "①번은 과학적 근거를 제시하는 단계로, 아직 태도 변화를 보여주지 않는다.",
-      "1": "②번은 개인적 경험을 언급하는 부분이며, '태도의 전환'이라는 사회적 현상과 거리가 있다.",
-      "2": "③번까지도 과학적 증거 제시가 계속되고 있어, 사회적 변화를 언급하기에 적절하지 않다.",
-      "4": "⑤번은 이미 initiatives(기업 프로그램)를 다루고 있으므로, 삽입 문장이 중복되어 부자연스럽다."
-    },
-    "_type": "insert",
-    "id": "U-0115",
-    "_reviewed": false,
-    "_qid": "U-0115"
+    "id": "R-0229",
+    "_reviewed": true,
+    "_qid": "R-0229",
+    "_reviewedDate": "2026-10-07",
+    "_reviewer": "jyj"
   },
   {
     "type": "문장 삽입",
@@ -3820,9 +3216,11 @@ const QUESTION_BANK = [
       "4": "⑤번은 이미 해결책을 전개하고 있는 단계이므로, 문제의 긴급성을 강조하는 것이 시기적으로 맞지 않다."
     },
     "_type": "insert",
-    "id": "U-0116",
-    "_reviewed": false,
-    "_qid": "U-0116"
+    "id": "R-0237",
+    "_reviewed": true,
+    "_qid": "R-0237",
+    "_reviewedDate": "2026-10-07",
+    "_reviewer": "jyj"
   },
   {
     "type": "문장 삽입",
@@ -3844,57 +3242,11 @@ const QUESTION_BANK = [
       "4": "⑤번은 결론 부분이므로, 인과관계를 설명하는 문장이 들어가면 논리적 흐름을 방해한다."
     },
     "_type": "insert",
-    "id": "U-0117",
-    "_reviewed": false,
-    "_qid": "U-0117"
-  },
-  {
-    "type": "문장 삽입",
-    "passage": "Memory is far more complex than the simple storage-and-retrieval system many people imagine. ① Neuroscientists have discovered that memories are not fixed recordings but are reconstructed each time we recall them. ② This reconstruction process is vulnerable to distortion and outside influence. ③ False memories can be inadvertently created through suggestion, leading people to vividly remember events that never occurred. ④ Laboratory experiments have demonstrated that seemingly credible eyewitness testimony can be unreliable due to these memory mechanisms. ⑤ Understanding these limitations is crucial for legal systems that depend on witness accounts.",
-    "given_sentence": "Consequently, eyewitness accounts, though compelling to juries, may not be as accurate as commonly assumed.",
-    "choices": [
-      "①",
-      "②",
-      "③",
-      "④",
-      "⑤"
-    ],
-    "answer": 3,
-    "explanation": "정답은 ④번 위치이다. 지문은 기억의 복잡성(①), 재구성 과정의 왜곡 가능성(②③)을 설명한 후, ④에서 실험적 증거(목격자 증언의 신뢰성 문제)를 제시한다. 삽입 문장의 'Consequently'는 앞의 심리 기제들(②③)의 결과로서 목격자 증언의 부정확성을 결론짓고, ④의 '실험 증거'로 자연스럽게 이어진다.",
-    "wrong_explanations": {
-      "0": "①번은 기억이 단순한 저장 시스템이 아니라는 기본 주장만 하므로, 결론 단계인 'Consequently'와 맞지 않다.",
-      "1": "②번은 재구성 과정의 왜곡 가능성을 처음 언급하는 단계로, 아직 충분한 근거 없이 결론을 내릴 수 없다.",
-      "2": "③번은 거짓 기억의 사례를 추가로 제시하는 것이므로, 결론 문장이 들어갈 시점이 아니다.",
-      "4": "⑤번은 이미 법적 함의를 다루고 있으므로, 결론적 문장이 추가되면 중복되어 부자연스럽다."
-    },
-    "_type": "insert",
-    "id": "U-0118",
-    "_reviewed": false,
-    "_qid": "U-0118"
-  },
-  {
-    "type": "문장 삽입",
-    "passage": "Confirmation bias is the tendency to search for, interpret, favor and recall information in a way that confirms or supports one's prior beliefs. ① People display this bias when they select information that supports their views, ignoring contrary information or when they interpret ambiguous evidence as supporting their existing attitudes. ② The effect is strongest for desired outcomes, emotionally charged issues and deeply entrenched beliefs. ③ Confirmation bias often comes from automatic mental habits. ④ Studies repeatedly find that people tend to test ideas in a one-sided way, mainly searching for evidence that supports what they already assume. ⑤",
-    "given_sentence": "This tendency can lead individuals to dismiss or undervalue information that contradicts their worldviews, even when such information is credible and well-documented.",
-    "choices": [
-      "①",
-      "②",
-      "③",
-      "④",
-      "⑤"
-    ],
-    "answer": 2,
-    "explanation": "주어진 문장은 'This tendency'라는 지시어로 앞의 confirmation bias를 지칭하며, 그 결과(이 경향이 초래하는 것)를 설명한다. ③번 위치 뒤에 삽입되어야 한다. 왜냐하면 ③에서 'confirmation bias often comes from automatic mental habits'으로 편견의 원인을 설명한 후, 주어진 문장이 그 결과로서 '개인들이 정보를 무시하는 경향'을 자연스럽게 연결하기 때문이다. ④의 앞(③ 뒤)에 삽입되면 인과적 흐름이 명확해진다.",
-    "wrong_explanations": {
-      "0": "①번 위치는 너무 이르다. 아직 confirmation bias의 정의 직후이고, '결과'를 설명하기에 적절한 맥락이 아니다.",
-      "1": "②번 위치는 'The effect is strongest for...'로 편견의 강도를 설명하는 부분이므로, 결과를 서술하는 주어진 문장과 어울리지 않는다.",
-      "3": "④번 위치는 'Studies repeatedly find that...'로 구체적 연구 결과를 제시하는 부분이므로, 일반적 결과를 설명하는 주어진 문장 뒤에 오는 것이 맞다.",
-      "4": "⑤번 위치(문장 끝)는 정보 제시 흐름 상 너무 늦다."
-    },
-    "_type": "insert",
-    "id": "U-0119",
-    "_reviewed": false,
-    "_qid": "U-0119"
+    "id": "R-0238",
+    "_reviewed": true,
+    "_qid": "R-0238",
+    "_reviewedDate": "2026-10-07",
+    "_reviewer": "jyj"
   },
   {
     "type": "문장 삽입",
@@ -3916,9 +3268,11 @@ const QUESTION_BANK = [
       "3": "④번은 정답 위치(④ 뒤)의 번호이지, ④ 앞이 아니다."
     },
     "_type": "insert",
-    "id": "U-0120",
-    "_reviewed": false,
-    "_qid": "U-0120"
+    "id": "R-0239",
+    "_reviewed": true,
+    "_qid": "R-0239",
+    "_reviewedDate": "2026-10-07",
+    "_reviewer": "jyj"
   },
   {
     "type": "문장 삽입",
@@ -3940,9 +3294,11 @@ const QUESTION_BANK = [
       "3": "④번은 결과 제시이지만, 주어진 문장의 '이 현상'을 충분히 설명하려면 모든 비교가 완료된 후여야 한다."
     },
     "_type": "insert",
-    "id": "U-0121",
-    "_reviewed": false,
-    "_qid": "U-0121"
+    "id": "R-0240",
+    "_reviewed": true,
+    "_qid": "R-0240",
+    "_reviewedDate": "2026-10-07",
+    "_reviewer": "jyj"
   },
   {
     "type": "문장 삽입",
@@ -3964,9 +3320,11 @@ const QUESTION_BANK = [
       "3": "④번 위치는 정답 뒤(④ 다음)의 번호이지, ④ 앞이 아니다."
     },
     "_type": "insert",
-    "id": "U-0122",
-    "_reviewed": false,
-    "_qid": "U-0122"
+    "id": "R-0241",
+    "_reviewed": true,
+    "_qid": "R-0241",
+    "_reviewedDate": "2026-10-07",
+    "_reviewer": "jyj"
   },
   {
     "type": "문장 삽입",
@@ -4064,9 +3422,11 @@ const QUESTION_BANK = [
     "wrong_explanations": {},
     "_type": "grammar",
     "given_sentence": null,
-    "id": "U-0127",
-    "_reviewed": false,
-    "_qid": "U-0127"
+    "id": "R-0223",
+    "_reviewed": true,
+    "_qid": "R-0223",
+    "_reviewedDate": "2026-10-07",
+    "_reviewer": "jyj"
   },
   {
     "type": "어법 판단",
