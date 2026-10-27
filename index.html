@@ -1476,8 +1476,35 @@ async function loadFromFirestore() {
         updateStatsDisplay();
         updateStreak();
       }
-      // 문제은행 사용 기록 복원
-      // usedBankQ는 서버에서 관리
+      // 오늘의 daily 데이터 복원 (카운터 리셋 방지)
+      const today = new Date().toISOString().slice(0, 10);
+      if (d.todayTotal && d.todayTotal > 0) {
+        if (!state.stats.daily) state.stats.daily = {};
+        const localToday = state.stats.daily[today] || { total: 0, correct: 0 };
+        if (d.todayTotal > localToday.total) {
+          state.stats.daily[today] = {
+            total: d.todayTotal,
+            correct: d.todayCorrect || 0,
+            types: localToday.types || {}
+          };
+          localStorage.setItem(ukey('stats'), JSON.stringify(state.stats));
+          updateFreeLimitStatus();
+        }
+      }
+      // daily 서브컬렉션에서도 복원 시도
+      try {
+        const dailyDoc = await db.collection('users').doc(fbUser.uid).collection('daily').doc(today).get();
+        if (dailyDoc.exists) {
+          const dd = dailyDoc.data();
+          if (!state.stats.daily) state.stats.daily = {};
+          const localToday = state.stats.daily[today] || { total: 0, correct: 0 };
+          if (dd.total > localToday.total) {
+            state.stats.daily[today] = { total: dd.total, correct: dd.correct || 0, types: dd.types || {} };
+            localStorage.setItem(ukey('stats'), JSON.stringify(state.stats));
+            updateFreeLimitStatus();
+          }
+        }
+      } catch(de) {}
     }
   } catch(e) {
     console.warn('Firestore 데이터 로드 실패:', e);
