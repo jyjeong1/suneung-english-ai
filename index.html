@@ -982,7 +982,7 @@ let state = {
   timerSeconds: 90,
   badges: JSON.parse(localStorage.getItem('badges') || '{}'),
   hasServerKey: false,
-  isPremium: localStorage.getItem(ukey('isPremium')) === 'true',
+  isPremium: localStorage.getItem(ukey('isPremium_english')) === 'true',
 };
 
 // ═══════════════════════════════════════
@@ -1191,7 +1191,7 @@ function loadUserLocalData() {
   state.streak = parseInt(localStorage.getItem(ukey('streak')) || '0');
   state.lastDate = localStorage.getItem(ukey('lastDate')) || '';
   state.badges = JSON.parse(localStorage.getItem(ukey('badges')) || '{}');
-  state.isPremium = localStorage.getItem(ukey('isPremium')) === 'true';
+  state.isPremium = localStorage.getItem(ukey('isPremium_english')) === 'true';
   updateStatsDisplay();
   updateStreak();
   updateFreeLimitStatus();
@@ -1272,8 +1272,8 @@ async function submitReferralCode() {
     await db.collection('users').doc(referrerId).update({
       rpScore: currentRP,
       referralCount: referralCount,
-      premiumExpiry: premiumExpiry.toISOString(),
-      isPremium: true,
+      premiumExpiry_english: premiumExpiry.toISOString(),
+      isPremium_english: true,
       ...(giftEligible ? { pendingGift: firebase.firestore.FieldValue.increment(1) } : {}),
     });
 
@@ -3930,9 +3930,19 @@ async function checkPremiumStatus() {
   if (!db || !fbUser) return;
   try {
     const doc = await db.collection('users').doc(fbUser.uid).get();
-    if (doc.exists && doc.data().isPremium) {
-      state.isPremium = true;
-      localStorage.setItem(ukey('isPremium'), 'true');
+    if (doc.exists) {
+      const d = doc.data();
+      if (d.isPremium_english) {
+        const expiry = d.premiumExpiry_english;
+        if (expiry && new Date(expiry) < new Date()) {
+          state.isPremium = false;
+          localStorage.removeItem(ukey('isPremium_english'));
+          db.collection('users').doc(fbUser.uid).update({ isPremium_english: false });
+        } else {
+          state.isPremium = true;
+          localStorage.setItem(ukey('isPremium_english'), 'true');
+        }
+      }
     }
   } catch(e) {}
   updateMembershipUI();
