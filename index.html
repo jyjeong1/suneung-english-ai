@@ -1937,6 +1937,7 @@ function updateWeakTypeCard() {
 }
 
 async function startWeakTraining() {
+  if (requireLogin()) return;
   const weak = getWeakTypes();
   if (weak.length === 0) return;
   // 취약 유형 상위 3개에서 5문제 구성
@@ -2193,7 +2194,13 @@ function updateFreeLimitStatus() {
   }
 }
 
+function requireLogin() {
+  if (!fbUser) { alert('Google 로그인 후 문제를 풀 수 있습니다.'); handleLogin(); return true; }
+  return false;
+}
+
 async function startDailyQuiz() {
+  if (requireLogin()) return;
   if (!checkFreeLimit()) return;
   quizQueue = ['blank', 'blank', 'insert', 'grammar', 'vocab'];
   state.currentQuestionIndex = 0;
@@ -2202,6 +2209,7 @@ async function startDailyQuiz() {
 }
 
 async function startTypeTraining(type) {
+  if (requireLogin()) return;
   if (!checkFreeLimit()) return;
   quizQueue = [type, type, type, type, type];
   state.currentQuestionIndex = 0;
@@ -2224,6 +2232,7 @@ const DIAG_ROUNDS = [
 const DIAG_ROUND_NAMES = ['기초 (지문 짧음)','중급 (독해+어법)','상급 (어휘+논리)','킬러 (추론+구조)'];
 
 async function startDiagnosis() {
+  if (requireLogin()) return;
   state._diagMode = true;
   state._diagResults = {};
   state._diagRound = 0;
