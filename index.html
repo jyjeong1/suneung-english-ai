@@ -2155,7 +2155,17 @@ function getTodayQuizCount() {
   return daily[today]?.total || 0;
 }
 
+function requireLogin() {
+  if (!fbUser) {
+    alert('문제를 풀려면 Google 로그인이 필요합니다.');
+    handleLogin();
+    return false;
+  }
+  return true;
+}
+
 function checkFreeLimit() {
+  if (!requireLogin()) return false;
   const todayCount = getTodayQuizCount();
   const limit = state.isPremium ? PREMIUM_DAILY_LIMIT : FREE_DAILY_LIMIT;
   if (todayCount >= limit) {
