@@ -86,11 +86,14 @@
   .price-btn-premium { background: linear-gradient(135deg, #ffd700, #f97316); color: #0a0f1a; }
 
   /* 학습 흐름 */
-  .flow-steps { display: flex; gap: 20px; justify-content: center; flex-wrap: wrap; }
-  .flow-step { text-align: center; flex: 1; min-width: 200px; max-width: 240px; }
-  .flow-num { width: 48px; height: 48px; border-radius: 50%; background: linear-gradient(135deg, #a855f7, #ec4899); color: #fff; font-size: 20px; font-weight: 800; display: flex; align-items: center; justify-content: center; margin: 0 auto 14px; }
-  .flow-title { font-size: 15px; font-weight: 700; margin-bottom: 6px; }
+  .flow-steps { display: flex; gap: 0; justify-content: center; align-items: flex-start; flex-wrap: wrap; position: relative; }
+  .flow-step { text-align: center; flex: 1; min-width: 200px; max-width: 240px; position: relative; padding: 0 16px; }
+  .flow-num { width: 56px; height: 56px; border-radius: 50%; background: linear-gradient(135deg, #a855f7, #ec4899); color: #fff; font-size: 22px; font-weight: 800; display: flex; align-items: center; justify-content: center; margin: 0 auto 6px; box-shadow: 0 4px 16px rgba(168,85,247,0.4); position: relative; z-index: 2; }
+  .flow-icon { font-size: 28px; margin-bottom: 8px; }
+  .flow-title { font-size: 16px; font-weight: 700; margin-bottom: 6px; }
   .flow-desc { font-size: 13px; color: #8b95b0; line-height: 1.5; }
+  .flow-arrow { color: rgba(168,85,247,0.5); font-size: 28px; display: flex; align-items: center; padding-top: 14px; }
+  @media (max-width: 600px) { .flow-arrow { display: none; } }
 
   /* FAQ */
   .faq-item { border-bottom: 1px solid rgba(255,255,255,0.06); padding: 20px 0; }
@@ -152,24 +155,34 @@
 <!-- 학습 흐름 -->
 <section>
   <div class="section-label">How It Works</div>
-  <div class="section-title">3단계로 시작하는 수학 학습</div>
+  <div class="section-title">4단계 학습 사이클</div>
   <div class="flow-steps">
     <div class="flow-step">
       <div class="flow-num">1</div>
+      <div class="flow-icon">📚</div>
       <div class="flow-title">단원 선택</div>
       <div class="flow-desc">극한, 미분, 적분, 확률통계 등<br>8개 단원 중 학습할 단원 선택</div>
     </div>
+    <div class="flow-arrow">&#10132;</div>
     <div class="flow-step">
       <div class="flow-num">2</div>
-      <div class="flow-step">
-      <div class="flow-num">2</div>
+      <div class="flow-icon">✏️</div>
       <div class="flow-title">문제 풀기</div>
       <div class="flow-desc">난이도별 문제를 풀고<br>즉시 정답과 해설 확인</div>
     </div>
+    <div class="flow-arrow">&#10132;</div>
     <div class="flow-step">
       <div class="flow-num">3</div>
+      <div class="flow-icon">🔄</div>
       <div class="flow-title">취약점 보완</div>
       <div class="flow-desc">오답 노트로 틀린 문제 복습<br>취약 유형 집중 훈련</div>
+    </div>
+    <div class="flow-arrow">&#10132;</div>
+    <div class="flow-step">
+      <div class="flow-num">4</div>
+      <div class="flow-icon">🏆</div>
+      <div class="flow-title">실력 완성</div>
+      <div class="flow-desc">통계로 성장 확인<br>랭킹과 배지로 동기 부여</div>
     </div>
   </div>
 </section>
@@ -297,8 +310,8 @@
 <!-- 요금 -->
 <section id="pricing">
   <div class="section-label">Pricing</div>
-  <div class="section-title">합리적인 학습 비용</div>
-  <div class="section-desc">무료로 시작하고, 더 많은 학습이 필요하면 프리미엄으로 업그레이드하세요.</div>
+  <div class="section-title">파격적인 학습 비용</div>
+  <div class="section-desc">무료로 시작하고, 하루 18원으로 전 단원 무제한 학습. 커피 한 잔보다 저렴합니다.</div>
 
   <div class="pricing-row">
     <div class="price-card">
