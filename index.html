@@ -1176,13 +1176,17 @@ async function handleDemoLogin() {
   try {
     await auth.signInWithEmailAndPassword('demo@profai.kr', 'profai-demo-2027');
   } catch(e) {
-    if (e.code === 'auth/user-not-found') {
+    if (e.code === 'auth/user-not-found' || e.code === 'auth/invalid-credential') {
       try {
         await auth.createUserWithEmailAndPassword('demo@profai.kr', 'profai-demo-2027');
         const user = auth.currentUser;
         if (user) await user.updateProfile({ displayName: 'Demo User' });
       } catch(e2) {
-        alert('데모 로그인 실패: ' + e2.message);
+        if (e2.code === 'auth/email-already-in-use') {
+          alert('데모 계정 비밀번호가 맞지 않습니다. 관리자에게 문의하세요.');
+        } else {
+          alert('데모 로그인 실패: ' + e2.message);
+        }
       }
     } else {
       alert('데모 로그인 실패: ' + e.message);
