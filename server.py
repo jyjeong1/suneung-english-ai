@@ -382,6 +382,92 @@ class AppHandler(http.server.SimpleHTTPRequestHandler):
                 self.send_header('Access-Control-Allow-Origin', '*')
                 self.end_headers()
                 self.wfile.write(json.dumps({'error': str(e)}).encode())
+
+        elif self.path == '/api/billing/confirm':
+            content_length = int(self.headers['Content-Length'])
+            body = self.rfile.read(content_length)
+            data = json.loads(body)
+
+            if not TOSS_SECRET_KEY:
+                self.send_response(500)
+                self.send_header('Content-Type', 'application/json')
+                self.send_header('Access-Control-Allow-Origin', '*')
+                self.end_headers()
+                self.wfile.write(json.dumps({'success': False, 'message': '결제 시크릿 키가 설정되지 않았습니다'}).encode())
+                return
+
+            import base64
+            auth_header = base64.b64encode(f"{TOSS_SECRET_KEY}:".encode()).decode()
+
+            # 1단계: 빌링키 발급
+            billing_body = json.dumps({
+                'authKey': data.get('authKey'),
+                'customerKey': data.get('customerKey'),
+            }).encode('utf-8')
+
+            req = urllib.request.Request(
+                'https://api.tosspayments.com/v1/billing/authorizations/issue',
+                data=billing_body,
+                headers={
+                    'Content-Type': 'application/json',
+                    'Authorization': f'Basic {auth_header}',
+                },
+                method='POST'
+            )
+
+            try:
+                ctx = ssl.create_default_context()
+                resp = urllib.request.urlopen(req, context=ctx)
+                billing_result = json.loads(resp.read())
+                billing_key = billing_result.get('billingKey', '')
+
+                # 2단계: 빌링키로 첫 결제 실행
+                payment_body = json.dumps({
+                    'billingKey': billing_key,
+                    'customerKey': data.get('customerKey'),
+                    'amount': 3900,
+                    'orderId': 'PROFAI-SUB-' + data.get('customerKey', '')[:8] + '-' + str(int(__import__('time').time())),
+                    'orderName': 'Prof.AI 수능영어 프리미엄 정기구독',
+                    'customerEmail': data.get('customerEmail', ''),
+                }).encode('utf-8')
+
+                pay_req = urllib.request.Request(
+                    f'https://api.tosspayments.com/v1/billing/{billing_key}',
+                    data=payment_body,
+                    headers={
+                        'Content-Type': 'application/json',
+                        'Authorization': f'Basic {auth_header}',
+                    },
+                    method='POST'
+                )
+
+                pay_resp = urllib.request.urlopen(pay_req, context=ctx)
+                pay_result = json.loads(pay_resp.read())
+
+                self.send_response(200)
+                self.send_header('Content-Type', 'application/json')
+                self.send_header('Access-Control-Allow-Origin', '*')
+                self.end_headers()
+                self.wfile.write(json.dumps({
+                    'success': True,
+                    'billingKey': billing_key,
+                    'paymentKey': pay_result.get('paymentKey', ''),
+                    'orderId': pay_result.get('orderId', ''),
+                }).encode())
+
+            except urllib.error.HTTPError as e:
+                error_body = e.read().decode('utf-8', errors='replace')
+                self.send_response(200)
+                self.send_header('Content-Type', 'application/json')
+                self.send_header('Access-Control-Allow-Origin', '*')
+                self.end_headers()
+                self.wfile.write(json.dumps({'success': False, 'message': error_body}).encode())
+            except Exception as e:
+                self.send_response(200)
+                self.send_header('Content-Type', 'application/json')
+                self.send_header('Access-Control-Allow-Origin', '*')
+                self.end_headers()
+                self.wfile.write(json.dumps({'success': False, 'message': str(e)}).encode())
         else:
             self.send_response(404)
             self.end_headers()

@@ -785,7 +785,7 @@ body {
 <!-- ═══ 결제 모달 ═══ -->
 <div class="modal-overlay" id="paymentModal">
   <div class="modal" style="max-height:85vh; overflow-y:auto; width:95%; max-width:420px;">
-    <h3 style="margin-bottom:16px;">💎 프리미엄 멤버십</h3>
+    <h3 style="margin-bottom:16px;">💎 프리미엄 정기구독</h3>
     <div style="background:linear-gradient(135deg,#0d47a1,#1565c0); color:#fff; border-radius:14px; padding:20px; margin-bottom:16px;">
       <div style="font-size:28px; font-weight:900; margin-bottom:4px;">월 ₩3,900</div>
       <p style="font-size:13px; opacity:0.9;">커피 한 잔 값으로 수능 영어 정복</p>
@@ -798,10 +798,10 @@ body {
       <div>✅ 상세 학습 리포트</div>
     </div>
     <div style="background:#f5f5f5; border-radius:10px; padding:12px; font-size:13px; line-height:1.7; margin-bottom:12px; text-align:center;">
-      <strong>월 3,900원</strong>이 결제됩니다<br>
-      <span style="font-size:11px; color:var(--sub);">언제든 해지 가능 · 다음 달 자동 갱신 없음</span>
+      <strong>월 3,900원</strong> 정기결제<br>
+      <span style="font-size:11px; color:var(--sub);">매월 자동 갱신 · 언제든 해지 가능</span>
     </div>
-    <button class="submit-btn primary" style="font-size:16px; padding:16px;" onclick="requestPayment()">💳 월 3,900원 결제하기</button>
+    <button class="submit-btn primary" style="font-size:16px; padding:16px;" onclick="requestBillingAuth()">💳 정기결제 등록하기</button>
     <button class="submit-btn" style="background:var(--border); color:var(--text); margin-top:8px;" onclick="document.getElementById('paymentModal').classList.remove('active')">닫기</button>
   </div>
 </div>
@@ -3949,24 +3949,21 @@ function showPaymentInfo() {
   document.getElementById('paymentModal').classList.add('active');
 }
 
-async function requestPayment() {
+async function requestBillingAuth() {
   if (!fbUser) { alert('로그인이 필요합니다.'); return; }
   try {
     const toss = TossPayments('test_ck_oEjb0gm23PWWeZzZnKnj8pGwBJn5');
     const payment = toss.payment({customerKey: fbUser.uid});
-    await payment.requestPayment({
+    await payment.requestBillingAuth({
       method: 'CARD',
-      amount: { currency: 'KRW', value: 3900 },
-      orderId: 'PROFAI-' + fbUser.uid.slice(0,8) + '-' + Date.now(),
-      orderName: 'Prof.AI 수능영어 프리미엄 월 구독',
-      customerName: fbUser.displayName || '학생',
+      successUrl: window.location.origin + '/billing-success.html',
+      failUrl: window.location.origin + '/billing-fail.html',
       customerEmail: fbUser.email || '',
-      successUrl: window.location.origin + '/payment-success.html',
-      failUrl: window.location.origin + '/payment-fail.html',
+      customerName: fbUser.displayName || '학생',
     });
   } catch(e) {
     if (e.code === 'USER_CANCEL') return;
-    alert('결제 실패: ' + (e.message || e));
+    alert('정기결제 등록 실패: ' + (e.message || e));
   }
 }
 

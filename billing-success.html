@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Prof.AI 정기결제 등록 완료</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { font-family: -apple-system, 'Apple SD Gothic Neo', sans-serif; background: #0a0f1a; color: #e0e5f0; min-height: 100vh; display: flex; align-items: center; justify-content: center; }
+  .card { text-align: center; max-width: 400px; padding: 40px 30px; }
+  .icon { font-size: 64px; margin-bottom: 16px; }
+  h1 { font-size: 22px; color: #ffd700; margin-bottom: 12px; }
+  p { font-size: 14px; color: #8b95b0; line-height: 1.7; margin-bottom: 20px; }
+  .status { font-size: 13px; color: #4ade80; margin-bottom: 20px; }
+  .error { font-size: 13px; color: #f87171; margin-bottom: 20px; display: none; }
+  .btn { display: inline-block; background: linear-gradient(135deg, #a855f7, #ec4899); color: #fff; padding: 14px 36px; border-radius: 14px; font-size: 16px; font-weight: 700; text-decoration: none; cursor: pointer; border: none; }
+  .loading { display: block; }
+  .done { display: none; }
+</style>
+<script src="https://www.gstatic.com/firebasejs/10.12.0/firebase-app-compat.js"></script>
+<script src="https://www.gstatic.com/firebasejs/10.12.0/firebase-auth-compat.js"></script>
+<script src="https://www.gstatic.com/firebasejs/10.12.0/firebase-firestore-compat.js"></script>
+</head>
+<body>
+<div class="card">
+  <div class="loading" id="loadingSection">
+    <div class="icon">⏳</div>
+    <h1>정기결제 등록 중...</h1>
+    <p>잠시만 기다려주세요.</p>
+  </div>
+  <div class="done" id="doneSection">
+    <div class="icon">🎉</div>
+    <h1>프리미엄 정기구독 등록 완료!</h1>
+    <p>매월 3,900원이 자동 결제됩니다.<br>언제든 설정에서 해지할 수 있습니다.</p>
+    <div class="status" id="statusMsg"></div>
+    <a href="/" class="btn">학습 시작하기</a>
+  </div>
+  <div class="error" id="errorSection">
+    <div class="icon">❌</div>
+    <h1>등록 실패</h1>
+    <p id="errorMsg"></p>
+    <a href="/" class="btn" style="background:#555;">돌아가기</a>
+  </div>
+</div>
+
+<script>
+const firebaseConfig = {
+  apiKey: "AIzaSyDv_ArdZ39TyXFIsbV8CaEhYuF3w_zvbVU",
+  authDomain: "suneung-english-34283.firebaseapp.com",
+  projectId: "suneung-english-34283",
+  storageBucket: "suneung-english-34283.firebasestorage.app",
+  messagingSenderId: "436457100278",
+  appId: "1:436457100278:web:dac0755eb8fedbdd512dd7"
+};
+firebase.initializeApp(firebaseConfig);
+const db = firebase.firestore();
+const auth = firebase.auth();
+
+async function processBilling() {
+  const params = new URLSearchParams(window.location.search);
+  const authKey = params.get('authKey');
+  const customerKey = params.get('customerKey');
+
+  if (!authKey || !customerKey) {
+    showError('결제 인증 정보가 없습니다.');
+    return;
+  }
+
+  try {
+    // 서버에 빌링키 발급 및 첫 결제 요청
+    const res = await fetch('/api/billing/confirm', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ authKey, customerKey })
+    });
+
+    const data = await res.json();
+
+    if (data.success) {
+      // Firestore에 프리미엄 상태 저장
+      auth.onAuthStateChanged(async (user) => {
+        if (user) {
+          const now = new Date();
+          const expiry = new Date(now);
+          expiry.setDate(expiry.getDate() + 30);
+          await db.collection('users').doc(user.uid).set({
+            isPremium_english: true,
+            premiumExpiry_english: expiry.toISOString(),
+            billingKey: data.billingKey || '',
+            subscriptionStarted: now.toISOString(),
+            subscriptionType: 'monthly'
+          }, { merge: true });
+          localStorage.setItem(user.uid.substring(0,8) + '_isPremium_english', 'true');
+          document.getElementById('statusMsg').textContent = '프리미엄 만료일: ' + expiry.toLocaleDateString('ko-KR');
+        }
+        showDone();
+      });
+    } else {
+      showError(data.message || '결제 처리 중 오류가 발생했습니다.');
+    }
+  } catch(e) {
+    showError('서버 통신 오류: ' + e.message);
+  }
+}
+
+function showDone() {
+  document.getElementById('loadingSection').style.display = 'none';
+  document.getElementById('doneSection').style.display = 'block';
+}
+
+function showError(msg) {
+  document.getElementById('loadingSection').style.display = 'none';
+  document.getElementById('errorSection').style.display = 'block';
+  document.getElementById('errorMsg').textContent = msg;
+}
+
+processBilling();
+</script>
+</body>
+</html>
