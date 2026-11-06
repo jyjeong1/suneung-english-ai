@@ -129,6 +129,30 @@ body{font-family:'Noto Sans KR',-apple-system,sans-serif;background:var(--bg);co
   <span class="arrow">›</span>
 </a>
 
+<!-- 추천 보상 배너 -->
+<div style="background:linear-gradient(135deg,rgba(0,112,74,0.2),rgba(0,168,107,0.2));border:1px solid rgba(0,168,107,0.3);border-radius:14px;padding:16px;margin:16px 0 10px;cursor:pointer;" onclick="document.getElementById('referralDetail').style.display=document.getElementById('referralDetail').style.display==='none'?'block':'none'">
+  <div style="display:flex;align-items:center;gap:10px;">
+    <span style="font-size:26px;">☕</span>
+    <div>
+      <div style="font-size:14px;font-weight:800;color:#00d4aa;">친구 추천하고 스타벅스 가자!</div>
+      <div style="font-size:11px;color:var(--sub);margin-top:2px;">1명 = 프리미엄 1주 · 3명 = 스타벅스 5,000원 · 탭하여 상세 보기</div>
+    </div>
+  </div>
+</div>
+<div id="referralDetail" style="display:none;background:var(--card);border:1px solid var(--border);border-radius:14px;padding:16px;margin-bottom:10px;font-size:12px;line-height:2;color:var(--sub);">
+  <b>1명 추천</b> → 💎 프리미엄 1주 + 🏆 RP +50점<br>
+  <b style="color:#00d4aa;">3명 추천</b> → ☕ 스타벅스 5,000원 (3명마다 계속!)<br><br>
+  <b style="color:var(--text);">참여:</b> 영어 앱 → 통계 → 추천 코드 확인 → 친구에게 공유<br>
+  <span style="font-size:10px;color:#f87171;">※ 고등학생/수험생 한정 · 무료회원 500명까지</span>
+</div>
+
+<!-- 에게해 세일링 배너 -->
+<div style="background:linear-gradient(135deg,rgba(13,71,161,0.3),rgba(2,119,189,0.3));border:1px solid rgba(59,130,246,0.3);border-radius:14px;padding:16px;margin-bottom:16px;position:relative;overflow:hidden;">
+  <div style="position:absolute;top:-8px;right:-8px;font-size:44px;opacity:0.15;">⛵</div>
+  <div style="font-size:14px;font-weight:900;margin-bottom:6px;color:#60a5fa;">⛵ 500명이 모이면, 에게해가 열립니다.</div>
+  <p style="font-size:11px;line-height:1.7;color:var(--sub);">유료회원 500명 돌파 시 <strong style="color:var(--gold);">그리스 에게해 7일 세일링 트립</strong> 추첨 (항공+요트 전액 지원)</p>
+</div>
+
 <!-- 수학 섹션 -->
 <div class="section-title">📐 수능 수학 (이번 달 2과목)</div>
 
@@ -141,47 +165,6 @@ body{font-family:'Noto Sans KR',-apple-system,sans-serif;background:var(--bg);co
 </div>
 
 <div id="mathApps"></div>
-
-<!-- 추천 보상 배너 -->
-<div style="margin-top:24px;">
-  <div style="background:linear-gradient(135deg,rgba(0,112,74,0.2),rgba(0,168,107,0.2));border:1px solid rgba(0,168,107,0.3);border-radius:14px;padding:18px;margin-bottom:12px;cursor:pointer;" onclick="document.getElementById('referralDetail').style.display=document.getElementById('referralDetail').style.display==='none'?'block':'none'">
-    <div style="display:flex;align-items:center;gap:10px;">
-      <span style="font-size:28px;">☕</span>
-      <div>
-        <div style="font-size:15px;font-weight:800;color:#00d4aa;">친구 추천하고 스타벅스 가자!</div>
-        <div style="font-size:12px;color:var(--sub);margin-top:2px;">1명 추천 = 프리미엄 1주 · 3명 = 스타벅스 5,000원</div>
-      </div>
-    </div>
-  </div>
-  <div id="referralDetail" style="display:none;background:var(--card);border:1px solid var(--border);border-radius:14px;padding:18px;margin-bottom:12px;font-size:13px;line-height:2;color:var(--sub);">
-    <div style="color:var(--text);font-weight:700;margin-bottom:8px;">추천 보상</div>
-    <b>1명 추천할 때마다</b><br>
-    → 💎 프리미엄 <b style="color:var(--text);">1주 무료</b> 연장<br>
-    → 🏆 RP <b style="color:var(--text);">+50점</b><br><br>
-    <b style="color:#00d4aa;">3명 추천할 때마다</b><br>
-    → ☕ <b style="color:var(--text);">스타벅스 5,000원 상품권</b><br>
-    <span style="font-size:11px;">(3명, 6명, 9명... 계속 받을 수 있어요!)</span><br><br>
-    <div style="color:var(--text);font-weight:700;margin-bottom:4px;">참여 방법</div>
-    1. 영어 앱 → 통계 페이지에서 <b style="color:var(--text);">나의 추천 코드</b> 확인<br>
-    2. 친구에게 코드 공유 (카톡, 문자 등)<br>
-    3. 친구가 Prof.AI 가입 후 코드 입력<br>
-    4. 즉시 프리미엄 1주 + RP 적립!<br><br>
-    <span style="font-size:11px;color:#f87171;">※ 고등학생 및 대입 수험생에 한함</span><br>
-    <span style="font-size:11px;color:#f87171;">※ 추천 보상은 무료회원 500명 도달 시까지 한정</span>
-  </div>
-
-  <!-- 에게해 세일링 배너 -->
-  <div style="background:linear-gradient(135deg,rgba(13,71,161,0.3),rgba(2,119,189,0.3));border:1px solid rgba(59,130,246,0.3);border-radius:14px;padding:18px;margin-bottom:12px;position:relative;overflow:hidden;">
-    <div style="position:absolute;top:-10px;right:-10px;font-size:50px;opacity:0.15;">⛵</div>
-    <div style="font-size:16px;font-weight:900;margin-bottom:8px;color:#60a5fa;">⛵ 500명이 모이면, 에게해가 열립니다.</div>
-    <p style="font-size:12px;line-height:1.7;color:var(--sub);">유료회원 500명 돌파 순간,<br><strong style="color:var(--gold);">그리스 에게해 7일 세일링 트립</strong> 이벤트가 시작됩니다.</p>
-    <div style="margin-top:10px;background:rgba(255,255,255,0.06);border-radius:8px;padding:10px 12px;font-size:11px;line-height:1.7;color:var(--sub);">
-      📌 유료 회원 + 30일 연속 학습 달성자 대상<br>
-      🎲 달성자 중 추첨 2명 선발 (항공료 + 요트비용 전액 지원)<br>
-      ⛵ 대학 입학 후 첫 여름방학, 에게해로!
-    </div>
-  </div>
-</div>
 
 <div class="footer">
   <div>Prof.AI — AI 기반 수능 학습 플랫폼</div>
