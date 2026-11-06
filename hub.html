@@ -85,29 +85,12 @@ body{font-family:'Noto Sans KR',-apple-system,sans-serif;background:var(--bg);co
   <button class="login-btn" id="loginBtn" onclick="handleLogin()">Google 로그인</button>
 </div>
 
-<!-- 멤버십 선택 (비구독자) -->
-<div id="subBanner">
-  <div style="display:grid;grid-template-columns:1fr 1fr;gap:10px;margin:16px 0">
-    <!-- 무료 플랜 -->
-    <div style="background:var(--card);border:1px solid var(--border);border-radius:14px;padding:18px;text-align:center">
-      <div style="font-size:11px;color:var(--sub);margin-bottom:6px">FREE</div>
-      <div style="font-size:22px;font-weight:900;color:var(--text)">₩0</div>
-      <div style="font-size:11px;color:var(--sub);margin-top:4px;line-height:1.6">
-        영어 5문제/일<br>수학 전과목 5문제/일<br>AI 해설 제한
-      </div>
-      <button onclick="startFree()" style="display:block;width:100%;margin-top:12px;padding:10px;border-radius:10px;border:1px solid var(--border);background:transparent;color:var(--text);font-size:13px;font-weight:600;cursor:pointer">무료로 시작</button>
-    </div>
-    <!-- 구독 플랜 -->
-    <div style="background:linear-gradient(135deg,rgba(0,85,212,0.15),rgba(168,85,247,0.15));border:2px solid var(--accent);border-radius:14px;padding:18px;text-align:center;position:relative">
-      <div style="position:absolute;top:-10px;left:50%;transform:translateX(-50%);background:var(--accent);color:#fff;font-size:10px;font-weight:700;padding:2px 10px;border-radius:10px">추천</div>
-      <div style="font-size:11px;color:var(--gold);margin-bottom:6px">PREMIUM</div>
-      <div style="font-size:22px;font-weight:900;color:var(--gold)">₩5,500<span style="font-size:12px;font-weight:400;color:var(--sub)">/월</span></div>
-      <div style="font-size:11px;color:var(--sub);margin-top:4px;line-height:1.6">
-        영어 무제한<br>수학 2과목 무제한<br>AI 해설 무제한
-      </div>
-      <button onclick="goSubscribe()" style="display:block;width:100%;margin-top:12px;padding:10px;border-radius:10px;border:none;background:linear-gradient(135deg,#0055d4,#a855f7);color:#fff;font-size:13px;font-weight:700;cursor:pointer">💎 구독 시작</button>
-    </div>
-  </div>
+<!-- 구독 배너 (비구독자) -->
+<div id="subBanner" style="background:linear-gradient(135deg,rgba(0,85,212,0.12),rgba(168,85,247,0.12));border:1px solid var(--border);border-radius:14px;padding:20px;margin:16px 0;text-align:center">
+  <div style="font-size:12px;color:var(--sub);margin-bottom:6px">현재 무료 회원 · 영어+수학 전과목 하루 5문제</div>
+  <div style="font-size:26px;font-weight:900;color:var(--gold);margin:8px 0">월 ₩5,500으로 업그레이드</div>
+  <div style="font-size:12px;color:var(--sub);line-height:1.7;margin-bottom:14px">영어 무제한 + 수학 2과목 무제한 + AI 해설 무제한</div>
+  <button class="sub-btn" onclick="goSubscribe()">💎 프리미엄 구독 시작</button>
 </div>
 
 <!-- 구독 상태 (구독자) -->
@@ -326,12 +309,6 @@ function renderMathApps() {
 function goSubscribe() {
   if (!currentUser) { handleLogin(); return; }
   window.location.href = '/?action=subscribe';
-}
-
-function startFree() {
-  if (!currentUser) { handleLogin(); return; }
-  alert('무료 회원으로 시작합니다!\n영어 5문제/일, 수학 전 과목 5문제/일 이용 가능합니다.');
-  renderUI();
 }
 
 // 초기 렌더
