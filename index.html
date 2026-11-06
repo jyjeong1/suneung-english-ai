@@ -490,6 +490,17 @@ body {
   margin-bottom: 12px;
 }
 .modal input:focus { border-color: var(--primary); outline: none; }
+.math-subject-option {
+  display:flex; align-items:center; gap:6px; padding:10px 12px;
+  background:#fff; border:2px solid #ddd; border-radius:8px;
+  font-size:13px; cursor:pointer; transition:all 0.2s;
+}
+.math-subject-option:has(input:checked) {
+  border-color:var(--primary); background:#e8f0fe; font-weight:600;
+}
+.math-subject-option input[type="checkbox"] {
+  width:16px; height:16px; accent-color:var(--primary);
+}
 </style>
 </head>
 <body>
@@ -785,24 +796,59 @@ body {
 <!-- ═══ 결제 모달 ═══ -->
 <div class="modal-overlay" id="paymentModal">
   <div class="modal" style="max-height:85vh; overflow-y:auto; width:95%; max-width:420px;">
-    <h3 style="margin-bottom:16px;">💎 프리미엄 정기구독</h3>
+    <h3 style="margin-bottom:16px;">💎 Prof.AI 통합 구독</h3>
     <div style="background:linear-gradient(135deg,#0d47a1,#1565c0); color:#fff; border-radius:14px; padding:20px; margin-bottom:16px;">
-      <div style="font-size:28px; font-weight:900; margin-bottom:4px;">월 ₩3,900</div>
-      <p style="font-size:13px; opacity:0.9;">커피 한 잔 값으로 수능 영어 정복</p>
+      <div style="font-size:28px; font-weight:900; margin-bottom:4px;">월 ₩5,500</div>
+      <p style="font-size:13px; opacity:0.9;">넷플릭스 하나 값으로 수능 영어 + 수학</p>
     </div>
     <div style="font-size:13px; line-height:2; margin-bottom:16px;">
-      <div>✅ AI 맞춤 문제 <strong>무제한</strong></div>
-      <div>✅ 취약 유형 집중 훈련</div>
-      <div>✅ 오답 유사문제 AI 생성</div>
-      <div>✅ 30일 챌린지 → 그리스 세일링 추첨 자격</div>
+      <div>✅ <strong>수능영어</strong> AI 문제 무제한</div>
+      <div>✅ <strong>수능수학 2과목</strong> 매월 선택 (8개 중 택2)</div>
+      <div>✅ 매월 1일 과목 변경 가능</div>
+      <div>✅ 취약 유형 집중 훈련 · AI 해설</div>
       <div>✅ 상세 학습 리포트</div>
     </div>
+    <div id="mathSubjectSelector" style="background:#f0f4ff; border-radius:10px; padding:14px; margin-bottom:12px; display:none;">
+      <div style="font-weight:700; font-size:13px; margin-bottom:10px;">📐 수학 과목 선택 (2개)</div>
+      <div id="mathSubjectGrid" style="display:grid; grid-template-columns:1fr 1fr; gap:8px;">
+        <label class="math-subject-option"><input type="checkbox" name="mathSubject" value="probstat"> 확률과 통계</label>
+        <label class="math-subject-option"><input type="checkbox" name="mathSubject" value="diff"> 미분법</label>
+        <label class="math-subject-option"><input type="checkbox" name="mathSubject" value="limit"> 극한과 연속</label>
+        <label class="math-subject-option"><input type="checkbox" name="mathSubject" value="jisulog"> 지수·로그</label>
+        <label class="math-subject-option"><input type="checkbox" name="mathSubject" value="sequence"> 수열</label>
+        <label class="math-subject-option"><input type="checkbox" name="mathSubject" value="integral"> 적분</label>
+        <label class="math-subject-option"><input type="checkbox" name="mathSubject" value="trig"> 삼각함수</label>
+        <label class="math-subject-option"><input type="checkbox" name="mathSubject" value="past"> 기출문제</label>
+      </div>
+      <div id="mathSelectCount" style="font-size:11px; color:var(--sub); margin-top:8px; text-align:center;">0/2 선택</div>
+    </div>
     <div style="background:#f5f5f5; border-radius:10px; padding:12px; font-size:13px; line-height:1.7; margin-bottom:12px; text-align:center;">
-      <strong>월 3,900원</strong> 정기결제<br>
-      <span style="font-size:11px; color:var(--sub);">매월 자동 갱신 · 언제든 해지 가능</span>
+      <strong>월 5,500원</strong> 정기결제 · 영어(고정) + 수학 2과목<br>
+      <span style="font-size:11px; color:var(--sub);">매월 자동 갱신 · 매월 1일 과목 변경 · 언제든 해지</span>
     </div>
     <button class="submit-btn primary" style="font-size:16px; padding:16px;" onclick="requestBillingAuth()">💳 정기결제 등록하기</button>
     <button class="submit-btn" style="background:var(--border); color:var(--text); margin-top:8px;" onclick="document.getElementById('paymentModal').classList.remove('active')">닫기</button>
+  </div>
+</div>
+
+<!-- ═══ 수학 과목 변경 모달 ═══ -->
+<div class="modal-overlay" id="mathChangeModal">
+  <div class="modal" style="max-height:85vh; overflow-y:auto; width:95%; max-width:420px;">
+    <h3 style="margin-bottom:16px;">📐 이번 달 수학 과목 변경</h3>
+    <p style="font-size:13px; color:var(--sub); margin-bottom:16px;">매월 1일에 수학 과목 2개를 변경할 수 있습니다.</p>
+    <div id="mathChangeGrid" style="display:grid; grid-template-columns:1fr 1fr; gap:8px; margin-bottom:16px;">
+      <label class="math-subject-option"><input type="checkbox" name="mathChange" value="probstat"> 확률과 통계</label>
+      <label class="math-subject-option"><input type="checkbox" name="mathChange" value="diff"> 미분법</label>
+      <label class="math-subject-option"><input type="checkbox" name="mathChange" value="limit"> 극한과 연속</label>
+      <label class="math-subject-option"><input type="checkbox" name="mathChange" value="jisulog"> 지수·로그</label>
+      <label class="math-subject-option"><input type="checkbox" name="mathChange" value="sequence"> 수열</label>
+      <label class="math-subject-option"><input type="checkbox" name="mathChange" value="integral"> 적분</label>
+      <label class="math-subject-option"><input type="checkbox" name="mathChange" value="trig"> 삼각함수</label>
+      <label class="math-subject-option"><input type="checkbox" name="mathChange" value="past"> 기출문제</label>
+    </div>
+    <div id="mathChangeCount" style="font-size:12px; text-align:center; margin-bottom:12px; color:var(--sub);">0/2 선택</div>
+    <button class="submit-btn primary" style="font-size:15px; padding:14px;" onclick="saveMathSubjects()">과목 변경 저장</button>
+    <button class="submit-btn" style="background:var(--border); color:var(--text); margin-top:8px;" onclick="document.getElementById('mathChangeModal').classList.remove('active')">닫기</button>
   </div>
 </div>
 
@@ -984,6 +1030,7 @@ let state = {
   badges: JSON.parse(localStorage.getItem('badges') || '{}'),
   hasServerKey: false,
   isPremium: localStorage.getItem(ukey('isPremium_english')) === 'true',
+  selectedMathSubjects: [],
 };
 
 // ═══════════════════════════════════════
@@ -3923,10 +3970,14 @@ function updateMembershipUI() {
     badge.textContent = '💎 프리미엄';
     badge.style.background = 'linear-gradient(135deg,#ffd700,#ffaa00)';
     badge.style.color = '#333';
+    const mathNames = (state.selectedMathSubjects || []).map(s => MATH_SUBJECTS[s] || s).join(', ');
+    const mathInfo = mathNames ? `<div style="margin-top:6px;">📐 수학: <strong>${mathNames}</strong></div>` : '';
     info.innerHTML = `
       <div style="background:#fff8e1; border-radius:10px; padding:14px; font-size:13px; line-height:1.7;">
-        <div style="font-weight:700; margin-bottom:4px;">💎 프리미엄 회원</div>
-        <div>✅ AI 문제 무제한 · 100일 챌린지 참가 중</div>
+        <div style="font-weight:700; margin-bottom:4px;">💎 Prof.AI 통합 구독 회원</div>
+        <div>✅ 영어 AI 문제 무제한</div>
+        ${mathInfo}
+        ${mathNames ? `<button class="submit-btn" style="font-size:12px; padding:8px 14px; margin-top:8px; background:#e3f2fd; color:#1565c0;" onclick="showMathChangeModal()">📐 수학 과목 변경</button>` : ''}
       </div>`;
   } else {
     badge.textContent = '무료';
@@ -3935,9 +3986,30 @@ function updateMembershipUI() {
     info.innerHTML = `
       <div style="background:var(--bg); border-radius:10px; padding:14px; font-size:13px; line-height:1.7;">
         <div style="margin-bottom:8px;">무료 회원은 하루 <strong>5문제</strong>까지 풀 수 있습니다.</div>
-        <button class="submit-btn primary" style="font-size:14px; padding:12px;" onclick="showPaymentInfo()">💎 프리미엄 가입 — 월 ₩3,900</button>
+        <button class="submit-btn primary" style="font-size:14px; padding:12px;" onclick="showPaymentInfo()">💎 통합 구독 — 월 ₩5,500 (영어+수학2)</button>
       </div>`;
   }
+}
+
+// ═══ 수학 과목 선택 로직 ═══
+const MATH_SUBJECTS = {
+  probstat: '확률과 통계', diff: '미분법', limit: '극한과 연속', jisulog: '지수·로그',
+  sequence: '수열', integral: '적분', trig: '삼각함수', past: '기출문제'
+};
+
+function initMathSubjectCheckboxes(containerName, countElId) {
+  document.querySelectorAll(`input[name="${containerName}"]`).forEach(cb => {
+    cb.addEventListener('change', () => {
+      const checked = document.querySelectorAll(`input[name="${containerName}"]:checked`);
+      if (checked.length > 2) { cb.checked = false; return; }
+      const el = document.getElementById(countElId);
+      if (el) el.textContent = `${checked.length}/2 선택`;
+    });
+  });
+}
+
+function getSelectedMathSubjects(containerName) {
+  return Array.from(document.querySelectorAll(`input[name="${containerName}"]:checked`)).map(cb => cb.value);
 }
 
 function showPaymentInfo() {
@@ -3946,11 +4018,55 @@ function showPaymentInfo() {
     handleLogin();
     return;
   }
+  document.getElementById('mathSubjectSelector').style.display = 'block';
+  initMathSubjectCheckboxes('mathSubject', 'mathSelectCount');
   document.getElementById('paymentModal').classList.add('active');
+}
+
+function showMathChangeModal() {
+  if (!fbUser || !state.isPremium) return;
+  initMathSubjectCheckboxes('mathChange', 'mathChangeCount');
+  // 현재 선택된 과목 체크
+  if (state.selectedMathSubjects) {
+    document.querySelectorAll('input[name="mathChange"]').forEach(cb => {
+      cb.checked = state.selectedMathSubjects.includes(cb.value);
+    });
+    document.getElementById('mathChangeCount').textContent = `${state.selectedMathSubjects.length}/2 선택`;
+  }
+  document.getElementById('mathChangeModal').classList.add('active');
+}
+
+async function saveMathSubjects() {
+  const selected = getSelectedMathSubjects('mathChange');
+  if (selected.length !== 2) { alert('수학 과목 2개를 선택해주세요.'); return; }
+  try {
+    const now = new Date();
+    await db.collection('users').doc(fbUser.uid).update({
+      selectedMathSubjects: selected,
+      mathSubjectChangedAt: now.toISOString(),
+    });
+    state.selectedMathSubjects = selected;
+    alert('수학 과목이 변경되었습니다: ' + selected.map(s => MATH_SUBJECTS[s]).join(', '));
+    document.getElementById('mathChangeModal').classList.remove('active');
+    updateMembershipUI();
+  } catch(e) {
+    alert('저장 실패: ' + e.message);
+  }
 }
 
 async function requestBillingAuth() {
   if (!fbUser) { alert('로그인이 필요합니다.'); return; }
+  const selectedMath = getSelectedMathSubjects('mathSubject');
+  if (selectedMath.length !== 2) {
+    alert('수학 과목 2개를 선택해주세요.');
+    return;
+  }
+  // 선택한 과목을 Firestore에 미리 저장
+  try {
+    await db.collection('users').doc(fbUser.uid).set({
+      pendingMathSubjects: selectedMath,
+    }, { merge: true });
+  } catch(e) {}
   try {
     const toss = TossPayments('test_ck_oEjb0gm23PWWeZzZnKnj8pGwBJn5');
     const payment = toss.payment({customerKey: fbUser.uid});
@@ -3967,14 +4083,29 @@ async function requestBillingAuth() {
   }
 }
 
-// Firestore에서 프리미엄 상태 확인
+// Firestore에서 통합 구독 상태 확인
 async function checkPremiumStatus() {
   if (!db || !fbUser) return;
   try {
     const doc = await db.collection('users').doc(fbUser.uid).get();
     if (doc.exists) {
       const d = doc.data();
-      if (d.isPremium_english) {
+      // 통합 구독 체크 (신규)
+      if (d.isPremium_unified) {
+        const expiry = d.premiumExpiry_unified;
+        if (expiry && new Date(expiry) < new Date()) {
+          state.isPremium = false;
+          state.selectedMathSubjects = [];
+          localStorage.removeItem(ukey('isPremium_english'));
+          db.collection('users').doc(fbUser.uid).update({ isPremium_unified: false });
+        } else {
+          state.isPremium = true;
+          state.selectedMathSubjects = d.selectedMathSubjects || [];
+          localStorage.setItem(ukey('isPremium_english'), 'true');
+        }
+      }
+      // 기존 영어 전용 구독 호환
+      else if (d.isPremium_english) {
         const expiry = d.premiumExpiry_english;
         if (expiry && new Date(expiry) < new Date()) {
           state.isPremium = false;

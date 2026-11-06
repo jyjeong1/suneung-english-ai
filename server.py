@@ -425,9 +425,9 @@ class AppHandler(http.server.SimpleHTTPRequestHandler):
                 payment_body = json.dumps({
                     'billingKey': billing_key,
                     'customerKey': data.get('customerKey'),
-                    'amount': 3900,
+                    'amount': 5500,
                     'orderId': 'PROFAI-SUB-' + data.get('customerKey', '')[:8] + '-' + str(int(__import__('time').time())),
-                    'orderName': 'Prof.AI 수능영어 프리미엄 정기구독',
+                    'orderName': 'Prof.AI 통합구독 (영어+수학2과목)',
                     'customerEmail': data.get('customerEmail', ''),
                 }).encode('utf-8')
 
