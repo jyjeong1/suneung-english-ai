@@ -8,6 +8,8 @@
 <meta name="theme-color" content="#0f0f1a">
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="description" content="월 5,500원으로 수능 영어 + 수학 2과목 — AI 맞춤 학습 플랫폼">
+<!-- Toss Payments SDK -->
+<script src="https://js.tosspayments.com/v2/standard"></script>
 <!-- Firebase -->
 <script src="https://www.gstatic.com/firebasejs/10.12.0/firebase-app-compat.js"></script>
 <script src="https://www.gstatic.com/firebasejs/10.12.0/firebase-auth-compat.js"></script>
@@ -97,6 +99,22 @@ body{font-family:'Noto Sans KR',-apple-system,sans-serif;background:var(--bg);co
 <div class="sub-banner" id="subStatus" style="display:none">
   <div style="font-size:14px;font-weight:700;color:var(--gold)">💎 Prof.AI 통합 구독 중</div>
   <div class="desc" id="subExpiry"></div>
+</div>
+
+<!-- 구독 결제 모달 -->
+<div id="subscribeModal" style="display:none;position:fixed;top:0;left:0;width:100%;height:100%;background:rgba(0,0,0,0.7);z-index:1000;align-items:center;justify-content:center;">
+  <div style="background:#1a1a2e;border:1px solid rgba(255,255,255,0.1);border-radius:16px;max-width:400px;width:90%;padding:24px;max-height:85vh;overflow-y:auto;margin:auto;position:relative;top:50%;transform:translateY(-50%);">
+    <h3 style="color:var(--gold);margin-bottom:16px;font-size:18px;">💎 Prof.AI 통합 구독</h3>
+    <div style="background:linear-gradient(135deg,#0d47a1,#1565c0);color:#fff;border-radius:12px;padding:18px;margin-bottom:16px;text-align:center;">
+      <div style="font-size:26px;font-weight:900;">월 ₩5,500</div>
+      <div style="font-size:12px;opacity:0.9;margin-top:4px;">영어 무제한 + 수학 2과목 무제한</div>
+    </div>
+    <div style="font-size:13px;color:var(--sub);margin-bottom:14px;">📐 수학 과목 2개를 선택하세요:</div>
+    <div id="subMathGrid" style="display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-bottom:12px;"></div>
+    <div id="subMathCount" style="font-size:11px;color:var(--sub);text-align:center;margin-bottom:14px;">0/2 선택</div>
+    <button onclick="startBillingAuth()" style="display:block;width:100%;padding:14px;border:none;border-radius:12px;background:linear-gradient(135deg,#0055d4,#a855f7);color:#fff;font-size:15px;font-weight:700;cursor:pointer;">💳 정기결제 등록하기</button>
+    <button onclick="closeSubscribeModal()" style="display:block;width:100%;padding:10px;border:1px solid rgba(255,255,255,0.1);border-radius:10px;background:transparent;color:var(--sub);font-size:13px;cursor:pointer;margin-top:8px;">닫기</button>
+  </div>
 </div>
 
 <!-- 영어 섹션 -->
@@ -306,9 +324,71 @@ function renderMathApps() {
   }).join('');
 }
 
+let subSelectedMath = [];
+
 function goSubscribe() {
   if (!currentUser) { handleLogin(); return; }
-  window.location.href = '/?action=subscribe';
+  subSelectedMath = [];
+  const grid = document.getElementById('subMathGrid');
+  grid.innerHTML = MATH_APPS.map(app =>
+    `<div class="math-item" id="sub_${app.id}" onclick="toggleSubMath('${app.id}')" style="display:flex;align-items:center;gap:8px;padding:10px;border-radius:10px;border:2px solid rgba(255,255,255,0.1);cursor:pointer;font-size:13px;color:var(--text);transition:all 0.2s;">
+      <span style="width:10px;height:10px;border-radius:50%;border:2px solid var(--sub);flex-shrink:0;" id="subdot_${app.id}"></span>
+      ${app.icon} ${app.name}
+    </div>`
+  ).join('');
+  document.getElementById('subMathCount').textContent = '0/2 선택';
+  document.getElementById('subscribeModal').style.display = 'block';
+}
+
+function closeSubscribeModal() {
+  document.getElementById('subscribeModal').style.display = 'none';
+}
+
+function toggleSubMath(id) {
+  const idx = subSelectedMath.indexOf(id);
+  const el = document.getElementById('sub_' + id);
+  const dot = document.getElementById('subdot_' + id);
+  if (idx >= 0) {
+    subSelectedMath.splice(idx, 1);
+    el.style.borderColor = 'rgba(255,255,255,0.1)';
+    el.style.background = 'transparent';
+    dot.style.background = 'transparent';
+    dot.style.borderColor = 'var(--sub)';
+  } else {
+    if (subSelectedMath.length >= 2) { alert('최대 2과목까지 선택 가능합니다.'); return; }
+    subSelectedMath.push(id);
+    el.style.borderColor = 'var(--accent)';
+    el.style.background = 'rgba(168,85,247,0.12)';
+    dot.style.background = 'var(--accent)';
+    dot.style.borderColor = 'var(--accent)';
+  }
+  document.getElementById('subMathCount').textContent = subSelectedMath.length + '/2 선택';
+}
+
+async function startBillingAuth() {
+  if (!currentUser) { alert('로그인이 필요합니다.'); return; }
+  if (subSelectedMath.length !== 2) { alert('수학 과목 2개를 선택해주세요.'); return; }
+  // 선택 과목 미리 저장
+  try {
+    await db.collection('users').doc(currentUser.uid).set({
+      pendingMathSubjects: subSelectedMath,
+    }, { merge: true });
+  } catch(e) {}
+  // 토스 결제 시작
+  try {
+    const toss = TossPayments('test_ck_oEjb0gm23PWWeZzZnKnj8pGwBJn5');
+    const payment = toss.payment({customerKey: currentUser.uid});
+    await payment.requestBillingAuth({
+      method: 'CARD',
+      successUrl: window.location.origin + '/billing-success.html',
+      failUrl: window.location.origin + '/billing-fail.html',
+      customerEmail: currentUser.email || '',
+      customerName: currentUser.displayName || '학생',
+    });
+  } catch(e) {
+    if (e.code === 'USER_CANCEL') return;
+    alert('정기결제 등록 실패: ' + (e.message || e));
+  }
 }
 
 // 초기 렌더
