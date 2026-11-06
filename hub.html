@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="ko" translate="no">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<meta name="google" content="notranslate">
+<title>Prof.AI — 수능 영어 + 수학 통합 학습</title>
+<meta name="theme-color" content="#0f0f1a">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="description" content="월 5,500원으로 수능 영어 + 수학 2과목 — AI 맞춤 학습 플랫폼">
+<!-- Firebase -->
+<script src="https://www.gstatic.com/firebasejs/10.12.0/firebase-app-compat.js"></script>
+<script src="https://www.gstatic.com/firebasejs/10.12.0/firebase-auth-compat.js"></script>
+<script src="https://www.gstatic.com/firebasejs/10.12.0/firebase-firestore-compat.js"></script>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700;900&display=swap');
+*{margin:0;padding:0;box-sizing:border-box}
+:root{--primary:#0055d4;--accent:#a855f7;--bg:#0f0f1a;--card:rgba(255,255,255,0.06);--text:#f0f0f5;--sub:#8888aa;--border:rgba(255,255,255,0.08);--gold:#ffd700}
+body{font-family:'Noto Sans KR',-apple-system,sans-serif;background:var(--bg);color:var(--text);max-width:480px;margin:0 auto;min-height:100vh;padding:0 16px 40px}
+
+.header{text-align:center;padding:44px 0 8px}
+.logo{font-size:38px;font-weight:900;background:linear-gradient(135deg,#0055d4,#a855f7,#ff2d78);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text}
+.tagline{color:var(--sub);font-size:13px;margin-top:6px}
+
+.user-bar{display:flex;align-items:center;justify-content:space-between;background:var(--card);border:1px solid var(--border);border-radius:14px;padding:14px 18px;margin:20px 0 8px}
+.user-name{font-size:14px;font-weight:600}
+.user-badge{font-size:11px;padding:4px 10px;border-radius:12px;font-weight:600}
+.badge-free{background:rgba(255,255,255,0.08);color:var(--sub)}
+.badge-premium{background:linear-gradient(135deg,#ffd700,#ffaa00);color:#333}
+.login-btn{background:linear-gradient(135deg,#0055d4,#1565c0);color:#fff;border:none;padding:10px 20px;border-radius:10px;font-size:13px;font-weight:600;cursor:pointer}
+
+.sub-banner{background:linear-gradient(135deg,rgba(0,85,212,0.15),rgba(168,85,247,0.15));border:1px solid var(--border);border-radius:14px;padding:18px;margin:16px 0;text-align:center}
+.sub-banner .price{font-size:28px;font-weight:900;color:var(--gold)}
+.sub-banner .desc{font-size:12px;color:var(--sub);margin-top:4px}
+.sub-btn{display:block;width:100%;background:linear-gradient(135deg,#0055d4,#a855f7);color:#fff;border:none;padding:14px;border-radius:12px;font-size:15px;font-weight:700;cursor:pointer;margin-top:12px;transition:opacity 0.2s}
+.sub-btn:active{opacity:0.8}
+
+.math-selection{background:var(--card);border:1px solid var(--border);border-radius:14px;padding:16px;margin:12px 0}
+.math-selection h3{font-size:13px;font-weight:700;color:var(--sub);margin-bottom:12px;letter-spacing:1px}
+.math-month{font-size:12px;color:var(--accent);margin-bottom:10px;text-align:center}
+.math-grid{display:grid;grid-template-columns:1fr 1fr;gap:8px}
+.math-item{display:flex;align-items:center;gap:8px;padding:10px 12px;border-radius:10px;font-size:13px;cursor:pointer;transition:all 0.2s;border:2px solid transparent}
+.math-item.active{border-color:var(--accent);background:rgba(168,85,247,0.12)}
+.math-item.locked{opacity:0.4;cursor:default}
+.math-item input{display:none}
+.math-dot{width:10px;height:10px;border-radius:50%;border:2px solid var(--sub);flex-shrink:0}
+.math-item.active .math-dot{background:var(--accent);border-color:var(--accent)}
+.change-btn{display:block;width:100%;background:rgba(168,85,247,0.15);color:var(--accent);border:1px solid rgba(168,85,247,0.3);padding:10px;border-radius:10px;font-size:13px;font-weight:600;cursor:pointer;margin-top:10px}
+
+.section-title{font-size:12px;font-weight:700;color:var(--sub);text-transform:uppercase;letter-spacing:2px;margin:28px 0 14px 4px}
+
+.app-card{display:flex;align-items:center;gap:14px;background:var(--card);border:1px solid var(--border);border-radius:14px;padding:18px;margin-bottom:10px;text-decoration:none;color:var(--text);transition:all 0.2s;position:relative}
+.app-card:hover{background:rgba(255,255,255,0.1);transform:translateY(-1px)}
+.app-card.locked{opacity:0.35;pointer-events:none}
+.app-card .icon{width:46px;height:46px;border-radius:12px;display:flex;align-items:center;justify-content:center;font-size:24px;flex-shrink:0}
+.app-card .info{flex:1}
+.app-card .name{font-size:15px;font-weight:700;margin-bottom:2px}
+.app-card .desc{font-size:11px;color:var(--sub)}
+.app-card .arrow{color:var(--sub);font-size:18px;flex-shrink:0}
+.app-card .lock-badge{position:absolute;top:8px;right:10px;font-size:10px;color:var(--sub);background:rgba(255,255,255,0.06);padding:2px 8px;border-radius:4px}
+
+.english-card .icon{background:rgba(0,85,212,0.15)}
+.math-card .icon{background:rgba(168,85,247,0.15)}
+.math-card.active-sub .icon{background:rgba(168,85,247,0.25);box-shadow:0 0 12px rgba(168,85,247,0.3)}
+
+.footer{text-align:center;padding:32px 0 16px;font-size:11px;color:var(--sub);line-height:1.8}
+.footer a{color:var(--accent);text-decoration:none}
+
+@keyframes fadeInUp{from{opacity:0;transform:translateY(16px)}to{opacity:1;transform:translateY(0)}}
+.app-card{animation:fadeInUp 0.4s ease both}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <div class="logo">Prof.AI</div>
+  <div class="tagline">수능 영어 + 수학 AI 통합 학습 플랫폼</div>
+</div>
+
+<!-- 유저 바 -->
+<div class="user-bar" id="userBar">
+  <div>
+    <div class="user-name" id="userName">로그인이 필요합니다</div>
+  </div>
+  <button class="login-btn" id="loginBtn" onclick="handleLogin()">Google 로그인</button>
+</div>
+
+<!-- 구독 배너 (비구독자) -->
+<div class="sub-banner" id="subBanner">
+  <div class="price">월 ₩5,500</div>
+  <div class="desc">넷플릭스 하나 값으로 수능 영어 + 수학 2과목</div>
+  <button class="sub-btn" onclick="goSubscribe()">💎 통합 구독 시작하기</button>
+</div>
+
+<!-- 구독 상태 (구독자) -->
+<div class="sub-banner" id="subStatus" style="display:none">
+  <div style="font-size:14px;font-weight:700;color:var(--gold)">💎 Prof.AI 통합 구독 중</div>
+  <div class="desc" id="subExpiry"></div>
+</div>
+
+<!-- 영어 섹션 -->
+<div class="section-title">📘 수능 영어</div>
+
+<a class="app-card english-card" id="englishCard" href="/" target="_self">
+  <div class="icon">🔤</div>
+  <div class="info">
+    <div class="name">수능영어 AI</div>
+    <div class="desc">12유형 · AI 맞춤 문제 · 오답노트 · 어휘 1,764개</div>
+  </div>
+  <span class="arrow">›</span>
+</a>
+
+<!-- 수학 섹션 -->
+<div class="section-title">📐 수능 수학 (이번 달 2과목)</div>
+
+<div class="math-selection" id="mathSelection" style="display:none">
+  <h3>과목 선택/변경</h3>
+  <div class="math-month" id="mathMonth"></div>
+  <div class="math-grid" id="mathGrid"></div>
+  <div style="font-size:11px;color:var(--sub);text-align:center;margin-top:8px" id="mathCount">0/2 선택</div>
+  <button class="change-btn" id="changeBtn" onclick="saveMathSelection()">과목 변경 저장</button>
+</div>
+
+<div id="mathApps"></div>
+
+<div class="footer">
+  <div>Prof.AI — AI 기반 수능 학습 플랫폼</div>
+  <div>© 2026 Prof.AI. All rights reserved.</div>
+  <div style="margin-top:8px"><a href="/">영어 앱으로 돌아가기</a></div>
+</div>
+
+<script>
+const firebaseConfig = {
+  apiKey: "AIzaSyDv_ArdZ39TyXFIsbV8CaEhYuF3w_zvbVU",
+  authDomain: "suneung-english-34283.firebaseapp.com",
+  projectId: "suneung-english-34283",
+  storageBucket: "suneung-english-34283.firebasestorage.app",
+  messagingSenderId: "436457100278",
+  appId: "1:436457100278:web:dac0755eb8fedbdd512dd7"
+};
+firebase.initializeApp(firebaseConfig);
+const db = firebase.firestore();
+const auth = firebase.auth();
+
+const MATH_APPS = [
+  { id: 'probstat', name: '확률과 통계', icon: '🎲', desc: '순열·조합, 확률, 통계적 추정', url: 'https://suneung-math-ai-probstat.onrender.com', questions: '500문제', color: 'purple' },
+  { id: 'diff', name: '미분법', icon: '📐', desc: '미분계수, 도함수, 접선, 극값', url: 'https://suneung-math-diff.onrender.com', questions: '436문제', color: 'blue' },
+  { id: 'limit', name: '극한과 연속', icon: '∞', desc: '함수의 극한, 좌·우극한, 연속성', url: 'https://suneung-math-ai.onrender.com', questions: '299문제', color: 'green' },
+  { id: 'sequence', name: '수열', icon: '📈', desc: '등차·등비수열, 수열의 합, 귀납법', url: 'https://suneung-math-seq.onrender.com', questions: '326문제', color: 'cyan' },
+  { id: 'trig', name: '삼각함수', icon: '🔺', desc: '삼각함수의 성질, 그래프, 삼각방정식', url: 'https://suneung-math-trig.onrender.com', questions: '300문제', color: 'orange' },
+  { id: 'jisulog', name: '지수와 로그', icon: '🔢', desc: '지수함수, 로그함수, 지수·로그 방정식', url: 'https://suneung-math-ai-1.onrender.com', questions: '264문제', color: 'pink' },
+  { id: 'integral', name: '적분법', icon: '∫', desc: '부정적분, 정적분, 넓이·부피', url: 'https://suneung-math-integ.onrender.com', questions: '300문제', color: 'red' },
+  { id: 'past', name: '수능 기출문제', icon: '📝', desc: '최근 10개년 수능·모의평가 전 단원', url: 'https://suneung-math-past.onrender.com', questions: '1,231문제', color: 'gold' },
+];
+
+let currentUser = null;
+let isPremium = false;
+let selectedSubjects = [];
+
+auth.onAuthStateChanged(async (user) => {
+  currentUser = user;
+  if (user) {
+    document.getElementById('userName').textContent = user.displayName || user.email;
+    document.getElementById('loginBtn').textContent = '로그아웃';
+    document.getElementById('loginBtn').onclick = () => { auth.signOut(); location.reload(); };
+    await loadSubscription();
+  } else {
+    document.getElementById('userName').textContent = '로그인이 필요합니다';
+    document.getElementById('loginBtn').textContent = 'Google 로그인';
+    document.getElementById('loginBtn').onclick = handleLogin;
+    isPremium = false;
+    selectedSubjects = [];
+  }
+  renderUI();
+});
+
+async function handleLogin() {
+  try {
+    await auth.signInWithPopup(new firebase.auth.GoogleAuthProvider());
+  } catch(e) {
+    if (e.code !== 'auth/popup-closed-by-user') alert('로그인 실패: ' + e.message);
+  }
+}
+
+async function loadSubscription() {
+  if (!currentUser) return;
+  try {
+    const doc = await db.collection('users').doc(currentUser.uid).get();
+    if (doc.exists) {
+      const d = doc.data();
+      if (d.isPremium_unified) {
+        const expiry = d.premiumExpiry_unified;
+        if (expiry && new Date(expiry) > new Date()) {
+          isPremium = true;
+          selectedSubjects = d.selectedMathSubjects || [];
+          document.getElementById('subExpiry').textContent =
+            '만료일: ' + new Date(expiry).toLocaleDateString('ko-KR') +
+            ' | 수학: ' + selectedSubjects.map(s => MATH_APPS.find(a=>a.id===s)?.name || s).join(', ');
+        }
+      } else if (d.isPremium_english) {
+        const expiry = d.premiumExpiry_english;
+        if (expiry && new Date(expiry) > new Date()) {
+          isPremium = true;
+          selectedSubjects = d.selectedMathSubjects || [];
+        }
+      }
+    }
+  } catch(e) {}
+}
+
+function renderUI() {
+  // 구독 배너
+  document.getElementById('subBanner').style.display = isPremium ? 'none' : 'block';
+  document.getElementById('subStatus').style.display = isPremium ? 'block' : 'none';
+
+  // 유저 뱃지
+  const badge = isPremium ? '<span class="user-badge badge-premium">💎 구독 중</span>' : '<span class="user-badge badge-free">무료</span>';
+  document.getElementById('userName').innerHTML = (currentUser ? (currentUser.displayName || '학생') : '로그인 필요') + ' ' + badge;
+
+  // 수학 과목 선택 (구독자만)
+  if (isPremium) {
+    document.getElementById('mathSelection').style.display = 'block';
+    const now = new Date();
+    document.getElementById('mathMonth').textContent = `${now.getFullYear()}년 ${now.getMonth()+1}월 선택 과목`;
+    renderMathGrid();
+  } else {
+    document.getElementById('mathSelection').style.display = 'none';
+  }
+
+  // 수학 앱 카드
+  renderMathApps();
+}
+
+function renderMathGrid() {
+  const grid = document.getElementById('mathGrid');
+  grid.innerHTML = MATH_APPS.map(app => {
+    const isSelected = selectedSubjects.includes(app.id);
+    return `<div class="math-item ${isSelected ? 'active' : ''}" onclick="toggleMathSubject('${app.id}', this)">
+      <span class="math-dot"></span>
+      <span>${app.icon} ${app.name}</span>
+    </div>`;
+  }).join('');
+  updateMathCount();
+}
+
+function toggleMathSubject(id, el) {
+  const idx = selectedSubjects.indexOf(id);
+  if (idx >= 0) {
+    selectedSubjects.splice(idx, 1);
+    el.classList.remove('active');
+  } else {
+    if (selectedSubjects.length >= 2) { alert('최대 2과목까지 선택 가능합니다.'); return; }
+    selectedSubjects.push(id);
+    el.classList.add('active');
+  }
+  el.querySelector('.math-dot').style.background = el.classList.contains('active') ? 'var(--accent)' : '';
+  el.querySelector('.math-dot').style.borderColor = el.classList.contains('active') ? 'var(--accent)' : 'var(--sub)';
+  updateMathCount();
+}
+
+function updateMathCount() {
+  document.getElementById('mathCount').textContent = `${selectedSubjects.length}/2 선택`;
+}
+
+async function saveMathSelection() {
+  if (!currentUser) return;
+  if (selectedSubjects.length !== 2) { alert('수학 과목 2개를 선택해주세요.'); return; }
+  try {
+    await db.collection('users').doc(currentUser.uid).update({
+      selectedMathSubjects: selectedSubjects,
+      mathSubjectChangedAt: new Date().toISOString(),
+    });
+    alert('수학 과목이 변경되었습니다: ' + selectedSubjects.map(s => MATH_APPS.find(a=>a.id===s)?.name).join(', '));
+    renderMathApps();
+  } catch(e) {
+    alert('저장 실패: ' + e.message);
+  }
+}
+
+function renderMathApps() {
+  const container = document.getElementById('mathApps');
+  container.innerHTML = MATH_APPS.map((app, i) => {
+    const isActive = isPremium && selectedSubjects.includes(app.id);
+    const isLocked = isPremium && !selectedSubjects.includes(app.id);
+    const isFree = !isPremium;
+    const cls = isLocked ? 'locked' : (isActive ? 'active-sub' : '');
+    const lockBadge = isLocked ? '<span class="lock-badge">🔒 미선택</span>' : (isActive ? '<span class="lock-badge" style="color:var(--gold)">✨ 이용 중</span>' : '');
+    return `<a class="app-card math-card ${cls}" href="${app.url}" target="_blank" style="animation-delay:${i*0.05}s">
+      <div class="icon">${app.icon}</div>
+      <div class="info">
+        <div class="name">${app.name}</div>
+        <div class="desc">${app.desc} · ${app.questions}</div>
+      </div>
+      ${lockBadge}
+      <span class="arrow">›</span>
+    </a>`;
+  }).join('');
+}
+
+function goSubscribe() {
+  // 영어 앱의 결제 페이지로 이동
+  window.location.href = '/?action=subscribe';
+}
+
+// 초기 렌더
+renderUI();
+</script>
+</body>
+</html>
