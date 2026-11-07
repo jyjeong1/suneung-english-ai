@@ -340,6 +340,15 @@ async function saveMathSelection() {
   }
 }
 
+function getAppUrl(baseUrl) {
+  // 로그인된 경우 uid를 URL 파라미터로 전달
+  if (currentUser) {
+    const sep = baseUrl.includes('?') ? '&' : '?';
+    return baseUrl + sep + 'uid=' + encodeURIComponent(currentUser.uid) + '&name=' + encodeURIComponent(currentUser.displayName || '') + '&email=' + encodeURIComponent(currentUser.email || '');
+  }
+  return baseUrl;
+}
+
 function renderMathApps() {
   const container = document.getElementById('mathApps');
   container.innerHTML = MATH_APPS.map((app, i) => {
@@ -353,10 +362,10 @@ function renderMathApps() {
         badge = '<span class="lock-badge">🔒 미선택</span>';
       }
     } else {
-      // 무료 회원: 전 과목 접근 가능 (5문제/일 제한은 앱 내에서)
       badge = '<span class="lock-badge">무료 5문제/일</span>';
     }
-    return `<a class="app-card math-card ${cls}" href="${app.url}" target="_blank" style="animation-delay:${i*0.05}s">
+    const url = getAppUrl(app.url);
+    return `<a class="app-card math-card ${cls}" href="${url}" target="_blank" style="animation-delay:${i*0.05}s">
       <div class="icon">${app.icon}</div>
       <div class="info">
         <div class="name">${app.name}</div>
