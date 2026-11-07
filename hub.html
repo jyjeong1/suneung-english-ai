@@ -84,7 +84,10 @@ body{font-family:'Noto Sans KR',-apple-system,sans-serif;background:var(--bg);co
   <div>
     <div class="user-name" id="userName">로그인이 필요합니다</div>
   </div>
-  <button class="login-btn" id="loginBtn" onclick="handleLogin()">Google 로그인</button>
+  <div style="display:flex;gap:6px;align-items:center;">
+    <button class="login-btn" id="loginBtn" onclick="handleLogin()">Google 로그인</button>
+    <button id="demoBtn" onclick="handleDemoLogin()" style="background:rgba(96,165,250,0.3);border:1px solid rgba(96,165,250,0.5);color:#60a5fa;font-size:11px;padding:4px 10px;border-radius:8px;cursor:pointer;display:none;">Demo</button>
+  </div>
 </div>
 
 <!-- 구독 배너 (비구독자) -->
@@ -206,11 +209,13 @@ auth.onAuthStateChanged(async (user) => {
     document.getElementById('userName').textContent = user.displayName || user.email;
     document.getElementById('loginBtn').textContent = '로그아웃';
     document.getElementById('loginBtn').onclick = () => { auth.signOut(); location.reload(); };
+    document.getElementById('demoBtn').style.display = 'none';
     await loadSubscription();
   } else {
     document.getElementById('userName').textContent = '로그인이 필요합니다';
     document.getElementById('loginBtn').textContent = 'Google 로그인';
     document.getElementById('loginBtn').onclick = handleLogin;
+    document.getElementById('demoBtn').style.display = 'inline-block';
     isPremium = false;
     selectedSubjects = [];
   }
@@ -222,6 +227,21 @@ async function handleLogin() {
     await auth.signInWithPopup(new firebase.auth.GoogleAuthProvider());
   } catch(e) {
     if (e.code !== 'auth/popup-closed-by-user') alert('로그인 실패: ' + e.message);
+  }
+}
+
+async function handleDemoLogin() {
+  try {
+    await auth.signInWithEmailAndPassword('demo@profai.kr', 'profai-demo-2027');
+  } catch(e) {
+    if (e.code === 'auth/user-not-found') {
+      try {
+        const cred = await auth.createUserWithEmailAndPassword('demo@profai.kr', 'profai-demo-2027');
+        if (cred.user) await cred.user.updateProfile({ displayName: 'Demo User' });
+      } catch(e2) { alert('Demo 계정 생성 실패: ' + e2.message); }
+    } else {
+      alert('Demo 로그인 실패: ' + e.message);
+    }
   }
 }
 
