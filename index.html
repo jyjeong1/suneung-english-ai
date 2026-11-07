@@ -1190,9 +1190,12 @@ function initFirebase() {
         ['blank','insert','grammar','vocab','main_idea','order'].forEach(t => prefetchNextQuestion(t));
       }, 1000);
     } else {
-      document.getElementById('loginBtn').style.display = 'block';
-      document.getElementById('demoBtn').style.display = 'inline-block';
       document.getElementById('userBadge').style.display = 'none';
+      // 자동 로그인 시도
+      if (!window.autoLoginAttempted) {
+        window.autoLoginAttempted = true;
+        setTimeout(() => { if (!fbUser) handleLogin(); }, 500);
+      }
     }
   });
 }
