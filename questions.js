@@ -12,7 +12,7 @@ const QUESTION_BANK = [
       "④a direct result of increased workload and pressure",
       "⑤a symptom of depression that requires immediate medication"
     ],
-    "answer": 0,
+    "answer": 1,
     "explanation": "지문은 미루기를 '정서 조절 전략'으로 규정하며, 시간 관리 문제가 아니라 부정적 감정(불안, 자기의심)을 완화하려는 정서적 대처 메커니즘임을 설명합니다. '이 관점은 우리의 이해를 용이하게 한다'는 다음 문장이 정답을 강하게 뒷받침합니다.",
     "wrong_explanations": {
       "1": "지문이 유전적 특성임을 시사하는 어떤 근거도 제시하지 않음",
@@ -36,7 +36,7 @@ const QUESTION_BANK = [
       "④a result of inferior adult neural plasticity combined with aging",
       "⑤dependent exclusively on the amount of exposure time"
     ],
-    "answer": 0,
+    "answer": 1,
     "explanation": "지문은 신경가소성(neuroplasticity)과 '마더시'와 같은 사회적 맥락이 함께 작용한다고 설명합니다. '두 요소 모두'를 강조하는 therefore와 비교 구조가 정답을 지지합니다.",
     "wrong_explanations": {
       "1": "지문이 환경적 요소(motherese, 사회적 맥락)의 중요성을 명확히 강조함",
@@ -60,7 +60,7 @@ const QUESTION_BANK = [
       "④caused by insufficient mathematical ability and education",
       "⑤proof that all economic decisions are entirely random and unpredictable"
     ],
-    "answer": 0,
+    "answer": 1,
     "explanation": "지문은 정신 회계가 경제학적으로는 비합리적이지만 심리학적으로 의미 있다는 패러독스를 설명합니다. 이후 예시와 '인지적 특성'이라는 명시가 이를 강력하게 뒷받침합니다.",
     "wrong_explanations": {
       "1": "지문이 전통 경제학과의 모순을 명확히 보여줌",
@@ -84,7 +84,7 @@ const QUESTION_BANK = [
       "④emotional spread occurs mainly through direct person-to-person communication rather than feeds",
       "⑤negative emotions naturally spread faster than positive ones in all human contexts"
     ],
-    "answer": 0,
+    "answer": 1,
     "explanation": "지문은 알고리즘이 콘텐츠를 자연스럽게 보이도록 필터링하면서 동시에 정서적 자극을 극대화한다는 이중 메커니즘을 설명합니다. 'perceive'와 'engagement' 관련 문장들이 이를 지지합니다.",
     "wrong_explanations": {
       "1": "사용자들의 의도적 선택이 아닌 무의식적 영향을 강조",
@@ -108,7 +108,7 @@ const QUESTION_BANK = [
       "④achieving flow requires abandoning professional responsibilities entirely",
       "⑤flow state is only valuable in creative professions, not analytical work"
     ],
-    "answer": 0,
+    "answer": 1,
     "explanation": "지문은 'yet'이라는 역접 접속사로 flow의 가치와 현대 직장환경의 모순을 제시합니다. 이후 '초과 감시, 단편적 업무 할당, 중단'이 flow를 방해한다는 내용이 직접 정답을 뒷받침합니다.",
     "wrong_explanations": {
       "1": "지문이 flow는 가능하지만 장애가 있음을 명시함",
@@ -298,7 +298,7 @@ const QUESTION_BANK = [
       "④ committed",
       "⑤ for"
     ],
-    "answer": 0,
+    "answer": 1,
     "explanation": "정답: ① is → are. 주어는 'AI systems'(복수)이므로 동사는 복수형 'are'가 필요합니다. 관계절 'which are designed'의 관계대명사 which는 복수 선행사 systems를 나타내므로 복수동사가 맞습니다.",
     "wrong_explanations": {
       "②": "that 이하는 명사절이고, ensure는 올바른 동사원형입니다. (must ensure + that절)",
@@ -322,7 +322,7 @@ const QUESTION_BANK = [
       "④ strategies",
       "⑤ mobilizing"
     ],
-    "answer": 0,
+    "answer": 1,
     "explanation": "정답: ① are. 주어는 'rising temperatures'(복수)이므로 동사는 복수형 'are'가 필요합니다. 'is causing'은 단수형 동사이므로 오류입니다.",
     "wrong_explanations": {
       "②": "necessary for adaptation은 올바른 표현입니다. (resources for + noun)",
@@ -370,7 +370,7 @@ const QUESTION_BANK = [
       "④ participate",
       "⑤ create"
     ],
-    "answer": 0,
+    "answer": 1,
     "explanation": "정답: ① have. 주어는 'Municipal governments'(복수)이므로 동사는 복수형 'have'가 필요합니다. 'has begun'은 단수형이므로 오류입니다.",
     "wrong_explanations": {
       "②": "encompass + -ing 구조에서 constructing은 올바른 동명사입니다.",
@@ -586,7 +586,7 @@ const QUESTION_BANK = [
       "④정보 신뢰성 검증이 불가능한 현대 사회의 문제",
       "⑤전 지구적 소통을 위한 표준화된 언어 개발의 필요성"
     ],
-    "answer": 0,
+    "answer": 5,
     "explanation": "지문은 인류 역사에서 구술 → 문자 → 디지털로의 지식 전달 방식 변화를 설명하고, 각 단계의 특징(구술: 집단 기억 보존, 문자: 안정성과 정확성, 디지털: 접근성과 검증 문제)을 다루고 있습니다. 정답은 이 진화 과정과 각 단계의 특징을 모두 포함합니다.",
     "wrong_explanations": {
       "①": "지문은 디지털 기술의 부정적 영향만을 강조하지 않으며, 기술 발전의 장점도 명시하고 있습니다.",
@@ -610,7 +610,7 @@ const QUESTION_BANK = [
       "④심리학 연구에서 감정 인식 능력의 생물학적 기원",
       "⑤교육 제도 개혁을 통한 감정 지능 평가 기준 표준화"
     ],
-    "answer": 0,
+    "answer": 5,
     "explanation": "지문은 감정 지능의 정의(인식, 이해, 관리 능력)와 주요 요소들을 소개하고, 성인기에 향상 가능함을 언급하며, 조직 내에서의 중요성과 긍정적 효과를 설명합니다. 정답은 이 세 가지 핵심 내용을 모두 포함합니다.",
     "wrong_explanations": {
       "①": "지문은 측정 방법론의 차이를 다루지 않습니다.",
@@ -634,7 +634,7 @@ const QUESTION_BANK = [
       "④생물 다양성 보전을 위한 국제 협력의 실패 사례",
       "⑤유전자 다양성이 종(種)의 진화에 미치는 직접적 메커니즘"
     ],
-    "answer": 0,
+    "answer": 5,
     "explanation": "지문은 생물 다양성 감소의 현상(6번째 대멸종), 원인들(서식지 파괴, 기후변화 등), 영향(생태계 서비스 감소), 그리고 보전 전략(보호구역 설립, 지속 가능한 토지 이용, 국제 협력)을 종합적으로 다룹니다.",
     "wrong_explanations": {
       "①": "측정 기술의 발전은 부수적이며 주요 내용이 아닙니다.",
@@ -658,7 +658,7 @@ const QUESTION_BANK = [
       "④지속 가능한 도시 계획이 경제 성장을 방해하는 방식",
       "⑤도시 거주자의 교육 수준이 시골 지역보다 높은 이유"
     ],
-    "answer": 0,
+    "answer": 5,
     "explanation": "지문은 도시화의 긍정적 효과(경제 활동, 혁신, 기회), 부정적 문제점(기반시설 부족, 오염, 도시 빈곤), 그리고 해결 방안(지속 가능한 도시계획, 혼합 용도 개발, 녹색 기반시설)을 포괄적으로 제시합니다.",
     "wrong_explanations": {
       "①": "개발도상국 빈곤층만을 다루지 않으며, 역사적 분석도 없습니다.",
@@ -682,7 +682,7 @@ const QUESTION_BANK = [
       "④신경가소성이 모든 종류의 뇌 손상을 치료하는 방법",
       "⑤운동이 신경생성(neurogenesis)을 촉진하는 물리적 메커니즘"
     ],
-    "answer": 0,
+    "answer": 5,
     "explanation": "지문은 신경가소성의 정의, 과거의 오래된 이론과 현재의 경험적 증거, 재활 치료에서의 응용, 그리고 교육과 평생학습에 대한 함의를 종합적으로 다룹니다.",
     "wrong_explanations": {
       "①": "회복 속도의 개인차 원인은 주요 내용이 아니며, 신경가소성의 한계만 언급됩니다.",
@@ -706,7 +706,7 @@ const QUESTION_BANK = [
       "④ (B)-(C)-(A)",
       "⑤ (C)-(A)-(B)"
     ],
-    "answer": 0,
+    "answer": 1,
     "explanation": "도입부에서 신경가소성의 개념을 소개한 후, (A) '이러한 발견'으로 뇌의 재조직화 능력의 실제 응용 사례를 제시. (B) 'Furthermore'로 추가적 증거(음악가, 운동선수)를 제시. (C) 'Therefore'로 결론적으로 이해의 중요성을 강조. 지시어와 접속사의 논리적 흐름이 (A)-(B)-(C) 순서를 명시적으로 나타냄.",
     "wrong_explanations": {
       "1": "(A)-(C)-(B)는 'Furthermore'가 갑자기 나타나 흐름이 단절됨",
@@ -730,7 +730,7 @@ const QUESTION_BANK = [
       "④ (C)-(B)-(A)",
       "⑤ (C)-(A)-(B)"
     ],
-    "answer": 0,
+    "answer": 1,
     "explanation": "도입부에서 AI의 편향 문제 제시. (A) 'Such bias'로 편향의 구체적 원인과 예시 설명. (B) 'Therefore'로 해결책(데이터 큐레이션) 제시. (C) 'Moreover'로 추가적 필요조건(투명성) 강조. 문제 제시→원인 설명→해결책→추가 조건의 논리적 구조.",
     "wrong_explanations": {
       "1": "(A)-(C)-(B)는 'Moreover'와 'Therefore'의 논리적 순서가 역순",
@@ -754,7 +754,7 @@ const QUESTION_BANK = [
       "④ (B)-(C)-(A)",
       "⑤ (C)-(A)-(B)"
     ],
-    "answer": 0,
+    "answer": 1,
     "explanation": "도입부에서 농업 적응의 필요성 제시. (A) 적응 방법과 전통 지식의 가치 설명. (B) 'However'로 현실의 장애물 제시. (C) 'Therefore'로 국제 협력의 필요성 결론. 긍정→현실 문제→해결책의 논리적 진행.",
     "wrong_explanations": {
       "1": "(A)-(C)-(B)는 'However'가 중간에 나와 흐름 단절",
@@ -778,7 +778,7 @@ const QUESTION_BANK = [
       "④ (C)-(A)-(B)",
       "⑤ (C)-(B)-(A)"
     ],
-    "answer": 0,
+    "answer": 1,
     "explanation": "도입부에서 열섬 현상 정의. (A) 'These elevated temperatures'로 부정적 결과(건강, 에너지) 설명. (B) 'Therefore'로 해결책 제시. (C) 'However'로 한계와 장기적 필요성 강조. 문제→결과→대책→현실적 한계의 구조.",
     "wrong_explanations": {
       "1": "(B)-(A)-(C)는 해결책이 문제 결과보다 먼저 나와 논리 역순",
@@ -802,7 +802,7 @@ const QUESTION_BANK = [
       "④ (C)-(B)-(A)",
       "⑤ (C)-(A)-(B)"
     ],
-    "answer": 0,
+    "answer": 1,
     "explanation": "도입부에서 인공 조명의 일주기 리듬 방해 제시. (A) 'This disruption'로 구체적 부정적 결과 설명. (B) 'Therefore'로 해결책 제시. (C) 'However'로 실행상 장애물 제시. 문제→해로움→대책→현실적 저항의 구조.",
     "wrong_explanations": {
       "1": "(A)-(C)-(B)는 'Therefore'와 'However'의 논리 순서 역순",
@@ -1232,7 +1232,7 @@ const QUESTION_BANK = [
       "④(B)-(C)-(A)",
       "⑤(C)-(A)-(B)"
     ],
-    "answer": 0,
+    "answer": 1,
     "explanation": "(A)는 보상 시스템의 구체적 사례를 제시, (B)는 감정적 연결의 중요성을 보여주는 또 다른 방법 제시, (C)는 두 가지 요소의 결합 효과를 결론짓는 구조. 'Beyond rewards'로 시작하는 (B)는 (A) 후 자연스럽게 추가 요소 도입.",
     "wrong_explanations": {
       "1": "(A)-(C)-(B): (C)의 '결합'이 (B)를 설명하기 전에 나와 논리 순서 위반",
@@ -1304,7 +1304,7 @@ const QUESTION_BANK = [
       "④(B)-(C)-(A)",
       "⑤(C)-(B)-(A)"
     ],
-    "answer": 0,
+    "answer": 1,
     "explanation": "(A)는 수메르 설형문자 사례, (B)는 이집트 상형문자 사례, (C)는 두 체계의 비교 분석과 결론. 'Comparing these systems'로 (C)가 명확한 비교 구조 도입.",
     "wrong_explanations": {
       "1": "(A)-(C)-(B): (C)에서 비교를 시도하지만 (B) 정보 부재로 불완전",
@@ -1328,7 +1328,7 @@ const QUESTION_BANK = [
       "④(C)-(A)-(B)",
       "⑤(C)-(B)-(A)"
     ],
-    "answer": 0,
+    "answer": 1,
     "explanation": "(A)는 청색광의 영향 설명, (B)는 영양 결핍의 역할 설명, (C)는 종합적 접근의 필요성을 결론짓는 구조. 'multiple causes'로 (C)가 (A)와 (B)의 복합성을 통합.",
     "wrong_explanations": {
       "1": "(A)-(C)-(B): (C)의 결론 후 (B)가 나오면 추가 증거 제시 순서 위반",
@@ -1352,7 +1352,7 @@ const QUESTION_BANK = [
       "④ abstract",
       "⑤ hypothetical"
     ],
-    "answer": 0,
+    "answer": 1,
     "explanation": "과학적 방법은 제어된 실험을 통해 가설을 검증하는 것을 강조하므로, 과학이 조사할 수 있는 현상은 '관찰 가능한(observable)'이어야 한다. 뒤에 'measurable'과 함께 나오는 표현으로 보아, 과학적 탐구의 대상이 되려면 관찰 가능해야 한다는 의미가 가장 자연스럽다.",
     "wrong_explanations": {
       "②": "이론적(theoretical)이라는 표현은 문맥상 부적절하다. 과학은 이론적 현상뿐만 아니라 실제 관찰 가능한 현상을 다룬다.",
@@ -1376,7 +1376,7 @@ const QUESTION_BANK = [
       "④ hide",
       "⑤ prevent"
     ],
-    "answer": 0,
+    "answer": 1,
     "explanation": "성공한 기업가들의 특징이 실패를 '수용하고 받아들이는(embrace)' 것이라는 의미이다. 뒤에 '소중한 학습의 기회'라는 표현과 'setbacks'을 'catalyst for growth'로 본다는 점에서 embrace가 가장 적절하다.",
     "wrong_explanations": {
       "②": "무시하다(ignore)는 의미로는 나머지 문맥(배우고, 개선하고)과 모순된다.",
@@ -1400,7 +1400,7 @@ const QUESTION_BANK = [
       "④ strengthen",
       "⑤ document"
     ],
-    "answer": 0,
+    "answer": 1,
     "explanation": "'거짓된 정보가 공중 의견을 왜곡하고 의사결정에 영향을 미칠 수 있다'는 의미이므로 'distort(왜곡하다)'가 정답이다. misinformation과 misleading information이 공중 의견에 부정적 영향을 미친다는 문맥에서 distort가 가장 적절하다.",
     "wrong_explanations": {
       "②": "명확히 하다(clarify)는 거짓 정보의 영향을 설명하는 문맥과 맞지 않는다.",
@@ -1424,7 +1424,7 @@ const QUESTION_BANK = [
       "④ limited",
       "⑤ gradual"
     ],
-    "answer": 0,
+    "answer": 1,
     "explanation": "문맥에서 개인적 노력만으로는 부족하며, 정부와 국제 협력이 필요하다는 점을 고려할 때, '조정된, 협력적인(coordinated)' 행동이 필요하다는 의미가 가장 적절하다. 마지막 문장의 'coordinated and sustained efforts'에서도 같은 단어가 반복되어 답이 확실하다.",
     "wrong_explanations": {
       "②": "임시적인(temporary)은 지속적인 노력이 필요하다는 점과 맞지 않는다.",
@@ -1450,7 +1450,7 @@ const QUESTION_BANK = [
       "④ express",
       "⑤ avoid"
     ],
-    "answer": 0,
+    "answer": 1,
     "explanation": "'자신과 타인의 감정을 효과적으로 조절(regulate)하는 능력'이 문맥상 가장 자연스럽다. 감정 지능의 정의(인식하고, 이해하고, 관리하기)와 그 결과(효과적인 소통, 관계 형성)를 연결하는 표현으로 regulate가 적절하다.",
     "wrong_explanations": {
       "②": "억압하다(suppress)는 감정을 관리한다는 의미보다 부정적이며, 효과적인 리더십과 관계 형성과 맞지 않는다.",
@@ -1476,7 +1476,7 @@ const QUESTION_BANK = [
       "④theoretically",
       "⑤incidentally"
     ],
-    "answer": 0,
+    "answer": 1,
     "explanation": "문맥상 과학적 방법이 추측과 신화에 대한 의존을 '점진적으로(gradually)' 대체했음을 나타낸다. 과학 혁명은 한순간에 일어난 것이 아니라 시간에 걸쳐 천천히 진행된 과정이므로 'gradually'가 가장 적절하다.",
     "wrong_explanations": {
       "①reluctantly": "마지못해, 꺼려하며라는 뜻으로 맥락에 맞지 않음",
@@ -1528,7 +1528,7 @@ const QUESTION_BANK = [
       "④reflects",
       "⑤supports"
     ],
-    "answer": 0,
+    "answer": 1,
     "explanation": "문맥상 무행동의 비용이 예방적 조치의 비용을 '초과한다(exceeds)'. 다음 문장들에서 환경 훼손으로 인한 높은 대가들을 구체적으로 설명하므로 exceeds가 정답이다.",
     "wrong_explanations": {
       "②matches": "일치한다는 뜻으로 비용 비교에서 차이를 강조하지 못함",
@@ -1850,7 +1850,7 @@ const QUESTION_BANK = [
       "④(C)-(A)-(B)",
       "⑤(C)-(B)-(A)"
     ],
-    "answer": 0,
+    "answer": 1,
     "explanation": "도입부에서 뇌가 왜 많은 에너지를 소비하는지의 의문 제기. (A)는 신경망 유지에 지속적 에너지가 필요하다는 과학적 설명으로 질문에 직접 답변. (B)는 흥미로운 발견으로 뇌 에너지 소비의 특성을 추가 설명. (C)는 이러한 지식의 의료적 응용으로 결론.",
     "wrong_explanations": {
       "②": "(B)의 예상 밖의 발견이 (A)의 기본 설명보다 먼저 나오면 혼란스러움",
@@ -1876,7 +1876,7 @@ const QUESTION_BANK = [
       "④(B)-(C)-(A)",
       "⑤(C)-(B)-(A)"
     ],
-    "answer": 0,
+    "answer": 1,
     "explanation": "도입부에서 AI의 현실화와 신중한 대처 필요성 제시. (A)는 AI의 긍정적 사례와 잠재력을 보여줌. (B)는 그 반대편 우려사항과 문제점을 제시하는 균형잡힌 논의. (C)는 양쪽 입장을 고려한 해결책 제시로 결론.",
     "wrong_explanations": {
       "②": "문제점을 먼저 제시하고 장점을 설명하면 부정적 편향이 생김",
@@ -1928,7 +1928,7 @@ const QUESTION_BANK = [
       "④(B)-(C)-(A)",
       "⑤(C)-(B)-(A)"
     ],
-    "answer": 0,
+    "answer": 1,
     "explanation": "도입부에서 신재생에너지 전환의 필요성을 제시합니다. (A)는 재생에너지의 경제성과 비용 감소를 긍정적 근거로 제시하고, (B)는 이러한 장점에도 불구하고 남아있는 과제들을 설명합니다. (C)는 구체적 성공 사례를 제시하며 희망적인 결론을 제공합니다. 긍정적 측면→도전 과제→성공 사례 순서가 자연스럽습니다.",
     "wrong_explanations": {
       "1": "(A)-(C)-(B)는 성공 사례 후에 문제점을 제시하므로 결론 부분의 희망성이 훼손됩니다.",
@@ -2101,7 +2101,7 @@ const QUESTION_BANK = [
       "④Interestingly, wealthy nations tend to have less social mobility than developing countries.",
       "⑤As a result, consumer spending increases significantly in unequal societies."
     ],
-    "answer": 0,
+    "answer": 1,
     "explanation": "지문의 논리적 흐름을 보면, 앞 문장에서 '높은 불평등 사회에서는 세대 간 이동성이 낮다'는 것을 설명하고, 뒷 문장에서 '정책입안자들은 경제 인센티브와 사회복지의 균형을 맞춰야 한다'고 제시합니다. 따라서 빈칸에는 '불리한 집단이 빈곤에 갇히는 악순환이 생긴다'는 내용이 와야 인과관계를 유지하면서 자연스럽게 정책의 필요성으로 이어집니다.",
     "wrong_explanations": {
       "①": "정답",
@@ -2279,7 +2279,7 @@ const QUESTION_BANK = [
       "④relying on intuition rather than analytical thinking",
       "⑤minimizing the total amount of available resources"
     ],
-    "answer": 0,
+    "answer": 1,
     "explanation": "지문의 주제는 기회비용의 개념과 그것을 이해하는 것의 중요성입니다. 지문에서 '사람들은 명시적 비용에만 집중하고 암묵적 비용을 무시한다'고 언급하며, 이것이 최적이 아닌 결정으로 이어진다고 설명합니다. 빈칸은 '이해하는 것이 더 합리적이고 효율적인 결정을 가능하게 한다'는 내용 앞에 위치합니다. 따라서 정답은 '모든 대안과 그 관련 가치를 인식하는 것(①recognizing all alternatives and their associated values)'으로, 이는 기회비용을 완전히 이해하는 핵심입니다.",
     "_type": "blank",
     "given_sentence": null,
@@ -2716,7 +2716,7 @@ const QUESTION_BANK = [
       "④is primarily useful for memorizing abstract concepts",
       "⑤depends exclusively on individual genetic factors"
     ],
-    "answer": 0,
+    "answer": 1,
     "explanation": "지문은 자연적 기억(natural memory)과 인공적 기억(artificial memory)의 차이를 설명합니다. 자연적 기억은 타고난 것이고 본능적으로 사용되는 반면, 인공적 기억은 이와 대조적으로(in contrast) 학습과 연습을 통해 훈련되고 발전되어야 한다고 명시되어 있습니다. 따라서 정답은 ①'의도적인 훈련과 연습을 통해 발전되어야 한다'입니다.",
     "wrong_explanations": {
       "②": "지문에서 인공적 기억은 '의식적으로 개발되어야 한다'고 했으므로, 무의식적 노력과는 무관합니다.",
@@ -3637,7 +3637,7 @@ const QUESTION_BANK = [
       "④training",
       "⑤being replaced"
     ],
-    "answer": 0,
+    "answer": 1,
     "explanation": "정답은 ①번입니다. 'is revolutionizing' → 'are revolutionizing'이 올바른 표현입니다. 주어 'Artificial intelligence systems'는 복수형이므로 동사도 복수형 'are'를 사용해야 합니다. ②'adopt'는 관계절의 동사로 복수주어 'Companies'와 일치하므로 올바르고, ③'underlying'은 현재분사로 형용사 역할을 하며 올바릅니다. ④'training'은 전치사 'for' 뒤의 동명사로 올바르고, ⑤'being replaced'는 'worried about ~ing' 형태로 동명사 사용이 올바릅니다.",
     "wrong_explanations": {},
     "_type": "grammar",
@@ -3799,7 +3799,7 @@ const QUESTION_BANK = [
       "④curious and excited",
       "⑤anxious and overwhelmed"
     ],
-    "answer": 0,
+    "answer": 1,
     "explanation": "화자가 할머니의 유품인 낡은 바이올린을 통해 죽은 할아버지와 할머니의 추억들을 마주하게 된다. \"잃어버렸다고 생각한 과거로의 다리\"라는 표현에서 과거를 그리워하면서도 슬픈 감정(향수와 우수)이 드러난다. 할머니의 속삭임과 악기를 살리고자 하는 마음이 화자에게 전해지면서 감정적으로 깊이 있는 상태이다.",
     "_type": "mood",
     "given_sentence": null,
@@ -3856,7 +3856,7 @@ const QUESTION_BANK = [
       "④impatient and irritable",
       "⑤confused and lost"
     ],
-    "answer": 0,
+    "answer": 1,
     "explanation": "화자가 아버지와 나눈 시간을 후회하고 있으며(\"regretted the words we never said\"), 눈물을 흘리는 모습에서 깊은 슬픔과 미안함이 드러난다. 죽음 앞에서의 후회와 그리움, 그리고 심장이 아픈 감정(heartbroken)이 명확히 나타난다.",
     "_type": "mood",
     "given_sentence": null,
@@ -4115,7 +4115,7 @@ const QUESTION_BANK = [
       "④(A) complicated - (B) supported",
       "⑤(A) prevented - (B) guaranteed"
     ],
-    "answer": 0,
+    "answer": 1,
     "explanation": "지문의 핵심: 문자 체계는 구전보다 지식 보존과 전달에 있어 인류의 능력을 향상시켰으나(enhanced), 디지털 구술 및 시각 매체의 등장으로 인해 이러한 이점이 도전받고 있음(challenged). 문맥상 이 둘의 대비 관계가 명확하므로 ①이 정답이다.",
     "wrong_explanations": {
       "1": "limited와 strengthened는 문맥상 맞지 않음. 글에서 문자 체계가 지식 보존 능력을 제한했다고 하지 않음.",
@@ -4139,7 +4139,7 @@ const QUESTION_BANK = [
       "④(A) fictional - (B) forced",
       "⑤(A) questionable - (B) allowed"
     ],
-    "answer": 0,
+    "answer": 1,
     "explanation": "지문의 요점: 온라인 쇼핑의 명백한(undeniable) 이점에도 불구하고, 과도한 선택지와 인간관계 부족의 심리적 단점이 소매업자들로 하여금(prompted) 온오프라인 경험을 통합하도록 이끌었다는 뜻. ①이 정답이다.",
     "wrong_explanations": {
       "1": "minimal은 '최소한의'로, 글에서 언급한 온라인 쇼핑의 많은 이점과 맞지 않음.",
@@ -4186,7 +4186,7 @@ const QUESTION_BANK = [
       "④ rely entirely on what other people tell us about events",
       "⑤ maintain perfect accuracy of all sensory information"
     ],
-    "answer": 0,
+    "answer": 1,
     "explanation": "지문은 기억이 '재구성 과정(reconstructive process)'임을 핵심 주장으로 제시합니다. 첫 문장에서 '완벽한 기록장치가 아니라'고 부정하고, 'actively assembles information'이라고 설명합니다. 빈칸 앞의 'we don't retrieve a fixed file; instead, we'는 대조 구조로, 기억이 '고정된 파일이 아니라 능동적으로 구성된다'는 의미를 완성해야 합니다. ①번 'recreate the memory using patterns and schemas'는 '기존 지식(existing knowledge)을 활용해 기억을 재창조한다'는 지문의 핵심을 정확히 환언합니다. ②는 'permanently store'로 재구성 개념에 모순, ③④⑤는 지문과 무관한 오답입니다.",
     "_type": "blank",
     "given_sentence": null,
@@ -4837,7 +4837,7 @@ const QUESTION_BANK = [
       "④위성 기술이 모든 기상 현상을 완벽히 예측할 수 있음을 증명하기",
       "⑤대기 혼돈 이론이 수학적으로 어떻게 작동하는지 분석하기"
     ],
-    "answer": 0,
+    "answer": 1,
     "explanation": "지문은 기상 예보 정확도의 향상 사례를 먼저 제시한 후(첫 문장~3문장), However로 반전하여 예보의 한계를 설명(4~5문장)하고, 이러한 한계가 발생하는 근본적 원인을 제시한다. 따라서 글의 목적은 기상 예보 정확도 향상과 그 한계를 함께 설명하는 것이다.",
     "_type": "purpose",
     "given_sentence": null,
@@ -4942,7 +4942,7 @@ const QUESTION_BANK = [
       "④나약함의 자책 vs 기회 포착의 깨달음",
       "⑤완벽주의의 집착 vs 결과 지향의 성취감"
     ],
-    "answer": 0,
+    "answer": 1,
     "explanation": "감독은 처음에 극장 개봉이 무산되어 크게 실망합니다(계획 실패의 좌절). 그러나 스트리밍을 통해 전 세계적 영향력을 얻으면서 스스로의 좌절감이 편견이었음을 깨닫습니다. 초기 disappointment는 궁극적으로 예상 밖의 성공과 더 큰 의미 발견의 감동으로 전환됩니다. '초기 실망이 더 큰 가능성을 보지 못하게 했다'는 자각이 핵심입니다.",
     "_type": "mood",
     "given_sentence": null,
@@ -4963,7 +4963,7 @@ const QUESTION_BANK = [
       "개인 정보 보호는 기술 혁신보다 덜 중요하므로 현재 수준의 데이터 수집을 계속 허용해야 한다.",
       "AI 기술이 가져오는 편의성 때문에 개인정보 침해 위험은 수용 가능한 수준이다."
     ],
-    "answer": 0,
+    "answer": 1,
     "explanation": "필자는 마지막에 'governments must establish strict regulations requiring explicit user consent before data collection'과 'companies should be held legally accountable for breaches'를 주장하며, 'Only through comprehensive legislative frameworks can society balance technological innovation with fundamental human rights protection'으로 결론짓습니다. 따라서 정답은 명시적 동의 요구와 법적 책임 부과를 포함한 규제 수립이라는 정책 제안(①)입니다.",
     "_type": "claim",
     "given_sentence": null,
@@ -5090,7 +5090,7 @@ const QUESTION_BANK = [
       "④(A) time synchronization - (B) device battery capacity",
       "⑤(A) user location changes - (B) satellite launch schedules"
     ],
-    "answer": 0,
+    "answer": 1,
     "explanation": "본문에서 GPS의 정확도를 저해하는 요소로 'atmospheric conditions and signal obstruction'(대기 조건과 신호 방해)을 명시했고, 'satellite geometry'도 신뢰성에 영향을 준다고 설명했다. ①번이 이러한 제약 요소들을 종합적으로 반영한다. ②번은 본문에 직접 언급되지 않은 내용이고, ③번은 과거 기술에 대한 언급이며, ④번과 ⑤번은 본문의 주요 내용과 무관하다.",
     "_type": "summary",
     "wrong_explanations": {},
@@ -5111,7 +5111,7 @@ const QUESTION_BANK = [
       "④(A) water availability alone - (B) thylakoid membrane thickness",
       "⑤(A) plant species type - (B) light wavelength selection"
     ],
-    "answer": 0,
+    "answer": 1,
     "explanation": "본문에서 광합성 효율성을 결정하는 요소로 'light intensity, temperature, and CO₂ concentration'(환경 요소들)을 언급했고, 극한 환경 적응 방법으로 'C4 and CAM photosynthesis'와 같은 대안적 경로를 소개했다. ①번이 이 두 핵심 내용을 정확히 요약한다. ②번은 전자 이동만을 강조하고, ③번은 부산물에 초점을 맞추며, ④⑤번은 본문의 주요 논점과 맞지 않다.",
     "_type": "summary",
     "wrong_explanations": {},
@@ -5131,7 +5131,7 @@ const QUESTION_BANK = [
       "④ 과거의 사건들을 정확하게 기억하는 것은 인간의 뇌에서 가능한 일이다.",
       "⑤ 새로운 정보를 학습하면 이전의 모든 기억이 자동으로 삭제된다."
     ],
-    "answer": 0,
+    "answer": 1,
     "explanation": "지문의 핵심은 기억이 비디오 녹화처럼 정확한 저장 방식이 아니라, 회상할 때마다 현재의 신념, 감정, 새로운 정보에 의해 영향을 받으며 능동적으로 재구성된다는 것입니다. ①번이 이를 정확히 표현합니다.",
     "wrong_explanations": {
       "②": "지문은 증언이 항상 신뢰할 수 없다고 주장하지 않고, 기억의 가변성이 법적 함의를 가진다고 말합니다.",
@@ -5157,7 +5157,7 @@ const QUESTION_BANK = [
       "④ 미루기 습관이 있는 사람들은 자신의 행동이 해롭다는 것을 모르고 있다.",
       "⑤ 어려운 작업을 할 때 부정적인 감정을 느끼는 것은 정상적인 현상이 아니다."
     ],
-    "answer": 0,
+    "answer": 1,
     "explanation": "지문의 주요 주장은 미루기가 일반적으로 생각되는 시간 관리 문제나 게으름이 아니라, 어려운 작업에서 발생하는 부정적 감정을 회피하려는 감정 조절 문제라는 것입니다. ①번이 이를 정확히 나타냅니다.",
     "wrong_explanations": {
       "②": "지문은 미루기가 특정 성격 유형에 국한된다고 하지 않습니다.",
@@ -5183,7 +5183,7 @@ const QUESTION_BANK = [
       "④ 업무 중에 개인 일을 처리하면 죄책감을 느껴야 한다.",
       "⑤ 일-삶의 균형 개념은 이미 폐기되었고 더 이상 사용되지 않는다."
     ],
-    "answer": 0,
+    "answer": 1,
     "explanation": "지문의 핵심은 '일-삶의 균형(balance)' 개념의 문제점을 지적하고, 더 나은 대안으로 '일-삶의 통합(integration)'을 제시하는 것입니다. 통합은 상황에 맞게 유연하게 일과 개인 생활을 함께 관리하는 방식입니다.",
     "wrong_explanations": {
       "②": "지문은 완벽한 균형이 비현실적이며 해로울 수 있다고 주장합니다.",
@@ -5209,7 +5209,7 @@ const QUESTION_BANK = [
       "④ 많은 책을 읽는 것보다 깊이 있는 한 분야의 공부가 창의성 발달에 필수적이다.",
       "⑤ 창의적 돌파구는 가장 열심히 일할 때 얻어진다."
     ],
-    "answer": 0,
+    "answer": 1,
     "explanation": "지문의 주요 메시지는 창의성이 선천적 재능이 아니라 뇌 신경경로를 강화하는 다양한 경험, 읽기, 다양한 활동, 그리고 적절한 휴식을 통해 누구나 개발할 수 있는 기술이라는 것입니다.",
     "wrong_explanations": {
       "②": "지문은 창의적 아이디어가 휴식 시간에 나온다고 했으므로 항상 집중해야 한다는 주장과 모순됩니다.",
@@ -5235,7 +5235,7 @@ const QUESTION_BANK = [
       "④ 멀티태스킹을 잘하는 사람들은 인지 작업에서 더 높은 성과를 낸다.",
       "⑤ 작업 전환은 뇌에 거의 비용을 들지 않는다."
     ],
-    "answer": 0,
+    "answer": 1,
     "explanation": "지문의 핵심 주장은 멀티태스킹이 작업 전환(task-switching)으로 인한 인지적 비용(각 전환마다 주의 재설정과 정보 재로드에 필요한 시간과 정신 에너지)으로 인해 실제로는 생산성을 감소시킨다는 것입니다. ①번이 정확히 표현합니다.",
     "wrong_explanations": {
       "②": "지문은 멀티태스킹이 생산성을 감소시킨다고 명확히 주장합니다.",
@@ -5261,7 +5261,7 @@ const QUESTION_BANK = [
       "④온라인 연결의 수는 면대면 상호작용의 깊이와 정비례한다.",
       "⑤현대인들이 휴대폰 사용을 줄여야 하는 이유를 설명한다."
     ],
-    "answer": 0,
+    "answer": 1,
     "explanation": "지문은 통신 기술이 증가했음에도 불구하고 대면 상호작용의 질이 감소하고 진정한 인간관계가 약해지는 역설적 상황을 설명하고 있습니다. ①이 이를 정확히 요약합니다.",
     "wrong_explanations": {
       "1": "②는 지문에서 명시되지 않은 주장이며, 지문은 '많은 사람들이 더 고립감을 느낀다'고만 언급합니다.",
@@ -5287,7 +5287,7 @@ const QUESTION_BANK = [
       "④도시 정원은 신선한 농산물을 공급하는 유일한 방법이다.",
       "⑤도시의 높은 인구 밀도로 인해 농업은 불가능하다는 통설을 깬다."
     ],
-    "answer": 0,
+    "answer": 1,
     "explanation": "지문은 도시 농업이 영양 공급뿐만 아니라 탄소 배출 감소, 지역사회 강화, 심리 건강 개선 등 여러 문제를 해결할 수 있는 종합적 해결책임을 강조합니다. ①이 이를 가장 잘 요약합니다.",
     "wrong_explanations": {
       "1": "②는 지문에서 비용 효율성을 직접 비교하지 않습니다. 지문은 운송 비용 감소만 언급합니다.",
@@ -5313,7 +5313,7 @@ const QUESTION_BANK = [
       "④음모론은 패턴 인식 능력이 뛰어난 사람들이 주로 믿는다.",
       "⑤통계학자들은 모든 패턴을 의미 있는 것으로 간주한다."
     ],
-    "answer": 0,
+    "answer": 1,
     "explanation": "지문은 패턴 인식의 유용성을 인정하면서도 비존재하는 패턴(apophenia)을 보는 위험성을 강조하고, 비판적 검증의 필요성을 주장합니다. ①이 이를 정확히 요약합니다.",
     "wrong_explanations": {
       "1": "②는 부정확합니다. 지문은 패턴 인식이 문제를 초래할 수 있다고 명시합니다.",
@@ -5339,7 +5339,7 @@ const QUESTION_BANK = [
       "④뇌의 기억 통합은 지루함 없이도 충분히 발생한다.",
       "⑤디지털 자극은 인간의 인지 능력을 완전히 향상시킨다."
     ],
-    "answer": 0,
+    "answer": 1,
     "explanation": "지문의 핵심은 지루함이 단순히 부정적인 감정이 아니라 창의성, 상상력, 신경망 발달에 필수적이라는 것입니다. ①이 이를 정확히 표현합니다.",
     "wrong_explanations": {
       "1": "②는 지문의 주장과 정반대입니다. 지문은 끊임없는 자극이 창의성을 해친다고 명시합니다.",
@@ -5365,7 +5365,7 @@ const QUESTION_BANK = [
       "④(C)-(A)-(B)",
       "⑤(C)-(B)-(A)"
     ],
-    "answer": 0,
+    "answer": 1,
     "explanation": "올바른 순서는 (A)-(C)-(B)입니다. 도입부에서 이득과 위험을 언급한 후, (A)에서 구체적 이득(의료 분야)을 제시합니다. (C)는 비판적 관점의 위험성을 제시하고, (B)는 지지자들의 반박으로 논의를 종합하며 마무리합니다.",
     "wrong_explanations": {
       "1": "(B)-(A)-(C): 지지자의 주장으로 시작하여 증거와 비판이 뒤따르는 부자연스러운 순서",
@@ -5391,7 +5391,7 @@ const QUESTION_BANK = [
       "④(C)-(A)-(B)",
       "⑤(C)-(B)-(A)"
     ],
-    "answer": 0,
+    "answer": 1,
     "explanation": "올바른 순서는 (A)-(C)-(B)입니다. 도입부 이후 (A)는 인쇄기 이전의 상황을 설명하고, (C)는 구텐베르크의 발명으로 상황이 어떻게 변했는지 보여줍니다. (B)는 그 결과로서 지식의 민주화와 그 사회적 영향을 설명하며 마무리합니다.",
     "wrong_explanations": {
       "1": "(B)-(A)-(C): 결과부터 제시하고 원인과 변화를 뒤에 배치한 역순",
@@ -5443,7 +5443,7 @@ const QUESTION_BANK = [
       "④(C)-(A)-(B)",
       "⑤(C)-(B)-(A)"
     ],
-    "answer": 0,
+    "answer": 1,
     "explanation": "도입부에서 세계화 속 문화 정체성의 변화를 제시합니다. (A)는 구체적인 현상인 '혼합 정체성'을 설명하고 예시를 제공합니다. (B)는 이러한 변화에 대한 우려와 의문점을 제기합니다. (C)는 이러한 우려에 대한 반박과 긍정적 관점을 제시하며 결론지습니다. 따라서 정답은 ①(A)-(C)-(B)입니다.",
     "wrong_explanations": {
       "①": "구체적 현상 → 우려점 → 긍정적 관점으로 진행되어야 합니다.",
@@ -5624,7 +5624,7 @@ const QUESTION_BANK = [
       "④ prioritize factual evidence over subjective impressions",
       "⑤ separate physical appearance from professional competence"
     ],
-    "answer": 0,
+    "answer": 1,
     "explanation": "지문은 인지 편향으로서 할로 효과가 어떻게 작동하는지 설명합니다. '인지 효율성을 추구하기 때문에'라는 앞 문장에서 '각 속성을 독립적으로 신중히 평가하는 대신' 이어지는 빈칸에는 인간이 한 특성에서 다른 특성으로 일반화함으로써 어떻게 행동하는지를 묘사해야 합니다. ①번이 '인지적 지름길을 취함으로써 우리의 인식을 과도하게 단순화한다'는 의미로, 효율성 추구와 일반화 과정을 정확히 설명합니다.",
     "wrong_explanations": {
       "1": "②는 '체계적 접근'을 제시하는데, 지문은 오히려 체계성 없이 일반화하는 경향을 비판합니다.",
@@ -5754,7 +5754,7 @@ const QUESTION_BANK = [
       "④the endowment effect is more pronounced in cultures with stronger property rights protections",
       "⑤loss aversion is primarily a biological adaptation that enhances survival in uncertain environments"
     ],
-    "answer": 0,
+    "answer": 1,
     "explanation": "지문의 논리 흐름을 보면, '경제학자들은 손실회피로 설명한다'는 주장 다음에 'However(그러나) 비판자들은 주장한다'는 대조 표현이 나온다. 빈칸은 비판자들의 반박 주장이 들어가야 하므로, 손실회피로는 설명할 수 없는 측면이 있다는 의미의 ①번이 정답이다. 뒤의 문장 '효과는 비이성적 애착을 드러낸다'와도 논리적으로 연결된다.",
     "wrong_explanations": {
       "1": "정보 충분성에 대한 언급은 지문에서 제시되지 않으며, 비판의 핵심과 무관하다.",
