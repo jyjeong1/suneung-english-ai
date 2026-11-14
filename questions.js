@@ -3096,5 +3096,3405 @@ const QUESTION_BANK = [
     "explanation": "필자는 새 방안의 규모·신기함보다 이용자 요구와 실제 결과를 평가해야 한다고 주장합니다.",
     "wrong_explanations": {},
     "_reviewed": false
+  },
+  {
+    "_qid": "R-0320",
+    "type": "빈칸 추론",
+    "passage": "A coastal town replaced a concrete sea wall with a restored marsh. During storms, reeds slowed waves while saturated ground stored excess water. The project succeeded without trying to resist every natural force. The central lesson is that lasting success may depend on __________ rather than relying exclusively on taller barriers.",
+    "given_sentence": "",
+    "choices": [
+      "① relying exclusively on taller barriers",
+      "② working with ecological processes",
+      "③ removing all uncertainty from complex decisions",
+      "④ assuming that the first interpretation is always correct",
+      "⑤ pursuing immediate gains regardless of future effects"
+    ],
+    "answer": 2,
+    "explanation": "지문에 제시된 관찰과 결과가 working with ecological processes의 중요성을 보여 줍니다. 다른 선택지는 근거가 없거나 지문의 대조 관계에 어긋납니다.",
+    "wrong_explanations": {},
+    "_reviewed": false
+  },
+  {
+    "_qid": "R-0321",
+    "type": "빈칸 추론",
+    "passage": "A historian compared accounts of the same protest written by organizers, police, and nearby shopkeepers. Each record included useful facts but emphasized different events. She found that combining sources revealed details no single account contained. The central lesson is that lasting success may depend on __________ rather than treating one testimony as complete.",
+    "given_sentence": "",
+    "choices": [
+      "① treating one testimony as complete",
+      "② removing all uncertainty from complex decisions",
+      "③ assuming that the first interpretation is always correct",
+      "④ pursuing immediate gains regardless of future effects",
+      "⑤ comparing partial perspectives"
+    ],
+    "answer": 5,
+    "explanation": "지문에 제시된 관찰과 결과가 comparing partial perspectives의 중요성을 보여 줍니다. 다른 선택지는 근거가 없거나 지문의 대조 관계에 어긋납니다.",
+    "wrong_explanations": {},
+    "_reviewed": false
+  },
+  {
+    "_qid": "R-0322",
+    "type": "빈칸 추론",
+    "passage": "A laboratory introduced an instrument that measured air pollution every minute. The flood of measurements did not by itself tell researchers why concentrations rose at dawn. They still needed models of traffic and wind. Yet the visible outcome alone does not explain why the intervention worked. The central lesson is that lasting success may depend on __________ rather than collecting measurements without explanation.",
+    "given_sentence": "",
+    "choices": [
+      "① collecting measurements without explanation",
+      "② removing all uncertainty from complex decisions",
+      "③ interpreting data within a causal framework",
+      "④ assuming that the first interpretation is always correct",
+      "⑤ pursuing immediate gains regardless of future effects"
+    ],
+    "answer": 3,
+    "explanation": "지문에 제시된 관찰과 결과가 interpreting data within a causal framework의 중요성을 보여 줍니다. 다른 선택지는 근거가 없거나 지문의 대조 관계에 어긋납니다.",
+    "wrong_explanations": {},
+    "_reviewed": false
+  },
+  {
+    "_qid": "R-0323",
+    "type": "빈칸 추론",
+    "passage": "A school allowed students to choose among equally demanding projects. Attendance improved because pupils could connect tasks to their interests, although deadlines and standards remained firm. The central lesson is that lasting success may depend on __________ rather than freedom from any academic requirements.",
+    "given_sentence": "",
+    "choices": [
+      "① autonomy within clear expectations",
+      "② freedom from any academic requirements",
+      "③ removing all uncertainty from complex decisions",
+      "④ assuming that the first interpretation is always correct",
+      "⑤ pursuing immediate gains regardless of future effects"
+    ],
+    "answer": 1,
+    "explanation": "지문에 제시된 관찰과 결과가 autonomy within clear expectations의 중요성을 보여 줍니다. 다른 선택지는 근거가 없거나 지문의 대조 관계에 어긋납니다.",
+    "wrong_explanations": {},
+    "_reviewed": false
+  },
+  {
+    "_qid": "R-0324",
+    "type": "빈칸 추론",
+    "passage": "At a crowded museum, curators removed half the objects from a gallery and gave the remaining works more space. Visitors recalled more details afterward, despite seeing fewer exhibits. Yet the visible outcome alone does not explain why the intervention worked. The central lesson is that lasting success may depend on __________ rather than maximizing the number of objects.",
+    "given_sentence": "",
+    "choices": [
+      "① maximizing the number of objects",
+      "② removing all uncertainty from complex decisions",
+      "③ assuming that the first interpretation is always correct",
+      "④ selective attention rather than sheer quantity",
+      "⑤ pursuing immediate gains regardless of future effects"
+    ],
+    "answer": 4,
+    "explanation": "지문에 제시된 관찰과 결과가 selective attention rather than sheer quantity의 중요성을 보여 줍니다. 다른 선택지는 근거가 없거나 지문의 대조 관계에 어긋납니다.",
+    "wrong_explanations": {},
+    "_reviewed": false
+  },
+  {
+    "_qid": "R-0325",
+    "type": "빈칸 추론",
+    "passage": "Two hospitals shared anonymized records to detect rare side effects. Neither institution possessed enough cases to identify the pattern alone, but together they could examine it responsibly. The central lesson is that lasting success may depend on __________ rather than isolating every institution’s evidence.",
+    "given_sentence": "",
+    "choices": [
+      "① isolating every institution’s evidence",
+      "② cooperation across limited datasets",
+      "③ removing all uncertainty from complex decisions",
+      "④ assuming that the first interpretation is always correct",
+      "⑤ pursuing immediate gains regardless of future effects"
+    ],
+    "answer": 2,
+    "explanation": "지문에 제시된 관찰과 결과가 cooperation across limited datasets의 중요성을 보여 줍니다. 다른 선택지는 근거가 없거나 지문의 대조 관계에 어긋납니다.",
+    "wrong_explanations": {},
+    "_reviewed": false
+  },
+  {
+    "_qid": "R-0326",
+    "type": "빈칸 추론",
+    "passage": "A city expanded its bicycle network one disconnected lane at a time. Usage remained low until several lanes finally connected homes, stations, and shops. The value arose from the links among them. The central lesson is that lasting success may depend on __________ rather than the length of any one isolated lane.",
+    "given_sentence": "",
+    "choices": [
+      "① the length of any one isolated lane",
+      "② removing all uncertainty from complex decisions",
+      "③ assuming that the first interpretation is always correct",
+      "④ pursuing immediate gains regardless of future effects",
+      "⑤ network connectivity"
+    ],
+    "answer": 5,
+    "explanation": "지문에 제시된 관찰과 결과가 network connectivity의 중요성을 보여 줍니다. 다른 선택지는 근거가 없거나 지문의 대조 관계에 어긋납니다.",
+    "wrong_explanations": {},
+    "_reviewed": false
+  },
+  {
+    "_qid": "R-0327",
+    "type": "빈칸 추론",
+    "passage": "A photographer returned to the same hillside every month for twenty years. Her images made slow changes in vegetation visible that no single visit could reveal. Yet the visible outcome alone does not explain why the intervention worked. The central lesson is that lasting success may depend on __________ rather than a dramatic single snapshot.",
+    "given_sentence": "",
+    "choices": [
+      "① a dramatic single snapshot",
+      "② removing all uncertainty from complex decisions",
+      "③ long-term observation",
+      "④ assuming that the first interpretation is always correct",
+      "⑤ pursuing immediate gains regardless of future effects"
+    ],
+    "answer": 3,
+    "explanation": "지문에 제시된 관찰과 결과가 long-term observation의 중요성을 보여 줍니다. 다른 선택지는 근거가 없거나 지문의 대조 관계에 어긋납니다.",
+    "wrong_explanations": {},
+    "_reviewed": false
+  },
+  {
+    "_qid": "R-0328",
+    "type": "빈칸 추론",
+    "passage": "Workers in a factory were encouraged to report near misses even when nobody was hurt. Engineers identified recurring hazards and corrected them before accidents occurred. The central lesson is that lasting success may depend on __________ rather than waiting for major failures.",
+    "given_sentence": "",
+    "choices": [
+      "① learning from weak warning signals",
+      "② waiting for major failures",
+      "③ removing all uncertainty from complex decisions",
+      "④ assuming that the first interpretation is always correct",
+      "⑤ pursuing immediate gains regardless of future effects"
+    ],
+    "answer": 1,
+    "explanation": "지문에 제시된 관찰과 결과가 learning from weak warning signals의 중요성을 보여 줍니다. 다른 선택지는 근거가 없거나 지문의 대조 관계에 어긋납니다.",
+    "wrong_explanations": {},
+    "_reviewed": false
+  },
+  {
+    "_qid": "R-0329",
+    "type": "빈칸 추론",
+    "passage": "A community theater invited local residents to help design its performances. Their involvement drew audiences who had never attended traditional productions. Yet the visible outcome alone does not explain why the intervention worked. The central lesson is that lasting success may depend on __________ rather than exclusive control by professional curators.",
+    "given_sentence": "",
+    "choices": [
+      "① exclusive control by professional curators",
+      "② removing all uncertainty from complex decisions",
+      "③ assuming that the first interpretation is always correct",
+      "④ participation in cultural creation",
+      "⑤ pursuing immediate gains regardless of future effects"
+    ],
+    "answer": 4,
+    "explanation": "지문에 제시된 관찰과 결과가 participation in cultural creation의 중요성을 보여 줍니다. 다른 선택지는 근거가 없거나 지문의 대조 관계에 어긋납니다.",
+    "wrong_explanations": {},
+    "_reviewed": false
+  },
+  {
+    "_qid": "R-0330",
+    "type": "빈칸 추론",
+    "passage": "A nutrition researcher asked participants not just what they ate but when and with whom. The additional context explained why identical food plans produced different habits. The central lesson is that lasting success may depend on __________ rather than food composition alone.",
+    "given_sentence": "",
+    "choices": [
+      "① food composition alone",
+      "② the social context of behavior",
+      "③ removing all uncertainty from complex decisions",
+      "④ assuming that the first interpretation is always correct",
+      "⑤ pursuing immediate gains regardless of future effects"
+    ],
+    "answer": 2,
+    "explanation": "지문에 제시된 관찰과 결과가 the social context of behavior의 중요성을 보여 줍니다. 다른 선택지는 근거가 없거나 지문의 대조 관계에 어긋납니다.",
+    "wrong_explanations": {},
+    "_reviewed": false
+  },
+  {
+    "_qid": "R-0331",
+    "type": "빈칸 추론",
+    "passage": "An old bridge was repaired in phases so traffic could continue and engineers could monitor each intervention. The project favored adjustments informed by results over a single irreversible redesign. The central lesson is that lasting success may depend on __________ rather than one final plan fixed in advance.",
+    "given_sentence": "",
+    "choices": [
+      "① one final plan fixed in advance",
+      "② removing all uncertainty from complex decisions",
+      "③ assuming that the first interpretation is always correct",
+      "④ pursuing immediate gains regardless of future effects",
+      "⑤ adaptive decision-making"
+    ],
+    "answer": 5,
+    "explanation": "지문에 제시된 관찰과 결과가 adaptive decision-making의 중요성을 보여 줍니다. 다른 선택지는 근거가 없거나 지문의 대조 관계에 어긋납니다.",
+    "wrong_explanations": {},
+    "_reviewed": false
+  },
+  {
+    "_qid": "R-0332",
+    "type": "빈칸 추론",
+    "passage": "A translation app converted individual words accurately yet missed the humor of a conversation. The joke depended on shared history between the speakers, not dictionary meanings. Yet the visible outcome alone does not explain why the intervention worked. The central lesson is that lasting success may depend on __________ rather than word-for-word substitution.",
+    "given_sentence": "",
+    "choices": [
+      "① word-for-word substitution",
+      "② removing all uncertainty from complex decisions",
+      "③ cultural and conversational context",
+      "④ assuming that the first interpretation is always correct",
+      "⑤ pursuing immediate gains regardless of future effects"
+    ],
+    "answer": 3,
+    "explanation": "지문에 제시된 관찰과 결과가 cultural and conversational context의 중요성을 보여 줍니다. 다른 선택지는 근거가 없거나 지문의 대조 관계에 어긋납니다.",
+    "wrong_explanations": {},
+    "_reviewed": false
+  },
+  {
+    "_qid": "R-0333",
+    "type": "빈칸 추론",
+    "passage": "An orchard planted multiple apple varieties rather than one high-yield cultivar. One year a disease harmed the popular variety, but others continued producing. The central lesson is that lasting success may depend on __________ rather than uniformity as a guarantee of security.",
+    "given_sentence": "",
+    "choices": [
+      "① diversity as a form of resilience",
+      "② uniformity as a guarantee of security",
+      "③ removing all uncertainty from complex decisions",
+      "④ assuming that the first interpretation is always correct",
+      "⑤ pursuing immediate gains regardless of future effects"
+    ],
+    "answer": 1,
+    "explanation": "지문에 제시된 관찰과 결과가 diversity as a form of resilience의 중요성을 보여 줍니다. 다른 선택지는 근거가 없거나 지문의 대조 관계에 어긋납니다.",
+    "wrong_explanations": {},
+    "_reviewed": false
+  },
+  {
+    "_qid": "R-0334",
+    "type": "빈칸 추론",
+    "passage": "A university opened its astronomy archive to amateur volunteers. Thousands of people classified images and flagged unusual patterns that a small team had missed. Yet the visible outcome alone does not explain why the intervention worked. The central lesson is that lasting success may depend on __________ rather than limiting observation to a single expert.",
+    "given_sentence": "",
+    "choices": [
+      "① limiting observation to a single expert",
+      "② removing all uncertainty from complex decisions",
+      "③ assuming that the first interpretation is always correct",
+      "④ distributed contributions to discovery",
+      "⑤ pursuing immediate gains regardless of future effects"
+    ],
+    "answer": 4,
+    "explanation": "지문에 제시된 관찰과 결과가 distributed contributions to discovery의 중요성을 보여 줍니다. 다른 선택지는 근거가 없거나 지문의 대조 관계에 어긋납니다.",
+    "wrong_explanations": {},
+    "_reviewed": false
+  },
+  {
+    "_qid": "R-0335",
+    "type": "빈칸 추론",
+    "passage": "A city issued residents water-use charts comparing each household with similar neighbors. Consumption fell even though no new penalties were introduced. The central lesson is that lasting success may depend on __________ rather than punishment as the only source of motivation.",
+    "given_sentence": "",
+    "choices": [
+      "① punishment as the only source of motivation",
+      "② feedback that changes social expectations",
+      "③ removing all uncertainty from complex decisions",
+      "④ assuming that the first interpretation is always correct",
+      "⑤ pursuing immediate gains regardless of future effects"
+    ],
+    "answer": 2,
+    "explanation": "지문에 제시된 관찰과 결과가 feedback that changes social expectations의 중요성을 보여 줍니다. 다른 선택지는 근거가 없거나 지문의 대조 관계에 어긋납니다.",
+    "wrong_explanations": {},
+    "_reviewed": false
+  },
+  {
+    "_qid": "R-0336",
+    "type": "빈칸 추론",
+    "passage": "A designer interviewed people who struggled to use a ticket machine. Features engineers thought obvious proved confusing to visitors unfamiliar with the system. The central lesson is that lasting success may depend on __________ rather than treating technical expertise as sufficient.",
+    "given_sentence": "",
+    "choices": [
+      "① treating technical expertise as sufficient",
+      "② removing all uncertainty from complex decisions",
+      "③ assuming that the first interpretation is always correct",
+      "④ pursuing immediate gains regardless of future effects",
+      "⑤ testing assumptions against user experience"
+    ],
+    "answer": 5,
+    "explanation": "지문에 제시된 관찰과 결과가 testing assumptions against user experience의 중요성을 보여 줍니다. 다른 선택지는 근거가 없거나 지문의 대조 관계에 어긋납니다.",
+    "wrong_explanations": {},
+    "_reviewed": false
+  },
+  {
+    "_qid": "R-0337",
+    "type": "빈칸 추론",
+    "passage": "A river restoration team left fallen trees in selected channels. The wood created shelter for fish and slowed erosion, although it initially looked like untidiness. Yet the visible outcome alone does not explain why the intervention worked. The central lesson is that lasting success may depend on __________ rather than assuming orderly appearance ensures health.",
+    "given_sentence": "",
+    "choices": [
+      "① assuming orderly appearance ensures health",
+      "② removing all uncertainty from complex decisions",
+      "③ recognizing hidden ecological functions",
+      "④ assuming that the first interpretation is always correct",
+      "⑤ pursuing immediate gains regardless of future effects"
+    ],
+    "answer": 3,
+    "explanation": "지문에 제시된 관찰과 결과가 recognizing hidden ecological functions의 중요성을 보여 줍니다. 다른 선택지는 근거가 없거나 지문의 대조 관계에 어긋납니다.",
+    "wrong_explanations": {},
+    "_reviewed": false
+  },
+  {
+    "_qid": "R-0338",
+    "type": "문장 삽입",
+    "passage": "A neighborhood installed a public drinking fountain. (①) Residents initially complained about the cost. (②) After a hot summer, nearby shops reported fewer requests for bottled water. (③) The city then added fountains at two busy bus stops. (④) Maintenance teams published regular water-quality results. (⑤)",
+    "given_sentence": "The experience gradually changed how people understood the small investment.",
+    "choices": [
+      "① 2번 위치",
+      "② 1번 위치",
+      "③ 3번 위치",
+      "④ 4번 위치",
+      "⑤ 5번 위치"
+    ],
+    "answer": 1,
+    "explanation": "주어진 문장은 앞의 내용과 뒤의 내용을 연결하는 역할을 합니다. 2번 위치 전후의 원인·결과 또는 전환 관계를 확인해야 합니다.",
+    "wrong_explanations": {},
+    "_reviewed": false
+  },
+  {
+    "_qid": "R-0339",
+    "type": "문장 삽입",
+    "passage": "Researchers tested two materials for reusable packaging. (①) The lighter material was easier to transport. (②) However, it broke after only a few washing cycles. (③) The heavier container survived repeated cleaning. (④) The team calculated emissions over the entire life of each product. (⑤)",
+    "given_sentence": "A fair comparison therefore required looking beyond transportation alone.",
+    "choices": [
+      "① 1번 위치",
+      "② 2번 위치",
+      "③ 4번 위치",
+      "④ 3번 위치",
+      "⑤ 5번 위치"
+    ],
+    "answer": 4,
+    "explanation": "주어진 문장은 앞의 내용과 뒤의 내용을 연결하는 역할을 합니다. 3번 위치 전후의 원인·결과 또는 전환 관계를 확인해야 합니다.",
+    "wrong_explanations": {},
+    "_reviewed": false
+  },
+  {
+    "_qid": "R-0340",
+    "type": "문장 삽입",
+    "passage": "A mountain village wanted to preserve an old walking path. (①) An official proposed replacing the stones with smooth pavement. (②) Older residents explained that the uneven stones helped channel rainwater. (③) Engineers inspected the slope during a storm. (④) They decided to repair individual stones rather than erase the original design. (⑤)",
+    "given_sentence": "What seemed like an aesthetic detail was also part of the drainage system.",
+    "choices": [
+      "① 1번 위치",
+      "② 2번 위치",
+      "③ 3번 위치",
+      "④ 4번 위치",
+      "⑤ 5번 위치"
+    ],
+    "answer": 2,
+    "explanation": "주어진 문장은 앞의 내용과 뒤의 내용을 연결하는 역할을 합니다. 2번 위치 전후의 원인·결과 또는 전환 관계를 확인해야 합니다.",
+    "wrong_explanations": {},
+    "_reviewed": false
+  },
+  {
+    "_qid": "R-0341",
+    "type": "문장 삽입",
+    "passage": "A university recorded lectures for students who missed class. (①) At first, recordings were treated as a substitute for attending in person. (②) Surveys revealed that many students used them to replay difficult explanations. (③) Teachers began adding timestamps to challenging sections. (④) Students used those markers while preparing questions for tutorials. (⑤)",
+    "given_sentence": "The recordings proved most useful when treated as a supplement to discussion.",
+    "choices": [
+      "① 1번 위치",
+      "② 3번 위치",
+      "③ 4번 위치",
+      "④ 5번 위치",
+      "⑤ 2번 위치"
+    ],
+    "answer": 5,
+    "explanation": "주어진 문장은 앞의 내용과 뒤의 내용을 연결하는 역할을 합니다. 2번 위치 전후의 원인·결과 또는 전환 관계를 확인해야 합니다.",
+    "wrong_explanations": {},
+    "_reviewed": false
+  },
+  {
+    "_qid": "R-0342",
+    "type": "문장 삽입",
+    "passage": "A city opened a new public square. (①) Its planners expected people to sit on the expensive benches. (②) Instead, visitors gathered on low steps near a tree. (③) The steps offered shade and views of passing pedestrians. (④) Planners eventually added seating around the tree. (⑤)",
+    "given_sentence": "Observation revealed a preference that the original blueprint had overlooked.",
+    "choices": [
+      "① 1번 위치",
+      "② 3번 위치",
+      "③ 2번 위치",
+      "④ 4번 위치",
+      "⑤ 5번 위치"
+    ],
+    "answer": 3,
+    "explanation": "주어진 문장은 앞의 내용과 뒤의 내용을 연결하는 역할을 합니다. 2번 위치 전후의 원인·결과 또는 전환 관계를 확인해야 합니다.",
+    "wrong_explanations": {},
+    "_reviewed": false
+  },
+  {
+    "_qid": "R-0343",
+    "type": "문장 삽입",
+    "passage": "An orchestra rehearsed a piece with a complicated rhythm. (①) The conductor first asked every section to play at full volume. (②) Musicians had trouble hearing how their parts connected. (③) They then rehearsed two instrument groups at a time. (④) When the complete orchestra returned, the rhythm sounded much clearer. (⑤)",
+    "given_sentence": "Reducing complexity temporarily made the larger structure easier to understand.",
+    "choices": [
+      "① 3번 위치",
+      "② 1번 위치",
+      "③ 2번 위치",
+      "④ 4번 위치",
+      "⑤ 5번 위치"
+    ],
+    "answer": 1,
+    "explanation": "주어진 문장은 앞의 내용과 뒤의 내용을 연결하는 역할을 합니다. 3번 위치 전후의 원인·결과 또는 전환 관계를 확인해야 합니다.",
+    "wrong_explanations": {},
+    "_reviewed": false
+  },
+  {
+    "_qid": "R-0344",
+    "type": "문장 삽입",
+    "passage": "A bookstore created a section for books recommended by customers. (①) The first suggestions were all bestselling novels. (②) Staff invited readers to describe a book that had surprised them. (③) Recommendations soon included obscure histories and graphic memoirs. (④) Customers began leaving notes for strangers who might enjoy the same works. (⑤)",
+    "given_sentence": "A different question produced a much broader range of answers.",
+    "choices": [
+      "① 1번 위치",
+      "② 3번 위치",
+      "③ 4번 위치",
+      "④ 2번 위치",
+      "⑤ 5번 위치"
+    ],
+    "answer": 4,
+    "explanation": "주어진 문장은 앞의 내용과 뒤의 내용을 연결하는 역할을 합니다. 2번 위치 전후의 원인·결과 또는 전환 관계를 확인해야 합니다.",
+    "wrong_explanations": {},
+    "_reviewed": false
+  },
+  {
+    "_qid": "R-0345",
+    "type": "문장 삽입",
+    "passage": "A research team surveyed people about their daily travel. (①) Many respondents estimated that they spent little time walking. (②) Researchers later compared those estimates with step counts. (③) The measurements showed frequent short walking trips that people had forgotten. (④) The team redesigned its questionnaire to include small journeys. (⑤)",
+    "given_sentence": "Memories of routine activities had been less complete than expected.",
+    "choices": [
+      "① 1번 위치",
+      "② 3번 위치",
+      "③ 2번 위치",
+      "④ 4번 위치",
+      "⑤ 5번 위치"
+    ],
+    "answer": 2,
+    "explanation": "주어진 문장은 앞의 내용과 뒤의 내용을 연결하는 역할을 합니다. 3번 위치 전후의 원인·결과 또는 전환 관계를 확인해야 합니다.",
+    "wrong_explanations": {},
+    "_reviewed": false
+  },
+  {
+    "_qid": "R-0346",
+    "type": "문장 삽입",
+    "passage": "A farmer introduced flowering strips along the edges of fields. (①) Some neighbors worried that the strips would waste productive land. (②) Over the following season, more pollinating insects appeared near the crops. (③) The farmer tracked yields in adjacent rows. (④) The data suggested that the lost planting area was partly offset by pollination benefits. (⑤)",
+    "given_sentence": "The apparent trade-off was more complicated than a simple loss of space.",
+    "choices": [
+      "① 1번 위치",
+      "② 2번 위치",
+      "③ 4번 위치",
+      "④ 5번 위치",
+      "⑤ 3번 위치"
+    ],
+    "answer": 5,
+    "explanation": "주어진 문장은 앞의 내용과 뒤의 내용을 연결하는 역할을 합니다. 3번 위치 전후의 원인·결과 또는 전환 관계를 확인해야 합니다.",
+    "wrong_explanations": {},
+    "_reviewed": false
+  },
+  {
+    "_qid": "R-0347",
+    "type": "문장 삽입",
+    "passage": "A library extended opening hours on weekends. (①) Managers expected people to borrow more books. (②) Borrowing increased only slightly, but demand for quiet desks rose sharply. (③) The library installed additional reading lamps and electrical outlets. (④) Students and remote workers began visiting regularly. (⑤)",
+    "given_sentence": "The building was serving a need that the borrowing statistics could not capture.",
+    "choices": [
+      "① 1번 위치",
+      "② 3번 위치",
+      "③ 2번 위치",
+      "④ 4번 위치",
+      "⑤ 5번 위치"
+    ],
+    "answer": 3,
+    "explanation": "주어진 문장은 앞의 내용과 뒤의 내용을 연결하는 역할을 합니다. 2번 위치 전후의 원인·결과 또는 전환 관계를 확인해야 합니다.",
+    "wrong_explanations": {},
+    "_reviewed": false
+  },
+  {
+    "_qid": "R-0348",
+    "type": "문장 삽입",
+    "passage": "A marine researcher placed acoustic sensors near a reef. (①) During the day, the recordings contained many boat engines. (②) At night, a different pattern of clicks became audible. (③) The team linked those sounds to feeding activity by reef animals. (④) They began scheduling quieter monitoring periods after sunset. (⑤)",
+    "given_sentence": "A change in background noise revealed previously hidden behavior.",
+    "choices": [
+      "① 3번 위치",
+      "② 1번 위치",
+      "③ 2번 위치",
+      "④ 4번 위치",
+      "⑤ 5번 위치"
+    ],
+    "answer": 1,
+    "explanation": "주어진 문장은 앞의 내용과 뒤의 내용을 연결하는 역할을 합니다. 3번 위치 전후의 원인·결과 또는 전환 관계를 확인해야 합니다.",
+    "wrong_explanations": {},
+    "_reviewed": false
+  },
+  {
+    "_qid": "R-0349",
+    "type": "문장 삽입",
+    "passage": "An art teacher asked students to make portraits without using faces. (①) Several students chose shoes, desks, and familiar household objects. (②) Their classmates could often identify the people represented. (③) The resulting discussion focused on habits and relationships rather than appearance. (④) The teacher expanded the exercise into a series of written descriptions. (⑤)",
+    "given_sentence": "Identity could be communicated through indirect details.",
+    "choices": [
+      "① 1번 위치",
+      "② 3번 위치",
+      "③ 4번 위치",
+      "④ 2번 위치",
+      "⑤ 5번 위치"
+    ],
+    "answer": 4,
+    "explanation": "주어진 문장은 앞의 내용과 뒤의 내용을 연결하는 역할을 합니다. 2번 위치 전후의 원인·결과 또는 전환 관계를 확인해야 합니다.",
+    "wrong_explanations": {},
+    "_reviewed": false
+  },
+  {
+    "_qid": "R-0350",
+    "type": "문장 삽입",
+    "passage": "A station installed screens showing the exact arrival time of trains. (①) Passengers stopped asking employees when the next train would come. (②) Yet complaints about crowded platforms remained. (③) The station added displays showing which carriages were less full. (④) Passengers began spreading out along the platform. (⑤)",
+    "given_sentence": "Information must match the decision people actually need to make.",
+    "choices": [
+      "① 1번 위치",
+      "② 3번 위치",
+      "③ 2번 위치",
+      "④ 4번 위치",
+      "⑤ 5번 위치"
+    ],
+    "answer": 2,
+    "explanation": "주어진 문장은 앞의 내용과 뒤의 내용을 연결하는 역할을 합니다. 3번 위치 전후의 원인·결과 또는 전환 관계를 확인해야 합니다.",
+    "wrong_explanations": {},
+    "_reviewed": false
+  },
+  {
+    "_qid": "R-0351",
+    "type": "문장 삽입",
+    "passage": "A local newspaper began publishing corrections on the same page as its main stories. (①) Editors feared that visible corrections would damage trust. (②) Readers instead praised the paper for acknowledging errors promptly. (③) The newsroom created a simple procedure for reporting mistakes. (④) Other publications adopted a similar practice. (⑤)",
+    "given_sentence": "Transparency turned an apparent weakness into a source of credibility.",
+    "choices": [
+      "① 1번 위치",
+      "② 3번 위치",
+      "③ 4번 위치",
+      "④ 5번 위치",
+      "⑤ 2번 위치"
+    ],
+    "answer": 5,
+    "explanation": "주어진 문장은 앞의 내용과 뒤의 내용을 연결하는 역할을 합니다. 2번 위치 전후의 원인·결과 또는 전환 관계를 확인해야 합니다.",
+    "wrong_explanations": {},
+    "_reviewed": false
+  },
+  {
+    "_qid": "R-0352",
+    "type": "문장 삽입",
+    "passage": "A botanist grew seedlings under different colored lights. (①) All groups received equal amounts of water and nutrients. (②) The plants under blue-rich light developed shorter stems. (③) The botanist repeated the experiment with a second species. (④) Only after that test did she propose a broader explanation. (⑤)",
+    "given_sentence": "A single result was not enough to establish a general rule.",
+    "choices": [
+      "① 1번 위치",
+      "② 2번 위치",
+      "③ 3번 위치",
+      "④ 4번 위치",
+      "⑤ 5번 위치"
+    ],
+    "answer": 3,
+    "explanation": "주어진 문장은 앞의 내용과 뒤의 내용을 연결하는 역할을 합니다. 3번 위치 전후의 원인·결과 또는 전환 관계를 확인해야 합니다.",
+    "wrong_explanations": {},
+    "_reviewed": false
+  },
+  {
+    "_qid": "R-0353",
+    "type": "문장 삽입",
+    "passage": "A town reduced street lighting after midnight. (①) Astronomers welcomed the darker sky. (②) Some residents expressed concerns about safety. (③) The council installed motion-sensitive lights on pedestrian routes. (④) The revised system saved energy while preserving visibility when needed. (⑤)",
+    "given_sentence": "A flexible design made it possible to address competing priorities.",
+    "choices": [
+      "① 3번 위치",
+      "② 1번 위치",
+      "③ 2번 위치",
+      "④ 4번 위치",
+      "⑤ 5번 위치"
+    ],
+    "answer": 1,
+    "explanation": "주어진 문장은 앞의 내용과 뒤의 내용을 연결하는 역할을 합니다. 3번 위치 전후의 원인·결과 또는 전환 관계를 확인해야 합니다.",
+    "wrong_explanations": {},
+    "_reviewed": false
+  },
+  {
+    "_qid": "R-0354",
+    "type": "문장 삽입",
+    "passage": "A museum invited visitors to submit questions about an ancient bowl. (①) Many asked who had used it and what food it had held. (②) Curators realized that the display described the clay but not daily life. (③) They added drawings of possible household settings. (④) Visitors began discussing the object with one another. (⑤)",
+    "given_sentence": "The questions exposed a gap between expert descriptions and public curiosity.",
+    "choices": [
+      "① 1번 위치",
+      "② 2번 위치",
+      "③ 4번 위치",
+      "④ 3번 위치",
+      "⑤ 5번 위치"
+    ],
+    "answer": 4,
+    "explanation": "주어진 문장은 앞의 내용과 뒤의 내용을 연결하는 역할을 합니다. 3번 위치 전후의 원인·결과 또는 전환 관계를 확인해야 합니다.",
+    "wrong_explanations": {},
+    "_reviewed": false
+  },
+  {
+    "_qid": "R-0355",
+    "type": "문장 삽입",
+    "passage": "A forest ranger noticed fewer frogs in a wetland. (①) Rainfall had not changed noticeably that season. (②) Water tests, however, revealed unusually high salt levels. (③) An inspection traced the salt to winter road maintenance upstream. (④) The town changed where it stored de-icing materials. (⑤)",
+    "given_sentence": "The immediate symptom and its underlying cause were far apart.",
+    "choices": [
+      "① 1번 위치",
+      "② 3번 위치",
+      "③ 2번 위치",
+      "④ 4번 위치",
+      "⑤ 5번 위치"
+    ],
+    "answer": 2,
+    "explanation": "주어진 문장은 앞의 내용과 뒤의 내용을 연결하는 역할을 합니다. 3번 위치 전후의 원인·결과 또는 전환 관계를 확인해야 합니다.",
+    "wrong_explanations": {},
+    "_reviewed": false
+  },
+  {
+    "_qid": "R-0356",
+    "type": "어법 판단",
+    "passage": "The archive contains letters (① which describe everyday life) (② before the railway arrived) (③ in the remote valley) (④ and each document) (⑤ have been carefully preserved).",
+    "given_sentence": "",
+    "choices": [
+      "① 1번 표시",
+      "② 2번 표시",
+      "③ 3번 표시",
+      "④ 4번 표시",
+      "⑤ 5번 표시"
+    ],
+    "answer": 5,
+    "explanation": "⑤의 올바른 표현은 “has been carefully preserved”입니다. each document is singular",
+    "wrong_explanations": {},
+    "_reviewed": false
+  },
+  {
+    "_qid": "R-0357",
+    "type": "어법 판단",
+    "passage": "The scientist invited volunteers (① who living near the river) (② to collect samples) (③ at locations that) (④ were chosen in advance) (⑤ and to record what they observed).",
+    "given_sentence": "",
+    "choices": [
+      "① 2번 표시",
+      "② 3번 표시",
+      "③ 1번 표시",
+      "④ 4번 표시",
+      "⑤ 5번 표시"
+    ],
+    "answer": 3,
+    "explanation": "①의 올바른 표현은 “who lived near the river”입니다. 표시된 구문은 who lived near the river의 형태를 취해야 합니다.",
+    "wrong_explanations": {},
+    "_reviewed": false
+  },
+  {
+    "_qid": "R-0358",
+    "type": "어법 판단",
+    "passage": "A collection of maps (① show how the coastline changed) (② during the nineteenth century) (③ while satellite images) (④ provide a modern comparison) (⑤ for the research team).",
+    "given_sentence": "",
+    "choices": [
+      "① 1번 표시",
+      "② 2번 표시",
+      "③ 3번 표시",
+      "④ 4번 표시",
+      "⑤ 5번 표시"
+    ],
+    "answer": 1,
+    "explanation": "①의 올바른 표현은 “shows how the coastline changed”입니다. subject collection is singular",
+    "wrong_explanations": {},
+    "_reviewed": false
+  },
+  {
+    "_qid": "R-0359",
+    "type": "어법 판단",
+    "passage": "The chef explained (① that fresh herbs) (② taste different) (③ when they are dried) (④ because volatile compounds) (⑤ is lost during storage).",
+    "given_sentence": "",
+    "choices": [
+      "① 1번 표시",
+      "② 2번 표시",
+      "③ 3번 표시",
+      "④ 5번 표시",
+      "⑤ 4번 표시"
+    ],
+    "answer": 4,
+    "explanation": "⑤의 올바른 표현은 “are lost during storage”입니다. plural compounds takes are",
+    "wrong_explanations": {},
+    "_reviewed": false
+  },
+  {
+    "_qid": "R-0360",
+    "type": "어법 판단",
+    "passage": "Although the workshop was small (① it attracted students) (② whose interests ranged) (③ from music for robotics) (④ and gave them) (⑤ an opportunity to collaborate).",
+    "given_sentence": "",
+    "choices": [
+      "① 1번 표시",
+      "② 3번 표시",
+      "③ 2번 표시",
+      "④ 4번 표시",
+      "⑤ 5번 표시"
+    ],
+    "answer": 2,
+    "explanation": "③의 올바른 표현은 “from music to robotics”입니다. 표시된 구문은 from music to robotics의 형태를 취해야 합니다.",
+    "wrong_explanations": {},
+    "_reviewed": false
+  },
+  {
+    "_qid": "R-0361",
+    "type": "어법 판단",
+    "passage": "The new policy requires (① every applicant to submit) (② a signed form) (③ before the interview) (④ and it ensures that) (⑤ each file are complete).",
+    "given_sentence": "",
+    "choices": [
+      "① 1번 표시",
+      "② 2번 표시",
+      "③ 3번 표시",
+      "④ 4번 표시",
+      "⑤ 5번 표시"
+    ],
+    "answer": 5,
+    "explanation": "⑤의 올바른 표현은 “each file is complete”입니다. each file is singular",
+    "wrong_explanations": {},
+    "_reviewed": false
+  },
+  {
+    "_qid": "R-0362",
+    "type": "어법 판단",
+    "passage": "The engineer designed a sensor (① that respond to changes) (② in air pressure) (③ rather than temperature) (④ which makes it suitable) (⑤ for monitoring storms).",
+    "given_sentence": "",
+    "choices": [
+      "① 2번 표시",
+      "② 3번 표시",
+      "③ 1번 표시",
+      "④ 4번 표시",
+      "⑤ 5번 표시"
+    ],
+    "answer": 3,
+    "explanation": "①의 올바른 표현은 “that responds to changes”입니다. 표시된 구문은 that responds to changes의 형태를 취해야 합니다.",
+    "wrong_explanations": {},
+    "_reviewed": false
+  },
+  {
+    "_qid": "R-0363",
+    "type": "어법 판단",
+    "passage": "Among the documents (① were a series of photographs) (② that recorded the project) (③ from its first day) (④ and revealed how workers) (⑤ solved unexpected problems).",
+    "given_sentence": "",
+    "choices": [
+      "① 2번 표시",
+      "② 1번 표시",
+      "③ 3번 표시",
+      "④ 4번 표시",
+      "⑤ 5번 표시"
+    ],
+    "answer": 1,
+    "explanation": "②의 올바른 표현은 “was a series of photographs”입니다. inversion agrees with singular a series",
+    "wrong_explanations": {},
+    "_reviewed": false
+  },
+  {
+    "_qid": "R-0364",
+    "type": "어법 판단",
+    "passage": "The teacher encouraged pupils (① to comparing two arguments) (② before deciding which) (③ was more convincing) (④ and to explain why) (⑤ they chose it).",
+    "given_sentence": "",
+    "choices": [
+      "① 2번 표시",
+      "② 3번 표시",
+      "③ 4번 표시",
+      "④ 1번 표시",
+      "⑤ 5번 표시"
+    ],
+    "answer": 4,
+    "explanation": "①의 올바른 표현은 “to compare two arguments”입니다. 표시된 구문은 to compare two arguments의 형태를 취해야 합니다.",
+    "wrong_explanations": {},
+    "_reviewed": false
+  },
+  {
+    "_qid": "R-0365",
+    "type": "어법 판단",
+    "passage": "Each of the volunteers (① were given a route map) (② before entering the park) (③ so that the survey) (④ could be completed safely) (⑤ without disturbing wildlife).",
+    "given_sentence": "",
+    "choices": [
+      "① 2번 표시",
+      "② 1번 표시",
+      "③ 3번 표시",
+      "④ 4번 표시",
+      "⑤ 5번 표시"
+    ],
+    "answer": 2,
+    "explanation": "①의 올바른 표현은 “was given a route map”입니다. each requires singular verb",
+    "wrong_explanations": {},
+    "_reviewed": false
+  },
+  {
+    "_qid": "R-0366",
+    "type": "어법 판단",
+    "passage": "The curator had the artifacts (① examined by a specialist) (② before they were displayed) (③ because their surfaces) (④ was unusually fragile) (⑤ after long storage).",
+    "given_sentence": "",
+    "choices": [
+      "① 1번 표시",
+      "② 2번 표시",
+      "③ 3번 표시",
+      "④ 5번 표시",
+      "⑤ 4번 표시"
+    ],
+    "answer": 5,
+    "explanation": "④의 올바른 표현은 “were unusually fragile”입니다. surfaces plural",
+    "wrong_explanations": {},
+    "_reviewed": false
+  },
+  {
+    "_qid": "R-0367",
+    "type": "어법 판단",
+    "passage": "What surprised the astronomers (① were not the brightness) (② of the distant object) (③ but the speed at which) (④ its color changed) (⑤ over several nights).",
+    "given_sentence": "",
+    "choices": [
+      "① 2번 표시",
+      "② 3번 표시",
+      "③ 1번 표시",
+      "④ 4번 표시",
+      "⑤ 5번 표시"
+    ],
+    "answer": 3,
+    "explanation": "①의 올바른 표현은 “was not the brightness”입니다. 표시된 구문은 was not the brightness의 형태를 취해야 합니다.",
+    "wrong_explanations": {},
+    "_reviewed": false
+  },
+  {
+    "_qid": "R-0368",
+    "type": "어법 판단",
+    "passage": "The committee recommended (① that the old bridge) (② is repaired immediately) (③ instead of replacing it) (④ because the supports) (⑤ remained structurally sound).",
+    "given_sentence": "",
+    "choices": [
+      "① 2번 표시",
+      "② 1번 표시",
+      "③ 3번 표시",
+      "④ 4번 표시",
+      "⑤ 5번 표시"
+    ],
+    "answer": 1,
+    "explanation": "②의 올바른 표현은 “be repaired immediately”입니다. 표시된 구문은 be repaired immediately의 형태를 취해야 합니다.",
+    "wrong_explanations": {},
+    "_reviewed": false
+  },
+  {
+    "_qid": "R-0369",
+    "type": "어법 판단",
+    "passage": "Neither the guide nor the visitors (① was aware of the change) (② until the museum opened) (③ and a staff member) (④ explained the new route) (⑤ to the group).",
+    "given_sentence": "",
+    "choices": [
+      "① 2번 표시",
+      "② 3번 표시",
+      "③ 4번 표시",
+      "④ 1번 표시",
+      "⑤ 5번 표시"
+    ],
+    "answer": 4,
+    "explanation": "①의 올바른 표현은 “were aware of the change”입니다. proximity agreement with plural visitors",
+    "wrong_explanations": {},
+    "_reviewed": false
+  },
+  {
+    "_qid": "R-0370",
+    "type": "어법 판단",
+    "passage": "The researchers found (① the result difficultly to explain) (② even after they had checked) (③ every instrument twice) (④ and repeated the trial) (⑤ under identical conditions).",
+    "given_sentence": "",
+    "choices": [
+      "① 2번 표시",
+      "② 1번 표시",
+      "③ 3번 표시",
+      "④ 4번 표시",
+      "⑤ 5번 표시"
+    ],
+    "answer": 2,
+    "explanation": "①의 올바른 표현은 “the result difficult to explain”입니다. 표시된 구문은 the result difficult to explain의 형태를 취해야 합니다.",
+    "wrong_explanations": {},
+    "_reviewed": false
+  },
+  {
+    "_qid": "R-0371",
+    "type": "어법 판단",
+    "passage": "There is several reasons (① why small businesses) (② often rely on local suppliers) (③ including short delivery times) (④ and easier communication) (⑤ during unexpected delays).",
+    "given_sentence": "",
+    "choices": [
+      "① 2번 표시",
+      "② 3번 표시",
+      "③ 4번 표시",
+      "④ 5번 표시",
+      "⑤ 1번 표시"
+    ],
+    "answer": 5,
+    "explanation": "①의 올바른 표현은 “There are several reasons”입니다. existential there agrees with plural reasons",
+    "wrong_explanations": {},
+    "_reviewed": false
+  },
+  {
+    "_qid": "R-0372",
+    "type": "어법 판단",
+    "passage": "The building is believed (① to have been designed) (② by an architect) (③ which earlier projects) (④ included schools and libraries) (⑤ in several neighboring cities).",
+    "given_sentence": "",
+    "choices": [
+      "① 1번 표시",
+      "② 2번 표시",
+      "③ 3번 표시",
+      "④ 4번 표시",
+      "⑤ 5번 표시"
+    ],
+    "answer": 3,
+    "explanation": "③의 올바른 표현은 “whose earlier projects”입니다. 표시된 구문은 whose earlier projects의 형태를 취해야 합니다.",
+    "wrong_explanations": {},
+    "_reviewed": false
+  },
+  {
+    "_qid": "R-0373",
+    "type": "어법 판단",
+    "passage": "The instructions were clear enough (① for participants following) (② without additional help) (③ but some of the equipment) (④ needed to be adjusted) (⑤ before the session began).",
+    "given_sentence": "",
+    "choices": [
+      "① 1번 표시",
+      "② 2번 표시",
+      "③ 3번 표시",
+      "④ 4번 표시",
+      "⑤ 5번 표시"
+    ],
+    "answer": 1,
+    "explanation": "①의 올바른 표현은 “for participants to follow”입니다. 표시된 구문은 for participants to follow의 형태를 취해야 합니다.",
+    "wrong_explanations": {},
+    "_reviewed": false
+  },
+  {
+    "_qid": "R-0374",
+    "type": "어휘 적절성",
+    "passage": "A village replaced its broken street lamps with efficient LEDs. The new lights used less electricity while keeping paths visible. Residents welcomed the change because it was affordable and reliable. The following five expressions are used to characterize the situation: (① efficient) (② wasteful) (③ visible) (④ welcomed) (⑤ affordable).",
+    "given_sentence": "",
+    "choices": [
+      "①번",
+      "② ③번",
+      "③ ④번",
+      "④ ②번",
+      "⑤번"
+    ],
+    "answer": 4,
+    "explanation": "이 글의 결과는 “beneficial”에 가깝습니다. 따라서 “wasteful”라는 평가는 지문의 사실 및 긍정적·부정적 방향과 일치하지 않습니다.",
+    "wrong_explanations": {},
+    "_reviewed": false
+  },
+  {
+    "_qid": "R-0375",
+    "type": "어휘 적절성",
+    "passage": "A scientist stored seeds in a cool, dry vault. The controlled conditions slowed decay and helped preserve rare plants for future restoration. The following five expressions are used to characterize the situation: (① cool) (② dry) (③ slowed) (④ temporary) (⑤ preserve).",
+    "given_sentence": "",
+    "choices": [
+      "①번",
+      "② ④번",
+      "③ ②번",
+      "④ ③번",
+      "⑤번"
+    ],
+    "answer": 2,
+    "explanation": "이 글의 결과는 “long-term”에 가깝습니다. 따라서 “temporary”라는 평가는 지문의 사실 및 긍정적·부정적 방향과 일치하지 않습니다.",
+    "wrong_explanations": {},
+    "_reviewed": false
+  },
+  {
+    "_qid": "R-0376",
+    "type": "어휘 적절성",
+    "passage": "A guide explained a complex cave system using a simple model. Visitors followed the route confidently because the explanation was clear rather than obscure. The following five expressions are used to characterize the situation: (① confusing) (② complex) (③ simple) (④ confidently) (⑤ clear).",
+    "given_sentence": "",
+    "choices": [
+      "① ②번",
+      "② ③번",
+      "③ ④번",
+      "④ ⑤번",
+      "⑤ ①번"
+    ],
+    "answer": 5,
+    "explanation": "이 글의 결과는 “accessible”에 가깝습니다. 따라서 “confusing”라는 평가는 지문의 사실 및 긍정적·부정적 방향과 일치하지 않습니다.",
+    "wrong_explanations": {},
+    "_reviewed": false
+  },
+  {
+    "_qid": "R-0377",
+    "type": "어휘 적절성",
+    "passage": "A team compared independent weather forecasts before making its decision. The forecasts disagreed on timing, so the organizers prepared a flexible schedule. The following five expressions are used to characterize the situation: (① independent) (② disagreed) (③ rigid) (④ prepared) (⑤ flexible).",
+    "given_sentence": "",
+    "choices": [
+      "①번",
+      "②번",
+      "③번",
+      "④번",
+      "⑤번"
+    ],
+    "answer": 3,
+    "explanation": "이 글의 결과는 “adaptable”에 가깝습니다. 따라서 “rigid”라는 평가는 지문의 사실 및 긍정적·부정적 방향과 일치하지 않습니다.",
+    "wrong_explanations": {},
+    "_reviewed": false
+  },
+  {
+    "_qid": "R-0378",
+    "type": "어휘 적절성",
+    "passage": "Researchers learned that birds used roadside shrubs for nesting. They recommended preserving some vegetation rather than clearing every patch. The following five expressions are used to characterize the situation: (① roadside) (② nesting) (③ preserving) (④ clearing) (⑤ essential).",
+    "given_sentence": "",
+    "choices": [
+      "① ⑤번",
+      "② ①번",
+      "③ ②번",
+      "④ ③번",
+      "⑤ ④번"
+    ],
+    "answer": 1,
+    "explanation": "이 글의 결과는 “harmful”에 가깝습니다. 따라서 “essential”라는 평가는 지문의 사실 및 긍정적·부정적 방향과 일치하지 않습니다.",
+    "wrong_explanations": {},
+    "_reviewed": false
+  },
+  {
+    "_qid": "R-0379",
+    "type": "어휘 적절성",
+    "passage": "A shop posted clear repair costs before accepting old bicycles. Customers reported greater trust because prices were transparent and predictable. The following five expressions are used to characterize the situation: (① clear) (② secretive) (③ repair) (④ trust) (⑤ transparent).",
+    "given_sentence": "",
+    "choices": [
+      "①번",
+      "② ③번",
+      "③ ④번",
+      "④ ②번",
+      "⑤번"
+    ],
+    "answer": 4,
+    "explanation": "이 글의 결과는 “open”에 가깝습니다. 따라서 “secretive”라는 평가는 지문의 사실 및 긍정적·부정적 방향과 일치하지 않습니다.",
+    "wrong_explanations": {},
+    "_reviewed": false
+  },
+  {
+    "_qid": "R-0380",
+    "type": "어휘 적절성",
+    "passage": "A concert hall tested acoustic panels. The panels reduced harsh echoes while preserving the warmth of instruments. Musicians favored the balanced sound. The following five expressions are used to characterize the situation: (① acoustic) (② reduced) (③ preserving) (④ distorted) (⑤ balanced).",
+    "given_sentence": "",
+    "choices": [
+      "①번",
+      "② ④번",
+      "③ ②번",
+      "④ ③번",
+      "⑤번"
+    ],
+    "answer": 2,
+    "explanation": "이 글의 결과는 “natural”에 가깝습니다. 따라서 “distorted”라는 평가는 지문의 사실 및 긍정적·부정적 방향과 일치하지 않습니다.",
+    "wrong_explanations": {},
+    "_reviewed": false
+  },
+  {
+    "_qid": "R-0381",
+    "type": "어휘 적절성",
+    "passage": "The nurse listened carefully to a patient whose symptoms were unusual. Rather than dismissing the report, she arranged an additional test. The following five expressions are used to characterize the situation: (① indifferent) (② carefully) (③ unusual) (④ dismiss) (⑤ additional).",
+    "given_sentence": "",
+    "choices": [
+      "① ②번",
+      "② ③번",
+      "③ ④번",
+      "④ ⑤번",
+      "⑤ ①번"
+    ],
+    "answer": 5,
+    "explanation": "이 글의 결과는 “attentive”에 가깝습니다. 따라서 “indifferent”라는 평가는 지문의 사실 및 긍정적·부정적 방향과 일치하지 않습니다.",
+    "wrong_explanations": {},
+    "_reviewed": false
+  },
+  {
+    "_qid": "R-0382",
+    "type": "어휘 적절성",
+    "passage": "An archaeologist cataloged pottery fragments by layer. This systematic record enabled later researchers to reconstruct the sequence of settlement. The following five expressions are used to characterize the situation: (① cataloged) (② systematic) (③ random) (④ reconstruct) (⑤ sequence).",
+    "given_sentence": "",
+    "choices": [
+      "①번",
+      "②번",
+      "③번",
+      "④번",
+      "⑤번"
+    ],
+    "answer": 3,
+    "explanation": "이 글의 결과는 “methodical”에 가깝습니다. 따라서 “random”라는 평가는 지문의 사실 및 긍정적·부정적 방향과 일치하지 않습니다.",
+    "wrong_explanations": {},
+    "_reviewed": false
+  },
+  {
+    "_qid": "R-0383",
+    "type": "어휘 적절성",
+    "passage": "A cycling program offered helmets and supervised lessons. Participants became more confident as they practiced safely with trained instructors. The following five expressions are used to characterize the situation: (① offered) (② supervised) (③ confident) (④ safely) (⑤ reckless).",
+    "given_sentence": "",
+    "choices": [
+      "① ⑤번",
+      "② ①번",
+      "③ ②번",
+      "④ ③번",
+      "⑤ ④번"
+    ],
+    "answer": 1,
+    "explanation": "이 글의 결과는 “careful”에 가깝습니다. 따라서 “reckless”라는 평가는 지문의 사실 및 긍정적·부정적 방향과 일치하지 않습니다.",
+    "wrong_explanations": {},
+    "_reviewed": false
+  },
+  {
+    "_qid": "R-0384",
+    "type": "어휘 적절성",
+    "passage": "A school introduced quiet reading time. Students first resisted the routine, but many soon appreciated the opportunity to concentrate without interruptions. The following five expressions are used to characterize the situation: (① quiet) (② distracted) (③ resisted) (④ appreciated) (⑤ concentrate).",
+    "given_sentence": "",
+    "choices": [
+      "①번",
+      "② ③번",
+      "③ ④번",
+      "④ ②번",
+      "⑤번"
+    ],
+    "answer": 4,
+    "explanation": "이 글의 결과는 “focused”에 가깝습니다. 따라서 “distracted”라는 평가는 지문의 사실 및 긍정적·부정적 방향과 일치하지 않습니다.",
+    "wrong_explanations": {},
+    "_reviewed": false
+  },
+  {
+    "_qid": "R-0385",
+    "type": "어휘 적절성",
+    "passage": "A charity published detailed accounts of how donations were spent. Its regular reports helped donors evaluate the organization objectively. The following five expressions are used to characterize the situation: (① detailed) (② regular) (③ evaluate) (④ concealed) (⑤ objectively).",
+    "given_sentence": "",
+    "choices": [
+      "①번",
+      "② ④번",
+      "③ ②번",
+      "④ ③번",
+      "⑤번"
+    ],
+    "answer": 2,
+    "explanation": "이 글의 결과는 “disclosed”에 가깝습니다. 따라서 “concealed”라는 평가는 지문의 사실 및 긍정적·부정적 방향과 일치하지 않습니다.",
+    "wrong_explanations": {},
+    "_reviewed": false
+  },
+  {
+    "_qid": "R-0386",
+    "type": "어휘 적절성",
+    "passage": "An engineering team inspected a bridge after flooding. Although the structure looked stable, hidden damage made further testing necessary. The following five expressions are used to characterize the situation: (① unnecessary) (② inspected) (③ stable) (④ hidden) (⑤ necessary).",
+    "given_sentence": "",
+    "choices": [
+      "① ②번",
+      "② ③번",
+      "③ ④번",
+      "④ ⑤번",
+      "⑤ ①번"
+    ],
+    "answer": 5,
+    "explanation": "이 글의 결과는 “essential”에 가깝습니다. 따라서 “unnecessary”라는 평가는 지문의 사실 및 긍정적·부정적 방향과 일치하지 않습니다.",
+    "wrong_explanations": {},
+    "_reviewed": false
+  },
+  {
+    "_qid": "R-0387",
+    "type": "어휘 적절성",
+    "passage": "A translator preserved the humor of a poem by changing some literal phrases. The final version sounded natural while maintaining the original spirit. The following five expressions are used to characterize the situation: (① preserved) (② literal) (③ betraying) (④ natural) (⑤ maintaining).",
+    "given_sentence": "",
+    "choices": [
+      "①번",
+      "②번",
+      "③번",
+      "④번",
+      "⑤번"
+    ],
+    "answer": 3,
+    "explanation": "이 글의 결과는 “honoring”에 가깝습니다. 따라서 “betraying”라는 평가는 지문의 사실 및 긍정적·부정적 방향과 일치하지 않습니다.",
+    "wrong_explanations": {},
+    "_reviewed": false
+  },
+  {
+    "_qid": "R-0388",
+    "type": "어휘 적절성",
+    "passage": "An orchard used several crop varieties. When unusual weather harmed one variety, the others reduced the farm’s overall losses. The following five expressions are used to characterize the situation: (① several) (② unusual) (③ harmed) (④ reduced) (⑤ amplified).",
+    "given_sentence": "",
+    "choices": [
+      "① ⑤번",
+      "② ①번",
+      "③ ②번",
+      "④ ③번",
+      "⑤ ④번"
+    ],
+    "answer": 1,
+    "explanation": "이 글의 결과는 “limited”에 가깝습니다. 따라서 “amplified”라는 평가는 지문의 사실 및 긍정적·부정적 방향과 일치하지 않습니다.",
+    "wrong_explanations": {},
+    "_reviewed": false
+  },
+  {
+    "_qid": "R-0389",
+    "type": "어휘 적절성",
+    "passage": "A theater replaced its complicated booking page with a short form. Fewer visitors abandoned the process because the new system was intuitive. The following five expressions are used to characterize the situation: (① complicated) (② incomprehensible) (③ short) (④ abandoned) (⑤ intuitive).",
+    "given_sentence": "",
+    "choices": [
+      "①번",
+      "② ③번",
+      "③ ④번",
+      "④ ②번",
+      "⑤번"
+    ],
+    "answer": 4,
+    "explanation": "이 글의 결과는 “easy to use”에 가깝습니다. 따라서 “incomprehensible”라는 평가는 지문의 사실 및 긍정적·부정적 방향과 일치하지 않습니다.",
+    "wrong_explanations": {},
+    "_reviewed": false
+  },
+  {
+    "_qid": "R-0390",
+    "type": "어휘 적절성",
+    "passage": "The journalist checked claims against original documents. This careful verification reduced the risk of spreading misleading information. The following five expressions are used to characterize the situation: (① original) (② careful) (③ reduced) (④ unreliable) (⑤ misleading).",
+    "given_sentence": "",
+    "choices": [
+      "①번",
+      "② ④번",
+      "③ ②번",
+      "④ ③번",
+      "⑤번"
+    ],
+    "answer": 2,
+    "explanation": "이 글의 결과는 “trustworthy”에 가깝습니다. 따라서 “unreliable”라는 평가는 지문의 사실 및 긍정적·부정적 방향과 일치하지 않습니다.",
+    "wrong_explanations": {},
+    "_reviewed": false
+  },
+  {
+    "_qid": "R-0391",
+    "type": "어휘 적절성",
+    "passage": "A rescue team practiced several emergency scenarios. Rehearsal made their response coordinated even when conditions changed unexpectedly. The following five expressions are used to characterize the situation: (① chaotic) (② practiced) (③ emergency) (④ coordinated) (⑤ unexpectedly).",
+    "given_sentence": "",
+    "choices": [
+      "① ②번",
+      "② ③번",
+      "③ ④번",
+      "④ ⑤번",
+      "⑤ ①번"
+    ],
+    "answer": 5,
+    "explanation": "이 글의 결과는 “organized”에 가깝습니다. 따라서 “chaotic”라는 평가는 지문의 사실 및 긍정적·부정적 방향과 일치하지 않습니다.",
+    "wrong_explanations": {},
+    "_reviewed": false
+  },
+  {
+    "_qid": "R-0392",
+    "type": "요지/주제",
+    "passage": "A coastal biologist monitored a beach where tourism was increasing. The number of visitors rose, but nesting birds declined only on beaches where night lighting had also expanded. Restricting lights during nesting season helped protect birds without closing the beach. The case illustrates how an apparently straightforward result depends on conditions that are easy to overlook.",
+    "given_sentence": "",
+    "choices": [
+      "① why every social experiment produces identical results",
+      "② the superiority of expensive solutions in every situation",
+      "③ careful design can reconcile recreation and wildlife protection",
+      "④ the claim that historical context never matters",
+      "⑤ the complete absence of trade-offs in public decisions"
+    ],
+    "answer": 3,
+    "explanation": "사례의 핵심은 “careful design can reconcile recreation and wildlife protection”입니다. 나머지 선택지는 사례의 조건을 무시하거나 과도하게 일반화합니다.",
+    "wrong_explanations": {},
+    "_reviewed": false
+  },
+  {
+    "_qid": "R-0393",
+    "type": "요지/주제",
+    "passage": "A town offered free public buses on weekends. Ridership increased, yet many new passengers had previously walked rather than driven. The policy improved mobility but did less to cut car traffic than its supporters expected. The case illustrates how an apparently straightforward result depends on conditions that are easy to overlook. The observation becomes more meaningful when its broader implications are taken into account.",
+    "given_sentence": "",
+    "choices": [
+      "① policy success must be measured against its stated goal",
+      "② why every social experiment produces identical results",
+      "③ the superiority of expensive solutions in every situation",
+      "④ the claim that historical context never matters",
+      "⑤ the complete absence of trade-offs in public decisions"
+    ],
+    "answer": 1,
+    "explanation": "사례의 핵심은 “policy success must be measured against its stated goal”입니다. 나머지 선택지는 사례의 조건을 무시하거나 과도하게 일반화합니다.",
+    "wrong_explanations": {},
+    "_reviewed": false
+  },
+  {
+    "_qid": "R-0394",
+    "type": "요지/주제",
+    "passage": "An engineer compared two insulation materials for housing. One cost less initially, while the other saved more heating energy over a decade. The best choice depended on the time horizon used to compare them. The case illustrates how an apparently straightforward result depends on conditions that are easy to overlook. The observation becomes more meaningful when its broader implications are taken into account.",
+    "given_sentence": "",
+    "choices": [
+      "① why every social experiment produces identical results",
+      "② the superiority of expensive solutions in every situation",
+      "③ the claim that historical context never matters",
+      "④ long-term value differs from immediate cost",
+      "⑤ the complete absence of trade-offs in public decisions"
+    ],
+    "answer": 4,
+    "explanation": "사례의 핵심은 “long-term value differs from immediate cost”입니다. 나머지 선택지는 사례의 조건을 무시하거나 과도하게 일반화합니다.",
+    "wrong_explanations": {},
+    "_reviewed": false
+  },
+  {
+    "_qid": "R-0395",
+    "type": "요지/주제",
+    "passage": "A language teacher replaced vocabulary lists with short conversations. Students began using new expressions appropriately even when they could not recite formal definitions. Learning improved when words were embedded in meaningful exchanges. The case illustrates how an apparently straightforward result depends on conditions that are easy to overlook. A conclusion drawn from only the most obvious measure would miss an important part of the explanation; the example therefore invites a distinction between appearances and underlying mechanisms.",
+    "given_sentence": "",
+    "choices": [
+      "① why every social experiment produces identical results",
+      "② context supports flexible language learning",
+      "③ the superiority of expensive solutions in every situation",
+      "④ the claim that historical context never matters",
+      "⑤ the complete absence of trade-offs in public decisions"
+    ],
+    "answer": 2,
+    "explanation": "사례의 핵심은 “context supports flexible language learning”입니다. 나머지 선택지는 사례의 조건을 무시하거나 과도하게 일반화합니다.",
+    "wrong_explanations": {},
+    "_reviewed": false
+  },
+  {
+    "_qid": "R-0396",
+    "type": "요지/주제",
+    "passage": "A neighborhood converted an empty lot into a pocket park. Residents began organizing informal events, but the benefit was greatest where paths made the park easy to reach. Accessibility shaped how much the new space was used. The case illustrates how an apparently straightforward result depends on conditions that are easy to overlook. The observation becomes more meaningful when its broader implications are taken into account.",
+    "given_sentence": "",
+    "choices": [
+      "① why every social experiment produces identical results",
+      "② the superiority of expensive solutions in every situation",
+      "③ the claim that historical context never matters",
+      "④ the complete absence of trade-offs in public decisions",
+      "⑤ public amenities depend on practical access"
+    ],
+    "answer": 5,
+    "explanation": "사례의 핵심은 “public amenities depend on practical access”입니다. 나머지 선택지는 사례의 조건을 무시하거나 과도하게 일반화합니다.",
+    "wrong_explanations": {},
+    "_reviewed": false
+  },
+  {
+    "_qid": "R-0397",
+    "type": "요지/주제",
+    "passage": "An environmental historian studied a city’s forgotten canals. Old maps showed that many streets followed waterways that had later been buried. The maps helped explain why some neighborhoods still flooded regularly. The case illustrates how an apparently straightforward result depends on conditions that are easy to overlook.",
+    "given_sentence": "",
+    "choices": [
+      "① why every social experiment produces identical results",
+      "② the superiority of expensive solutions in every situation",
+      "③ historical evidence can illuminate present infrastructure problems",
+      "④ the claim that historical context never matters",
+      "⑤ the complete absence of trade-offs in public decisions"
+    ],
+    "answer": 3,
+    "explanation": "사례의 핵심은 “historical evidence can illuminate present infrastructure problems”입니다. 나머지 선택지는 사례의 조건을 무시하거나 과도하게 일반화합니다.",
+    "wrong_explanations": {},
+    "_reviewed": false
+  },
+  {
+    "_qid": "R-0398",
+    "type": "요지/주제",
+    "passage": "A hospital tested appointment reminders in several languages. Missed visits fell most among patients who had struggled with previous messages. The improvement came from removing a communication barrier rather than changing medical treatment. The case illustrates how an apparently straightforward result depends on conditions that are easy to overlook. The observation becomes more meaningful when its broader implications are taken into account.",
+    "given_sentence": "",
+    "choices": [
+      "① effective access requires comprehensible communication",
+      "② why every social experiment produces identical results",
+      "③ the superiority of expensive solutions in every situation",
+      "④ the claim that historical context never matters",
+      "⑤ the complete absence of trade-offs in public decisions"
+    ],
+    "answer": 1,
+    "explanation": "사례의 핵심은 “effective access requires comprehensible communication”입니다. 나머지 선택지는 사례의 조건을 무시하거나 과도하게 일반화합니다.",
+    "wrong_explanations": {},
+    "_reviewed": false
+  },
+  {
+    "_qid": "R-0399",
+    "type": "요지/주제",
+    "passage": "An orchestra let musicians discuss difficult passages before rehearsal. They identified conflicting interpretations that had caused repeated mistakes. When they played again, the group sounded more unified without rehearsing longer. The case illustrates how an apparently straightforward result depends on conditions that are easy to overlook. The observation becomes more meaningful when its broader implications are taken into account.",
+    "given_sentence": "",
+    "choices": [
+      "① why every social experiment produces identical results",
+      "② the superiority of expensive solutions in every situation",
+      "③ the claim that historical context never matters",
+      "④ shared understanding can be more valuable than repetition",
+      "⑤ the complete absence of trade-offs in public decisions"
+    ],
+    "answer": 4,
+    "explanation": "사례의 핵심은 “shared understanding can be more valuable than repetition”입니다. 나머지 선택지는 사례의 조건을 무시하거나 과도하게 일반화합니다.",
+    "wrong_explanations": {},
+    "_reviewed": false
+  },
+  {
+    "_qid": "R-0400",
+    "type": "요지/주제",
+    "passage": "A farmer installed sensors to measure moisture in different sections of a field. Water use fell because dry areas received more irrigation while wet areas received less. The farm improved production by avoiding uniform treatment of unequal conditions. The case illustrates how an apparently straightforward result depends on conditions that are easy to overlook. A conclusion drawn from only the most obvious measure would miss an important part of the explanation; the example therefore invites a distinction between appearances and underlying mechanisms.",
+    "given_sentence": "",
+    "choices": [
+      "① why every social experiment produces identical results",
+      "② targeted intervention can outperform blanket solutions",
+      "③ the superiority of expensive solutions in every situation",
+      "④ the claim that historical context never matters",
+      "⑤ the complete absence of trade-offs in public decisions"
+    ],
+    "answer": 2,
+    "explanation": "사례의 핵심은 “targeted intervention can outperform blanket solutions”입니다. 나머지 선택지는 사례의 조건을 무시하거나 과도하게 일반화합니다.",
+    "wrong_explanations": {},
+    "_reviewed": false
+  },
+  {
+    "_qid": "R-0401",
+    "type": "요지/주제",
+    "passage": "A museum collected recordings of workers describing old industrial tools. Visitors understood the objects better when they heard how people used them each day. The tools became evidence of human experiences rather than isolated technical artifacts. The case illustrates how an apparently straightforward result depends on conditions that are easy to overlook. The observation becomes more meaningful when its broader implications are taken into account.",
+    "given_sentence": "",
+    "choices": [
+      "① why every social experiment produces identical results",
+      "② the superiority of expensive solutions in every situation",
+      "③ the claim that historical context never matters",
+      "④ the complete absence of trade-offs in public decisions",
+      "⑤ personal testimony can enrich material history"
+    ],
+    "answer": 5,
+    "explanation": "사례의 핵심은 “personal testimony can enrich material history”입니다. 나머지 선택지는 사례의 조건을 무시하거나 과도하게 일반화합니다.",
+    "wrong_explanations": {},
+    "_reviewed": false
+  },
+  {
+    "_qid": "R-0402",
+    "type": "요지/주제",
+    "passage": "A bookstore introduced staff recommendations instead of ranking everything by sales. Readers discovered unfamiliar genres and returned to discuss their choices. The store gained loyalty without merely duplicating online bestseller lists. The case illustrates how an apparently straightforward result depends on conditions that are easy to overlook.",
+    "given_sentence": "",
+    "choices": [
+      "① why every social experiment produces identical results",
+      "② the superiority of expensive solutions in every situation",
+      "③ human curation offers value beyond popularity metrics",
+      "④ the claim that historical context never matters",
+      "⑤ the complete absence of trade-offs in public decisions"
+    ],
+    "answer": 3,
+    "explanation": "사례의 핵심은 “human curation offers value beyond popularity metrics”입니다. 나머지 선택지는 사례의 조건을 무시하거나 과도하게 일반화합니다.",
+    "wrong_explanations": {},
+    "_reviewed": false
+  },
+  {
+    "_qid": "R-0403",
+    "type": "요지/주제",
+    "passage": "A marine scientist compared reef surveys made by divers and underwater cameras. Cameras recorded more nighttime activity, while divers noticed subtle daytime behavior. Neither method captured the full ecosystem alone. The case illustrates how an apparently straightforward result depends on conditions that are easy to overlook. The observation becomes more meaningful when its broader implications are taken into account.",
+    "given_sentence": "",
+    "choices": [
+      "① different observation methods can complement one another",
+      "② why every social experiment produces identical results",
+      "③ the superiority of expensive solutions in every situation",
+      "④ the claim that historical context never matters",
+      "⑤ the complete absence of trade-offs in public decisions"
+    ],
+    "answer": 1,
+    "explanation": "사례의 핵심은 “different observation methods can complement one another”입니다. 나머지 선택지는 사례의 조건을 무시하거나 과도하게 일반화합니다.",
+    "wrong_explanations": {},
+    "_reviewed": false
+  },
+  {
+    "_qid": "R-0404",
+    "type": "요지/주제",
+    "passage": "A company replaced annual employee surveys with short monthly discussions. Managers learned about small problems before they became persistent grievances. The shift mattered because feedback could influence decisions while issues were still manageable. The case illustrates how an apparently straightforward result depends on conditions that are easy to overlook. The observation becomes more meaningful when its broader implications are taken into account.",
+    "given_sentence": "",
+    "choices": [
+      "① why every social experiment produces identical results",
+      "② the superiority of expensive solutions in every situation",
+      "③ the claim that historical context never matters",
+      "④ timely feedback enables earlier correction",
+      "⑤ the complete absence of trade-offs in public decisions"
+    ],
+    "answer": 4,
+    "explanation": "사례의 핵심은 “timely feedback enables earlier correction”입니다. 나머지 선택지는 사례의 조건을 무시하거나 과도하게 일반화합니다.",
+    "wrong_explanations": {},
+    "_reviewed": false
+  },
+  {
+    "_qid": "R-0405",
+    "type": "요지/주제",
+    "passage": "A city redesigned a busy crossing after observing pedestrians. People regularly took an informal route that the marked crossing ignored. Moving the crossing closer to the actual route reduced dangerous shortcuts. The case illustrates how an apparently straightforward result depends on conditions that are easy to overlook. A conclusion drawn from only the most obvious measure would miss an important part of the explanation; the example therefore invites a distinction between appearances and underlying mechanisms.",
+    "given_sentence": "",
+    "choices": [
+      "① why every social experiment produces identical results",
+      "② good design responds to real behavior",
+      "③ the superiority of expensive solutions in every situation",
+      "④ the claim that historical context never matters",
+      "⑤ the complete absence of trade-offs in public decisions"
+    ],
+    "answer": 2,
+    "explanation": "사례의 핵심은 “good design responds to real behavior”입니다. 나머지 선택지는 사례의 조건을 무시하거나 과도하게 일반화합니다.",
+    "wrong_explanations": {},
+    "_reviewed": false
+  },
+  {
+    "_qid": "R-0406",
+    "type": "요지/주제",
+    "passage": "A school published examples of excellent essays alongside their revision histories. Students noticed that strong writing often emerged from several imperfect drafts. The examples reduced the belief that good work appeared effortlessly. The case illustrates how an apparently straightforward result depends on conditions that are easy to overlook. The observation becomes more meaningful when its broader implications are taken into account.",
+    "given_sentence": "",
+    "choices": [
+      "① why every social experiment produces identical results",
+      "② the superiority of expensive solutions in every situation",
+      "③ the claim that historical context never matters",
+      "④ the complete absence of trade-offs in public decisions",
+      "⑤ visible processes can reshape beliefs about achievement"
+    ],
+    "answer": 5,
+    "explanation": "사례의 핵심은 “visible processes can reshape beliefs about achievement”입니다. 나머지 선택지는 사례의 조건을 무시하거나 과도하게 일반화합니다.",
+    "wrong_explanations": {},
+    "_reviewed": false
+  },
+  {
+    "_qid": "R-0407",
+    "type": "요지/주제",
+    "passage": "A researcher studied a rare flower that opened only at night. Daytime surveys had underestimated how often moths visited it. Changing the observation schedule revealed pollination that had previously been overlooked. The case illustrates how an apparently straightforward result depends on conditions that are easy to overlook.",
+    "given_sentence": "",
+    "choices": [
+      "① why every social experiment produces identical results",
+      "② the superiority of expensive solutions in every situation",
+      "③ measurement schedules influence what researchers discover",
+      "④ the claim that historical context never matters",
+      "⑤ the complete absence of trade-offs in public decisions"
+    ],
+    "answer": 3,
+    "explanation": "사례의 핵심은 “measurement schedules influence what researchers discover”입니다. 나머지 선택지는 사례의 조건을 무시하거나 과도하게 일반화합니다.",
+    "wrong_explanations": {},
+    "_reviewed": false
+  },
+  {
+    "_qid": "R-0408",
+    "type": "요지/주제",
+    "passage": "A recycling campaign emphasized how much waste could be prevented before purchase. Some residents began repairing appliances and borrowing seldom-used equipment. Less material entered the waste stream in the first place. The case illustrates how an apparently straightforward result depends on conditions that are easy to overlook. The observation becomes more meaningful when its broader implications are taken into account.",
+    "given_sentence": "",
+    "choices": [
+      "① prevention may achieve more than end-of-pipe treatment",
+      "② why every social experiment produces identical results",
+      "③ the superiority of expensive solutions in every situation",
+      "④ the claim that historical context never matters",
+      "⑤ the complete absence of trade-offs in public decisions"
+    ],
+    "answer": 1,
+    "explanation": "사례의 핵심은 “prevention may achieve more than end-of-pipe treatment”입니다. 나머지 선택지는 사례의 조건을 무시하거나 과도하게 일반화합니다.",
+    "wrong_explanations": {},
+    "_reviewed": false
+  },
+  {
+    "_qid": "R-0409",
+    "type": "요지/주제",
+    "passage": "A public library created a mobile service for distant neighborhoods. Borrowing increased among residents who had rarely visited the central branch. Distance, not lack of interest, had limited participation. The case illustrates how an apparently straightforward result depends on conditions that are easy to overlook. The observation becomes more meaningful when its broader implications are taken into account.",
+    "given_sentence": "",
+    "choices": [
+      "① why every social experiment produces identical results",
+      "② the superiority of expensive solutions in every situation",
+      "③ the claim that historical context never matters",
+      "④ physical barriers can suppress demand",
+      "⑤ the complete absence of trade-offs in public decisions"
+    ],
+    "answer": 4,
+    "explanation": "사례의 핵심은 “physical barriers can suppress demand”입니다. 나머지 선택지는 사례의 조건을 무시하거나 과도하게 일반화합니다.",
+    "wrong_explanations": {},
+    "_reviewed": false
+  },
+  {
+    "_qid": "R-0410",
+    "type": "글의 순서",
+    "passage": "A local council published budgets in plain language.\n\n(A) Attendance at public meetings grew as more residents understood the choices being made.\n\n(B) This example suggests that clarity can strengthen public participation.\n\n(C) Accessible explanations made accountability more practical.",
+    "given_sentence": "",
+    "choices": [
+      "① (A)-(B)-(C)",
+      "② (A)-(C)-(B)",
+      "③ (B)-(A)-(C)",
+      "④ (B)-(C)-(A)",
+      "⑤ (C)-(A)-(B)"
+    ],
+    "answer": 2,
+    "explanation": "관찰된 증거를 제시한 뒤 구체적 결과를 설명하고, 마지막에 일반적 함의를 도출하는 순서가 자연스럽습니다.",
+    "wrong_explanations": {},
+    "_reviewed": false
+  },
+  {
+    "_qid": "R-0411",
+    "type": "글의 순서",
+    "passage": "A scientist used old herbarium specimens to study flowering dates.\n\n(A) Collections assembled for one purpose became useful for a new research question.\n\n(B) The records suggested that spring blooms had shifted earlier over many decades.\n\n(C) This example suggests that archived evidence can gain new value over time.",
+    "given_sentence": "",
+    "choices": [
+      "① (A)-(B)-(C)",
+      "② (A)-(C)-(B)",
+      "③ (B)-(C)-(A)",
+      "④ (C)-(A)-(B)",
+      "⑤ (B)-(A)-(C)"
+    ],
+    "answer": 5,
+    "explanation": "관찰된 증거를 제시한 뒤 구체적 결과를 설명하고, 마지막에 일반적 함의를 도출하는 순서가 자연스럽습니다.",
+    "wrong_explanations": {},
+    "_reviewed": false
+  },
+  {
+    "_qid": "R-0412",
+    "type": "글의 순서",
+    "passage": "A bicycle mechanic held free workshops instead of offering only repairs.\n\n(A) This example suggests that empowerment can coexist with commercial success.\n\n(B) The shop built loyalty by sharing knowledge rather than making clients dependent.\n\n(C) Customers gradually learned to perform routine maintenance by themselves.",
+    "given_sentence": "",
+    "choices": [
+      "① (A)-(B)-(C)",
+      "② (A)-(C)-(B)",
+      "③ (C)-(B)-(A)",
+      "④ (B)-(A)-(C)",
+      "⑤ (B)-(C)-(A)"
+    ],
+    "answer": 3,
+    "explanation": "관찰된 증거를 제시한 뒤 구체적 결과를 설명하고, 마지막에 일반적 함의를 도출하는 순서가 자연스럽습니다.",
+    "wrong_explanations": {},
+    "_reviewed": false
+  },
+  {
+    "_qid": "R-0413",
+    "type": "글의 순서",
+    "passage": "An urban planner observed that a shaded street was more popular than a shorter sunny route.\n\n(A) Walkers chose comfort even when it added minutes to their journey.\n\n(B) This example suggests that human preferences complicate simple efficiency measures.\n\n(C) Travel time alone failed to capture what made a route attractive.",
+    "given_sentence": "",
+    "choices": [
+      "① (A)-(C)-(B)",
+      "② (A)-(B)-(C)",
+      "③ (B)-(A)-(C)",
+      "④ (B)-(C)-(A)",
+      "⑤ (C)-(A)-(B)"
+    ],
+    "answer": 1,
+    "explanation": "관찰된 증거를 제시한 뒤 구체적 결과를 설명하고, 마지막에 일반적 함의를 도출하는 순서가 자연스럽습니다.",
+    "wrong_explanations": {},
+    "_reviewed": false
+  },
+  {
+    "_qid": "R-0414",
+    "type": "글의 순서",
+    "passage": "A school used anonymous questions in its science lessons.\n\n(A) The new channel reduced fear of embarrassment without reducing academic standards.\n\n(B) Students who rarely spoke began asking about ideas they had previously concealed.\n\n(C) This example suggests that psychological safety can improve participation.",
+    "given_sentence": "",
+    "choices": [
+      "① (A)-(B)-(C)",
+      "② (A)-(C)-(B)",
+      "③ (B)-(C)-(A)",
+      "④ (B)-(A)-(C)",
+      "⑤ (C)-(A)-(B)"
+    ],
+    "answer": 4,
+    "explanation": "관찰된 증거를 제시한 뒤 구체적 결과를 설명하고, 마지막에 일반적 함의를 도출하는 순서가 자연스럽습니다.",
+    "wrong_explanations": {},
+    "_reviewed": false
+  },
+  {
+    "_qid": "R-0415",
+    "type": "글의 순서",
+    "passage": "An architect renovated a historic theater without removing its original entrance.\n\n(A) This example suggests that preservation and accessibility need not conflict.\n\n(B) The result retained the building’s character while making access more inclusive.\n\n(C) Modern ramps were added alongside existing steps, and audience diversity increased.",
+    "given_sentence": "",
+    "choices": [
+      "① (A)-(B)-(C)",
+      "② (C)-(B)-(A)",
+      "③ (A)-(C)-(B)",
+      "④ (B)-(A)-(C)",
+      "⑤ (B)-(C)-(A)"
+    ],
+    "answer": 2,
+    "explanation": "관찰된 증거를 제시한 뒤 구체적 결과를 설명하고, 마지막에 일반적 함의를 도출하는 순서가 자연스럽습니다.",
+    "wrong_explanations": {},
+    "_reviewed": false
+  },
+  {
+    "_qid": "R-0416",
+    "type": "글의 순서",
+    "passage": "A coastal volunteer group mapped plastic debris after storms.\n\n(A) The largest concentrations appeared near particular drainage outlets.\n\n(B) This example suggests that locating causes is more effective than addressing symptoms alone.\n\n(C) The map directed cleanup efforts toward upstream sources as well as beaches.",
+    "given_sentence": "",
+    "choices": [
+      "① (A)-(B)-(C)",
+      "② (B)-(A)-(C)",
+      "③ (B)-(C)-(A)",
+      "④ (C)-(A)-(B)",
+      "⑤ (A)-(C)-(B)"
+    ],
+    "answer": 5,
+    "explanation": "관찰된 증거를 제시한 뒤 구체적 결과를 설명하고, 마지막에 일반적 함의를 도출하는 순서가 자연스럽습니다.",
+    "wrong_explanations": {},
+    "_reviewed": false
+  },
+  {
+    "_qid": "R-0417",
+    "type": "글의 순서",
+    "passage": "A botanist tested whether tree seedlings survived better in clustered plantings.\n\n(A) Survival depended partly on relationships among plants rather than each plant in isolation.\n\n(B) Groups provided shade and reduced wind exposure to vulnerable saplings.\n\n(C) This example suggests that interdependence can improve resilience.",
+    "given_sentence": "",
+    "choices": [
+      "① (A)-(B)-(C)",
+      "② (A)-(C)-(B)",
+      "③ (B)-(A)-(C)",
+      "④ (B)-(C)-(A)",
+      "⑤ (C)-(A)-(B)"
+    ],
+    "answer": 3,
+    "explanation": "관찰된 증거를 제시한 뒤 구체적 결과를 설명하고, 마지막에 일반적 함의를 도출하는 순서가 자연스럽습니다.",
+    "wrong_explanations": {},
+    "_reviewed": false
+  },
+  {
+    "_qid": "R-0418",
+    "type": "글의 순서",
+    "passage": "A journalist investigated a widely shared photograph.\n\n(A) This example suggests that authentic evidence can still be misleading when misframed.\n\n(B) Checking context changed the interpretation without changing the image itself.\n\n(C) The image was authentic, but its caption described an event that occurred years later.",
+    "given_sentence": "",
+    "choices": [
+      "① (C)-(B)-(A)",
+      "② (A)-(B)-(C)",
+      "③ (A)-(C)-(B)",
+      "④ (B)-(A)-(C)",
+      "⑤ (B)-(C)-(A)"
+    ],
+    "answer": 1,
+    "explanation": "관찰된 증거를 제시한 뒤 구체적 결과를 설명하고, 마지막에 일반적 함의를 도출하는 순서가 자연스럽습니다.",
+    "wrong_explanations": {},
+    "_reviewed": false
+  },
+  {
+    "_qid": "R-0419",
+    "type": "글의 순서",
+    "passage": "A researcher compared students’ confidence with their actual test results.\n\n(A) Those who reviewed their mistakes made more accurate predictions over time.\n\n(B) This example suggests that self-assessment benefits from evidence.\n\n(C) Calibration improved through feedback rather than encouragement alone.",
+    "given_sentence": "",
+    "choices": [
+      "① (A)-(B)-(C)",
+      "② (B)-(A)-(C)",
+      "③ (B)-(C)-(A)",
+      "④ (A)-(C)-(B)",
+      "⑤ (C)-(A)-(B)"
+    ],
+    "answer": 4,
+    "explanation": "관찰된 증거를 제시한 뒤 구체적 결과를 설명하고, 마지막에 일반적 함의를 도출하는 순서가 자연스럽습니다.",
+    "wrong_explanations": {},
+    "_reviewed": false
+  },
+  {
+    "_qid": "R-0420",
+    "type": "글의 순서",
+    "passage": "A village introduced shared electric tools for seasonal maintenance.\n\n(A) The environmental gains came from higher use of each product.\n\n(B) Households purchased fewer rarely used machines while completing the same tasks.\n\n(C) This example suggests that sharing can reduce material consumption.",
+    "given_sentence": "",
+    "choices": [
+      "① (A)-(B)-(C)",
+      "② (B)-(A)-(C)",
+      "③ (A)-(C)-(B)",
+      "④ (B)-(C)-(A)",
+      "⑤ (C)-(A)-(B)"
+    ],
+    "answer": 2,
+    "explanation": "관찰된 증거를 제시한 뒤 구체적 결과를 설명하고, 마지막에 일반적 함의를 도출하는 순서가 자연스럽습니다.",
+    "wrong_explanations": {},
+    "_reviewed": false
+  },
+  {
+    "_qid": "R-0421",
+    "type": "글의 순서",
+    "passage": "A university changed how it displayed scientific uncertainty.\n\n(A) This example suggests that communicating uncertainty can increase understanding.\n\n(B) Readers became better able to distinguish robust findings from open questions.\n\n(C) Instead of one predicted figure, reports showed plausible ranges and assumptions.",
+    "given_sentence": "",
+    "choices": [
+      "① (A)-(B)-(C)",
+      "② (A)-(C)-(B)",
+      "③ (B)-(A)-(C)",
+      "④ (B)-(C)-(A)",
+      "⑤ (C)-(B)-(A)"
+    ],
+    "answer": 5,
+    "explanation": "관찰된 증거를 제시한 뒤 구체적 결과를 설명하고, 마지막에 일반적 함의를 도출하는 순서가 자연스럽습니다.",
+    "wrong_explanations": {},
+    "_reviewed": false
+  },
+  {
+    "_qid": "R-0422",
+    "type": "글의 순서",
+    "passage": "A composer recorded natural sounds at different times of day.\n\n(A) Morning recordings included patterns absent from the evening ones.\n\n(B) This example suggests that art can train attention toward everyday environments.\n\n(C) The musical piece drew attention to changes usually ignored by hurried listeners.",
+    "given_sentence": "",
+    "choices": [
+      "① (A)-(B)-(C)",
+      "② (B)-(A)-(C)",
+      "③ (A)-(C)-(B)",
+      "④ (B)-(C)-(A)",
+      "⑤ (C)-(A)-(B)"
+    ],
+    "answer": 3,
+    "explanation": "관찰된 증거를 제시한 뒤 구체적 결과를 설명하고, 마지막에 일반적 함의를 도출하는 순서가 자연스럽습니다.",
+    "wrong_explanations": {},
+    "_reviewed": false
+  },
+  {
+    "_qid": "R-0423",
+    "type": "글의 순서",
+    "passage": "A local market reserved tables for small producers.\n\n(A) The policy increased variety but required organizers to accept less predictable supply.\n\n(B) Shoppers encountered foods unavailable from the largest distributors.\n\n(C) This example suggests that diversity often involves managing uncertainty.",
+    "given_sentence": "",
+    "choices": [
+      "① (B)-(A)-(C)",
+      "② (A)-(B)-(C)",
+      "③ (A)-(C)-(B)",
+      "④ (B)-(C)-(A)",
+      "⑤ (C)-(A)-(B)"
+    ],
+    "answer": 1,
+    "explanation": "관찰된 증거를 제시한 뒤 구체적 결과를 설명하고, 마지막에 일반적 함의를 도출하는 순서가 자연스럽습니다.",
+    "wrong_explanations": {},
+    "_reviewed": false
+  },
+  {
+    "_qid": "R-0424",
+    "type": "글의 순서",
+    "passage": "A bridge authority posted live wind measurements for cyclists.\n\n(A) This example suggests that useful information supports adaptive decisions.\n\n(B) The information helped them manage a risk rather than eliminating it.\n\n(C) People adjusted departure times instead of abandoning trips entirely.",
+    "given_sentence": "",
+    "choices": [
+      "① (A)-(B)-(C)",
+      "② (A)-(C)-(B)",
+      "③ (B)-(A)-(C)",
+      "④ (C)-(B)-(A)",
+      "⑤ (B)-(C)-(A)"
+    ],
+    "answer": 4,
+    "explanation": "관찰된 증거를 제시한 뒤 구체적 결과를 설명하고, 마지막에 일반적 함의를 도출하는 순서가 자연스럽습니다.",
+    "wrong_explanations": {},
+    "_reviewed": false
+  },
+  {
+    "_qid": "R-0425",
+    "type": "글의 순서",
+    "passage": "A child development team studied cooperative board games.\n\n(A) Children who explained strategies to partners learned more than those who simply won rounds.\n\n(B) This example suggests that learning processes are not captured by outcomes alone.\n\n(C) Discussion revealed reasoning that scores alone could not measure.",
+    "given_sentence": "",
+    "choices": [
+      "① (A)-(B)-(C)",
+      "② (A)-(C)-(B)",
+      "③ (B)-(A)-(C)",
+      "④ (B)-(C)-(A)",
+      "⑤ (C)-(A)-(B)"
+    ],
+    "answer": 2,
+    "explanation": "관찰된 증거를 제시한 뒤 구체적 결과를 설명하고, 마지막에 일반적 함의를 도출하는 순서가 자연스럽습니다.",
+    "wrong_explanations": {},
+    "_reviewed": false
+  },
+  {
+    "_qid": "R-0426",
+    "type": "글의 순서",
+    "passage": "A zoo changed its animal signs from factual labels to questions.\n\n(A) Asking what an animal was doing proved more engaging than simply naming its species.\n\n(B) Visitors spent longer observing behaviors before moving to the next enclosure.\n\n(C) This example suggests that questions can deepen observation.",
+    "given_sentence": "",
+    "choices": [
+      "① (A)-(B)-(C)",
+      "② (A)-(C)-(B)",
+      "③ (B)-(C)-(A)",
+      "④ (C)-(A)-(B)",
+      "⑤ (B)-(A)-(C)"
+    ],
+    "answer": 5,
+    "explanation": "관찰된 증거를 제시한 뒤 구체적 결과를 설명하고, 마지막에 일반적 함의를 도출하는 순서가 자연스럽습니다.",
+    "wrong_explanations": {},
+    "_reviewed": false
+  },
+  {
+    "_qid": "R-0427",
+    "type": "글의 순서",
+    "passage": "A farmer compared compost with chemical fertilizer over several seasons.\n\n(A) This example suggests that evaluation requires appropriate metrics and time frames.\n\n(B) The outcome depended on what was measured and how long the trial lasted.\n\n(C) Short-term yields were similar, but differences in soil structure emerged gradually.",
+    "given_sentence": "",
+    "choices": [
+      "① (A)-(B)-(C)",
+      "② (A)-(C)-(B)",
+      "③ (C)-(B)-(A)",
+      "④ (B)-(A)-(C)",
+      "⑤ (B)-(C)-(A)"
+    ],
+    "answer": 3,
+    "explanation": "관찰된 증거를 제시한 뒤 구체적 결과를 설명하고, 마지막에 일반적 함의를 도출하는 순서가 자연스럽습니다.",
+    "wrong_explanations": {},
+    "_reviewed": false
+  },
+  {
+    "_qid": "R-0428",
+    "type": "글의 목적",
+    "passage": "Dear Residents, the riverside trail will be closed on Tuesday while engineers repair loose railings. Please use the upper path until the safety inspection is complete. We appreciate your patience.",
+    "given_sentence": "",
+    "choices": [
+      "① to inform residents of a temporary trail closure",
+      "② to demand a complete redesign of the city transport network",
+      "③ to explain the scientific causes of climate change",
+      "④ to introduce an unrelated personal travel experience",
+      "⑤ to advertise a commercial product without any request"
+    ],
+    "answer": 1,
+    "explanation": "발신인이 수신자에게 직접 요청하거나 알리는 핵심은 “to inform residents of a temporary trail closure”입니다.",
+    "wrong_explanations": {},
+    "_reviewed": false
+  },
+  {
+    "_qid": "R-0429",
+    "type": "글의 목적",
+    "passage": "Dear Festival Committee, I am writing to request a stall at next month’s local food fair. Our cooperative grows herbs within the town, and we would like to demonstrate how they can be used in cooking.",
+    "given_sentence": "",
+    "choices": [
+      "① to demand a complete redesign of the city transport network",
+      "② to explain the scientific causes of climate change",
+      "③ to introduce an unrelated personal travel experience",
+      "④ to apply for a stall at a food fair",
+      "⑤ to advertise a commercial product without any request"
+    ],
+    "answer": 4,
+    "explanation": "발신인이 수신자에게 직접 요청하거나 알리는 핵심은 “to apply for a stall at a food fair”입니다.",
+    "wrong_explanations": {},
+    "_reviewed": false
+  },
+  {
+    "_qid": "R-0430",
+    "type": "글의 목적",
+    "passage": "Dear Customer Service Team, my museum membership renewal was charged twice on the same day. I have attached both receipts and would appreciate a refund of the duplicate payment.",
+    "given_sentence": "",
+    "choices": [
+      "① to demand a complete redesign of the city transport network",
+      "② to request a refund for a duplicate charge",
+      "③ to explain the scientific causes of climate change",
+      "④ to introduce an unrelated personal travel experience",
+      "⑤ to advertise a commercial product without any request"
+    ],
+    "answer": 2,
+    "explanation": "발신인이 수신자에게 직접 요청하거나 알리는 핵심은 “to request a refund for a duplicate charge”입니다.",
+    "wrong_explanations": {},
+    "_reviewed": false
+  },
+  {
+    "_qid": "R-0431",
+    "type": "글의 목적",
+    "passage": "To all volunteers: the beach survey begins at 8 a.m. on Saturday. Please bring gloves and record the location of each collected sample. An orientation will be held at the entrance.",
+    "given_sentence": "",
+    "choices": [
+      "① to demand a complete redesign of the city transport network",
+      "② to explain the scientific causes of climate change",
+      "③ to introduce an unrelated personal travel experience",
+      "④ to advertise a commercial product without any request",
+      "⑤ to give instructions for a volunteer survey"
+    ],
+    "answer": 5,
+    "explanation": "발신인이 수신자에게 직접 요청하거나 알리는 핵심은 “to give instructions for a volunteer survey”입니다.",
+    "wrong_explanations": {},
+    "_reviewed": false
+  },
+  {
+    "_qid": "R-0432",
+    "type": "글의 목적",
+    "passage": "Dear Director, thank you for allowing our students to use the observatory last week. The astronomers patiently explained the telescope and made the visit memorable.",
+    "given_sentence": "",
+    "choices": [
+      "① to demand a complete redesign of the city transport network",
+      "② to explain the scientific causes of climate change",
+      "③ to express appreciation for an educational visit",
+      "④ to introduce an unrelated personal travel experience",
+      "⑤ to advertise a commercial product without any request"
+    ],
+    "answer": 3,
+    "explanation": "발신인이 수신자에게 직접 요청하거나 알리는 핵심은 “to express appreciation for an educational visit”입니다.",
+    "wrong_explanations": {},
+    "_reviewed": false
+  },
+  {
+    "_qid": "R-0433",
+    "type": "글의 목적",
+    "passage": "Dear Library Team, could you consider adding a quiet study area on the second floor? Many visitors need a space for concentrated work, especially during examination weeks.",
+    "given_sentence": "",
+    "choices": [
+      "① to propose a quiet study area in the library",
+      "② to demand a complete redesign of the city transport network",
+      "③ to explain the scientific causes of climate change",
+      "④ to introduce an unrelated personal travel experience",
+      "⑤ to advertise a commercial product without any request"
+    ],
+    "answer": 1,
+    "explanation": "발신인이 수신자에게 직접 요청하거나 알리는 핵심은 “to propose a quiet study area in the library”입니다.",
+    "wrong_explanations": {},
+    "_reviewed": false
+  },
+  {
+    "_qid": "R-0434",
+    "type": "글의 목적",
+    "passage": "Dear Applicants, because of an unexpected power outage, tomorrow’s interviews will take place in the annex rather than the main building. Your appointment times remain unchanged.",
+    "given_sentence": "",
+    "choices": [
+      "① to demand a complete redesign of the city transport network",
+      "② to explain the scientific causes of climate change",
+      "③ to introduce an unrelated personal travel experience",
+      "④ to announce a change of interview location",
+      "⑤ to advertise a commercial product without any request"
+    ],
+    "answer": 4,
+    "explanation": "발신인이 수신자에게 직접 요청하거나 알리는 핵심은 “to announce a change of interview location”입니다.",
+    "wrong_explanations": {},
+    "_reviewed": false
+  },
+  {
+    "_qid": "R-0435",
+    "type": "글의 목적",
+    "passage": "Dear Workshop Leader, I registered for the photography course but must travel for work on the scheduled date. Is it possible to transfer my registration to the following session?",
+    "given_sentence": "",
+    "choices": [
+      "① to demand a complete redesign of the city transport network",
+      "② to request a change of workshop date",
+      "③ to explain the scientific causes of climate change",
+      "④ to introduce an unrelated personal travel experience",
+      "⑤ to advertise a commercial product without any request"
+    ],
+    "answer": 2,
+    "explanation": "발신인이 수신자에게 직접 요청하거나 알리는 핵심은 “to request a change of workshop date”입니다.",
+    "wrong_explanations": {},
+    "_reviewed": false
+  },
+  {
+    "_qid": "R-0436",
+    "type": "글의 목적",
+    "passage": "Dear Neighbors, we are gathering signatures to preserve the old market hall. The building can be renovated for community use rather than demolished. Please attend the public meeting on Thursday.",
+    "given_sentence": "",
+    "choices": [
+      "① to demand a complete redesign of the city transport network",
+      "② to explain the scientific causes of climate change",
+      "③ to introduce an unrelated personal travel experience",
+      "④ to advertise a commercial product without any request",
+      "⑤ to encourage support for preserving a public building"
+    ],
+    "answer": 5,
+    "explanation": "발신인이 수신자에게 직접 요청하거나 알리는 핵심은 “to encourage support for preserving a public building”입니다.",
+    "wrong_explanations": {},
+    "_reviewed": false
+  },
+  {
+    "_qid": "R-0437",
+    "type": "글의 목적",
+    "passage": "Dear Guests, the hotel pool will undergo maintenance for three days next week. The fitness room and garden will remain available, and we apologize for the inconvenience.",
+    "given_sentence": "",
+    "choices": [
+      "① to demand a complete redesign of the city transport network",
+      "② to explain the scientific causes of climate change",
+      "③ to notify guests of temporary pool maintenance",
+      "④ to introduce an unrelated personal travel experience",
+      "⑤ to advertise a commercial product without any request"
+    ],
+    "answer": 3,
+    "explanation": "발신인이 수신자에게 직접 요청하거나 알리는 핵심은 “to notify guests of temporary pool maintenance”입니다.",
+    "wrong_explanations": {},
+    "_reviewed": false
+  },
+  {
+    "_qid": "R-0438",
+    "type": "글의 목적",
+    "passage": "Dear Editor, your recent article described our town’s bridge as permanently closed. The bridge is open to pedestrians, although vehicles are restricted. Could you publish a correction?",
+    "given_sentence": "",
+    "choices": [
+      "① to request correction of inaccurate information",
+      "② to demand a complete redesign of the city transport network",
+      "③ to explain the scientific causes of climate change",
+      "④ to introduce an unrelated personal travel experience",
+      "⑤ to advertise a commercial product without any request"
+    ],
+    "answer": 1,
+    "explanation": "발신인이 수신자에게 직접 요청하거나 알리는 핵심은 “to request correction of inaccurate information”입니다.",
+    "wrong_explanations": {},
+    "_reviewed": false
+  },
+  {
+    "_qid": "R-0439",
+    "type": "글의 목적",
+    "passage": "Dear Participants, please submit your poster titles by Friday so the exhibition guide can be printed. Late submissions may not appear in the program.",
+    "given_sentence": "",
+    "choices": [
+      "① to demand a complete redesign of the city transport network",
+      "② to explain the scientific causes of climate change",
+      "③ to introduce an unrelated personal travel experience",
+      "④ to remind participants of a submission deadline",
+      "⑤ to advertise a commercial product without any request"
+    ],
+    "answer": 4,
+    "explanation": "발신인이 수신자에게 직접 요청하거나 알리는 핵심은 “to remind participants of a submission deadline”입니다.",
+    "wrong_explanations": {},
+    "_reviewed": false
+  },
+  {
+    "_qid": "R-0440",
+    "type": "글의 목적",
+    "passage": "Dear Council Members, the new bus timetable leaves hospital staff without transport after evening shifts. I urge the council to restore one late service.",
+    "given_sentence": "",
+    "choices": [
+      "① to demand a complete redesign of the city transport network",
+      "② to persuade the council to restore a late bus service",
+      "③ to explain the scientific causes of climate change",
+      "④ to introduce an unrelated personal travel experience",
+      "⑤ to advertise a commercial product without any request"
+    ],
+    "answer": 2,
+    "explanation": "발신인이 수신자에게 직접 요청하거나 알리는 핵심은 “to persuade the council to restore a late bus service”입니다.",
+    "wrong_explanations": {},
+    "_reviewed": false
+  },
+  {
+    "_qid": "R-0441",
+    "type": "글의 목적",
+    "passage": "Dear Research Coordinator, I would like to withdraw from the study because my schedule has changed. Please confirm that my decision will not affect access to ordinary services.",
+    "given_sentence": "",
+    "choices": [
+      "① to demand a complete redesign of the city transport network",
+      "② to explain the scientific causes of climate change",
+      "③ to introduce an unrelated personal travel experience",
+      "④ to advertise a commercial product without any request",
+      "⑤ to request withdrawal from a research study"
+    ],
+    "answer": 5,
+    "explanation": "발신인이 수신자에게 직접 요청하거나 알리는 핵심은 “to request withdrawal from a research study”입니다.",
+    "wrong_explanations": {},
+    "_reviewed": false
+  },
+  {
+    "_qid": "R-0442",
+    "type": "글의 목적",
+    "passage": "Dear Visitor, we found a blue notebook near the east gallery yesterday. If it belongs to you, please describe its contents when contacting the reception desk.",
+    "given_sentence": "",
+    "choices": [
+      "① to demand a complete redesign of the city transport network",
+      "② to explain the scientific causes of climate change",
+      "③ to help the owner recover a lost notebook",
+      "④ to introduce an unrelated personal travel experience",
+      "⑤ to advertise a commercial product without any request"
+    ],
+    "answer": 3,
+    "explanation": "발신인이 수신자에게 직접 요청하거나 알리는 핵심은 “to help the owner recover a lost notebook”입니다.",
+    "wrong_explanations": {},
+    "_reviewed": false
+  },
+  {
+    "_qid": "R-0443",
+    "type": "글의 목적",
+    "passage": "Dear Organizer, I can no longer deliver the opening talk at the conference. I apologize for the short notice and can suggest another speaker with relevant expertise.",
+    "given_sentence": "",
+    "choices": [
+      "① to decline a previously accepted speaking engagement",
+      "② to demand a complete redesign of the city transport network",
+      "③ to explain the scientific causes of climate change",
+      "④ to introduce an unrelated personal travel experience",
+      "⑤ to advertise a commercial product without any request"
+    ],
+    "answer": 1,
+    "explanation": "발신인이 수신자에게 직접 요청하거나 알리는 핵심은 “to decline a previously accepted speaking engagement”입니다.",
+    "wrong_explanations": {},
+    "_reviewed": false
+  },
+  {
+    "_qid": "R-0444",
+    "type": "심경 추론",
+    "passage": "Maya entered the audition room with trembling hands. Halfway through, she missed a note but continued playing. When the judges smiled and invited her to the final round, she could hardly stop grinning.",
+    "given_sentence": "",
+    "choices": [
+      "① confident → indifferent",
+      "② bored → irritated",
+      "③ hostile → contemptuous",
+      "④ nervous → relieved and delighted",
+      "⑤ amused → suspicious"
+    ],
+    "answer": 4,
+    "explanation": "사건 이전과 이후에 묘사된 표정·행동이 “nervous → relieved and delighted”의 흐름을 뒷받침합니다.",
+    "wrong_explanations": {},
+    "_reviewed": false
+  },
+  {
+    "_qid": "R-0445",
+    "type": "심경 추론",
+    "passage": "Jon watched his small boat drift away from the dock. He searched for a rope but found none. Minutes later, a harbor worker secured the boat and returned it safely.",
+    "given_sentence": "",
+    "choices": [
+      "① confident → indifferent",
+      "② alarmed → relieved",
+      "③ bored → irritated",
+      "④ hostile → contemptuous",
+      "⑤ amused → suspicious"
+    ],
+    "answer": 2,
+    "explanation": "사건 이전과 이후에 묘사된 표정·행동이 “alarmed → relieved”의 흐름을 뒷받침합니다.",
+    "wrong_explanations": {},
+    "_reviewed": false
+  },
+  {
+    "_qid": "R-0446",
+    "type": "심경 추론",
+    "passage": "Sora opened the envelope expecting acceptance into the art program. Instead she read a rejection letter. After a quiet evening, she began outlining a new portfolio.",
+    "given_sentence": "",
+    "choices": [
+      "① confident → indifferent",
+      "② bored → irritated",
+      "③ hostile → contemptuous",
+      "④ amused → suspicious",
+      "⑤ disappointed → determined"
+    ],
+    "answer": 5,
+    "explanation": "사건 이전과 이후에 묘사된 표정·행동이 “disappointed → determined”의 흐름을 뒷받침합니다.",
+    "wrong_explanations": {},
+    "_reviewed": false
+  },
+  {
+    "_qid": "R-0447",
+    "type": "심경 추론",
+    "passage": "An elderly gardener saw his seedlings flattened by rain. He sighed and gathered the broken trays. The next morning neighbors arrived with spare plants, and his eyes filled with tears.",
+    "given_sentence": "",
+    "choices": [
+      "① confident → indifferent",
+      "② bored → irritated",
+      "③ discouraged → touched",
+      "④ hostile → contemptuous",
+      "⑤ amused → suspicious"
+    ],
+    "answer": 3,
+    "explanation": "사건 이전과 이후에 묘사된 표정·행동이 “discouraged → touched”의 흐름을 뒷받침합니다.",
+    "wrong_explanations": {},
+    "_reviewed": false
+  },
+  {
+    "_qid": "R-0448",
+    "type": "심경 추론",
+    "passage": "A guide stood before a group on the first morning of a difficult hike. She worried about the sudden fog. As the clouds cleared and everyone followed instructions, her shoulders relaxed.",
+    "given_sentence": "",
+    "choices": [
+      "① anxious → reassured",
+      "② confident → indifferent",
+      "③ bored → irritated",
+      "④ hostile → contemptuous",
+      "⑤ amused → suspicious"
+    ],
+    "answer": 1,
+    "explanation": "사건 이전과 이후에 묘사된 표정·행동이 “anxious → reassured”의 흐름을 뒷받침합니다.",
+    "wrong_explanations": {},
+    "_reviewed": false
+  },
+  {
+    "_qid": "R-0449",
+    "type": "심경 추론",
+    "passage": "Luis had spent months repairing a radio. When it finally played his grandmother’s favorite station, he laughed in disbelief and ran to tell her.",
+    "given_sentence": "",
+    "choices": [
+      "① confident → indifferent",
+      "② bored → irritated",
+      "③ hostile → contemptuous",
+      "④ doubtful → joyful",
+      "⑤ amused → suspicious"
+    ],
+    "answer": 4,
+    "explanation": "사건 이전과 이후에 묘사된 표정·행동이 “doubtful → joyful”의 흐름을 뒷받침합니다.",
+    "wrong_explanations": {},
+    "_reviewed": false
+  },
+  {
+    "_qid": "R-0450",
+    "type": "심경 추론",
+    "passage": "Nina arrived at the station certain she had missed her train. She saw the platform clock and hurried toward the empty track. Then an announcement said the departure was delayed.",
+    "given_sentence": "",
+    "choices": [
+      "① confident → indifferent",
+      "② panicked → relieved",
+      "③ bored → irritated",
+      "④ hostile → contemptuous",
+      "⑤ amused → suspicious"
+    ],
+    "answer": 2,
+    "explanation": "사건 이전과 이후에 묘사된 표정·행동이 “panicked → relieved”의 흐름을 뒷받침합니다.",
+    "wrong_explanations": {},
+    "_reviewed": false
+  },
+  {
+    "_qid": "R-0451",
+    "type": "심경 추론",
+    "passage": "A student looked at his first draft covered with comments. He pushed it aside in frustration. Later he saw how each suggestion made the argument clearer and thanked his teacher.",
+    "given_sentence": "",
+    "choices": [
+      "① confident → indifferent",
+      "② bored → irritated",
+      "③ hostile → contemptuous",
+      "④ amused → suspicious",
+      "⑤ frustrated → appreciative"
+    ],
+    "answer": 5,
+    "explanation": "사건 이전과 이후에 묘사된 표정·행동이 “frustrated → appreciative”의 흐름을 뒷받침합니다.",
+    "wrong_explanations": {},
+    "_reviewed": false
+  },
+  {
+    "_qid": "R-0452",
+    "type": "심경 추론",
+    "passage": "Ravi stepped onto a stage to receive a community award. He noticed former classmates cheering for him. His voice shook as he thanked everyone who had supported the project.",
+    "given_sentence": "",
+    "choices": [
+      "① confident → indifferent",
+      "② bored → irritated",
+      "③ surprised → grateful",
+      "④ hostile → contemptuous",
+      "⑤ amused → suspicious"
+    ],
+    "answer": 3,
+    "explanation": "사건 이전과 이후에 묘사된 표정·행동이 “surprised → grateful”의 흐름을 뒷받침합니다.",
+    "wrong_explanations": {},
+    "_reviewed": false
+  },
+  {
+    "_qid": "R-0453",
+    "type": "심경 추론",
+    "passage": "An artist examined a damaged painting after transport. She feared the exhibition was ruined. Conservators explained that the scratch affected only the removable protective layer.",
+    "given_sentence": "",
+    "choices": [
+      "① distressed → reassured",
+      "② confident → indifferent",
+      "③ bored → irritated",
+      "④ hostile → contemptuous",
+      "⑤ amused → suspicious"
+    ],
+    "answer": 1,
+    "explanation": "사건 이전과 이후에 묘사된 표정·행동이 “distressed → reassured”의 흐름을 뒷받침합니다.",
+    "wrong_explanations": {},
+    "_reviewed": false
+  },
+  {
+    "_qid": "R-0454",
+    "type": "심경 추론",
+    "passage": "Hana listened as her team rejected her design. She was silent at first. When a colleague offered to combine its best feature with a new plan, she eagerly reopened her notebook.",
+    "given_sentence": "",
+    "choices": [
+      "① confident → indifferent",
+      "② bored → irritated",
+      "③ hostile → contemptuous",
+      "④ hurt → hopeful",
+      "⑤ amused → suspicious"
+    ],
+    "answer": 4,
+    "explanation": "사건 이전과 이후에 묘사된 표정·행동이 “hurt → hopeful”의 흐름을 뒷받침합니다.",
+    "wrong_explanations": {},
+    "_reviewed": false
+  },
+  {
+    "_qid": "R-0455",
+    "type": "심경 추론",
+    "passage": "A child waited outside the veterinary clinic while her dog was examined. She paced the corridor. At last the veterinarian said the injury would heal with rest.",
+    "given_sentence": "",
+    "choices": [
+      "① confident → indifferent",
+      "② worried → relieved",
+      "③ bored → irritated",
+      "④ hostile → contemptuous",
+      "⑤ amused → suspicious"
+    ],
+    "answer": 2,
+    "explanation": "사건 이전과 이후에 묘사된 표정·행동이 “worried → relieved”의 흐름을 뒷받침합니다.",
+    "wrong_explanations": {},
+    "_reviewed": false
+  },
+  {
+    "_qid": "R-0456",
+    "type": "심경 추론",
+    "passage": "A runner fell behind during the first half of a race. She nearly gave up, but the crowd’s encouragement helped her finish strongly. She crossed the line smiling despite the time.",
+    "given_sentence": "",
+    "choices": [
+      "① confident → indifferent",
+      "② bored → irritated",
+      "③ hostile → contemptuous",
+      "④ amused → suspicious",
+      "⑤ discouraged → proud"
+    ],
+    "answer": 5,
+    "explanation": "사건 이전과 이후에 묘사된 표정·행동이 “discouraged → proud”의 흐름을 뒷받침합니다.",
+    "wrong_explanations": {},
+    "_reviewed": false
+  },
+  {
+    "_qid": "R-0457",
+    "type": "심경 추론",
+    "passage": "An archivist thought the final page of a rare diary had been lost. He searched several boxes and discovered it inside another volume. He stared at the page with disbelief and satisfaction.",
+    "given_sentence": "",
+    "choices": [
+      "① confident → indifferent",
+      "② bored → irritated",
+      "③ concerned → delighted",
+      "④ hostile → contemptuous",
+      "⑤ amused → suspicious"
+    ],
+    "answer": 3,
+    "explanation": "사건 이전과 이후에 묘사된 표정·행동이 “concerned → delighted”의 흐름을 뒷받침합니다.",
+    "wrong_explanations": {},
+    "_reviewed": false
+  },
+  {
+    "_qid": "R-0458",
+    "type": "필자의 주장",
+    "passage": "A town cannot solve heat problems by installing more air conditioners alone. Buildings also need shade, insulation, and public cooling spaces because the burden falls unequally on residents.",
+    "given_sentence": "",
+    "choices": [
+      "① cities should adopt several complementary responses to extreme heat",
+      "② all decisions should be based solely on the cheapest available option",
+      "③ complex public problems should be ignored until they disappear",
+      "④ individuals should never question the judgments of professionals",
+      "⑤ short-term popularity is the only legitimate measure of policy success"
+    ],
+    "answer": 1,
+    "explanation": "필자가 제안한 행동은 “cities should adopt several complementary responses to extreme heat”입니다. 나머지는 논지와 어긋나는 극단적 주장입니다.",
+    "wrong_explanations": {},
+    "_reviewed": false
+  },
+  {
+    "_qid": "R-0459",
+    "type": "필자의 주장",
+    "passage": "Schools should not ban every digital device automatically. They should teach students when technology supports inquiry and when it distracts, then establish clear rules.",
+    "given_sentence": "",
+    "choices": [
+      "① all decisions should be based solely on the cheapest available option",
+      "② complex public problems should be ignored until they disappear",
+      "③ individuals should never question the judgments of professionals",
+      "④ schools should teach responsible technology use rather than impose indiscriminate bans",
+      "⑤ short-term popularity is the only legitimate measure of policy success"
+    ],
+    "answer": 4,
+    "explanation": "필자가 제안한 행동은 “schools should teach responsible technology use rather than impose indiscriminate bans”입니다. 나머지는 논지와 어긋나는 극단적 주장입니다.",
+    "wrong_explanations": {},
+    "_reviewed": false
+  },
+  {
+    "_qid": "R-0460",
+    "type": "필자의 주장",
+    "passage": "A museum should provide captions in plain language alongside technical descriptions. Expertise is valuable only when visitors can connect it to what they see.",
+    "given_sentence": "",
+    "choices": [
+      "① all decisions should be based solely on the cheapest available option",
+      "② museums should make expert knowledge accessible to nonspecialists",
+      "③ complex public problems should be ignored until they disappear",
+      "④ individuals should never question the judgments of professionals",
+      "⑤ short-term popularity is the only legitimate measure of policy success"
+    ],
+    "answer": 2,
+    "explanation": "필자가 제안한 행동은 “museums should make expert knowledge accessible to nonspecialists”입니다. 나머지는 논지와 어긋나는 극단적 주장입니다.",
+    "wrong_explanations": {},
+    "_reviewed": false
+  },
+  {
+    "_qid": "R-0461",
+    "type": "필자의 주장",
+    "passage": "Local governments must protect walking routes during street repairs. A project that improves roads for drivers but leaves pedestrians in danger is not genuinely successful.",
+    "given_sentence": "",
+    "choices": [
+      "① all decisions should be based solely on the cheapest available option",
+      "② complex public problems should be ignored until they disappear",
+      "③ individuals should never question the judgments of professionals",
+      "④ short-term popularity is the only legitimate measure of policy success",
+      "⑤ road projects should maintain safe pedestrian access"
+    ],
+    "answer": 5,
+    "explanation": "필자가 제안한 행동은 “road projects should maintain safe pedestrian access”입니다. 나머지는 논지와 어긋나는 극단적 주장입니다.",
+    "wrong_explanations": {},
+    "_reviewed": false
+  },
+  {
+    "_qid": "R-0462",
+    "type": "필자의 주장",
+    "passage": "An organization should publish not only the outcomes of an experiment but also the uncertainty and limitations. Otherwise readers may mistake tentative findings for settled facts.",
+    "given_sentence": "",
+    "choices": [
+      "① all decisions should be based solely on the cheapest available option",
+      "② complex public problems should be ignored until they disappear",
+      "③ research communication should disclose uncertainty and limitations",
+      "④ individuals should never question the judgments of professionals",
+      "⑤ short-term popularity is the only legitimate measure of policy success"
+    ],
+    "answer": 3,
+    "explanation": "필자가 제안한 행동은 “research communication should disclose uncertainty and limitations”입니다. 나머지는 논지와 어긋나는 극단적 주장입니다.",
+    "wrong_explanations": {},
+    "_reviewed": false
+  },
+  {
+    "_qid": "R-0463",
+    "type": "필자의 주장",
+    "passage": "Companies that sell repairable products can reduce waste and build trust. Instead of discouraging maintenance, manufacturers should make replacement parts and instructions accessible.",
+    "given_sentence": "",
+    "choices": [
+      "① manufacturers should support product repairability",
+      "② all decisions should be based solely on the cheapest available option",
+      "③ complex public problems should be ignored until they disappear",
+      "④ individuals should never question the judgments of professionals",
+      "⑤ short-term popularity is the only legitimate measure of policy success"
+    ],
+    "answer": 1,
+    "explanation": "필자가 제안한 행동은 “manufacturers should support product repairability”입니다. 나머지는 논지와 어긋나는 극단적 주장입니다.",
+    "wrong_explanations": {},
+    "_reviewed": false
+  },
+  {
+    "_qid": "R-0464",
+    "type": "필자의 주장",
+    "passage": "A school garden must not be evaluated solely by the weight of vegetables harvested. Its contribution to science learning and cooperation deserves equal consideration.",
+    "given_sentence": "",
+    "choices": [
+      "① all decisions should be based solely on the cheapest available option",
+      "② complex public problems should be ignored until they disappear",
+      "③ individuals should never question the judgments of professionals",
+      "④ school gardens should be assessed for educational and social benefits",
+      "⑤ short-term popularity is the only legitimate measure of policy success"
+    ],
+    "answer": 4,
+    "explanation": "필자가 제안한 행동은 “school gardens should be assessed for educational and social benefits”입니다. 나머지는 논지와 어긋나는 극단적 주장입니다.",
+    "wrong_explanations": {},
+    "_reviewed": false
+  },
+  {
+    "_qid": "R-0465",
+    "type": "필자의 주장",
+    "passage": "Urban rivers need flood defenses, but solid barriers are not the only option. Restored wetlands and permeable surfaces can absorb water while supporting wildlife.",
+    "given_sentence": "",
+    "choices": [
+      "① all decisions should be based solely on the cheapest available option",
+      "② flood policy should include nature-based solutions",
+      "③ complex public problems should be ignored until they disappear",
+      "④ individuals should never question the judgments of professionals",
+      "⑤ short-term popularity is the only legitimate measure of policy success"
+    ],
+    "answer": 2,
+    "explanation": "필자가 제안한 행동은 “flood policy should include nature-based solutions”입니다. 나머지는 논지와 어긋나는 극단적 주장입니다.",
+    "wrong_explanations": {},
+    "_reviewed": false
+  },
+  {
+    "_qid": "R-0466",
+    "type": "필자의 주장",
+    "passage": "Reading programs should offer a variety of genres rather than one compulsory list. Choice can encourage exploration while maintaining common expectations for discussion.",
+    "given_sentence": "",
+    "choices": [
+      "① all decisions should be based solely on the cheapest available option",
+      "② complex public problems should be ignored until they disappear",
+      "③ individuals should never question the judgments of professionals",
+      "④ short-term popularity is the only legitimate measure of policy success",
+      "⑤ reading programs should combine student choice with academic rigor"
+    ],
+    "answer": 5,
+    "explanation": "필자가 제안한 행동은 “reading programs should combine student choice with academic rigor”입니다. 나머지는 논지와 어긋나는 극단적 주장입니다.",
+    "wrong_explanations": {},
+    "_reviewed": false
+  },
+  {
+    "_qid": "R-0467",
+    "type": "필자의 주장",
+    "passage": "Managers ought to invite criticism before major decisions become irreversible. Employees who fear negative consequences will hide problems until correction is expensive.",
+    "given_sentence": "",
+    "choices": [
+      "① all decisions should be based solely on the cheapest available option",
+      "② complex public problems should be ignored until they disappear",
+      "③ organizations should create safe channels for early criticism",
+      "④ individuals should never question the judgments of professionals",
+      "⑤ short-term popularity is the only legitimate measure of policy success"
+    ],
+    "answer": 3,
+    "explanation": "필자가 제안한 행동은 “organizations should create safe channels for early criticism”입니다. 나머지는 논지와 어긋나는 극단적 주장입니다.",
+    "wrong_explanations": {},
+    "_reviewed": false
+  },
+  {
+    "_qid": "R-0468",
+    "type": "필자의 주장",
+    "passage": "Historical preservation should not leave important buildings unusable. Renovation can protect meaningful features while accommodating accessibility and energy efficiency.",
+    "given_sentence": "",
+    "choices": [
+      "① historic preservation should allow carefully designed adaptation",
+      "② all decisions should be based solely on the cheapest available option",
+      "③ complex public problems should be ignored until they disappear",
+      "④ individuals should never question the judgments of professionals",
+      "⑤ short-term popularity is the only legitimate measure of policy success"
+    ],
+    "answer": 1,
+    "explanation": "필자가 제안한 행동은 “historic preservation should allow carefully designed adaptation”입니다. 나머지는 논지와 어긋나는 극단적 주장입니다.",
+    "wrong_explanations": {},
+    "_reviewed": false
+  },
+  {
+    "_qid": "R-0469",
+    "type": "필자의 주장",
+    "passage": "Public health announcements should explain actions in the languages people actually use. A technically accurate notice is ineffective when its audience cannot understand it.",
+    "given_sentence": "",
+    "choices": [
+      "① all decisions should be based solely on the cheapest available option",
+      "② complex public problems should be ignored until they disappear",
+      "③ individuals should never question the judgments of professionals",
+      "④ public health messages should be accessible to diverse language communities",
+      "⑤ short-term popularity is the only legitimate measure of policy success"
+    ],
+    "answer": 4,
+    "explanation": "필자가 제안한 행동은 “public health messages should be accessible to diverse language communities”입니다. 나머지는 논지와 어긋나는 극단적 주장입니다.",
+    "wrong_explanations": {},
+    "_reviewed": false
+  },
+  {
+    "_qid": "R-0470",
+    "type": "필자의 주장",
+    "passage": "Scientists must examine how data were collected before comparing numbers from different studies. Changes in definitions may look like changes in the world.",
+    "given_sentence": "",
+    "choices": [
+      "① all decisions should be based solely on the cheapest available option",
+      "② researchers should verify comparability of measurements",
+      "③ complex public problems should be ignored until they disappear",
+      "④ individuals should never question the judgments of professionals",
+      "⑤ short-term popularity is the only legitimate measure of policy success"
+    ],
+    "answer": 2,
+    "explanation": "필자가 제안한 행동은 “researchers should verify comparability of measurements”입니다. 나머지는 논지와 어긋나는 극단적 주장입니다.",
+    "wrong_explanations": {},
+    "_reviewed": false
+  },
+  {
+    "_qid": "R-0471",
+    "type": "필자의 주장",
+    "passage": "Cities should invest in comfortable bus stops as well as more buses. A service is less appealing if passengers must wait without shade, seating, or information.",
+    "given_sentence": "",
+    "choices": [
+      "① all decisions should be based solely on the cheapest available option",
+      "② complex public problems should be ignored until they disappear",
+      "③ individuals should never question the judgments of professionals",
+      "④ short-term popularity is the only legitimate measure of policy success",
+      "⑤ transit planning should improve the full passenger experience"
+    ],
+    "answer": 5,
+    "explanation": "필자가 제안한 행동은 “transit planning should improve the full passenger experience”입니다. 나머지는 논지와 어긋나는 극단적 주장입니다.",
+    "wrong_explanations": {},
+    "_reviewed": false
+  },
+  {
+    "_qid": "R-0472",
+    "type": "필자의 주장",
+    "passage": "Community arts programs should involve residents in designing events. Decisions made entirely by outsiders risk overlooking local interests and traditions.",
+    "given_sentence": "",
+    "choices": [
+      "① all decisions should be based solely on the cheapest available option",
+      "② complex public problems should be ignored until they disappear",
+      "③ local communities should participate in arts programming",
+      "④ individuals should never question the judgments of professionals",
+      "⑤ short-term popularity is the only legitimate measure of policy success"
+    ],
+    "answer": 3,
+    "explanation": "필자가 제안한 행동은 “local communities should participate in arts programming”입니다. 나머지는 논지와 어긋나는 극단적 주장입니다.",
+    "wrong_explanations": {},
+    "_reviewed": false
+  },
+  {
+    "_qid": "R-0473",
+    "type": "필자의 주장",
+    "passage": "Online services must offer alternatives for people who cannot use smartphones. Convenience for many should not become exclusion for others.",
+    "given_sentence": "",
+    "choices": [
+      "① essential services should preserve non-digital access",
+      "② all decisions should be based solely on the cheapest available option",
+      "③ complex public problems should be ignored until they disappear",
+      "④ individuals should never question the judgments of professionals",
+      "⑤ short-term popularity is the only legitimate measure of policy success"
+    ],
+    "answer": 1,
+    "explanation": "필자가 제안한 행동은 “essential services should preserve non-digital access”입니다. 나머지는 논지와 어긋나는 극단적 주장입니다.",
+    "wrong_explanations": {},
+    "_reviewed": false
+  },
+  {
+    "_qid": "R-0474",
+    "type": "제목 추론",
+    "passage": "A transit agency moved its bus maps to street level. Travelers who struggled to find connections navigated more easily afterward. The same information became more useful when placed at the moment of decision. Understanding this result requires looking beyond the most visible feature of the case.",
+    "given_sentence": "",
+    "choices": [
+      "① When More Spending Guarantees Better Outcomes",
+      "② Why Historical Evidence Should Always Be Ignored",
+      "③ The End of Cooperation in Modern Communities",
+      "④ Information design matters as much as information content",
+      "⑤ A Single Measurement Explains Everything"
+    ],
+    "answer": 4,
+    "explanation": "글의 전체 과정을 포괄하면서 지나치게 단정하지 않는 제목을 선택해야 합니다.",
+    "wrong_explanations": {},
+    "_reviewed": false
+  },
+  {
+    "_qid": "R-0475",
+    "type": "제목 추론",
+    "passage": "A historian explored letters written by ordinary sailors. They discussed food, illness, and family as much as grand voyages. The letters complicated official accounts focused solely on exploration and trade. Understanding this result requires looking beyond the most visible feature of the case. The observation becomes more meaningful when its broader implications are taken into account.",
+    "given_sentence": "",
+    "choices": [
+      "① When More Spending Guarantees Better Outcomes",
+      "② Everyday voices can reshape historical narratives",
+      "③ Why Historical Evidence Should Always Be Ignored",
+      "④ The End of Cooperation in Modern Communities",
+      "⑤ A Single Measurement Explains Everything"
+    ],
+    "answer": 2,
+    "explanation": "글의 전체 과정을 포괄하면서 지나치게 단정하지 않는 제목을 선택해야 합니다.",
+    "wrong_explanations": {},
+    "_reviewed": false
+  },
+  {
+    "_qid": "R-0476",
+    "type": "제목 추론",
+    "passage": "A school invited students to propose energy-saving ideas. They identified lights left on in empty rooms and organized a monitoring plan. The success depended on their ability to act, not just their awareness of the problem. Understanding this result requires looking beyond the most visible feature of the case. The observation becomes more meaningful when its broader implications are taken into account.",
+    "given_sentence": "",
+    "choices": [
+      "① When More Spending Guarantees Better Outcomes",
+      "② Why Historical Evidence Should Always Be Ignored",
+      "③ The End of Cooperation in Modern Communities",
+      "④ A Single Measurement Explains Everything",
+      "⑤ Participation turns knowledge into practice"
+    ],
+    "answer": 5,
+    "explanation": "글의 전체 과정을 포괄하면서 지나치게 단정하지 않는 제목을 선택해야 합니다.",
+    "wrong_explanations": {},
+    "_reviewed": false
+  },
+  {
+    "_qid": "R-0477",
+    "type": "제목 추론",
+    "passage": "A research group tested an artificial intelligence model on regional dialects. It performed well on standard speech but misinterpreted many local expressions. Training data diversity mattered for the system’s fairness and reliability. Understanding this result requires looking beyond the most visible feature of the case. A conclusion drawn from only the most obvious measure would miss an important part of the explanation; the example therefore invites a distinction between appearances and underlying mechanisms.",
+    "given_sentence": "",
+    "choices": [
+      "① When More Spending Guarantees Better Outcomes",
+      "② Why Historical Evidence Should Always Be Ignored",
+      "③ Technical performance depends on representative evidence",
+      "④ The End of Cooperation in Modern Communities",
+      "⑤ A Single Measurement Explains Everything"
+    ],
+    "answer": 3,
+    "explanation": "글의 전체 과정을 포괄하면서 지나치게 단정하지 않는 제목을 선택해야 합니다.",
+    "wrong_explanations": {},
+    "_reviewed": false
+  },
+  {
+    "_qid": "R-0478",
+    "type": "제목 추론",
+    "passage": "An orchard experimented with hedgerows along its boundaries. The plants provided habitat for predators of crop pests. Pest damage declined without a proportional increase in pesticide use. Understanding this result requires looking beyond the most visible feature of the case. The observation becomes more meaningful when its broader implications are taken into account.",
+    "given_sentence": "",
+    "choices": [
+      "① Ecological relationships can provide practical services",
+      "② When More Spending Guarantees Better Outcomes",
+      "③ Why Historical Evidence Should Always Be Ignored",
+      "④ The End of Cooperation in Modern Communities",
+      "⑤ A Single Measurement Explains Everything"
+    ],
+    "answer": 1,
+    "explanation": "글의 전체 과정을 포괄하면서 지나치게 단정하지 않는 제목을 선택해야 합니다.",
+    "wrong_explanations": {},
+    "_reviewed": false
+  },
+  {
+    "_qid": "R-0479",
+    "type": "제목 추론",
+    "passage": "A small theater offered audio descriptions for visually impaired guests. The service required detailed attention to movement and setting. Descriptions also helped designers reconsider what was essential in each scene. Understanding this result requires looking beyond the most visible feature of the case.",
+    "given_sentence": "",
+    "choices": [
+      "① When More Spending Guarantees Better Outcomes",
+      "② Why Historical Evidence Should Always Be Ignored",
+      "③ The End of Cooperation in Modern Communities",
+      "④ Accessibility efforts can improve creative practice",
+      "⑤ A Single Measurement Explains Everything"
+    ],
+    "answer": 4,
+    "explanation": "글의 전체 과정을 포괄하면서 지나치게 단정하지 않는 제목을 선택해야 합니다.",
+    "wrong_explanations": {},
+    "_reviewed": false
+  },
+  {
+    "_qid": "R-0480",
+    "type": "제목 추론",
+    "passage": "A museum displayed replicas that visitors could touch. People who found glass cases frustrating explored shapes and textures directly. The experience complemented rather than replaced the original artifacts. Understanding this result requires looking beyond the most visible feature of the case. The observation becomes more meaningful when its broader implications are taken into account.",
+    "given_sentence": "",
+    "choices": [
+      "① When More Spending Guarantees Better Outcomes",
+      "② Multiple modes of access deepen understanding",
+      "③ Why Historical Evidence Should Always Be Ignored",
+      "④ The End of Cooperation in Modern Communities",
+      "⑤ A Single Measurement Explains Everything"
+    ],
+    "answer": 2,
+    "explanation": "글의 전체 과정을 포괄하면서 지나치게 단정하지 않는 제목을 선택해야 합니다.",
+    "wrong_explanations": {},
+    "_reviewed": false
+  },
+  {
+    "_qid": "R-0481",
+    "type": "제목 추론",
+    "passage": "A research station installed a camera overlooking a glacier. Individual pictures seemed almost identical, but annual comparisons showed steady retreat. The evidence became persuasive because observations were repeated consistently. Understanding this result requires looking beyond the most visible feature of the case. The observation becomes more meaningful when its broader implications are taken into account.",
+    "given_sentence": "",
+    "choices": [
+      "① When More Spending Guarantees Better Outcomes",
+      "② Why Historical Evidence Should Always Be Ignored",
+      "③ The End of Cooperation in Modern Communities",
+      "④ A Single Measurement Explains Everything",
+      "⑤ Slow trends require sustained records"
+    ],
+    "answer": 5,
+    "explanation": "글의 전체 과정을 포괄하면서 지나치게 단정하지 않는 제목을 선택해야 합니다.",
+    "wrong_explanations": {},
+    "_reviewed": false
+  },
+  {
+    "_qid": "R-0482",
+    "type": "제목 추론",
+    "passage": "A municipality offered compost pickup to apartment buildings. Participation grew when containers were placed close to residents’ daily routes. Convenience proved as important as environmental concern. Understanding this result requires looking beyond the most visible feature of the case. A conclusion drawn from only the most obvious measure would miss an important part of the explanation; the example therefore invites a distinction between appearances and underlying mechanisms.",
+    "given_sentence": "",
+    "choices": [
+      "① When More Spending Guarantees Better Outcomes",
+      "② Why Historical Evidence Should Always Be Ignored",
+      "③ Behavior is shaped by the design of routines",
+      "④ The End of Cooperation in Modern Communities",
+      "⑤ A Single Measurement Explains Everything"
+    ],
+    "answer": 3,
+    "explanation": "글의 전체 과정을 포괄하면서 지나치게 단정하지 않는 제목을 선택해야 합니다.",
+    "wrong_explanations": {},
+    "_reviewed": false
+  },
+  {
+    "_qid": "R-0483",
+    "type": "제목 추론",
+    "passage": "A teacher began giving comments before assigning grades. Students revised weak arguments instead of focusing exclusively on the score. Feedback was more useful when learners still had time to act on it. Understanding this result requires looking beyond the most visible feature of the case. The observation becomes more meaningful when its broader implications are taken into account.",
+    "given_sentence": "",
+    "choices": [
+      "① The timing of evaluation influences learning",
+      "② When More Spending Guarantees Better Outcomes",
+      "③ Why Historical Evidence Should Always Be Ignored",
+      "④ The End of Cooperation in Modern Communities",
+      "⑤ A Single Measurement Explains Everything"
+    ],
+    "answer": 1,
+    "explanation": "글의 전체 과정을 포괄하면서 지나치게 단정하지 않는 제목을 선택해야 합니다.",
+    "wrong_explanations": {},
+    "_reviewed": false
+  },
+  {
+    "_qid": "R-0484",
+    "type": "제목 추론",
+    "passage": "A hospital invited patients to review signs in its corridors. Several confusing directions were corrected using everyday language. Navigation improved without any change to the building’s physical layout. Understanding this result requires looking beyond the most visible feature of the case.",
+    "given_sentence": "",
+    "choices": [
+      "① When More Spending Guarantees Better Outcomes",
+      "② Why Historical Evidence Should Always Be Ignored",
+      "③ The End of Cooperation in Modern Communities",
+      "④ Expert systems benefit from outsider perspectives",
+      "⑤ A Single Measurement Explains Everything"
+    ],
+    "answer": 4,
+    "explanation": "글의 전체 과정을 포괄하면서 지나치게 단정하지 않는 제목을 선택해야 합니다.",
+    "wrong_explanations": {},
+    "_reviewed": false
+  },
+  {
+    "_qid": "R-0485",
+    "type": "제목 추론",
+    "passage": "A community repaired a neglected public clock. Residents began using the square as a meeting point again. The small restoration strengthened the place’s symbolic role beyond telling time. Understanding this result requires looking beyond the most visible feature of the case. The observation becomes more meaningful when its broader implications are taken into account.",
+    "given_sentence": "",
+    "choices": [
+      "① When More Spending Guarantees Better Outcomes",
+      "② Shared landmarks support collective identity",
+      "③ Why Historical Evidence Should Always Be Ignored",
+      "④ The End of Cooperation in Modern Communities",
+      "⑤ A Single Measurement Explains Everything"
+    ],
+    "answer": 2,
+    "explanation": "글의 전체 과정을 포괄하면서 지나치게 단정하지 않는 제목을 선택해야 합니다.",
+    "wrong_explanations": {},
+    "_reviewed": false
+  },
+  {
+    "_qid": "R-0486",
+    "type": "제목 추론",
+    "passage": "A newspaper experimented with longer explanations of complicated policies. The articles drew fewer immediate clicks but generated more return visits and questions. Short-term popularity did not fully represent the value of careful reporting. Understanding this result requires looking beyond the most visible feature of the case. The observation becomes more meaningful when its broader implications are taken into account.",
+    "given_sentence": "",
+    "choices": [
+      "① When More Spending Guarantees Better Outcomes",
+      "② Why Historical Evidence Should Always Be Ignored",
+      "③ The End of Cooperation in Modern Communities",
+      "④ A Single Measurement Explains Everything",
+      "⑤ Engagement quality differs from raw traffic"
+    ],
+    "answer": 5,
+    "explanation": "글의 전체 과정을 포괄하면서 지나치게 단정하지 않는 제목을 선택해야 합니다.",
+    "wrong_explanations": {},
+    "_reviewed": false
+  },
+  {
+    "_qid": "R-0487",
+    "type": "제목 추론",
+    "passage": "An ecologist recorded insects in rooftop gardens. Some roofs attracted many species when planted with native flowers. Small habitats became more beneficial when connected to nearby green spaces. Understanding this result requires looking beyond the most visible feature of the case. A conclusion drawn from only the most obvious measure would miss an important part of the explanation; the example therefore invites a distinction between appearances and underlying mechanisms.",
+    "given_sentence": "",
+    "choices": [
+      "① When More Spending Guarantees Better Outcomes",
+      "② Why Historical Evidence Should Always Be Ignored",
+      "③ Habitat networks matter more than isolated patches",
+      "④ The End of Cooperation in Modern Communities",
+      "⑤ A Single Measurement Explains Everything"
+    ],
+    "answer": 3,
+    "explanation": "글의 전체 과정을 포괄하면서 지나치게 단정하지 않는 제목을 선택해야 합니다.",
+    "wrong_explanations": {},
+    "_reviewed": false
+  },
+  {
+    "_qid": "R-0488",
+    "type": "제목 추론",
+    "passage": "A music school allowed beginners to choose songs they loved. Teachers still introduced demanding techniques through those pieces. Students practiced more willingly without avoiding difficult skills. Understanding this result requires looking beyond the most visible feature of the case. The observation becomes more meaningful when its broader implications are taken into account.",
+    "given_sentence": "",
+    "choices": [
+      "① Motivation and rigor can reinforce one another",
+      "② When More Spending Guarantees Better Outcomes",
+      "③ Why Historical Evidence Should Always Be Ignored",
+      "④ The End of Cooperation in Modern Communities",
+      "⑤ A Single Measurement Explains Everything"
+    ],
+    "answer": 1,
+    "explanation": "글의 전체 과정을 포괄하면서 지나치게 단정하지 않는 제목을 선택해야 합니다.",
+    "wrong_explanations": {},
+    "_reviewed": false
+  },
+  {
+    "_qid": "R-0489",
+    "type": "제목 추론",
+    "passage": "A harbor installed sensors for tidal currents. Captains used the readings to choose safer departure windows. The technology did not remove natural hazards but improved timing decisions. Understanding this result requires looking beyond the most visible feature of the case.",
+    "given_sentence": "",
+    "choices": [
+      "① When More Spending Guarantees Better Outcomes",
+      "② Why Historical Evidence Should Always Be Ignored",
+      "③ The End of Cooperation in Modern Communities",
+      "④ Better prediction enables safer adaptation",
+      "⑤ A Single Measurement Explains Everything"
+    ],
+    "answer": 4,
+    "explanation": "글의 전체 과정을 포괄하면서 지나치게 단정하지 않는 제목을 선택해야 합니다.",
+    "wrong_explanations": {},
+    "_reviewed": false
+  },
+  {
+    "_qid": "R-0490",
+    "type": "무관한 문장",
+    "passage": "① The town mapped streets where pavement temperatures rose sharply. ② The nearest mountain is famous for its mineral deposits. ③ Workers installed shade structures at the hottest bus stops. ④ Engineers monitored whether the structures reduced heat exposure. ⑤ The results guided future investment in cooler public spaces.",
+    "given_sentence": "",
+    "choices": [
+      "①번",
+      "②번",
+      "③번",
+      "④번",
+      "⑤번"
+    ],
+    "answer": 2,
+    "explanation": "다른 네 문장은 동일한 프로젝트의 문제·조치·관찰·결과를 설명하지만, 이 문장은 주제 및 인과관계가 연결되지 않습니다.",
+    "wrong_explanations": {},
+    "_reviewed": false
+  },
+  {
+    "_qid": "R-0491",
+    "type": "무관한 문장",
+    "passage": "① An astronomer measured changes in a distant star’s brightness. ② Repeated dips suggested that an orbiting planet might be passing in front of it. ③ The team checked whether instrument errors could explain the pattern. ④ Only then did they publish their planetary interpretation. ⑤ Ancient pottery was often decorated with geometric designs.",
+    "given_sentence": "",
+    "choices": [
+      "①번",
+      "②번",
+      "③번",
+      "④번",
+      "⑤번"
+    ],
+    "answer": 5,
+    "explanation": "다른 네 문장은 동일한 프로젝트의 문제·조치·관찰·결과를 설명하지만, 이 문장은 주제 및 인과관계가 연결되지 않습니다.",
+    "wrong_explanations": {},
+    "_reviewed": false
+  },
+  {
+    "_qid": "R-0492",
+    "type": "무관한 문장",
+    "passage": "① The school launched a program in which older pupils helped younger ones read. ② Tutors practiced explaining unfamiliar words in simple language. ③ Some tropical birds migrate across enormous distances. ④ Both groups reported greater confidence during discussion. ⑤ Teachers expanded the program after observing the benefits.",
+    "given_sentence": "",
+    "choices": [
+      "①번",
+      "②번",
+      "③번",
+      "④번",
+      "⑤번"
+    ],
+    "answer": 3,
+    "explanation": "다른 네 문장은 동일한 프로젝트의 문제·조치·관찰·결과를 설명하지만, 이 문장은 주제 및 인과관계가 연결되지 않습니다.",
+    "wrong_explanations": {},
+    "_reviewed": false
+  },
+  {
+    "_qid": "R-0493",
+    "type": "무관한 문장",
+    "passage": "① Railway tunnels require regular structural inspections. ② Farmers planted strips of native flowers beside their fields. ③ The flowers provided food for beneficial insects. ④ Researchers counted more pollinators in the nearby crops. ⑤ The field team continued measuring the effect over several seasons.",
+    "given_sentence": "",
+    "choices": [
+      "①번",
+      "②번",
+      "③번",
+      "④번",
+      "⑤번"
+    ],
+    "answer": 1,
+    "explanation": "다른 네 문장은 동일한 프로젝트의 문제·조치·관찰·결과를 설명하지만, 이 문장은 주제 및 인과관계가 연결되지 않습니다.",
+    "wrong_explanations": {},
+    "_reviewed": false
+  },
+  {
+    "_qid": "R-0494",
+    "type": "무관한 문장",
+    "passage": "① An archive began digitizing fragile handwritten letters. ② High-resolution images reduced the need to handle originals. ③ Researchers could search transcriptions from distant locations. ④ Most musical instruments require regular tuning. ⑤ The archive also checked transcription errors against the images.",
+    "given_sentence": "",
+    "choices": [
+      "①번",
+      "②번",
+      "③번",
+      "④번",
+      "⑤번"
+    ],
+    "answer": 4,
+    "explanation": "다른 네 문장은 동일한 프로젝트의 문제·조치·관찰·결과를 설명하지만, 이 문장은 주제 및 인과관계가 연결되지 않습니다.",
+    "wrong_explanations": {},
+    "_reviewed": false
+  },
+  {
+    "_qid": "R-0495",
+    "type": "무관한 문장",
+    "passage": "① A city reduced the width of a road near a primary school. ② Deep-sea fish often possess specialized light-producing organs. ③ Drivers began slowing before the crossing. ④ Parents reported feeling safer on the walk to school. ⑤ The city considered similar changes at other school entrances.",
+    "given_sentence": "",
+    "choices": [
+      "①번",
+      "②번",
+      "③번",
+      "④번",
+      "⑤번"
+    ],
+    "answer": 2,
+    "explanation": "다른 네 문장은 동일한 프로젝트의 문제·조치·관찰·결과를 설명하지만, 이 문장은 주제 및 인과관계가 연결되지 않습니다.",
+    "wrong_explanations": {},
+    "_reviewed": false
+  },
+  {
+    "_qid": "R-0496",
+    "type": "무관한 문장",
+    "passage": "① A linguist recorded conversations in a regional dialect. ② Speakers described expressions rarely found in textbooks. ③ The recordings preserved ways of speaking that were changing rapidly. ④ Teachers later used the recordings in local history lessons. ⑤ Many planets have atmospheres unlike that of Earth.",
+    "given_sentence": "",
+    "choices": [
+      "①번",
+      "②번",
+      "③번",
+      "④번",
+      "⑤번"
+    ],
+    "answer": 5,
+    "explanation": "다른 네 문장은 동일한 프로젝트의 문제·조치·관찰·결과를 설명하지만, 이 문장은 주제 및 인과관계가 연결되지 않습니다.",
+    "wrong_explanations": {},
+    "_reviewed": false
+  },
+  {
+    "_qid": "R-0497",
+    "type": "무관한 문장",
+    "passage": "① A museum displayed the stages of repairing an old painting. ② Visitors saw photographs of damaged areas and careful cleaning. ③ The invention of the bicycle changed urban transportation. ④ The display explained why restoration can require months. ⑤ It also showed which decisions conservators deliberately avoided.",
+    "given_sentence": "",
+    "choices": [
+      "①번",
+      "②번",
+      "③번",
+      "④번",
+      "⑤번"
+    ],
+    "answer": 3,
+    "explanation": "다른 네 문장은 동일한 프로젝트의 문제·조치·관찰·결과를 설명하지만, 이 문장은 주제 및 인과관계가 연결되지 않습니다.",
+    "wrong_explanations": {},
+    "_reviewed": false
+  },
+  {
+    "_qid": "R-0498",
+    "type": "무관한 문장",
+    "passage": "① Several ancient cities developed complex systems of taxation. ② Scientists installed microphones in a wetland after sunset. ③ The recordings detected frogs that were rarely seen in daylight. ④ Weather conditions were noted to interpret variation in calls. ⑤ The team combined sound records with visual surveys.",
+    "given_sentence": "",
+    "choices": [
+      "①번",
+      "②번",
+      "③번",
+      "④번",
+      "⑤번"
+    ],
+    "answer": 1,
+    "explanation": "다른 네 문장은 동일한 프로젝트의 문제·조치·관찰·결과를 설명하지만, 이 문장은 주제 및 인과관계가 연결되지 않습니다.",
+    "wrong_explanations": {},
+    "_reviewed": false
+  },
+  {
+    "_qid": "R-0499",
+    "type": "무관한 문장",
+    "passage": "① A town introduced a shared-tool library for residents. ② Borrowers could use equipment for occasional repairs. ③ Fewer households needed to purchase seldom-used machines. ④ Some coral species live in very deep water. ⑤ Volunteers maintained the tools so that everyone could use them safely.",
+    "given_sentence": "",
+    "choices": [
+      "①번",
+      "②번",
+      "③번",
+      "④번",
+      "⑤번"
+    ],
+    "answer": 4,
+    "explanation": "다른 네 문장은 동일한 프로젝트의 문제·조치·관찰·결과를 설명하지만, 이 문장은 주제 및 인과관계가 연결되지 않습니다.",
+    "wrong_explanations": {},
+    "_reviewed": false
+  },
+  {
+    "_qid": "R-0500",
+    "type": "무관한 문장",
+    "passage": "① A workshop trained volunteers to repair old clothing. ② The moons of Jupiter vary greatly in size. ③ Participants learned to mend seams and replace buttons. ④ The repaired garments remained in use for longer. ⑤ The organizers tracked how much textile waste the project prevented.",
+    "given_sentence": "",
+    "choices": [
+      "①번",
+      "②번",
+      "③번",
+      "④번",
+      "⑤번"
+    ],
+    "answer": 2,
+    "explanation": "다른 네 문장은 동일한 프로젝트의 문제·조치·관찰·결과를 설명하지만, 이 문장은 주제 및 인과관계가 연결되지 않습니다.",
+    "wrong_explanations": {},
+    "_reviewed": false
+  },
+  {
+    "_qid": "R-0501",
+    "type": "무관한 문장",
+    "passage": "① Researchers compared walking routes with and without street trees. ② Participants preferred shaded routes during hot afternoons. ③ The study also recorded travel time and noise exposure. ④ The findings informed a plan to improve pedestrian comfort. ⑤ The first printed atlases appeared centuries ago.",
+    "given_sentence": "",
+    "choices": [
+      "①번",
+      "②번",
+      "③번",
+      "④번",
+      "⑤번"
+    ],
+    "answer": 5,
+    "explanation": "다른 네 문장은 동일한 프로젝트의 문제·조치·관찰·결과를 설명하지만, 이 문장은 주제 및 인과관계가 연결되지 않습니다.",
+    "wrong_explanations": {},
+    "_reviewed": false
+  },
+  {
+    "_qid": "R-0502",
+    "type": "무관한 문장",
+    "passage": "① A concert hall changed the arrangement of its acoustic panels. ② Musicians listened for differences in reflected sound. ③ Forest soils contain an enormous diversity of microorganisms. ④ The engineers measured reverberation from several seats. ⑤ The final placement balanced clarity with warmth.",
+    "given_sentence": "",
+    "choices": [
+      "①번",
+      "②번",
+      "③번",
+      "④번",
+      "⑤번"
+    ],
+    "answer": 3,
+    "explanation": "다른 네 문장은 동일한 프로젝트의 문제·조치·관찰·결과를 설명하지만, 이 문장은 주제 및 인과관계가 연결되지 않습니다.",
+    "wrong_explanations": {},
+    "_reviewed": false
+  },
+  {
+    "_qid": "R-0503",
+    "type": "무관한 문장",
+    "passage": "① Modern supermarkets often rearrange products to attract buyers. ② A historian studied logs from merchant ships. ③ The logs listed wind conditions and daily distances. ④ They also revealed routines of eating and maintaining equipment. ⑤ Together, these details helped reconstruct life at sea.",
+    "given_sentence": "",
+    "choices": [
+      "①번",
+      "②번",
+      "③번",
+      "④번",
+      "⑤번"
+    ],
+    "answer": 1,
+    "explanation": "다른 네 문장은 동일한 프로젝트의 문제·조치·관찰·결과를 설명하지만, 이 문장은 주제 및 인과관계가 연결되지 않습니다.",
+    "wrong_explanations": {},
+    "_reviewed": false
+  },
+  {
+    "_qid": "R-0504",
+    "type": "무관한 문장",
+    "passage": "① The library started lending portable internet devices. ② Residents without home connections could reserve them for a week. ③ Staff collected feedback about the length of each loan. ④ Desert animals have evolved ways to conserve water. ⑤ The program was adjusted to serve more households.",
+    "given_sentence": "",
+    "choices": [
+      "①번",
+      "②번",
+      "③번",
+      "④번",
+      "⑤번"
+    ],
+    "answer": 4,
+    "explanation": "다른 네 문장은 동일한 프로젝트의 문제·조치·관찰·결과를 설명하지만, 이 문장은 주제 및 인과관계가 연결되지 않습니다.",
+    "wrong_explanations": {},
+    "_reviewed": false
+  },
+  {
+    "_qid": "R-0505",
+    "type": "무관한 문장",
+    "passage": "① A garden group replaced a section of lawn with native plants. ② Early cameras required long photographic exposures. ③ Butterflies soon appeared near the flowers. ④ Volunteers tracked the number of species through the season. ⑤ The group shared its observations with other neighborhoods.",
+    "given_sentence": "",
+    "choices": [
+      "①번",
+      "②번",
+      "③번",
+      "④번",
+      "⑤번"
+    ],
+    "answer": 2,
+    "explanation": "다른 네 문장은 동일한 프로젝트의 문제·조치·관찰·결과를 설명하지만, 이 문장은 주제 및 인과관계가 연결되지 않습니다.",
+    "wrong_explanations": {},
+    "_reviewed": false
+  },
+  {
+    "_qid": "R-0506",
+    "type": "요약문 완성",
+    "passage": "A hospital invited patients to review signs in its corridors. Several confusing directions were corrected using everyday language. Navigation improved without any change to the building’s physical layout. In this case, the central outcome should be understood through the process that produced it.",
+    "given_sentence": "",
+    "choices": [
+      "① the replacement of evidence by intuition",
+      "② the elimination of all differences between situations",
+      "③ the assumption that every intervention works everywhere",
+      "④ the uselessness of careful long-term observation",
+      "⑤ expert systems benefit from outsider perspectives"
+    ],
+    "answer": 5,
+    "explanation": "사례의 핵심적인 원리인 “expert systems benefit from outsider perspectives”가 전체 내용을 가장 적절하게 요약합니다.",
+    "wrong_explanations": {},
+    "_reviewed": false
+  },
+  {
+    "_qid": "R-0507",
+    "type": "요약문 완성",
+    "passage": "A community repaired a neglected public clock. Residents began using the square as a meeting point again. The small restoration strengthened the place’s symbolic role beyond telling time. In this case, the central outcome should be understood through the process that produced it. The observation becomes more meaningful when its broader implications are taken into account.",
+    "given_sentence": "",
+    "choices": [
+      "① the replacement of evidence by intuition",
+      "② the elimination of all differences between situations",
+      "③ shared landmarks support collective identity",
+      "④ the assumption that every intervention works everywhere",
+      "⑤ the uselessness of careful long-term observation"
+    ],
+    "answer": 3,
+    "explanation": "사례의 핵심적인 원리인 “shared landmarks support collective identity”가 전체 내용을 가장 적절하게 요약합니다.",
+    "wrong_explanations": {},
+    "_reviewed": false
+  },
+  {
+    "_qid": "R-0508",
+    "type": "요약문 완성",
+    "passage": "A newspaper experimented with longer explanations of complicated policies. The articles drew fewer immediate clicks but generated more return visits and questions. Short-term popularity did not fully represent the value of careful reporting. In this case, the central outcome should be understood through the process that produced it. A conclusion drawn from only the most obvious measure would miss an important part of the explanation; the example therefore invites a distinction between appearances and underlying mechanisms.",
+    "given_sentence": "",
+    "choices": [
+      "① engagement quality differs from raw traffic",
+      "② the replacement of evidence by intuition",
+      "③ the elimination of all differences between situations",
+      "④ the assumption that every intervention works everywhere",
+      "⑤ the uselessness of careful long-term observation"
+    ],
+    "answer": 1,
+    "explanation": "사례의 핵심적인 원리인 “engagement quality differs from raw traffic”가 전체 내용을 가장 적절하게 요약합니다.",
+    "wrong_explanations": {},
+    "_reviewed": false
+  },
+  {
+    "_qid": "R-0509",
+    "type": "요약문 완성",
+    "passage": "An ecologist recorded insects in rooftop gardens. Some roofs attracted many species when planted with native flowers. Small habitats became more beneficial when connected to nearby green spaces. In this case, the central outcome should be understood through the process that produced it. The observation becomes more meaningful when its broader implications are taken into account.",
+    "given_sentence": "",
+    "choices": [
+      "① the replacement of evidence by intuition",
+      "② the elimination of all differences between situations",
+      "③ the assumption that every intervention works everywhere",
+      "④ habitat networks matter more than isolated patches",
+      "⑤ the uselessness of careful long-term observation"
+    ],
+    "answer": 4,
+    "explanation": "사례의 핵심적인 원리인 “habitat networks matter more than isolated patches”가 전체 내용을 가장 적절하게 요약합니다.",
+    "wrong_explanations": {},
+    "_reviewed": false
+  },
+  {
+    "_qid": "R-0510",
+    "type": "요약문 완성",
+    "passage": "A music school allowed beginners to choose songs they loved. Teachers still introduced demanding techniques through those pieces. Students practiced more willingly without avoiding difficult skills. In this case, the central outcome should be understood through the process that produced it. A conclusion drawn from only the most obvious measure would miss an important part of the explanation; the example therefore invites a distinction between appearances and underlying mechanisms.",
+    "given_sentence": "",
+    "choices": [
+      "① the replacement of evidence by intuition",
+      "② motivation and rigor can reinforce one another",
+      "③ the elimination of all differences between situations",
+      "④ the assumption that every intervention works everywhere",
+      "⑤ the uselessness of careful long-term observation"
+    ],
+    "answer": 2,
+    "explanation": "사례의 핵심적인 원리인 “motivation and rigor can reinforce one another”가 전체 내용을 가장 적절하게 요약합니다.",
+    "wrong_explanations": {},
+    "_reviewed": false
+  },
+  {
+    "_qid": "R-0511",
+    "type": "요약문 완성",
+    "passage": "A harbor installed sensors for tidal currents. Captains used the readings to choose safer departure windows. The technology did not remove natural hazards but improved timing decisions. In this case, the central outcome should be understood through the process that produced it.",
+    "given_sentence": "",
+    "choices": [
+      "① the replacement of evidence by intuition",
+      "② the elimination of all differences between situations",
+      "③ the assumption that every intervention works everywhere",
+      "④ the uselessness of careful long-term observation",
+      "⑤ better prediction enables safer adaptation"
+    ],
+    "answer": 5,
+    "explanation": "사례의 핵심적인 원리인 “better prediction enables safer adaptation”가 전체 내용을 가장 적절하게 요약합니다.",
+    "wrong_explanations": {},
+    "_reviewed": false
+  },
+  {
+    "_qid": "R-0512",
+    "type": "요약문 완성",
+    "passage": "A robotics club built a prototype with inexpensive parts. Several components failed, exposing weaknesses before the final design was costly to change. Early imperfections created opportunities for learning. In this case, the central outcome should be understood through the process that produced it. The observation becomes more meaningful when its broader implications are taken into account.",
+    "given_sentence": "",
+    "choices": [
+      "① the replacement of evidence by intuition",
+      "② the elimination of all differences between situations",
+      "③ low-cost experimentation reduces later risk",
+      "④ the assumption that every intervention works everywhere",
+      "⑤ the uselessness of careful long-term observation"
+    ],
+    "answer": 3,
+    "explanation": "사례의 핵심적인 원리인 “low-cost experimentation reduces later risk”가 전체 내용을 가장 적절하게 요약합니다.",
+    "wrong_explanations": {},
+    "_reviewed": false
+  },
+  {
+    "_qid": "R-0513",
+    "type": "요약문 완성",
+    "passage": "A historian studied cooking notes in family diaries. Recipes revealed how households adapted to shortages and seasonal changes. Domestic records illuminated economic conditions missed by official statistics. In this case, the central outcome should be understood through the process that produced it. A conclusion drawn from only the most obvious measure would miss an important part of the explanation; the example therefore invites a distinction between appearances and underlying mechanisms.",
+    "given_sentence": "",
+    "choices": [
+      "① ordinary documents can reveal broad social patterns",
+      "② the replacement of evidence by intuition",
+      "③ the elimination of all differences between situations",
+      "④ the assumption that every intervention works everywhere",
+      "⑤ the uselessness of careful long-term observation"
+    ],
+    "answer": 1,
+    "explanation": "사례의 핵심적인 원리인 “ordinary documents can reveal broad social patterns”가 전체 내용을 가장 적절하게 요약합니다.",
+    "wrong_explanations": {},
+    "_reviewed": false
+  },
+  {
+    "_qid": "R-0514",
+    "type": "요약문 완성",
+    "passage": "A city asked residents to record where summer heat felt worst. Reports highlighted bus stops without shade that sensors had not identified as priorities. Combining measurements with experience improved the intervention plan. In this case, the central outcome should be understood through the process that produced it. The observation becomes more meaningful when its broader implications are taken into account.",
+    "given_sentence": "",
+    "choices": [
+      "① the replacement of evidence by intuition",
+      "② the elimination of all differences between situations",
+      "③ the assumption that every intervention works everywhere",
+      "④ lived experience can complement quantitative data",
+      "⑤ the uselessness of careful long-term observation"
+    ],
+    "answer": 4,
+    "explanation": "사례의 핵심적인 원리인 “lived experience can complement quantitative data”가 전체 내용을 가장 적절하게 요약합니다.",
+    "wrong_explanations": {},
+    "_reviewed": false
+  },
+  {
+    "_qid": "R-0515",
+    "type": "요약문 완성",
+    "passage": "A language app introduced spaced review instead of massed repetition. Users forgot fewer expressions when practice was spread across days. Remembering depended on the timing of retrieval as well as total study time. In this case, the central outcome should be understood through the process that produced it. A conclusion drawn from only the most obvious measure would miss an important part of the explanation; the example therefore invites a distinction between appearances and underlying mechanisms.",
+    "given_sentence": "",
+    "choices": [
+      "① the replacement of evidence by intuition",
+      "② distributed practice supports durable learning",
+      "③ the elimination of all differences between situations",
+      "④ the assumption that every intervention works everywhere",
+      "⑤ the uselessness of careful long-term observation"
+    ],
+    "answer": 2,
+    "explanation": "사례의 핵심적인 원리인 “distributed practice supports durable learning”가 전체 내용을 가장 적절하게 요약합니다.",
+    "wrong_explanations": {},
+    "_reviewed": false
+  },
+  {
+    "_qid": "R-0516",
+    "type": "요약문 완성",
+    "passage": "A village renovated an abandoned warehouse for local workshops. The building became active when inexpensive short-term rentals attracted makers. Flexible access was more valuable than an elaborate permanent design. In this case, the central outcome should be understood through the process that produced it.",
+    "given_sentence": "",
+    "choices": [
+      "① the replacement of evidence by intuition",
+      "② the elimination of all differences between situations",
+      "③ the assumption that every intervention works everywhere",
+      "④ the uselessness of careful long-term observation",
+      "⑤ adaptable spaces can nurture local enterprise"
+    ],
+    "answer": 5,
+    "explanation": "사례의 핵심적인 원리인 “adaptable spaces can nurture local enterprise”가 전체 내용을 가장 적절하게 요약합니다.",
+    "wrong_explanations": {},
+    "_reviewed": false
+  },
+  {
+    "_qid": "R-0517",
+    "type": "요약문 완성",
+    "passage": "A marine park limited boat speed near shallow grass beds. Sediment disturbance fell, and underwater plants received more sunlight. A change above the surface altered conditions below it. In this case, the central outcome should be understood through the process that produced it. The observation becomes more meaningful when its broader implications are taken into account.",
+    "given_sentence": "",
+    "choices": [
+      "① the replacement of evidence by intuition",
+      "② the elimination of all differences between situations",
+      "③ environmental systems involve indirect effects",
+      "④ the assumption that every intervention works everywhere",
+      "⑤ the uselessness of careful long-term observation"
+    ],
+    "answer": 3,
+    "explanation": "사례의 핵심적인 원리인 “environmental systems involve indirect effects”가 전체 내용을 가장 적절하게 요약합니다.",
+    "wrong_explanations": {},
+    "_reviewed": false
+  },
+  {
+    "_qid": "R-0518",
+    "type": "요약문 완성",
+    "passage": "An archive digitized handwritten weather diaries. Researchers discovered observations from regions that lacked formal stations. Volunteers checked transcriptions against scanned pages to reduce errors. In this case, the central outcome should be understood through the process that produced it. A conclusion drawn from only the most obvious measure would miss an important part of the explanation; the example therefore invites a distinction between appearances and underlying mechanisms.",
+    "given_sentence": "",
+    "choices": [
+      "① new technology can unlock neglected evidence",
+      "② the replacement of evidence by intuition",
+      "③ the elimination of all differences between situations",
+      "④ the assumption that every intervention works everywhere",
+      "⑤ the uselessness of careful long-term observation"
+    ],
+    "answer": 1,
+    "explanation": "사례의 핵심적인 원리인 “new technology can unlock neglected evidence”가 전체 내용을 가장 적절하게 요약합니다.",
+    "wrong_explanations": {},
+    "_reviewed": false
+  },
+  {
+    "_qid": "R-0519",
+    "type": "요약문 완성",
+    "passage": "A school organized mixed-age reading partnerships. Older students explained stories while younger ones asked unexpected questions. Both groups gained something that isolated practice did not provide. In this case, the central outcome should be understood through the process that produced it. The observation becomes more meaningful when its broader implications are taken into account.",
+    "given_sentence": "",
+    "choices": [
+      "① the replacement of evidence by intuition",
+      "② the elimination of all differences between situations",
+      "③ the assumption that every intervention works everywhere",
+      "④ teaching others can deepen one’s own understanding",
+      "⑤ the uselessness of careful long-term observation"
+    ],
+    "answer": 4,
+    "explanation": "사례의 핵심적인 원리인 “teaching others can deepen one’s own understanding”가 전체 내용을 가장 적절하게 요약합니다.",
+    "wrong_explanations": {},
+    "_reviewed": false
   }
 ];
