@@ -258,11 +258,11 @@ const QUESTION_BANK = [
     "passage": "Many people assume that silence means a conversation has failed. (①) In one community, however, a deliberate pause is understood as a sign of careful consideration, not discomfort. (②) This favorable interpretation allows listeners to wait until the speaker has finished thinking. (③) By contrast, in another setting a similarly long pause may be taken as uncertainty. (④) Successful communication therefore requires attention to local conversational expectations. (⑤)",
     "given_sentence": "The meaning of a pause depends partly on the social expectations shared by the speakers.",
     "choices": [
-      "① 1번 위치",
-      "② 2번 위치",
-      "③ 3번 위치",
-      "④ 4번 위치",
-      "⑤ 5번 위치"
+      "①번 위치",
+      "②번 위치",
+      "③번 위치",
+      "④번 위치",
+      "⑤번 위치"
     ],
     "answer": 1,
     "explanation": "첫 문장의 획일적 판단 뒤 사회적 기대의 차이를 일반 원리로 제시하고, 뒤에서 문화별 대비를 구체화합니다.",
@@ -3511,11 +3511,11 @@ const QUESTION_BANK = [
     "passage": "A bookstore asked customers to name a book that they would recommend to others. (①) At first, nearly everyone named a current bestseller, so the list looked much like a sales chart. (②) The staff then changed the invitation: they asked readers to recall a book that had genuinely surprised them. (③) The revised list now included obscure histories, poetry, and graphic memoirs that had not appeared before. (④) Inspired by this new diversity, customers began leaving handwritten recommendations beside the shelves. (⑤)",
     "given_sentence": "That more personal question brought forth a much broader range of recommendations than the original request had produced.",
     "choices": [
-      "① 1번 위치",
-      "② 2번 위치",
-      "③ 3번 위치",
-      "④ 4번 위치",
-      "⑤ 5번 위치"
+      "①번 위치",
+      "②번 위치",
+      "③번 위치",
+      "④번 위치",
+      "⑤번 위치"
     ],
     "answer": 3,
     "explanation": "more personal question이 세 번째 문장의 새 요청을 받으며, 다음 문장 the revised list가 결과를 이어받습니다.",
@@ -3579,11 +3579,11 @@ const QUESTION_BANK = [
     "passage": "A marine researcher placed acoustic sensors beside a coral reef to record activity over an entire day. (①) In daylight, the recordings were dominated by the low rumble of passing boat engines. (②) After sunset, that mechanical rumble faded, and a series of faint clicks became audible. (③) Analysis showed that the clicks came from reef animals feeding after dark. (④) For future surveys, the team arranged quiet listening periods at night so that the faint biological sounds would not be masked. (⑤)",
     "given_sentence": "A change in background noise revealed previously hidden behavior.",
     "choices": [
-      "① 1번 위치",
-      "② 2번 위치",
-      "③ 3번 위치",
-      "④ 4번 위치",
-      "⑤ 5번 위치"
+      "①번 위치",
+      "②번 위치",
+      "③번 위치",
+      "④번 위치",
+      "⑤번 위치"
     ],
     "answer": 3,
     "explanation": "boat-engine noise가 사라진 뒤 faint clicks가 들리는 현상을 해석하는 전환문으로, 야간 소리의 분석 이전 ③에 놓입니다.",
@@ -3630,11 +3630,11 @@ const QUESTION_BANK = [
     "passage": "A local newspaper started printing corrections in the same visible location as its lead stories. (①) Its editors initially feared that readers would regard each correction as evidence of incompetence. (②) Surprisingly, readers wrote letters praising the paper for promptly admitting errors. (③) This response persuaded the newsroom to establish a simple procedure for submitting and checking correction requests. (④) Other local papers later adopted that transparent practice. (⑤)",
     "given_sentence": "By acknowledging mistakes in public, the newspaper had turned an apparent weakness into a source of credibility.",
     "choices": [
-      "① 1번 위치",
-      "② 2번 위치",
-      "③ 3번 위치",
-      "④ 4번 위치",
-      "⑤ 5번 위치"
+      "①번 위치",
+      "②번 위치",
+      "③번 위치",
+      "④번 위치",
+      "⑤번 위치"
     ],
     "answer": 3,
     "explanation": "편집자의 우려와 독자의 반대 반응을 확인한 뒤 전체 결과를 해석하고, 다음 문장의 제도화로 넘어갑니다.",
@@ -3647,11 +3647,11 @@ const QUESTION_BANK = [
     "passage": "A botanist grew seedlings under different colored lights. (①) All groups received equal amounts of water and nutrients. (②) The plants under blue-rich light developed shorter stems. (③) The botanist repeated the experiment with a second species. (④) Only after that test did she propose a broader explanation. (⑤)",
     "given_sentence": "A single result was not enough to establish a general rule.",
     "choices": [
-      "① 1번 위치",
-      "② 2번 위치",
-      "③ 3번 위치",
-      "④ 4번 위치",
-      "⑤ 5번 위치"
+      "①번 위치",
+      "②번 위치",
+      "③번 위치",
+      "④번 위치",
+      "⑤번 위치"
     ],
     "answer": 3,
     "explanation": "주어진 문장은 앞의 내용과 뒤의 내용을 연결하는 역할을 합니다. 3번 위치 전후의 원인·결과 또는 전환 관계를 확인해야 합니다.",
@@ -3664,11 +3664,11 @@ const QUESTION_BANK = [
     "passage": "A town considered switching off streetlights after midnight to reduce light pollution. (①) Local astronomers favored the plan because darker skies would make more stars visible. (②) Some residents, however, worried that an unlit walking route could be dangerous. (③) The council therefore installed motion-sensitive lamps that brightened only when pedestrians approached. (④) With this system in place, the town reduced energy use without leaving walkers in darkness. (⑤)",
     "given_sentence": "This flexible arrangement addressed both the wish for darker skies and the need for visibility when someone passed.",
     "choices": [
-      "① 1번 위치",
-      "② 2번 위치",
-      "③ 3번 위치",
-      "④ 4번 위치",
-      "⑤ 5번 위치"
+      "①번 위치",
+      "②번 위치",
+      "③번 위치",
+      "④번 위치",
+      "⑤번 위치"
     ],
     "answer": 4,
     "explanation": "darker skies와 visibility라는 두 이해관계를 제시하고 motion-sensitive lamps라는 해결책을 설명한 직후 요약합니다.",
@@ -3681,11 +3681,11 @@ const QUESTION_BANK = [
     "passage": "A museum invited visitors to write questions beside an ancient cooking bowl. (①) Most visitors asked who had used the bowl and what meals might have been served in it. (②) The existing label, by contrast, named only the clay type and estimated date of manufacture. (③) To address that mismatch, curators added drawings of possible household scenes and a short description of daily routines. (④) After the revision, conversations at the display focused on how ordinary families had lived. (⑤)",
     "given_sentence": "Their questions had revealed a gap between the technical label and visitors’ curiosity about everyday life.",
     "choices": [
-      "① 1번 위치",
-      "② 2번 위치",
-      "③ 3번 위치",
-      "④ 4번 위치",
-      "⑤ 5번 위치"
+      "①번 위치",
+      "②번 위치",
+      "③번 위치",
+      "④번 위치",
+      "⑤번 위치"
     ],
     "answer": 3,
     "explanation": "질문과 기존 표찰의 차이가 모두 드러난 다음, to address that mismatch라는 후속 조치 바로 앞에 배치합니다.",
@@ -3715,13 +3715,13 @@ const QUESTION_BANK = [
     "passage": "The scientist invited volunteers (① who living near the river) (② to collect samples) (③ at locations that) (④ were chosen in advance) (⑤ and to record what they observed).",
     "given_sentence": "",
     "choices": [
-      "① 2번 표시",
-      "② 3번 표시",
-      "③ 1번 표시",
-      "④ 4번 표시",
-      "⑤ 5번 표시"
+      "①번 표시",
+      "②번 표시",
+      "③번 표시",
+      "④번 표시",
+      "⑤번 표시"
     ],
-    "answer": 3,
+    "answer": 1,
     "explanation": "①의 올바른 표현은 “who lived near the river”입니다. 표시된 구문은 who lived near the river의 형태를 취해야 합니다.",
     "wrong_explanations": {},
     "_reviewed": false
@@ -3732,13 +3732,13 @@ const QUESTION_BANK = [
     "passage": "Neither the guide nor the visitors (① was aware of the change) (② until the museum opened) (③ and a staff member) (④ explained the new route) (⑤ to the group).",
     "given_sentence": "",
     "choices": [
-      "① 2번 표시",
-      "② 3번 표시",
-      "③ 4번 표시",
-      "④ 1번 표시",
-      "⑤ 5번 표시"
+      "①번 표시",
+      "②번 표시",
+      "③번 표시",
+      "④번 표시",
+      "⑤번 표시"
     ],
-    "answer": 4,
+    "answer": 1,
     "explanation": "①의 올바른 표현은 “were aware of the change”입니다. proximity agreement with plural visitors",
     "wrong_explanations": {},
     "_reviewed": false
