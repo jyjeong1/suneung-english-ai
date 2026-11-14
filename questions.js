@@ -5663,5 +5663,3405 @@ const QUESTION_BANK = [
     "explanation": "지문에서 mixed-age discussion이(가) mutual learning에 기여한다는 인과 관계를 확인할 수 있습니다. 정답 외 조합은 글에 제시되지 않았거나 핵심 인과 관계를 왜곡합니다.",
     "wrong_explanations": {},
     "_reviewed": false
+  },
+  {
+    "_qid": "R-0520",
+    "type": "빈칸 추론",
+    "passage": "An archaeological team found worn steps beside a ceremonial gate. A colleague assumed the gate had been reserved for royal processions. However, the steps were too narrow for carts and carried marks from repeated foot traffic. The evidence is most consistent with the conclusion that __________.",
+    "given_sentence": "",
+    "choices": [
+      "① the evidence has no bearing on how the original claim should be assessed",
+      "② the wear instead suggested that ordinary residents regularly participated in rituals",
+      "③ a colleague assumed the gate had been reserved for royal processions, with no adjustment for the new evidence",
+      "④ the steps were too narrow for carts and carried marks from repeated foot traffic, which proves that the same result is inevitable everywhere",
+      "⑤ the initial assumption must be rejected even in circumstances for which it was never tested"
+    ],
+    "answer": 2,
+    "explanation": "기초 관찰: The steps were too narrow for carts and carried marks from repeated foot traffic. 초기 해석: A colleague assumed the gate had been reserved for royal processions. 따라서 The wear instead suggested that ordinary residents regularly participated in rituals. 다만 단일 사례가 모든 상황으로 일반화되는 것은 아닙니다.",
+    "wrong_explanations": {},
+    "_reviewed": false
+  },
+  {
+    "_qid": "R-0521",
+    "type": "문장 삽입",
+    "passage": "A city installed benches at regular intervals along a steep pedestrian route. Planners initially measured success only by average walking speed. However, older walkers began completing journeys they previously avoided. (①) Small opportunities to rest can change who is able to use public space. (②) The team considered an alternative test. (③) Its report emphasized the limits of the finding. (④) Further observations were recommended. (⑤)",
+    "given_sentence": "This discrepancy led the team to question the assumption behind its original assessment.",
+    "choices": [
+      "①번 위치",
+      "②번 위치",
+      "③번 위치",
+      "④번 위치",
+      "⑤번 위치"
+    ],
+    "answer": 1,
+    "explanation": "초기 해석과 상반되는 관찰이 나온 직후에 This discrepancy가 연결됩니다. 다른 위치에서는 discrepancy의 지시 대상이 불분명하거나 후속 판단의 인과 관계가 끊깁니다.",
+    "wrong_explanations": {},
+    "_reviewed": false
+  },
+  {
+    "_qid": "R-0522",
+    "type": "어법 판단",
+    "passage": "A conservator analyzed the faded blue pigment in an old mural. The team (① have) considered several interpretations. The observations, which (② were) reviewed separately, showed that (③ each) explanation had limitations. One of the central reasons (④ is) that the early assumption overlooked important evidence. The researchers (⑤ therefore) recommended a revised account.",
+    "given_sentence": "",
+    "choices": [
+      "①번 표시",
+      "②번 표시",
+      "③번 표시",
+      "④번 표시",
+      "⑤번 표시"
+    ],
+    "answer": 1,
+    "explanation": "①는 has로 고쳐야 합니다. 나머지 표시 표현은 해당 문장의 구조상 허용됩니다.",
+    "wrong_explanations": {},
+    "_reviewed": false
+  },
+  {
+    "_qid": "R-0523",
+    "type": "어휘 적절성",
+    "passage": "An ecologist monitored insects around a newly restored pond. Local officials wanted to judge success after the first summer. Species returned unevenly, with predators arriving after their prey. The first interpretation was necessarily (① certain) because little evidence had yet been collected. The later observation (② contradicted) the expectation on which that interpretation depended. The researchers consequently adopted a (③ qualified) account rather than an unconditional verdict. They examined whether the new evidence was (④ relevant) to the question under investigation. The conclusion remained (⑤ limited) to the conditions in which the observations had been made.",
+    "given_sentence": "",
+    "choices": [
+      "①번 표시",
+      "②번 표시",
+      "③번 표시",
+      "④번 표시",
+      "⑤번 표시"
+    ],
+    "answer": 1,
+    "explanation": "①의 certain는 주변 의미와 충돌합니다. tentative로 수정해야 초기 가설·반증·신중한 결론의 논리가 일관됩니다.",
+    "wrong_explanations": {},
+    "_reviewed": false
+  },
+  {
+    "_qid": "R-0524",
+    "type": "요지/주제",
+    "passage": "A language teacher compared handwritten and spoken student explanations. Some teachers interpreted slow speech as weak understanding. At first, that account seemed attractive: it offered a simple explanation that could be communicated without further qualification. In fact, learners who hesitated aloud often produced precise written arguments. Two observers could accept the same facts yet reach different judgments because they attached different importance to the underlying assumptions. Fluency in one mode should not stand in for competence in another. An adequate account must make those assumptions explicit before treating its conclusion as general. This conclusion is not identical to the first assumption; it must account for the later observation and for the limits of the original measure. In particular, the new evidence may justify changing the interpretation without proving that the earlier account was mistaken in every conceivable setting. Consequently, the preferred interpretation should explain both the initial expectation and the evidence that complicates it, without pretending that a single example establishes a universal rule.",
+    "given_sentence": "",
+    "choices": [
+      "① Fluency in one mode should not stand in for competence in another",
+      "② the claim that competing explanations cannot be evaluated with evidence",
+      "③ the need to ignore early evidence once a new interpretation is proposed",
+      "④ Some teachers interpreted slow speech as weak understanding is justified in all settings",
+      "⑤ why a single observation is enough to settle every possible explanation"
+    ],
+    "answer": 1,
+    "explanation": "초기 기대와 다른 관찰을 통해 얻은 제한적인 결론이 요지입니다. 다른 선택지는 단정적 일반화 또는 근거 없는 판단입니다.",
+    "wrong_explanations": {},
+    "_reviewed": false
+  },
+  {
+    "_qid": "R-0525",
+    "type": "글의 순서",
+    "passage": "A ferry operator tested a schedule with fewer but more reliable departures.\n\n(A) In response, the investigators adopted a more cautious inference. Predictability can matter more than nominal capacity. They also identified what additional observations would be needed.\n\n(B) Before further investigation, marketing staff had assumed that the largest number of departures was always best. This gave the project a clear, if incomplete, starting point.\n\n(C) The subsequent evidence complicated that expectation: passengers missed fewer appointments despite the lower advertised frequency. The initial account could no longer explain the entire pattern.",
+    "given_sentence": "",
+    "choices": [
+      "① (A)-(B)-(C)",
+      "② (A)-(C)-(B)",
+      "③ (C)-(A)-(B)",
+      "④ (B)-(A)-(C)",
+      "⑤ (B)-(C)-(A)"
+    ],
+    "answer": 5,
+    "explanation": "최초 가정 → 후속 관찰에 의한 반증·보완 → 수정된 판단이라는 인과 순서가 필수입니다. 따라서 (B)-(C)-(A)입니다.",
+    "wrong_explanations": {},
+    "_reviewed": false
+  },
+  {
+    "_qid": "R-0526",
+    "type": "글의 목적",
+    "passage": "Dear Review Committee,\n\nA scientist studied how honeybees responded to artificial flowers. A colleague treated the first preference as a permanent instinct. In fact, bees initially favored brightly colored flowers but learned to follow consistent rewards. I am not asking you to dismiss the original project; I am requesting that its evaluation include the additional evidence and explicitly state the limits of the initial conclusion. Without this change, the next funding decision could reward an incomplete indicator rather than the project's actual performance.\n\nSincerely,\nA project participant",
+    "given_sentence": "",
+    "choices": [
+      "① To invite committee members to an unrelated public celebration",
+      "② To request a larger budget without discussing evaluation criteria",
+      "③ To request a reassessment that accounts for conflicting evidence",
+      "④ To demand that the project be cancelled without another evaluation",
+      "⑤ To announce that the first interpretation has already been fully confirmed"
+    ],
+    "answer": 3,
+    "explanation": "편지의 핵심 요청은 기존 평가에 후속 관찰을 반영하고 초기 결론의 한계를 명시해 달라는 것입니다.",
+    "wrong_explanations": {},
+    "_reviewed": false
+  },
+  {
+    "_qid": "R-0527",
+    "type": "심경 추론",
+    "passage": "At first, I felt reassured by the seemingly straightforward explanation. Curators expected the photographs to speak for themselves. A village museum asked residents to annotate photographs of a former market. When I learned that individual memories disagreed about dates but revealed overlooked personal routines, my confidence weakened. I wondered how much I had missed by attending only to the result that supported my expectation. I reconsidered my judgment. By the end, I was still uncertain about every detail, but I felt more willing to investigate than to defend my first impression.",
+    "given_sentence": "",
+    "choices": [
+      "① from curiosity to indifference about the investigation",
+      "② from confidence to reflective curiosity",
+      "③ from disappointment to certainty that all questions are settled",
+      "④ from distrust of the team to unconditional hostility",
+      "⑤ from confidence to a refusal to reconsider any evidence"
+    ],
+    "answer": 2,
+    "explanation": "초기의 confident/reassured와 후반의 reconsider, willing to investigate가 대비되므로 확신에서 성찰적 탐구로의 변화입니다.",
+    "wrong_explanations": {},
+    "_reviewed": false
+  },
+  {
+    "_qid": "R-0528",
+    "type": "필자의 주장",
+    "passage": "An engineer designed reusable crates for transporting delicate fruit. The team had evaluated impact resistance as an isolated target. The first interpretation was plausible because it focused on an easily visible feature. But the strongest model weighed so much that fuel use increased. This did not make the earlier observation useless; it revealed that the original explanation had missed an important condition. A successful design must balance protection with costs across the whole journey.",
+    "given_sentence": "",
+    "choices": [
+      "① Decision-makers should judge an intervention solely by its most visible immediate result.",
+      "② Decisions should retain the original assumption because the team had evaluated impact resistance as an isolated target.",
+      "③ Decisions should reflect this insight: a successful design must balance protection with costs across the whole journey.",
+      "④ If evidence is mixed, decision-makers should avoid weighing the competing explanations at all.",
+      "⑤ An observed difference should be treated as a universal rule without further examination."
+    ],
+    "answer": 3,
+    "explanation": "필자는 초기 판단을 그대로 유지하기보다 관찰의 조건과 반례를 반영해 결론을 조정해야 한다고 주장합니다.",
+    "wrong_explanations": {},
+    "_reviewed": false
+  },
+  {
+    "_qid": "R-0529",
+    "type": "제목 추론",
+    "passage": "A historian used shipping invoices to reconstruct nineteenth-century diets. A student equated goods appearing in a port with universal consumption. However, lists of imported spices suggested access but not who actually consumed them. Records of supply cannot by themselves establish patterns of everyday use.",
+    "given_sentence": "",
+    "choices": [
+      "① Why a Single Indicator Is Sufficient for Every Decision",
+      "② Beyond the First Explanation: Records of supply cannot by themselves establish patterns of everyday use",
+      "③ A Familiar Prediction That Needed No Further Examination",
+      "④ When Background Details Replace All Empirical Evidence",
+      "⑤ The Complete Failure of Observation in Practical Research"
+    ],
+    "answer": 2,
+    "explanation": "초기 설명과 후속 관찰의 불일치를 통해 더 정교한 판단으로 옮겨가는 글 전체를 포괄합니다.",
+    "wrong_explanations": {},
+    "_reviewed": false
+  },
+  {
+    "_qid": "R-0530",
+    "type": "무관한 문장",
+    "passage": "(①) Professional football leagues publish schedules before the season begins. (②) A librarian placed popular novels beside less familiar works on the same topic. (③) Staff had expected a separate discovery section to attract everyone. (④) Readers explored new authors when recommendations linked familiar interests to unfamiliar voices. (⑤) Finding new material may depend on bridges from existing habits.",
+    "given_sentence": "",
+    "choices": [
+      "①번 문장",
+      "②번 문장",
+      "③번 문장",
+      "④번 문장",
+      "⑤번 문장"
+    ],
+    "answer": 1,
+    "explanation": "나머지 네 문장은 동일한 연구·관찰의 초기 가정과 결과, 수정된 결론을 연결하지만 해당 문장은 다른 주제로 전환되어 논리적 연속성이 없습니다.",
+    "wrong_explanations": {},
+    "_reviewed": false
+  },
+  {
+    "_qid": "R-0531",
+    "type": "요약문 완성",
+    "passage": "A coastal engineer compared two flood forecasts based on identical data. Officials wanted a single number that seemed unquestionably objective. The first interpretation was plausible because it focused on an easily visible feature. But different assumptions about land use produced substantially different losses. This did not make the earlier observation useless; it revealed that the original explanation had missed an important condition. Forecasts should disclose the assumptions that shape their apparent precision.",
+    "given_sentence": "",
+    "choices": [
+      "① unrelated — absolute",
+      "② supported — qualified",
+      "③ replaced — unquestionable",
+      "④ challenged — categorical",
+      "⑤ supported — unconditional"
+    ],
+    "answer": 2,
+    "explanation": "초기 가정은 처음에는 지지를 받았지만 후속 관찰 때문에 해석에 조건과 한계를 명시해야 했으므로 supported — qualified가 가장 적절합니다.",
+    "wrong_explanations": {},
+    "_reviewed": false
+  },
+  {
+    "_qid": "R-0532",
+    "type": "빈칸 추론",
+    "passage": "A musician rehearsed with a metronome that gradually changed tempo. The group had mastered the piece at one fixed speed. The new evidence, however, was more informative than the original label: the shifting beat exposed moments where the ensemble relied on habit rather than listening. The difficulty is to account for both the attraction of the earlier interpretation and its failure to explain the later observation. The evidence is most consistent with the conclusion that __________. A defensible choice should explain the contrast without converting a local finding into a universal rule.",
+    "given_sentence": "",
+    "choices": [
+      "① the group had mastered the piece at one fixed speed, with no adjustment for the new evidence",
+      "② the evidence has no bearing on how the original claim should be assessed",
+      "③ the initial assumption must be rejected even in circumstances for which it was never tested",
+      "④ flexible performance requires understanding relationships beyond mechanical repetition",
+      "⑤ the shifting beat exposed moments where the ensemble relied on habit rather than listening, which proves that the same result is inevitable everywhere"
+    ],
+    "answer": 4,
+    "explanation": "기초 관찰: The shifting beat exposed moments where the ensemble relied on habit rather than listening. 초기 해석: The group had mastered the piece at one fixed speed. 따라서 Flexible performance requires understanding relationships beyond mechanical repetition. 다만 단일 사례가 모든 상황으로 일반화되는 것은 아닙니다.",
+    "wrong_explanations": {},
+    "_reviewed": false
+  },
+  {
+    "_qid": "R-0533",
+    "type": "문장 삽입",
+    "passage": "An urban farmer collected discarded coffee grounds for compost. A publicity campaign described all food waste as automatically beneficial. (①) The grounds improved some soil mixtures but made others too acidic. (②) Recycling materials requires attention to context and dosage. (③) The report explained the evidential limits of the finding. (④) A follow-up study was proposed. (⑤)",
+    "given_sentence": "The unexpected contrast made it necessary to distinguish the initial prediction from the evidence obtained later.",
+    "choices": [
+      "①번 위치",
+      "②번 위치",
+      "③번 위치",
+      "④번 위치",
+      "⑤번 위치"
+    ],
+    "answer": 2,
+    "explanation": "초기 해석과 상반되는 관찰이 나온 직후에 This discrepancy가 연결됩니다. 다른 위치에서는 discrepancy의 지시 대상이 불분명하거나 후속 판단의 인과 관계가 끊깁니다.",
+    "wrong_explanations": {},
+    "_reviewed": false
+  },
+  {
+    "_qid": "R-0534",
+    "type": "어법 판단",
+    "passage": "A researcher watched children invent rules for an unfamiliar board game. The report (① describe) why the original account was appealing. The evidence (② collected) later made the question more complicated. Rather than (③ ignoring) the discrepancy, the investigators considered what it revealed. Their conclusion (④ was) deliberately qualified and (⑤ remained) open to further testing.",
+    "given_sentence": "",
+    "choices": [
+      "①번 표시",
+      "②번 표시",
+      "③번 표시",
+      "④번 표시",
+      "⑤번 표시"
+    ],
+    "answer": 1,
+    "explanation": "①는 describes로 고쳐야 합니다. 나머지 표시 표현은 해당 문장의 구조상 허용됩니다.",
+    "wrong_explanations": {},
+    "_reviewed": false
+  },
+  {
+    "_qid": "R-0535",
+    "type": "어휘 적절성",
+    "passage": "A remote clinic introduced video consultations for routine follow-ups. Administrators celebrated the overall rise in participation. Attendance improved for patients living far away but declined among those with unstable internet. The first interpretation was necessarily (① tentative) because little evidence had yet been collected. The later observation (② contradicted) the expectation on which that interpretation depended. The researchers consequently adopted a (③ qualified) account rather than an unconditional verdict. They examined whether the new evidence was (④ irrelevant) to the question under investigation. The conclusion remained (⑤ limited) to the conditions in which the observations had been made.",
+    "given_sentence": "",
+    "choices": [
+      "①번 표시",
+      "②번 표시",
+      "③번 표시",
+      "④번 표시",
+      "⑤번 표시"
+    ],
+    "answer": 4,
+    "explanation": "④의 irrelevant는 주변 의미와 충돌합니다. relevant로 수정해야 초기 가설·반증·신중한 결론의 논리가 일관됩니다.",
+    "wrong_explanations": {},
+    "_reviewed": false
+  },
+  {
+    "_qid": "R-0536",
+    "type": "요지/주제",
+    "passage": "A painter compared sketches made from memory with those made on site. She had expected memory to preserve a neutral copy of the scene. The first interpretation was plausible because it focused on an easily visible feature. But memory drawings exaggerated the shapes that had attracted her attention. This did not make the earlier observation useless; it revealed that the original explanation had missed an important condition. Remembering is a selective reconstruction rather than passive storage.",
+    "given_sentence": "",
+    "choices": [
+      "① the need to ignore early evidence once a new interpretation is proposed",
+      "② why a single observation is enough to settle every possible explanation",
+      "③ Remembering is a selective reconstruction rather than passive storage",
+      "④ She had expected memory to preserve a neutral copy of the scene is justified in all settings",
+      "⑤ the claim that competing explanations cannot be evaluated with evidence"
+    ],
+    "answer": 3,
+    "explanation": "초기 기대와 다른 관찰을 통해 얻은 제한적인 결론이 요지입니다. 다른 선택지는 단정적 일반화 또는 근거 없는 판단입니다.",
+    "wrong_explanations": {},
+    "_reviewed": false
+  },
+  {
+    "_qid": "R-0537",
+    "type": "글의 순서",
+    "passage": "An astronomer combined observations from several modest telescopes.\n\n(A) Before further investigation, a sponsor had equated expensive equipment with complete coverage. This gave the project a clear, if incomplete, starting point.\n\n(B) The subsequent evidence complicated that expectation: different viewing times filled gaps that a single large telescope could not cover. The initial account could no longer explain the entire pattern.\n\n(C) In response, the investigators adopted a more cautious inference. Coordination among limited instruments can produce valuable evidence. They also identified what additional observations would be needed.",
+    "given_sentence": "",
+    "choices": [
+      "① (C)-(A)-(B)",
+      "② (B)-(C)-(A)",
+      "③ (B)-(A)-(C)",
+      "④ (A)-(C)-(B)",
+      "⑤ (A)-(B)-(C)"
+    ],
+    "answer": 5,
+    "explanation": "최초 가정 → 후속 관찰에 의한 반증·보완 → 수정된 판단이라는 인과 순서가 필수입니다. 따라서 (A)-(B)-(C)입니다.",
+    "wrong_explanations": {},
+    "_reviewed": false
+  },
+  {
+    "_qid": "R-0538",
+    "type": "글의 목적",
+    "passage": "Dear Review Committee,\n\nA municipal team experimented with permeable pavement in a small plaza. Promoters advertised the material as a stand-alone solution to flooding. In fact, the surface absorbed light rain but struggled when drains beneath it were blocked. I am not asking you to dismiss the original project; I am requesting that its evaluation include the additional evidence and explicitly state the limits of the initial conclusion. Such a review would make the assessment fairer.\n\nSincerely,\nA project participant",
+    "given_sentence": "",
+    "choices": [
+      "① To demand that the project be cancelled without another evaluation",
+      "② To request a reassessment that accounts for conflicting evidence",
+      "③ To announce that the first interpretation has already been fully confirmed",
+      "④ To request a larger budget without discussing evaluation criteria",
+      "⑤ To invite committee members to an unrelated public celebration"
+    ],
+    "answer": 2,
+    "explanation": "편지의 핵심 요청은 기존 평가에 후속 관찰을 반영하고 초기 결론의 한계를 명시해 달라는 것입니다.",
+    "wrong_explanations": {},
+    "_reviewed": false
+  },
+  {
+    "_qid": "R-0539",
+    "type": "심경 추론",
+    "passage": "At first, I felt reassured by the seemingly straightforward explanation. The restaurant expected information alone to determine taste. A chef added detailed origin stories to a seasonal menu. When I learned that diners became curious about unfamiliar vegetables but still rejected some flavors, my confidence weakened. I wondered how much I had missed by attending only to the result that supported my expectation. I reconsidered my judgment. By the end, I was still uncertain about every detail, but I felt more willing to investigate than to defend my first impression.",
+    "given_sentence": "",
+    "choices": [
+      "① from distrust of the team to unconditional hostility",
+      "② from confidence to reflective curiosity",
+      "③ from disappointment to certainty that all questions are settled",
+      "④ from curiosity to indifference about the investigation",
+      "⑤ from confidence to a refusal to reconsider any evidence"
+    ],
+    "answer": 2,
+    "explanation": "초기의 confident/reassured와 후반의 reconsider, willing to investigate가 대비되므로 확신에서 성찰적 탐구로의 변화입니다.",
+    "wrong_explanations": {},
+    "_reviewed": false
+  },
+  {
+    "_qid": "R-0540",
+    "type": "필자의 주장",
+    "passage": "A sociologist compared how neighbors interpreted silence in shared courtyards. A housing committee had imposed a single definition of friendliness. At first, that account seemed attractive: it offered a simple explanation that could be communicated without further qualification. In fact, some saw quiet as respect while others understood it as social exclusion. Two observers could accept the same facts yet reach different judgments because they attached different importance to the underlying assumptions. The meaning of behavior can depend on different cultural expectations. An adequate account must make those assumptions explicit before treating its conclusion as general. This conclusion is not identical to the first assumption; it must account for the later observation and for the limits of the original measure. In particular, the new evidence may justify changing the interpretation without proving that the earlier account was mistaken in every conceivable setting. Consequently, the preferred interpretation should explain both the initial expectation and the evidence that complicates it, without pretending that a single example establishes a universal rule.",
+    "given_sentence": "",
+    "choices": [
+      "① Decision-makers should judge an intervention solely by its most visible immediate result.",
+      "② An observed difference should be treated as a universal rule without further examination.",
+      "③ Decisions should reflect this insight: the meaning of behavior can depend on different cultural expectations.",
+      "④ If evidence is mixed, decision-makers should avoid weighing the competing explanations at all.",
+      "⑤ Decisions should retain the original assumption because a housing committee had imposed a single definition of friendliness."
+    ],
+    "answer": 3,
+    "explanation": "필자는 초기 판단을 그대로 유지하기보다 관찰의 조건과 반례를 반영해 결론을 조정해야 한다고 주장합니다.",
+    "wrong_explanations": {},
+    "_reviewed": false
+  },
+  {
+    "_qid": "R-0541",
+    "type": "제목 추론",
+    "passage": "An economist examined a free public transit trial. Officials had treated every extra passenger as an emissions saving. At first, that account seemed attractive: it offered a simple explanation that could be communicated without further qualification. In fact, ridership rose but many new journeys replaced walking rather than driving. The outcome provides a useful clue, but it does not establish that the same mechanism would operate under every set of conditions. The environmental effect of a policy depends on what behavior it displaces. The stronger inference is deliberately limited: it explains the observed contrast without pretending that all uncertainty has disappeared. This conclusion is not identical to the first assumption; it must account for the later observation and for the limits of the original measure. In particular, the new evidence may justify changing the interpretation without proving that the earlier account was mistaken in every conceivable setting. Consequently, the preferred interpretation should explain both the initial expectation and the evidence that complicates it, without pretending that a single example establishes a universal rule.",
+    "given_sentence": "",
+    "choices": [
+      "① Beyond the First Explanation: The environmental effect of a policy depends on what behavior it displaces",
+      "② The Complete Failure of Observation in Practical Research",
+      "③ A Familiar Prediction That Needed No Further Examination",
+      "④ Why a Single Indicator Is Sufficient for Every Decision",
+      "⑤ When Background Details Replace All Empirical Evidence"
+    ],
+    "answer": 1,
+    "explanation": "초기 설명과 후속 관찰의 불일치를 통해 더 정교한 판단으로 옮겨가는 글 전체를 포괄합니다.",
+    "wrong_explanations": {},
+    "_reviewed": false
+  },
+  {
+    "_qid": "R-0542",
+    "type": "무관한 문장",
+    "passage": "(①) A literary scholar studied several translations of an ambiguous poem. (②) Readers demanded one definitive equivalent for every image. (③) Weather satellites collect images from orbits above the atmosphere. (④) Each version preserved a different association while losing another. (⑤) Translation often involves trade-offs rather than exact substitution.",
+    "given_sentence": "",
+    "choices": [
+      "①번 문장",
+      "②번 문장",
+      "③번 문장",
+      "④번 문장",
+      "⑤번 문장"
+    ],
+    "answer": 3,
+    "explanation": "나머지 네 문장은 동일한 연구·관찰의 초기 가정과 결과, 수정된 결론을 연결하지만 해당 문장은 다른 주제로 전환되어 논리적 연속성이 없습니다.",
+    "wrong_explanations": {},
+    "_reviewed": false
+  },
+  {
+    "_qid": "R-0543",
+    "type": "요약문 완성",
+    "passage": "A biologist moved a rare plant into a protected greenhouse. The conservation team measured success only by plant survival. At first, that account seemed attractive: it offered a simple explanation that could be communicated without further qualification. In fact, the plants survived but no longer received visits from their usual pollinators. Neither the initial prediction nor the later measurement is meaningless; the mistake is to confuse either one with a complete explanation. Protecting a species also involves preserving its ecological relationships. The task is to connect the observations with the process that could plausibly have produced them. This conclusion is not identical to the first assumption; it must account for the later observation and for the limits of the original measure. In particular, the new evidence may justify changing the interpretation without proving that the earlier account was mistaken in every conceivable setting. Consequently, the preferred interpretation should explain both the initial expectation and the evidence that complicates it, without pretending that a single example establishes a universal rule.",
+    "given_sentence": "",
+    "choices": [
+      "① challenged — categorical",
+      "② supported — qualified",
+      "③ supported — unconditional",
+      "④ unrelated — absolute",
+      "⑤ replaced — unquestionable"
+    ],
+    "answer": 2,
+    "explanation": "초기 가정은 처음에는 지지를 받았지만 후속 관찰 때문에 해석에 조건과 한계를 명시해야 했으므로 supported — qualified가 가장 적절합니다.",
+    "wrong_explanations": {},
+    "_reviewed": false
+  },
+  {
+    "_qid": "R-0544",
+    "type": "빈칸 추론",
+    "passage": "A sports coach required athletes to describe tactical errors after matches. The team had previously judged strategy only by whether a play succeeded. The new evidence, however, was more informative than the original label: players learned to distinguish poor decisions from unlucky outcomes. The difficulty is to account for both the attraction of the earlier interpretation and its failure to explain the later observation. The evidence is most consistent with the conclusion that __________. A defensible choice should explain the contrast without converting a local finding into a universal rule.",
+    "given_sentence": "",
+    "choices": [
+      "① the initial assumption must be rejected even in circumstances for which it was never tested",
+      "② the evidence has no bearing on how the original claim should be assessed",
+      "③ players learned to distinguish poor decisions from unlucky outcomes, which proves that the same result is inevitable everywhere",
+      "④ the team had previously judged strategy only by whether a play succeeded, with no adjustment for the new evidence",
+      "⑤ good evaluation separates decision quality from immediate results"
+    ],
+    "answer": 5,
+    "explanation": "기초 관찰: Players learned to distinguish poor decisions from unlucky outcomes. 초기 해석: The team had previously judged strategy only by whether a play succeeded. 따라서 Good evaluation separates decision quality from immediate results. 다만 단일 사례가 모든 상황으로 일반화되는 것은 아닙니다.",
+    "wrong_explanations": {},
+    "_reviewed": false
+  },
+  {
+    "_qid": "R-0545",
+    "type": "문장 삽입",
+    "passage": "A historian compared a diary with official records of a labor strike. (①) A researcher dismissed personal writing as useless because it was subjective. (②) The diary captured fear and uncertainty missing from the official timetable. (③) Different sources answer different historical questions. (④) Further evaluation was recommended. (⑤)",
+    "given_sentence": "This difference, rather than the first result alone, became the starting point for a revised explanation.",
+    "choices": [
+      "①번 위치",
+      "②번 위치",
+      "③번 위치",
+      "④번 위치",
+      "⑤번 위치"
+    ],
+    "answer": 3,
+    "explanation": "초기 해석과 상반되는 관찰이 나온 직후에 This discrepancy가 연결됩니다. 다른 위치에서는 discrepancy의 지시 대상이 불분명하거나 후속 판단의 인과 관계가 끊깁니다.",
+    "wrong_explanations": {},
+    "_reviewed": false
+  },
+  {
+    "_qid": "R-0546",
+    "type": "어법 판단",
+    "passage": "A botanist observed roots growing around a buried stone. It was the later evidence (① that) challenged the original interpretation. The observations (② was) checked twice before the team (③ published) its findings. Neither the initial prediction nor the follow-up results (④ were) treated as sufficient alone. The explanation (⑤ ultimately) depended on their relationship.",
+    "given_sentence": "",
+    "choices": [
+      "①번 표시",
+      "②번 표시",
+      "③번 표시",
+      "④번 표시",
+      "⑤번 표시"
+    ],
+    "answer": 2,
+    "explanation": "②는 were로 고쳐야 합니다. 나머지 표시 표현은 해당 문장의 구조상 허용됩니다.",
+    "wrong_explanations": {},
+    "_reviewed": false
+  },
+  {
+    "_qid": "R-0547",
+    "type": "어휘 적절성",
+    "passage": "A city replaced a noisy intersection with a small public square. Advocates described the project as having benefits without costs. Street vendors gained customers, but delivery drivers needed a new route. The first interpretation was necessarily (① tentative) because little evidence had yet been collected. The later observation (② confirmed) the expectation on which that interpretation depended. The researchers consequently adopted a (③ qualified) account rather than an unconditional verdict. They examined whether the new evidence was (④ relevant) to the question under investigation. The conclusion remained (⑤ limited) to the conditions in which the observations had been made.",
+    "given_sentence": "",
+    "choices": [
+      "①번 표시",
+      "②번 표시",
+      "③번 표시",
+      "④번 표시",
+      "⑤번 표시"
+    ],
+    "answer": 2,
+    "explanation": "②의 confirmed는 주변 의미와 충돌합니다. contradicted로 수정해야 초기 가설·반증·신중한 결론의 논리가 일관됩니다.",
+    "wrong_explanations": {},
+    "_reviewed": false
+  },
+  {
+    "_qid": "R-0548",
+    "type": "요지/주제",
+    "passage": "A museum restored an antique clock but left one visible repair. Some collectors wanted all traces of repair erased. However, visitors understood how later generations had kept the mechanism working. The history of maintenance can itself be part of an object's significance.",
+    "given_sentence": "",
+    "choices": [
+      "① The history of maintenance can itself be part of an object's significance",
+      "② the need to ignore early evidence once a new interpretation is proposed",
+      "③ Some collectors wanted all traces of repair erased is justified in all settings",
+      "④ why a single observation is enough to settle every possible explanation",
+      "⑤ the claim that competing explanations cannot be evaluated with evidence"
+    ],
+    "answer": 1,
+    "explanation": "초기 기대와 다른 관찰을 통해 얻은 제한적인 결론이 요지입니다. 다른 선택지는 단정적 일반화 또는 근거 없는 판단입니다.",
+    "wrong_explanations": {},
+    "_reviewed": false
+  },
+  {
+    "_qid": "R-0549",
+    "type": "글의 순서",
+    "passage": "A researcher tracked bird migration using tags and local observations.\n\n(A) The subsequent evidence complicated that expectation: tagged birds provided precise paths while volunteer sightings covered a wider area. The initial account could no longer explain the entire pattern.\n\n(B) Before further investigation, a supervisor wanted to choose only the more accurate source. This gave the project a clear, if incomplete, starting point.\n\n(C) In response, the investigators adopted a more cautious inference. Combining precision with coverage may improve a picture that neither source provides alone. They also identified what additional observations would be needed.",
+    "given_sentence": "",
+    "choices": [
+      "① (C)-(A)-(B)",
+      "② (B)-(C)-(A)",
+      "③ (A)-(C)-(B)",
+      "④ (A)-(B)-(C)",
+      "⑤ (B)-(A)-(C)"
+    ],
+    "answer": 5,
+    "explanation": "최초 가정 → 후속 관찰에 의한 반증·보완 → 수정된 판단이라는 인과 순서가 필수입니다. 따라서 (B)-(A)-(C)입니다.",
+    "wrong_explanations": {},
+    "_reviewed": false
+  },
+  {
+    "_qid": "R-0550",
+    "type": "글의 목적",
+    "passage": "Dear Review Committee,\n\nA psychologist compared two ways of giving performance feedback. Managers believed positive labels alone would motivate improvement. In fact, specific descriptions of actions helped workers improve more than general praise. I am not asking you to dismiss the original project; I am requesting that its evaluation include the additional evidence and explicitly state the limits of the initial conclusion. Without this change, the next funding decision could reward an incomplete indicator rather than the project's actual performance.\n\nSincerely,\nA project participant",
+    "given_sentence": "",
+    "choices": [
+      "① To request a reassessment that accounts for conflicting evidence",
+      "② To demand that the project be cancelled without another evaluation",
+      "③ To invite committee members to an unrelated public celebration",
+      "④ To request a larger budget without discussing evaluation criteria",
+      "⑤ To announce that the first interpretation has already been fully confirmed"
+    ],
+    "answer": 1,
+    "explanation": "편지의 핵심 요청은 기존 평가에 후속 관찰을 반영하고 초기 결론의 한계를 명시해 달라는 것입니다.",
+    "wrong_explanations": {},
+    "_reviewed": false
+  },
+  {
+    "_qid": "R-0551",
+    "type": "심경 추론",
+    "passage": "At first, I felt reassured by the seemingly straightforward explanation. A brochure treated every green roof as equally sustainable. A neighborhood built a small rooftop garden above a shopping arcade. When I learned that the garden cooled nearby rooms but required substantial watering in dry months, my confidence weakened. I wondered how much I had missed by attending only to the result that supported my expectation. I resisted admitting the limitation because I had defended the earlier account in public. Yet the more carefully I compared the observations, the clearer the need for revision became. By the end, I was still uncertain about every detail, but I felt more willing to investigate than to defend my first impression.",
+    "given_sentence": "",
+    "choices": [
+      "① from confidence to reflective curiosity",
+      "② from curiosity to indifference about the investigation",
+      "③ from distrust of the team to unconditional hostility",
+      "④ from confidence to a refusal to reconsider any evidence",
+      "⑤ from disappointment to certainty that all questions are settled"
+    ],
+    "answer": 1,
+    "explanation": "초기의 confident/reassured와 후반의 reconsider, willing to investigate가 대비되므로 확신에서 성찰적 탐구로의 변화입니다.",
+    "wrong_explanations": {},
+    "_reviewed": false
+  },
+  {
+    "_qid": "R-0552",
+    "type": "필자의 주장",
+    "passage": "An engineer examined why a repaired bridge vibrated under certain loads. The first team had inspected each component separately. At first, that account seemed attractive: it offered a simple explanation that could be communicated without further qualification. In fact, replacing a damaged component solved one problem but shifted stress elsewhere. The initial explanation appealed to a familiar measure of success, yet that measure ignored who or what was excluded from the observation. Connections between components can create unexpected system-level effects. A better judgment requires distinguishing what the evidence directly establishes from the larger claim someone hopes to make. This conclusion is not identical to the first assumption; it must account for the later observation and for the limits of the original measure. In particular, the new evidence may justify changing the interpretation without proving that the earlier account was mistaken in every conceivable setting. Consequently, the preferred interpretation should explain both the initial expectation and the evidence that complicates it, without pretending that a single example establishes a universal rule.",
+    "given_sentence": "",
+    "choices": [
+      "① An observed difference should be treated as a universal rule without further examination.",
+      "② If evidence is mixed, decision-makers should avoid weighing the competing explanations at all.",
+      "③ Decisions should reflect this insight: connections between components can create unexpected system-level effects.",
+      "④ Decisions should retain the original assumption because the first team had inspected each component separately.",
+      "⑤ Decision-makers should judge an intervention solely by its most visible immediate result."
+    ],
+    "answer": 3,
+    "explanation": "필자는 초기 판단을 그대로 유지하기보다 관찰의 조건과 반례를 반영해 결론을 조정해야 한다고 주장합니다.",
+    "wrong_explanations": {},
+    "_reviewed": false
+  },
+  {
+    "_qid": "R-0553",
+    "type": "제목 추론",
+    "passage": "A journalist asked readers to mark uncertainty in a developing story. Editors feared that admitting uncertainty would look unprofessional. At first, that account seemed attractive: it offered a simple explanation that could be communicated without further qualification. In fact, corrections became easier to understand when early claims had been qualified. The striking feature of the result was not its size but the mismatch between the expected mechanism and the one actually observed. Credibility may increase when evidence and confidence are distinguished. The conclusion therefore depends on comparing two interpretations, rather than merely repeating the most visible outcome. This conclusion is not identical to the first assumption; it must account for the later observation and for the limits of the original measure. In particular, the new evidence may justify changing the interpretation without proving that the earlier account was mistaken in every conceivable setting. Consequently, the preferred interpretation should explain both the initial expectation and the evidence that complicates it, without pretending that a single example establishes a universal rule.",
+    "given_sentence": "",
+    "choices": [
+      "① A Familiar Prediction That Needed No Further Examination",
+      "② Beyond the First Explanation: Credibility may increase when evidence and confidence are distinguished",
+      "③ The Complete Failure of Observation in Practical Research",
+      "④ When Background Details Replace All Empirical Evidence",
+      "⑤ Why a Single Indicator Is Sufficient for Every Decision"
+    ],
+    "answer": 2,
+    "explanation": "초기 설명과 후속 관찰의 불일치를 통해 더 정교한 판단으로 옮겨가는 글 전체를 포괄합니다.",
+    "wrong_explanations": {},
+    "_reviewed": false
+  },
+  {
+    "_qid": "R-0554",
+    "type": "무관한 문장",
+    "passage": "(①) A teacher let students revise essays after receiving peer comments. (②) Some pupils offered only vague statements that the work was good. (③) Revisions improved most when comments referred to specific passages. (④) Collaboration is productive when feedback is precise enough to act upon. (⑤) Professional football leagues publish schedules before the season begins.",
+    "given_sentence": "",
+    "choices": [
+      "①번 문장",
+      "②번 문장",
+      "③번 문장",
+      "④번 문장",
+      "⑤번 문장"
+    ],
+    "answer": 5,
+    "explanation": "나머지 네 문장은 동일한 연구·관찰의 초기 가정과 결과, 수정된 결론을 연결하지만 해당 문장은 다른 주제로 전환되어 논리적 연속성이 없습니다.",
+    "wrong_explanations": {},
+    "_reviewed": false
+  },
+  {
+    "_qid": "R-0555",
+    "type": "요약문 완성",
+    "passage": "A coastal town limited tourist visits to a fragile tide pool. The council framed conservation as a simple matter of restricting access. The first interpretation was plausible because it focused on an easily visible feature. But fewer visitors caused less damage, but local guides lost income. This did not make the earlier observation useless; it revealed that the original explanation had missed an important condition. Durable conservation may require addressing the livelihoods affected by rules.",
+    "given_sentence": "",
+    "choices": [
+      "① supported — unconditional",
+      "② supported — qualified",
+      "③ challenged — categorical",
+      "④ unrelated — absolute",
+      "⑤ replaced — unquestionable"
+    ],
+    "answer": 2,
+    "explanation": "초기 가정은 처음에는 지지를 받았지만 후속 관찰 때문에 해석에 조건과 한계를 명시해야 했으므로 supported — qualified가 가장 적절합니다.",
+    "wrong_explanations": {},
+    "_reviewed": false
+  },
+  {
+    "_qid": "R-0556",
+    "type": "빈칸 추론",
+    "passage": "A researcher observed how people chose passwords. An instructor had equated memorability with weak security. The new evidence, however, was more informative than the original label: participants remembered distinctive phrases better than arbitrary short strings. The difficulty is to account for both the attraction of the earlier interpretation and its failure to explain the later observation. The evidence is most consistent with the conclusion that __________. A defensible choice should explain the contrast without converting a local finding into a universal rule.",
+    "given_sentence": "",
+    "choices": [
+      "① an instructor had equated memorability with weak security, with no adjustment for the new evidence",
+      "② the initial assumption must be rejected even in circumstances for which it was never tested",
+      "③ the evidence has no bearing on how the original claim should be assessed",
+      "④ participants remembered distinctive phrases better than arbitrary short strings, which proves that the same result is inevitable everywhere",
+      "⑤ security design must account for human memory as well as technical strength"
+    ],
+    "answer": 5,
+    "explanation": "기초 관찰: Participants remembered distinctive phrases better than arbitrary short strings. 초기 해석: An instructor had equated memorability with weak security. 따라서 Security design must account for human memory as well as technical strength. 다만 단일 사례가 모든 상황으로 일반화되는 것은 아닙니다.",
+    "wrong_explanations": {},
+    "_reviewed": false
+  },
+  {
+    "_qid": "R-0557",
+    "type": "문장 삽입",
+    "passage": "The project was designed to test an explanation that initially seemed straightforward. (①) A historian analyzed the gaps in an old census. (②) Some readers treated blank cells as proof that these people did not work. (③) Women working in family businesses were often recorded without occupations. (④) Missing records can reflect the categories used to collect information. (⑤)",
+    "given_sentence": "The inconsistency prompted a closer examination of what the original indicator had failed to capture.",
+    "choices": [
+      "①번 위치",
+      "②번 위치",
+      "③번 위치",
+      "④번 위치",
+      "⑤번 위치"
+    ],
+    "answer": 4,
+    "explanation": "초기 해석과 상반되는 관찰이 나온 직후에 This discrepancy가 연결됩니다. 다른 위치에서는 discrepancy의 지시 대상이 불분명하거나 후속 판단의 인과 관계가 끊깁니다.",
+    "wrong_explanations": {},
+    "_reviewed": false
+  },
+  {
+    "_qid": "R-0558",
+    "type": "어법 판단",
+    "passage": "A researcher studied how mushrooms responded to fallen branches. The earlier view seemed (① plausible), but the subsequent observation (② provided) a reason to reconsider it. If the team (③ has relied) only on its first assumption, it (④ would have missed) an important distinction. The investigators (⑤ therefore) revised their judgment.",
+    "given_sentence": "",
+    "choices": [
+      "①번 표시",
+      "②번 표시",
+      "③번 표시",
+      "④번 표시",
+      "⑤번 표시"
+    ],
+    "answer": 3,
+    "explanation": "③는 had relied로 고쳐야 합니다. 나머지 표시 표현은 해당 문장의 구조상 허용됩니다.",
+    "wrong_explanations": {},
+    "_reviewed": false
+  },
+  {
+    "_qid": "R-0559",
+    "type": "어휘 적절성",
+    "passage": "An orchestra invited audience members to move between seating zones. A critic claimed that a performance had one objectively identical sound for all. Listeners noticed different instrument lines from different positions. The first interpretation was necessarily (① tentative) because little evidence had yet been collected. The later observation (② contradicted) the expectation on which that interpretation depended. The researchers consequently adopted a (③ qualified) account rather than an unconditional verdict. They examined whether the new evidence was (④ relevant) to the question under investigation. The conclusion remained (⑤ universal) to the conditions in which the observations had been made.",
+    "given_sentence": "",
+    "choices": [
+      "①번 표시",
+      "②번 표시",
+      "③번 표시",
+      "④번 표시",
+      "⑤번 표시"
+    ],
+    "answer": 5,
+    "explanation": "⑤의 universal는 주변 의미와 충돌합니다. limited로 수정해야 초기 가설·반증·신중한 결론의 논리가 일관됩니다.",
+    "wrong_explanations": {},
+    "_reviewed": false
+  },
+  {
+    "_qid": "R-0560",
+    "type": "요지/주제",
+    "passage": "An educational app shortened lessons and added optional challenges. Developers had believed one standardized sequence would suit everyone. The first interpretation was plausible because it focused on an easily visible feature. But beginners completed more lessons while advanced learners chose deeper tasks. This did not make the earlier observation useless; it revealed that the original explanation had missed an important condition. Personalization can serve different learners without lowering expectations.",
+    "given_sentence": "",
+    "choices": [
+      "① Developers had believed one standardized sequence would suit everyone is justified in all settings",
+      "② the claim that competing explanations cannot be evaluated with evidence",
+      "③ Personalization can serve different learners without lowering expectations",
+      "④ the need to ignore early evidence once a new interpretation is proposed",
+      "⑤ why a single observation is enough to settle every possible explanation"
+    ],
+    "answer": 3,
+    "explanation": "초기 기대와 다른 관찰을 통해 얻은 제한적인 결론이 요지입니다. 다른 선택지는 단정적 일반화 또는 근거 없는 판단입니다.",
+    "wrong_explanations": {},
+    "_reviewed": false
+  },
+  {
+    "_qid": "R-0561",
+    "type": "글의 순서",
+    "passage": "A researcher measured urban temperatures across neighboring streets.\n\n(A) The subsequent evidence complicated that expectation: tree shade produced sharp differences that a citywide average concealed. The initial account could no longer explain the entire pattern.\n\n(B) Before further investigation, officials relied only on the average temperature from a distant station. This gave the project a clear, if incomplete, starting point.\n\n(C) In response, the investigators adopted a more cautious inference. Local conditions may differ greatly from aggregate measurements. They also identified what additional observations would be needed.",
+    "given_sentence": "",
+    "choices": [
+      "① (B)-(A)-(C)",
+      "② (A)-(B)-(C)",
+      "③ (C)-(A)-(B)",
+      "④ (B)-(C)-(A)",
+      "⑤ (A)-(C)-(B)"
+    ],
+    "answer": 1,
+    "explanation": "최초 가정 → 후속 관찰에 의한 반증·보완 → 수정된 판단이라는 인과 순서가 필수입니다. 따라서 (B)-(A)-(C)입니다.",
+    "wrong_explanations": {},
+    "_reviewed": false
+  },
+  {
+    "_qid": "R-0562",
+    "type": "글의 목적",
+    "passage": "Dear Review Committee,\n\nA marine biologist compared fish abundance near old and new artificial reefs. A report counted every visiting fish as evidence of habitat restoration. In fact, young reefs attracted fish quickly but did not immediately support breeding. I am not asking you to dismiss the original project; I am requesting that its evaluation include the additional evidence and explicitly state the limits of the initial conclusion. Without this change, the next funding decision could reward an incomplete indicator rather than the project's actual performance.\n\nSincerely,\nA project participant",
+    "given_sentence": "",
+    "choices": [
+      "① To request a reassessment that accounts for conflicting evidence",
+      "② To demand that the project be cancelled without another evaluation",
+      "③ To announce that the first interpretation has already been fully confirmed",
+      "④ To request a larger budget without discussing evaluation criteria",
+      "⑤ To invite committee members to an unrelated public celebration"
+    ],
+    "answer": 1,
+    "explanation": "편지의 핵심 요청은 기존 평가에 후속 관찰을 반영하고 초기 결론의 한계를 명시해 달라는 것입니다.",
+    "wrong_explanations": {},
+    "_reviewed": false
+  },
+  {
+    "_qid": "R-0563",
+    "type": "심경 추론",
+    "passage": "At first, I felt reassured by the seemingly straightforward explanation. A popular account assumed that technology simply eliminated domestic work. A historian examined advertisements for household appliances. When I learned that manufacturers described labor saving but often shifted work to different family members, my confidence weakened. I wondered how much I had missed by attending only to the result that supported my expectation. I reconsidered my judgment. By the end, I was still uncertain about every detail, but I felt more willing to investigate than to defend my first impression.",
+    "given_sentence": "",
+    "choices": [
+      "① from distrust of the team to unconditional hostility",
+      "② from curiosity to indifference about the investigation",
+      "③ from disappointment to certainty that all questions are settled",
+      "④ from confidence to a refusal to reconsider any evidence",
+      "⑤ from confidence to reflective curiosity"
+    ],
+    "answer": 5,
+    "explanation": "초기의 confident/reassured와 후반의 reconsider, willing to investigate가 대비되므로 확신에서 성찰적 탐구로의 변화입니다.",
+    "wrong_explanations": {},
+    "_reviewed": false
+  },
+  {
+    "_qid": "R-0564",
+    "type": "필자의 주장",
+    "passage": "A transportation planner studied late-night bus riders. Budget meetings judged every route only by passengers per hour. However, a small number of reliable services mattered greatly to shift workers. Public value may depend on who relies on a service, not merely its volume.",
+    "given_sentence": "",
+    "choices": [
+      "① An observed difference should be treated as a universal rule without further examination.",
+      "② Decision-makers should judge an intervention solely by its most visible immediate result.",
+      "③ Decisions should retain the original assumption because budget meetings judged every route only by passengers per hour.",
+      "④ Decisions should reflect this insight: public value may depend on who relies on a service, not merely its volume.",
+      "⑤ If evidence is mixed, decision-makers should avoid weighing the competing explanations at all."
+    ],
+    "answer": 4,
+    "explanation": "필자는 초기 판단을 그대로 유지하기보다 관찰의 조건과 반례를 반영해 결론을 조정해야 한다고 주장합니다.",
+    "wrong_explanations": {},
+    "_reviewed": false
+  },
+  {
+    "_qid": "R-0565",
+    "type": "제목 추론",
+    "passage": "A researcher collected rainwater from rooftops of different materials. A neighborhood campaign equated collected volume with safe drinking water. At first, that account seemed attractive: it offered a simple explanation that could be communicated without further qualification. In fact, some roofs released contaminants despite collecting large quantities. The outcome provides a useful clue, but it does not establish that the same mechanism would operate under every set of conditions. Quantity and safety are separate dimensions of a resource. The stronger inference is deliberately limited: it explains the observed contrast without pretending that all uncertainty has disappeared. This conclusion is not identical to the first assumption; it must account for the later observation and for the limits of the original measure. In particular, the new evidence may justify changing the interpretation without proving that the earlier account was mistaken in every conceivable setting. Consequently, the preferred interpretation should explain both the initial expectation and the evidence that complicates it, without pretending that a single example establishes a universal rule.",
+    "given_sentence": "",
+    "choices": [
+      "① A Familiar Prediction That Needed No Further Examination",
+      "② Beyond the First Explanation: Quantity and safety are separate dimensions of a resource",
+      "③ The Complete Failure of Observation in Practical Research",
+      "④ When Background Details Replace All Empirical Evidence",
+      "⑤ Why a Single Indicator Is Sufficient for Every Decision"
+    ],
+    "answer": 2,
+    "explanation": "초기 설명과 후속 관찰의 불일치를 통해 더 정교한 판단으로 옮겨가는 글 전체를 포괄합니다.",
+    "wrong_explanations": {},
+    "_reviewed": false
+  },
+  {
+    "_qid": "R-0566",
+    "type": "무관한 문장",
+    "passage": "(①) A theatre director rehearsed the same scene with different lighting. (②) Weather satellites collect images from orbits above the atmosphere. (③) The set designer thought lighting only made objects visible. (④) Actors found that darkened areas redirected the audience's attention. (⑤) Presentation conditions can shape interpretation rather than merely reveal content.",
+    "given_sentence": "",
+    "choices": [
+      "①번 문장",
+      "②번 문장",
+      "③번 문장",
+      "④번 문장",
+      "⑤번 문장"
+    ],
+    "answer": 2,
+    "explanation": "나머지 네 문장은 동일한 연구·관찰의 초기 가정과 결과, 수정된 결론을 연결하지만 해당 문장은 다른 주제로 전환되어 논리적 연속성이 없습니다.",
+    "wrong_explanations": {},
+    "_reviewed": false
+  },
+  {
+    "_qid": "R-0567",
+    "type": "요약문 완성",
+    "passage": "A library compared automatic recommendations with human-curated lists. Neither system captured every useful connection. At first, that account seemed attractive: it offered a simple explanation that could be communicated without further qualification. In fact, algorithms reflected frequent borrowing while librarians surfaced overlooked subjects. Neither the initial prediction nor the later measurement is meaningless; the mistake is to confuse either one with a complete explanation. Different selection methods can complement one another when their biases are understood. The task is to connect the observations with the process that could plausibly have produced them. This conclusion is not identical to the first assumption; it must account for the later observation and for the limits of the original measure. In particular, the new evidence may justify changing the interpretation without proving that the earlier account was mistaken in every conceivable setting. Consequently, the preferred interpretation should explain both the initial expectation and the evidence that complicates it, without pretending that a single example establishes a universal rule.",
+    "given_sentence": "",
+    "choices": [
+      "① supported — qualified",
+      "② replaced — unquestionable",
+      "③ challenged — categorical",
+      "④ supported — unconditional",
+      "⑤ unrelated — absolute"
+    ],
+    "answer": 1,
+    "explanation": "초기 가정은 처음에는 지지를 받았지만 후속 관찰 때문에 해석에 조건과 한계를 명시해야 했으므로 supported — qualified가 가장 적절합니다.",
+    "wrong_explanations": {},
+    "_reviewed": false
+  },
+  {
+    "_qid": "R-0568",
+    "type": "빈칸 추론",
+    "passage": "A river scientist examined changes after a dam released water. Observers expected the riverbed to recover immediately. The new evidence, however, was more informative than the original label: sediment moved downstream slowly even after the flow rate returned to normal. The difficulty is to account for both the attraction of the earlier interpretation and its failure to explain the later observation. The evidence is most consistent with the conclusion that __________. A defensible choice should explain the contrast without converting a local finding into a universal rule.",
+    "given_sentence": "",
+    "choices": [
+      "① sediment moved downstream slowly even after the flow rate returned to normal, which proves that the same result is inevitable everywhere",
+      "② the initial assumption must be rejected even in circumstances for which it was never tested",
+      "③ observers expected the riverbed to recover immediately, with no adjustment for the new evidence",
+      "④ the evidence has no bearing on how the original claim should be assessed",
+      "⑤ environmental systems can show delayed consequences after an intervention"
+    ],
+    "answer": 5,
+    "explanation": "기초 관찰: Sediment moved downstream slowly even after the flow rate returned to normal. 초기 해석: Observers expected the riverbed to recover immediately. 따라서 Environmental systems can show delayed consequences after an intervention. 다만 단일 사례가 모든 상황으로 일반화되는 것은 아닙니다.",
+    "wrong_explanations": {},
+    "_reviewed": false
+  },
+  {
+    "_qid": "R-0569",
+    "type": "문장 삽입",
+    "passage": "The project was designed to test an explanation that initially seemed straightforward. (①) An anthropologist documented an annual neighborhood cooking festival. (②) Organizers argued that any change destroyed authenticity. (③) That initial account shaped the design of the follow-up observation. (④) Recipes changed as younger residents adapted them to new ingredients. (⑤)",
+    "given_sentence": "This reversal showed why the initial expectation could not be treated as a final conclusion.",
+    "choices": [
+      "①번 위치",
+      "②번 위치",
+      "③번 위치",
+      "④번 위치",
+      "⑤번 위치"
+    ],
+    "answer": 5,
+    "explanation": "초기 해석과 상반되는 관찰이 나온 직후에 This discrepancy가 연결됩니다. 다른 위치에서는 discrepancy의 지시 대상이 불분명하거나 후속 판단의 인과 관계가 끊깁니다.",
+    "wrong_explanations": {},
+    "_reviewed": false
+  },
+  {
+    "_qid": "R-0570",
+    "type": "어법 판단",
+    "passage": "A school measured the effect of quiet spaces on learning. The team examined the evidence (① carefully) and asked (② whether) the original conclusion remained justified. Its purpose was not (③ to dismiss) the earlier account but (④ to identify) its limits. The resulting explanation was more (⑤ cautiously) than the first one.",
+    "given_sentence": "",
+    "choices": [
+      "①번 표시",
+      "②번 표시",
+      "③번 표시",
+      "④번 표시",
+      "⑤번 표시"
+    ],
+    "answer": 5,
+    "explanation": "⑤는 cautious로 고쳐야 합니다. 나머지 표시 표현은 해당 문장의 구조상 허용됩니다.",
+    "wrong_explanations": {},
+    "_reviewed": false
+  },
+  {
+    "_qid": "R-0571",
+    "type": "어휘 적절성",
+    "passage": "A clinical researcher compared self-reported fatigue with activity logs. A team assumed that physical activity could fully capture wellbeing. The measures diverged most on days with emotional stress. The first interpretation was necessarily (① tentative) because little evidence had yet been collected. The later observation (② contradicted) the expectation on which that interpretation depended. The researchers consequently adopted a (③ absolute) account rather than an unconditional verdict. They examined whether the new evidence was (④ relevant) to the question under investigation. The conclusion remained (⑤ limited) to the conditions in which the observations had been made.",
+    "given_sentence": "",
+    "choices": [
+      "①번 표시",
+      "②번 표시",
+      "③번 표시",
+      "④번 표시",
+      "⑤번 표시"
+    ],
+    "answer": 3,
+    "explanation": "③의 absolute는 주변 의미와 충돌합니다. qualified로 수정해야 초기 가설·반증·신중한 결론의 논리가 일관됩니다.",
+    "wrong_explanations": {},
+    "_reviewed": false
+  },
+  {
+    "_qid": "R-0572",
+    "type": "요지/주제",
+    "passage": "A city painted safe routes to school on the pavement. The original project focused only on paint and signs. However, children used them more when crossings were supervised and parents understood the map. Infrastructure works when physical design and social practices reinforce each other.",
+    "given_sentence": "",
+    "choices": [
+      "① The original project focused only on paint and signs is justified in all settings",
+      "② the need to ignore early evidence once a new interpretation is proposed",
+      "③ why a single observation is enough to settle every possible explanation",
+      "④ Infrastructure works when physical design and social practices reinforce each other",
+      "⑤ the claim that competing explanations cannot be evaluated with evidence"
+    ],
+    "answer": 4,
+    "explanation": "초기 기대와 다른 관찰을 통해 얻은 제한적인 결론이 요지입니다. 다른 선택지는 단정적 일반화 또는 근거 없는 판단입니다.",
+    "wrong_explanations": {},
+    "_reviewed": false
+  },
+  {
+    "_qid": "R-0573",
+    "type": "글의 순서",
+    "passage": "A historian reconstructed the story of a canceled expedition.\n\n(A) In response, the investigators adopted a more cautious inference. Simple narratives can obscure the accumulation of ordinary causes. They also identified what additional observations would be needed.\n\n(B) The subsequent evidence complicated that expectation: letters showed that practical delays, not a single dramatic dispute, caused the decision. The initial account could no longer explain the entire pattern.\n\n(C) Before further investigation, a later memoir blamed one person for the failure. This gave the project a clear, if incomplete, starting point.",
+    "given_sentence": "",
+    "choices": [
+      "① (C)-(B)-(A)",
+      "② (B)-(C)-(A)",
+      "③ (A)-(C)-(B)",
+      "④ (A)-(B)-(C)",
+      "⑤ (B)-(A)-(C)"
+    ],
+    "answer": 1,
+    "explanation": "최초 가정 → 후속 관찰에 의한 반증·보완 → 수정된 판단이라는 인과 순서가 필수입니다. 따라서 (C)-(B)-(A)입니다.",
+    "wrong_explanations": {},
+    "_reviewed": false
+  },
+  {
+    "_qid": "R-0574",
+    "type": "글의 목적",
+    "passage": "Dear Review Committee,\n\nA chemist studied why a biodegradable cup decomposed slowly in households. Marketing presented biodegradability as an unconditional property. In fact, the material broke down rapidly only under controlled industrial conditions. I am not asking you to dismiss the original project; I am requesting that its evaluation include the additional evidence and explicitly state the limits of the initial conclusion. Such a review would make the assessment fairer.\n\nSincerely,\nA project participant",
+    "given_sentence": "",
+    "choices": [
+      "① To invite committee members to an unrelated public celebration",
+      "② To announce that the first interpretation has already been fully confirmed",
+      "③ To request a larger budget without discussing evaluation criteria",
+      "④ To demand that the project be cancelled without another evaluation",
+      "⑤ To request a reassessment that accounts for conflicting evidence"
+    ],
+    "answer": 5,
+    "explanation": "편지의 핵심 요청은 기존 평가에 후속 관찰을 반영하고 초기 결론의 한계를 명시해 달라는 것입니다.",
+    "wrong_explanations": {},
+    "_reviewed": false
+  },
+  {
+    "_qid": "R-0575",
+    "type": "심경 추론",
+    "passage": "At first, I felt reassured by the seemingly straightforward explanation. The original photograph was assumed to show everything equally. A photographer removed distracting advertisements from a street scene. When I learned that viewers suddenly noticed the repetitive architecture and neglected storefronts, my confidence weakened. I wondered how much I had missed by attending only to the result that supported my expectation. I reconsidered my judgment. By the end, I was still uncertain about every detail, but I felt more willing to investigate than to defend my first impression.",
+    "given_sentence": "",
+    "choices": [
+      "① from distrust of the team to unconditional hostility",
+      "② from confidence to reflective curiosity",
+      "③ from confidence to a refusal to reconsider any evidence",
+      "④ from curiosity to indifference about the investigation",
+      "⑤ from disappointment to certainty that all questions are settled"
+    ],
+    "answer": 2,
+    "explanation": "초기의 confident/reassured와 후반의 reconsider, willing to investigate가 대비되므로 확신에서 성찰적 탐구로의 변화입니다.",
+    "wrong_explanations": {},
+    "_reviewed": false
+  },
+  {
+    "_qid": "R-0576",
+    "type": "필자의 주장",
+    "passage": "A geologist mapped tiny tremors near a volcano. One station's readings appeared to be unrelated noise. At first, that account seemed attractive: it offered a simple explanation that could be communicated without further qualification. In fact, a pattern emerged only after several sensors were synchronized. The initial explanation appealed to a familiar measure of success, yet that measure ignored who or what was excluded from the observation. Coordination can reveal structure hidden within isolated measurements. A better judgment requires distinguishing what the evidence directly establishes from the larger claim someone hopes to make. This conclusion is not identical to the first assumption; it must account for the later observation and for the limits of the original measure. In particular, the new evidence may justify changing the interpretation without proving that the earlier account was mistaken in every conceivable setting. Consequently, the preferred interpretation should explain both the initial expectation and the evidence that complicates it, without pretending that a single example establishes a universal rule.",
+    "given_sentence": "",
+    "choices": [
+      "① Decision-makers should judge an intervention solely by its most visible immediate result.",
+      "② Decisions should retain the original assumption because one station's readings appeared to be unrelated noise.",
+      "③ An observed difference should be treated as a universal rule without further examination.",
+      "④ If evidence is mixed, decision-makers should avoid weighing the competing explanations at all.",
+      "⑤ Decisions should reflect this insight: coordination can reveal structure hidden within isolated measurements."
+    ],
+    "answer": 5,
+    "explanation": "필자는 초기 판단을 그대로 유지하기보다 관찰의 조건과 반례를 반영해 결론을 조정해야 한다고 주장합니다.",
+    "wrong_explanations": {},
+    "_reviewed": false
+  },
+  {
+    "_qid": "R-0577",
+    "type": "제목 추론",
+    "passage": "A social worker tested reminder messages for community appointments. The agency reported a rise in average attendance. The first interpretation was plausible because it focused on an easily visible feature. But messages helped participants who had reliable phones but missed those sharing devices. This did not make the earlier observation useless; it revealed that the original explanation had missed an important condition. Practical interventions can improve averages while leaving access gaps.",
+    "given_sentence": "",
+    "choices": [
+      "① The Complete Failure of Observation in Practical Research",
+      "② A Familiar Prediction That Needed No Further Examination",
+      "③ When Background Details Replace All Empirical Evidence",
+      "④ Why a Single Indicator Is Sufficient for Every Decision",
+      "⑤ Beyond the First Explanation: Practical interventions can improve averages while leaving access gaps"
+    ],
+    "answer": 5,
+    "explanation": "초기 설명과 후속 관찰의 불일치를 통해 더 정교한 판단으로 옮겨가는 글 전체를 포괄합니다.",
+    "wrong_explanations": {},
+    "_reviewed": false
+  },
+  {
+    "_qid": "R-0578",
+    "type": "무관한 문장",
+    "passage": "(①) A scientist examined how forests recover after fire. (②) A visitor treated all burned ground as permanently destroyed. (③) Some plants germinated only after heat opened their seed cases. (④) Professional football leagues publish schedules before the season begins. (⑤) Disturbance can sometimes initiate renewal within adapted ecosystems.",
+    "given_sentence": "",
+    "choices": [
+      "①번 문장",
+      "②번 문장",
+      "③번 문장",
+      "④번 문장",
+      "⑤번 문장"
+    ],
+    "answer": 4,
+    "explanation": "나머지 네 문장은 동일한 연구·관찰의 초기 가정과 결과, 수정된 결론을 연결하지만 해당 문장은 다른 주제로 전환되어 논리적 연속성이 없습니다.",
+    "wrong_explanations": {},
+    "_reviewed": false
+  },
+  {
+    "_qid": "R-0579",
+    "type": "요약문 완성",
+    "passage": "A transit authority asked passengers to report uncomfortable transfers. Planners focused solely on reducing the number of steps. The first interpretation was plausible because it focused on an easily visible feature. But the most frequent complaint concerned uncertainty rather than walking distance. This did not make the earlier observation useless; it revealed that the original explanation had missed an important condition. Reducing uncertainty can improve a journey without shortening it.",
+    "given_sentence": "",
+    "choices": [
+      "① challenged — categorical",
+      "② supported — qualified",
+      "③ replaced — unquestionable",
+      "④ unrelated — absolute",
+      "⑤ supported — unconditional"
+    ],
+    "answer": 2,
+    "explanation": "초기 가정은 처음에는 지지를 받았지만 후속 관찰 때문에 해석에 조건과 한계를 명시해야 했으므로 supported — qualified가 가장 적절합니다.",
+    "wrong_explanations": {},
+    "_reviewed": false
+  },
+  {
+    "_qid": "R-0580",
+    "type": "빈칸 추론",
+    "passage": "A philosopher compared rules designed for routine and exceptional cases. A committee assumed consistency always required refusing exceptions. The new evidence, however, was more informative than the original label: a strict rule produced fairness in common situations but harm in rare circumstances. The difficulty is to account for both the attraction of the earlier interpretation and its failure to explain the later observation. The evidence is most consistent with the conclusion that __________. A defensible choice should explain the contrast without converting a local finding into a universal rule.",
+    "given_sentence": "",
+    "choices": [
+      "① a committee assumed consistency always required refusing exceptions, with no adjustment for the new evidence",
+      "② a strict rule produced fairness in common situations but harm in rare circumstances, which proves that the same result is inevitable everywhere",
+      "③ the initial assumption must be rejected even in circumstances for which it was never tested",
+      "④ the evidence has no bearing on how the original claim should be assessed",
+      "⑤ justice sometimes requires examining the purpose behind a rule"
+    ],
+    "answer": 5,
+    "explanation": "기초 관찰: A strict rule produced fairness in common situations but harm in rare circumstances. 초기 해석: A committee assumed consistency always required refusing exceptions. 따라서 Justice sometimes requires examining the purpose behind a rule. 다만 단일 사례가 모든 상황으로 일반화되는 것은 아닙니다.",
+    "wrong_explanations": {},
+    "_reviewed": false
+  },
+  {
+    "_qid": "R-0581",
+    "type": "문장 삽입",
+    "passage": "A researcher watched engineers solve unfamiliar puzzles in teams. A manager had banned proposals until they were complete. However, teams sharing early imperfect ideas progressed faster than teams waiting for polished solutions. (①) Allowing provisional thinking can accelerate collective problem solving. (②) The team considered an alternative test. (③) Its report emphasized the limits of the finding. (④) Further observations were recommended. (⑤)",
+    "given_sentence": "This discrepancy led the team to question the assumption behind its original assessment.",
+    "choices": [
+      "①번 위치",
+      "②번 위치",
+      "③번 위치",
+      "④번 위치",
+      "⑤번 위치"
+    ],
+    "answer": 1,
+    "explanation": "초기 해석과 상반되는 관찰이 나온 직후에 This discrepancy가 연결됩니다. 다른 위치에서는 discrepancy의 지시 대상이 불분명하거나 후속 판단의 인과 관계가 끊깁니다.",
+    "wrong_explanations": {},
+    "_reviewed": false
+  },
+  {
+    "_qid": "R-0582",
+    "type": "어법 판단",
+    "passage": "A beekeeper recorded flowering times across several valleys. The findings raised a question (① about) how the original assumption should be assessed. The researchers, (② whom) earlier account had been influential, were willing (③ to revise) it. They acknowledged (④ that) the observations did not prove the result (⑤ would occur) in every setting.",
+    "given_sentence": "",
+    "choices": [
+      "①번 표시",
+      "②번 표시",
+      "③번 표시",
+      "④번 표시",
+      "⑤번 표시"
+    ],
+    "answer": 2,
+    "explanation": "②는 whose로 고쳐야 합니다. 나머지 표시 표현은 해당 문장의 구조상 허용됩니다.",
+    "wrong_explanations": {},
+    "_reviewed": false
+  },
+  {
+    "_qid": "R-0583",
+    "type": "어휘 적절성",
+    "passage": "An art historian examined scratches on a public statue. Restorers debated whether polishing would erase evidence of public use. Some marks came from centuries of visitors touching its surface. The first interpretation was necessarily (① certain) because little evidence had yet been collected. The later observation (② contradicted) the expectation on which that interpretation depended. The researchers consequently adopted a (③ qualified) account rather than an unconditional verdict. They examined whether the new evidence was (④ relevant) to the question under investigation. The conclusion remained (⑤ limited) to the conditions in which the observations had been made.",
+    "given_sentence": "",
+    "choices": [
+      "①번 표시",
+      "②번 표시",
+      "③번 표시",
+      "④번 표시",
+      "⑤번 표시"
+    ],
+    "answer": 1,
+    "explanation": "①의 certain는 주변 의미와 충돌합니다. tentative로 수정해야 초기 가설·반증·신중한 결론의 논리가 일관됩니다.",
+    "wrong_explanations": {},
+    "_reviewed": false
+  },
+  {
+    "_qid": "R-0584",
+    "type": "요지/주제",
+    "passage": "A city piloted a shared cargo bicycle program. Sponsors cited overall rental growth as complete success. At first, that account seemed attractive: it offered a simple explanation that could be communicated without further qualification. In fact, families used the bikes for errands, but users living on steep hills participated less. The initial explanation appealed to a familiar measure of success, yet that measure ignored who or what was excluded from the observation. Program evaluation should consider geographic barriers hidden by aggregate totals. A better judgment requires distinguishing what the evidence directly establishes from the larger claim someone hopes to make. This conclusion is not identical to the first assumption; it must account for the later observation and for the limits of the original measure. In particular, the new evidence may justify changing the interpretation without proving that the earlier account was mistaken in every conceivable setting. Consequently, the preferred interpretation should explain both the initial expectation and the evidence that complicates it, without pretending that a single example establishes a universal rule.",
+    "given_sentence": "",
+    "choices": [
+      "① the need to ignore early evidence once a new interpretation is proposed",
+      "② Program evaluation should consider geographic barriers hidden by aggregate totals",
+      "③ Sponsors cited overall rental growth as complete success is justified in all settings",
+      "④ why a single observation is enough to settle every possible explanation",
+      "⑤ the claim that competing explanations cannot be evaluated with evidence"
+    ],
+    "answer": 2,
+    "explanation": "초기 기대와 다른 관찰을 통해 얻은 제한적인 결론이 요지입니다. 다른 선택지는 단정적 일반화 또는 근거 없는 판단입니다.",
+    "wrong_explanations": {},
+    "_reviewed": false
+  },
+  {
+    "_qid": "R-0585",
+    "type": "글의 순서",
+    "passage": "A linguist studied how speakers use pauses while telling stories.\n\n(A) In response, the investigators adopted a more cautious inference. Features that look like noise may carry communicative information. They also identified what additional observations would be needed.\n\n(B) The subsequent evidence complicated that expectation: long pauses often appeared before meaningful contrasts rather than memory failures. The initial account could no longer explain the entire pattern.\n\n(C) Before further investigation, an automatic transcription system removed every silence. This gave the project a clear, if incomplete, starting point.",
+    "given_sentence": "",
+    "choices": [
+      "① (A)-(B)-(C)",
+      "② (A)-(C)-(B)",
+      "③ (C)-(B)-(A)",
+      "④ (B)-(A)-(C)",
+      "⑤ (B)-(C)-(A)"
+    ],
+    "answer": 3,
+    "explanation": "최초 가정 → 후속 관찰에 의한 반증·보완 → 수정된 판단이라는 인과 순서가 필수입니다. 따라서 (C)-(B)-(A)입니다.",
+    "wrong_explanations": {},
+    "_reviewed": false
+  },
+  {
+    "_qid": "R-0586",
+    "type": "글의 목적",
+    "passage": "Dear Review Committee,\n\nA wildlife team built tunnels beneath a new road. Engineers initially measured success by the number of tunnels installed. In fact, many animals used the tunnels only after vegetation grew around the entrances. I am not asking you to dismiss the original project; I am requesting that its evaluation include the additional evidence and explicitly state the limits of the initial conclusion. Such a review would make the assessment fairer.\n\nSincerely,\nA project participant",
+    "given_sentence": "",
+    "choices": [
+      "① To request a reassessment that accounts for conflicting evidence",
+      "② To demand that the project be cancelled without another evaluation",
+      "③ To announce that the first interpretation has already been fully confirmed",
+      "④ To request a larger budget without discussing evaluation criteria",
+      "⑤ To invite committee members to an unrelated public celebration"
+    ],
+    "answer": 1,
+    "explanation": "편지의 핵심 요청은 기존 평가에 후속 관찰을 반영하고 초기 결론의 한계를 명시해 달라는 것입니다.",
+    "wrong_explanations": {},
+    "_reviewed": false
+  },
+  {
+    "_qid": "R-0587",
+    "type": "심경 추론",
+    "passage": "At first, I felt reassured by the seemingly straightforward explanation. The clinic wanted all information displayed as simple icons. A physician explained test results using pictures rather than percentages alone. When I learned that patients understood relative changes better but sometimes overlooked uncertainty ranges, my confidence weakened. I wondered how much I had missed by attending only to the result that supported my expectation. I reconsidered my judgment. By the end, I was still uncertain about every detail, but I felt more willing to investigate than to defend my first impression.",
+    "given_sentence": "",
+    "choices": [
+      "① from confidence to reflective curiosity",
+      "② from disappointment to certainty that all questions are settled",
+      "③ from distrust of the team to unconditional hostility",
+      "④ from confidence to a refusal to reconsider any evidence",
+      "⑤ from curiosity to indifference about the investigation"
+    ],
+    "answer": 1,
+    "explanation": "초기의 confident/reassured와 후반의 reconsider, willing to investigate가 대비되므로 확신에서 성찰적 탐구로의 변화입니다.",
+    "wrong_explanations": {},
+    "_reviewed": false
+  },
+  {
+    "_qid": "R-0588",
+    "type": "필자의 주장",
+    "passage": "A town digitized its paper maps of underground water pipes. Managers assumed digitization would automatically improve accuracy. At first, that account seemed attractive: it offered a simple explanation that could be communicated without further qualification. In fact, the maps became searchable but many old locations remained approximate. Two observers could accept the same facts yet reach different judgments because they attached different importance to the underlying assumptions. Changing the format of information does not correct its underlying limitations. An adequate account must make those assumptions explicit before treating its conclusion as general. This conclusion is not identical to the first assumption; it must account for the later observation and for the limits of the original measure. In particular, the new evidence may justify changing the interpretation without proving that the earlier account was mistaken in every conceivable setting. Consequently, the preferred interpretation should explain both the initial expectation and the evidence that complicates it, without pretending that a single example establishes a universal rule.",
+    "given_sentence": "",
+    "choices": [
+      "① Decision-makers should judge an intervention solely by its most visible immediate result.",
+      "② Decisions should reflect this insight: changing the format of information does not correct its underlying limitations.",
+      "③ An observed difference should be treated as a universal rule without further examination.",
+      "④ Decisions should retain the original assumption because managers assumed digitization would automatically improve accuracy.",
+      "⑤ If evidence is mixed, decision-makers should avoid weighing the competing explanations at all."
+    ],
+    "answer": 2,
+    "explanation": "필자는 초기 판단을 그대로 유지하기보다 관찰의 조건과 반례를 반영해 결론을 조정해야 한다고 주장합니다.",
+    "wrong_explanations": {},
+    "_reviewed": false
+  },
+  {
+    "_qid": "R-0589",
+    "type": "제목 추론",
+    "passage": "A dancer rehearsed a routine facing a mirror and then without one. She had relied on the mirror as constant feedback. At first, that account seemed attractive: it offered a simple explanation that could be communicated without further qualification. In fact, movement remained precise only after she learned to feel balance internally. The outcome provides a useful clue, but it does not establish that the same mechanism would operate under every set of conditions. Training can gradually shift from external cues to embodied understanding. The stronger inference is deliberately limited: it explains the observed contrast without pretending that all uncertainty has disappeared. This conclusion is not identical to the first assumption; it must account for the later observation and for the limits of the original measure. In particular, the new evidence may justify changing the interpretation without proving that the earlier account was mistaken in every conceivable setting. Consequently, the preferred interpretation should explain both the initial expectation and the evidence that complicates it, without pretending that a single example establishes a universal rule.",
+    "given_sentence": "",
+    "choices": [
+      "① Beyond the First Explanation: Training can gradually shift from external cues to embodied understanding",
+      "② The Complete Failure of Observation in Practical Research",
+      "③ When Background Details Replace All Empirical Evidence",
+      "④ A Familiar Prediction That Needed No Further Examination",
+      "⑤ Why a Single Indicator Is Sufficient for Every Decision"
+    ],
+    "answer": 1,
+    "explanation": "초기 설명과 후속 관찰의 불일치를 통해 더 정교한 판단으로 옮겨가는 글 전체를 포괄합니다.",
+    "wrong_explanations": {},
+    "_reviewed": false
+  },
+  {
+    "_qid": "R-0590",
+    "type": "무관한 문장",
+    "passage": "(①) Weather satellites collect images from orbits above the atmosphere. (②) A researcher compared different translations of emergency alerts. (③) Designers prioritized preserving the original sentence structure. (④) Literal word choice confused residents unfamiliar with official terminology. (⑤) Effective communication depends on the audience's interpretation, not word-for-word fidelity.",
+    "given_sentence": "",
+    "choices": [
+      "①번 문장",
+      "②번 문장",
+      "③번 문장",
+      "④번 문장",
+      "⑤번 문장"
+    ],
+    "answer": 1,
+    "explanation": "나머지 네 문장은 동일한 연구·관찰의 초기 가정과 결과, 수정된 결론을 연결하지만 해당 문장은 다른 주제로 전환되어 논리적 연속성이 없습니다.",
+    "wrong_explanations": {},
+    "_reviewed": false
+  },
+  {
+    "_qid": "R-0591",
+    "type": "요약문 완성",
+    "passage": "A biologist studied how a coral reef responded to a brief heat wave. A news report treated a return of color as total recovery. The first interpretation was plausible because it focused on an easily visible feature. But some corals recovered color quickly but reproduced poorly the following season. This did not make the earlier observation useless; it revealed that the original explanation had missed an important condition. Visible improvement need not imply restoration of every biological function.",
+    "given_sentence": "",
+    "choices": [
+      "① challenged — categorical",
+      "② supported — unconditional",
+      "③ replaced — unquestionable",
+      "④ supported — qualified",
+      "⑤ unrelated — absolute"
+    ],
+    "answer": 4,
+    "explanation": "초기 가정은 처음에는 지지를 받았지만 후속 관찰 때문에 해석에 조건과 한계를 명시해야 했으므로 supported — qualified가 가장 적절합니다.",
+    "wrong_explanations": {},
+    "_reviewed": false
+  },
+  {
+    "_qid": "R-0592",
+    "type": "빈칸 추론",
+    "passage": "A publisher tested an audiobook with optional chapter notes. Editors had assumed that more explanations would always help. However, listeners enjoyed the story but used notes mainly when unfamiliar references appeared. The evidence is most consistent with the conclusion that __________.",
+    "given_sentence": "",
+    "choices": [
+      "① the evidence has no bearing on how the original claim should be assessed",
+      "② the initial assumption must be rejected even in circumstances for which it was never tested",
+      "③ editors had assumed that more explanations would always help, with no adjustment for the new evidence",
+      "④ listeners enjoyed the story but used notes mainly when unfamiliar references appeared, which proves that the same result is inevitable everywhere",
+      "⑤ support materials are valuable when available without interrupting engagement"
+    ],
+    "answer": 5,
+    "explanation": "기초 관찰: Listeners enjoyed the story but used notes mainly when unfamiliar references appeared. 초기 해석: Editors had assumed that more explanations would always help. 따라서 Support materials are valuable when available without interrupting engagement. 다만 단일 사례가 모든 상황으로 일반화되는 것은 아닙니다.",
+    "wrong_explanations": {},
+    "_reviewed": false
+  },
+  {
+    "_qid": "R-0593",
+    "type": "문장 삽입",
+    "passage": "A teacher introduced anonymous peer review in a writing class. Staff expected anonymity to improve criticism in every respect. (①) Comments became more candid but occasionally less considerate. (②) Policies can reduce one bias while creating a different risk. (③) The report explained the evidential limits of the finding. (④) A follow-up study was proposed. (⑤)",
+    "given_sentence": "The unexpected contrast made it necessary to distinguish the initial prediction from the evidence obtained later.",
+    "choices": [
+      "①번 위치",
+      "②번 위치",
+      "③번 위치",
+      "④번 위치",
+      "⑤번 위치"
+    ],
+    "answer": 2,
+    "explanation": "초기 해석과 상반되는 관찰이 나온 직후에 This discrepancy가 연결됩니다. 다른 위치에서는 discrepancy의 지시 대상이 불분명하거나 후속 판단의 인과 관계가 끊깁니다.",
+    "wrong_explanations": {},
+    "_reviewed": false
+  },
+  {
+    "_qid": "R-0594",
+    "type": "어법 판단",
+    "passage": "A gardener compared lawns cut at two different heights. The team (① have) considered several interpretations. The observations, which (② were) reviewed separately, showed that (③ each) explanation had limitations. One of the central reasons (④ is) that the early assumption overlooked important evidence. The researchers (⑤ therefore) recommended a revised account.",
+    "given_sentence": "",
+    "choices": [
+      "①번 표시",
+      "②번 표시",
+      "③번 표시",
+      "④번 표시",
+      "⑤번 표시"
+    ],
+    "answer": 1,
+    "explanation": "①는 has로 고쳐야 합니다. 나머지 표시 표현은 해당 문장의 구조상 허용됩니다.",
+    "wrong_explanations": {},
+    "_reviewed": false
+  },
+  {
+    "_qid": "R-0595",
+    "type": "어휘 적절성",
+    "passage": "A scientist studied how urban foxes crossed busy roads. Researchers had modeled distance alone. The animals preferred crossings near continuous vegetation even when shorter routes existed. The first interpretation was necessarily (① tentative) because little evidence had yet been collected. The later observation (② contradicted) the expectation on which that interpretation depended. The researchers consequently adopted a (③ qualified) account rather than an unconditional verdict. They examined whether the new evidence was (④ irrelevant) to the question under investigation. The conclusion remained (⑤ limited) to the conditions in which the observations had been made.",
+    "given_sentence": "",
+    "choices": [
+      "①번 표시",
+      "②번 표시",
+      "③번 표시",
+      "④번 표시",
+      "⑤번 표시"
+    ],
+    "answer": 4,
+    "explanation": "④의 irrelevant는 주변 의미와 충돌합니다. relevant로 수정해야 초기 가설·반증·신중한 결론의 논리가 일관됩니다.",
+    "wrong_explanations": {},
+    "_reviewed": false
+  },
+  {
+    "_qid": "R-0596",
+    "type": "요지/주제",
+    "passage": "An economist studied households offered time-limited discounts. A retailer described the sales surge as new demand. At first, that account seemed attractive: it offered a simple explanation that could be communicated without further qualification. In fact, some families bought supplies earlier but did not increase total consumption. Two observers could accept the same facts yet reach different judgments because they attached different importance to the underlying assumptions. A temporary increase in purchases may represent a shift in timing rather than quantity. An adequate account must make those assumptions explicit before treating its conclusion as general. This conclusion is not identical to the first assumption; it must account for the later observation and for the limits of the original measure. In particular, the new evidence may justify changing the interpretation without proving that the earlier account was mistaken in every conceivable setting. Consequently, the preferred interpretation should explain both the initial expectation and the evidence that complicates it, without pretending that a single example establishes a universal rule.",
+    "given_sentence": "",
+    "choices": [
+      "① the claim that competing explanations cannot be evaluated with evidence",
+      "② A retailer described the sales surge as new demand is justified in all settings",
+      "③ why a single observation is enough to settle every possible explanation",
+      "④ A temporary increase in purchases may represent a shift in timing rather than quantity",
+      "⑤ the need to ignore early evidence once a new interpretation is proposed"
+    ],
+    "answer": 4,
+    "explanation": "초기 기대와 다른 관찰을 통해 얻은 제한적인 결론이 요지입니다. 다른 선택지는 단정적 일반화 또는 근거 없는 판단입니다.",
+    "wrong_explanations": {},
+    "_reviewed": false
+  },
+  {
+    "_qid": "R-0597",
+    "type": "글의 순서",
+    "passage": "A local historian interviewed former shipbuilders about a closed dockyard.\n\n(A) Before further investigation, the official archive contained only job titles and wages. This gave the project a clear, if incomplete, starting point.\n\n(B) In response, the investigators adopted a more cautious inference. Oral testimony can reveal practices absent from administrative records. They also identified what additional observations would be needed.\n\n(C) The subsequent evidence complicated that expectation: their stories revealed informal skills never listed in employment documents. The initial account could no longer explain the entire pattern.",
+    "given_sentence": "",
+    "choices": [
+      "① (B)-(C)-(A)",
+      "② (A)-(B)-(C)",
+      "③ (A)-(C)-(B)",
+      "④ (B)-(A)-(C)",
+      "⑤ (C)-(A)-(B)"
+    ],
+    "answer": 3,
+    "explanation": "최초 가정 → 후속 관찰에 의한 반증·보완 → 수정된 판단이라는 인과 순서가 필수입니다. 따라서 (A)-(C)-(B)입니다.",
+    "wrong_explanations": {},
+    "_reviewed": false
+  },
+  {
+    "_qid": "R-0598",
+    "type": "글의 목적",
+    "passage": "Dear Review Committee,\n\nA scientist compared the performance of two weather models. An agency selected models using only average error. In fact, one predicted average temperatures well but missed rare severe events. I am not asking you to dismiss the original project; I am requesting that its evaluation include the additional evidence and explicitly state the limits of the initial conclusion. Without this change, the next funding decision could reward an incomplete indicator rather than the project's actual performance.\n\nSincerely,\nA project participant",
+    "given_sentence": "",
+    "choices": [
+      "① To request a larger budget without discussing evaluation criteria",
+      "② To invite committee members to an unrelated public celebration",
+      "③ To demand that the project be cancelled without another evaluation",
+      "④ To request a reassessment that accounts for conflicting evidence",
+      "⑤ To announce that the first interpretation has already been fully confirmed"
+    ],
+    "answer": 4,
+    "explanation": "편지의 핵심 요청은 기존 평가에 후속 관찰을 반영하고 초기 결론의 한계를 명시해 달라는 것입니다.",
+    "wrong_explanations": {},
+    "_reviewed": false
+  },
+  {
+    "_qid": "R-0599",
+    "type": "심경 추론",
+    "passage": "At first, I felt reassured by the seemingly straightforward explanation. Critics assumed student choice meant abandoning curriculum. A school organized lessons around questions proposed by pupils. When I learned that engagement improved, but teachers still had to ensure core concepts were covered, my confidence weakened. I wondered how much I had missed by attending only to the result that supported my expectation. I reconsidered my judgment. By the end, I was still uncertain about every detail, but I felt more willing to investigate than to defend my first impression.",
+    "given_sentence": "",
+    "choices": [
+      "① from distrust of the team to unconditional hostility",
+      "② from curiosity to indifference about the investigation",
+      "③ from disappointment to certainty that all questions are settled",
+      "④ from confidence to a refusal to reconsider any evidence",
+      "⑤ from confidence to reflective curiosity"
+    ],
+    "answer": 5,
+    "explanation": "초기의 confident/reassured와 후반의 reconsider, willing to investigate가 대비되므로 확신에서 성찰적 탐구로의 변화입니다.",
+    "wrong_explanations": {},
+    "_reviewed": false
+  },
+  {
+    "_qid": "R-0600",
+    "type": "필자의 주장",
+    "passage": "A researcher studied the spread of seeds carried by city birds. A map assumed dispersal would be random. At first, that account seemed attractive: it offered a simple explanation that could be communicated without further qualification. In fact, seeds accumulated near sheltering trees rather than evenly across open ground. The initial explanation appealed to a familiar measure of success, yet that measure ignored who or what was excluded from the observation. Animal behavior can shape the spatial distribution of plants. A better judgment requires distinguishing what the evidence directly establishes from the larger claim someone hopes to make. This conclusion is not identical to the first assumption; it must account for the later observation and for the limits of the original measure. In particular, the new evidence may justify changing the interpretation without proving that the earlier account was mistaken in every conceivable setting. Consequently, the preferred interpretation should explain both the initial expectation and the evidence that complicates it, without pretending that a single example establishes a universal rule.",
+    "given_sentence": "",
+    "choices": [
+      "① If evidence is mixed, decision-makers should avoid weighing the competing explanations at all.",
+      "② Decisions should retain the original assumption because a map assumed dispersal would be random.",
+      "③ Decisions should reflect this insight: animal behavior can shape the spatial distribution of plants.",
+      "④ Decision-makers should judge an intervention solely by its most visible immediate result.",
+      "⑤ An observed difference should be treated as a universal rule without further examination."
+    ],
+    "answer": 3,
+    "explanation": "필자는 초기 판단을 그대로 유지하기보다 관찰의 조건과 반례를 반영해 결론을 조정해야 한다고 주장합니다.",
+    "wrong_explanations": {},
+    "_reviewed": false
+  },
+  {
+    "_qid": "R-0601",
+    "type": "제목 추론",
+    "passage": "A civil engineer examined repeated repairs to a harbor wall. The maintenance team focused on the newest visible crack. At first, that account seemed attractive: it offered a simple explanation that could be communicated without further qualification. In fact, every repair held briefly until wave patterns shifted stress to neighboring sections. The striking feature of the result was not its size but the mismatch between the expected mechanism and the one actually observed. Treating symptoms in isolation can move a problem rather than solve it. The conclusion therefore depends on comparing two interpretations, rather than merely repeating the most visible outcome. This conclusion is not identical to the first assumption; it must account for the later observation and for the limits of the original measure. In particular, the new evidence may justify changing the interpretation without proving that the earlier account was mistaken in every conceivable setting. Consequently, the preferred interpretation should explain both the initial expectation and the evidence that complicates it, without pretending that a single example establishes a universal rule.",
+    "given_sentence": "",
+    "choices": [
+      "① A Familiar Prediction That Needed No Further Examination",
+      "② Why a Single Indicator Is Sufficient for Every Decision",
+      "③ The Complete Failure of Observation in Practical Research",
+      "④ Beyond the First Explanation: Treating symptoms in isolation can move a problem rather than solve it",
+      "⑤ When Background Details Replace All Empirical Evidence"
+    ],
+    "answer": 4,
+    "explanation": "초기 설명과 후속 관찰의 불일치를 통해 더 정교한 판단으로 옮겨가는 글 전체를 포괄합니다.",
+    "wrong_explanations": {},
+    "_reviewed": false
+  },
+  {
+    "_qid": "R-0602",
+    "type": "무관한 문장",
+    "passage": "(①) A novelist tested two openings of the same story. (②) Editors had encouraged a consistently confident voice. (③) Professional football leagues publish schedules before the season begins. (④) Readers trusted a flawed narrator more when the narrator admitted uncertainty. (⑤) Acknowledged limitations can make a speaker appear more credible.",
+    "given_sentence": "",
+    "choices": [
+      "①번 문장",
+      "②번 문장",
+      "③번 문장",
+      "④번 문장",
+      "⑤번 문장"
+    ],
+    "answer": 3,
+    "explanation": "나머지 네 문장은 동일한 연구·관찰의 초기 가정과 결과, 수정된 결론을 연결하지만 해당 문장은 다른 주제로 전환되어 논리적 연속성이 없습니다.",
+    "wrong_explanations": {},
+    "_reviewed": false
+  },
+  {
+    "_qid": "R-0603",
+    "type": "요약문 완성",
+    "passage": "A museum displayed replicas beside fragile original manuscripts. Some curators feared replicas would weaken interest in authenticity. At first, that account seemed attractive: it offered a simple explanation that could be communicated without further qualification. In fact, visitors could handle the replicas and read details without harming the originals. A quick appraisal would reward the immediately measurable result, but it could overlook the cost imposed elsewhere in the system. Careful substitution can increase access while protecting vulnerable artifacts. The relevant question is whether the benefit persists once these indirect effects are included. This conclusion is not identical to the first assumption; it must account for the later observation and for the limits of the original measure. In particular, the new evidence may justify changing the interpretation without proving that the earlier account was mistaken in every conceivable setting. Consequently, the preferred interpretation should explain both the initial expectation and the evidence that complicates it, without pretending that a single example establishes a universal rule.",
+    "given_sentence": "",
+    "choices": [
+      "① challenged — categorical",
+      "② supported — qualified",
+      "③ unrelated — absolute",
+      "④ supported — unconditional",
+      "⑤ replaced — unquestionable"
+    ],
+    "answer": 2,
+    "explanation": "초기 가정은 처음에는 지지를 받았지만 후속 관찰 때문에 해석에 조건과 한계를 명시해야 했으므로 supported — qualified가 가장 적절합니다.",
+    "wrong_explanations": {},
+    "_reviewed": false
+  },
+  {
+    "_qid": "R-0604",
+    "type": "빈칸 추론",
+    "passage": "A scientist studied soil bacteria after repeated fertilizer use. Farmers evaluated success only by the first harvest. However, crop yields initially rose, but microbial diversity declined over several seasons. The evidence is most consistent with the conclusion that __________.",
+    "given_sentence": "",
+    "choices": [
+      "① farmers evaluated success only by the first harvest, with no adjustment for the new evidence",
+      "② the evidence has no bearing on how the original claim should be assessed",
+      "③ crop yields initially rose, but microbial diversity declined over several seasons, which proves that the same result is inevitable everywhere",
+      "④ short-term gains can mask changes in the systems that sustain them",
+      "⑤ the initial assumption must be rejected even in circumstances for which it was never tested"
+    ],
+    "answer": 4,
+    "explanation": "기초 관찰: Crop yields initially rose, but microbial diversity declined over several seasons. 초기 해석: Farmers evaluated success only by the first harvest. 따라서 Short-term gains can mask changes in the systems that sustain them. 다만 단일 사례가 모든 상황으로 일반화되는 것은 아닙니다.",
+    "wrong_explanations": {},
+    "_reviewed": false
+  },
+  {
+    "_qid": "R-0605",
+    "type": "문장 삽입",
+    "passage": "A city invited shop owners to help schedule road repairs. (①) Officials had defined disruption only as total days of work. (②) Construction lasted just as long but merchants could plan deliveries around closures. (③) Advance coordination can lower the practical cost of unavoidable disruption. (④) Further evaluation was recommended. (⑤)",
+    "given_sentence": "This difference, rather than the first result alone, became the starting point for a revised explanation.",
+    "choices": [
+      "①번 위치",
+      "②번 위치",
+      "③번 위치",
+      "④번 위치",
+      "⑤번 위치"
+    ],
+    "answer": 3,
+    "explanation": "초기 해석과 상반되는 관찰이 나온 직후에 This discrepancy가 연결됩니다. 다른 위치에서는 discrepancy의 지시 대상이 불분명하거나 후속 판단의 인과 관계가 끊깁니다.",
+    "wrong_explanations": {},
+    "_reviewed": false
+  },
+  {
+    "_qid": "R-0606",
+    "type": "어법 판단",
+    "passage": "A historian traced how a borrowed musical instrument circulated. The report (① describe) why the original account was appealing. The evidence (② collected) later made the question more complicated. Rather than (③ ignoring) the discrepancy, the investigators considered what it revealed. Their conclusion (④ was) deliberately qualified and (⑤ remained) open to further testing.",
+    "given_sentence": "",
+    "choices": [
+      "①번 표시",
+      "②번 표시",
+      "③번 표시",
+      "④번 표시",
+      "⑤번 표시"
+    ],
+    "answer": 1,
+    "explanation": "①는 describes로 고쳐야 합니다. 나머지 표시 표현은 해당 문장의 구조상 허용됩니다.",
+    "wrong_explanations": {},
+    "_reviewed": false
+  },
+  {
+    "_qid": "R-0607",
+    "type": "어휘 적절성",
+    "passage": "A marine ecologist counted shellfish near a restored shoreline. An environmental report praised the overall population increase. Numbers increased, but most individuals belonged to a single age group. The first interpretation was necessarily (① tentative) because little evidence had yet been collected. The later observation (② confirmed) the expectation on which that interpretation depended. The researchers consequently adopted a (③ qualified) account rather than an unconditional verdict. They examined whether the new evidence was (④ relevant) to the question under investigation. The conclusion remained (⑤ limited) to the conditions in which the observations had been made.",
+    "given_sentence": "",
+    "choices": [
+      "①번 표시",
+      "②번 표시",
+      "③번 표시",
+      "④번 표시",
+      "⑤번 표시"
+    ],
+    "answer": 2,
+    "explanation": "②의 confirmed는 주변 의미와 충돌합니다. contradicted로 수정해야 초기 가설·반증·신중한 결론의 논리가 일관됩니다.",
+    "wrong_explanations": {},
+    "_reviewed": false
+  },
+  {
+    "_qid": "R-0608",
+    "type": "요지/주제",
+    "passage": "A public health team redesigned appointment letters. Managers had focused on adding more appointment slots. However, plain-language directions reduced missed visits without changing medical services. Removing comprehension barriers can improve access to existing resources.",
+    "given_sentence": "",
+    "choices": [
+      "① the claim that competing explanations cannot be evaluated with evidence",
+      "② Removing comprehension barriers can improve access to existing resources",
+      "③ Managers had focused on adding more appointment slots is justified in all settings",
+      "④ the need to ignore early evidence once a new interpretation is proposed",
+      "⑤ why a single observation is enough to settle every possible explanation"
+    ],
+    "answer": 2,
+    "explanation": "초기 기대와 다른 관찰을 통해 얻은 제한적인 결론이 요지입니다. 다른 선택지는 단정적 일반화 또는 근거 없는 판단입니다.",
+    "wrong_explanations": {},
+    "_reviewed": false
+  },
+  {
+    "_qid": "R-0609",
+    "type": "글의 순서",
+    "passage": "A researcher compared the travel times of delivery robots and bicycle couriers.\n\n(A) Before further investigation, a proposal treated average speed as the only measure of usefulness. This gave the project a clear, if incomplete, starting point.\n\n(B) The subsequent evidence complicated that expectation: robots were reliable on clear sidewalks but delayed by temporary street obstacles. The initial account could no longer explain the entire pattern.\n\n(C) In response, the investigators adopted a more cautious inference. Operational performance depends on reliability under changing conditions. They also identified what additional observations would be needed.",
+    "given_sentence": "",
+    "choices": [
+      "① (B)-(A)-(C)",
+      "② (B)-(C)-(A)",
+      "③ (C)-(A)-(B)",
+      "④ (A)-(B)-(C)",
+      "⑤ (A)-(C)-(B)"
+    ],
+    "answer": 4,
+    "explanation": "최초 가정 → 후속 관찰에 의한 반증·보완 → 수정된 판단이라는 인과 순서가 필수입니다. 따라서 (A)-(B)-(C)입니다.",
+    "wrong_explanations": {},
+    "_reviewed": false
+  },
+  {
+    "_qid": "R-0610",
+    "type": "글의 목적",
+    "passage": "Dear Review Committee,\n\nA teacher assigned students to defend a view they initially rejected. Critics feared the exercise would force students to change their beliefs. In fact, many became better at identifying assumptions without adopting the opposing position. I am not asking you to dismiss the original project; I am requesting that its evaluation include the additional evidence and explicitly state the limits of the initial conclusion. Without this change, the next funding decision could reward an incomplete indicator rather than the project's actual performance.\n\nSincerely,\nA project participant",
+    "given_sentence": "",
+    "choices": [
+      "① To announce that the first interpretation has already been fully confirmed",
+      "② To request a larger budget without discussing evaluation criteria",
+      "③ To request a reassessment that accounts for conflicting evidence",
+      "④ To invite committee members to an unrelated public celebration",
+      "⑤ To demand that the project be cancelled without another evaluation"
+    ],
+    "answer": 3,
+    "explanation": "편지의 핵심 요청은 기존 평가에 후속 관찰을 반영하고 초기 결론의 한계를 명시해 달라는 것입니다.",
+    "wrong_explanations": {},
+    "_reviewed": false
+  },
+  {
+    "_qid": "R-0611",
+    "type": "심경 추론",
+    "passage": "At first, I felt reassured by the seemingly straightforward explanation. A student assumed every omitted variable made the model worthless. A mathematician explained why a complex model required simplification. When I learned that some details were removed to make its central mechanisms testable, my confidence weakened. I wondered how much I had missed by attending only to the result that supported my expectation. I resisted admitting the limitation because I had defended the earlier account in public. Yet the more carefully I compared the observations, the clearer the need for revision became. By the end, I was still uncertain about every detail, but I felt more willing to investigate than to defend my first impression.",
+    "given_sentence": "",
+    "choices": [
+      "① from curiosity to indifference about the investigation",
+      "② from confidence to a refusal to reconsider any evidence",
+      "③ from confidence to reflective curiosity",
+      "④ from distrust of the team to unconditional hostility",
+      "⑤ from disappointment to certainty that all questions are settled"
+    ],
+    "answer": 3,
+    "explanation": "초기의 confident/reassured와 후반의 reconsider, willing to investigate가 대비되므로 확신에서 성찰적 탐구로의 변화입니다.",
+    "wrong_explanations": {},
+    "_reviewed": false
+  },
+  {
+    "_qid": "R-0612",
+    "type": "필자의 주장",
+    "passage": "A museum recorded visitor routes using anonymous sensors. Curators had organized rooms according to scholarly importance. At first, that account seemed attractive: it offered a simple explanation that could be communicated without further qualification. In fact, many bypassed the central exhibit but paused at a small display near the exit. Two observers could accept the same facts yet reach different judgments because they attached different importance to the underlying assumptions. Actual use can reveal priorities that designers did not anticipate. An adequate account must make those assumptions explicit before treating its conclusion as general. This conclusion is not identical to the first assumption; it must account for the later observation and for the limits of the original measure. In particular, the new evidence may justify changing the interpretation without proving that the earlier account was mistaken in every conceivable setting. Consequently, the preferred interpretation should explain both the initial expectation and the evidence that complicates it, without pretending that a single example establishes a universal rule.",
+    "given_sentence": "",
+    "choices": [
+      "① Decisions should retain the original assumption because curators had organized rooms according to scholarly importance.",
+      "② An observed difference should be treated as a universal rule without further examination.",
+      "③ Decision-makers should judge an intervention solely by its most visible immediate result.",
+      "④ Decisions should reflect this insight: actual use can reveal priorities that designers did not anticipate.",
+      "⑤ If evidence is mixed, decision-makers should avoid weighing the competing explanations at all."
+    ],
+    "answer": 4,
+    "explanation": "필자는 초기 판단을 그대로 유지하기보다 관찰의 조건과 반례를 반영해 결론을 조정해야 한다고 주장합니다.",
+    "wrong_explanations": {},
+    "_reviewed": false
+  },
+  {
+    "_qid": "R-0613",
+    "type": "제목 추론",
+    "passage": "A researcher observed bats hunting above city canals. A planning report proposed adding lights to every waterway. At first, that account seemed attractive: it offered a simple explanation that could be communicated without further qualification. In fact, insect abundance mattered, but bright lights interrupted some feeding routes. The outcome provides a useful clue, but it does not establish that the same mechanism would operate under every set of conditions. Changes that help human visibility can alter wildlife behavior. The stronger inference is deliberately limited: it explains the observed contrast without pretending that all uncertainty has disappeared. This conclusion is not identical to the first assumption; it must account for the later observation and for the limits of the original measure. In particular, the new evidence may justify changing the interpretation without proving that the earlier account was mistaken in every conceivable setting. Consequently, the preferred interpretation should explain both the initial expectation and the evidence that complicates it, without pretending that a single example establishes a universal rule.",
+    "given_sentence": "",
+    "choices": [
+      "① When Background Details Replace All Empirical Evidence",
+      "② Why a Single Indicator Is Sufficient for Every Decision",
+      "③ A Familiar Prediction That Needed No Further Examination",
+      "④ The Complete Failure of Observation in Practical Research",
+      "⑤ Beyond the First Explanation: Changes that help human visibility can alter wildlife behavior"
+    ],
+    "answer": 5,
+    "explanation": "초기 설명과 후속 관찰의 불일치를 통해 더 정교한 판단으로 옮겨가는 글 전체를 포괄합니다.",
+    "wrong_explanations": {},
+    "_reviewed": false
+  },
+  {
+    "_qid": "R-0614",
+    "type": "무관한 문장",
+    "passage": "(①) A college tested open-book examinations in history courses. (②) Some faculty expected access to notes to make every question easy. (③) Students spent less effort memorizing dates but needed to compare conflicting sources. (④) Assessment difficulty depends on the reasoning required, not simply access to information. (⑤) Weather satellites collect images from orbits above the atmosphere.",
+    "given_sentence": "",
+    "choices": [
+      "①번 문장",
+      "②번 문장",
+      "③번 문장",
+      "④번 문장",
+      "⑤번 문장"
+    ],
+    "answer": 5,
+    "explanation": "나머지 네 문장은 동일한 연구·관찰의 초기 가정과 결과, 수정된 결론을 연결하지만 해당 문장은 다른 주제로 전환되어 논리적 연속성이 없습니다.",
+    "wrong_explanations": {},
+    "_reviewed": false
+  },
+  {
+    "_qid": "R-0615",
+    "type": "요약문 완성",
+    "passage": "A craft cooperative introduced digital sales to reach distant buyers. Organizers treated a larger audience as automatically more profitable. At first, that account seemed attractive: it offered a simple explanation that could be communicated without further qualification. In fact, orders increased, but packaging costs threatened profits on small items. Neither the initial prediction nor the later measurement is meaningless; the mistake is to confuse either one with a complete explanation. Growth in reach does not guarantee growth in net benefit. The task is to connect the observations with the process that could plausibly have produced them. This conclusion is not identical to the first assumption; it must account for the later observation and for the limits of the original measure. In particular, the new evidence may justify changing the interpretation without proving that the earlier account was mistaken in every conceivable setting. Consequently, the preferred interpretation should explain both the initial expectation and the evidence that complicates it, without pretending that a single example establishes a universal rule.",
+    "given_sentence": "",
+    "choices": [
+      "① replaced — unquestionable",
+      "② unrelated — absolute",
+      "③ supported — qualified",
+      "④ challenged — categorical",
+      "⑤ supported — unconditional"
+    ],
+    "answer": 3,
+    "explanation": "초기 가정은 처음에는 지지를 받았지만 후속 관찰 때문에 해석에 조건과 한계를 명시해야 했으므로 supported — qualified가 가장 적절합니다.",
+    "wrong_explanations": {},
+    "_reviewed": false
+  },
+  {
+    "_qid": "R-0616",
+    "type": "빈칸 추론",
+    "passage": "A landscape architect designed a park with movable chairs. The initial blueprint had fixed every seat in place. However, visitors rearranged the space differently for solitude and conversation. The evidence is most consistent with the conclusion that __________.",
+    "given_sentence": "",
+    "choices": [
+      "① allowing people to adapt a space may serve varied social needs",
+      "② the initial assumption must be rejected even in circumstances for which it was never tested",
+      "③ visitors rearranged the space differently for solitude and conversation, which proves that the same result is inevitable everywhere",
+      "④ the evidence has no bearing on how the original claim should be assessed",
+      "⑤ the initial blueprint had fixed every seat in place, with no adjustment for the new evidence"
+    ],
+    "answer": 1,
+    "explanation": "기초 관찰: Visitors rearranged the space differently for solitude and conversation. 초기 해석: The initial blueprint had fixed every seat in place. 따라서 Allowing people to adapt a space may serve varied social needs. 다만 단일 사례가 모든 상황으로 일반화되는 것은 아닙니다.",
+    "wrong_explanations": {},
+    "_reviewed": false
+  },
+  {
+    "_qid": "R-0617",
+    "type": "문장 삽입",
+    "passage": "The project was designed to test an explanation that initially seemed straightforward. (①) A researcher studied why some warnings were ignored. (②) Earlier notices described frightening consequences but no practical steps. (③) People responded better when messages offered a feasible next action. (④) Risk communication is more useful when concern is paired with agency. (⑤)",
+    "given_sentence": "The inconsistency prompted a closer examination of what the original indicator had failed to capture.",
+    "choices": [
+      "①번 위치",
+      "②번 위치",
+      "③번 위치",
+      "④번 위치",
+      "⑤번 위치"
+    ],
+    "answer": 4,
+    "explanation": "초기 해석과 상반되는 관찰이 나온 직후에 This discrepancy가 연결됩니다. 다른 위치에서는 discrepancy의 지시 대상이 불분명하거나 후속 판단의 인과 관계가 끊깁니다.",
+    "wrong_explanations": {},
+    "_reviewed": false
+  },
+  {
+    "_qid": "R-0618",
+    "type": "어법 판단",
+    "passage": "A biographer compared private letters and public speeches by a reformer. It was the later evidence (① that) challenged the original interpretation. The observations (② was) checked twice before the team (③ published) its findings. Neither the initial prediction nor the follow-up results (④ were) treated as sufficient alone. The explanation (⑤ ultimately) depended on their relationship.",
+    "given_sentence": "",
+    "choices": [
+      "①번 표시",
+      "②번 표시",
+      "③번 표시",
+      "④번 표시",
+      "⑤번 표시"
+    ],
+    "answer": 2,
+    "explanation": "②는 were로 고쳐야 합니다. 나머지 표시 표현은 해당 문장의 구조상 허용됩니다.",
+    "wrong_explanations": {},
+    "_reviewed": false
+  },
+  {
+    "_qid": "R-0619",
+    "type": "어휘 적절성",
+    "passage": "A scientist evaluated a new battery recycling method. Promoters cited recovery percentages alone. Metal recovery was high, but the process required energy-intensive heating. The first interpretation was necessarily (① tentative) because little evidence had yet been collected. The later observation (② contradicted) the expectation on which that interpretation depended. The researchers consequently adopted a (③ qualified) account rather than an unconditional verdict. They examined whether the new evidence was (④ relevant) to the question under investigation. The conclusion remained (⑤ universal) to the conditions in which the observations had been made.",
+    "given_sentence": "",
+    "choices": [
+      "①번 표시",
+      "②번 표시",
+      "③번 표시",
+      "④번 표시",
+      "⑤번 표시"
+    ],
+    "answer": 5,
+    "explanation": "⑤의 universal는 주변 의미와 충돌합니다. limited로 수정해야 초기 가설·반증·신중한 결론의 논리가 일관됩니다.",
+    "wrong_explanations": {},
+    "_reviewed": false
+  },
+  {
+    "_qid": "R-0620",
+    "type": "요지/주제",
+    "passage": "An archaeological team found worn steps beside a ceremonial gate. A colleague assumed the gate had been reserved for royal processions. The first interpretation was plausible because it focused on an easily visible feature. But the steps were too narrow for carts and carried marks from repeated foot traffic. This did not make the earlier observation useless; it revealed that the original explanation had missed an important condition. The wear instead suggested that ordinary residents regularly participated in rituals.",
+    "given_sentence": "",
+    "choices": [
+      "① A colleague assumed the gate had been reserved for royal processions is justified in all settings",
+      "② the claim that competing explanations cannot be evaluated with evidence",
+      "③ the need to ignore early evidence once a new interpretation is proposed",
+      "④ The wear instead suggested that ordinary residents regularly participated in rituals",
+      "⑤ why a single observation is enough to settle every possible explanation"
+    ],
+    "answer": 4,
+    "explanation": "초기 기대와 다른 관찰을 통해 얻은 제한적인 결론이 요지입니다. 다른 선택지는 단정적 일반화 또는 근거 없는 판단입니다.",
+    "wrong_explanations": {},
+    "_reviewed": false
+  },
+  {
+    "_qid": "R-0621",
+    "type": "글의 순서",
+    "passage": "A city installed benches at regular intervals along a steep pedestrian route.\n\n(A) In response, the investigators adopted a more cautious inference. Small opportunities to rest can change who is able to use public space. They also identified what additional observations would be needed.\n\n(B) The subsequent evidence complicated that expectation: older walkers began completing journeys they previously avoided. The initial account could no longer explain the entire pattern.\n\n(C) Before further investigation, planners initially measured success only by average walking speed. This gave the project a clear, if incomplete, starting point.",
+    "given_sentence": "",
+    "choices": [
+      "① (B)-(A)-(C)",
+      "② (B)-(C)-(A)",
+      "③ (C)-(B)-(A)",
+      "④ (A)-(B)-(C)",
+      "⑤ (A)-(C)-(B)"
+    ],
+    "answer": 3,
+    "explanation": "최초 가정 → 후속 관찰에 의한 반증·보완 → 수정된 판단이라는 인과 순서가 필수입니다. 따라서 (C)-(B)-(A)입니다.",
+    "wrong_explanations": {},
+    "_reviewed": false
+  },
+  {
+    "_qid": "R-0622",
+    "type": "글의 목적",
+    "passage": "Dear Review Committee,\n\nA conservator analyzed the faded blue pigment in an old mural. A museum had blamed all discoloration on bright gallery lighting. In fact, the pigment changed color when exposed to humid air rather than sunlight alone. I am not asking you to dismiss the original project; I am requesting that its evaluation include the additional evidence and explicitly state the limits of the initial conclusion. Such a review would make the assessment fairer.\n\nSincerely,\nA project participant",
+    "given_sentence": "",
+    "choices": [
+      "① To request a larger budget without discussing evaluation criteria",
+      "② To request a reassessment that accounts for conflicting evidence",
+      "③ To announce that the first interpretation has already been fully confirmed",
+      "④ To invite committee members to an unrelated public celebration",
+      "⑤ To demand that the project be cancelled without another evaluation"
+    ],
+    "answer": 2,
+    "explanation": "편지의 핵심 요청은 기존 평가에 후속 관찰을 반영하고 초기 결론의 한계를 명시해 달라는 것입니다.",
+    "wrong_explanations": {},
+    "_reviewed": false
+  },
+  {
+    "_qid": "R-0623",
+    "type": "심경 추론",
+    "passage": "At first, I felt reassured by the seemingly straightforward explanation. Local officials wanted to judge success after the first summer. An ecologist monitored insects around a newly restored pond. When I learned that species returned unevenly, with predators arriving after their prey, my confidence weakened. I wondered how much I had missed by attending only to the result that supported my expectation. I resisted admitting the limitation because I had defended the earlier account in public. Yet the more carefully I compared the observations, the clearer the need for revision became. By the end, I was still uncertain about every detail, but I felt more willing to investigate than to defend my first impression.",
+    "given_sentence": "",
+    "choices": [
+      "① from distrust of the team to unconditional hostility",
+      "② from curiosity to indifference about the investigation",
+      "③ from confidence to reflective curiosity",
+      "④ from disappointment to certainty that all questions are settled",
+      "⑤ from confidence to a refusal to reconsider any evidence"
+    ],
+    "answer": 3,
+    "explanation": "초기의 confident/reassured와 후반의 reconsider, willing to investigate가 대비되므로 확신에서 성찰적 탐구로의 변화입니다.",
+    "wrong_explanations": {},
+    "_reviewed": false
+  },
+  {
+    "_qid": "R-0624",
+    "type": "필자의 주장",
+    "passage": "A language teacher compared handwritten and spoken student explanations. Some teachers interpreted slow speech as weak understanding. The first interpretation was plausible because it focused on an easily visible feature. But learners who hesitated aloud often produced precise written arguments. This did not make the earlier observation useless; it revealed that the original explanation had missed an important condition. Fluency in one mode should not stand in for competence in another.",
+    "given_sentence": "",
+    "choices": [
+      "① Decisions should reflect this insight: fluency in one mode should not stand in for competence in another.",
+      "② If evidence is mixed, decision-makers should avoid weighing the competing explanations at all.",
+      "③ Decisions should retain the original assumption because some teachers interpreted slow speech as weak understanding.",
+      "④ Decision-makers should judge an intervention solely by its most visible immediate result.",
+      "⑤ An observed difference should be treated as a universal rule without further examination."
+    ],
+    "answer": 1,
+    "explanation": "필자는 초기 판단을 그대로 유지하기보다 관찰의 조건과 반례를 반영해 결론을 조정해야 한다고 주장합니다.",
+    "wrong_explanations": {},
+    "_reviewed": false
+  },
+  {
+    "_qid": "R-0625",
+    "type": "제목 추론",
+    "passage": "A ferry operator tested a schedule with fewer but more reliable departures. Marketing staff had assumed that the largest number of departures was always best. At first, that account seemed attractive: it offered a simple explanation that could be communicated without further qualification. In fact, passengers missed fewer appointments despite the lower advertised frequency. The striking feature of the result was not its size but the mismatch between the expected mechanism and the one actually observed. Predictability can matter more than nominal capacity. The conclusion therefore depends on comparing two interpretations, rather than merely repeating the most visible outcome. This conclusion is not identical to the first assumption; it must account for the later observation and for the limits of the original measure. In particular, the new evidence may justify changing the interpretation without proving that the earlier account was mistaken in every conceivable setting. Consequently, the preferred interpretation should explain both the initial expectation and the evidence that complicates it, without pretending that a single example establishes a universal rule.",
+    "given_sentence": "",
+    "choices": [
+      "① When Background Details Replace All Empirical Evidence",
+      "② The Complete Failure of Observation in Practical Research",
+      "③ Why a Single Indicator Is Sufficient for Every Decision",
+      "④ Beyond the First Explanation: Predictability can matter more than nominal capacity",
+      "⑤ A Familiar Prediction That Needed No Further Examination"
+    ],
+    "answer": 4,
+    "explanation": "초기 설명과 후속 관찰의 불일치를 통해 더 정교한 판단으로 옮겨가는 글 전체를 포괄합니다.",
+    "wrong_explanations": {},
+    "_reviewed": false
+  },
+  {
+    "_qid": "R-0626",
+    "type": "무관한 문장",
+    "passage": "(①) A scientist studied how honeybees responded to artificial flowers. (②) Professional football leagues publish schedules before the season begins. (③) A colleague treated the first preference as a permanent instinct. (④) Bees initially favored brightly colored flowers but learned to follow consistent rewards. (⑤) Behavior reflects both initial tendencies and learning from experience.",
+    "given_sentence": "",
+    "choices": [
+      "①번 문장",
+      "②번 문장",
+      "③번 문장",
+      "④번 문장",
+      "⑤번 문장"
+    ],
+    "answer": 2,
+    "explanation": "나머지 네 문장은 동일한 연구·관찰의 초기 가정과 결과, 수정된 결론을 연결하지만 해당 문장은 다른 주제로 전환되어 논리적 연속성이 없습니다.",
+    "wrong_explanations": {},
+    "_reviewed": false
+  },
+  {
+    "_qid": "R-0627",
+    "type": "요약문 완성",
+    "passage": "A village museum asked residents to annotate photographs of a former market. Curators expected the photographs to speak for themselves. At first, that account seemed attractive: it offered a simple explanation that could be communicated without further qualification. In fact, individual memories disagreed about dates but revealed overlooked personal routines. A quick appraisal would reward the immediately measurable result, but it could overlook the cost imposed elsewhere in the system. Community interpretation can enrich archives without making every recollection equally reliable. The relevant question is whether the benefit persists once these indirect effects are included. This conclusion is not identical to the first assumption; it must account for the later observation and for the limits of the original measure. In particular, the new evidence may justify changing the interpretation without proving that the earlier account was mistaken in every conceivable setting. Consequently, the preferred interpretation should explain both the initial expectation and the evidence that complicates it, without pretending that a single example establishes a universal rule.",
+    "given_sentence": "",
+    "choices": [
+      "① supported — unconditional",
+      "② unrelated — absolute",
+      "③ replaced — unquestionable",
+      "④ supported — qualified",
+      "⑤ challenged — categorical"
+    ],
+    "answer": 4,
+    "explanation": "초기 가정은 처음에는 지지를 받았지만 후속 관찰 때문에 해석에 조건과 한계를 명시해야 했으므로 supported — qualified가 가장 적절합니다.",
+    "wrong_explanations": {},
+    "_reviewed": false
+  },
+  {
+    "_qid": "R-0628",
+    "type": "빈칸 추론",
+    "passage": "An engineer designed reusable crates for transporting delicate fruit. The team had evaluated impact resistance as an isolated target. The new evidence, however, was more informative than the original label: the strongest model weighed so much that fuel use increased. The difficulty is to account for both the attraction of the earlier interpretation and its failure to explain the later observation. The evidence is most consistent with the conclusion that __________. A defensible choice should explain the contrast without converting a local finding into a universal rule.",
+    "given_sentence": "",
+    "choices": [
+      "① the team had evaluated impact resistance as an isolated target, with no adjustment for the new evidence",
+      "② the evidence has no bearing on how the original claim should be assessed",
+      "③ the strongest model weighed so much that fuel use increased, which proves that the same result is inevitable everywhere",
+      "④ the initial assumption must be rejected even in circumstances for which it was never tested",
+      "⑤ a successful design must balance protection with costs across the whole journey"
+    ],
+    "answer": 5,
+    "explanation": "기초 관찰: The strongest model weighed so much that fuel use increased. 초기 해석: The team had evaluated impact resistance as an isolated target. 따라서 A successful design must balance protection with costs across the whole journey. 다만 단일 사례가 모든 상황으로 일반화되는 것은 아닙니다.",
+    "wrong_explanations": {},
+    "_reviewed": false
+  },
+  {
+    "_qid": "R-0629",
+    "type": "문장 삽입",
+    "passage": "The project was designed to test an explanation that initially seemed straightforward. (①) A historian used shipping invoices to reconstruct nineteenth-century diets. (②) A student equated goods appearing in a port with universal consumption. (③) That initial account shaped the design of the follow-up observation. (④) Lists of imported spices suggested access but not who actually consumed them. (⑤)",
+    "given_sentence": "This reversal showed why the initial expectation could not be treated as a final conclusion.",
+    "choices": [
+      "①번 위치",
+      "②번 위치",
+      "③번 위치",
+      "④번 위치",
+      "⑤번 위치"
+    ],
+    "answer": 5,
+    "explanation": "초기 해석과 상반되는 관찰이 나온 직후에 This discrepancy가 연결됩니다. 다른 위치에서는 discrepancy의 지시 대상이 불분명하거나 후속 판단의 인과 관계가 끊깁니다.",
+    "wrong_explanations": {},
+    "_reviewed": false
+  },
+  {
+    "_qid": "R-0630",
+    "type": "어법 판단",
+    "passage": "A librarian placed popular novels beside less familiar works on the same topic. The earlier view seemed (① plausible), but the subsequent observation (② provided) a reason to reconsider it. If the team (③ has relied) only on its first assumption, it (④ would have missed) an important distinction. The investigators (⑤ therefore) revised their judgment.",
+    "given_sentence": "",
+    "choices": [
+      "①번 표시",
+      "②번 표시",
+      "③번 표시",
+      "④번 표시",
+      "⑤번 표시"
+    ],
+    "answer": 3,
+    "explanation": "③는 had relied로 고쳐야 합니다. 나머지 표시 표현은 해당 문장의 구조상 허용됩니다.",
+    "wrong_explanations": {},
+    "_reviewed": false
+  },
+  {
+    "_qid": "R-0631",
+    "type": "어휘 적절성",
+    "passage": "A coastal engineer compared two flood forecasts based on identical data. Officials wanted a single number that seemed unquestionably objective. Different assumptions about land use produced substantially different losses. The first interpretation was necessarily (① tentative) because little evidence had yet been collected. The later observation (② contradicted) the expectation on which that interpretation depended. The researchers consequently adopted a (③ absolute) account rather than an unconditional verdict. They examined whether the new evidence was (④ relevant) to the question under investigation. The conclusion remained (⑤ limited) to the conditions in which the observations had been made.",
+    "given_sentence": "",
+    "choices": [
+      "①번 표시",
+      "②번 표시",
+      "③번 표시",
+      "④번 표시",
+      "⑤번 표시"
+    ],
+    "answer": 3,
+    "explanation": "③의 absolute는 주변 의미와 충돌합니다. qualified로 수정해야 초기 가설·반증·신중한 결론의 논리가 일관됩니다.",
+    "wrong_explanations": {},
+    "_reviewed": false
+  },
+  {
+    "_qid": "R-0632",
+    "type": "요지/주제",
+    "passage": "A musician rehearsed with a metronome that gradually changed tempo. The group had mastered the piece at one fixed speed. The first interpretation was plausible because it focused on an easily visible feature. But the shifting beat exposed moments where the ensemble relied on habit rather than listening. This did not make the earlier observation useless; it revealed that the original explanation had missed an important condition. Flexible performance requires understanding relationships beyond mechanical repetition.",
+    "given_sentence": "",
+    "choices": [
+      "① The group had mastered the piece at one fixed speed is justified in all settings",
+      "② why a single observation is enough to settle every possible explanation",
+      "③ Flexible performance requires understanding relationships beyond mechanical repetition",
+      "④ the need to ignore early evidence once a new interpretation is proposed",
+      "⑤ the claim that competing explanations cannot be evaluated with evidence"
+    ],
+    "answer": 3,
+    "explanation": "초기 기대와 다른 관찰을 통해 얻은 제한적인 결론이 요지입니다. 다른 선택지는 단정적 일반화 또는 근거 없는 판단입니다.",
+    "wrong_explanations": {},
+    "_reviewed": false
+  },
+  {
+    "_qid": "R-0633",
+    "type": "글의 순서",
+    "passage": "An urban farmer collected discarded coffee grounds for compost.\n\n(A) In response, the investigators adopted a more cautious inference. Recycling materials requires attention to context and dosage. They also identified what additional observations would be needed.\n\n(B) The subsequent evidence complicated that expectation: the grounds improved some soil mixtures but made others too acidic. The initial account could no longer explain the entire pattern.\n\n(C) Before further investigation, a publicity campaign described all food waste as automatically beneficial. This gave the project a clear, if incomplete, starting point.",
+    "given_sentence": "",
+    "choices": [
+      "① (B)-(A)-(C)",
+      "② (A)-(C)-(B)",
+      "③ (C)-(B)-(A)",
+      "④ (B)-(C)-(A)",
+      "⑤ (A)-(B)-(C)"
+    ],
+    "answer": 3,
+    "explanation": "최초 가정 → 후속 관찰에 의한 반증·보완 → 수정된 판단이라는 인과 순서가 필수입니다. 따라서 (C)-(B)-(A)입니다.",
+    "wrong_explanations": {},
+    "_reviewed": false
+  },
+  {
+    "_qid": "R-0634",
+    "type": "글의 목적",
+    "passage": "Dear Review Committee,\n\nA researcher watched children invent rules for an unfamiliar board game. Adults had assumed the printed instructions would be sufficient. In fact, rules became stable only after players explained disputes to one another. I am not asking you to dismiss the original project; I am requesting that its evaluation include the additional evidence and explicitly state the limits of the initial conclusion. Such a review would make the assessment fairer.\n\nSincerely,\nA project participant",
+    "given_sentence": "",
+    "choices": [
+      "① To demand that the project be cancelled without another evaluation",
+      "② To announce that the first interpretation has already been fully confirmed",
+      "③ To request a reassessment that accounts for conflicting evidence",
+      "④ To request a larger budget without discussing evaluation criteria",
+      "⑤ To invite committee members to an unrelated public celebration"
+    ],
+    "answer": 3,
+    "explanation": "편지의 핵심 요청은 기존 평가에 후속 관찰을 반영하고 초기 결론의 한계를 명시해 달라는 것입니다.",
+    "wrong_explanations": {},
+    "_reviewed": false
+  },
+  {
+    "_qid": "R-0635",
+    "type": "심경 추론",
+    "passage": "At first, I felt reassured by the seemingly straightforward explanation. Administrators celebrated the overall rise in participation. A remote clinic introduced video consultations for routine follow-ups. When I learned that attendance improved for patients living far away but declined among those with unstable internet, my confidence weakened. I wondered how much I had missed by attending only to the result that supported my expectation. I reconsidered my judgment. By the end, I was still uncertain about every detail, but I felt more willing to investigate than to defend my first impression.",
+    "given_sentence": "",
+    "choices": [
+      "① from distrust of the team to unconditional hostility",
+      "② from confidence to reflective curiosity",
+      "③ from confidence to a refusal to reconsider any evidence",
+      "④ from disappointment to certainty that all questions are settled",
+      "⑤ from curiosity to indifference about the investigation"
+    ],
+    "answer": 2,
+    "explanation": "초기의 confident/reassured와 후반의 reconsider, willing to investigate가 대비되므로 확신에서 성찰적 탐구로의 변화입니다.",
+    "wrong_explanations": {},
+    "_reviewed": false
+  },
+  {
+    "_qid": "R-0636",
+    "type": "필자의 주장",
+    "passage": "A painter compared sketches made from memory with those made on site. She had expected memory to preserve a neutral copy of the scene. At first, that account seemed attractive: it offered a simple explanation that could be communicated without further qualification. In fact, memory drawings exaggerated the shapes that had attracted her attention. Two observers could accept the same facts yet reach different judgments because they attached different importance to the underlying assumptions. Remembering is a selective reconstruction rather than passive storage. An adequate account must make those assumptions explicit before treating its conclusion as general. This conclusion is not identical to the first assumption; it must account for the later observation and for the limits of the original measure. In particular, the new evidence may justify changing the interpretation without proving that the earlier account was mistaken in every conceivable setting. Consequently, the preferred interpretation should explain both the initial expectation and the evidence that complicates it, without pretending that a single example establishes a universal rule.",
+    "given_sentence": "",
+    "choices": [
+      "① An observed difference should be treated as a universal rule without further examination.",
+      "② Decision-makers should judge an intervention solely by its most visible immediate result.",
+      "③ Decisions should retain the original assumption because she had expected memory to preserve a neutral copy of the scene.",
+      "④ Decisions should reflect this insight: remembering is a selective reconstruction rather than passive storage.",
+      "⑤ If evidence is mixed, decision-makers should avoid weighing the competing explanations at all."
+    ],
+    "answer": 4,
+    "explanation": "필자는 초기 판단을 그대로 유지하기보다 관찰의 조건과 반례를 반영해 결론을 조정해야 한다고 주장합니다.",
+    "wrong_explanations": {},
+    "_reviewed": false
+  },
+  {
+    "_qid": "R-0637",
+    "type": "제목 추론",
+    "passage": "An astronomer combined observations from several modest telescopes. A sponsor had equated expensive equipment with complete coverage. At first, that account seemed attractive: it offered a simple explanation that could be communicated without further qualification. In fact, different viewing times filled gaps that a single large telescope could not cover. The outcome provides a useful clue, but it does not establish that the same mechanism would operate under every set of conditions. Coordination among limited instruments can produce valuable evidence. The stronger inference is deliberately limited: it explains the observed contrast without pretending that all uncertainty has disappeared. This conclusion is not identical to the first assumption; it must account for the later observation and for the limits of the original measure. In particular, the new evidence may justify changing the interpretation without proving that the earlier account was mistaken in every conceivable setting. Consequently, the preferred interpretation should explain both the initial expectation and the evidence that complicates it, without pretending that a single example establishes a universal rule.",
+    "given_sentence": "",
+    "choices": [
+      "① Beyond the First Explanation: Coordination among limited instruments can produce valuable evidence",
+      "② Why a Single Indicator Is Sufficient for Every Decision",
+      "③ A Familiar Prediction That Needed No Further Examination",
+      "④ When Background Details Replace All Empirical Evidence",
+      "⑤ The Complete Failure of Observation in Practical Research"
+    ],
+    "answer": 1,
+    "explanation": "초기 설명과 후속 관찰의 불일치를 통해 더 정교한 판단으로 옮겨가는 글 전체를 포괄합니다.",
+    "wrong_explanations": {},
+    "_reviewed": false
+  },
+  {
+    "_qid": "R-0638",
+    "type": "무관한 문장",
+    "passage": "(①) A municipal team experimented with permeable pavement in a small plaza. (②) Promoters advertised the material as a stand-alone solution to flooding. (③) The surface absorbed light rain but struggled when drains beneath it were blocked. (④) Weather satellites collect images from orbits above the atmosphere. (⑤) Infrastructure performs as a system and depends on maintenance.",
+    "given_sentence": "",
+    "choices": [
+      "①번 문장",
+      "②번 문장",
+      "③번 문장",
+      "④번 문장",
+      "⑤번 문장"
+    ],
+    "answer": 4,
+    "explanation": "나머지 네 문장은 동일한 연구·관찰의 초기 가정과 결과, 수정된 결론을 연결하지만 해당 문장은 다른 주제로 전환되어 논리적 연속성이 없습니다.",
+    "wrong_explanations": {},
+    "_reviewed": false
+  },
+  {
+    "_qid": "R-0639",
+    "type": "요약문 완성",
+    "passage": "A chef added detailed origin stories to a seasonal menu. The restaurant expected information alone to determine taste. At first, that account seemed attractive: it offered a simple explanation that could be communicated without further qualification. In fact, diners became curious about unfamiliar vegetables but still rejected some flavors. Neither the initial prediction nor the later measurement is meaningless; the mistake is to confuse either one with a complete explanation. Knowledge may influence preferences without completely overriding sensation. The task is to connect the observations with the process that could plausibly have produced them. This conclusion is not identical to the first assumption; it must account for the later observation and for the limits of the original measure. In particular, the new evidence may justify changing the interpretation without proving that the earlier account was mistaken in every conceivable setting. Consequently, the preferred interpretation should explain both the initial expectation and the evidence that complicates it, without pretending that a single example establishes a universal rule.",
+    "given_sentence": "",
+    "choices": [
+      "① unrelated — absolute",
+      "② challenged — categorical",
+      "③ supported — qualified",
+      "④ supported — unconditional",
+      "⑤ replaced — unquestionable"
+    ],
+    "answer": 3,
+    "explanation": "초기 가정은 처음에는 지지를 받았지만 후속 관찰 때문에 해석에 조건과 한계를 명시해야 했으므로 supported — qualified가 가장 적절합니다.",
+    "wrong_explanations": {},
+    "_reviewed": false
+  },
+  {
+    "_qid": "R-0640",
+    "type": "빈칸 추론",
+    "passage": "A sociologist compared how neighbors interpreted silence in shared courtyards. A housing committee had imposed a single definition of friendliness. The new evidence, however, was more informative than the original label: some saw quiet as respect while others understood it as social exclusion. The difficulty is to account for both the attraction of the earlier interpretation and its failure to explain the later observation. The evidence is most consistent with the conclusion that __________. A defensible choice should explain the contrast without converting a local finding into a universal rule.",
+    "given_sentence": "",
+    "choices": [
+      "① the evidence has no bearing on how the original claim should be assessed",
+      "② some saw quiet as respect while others understood it as social exclusion, which proves that the same result is inevitable everywhere",
+      "③ the initial assumption must be rejected even in circumstances for which it was never tested",
+      "④ a housing committee had imposed a single definition of friendliness, with no adjustment for the new evidence",
+      "⑤ the meaning of behavior can depend on different cultural expectations"
+    ],
+    "answer": 5,
+    "explanation": "기초 관찰: Some saw quiet as respect while others understood it as social exclusion. 초기 해석: A housing committee had imposed a single definition of friendliness. 따라서 The meaning of behavior can depend on different cultural expectations. 다만 단일 사례가 모든 상황으로 일반화되는 것은 아닙니다.",
+    "wrong_explanations": {},
+    "_reviewed": false
+  },
+  {
+    "_qid": "R-0641",
+    "type": "문장 삽입",
+    "passage": "An economist examined a free public transit trial. Officials had treated every extra passenger as an emissions saving. However, ridership rose but many new journeys replaced walking rather than driving. (①) The environmental effect of a policy depends on what behavior it displaces. (②) The team considered an alternative test. (③) Its report emphasized the limits of the finding. (④) Further observations were recommended. (⑤)",
+    "given_sentence": "This discrepancy led the team to question the assumption behind its original assessment.",
+    "choices": [
+      "①번 위치",
+      "②번 위치",
+      "③번 위치",
+      "④번 위치",
+      "⑤번 위치"
+    ],
+    "answer": 1,
+    "explanation": "초기 해석과 상반되는 관찰이 나온 직후에 This discrepancy가 연결됩니다. 다른 위치에서는 discrepancy의 지시 대상이 불분명하거나 후속 판단의 인과 관계가 끊깁니다.",
+    "wrong_explanations": {},
+    "_reviewed": false
+  },
+  {
+    "_qid": "R-0642",
+    "type": "어법 판단",
+    "passage": "A literary scholar studied several translations of an ambiguous poem. The team examined the evidence (① carefully) and asked (② whether) the original conclusion remained justified. Its purpose was not (③ to dismiss) the earlier account but (④ to identify) its limits. The resulting explanation was more (⑤ cautiously) than the first one.",
+    "given_sentence": "",
+    "choices": [
+      "①번 표시",
+      "②번 표시",
+      "③번 표시",
+      "④번 표시",
+      "⑤번 표시"
+    ],
+    "answer": 5,
+    "explanation": "⑤는 cautious로 고쳐야 합니다. 나머지 표시 표현은 해당 문장의 구조상 허용됩니다.",
+    "wrong_explanations": {},
+    "_reviewed": false
+  },
+  {
+    "_qid": "R-0643",
+    "type": "어휘 적절성",
+    "passage": "A biologist moved a rare plant into a protected greenhouse. The conservation team measured success only by plant survival. The plants survived but no longer received visits from their usual pollinators. The first interpretation was necessarily (① certain) because little evidence had yet been collected. The later observation (② contradicted) the expectation on which that interpretation depended. The researchers consequently adopted a (③ qualified) account rather than an unconditional verdict. They examined whether the new evidence was (④ relevant) to the question under investigation. The conclusion remained (⑤ limited) to the conditions in which the observations had been made.",
+    "given_sentence": "",
+    "choices": [
+      "①번 표시",
+      "②번 표시",
+      "③번 표시",
+      "④번 표시",
+      "⑤번 표시"
+    ],
+    "answer": 1,
+    "explanation": "①의 certain는 주변 의미와 충돌합니다. tentative로 수정해야 초기 가설·반증·신중한 결론의 논리가 일관됩니다.",
+    "wrong_explanations": {},
+    "_reviewed": false
+  },
+  {
+    "_qid": "R-0644",
+    "type": "요지/주제",
+    "passage": "A sports coach required athletes to describe tactical errors after matches. The team had previously judged strategy only by whether a play succeeded. However, players learned to distinguish poor decisions from unlucky outcomes. Good evaluation separates decision quality from immediate results.",
+    "given_sentence": "",
+    "choices": [
+      "① Good evaluation separates decision quality from immediate results",
+      "② The team had previously judged strategy only by whether a play succeeded is justified in all settings",
+      "③ why a single observation is enough to settle every possible explanation",
+      "④ the need to ignore early evidence once a new interpretation is proposed",
+      "⑤ the claim that competing explanations cannot be evaluated with evidence"
+    ],
+    "answer": 1,
+    "explanation": "초기 기대와 다른 관찰을 통해 얻은 제한적인 결론이 요지입니다. 다른 선택지는 단정적 일반화 또는 근거 없는 판단입니다.",
+    "wrong_explanations": {},
+    "_reviewed": false
+  },
+  {
+    "_qid": "R-0645",
+    "type": "글의 순서",
+    "passage": "A historian compared a diary with official records of a labor strike.\n\n(A) In response, the investigators adopted a more cautious inference. Different sources answer different historical questions. They also identified what additional observations would be needed.\n\n(B) Before further investigation, a researcher dismissed personal writing as useless because it was subjective. This gave the project a clear, if incomplete, starting point.\n\n(C) The subsequent evidence complicated that expectation: the diary captured fear and uncertainty missing from the official timetable. The initial account could no longer explain the entire pattern.",
+    "given_sentence": "",
+    "choices": [
+      "① (A)-(C)-(B)",
+      "② (C)-(A)-(B)",
+      "③ (B)-(C)-(A)",
+      "④ (A)-(B)-(C)",
+      "⑤ (B)-(A)-(C)"
+    ],
+    "answer": 3,
+    "explanation": "최초 가정 → 후속 관찰에 의한 반증·보완 → 수정된 판단이라는 인과 순서가 필수입니다. 따라서 (B)-(C)-(A)입니다.",
+    "wrong_explanations": {},
+    "_reviewed": false
+  },
+  {
+    "_qid": "R-0646",
+    "type": "글의 목적",
+    "passage": "Dear Review Committee,\n\nA botanist observed roots growing around a buried stone. A textbook diagram had represented growth as a fixed straight line. In fact, the roots altered direction while continuing toward moisture. I am not asking you to dismiss the original project; I am requesting that its evaluation include the additional evidence and explicitly state the limits of the initial conclusion. Without this change, the next funding decision could reward an incomplete indicator rather than the project's actual performance.\n\nSincerely,\nA project participant",
+    "given_sentence": "",
+    "choices": [
+      "① To invite committee members to an unrelated public celebration",
+      "② To demand that the project be cancelled without another evaluation",
+      "③ To request a larger budget without discussing evaluation criteria",
+      "④ To announce that the first interpretation has already been fully confirmed",
+      "⑤ To request a reassessment that accounts for conflicting evidence"
+    ],
+    "answer": 5,
+    "explanation": "편지의 핵심 요청은 기존 평가에 후속 관찰을 반영하고 초기 결론의 한계를 명시해 달라는 것입니다.",
+    "wrong_explanations": {},
+    "_reviewed": false
+  },
+  {
+    "_qid": "R-0647",
+    "type": "심경 추론",
+    "passage": "At first, I felt reassured by the seemingly straightforward explanation. Advocates described the project as having benefits without costs. A city replaced a noisy intersection with a small public square. When I learned that street vendors gained customers, but delivery drivers needed a new route, my confidence weakened. I wondered how much I had missed by attending only to the result that supported my expectation. I resisted admitting the limitation because I had defended the earlier account in public. Yet the more carefully I compared the observations, the clearer the need for revision became. By the end, I was still uncertain about every detail, but I felt more willing to investigate than to defend my first impression.",
+    "given_sentence": "",
+    "choices": [
+      "① from confidence to a refusal to reconsider any evidence",
+      "② from disappointment to certainty that all questions are settled",
+      "③ from distrust of the team to unconditional hostility",
+      "④ from confidence to reflective curiosity",
+      "⑤ from curiosity to indifference about the investigation"
+    ],
+    "answer": 4,
+    "explanation": "초기의 confident/reassured와 후반의 reconsider, willing to investigate가 대비되므로 확신에서 성찰적 탐구로의 변화입니다.",
+    "wrong_explanations": {},
+    "_reviewed": false
+  },
+  {
+    "_qid": "R-0648",
+    "type": "필자의 주장",
+    "passage": "A museum restored an antique clock but left one visible repair. Some collectors wanted all traces of repair erased. The first interpretation was plausible because it focused on an easily visible feature. But visitors understood how later generations had kept the mechanism working. This did not make the earlier observation useless; it revealed that the original explanation had missed an important condition. The history of maintenance can itself be part of an object's significance.",
+    "given_sentence": "",
+    "choices": [
+      "① Decisions should reflect this insight: the history of maintenance can itself be part of an object's significance.",
+      "② Decisions should retain the original assumption because some collectors wanted all traces of repair erased.",
+      "③ Decision-makers should judge an intervention solely by its most visible immediate result.",
+      "④ If evidence is mixed, decision-makers should avoid weighing the competing explanations at all.",
+      "⑤ An observed difference should be treated as a universal rule without further examination."
+    ],
+    "answer": 1,
+    "explanation": "필자는 초기 판단을 그대로 유지하기보다 관찰의 조건과 반례를 반영해 결론을 조정해야 한다고 주장합니다.",
+    "wrong_explanations": {},
+    "_reviewed": false
+  },
+  {
+    "_qid": "R-0649",
+    "type": "제목 추론",
+    "passage": "A researcher tracked bird migration using tags and local observations. A supervisor wanted to choose only the more accurate source. The first interpretation was plausible because it focused on an easily visible feature. But tagged birds provided precise paths while volunteer sightings covered a wider area. This did not make the earlier observation useless; it revealed that the original explanation had missed an important condition. Combining precision with coverage may improve a picture that neither source provides alone.",
+    "given_sentence": "",
+    "choices": [
+      "① A Familiar Prediction That Needed No Further Examination",
+      "② Beyond the First Explanation: Combining precision with coverage may improve a picture that neither source provides alone",
+      "③ The Complete Failure of Observation in Practical Research",
+      "④ When Background Details Replace All Empirical Evidence",
+      "⑤ Why a Single Indicator Is Sufficient for Every Decision"
+    ],
+    "answer": 2,
+    "explanation": "초기 설명과 후속 관찰의 불일치를 통해 더 정교한 판단으로 옮겨가는 글 전체를 포괄합니다.",
+    "wrong_explanations": {},
+    "_reviewed": false
+  },
+  {
+    "_qid": "R-0650",
+    "type": "무관한 문장",
+    "passage": "(①) Professional football leagues publish schedules before the season begins. (②) A psychologist compared two ways of giving performance feedback. (③) Managers believed positive labels alone would motivate improvement. (④) Specific descriptions of actions helped workers improve more than general praise. (⑤) Useful feedback identifies changeable behavior rather than simply assigning worth.",
+    "given_sentence": "",
+    "choices": [
+      "①번 문장",
+      "②번 문장",
+      "③번 문장",
+      "④번 문장",
+      "⑤번 문장"
+    ],
+    "answer": 1,
+    "explanation": "나머지 네 문장은 동일한 연구·관찰의 초기 가정과 결과, 수정된 결론을 연결하지만 해당 문장은 다른 주제로 전환되어 논리적 연속성이 없습니다.",
+    "wrong_explanations": {},
+    "_reviewed": false
+  },
+  {
+    "_qid": "R-0651",
+    "type": "요약문 완성",
+    "passage": "A neighborhood built a small rooftop garden above a shopping arcade. A brochure treated every green roof as equally sustainable. However, the garden cooled nearby rooms but required substantial watering in dry months. Environmental benefits must be weighed against the resources they consume.",
+    "given_sentence": "",
+    "choices": [
+      "① unrelated — absolute",
+      "② replaced — unquestionable",
+      "③ supported — unconditional",
+      "④ challenged — categorical",
+      "⑤ supported — qualified"
+    ],
+    "answer": 5,
+    "explanation": "초기 가정은 처음에는 지지를 받았지만 후속 관찰 때문에 해석에 조건과 한계를 명시해야 했으므로 supported — qualified가 가장 적절합니다.",
+    "wrong_explanations": {},
+    "_reviewed": false
+  },
+  {
+    "_qid": "R-0652",
+    "type": "빈칸 추론",
+    "passage": "An engineer examined why a repaired bridge vibrated under certain loads. The first team had inspected each component separately. However, replacing a damaged component solved one problem but shifted stress elsewhere. The evidence is most consistent with the conclusion that __________.",
+    "given_sentence": "",
+    "choices": [
+      "① replacing a damaged component solved one problem but shifted stress elsewhere, which proves that the same result is inevitable everywhere",
+      "② the evidence has no bearing on how the original claim should be assessed",
+      "③ connections between components can create unexpected system-level effects",
+      "④ the first team had inspected each component separately, with no adjustment for the new evidence",
+      "⑤ the initial assumption must be rejected even in circumstances for which it was never tested"
+    ],
+    "answer": 3,
+    "explanation": "기초 관찰: Replacing a damaged component solved one problem but shifted stress elsewhere. 초기 해석: The first team had inspected each component separately. 따라서 Connections between components can create unexpected system-level effects. 다만 단일 사례가 모든 상황으로 일반화되는 것은 아닙니다.",
+    "wrong_explanations": {},
+    "_reviewed": false
+  },
+  {
+    "_qid": "R-0653",
+    "type": "문장 삽입",
+    "passage": "A journalist asked readers to mark uncertainty in a developing story. Editors feared that admitting uncertainty would look unprofessional. (①) Corrections became easier to understand when early claims had been qualified. (②) Credibility may increase when evidence and confidence are distinguished. (③) The report explained the evidential limits of the finding. (④) A follow-up study was proposed. (⑤)",
+    "given_sentence": "The unexpected contrast made it necessary to distinguish the initial prediction from the evidence obtained later.",
+    "choices": [
+      "①번 위치",
+      "②번 위치",
+      "③번 위치",
+      "④번 위치",
+      "⑤번 위치"
+    ],
+    "answer": 2,
+    "explanation": "초기 해석과 상반되는 관찰이 나온 직후에 This discrepancy가 연결됩니다. 다른 위치에서는 discrepancy의 지시 대상이 불분명하거나 후속 판단의 인과 관계가 끊깁니다.",
+    "wrong_explanations": {},
+    "_reviewed": false
+  },
+  {
+    "_qid": "R-0654",
+    "type": "어법 판단",
+    "passage": "A teacher let students revise essays after receiving peer comments. The findings raised a question (① about) how the original assumption should be assessed. The researchers, (② whom) earlier account had been influential, were willing (③ to revise) it. They acknowledged (④ that) the observations did not prove the result (⑤ would occur) in every setting.",
+    "given_sentence": "",
+    "choices": [
+      "①번 표시",
+      "②번 표시",
+      "③번 표시",
+      "④번 표시",
+      "⑤번 표시"
+    ],
+    "answer": 2,
+    "explanation": "②는 whose로 고쳐야 합니다. 나머지 표시 표현은 해당 문장의 구조상 허용됩니다.",
+    "wrong_explanations": {},
+    "_reviewed": false
+  },
+  {
+    "_qid": "R-0655",
+    "type": "어휘 적절성",
+    "passage": "A coastal town limited tourist visits to a fragile tide pool. The council framed conservation as a simple matter of restricting access. Fewer visitors caused less damage, but local guides lost income. The first interpretation was necessarily (① tentative) because little evidence had yet been collected. The later observation (② contradicted) the expectation on which that interpretation depended. The researchers consequently adopted a (③ qualified) account rather than an unconditional verdict. They examined whether the new evidence was (④ irrelevant) to the question under investigation. The conclusion remained (⑤ limited) to the conditions in which the observations had been made.",
+    "given_sentence": "",
+    "choices": [
+      "①번 표시",
+      "②번 표시",
+      "③번 표시",
+      "④번 표시",
+      "⑤번 표시"
+    ],
+    "answer": 4,
+    "explanation": "④의 irrelevant는 주변 의미와 충돌합니다. relevant로 수정해야 초기 가설·반증·신중한 결론의 논리가 일관됩니다.",
+    "wrong_explanations": {},
+    "_reviewed": false
+  },
+  {
+    "_qid": "R-0656",
+    "type": "요지/주제",
+    "passage": "A researcher observed how people chose passwords. An instructor had equated memorability with weak security. The first interpretation was plausible because it focused on an easily visible feature. But participants remembered distinctive phrases better than arbitrary short strings. This did not make the earlier observation useless; it revealed that the original explanation had missed an important condition. Security design must account for human memory as well as technical strength.",
+    "given_sentence": "",
+    "choices": [
+      "① the need to ignore early evidence once a new interpretation is proposed",
+      "② Security design must account for human memory as well as technical strength",
+      "③ the claim that competing explanations cannot be evaluated with evidence",
+      "④ why a single observation is enough to settle every possible explanation",
+      "⑤ An instructor had equated memorability with weak security is justified in all settings"
+    ],
+    "answer": 2,
+    "explanation": "초기 기대와 다른 관찰을 통해 얻은 제한적인 결론이 요지입니다. 다른 선택지는 단정적 일반화 또는 근거 없는 판단입니다.",
+    "wrong_explanations": {},
+    "_reviewed": false
+  },
+  {
+    "_qid": "R-0657",
+    "type": "글의 순서",
+    "passage": "A historian analyzed the gaps in an old census.\n\n(A) Before further investigation, some readers treated blank cells as proof that these people did not work. This gave the project a clear, if incomplete, starting point.\n\n(B) The subsequent evidence complicated that expectation: women working in family businesses were often recorded without occupations. The initial account could no longer explain the entire pattern.\n\n(C) In response, the investigators adopted a more cautious inference. Missing records can reflect the categories used to collect information. They also identified what additional observations would be needed.",
+    "given_sentence": "",
+    "choices": [
+      "① (B)-(A)-(C)",
+      "② (A)-(C)-(B)",
+      "③ (A)-(B)-(C)",
+      "④ (B)-(C)-(A)",
+      "⑤ (C)-(A)-(B)"
+    ],
+    "answer": 3,
+    "explanation": "최초 가정 → 후속 관찰에 의한 반증·보완 → 수정된 판단이라는 인과 순서가 필수입니다. 따라서 (A)-(B)-(C)입니다.",
+    "wrong_explanations": {},
+    "_reviewed": false
+  },
+  {
+    "_qid": "R-0658",
+    "type": "글의 목적",
+    "passage": "Dear Review Committee,\n\nA researcher studied how mushrooms responded to fallen branches. An observer classified the dead wood as having no further ecological value. In fact, fungi accelerated decomposition where moisture remained trapped. I am not asking you to dismiss the original project; I am requesting that its evaluation include the additional evidence and explicitly state the limits of the initial conclusion. Such a review would make the assessment fairer.\n\nSincerely,\nA project participant",
+    "given_sentence": "",
+    "choices": [
+      "① To demand that the project be cancelled without another evaluation",
+      "② To announce that the first interpretation has already been fully confirmed",
+      "③ To invite committee members to an unrelated public celebration",
+      "④ To request a larger budget without discussing evaluation criteria",
+      "⑤ To request a reassessment that accounts for conflicting evidence"
+    ],
+    "answer": 5,
+    "explanation": "편지의 핵심 요청은 기존 평가에 후속 관찰을 반영하고 초기 결론의 한계를 명시해 달라는 것입니다.",
+    "wrong_explanations": {},
+    "_reviewed": false
+  },
+  {
+    "_qid": "R-0659",
+    "type": "심경 추론",
+    "passage": "At first, I felt reassured by the seemingly straightforward explanation. A critic claimed that a performance had one objectively identical sound for all. An orchestra invited audience members to move between seating zones. When I learned that listeners noticed different instrument lines from different positions, my confidence weakened. I wondered how much I had missed by attending only to the result that supported my expectation. I resisted admitting the limitation because I had defended the earlier account in public. Yet the more carefully I compared the observations, the clearer the need for revision became. By the end, I was still uncertain about every detail, but I felt more willing to investigate than to defend my first impression.",
+    "given_sentence": "",
+    "choices": [
+      "① from disappointment to certainty that all questions are settled",
+      "② from distrust of the team to unconditional hostility",
+      "③ from curiosity to indifference about the investigation",
+      "④ from confidence to a refusal to reconsider any evidence",
+      "⑤ from confidence to reflective curiosity"
+    ],
+    "answer": 5,
+    "explanation": "초기의 confident/reassured와 후반의 reconsider, willing to investigate가 대비되므로 확신에서 성찰적 탐구로의 변화입니다.",
+    "wrong_explanations": {},
+    "_reviewed": false
+  },
+  {
+    "_qid": "R-0660",
+    "type": "필자의 주장",
+    "passage": "An educational app shortened lessons and added optional challenges. Developers had believed one standardized sequence would suit everyone. At first, that account seemed attractive: it offered a simple explanation that could be communicated without further qualification. In fact, beginners completed more lessons while advanced learners chose deeper tasks. Two observers could accept the same facts yet reach different judgments because they attached different importance to the underlying assumptions. Personalization can serve different learners without lowering expectations. An adequate account must make those assumptions explicit before treating its conclusion as general. This conclusion is not identical to the first assumption; it must account for the later observation and for the limits of the original measure. In particular, the new evidence may justify changing the interpretation without proving that the earlier account was mistaken in every conceivable setting. Consequently, the preferred interpretation should explain both the initial expectation and the evidence that complicates it, without pretending that a single example establishes a universal rule.",
+    "given_sentence": "",
+    "choices": [
+      "① Decisions should retain the original assumption because developers had believed one standardized sequence would suit everyone.",
+      "② Decision-makers should judge an intervention solely by its most visible immediate result.",
+      "③ Decisions should reflect this insight: personalization can serve different learners without lowering expectations.",
+      "④ An observed difference should be treated as a universal rule without further examination.",
+      "⑤ If evidence is mixed, decision-makers should avoid weighing the competing explanations at all."
+    ],
+    "answer": 3,
+    "explanation": "필자는 초기 판단을 그대로 유지하기보다 관찰의 조건과 반례를 반영해 결론을 조정해야 한다고 주장합니다.",
+    "wrong_explanations": {},
+    "_reviewed": false
+  },
+  {
+    "_qid": "R-0661",
+    "type": "제목 추론",
+    "passage": "A researcher measured urban temperatures across neighboring streets. Officials relied only on the average temperature from a distant station. At first, that account seemed attractive: it offered a simple explanation that could be communicated without further qualification. In fact, tree shade produced sharp differences that a citywide average concealed. The outcome provides a useful clue, but it does not establish that the same mechanism would operate under every set of conditions. Local conditions may differ greatly from aggregate measurements. The stronger inference is deliberately limited: it explains the observed contrast without pretending that all uncertainty has disappeared. This conclusion is not identical to the first assumption; it must account for the later observation and for the limits of the original measure. In particular, the new evidence may justify changing the interpretation without proving that the earlier account was mistaken in every conceivable setting. Consequently, the preferred interpretation should explain both the initial expectation and the evidence that complicates it, without pretending that a single example establishes a universal rule.",
+    "given_sentence": "",
+    "choices": [
+      "① Why a Single Indicator Is Sufficient for Every Decision",
+      "② A Familiar Prediction That Needed No Further Examination",
+      "③ When Background Details Replace All Empirical Evidence",
+      "④ Beyond the First Explanation: Local conditions may differ greatly from aggregate measurements",
+      "⑤ The Complete Failure of Observation in Practical Research"
+    ],
+    "answer": 4,
+    "explanation": "초기 설명과 후속 관찰의 불일치를 통해 더 정교한 판단으로 옮겨가는 글 전체를 포괄합니다.",
+    "wrong_explanations": {},
+    "_reviewed": false
+  },
+  {
+    "_qid": "R-0662",
+    "type": "무관한 문장",
+    "passage": "(①) A marine biologist compared fish abundance near old and new artificial reefs. (②) A report counted every visiting fish as evidence of habitat restoration. (③) Weather satellites collect images from orbits above the atmosphere. (④) Young reefs attracted fish quickly but did not immediately support breeding. (⑤) Attraction to a place is not identical to ecological reproduction.",
+    "given_sentence": "",
+    "choices": [
+      "①번 문장",
+      "②번 문장",
+      "③번 문장",
+      "④번 문장",
+      "⑤번 문장"
+    ],
+    "answer": 3,
+    "explanation": "나머지 네 문장은 동일한 연구·관찰의 초기 가정과 결과, 수정된 결론을 연결하지만 해당 문장은 다른 주제로 전환되어 논리적 연속성이 없습니다.",
+    "wrong_explanations": {},
+    "_reviewed": false
+  },
+  {
+    "_qid": "R-0663",
+    "type": "요약문 완성",
+    "passage": "A historian examined advertisements for household appliances. A popular account assumed that technology simply eliminated domestic work. However, manufacturers described labor saving but often shifted work to different family members. Innovations may redistribute tasks rather than erase them.",
+    "given_sentence": "",
+    "choices": [
+      "① replaced — unquestionable",
+      "② supported — unconditional",
+      "③ unrelated — absolute",
+      "④ supported — qualified",
+      "⑤ challenged — categorical"
+    ],
+    "answer": 4,
+    "explanation": "초기 가정은 처음에는 지지를 받았지만 후속 관찰 때문에 해석에 조건과 한계를 명시해야 했으므로 supported — qualified가 가장 적절합니다.",
+    "wrong_explanations": {},
+    "_reviewed": false
+  },
+  {
+    "_qid": "R-0664",
+    "type": "빈칸 추론",
+    "passage": "A transportation planner studied late-night bus riders. Budget meetings judged every route only by passengers per hour. However, a small number of reliable services mattered greatly to shift workers. The evidence is most consistent with the conclusion that __________.",
+    "given_sentence": "",
+    "choices": [
+      "① the initial assumption must be rejected even in circumstances for which it was never tested",
+      "② budget meetings judged every route only by passengers per hour, with no adjustment for the new evidence",
+      "③ the evidence has no bearing on how the original claim should be assessed",
+      "④ public value may depend on who relies on a service, not merely its volume",
+      "⑤ a small number of reliable services mattered greatly to shift workers, which proves that the same result is inevitable everywhere"
+    ],
+    "answer": 4,
+    "explanation": "기초 관찰: A small number of reliable services mattered greatly to shift workers. 초기 해석: Budget meetings judged every route only by passengers per hour. 따라서 Public value may depend on who relies on a service, not merely its volume. 다만 단일 사례가 모든 상황으로 일반화되는 것은 아닙니다.",
+    "wrong_explanations": {},
+    "_reviewed": false
+  },
+  {
+    "_qid": "R-0665",
+    "type": "문장 삽입",
+    "passage": "A researcher collected rainwater from rooftops of different materials. (①) A neighborhood campaign equated collected volume with safe drinking water. (②) Some roofs released contaminants despite collecting large quantities. (③) Quantity and safety are separate dimensions of a resource. (④) Further evaluation was recommended. (⑤)",
+    "given_sentence": "This difference, rather than the first result alone, became the starting point for a revised explanation.",
+    "choices": [
+      "①번 위치",
+      "②번 위치",
+      "③번 위치",
+      "④번 위치",
+      "⑤번 위치"
+    ],
+    "answer": 3,
+    "explanation": "초기 해석과 상반되는 관찰이 나온 직후에 This discrepancy가 연결됩니다. 다른 위치에서는 discrepancy의 지시 대상이 불분명하거나 후속 판단의 인과 관계가 끊깁니다.",
+    "wrong_explanations": {},
+    "_reviewed": false
+  },
+  {
+    "_qid": "R-0666",
+    "type": "어법 판단",
+    "passage": "A theatre director rehearsed the same scene with different lighting. The team (① have) considered several interpretations. The observations, which (② were) reviewed separately, showed that (③ each) explanation had limitations. One of the central reasons (④ is) that the early assumption overlooked important evidence. The researchers (⑤ therefore) recommended a revised account.",
+    "given_sentence": "",
+    "choices": [
+      "①번 표시",
+      "②번 표시",
+      "③번 표시",
+      "④번 표시",
+      "⑤번 표시"
+    ],
+    "answer": 1,
+    "explanation": "①는 has로 고쳐야 합니다. 나머지 표시 표현은 해당 문장의 구조상 허용됩니다.",
+    "wrong_explanations": {},
+    "_reviewed": false
+  },
+  {
+    "_qid": "R-0667",
+    "type": "어휘 적절성",
+    "passage": "A library compared automatic recommendations with human-curated lists. Neither system captured every useful connection. Algorithms reflected frequent borrowing while librarians surfaced overlooked subjects. The first interpretation was necessarily (① tentative) because little evidence had yet been collected. The later observation (② confirmed) the expectation on which that interpretation depended. The researchers consequently adopted a (③ qualified) account rather than an unconditional verdict. They examined whether the new evidence was (④ relevant) to the question under investigation. The conclusion remained (⑤ limited) to the conditions in which the observations had been made.",
+    "given_sentence": "",
+    "choices": [
+      "①번 표시",
+      "②번 표시",
+      "③번 표시",
+      "④번 표시",
+      "⑤번 표시"
+    ],
+    "answer": 2,
+    "explanation": "②의 confirmed는 주변 의미와 충돌합니다. contradicted로 수정해야 초기 가설·반증·신중한 결론의 논리가 일관됩니다.",
+    "wrong_explanations": {},
+    "_reviewed": false
+  },
+  {
+    "_qid": "R-0668",
+    "type": "요지/주제",
+    "passage": "A river scientist examined changes after a dam released water. Observers expected the riverbed to recover immediately. At first, that account seemed attractive: it offered a simple explanation that could be communicated without further qualification. In fact, sediment moved downstream slowly even after the flow rate returned to normal. Two observers could accept the same facts yet reach different judgments because they attached different importance to the underlying assumptions. Environmental systems can show delayed consequences after an intervention. An adequate account must make those assumptions explicit before treating its conclusion as general. This conclusion is not identical to the first assumption; it must account for the later observation and for the limits of the original measure. In particular, the new evidence may justify changing the interpretation without proving that the earlier account was mistaken in every conceivable setting. Consequently, the preferred interpretation should explain both the initial expectation and the evidence that complicates it, without pretending that a single example establishes a universal rule.",
+    "given_sentence": "",
+    "choices": [
+      "① Observers expected the riverbed to recover immediately is justified in all settings",
+      "② the need to ignore early evidence once a new interpretation is proposed",
+      "③ why a single observation is enough to settle every possible explanation",
+      "④ Environmental systems can show delayed consequences after an intervention",
+      "⑤ the claim that competing explanations cannot be evaluated with evidence"
+    ],
+    "answer": 4,
+    "explanation": "초기 기대와 다른 관찰을 통해 얻은 제한적인 결론이 요지입니다. 다른 선택지는 단정적 일반화 또는 근거 없는 판단입니다.",
+    "wrong_explanations": {},
+    "_reviewed": false
+  },
+  {
+    "_qid": "R-0669",
+    "type": "글의 순서",
+    "passage": "An anthropologist documented an annual neighborhood cooking festival.\n\n(A) The subsequent evidence complicated that expectation: recipes changed as younger residents adapted them to new ingredients. The initial account could no longer explain the entire pattern.\n\n(B) In response, the investigators adopted a more cautious inference. Traditions may persist through adaptation rather than perfect repetition. They also identified what additional observations would be needed.\n\n(C) Before further investigation, organizers argued that any change destroyed authenticity. This gave the project a clear, if incomplete, starting point.",
+    "given_sentence": "",
+    "choices": [
+      "① (B)-(C)-(A)",
+      "② (A)-(C)-(B)",
+      "③ (C)-(A)-(B)",
+      "④ (B)-(A)-(C)",
+      "⑤ (A)-(B)-(C)"
+    ],
+    "answer": 3,
+    "explanation": "최초 가정 → 후속 관찰에 의한 반증·보완 → 수정된 판단이라는 인과 순서가 필수입니다. 따라서 (C)-(A)-(B)입니다.",
+    "wrong_explanations": {},
+    "_reviewed": false
+  },
+  {
+    "_qid": "R-0670",
+    "type": "글의 목적",
+    "passage": "Dear Review Committee,\n\nA school measured the effect of quiet spaces on learning. Administrators tried to impose one ideal study environment. In fact, some pupils worked better alone while others needed brief discussion to clarify ideas. I am not asking you to dismiss the original project; I am requesting that its evaluation include the additional evidence and explicitly state the limits of the initial conclusion. Such a review would make the assessment fairer.\n\nSincerely,\nA project participant",
+    "given_sentence": "",
+    "choices": [
+      "① To request a reassessment that accounts for conflicting evidence",
+      "② To announce that the first interpretation has already been fully confirmed",
+      "③ To invite committee members to an unrelated public celebration",
+      "④ To demand that the project be cancelled without another evaluation",
+      "⑤ To request a larger budget without discussing evaluation criteria"
+    ],
+    "answer": 1,
+    "explanation": "편지의 핵심 요청은 기존 평가에 후속 관찰을 반영하고 초기 결론의 한계를 명시해 달라는 것입니다.",
+    "wrong_explanations": {},
+    "_reviewed": false
+  },
+  {
+    "_qid": "R-0671",
+    "type": "심경 추론",
+    "passage": "At first, I felt reassured by the seemingly straightforward explanation. A team assumed that physical activity could fully capture wellbeing. A clinical researcher compared self-reported fatigue with activity logs. When I learned that the measures diverged most on days with emotional stress, my confidence weakened. I wondered how much I had missed by attending only to the result that supported my expectation. I resisted admitting the limitation because I had defended the earlier account in public. Yet the more carefully I compared the observations, the clearer the need for revision became. By the end, I was still uncertain about every detail, but I felt more willing to investigate than to defend my first impression.",
+    "given_sentence": "",
+    "choices": [
+      "① from curiosity to indifference about the investigation",
+      "② from disappointment to certainty that all questions are settled",
+      "③ from confidence to a refusal to reconsider any evidence",
+      "④ from confidence to reflective curiosity",
+      "⑤ from distrust of the team to unconditional hostility"
+    ],
+    "answer": 4,
+    "explanation": "초기의 confident/reassured와 후반의 reconsider, willing to investigate가 대비되므로 확신에서 성찰적 탐구로의 변화입니다.",
+    "wrong_explanations": {},
+    "_reviewed": false
+  },
+  {
+    "_qid": "R-0672",
+    "type": "필자의 주장",
+    "passage": "A city painted safe routes to school on the pavement. The original project focused only on paint and signs. At first, that account seemed attractive: it offered a simple explanation that could be communicated without further qualification. In fact, children used them more when crossings were supervised and parents understood the map. The initial explanation appealed to a familiar measure of success, yet that measure ignored who or what was excluded from the observation. Infrastructure works when physical design and social practices reinforce each other. A better judgment requires distinguishing what the evidence directly establishes from the larger claim someone hopes to make. This conclusion is not identical to the first assumption; it must account for the later observation and for the limits of the original measure. In particular, the new evidence may justify changing the interpretation without proving that the earlier account was mistaken in every conceivable setting. Consequently, the preferred interpretation should explain both the initial expectation and the evidence that complicates it, without pretending that a single example establishes a universal rule.",
+    "given_sentence": "",
+    "choices": [
+      "① Decision-makers should judge an intervention solely by its most visible immediate result.",
+      "② Decisions should reflect this insight: infrastructure works when physical design and social practices reinforce each other.",
+      "③ If evidence is mixed, decision-makers should avoid weighing the competing explanations at all.",
+      "④ An observed difference should be treated as a universal rule without further examination.",
+      "⑤ Decisions should retain the original assumption because the original project focused only on paint and signs."
+    ],
+    "answer": 2,
+    "explanation": "필자는 초기 판단을 그대로 유지하기보다 관찰의 조건과 반례를 반영해 결론을 조정해야 한다고 주장합니다.",
+    "wrong_explanations": {},
+    "_reviewed": false
+  },
+  {
+    "_qid": "R-0673",
+    "type": "제목 추론",
+    "passage": "A historian reconstructed the story of a canceled expedition. A later memoir blamed one person for the failure. At first, that account seemed attractive: it offered a simple explanation that could be communicated without further qualification. In fact, letters showed that practical delays, not a single dramatic dispute, caused the decision. The striking feature of the result was not its size but the mismatch between the expected mechanism and the one actually observed. Simple narratives can obscure the accumulation of ordinary causes. The conclusion therefore depends on comparing two interpretations, rather than merely repeating the most visible outcome. This conclusion is not identical to the first assumption; it must account for the later observation and for the limits of the original measure. In particular, the new evidence may justify changing the interpretation without proving that the earlier account was mistaken in every conceivable setting. Consequently, the preferred interpretation should explain both the initial expectation and the evidence that complicates it, without pretending that a single example establishes a universal rule.",
+    "given_sentence": "",
+    "choices": [
+      "① Why a Single Indicator Is Sufficient for Every Decision",
+      "② A Familiar Prediction That Needed No Further Examination",
+      "③ The Complete Failure of Observation in Practical Research",
+      "④ Beyond the First Explanation: Simple narratives can obscure the accumulation of ordinary causes",
+      "⑤ When Background Details Replace All Empirical Evidence"
+    ],
+    "answer": 4,
+    "explanation": "초기 설명과 후속 관찰의 불일치를 통해 더 정교한 판단으로 옮겨가는 글 전체를 포괄합니다.",
+    "wrong_explanations": {},
+    "_reviewed": false
+  },
+  {
+    "_qid": "R-0674",
+    "type": "무관한 문장",
+    "passage": "(①) A chemist studied why a biodegradable cup decomposed slowly in households. (②) Marketing presented biodegradability as an unconditional property. (③) The material broke down rapidly only under controlled industrial conditions. (④) A material's environmental performance depends on disposal conditions. (⑤) Professional football leagues publish schedules before the season begins.",
+    "given_sentence": "",
+    "choices": [
+      "①번 문장",
+      "②번 문장",
+      "③번 문장",
+      "④번 문장",
+      "⑤번 문장"
+    ],
+    "answer": 5,
+    "explanation": "나머지 네 문장은 동일한 연구·관찰의 초기 가정과 결과, 수정된 결론을 연결하지만 해당 문장은 다른 주제로 전환되어 논리적 연속성이 없습니다.",
+    "wrong_explanations": {},
+    "_reviewed": false
+  },
+  {
+    "_qid": "R-0675",
+    "type": "요약문 완성",
+    "passage": "A photographer removed distracting advertisements from a street scene. The original photograph was assumed to show everything equally. At first, that account seemed attractive: it offered a simple explanation that could be communicated without further qualification. In fact, viewers suddenly noticed the repetitive architecture and neglected storefronts. A quick appraisal would reward the immediately measurable result, but it could overlook the cost imposed elsewhere in the system. Attention can be directed as much by omission as by inclusion. The relevant question is whether the benefit persists once these indirect effects are included. This conclusion is not identical to the first assumption; it must account for the later observation and for the limits of the original measure. In particular, the new evidence may justify changing the interpretation without proving that the earlier account was mistaken in every conceivable setting. Consequently, the preferred interpretation should explain both the initial expectation and the evidence that complicates it, without pretending that a single example establishes a universal rule.",
+    "given_sentence": "",
+    "choices": [
+      "① replaced — unquestionable",
+      "② supported — unconditional",
+      "③ challenged — categorical",
+      "④ supported — qualified",
+      "⑤ unrelated — absolute"
+    ],
+    "answer": 4,
+    "explanation": "초기 가정은 처음에는 지지를 받았지만 후속 관찰 때문에 해석에 조건과 한계를 명시해야 했으므로 supported — qualified가 가장 적절합니다.",
+    "wrong_explanations": {},
+    "_reviewed": false
+  },
+  {
+    "_qid": "R-0676",
+    "type": "빈칸 추론",
+    "passage": "A geologist mapped tiny tremors near a volcano. One station's readings appeared to be unrelated noise. The new evidence, however, was more informative than the original label: a pattern emerged only after several sensors were synchronized. The difficulty is to account for both the attraction of the earlier interpretation and its failure to explain the later observation. The evidence is most consistent with the conclusion that __________. A defensible choice should explain the contrast without converting a local finding into a universal rule.",
+    "given_sentence": "",
+    "choices": [
+      "① one station's readings appeared to be unrelated noise, with no adjustment for the new evidence",
+      "② the evidence has no bearing on how the original claim should be assessed",
+      "③ a pattern emerged only after several sensors were synchronized, which proves that the same result is inevitable everywhere",
+      "④ the initial assumption must be rejected even in circumstances for which it was never tested",
+      "⑤ coordination can reveal structure hidden within isolated measurements"
+    ],
+    "answer": 5,
+    "explanation": "기초 관찰: A pattern emerged only after several sensors were synchronized. 초기 해석: One station's readings appeared to be unrelated noise. 따라서 Coordination can reveal structure hidden within isolated measurements. 다만 단일 사례가 모든 상황으로 일반화되는 것은 아닙니다.",
+    "wrong_explanations": {},
+    "_reviewed": false
+  },
+  {
+    "_qid": "R-0677",
+    "type": "문장 삽입",
+    "passage": "The project was designed to test an explanation that initially seemed straightforward. (①) A social worker tested reminder messages for community appointments. (②) The agency reported a rise in average attendance. (③) Messages helped participants who had reliable phones but missed those sharing devices. (④) Practical interventions can improve averages while leaving access gaps. (⑤)",
+    "given_sentence": "The inconsistency prompted a closer examination of what the original indicator had failed to capture.",
+    "choices": [
+      "①번 위치",
+      "②번 위치",
+      "③번 위치",
+      "④번 위치",
+      "⑤번 위치"
+    ],
+    "answer": 4,
+    "explanation": "초기 해석과 상반되는 관찰이 나온 직후에 This discrepancy가 연결됩니다. 다른 위치에서는 discrepancy의 지시 대상이 불분명하거나 후속 판단의 인과 관계가 끊깁니다.",
+    "wrong_explanations": {},
+    "_reviewed": false
+  },
+  {
+    "_qid": "R-0678",
+    "type": "어법 판단",
+    "passage": "A scientist examined how forests recover after fire. The report (① describe) why the original account was appealing. The evidence (② collected) later made the question more complicated. Rather than (③ ignoring) the discrepancy, the investigators considered what it revealed. Their conclusion (④ was) deliberately qualified and (⑤ remained) open to further testing.",
+    "given_sentence": "",
+    "choices": [
+      "①번 표시",
+      "②번 표시",
+      "③번 표시",
+      "④번 표시",
+      "⑤번 표시"
+    ],
+    "answer": 1,
+    "explanation": "①는 describes로 고쳐야 합니다. 나머지 표시 표현은 해당 문장의 구조상 허용됩니다.",
+    "wrong_explanations": {},
+    "_reviewed": false
+  },
+  {
+    "_qid": "R-0679",
+    "type": "어휘 적절성",
+    "passage": "A transit authority asked passengers to report uncomfortable transfers. Planners focused solely on reducing the number of steps. The most frequent complaint concerned uncertainty rather than walking distance. The first interpretation was necessarily (① tentative) because little evidence had yet been collected. The later observation (② contradicted) the expectation on which that interpretation depended. The researchers consequently adopted a (③ qualified) account rather than an unconditional verdict. They examined whether the new evidence was (④ relevant) to the question under investigation. The conclusion remained (⑤ universal) to the conditions in which the observations had been made.",
+    "given_sentence": "",
+    "choices": [
+      "①번 표시",
+      "②번 표시",
+      "③번 표시",
+      "④번 표시",
+      "⑤번 표시"
+    ],
+    "answer": 5,
+    "explanation": "⑤의 universal는 주변 의미와 충돌합니다. limited로 수정해야 초기 가설·반증·신중한 결론의 논리가 일관됩니다.",
+    "wrong_explanations": {},
+    "_reviewed": false
+  },
+  {
+    "_qid": "R-0680",
+    "type": "요지/주제",
+    "passage": "A philosopher compared rules designed for routine and exceptional cases. A committee assumed consistency always required refusing exceptions. At first, that account seemed attractive: it offered a simple explanation that could be communicated without further qualification. In fact, a strict rule produced fairness in common situations but harm in rare circumstances. The initial explanation appealed to a familiar measure of success, yet that measure ignored who or what was excluded from the observation. Justice sometimes requires examining the purpose behind a rule. A better judgment requires distinguishing what the evidence directly establishes from the larger claim someone hopes to make. This conclusion is not identical to the first assumption; it must account for the later observation and for the limits of the original measure. In particular, the new evidence may justify changing the interpretation without proving that the earlier account was mistaken in every conceivable setting. Consequently, the preferred interpretation should explain both the initial expectation and the evidence that complicates it, without pretending that a single example establishes a universal rule.",
+    "given_sentence": "",
+    "choices": [
+      "① A committee assumed consistency always required refusing exceptions is justified in all settings",
+      "② the need to ignore early evidence once a new interpretation is proposed",
+      "③ Justice sometimes requires examining the purpose behind a rule",
+      "④ why a single observation is enough to settle every possible explanation",
+      "⑤ the claim that competing explanations cannot be evaluated with evidence"
+    ],
+    "answer": 3,
+    "explanation": "초기 기대와 다른 관찰을 통해 얻은 제한적인 결론이 요지입니다. 다른 선택지는 단정적 일반화 또는 근거 없는 판단입니다.",
+    "wrong_explanations": {},
+    "_reviewed": false
+  },
+  {
+    "_qid": "R-0681",
+    "type": "글의 순서",
+    "passage": "A researcher watched engineers solve unfamiliar puzzles in teams.\n\n(A) The subsequent evidence complicated that expectation: teams sharing early imperfect ideas progressed faster than teams waiting for polished solutions. The initial account could no longer explain the entire pattern.\n\n(B) Before further investigation, a manager had banned proposals until they were complete. This gave the project a clear, if incomplete, starting point.\n\n(C) In response, the investigators adopted a more cautious inference. Allowing provisional thinking can accelerate collective problem solving. They also identified what additional observations would be needed.",
+    "given_sentence": "",
+    "choices": [
+      "① (C)-(A)-(B)",
+      "② (B)-(C)-(A)",
+      "③ (B)-(A)-(C)",
+      "④ (A)-(C)-(B)",
+      "⑤ (A)-(B)-(C)"
+    ],
+    "answer": 3,
+    "explanation": "최초 가정 → 후속 관찰에 의한 반증·보완 → 수정된 판단이라는 인과 순서가 필수입니다. 따라서 (B)-(A)-(C)입니다.",
+    "wrong_explanations": {},
+    "_reviewed": false
+  },
+  {
+    "_qid": "R-0682",
+    "type": "글의 목적",
+    "passage": "Dear Review Committee,\n\nA beekeeper recorded flowering times across several valleys. A farm report focused only on total yearly flower numbers. In fact, unusual warmth shifted blossoms earlier than the arrival of some pollinators. I am not asking you to dismiss the original project; I am requesting that its evaluation include the additional evidence and explicitly state the limits of the initial conclusion. Without this change, the next funding decision could reward an incomplete indicator rather than the project's actual performance.\n\nSincerely,\nA project participant",
+    "given_sentence": "",
+    "choices": [
+      "① To demand that the project be cancelled without another evaluation",
+      "② To announce that the first interpretation has already been fully confirmed",
+      "③ To request a larger budget without discussing evaluation criteria",
+      "④ To request a reassessment that accounts for conflicting evidence",
+      "⑤ To invite committee members to an unrelated public celebration"
+    ],
+    "answer": 4,
+    "explanation": "편지의 핵심 요청은 기존 평가에 후속 관찰을 반영하고 초기 결론의 한계를 명시해 달라는 것입니다.",
+    "wrong_explanations": {},
+    "_reviewed": false
+  },
+  {
+    "_qid": "R-0683",
+    "type": "심경 추론",
+    "passage": "At first, I felt reassured by the seemingly straightforward explanation. Restorers debated whether polishing would erase evidence of public use. An art historian examined scratches on a public statue. When I learned that some marks came from centuries of visitors touching its surface, my confidence weakened. I wondered how much I had missed by attending only to the result that supported my expectation. I reconsidered my judgment. By the end, I was still uncertain about every detail, but I felt more willing to investigate than to defend my first impression.",
+    "given_sentence": "",
+    "choices": [
+      "① from confidence to a refusal to reconsider any evidence",
+      "② from confidence to reflective curiosity",
+      "③ from curiosity to indifference about the investigation",
+      "④ from distrust of the team to unconditional hostility",
+      "⑤ from disappointment to certainty that all questions are settled"
+    ],
+    "answer": 2,
+    "explanation": "초기의 confident/reassured와 후반의 reconsider, willing to investigate가 대비되므로 확신에서 성찰적 탐구로의 변화입니다.",
+    "wrong_explanations": {},
+    "_reviewed": false
+  },
+  {
+    "_qid": "R-0684",
+    "type": "필자의 주장",
+    "passage": "A city piloted a shared cargo bicycle program. Sponsors cited overall rental growth as complete success. At first, that account seemed attractive: it offered a simple explanation that could be communicated without further qualification. In fact, families used the bikes for errands, but users living on steep hills participated less. Two observers could accept the same facts yet reach different judgments because they attached different importance to the underlying assumptions. Program evaluation should consider geographic barriers hidden by aggregate totals. An adequate account must make those assumptions explicit before treating its conclusion as general. This conclusion is not identical to the first assumption; it must account for the later observation and for the limits of the original measure. In particular, the new evidence may justify changing the interpretation without proving that the earlier account was mistaken in every conceivable setting. Consequently, the preferred interpretation should explain both the initial expectation and the evidence that complicates it, without pretending that a single example establishes a universal rule.",
+    "given_sentence": "",
+    "choices": [
+      "① Decisions should retain the original assumption because sponsors cited overall rental growth as complete success.",
+      "② If evidence is mixed, decision-makers should avoid weighing the competing explanations at all.",
+      "③ Decision-makers should judge an intervention solely by its most visible immediate result.",
+      "④ Decisions should reflect this insight: program evaluation should consider geographic barriers hidden by aggregate totals.",
+      "⑤ An observed difference should be treated as a universal rule without further examination."
+    ],
+    "answer": 4,
+    "explanation": "필자는 초기 판단을 그대로 유지하기보다 관찰의 조건과 반례를 반영해 결론을 조정해야 한다고 주장합니다.",
+    "wrong_explanations": {},
+    "_reviewed": false
+  },
+  {
+    "_qid": "R-0685",
+    "type": "제목 추론",
+    "passage": "A linguist studied how speakers use pauses while telling stories. An automatic transcription system removed every silence. At first, that account seemed attractive: it offered a simple explanation that could be communicated without further qualification. In fact, long pauses often appeared before meaningful contrasts rather than memory failures. The outcome provides a useful clue, but it does not establish that the same mechanism would operate under every set of conditions. Features that look like noise may carry communicative information. The stronger inference is deliberately limited: it explains the observed contrast without pretending that all uncertainty has disappeared. This conclusion is not identical to the first assumption; it must account for the later observation and for the limits of the original measure. In particular, the new evidence may justify changing the interpretation without proving that the earlier account was mistaken in every conceivable setting. Consequently, the preferred interpretation should explain both the initial expectation and the evidence that complicates it, without pretending that a single example establishes a universal rule.",
+    "given_sentence": "",
+    "choices": [
+      "① The Complete Failure of Observation in Practical Research",
+      "② A Familiar Prediction That Needed No Further Examination",
+      "③ Why a Single Indicator Is Sufficient for Every Decision",
+      "④ Beyond the First Explanation: Features that look like noise may carry communicative information",
+      "⑤ When Background Details Replace All Empirical Evidence"
+    ],
+    "answer": 4,
+    "explanation": "초기 설명과 후속 관찰의 불일치를 통해 더 정교한 판단으로 옮겨가는 글 전체를 포괄합니다.",
+    "wrong_explanations": {},
+    "_reviewed": false
+  },
+  {
+    "_qid": "R-0686",
+    "type": "무관한 문장",
+    "passage": "(①) A wildlife team built tunnels beneath a new road. (②) Weather satellites collect images from orbits above the atmosphere. (③) Engineers initially measured success by the number of tunnels installed. (④) Many animals used the tunnels only after vegetation grew around the entrances. (⑤) The usability of infrastructure depends on its setting, not only its existence.",
+    "given_sentence": "",
+    "choices": [
+      "①번 문장",
+      "②번 문장",
+      "③번 문장",
+      "④번 문장",
+      "⑤번 문장"
+    ],
+    "answer": 2,
+    "explanation": "나머지 네 문장은 동일한 연구·관찰의 초기 가정과 결과, 수정된 결론을 연결하지만 해당 문장은 다른 주제로 전환되어 논리적 연속성이 없습니다.",
+    "wrong_explanations": {},
+    "_reviewed": false
+  },
+  {
+    "_qid": "R-0687",
+    "type": "요약문 완성",
+    "passage": "A physician explained test results using pictures rather than percentages alone. The clinic wanted all information displayed as simple icons. However, patients understood relative changes better but sometimes overlooked uncertainty ranges. Accessible communication must preserve uncertainty rather than hide it.",
+    "given_sentence": "",
+    "choices": [
+      "① replaced — unquestionable",
+      "② supported — qualified",
+      "③ challenged — categorical",
+      "④ unrelated — absolute",
+      "⑤ supported — unconditional"
+    ],
+    "answer": 2,
+    "explanation": "초기 가정은 처음에는 지지를 받았지만 후속 관찰 때문에 해석에 조건과 한계를 명시해야 했으므로 supported — qualified가 가장 적절합니다.",
+    "wrong_explanations": {},
+    "_reviewed": false
+  },
+  {
+    "_qid": "R-0688",
+    "type": "빈칸 추론",
+    "passage": "A town digitized its paper maps of underground water pipes. Managers assumed digitization would automatically improve accuracy. The new evidence, however, was more informative than the original label: the maps became searchable but many old locations remained approximate. The difficulty is to account for both the attraction of the earlier interpretation and its failure to explain the later observation. The evidence is most consistent with the conclusion that __________. A defensible choice should explain the contrast without converting a local finding into a universal rule.",
+    "given_sentence": "",
+    "choices": [
+      "① the evidence has no bearing on how the original claim should be assessed",
+      "② managers assumed digitization would automatically improve accuracy, with no adjustment for the new evidence",
+      "③ changing the format of information does not correct its underlying limitations",
+      "④ the maps became searchable but many old locations remained approximate, which proves that the same result is inevitable everywhere",
+      "⑤ the initial assumption must be rejected even in circumstances for which it was never tested"
+    ],
+    "answer": 3,
+    "explanation": "기초 관찰: The maps became searchable but many old locations remained approximate. 초기 해석: Managers assumed digitization would automatically improve accuracy. 따라서 Changing the format of information does not correct its underlying limitations. 다만 단일 사례가 모든 상황으로 일반화되는 것은 아닙니다.",
+    "wrong_explanations": {},
+    "_reviewed": false
+  },
+  {
+    "_qid": "R-0689",
+    "type": "문장 삽입",
+    "passage": "The project was designed to test an explanation that initially seemed straightforward. (①) A dancer rehearsed a routine facing a mirror and then without one. (②) She had relied on the mirror as constant feedback. (③) That initial account shaped the design of the follow-up observation. (④) Movement remained precise only after she learned to feel balance internally. (⑤)",
+    "given_sentence": "This reversal showed why the initial expectation could not be treated as a final conclusion.",
+    "choices": [
+      "①번 위치",
+      "②번 위치",
+      "③번 위치",
+      "④번 위치",
+      "⑤번 위치"
+    ],
+    "answer": 5,
+    "explanation": "초기 해석과 상반되는 관찰이 나온 직후에 This discrepancy가 연결됩니다. 다른 위치에서는 discrepancy의 지시 대상이 불분명하거나 후속 판단의 인과 관계가 끊깁니다.",
+    "wrong_explanations": {},
+    "_reviewed": false
+  },
+  {
+    "_qid": "R-0690",
+    "type": "어법 판단",
+    "passage": "A researcher compared different translations of emergency alerts. It was the later evidence (① that) challenged the original interpretation. The observations (② was) checked twice before the team (③ published) its findings. Neither the initial prediction nor the follow-up results (④ were) treated as sufficient alone. The explanation (⑤ ultimately) depended on their relationship.",
+    "given_sentence": "",
+    "choices": [
+      "①번 표시",
+      "②번 표시",
+      "③번 표시",
+      "④번 표시",
+      "⑤번 표시"
+    ],
+    "answer": 2,
+    "explanation": "②는 were로 고쳐야 합니다. 나머지 표시 표현은 해당 문장의 구조상 허용됩니다.",
+    "wrong_explanations": {},
+    "_reviewed": false
+  },
+  {
+    "_qid": "R-0691",
+    "type": "어휘 적절성",
+    "passage": "A biologist studied how a coral reef responded to a brief heat wave. A news report treated a return of color as total recovery. Some corals recovered color quickly but reproduced poorly the following season. The first interpretation was necessarily (① tentative) because little evidence had yet been collected. The later observation (② contradicted) the expectation on which that interpretation depended. The researchers consequently adopted a (③ absolute) account rather than an unconditional verdict. They examined whether the new evidence was (④ relevant) to the question under investigation. The conclusion remained (⑤ limited) to the conditions in which the observations had been made.",
+    "given_sentence": "",
+    "choices": [
+      "①번 표시",
+      "②번 표시",
+      "③번 표시",
+      "④번 표시",
+      "⑤번 표시"
+    ],
+    "answer": 3,
+    "explanation": "③의 absolute는 주변 의미와 충돌합니다. qualified로 수정해야 초기 가설·반증·신중한 결론의 논리가 일관됩니다.",
+    "wrong_explanations": {},
+    "_reviewed": false
+  },
+  {
+    "_qid": "R-0692",
+    "type": "요지/주제",
+    "passage": "A publisher tested an audiobook with optional chapter notes. Editors had assumed that more explanations would always help. The first interpretation was plausible because it focused on an easily visible feature. But listeners enjoyed the story but used notes mainly when unfamiliar references appeared. This did not make the earlier observation useless; it revealed that the original explanation had missed an important condition. Support materials are valuable when available without interrupting engagement.",
+    "given_sentence": "",
+    "choices": [
+      "① Support materials are valuable when available without interrupting engagement",
+      "② the need to ignore early evidence once a new interpretation is proposed",
+      "③ the claim that competing explanations cannot be evaluated with evidence",
+      "④ Editors had assumed that more explanations would always help is justified in all settings",
+      "⑤ why a single observation is enough to settle every possible explanation"
+    ],
+    "answer": 1,
+    "explanation": "초기 기대와 다른 관찰을 통해 얻은 제한적인 결론이 요지입니다. 다른 선택지는 단정적 일반화 또는 근거 없는 판단입니다.",
+    "wrong_explanations": {},
+    "_reviewed": false
+  },
+  {
+    "_qid": "R-0693",
+    "type": "글의 순서",
+    "passage": "A teacher introduced anonymous peer review in a writing class.\n\n(A) In response, the investigators adopted a more cautious inference. Policies can reduce one bias while creating a different risk. They also identified what additional observations would be needed.\n\n(B) The subsequent evidence complicated that expectation: comments became more candid but occasionally less considerate. The initial account could no longer explain the entire pattern.\n\n(C) Before further investigation, staff expected anonymity to improve criticism in every respect. This gave the project a clear, if incomplete, starting point.",
+    "given_sentence": "",
+    "choices": [
+      "① (A)-(B)-(C)",
+      "② (B)-(A)-(C)",
+      "③ (B)-(C)-(A)",
+      "④ (A)-(C)-(B)",
+      "⑤ (C)-(B)-(A)"
+    ],
+    "answer": 5,
+    "explanation": "최초 가정 → 후속 관찰에 의한 반증·보완 → 수정된 판단이라는 인과 순서가 필수입니다. 따라서 (C)-(B)-(A)입니다.",
+    "wrong_explanations": {},
+    "_reviewed": false
+  },
+  {
+    "_qid": "R-0694",
+    "type": "글의 목적",
+    "passage": "Dear Review Committee,\n\nA gardener compared lawns cut at two different heights. The neighborhood argued over a single best height for every area. In fact, taller grass retained moisture longer yet offered less space for sports. I am not asking you to dismiss the original project; I am requesting that its evaluation include the additional evidence and explicitly state the limits of the initial conclusion. Without this change, the next funding decision could reward an incomplete indicator rather than the project's actual performance.\n\nSincerely,\nA project participant",
+    "given_sentence": "",
+    "choices": [
+      "① To demand that the project be cancelled without another evaluation",
+      "② To announce that the first interpretation has already been fully confirmed",
+      "③ To request a reassessment that accounts for conflicting evidence",
+      "④ To request a larger budget without discussing evaluation criteria",
+      "⑤ To invite committee members to an unrelated public celebration"
+    ],
+    "answer": 3,
+    "explanation": "편지의 핵심 요청은 기존 평가에 후속 관찰을 반영하고 초기 결론의 한계를 명시해 달라는 것입니다.",
+    "wrong_explanations": {},
+    "_reviewed": false
+  },
+  {
+    "_qid": "R-0695",
+    "type": "심경 추론",
+    "passage": "At first, I felt reassured by the seemingly straightforward explanation. Researchers had modeled distance alone. A scientist studied how urban foxes crossed busy roads. When I learned that the animals preferred crossings near continuous vegetation even when shorter routes existed, my confidence weakened. I wondered how much I had missed by attending only to the result that supported my expectation. I reconsidered my judgment. By the end, I was still uncertain about every detail, but I felt more willing to investigate than to defend my first impression.",
+    "given_sentence": "",
+    "choices": [
+      "① from distrust of the team to unconditional hostility",
+      "② from confidence to reflective curiosity",
+      "③ from confidence to a refusal to reconsider any evidence",
+      "④ from disappointment to certainty that all questions are settled",
+      "⑤ from curiosity to indifference about the investigation"
+    ],
+    "answer": 2,
+    "explanation": "초기의 confident/reassured와 후반의 reconsider, willing to investigate가 대비되므로 확신에서 성찰적 탐구로의 변화입니다.",
+    "wrong_explanations": {},
+    "_reviewed": false
+  },
+  {
+    "_qid": "R-0696",
+    "type": "필자의 주장",
+    "passage": "An economist studied households offered time-limited discounts. A retailer described the sales surge as new demand. However, some families bought supplies earlier but did not increase total consumption. A temporary increase in purchases may represent a shift in timing rather than quantity.",
+    "given_sentence": "",
+    "choices": [
+      "① Decision-makers should judge an intervention solely by its most visible immediate result.",
+      "② An observed difference should be treated as a universal rule without further examination.",
+      "③ If evidence is mixed, decision-makers should avoid weighing the competing explanations at all.",
+      "④ Decisions should retain the original assumption because a retailer described the sales surge as new demand.",
+      "⑤ Decisions should reflect this insight: a temporary increase in purchases may represent a shift in timing rather than quantity."
+    ],
+    "answer": 5,
+    "explanation": "필자는 초기 판단을 그대로 유지하기보다 관찰의 조건과 반례를 반영해 결론을 조정해야 한다고 주장합니다.",
+    "wrong_explanations": {},
+    "_reviewed": false
+  },
+  {
+    "_qid": "R-0697",
+    "type": "제목 추론",
+    "passage": "A local historian interviewed former shipbuilders about a closed dockyard. The official archive contained only job titles and wages. At first, that account seemed attractive: it offered a simple explanation that could be communicated without further qualification. In fact, their stories revealed informal skills never listed in employment documents. The striking feature of the result was not its size but the mismatch between the expected mechanism and the one actually observed. Oral testimony can reveal practices absent from administrative records. The conclusion therefore depends on comparing two interpretations, rather than merely repeating the most visible outcome. This conclusion is not identical to the first assumption; it must account for the later observation and for the limits of the original measure. In particular, the new evidence may justify changing the interpretation without proving that the earlier account was mistaken in every conceivable setting. Consequently, the preferred interpretation should explain both the initial expectation and the evidence that complicates it, without pretending that a single example establishes a universal rule.",
+    "given_sentence": "",
+    "choices": [
+      "① Beyond the First Explanation: Oral testimony can reveal practices absent from administrative records",
+      "② The Complete Failure of Observation in Practical Research",
+      "③ A Familiar Prediction That Needed No Further Examination",
+      "④ When Background Details Replace All Empirical Evidence",
+      "⑤ Why a Single Indicator Is Sufficient for Every Decision"
+    ],
+    "answer": 1,
+    "explanation": "초기 설명과 후속 관찰의 불일치를 통해 더 정교한 판단으로 옮겨가는 글 전체를 포괄합니다.",
+    "wrong_explanations": {},
+    "_reviewed": false
+  },
+  {
+    "_qid": "R-0698",
+    "type": "무관한 문장",
+    "passage": "(①) A scientist compared the performance of two weather models. (②) An agency selected models using only average error. (③) One predicted average temperatures well but missed rare severe events. (④) Professional football leagues publish schedules before the season begins. (⑤) Evaluating a model requires metrics related to the decisions it must support.",
+    "given_sentence": "",
+    "choices": [
+      "①번 문장",
+      "②번 문장",
+      "③번 문장",
+      "④번 문장",
+      "⑤번 문장"
+    ],
+    "answer": 4,
+    "explanation": "나머지 네 문장은 동일한 연구·관찰의 초기 가정과 결과, 수정된 결론을 연결하지만 해당 문장은 다른 주제로 전환되어 논리적 연속성이 없습니다.",
+    "wrong_explanations": {},
+    "_reviewed": false
+  },
+  {
+    "_qid": "R-0699",
+    "type": "요약문 완성",
+    "passage": "A school organized lessons around questions proposed by pupils. Critics assumed student choice meant abandoning curriculum. However, engagement improved, but teachers still had to ensure core concepts were covered. Agency and structure need not be opposing educational goals.",
+    "given_sentence": "",
+    "choices": [
+      "① supported — qualified",
+      "② challenged — categorical",
+      "③ replaced — unquestionable",
+      "④ supported — unconditional",
+      "⑤ unrelated — absolute"
+    ],
+    "answer": 1,
+    "explanation": "초기 가정은 처음에는 지지를 받았지만 후속 관찰 때문에 해석에 조건과 한계를 명시해야 했으므로 supported — qualified가 가장 적절합니다.",
+    "wrong_explanations": {},
+    "_reviewed": false
+  },
+  {
+    "_qid": "R-0700",
+    "type": "빈칸 추론",
+    "passage": "A researcher studied the spread of seeds carried by city birds. A map assumed dispersal would be random. However, seeds accumulated near sheltering trees rather than evenly across open ground. The evidence is most consistent with the conclusion that __________.",
+    "given_sentence": "",
+    "choices": [
+      "① animal behavior can shape the spatial distribution of plants",
+      "② seeds accumulated near sheltering trees rather than evenly across open ground, which proves that the same result is inevitable everywhere",
+      "③ the evidence has no bearing on how the original claim should be assessed",
+      "④ a map assumed dispersal would be random, with no adjustment for the new evidence",
+      "⑤ the initial assumption must be rejected even in circumstances for which it was never tested"
+    ],
+    "answer": 1,
+    "explanation": "기초 관찰: Seeds accumulated near sheltering trees rather than evenly across open ground. 초기 해석: A map assumed dispersal would be random. 따라서 Animal behavior can shape the spatial distribution of plants. 다만 단일 사례가 모든 상황으로 일반화되는 것은 아닙니다.",
+    "wrong_explanations": {},
+    "_reviewed": false
+  },
+  {
+    "_qid": "R-0701",
+    "type": "문장 삽입",
+    "passage": "A civil engineer examined repeated repairs to a harbor wall. The maintenance team focused on the newest visible crack. However, every repair held briefly until wave patterns shifted stress to neighboring sections. (①) Treating symptoms in isolation can move a problem rather than solve it. (②) The team considered an alternative test. (③) Its report emphasized the limits of the finding. (④) Further observations were recommended. (⑤)",
+    "given_sentence": "This discrepancy led the team to question the assumption behind its original assessment.",
+    "choices": [
+      "①번 위치",
+      "②번 위치",
+      "③번 위치",
+      "④번 위치",
+      "⑤번 위치"
+    ],
+    "answer": 1,
+    "explanation": "초기 해석과 상반되는 관찰이 나온 직후에 This discrepancy가 연결됩니다. 다른 위치에서는 discrepancy의 지시 대상이 불분명하거나 후속 판단의 인과 관계가 끊깁니다.",
+    "wrong_explanations": {},
+    "_reviewed": false
+  },
+  {
+    "_qid": "R-0702",
+    "type": "어법 판단",
+    "passage": "A novelist tested two openings of the same story. The earlier view seemed (① plausible), but the subsequent observation (② provided) a reason to reconsider it. If the team (③ has relied) only on its first assumption, it (④ would have missed) an important distinction. The investigators (⑤ therefore) revised their judgment.",
+    "given_sentence": "",
+    "choices": [
+      "①번 표시",
+      "②번 표시",
+      "③번 표시",
+      "④번 표시",
+      "⑤번 표시"
+    ],
+    "answer": 3,
+    "explanation": "③는 had relied로 고쳐야 합니다. 나머지 표시 표현은 해당 문장의 구조상 허용됩니다.",
+    "wrong_explanations": {},
+    "_reviewed": false
+  },
+  {
+    "_qid": "R-0703",
+    "type": "어휘 적절성",
+    "passage": "A museum displayed replicas beside fragile original manuscripts. Some curators feared replicas would weaken interest in authenticity. Visitors could handle the replicas and read details without harming the originals. The first interpretation was necessarily (① certain) because little evidence had yet been collected. The later observation (② contradicted) the expectation on which that interpretation depended. The researchers consequently adopted a (③ qualified) account rather than an unconditional verdict. They examined whether the new evidence was (④ relevant) to the question under investigation. The conclusion remained (⑤ limited) to the conditions in which the observations had been made.",
+    "given_sentence": "",
+    "choices": [
+      "①번 표시",
+      "②번 표시",
+      "③번 표시",
+      "④번 표시",
+      "⑤번 표시"
+    ],
+    "answer": 1,
+    "explanation": "①의 certain는 주변 의미와 충돌합니다. tentative로 수정해야 초기 가설·반증·신중한 결론의 논리가 일관됩니다.",
+    "wrong_explanations": {},
+    "_reviewed": false
+  },
+  {
+    "_qid": "R-0704",
+    "type": "요지/주제",
+    "passage": "A scientist studied soil bacteria after repeated fertilizer use. Farmers evaluated success only by the first harvest. The first interpretation was plausible because it focused on an easily visible feature. But crop yields initially rose, but microbial diversity declined over several seasons. This did not make the earlier observation useless; it revealed that the original explanation had missed an important condition. Short-term gains can mask changes in the systems that sustain them.",
+    "given_sentence": "",
+    "choices": [
+      "① the need to ignore early evidence once a new interpretation is proposed",
+      "② the claim that competing explanations cannot be evaluated with evidence",
+      "③ why a single observation is enough to settle every possible explanation",
+      "④ Short-term gains can mask changes in the systems that sustain them",
+      "⑤ Farmers evaluated success only by the first harvest is justified in all settings"
+    ],
+    "answer": 4,
+    "explanation": "초기 기대와 다른 관찰을 통해 얻은 제한적인 결론이 요지입니다. 다른 선택지는 단정적 일반화 또는 근거 없는 판단입니다.",
+    "wrong_explanations": {},
+    "_reviewed": false
+  },
+  {
+    "_qid": "R-0705",
+    "type": "글의 순서",
+    "passage": "A city invited shop owners to help schedule road repairs.\n\n(A) In response, the investigators adopted a more cautious inference. Advance coordination can lower the practical cost of unavoidable disruption. They also identified what additional observations would be needed.\n\n(B) Before further investigation, officials had defined disruption only as total days of work. This gave the project a clear, if incomplete, starting point.\n\n(C) The subsequent evidence complicated that expectation: construction lasted just as long but merchants could plan deliveries around closures. The initial account could no longer explain the entire pattern.",
+    "given_sentence": "",
+    "choices": [
+      "① (A)-(B)-(C)",
+      "② (B)-(C)-(A)",
+      "③ (C)-(A)-(B)",
+      "④ (A)-(C)-(B)",
+      "⑤ (B)-(A)-(C)"
+    ],
+    "answer": 2,
+    "explanation": "최초 가정 → 후속 관찰에 의한 반증·보완 → 수정된 판단이라는 인과 순서가 필수입니다. 따라서 (B)-(C)-(A)입니다.",
+    "wrong_explanations": {},
+    "_reviewed": false
+  },
+  {
+    "_qid": "R-0706",
+    "type": "글의 목적",
+    "passage": "Dear Review Committee,\n\nA historian traced how a borrowed musical instrument circulated. A catalog assigned it to a single famous musician. In fact, repair marks showed that several owners adapted the instrument for different performers. I am not asking you to dismiss the original project; I am requesting that its evaluation include the additional evidence and explicitly state the limits of the initial conclusion. Such a review would make the assessment fairer.\n\nSincerely,\nA project participant",
+    "given_sentence": "",
+    "choices": [
+      "① To demand that the project be cancelled without another evaluation",
+      "② To announce that the first interpretation has already been fully confirmed",
+      "③ To invite committee members to an unrelated public celebration",
+      "④ To request a reassessment that accounts for conflicting evidence",
+      "⑤ To request a larger budget without discussing evaluation criteria"
+    ],
+    "answer": 4,
+    "explanation": "편지의 핵심 요청은 기존 평가에 후속 관찰을 반영하고 초기 결론의 한계를 명시해 달라는 것입니다.",
+    "wrong_explanations": {},
+    "_reviewed": false
+  },
+  {
+    "_qid": "R-0707",
+    "type": "심경 추론",
+    "passage": "At first, I felt reassured by the seemingly straightforward explanation. An environmental report praised the overall population increase. A marine ecologist counted shellfish near a restored shoreline. When I learned that numbers increased, but most individuals belonged to a single age group, my confidence weakened. I wondered how much I had missed by attending only to the result that supported my expectation. I resisted admitting the limitation because I had defended the earlier account in public. Yet the more carefully I compared the observations, the clearer the need for revision became. By the end, I was still uncertain about every detail, but I felt more willing to investigate than to defend my first impression.",
+    "given_sentence": "",
+    "choices": [
+      "① from disappointment to certainty that all questions are settled",
+      "② from confidence to a refusal to reconsider any evidence",
+      "③ from confidence to reflective curiosity",
+      "④ from distrust of the team to unconditional hostility",
+      "⑤ from curiosity to indifference about the investigation"
+    ],
+    "answer": 3,
+    "explanation": "초기의 confident/reassured와 후반의 reconsider, willing to investigate가 대비되므로 확신에서 성찰적 탐구로의 변화입니다.",
+    "wrong_explanations": {},
+    "_reviewed": false
+  },
+  {
+    "_qid": "R-0708",
+    "type": "필자의 주장",
+    "passage": "A public health team redesigned appointment letters. Managers had focused on adding more appointment slots. The first interpretation was plausible because it focused on an easily visible feature. But plain-language directions reduced missed visits without changing medical services. This did not make the earlier observation useless; it revealed that the original explanation had missed an important condition. Removing comprehension barriers can improve access to existing resources.",
+    "given_sentence": "",
+    "choices": [
+      "① An observed difference should be treated as a universal rule without further examination.",
+      "② Decision-makers should judge an intervention solely by its most visible immediate result.",
+      "③ Decisions should retain the original assumption because managers had focused on adding more appointment slots.",
+      "④ If evidence is mixed, decision-makers should avoid weighing the competing explanations at all.",
+      "⑤ Decisions should reflect this insight: removing comprehension barriers can improve access to existing resources."
+    ],
+    "answer": 5,
+    "explanation": "필자는 초기 판단을 그대로 유지하기보다 관찰의 조건과 반례를 반영해 결론을 조정해야 한다고 주장합니다.",
+    "wrong_explanations": {},
+    "_reviewed": false
+  },
+  {
+    "_qid": "R-0709",
+    "type": "제목 추론",
+    "passage": "A researcher compared the travel times of delivery robots and bicycle couriers. A proposal treated average speed as the only measure of usefulness. At first, that account seemed attractive: it offered a simple explanation that could be communicated without further qualification. In fact, robots were reliable on clear sidewalks but delayed by temporary street obstacles. The outcome provides a useful clue, but it does not establish that the same mechanism would operate under every set of conditions. Operational performance depends on reliability under changing conditions. The stronger inference is deliberately limited: it explains the observed contrast without pretending that all uncertainty has disappeared. This conclusion is not identical to the first assumption; it must account for the later observation and for the limits of the original measure. In particular, the new evidence may justify changing the interpretation without proving that the earlier account was mistaken in every conceivable setting. Consequently, the preferred interpretation should explain both the initial expectation and the evidence that complicates it, without pretending that a single example establishes a universal rule.",
+    "given_sentence": "",
+    "choices": [
+      "① Beyond the First Explanation: Operational performance depends on reliability under changing conditions",
+      "② When Background Details Replace All Empirical Evidence",
+      "③ A Familiar Prediction That Needed No Further Examination",
+      "④ Why a Single Indicator Is Sufficient for Every Decision",
+      "⑤ The Complete Failure of Observation in Practical Research"
+    ],
+    "answer": 1,
+    "explanation": "초기 설명과 후속 관찰의 불일치를 통해 더 정교한 판단으로 옮겨가는 글 전체를 포괄합니다.",
+    "wrong_explanations": {},
+    "_reviewed": false
+  },
+  {
+    "_qid": "R-0710",
+    "type": "무관한 문장",
+    "passage": "(①) Weather satellites collect images from orbits above the atmosphere. (②) A teacher assigned students to defend a view they initially rejected. (③) Critics feared the exercise would force students to change their beliefs. (④) Many became better at identifying assumptions without adopting the opposing position. (⑤) Understanding a position need not mean agreeing with it.",
+    "given_sentence": "",
+    "choices": [
+      "①번 문장",
+      "②번 문장",
+      "③번 문장",
+      "④번 문장",
+      "⑤번 문장"
+    ],
+    "answer": 1,
+    "explanation": "나머지 네 문장은 동일한 연구·관찰의 초기 가정과 결과, 수정된 결론을 연결하지만 해당 문장은 다른 주제로 전환되어 논리적 연속성이 없습니다.",
+    "wrong_explanations": {},
+    "_reviewed": false
+  },
+  {
+    "_qid": "R-0711",
+    "type": "요약문 완성",
+    "passage": "A mathematician explained why a complex model required simplification. A student assumed every omitted variable made the model worthless. At first, that account seemed attractive: it offered a simple explanation that could be communicated without further qualification. In fact, some details were removed to make its central mechanisms testable. Neither the initial prediction nor the later measurement is meaningless; the mistake is to confuse either one with a complete explanation. A useful model is judged by its purpose and limits, not by completeness alone. The task is to connect the observations with the process that could plausibly have produced them. This conclusion is not identical to the first assumption; it must account for the later observation and for the limits of the original measure. In particular, the new evidence may justify changing the interpretation without proving that the earlier account was mistaken in every conceivable setting. Consequently, the preferred interpretation should explain both the initial expectation and the evidence that complicates it, without pretending that a single example establishes a universal rule.",
+    "given_sentence": "",
+    "choices": [
+      "① supported — unconditional",
+      "② challenged — categorical",
+      "③ supported — qualified",
+      "④ unrelated — absolute",
+      "⑤ replaced — unquestionable"
+    ],
+    "answer": 3,
+    "explanation": "초기 가정은 처음에는 지지를 받았지만 후속 관찰 때문에 해석에 조건과 한계를 명시해야 했으므로 supported — qualified가 가장 적절합니다.",
+    "wrong_explanations": {},
+    "_reviewed": false
+  },
+  {
+    "_qid": "R-0712",
+    "type": "빈칸 추론",
+    "passage": "A museum recorded visitor routes using anonymous sensors. Curators had organized rooms according to scholarly importance. However, many bypassed the central exhibit but paused at a small display near the exit. The evidence is most consistent with the conclusion that __________.",
+    "given_sentence": "",
+    "choices": [
+      "① the initial assumption must be rejected even in circumstances for which it was never tested",
+      "② curators had organized rooms according to scholarly importance, with no adjustment for the new evidence",
+      "③ the evidence has no bearing on how the original claim should be assessed",
+      "④ many bypassed the central exhibit but paused at a small display near the exit, which proves that the same result is inevitable everywhere",
+      "⑤ actual use can reveal priorities that designers did not anticipate"
+    ],
+    "answer": 5,
+    "explanation": "기초 관찰: Many bypassed the central exhibit but paused at a small display near the exit. 초기 해석: Curators had organized rooms according to scholarly importance. 따라서 Actual use can reveal priorities that designers did not anticipate. 다만 단일 사례가 모든 상황으로 일반화되는 것은 아닙니다.",
+    "wrong_explanations": {},
+    "_reviewed": false
+  },
+  {
+    "_qid": "R-0713",
+    "type": "문장 삽입",
+    "passage": "A researcher observed bats hunting above city canals. A planning report proposed adding lights to every waterway. (①) Insect abundance mattered, but bright lights interrupted some feeding routes. (②) Changes that help human visibility can alter wildlife behavior. (③) The report explained the evidential limits of the finding. (④) A follow-up study was proposed. (⑤)",
+    "given_sentence": "The unexpected contrast made it necessary to distinguish the initial prediction from the evidence obtained later.",
+    "choices": [
+      "①번 위치",
+      "②번 위치",
+      "③번 위치",
+      "④번 위치",
+      "⑤번 위치"
+    ],
+    "answer": 2,
+    "explanation": "초기 해석과 상반되는 관찰이 나온 직후에 This discrepancy가 연결됩니다. 다른 위치에서는 discrepancy의 지시 대상이 불분명하거나 후속 판단의 인과 관계가 끊깁니다.",
+    "wrong_explanations": {},
+    "_reviewed": false
+  },
+  {
+    "_qid": "R-0714",
+    "type": "어법 판단",
+    "passage": "A college tested open-book examinations in history courses. The team examined the evidence (① carefully) and asked (② whether) the original conclusion remained justified. Its purpose was not (③ to dismiss) the earlier account but (④ to identify) its limits. The resulting explanation was more (⑤ cautiously) than the first one.",
+    "given_sentence": "",
+    "choices": [
+      "①번 표시",
+      "②번 표시",
+      "③번 표시",
+      "④번 표시",
+      "⑤번 표시"
+    ],
+    "answer": 5,
+    "explanation": "⑤는 cautious로 고쳐야 합니다. 나머지 표시 표현은 해당 문장의 구조상 허용됩니다.",
+    "wrong_explanations": {},
+    "_reviewed": false
+  },
+  {
+    "_qid": "R-0715",
+    "type": "어휘 적절성",
+    "passage": "A craft cooperative introduced digital sales to reach distant buyers. Organizers treated a larger audience as automatically more profitable. Orders increased, but packaging costs threatened profits on small items. The first interpretation was necessarily (① tentative) because little evidence had yet been collected. The later observation (② contradicted) the expectation on which that interpretation depended. The researchers consequently adopted a (③ qualified) account rather than an unconditional verdict. They examined whether the new evidence was (④ irrelevant) to the question under investigation. The conclusion remained (⑤ limited) to the conditions in which the observations had been made.",
+    "given_sentence": "",
+    "choices": [
+      "①번 표시",
+      "②번 표시",
+      "③번 표시",
+      "④번 표시",
+      "⑤번 표시"
+    ],
+    "answer": 4,
+    "explanation": "④의 irrelevant는 주변 의미와 충돌합니다. relevant로 수정해야 초기 가설·반증·신중한 결론의 논리가 일관됩니다.",
+    "wrong_explanations": {},
+    "_reviewed": false
+  },
+  {
+    "_qid": "R-0716",
+    "type": "요지/주제",
+    "passage": "A landscape architect designed a park with movable chairs. The initial blueprint had fixed every seat in place. The first interpretation was plausible because it focused on an easily visible feature. But visitors rearranged the space differently for solitude and conversation. This did not make the earlier observation useless; it revealed that the original explanation had missed an important condition. Allowing people to adapt a space may serve varied social needs.",
+    "given_sentence": "",
+    "choices": [
+      "① The initial blueprint had fixed every seat in place is justified in all settings",
+      "② why a single observation is enough to settle every possible explanation",
+      "③ the claim that competing explanations cannot be evaluated with evidence",
+      "④ the need to ignore early evidence once a new interpretation is proposed",
+      "⑤ Allowing people to adapt a space may serve varied social needs"
+    ],
+    "answer": 5,
+    "explanation": "초기 기대와 다른 관찰을 통해 얻은 제한적인 결론이 요지입니다. 다른 선택지는 단정적 일반화 또는 근거 없는 판단입니다.",
+    "wrong_explanations": {},
+    "_reviewed": false
+  },
+  {
+    "_qid": "R-0717",
+    "type": "글의 순서",
+    "passage": "A researcher studied why some warnings were ignored.\n\n(A) In response, the investigators adopted a more cautious inference. Risk communication is more useful when concern is paired with agency. They also identified what additional observations would be needed.\n\n(B) Before further investigation, earlier notices described frightening consequences but no practical steps. This gave the project a clear, if incomplete, starting point.\n\n(C) The subsequent evidence complicated that expectation: people responded better when messages offered a feasible next action. The initial account could no longer explain the entire pattern.",
+    "given_sentence": "",
+    "choices": [
+      "① (B)-(A)-(C)",
+      "② (B)-(C)-(A)",
+      "③ (A)-(C)-(B)",
+      "④ (C)-(A)-(B)",
+      "⑤ (A)-(B)-(C)"
+    ],
+    "answer": 2,
+    "explanation": "최초 가정 → 후속 관찰에 의한 반증·보완 → 수정된 판단이라는 인과 순서가 필수입니다. 따라서 (B)-(C)-(A)입니다.",
+    "wrong_explanations": {},
+    "_reviewed": false
+  },
+  {
+    "_qid": "R-0718",
+    "type": "글의 목적",
+    "passage": "Dear Review Committee,\n\nA biographer compared private letters and public speeches by a reformer. Readers treated the difference as proof that one source must be dishonest. In fact, both defended the same aims but used strikingly different language. I am not asking you to dismiss the original project; I am requesting that its evaluation include the additional evidence and explicitly state the limits of the initial conclusion. Without this change, the next funding decision could reward an incomplete indicator rather than the project's actual performance.\n\nSincerely,\nA project participant",
+    "given_sentence": "",
+    "choices": [
+      "① To demand that the project be cancelled without another evaluation",
+      "② To request a larger budget without discussing evaluation criteria",
+      "③ To announce that the first interpretation has already been fully confirmed",
+      "④ To invite committee members to an unrelated public celebration",
+      "⑤ To request a reassessment that accounts for conflicting evidence"
+    ],
+    "answer": 5,
+    "explanation": "편지의 핵심 요청은 기존 평가에 후속 관찰을 반영하고 초기 결론의 한계를 명시해 달라는 것입니다.",
+    "wrong_explanations": {},
+    "_reviewed": false
+  },
+  {
+    "_qid": "R-0719",
+    "type": "심경 추론",
+    "passage": "At first, I felt reassured by the seemingly straightforward explanation. Promoters cited recovery percentages alone. A scientist evaluated a new battery recycling method. When I learned that metal recovery was high, but the process required energy-intensive heating, my confidence weakened. I wondered how much I had missed by attending only to the result that supported my expectation. I resisted admitting the limitation because I had defended the earlier account in public. Yet the more carefully I compared the observations, the clearer the need for revision became. By the end, I was still uncertain about every detail, but I felt more willing to investigate than to defend my first impression.",
+    "given_sentence": "",
+    "choices": [
+      "① from curiosity to indifference about the investigation",
+      "② from confidence to a refusal to reconsider any evidence",
+      "③ from disappointment to certainty that all questions are settled",
+      "④ from confidence to reflective curiosity",
+      "⑤ from distrust of the team to unconditional hostility"
+    ],
+    "answer": 4,
+    "explanation": "초기의 confident/reassured와 후반의 reconsider, willing to investigate가 대비되므로 확신에서 성찰적 탐구로의 변화입니다.",
+    "wrong_explanations": {},
+    "_reviewed": false
   }
 ];
