@@ -13,7 +13,7 @@ const QUESTION_BANK = [
       "⑤ competition among neighbors"
     ],
     "answer": 2,
-    "explanation": "이웃 간 반복적 교류와 신뢰 형성이 핵심이므로 stronger social connections가 정답입니다.",
+    "explanation": "[지문 해석]\n공동 정원은 신선한 야채를 생산하는 것으로 자주 칭찬받지만, 그들의 영향력은 음식을 넘어선다. 거의 말을 나누지 않던 이웃들이 씨앗, 도구, 조언을 주고받기 시작한다. 이러한 반복되는 편안한 만남들이 점차적으로 신뢰를 형성한다. 따라서 공동 정원의 가장 큰 수확은 작물 자체보다는 __________일 수 있다.\n\n[해설]\n이웃 간 반복적 교류와 신뢰 형성이 핵심이므로 stronger social connections가 정답입니다.",
     "wrong_explanations": {},
     "answerType": "choice",
     "_reviewed": false,
@@ -34,7 +34,7 @@ const QUESTION_BANK = [
       "⑤ removing every explanation"
     ],
     "answer": 3,
-    "explanation": "질문을 통해 관찰과 토론을 유도하므로 호기심 자극이 핵심입니다.",
+    "explanation": "[지문 해석]\n한 박물관이 그림 옆의 상세한 벽면 설명문을 짧은 질문으로 바꾸었다. 각 작품이 무엇을 의미하는지 방문객들에게 알려주는 대신, 그 질문들은 방문객들이 작은 세부 사항들을 살펴보고 가능한 해석들을 논의하도록 장려했다. 방문객 수는 변하지 않았지만, 방문객들은 개별 작품을 보는 데 더 오래 시간을 보냈다. 이 실험은 효과적인 교육이 때때로 즉각적인 답변을 제공하는 것보다는 __________에 달려 있다는 것을 시사한다.\n\n[해설]\n질문을 통해 관찰과 토론을 유도하므로 호기심 자극이 핵심입니다.",
     "wrong_explanations": {},
     "answerType": "choice",
     "_reviewed": false,
@@ -55,7 +55,7 @@ const QUESTION_BANK = [
       "⑤ short-lived fashions"
     ],
     "answer": 1,
-    "explanation": "작은 변화가 누적되어 큰 지형 변화를 만든다는 내용입니다.",
+    "explanation": "[지문 해석]\n강은 한 계절에서 다음 계절로 변하지 않은 것처럼 보일 수 있지만, 그 둑은 물에 의해 끊임없이 형태가 변한다. 소량의 흙이 일반적인 강우 동안 씻겨 나가고, 침전물은 다른 곳에 정착한다. 수십 년에 걸쳐 이러한 작은 변화들이 강의 흐름을 바꿀 수 있다. 이 예시는 __________이 시간이 지남에 따라 어떻게 큰 변화를 만들어낼 수 있는지 보여준다.\n\n[해설]\n작은 변화가 누적되어 큰 지형 변화를 만든다는 내용입니다.",
     "wrong_explanations": {},
     "answerType": "choice",
     "_reviewed": false,
@@ -76,7 +76,7 @@ const QUESTION_BANK = [
       "⑤ adequate rest"
     ],
     "answer": 4,
-    "explanation": "직접 감시 없이도 생산성이 높아졌으므로 상시 대면 감독이 필수라는 가정이 반박됩니다.",
+    "explanation": "[지문 해석]\n어떤 회사가 유연한 근무 시간을 도입했을 때, 관리자들은 직접적인 감시 없이는 직원들이 더 적게 일할 것이라고 우려했다. 그러나 근로자들이 자신의 집중력이 가장 높은 시간대를 중심으로 어려운 업무를 조율하면서 생산성이 오히려 증가했다. 이 결과는 효과적인 업무 수행이 __________을 요구한다는 가정에 도전한다.\n\n[해설]\n직접 감시 없이도 생산성이 높아졌으므로 상시 대면 감독이 필수라는 가정이 반박됩니다.",
     "wrong_explanations": {},
     "answerType": "choice",
     "_reviewed": false,
@@ -97,7 +97,7 @@ const QUESTION_BANK = [
       "⑤ impossible to challenge"
     ],
     "answer": 2,
-    "explanation": "극적인 사건은 쉽게 떠오르므로 위험 판단이 왜곡된다는 가용성 편향 설명입니다.",
+    "explanation": "[지문 해석]\n사람들은 수천 번의 안전한 비행보다 극적인 항공 사고를 더 생생하게 기억한다. 그 결과 통계가 다르게 보여주더라도 비행의 위험성을 과장할 수 있다. 이러한 판단 오류는 감정적으로 강렬한 사례가 평범하지만 대표적인 경험보다 __________ 때문에 발생한다.\n\n[해설]\n극적인 사건은 쉽게 떠오르므로 위험 판단이 왜곡된다는 가용성 편향 설명입니다.",
     "wrong_explanations": {},
     "answerType": "choice",
     "_reviewed": false,
@@ -118,7 +118,7 @@ const QUESTION_BANK = [
       "⑤ temporary political slogans"
     ],
     "answer": 3,
-    "explanation": "지역별 자원과 기후가 건축 양식에 영향을 준다는 내용입니다.",
+    "explanation": "[지문 해석]\n고대 건축가들은 근처에서 구할 수 있는 재료를 선택했다. 건조한 지역에서는 흙에 의존했고, 숲이 우거진 지역에서는 목재를 더 많이 사용했다. 이러한 선택들은 현저히 다른 건축 전통을 만들어냈다. 이러한 변화는 문화적 형태가 종종 인간의 창의성과 __________ 사이의 상호작용을 통해 나타난다는 것을 시사한다.\n\n[해설]\n지역별 자원과 기후가 건축 양식에 영향을 준다는 내용입니다.",
     "wrong_explanations": {},
     "answerType": "choice",
     "_reviewed": false,
@@ -139,7 +139,7 @@ const QUESTION_BANK = [
       "⑤ students’ birth order"
     ],
     "answer": 4,
-    "explanation": "실패 시도의 설명에 보상함으로써 실패를 대하는 태도가 달라졌습니다.",
+    "explanation": "[지문 해석]\n한 교사가 정답에 대해서만 점수를 줄 때 학생들이 어려운 문제를 서둘러 넘어가는 것을 발견했다. 그녀는 학생들에게 실패한 시도에 대해서도 설명하도록 요구하기 시작했다. 학생들은 자신의 생각을 기꺼이 시험해보고 수정하려는 태도를 보이게 되었다. 이러한 변화는 평가가 학업 성취뿐 아니라 __________ 도 형성할 수 있음을 시사한다.\n\n[해설]\n실패 시도의 설명에 보상함으로써 실패를 대하는 태도가 달라졌습니다.",
     "wrong_explanations": {},
     "answerType": "choice",
     "_reviewed": false,
@@ -160,7 +160,7 @@ const QUESTION_BANK = [
       "⑤ purely decorative objects"
     ],
     "answer": 1,
-    "explanation": "그늘과 미관뿐 아니라 빗물 관리 기능을 하므로 자연 기반 시설에 해당합니다.",
+    "explanation": "[지문 해석]\n도시는 그늘을 제공하기 위해 나무를 심지만, 일렬로 늘어선 나무들은 빗물이 포장도로에 닿기 전에 차단하기도 한다. 나무의 뿌리는 토양이 물을 흡수하도록 도와 폭우 시 배수 시스템의 부담을 줄인다. 따라서 도시 나무는 __________ 뿐만 아니라 시각적 미관으로도 기능한다.\n\n[해설]\n그늘과 미관뿐 아니라 빗물 관리 기능을 하므로 자연 기반 시설에 해당합니다.",
     "wrong_explanations": {},
     "answerType": "choice",
     "_reviewed": false,
@@ -181,7 +181,7 @@ const QUESTION_BANK = [
       "⑤ longer performances"
     ],
     "answer": 3,
-    "explanation": "오류 분석과 수정에 기반한 의도적 피드백이 반복 횟수보다 중요하다는 뜻입니다.",
+    "explanation": "[지문 해석]\n한 음악가는 같은 악절을 천천히 연습하면서 실수할 때마다 멈추어 원인을 파악했다. 다른 음악가는 아무것도 바꾸지 않으면서 빠르게 반복했다. 일주일 후, 첫 번째 음악가가 더 많이 향상되었다. 이 비교는 개선이 단순히 반복 횟수보다는 __________에 더 크게 좌우된다는 것을 보여준다.\n\n[해설]\n오류 분석과 수정에 기반한 의도적 피드백이 반복 횟수보다 중요하다는 뜻입니다.",
     "wrong_explanations": {},
     "answerType": "choice",
     "_reviewed": false,
@@ -202,7 +202,7 @@ const QUESTION_BANK = [
       "⑤ the number of advertisements"
     ],
     "answer": 2,
-    "explanation": "최단 시간 외에 보행자의 선호도 고려가 필요합니다.",
+    "explanation": "[지문 해석]\n디지털 지도는 두 지점 사이의 가장 빠른 경로를 제공하지만, 가장 빠른 경로가 항상 가장 즐거운 것은 아니다. 보행자는 시끄러운 지름길보다 나무가 있는 조용한 거리를 선호할 수 있다. 따라서 경로 계획은 이동 시간과 함께 __________를 함께 고려할 때 더욱 유용해진다.\n\n[해설]\n최단 시간 외에 보행자의 선호도 고려가 필요합니다.",
     "wrong_explanations": {},
     "answerType": "choice",
     "_reviewed": false,
@@ -223,7 +223,7 @@ const QUESTION_BANK = [
       "⑤ 번 위치"
     ],
     "answer": 1,
-    "explanation": "얼음이 수면에 나타난 직후 밀도 차이로 그 이유를 설명하고, 이어서 얼음 아래의 물을 소개합니다.",
+    "explanation": "[지문 해석]\n겨울 동안 일부 호수의 표면에 얼음층이 형성된다. (①) 그 층 아래의 물은 수개월 동안 액체 상태로 남아 있을 수 있다. (②) 물고기들은 극저온의 공기에도 불구하고 이 보호된 지역에서 생존할 수 있다. (③) 봄이 다가오면서 햇빛이 표면의 얼음을 점차 녹인다. (④) 그러면 호수는 대기와 더욱 자유롭게 교환된다. (⑤)\n\n[해설]\n얼음이 수면에 나타난 직후 밀도 차이로 그 이유를 설명하고, 이어서 얼음 아래의 물을 소개합니다.",
     "wrong_explanations": {},
     "answerType": "choice",
     "_reviewed": false,
@@ -244,7 +244,7 @@ const QUESTION_BANK = [
       "⑤ 번 위치"
     ],
     "answer": 3,
-    "explanation": "전시가 시작된 다음 역의 새로운 역할을 설명하고, 이어지는 외부 방문객의 증가를 예고합니다.",
+    "explanation": "[지문 해석]\n한 작은 마을이 버려진 기차역을 복원하기로 결정했다. (①) 자원봉사자들은 먼저 지붕을 수리하고 대기실을 청소했다. (②) 그 후 지역 예술가들이 전시회를 위해 그 건물을 사용하기 시작했다. (③) 인근 마을의 주민들이 전시를 보러 찾아오기 시작했다. (④) 그 결과 근처 카페들의 매출이 증가했다. (⑤)\n\n[해설]\n전시가 시작된 다음 역의 새로운 역할을 설명하고, 이어지는 외부 방문객의 증가를 예고합니다.",
     "wrong_explanations": {},
     "answerType": "choice",
     "_reviewed": false,
@@ -265,7 +265,7 @@ const QUESTION_BANK = [
       "⑤번 위치"
     ],
     "answer": 1,
-    "explanation": "첫 문장의 획일적 판단 뒤 사회적 기대의 차이를 일반 원리로 제시하고, 뒤에서 문화별 대비를 구체화합니다.",
+    "explanation": "[지문 해석]\n많은 사람들은 침묵이 대화의 실패를 의미한다고 가정한다. (①) 그러나 어떤 공동체에서는 의도적인 침묵이 불편함이 아니라 신중한 사고의 신호로 이해된다. (②) 이러한 긍정적 해석은 청자들이 화자가 생각을 마칠 때까지 기다릴 수 있도록 해준다. (③) 이와는 대조적으로, 다른 상황에서 비슷한 길이의 침묵은 불확실성으로 받아들여질 수 있다. (④) 따라서 효과적인 의사소통은 그 지역의 대화 관례에 주의를 기울일 것을 요구한다. (⑤)\n\n[해설]\n첫 문장의 획일적 판단 뒤 사회적 기대의 차이를 일반 원리로 제시하고, 뒤에서 문화별 대비를 구체화합니다.",
     "wrong_explanations": {},
     "answerType": "choice",
     "_reviewed": false,
@@ -286,7 +286,7 @@ const QUESTION_BANK = [
       "⑤ 번 위치"
     ],
     "answer": 3,
-    "explanation": "바람의 차이가 유일한 변인임을 설명해야 두 집단의 줄기 차이를 해석할 수 있습니다.",
+    "explanation": "[지문 해석]\n한 연구자가 동일한 식물들을 두 개의 방에 배치했다. (①) 두 방 모두 같은 양의 물과 햇빛을 받았다. (②) 그러나 한 방에는 부드러운 일일 바람을 만드는 선풍기가 있었다. (③) 몇 주 후, 그 방의 식물들은 더 두꺼운 줄기를 발달시켰다. (④) 연구자는 약한 기계적 스트레스가 성장에 영향을 미칠 수 있다고 결론지었다. (⑤)\n\n[해설]\n바람의 차이가 유일한 변인임을 설명해야 두 집단의 줄기 차이를 해석할 수 있습니다.",
     "wrong_explanations": {},
     "answerType": "choice",
     "_reviewed": false,
@@ -307,7 +307,7 @@ const QUESTION_BANK = [
       "⑤ 번 위치"
     ],
     "answer": 4,
-    "explanation": "개인 비용 절감과 자원 소비 감소라는 두 결과를 요약한 후 다른 도서관으로 확산되는 흐름입니다.",
+    "explanation": "[지문 해석]\n한 도서관이 가정용 공구 대여 서비스를 도입했다. (①) 주민들은 가끔씩만 필요한 드릴과 사다리를 빌릴 수 있었다. (②) 사용자들은 곧 한 번의 작업을 위해 비싼 장비를 구입하는 것을 피할 수 있다는 것을 깨달았다. (③) 이 서비스는 또한 집에 보관되는 거의 사용되지 않는 제품의 수를 줄였다. (④) 다른 도서관들도 유사한 프로그램을 탐색하기 시작했다. (⑤)\n\n[해설]\n개인 비용 절감과 자원 소비 감소라는 두 결과를 요약한 후 다른 도서관으로 확산되는 흐름입니다.",
     "wrong_explanations": {},
     "answerType": "choice",
     "_reviewed": false,
@@ -328,7 +328,7 @@ const QUESTION_BANK = [
       "⑤ 번 위치"
     ],
     "answer": 4,
-    "explanation": "편리해 보였던 재료의 위험성이 밝혀진 뒤 경고가 제시되는 흐름입니다.",
+    "explanation": "[지문 해석]\n한 생물학자가 새들이 둥지를 만들기 위해 플라스틱 섬유를 모으는 것을 관찰했다. (①) 이 섬유들은 도시 건물 근처에서 쉽게 찾을 수 있었다. (②) 처음에는 이 재료가 풀을 대신할 수 있는 편리한 물질로 보였다. (③) 더 자세한 관찰을 통해 느슨한 섬유가 병아리들을 얽힐 수 있다는 사실이 드러났다. (④) 그 과학자는 쉽게 구할 수 있는 물질이 반드시 안전한 것은 아니라고 경고했다. (⑤)\n\n[해설]\n편리해 보였던 재료의 위험성이 밝혀진 뒤 경고가 제시되는 흐름입니다.",
     "wrong_explanations": {},
     "answerType": "choice",
     "_reviewed": false,
@@ -349,7 +349,7 @@ const QUESTION_BANK = [
       "⑤ 번 위치"
     ],
     "answer": 2,
-    "explanation": "높은 초기 참여와 빠른 이탈의 대비를 해석하고 이어서 원인을 조사합니다.",
+    "explanation": "[지문 해석]\n한 온라인 강좌가 첫 주에 수천 명의 학습자를 끌어모았다. (①) 그런데 대부분의 학습자들은 세 번째 강의 이후로 시청을 중단했다. (②) 강사들은 강의를 검토했고 각 영상이 거의 한 시간 동안 진행된다는 것을 발견했다. (③) 그들은 자료를 더 짧은 단위로 나누고 자주 연습 문제를 삽입했다. (④) 다음 달에 이수율이 개선되었다. (⑤)\n\n[해설]\n높은 초기 참여와 빠른 이탈의 대비를 해석하고 이어서 원인을 조사합니다.",
     "wrong_explanations": {},
     "answerType": "choice",
     "_reviewed": false,
@@ -370,7 +370,7 @@ const QUESTION_BANK = [
       "⑤ 번 위치"
     ],
     "answer": 2,
-    "explanation": "별이 가려지는 상황을 언급한 뒤 대체 항법 방법을 소개하는 전환 문장입니다.",
+    "explanation": "[지문 해석]\n수백 년 동안 선원들은 별을 이용하여 자신들의 위치를 추정했다. (①) 구름이 때때로 며칠간 그 별들을 가려버렸다. (②) 이러한 기간 동안 항해자들은 다른 관찰에 더욱 크게 의존해야 했다. (③) 그들은 파도의 방향을 연구하고 배의 속도를 기록했다. (④) 이러한 방법들은 불완전했지만 대략적인 항로를 유지하는 데 도움이 되었다. (⑤)\n\n[해설]\n별이 가려지는 상황을 언급한 뒤 대체 항법 방법을 소개하는 전환 문장입니다.",
     "wrong_explanations": {},
     "answerType": "choice",
     "_reviewed": false,
@@ -391,7 +391,7 @@ const QUESTION_BANK = [
       "⑤ 번 위치"
     ],
     "answer": 2,
-    "explanation": "주별 수확량 변화라는 불확실성을 식당 운영의 정체성으로 전환한 뒤 구체적 실행을 설명합니다.",
+    "explanation": "[지문 해석]\n한 셰프가 자신의 레스토랑 근처 농민들로부터 직접 채소를 구매했다. (①) 매주 수확량이 달랐기 때문에 그녀의 메뉴는 고정될 수 없었다. (②) 그녀는 농장에서 공급할 수 있는 것을 중심으로 요리를 계획하기 시작했다. (③) 고객들은 점차 영구적인 단골 메뉴 대신 제철 음식의 즐거운 놀라움을 기대하게 되었다. (④) 그 결과 그 레스토랑은 장거리 배송을 덜 사용하게 되었다. (⑤)\n\n[해설]\n주별 수확량 변화라는 불확실성을 식당 운영의 정체성으로 전환한 뒤 구체적 실행을 설명합니다.",
     "wrong_explanations": {},
     "answerType": "choice",
     "_reviewed": false,
@@ -412,7 +412,7 @@ const QUESTION_BANK = [
       "⑤ 번 위치"
     ],
     "answer": 4,
-    "explanation": "강수량 이외의 요인을 모두 제시한 뒤 단일 나이테를 강수량의 직접 지표로 삼을 수 없다는 결론이 적절합니다.",
+    "explanation": "[지문 해석]\n어떤 과학자들은 나이 많은 나무의 성장 고리 너비를 조사하여 그 나무들을 연구한다. (①) 넓은 고리는 특정 연도에 유리한 성장 조건을 나타낼 수 있다. (②) 그러나 강우량이 고리 너비에 영향을 미치는 유일한 요소는 아니다. (③) 온도, 해충, 그리고 빛에 대한 경쟁도 역할을 할 수 있다. (④) 따라서 연구자들은 결론을 내리기 전에 많은 나무들로부터의 증거를 비교한다. (⑤)\n\n[해설]\n강수량 이외의 요인을 모두 제시한 뒤 단일 나이테를 강수량의 직접 지표로 삼을 수 없다는 결론이 적절합니다.",
     "wrong_explanations": {},
     "answerType": "choice",
     "_reviewed": false,
@@ -433,7 +433,7 @@ const QUESTION_BANK = [
       "⑤ 번 표시"
     ],
     "answer": 3,
-    "explanation": "has → have: 복수 주어 The volunteers에 맞춰 have가 필요합니다.",
+    "explanation": "[지문 해석]\n그 도시는 저녁 늦게까지 문을 열어두는 열람실을 개설했다 (① which). 낮에 일하는 많은 주민들 (② who)은 이제 저녁 식사 후에 이곳을 방문한다. 자원봉사자들 (③ has)이 주간 토론회를 조직했고, 여러 지역 학교들 (④ are)이 공동 행사를 계획 중이다. 이 프로젝트는 소박한 공공 공간이 어떻게 (⑤ how) 학습을 지원할 수 있는지를 보여준다.\n\n[해설]\nhas → have: 복수 주어 The volunteers에 맞춰 have가 필요합니다.",
     "wrong_explanations": {},
     "answerType": "choice",
     "_reviewed": false,
@@ -454,7 +454,7 @@ const QUESTION_BANK = [
       "⑤ 번 표시"
     ],
     "answer": 2,
-    "explanation": "fails → fail: 복수 주어 predictions와 동사를 일치시켜야 합니다.",
+    "explanation": "[지문 해석]\n좋은 과학적 설명은 (① tested) 증거에 대해 검증받아야 한다. 우아한 이론이라도 그 예측이 (② fails) 반복적으로 빗나가면 기각될 수 있다. 연구자들은 (③ collect) 관찰 자료를 수집하고, (④ compare) 대안적 설명들을 비교하며, 필요할 때 (⑤ revise) 결론을 수정한다.\n\n[해설]\nfails → fail: 복수 주어 predictions와 동사를 일치시켜야 합니다.",
     "wrong_explanations": {},
     "answerType": "choice",
     "_reviewed": false,
@@ -475,7 +475,7 @@ const QUESTION_BANK = [
       "⑤ 번 표시"
     ],
     "answer": 3,
-    "explanation": "attentive → attentively: 동사 listened를 수식하는 부사가 필요합니다.",
+    "explanation": "[지문 해석]\n그 전시회는 지역 청소년들이 ① 창작한 그림들을 포함하고 있었다. 각 예술가는 자신의 작품을 ② 설명하도록 초대받았고, 방문객들은 갤러리를 돌아다니며 ③ 주의 깊게 그 설명을 들었다. 그들의 질문은 ④ 학생들이 특정 색상을 ⑤ 선택한 이유를 설명하는 데 도움이 되었다.\n\n[해설]\nattentive → attentively: 동사 listened를 수식하는 부사가 필요합니다.",
     "wrong_explanations": {},
     "answerType": "choice",
     "_reviewed": false,
@@ -496,7 +496,7 @@ const QUESTION_BANK = [
       "⑤ 번 표시"
     ],
     "answer": 1,
-    "explanation": "was → were: neither A nor B 구조에서 가까운 복수 주어 players에 맞춰 were를 씁니다.",
+    "explanation": "[지문 해석]\n코치도 선수들도 첫 번째 공연에 ① was 만족하지 않았다. 팀은 정확한 타이밍이 ③ that 필요한 동작들에 주의를 기울이면서 어려운 연기를 ② practiced 다시 연습했다. 결국 모든 사람들이 이전보다 ⑤ than 더 자신감을 ④ felt 느끼게 되었다.\n\n[해설]\nwas → were: neither A nor B 구조에서 가까운 복수 주어 players에 맞춰 were를 씁니다.",
     "wrong_explanations": {},
     "answerType": "choice",
     "_reviewed": false,
@@ -517,7 +517,7 @@ const QUESTION_BANK = [
       "⑤ 번 표시"
     ],
     "answer": 1,
-    "explanation": "withstand → to withstand: be designed to + 동사원형 구문입니다.",
+    "explanation": "[지문 해석]\n새로운 다리는 강한 바람을 (① 견디도록) 설계되었다. 엔지니어들은 최종 형태를 (② 선택하기) 전에 여러 모델을 검토했다. 완성된 구조물은 (③ 인상적으로) 보이지만, 그 외관은 그것에 (④ 내장된) 안전 조치들, 즉 사용자들을 (⑤ 보호하는) 것들보다 덜 중요하다.\n\n[해설]\nwithstand → to withstand: be designed to + 동사원형 구문입니다.",
     "wrong_explanations": {},
     "answerType": "choice",
     "_reviewed": false,
@@ -538,7 +538,7 @@ const QUESTION_BANK = [
       "⑤ 번 표시"
     ],
     "answer": 3,
-    "explanation": "was → were: 복수 주어 Several documents에 맞춰 were가 필요합니다.",
+    "explanation": "[지문 해석]\n학생들은 도서관이 한 세기 전에 쓴 편지들을 보존하고 있었다는 사실을 (① 알게 되어) 놀랐다. 몇몇 문서들은 (② 작성된) 읽기가 어려웠기 때문에, 역사학자들은 낯선 표현들을 (⑤ 설명해 주는) 필사본을 (④ 제공했다). 그 (③ 문서들은)\n\n[해설]\nwas → were: 복수 주어 Several documents에 맞춰 were가 필요합니다.",
     "wrong_explanations": {},
     "answerType": "choice",
     "_reviewed": false,
@@ -559,7 +559,7 @@ const QUESTION_BANK = [
       "⑤ 번 표시"
     ],
     "answer": 2,
-    "explanation": "avoid → to avoid: allow + 목적어 + to부정사 구문입니다.",
+    "explanation": "[지문 해석]\n자전거는 자동차보다 유지비가 (① 더 저렴)한 경우가 많다. 또한 통근자들이 (② 짧은 교통 지체를 피하도록) 해준다. 안전한 자전거 도로가 (③ 제공될 때), 더 많은 주민들이 (④ 자전거 이용을 선택)하게 되며, 이는 교통 혼잡을 (⑤ 줄일 수) 있다.\n\n[해설]\navoid → to avoid: allow + 목적어 + to부정사 구문입니다.",
     "wrong_explanations": {},
     "answerType": "choice",
     "_reviewed": false,
@@ -580,7 +580,7 @@ const QUESTION_BANK = [
       "⑤ 번 표시"
     ],
     "answer": 5,
-    "explanation": "was found → were found: 복수 주어 the plants에 대한 동사 일치 오류입니다.",
+    "explanation": "[지문 해석]\n그 생물학자는 개울가에서 ① 자라고 있는 이끼의 한 종을 발견했다. 비록 연약해 보였지만, 그것은 ② 오랜 추위를 견딜 수 있었다. 팀은 표본을 ③ 신중하게 채집했고 식물들이 ④ 발견되었던 조건들을 기록했다. 그러나 그들은 ⑤ was found의 주어와 동사의 수를 일치시켜야 했다.\n\n[해설]\nwas found → were found: 복수 주어 the plants에 대한 동사 일치 오류입니다.",
     "wrong_explanations": {},
     "answerType": "choice",
     "_reviewed": false,
@@ -601,7 +601,7 @@ const QUESTION_BANK = [
       "⑤ 번 표시"
     ],
     "answer": 1,
-    "explanation": "arrives → arrive: 요구·제안의 insist that절에서는 (should) arrive 형태를 사용합니다.",
+    "explanation": "[지문 해석]\n감독은 리허설이 시작되기 전에 모든 참가자가 (① arrive) 것을 주장했다. 그녀는 일정을 (② clearly) 설명했고 모두에게 휴대폰을 (③ turn off) 것을 요청했다. 그 지시사항들은 새로운 멤버들이 (④ for) (⑤ follow) 충분히 단순했다.\n\n[해설]\narrives → arrive: 요구·제안의 insist that절에서는 (should) arrive 형태를 사용합니다.",
     "wrong_explanations": {},
     "answerType": "choice",
     "_reviewed": false,
@@ -622,7 +622,7 @@ const QUESTION_BANK = [
       "⑤ 번 표시"
     ],
     "answer": 3,
-    "explanation": "challenge → challenges: 단수 주어 it에 맞춰 3인칭 단수형을 사용해야 합니다.",
+    "explanation": "[지문 해석]\n토론에서 가장 중요한 것은 댓글의 개수가 아니라 증거의 질이다. 신뢰할 수 있는 자료로 ② 뒷받침된 주장은 비록 대중적인 견해에 ③ 도전하더라도 주목할 가치가 있다. 참여자들은 자신의 의견과 ⑤ 다른 생각들에 대해 ④ 열린 마음으로 임해야 한다.\n\n[해설]\nchallenge → challenges: 단수 주어 it에 맞춰 3인칭 단수형을 사용해야 합니다.",
     "wrong_explanations": {},
     "answerType": "choice",
     "_reviewed": false,
@@ -643,7 +643,7 @@ const QUESTION_BANK = [
       "⑤ 번 표시"
     ],
     "answer": 4,
-    "explanation": "damaged → restored/improved: 쓰레기를 제거해 서식지가 회복된다는 내용입니다.",
+    "explanation": "[지문 해석]\n자원봉사 단체는 지역 습지를 (① 보존하고자) 했다. 그들은 매 계절마다 방문하는 새들을 세심하게 (② 기록했고) 물에서 쓰레기를 (③ 제거했다). 그들의 노력은 서식지를 점차 (④ 복구했고), 더 많은 토종 식물이 돌아올 수 있게 했다. 지역 주민들은 이 지역을 (⑤ 소중히 여기기) 시작했다.\n\n[해설]\ndamaged → restored/improved: 쓰레기를 제거해 서식지가 회복된다는 내용입니다.",
     "wrong_explanations": {},
     "answerType": "choice",
     "_reviewed": false,
@@ -664,7 +664,7 @@ const QUESTION_BANK = [
       "⑤ 번 표시"
     ],
     "answer": 5,
-    "explanation": "constructive → counterproductive: 추가 시험 거부는 건설적이지 않고 발전을 저해합니다.",
+    "explanation": "[지문 해석]\n첫 번째 시제품이 ①실패했지만, 엔지니어들은 ②결연한 의지를 유지했다. 그들은 설계의 결함을 살펴보고, ③설계를 수정하며, 더 많은 시험을 진행했다. 오류로부터 배우려는 그들의 의지는 진전을 위해 ④필수적이었던 반면, 추가 시험을 거부했다면 ⑤건설적이었을 것이다.\n\n[해설]\nconstructive → counterproductive: 추가 시험 거부는 건설적이지 않고 발전을 저해합니다.",
     "wrong_explanations": {},
     "answerType": "choice",
     "_reviewed": false,
@@ -685,7 +685,7 @@ const QUESTION_BANK = [
       "⑤ 번 표시"
     ],
     "answer": 5,
-    "explanation": "reckless → prudent/sensible: 뇌우를 피해 노출된 정상에서 물러나는 행동은 신중한 판단입니다.",
+    "explanation": "[지문 해석]\n등산객들이 구름이 (① 모여들기) 시작하자 좁은 길에 도착했다. 가이드는 바위가 (② 미끄러우므로) 모두가 (③ 조심스럽게) 이동할 것을 권고했다. 천둥이 근처에서 울리자, 일행은 노출된 정상에서 (④ 물러나) 대피처를 찾았다. 그러한 결정을 하지 않았다면 (⑤ 무모했을) 것이다.\n\n[해설]\nreckless → prudent/sensible: 뇌우를 피해 노출된 정상에서 물러나는 행동은 신중한 판단입니다.",
     "wrong_explanations": {},
     "answerType": "choice",
     "_reviewed": false,
@@ -706,7 +706,7 @@ const QUESTION_BANK = [
       "⑤ 번 표시"
     ],
     "answer": 5,
-    "explanation": "less accurate → more accurate: 교차 검증은 기록의 정확성을 높입니다.",
+    "explanation": "[지문 해석]\n그 역사가는 결론에 도달하기 전에 여러 (① 독립적인) 출처를 비교했다. 그녀는 한 명의 증인이 (② 틀릴) 수 있다는 것을 알고 있었으므로 (③ 뒷받침하는) 기록들을 찾았다. 날짜와 장소를 확인함으로써 그녀는 자신의 기록을 더욱 (④ 신뢰할 수 있게) 만들었고 (⑤ 정확하지 않게) 만들었다.\n\n[해설]\nless accurate → more accurate: 교차 검증은 기록의 정확성을 높입니다.",
     "wrong_explanations": {},
     "answerType": "choice",
     "_reviewed": false,
@@ -727,7 +727,7 @@ const QUESTION_BANK = [
       "⑤ 번 표시"
     ],
     "answer": 5,
-    "explanation": "increase in waste는 앞의 폐기물 감소와 모순됩니다. reduction in waste로 수정해야 합니다.",
+    "explanation": "[지문 해석]\n한 학교에서 일회용 병의 사용을 (① 줄이기 위해) 정수기를 설치했다. 학생들은 재사용 가능한 용기를 (② 채워 사용하도록) 권장받았다. 버려지는 플라스틱 병의 개수가 (③ 감소했고), 이 계획은 자원을 (④ 절약하는) 데 도움이 되었다. 교사들은 쓰레기 증가를 (⑤ 성공) 이라고 불렀다.\n\n[해설]\nincrease in waste는 앞의 폐기물 감소와 모순됩니다. reduction in waste로 수정해야 합니다.",
     "wrong_explanations": {},
     "answerType": "choice",
     "_reviewed": false,
@@ -748,7 +748,7 @@ const QUESTION_BANK = [
       "⑤ 번 표시"
     ],
     "answer": 5,
-    "explanation": "difficult → possible/easier: 존중하는 토론은 상호 이해를 촉진합니다.",
+    "explanation": "[지문 해석]\n건강한 토론에서 참가자들은 ①상충하는 견해에 귀 기울이고 ②증거를 검토해야 한다. 개인을 공격하는 대신 그들은 ③논점을 다루어야 한다. 이러한 관행들은 ④사려 깊은 대화를 장려하고 상호 이해를 더욱 ⑤어렵게 만든다.\n\n[해설]\ndifficult → possible/easier: 존중하는 토론은 상호 이해를 촉진합니다.",
     "wrong_explanations": {},
     "answerType": "choice",
     "_reviewed": false,
@@ -769,7 +769,7 @@ const QUESTION_BANK = [
       "⑤ 번 표시"
     ],
     "answer": 4,
-    "explanation": "gloomy → bright: 채광 개선으로 실내가 어두워진다는 것은 문맥상 모순입니다.",
+    "explanation": "[지문 해석]\n건축가는 교실에 자연광을 (① 들여보내기 위해) 넓은 창문을 설계했다. 학생들은 낮 동안 (② 인공) 조명을 더 적게 사용할 수 있었다. 창문은 또한 나무의 풍경을 제공하여 더욱 차분한 (③ 분위기)를 만들었다. 결과적으로 실내는 점점 더 (④ 우울하고) (⑤ 쾌적해) 졌다.\n\n[해설]\ngloomy → bright: 채광 개선으로 실내가 어두워진다는 것은 문맥상 모순입니다.",
     "wrong_explanations": {},
     "answerType": "choice",
     "_reviewed": false,
@@ -790,7 +790,7 @@ const QUESTION_BANK = [
       "⑤ 번 표시"
     ],
     "answer": 5,
-    "explanation": "less clear → clearer: 이해 확인은 설명을 더 명확하게 만듭니다.",
+    "explanation": "[지문 해석]\n의사는 그 시술 절차를 (① 평이한) 언어로 설명했다. 그녀는 (② 불필요한) 전문 용어를 피했고 환자에게 핵심 단계를 (③ 반복하도록) 요청했다. 이러한 접근 방식은 (④ 오해)를 파악하는 데 도움이 되었고 지시 사항을 덜 (⑤ 명확하게) 만들었다.\n\n[해설]\nless clear → clearer: 이해 확인은 설명을 더 명확하게 만듭니다.",
     "wrong_explanations": {},
     "answerType": "choice",
     "_reviewed": false,
@@ -811,7 +811,7 @@ const QUESTION_BANK = [
       "⑤ 번 표시"
     ],
     "answer": 4,
-    "explanation": "vulnerable → resistant/less vulnerable: 작물 다양화는 단일 병해에 대한 취약성을 낮춥니다.",
+    "explanation": "[지문 해석]\n한 농부는 단 하나의 작물에만 의존하기보다는 여러 종류의 작물을 심었다. 해충이 한 품종을 공격하더라도 다른 품종들은 여전히 (① 살아남을) 수 있었다. 이러한 접근 방식은 (② 위험을) 분산시키고 농장의 (③ 회복력을) 높였다. 따라서 (⑤ 다양성을) 제공했음에도 불구하고 전체 수확량을 단일 질병에 대해 더욱 (④ 취약하게) 만들었다.\n\n[해설]\nvulnerable → resistant/less vulnerable: 작물 다양화는 단일 병해에 대한 취약성을 낮춥니다.",
     "wrong_explanations": {},
     "answerType": "choice",
     "_reviewed": false,
@@ -832,7 +832,7 @@ const QUESTION_BANK = [
       "⑤ 번 표시"
     ],
     "answer": 4,
-    "explanation": "obscured → highlighted: 반주를 줄여 독주 선율이 더 명확히 들리도록 했습니다.",
+    "explanation": "[지문 해석]\n리허설 중에 지휘자는 오케스트라에게 더 (① 부드럽게) 연주해 달라고 요청했다. 악사들은 (② 조절했다) 솔로 바이올린이 (③ 들릴 수 있도록) 음량을 맞췄다. 더 조용한 반주가 (④ 가렸다) 선율을 드러내어 관객이 그것을 더 (⑤ 명확하게) 들을 수 있게 했다.\n\n[해설]\nobscured → highlighted: 반주를 줄여 독주 선율이 더 명확히 들리도록 했습니다.",
     "wrong_explanations": {},
     "answerType": "choice",
     "_reviewed": false,
@@ -853,7 +853,7 @@ const QUESTION_BANK = [
       "⑤ 작은 공원은 도시에서 비효율적이라는 주장"
     ],
     "answer": 3,
-    "explanation": "방문객 수 대신 일상의 사회적·환경적 가치를 고려해야 한다는 요지입니다.",
+    "explanation": "[지문 해석]\n공원의 가치를 방문객 수만으로 평가해서는 안 된다. 작은 동네 공원이라도 노인들을 위한 안전한 만남의 장소, 아이들의 놀이터, 여름철 휴식처 역할을 할 수 있다. 이러한 혜택들은 공원이 관광지가 되지 않더라도 상당히 중요할 수 있다. 공원의 공공 가치를 평가할 때는 일상적인 사회적, 환경적 기능들을 인식해야 한다.\n\n[해설]\n방문객 수 대신 일상의 사회적·환경적 가치를 고려해야 한다는 요지입니다.",
     "wrong_explanations": {},
     "answerType": "choice",
     "_reviewed": false,
@@ -874,7 +874,7 @@ const QUESTION_BANK = [
       "⑤ 비슷한 사진은 기록 가치가 더 높음"
     ],
     "answer": 1,
-    "explanation": "저장량 자체보다 선별·분류·정리를 강조합니다.",
+    "explanation": "[지문 해석]\n디지털 사진은 쉽게 촬영할 수 있지만, 그 과다함으로 인해 개인 아카이브를 활용하기가 어려워질 수 있다. 거의 동일한 수백 장의 사진들이 정말 중요한 소수의 이미지들을 숨길 수 있기 때문이다. 사진을 선별하고, 라벨을 붙이고, 정리하는 데 시간을 투자하면 추억을 더 쉽게 되살펴볼 수 있다. 보존이란 단순히 더 많은 파일을 모으는 것이 아니다.\n\n[해설]\n저장량 자체보다 선별·분류·정리를 강조합니다.",
     "wrong_explanations": {},
     "answerType": "choice",
     "_reviewed": false,
@@ -895,7 +895,7 @@ const QUESTION_BANK = [
       "⑤ 창의적인 사람은 실수를 거의 하지 않음"
     ],
     "answer": 4,
-    "explanation": "완성된 창작물 뒤의 수정과 실험 과정을 설명합니다.",
+    "explanation": "[지문 해석]\n많은 사람들은 창의성을 순간적인 영감의 섬광으로 상상한다. 그러나 작곡가들은 종종 멜로디를 수십 번 수정하고, 디자이너들은 프로젝트를 완성하기 전에 여러 스케치를 시험한다. 완성된 결과물은 노력 없이 만들어진 것처럼 보일 수 있지만, 이는 보통 반복된 실험과 개선의 결과이다. 따라서 창의적 성취는 어느 한 순간의 사건만큼이나 과정 자체이다.\n\n[해설]\n완성된 창작물 뒤의 수정과 실험 과정을 설명합니다.",
     "wrong_explanations": {},
     "answerType": "choice",
     "_reviewed": false,
@@ -916,7 +916,7 @@ const QUESTION_BANK = [
       "⑤ 모든 도로 확장은 즉시 금지해야 함"
     ],
     "answer": 2,
-    "explanation": "도로 확충이 수요를 유발할 수 있으므로 행동 변화도 고려하라는 내용입니다.",
+    "explanation": "[지문 해석]\n일부 도시들은 도로를 더 넓혀서 교통 문제에 대응한다. 처음에는 운전자들이 더 빠른 이동을 즐길 수 있지만, 편리해진 이동은 추가적인 자동차 이용을 장려하게 된다. 시간이 지나면서 혼잡은 종종 다시 나타난다. 따라서 교통 계획은 새로운 기반시설에 대응하여 사람들이 어떻게 행동을 바꾸는지를 고려해야 한다.\n\n[해설]\n도로 확충이 수요를 유발할 수 있으므로 행동 변화도 고려하라는 내용입니다.",
     "wrong_explanations": {},
     "answerType": "choice",
     "_reviewed": false,
@@ -937,7 +937,7 @@ const QUESTION_BANK = [
       "⑤ 직역은 어떤 경우에도 불가능함"
     ],
     "answer": 1,
-    "explanation": "운율과 문화적 의미 등을 고려한 번역가의 선택을 강조합니다.",
+    "explanation": "[지문 해석]\n시의 번역은 문자적 의미를 전달할 수 있으면서도 그 효과의 일부를 잃을 수 있다. 리듬, 음운 패턴, 문화적 연상은 언어 간에 쉽게 전달되지 않을 수 있다. 번역가들은 어떤 요소를 보존할 것인지, 어떤 요소를 재구성할 것인지에 대해 선택해야 한다. 그들의 작업은 단순한 단어 치환을 넘어 해석을 포함한다.\n\n[해설]\n운율과 문화적 의미 등을 고려한 번역가의 선택을 강조합니다.",
     "wrong_explanations": {},
     "answerType": "choice",
     "_reviewed": false,
@@ -958,7 +958,7 @@ const QUESTION_BANK = [
       "⑤ 안전한 설계는 실험실 결과와 현장 조건을 함께 반영해야 함"
     ],
     "answer": 5,
-    "explanation": "통제된 실험과 실제 현장 조건을 함께 반영해야 한다는 취지입니다.",
+    "explanation": "[지문 해석]\n실험실 실험은 통제된 조건 하에서 재료가 어떻게 작동하는지 보여줄 수 있다. 그러나 교량, 자동차, 건물은 다양한 온도, 예상치 못한 하중, 장기간의 마모에 직면하게 된다. 따라서 엔지니어들은 실험실 측정을 현장 관찰과 안전 계수와 결합한다. 신뢰할 수 있는 설계는 하나 이상의 환경에서 나온 증거에 의존한다.\n\n[해설]\n통제된 실험과 실제 현장 조건을 함께 반영해야 한다는 취지입니다.",
     "wrong_explanations": {},
     "answerType": "choice",
     "_reviewed": false,
@@ -979,7 +979,7 @@ const QUESTION_BANK = [
       "⑤ 팀 리더는 모든 의견을 동일하게 채택해야 함"
     ],
     "answer": 3,
-    "explanation": "다양한 참여 방식을 마련해 구성원의 의견을 확보해야 한다는 내용입니다.",
+    "explanation": "[지문 해석]\n집단 프로젝트에서 가장 자주 말하는 사람이 반드시 최고의 아이디어를 가진 사람은 아니다. 더 조용한 팀원들은 생각할 시간이 필요하거나 말을 끼어들기를 꺼릴 수 있다. 리더가 서면 의견을 요청하고 침묵의 시간을 허용한다면 더 많은 정보를 전체 팀이 공유할 수 있다. 포용성을 실현하려면 때로 토론의 방식 자체를 바꿔야 한다.\n\n[해설]\n다양한 참여 방식을 마련해 구성원의 의견을 확보해야 한다는 내용입니다.",
     "wrong_explanations": {},
     "answerType": "choice",
     "_reviewed": false,
@@ -1000,7 +1000,7 @@ const QUESTION_BANK = [
       "⑤ 모든 식품의 제공량은 동일함"
     ],
     "answer": 2,
-    "explanation": "숫자 자체뿐 아니라 제공량 단위를 확인해야 한다는 요지입니다.",
+    "explanation": "[지문 해석]\n식품 라벨은 유용한 영양 정보를 제공할 수 있지만, 제품의 서빙 크기가 다를 때 소비자를 혼동시킬 수 있다. 한 끼 제공량당 설탕 함량이 낮아 보이는 간식도 패키지에 여러 끼 분량이 들어있으면 실제로는 훨씬 더 많은 설탕을 포함할 수 있다. 제품을 비교하려면 표시된 양과 그것이 참고하는 제공량 모두에 주의를 기울여야 한다.\n\n[해설]\n숫자 자체뿐 아니라 제공량 단위를 확인해야 한다는 요지입니다.",
     "wrong_explanations": {},
     "answerType": "choice",
     "_reviewed": false,
@@ -1021,7 +1021,7 @@ const QUESTION_BANK = [
       "⑤ 건축 폐기물은 환경에 아무 영향이 없음"
     ],
     "answer": 4,
-    "explanation": "재사용 결정에서 역사·환경·비용·안전을 균형 있게 고려해야 합니다.",
+    "explanation": "[지문 해석]\n낡은 공장은 철거되어 새로운 건물로 대체될 수 있지만, 재활용은 다른 이점들을 제공할 수 있다. 구조물을 보존하는 것은 어느 정도의 건설 폐기물을 피하면서 동시에 한 도시의 역사의 흔적을 유지할 수 있다. 물론 안전성과 비용은 여전히 중요하다. 이러한 선택은 새로운 것이 항상 더 낫다고 가정하기보다는 문화적, 환경적, 그리고 실질적 가치들을 비교하는 것을 요구한다.\n\n[해설]\n재사용 결정에서 역사·환경·비용·안전을 균형 있게 고려해야 합니다.",
     "wrong_explanations": {},
     "answerType": "choice",
     "_reviewed": false,
@@ -1042,7 +1042,7 @@ const QUESTION_BANK = [
       "⑤ 지도 기호는 일상생활과 무관함"
     ],
     "answer": 1,
-    "explanation": "직접 경험과 지도라는 추상적 기호를 연결하는 학습의 중요성을 말합니다.",
+    "explanation": "[지문 해석]\n아이들은 설명을 듣는 것만으로 거리를 추정하는 법을 배우는 것이 아니라 공간을 직접 움직이면서 배운다. 친숙한 가게까지 걸어가는 경험은 그 경로가 얼마나 오래 걸리는지 느껴보게 해준다. 그 후 간단한 지도를 그리는 것은 그러한 경험을 기호와 연결시킨다. 추상적인 표현이 직접적인 관찰과 연결될 때 학습이 더욱 풍부해진다.\n\n[해설]\n직접 경험과 지도라는 추상적 기호를 연결하는 학습의 중요성을 말합니다.",
     "wrong_explanations": {},
     "answerType": "choice",
     "_reviewed": false,
@@ -1063,7 +1063,7 @@ const QUESTION_BANK = [
       "⑤ C → A → B"
     ],
     "answer": 1,
-    "explanation": "먼저 판매 데이터를 확인(A)하고 생산 계획을 조정(B)한 뒤 결과(C)가 나타납니다.",
+    "explanation": "[지문 해석]\n어느 동네 빵집이 매일 저녁에 버리는 빵의 양을 줄이기로 결정했다.\n\n(A) 판매량을 추적한 결과, 사장은 요일에 따라 수요가 크게 달라진다는 것을 발견했다.\n\n(B) 그 후 빵집은 굽는 일정을 변경하고 하루가 끝나갈 무렵 더 적은 양의 빵을 만들었다.\n\n(C) 한 달 안에 팔리지 않은 빵이 줄어들었고, 단골 손님들도 만족했다.\n\n[해설]\n먼저 판매 데이터를 확인(A)하고 생산 계획을 조정(B)한 뒤 결과(C)가 나타납니다.",
     "wrong_explanations": {},
     "answerType": "choice",
     "_reviewed": false,
@@ -1084,7 +1084,7 @@ const QUESTION_BANK = [
       "⑤ A → B → C"
     ],
     "answer": 5,
-    "explanation": "측정(A)→원인 발견(B)→해결책 제시(C) 순서입니다.",
+    "explanation": "[지문 해석]\n연구팀은 한 해안 초원이 왜 축소되고 있는지 이해하고 싶었다.\n\n(A) 그들은 먼저 초원의 지도를 작성하고 토양의 염분 농도를 측정했다.\n\n(B) 데이터는 폭풍우 시에 바닷물이 그 지역으로 더 자주 유입되었음을 보여주었다.\n\n(C) 팀은 향후 홍수를 줄이기 위해 자연 방어벽을 복원할 것을 제안했다.\n\n[해설]\n측정(A)→원인 발견(B)→해결책 제시(C) 순서입니다.",
     "wrong_explanations": {},
     "answerType": "choice",
     "_reviewed": false,
@@ -1105,7 +1105,7 @@ const QUESTION_BANK = [
       "⑤ A → B → C"
     ],
     "answer": 1,
-    "explanation": "기존 방식의 문제(B)를 발견한 뒤 새 방법(A)을 적용하고 결과(C)를 확인합니다.",
+    "explanation": "[지문 해석]\n한 학생이 새로운 어휘를 공부한 직후에 자주 잊어버린다는 것을 깨달았다.\n\n(B) 변화를 주기 전에, 그녀는 모든 단어를 단 한 번만 반복하는 것이 장기 기억에 도움이 되지 않는다는 것을 알게 되었다.\n\n(A) 그녀는 점진적으로 증가하는 간격으로 단어를 복습하는 방식으로 학습 방법을 바꾸었다.\n\n(C) 몇 주 후, 그녀는 노트를 보지 않고도 더 많은 단어를 떠올릴 수 있었다.\n\n[해설]\n기존 방식의 문제(B)를 발견한 뒤 새 방법(A)을 적용하고 결과(C)를 확인합니다.",
     "wrong_explanations": {},
     "answerType": "choice",
     "_reviewed": false,
@@ -1126,7 +1126,7 @@ const QUESTION_BANK = [
       "⑤ B → A → C"
     ],
     "answer": 5,
-    "explanation": "전시 설치(B)→방문객 질문(A)→질문을 반영한 교육(C)의 순서입니다.",
+    "explanation": "[지문 해석]\n어떤 수족관이 방문객들이 해양 보전에 더 많은 관심을 기울이기를 원했다.\n\n(A) 방문객들은 일상적인 플라스틱 사용이 바다에 어떤 영향을 미치는지 묻기 시작했다.\n\n(B) 큐레이터들은 버려진 어망과 그것이 야생동물에 미치는 영향을 보여주는 전시물을 설치했다.\n\n(C) 이후 직원들은 이러한 질문에 답하고 실질적인 변화를 제안하는 워크숍을 소개했다.\n\n[해설]\n전시 설치(B)→방문객 질문(A)→질문을 반영한 교육(C)의 순서입니다.",
     "wrong_explanations": {},
     "answerType": "choice",
     "_reviewed": false,
@@ -1147,7 +1147,7 @@ const QUESTION_BANK = [
       "⑤ B → A → C"
     ],
     "answer": 5,
-    "explanation": "주민 의견 수렴(B)→정원 조성(A)→1년 뒤 성과(C) 순서입니다.",
+    "explanation": "[지문 해석]\n시의회는 빈 땅을 공공 정원으로 바꾸는 것을 검토했다.\n\n(A) 그 후 주민들은 자발적으로 꽃을 심고 산책로를 관리하겠다고 나섰다.\n\n(B) 사업을 승인하기 전에 시의회는 이웃 주민들에게 가능한 용도를 제안해 달라고 요청했다.\n\n(C) 1년 후, 그 정원은 인기 있는 만남의 장소가 되어 있었다.\n\n[해설]\n주민 의견 수렴(B)→정원 조성(A)→1년 뒤 성과(C) 순서입니다.",
     "wrong_explanations": {},
     "answerType": "choice",
     "_reviewed": false,
@@ -1168,7 +1168,7 @@ const QUESTION_BANK = [
       "⑤ C → A → B"
     ],
     "answer": 5,
-    "explanation": "조립 후 첫 시험(C)→거울 조정(A)→선명한 사진 확보(B) 순서입니다.",
+    "explanation": "[지문 해석]\n한 명의 아마추어 천문학자가 자신의 뒷마당에 작은 망원경을 만들었다.\n\n(A) 처음 이미지가 흐릿하게 나타난 후 그녀는 거울을 여러 번 조정했다.\n\n(B) 결국 그녀는 달의 표면을 선명하게 포착했다.\n\n(C) 기구가 조립되자 그녀는 초기 테스트를 위해 밤하늘을 향해 망원경을 겨눴다.\n\n[해설]\n조립 후 첫 시험(C)→거울 조정(A)→선명한 사진 확보(B) 순서입니다.",
     "wrong_explanations": {},
     "answerType": "choice",
     "_reviewed": false,
@@ -1189,7 +1189,7 @@ const QUESTION_BANK = [
       "⑤ C → A → B"
     ],
     "answer": 3,
-    "explanation": "농장 조사(B)→메뉴 설계(A)→고객 반응과 효과(C) 순서입니다.",
+    "explanation": "[지문 해석]\n한 식당이 지역에서 재배한 재료로 만든 식사를 도입하려고 계획했다.\n\n(A) 그 후 셰프는 계절 변화에 대응할 수 있을 만큼 유연한 메뉴를 설계했다.\n\n(B) 먼저 팀은 인근 농장을 방문하여 어떤 농작물이 생산되는지 알아보았다.\n\n(C) 식객들은 새로운 요리를 높이 평가했고, 일부 재료의 운송 거리도 단축되었다.\n\n[해설]\n농장 조사(B)→메뉴 설계(A)→고객 반응과 효과(C) 순서입니다.",
     "wrong_explanations": {},
     "answerType": "choice",
     "_reviewed": false,
@@ -1210,7 +1210,7 @@ const QUESTION_BANK = [
       "⑤ A → B → C"
     ],
     "answer": 5,
-    "explanation": "현황 분석(A), 개선(B), 사후 평가(C)입니다.",
+    "explanation": "[지문 해석]\n한 도시가 교통량이 많은 교차로를 더 안전하게 만들기 위해 시범 사업을 시작했다.\n\n(A) 기술자들은 충돌 사고 보고서를 분석하고 보행자들이 언제 횡단하는지 관찰했다.\n\n(B) 그들은 신호 시간을 다시 설계하고 더 큰 대기 구역을 표시했다.\n\n(C) 후속 관찰 결과 피크 시간대에 위험한 횡단이 감소한 것으로 나타났다.\n\n[해설]\n현황 분석(A), 개선(B), 사후 평가(C)입니다.",
     "wrong_explanations": {},
     "answerType": "choice",
     "_reviewed": false,
@@ -1231,7 +1231,7 @@ const QUESTION_BANK = [
       "⑤ A → B → C"
     ],
     "answer": 5,
-    "explanation": "조언(A)→초고 완성(B)→첫 장 수정(C)으로 이어집니다.",
+    "explanation": "[지문 해석]\n한 소설가가 자신의 책 첫 장을 완성하기 위해 애를 먹고 있었다.\n\n(A) 친구는 처음 부분을 다듬기 전에 다음 장면을 먼저 쓸 것을 제안했다.\n\n(B) 그 조언은 그녀가 전체 이야기의 초안을 완성하는 데 도움이 되었다.\n\n(C) 그녀는 나중에 첫 장으로 돌아갔고, 이제는 그것이 무엇을 확립해야 할지 정확히 알 수 있었다.\n\n[해설]\n조언(A)→초고 완성(B)→첫 장 수정(C)으로 이어집니다.",
     "wrong_explanations": {},
     "answerType": "choice",
     "_reviewed": false,
@@ -1252,7 +1252,7 @@ const QUESTION_BANK = [
       "⑤ A → C → B"
     ],
     "answer": 4,
-    "explanation": "센서 측정(A), 고수온 확인(B), 산호 조사(C) 순서입니다.",
+    "explanation": "[지문 해석]\n해양 생물학자가 산호초 근처의 비정상적으로 따뜻한 물에 대한 보고를 받았다.\n\n(A) 그녀는 센서를 배치하고 그 기록들을 이전 년도의 측정치와 비교했다.\n\n(B) 비교 결과 오랜 기간에 걸친 수온 상승이 확인되었다.\n\n(C) 그녀는 산호의 건강 상태가 변했는지 조사하기 위해 조사를 조직했다.\n\n[해설]\n센서 측정(A), 고수온 확인(B), 산호 조사(C) 순서입니다.",
     "wrong_explanations": {},
     "answerType": "choice",
     "_reviewed": false,
@@ -1273,7 +1273,7 @@ const QUESTION_BANK = [
       "⑤ 수영장 건립을 반대하려고"
     ],
     "answer": 2,
-    "explanation": "수리로 인한 폐쇄 및 수업 일정 변경을 공지합니다.",
+    "explanation": "[지문 해석]\n주민 여러분께,\n\n지역사회 센터의 수영장은 손상된 순환펌프를 교체하기 위해 12월 2일부터 12월 6일까지 폐쇄될 예정입니다. 이 기간 동안 예정된 모든 수업은 연기되며, 등록된 회원분들께는 변경된 일정을 이메일로 안내해 드릴 것입니다. 불편을 드려 죄송하며, 양해해 주신 점 감사드립니다.\n\n[해설]\n수리로 인한 폐쇄 및 수업 일정 변경을 공지합니다.",
     "wrong_explanations": {},
     "answerType": "choice",
     "_reviewed": false,
@@ -1294,7 +1294,7 @@ const QUESTION_BANK = [
       "⑤ 전시품 반납을 촉구하려고"
     ],
     "answer": 1,
-    "explanation": "entrance hall 전시 허가를 요청하는 내용입니다.",
+    "explanation": "[지문 해석]\n축제 위원회 귀중,\n\n학생 사진 동아리를 대표하여 편지를 드립니다. 저희는 다음 달 문화제 기간 중 입구 홀에 스무 장의 사진을 전시할 수 있도록 허락해 주실 것을 요청드립니다. 액자 준비와 설치는 저희가 담당하겠으며, 통행에 방해가 되지 않도록 하겠습니다. 해당 공간이 가능한지 알려주시기 바랍니다.\n\n[해설]\nentrance hall 전시 허가를 요청하는 내용입니다.",
     "wrong_explanations": {},
     "answerType": "choice",
     "_reviewed": false,
@@ -1315,7 +1315,7 @@ const QUESTION_BANK = [
       "⑤ 제품 색상 변경을 발표하려고"
     ],
     "answer": 3,
-    "explanation": "불량 뚜껑 제품 사용 중단과 무상 교환을 안내합니다.",
+    "explanation": "[지문 해석]\n고객 여러분께,\n\n저희는 최근 일부 재사용 가능한 병의 뚜껑에 결함이 있을 수 있음을 발견했습니다. 해당 제품의 밑바닥에는 B72 코드가 인쇄되어 있습니다. 이 제품을 소유하고 계신 경우, 즉시 사용을 중단하시고 저희 고객 서비스 데스크로 연락하여 무료로 교체받으시기 바랍니다. 이러한 문제로 불편을 드려 진심으로 사과드리며, 배송 비용은 저희가 전액 부담하겠습니다.\n\n[해설]\n불량 뚜껑 제품 사용 중단과 무상 교환을 안내합니다.",
     "wrong_explanations": {},
     "answerType": "choice",
     "_reviewed": false,
@@ -1336,7 +1336,7 @@ const QUESTION_BANK = [
       "⑤ 과거 사진의 소유권을 주장하려고"
     ],
     "answer": 4,
-    "explanation": "옛 사진 스캔 자원봉사자를 모집하고 있습니다.",
+    "explanation": "[지문 해석]\n안녕하세요 회원님들께, 저희 지역 역사 모임에서는 토요일 오전에 낡은 사진들을 스캔하는 것을 도와줄 자원봉사자들을 찾고 있습니다. 사전 경험은 필요 없으며, 스태프가 장비 사용법을 설명해드릴 것입니다. 스캔된 이미지들은 검색 가능한 공개 아카이브에 추가될 예정입니다. 두 시간을 내실 수 있다면 목요일까지 도서관 데스크를 통해 등록해주시기 바랍니다.\n\n[해설]\n옛 사진 스캔 자원봉사자를 모집하고 있습니다.",
     "wrong_explanations": {},
     "answerType": "choice",
     "_reviewed": false,
@@ -1357,7 +1357,7 @@ const QUESTION_BANK = [
       "⑤ 방과후 활동 등록을 취소하려고"
     ],
     "answer": 3,
-    "explanation": "휠체어 접근 경사로 설치를 건의합니다.",
+    "explanation": "[지문 해석]\n교장선생님께,\n\n휠체어를 사용하는 여러 학생이 음악실에 접근하기 어렵다고 보고했습니다. 인근의 유일한 출입구에 계단만 있기 때문입니다. 학교에서 이 동선을 점검하고 경사로 설치를 검토해 주시기를 바랍니다. 접근성을 개선한다면 더 많은 학생이 방과 후 활동에 독립적으로 참여할 수 있을 것입니다.\n\n[해설]\n휠체어 접근 경사로 설치를 건의합니다.",
     "wrong_explanations": {},
     "answerType": "choice",
     "_reviewed": false,
@@ -1378,7 +1378,7 @@ const QUESTION_BANK = [
       "⑤ 발전기 고장을 보고하려고"
     ],
     "answer": 1,
-    "explanation": "강연과 시연을 해준 강연자에게 감사하는 편지입니다.",
+    "explanation": "[지문 해석]\n박 여사님께,\n\n어제 우리 과학 동아리에서 신재생 에너지에 대해 강연해주셔서 감사합니다. 소형 태양광 패널의 작동 원리에 대한 설명이 특히 도움이 되었고, 학생들이 실험 시연을 즐겨했습니다. 귀중한 시간을 내어 전문 지식을 공유해주신 점에 진심으로 감사드립니다. 저희는 이번에 배운 내용을 다음 프로젝트에 활용하기를 기대합니다.\n\n[해설]\n강연과 시연을 해준 강연자에게 감사하는 편지입니다.",
     "wrong_explanations": {},
     "answerType": "choice",
     "_reviewed": false,
@@ -1399,7 +1399,7 @@ const QUESTION_BANK = [
       "⑤ 역 이름을 변경하려고"
     ],
     "answer": 2,
-    "explanation": "선로 보수로 인한 정차 중단과 셔틀버스를 안내합니다.",
+    "explanation": "[지문 해석]\n탑승객 여러분께 안내드립니다: 예상치 못한 선로 유지보수로 인해 오늘 밤 9시 이후 Riverside 방향 열차는 Central Station에 정차하지 않습니다. 북쪽 출입구에서 15분 간격으로 운행하는 셔틀버스를 이용하시기 바랍니다. 정상 열차 운행은 내일 아침에 재개될 예정입니다. 자세한 사항은 역 안내문을 참고해주시기 바랍니다.\n\n[해설]\n선로 보수로 인한 정차 중단과 셔틀버스를 안내합니다.",
     "wrong_explanations": {},
     "answerType": "choice",
     "_reviewed": false,
@@ -1420,7 +1420,7 @@ const QUESTION_BANK = [
       "⑤ 지역 행사를 취소하려고"
     ],
     "answer": 1,
-    "explanation": "도서관 개관 연도의 오류 정정을 요청합니다.",
+    "explanation": "[지문 해석]\n편집자님께,\n\n최근 귀사의 기사에서 시립 도서관이 1985년에 개관했다고 기술하셨습니다. 그러나 시 기록과 개관 당시 공식 발표에 따르면, 실제로는 1983년에 처음 방문객을 맞이했습니다. 향후 독자들이 정확한 정보를 접할 수 있도록 온라인판에 정정 기사를 실어주시면 감사하겠습니다.\n\n[해설]\n도서관 개관 연도의 오류 정정을 요청합니다.",
     "wrong_explanations": {},
     "answerType": "choice",
     "_reviewed": false,
@@ -1441,7 +1441,7 @@ const QUESTION_BANK = [
       "⑤ 프로젝트 성공을 공식 발표하려고"
     ],
     "answer": 2,
-    "explanation": "활동 중 안전 수칙을 강조하고 준수를 요청합니다.",
+    "explanation": "[지문 해석]\n친애하는 팀원들께,\n\n우리의 강 정화 프로젝트가 중간 지점에 도달했지만, 여전히 여러 구간에 많은 쓰레기가 남아 있습니다. 안전을 위해 깊은 물에 들어가지 말고 정해진 짝과만 작업하시기 바랍니다. 날카로운 물체를 발견하면 직접 처리하지 마시고 감독자에게 보고해 주십시오. 마지막 주말을 성공적으로 마치려면 여러분의 주의 깊은 태도가 필수적입니다.\n\n[해설]\n활동 중 안전 수칙을 강조하고 준수를 요청합니다.",
     "wrong_explanations": {},
     "answerType": "choice",
     "_reviewed": false,
@@ -1462,7 +1462,7 @@ const QUESTION_BANK = [
       "⑤ 작가의 신작 계약을 발표하려고"
     ],
     "answer": 1,
-    "explanation": "다음 독서 모임의 사전 읽기 범위와 일정을 안내합니다.",
+    "explanation": "[지문 해석]\n친애하는 독서 동아리 회원 여러분께,\n\n다음 달에 우리는 외진 산골 마을을 배경으로 한 소설을 함께 논의할 예정입니다. 토론을 더욱 알차게 진행하기 위해 1장부터 8장까지 읽어오시고, 주인공의 결정에 관한 질문 하나를 준비해 주시기 바랍니다. 첫째 주 수요일 오후 6시 30분에 204호실에서 만나겠습니다.\n\n[해설]\n다음 독서 모임의 사전 읽기 범위와 일정을 안내합니다.",
     "wrong_explanations": {},
     "answerType": "choice",
     "_reviewed": false,
@@ -1483,7 +1483,7 @@ const QUESTION_BANK = [
       "⑤ confident → ashamed"
     ],
     "answer": 2,
-    "explanation": "처음에는 무대에 긴장했으나 격려를 받고 자신감을 회복했습니다.",
+    "explanation": "[지문 해석]\n미나는 강당 밖에서 기다리며 계속 시계를 확인했다. 그렇게 많은 청중 앞에서 말해본 적이 없었고, 손이 차가워졌다. 무대에 올라섰을 때 첫 문장이 떨리는 목소리로 나왔다. 그러다 반 친구들이 격려의 미소를 짓고 있는 것을 눈치챘다. 연설을 마칠 무렵에는 명확하게 말하고 있었고, 질문에 답하는 것을 즐기기까지 했다.\n\n[해설]\n처음에는 무대에 긴장했으나 격려를 받고 자신감을 회복했습니다.",
     "wrong_explanations": {},
     "answerType": "choice",
     "_reviewed": false,
@@ -1504,7 +1504,7 @@ const QUESTION_BANK = [
       "⑤ proud → jealous"
     ],
     "answer": 3,
-    "explanation": "장학금 탈락으로 실망했다가 재도전 가능성을 보고 희망을 얻습니다.",
+    "explanation": "[지문 해석]\n다니엘은 장학금 소식을 기대하며 봉투를 열었다. 그러나 그는 자신이 선발되지 않았다는 것을 알게 되었다. 그는 한동안 조용히 앉아 있었는데, 수개월간의 노력이 헛수고인 것 같아 실망했다. 나중에 그의 선생님은 그의 연구 능력이 얼마나 향상되었는지 지적해 주었고 다시 지원할 것을 격려했다. 다니엘은 더욱 견고한 제안서를 작성하기 시작했다.\n\n[해설]\n장학금 탈락으로 실망했다가 재도전 가능성을 보고 희망을 얻습니다.",
     "wrong_explanations": {},
     "answerType": "choice",
     "_reviewed": false,
@@ -1525,7 +1525,7 @@ const QUESTION_BANK = [
       "⑤ curious → guilty"
     ],
     "answer": 1,
-    "explanation": "길을 잃었을까 불안했다가 이정표를 확인하고 안도합니다.",
+    "explanation": "[지문 해석]\n하나가 낯선 숲길에 들어섰을 때, 수풀에서 나는 작은 소리마다 그녀는 발을 멈췄다. 길을 잘못 들었을 것이라는 불안감이 들었다. 곧 공식 이정표를 발견했고 지도에서 본 멀리 있는 탑을 알아보았다. 그녀는 숨을 고르고 걸음을 이어갔으며, 주변에서 울어대는 새소리를 즐기며 길을 걸었다.\n\n[해설]\n길을 잃었을까 불안했다가 이정표를 확인하고 안도합니다.",
     "wrong_explanations": {},
     "answerType": "choice",
     "_reviewed": false,
@@ -1546,7 +1546,7 @@ const QUESTION_BANK = [
       "⑤ confident → frustrated"
     ],
     "answer": 4,
-    "explanation": "공연 취소로 실망했지만 실내 공연 소식에 기뻐합니다.",
+    "explanation": "[지문 해석]\n레오는 일주일 내내 야외 콘서트를 손꼽아 기다리고 있었다. 먹구름이 몰려오고 주최 측이 공연 취소를 발표하자 그는 한숨을 쉬며 표를 치워 버렸다. 그 순간 메시지가 날아왔다. 뮤지션들이 도서관 안에서 어쿠스틱 세트 공연을 진행하기로 한 것이었다. 레오는 재빨리 코트를 입고 다시 밖으로 나갔다.\n\n[해설]\n공연 취소로 실망했지만 실내 공연 소식에 기뻐합니다.",
     "wrong_explanations": {},
     "answerType": "choice",
     "_reviewed": false,
@@ -1567,7 +1567,7 @@ const QUESTION_BANK = [
       "⑤ grateful → furious"
     ],
     "answer": 2,
-    "explanation": "시연 실패로 당황했지만 개선 계획에 대한 칭찬을 받고 격려받습니다.",
+    "explanation": "[지문 해석]\n소라가 자신이 만든 로봇을 심사위원들에게 자랑스럽게 보여주었다. 시연 중에 한 바퀴가 갑자기 움직임을 멈췄다. 그녀는 얼굴이 화끈거리는 것을 느꼈고 그 기계를 숨기고 싶었다. 한 심사위원이 그 문제를 설명해달라고 요청했고, 그녀는 연결 부분을 어떻게 다시 설계할 것인지 설명했다. 심사위원들은 그녀의 분석을 칭찬했고, 그녀는 웃으며 떠났다.\n\n[해설]\n시연 실패로 당황했지만 개선 계획에 대한 칭찬을 받고 격려받습니다.",
     "wrong_explanations": {},
     "answerType": "choice",
     "_reviewed": false,
@@ -1588,7 +1588,7 @@ const QUESTION_BANK = [
       "⑤ delighted → regretful"
     ],
     "answer": 3,
-    "explanation": "편지 내용이 걱정되다가 따뜻한 초대에 안심합니다.",
+    "explanation": "[지문 해석]\n오래된 친구로부터 온 편지가 며칠 동안 아미르의 책상 위에 뜯지 않은 채로 놓여 있었다. 그는 오랜 침묵이 둘의 우정을 손상시켰을 것이라는 두려움이 있었다. 결국 그가 편지를 읽어보니 다시 만나자는 따뜻한 초대와 함께 학창 시절의 추억들이 담겨 있었다. 그는 즉시 휴대폰을 집어 들었다.\n\n[해설]\n편지 내용이 걱정되다가 따뜻한 초대에 안심합니다.",
     "wrong_explanations": {},
     "answerType": "choice",
     "_reviewed": false,
@@ -1609,7 +1609,7 @@ const QUESTION_BANK = [
       "⑤ ashamed → grateful"
     ],
     "answer": 1,
-    "explanation": "경주 전 기대감에서 부상 후 좌절로 심경이 변화합니다.",
+    "explanation": "[지문 해석]\n몇 개월간의 훈련을 마친 지수는 출발선에 서서 자신의 실력을 시험해보고 싶은 열정으로 가득 찼다. 하지만 경주 중반에 발목을 삐끗하게 되어 계속 나아갈 수 없었다. 그녀는 트랙 옆에 앉아 다른 선수들이 결승선을 통과하는 것을 지켜봐야 했고, 결국 완주하지 못한 자신의 상황에 답답함을 느꼈다.\n\n[해설]\n경주 전 기대감에서 부상 후 좌절로 심경이 변화합니다.",
     "wrong_explanations": {},
     "answerType": "choice",
     "_reviewed": false,
@@ -1630,7 +1630,7 @@ const QUESTION_BANK = [
       "⑤ relaxed → embarrassed"
     ],
     "answer": 4,
-    "explanation": "처음 화가 났지만 동생의 의도를 이해하고 함께 수리합니다.",
+    "explanation": "[지문 해석]\n노아는 며칠에 걸쳐 만든 모형 다리를 어린 동생이 쓰러뜨렸을 때 짜증을 냈다. 목소리를 높였지만 동생이 울고 있었고 다리를 옮기려고 도와주려던 참이었다는 것을 알았다. 노아는 심호흡을 한 후 부서진 조각들을 보여주고 함께 다리를 수리해보자고 제안했다.\n\n[해설]\n처음 화가 났지만 동생의 의도를 이해하고 함께 수리합니다.",
     "wrong_explanations": {},
     "answerType": "choice",
     "_reviewed": false,
@@ -1651,7 +1651,7 @@ const QUESTION_BANK = [
       "⑤ hopeful → disappointed"
     ],
     "answer": 2,
-    "explanation": "자신이 없어하던 중 뜻밖의 수상 소식에 놀랍니다.",
+    "explanation": "[지문 해석]\n유나는 자신의 독특한 디자인이 떨어질 것이라고 생각하며 미술 대회에 출전했다. 심사위원들이 그녀의 작품을 살펴보자, 그녀는 그들의 시선을 피했다. 그러자 그들은 그녀의 그림이 독창성으로 특별상을 수상했다고 발표했다. 그녀는 자신이 들은 말을 거의 믿을 수 없다는 듯 인증서를 바라봤다.\n\n[해설]\n자신이 없어하던 중 뜻밖의 수상 소식에 놀랍니다.",
     "wrong_explanations": {},
     "answerType": "choice",
     "_reviewed": false,
@@ -1672,7 +1672,7 @@ const QUESTION_BANK = [
       "⑤ calm → furious"
     ],
     "answer": 3,
-    "explanation": "실종자를 걱정하다 구조 소식에 안도합니다.",
+    "explanation": "[지문 해석]\n구조대는 밤새도록 해안선을 수색했다. 시간이 지날수록 이 대장은 실종된 카약 선수에 대해 더욱 걱정이 커졌다. 새벽 직전, 라디오에서 그 사람이 근처 섬에 안전하게 도착했다는 보도가 흘러나왔다. 이 대장은 난간에 기대어 마침내 미소를 지었다.\n\n[해설]\n실종자를 걱정하다 구조 소식에 안도합니다.",
     "wrong_explanations": {},
     "answerType": "choice",
     "_reviewed": false,
@@ -1693,7 +1693,7 @@ const QUESTION_BANK = [
       "⑤ 검색 속도를 높이는 교육이 유일한 목표다"
     ],
     "answer": 3,
-    "explanation": "검색 기술뿐 아니라 출처와 근거 평가 능력을 교육해야 합니다.",
+    "explanation": "[지문 해석]\n학교는 학생들에게 정보를 찾는 방법을 자주 가르치지만, 그 정보의 질을 판단하는 방법을 보여주는 데는 상대적으로 시간을 적게 투자한다. 검색 엔진은 수백 개의 검색 결과를 제공하지만 신중한 조사와 오도하는 주장을 구분해주지 않는다. 학생들은 온라인 정보를 받아들이기 전에 저자, 증거, 발행 날짜를 확인하는 방법을 배워야 한다. 비판적 평가는 교육과정에서 정규적인 위치를 차지할 가치가 있다.\n\n[해설]\n검색 기술뿐 아니라 출처와 근거 평가 능력을 교육해야 합니다.",
     "wrong_explanations": {},
     "answerType": "choice",
     "_reviewed": false,
@@ -1714,7 +1714,7 @@ const QUESTION_BANK = [
       "⑤ 벤치 이용은 유료화해야 한다"
     ],
     "answer": 1,
-    "explanation": "보행 약자도 이용할 수 있도록 벤치를 배치해야 한다고 주장합니다.",
+    "explanation": "[지문 해석]\n도시 계획가들은 때때로 벤치를 사소한 세부사항으로 취급하지만, 천천히 걷거나 쉽게 피로해지는 사람들은 휴식의 기회가 필요하다. 의자가 없는 연속적인 보행 경로는 노년층 주민과 장애인들을 배제할 수 있다. 따라서 도시는 보행자 거리를 개선할 때 합리적인 간격으로 접근 가능한 벤치를 배치해야 한다.\n\n[해설]\n보행 약자도 이용할 수 있도록 벤치를 배치해야 한다고 주장합니다.",
     "wrong_explanations": {},
     "answerType": "choice",
     "_reviewed": false,
@@ -1735,7 +1735,7 @@ const QUESTION_BANK = [
       "⑤ 직원 개인별 업무 선택권을 없애야 한다"
     ],
     "answer": 4,
-    "explanation": "즉각 응답 관행을 바꾸고 집중 시간을 보장하자는 주장입니다.",
+    "explanation": "[지문 해석]\n직장이 집중력을 중시한다고 주장하면서 동시에 직원들에게 모든 메시지에 즉시 응답할 것을 기대할 수는 없다. 깊이 있는 업무는 방해받지 않는 시간을 필요로 한다. 팀은 응답 시간에 대한 기준을 정하고 어려운 과제에 집중할 수 있는 시간 블록을 보호해야 한다. 이러한 규칙들은 협업의 질과 개인 업무의 질 모두를 향상시킬 것이다.\n\n[해설]\n즉각 응답 관행을 바꾸고 집중 시간을 보장하자는 주장입니다.",
     "wrong_explanations": {},
     "answerType": "choice",
     "_reviewed": false,
@@ -1756,7 +1756,7 @@ const QUESTION_BANK = [
       "⑤ 제품 보증을 모두 폐지해야 한다"
     ],
     "answer": 2,
-    "explanation": "수리 가능성을 높이기 위한 부품과 정보 제공이 핵심 주장입니다.",
+    "explanation": "[지문 해석]\n가정용 전자제품은 작은 부품이 고장 나면 수리가 어렵거나 비용이 많이 들기 때문에 자주 교체된다. 이는 불필요한 폐기물을 야기한다. 제조업체는 합리적인 기간 동안 소비자에게 부품을 공급하고 명확한 수리 정보를 제공해야 한다. 그렇게 하면 소비자들은 제품을 수리할지 새것을 구매할지 선택할 수 있는 실질적인 선택권을 갖게 될 것이다.\n\n[해설]\n수리 가능성을 높이기 위한 부품과 정보 제공이 핵심 주장입니다.",
     "wrong_explanations": {},
     "answerType": "choice",
     "_reviewed": false,
@@ -1777,7 +1777,7 @@ const QUESTION_BANK = [
       "⑤ 과학 전시에는 시행착오와 수정 과정도 보여야 한다"
     ],
     "answer": 5,
-    "explanation": "과학 지식이 형성되는 시행착오 과정을 전시하라고 주장합니다.",
+    "explanation": "[지문 해석]\n과학 박물관들은 발견을 마치 불가피한 성공인 양 제시하는 경향이 있다. 그러나 실패한 시도와 수정된 가설은 연구의 필수 요소이다. 전시회에는 실패한 실험과 변화하는 설명들이 포함되어야 하며, 이를 통해 방문객들이 과학을 최종적인 답변들의 모음이 아닌 탐구의 과정으로 이해하도록 도와야 한다.\n\n[해설]\n과학 지식이 형성되는 시행착오 과정을 전시하라고 주장합니다.",
     "wrong_explanations": {},
     "answerType": "choice",
     "_reviewed": false,
@@ -1798,7 +1798,7 @@ const QUESTION_BANK = [
       "⑤ 어린이는 실험을 해서는 안 된다"
     ],
     "answer": 1,
-    "explanation": "정답 제시보다 함께 탐구하는 태도를 권합니다.",
+    "explanation": "[지문 해석]\n아이들이 무지개는 왜 생기는지, 나뭇잎은 왜 색깔이 변하는지 물을 때, 어른들은 짧은 답변을 해주고 대화를 끝내고 싶은 유혹을 느낄 수 있다. 하지만 이러한 질문들은 탐구의 귀중한 기회를 제공한다. 모든 것을 곧바로 설명하는 대신, 어른들은 아이가 무엇을 알아챘는지 물어보고 함께 조사해야 한다.\n\n[해설]\n정답 제시보다 함께 탐구하는 태도를 권합니다.",
     "wrong_explanations": {},
     "answerType": "choice",
     "_reviewed": false,
@@ -1819,7 +1819,7 @@ const QUESTION_BANK = [
       "⑤ 버스 정류장 수를 줄여야 한다"
     ],
     "answer": 3,
-    "explanation": "폭염 대응을 버스 정류장 설계에 반영해야 한다는 주장입니다.",
+    "explanation": "[지문 해석]\n도시는 더워지는 여름에 대비해야 한다. 나무를 심는 것이 도움이 되지만, 버스를 기다리기 위해 햇빛 아래 서 있어야 하는 주민들이 많은 지역에서는 충분하지 않다. 대중교통 운영 기관은 이용객이 많은 정류장에 그늘과 음수대를 설치해야 한다. 열 보호는 일반적인 교통 설계에 포함되어야 할 필수 요소이다.\n\n[해설]\n폭염 대응을 버스 정류장 설계에 반영해야 한다는 주장입니다.",
     "wrong_explanations": {},
     "answerType": "choice",
     "_reviewed": false,
@@ -1840,7 +1840,7 @@ const QUESTION_BANK = [
       "⑤ 조별 책임 분담을 없애야 한다"
     ],
     "answer": 4,
-    "explanation": "공동 성과와 개인 기여도를 함께 평가하자는 내용입니다.",
+    "explanation": "[지문 해석]\n집단 과제를 수행하는 학생들은 기여도가 크게 다르더라도 같은 점수를 받는 경우가 있다. 더 공정한 방식은 최종 프로젝트 점수에 개인의 간단한 성찰과 맡은 책임에 대한 기록을 결합하는 것이다. 평가는 팀워크를 인정하면서도 개별 노력을 드러내야 한다.\n\n[해설]\n공동 성과와 개인 기여도를 함께 평가하자는 내용입니다.",
     "wrong_explanations": {},
     "answerType": "choice",
     "_reviewed": false,
@@ -1861,7 +1861,7 @@ const QUESTION_BANK = [
       "⑤ 한 달 지출액은 항상 고정되어야 한다"
     ],
     "answer": 2,
-    "explanation": "맥락 있는 분류와 과거 비교를 제공해야 한다고 주장합니다.",
+    "explanation": "[지문 해석]\n개인 재무 애플리케이션은 흔히 월간 지출액을 나타내는 단 하나의 숫자를 표시한다. 그러나 숫자 하나만으로는 사용자에게 변화가 필요한지 여부를 거의 알려주지 못한다. 이러한 도구들은 눈길을 끌기 위한 경고에만 의존하기보다는 이해하기 쉬운 범주들과 사용자 자신의 과거 행동과의 비교를 제공해야 한다.\n\n[해설]\n맥락 있는 분류와 과거 비교를 제공해야 한다고 주장합니다.",
     "wrong_explanations": {},
     "answerType": "choice",
     "_reviewed": false,
@@ -1882,7 +1882,7 @@ const QUESTION_BANK = [
       "⑤ 축제 기획에는 지역 주민의 삶과 의견을 반영해야 한다"
     ],
     "answer": 5,
-    "explanation": "관광객 중심을 넘어 주민의 생활과 전통을 고려해야 한다는 주장입니다.",
+    "explanation": "[지문 해석]\n지역축제는 관광객을 유인할 수 있지만, 축제를 관광객만을 위해 계획한다면 그 지역에 사는 주민들을 간과할 수 있다. 조직위원회는 교통, 소음, 그리고 지역의 의미 있는 전통에 대해 주민들과 상의해야 한다. 성공적인 축제란 외부인들을 위한 인상적인 사진을 만드는 것보다는 지역 공동체의 삶을 강화시키는 것이어야 한다.\n\n[해설]\n관광객 중심을 넘어 주민의 생활과 전통을 고려해야 한다는 주장입니다.",
     "wrong_explanations": {},
     "answerType": "choice",
     "_reviewed": false,
@@ -1903,7 +1903,7 @@ const QUESTION_BANK = [
       "⑤ How to Build a Taller Wall"
     ],
     "answer": 2,
-    "explanation": "방어 시설에서 시민 공간으로 변한 성벽의 역할을 포괄합니다.",
+    "explanation": "[지문 해석]\n옛날 도시 성벽은 한때 마을을 주변 농경지와 분리했다. 수 세기가 지나면서 그 군사적 중요성은 퇴색했다. 주민들은 성벽의 여러 구간을 산책로, 정원, 그리고 야외 갤러리로 변모시켰다. 이 건축물은 여전히 과거로의 연결고리 역할을 하지만, 동시에 새로운 목적도 수행한다. 그 이야기는 도시가 역사를 지우지 않으면서도 물려받은 공간을 어떻게 재창조할 수 있는지 잘 보여준다.\n\n[해설]\n방어 시설에서 시민 공간으로 변한 성벽의 역할을 포괄합니다.",
     "wrong_explanations": {},
     "answerType": "choice",
     "_reviewed": false,
@@ -1924,7 +1924,7 @@ const QUESTION_BANK = [
       "⑤ How to Remove All Background Noise"
     ],
     "answer": 3,
-    "explanation": "완벽한 수정이 아닌 불완전성이 음악의 개성을 살린다는 내용입니다.",
+    "explanation": "[지문 해석]\n음악가가 노래를 녹음할 때, 작은 불완전함은 처음에는 결함처럼 보일 수 있다. 그러나 예상 밖의 숨소리나 약간 거친 음은 완벽하게 편집된 연주에는 없는 감정을 전달할 수 있다. 제작자들은 수정이 명확성을 향상시키는지, 아니면 개성을 제거하는지를 판단해야 한다. 가장 뛰어난 녹음이 항상 가장 매끄러운 것은 아니다.\n\n[해설]\n완벽한 수정이 아닌 불완전성이 음악의 개성을 살린다는 내용입니다.",
     "wrong_explanations": {},
     "answerType": "choice",
     "_reviewed": false,
@@ -1945,7 +1945,7 @@ const QUESTION_BANK = [
       "⑤ A Competition Among Delivery Drivers"
     ],
     "answer": 1,
-    "explanation": "재사용 용기 체계로 포장 폐기물을 줄이는 내용입니다.",
+    "explanation": "[지문 해석]\n한 지역 시장이 고객들에게 테이크아웃 음식을 담을 용기를 빌려주는 선택지를 제공하기 시작했다. 고객들은 수거 지점에서 용기를 반납했고, 그곳에서 용기는 세척되어 재사용되었다. 이 시스템은 조율을 필요로 했지만, 일회용 포장재의 필요성을 줄였다. 제품을 배달하는 방식의 작은 변화가 발생하는 폐기물의 양을 바꾸었다.\n\n[해설]\n재사용 용기 체계로 포장 폐기물을 줄이는 내용입니다.",
     "wrong_explanations": {},
     "answerType": "choice",
     "_reviewed": false,
@@ -1966,7 +1966,7 @@ const QUESTION_BANK = [
       "⑤ How to Measure Wind With a Compass"
     ],
     "answer": 4,
-    "explanation": "선박 소음의 보이지 않는 해양 영향이 핵심입니다.",
+    "explanation": "[지문 해석]\n과학자들은 수중 마이크를 이용하여 광활한 해양 지역에서 선박의 음향을 감지했다. 이러한 소음은 의사소통이나 먹이 찾기에 음성에 의존하는 동물들을 방해할 수 있다. 연구자들은 현재 더욱 조용한 프로펠러와 대체 해운로를 조사하고 있다. 선박 갑판에서는 보이지 않는 것이 해수면 아래에서는 매우 중요할 수 있다.\n\n[해설]\n선박 소음의 보이지 않는 해양 영향이 핵심입니다.",
     "wrong_explanations": {},
     "answerType": "choice",
     "_reviewed": false,
@@ -1987,7 +1987,7 @@ const QUESTION_BANK = [
       "⑤ The Fastest Way to Draw a Coastline"
     ],
     "answer": 1,
-    "explanation": "옛 지도가 사회의 가치관을 반영한다는 관점을 다룹니다.",
+    "explanation": "[지문 해석]\n많은 역사 지도들은 현대의 기준으로 보면 부정확해 보인다. 어떤 지도들은 통치자의 영토를 과장하거나 신성한 장소를 중심에 배치하곤 한다. 역사가들은 모든 왜곡을 단순한 실수로 취급하기보다는 지도 제작자들이 무엇을 중요하게 여겼는지를 보여주는 증거로 읽는다. 지도는 단순히 지리 정보뿐만 아니라 그것을 만든 사회의 가치관도 드러낸다.\n\n[해설]\n옛 지도가 사회의 가치관을 반영한다는 관점을 다룹니다.",
     "wrong_explanations": {},
     "answerType": "choice",
     "_reviewed": false,
@@ -2008,7 +2008,7 @@ const QUESTION_BANK = [
       "⑤ The History of Street Lighting"
     ],
     "answer": 3,
-    "explanation": "걷는 속도가 관찰과 경험에 미치는 영향을 포괄합니다.",
+    "explanation": "[지문 해석]\n연구자들은 자원자들에게 다양한 속도로 익숙한 거리를 걸은 후 그 거리를 설명하도록 요청했다. 속도를 늦춘 사람들은 빠르게 걸어간 사람들이 놓친 상점 간판, 소리, 건축 세부 사항들을 발견했다. 그 경로 자체는 변하지 않았지만, 그것을 경험하는 방식은 달라졌다. 주의 깊은 관찰은 평범한 환경을 발견의 원천으로 변화시킬 수 있다.\n\n[해설]\n걷는 속도가 관찰과 경험에 미치는 영향을 포괄합니다.",
     "wrong_explanations": {},
     "answerType": "choice",
     "_reviewed": false,
@@ -2029,7 +2029,7 @@ const QUESTION_BANK = [
       "⑤ The Fastest Method of Harvesting Wheat"
     ],
     "answer": 2,
-    "explanation": "작물 다양화가 위험을 분산하는 장점에 초점을 맞춥니다.",
+    "explanation": "[지문 해석]\n한 농부는 모든 밭에 같은 작물만 심는 것을 피했다. 대신 서로 다른 영양분을 필요로 하고 서로 다른 곤충들을 유인하는 작물들을 섞어서 심었다. 밭을 관리하는 것이 더 복잡해졌지만, 이러한 다양성 덕분에 한 가지 문제가 모든 것을 한꺼번에 위협하는 것을 막을 수 있었다. 다양성은 실질적인 회복력의 형태가 될 수 있다.\n\n[해설]\n작물 다양화가 위험을 분산하는 장점에 초점을 맞춥니다.",
     "wrong_explanations": {},
     "answerType": "choice",
     "_reviewed": false,
@@ -2050,7 +2050,7 @@ const QUESTION_BANK = [
       "⑤ Why All Difficult Books Lack Value"
     ],
     "answer": 4,
-    "explanation": "독서 교육에서 도전과 지원의 균형이 핵심입니다.",
+    "explanation": "[지문 해석]\n학교에서는 학생들이 처음에 어려움을 겪을 수 있다는 이유로 난해한 책들을 독서 목록에서 제외하기도 한다. 하지만 교사가 적절한 지도와 시간을 제공할 때, 어려움은 오히려 의미 있는 대화를 촉발할 수 있다. 목표는 학습자들을 압도하거나 도전을 제거하는 것 중 어느 쪽도 아니다. 생산적인 학습은 까다로운 과제를 가능하게 만드는 지원을 필요로 한다.\n\n[해설]\n독서 교육에서 도전과 지원의 균형이 핵심입니다.",
     "wrong_explanations": {},
     "answerType": "choice",
     "_reviewed": false,
@@ -2071,7 +2071,7 @@ const QUESTION_BANK = [
       "⑤ The History of Artificial Fountains"
     ],
     "answer": 3,
-    "explanation": "하천 복원은 장기간 관찰과 인내를 요구한다는 내용입니다.",
+    "explanation": "[지문 해석]\n마을이 개울을 복원할 때, 성공이 즉시 나타나지 않을 수 있다. 새로 심은 제방이 안정화되는 데 시간이 필요하고, 물의 질이 개선된 후에야 물고기가 돌아올 수 있다. 빠른 가시적 결과를 기대하는 관계자들은 완만한 생태 복원 과정을 과소평가할 수 있다. 환경 사업은 종종 인내심과 장기적 관찰을 요구한다.\n\n[해설]\n하천 복원은 장기간 관찰과 인내를 요구한다는 내용입니다.",
     "wrong_explanations": {},
     "answerType": "choice",
     "_reviewed": false,
@@ -2092,7 +2092,7 @@ const QUESTION_BANK = [
       "⑤ Scientific Translation Beyond Individual Words"
     ],
     "answer": 5,
-    "explanation": "과학 번역에는 단어를 넘어 논리 구조의 전달이 필요합니다.",
+    "explanation": "[지문 해석]\n처음에 과학 자료를 번역하는 사람들은 전문 용어만 중요하다고 생각할 수 있다. 그러나 설명, 예시, 정의의 순서 역시 독자들이 아이디어를 이해하는지에 영향을 미친다. 정확한 단어만으로는 조직이 잘못된 설명을 구할 수 없다. 좋은 과학 번역은 단순한 어휘 목록이 아니라 추론의 구조를 전달한다.\n\n[해설]\n과학 번역에는 단어를 넘어 논리 구조의 전달이 필요합니다.",
     "wrong_explanations": {},
     "answerType": "choice",
     "_reviewed": false,
@@ -2113,7 +2113,7 @@ const QUESTION_BANK = [
       "⑤ 번 문장"
     ],
     "answer": 3,
-    "explanation": "③은 양봉과 무관한 골동품 가구 가격에 관한 문장입니다.",
+    "explanation": "[지문 해석]\n① 도시 양봉가들은 근처 공원의 꽃에 접근할 수 있는 옥상에 벌집을 설치한다. ② 그들은 또한 곤충들이 깨끗한 물에 접근할 수 있도록 해야 한다. ③ 골동품 가구의 가격은 여러 경매장에서 상승했다. ④ 정기적인 관찰은 양봉가들이 벌집의 질병 징후를 발견하는 데 도움이 된다. ⑤ 책임감 있는 관리는 옥상 벌집을 도시 생활과 양립할 수 있게 만들 수 있다.\n\n[해설]\n③은 양봉과 무관한 골동품 가구 가격에 관한 문장입니다.",
     "wrong_explanations": {},
     "answerType": "choice",
     "_reviewed": false,
@@ -2134,7 +2134,7 @@ const QUESTION_BANK = [
       "⑤ 번 문장"
     ],
     "answer": 4,
-    "explanation": "④는 천체 관측과 무관한 주방 기기 이야기입니다.",
+    "explanation": "[지문 해석]\n① 작은 망원경으로도 육안으로는 볼 수 없는 달의 세부 사항을 관찰할 수 있다. ② 천문학자들은 관찰 대상을 찾기 위해 먼저 낮은 배율의 접안렌즈를 사용할 것을 권장한다. ③ 대상이 중앙에 위치하면 더 높은 배율을 시도할 수 있다. ④ 현대의 대부분의 주방에는 요리용 전기 기구가 여러 개 있다. ⑤ 높은 배율에서는 상이 흔들리거나 흐려질 수 있으므로 인내심이 중요하다.\n\n[해설]\n④는 천체 관측과 무관한 주방 기기 이야기입니다.",
     "wrong_explanations": {},
     "answerType": "choice",
     "_reviewed": false,
@@ -2155,7 +2155,7 @@ const QUESTION_BANK = [
       "⑤ 번 문장"
     ],
     "answer": 5,
-    "explanation": "⑤는 도서관 서비스와 무관한 해구 형성 내용입니다.",
+    "explanation": "[지문 해석]\n① 공공도서관은 점점 더 인쇄된 책 이상의 것들을 제공하고 있다. ② 어떤 도서관들은 악기와 가정용 도구들을 대여해준다. ③ 또 다른 곳에서는 주민들이 팟캐스트를 녹음하거나 워크숍에 참석할 수 있는 공간을 제공한다. ④ 이러한 프로그램들은 개인이 소유하기에는 비용이 많이 드는 자원에 대한 접근성을 높여줄 수 있다. ⑤ 가장 깊은 대양의 해구는 지각 변동 과정을 통해 형성된다.\n\n[해설]\n⑤는 도서관 서비스와 무관한 해구 형성 내용입니다.",
     "wrong_explanations": {},
     "answerType": "choice",
     "_reviewed": false,
@@ -2176,7 +2176,7 @@ const QUESTION_BANK = [
       "⑤ 번 문장"
     ],
     "answer": 4,
-    "explanation": "④는 맹그로브 숲과 무관한 체스 대회 규정입니다.",
+    "explanation": "[지문 해석]\n① 맹그로브 숲은 열대 및 아열대 해안을 따라 자란다. ② 이들의 뿌리는 퇴적물을 포집하고 어린 물고기들에게 피난처를 제공할 수 있다. ③ 또한 일부 해안선에 도달하는 파도의 힘을 줄이는 데도 도움을 준다. ④ 국제 체스 경기는 여러 가지 시간 제한을 사용한다. ⑤ 따라서 맹그로브를 보호하는 것은 해안 생태계와 인근 지역사회 모두에게 이로울 수 있다.\n\n[해설]\n④는 맹그로브 숲과 무관한 체스 대회 규정입니다.",
     "wrong_explanations": {},
     "answerType": "choice",
     "_reviewed": false,
@@ -2197,7 +2197,7 @@ const QUESTION_BANK = [
       "⑤ 번 문장"
     ],
     "answer": 4,
-    "explanation": "④는 악기 학습과 무관한 생물의 이동입니다.",
+    "explanation": "[지문 해석]\n① 악기 연주를 배우는 것은 섬세한 손가락 협응력을 발달시키는 것을 포함한다. ② 매일의 연습은 움직임을 더욱 부드럽고 안정적으로 만드는 데 도움을 줄 수 있다. ③ 음악가들이 음정이나 리듬의 오류를 파악할 수 있게 해주는 것은 주의 깊은 청음이다. ④ 기온이 상승하면서 일부 산악 동물들은 더 높은 고지대로 이동한다. ⑤ 실력 향상은 물리적인 반복 연습과 집중력 있는 청음 모두에 달려 있다.\n\n[해설]\n④는 악기 학습과 무관한 생물의 이동입니다.",
     "wrong_explanations": {},
     "answerType": "choice",
     "_reviewed": false,
@@ -2218,7 +2218,7 @@ const QUESTION_BANK = [
       "⑤ 번 문장"
     ],
     "answer": 4,
-    "explanation": "④의 초기 여객기 이야기는 건축물 보존과 관계없습니다.",
+    "explanation": "[지문 해석]\n① 역사적 건물들은 종종 복구를 위해 특화된 기법을 필요로 한다. ② 원래 재료들은 현대의 대체재료들과 다르게 습기에 반응할 수 있다. ③ 따라서 보존 전문가들은 처리 방법을 선택하기 전에 그 구조를 조사한다. ④ 최초의 상업용 여객기는 상대적으로 적은 수의 승객을 태웠다. ⑤ 신중한 복원은 중요한 특징들을 보존하는 동시에 안전성을 보장하려고 한다.\n\n[해설]\n④의 초기 여객기 이야기는 건축물 보존과 관계없습니다.",
     "wrong_explanations": {},
     "answerType": "choice",
     "_reviewed": false,
@@ -2239,7 +2239,7 @@ const QUESTION_BANK = [
       "⑤ 번 문장"
     ],
     "answer": 5,
-    "explanation": "⑤는 농산물 직거래가 아닌 화산암 분류입니다.",
+    "explanation": "[지문 해석]\n① 지역 농산물 직거래 시장은 쇼핑객들이 생산자와 직접 소통할 수 있게 해준다. ② 고객들은 계절 날씨가 농작물에 어떤 영향을 미쳤는지 알 수 있다. ③ 이러한 대화를 통해 음식의 출처가 더욱 명확해질 수 있다. ④ 정기적인 접촉은 구매자와 생산자 사이의 신뢰를 형성하는 데도 도움이 된다. ⑤ 화성암은 광물 성분에 따라 분류되는 경우가 많다.\n\n[해설]\n⑤는 농산물 직거래가 아닌 화산암 분류입니다.",
     "wrong_explanations": {},
     "answerType": "choice",
     "_reviewed": false,
@@ -2260,7 +2260,7 @@ const QUESTION_BANK = [
       "⑤ 번 문장"
     ],
     "answer": 4,
-    "explanation": "④는 자전거 헬멧 안전과 무관한 물감 조합입니다.",
+    "explanation": "[지문 해석]\n① 좋은 자전거 헬멧은 불편함을 주지 않으면서도 단단히 맞아야 한다. ② 끈은 귀 주변에 안정적인 모양을 형성해야 한다. ③ 라이더는 손상이 눈에 띄지 않더라도 큰 충격 후에는 헬멧을 교체해야 한다. ④ 전문 화가들은 때때로 안료를 혼합하여 새로운 색상을 만든다. ⑤ 적절한 착용감과 유지보수는 보호 성능에 필수적이다.\n\n[해설]\n④는 자전거 헬멧 안전과 무관한 물감 조합입니다.",
     "wrong_explanations": {},
     "answerType": "choice",
     "_reviewed": false,
@@ -2281,7 +2281,7 @@ const QUESTION_BANK = [
       "⑤ 번 문장"
     ],
     "answer": 4,
-    "explanation": "④는 빗물 관리와 관련 없는 필사본에 관한 문장입니다.",
+    "explanation": "[지문 해석]\n① 도시는 빗물이 땅속으로 스며들 수 있도록 하는 포장재를 사용하여 거리 침수를 줄일 수 있다. ② 투과성 포장도로는 특히 교통량이 적은 적절한 지역에서 효과적인 방법이다. ③ 빗물 정원은 근처의 지붕과 보도에서 흘러내리는 일부 우수를 포집할 수 있다. ④ 현존하는 가장 오래된 원고들은 숙련된 필사가들에 의해 필사되었다. ⑤ 이러한 조치들은 기존의 배수 시스템을 완전히 대체하기보다는 이를 보완한다.\n\n[해설]\n④는 빗물 관리와 관련 없는 필사본에 관한 문장입니다.",
     "wrong_explanations": {},
     "answerType": "choice",
     "_reviewed": false,
@@ -2302,7 +2302,7 @@ const QUESTION_BANK = [
       "⑤ 번 문장"
     ],
     "answer": 4,
-    "explanation": "④는 산호초가 아니라 바이올린 활에 대한 문장입니다.",
+    "explanation": "[지문 해석]\n① 산호초는 먹이와 서식처를 제공함으로써 많은 종을 지탱한다. ② 따뜻한 물의 스트레스는 산호가 공생 조류를 잃게 할 수 있다. ③ 반복된 심각한 표백은 산호초의 회복을 더욱 어렵게 할 수 있다. ④ 바이올린 활의 품질은 부분적으로 그 균형에 달려 있다. ⑤ 지역 오염을 줄이는 것은 일부 산호초가 스트레스를 견디는 능력을 향상시킬 수 있다.\n\n[해설]\n④는 산호초가 아니라 바이올린 활에 대한 문장입니다.",
     "wrong_explanations": {},
     "answerType": "choice",
     "_reviewed": false,
@@ -2323,7 +2323,7 @@ const QUESTION_BANK = [
       "⑤ (A) exercise / (B) pollution"
     ],
     "answer": 1,
-    "explanation": "보행자의 안전을 확보하면서 에너지를 절약한 사례입니다.",
+    "explanation": "[지문 해석]\n어느 도시가 강변 산책로를 따라 동작 감지 조명을 설치했다. 이 조명은 보행자가 접근하면 밝아졌고 산책로가 비어 있으면 어두워졌다. 이러한 설계는 사용자의 시야를 확보하면서도 밤 늦게 불필요한 전력 소비를 줄였다. 이 프로젝트는 공공 서비스가 항상 최대 용량으로 운영될 필요는 없다는 것을 보여주었다.\n\n[요약문] 이 시스템은 보행자의 (A) ______ 과 에너지 (B) ______ 를 균형있게 조화시켰다.\n\n[해설]\n보행자의 안전을 확보하면서 에너지를 절약한 사례입니다.",
     "wrong_explanations": {},
     "answerType": "choice",
     "_reviewed": false,
@@ -2344,7 +2344,7 @@ const QUESTION_BANK = [
       "⑤ (A) memorization / (B) silence"
     ],
     "answer": 2,
-    "explanation": "초고에 대한 피드백과 이후 수정의 결합입니다.",
+    "explanation": "[지문 해석]\n한 교사가 학생들에게 최종 에세이를 제출하기 전에 초안을 먼저 제출할 것을 요청했다. 그녀는 즉시 점수를 매기는 대신 구성과 증거에 관한 구체적인 피드백을 제공했다. 학생들은 피드백을 검토한 후 자신의 작업을 수정했다. 이 과정은 학생들이 글쓰기를 시간에 따라 발전시킬 수 있는 것으로 보도록 장려했다.\n\n[요약문] 초기 (A) ______ 과 나중의 (B) ______ 는 학생들이 글쓰기를 향상시키도록 도와주었다.\n\n[해설]\n초고에 대한 피드백과 이후 수정의 결합입니다.",
     "wrong_explanations": {},
     "answerType": "choice",
     "_reviewed": false,
@@ -2365,7 +2365,7 @@ const QUESTION_BANK = [
       "⑤ (A) restricted / (B) darkness"
     ],
     "answer": 3,
-    "explanation": "쓰러진 나무가 빛을 제공해 일부 종에 유리한 조건을 만듭니다.",
+    "explanation": "[지문 해석]\n연구자들은 한 수종의 씨앗이 짙은 그림자에서는 잘 자라지 못하지만 햇빛이 드는 틈에서는 잘 자란다는 것을 관찰했다. 큰 나무가 쓰러지면 숲 바닥에 더 많은 빛이 도달했고, 휴면 중이던 일부 씨앗들이 자라기 시작했다. 처음에는 파괴적으로 보였던 사건이 새로운 식물들에게 기회를 만들어낸 것이다.\n\n[요약문] 숲의 교란은 (A) ______ 조건을 만들어 일부 종이 (B) ______에 대한 접근성을 높임으로써 그들의 생장을 촉진할 수 있다.\n\n[해설]\n쓰러진 나무가 빛을 제공해 일부 종에 유리한 조건을 만듭니다.",
     "wrong_explanations": {},
     "answerType": "choice",
     "_reviewed": false,
@@ -2386,7 +2386,7 @@ const QUESTION_BANK = [
       "⑤ (A) secrets / (B) defects"
     ],
     "answer": 4,
-    "explanation": "수리 정보 제공이 제품 수명을 늘려 폐기물 감소로 이어졌습니다.",
+    "explanation": "[지문 해석]\n어떤 제조업체가 고객들이 낡은 부품을 교체할 수 있는 방법을 보여주는 도표를 발행하기 시작했다. 지역의 수리점들은 그 정보를 이용해서 그렇지 않으면 버려질 뻔한 제품들을 수리했다. 더 많은 기기들이 더 오래 사용되면서 일부 교체 부품에 대한 수요가 감소했다.\n\n[요약문] 수리 (A) ______ 를 제공하면 제품의 (B) ______ 을 연장하고 폐기물을 줄일 수 있다.\n\n[해설]\n수리 정보 제공이 제품 수명을 늘려 폐기물 감소로 이어졌습니다.",
     "wrong_explanations": {},
     "answerType": "choice",
     "_reviewed": false,
@@ -2407,7 +2407,7 @@ const QUESTION_BANK = [
       "⑤ (A) tax / (B) spending"
     ],
     "answer": 2,
-    "explanation": "보행 연결로가 접근성을 개선한 사례입니다.",
+    "explanation": "[지문 해석]\n한 도시가 두 지역을 연결하는 좁은 보행로를 복구했다. 이 경로는 학교와 상점으로 가는 왕복 거리를 단축했다. 주민들이 더 자주 이용하기 시작했고, 근처 도로에서는 짧은 거리의 자동차 이용이 줄어들었다. 이 작은 프로젝트는 대규모 도로 건설 없이도 지역 접근성을 개선했다.\n\n[요약문] 소박한 보행자 (A) ______ 는 지역 (B) ______ 를 개선하고 일부 자동차 이용을 감소시켰다.\n\n[해설]\n보행 연결로가 접근성을 개선한 사례입니다.",
     "wrong_explanations": {},
     "answerType": "choice",
     "_reviewed": false,
@@ -2428,7 +2428,7 @@ const QUESTION_BANK = [
       "⑤ (A) accuracy / (B) speed"
     ],
     "answer": 3,
-    "explanation": "악기 음색(timbre)이 같은 선율의 정서적 의미를 바꿀 수 있습니다.",
+    "explanation": "[지문 해석]\n음악 수업에서 학생들은 다양한 악기로 연주된 같은 멜로디를 들었다. 음표는 변하지 않았지만, 녹음본들은 서로 다른 감정 효과를 만들어냈다. 학생들은 음악의 의미가 어떤 음표를 연주하는지뿐만 아니라 어떻게 들리는지에도 달려 있다고 결론지었다.\n\n[요약문] 음악의 (A) ______ 은(는) 멜로디뿐만 아니라 악기의 (B) ______ 에 의해서도 결정된다.\n\n[해설]\n악기 음색(timbre)이 같은 선율의 정서적 의미를 바꿀 수 있습니다.",
     "wrong_explanations": {},
     "answerType": "choice",
     "_reviewed": false,
@@ -2449,7 +2449,7 @@ const QUESTION_BANK = [
       "⑤ (A) memories / (B) evidence"
     ],
     "answer": 5,
-    "explanation": "어민의 기억과 문헌·기상 데이터의 결합이 중요합니다.",
+    "explanation": "[지문 해석]\n한 해안 마을이 나이 든 어부들로부터 구술 역사를 수집했다. 그들의 증언에는 폭풍, 변화하는 해안선, 과거 어획 시즌에 대한 관찰이 포함되어 있었다. 연구자들은 그 기억들을 기록된 자료와 기상 데이터와 비교했다. 이 출처들을 함께 활용하면 어느 하나만으로는 제공할 수 없는 더욱 완전한 이해를 얻을 수 있었다.\n\n[요약문] 개인적인 (A) ______ 을/를 문서화된 (B) ______ 과/와 결합하면 지역 환경 변화에 대한 지식을 풍부하게 할 수 있다.\n\n[해설]\n어민의 기억과 문헌·기상 데이터의 결합이 중요합니다.",
     "wrong_explanations": {},
     "answerType": "choice",
     "_reviewed": false,
@@ -2470,7 +2470,7 @@ const QUESTION_BANK = [
       "⑤ (A) security / (B) advertisements"
     ],
     "answer": 2,
-    "explanation": "상품 자체가 아니라 배치(layout)와 안내 표지(signage)를 개선했습니다.",
+    "explanation": "[지문 해석]\n한 마트가 자주 구매하는 채소를 입구 가까이로 옮기고 각 구역 위에 명확한 표지판을 설치했다. 고객들은 오래 돌아다니지 않고도 일반적인 식재료를 찾을 수 있었다. 마트는 상품 자체를 바꾼 것이 아니라 배치 방식과 쇼핑객들이 이용할 수 있는 정보를 변경했다.\n\n[요약문] 개선된 매장 (A) ______ 과 명확한 (B) ______ 은 쇼핑을 더 효율적으로 만들었다.\n\n[해설]\n상품 자체가 아니라 배치(layout)와 안내 표지(signage)를 개선했습니다.",
     "wrong_explanations": {},
     "answerType": "choice",
     "_reviewed": false,
@@ -2491,7 +2491,7 @@ const QUESTION_BANK = [
       "⑤ (A) industrial / (B) historical"
     ],
     "answer": 4,
-    "explanation": "운동과 사회적 교류를 동시에 지원합니다.",
+    "explanation": "[지문 해석]\n한 학교가 수업이 끝난 후 운동장을 근처 주민들에게 개방했다. 아이들은 운동할 수 있는 추가 공간을 얻었고, 부모들은 거의 말을 나누지 않던 이웃들을 만나게 되었다. 따라서 같은 시설이 새로운 건설을 필요로 하지 않으면서도 신체 활동과 지역사회 상호작용을 모두 지원했다.\n\n[요약문] 기존 시설을 공유하는 것은 (A) _________ 활동을 지원하고 (B) _________ 관계를 강화할 수 있다.\n\n[해설]\n운동과 사회적 교류를 동시에 지원합니다.",
     "wrong_explanations": {},
     "answerType": "choice",
     "_reviewed": false,
@@ -2512,7 +2512,7 @@ const QUESTION_BANK = [
       "⑤ (A) design / (B) fictional"
     ],
     "answer": 1,
-    "explanation": "작은 시각적 세부 정보로 사진의 촬영 시기를 추정했습니다.",
+    "explanation": "[지문 해석]\n어떤 역사가가 오래된 사진을 연구하던 중 두 개의 알려진 날짜 사이에 거리 표지판이 교체되었음을 발견했다. 이 작은 세부 사항을 시 디렉토리와 비교함으로써 그녀는 사진이 촬영된 시기를 좁혀낼 수 있었다. 간과되었던 특징이 이미지의 연대를 파악하는 데 귀중한 증거가 되었다.\n\n[요약문] 사소해 보이는 시각적 (A) ______ 은(는) 유용한 (B) ______ 증거를 제공할 수 있다.\n\n[해설]\n작은 시각적 세부 정보로 사진의 촬영 시기를 추정했습니다.",
     "wrong_explanations": {},
     "answerType": "choice",
     "_reviewed": false,
@@ -2532,7 +2532,7 @@ const QUESTION_BANK = [
       "⑤ Communities that embrace variety are better equipped to handle unexpected disruptions"
     ],
     "answer": 5,
-    "explanation": "이 글은 사례의 결과를 통해 “Diversity can help a community withstand unpredictable shocks”라는 핵심 요지를 전달합니다.",
+    "explanation": "[지문 해석]\n한 농업협동조합의 종자 교환 프로그램이 기존의 관례적인 방식만으로는 해결할 수 없는 문제에 직면했다. 여러 농장이 단일한 고수익 작물 품종에만 의존하고 있었던 것이다. 조합원들은 서로 다른 환경에 적합한 종자를 저장하고 거래하기 시작했다. 그 결과는 광범위하지만 초점이 흐릿한 노력보다는 신중하게 선택된 변화가 더욱 생산적일 수 있음을 보여주었다. 유난히 건조했던 여름에도 이전보다 훨씬 적은 농지가 피해를 입었다. 이는 다양성이 공동체가 예측 불가능한 충격에 견디는 데 도움이 될 수 있음을 시사한다.\n\n[해설]\n이 글은 사례의 결과를 통해 “Diversity can help a community withstand unpredictable shocks”라는 핵심 요지를 전달합니다.",
     "wrong_explanations": {},
     "_reviewed": false
   },
@@ -2549,7 +2549,7 @@ const QUESTION_BANK = [
       "⑤ Only professional ecologists should lead community restoration efforts."
     ],
     "answer": 2,
-    "explanation": "필자는 새 방안의 규모·신기함보다 이용자 요구와 실제 결과를 평가해야 한다고 주장합니다.",
+    "explanation": "[지문 해석]\n습지 복원팀이 기존의 일상적인 방식으로는 단순히 해결할 수 없는 문제에 직면했다. 외래 식물이 자생 풀들을 밀어냈던 것이다. 자원봉사자들은 이를 서서히 제거하고 토양 상태를 모니터링했다. 언뜻 보기에 이런 조정은 실질적인 변화를 가져오기에는 너무 제한적으로 보였지만, 그 효과는 결과를 검토한 후에야 분명해졌다. 자생 묘목들이 돌아왔지만, 생태계는 지속적인 관리가 필요했다. 이것이 모든 상황에서 같은 대책이 성공할 것을 보장하지는 않는다. 왜냐하면 자원과 지역의 필요성이 다를 수 있기 때문이다. 우리는 이러한 시도들을 단지 그것의 참신함이나 규모만으로 평가해서는 안 된다. 대신, 의사결정자들은 누가 이익을 얻는지, 어떤 증거가 그 결과를 뒷받침하는지, 그리고 그 접근 방식이 지역의 특수성에 맞는지를 살펴봐야 한다. 복원은 일회적인 정소 사업이 아니라 장기적인 과정이다.\n\n[해설]\n필자는 새 방안의 규모·신기함보다 이용자 요구와 실제 결과를 평가해야 한다고 주장합니다.",
     "wrong_explanations": {},
     "_reviewed": false
   },
@@ -2566,7 +2566,7 @@ const QUESTION_BANK = [
       "⑤ 번 문장"
     ],
     "answer": 5,
-    "explanation": "⑤은 A school's lunchtime discussion tables에 관한 별개의 진술로, 나머지 네 문장의 문제 → 해결 조치 → 결과 → 시사점 흐름과 무관합니다.",
+    "explanation": "[지문 해석]\n① 오래된 실험실 노트들이 여러 사무실에 흩어져 있었다. ② 직원들은 페이지를 스캔하고 검색 가능한 설명을 추가했다. ③ 연구원들은 그렇지 않았다면 반복했을 실험들을 발견했다. ④ 기록을 보존하는 것은 불필요한 중복 작업을 방지할 수 있다. ⑤ 학교의 점심시간 식탁들은 고유한 역사와 행정 일정을 가지고 있다.\n\n[해설]\n⑤은 A school's lunchtime discussion tables에 관한 별개의 진술로, 나머지 네 문장의 문제 → 해결 조치 → 결과 → 시사점 흐름과 무관합니다.",
     "wrong_explanations": {},
     "_reviewed": false
   },
@@ -2583,7 +2583,7 @@ const QUESTION_BANK = [
       "⑤ Conservation efforts succeed more when they shape habits rather than simply impose restrictions"
     ],
     "answer": 5,
-    "explanation": "이 글은 사례의 결과를 통해 “Protecting nature often requires guiding behavior, not merely prohibiting it”라는 핵심 요지를 전달합니다.",
+    "explanation": "[지문 해석]\n산악 트레일 유지보수팀은 기존의 일상적인 방식만으로는 해결할 수 없는 문제에 직면했다. 등산객들이 반복적으로 취약한 경사지를 가로질러 지름길을 이용했던 것이다. 레인저들은 표지판을 개선하고 공식 등산로를 정비했다. 언뜻 보기에 이 조치는 실질적인 변화를 가져오기에는 너무 제한적으로 보였지만, 결과를 검토한 후에야 그 효과가 분명해졌다. 발걸음이 우회된 곳에서 식생이 회복된 것이다. 이것이 모든 환경에서 같은 조치가 성공할 것을 보장하지는 않는데, 그것은 자원과 지역의 필요가 다를 수 있기 때문이다. 자연을 보호하는 것은 단순히 무언가를 금지하는 것이 아니라 행동을 올바른 방향으로 유도하는 것을 요구한다.\n\n[해설]\n이 글은 사례의 결과를 통해 “Protecting nature often requires guiding behavior, not merely prohibiting it”라는 핵심 요지를 전달합니다.",
     "wrong_explanations": {},
     "_reviewed": false
   },
@@ -2600,7 +2600,7 @@ const QUESTION_BANK = [
       "⑤ Only large theaters have the resources needed to implement accessibility programs."
     ],
     "answer": 2,
-    "explanation": "필자는 새 방안의 규모·신기함보다 이용자 요구와 실제 결과를 평가해야 한다고 주장합니다.",
+    "explanation": "[지문 해석]\n한 극장의 자막 공연이 통상적인 관행만으로는 해결할 수 없는 문제에 직면했다. 일부 관객들은 대사를 명확하게 따라갈 수 없었던 것이다. 극단은 무대 옆에 정교하게 시간을 맞춘 자막을 추가했다. 청각 장애가 있는 다양한 관객들의 관람 수가 증가했다. 우리는 이러한 시도들을 단순히 참신성이나 규모만으로 평가해서는 안 된다. 대신 의사결정자들은 누가 혜택을 받는지, 어떤 증거가 결과를 뒷받침하는지, 그리고 그 방식이 지역 상황에 적합한지를 살펴봐야 한다. 접근성은 예술작품의 핵심을 변화시키지 않으면서도 참여의 폭을 넓힐 수 있다.\n\n[해설]\n필자는 새 방안의 규모·신기함보다 이용자 요구와 실제 결과를 평가해야 한다고 주장합니다.",
     "wrong_explanations": {},
     "_reviewed": false
   },
@@ -2617,7 +2617,7 @@ const QUESTION_BANK = [
       "⑤ The original arrangement was already perfect and required no reconsideration."
     ],
     "answer": 4,
-    "explanation": "이 글은 사례의 결과를 통해 “Measurement can turn vague concerns into practical decisions”라는 핵심 요지를 전달합니다.",
+    "explanation": "[지문 해석]\n한 가족의 에너지 사용 기록이 일상적인 루틴을 반복하는 것만으로는 해결할 수 없는 문제에 직면했다. 그들은 전기료 청구서의 변화를 설명할 수 없었다. 하루 중 다양한 시간대에 가전제품 사용 현황을 기록했다. 그 기록을 통해 낡은 난방기가 주요 전력 소비원임을 파악했다. 측정이란 모호한 우려를 실질적인 결정으로 바꿔놓을 수 있다.\n\n[해설]\n이 글은 사례의 결과를 통해 “Measurement can turn vague concerns into practical decisions”라는 핵심 요지를 전달합니다.",
     "wrong_explanations": {},
     "_reviewed": false
   },
@@ -2634,7 +2634,7 @@ const QUESTION_BANK = [
       "⑤ Simplifying health alerts reduces their credibility among informed audiences."
     ],
     "answer": 3,
-    "explanation": "필자는 새 방안의 규모·신기함보다 이용자 요구와 실제 결과를 평가해야 한다고 주장합니다.",
+    "explanation": "[지문 해석]\n어떤 도시의 폭염 경보 메시지가 관례적인 방식의 반복만으로는 해결할 수 없는 문제에 직면했다. 기존의 경보는 기술적인 기온 수치를 사용했는데, 많은 주민들이 이를 제대로 이해하지 못했다. 보건당국 담당자들은 물 섭취와 그늘진 장소에 대한 구체적인 조언을 추가했다. 그 결과는 광범위하지만 초점이 흐린 노력보다 신중하게 선택된 작은 변화가 더 효과적일 수 있음을 시사했다. 매우 더운 날씨에 야외 계획을 변경한다고 보고한 사람들이 늘어났다. 우리는 그러한 정책들을 단순히 새로움이나 규모만으로 평가해서는 안 된다. 대신 의사결정자들은 누가 혜택을 받는지, 어떤 증거가 그 결과를 뒷받침하는지, 그리고 그 방식이 지역 상황에 맞는지를 살펴봐야 한다. 경보는 사람들이 어떤 조치를 취해야 하는지 알 때 가장 효과적이다.\n\n[해설]\n필자는 새 방안의 규모·신기함보다 이용자 요구와 실제 결과를 평가해야 한다고 주장합니다.",
     "wrong_explanations": {},
     "_reviewed": false
   },
@@ -2651,7 +2651,7 @@ const QUESTION_BANK = [
       "⑤ The most effective strategy is to ignore the original problem until it disappears."
     ],
     "answer": 2,
-    "explanation": "이 글은 사례의 결과를 통해 “Visual examples can improve compliance with everyday rules”라는 핵심 요지를 전달합니다.",
+    "explanation": "[지문 해석]\n재활용 센터의 분류 안내서는 기존의 일상적인 방식 반복만으로는 해결할 수 없는 문제에 직면했다. 주민들이 수집 상자에 부적절한 물질을 자주 넣었기 때문이다. 직원들은 복잡한 지시사항을 일반적인 실수 사진으로 대체했다. 그 결과는 광범위하지만 초점이 흐린 노력보다 신중하게 선택된 변화가 더 효과적일 수 있음을 시사했다. 안내서가 배포된 후 오염도가 감소했다. 시각적 사례는 일상의 규칙 준수를 개선할 수 있다.\n\n[해설]\n이 글은 사례의 결과를 통해 “Visual examples can improve compliance with everyday rules”라는 핵심 요지를 전달합니다.",
     "wrong_explanations": {},
     "_reviewed": false
   },
@@ -2668,7 +2668,7 @@ const QUESTION_BANK = [
       "⑤ History walks should avoid mentioning buildings that no longer exist."
     ],
     "answer": 4,
-    "explanation": "필자는 새 방안의 규모·신기함보다 이용자 요구와 실제 결과를 평가해야 한다고 주장합니다.",
+    "explanation": "[지문 해석]\n한 지역사 산책 프로그램이 단순히 기존의 일상적 방식을 반복해서는 해결할 수 없는 문제에 직면했다. 방문객들은 주로 새로운 아파트 타워를 통해 그 지역을 알고 있었다. 주민들은 산책로를 따라 예전의 공장과 시장들을 표시했다. 언뜻 보기에 이러한 조정은 실질적인 변화를 가져오기에는 너무 제한적으로 보일 수 있었지만, 그 효과는 결과를 검토한 후에야 분명해졌다. 참가자들은 과거의 산업들이 지역의 거리들을 어떻게 형성해왔는지 발견했다. 이것이 모든 상황에서 같은 조치가 성공할 것을 보장하지는 않는다. 왜냐하면 자원과 지역의 필요성이 다를 수 있기 때문이다. 우리는 이러한 계획들을 단순히 참신성이나 규모로만 평가해서는 안 된다. 대신, 정책 담당자들은 누가 혜택을 받는지, 어떤 증거가 그 결과를 뒷받침하는지, 그리고 그 접근 방식이 지역의 상황에 맞는지를 살펴봐야 한다. 일상적인 장소들은 쉽게 간과되기 쉬운 역사의 층들을 담고 있을 수 있다.\n\n[해설]\n필자는 새 방안의 규모·신기함보다 이용자 요구와 실제 결과를 평가해야 한다고 주장합니다.",
     "wrong_explanations": {},
     "_reviewed": false
   },
@@ -2685,7 +2685,7 @@ const QUESTION_BANK = [
       "⑤ Bringing key information directly to decision-makers increases its practical value"
     ],
     "answer": 5,
-    "explanation": "이 글은 사례의 결과를 통해 “Important information should reach people where decisions are made”라는 핵심 요지를 전달합니다.",
+    "explanation": "[지문 해석]\n산악 구조 단체의 안내 공지가 통상적인 방식만으로는 해결할 수 없는 문제에 직면했다. 등산객들은 길고 복잡한 온라인 문서에 숨겨진 경고를 자주 놓쳤다. 구조대원들은 등산로 입구와 중간 지점에 간결한 공지를 설치했다. 언뜻 보면 이러한 조정이 너무 제한적이어서 실질적인 효과를 거두기 어려울 것으로 보였지만, 결과를 검토한 후에야 그 효과가 명확해졌다. 더 많은 방문객들이 위험한 지역에 도달하기 전에 통행 금지 정보를 알게 되었다. 다만 자원과 지역의 필요성이 다를 수 있으므로, 같은 조치가 모든 상황에서 성공하리란 보장은 없다. 중요한 정보는 사람들이 결정을 내리는 바로 그 지점에서 전달되어야 한다.\n\n[해설]\n이 글은 사례의 결과를 통해 “Important information should reach people where decisions are made”라는 핵심 요지를 전달합니다.",
     "wrong_explanations": {},
     "_reviewed": false
   },
@@ -2702,7 +2702,7 @@ const QUESTION_BANK = [
       "⑤ Physical contact with replicas reduces visitors' appreciation of the originals."
     ],
     "answer": 1,
-    "explanation": "필자는 새 방안의 규모·신기함보다 이용자 요구와 실제 결과를 평가해야 한다고 주장합니다.",
+    "explanation": "[지문 해석]\n어느 박물관의 촉각 모형은 일상적인 관행을 반복하는 것만으로는 해결할 수 없는 문제에 직면했다. 관람객들은 고대 조각상을 볼 수는 있었지만 만져볼 수 없었다. 학예사들은 상세한 언어 설명과 함께 튼튼한 복제품을 소개했다. 시각 장애가 있는 사람들은 그때까지 접할 수 없었던 형태를 탐색할 수 있게 되었다. 우리는 이러한 시도들을 단순히 참신성이나 규모만으로 평가해서는 안 된다. 오히려 의사결정자들은 누가 혜택을 받는지, 어떤 증거가 그 결과를 뒷받침하는지, 그리고 그 접근 방식이 지역 상황에 맞는지 살펴봐야 한다. 대안적 형식들은 더 많은 사람들에게 경험의 문을 열어줄 수 있다.\n\n[해설]\n필자는 새 방안의 규모·신기함보다 이용자 요구와 실제 결과를 평가해야 한다고 주장합니다.",
     "wrong_explanations": {},
     "_reviewed": false
   },
@@ -2719,7 +2719,7 @@ const QUESTION_BANK = [
       "⑤ The outcome shows that gathering information is always less valuable than acting immediately."
     ],
     "answer": 3,
-    "explanation": "이 글은 사례의 결과를 통해 “Observation methods influence what investigators are able to detect”라는 핵심 요지를 전달합니다.",
+    "explanation": "[지문 해석]\n한 보존 단체의 카메라 덫이 통상적인 방식의 반복만으로는 해결할 수 없는 문제에 직면했다. 오직 낮 시간의 목격 사례만을 바탕으로 한 야생동물 개체 수 조사는 오도적이었다. 연구원들은 동물의 이동 경로를 따라 동작 감지 카메라를 설치했다. 그 영상들은 여러 종의 동물이 주로 밤에 활동한다는 것을 보여주었다. 관찰 방법은 조사자들이 무엇을 감지할 수 있는지에 영향을 미친다.\n\n[해설]\n이 글은 사례의 결과를 통해 “Observation methods influence what investigators are able to detect”라는 핵심 요지를 전달합니다.",
     "wrong_explanations": {},
     "_reviewed": false
   },
@@ -2736,7 +2736,7 @@ const QUESTION_BANK = [
       "⑤ Infrastructure redesign is always preferable to signage changes in transit systems."
     ],
     "answer": 1,
-    "explanation": "필자는 새 방안의 규모·신기함보다 이용자 요구와 실제 결과를 평가해야 한다고 주장합니다.",
+    "explanation": "[지문 해석]\n한 공공 대중교통 기관의 안내 표지판이 통상적인 관행을 반복하는 것만으로는 해결할 수 없는 문제에 직면했다. 승객들이 인근의 두 열차 노선 간 연결을 놓치고 있었던 것이다. 계획담당자들은 여행객들이 실제로 망설이는 지점에 표지판을 설치해 시험했다. 그 결과는 광범위하지만 초점이 흐린 노력보다 신중하게 선택된 작은 변화가 더 효과적일 수 있음을 시사했다. 새로운 통로를 건설하지 않고도 길 찾기가 개선되었다. 우리는 이러한 시도들을 단순히 참신함이나 규모만으로 평가해서는 안 된다. 대신 의사결정자들은 누가 혜택을 받는지, 어떤 증거가 그 결과를 뒷받침하는지, 그리고 그 접근법이 지역의 특수성에 맞는지 살펴봐야 한다. 때로는 건설보다 더 나은 정보 제공이 문제를 더 저렴하게 해결할 수 있다.\n\n[해설]\n필자는 새 방안의 규모·신기함보다 이용자 요구와 실제 결과를 평가해야 한다고 주장합니다.",
     "wrong_explanations": {},
     "_reviewed": false
   },
@@ -2753,7 +2753,7 @@ const QUESTION_BANK = [
       "⑤ The most effective strategy is to ignore the original problem until it disappears."
     ],
     "answer": 3,
-    "explanation": "이 글은 사례의 결과를 통해 “Shared responsibility can develop skills that fixed hierarchies overlook”라는 핵심 요지를 전달합니다.",
+    "explanation": "[지문 해석]\n학교 오케스트라의 역할 순환 제도는 기존의 관례적인 방식만으로는 해결할 수 없는 문제에 직면했다. 항상 같은 학생들만 주요 파트를 맡게 되었기 때문이다. 지휘자는 연습 중에 섹션별 역할을 바꿔가며 진행했다. 그 결과는 광범위하지만 초점이 흐릿한 노력보다 신중하게 선택된 변화가 더 효과적일 수 있음을 시사했다. 더 많은 단원들이 신호를 주고 앙상블의 소리를 경청하는 법을 배웠다. 공동의 책임은 고정된 위계질서에서는 간과될 수 있는 기술들을 개발할 수 있다.\n\n[해설]\n이 글은 사례의 결과를 통해 “Shared responsibility can develop skills that fixed hierarchies overlook”라는 핵심 요지를 전달합니다.",
     "wrong_explanations": {},
     "_reviewed": false
   },
@@ -2770,7 +2770,7 @@ const QUESTION_BANK = [
       "⑤ Community complaints about ice conditions are rarely actionable in the short term."
     ],
     "answer": 3,
-    "explanation": "필자는 새 방안의 규모·신기함보다 이용자 요구와 실제 결과를 평가해야 한다고 주장합니다.",
+    "explanation": "[지문 해석]\n어느 도시의 겨울 보도 관리 계획은 기존의 일상적인 방식을 단순히 반복하는 것으로는 해결할 수 없는 문제에 직면했다. 제설 작업팀은 자동차가 다니는 도로를 우선적으로 정리했다. 주민들은 얼음으로 덮인 보도가 짧은 거리의 도보 이동을 방해한다고 설명했다. 언뜻 보기에 이러한 조정은 실질적인 변화를 가져오기에는 너무 제한적으로 보였지만, 결과를 살펴본 후에야 그 효과가 드러났다. 관계자들은 붐비는 보행자 횡단보도를 우선순위 목록에 추가했다. 자원과 지역의 필요가 다를 수 있기 때문에 이 같은 조치가 모든 상황에서 성공을 보장하지는 않는다. 우리는 이러한 대책들을 단순히 참신함이나 규모로 평가해서는 안 된다. 대신 의사결정자들은 누가 혜택을 받는지, 어떤 근거가 결과를 뒷받침하는지, 그리고 그 방식이 지역의 조건에 맞는지를 살펴봐야 한다. 교통 계획은 차량 이동만을 고려해서는 안 된다.\n\n[해설]\n필자는 새 방안의 규모·신기함보다 이용자 요구와 실제 결과를 평가해야 한다고 주장합니다.",
     "wrong_explanations": {},
     "_reviewed": false
   },
@@ -2787,7 +2787,7 @@ const QUESTION_BANK = [
       "⑤ Any improvement proves that the same intervention will work in every location."
     ],
     "answer": 4,
-    "explanation": "이 글은 사례의 결과를 통해 “Transparent supply chains can make economic choices better informed”라는 핵심 요지를 전달합니다.",
+    "explanation": "[지문 해석]\n한 커피 협동조합의 직거래 보고서는 통상적인 방식의 반복만으로는 해결할 수 없는 문제에 직면했다. 고객들은 가격은 알았지만 농민들의 생산 비용에 대해서는 거의 알지 못했다. 협동조합은 지급액과 계절적 위험에 관한 요약 정보를 공개했다. 언뜻 보기에는 이러한 조정이 실질적인 변화를 가져오기에는 너무 제한적으로 보였지만, 그 효과는 결과를 검토한 후에야 드러났다. 구매자들은 상점의 가격보다 더 많은 것을 고려하여 공정성을 논의하기 시작했다. 이것이 모든 상황에서 같은 방식이 성공할 것을 보장하지는 않는데, 이는 자원과 지역의 필요가 서로 다를 수 있기 때문이다. 투명한 공급망은 경제적 선택을 보다 합리적으로 만들 수 있다.\n\n[해설]\n이 글은 사례의 결과를 통해 “Transparent supply chains can make economic choices better informed”라는 핵심 요지를 전달합니다.",
     "wrong_explanations": {},
     "_reviewed": false
   },
@@ -2804,7 +2804,7 @@ const QUESTION_BANK = [
       "⑤ Community music archives serve a narrower purpose than professionally managed collections."
     ],
     "answer": 2,
-    "explanation": "필자는 새 방안의 규모·신기함보다 이용자 요구와 실제 결과를 평가해야 한다고 주장합니다.",
+    "explanation": "[지문 해석]\n음악 자료관의 디지털화 선택이 기존의 통상적인 방식을 단순히 반복하는 것으로는 해결할 수 없는 문제에 직면했다. 취약한 녹음물들이 그 출처에 대한 기록 없이 복사되고 있었던 것이다. 사료 관리자들은 연주자의 이름과 녹음 조건을 파일과 함께 기록했다. 그럼으로써 미래의 청취자들은 오디오를 더욱 정확하게 해석할 수 있게 되었다. 우리는 이러한 사업들을 단순히 그 참신성이나 규모만으로 평가해서는 안 된다. 대신 의사결정자들은 누가 혜택을 받는지, 어떤 증거가 그 결과를 뒷받침하는지, 그리고 그 방식이 지역의 상황에 맞는지를 검토해야 한다. 보존은 기술적인 사본뿐만 아니라 맥락도 필요하다.\n\n[해설]\n필자는 새 방안의 규모·신기함보다 이용자 요구와 실제 결과를 평가해야 한다고 주장합니다.",
     "wrong_explanations": {},
     "_reviewed": false
   },
@@ -2821,7 +2821,7 @@ const QUESTION_BANK = [
       "⑤ Consumers are unlikely to adopt reusable containers without direct regulation."
     ],
     "answer": 2,
-    "explanation": "필자는 새 방안의 규모·신기함보다 이용자 요구와 실제 결과를 평가해야 한다고 주장합니다.",
+    "explanation": "[지문 해석]\n어느 도시의 재사용 컵 프로그램이 일상적인 방식을 반복하는 것만으로는 해결할 수 없는 문제에 직면했다. 대부분의 통근자들은 일회용 용기에 담긴 음료를 구매했다. 참여 카페들은 반환 가능한 컵에 대해 소액의 보증금을 제공했다. 그 결과는 광범위하지만 초점이 흐린 노력보다 신중하게 선택된 변화가 더 효과적일 수 있음을 시사했다. 지하철 출구 근처에 회수 지점이 생기자 반환율이 증가했다. 우리는 이러한 시도들을 단순히 참신성이나 규모만으로 평가해서는 안 된다. 대신 의사결정자들은 누가 이득을 보는지, 어떤 근거가 그 결과를 뒷받침하는지, 그리고 그 접근 방식이 지역의 상황에 맞는지 살펴봐야 한다. 편리한 인프라는 좋은 의도만큼이나 중요할 수 있다.\n\n[해설]\n필자는 새 방안의 규모·신기함보다 이용자 요구와 실제 결과를 평가해야 한다고 주장합니다.",
     "wrong_explanations": {},
     "_reviewed": false
   },
@@ -2838,7 +2838,7 @@ const QUESTION_BANK = [
       "⑤ The original arrangement was already perfect and required no reconsideration."
     ],
     "answer": 4,
-    "explanation": "이 글은 사례의 결과를 통해 “Preserving records can prevent unnecessary duplication of effort”라는 핵심 요지를 전달합니다.",
+    "explanation": "[지문 해석]\n한 대학의 연구 자료실이 일상적인 방식만으로는 해결할 수 없는 문제에 직면했다. 오래된 실험실 노트들이 여러 사무실에 흩어져 있었던 것이다. 직원들은 페이지들을 스캔한 후 검색 가능한 설명을 추가했다. 덕분에 연구자들은 그렇지 않았다면 반복했을 실험들을 찾아낼 수 있었다. 이처럼 기록을 보존하면 불필요한 중복 작업을 방지할 수 있다.\n\n[해설]\n이 글은 사례의 결과를 통해 “Preserving records can prevent unnecessary duplication of effort”라는 핵심 요지를 전달합니다.",
     "wrong_explanations": {},
     "_reviewed": false
   },
@@ -2855,7 +2855,7 @@ const QUESTION_BANK = [
       "⑤ Community volunteers lack the expertise needed to contribute to hazard planning."
     ],
     "answer": 3,
-    "explanation": "필자는 새 방안의 규모·신기함보다 이용자 요구와 실제 결과를 평가해야 한다고 주장합니다.",
+    "explanation": "[지문 해석]\n한 지역사회의 홍수 지도가 기존의 일상적인 방식만으로는 해결할 수 없는 문제에 직면했다. 주민들은 지난 대형 폭풍우의 기억에 의존했다. 자원봉사자들은 인터뷰와 공개적으로 이용 가능한 고도 데이터를 결합했다. 언뜻 보기에 이 조정은 실질적인 변화를 가져오기에는 너무 제한적으로 보였으나, 그 효과는 결과를 검토한 후에야 명확해졌다. 그 지도는 오래된 계획 문서에서 간과된 저지대 거리들을 파악했다. 이것이 모든 상황에서 동일한 조치가 성공한다는 것을 보장하지는 않는데, 자원과 지역의 필요성이 다를 수 있기 때문이다. 우리는 그러한 이니셔티브를 단순히 그 참신성이나 규모로만 평가해서는 안 된다. 대신 의사결정자들은 누가 혜택을 받는지, 어떤 증거가 결과를 뒷받침하는지, 그리고 그 접근 방식이 지역 조건에 맞는지를 살펴봐야 한다. 다양한 종류의 증거는 숨겨진 취약점을 드러낼 수 있다.\n\n[해설]\n필자는 새 방안의 규모·신기함보다 이용자 요구와 실제 결과를 평가해야 한다고 주장합니다.",
     "wrong_explanations": {},
     "_reviewed": false
   },
@@ -2872,7 +2872,7 @@ const QUESTION_BANK = [
       "⑤ Tackling multifaceted challenges is more effective when several coordinated strategies are combined"
     ],
     "answer": 5,
-    "explanation": "이 글은 사례의 결과를 통해 “Complex problems often require multiple complementary responses”라는 핵심 요지를 전달합니다.",
+    "explanation": "[지문 해석]\n한 항구 도시의 방조제 논쟁이 관례적인 방식으로는 해결할 수 없는 문제에 직면했다. 주민들은 더 높은 방조제만이 유일한 홍수 대책이라고 생각했다. 기술자들은 방벽과 복원된 습지, 그리고 개선된 배수 시스템을 비교했다. 그 결과는 광범위하지만 초점이 흐린 노력보다 신중하게 선택된 변화가 더 효과적일 수 있음을 시사했다. 통합 제안은 단순히 파도의 높이뿐만 아니라 여러 위험 요소를 해결했다. 복잡한 문제들은 종종 여러 개의 상호보완적인 해결책을 필요로 한다.\n\n[해설]\n이 글은 사례의 결과를 통해 “Complex problems often require multiple complementary responses”라는 핵심 요지를 전달합니다.",
     "wrong_explanations": {},
     "_reviewed": false
   },
@@ -2889,7 +2889,7 @@ const QUESTION_BANK = [
       "⑤ Engaging community members in documenting their own language strengthens preservation outcomes."
     ],
     "answer": 5,
-    "explanation": "필자는 새 방안의 규모·신기함보다 이용자 요구와 실제 결과를 평가해야 한다고 주장합니다.",
+    "explanation": "[지문 해석]\n한 언어 자료관의 음성 수집물이 통상적인 방식의 반복만으로는 해결할 수 없는 문제에 직면했다. 젊은 세대의 화자들이 지역 방언을 거의 녹음하지 않았던 것이다. 지역 주민들은 연장자들과의 인터뷰를 통해 일상적인 표현들을 기록했다. 이후 교사들은 이 녹음 자료를 학생들에게 지역 방언을 소개하는 데 활용했다. 우리는 이러한 시도들을 단순히 그 참신성이나 규모만으로 평가해서는 안 된다. 대신 의사결정권자들은 누가 혜택을 받는지, 어떤 증거가 결과를 뒷받침하는지, 그리고 그 접근 방식이 지역 여건에 맞는지를 살펴보아야 한다. 살아있는 음성을 보존하는 것은 문화적 연속성을 지탱할 수 있다.\n\n[해설]\n필자는 새 방안의 규모·신기함보다 이용자 요구와 실제 결과를 평가해야 한다고 주장합니다.",
     "wrong_explanations": {},
     "_reviewed": false
   },
@@ -2906,7 +2906,7 @@ const QUESTION_BANK = [
       "⑤ The most effective strategy is to ignore the original problem until it disappears."
     ],
     "answer": 2,
-    "explanation": "이 글은 사례의 결과를 통해 “Inclusive communication improves the reach of essential information”라는 핵심 요지를 전달합니다.",
+    "explanation": "[지문 해석]\n지역사회 라디오 방송국의 번역 프로젝트는 기존의 관례적 방식을 반복하는 것만으로는 해결할 수 없는 문제에 직면했다. 긴급 공지사항은 주류 언어 사용자들에게만 전달되고 있었던 것이다. 자원봉사자들은 지역에서 실제로 사용되는 여러 언어로 된 버전을 준비했다. 언뜻 보기에 이러한 조치는 너무 제한적이어서 실질적인 변화를 만들어내기 어려워 보였으나, 그 효과는 결과를 검토한 후에야 명확해졌다. 폭풍우 발생 시 더 많은 주민들이 지원을 받을 수 있는 장소를 파악할 수 있게 된 것이다. 다만 이 방법이 모든 상황에서 성공을 보장하는 것은 아닌데, 이는 지역마다 보유한 자원과 필요한 것들이 다르기 때문이다. 포용적인 소통은 필수 정보가 더 많은 사람들에게 도달하도록 한다.\n\n[해설]\n이 글은 사례의 결과를 통해 “Inclusive communication improves the reach of essential information”라는 핵심 요지를 전달합니다.",
     "wrong_explanations": {},
     "_reviewed": false
   },
@@ -2923,7 +2923,7 @@ const QUESTION_BANK = [
       "⑤ Presenting information in familiar, actionable formats helps users make better decisions."
     ],
     "answer": 5,
-    "explanation": "필자는 새 방안의 규모·신기함보다 이용자 요구와 실제 결과를 평가해야 한다고 주장합니다.",
+    "explanation": "[지문 해석]\n한 농업용 날씨 앱이 관례적인 방법의 반복만으로는 해결할 수 없는 문제에 직면했다. 농민들은 상세한 차트를 받았지만 이를 해석하기 어려워했다. 설계자들은 명확한 기호와 예보 범위에 대한 간단한 설명을 추가했다. 그 결과는 광범위하지만 초점이 맞지 않는 노력보다 신중하게 선택된 변화가 더 생산적일 수 있음을 시사했다. 사용자들은 파종과 관개 시기에 대해 더 나은 의사결정을 내렸다. 우리는 이러한 시도들을 단순히 혁신성이나 규모로만 평가해서는 안 된다. 대신 의사결정자들은 누가 혜택을 받는지, 어떤 증거가 결과를 뒷받침하는지, 그리고 그 방식이 지역적 조건에 맞는지 살펴봐야 한다. 유용한 데이터는 또한 이해하기 쉬운 형태로 제시되어야 한다.\n\n[해설]\n필자는 새 방안의 규모·신기함보다 이용자 요구와 실제 결과를 평가해야 한다고 주장합니다.",
     "wrong_explanations": {},
     "_reviewed": false
   },
@@ -2940,7 +2940,7 @@ const QUESTION_BANK = [
       "⑤ Any improvement proves that the same intervention will work in every location."
     ],
     "answer": 4,
-    "explanation": "이 글은 사례의 결과를 통해 “Reducing upfront costs can widen access to an activity”라는 핵심 요지를 전달합니다.",
+    "explanation": "[지문 해석]\n음악학교의 악기 대출 문제는 기존의 일상적인 방식을 반복하는 것만으로는 해결할 수 없었다. 저소득 가정의 아이들은 악기를 구입할 여유가 없었다. 학교는 기부금으로 지원되는 대출 프로그램을 만들었다. 더 많은 학생들이 악기 구입을 결정하기 전에 앙상블에 참여할 수 있게 되었다. 초기 비용을 줄이면 활동에 대한 접근성을 넓힐 수 있다.\n\n[해설]\n이 글은 사례의 결과를 통해 “Reducing upfront costs can widen access to an activity”라는 핵심 요지를 전달합니다.",
     "wrong_explanations": {},
     "_reviewed": false
   },
@@ -2957,7 +2957,7 @@ const QUESTION_BANK = [
       "⑤ Student participation in garden maintenance reduces academic focus during school hours."
     ],
     "answer": 1,
-    "explanation": "필자는 새 방안의 규모·신기함보다 이용자 요구와 실제 결과를 평가해야 한다고 주장합니다.",
+    "explanation": "[지문 해석]\n한 공립학교의 옥상정원은 평소의 일상적인 방식만으로는 해결할 수 없는 문제에 직면했다. 옥상이 방치되어 여름철에 지나치게 뜨거워진 것이었다. 교사들은 안전 장치를 갖춘 가벼운 화단을 설치했다. 언뜻 보기에 이 개선책은 실질적인 변화를 가져오기에 너무 제한적으로 보였지만, 그 효과는 결과를 자세히 살펴본 후에야 드러났다. 학생들은 곤충들을 관찰했고 그늘진 표면은 더 적은 열을 흡수했다. 이것이 모든 환경에서 같은 조치가 성공할 것을 보장하지는 않는데, 왜냐하면 자원과 지역의 필요성이 다를 수 있기 때문이다. 우리는 이러한 시도들을 단순히 참신함이나 규모로만 평가해서는 안 된다. 오히려 의사 결정자들은 누가 이익을 얻는지, 어떤 증거가 그 결과를 뒷받침하는지, 그리고 이 접근 방식이 지역의 조건에 맞는지를 살펴봐야 한다. 하나의 개선책도 교육적, 환경적 이점을 제공할 수 있다.\n\n[해설]\n필자는 새 방안의 규모·신기함보다 이용자 요구와 실제 결과를 평가해야 한다고 주장합니다.",
     "wrong_explanations": {},
     "_reviewed": false
   },
@@ -2974,7 +2974,7 @@ const QUESTION_BANK = [
       "⑤ Any improvement proves that the same intervention will work in every location."
     ],
     "answer": 4,
-    "explanation": "이 글은 사례의 결과를 통해 “Changing the invitation can change who feels welcome”라는 핵심 요지를 전달합니다.",
+    "explanation": "[지문 해석]\n한 대학의 공개 강연 시리즈가 기존의 관행을 반복하는 것만으로는 해결할 수 없는 문제에 직면했다. 학술 강연은 주로 각 학과 내에서만 광고되었다. 주최측은 일반인을 위한 요약본을 추가하고 저녁 시간대 강연을 개설했다. 그 결과는 광범위하지만 초점이 흐릿한 노력보다 신중하게 선택된 변화가 훨씬 더 효과적일 수 있음을 시사했다. 대학 소속이 아닌 지역 주민들이 정기적으로 참석하기 시작했다. 초대 방식을 바꾸면 누가 환영받는다고 느끼는지도 달라진다.\n\n[해설]\n이 글은 사례의 결과를 통해 “Changing the invitation can change who feels welcome”라는 핵심 요지를 전달합니다.",
     "wrong_explanations": {},
     "_reviewed": false
   },
@@ -2991,7 +2991,7 @@ const QUESTION_BANK = [
       "⑤ Comparing different models causes confusion and should be avoided in introductory lessons."
     ],
     "answer": 2,
-    "explanation": "필자는 새 방안의 규모·신기함보다 이용자 요구와 실제 결과를 평가해야 한다고 주장합니다.",
+    "explanation": "[지문 해석]\n과학 교사의 모형 토론회가 일상적인 반복만으로는 해결할 수 없는 문제에 직면했다. 학생들은 도표가 현실의 모든 세부 사항을 나타낸다고 가정했다. 교사는 강의 여러 측면을 설명하는 두 가지 모형을 비교했다. 학생들은 유용한 모형이 정보를 단순화하고 생략할 수 있다는 것을 깨달았다. 우리는 이러한 시도들을 단순히 그것의 참신성이나 규모만으로 평가해서는 안 된다. 대신 의사결정자들은 누가 이익을 얻는지, 어떤 증거가 그 결과를 뒷받침하는지, 그리고 그 접근 방식이 지역 조건에 맞는지를 살펴봐야 한다. 모형은 세상의 정확한 복사본이 아니라 추론을 위한 도구일 뿐이다.\n\n[해설]\n필자는 새 방안의 규모·신기함보다 이용자 요구와 실제 결과를 평가해야 한다고 주장합니다.",
     "wrong_explanations": {},
     "_reviewed": false
   },
@@ -3008,7 +3008,7 @@ const QUESTION_BANK = [
       "⑤ Any improvement proves that the same intervention will work in every location."
     ],
     "answer": 2,
-    "explanation": "이 글은 사례의 결과를 통해 “New perspectives can reveal value in familiar collections”라는 핵심 요지를 전달합니다.",
+    "explanation": "[지문 해석]\n어린이 중심의 박물관 투어는 일상적인 루틴을 반복하는 것만으로는 해결할 수 없는 문제에 직면했다. 성인 안내자들은 보통 어떤 전시물에 주목할 가치가 있는지를 결정했다. 박물관은 어린이들에게 전시물을 선택하고 질문을 준비하도록 초대했다. 언뜻 보면 이러한 변화는 의미 있는 차이를 만들기에는 너무 제한적으로 보였지만, 그 효과는 결과를 검토한 후에야 분명해졌다. 가족들은 표준 투어에서 놓친 특이한 세부 사항들을 발견했다. 이것이 모든 환경에서 같은 조치가 성공할 것을 보장하지는 않는데, 그 이유는 자원과 지역의 필요가 다를 수 있기 때문이다. 새로운 관점은 익숙한 소장품들 속에서 가치를 드러낼 수 있다.\n\n[해설]\n이 글은 사례의 결과를 통해 “New perspectives can reveal value in familiar collections”라는 핵심 요지를 전달합니다.",
     "wrong_explanations": {},
     "_reviewed": false
   },
@@ -3025,7 +3025,7 @@ const QUESTION_BANK = [
       "⑤ Gardeners with limited budgets should rely on online retailers rather than local initiatives."
     ],
     "answer": 4,
-    "explanation": "필자는 새 방안의 규모·신기함보다 이용자 요구와 실제 결과를 평가해야 한다고 주장합니다.",
+    "explanation": "[지문 해석]\n어떤 공공 도서관의 씨앗 수집 사업은 기존의 일상적인 방식만으로는 해결할 수 없는 문제에 직면했다. 매년 봄 지역에 적응한 씨앗을 찾기 위해 애쓰는 정원사들이 있었기 때문이다. 도서관은 씨앗을 대여해주기 시작했고 수확 후 정보를 수집했다. 그 결과는 폭넓지만 초점이 흐릿한 노력보다 신중하게 선택된 작은 변화가 더 생산적일 수 있음을 시사했다. 이용자들은 인근 토양에서 잘 자라는 품종들을 알게 되었다. 우리는 이러한 사업들을 단순히 그것의 참신성이나 규모로만 평가해서는 안 된다. 대신 의사 결정자들은 누가 혜택을 받는지, 어떤 증거가 그 결과를 뒷받침하는지, 그리고 그 방식이 지역의 상황에 맞는지를 살펴보아야 한다. 지역사회의 지식은 반복된 공유와 피드백을 통해 성장할 수 있다.\n\n[해설]\n필자는 새 방안의 규모·신기함보다 이용자 요구와 실제 결과를 평가해야 한다고 주장합니다.",
     "wrong_explanations": {},
     "_reviewed": false
   },
@@ -3042,7 +3042,7 @@ const QUESTION_BANK = [
       "⑤ The most effective strategy is to ignore the original problem until it disappears."
     ],
     "answer": 4,
-    "explanation": "이 글은 사례의 결과를 통해 “Careful design can reconcile competing environmental needs”라는 핵심 요지를 전달합니다.",
+    "explanation": "[지문 해석]\n시골 천문대의 어두운 밤하늘 정책은 통상적인 방식의 반복만으로는 해결할 수 없는 문제에 직면했다. 마을 위의 강력한 실외 조명이 희미한 별들을 사라지게 했다. 주민들은 지면을 향하도록 설계된 차폐 조명을 설치했다. 밤의 가시성은 충분히 유지되면서 하늘은 더욱 어두워졌다. 신중한 설계를 통해 서로 상충하는 환경 관련 요구 사항들을 조화시킬 수 있다.\n\n[해설]\n이 글은 사례의 결과를 통해 “Careful design can reconcile competing environmental needs”라는 핵심 요지를 전달합니다.",
     "wrong_explanations": {},
     "_reviewed": false
   },
@@ -3059,7 +3059,7 @@ const QUESTION_BANK = [
       "⑤ Affordable practice spaces are only necessary in cities with large professional music industries."
     ],
     "answer": 4,
-    "explanation": "필자는 새 방안의 규모·신기함보다 이용자 요구와 실제 결과를 평가해야 한다고 주장합니다.",
+    "explanation": "[지문 해석]\n한 문화센터의 연습실이 일상적인 관행을 되풀이하는 것만으로는 해결할 수 없는 문제에 직면했다. 젊은 음악가들이 상업 스튜디오를 감당할 여력이 없었던 것이다. 문화센터는 사용하지 않던 방들을 단기 감시 세션을 위해 개방했다. 언뜻 보기에 이러한 조치는 너무 제한적이어서 실질적인 변화를 가져오기 어려워 보였다. 하지만 결과를 살펴본 후에야 그 효과가 명백해졌다. 더 많은 소규모 그룹들이 지역 행사를 위한 공연을 준비하게 되었던 것이다. 다만 자원과 지역의 필요가 다를 수 있으므로, 같은 조치가 모든 환경에서 성공한다는 보장은 없다. 우리는 이러한 시도들을 단순히 새로움이나 규모만으로 평가해서는 안 된다. 대신 의사결정자들은 누가 혜택을 받는지, 어떤 증거가 결과를 뒷받침하는지, 그리고 그 접근법이 지역의 상황에 맞는지를 살펴봐야 한다. 공간에 대한 접근성은 창의적 지원의 중요한 형태가 될 수 있다.\n\n[해설]\n필자는 새 방안의 규모·신기함보다 이용자 요구와 실제 결과를 평가해야 한다고 주장합니다.",
     "wrong_explanations": {},
     "_reviewed": false
   },
@@ -3076,7 +3076,7 @@ const QUESTION_BANK = [
       "⑤ Easing the social expectations placed on newcomers can broaden participation in an activity"
     ],
     "answer": 5,
-    "explanation": "이 글은 사례의 결과를 통해 “Reducing social pressure can make participation more inclusive”라는 핵심 요지를 전달합니다.",
+    "explanation": "[지문 해석]\n한 지역 체육관의 초급자 시간대는 평소 루틴을 반복하는 것만으로는 해결할 수 없는 문제에 직면했다. 신입 회원들은 자신이 미숙하다고 느껴 붐비는 시간을 피했다. 체육관은 입문자용 설명을 포함한 조용한 프로그램을 운영하기로 결정했다. 결과는 광범위하지만 초점이 흐릿한 노력보다 신중하게 선택된 변화가 더 효과적일 수 있음을 시사했다. 더 많은 초급자들이 복귀했고 점차 정규 수업에 참여하기 시작했다. 사회적 압박감을 줄이는 것이 참여를 더욱 포용적으로 만들 수 있다.\n\n[해설]\n이 글은 사례의 결과를 통해 “Reducing social pressure can make participation more inclusive”라는 핵심 요지를 전달합니다.",
     "wrong_explanations": {},
     "_reviewed": false
   },
@@ -3093,7 +3093,7 @@ const QUESTION_BANK = [
       "⑤ Systematically recording reasoning behind past decisions helps teams build on earlier insights."
     ],
     "answer": 5,
-    "explanation": "필자는 새 방안의 규모·신기함보다 이용자 요구와 실제 결과를 평가해야 한다고 주장합니다.",
+    "explanation": "[지문 해석]\n어떤 학교 로봇공학 동아리의 설계 기록부는 평소의 일상적인 방식을 단순히 반복하는 것만으로는 해결할 수 없는 문제에 직면했다. 팀들은 이전에 거부했던 해결책들을 왜 택하지 않았는지 자주 잊곤 했다. 학생들은 각 재설계마다 테스트 결과와 그 이유들을 기록했다. 그들은 여러 실패한 실험을 반복하는 것을 피할 수 있었다. 우리는 이러한 시도들을 단지 그 참신함이나 규모만으로 평가해서는 안 된다. 대신 의사결정자들은 누가 혜택을 받는지, 어떤 증거가 그 결과를 뒷받침하는지, 그리고 그 접근 방식이 지역의 상황에 맞는지를 살펴봐야 한다. 의사결정 과정을 문서화하는 것은 이후의 혁신을 더욱 촉진할 수 있다.\n\n[해설]\n필자는 새 방안의 규모·신기함보다 이용자 요구와 실제 결과를 평가해야 한다고 주장합니다.",
     "wrong_explanations": {},
     "_reviewed": false
   },
@@ -3110,7 +3110,7 @@ const QUESTION_BANK = [
       "⑤ pursuing immediate gains regardless of future effects"
     ],
     "answer": 2,
-    "explanation": "지문에 제시된 관찰과 결과가 working with ecological processes의 중요성을 보여 줍니다. 다른 선택지는 근거가 없거나 지문의 대조 관계에 어긋납니다.",
+    "explanation": "[지문 해석]\n한 해안 도시가 콘크리트 방파제를 복원된 습지로 교체했다. 폭풍 동안 갈대는 파도를 늦추었고 포화된 지면은 초과 수량을 저장했다. 이 프로젝트는 모든 자연력에 저항하려고 시도하지 않고도 성공했다. 핵심 교훈은 지속 가능한 성공이 더 높은 방벽에만 의존하기보다는 __________에 달려 있을 수 있다는 것이다.\n\n[해설]\n지문에 제시된 관찰과 결과가 working with ecological processes의 중요성을 보여 줍니다. 다른 선택지는 근거가 없거나 지문의 대조 관계에 어긋납니다.",
     "wrong_explanations": {},
     "_reviewed": false
   },
@@ -3127,7 +3127,7 @@ const QUESTION_BANK = [
       "⑤ comparing partial perspectives"
     ],
     "answer": 5,
-    "explanation": "지문에 제시된 관찰과 결과가 comparing partial perspectives의 중요성을 보여 줍니다. 다른 선택지는 근거가 없거나 지문의 대조 관계에 어긋납니다.",
+    "explanation": "[지문 해석]\n한 역사가가 조직자, 경찰, 인근 상점주인들이 작성한 동일한 시위 사건의 기록들을 비교했다. 각 기록은 유용한 사실들을 포함했지만 서로 다른 사건들을 강조했다. 그녀는 여러 출처를 결합하면 어떤 단일 기록도 포함하지 않은 세부 사항들이 드러난다는 것을 발견했다. 핵심적인 교훈은 지속적인 성공이 한 증언을 완전한 것으로 간주하기보다는 __________에 달려 있을 수 있다는 것이다.\n\n[해설]\n지문에 제시된 관찰과 결과가 comparing partial perspectives의 중요성을 보여 줍니다. 다른 선택지는 근거가 없거나 지문의 대조 관계에 어긋납니다.",
     "wrong_explanations": {},
     "_reviewed": false
   },
@@ -3144,7 +3144,7 @@ const QUESTION_BANK = [
       "⑤ separated from the conditions in which they were recorded"
     ],
     "answer": 2,
-    "explanation": "교통량이 적어도 농도가 높고 바람이 불면 낮아지는 반례 때문에 단순 측정만으로 인과를 확정할 수 없습니다. ②는 자료와 검증 가능한 설명을 결합한다는 핵심 결론입니다.",
+    "explanation": "[지문 해석]\n한 공기질 연구소가 매분마다 오염 수준을 기록하는 센서를 설치했다. 새로운 기록들은 새벽에 반복되는 오염 농도 상승을 드러냈다. 처음에는 연구팀이 통근 차량 트래픽만을 원인으로 생각했다. 그러나 차량이 적은 날에도 오염 농도가 상승했고, 바람이 많이 부는 아침에는 차량 수가 많아도 최고치가 사라졌다. 센서들이 이 패턴을 눈에 띄게 만들었지만, 대기의 이동에 대한 추가적인 가정 없이는 측정값만으로는 그 원인을 규명할 수 없었다. 따라서 연구자들은 센서 기록을 교통 관찰과 지역 풍향 모델과 결합했다. 이들의 조사는 풍부한 데이터가 __________일 때만 과학적으로 유용해진다는 것을 보여준다.\n\n[해설]\n교통량이 적어도 농도가 높고 바람이 불면 낮아지는 반례 때문에 단순 측정만으로 인과를 확정할 수 없습니다. ②는 자료와 검증 가능한 설명을 결합한다는 핵심 결론입니다.",
     "wrong_explanations": {},
     "_reviewed": false
   },
@@ -3161,7 +3161,7 @@ const QUESTION_BANK = [
       "⑤ pursuing immediate gains regardless of future effects"
     ],
     "answer": 1,
-    "explanation": "지문에 제시된 관찰과 결과가 autonomy within clear expectations의 중요성을 보여 줍니다. 다른 선택지는 근거가 없거나 지문의 대조 관계에 어긋납니다.",
+    "explanation": "[지문 해석]\n한 학교는 학생들에게 동등하게 어려운 프로젝트 중에서 선택할 수 있도록 허용했다. 학생들이 과제를 자신의 관심사와 연결할 수 있었기 때문에 출석률이 향상되었는데, 비록 제출 기한과 기준은 엄격하게 유지되었다. 핵심적인 교훈은 지속적인 성공이 어떤 학업 요구로부터의 자유가 아니라 __________에 달려 있을 수 있다는 것이다.\n\n[해설]\n지문에 제시된 관찰과 결과가 autonomy within clear expectations의 중요성을 보여 줍니다. 다른 선택지는 근거가 없거나 지문의 대조 관계에 어긋납니다.",
     "wrong_explanations": {},
     "_reviewed": false
   },
@@ -3178,7 +3178,7 @@ const QUESTION_BANK = [
       "⑤ the absence of written interpretation in the gallery"
     ],
     "answer": 1,
-    "explanation": "전시물 수가 줄었지만 개별 감상과 기억이 향상되었다는 역설을 설명하는 것은 대상별 주의의 질입니다. 무조건 전시물을 줄여야 한다는 일반화는 지문에서 부정합니다.",
+    "explanation": "[지문 해석]\n붐비는 박물관이 특이한 실험을 시도했다. 인기 있는 갤러리에서 전시 물품의 절반을 제거한 것이다. 큐레이터들은 볼 것이 줄어들었으니 방문객들이 더 빨리 나갈 것이라고 우려했다. 그러나 예상과 달리 방문객들은 개별 전시물 앞에서 더 오래 머물렀으며, 1주일 뒤 인터뷰에서 더 많은 세부 사항을 기억했다. 직원들은 이전 배치가 성급한 훑어보기를 유도했던 반면, 새로운 배치는 전시물을 비교하고 설명을 읽을 여유를 제공했다는 점을 알아챘다. 이 실험은 더 작은 규모의 컬렉션이 항상 더 바람직하다는 것을 증명하지 못했다. 오히려 전시회의 가치가 부분적으로 __________에 달려 있다는 것을 시사했으며, 이는 전시물의 개수를 세는 것만으로는 측정할 수 없는 요소이다.\n\n[해설]\n전시물 수가 줄었지만 개별 감상과 기억이 향상되었다는 역설을 설명하는 것은 대상별 주의의 질입니다. 무조건 전시물을 줄여야 한다는 일반화는 지문에서 부정합니다.",
     "wrong_explanations": {},
     "_reviewed": false
   },
@@ -3195,7 +3195,7 @@ const QUESTION_BANK = [
       "⑤ pursuing immediate gains regardless of future effects"
     ],
     "answer": 2,
-    "explanation": "지문에 제시된 관찰과 결과가 cooperation across limited datasets의 중요성을 보여 줍니다. 다른 선택지는 근거가 없거나 지문의 대조 관계에 어긋납니다.",
+    "explanation": "[지문 해석]\n두 병원이 익명화된 기록을 공유하여 드문 부작용을 탐지했다. 어느 한 기관도 패턴을 단독으로 파악할 수 있을 만큼 충분한 사례를 보유하지 못했지만, 함께라면 책임감 있게 이를 검토할 수 있었다. 이것이 시사하는 핵심은 지속적인 성공이 모든 기관의 증거를 고립시키는 것보다는 __________에 달려 있을 수 있다는 점이다.\n\n[해설]\n지문에 제시된 관찰과 결과가 cooperation across limited datasets의 중요성을 보여 줍니다. 다른 선택지는 근거가 없거나 지문의 대조 관계에 어긋납니다.",
     "wrong_explanations": {},
     "_reviewed": false
   },
@@ -3212,7 +3212,7 @@ const QUESTION_BANK = [
       "⑤ network connectivity"
     ],
     "answer": 5,
-    "explanation": "지문에 제시된 관찰과 결과가 network connectivity의 중요성을 보여 줍니다. 다른 선택지는 근거가 없거나 지문의 대조 관계에 어긋납니다.",
+    "explanation": "[지문 해석]\n어느 도시가 자전거 도로망을 한 번에 하나씩 단절된 구간으로 확장했다. 여러 구간이 주택, 역, 그리고 상점을 연결할 때까지 이용률은 낮게 유지되었다. 그 가치는 이들 사이의 연결에서 비롯되었다. 핵심적인 교훈은 지속적인 성공이 개별 구간의 길이보다는 __________에 달려 있을 수 있다는 것이다.\n\n[해설]\n지문에 제시된 관찰과 결과가 network connectivity의 중요성을 보여 줍니다. 다른 선택지는 근거가 없거나 지문의 대조 관계에 어긋납니다.",
     "wrong_explanations": {},
     "_reviewed": false
   },
@@ -3229,7 +3229,7 @@ const QUESTION_BANK = [
       "⑤ replacing visual records with personal recollection"
     ],
     "answer": 3,
-    "explanation": "변화의 방향과 속도는 월별 기록을 시간순으로 비교했을 때 드러납니다. 단 한 장의 극적인 사진으로는 추세를 알 수 없다는 대비가 정답 근거입니다.",
+    "explanation": "[지문 해석]\n한 사진작가가 20년 동안 매달 언덕의 사진을 기록했다. 계절의 색상 변화를 제외하면, 그 풍경은 해마다 거의 동일해 보였다. 그러나 그 사진들을 시간 순서대로 배열했을 때, 나무 경계선의 점진적인 이동과 여러 작은 습지의 손실이 명백해졌다. 하루에 촬영된 멋진 사진이라면 대중의 관심을 더 끌었을 수 있지만, 그러한 변화의 방향이나 속도를 보여줄 수는 없었을 것이다. 그녀의 작업은 천천히 진행되는 환경 문제를 이해하기 위해서는 한순간에 촬영된 극적인 이미지에만 의존하기보다는 __________ 필요하다는 것을 보여준다.\n\n[해설]\n변화의 방향과 속도는 월별 기록을 시간순으로 비교했을 때 드러납니다. 단 한 장의 극적인 사진으로는 추세를 알 수 없다는 대비가 정답 근거입니다.",
     "wrong_explanations": {},
     "_reviewed": false
   },
@@ -3246,7 +3246,7 @@ const QUESTION_BANK = [
       "⑤ pursuing immediate gains regardless of future effects"
     ],
     "answer": 1,
-    "explanation": "지문에 제시된 관찰과 결과가 learning from weak warning signals의 중요성을 보여 줍니다. 다른 선택지는 근거가 없거나 지문의 대조 관계에 어긋납니다.",
+    "explanation": "[지문 해석]\n공장의 근로자들은 아무도 다치지 않았을 때에도 아차사고를 보고하도록 권장받았다. 엔지니어들은 반복되는 위험 요소들을 파악하고 사고가 발생하기 전에 이를 바로잡았다. 핵심적인 교훈은 지속적인 성공이 __________보다는 주요 실패를 기다리는 것에 달려 있을 수도 있다는 것이다.\n\n[해설]\n지문에 제시된 관찰과 결과가 learning from weak warning signals의 중요성을 보여 줍니다. 다른 선택지는 근거가 없거나 지문의 대조 관계에 어긋납니다.",
     "wrong_explanations": {},
     "_reviewed": false
   },
@@ -3263,7 +3263,7 @@ const QUESTION_BANK = [
       "⑤ maintaining the same program while increasing advertising"
     ],
     "answer": 4,
-    "explanation": "홍보 강화에는 반응이 없었지만 주민이 주제 제안과 연습에 참여하자 관객층이 확대됐습니다. 참여적 창작이라는 인과가 ④에 담겨 있습니다.",
+    "explanation": "[지문 해석]\n한 지역 극장이 전통 공연에 거의 참석하지 않는 주민들을 유입하기 위해 애쓰고 있었다. 극장 운영진은 처음에 광고를 더 늘리는 방식으로 대응했지만, 티켓 판매량은 거의 변하지 않았다. 그러자 그들은 지역 단체들을 초대하여 주제를 제안하고, 추억을 나누며, 리허설에 참여하도록 했다. 일부 공연은 덜 세련되었지만, 사람들이 무대에서 자신의 삶의 요소들을 인식하게 되면서 관객층이 확대되었다. 이 프로젝트는 질에 대한 어려운 질문을 제기했다. 즉, 전문가의 기준으로만 성공이라고 판단되는 작품은 그 주변 공동체를 섬기지 못할 수 있다는 것이었다. 극장은 대중의 참여가 모든 예술적 결정을 독점적으로 통제하는 것이 아니라 __________에 의해 더욱 강화된다는 것을 발견했다.\n\n[해설]\n홍보 강화에는 반응이 없었지만 주민이 주제 제안과 연습에 참여하자 관객층이 확대됐습니다. 참여적 창작이라는 인과가 ④에 담겨 있습니다.",
     "wrong_explanations": {},
     "_reviewed": false
   },
@@ -3280,7 +3280,7 @@ const QUESTION_BANK = [
       "⑤ pursuing immediate gains regardless of future effects"
     ],
     "answer": 2,
-    "explanation": "지문에 제시된 관찰과 결과가 the social context of behavior의 중요성을 보여 줍니다. 다른 선택지는 근거가 없거나 지문의 대조 관계에 어긋납니다.",
+    "explanation": "[지문 해석]\n한 영양 연구원은 참가자들에게 자신들이 무엇을 먹었는지뿐만 아니라 언제, 누구와 함께 먹었는지를 물었다. 이러한 추가적인 맥락은 동일한 식단이 왜 서로 다른 습관을 만들어냈는지를 설명해 주었다. 핵심적인 교훈은 지속적인 성공이 __________ 보다는 오히려 식품 구성에만 의존할 수도 있다는 것이다.\n\n[해설]\n지문에 제시된 관찰과 결과가 the social context of behavior의 중요성을 보여 줍니다. 다른 선택지는 근거가 없거나 지문의 대조 관계에 어긋납니다.",
     "wrong_explanations": {},
     "_reviewed": false
   },
@@ -3297,7 +3297,7 @@ const QUESTION_BANK = [
       "⑤ adaptive decision-making"
     ],
     "answer": 5,
-    "explanation": "지문에 제시된 관찰과 결과가 adaptive decision-making의 중요성을 보여 줍니다. 다른 선택지는 근거가 없거나 지문의 대조 관계에 어긋납니다.",
+    "explanation": "[지문 해석]\n오래된 다리를 여러 단계에 걸쳐 수리했는데, 이는 교통이 계속될 수 있도록 하고 엔지니어들이 각 개입의 결과를 모니터링할 수 있도록 하기 위함이었다. 이 사업은 미리 정해진 단 하나의 돌이킬 수 없는 설계보다는 결과에 근거한 조정을 선호했다. 핵심적인 교훈은 지속적인 성공이 미리 정해진 최종 계획 하나보다는 __________에 달려 있을 수 있다는 것이다.\n\n[해설]\n지문에 제시된 관찰과 결과가 adaptive decision-making의 중요성을 보여 줍니다. 다른 선택지는 근거가 없거나 지문의 대조 관계에 어긋납니다.",
     "wrong_explanations": {},
     "_reviewed": false
   },
@@ -3314,7 +3314,7 @@ const QUESTION_BANK = [
       "⑤ the appearance of the original punctuation"
     ],
     "answer": 2,
-    "explanation": "유머의 원천은 단어의 사전적 뜻이 아니라 화자 사이의 공유된 기억입니다. 문면을 일부 변경하더라도 맥락적 의미를 전달하는 것이 핵심입니다.",
+    "explanation": "[지문 해석]\n한 번역 애플리케이션이 짧은 대화의 모든 단어를 정확하게 번역했지만, 청중들은 그 농담에 웃지 않았다. 그 유머는 한 화자가 몇 년 전 어색한 사건 중에 사용했던 표현에 달려 있었다. 직역은 사전적 의미는 보존했지만 그 공유된 기억은 지워버렸다. 인간 번역가가 간단한 맥락적 단서를 추가했을 때, 독자들은 그 표현이 왜 재미있는지 이해했으며, 비록 원문의 일부 표현은 바뀌었지만 말이다. 이 사례는 충실한 의사소통이 항상 말의 동일성과 일치하지는 않음을 시사한다. 번역가들은 때때로 __________ 를 보존하기 위해 모든 단어를 재현하는 것을 대가로 치러야 할 수도 있다.\n\n[해설]\n유머의 원천은 단어의 사전적 뜻이 아니라 화자 사이의 공유된 기억입니다. 문면을 일부 변경하더라도 맥락적 의미를 전달하는 것이 핵심입니다.",
     "wrong_explanations": {},
     "_reviewed": false
   },
@@ -3331,7 +3331,7 @@ const QUESTION_BANK = [
       "⑤ pursuing immediate gains regardless of future effects"
     ],
     "answer": 1,
-    "explanation": "지문에 제시된 관찰과 결과가 diversity as a form of resilience의 중요성을 보여 줍니다. 다른 선택지는 근거가 없거나 지문의 대조 관계에 어긋납니다.",
+    "explanation": "[지문 해석]\n한 과수원이 높은 수확량을 자랑하는 단일 품종 대신 여러 사과 품종을 재배했다. 어느 해에는 인기 있는 품종이 질병으로 피해를 입었지만, 다른 품종들은 계속해서 생산을 유지했다. 이 사례가 보여주는 핵심 교훈은 안정성을 보장하는 수단으로서 획일성보다는 __________이 장기적인 성공을 좌우할 수 있다는 것이다.\n\n[해설]\n지문에 제시된 관찰과 결과가 diversity as a form of resilience의 중요성을 보여 줍니다. 다른 선택지는 근거가 없거나 지문의 대조 관계에 어긋납니다.",
     "wrong_explanations": {},
     "_reviewed": false
   },
@@ -3348,7 +3348,7 @@ const QUESTION_BANK = [
       "⑤ limiting access to specialists who already agreed"
     ],
     "answer": 3,
-    "explanation": "다수의 독립 관찰을 활용하되 불확실한 사례는 전문가가 검증하는 구조입니다. 전문가를 배제하거나 다수결만으로 결정한다는 해석은 틀립니다.",
+    "explanation": "[지문 해석]\n어느 천문학 부서가 망원경 사진의 온라인 자료실을 자원봉사자들에게 공개했다. 수천 명의 참가자들은 평범한 대상들을 분류했으며, 소수는 소규모 연구팀이 놓친 비정상적인 형태들을 발견했다. 처음에 과학자들은 비전문가들이 너무 많은 오류를 초래할 것을 우려했다. 그러나 그들은 독립적인 분류를 비교하면 불확실한 사례들을 식별할 수 있었고, 이후 전문가들이 그것을 검토할 수 있다는 것을 발견했다. 이 프로젝트는 전문가 지식을 불필요하게 만들지 않았다. 오히려 그것이 가장 가치 있는 곳을 바꾸었다. 모든 일상적인 사진을 검토하는 대신 과학자들은 논쟁의 여지가 있거나 놀라운 관찰에 집중할 수 있었다. 이러한 성과는 __________ 과 전문가 검증이 결합된 것에 달려 있었다.\n\n[해설]\n다수의 독립 관찰을 활용하되 불확실한 사례는 전문가가 검증하는 구조입니다. 전문가를 배제하거나 다수결만으로 결정한다는 해석은 틀립니다.",
     "wrong_explanations": {},
     "_reviewed": false
   },
@@ -3365,7 +3365,7 @@ const QUESTION_BANK = [
       "⑤ pursuing immediate gains regardless of future effects"
     ],
     "answer": 2,
-    "explanation": "지문에 제시된 관찰과 결과가 feedback that changes social expectations의 중요성을 보여 줍니다. 다른 선택지는 근거가 없거나 지문의 대조 관계에 어긋납니다.",
+    "explanation": "[지문 해석]\n어느 도시가 주민들에게 각 가정을 유사한 이웃 가정들과 비교하는 물 사용량 차트를 제공했다. 새로운 처벌이 도입되지 않았음에도 불구하고 소비량이 감소했다. 여기서 얻을 수 있는 핵심적인 교훈은 지속적인 성공이 처벌을 유일한 동기 부여의 원천으로 삼기보다는 __________에 달려 있을 수 있다는 것이다.\n\n[해설]\n지문에 제시된 관찰과 결과가 feedback that changes social expectations의 중요성을 보여 줍니다. 다른 선택지는 근거가 없거나 지문의 대조 관계에 어긋납니다.",
     "wrong_explanations": {},
     "_reviewed": false
   },
@@ -3382,7 +3382,7 @@ const QUESTION_BANK = [
       "⑤ testing assumptions against user experience"
     ],
     "answer": 5,
-    "explanation": "지문에 제시된 관찰과 결과가 testing assumptions against user experience의 중요성을 보여 줍니다. 다른 선택지는 근거가 없거나 지문의 대조 관계에 어긋납니다.",
+    "explanation": "[지문 해석]\n한 디자이너가 티켓 기계 사용에 어려움을 겪는 사람들을 인터뷰했다. 기능 엔지니어들이 당연하다고 생각한 특징들이 그 시스템에 익숙하지 않은 방문객들에게는 혼란스러운 것으로 드러났다. 핵심 교훈은 지속적인 성공이 기술 전문성만으로 충분하다고 여기기보다는 __________에 달려 있을 수 있다는 것이다.\n\n[해설]\n지문에 제시된 관찰과 결과가 testing assumptions against user experience의 중요성을 보여 줍니다. 다른 선택지는 근거가 없거나 지문의 대조 관계에 어긋납니다.",
     "wrong_explanations": {},
     "_reviewed": false
   },
@@ -3399,7 +3399,7 @@ const QUESTION_BANK = [
       "⑤ the importance of identical solutions for all river channels"
     ],
     "answer": 1,
-    "explanation": "겉보기에는 지저분한 나무가 유속 완화와 서식처 제공 등 기능을 갖는다는 점이 핵심입니다. 다만 모든 나무를 무조건 남기는 것은 아니라고 지문에서 제한합니다.",
+    "explanation": "[지문 해석]\n복구 팀이 손상된 하천에 떨어진 나무들을 그대로 두었다. 방문객들은 처음에 하천이 방치된 것처럼 보인다고 불평했고, 지역 관계자들은 나무를 제거하는 것을 고려했다. 생태학자들은 가지들이 둑 근처의 흐름을 늦추고, 어린 물고기를 보호하며, 침전물이 쌓일 수 있는 장소를 만든다고 설명했다. 팀은 즉시 제거하기보다는 그 지역을 모니터링했다. 여러 계절이 지난 후 물고기의 개체수는 증가했고 침식은 감소했다. 이 나무가 모든 곳에서 무해한 것은 아니었다. 다리 근처의 큰 목재는 여전히 신중한 제거가 필요했다. 이 사례는 생태계의 건강을 단지 깔끔한 외관만으로 판단하는 것이 __________를 간과할 수 있음을 보여준다.\n\n[해설]\n겉보기에는 지저분한 나무가 유속 완화와 서식처 제공 등 기능을 갖는다는 점이 핵심입니다. 다만 모든 나무를 무조건 남기는 것은 아니라고 지문에서 제한합니다.",
     "wrong_explanations": {},
     "_reviewed": false
   },
@@ -3416,7 +3416,7 @@ const QUESTION_BANK = [
       "⑤ 번 위치"
     ],
     "answer": 3,
-    "explanation": "상점에서 관찰한 구체적인 효용 뒤에 주민 평가의 변화를 놓고, 그다음 추가 설치로 연결합니다.",
+    "explanation": "[지문 해석]\n어느 주민들이 공공 음수대를 설치했다. (①) 주민들은 처음에 비용에 대해 불평했다. (②) 무더운 여름이 지난 후, 근처 가게들은 생수 구매 요청이 줄어들었다고 보고했다. (③) 그러자 시에서는 붐비는 버스 정류장 두 곳에 음수대를 추가로 설치했다. (④) 유지보수 팀은 정기적으로 수질 검사 결과를 공개했다. (⑤)\n\n[해설]\n상점에서 관찰한 구체적인 효용 뒤에 주민 평가의 변화를 놓고, 그다음 추가 설치로 연결합니다.",
     "wrong_explanations": {},
     "_reviewed": false
   },
@@ -3433,7 +3433,7 @@ const QUESTION_BANK = [
       "⑤ 번 위치"
     ],
     "answer": 4,
-    "explanation": "가벼운 포장재의 단점과 무거운 용기의 장점을 비교한 다음 전체 생애 배출량 계산으로 연결합니다.",
+    "explanation": "[지문 해석]\n연구진은 재사용 가능한 포장재 두 가지를 테스트했다. (①) 더 가벼운 소재는 운송이 쉬웠다. (②) 하지만 세척을 몇 번 반복하자 깨져버렸다. (③) 더 무거운 용기는 반복적인 세척을 견뎌냈다. (④) 연구팀은 각 제품의 전체 생명 주기 동안 배출되는 배기가스를 계산했다. (⑤)\n\n[해설]\n가벼운 포장재의 단점과 무거운 용기의 장점을 비교한 다음 전체 생애 배출량 계산으로 연결합니다.",
     "wrong_explanations": {},
     "_reviewed": false
   },
@@ -3450,7 +3450,7 @@ const QUESTION_BANK = [
       "⑤ 번 위치"
     ],
     "answer": 3,
-    "explanation": "주민들이 빗물 배수 기능을 설명한 직후 그 의미를 정리하고, 이후 기술자의 현장 조사가 이어집니다.",
+    "explanation": "[지문 해석]\n산골마을이 오래된 산책로를 보존하고 싶어 했다. (①) 한 관계자는 돌을 매끄러운 포장도로로 교체할 것을 제안했다. (②) 나이 많은 주민들은 울퉁불퉁한 돌들이 빗물을 흘려보내는 데 도움이 된다고 설명했다. (③) 기술자들은 폭우 때 경사면을 조사했다. (④) 그들은 원래 설계를 없애는 대신 개별 돌들을 수리하기로 결정했다. (⑤)\n\n[해설]\n주민들이 빗물 배수 기능을 설명한 직후 그 의미를 정리하고, 이후 기술자의 현장 조사가 이어집니다.",
     "wrong_explanations": {},
     "_reviewed": false
   },
@@ -3467,7 +3467,7 @@ const QUESTION_BANK = [
       "⑤ 번 위치"
     ],
     "answer": 5,
-    "explanation": "마지막에 질문을 준비하여 대면 튜토리얼에 참여한다는 구체적 활용 방식을 요약합니다.",
+    "explanation": "[지문 해석]\n대학교에서는 수업을 놓친 학생들을 위해 강의를 녹화했다. (①) 처음에는 녹화 영상이 대면 수업 출석을 대체하는 수단으로 취급되었다. (②) 설문조사 결과 많은 학생들이 녹화 영상을 어려운 설명을 다시 보기 위해 활용했다. (③) 교사들은 어려운 부분에 타임스탬프를 추가하기 시작했다. (④) 학생들은 튜토리얼을 위해 질문을 준비할 때 그 표시들을 활용했다. (⑤)\n\n[해설]\n마지막에 질문을 준비하여 대면 튜토리얼에 참여한다는 구체적 활용 방식을 요약합니다.",
     "wrong_explanations": {},
     "_reviewed": false
   },
@@ -3484,7 +3484,7 @@ const QUESTION_BANK = [
       "⑤ 번 위치"
     ],
     "answer": 4,
-    "explanation": "그늘을 선호하는 근거를 설명한 뒤 설계 변경의 동기를 제시하여, 이어지는 벤치 추가와 연결합니다.",
+    "explanation": "[지문 해석]\n어떤 도시가 새로운 공공 광장을 개장했다. (①) 설계자들은 사람들이 비싼 벤치에 앉을 것으로 예상했다. (②) 그러나 방문객들은 나무 근처의 낮은 계단에 모여들었다. (③) 그 계단은 그늘을 제공했고 지나가는 보행자들을 볼 수 있었다. (④) 설계자들은 결국 나무 주변에 좌석을 추가했다. (⑤)\n\n[해설]\n그늘을 선호하는 근거를 설명한 뒤 설계 변경의 동기를 제시하여, 이어지는 벤치 추가와 연결합니다.",
     "wrong_explanations": {},
     "_reviewed": false
   },
@@ -3501,7 +3501,7 @@ const QUESTION_BANK = [
       "⑤ 번 위치"
     ],
     "answer": 4,
-    "explanation": "두 악기군만 연습한다는 조치 직후 그 효과를 설명하고, 이어서 전체 합주가 개선됩니다.",
+    "explanation": "[지문 해석]\n오케스트라가 복잡한 리듬의 곡을 연습했다. (①) 지휘자는 먼저 모든 섹션에게 최대 음량으로 연주하도록 요청했다. (②) 악사들은 자신의 파트가 어떻게 연결되는지 듣기가 어려웠다. (③) 그 후 두 악기군씩 짝을 이루어 연습했다. (④) 전체 오케스트라가 다시 모여서 연주했을 때, 리듬이 훨씬 더 명확하게 들렸다. (⑤)\n\n[해설]\n두 악기군만 연습한다는 조치 직후 그 효과를 설명하고, 이어서 전체 합주가 개선됩니다.",
     "wrong_explanations": {},
     "_reviewed": false
   },
@@ -3518,7 +3518,7 @@ const QUESTION_BANK = [
       "⑤번 위치"
     ],
     "answer": 3,
-    "explanation": "more personal question이 세 번째 문장의 새 요청을 받으며, 다음 문장 the revised list가 결과를 이어받습니다.",
+    "explanation": "[지문 해석]\n한 서점이 고객들에게 다른 사람들에게 추천하고 싶은 책의 제목을 말해달라고 요청했다. (①) 처음에는 거의 모든 사람이 현재 베스트셀러를 언급했기 때문에 목록은 판매 순위표처럼 보였다. (②) 그러자 직원들은 초대의 형식을 바꾸었다. 그들은 독자들에게 정말로 자신을 놀라게 했던 책을 떠올려 달라고 요청했다. (③) 수정된 목록에는 이전에 나타나지 않았던 난해한 역사서, 시, 그래픽 회고록이 포함되어 있었다. (④) 이러한 새로운 다양성에 영감을 받은 고객들은 책장 옆에 손으로 쓴 추천글을 남기기 시작했다. (⑤)\n\n[해설]\nmore personal question이 세 번째 문장의 새 요청을 받으며, 다음 문장 the revised list가 결과를 이어받습니다.",
     "wrong_explanations": {},
     "_reviewed": false
   },
@@ -3535,7 +3535,7 @@ const QUESTION_BANK = [
       "⑤ 번 위치"
     ],
     "answer": 4,
-    "explanation": "걸음 수 측정 결과가 나온 다음 기억의 한계를 정리하고 설문 개선으로 연결합니다.",
+    "explanation": "[지문 해석]\n한 연구팀이 사람들의 일일 이동 경로에 대해 조사했다. (①) 많은 응답자들은 자신이 걷는 데 소비하는 시간이 적다고 예상했다. (②) 연구원들은 나중에 그 예상치를 걸음 수 측정값과 비교했다. (③) 측정 결과는 사람들이 잊고 있던 짧은 거리의 빈번한 보행 이동을 드러냈다. (④) 연구팀은 설문지를 재설계하여 짧은 거리 이동까지 포함시켰다. (⑤)\n\n[해설]\n걸음 수 측정 결과가 나온 다음 기억의 한계를 정리하고 설문 개선으로 연결합니다.",
     "wrong_explanations": {},
     "_reviewed": false
   },
@@ -3552,7 +3552,7 @@ const QUESTION_BANK = [
       "⑤ 번 위치"
     ],
     "answer": 5,
-    "explanation": "수확량 자료가 제시된 뒤 마지막에 손실과 이익의 관계를 정리합니다.",
+    "explanation": "[지문 해석]\n한 농부가 밭의 가장자리를 따라 꽃이 피는 띠 모양의 구간을 조성했다. (①) 일부 이웃들은 이 띠 모양 구간이 생산성 있는 토지를 낭비할 것이라고 우려했다. (②) 그 다음 시즌이 지나면서 작물 근처에 더 많은 수분 매개 곤충들이 나타났다. (③) 농부는 인접한 줄들의 수확량을 추적했다. (④) 데이터는 잃어버린 경작 면적이 수분 매개의 이점으로 어느 정도 상쇄되었음을 시사했다. (⑤)\n\n[해설]\n수확량 자료가 제시된 뒤 마지막에 손실과 이익의 관계를 정리합니다.",
     "wrong_explanations": {},
     "_reviewed": false
   },
@@ -3569,7 +3569,7 @@ const QUESTION_BANK = [
       "⑤ 번 위치"
     ],
     "answer": 3,
-    "explanation": "대출량과 열람석 수요가 대비된 직후, 이후 시설 변경의 원인을 설명합니다.",
+    "explanation": "[지문 해석]\n한 도서관이 주말 개관 시간을 연장했다. (①) 관리자들은 사람들이 더 많은 책을 빌려갈 것으로 예상했다. (②) 책 대출은 소폭만 증가했지만, 조용한 열람 공간에 대한 수요는 급격히 늘어났다. (③) 도서관은 추가 독서 조명과 전기 콘센트를 설치했다. (④) 대학생과 원격근무자들이 정기적으로 방문하기 시작했다. (⑤)\n\n[해설]\n대출량과 열람석 수요가 대비된 직후, 이후 시설 변경의 원인을 설명합니다.",
     "wrong_explanations": {},
     "_reviewed": false
   },
@@ -3586,7 +3586,7 @@ const QUESTION_BANK = [
       "⑤번 위치"
     ],
     "answer": 3,
-    "explanation": "boat-engine noise가 사라진 뒤 faint clicks가 들리는 현상을 해석하는 전환문으로, 야간 소리의 분석 이전 ③에 놓입니다.",
+    "explanation": "[지문 해석]\n한 해양 연구원이 산호초 옆에 음향 센서를 설치하여 하루 종일의 활동을 기록했다. (①) 낮 동안에는 지나가는 배 엔진의 낮은 굉음이 녹음을 지배했다. (②) 해질녘이 지나자 그 기계음은 사라지고, 일련의 희미한 클릭음이 들렸다. (③) 분석 결과 그 클릭음은 어둠 속에서 먹이를 먹는 산호초 동물들에서 나온 것으로 드러났다. (④) 향후 조사를 위해 연구팀은 희미한 생물음이 묻히지 않도록 밤 시간에 조용한 청음 기간을 마련했다. (⑤)\n\n[해설]\nboat-engine noise가 사라진 뒤 faint clicks가 들리는 현상을 해석하는 전환문으로, 야간 소리의 분석 이전 ③에 놓입니다.",
     "wrong_explanations": {},
     "_reviewed": false
   },
@@ -3603,7 +3603,7 @@ const QUESTION_BANK = [
       "⑤ 번 위치"
     ],
     "answer": 3,
-    "explanation": "물건으로 인물을 알아맞힌 결과 다음에 핵심 원리를 정리하고 토론으로 이어집니다.",
+    "explanation": "[지문 해석]\n미술 선생님이 학생들에게 얼굴을 사용하지 않고 초상화를 그리도록 요청했다. (①) 여러 학생들이 신발, 책상, 그리고 익숙한 일상용품들을 선택했다. (②) 그들의 반 친구들은 종종 표현된 사람들을 알아볼 수 있었다. (③) 그 결과로 나눈 논의는 외모보다는 습관과 관계에 초점을 맞추었다. (④) 선생님은 이 활동을 일련의 글쓰기 설명으로 확장했다. (⑤)\n\n[해설]\n물건으로 인물을 알아맞힌 결과 다음에 핵심 원리를 정리하고 토론으로 이어집니다.",
     "wrong_explanations": {},
     "_reviewed": false
   },
@@ -3620,7 +3620,7 @@ const QUESTION_BANK = [
       "⑤ 번 위치"
     ],
     "answer": 4,
-    "explanation": "혼잡도 정보가 새로 표시된 뒤 기존 도착 정보와 기능을 비교하고, 승객 분산 효과로 연결합니다.",
+    "explanation": "[지문 해석]\n한 역에 열차의 정확한 도착 시간을 보여주는 화면을 설치했다. (①) 승객들은 직원에게 다음 열차가 언제 올지 묻지 않게 되었다. (②) 그럼에도 붐비는 승강장에 대한 불만은 계속됐다. (③) 역은 어느 객차가 덜 붐비는지 보여주는 디스플레이를 추가했다. (④) 승객들은 승강장을 따라 분산되기 시작했다. (⑤)\n\n[해설]\n혼잡도 정보가 새로 표시된 뒤 기존 도착 정보와 기능을 비교하고, 승객 분산 효과로 연결합니다.",
     "wrong_explanations": {},
     "_reviewed": false
   },
@@ -3637,7 +3637,7 @@ const QUESTION_BANK = [
       "⑤번 위치"
     ],
     "answer": 3,
-    "explanation": "편집자의 우려와 독자의 반대 반응을 확인한 뒤 전체 결과를 해석하고, 다음 문장의 제도화로 넘어갑니다.",
+    "explanation": "[지문 해석]\n한 지역 신문이 주요 기사와 같은 눈에 띄는 위치에 정정 기사를 게재하기 시작했다. (①) 편집진은 처음에 독자들이 각각의 정정 기사를 무능함의 증거로 여길까 봐 걱정했다. (②) 놀랍게도 독자들은 그 신문이 신속하게 오류를 인정한다며 칭찬하는 편지를 보냈다. (③) 이러한 반응은 편집실을 자극해 정정 요청을 제출하고 검증하는 간단한 절차를 수립하도록 했다. (④) 다른 지역 신문들도 이후 이러한 투명한 관행을 채택했다. (⑤)\n\n[해설]\n편집자의 우려와 독자의 반대 반응을 확인한 뒤 전체 결과를 해석하고, 다음 문장의 제도화로 넘어갑니다.",
     "wrong_explanations": {},
     "_reviewed": false
   },
@@ -3654,7 +3654,7 @@ const QUESTION_BANK = [
       "⑤번 위치"
     ],
     "answer": 3,
-    "explanation": "주어진 문장은 앞의 내용과 뒤의 내용을 연결하는 역할을 합니다. 3번 위치 전후의 원인·결과 또는 전환 관계를 확인해야 합니다.",
+    "explanation": "[지문 해석]\n한 식물학자가 서로 다른 색의 빛 아래에서 묘목을 재배했다. (①) 모든 그룹은 동일한 양의 물과 영양분을 받았다. (②) 파란색이 풍부한 빛 아래의 식물들은 더 짧은 줄기를 발달시켰다. (③) 식물학자는 두 번째 종으로 실험을 반복했다. (④) 그 검사를 마친 후에야 비로소 그녀는 더 광범위한 설명을 제시했다. (⑤)\n\n[해설]\n주어진 문장은 앞의 내용과 뒤의 내용을 연결하는 역할을 합니다. 3번 위치 전후의 원인·결과 또는 전환 관계를 확인해야 합니다.",
     "wrong_explanations": {},
     "_reviewed": false
   },
@@ -3671,7 +3671,7 @@ const QUESTION_BANK = [
       "⑤번 위치"
     ],
     "answer": 4,
-    "explanation": "darker skies와 visibility라는 두 이해관계를 제시하고 motion-sensitive lamps라는 해결책을 설명한 직후 요약합니다.",
+    "explanation": "[지문 해석]\n한 도시에서 빛 공해를 줄이기 위해 자정 이후 가로등을 끄는 방안을 검토했다. (①) 지역 천문학자들은 하늘이 어두워지면 더 많은 별을 볼 수 있게 되므로 이 계획을 지지했다. (②) 그러나 일부 주민들은 조명이 없는 보행로가 위험할 수 있다고 우려했다. (③) 따라서 시의회는 보행자가 접근할 때만 밝아지는 동작 감지 가로등을 설치했다. (④) 이 시스템을 갖추면서 도시는 보행자들을 어둠 속에 두지 않으면서도 에너지 사용을 줄일 수 있었다. (⑤)\n\n[해설]\ndarker skies와 visibility라는 두 이해관계를 제시하고 motion-sensitive lamps라는 해결책을 설명한 직후 요약합니다.",
     "wrong_explanations": {},
     "_reviewed": false
   },
@@ -3688,7 +3688,7 @@ const QUESTION_BANK = [
       "⑤번 위치"
     ],
     "answer": 3,
-    "explanation": "질문과 기존 표찰의 차이가 모두 드러난 다음, to address that mismatch라는 후속 조치 바로 앞에 배치합니다.",
+    "explanation": "[지문 해석]\n한 박물관은 방문객들에게 고대 조리 그릇 옆에 질문을 적어달라고 초대했다. (①) 대부분의 방문객들은 그 그릇을 누가 사용했으며 어떤 음식이 그 안에서 준비되었을지에 대해 질문했다. (②) 반대로 기존의 설명문은 점토의 종류와 제조 추정 시기만을 명시했다. (③) 이러한 불일치를 해결하기 위해 큐레이터들은 가능한 가정의 모습을 그린 그림들과 일상의 일과에 대한 짧은 설명을 추가했다. (④) 수정 후 전시물 앞에서의 대화들은 평범한 가정이 어떻게 생활했는지에 초점을 맞추게 되었다. (⑤)\n\n[해설]\n질문과 기존 표찰의 차이가 모두 드러난 다음, to address that mismatch라는 후속 조치 바로 앞에 배치합니다.",
     "wrong_explanations": {},
     "_reviewed": false
   },
@@ -3705,7 +3705,7 @@ const QUESTION_BANK = [
       "⑤ 번 위치"
     ],
     "answer": 4,
-    "explanation": "상류 도로 제설제와 염분의 연결이 밝혀진 뒤 원인과 증상의 거리 차이를 설명합니다.",
+    "explanation": "[지문 해석]\n한 산림 관리원이 습지에서 개구리가 줄어든 것을 발견했다. (①) 그 계절에는 강우량이 눈에 띄게 변하지 않았다. (②) 그러나 수질 검사 결과 염분 수치가 비정상적으로 높은 것으로 나타났다. (③) 조사를 통해 염분의 원인이 상류의 겨울철 도로 유지보수에 있음이 밝혀졌다. (④) 그 도시는 제설 물질의 보관 장소를 옮겼다. (⑤)\n\n[해설]\n상류 도로 제설제와 염분의 연결이 밝혀진 뒤 원인과 증상의 거리 차이를 설명합니다.",
     "wrong_explanations": {},
     "_reviewed": false
   },
@@ -3722,7 +3722,7 @@ const QUESTION_BANK = [
       "⑤번 표시"
     ],
     "answer": 1,
-    "explanation": "①의 올바른 표현은 “who lived near the river”입니다. 표시된 구문은 who lived near the river의 형태를 취해야 합니다.",
+    "explanation": "[지문 해석]\n그 과학자는 강 근처에 사는 자원봉사자들을 초대하여 ① who living near the river) (② 미리 선정된 장소에서 샘플을 수집하고) (③ at locations that) (④ 미리 정해진) (⑤ 그들이 관찰한 것을 기록하도록 했다.\n\n[해설]\n①의 올바른 표현은 “who lived near the river”입니다. 표시된 구문은 who lived near the river의 형태를 취해야 합니다.",
     "wrong_explanations": {},
     "_reviewed": false
   },
@@ -3739,7 +3739,7 @@ const QUESTION_BANK = [
       "⑤번 표시"
     ],
     "answer": 1,
-    "explanation": "①의 올바른 표현은 “were aware of the change”입니다. proximity agreement with plural visitors",
+    "explanation": "[지문 해석]\n박물관이 문을 열고 직원이 ① was aware of the change ② until the museum opened ③ and a staff member ④ explained the new route ⑤ to the group 그룹에 새로운 경로를 설명할 때까지 가이드와 방문객 모두 변화를 인식하지 못했다.\n\n[해설]\n①의 올바른 표현은 “were aware of the change”입니다. proximity agreement with plural visitors",
     "wrong_explanations": {},
     "_reviewed": false
   },
@@ -3756,7 +3756,7 @@ const QUESTION_BANK = [
       "⑤ 번 표시"
     ],
     "answer": 4,
-    "explanation": "전기료와 유지비가 줄고 보행 안전성이 높아졌으므로 wasteful(낭비적인)은 성과와 반대입니다. worthwhile 또는 cost-effective가 적절합니다.",
+    "explanation": "[지문 해석]\n여러 가로등이 고장난 후, 마을 위원회는 좁은 길을 따라 (① 효율적인) LED 조명을 설치했다. 이 사업은 초기에 비용이 많이 들었기 때문에 관계자들은 장기적인 전기료 절감액을 구매 비용과 비교했다. 이 조명들은 (② 감소시켰다) 에너지 소비를 하면서 교차로를 (③ 보이게) 유지했다. 특히 유지보수비가 줄어들고 저녁 산책이 더 안전해져서 주민들은 이 변화를 (④ 낭비적이라고) 표현했다. 그 후 위원회는 이 사업을 다른 지역으로 확대했으며, 첫해 실적을 바탕으로 투자를 정당화했다. (⑤ 안정적인) 성능이 기술의 참신함보다 주민들에게 더 중요했다.\n\n[해설]\n전기료와 유지비가 줄고 보행 안전성이 높아졌으므로 wasteful(낭비적인)은 성과와 반대입니다. worthwhile 또는 cost-effective가 적절합니다.",
     "wrong_explanations": {},
     "_reviewed": false
   },
@@ -3773,7 +3773,7 @@ const QUESTION_BANK = [
       "⑤ 번 표시"
     ],
     "answer": 4,
-    "explanation": "수십 년 보존을 목표로 한다고 명시하므로 temporary(일시적인)는 부적절합니다. long-term으로 바꾸어야 합니다.",
+    "explanation": "[지문 해석]\n연구진들은 멸종 위기에 처한 식물들의 종자를 정교하게 관리되는 저장소에 보관했다. 습기가 열화를 가속화할 수 있기 때문에 온도는 (① 낮게) 유지되고 공기는 (② 건조하게) 관리되었다. 정기적인 점검 결과 이러한 환경이 종자의 생존력 손실을 (③ 지연시켰다). 이 프로젝트는 수십 년에 걸쳐 지속되는 (④ 임시적인) 보호 장치로 설계되었으며, 향후 생태 복원 전문가들이 서식지 훼손 이후 멸종 종을 복원할 수 있도록 하기 위한 것이었다. 직원들은 또한 상세한 기록을 유지하여 저장된 자료를 사용 전에 (⑤ 확인하고) 검사할 수 있도록 했다.\n\n[해설]\n수십 년 보존을 목표로 한다고 명시하므로 temporary(일시적인)는 부적절합니다. long-term으로 바꾸어야 합니다.",
     "wrong_explanations": {},
     "_reviewed": false
   },
@@ -3790,7 +3790,7 @@ const QUESTION_BANK = [
       "⑤ 번 표시"
     ],
     "answer": 4,
-    "explanation": "모형을 통해 길을 자신 있게 따라갔으므로 confusing은 반대 방향의 표현입니다. understandable 또는 accessible이 적합합니다.",
+    "explanation": "[지문 해석]\n동굴 가이드는 방문객들이 (① 복잡한) 지하 통로 체계의 지도를 해석하는 데 어려움을 겪는다는 것을 알고 있었다. 그녀는 터널들이 어떻게 연결되어 있는지 보여주는 (② 간단한) 3차원 모형을 준비했다. 투어 중에 그룹은 (③ 자신감 있게) 경로를 따라가며 갈림길에서 멈추어 주변 환경과 모형을 비교했다. 그 설명 덕분에 이전에 동굴에 들어가본 적이 없는 방문객들도 낯선 환경이 (④ 친숙해) 보였다. 모형이 (⑤ 휴대 가능했) 때문에, 가이드는 그룹의 일정을 지연시키지 않으면서도 여러 개의 동굴방에서 그것을 활용할 수 있었다.\n\n[해설]\n모형을 통해 길을 자신 있게 따라갔으므로 confusing은 반대 방향의 표현입니다. understandable 또는 accessible이 적합합니다.",
     "wrong_explanations": {},
     "_reviewed": false
   },
@@ -3807,7 +3807,7 @@ const QUESTION_BANK = [
       "⑤ 번 표시"
     ],
     "answer": 3,
-    "explanation": "대체 장소와 조정 가능한 시작 시간을 갖춘 계획이므로 rigid(경직된)는 모순됩니다. flexible이 맞습니다.",
+    "explanation": "[지문 해석]\n축제 주최자들은 야외 공연 일정을 잡기 전에 (① 독립적인) 기상 예보를 여러 개 참고했다. 그 예보들이 (② 엇갈린) 강우 시간대를 제시하고 있어서 하나의 고정된 결정을 내리기가 위험했다. 즉시 취소하는 대신, 팀은 실내 대체 장소와 유동적인 시작 시간을 포함한 (③ 경직된) 계획을 준비했다. 자원봉사자들은 그 장소들의 (④ 확보) 가능 여부를 확인했고, 공연자들에게는 상황이 바뀔 경우 어떻게 대응할지를 알려주었다. 이러한 (⑤ 유연한) 접근 방식 덕분에 불확실성에도 불구하고 대부분의 행사들이 진행될 수 있었다.\n\n[해설]\n대체 장소와 조정 가능한 시작 시간을 갖춘 계획이므로 rigid(경직된)는 모순됩니다. flexible이 맞습니다.",
     "wrong_explanations": {},
     "_reviewed": false
   },
@@ -3824,7 +3824,7 @@ const QUESTION_BANK = [
       "⑤ 번 표시"
     ],
     "answer": 4,
-    "explanation": "둥지가 파괴될 위험을 경고하면서 harmless라고 표현하면 모순됩니다. harmful이 맞습니다.",
+    "explanation": "[지문 해석]\n생태학자들은 최근에 확장된 고속도로 옆 (① 도로변) 관목에서 새들이 둥지를 짓기 시작했음을 발견했다. 식물들이 평범해 보였지만, 번식기 동안 (② 보호처)를 제공했다. 연구원들은 선별된 지역을 (③ 보존)하고 교통 표지판을 방해하는 것들만 제거할 것을 권장했다. 그들은 모든 관목을 제거하는 것이 새들에게 (④ 해롭다)고 경고했는데, 어린 새들이 날아갈 수 있기 전에 많은 둥지가 파괴될 수 있기 때문이다. 결과적으로 교통 관리 기관은 (⑤ 선택적)인 유지 보수 계획을 채택했다.\n\n[해설]\n둥지가 파괴될 위험을 경고하면서 harmless라고 표현하면 모순됩니다. harmful이 맞습니다.",
     "wrong_explanations": {},
     "_reviewed": false
   },
@@ -3841,7 +3841,7 @@ const QUESTION_BANK = [
       "⑤ 번 표시"
     ],
     "answer": 4,
-    "explanation": "사전 가격 공개가 신뢰를 높였다는 설명이므로 secretive(비밀스러운)는 반대 의미입니다. open 또는 transparent가 적절합니다.",
+    "explanation": "[지문 해석]\n한 자전거 수리점이 고객의 자전거를 받기 전에 일반적인 서비스에 대한 ① 명확한 가격을 공시하기 시작했다. 매니저는 숨겨진 비용에 대한 불확실성이 사람들이 수리를 받으려는 것을 꺼렸다고 믿었다. 게시된 목록은 고객들이 미리 서비스를 ② 비교하고 질문할 수 있도록 도왔다. 고객들은 그 가게의 가격 책정이 ④ 투명하고 결제 전에 확인할 수 있다는 이유로 ③ 점점 더 신뢰하게 되었다. 새로운 시스템이 의견 불일치를 완전히 없애지는 못했지만, 근로자와 고객 모두에게 과정을 더욱 ⑤ 투명하게 만들었다.\n\n[해설]\n사전 가격 공개가 신뢰를 높였다는 설명이므로 secretive(비밀스러운)는 반대 의미입니다. open 또는 transparent가 적절합니다.",
     "wrong_explanations": {},
     "_reviewed": false
   },
@@ -3858,7 +3858,7 @@ const QUESTION_BANK = [
       "⑤ 번 표시"
     ],
     "answer": 4,
-    "explanation": "명료도와 풍부함의 조화가 개선되었으므로 distorted(왜곡된)는 부적절합니다. natural 또는 pleasing이 맞습니다.",
+    "explanation": "[지문 해석]\n음향 공학자들은 높은 음역대에서 거친(①harsh) 울림이 발생하던 소규모 콘서트홀에 패널을 설치했다. 이 패널은 악기의 따뜻한 음색을 유지하면서 반사음을 (②absorbed) 흡수했다. 뮤지션들은 조용한 악절이 더 잘 들렸고 강력한 악절은 여전히 (③powerful) 임팩트가 있다고 보고했다. 지휘자는 새로운 시스템이 선명함과 풍부함 사이의 (④distorted) 균형을 이뤄냈다고 칭찬했다. 후속 검사 결과 여러 좌석의 청취자들이 더욱 (⑤consistent) 음질을 경험하는 것으로 확인되었다.\n\n[해설]\n명료도와 풍부함의 조화가 개선되었으므로 distorted(왜곡된)는 부적절합니다. natural 또는 pleasing이 맞습니다.",
     "wrong_explanations": {},
     "_reviewed": false
   },
@@ -3875,7 +3875,7 @@ const QUESTION_BANK = [
       "⑤ 번 표시"
     ],
     "answer": 5,
-    "explanation": "환자 호소를 주의 깊게 듣고 추가 검사를 실시했으므로 indifferent(무관심한)는 모순됩니다. attentive가 맞습니다.",
+    "explanation": "[지문 해석]\n한 간호사가 초기 진단과 맞지 않는 증상을 설명하는 환자의 말을 (① 주의깊게) 들었다. 그 증상들은 (② 비정상적)이었지만, 간호사는 그 보고를 (③ 무시하지) 않았다. 대신 그녀는 더 많은 질문을 하고 (④ 추가) 검사를 주선했다. 그녀의 상사는 이 결정을 환자의 우려에 (⑤ 무관심한) 것으로 표현했는데, 실제로는 정상적인 평가에서 놓칠 수 있는 세부 사항에 대한 세심한 주의를 보여주었다.\n\n[해설]\n환자 호소를 주의 깊게 듣고 추가 검사를 실시했으므로 indifferent(무관심한)는 모순됩니다. attentive가 맞습니다.",
     "wrong_explanations": {},
     "_reviewed": false
   },
@@ -3892,7 +3892,7 @@ const QUESTION_BANK = [
       "⑤ 번 표시"
     ],
     "answer": 4,
-    "explanation": "출토 위치와 층위를 체계적으로 기록했으므로 random(무작위의)은 부적절합니다. methodical이 적합합니다.",
+    "explanation": "[지문 해석]\n한 고대 정착지에서 고고학자는 (① 분류했다) 발견된 토양층에 따라 도자기 파편들을. 그녀는 (② 체계적인) 기록을 유지했다 위치, 형태, 장식에 대한. 증거가 신중한 순서대로 보존되었기 때문에, 다른 연구자들은 (③ 재구성할 수 있었다) 시간에 따른 공동체의 변화를. 박물관은 그 방법을 (④ 무작위적이라고) 묘사했다, 비록 모든 파편이 기록된 위치를 할당받았음에도 불구하고. 그 결과로 나온 (⑤ 연대기)는 팀이 자신의 발견을 근처 유적지들과 비교하는 데 도움이 되었다.\n\n[해설]\n출토 위치와 층위를 체계적으로 기록했으므로 random(무작위의)은 부적절합니다. methodical이 적합합니다.",
     "wrong_explanations": {},
     "_reviewed": false
   },
@@ -3909,7 +3909,7 @@ const QUESTION_BANK = [
       "⑤ 번 표시"
     ],
     "answer": 4,
-    "explanation": "매 수업에 안전 점검을 포함하므로 reckless(무모한)는 부적절합니다. careful이 맞습니다.",
+    "explanation": "[지문 해석]\n한 자전거 프로그램은 초보자들에게 (① 헬멧)을 제공했고 조용한 거리에서 (② 지도받는) 수업을 제공했다. 참가자들은 방향 신호를 보내는 방법과 차선을 바꾸기 전에 뒤에서 오는 교통을 확인하는 방법을 배웠다. 연습이 계속되면서 그들의 자신감은 (③ 증가했고), 강사들은 급작스러운 정지가 줄어들었다고 보고했다. 조직자들은 자신들의 교수법을 (④ 무모한) 것으로 설명했지만, 모든 활동에 안전 점검이 포함되어 있었다. 과정이 끝날 때쯤, 학습자들은 낯선 교통 상황에서 더욱 (⑤ 침착하게) 결정을 내릴 수 있었다.\n\n[해설]\n매 수업에 안전 점검을 포함하므로 reckless(무모한)는 부적절합니다. careful이 맞습니다.",
     "wrong_explanations": {},
     "_reviewed": false
   },
@@ -3926,7 +3926,7 @@ const QUESTION_BANK = [
       "⑤ 번 표시"
     ],
     "answer": 5,
-    "explanation": "집중력 향상과 uninterrupted time을 강조하므로 distracted(산만한)는 반대입니다. focused가 맞습니다.",
+    "explanation": "[지문 해석]\n한 학교가 매일 (① 조용한) 읽기 시간을 도입했다. 처음에 일부 학생들은 친구들과 대화하는 것을 더 좋아했기 때문에 이 변화에 (② 저항했다). 그럼에도 불구하고 교사들은 이 루틴을 일관되게 유지했고 학생들이 자신의 책을 선택하도록 허락했다. 한 달 안에 많은 학생들이 방해받지 않는 시간을 (③ 소중히 여겼고) 그것이 자신들의 (④ 집중력)을 높이는 데 도움이 되었다고 보고했다. 교장은 새로운 제도가 학생들의 향상된 집중력에도 불구하고 읽기 중 학생들을 더욱 (⑤ 산만하게) 만들었다고 결론 내렸다.\n\n[해설]\n집중력 향상과 uninterrupted time을 강조하므로 distracted(산만한)는 반대입니다. focused가 맞습니다.",
     "wrong_explanations": {},
     "_reviewed": false
   },
@@ -3943,7 +3943,7 @@ const QUESTION_BANK = [
       "⑤ 번 표시"
     ],
     "answer": 4,
-    "explanation": "기부자가 재정 정보를 이해하도록 하는 정책이므로 concealed(은폐된)는 모순됩니다. disclosed 또는 accessible이 맞습니다.",
+    "explanation": "[지문 해석]\n한 작은 자선단체는 각 프로그램이 기금을 어떻게 사용했는지 설명하는 (① 상세한) 회계 보고서를 발행했다. 또한 정기적인 (② 정기적인) 보고서를 발행하여 지지자들이 홍보성 주장에 의존하기보다는 (③ 평가할) 수 있도록 했다. 이사는 재무 정보를 (④ 공개해야) 한다고 말했으므로 기부자들이 의사결정을 이해하고 잠재적 약점을 파악할 수 있었다. 이러한 정책은 조직의 연례 총회에서 더욱 (⑤ 근거 있는) 질문들을 장려했다.\n\n[해설]\n기부자가 재정 정보를 이해하도록 하는 정책이므로 concealed(은폐된)는 모순됩니다. disclosed 또는 accessible이 맞습니다.",
     "wrong_explanations": {},
     "_reviewed": false
   },
@@ -3960,7 +3960,7 @@ const QUESTION_BANK = [
       "⑤ 번 표시"
     ],
     "answer": 4,
-    "explanation": "숨은 손상을 확인하기 위한 추가 검사이므로 unnecessary(불필요한)는 문맥과 모순됩니다. necessary가 적합합니다.",
+    "explanation": "[지문 해석]\n심각한 홍수 이후 엔지니어들이 다리를 (① 검사했다). 도로에서 보면 그 구조물은 (② 안정적으로) 보였지만, 상세한 이미지들은 여러 지지대 근처의 (③ 숨겨진) 손상을 드러냈다. 따라서 팀은 추가 검사를 통해 수리가 안전한지 확인할 수 있을 때까지 재개통을 연기했다. 관계자들은 표면만으로는 손상을 평가할 수 없었음에도 불구하고 추가 검사를 (④ 불필요하다)고 설명했다. 그들은 나중에 (⑤ 증거에 기반한) 결정이 공중 안전에 필수적이라고 설명했다.\n\n[해설]\n숨은 손상을 확인하기 위한 추가 검사이므로 unnecessary(불필요한)는 문맥과 모순됩니다. necessary가 적합합니다.",
     "wrong_explanations": {},
     "_reviewed": false
   },
@@ -3977,7 +3977,7 @@ const QUESTION_BANK = [
       "⑤ 번 표시"
     ],
     "answer": 4,
-    "explanation": "작품의 정신을 지켰다는 칭찬이므로 betraying(배신하는)은 부적절합니다. honoring이 맞습니다.",
+    "explanation": "[지문 해석]\n한 번역가가 원래 언어를 모르는 독자들을 위해 시의 유머를 (① 보존하려) 시도했다. 일부 (② 직역된) 표현들이 어색하게 들렸기 때문에, 그녀는 그것들을 비슷한 장난스러운 톤을 담은 표현으로 바꿨다. 독자들은 시의 핵심 의도를 잃지 않으면서도 결과물이 (③ 자연스럽다)고 느꼈다. 한 평론가는 그녀가 신중한 각색을 통해 작품의 정신을 (④ 훼손했다)고 칭찬했는데, 비록 그 각색이 그 정신을 보호하려는 목표였음에도 불구하고 말이다. 최종 버전은 여전히 독특한 목소리를 (⑤ 유지했다).\n\n[해설]\n작품의 정신을 지켰다는 칭찬이므로 betraying(배신하는)은 부적절합니다. honoring이 맞습니다.",
     "wrong_explanations": {},
     "_reviewed": false
   },
@@ -3994,7 +3994,7 @@ const QUESTION_BANK = [
       "⑤ 번 표시"
     ],
     "answer": 5,
-    "explanation": "품종 다양화가 전체 손실을 줄였다고 설명하므로 amplified(증폭시켰다)는 반대입니다. reduced가 맞습니다.",
+    "explanation": "[지문 해석]\n과수원은 단일 작물에만 의존하기보다는 (① several) 종류의 과일나무를 심었다. 비상한 날씨로 한 종류의 나무가 피해를 입었을 때, 다른 나무들은 계속 과일을 생산했다. 피해를 입은 수확량은 (③ reduced)되었지만, 다양화 덕분에 농장의 전체 손실을 (④ limit)할 수 있었다. 따라서 농부는 다양한 종류를 심은 것이 폭풍으로 인한 금전적 피해를 (⑤ amplified)했다고 설명했는데, 이는 한 종류만 재배했을 때보다 전체 손실액이 더 작았음에도 불구하고 그렇다고 했다.\n\n[해설]\n품종 다양화가 전체 손실을 줄였다고 설명하므로 amplified(증폭시켰다)는 반대입니다. reduced가 맞습니다.",
     "wrong_explanations": {},
     "_reviewed": false
   },
@@ -4011,7 +4011,7 @@ const QUESTION_BANK = [
       "⑤ 번 표시"
     ],
     "answer": 4,
-    "explanation": "설명 없이 구매를 마칠 수 있었다는 사실과 incomprehensible(이해할 수 없는)은 충돌합니다. understandable이 적절합니다.",
+    "explanation": "[지문 해석]\n한 극장이 고객들의 너무 많은 필수 화면에 대한 불만 이후 복잡한 온라인 예매 절차를 (① 간소화했다). 새로운 시스템은 (② 짧은) 양식을 사용했으며, 방문객들은 결제 전에 티켓 정보를 확인할 수 있었다. 그 결과 예매 과정 중간에 (③ 예매를 포기하는) 사람들이 줄어들었다. 직원들은 처음 사용하는 사람들이 설명 없이도 구매를 완료했음에도 불구하고 새 인터페이스를 (④ 이해하기 쉬운) 것이라고 설명했다. 디자인팀은 (⑤ 직관적인) 시스템이 유용한 정보를 제거하지 않으면서도 사용자의 답답함을 줄일 수 있다고 강조했다.\n\n[해설]\n설명 없이 구매를 마칠 수 있었다는 사실과 incomprehensible(이해할 수 없는)은 충돌합니다. understandable이 적절합니다.",
     "wrong_explanations": {},
     "_reviewed": false
   },
@@ -4028,7 +4028,7 @@ const QUESTION_BANK = [
       "⑤ 번 표시"
     ],
     "answer": 4,
-    "explanation": "원본 자료 확인과 별도 검토를 통과한 기사이므로 unreliable(신뢰할 수 없는)는 모순됩니다. reliable이 적합합니다.",
+    "explanation": "[지문 해석]\n한 기자가 보도자료를 발행하기 전에 공개된 주장들을 (① 원본) 문서와 대조했다. 이러한 (② 철저한) 과정을 통해 온라인에서 광범위하게 유포되었던 여러 오도된 통계들이 적발되었다. 그 기자는 이후 (③ 수정된) 수치들을 공개했고 다른 편집자에게 증거를 검토해 줄 것을 요청했다. 출판사는 그 결과물을 (④ 신뢰할 수 없는) 것으로 표현했는데, 비록 핵심 주장들이 추적 가능한 출처와 독립적인 검증으로 뒷받침되었음에도 불구하고 그렇게 했다. 편집자들은 어떤 주장이 빠르게 퍼질 가능성이 있을 때 (⑤ 검증)이 가장 중요하다는 점을 강조했다.\n\n[해설]\n원본 자료 확인과 별도 검토를 통과한 기사이므로 unreliable(신뢰할 수 없는)는 모순됩니다. reliable이 적합합니다.",
     "wrong_explanations": {},
     "_reviewed": false
   },
@@ -4045,7 +4045,7 @@ const QUESTION_BANK = [
       "⑤ 번 표시"
     ],
     "answer": 5,
-    "explanation": "명확한 역할 분담과 조정된 대응을 했으므로 chaotic(혼란스러운)는 부적절합니다. organized가 맞습니다.",
+    "explanation": "[지문 해석]\n긴급 구조팀은 겨울 폭풍 시즌 전에 여러 상황을 (① 연습)했다. 훈련 중에 팀원들은 (② 위험 요소)를 파악하고, 위치 정보를 공유하며, 통신이 어려워졌을 때 업무를 할당하는 방법을 배웠다. 그들의 반복 훈련은 날씨가 (③ 예상치 못하게) 변했을 때도 그룹이 (④ 조직적으로) 대응하는 데 도움이 되었다. 팀 리더는 그 대응을 (⑤ 혼란스럽다)고 평가했지만, 모든 구성원이 명확한 계획을 따랐고 중요한 업무가 빠지지 않았다.\n\n[해설]\n명확한 역할 분담과 조정된 대응을 했으므로 chaotic(혼란스러운)는 부적절합니다. organized가 맞습니다.",
     "wrong_explanations": {},
     "_reviewed": false
   },
@@ -4062,7 +4062,7 @@ const QUESTION_BANK = [
       "⑤ the complete absence of trade-offs in public decisions"
     ],
     "answer": 3,
-    "explanation": "사례의 핵심은 “careful design can reconcile recreation and wildlife protection”입니다. 나머지 선택지는 사례의 조건을 무시하거나 과도하게 일반화합니다.",
+    "explanation": "[지문 해석]\n한 연안 생물학자가 관광객이 증가하는 해변을 모니터링했다. 방문객의 수는 증가했지만, 야간 조명이 확대된 해변에서만 산란하는 새의 개체수가 감소했다. 산란 시즌 동안 조명을 제한하자 해변을 폐쇄하지 않으면서도 새들을 보호할 수 있었다. 이 사례는 겉보기에 단순해 보이는 결과가 사실은 간과하기 쉬운 조건들에 어떻게 좌우되는지를 보여준다.\n\n[해설]\n사례의 핵심은 “careful design can reconcile recreation and wildlife protection”입니다. 나머지 선택지는 사례의 조건을 무시하거나 과도하게 일반화합니다.",
     "wrong_explanations": {},
     "_reviewed": false
   },
@@ -4079,7 +4079,7 @@ const QUESTION_BANK = [
       "⑤ the complete absence of trade-offs in public decisions"
     ],
     "answer": 1,
-    "explanation": "사례의 핵심은 “policy success must be measured against its stated goal”입니다. 나머지 선택지는 사례의 조건을 무시하거나 과도하게 일반화합니다.",
+    "explanation": "[지문 해석]\n어떤 도시가 주말에 무료 공중버스 운행을 시작했다. 승객 수는 증가했지만, 새로 탑승한 많은 승객들은 이전에 자동차를 타지 않고 걸어 다니던 사람들이었다. 이 정책은 이동성을 개선했지만 지지자들이 기대했던 것만큼 자동차 통행량 감소에는 효과적이지 못했다. 이 사례는 겉으로는 단순해 보이는 결과가 실제로는 간과하기 쉬운 여러 조건에 달려 있다는 점을 보여준다. 이러한 관찰의 의미는 더 넓은 함의를 고려할 때 비로소 더욱 의미 있게 된다.\n\n[해설]\n사례의 핵심은 “policy success must be measured against its stated goal”입니다. 나머지 선택지는 사례의 조건을 무시하거나 과도하게 일반화합니다.",
     "wrong_explanations": {},
     "_reviewed": false
   },
@@ -4096,7 +4096,7 @@ const QUESTION_BANK = [
       "⑤ the complete absence of trade-offs in public decisions"
     ],
     "answer": 4,
-    "explanation": "사례의 핵심은 “long-term value differs from immediate cost”입니다. 나머지 선택지는 사례의 조건을 무시하거나 과도하게 일반화합니다.",
+    "explanation": "[지문 해석]\n한 엔지니어가 주택용 단열재 두 가지를 비교했다. 하나는 초기 비용이 적게 들었고, 다른 하나는 10년에 걸쳐 난방 에너지를 더 많이 절약했다. 최선의 선택은 두 재료를 비교하는 데 사용되는 시간 범위에 따라 달라졌다. 이 사례는 겉보기에 단순해 보이는 결론이 간과하기 쉬운 조건들에 얼마나 크게 좌우되는지를 보여준다. 이러한 관찰은 그 더 넓은 함의까지 고려할 때 더욱 의미 있는 것이 된다.\n\n[해설]\n사례의 핵심은 “long-term value differs from immediate cost”입니다. 나머지 선택지는 사례의 조건을 무시하거나 과도하게 일반화합니다.",
     "wrong_explanations": {},
     "_reviewed": false
   },
@@ -4113,7 +4113,7 @@ const QUESTION_BANK = [
       "⑤ the complete absence of trade-offs in public decisions"
     ],
     "answer": 2,
-    "explanation": "사례의 핵심은 “context supports flexible language learning”입니다. 나머지 선택지는 사례의 조건을 무시하거나 과도하게 일반화합니다.",
+    "explanation": "[지문 해석]\n어떤 언어 교사가 어휘 목록을 짧은 대화로 대체했다. 학생들은 형식적인 정의를 외우지 못했음에도 불구하고 새로운 표현을 적절하게 사용하기 시작했다. 단어들이 의미 있는 상호작용 속에 포함될 때 학습이 향상되었다. 이 사례는 얼핏 보기에 단순해 보이는 결과가 사실은 간과하기 쉬운 조건들에 어떻게 달려 있는지를 보여준다. 가장 명백한 측도만으로 도출한 결론은 설명의 중요한 부분을 놓칠 것이다. 따라서 이 예시는 겉으로 드러난 현상과 그 밑에 있는 메커니즘 사이의 차이를 구분해야 한다는 점을 시사한다.\n\n[해설]\n사례의 핵심은 “context supports flexible language learning”입니다. 나머지 선택지는 사례의 조건을 무시하거나 과도하게 일반화합니다.",
     "wrong_explanations": {},
     "_reviewed": false
   },
@@ -4130,7 +4130,7 @@ const QUESTION_BANK = [
       "⑤ public amenities depend on practical access"
     ],
     "answer": 5,
-    "explanation": "사례의 핵심은 “public amenities depend on practical access”입니다. 나머지 선택지는 사례의 조건을 무시하거나 과도하게 일반화합니다.",
+    "explanation": "[지문 해석]\n한 주택가에서 비어있던 땅을 작은 공원으로 변모시켰다. 주민들은 비공식적인 행사를 개최하기 시작했지만, 길이 공원에 쉽게 접근하게 해주는 곳에서 효과가 가장 컸다. 접근성이 새로운 공간이 얼마나 활용되는지를 결정했다. 이 사례는 겉으로 단순해 보이는 결과가 간과하기 쉬운 조건들에 얼마나 달려 있는지를 보여준다. 이 관찰은 그 더 광범위한 함의를 고려할 때 더욱 의미 있는 것이 된다.\n\n[해설]\n사례의 핵심은 “public amenities depend on practical access”입니다. 나머지 선택지는 사례의 조건을 무시하거나 과도하게 일반화합니다.",
     "wrong_explanations": {},
     "_reviewed": false
   },
@@ -4147,7 +4147,7 @@ const QUESTION_BANK = [
       "⑤ the complete absence of trade-offs in public decisions"
     ],
     "answer": 3,
-    "explanation": "사례의 핵심은 “historical evidence can illuminate present infrastructure problems”입니다. 나머지 선택지는 사례의 조건을 무시하거나 과도하게 일반화합니다.",
+    "explanation": "[지문 해석]\n한 환경 역사학자가 도시의 잊혀진 운하들을 연구했다. 오래된 지도들은 나중에 매장된 수로를 따라 형성된 많은 거리들을 보여주었다. 이 지도들은 왜 일부 지역이 여전히 정기적으로 홍수에 잠기는지를 설명하는 데 도움이 되었다. 이 사례는 겉으로는 단순해 보이는 결과가 실제로는 간과하기 쉬운 조건들에 어떻게 달려 있는지를 보여준다.\n\n[해설]\n사례의 핵심은 “historical evidence can illuminate present infrastructure problems”입니다. 나머지 선택지는 사례의 조건을 무시하거나 과도하게 일반화합니다.",
     "wrong_explanations": {},
     "_reviewed": false
   },
@@ -4164,7 +4164,7 @@ const QUESTION_BANK = [
       "⑤ the complete absence of trade-offs in public decisions"
     ],
     "answer": 1,
-    "explanation": "사례의 핵심은 “effective access requires comprehensible communication”입니다. 나머지 선택지는 사례의 조건을 무시하거나 과도하게 일반화합니다.",
+    "explanation": "[지문 해석]\n한 병원이 여러 언어로 된 진료 예약 알림을 시험했다. 이전 메시지 이해에 어려움을 겪었던 환자들 중에서 방문 누락이 가장 크게 감소했다. 이러한 개선은 의료 치료를 변경한 것이 아니라 의사소통 장벽을 제거함으로써 나타났다. 이 사례는 겉보기에 단순해 보이는 결과가 실제로는 간과하기 쉬운 조건들에 어떻게 달려있는지를 보여준다. 이러한 관찰은 더 광범위한 함의를 고려할 때 더욱 의미 있게 된다.\n\n[해설]\n사례의 핵심은 “effective access requires comprehensible communication”입니다. 나머지 선택지는 사례의 조건을 무시하거나 과도하게 일반화합니다.",
     "wrong_explanations": {},
     "_reviewed": false
   },
@@ -4181,7 +4181,7 @@ const QUESTION_BANK = [
       "⑤ the complete absence of trade-offs in public decisions"
     ],
     "answer": 4,
-    "explanation": "사례의 핵심은 “shared understanding can be more valuable than repetition”입니다. 나머지 선택지는 사례의 조건을 무시하거나 과도하게 일반화합니다.",
+    "explanation": "[지문 해석]\n한 오케스트라가 리허설 전에 어려운 악절에 대해 악사들이 논의하도록 했다. 그들은 반복된 실수를 야기한 상충하는 해석들을 파악했다. 다시 연주했을 때, 그 악단은 더 오래 리허설하지 않았음에도 불구하고 더욱 통일된 소리를 냈다. 이 사례는 겉보기에 단순해 보이는 결과가 간과하기 쉬운 조건들에 얼마나 의존하는지를 보여준다. 이 관찰은 그 더 넓은 함의들을 고려할 때 더욱 의미 있어진다.\n\n[해설]\n사례의 핵심은 “shared understanding can be more valuable than repetition”입니다. 나머지 선택지는 사례의 조건을 무시하거나 과도하게 일반화합니다.",
     "wrong_explanations": {},
     "_reviewed": false
   },
@@ -4198,7 +4198,7 @@ const QUESTION_BANK = [
       "⑤ the complete absence of trade-offs in public decisions"
     ],
     "answer": 2,
-    "explanation": "사례의 핵심은 “targeted intervention can outperform blanket solutions”입니다. 나머지 선택지는 사례의 조건을 무시하거나 과도하게 일반화합니다.",
+    "explanation": "[지문 해석]\n어떤 농부가 밭의 여러 구역에서 토양 수분을 측정하는 센서를 설치했다. 그 결과 건조한 지역에는 더 많은 관개를 하고 습한 지역에는 적게 함으로써 물의 사용량이 감소했다. 농장은 불균등한 조건을 획일적으로 처리하는 것을 피함으로써 생산량을 향상시켰다. 이 사례는 겉으로는 단순해 보이는 결과가 실제로는 간과하기 쉬운 조건들에 어떻게 달려 있는지를 보여준다. 가장 명백한 측정값만으로 도출한 결론은 설명의 중요한 부분을 놓치게 될 것이다. 따라서 이 예시는 외형과 그 아래 숨겨진 메커니즘 사이의 구분이 필요함을 시사한다.\n\n[해설]\n사례의 핵심은 “targeted intervention can outperform blanket solutions”입니다. 나머지 선택지는 사례의 조건을 무시하거나 과도하게 일반화합니다.",
     "wrong_explanations": {},
     "_reviewed": false
   },
@@ -4215,7 +4215,7 @@ const QUESTION_BANK = [
       "⑤ personal testimony can enrich material history"
     ],
     "answer": 5,
-    "explanation": "사례의 핵심은 “personal testimony can enrich material history”입니다. 나머지 선택지는 사례의 조건을 무시하거나 과도하게 일반화합니다.",
+    "explanation": "[지문 해석]\n한 박물관이 오래된 산업용 도구에 대해 설명하는 노동자들의 녹음 기록을 수집했다. 방문객들은 사람들이 그 도구들을 매일 어떻게 사용했는지 들었을 때 그 물건들을 더 잘 이해했다. 도구들은 고립된 기술적 유물이 아니라 인간의 경험을 보여주는 증거가 되었다. 이 사례는 겉보기에 단순해 보이는 결과가 간과하기 쉬운 조건들에 얼마나 크게 달려 있는지를 보여준다. 그 관찰 결과는 더 넓은 의미까지 고려했을 때 훨씬 더 의미 있게 된다.\n\n[해설]\n사례의 핵심은 “personal testimony can enrich material history”입니다. 나머지 선택지는 사례의 조건을 무시하거나 과도하게 일반화합니다.",
     "wrong_explanations": {},
     "_reviewed": false
   },
@@ -4232,7 +4232,7 @@ const QUESTION_BANK = [
       "⑤ the complete absence of trade-offs in public decisions"
     ],
     "answer": 3,
-    "explanation": "사례의 핵심은 “human curation offers value beyond popularity metrics”입니다. 나머지 선택지는 사례의 조건을 무시하거나 과도하게 일반화합니다.",
+    "explanation": "[지문 해석]\n한 서점이 판매량 순위 중심에서 직원 추천으로 전환했다. 독자들은 낯선 장르를 발견하게 되었고 자신의 선택에 대해 이야기하러 돌아왔다. 그 서점은 단순히 온라인 베스트셀러 목록을 복제하지 않으면서도 고객 충성도를 얻었다. 이 사례는 겉으로 단순해 보이는 결과가 실제로는 간과하기 쉬운 조건들에 얼마나 크게 좌우되는지를 보여준다.\n\n[해설]\n사례의 핵심은 “human curation offers value beyond popularity metrics”입니다. 나머지 선택지는 사례의 조건을 무시하거나 과도하게 일반화합니다.",
     "wrong_explanations": {},
     "_reviewed": false
   },
@@ -4249,7 +4249,7 @@ const QUESTION_BANK = [
       "⑤ the complete absence of trade-offs in public decisions"
     ],
     "answer": 1,
-    "explanation": "사례의 핵심은 “different observation methods can complement one another”입니다. 나머지 선택지는 사례의 조건을 무시하거나 과도하게 일반화합니다.",
+    "explanation": "[지문 해석]\n해양 과학자가 다이버들이 수행한 산호초 조사와 수중 카메라 영상을 비교했다. 카메라는 야간 활동을 더 많이 기록했고, 다이버들은 낮 시간의 미묘한 행동을 포착했다. 어느 방법도 생태계 전체를 단독으로 포착하지 못했다. 이 사례는 겉보기에 단순해 보이는 결과가 간과하기 쉬운 조건들에 얼마나 크게 좌우되는지를 보여준다. 그 관찰은 더 넓은 함의를 고려했을 때 더욱 의미 있는 것이 된다.\n\n[해설]\n사례의 핵심은 “different observation methods can complement one another”입니다. 나머지 선택지는 사례의 조건을 무시하거나 과도하게 일반화합니다.",
     "wrong_explanations": {},
     "_reviewed": false
   },
@@ -4266,7 +4266,7 @@ const QUESTION_BANK = [
       "⑤ the complete absence of trade-offs in public decisions"
     ],
     "answer": 4,
-    "explanation": "사례의 핵심은 “timely feedback enables earlier correction”입니다. 나머지 선택지는 사례의 조건을 무시하거나 과도하게 일반화합니다.",
+    "explanation": "[지문 해석]\n한 회사가 연간 직원 설문조사를 짧은 월간 면담으로 바꾸었다. 관리자들은 작은 문제들이 지속적인 불만으로 커지기 전에 이를 파악할 수 있었다. 이러한 변화가 중요했던 이유는 피드백이 문제들이 여전히 관리 가능한 상태일 때 의사결정에 영향을 미칠 수 있었기 때문이다. 이 사례는 겉으로 간단해 보이는 결과가 실제로는 간과하기 쉬운 조건들에 어떻게 달려 있는지를 보여준다. 이러한 관찰은 더 넓은 함의를 고려할 때 더욱 의미 있는 것이 된다.\n\n[해설]\n사례의 핵심은 “timely feedback enables earlier correction”입니다. 나머지 선택지는 사례의 조건을 무시하거나 과도하게 일반화합니다.",
     "wrong_explanations": {},
     "_reviewed": false
   },
@@ -4283,7 +4283,7 @@ const QUESTION_BANK = [
       "⑤ the complete absence of trade-offs in public decisions"
     ],
     "answer": 2,
-    "explanation": "사례의 핵심은 “good design responds to real behavior”입니다. 나머지 선택지는 사례의 조건을 무시하거나 과도하게 일반화합니다.",
+    "explanation": "[지문 해석]\n한 도시가 보행자들을 관찰한 후 붐비는 횡단보도를 다시 설계했다. 사람들은 표시된 횡단보도를 무시하고 정기적으로 비공식적인 경로를 이용했다. 횡단보도를 실제 이용 경로에 더 가깝게 옮기자 위험한 지름길 이용이 줄어들었다. 이 사례는 겉보기에 간단해 보이는 결과가 사실은 간과하기 쉬운 조건들에 어떻게 달려 있는지를 보여준다. 가장 명백한 측정치만으로 결론을 내렸다면 설명의 중요한 부분을 놓쳤을 것이다. 따라서 이 사례는 표면적 현상과 그 밑에 있는 메커니즘 사이의 구별이 필요함을 시사한다.\n\n[해설]\n사례의 핵심은 “good design responds to real behavior”입니다. 나머지 선택지는 사례의 조건을 무시하거나 과도하게 일반화합니다.",
     "wrong_explanations": {},
     "_reviewed": false
   },
@@ -4300,7 +4300,7 @@ const QUESTION_BANK = [
       "⑤ visible processes can reshape beliefs about achievement"
     ],
     "answer": 5,
-    "explanation": "사례의 핵심은 “visible processes can reshape beliefs about achievement”입니다. 나머지 선택지는 사례의 조건을 무시하거나 과도하게 일반화합니다.",
+    "explanation": "[지문 해석]\n한 학교에서 우수 에세이 사례들을 그 수정 과정과 함께 공개했다. 학생들은 훌륭한 글쓰기가 여러 번의 불완전한 초안을 거쳐 나타난다는 것을 깨달았다. 이 사례들은 좋은 작품이 손쉽게 완성된다는 믿음을 약화시켰다. 이는 겉으로 보기에 단순한 결과물이 사실은 쉽게 간과될 수 있는 조건들에 의존한다는 점을 보여준다. 이러한 관찰은 그것의 더 넓은 함의까지 고려할 때 더욱 의미 있어진다.\n\n[해설]\n사례의 핵심은 “visible processes can reshape beliefs about achievement”입니다. 나머지 선택지는 사례의 조건을 무시하거나 과도하게 일반화합니다.",
     "wrong_explanations": {},
     "_reviewed": false
   },
@@ -4317,7 +4317,7 @@ const QUESTION_BANK = [
       "⑤ the complete absence of trade-offs in public decisions"
     ],
     "answer": 3,
-    "explanation": "사례의 핵심은 “measurement schedules influence what researchers discover”입니다. 나머지 선택지는 사례의 조건을 무시하거나 과도하게 일반화합니다.",
+    "explanation": "[지문 해석]\n한 연구자가 밤에만 피는 희귀한 꽃을 연구했다. 낮 시간에 실시한 조사는 나방이 그 꽃을 방문하는 빈도를 과소평가했다. 관찰 시간을 변경하자 이전에 간과되었던 수분 현상이 드러났다. 이 사례는 겉으로 보기에 간단해 보이는 결과가 사실은 쉽게 놓치기 쉬운 조건들에 어떻게 좌우되는지를 잘 보여준다.\n\n[해설]\n사례의 핵심은 “measurement schedules influence what researchers discover”입니다. 나머지 선택지는 사례의 조건을 무시하거나 과도하게 일반화합니다.",
     "wrong_explanations": {},
     "_reviewed": false
   },
@@ -4334,7 +4334,7 @@ const QUESTION_BANK = [
       "⑤ the complete absence of trade-offs in public decisions"
     ],
     "answer": 1,
-    "explanation": "사례의 핵심은 “prevention may achieve more than end-of-pipe treatment”입니다. 나머지 선택지는 사례의 조건을 무시하거나 과도하게 일반화합니다.",
+    "explanation": "[지문 해석]\n한 재활용 캠페인은 구매 전에 얼마나 많은 폐기물을 예방할 수 있는지를 강조했다. 일부 주민들은 가전제품을 수리하고 거의 사용하지 않는 장비를 빌려 쓰기 시작했다. 결국 더 적은 양의 물질이 폐기물 처리 과정으로 들어가게 되었다. 이 사례는 겉으로 단순해 보이는 결과가 얼마나 쉽게 간과할 수 있는 조건들에 달려 있는지를 보여준다. 이러한 관찰은 그것의 더 넓은 의미를 고려할 때 더욱 의미 있어진다.\n\n[해설]\n사례의 핵심은 “prevention may achieve more than end-of-pipe treatment”입니다. 나머지 선택지는 사례의 조건을 무시하거나 과도하게 일반화합니다.",
     "wrong_explanations": {},
     "_reviewed": false
   },
@@ -4351,7 +4351,7 @@ const QUESTION_BANK = [
       "⑤ the complete absence of trade-offs in public decisions"
     ],
     "answer": 4,
-    "explanation": "사례의 핵심은 “physical barriers can suppress demand”입니다. 나머지 선택지는 사례의 조건을 무시하거나 과도하게 일반화합니다.",
+    "explanation": "[지문 해석]\n한 공공도서관이 먼 지역의 주민들을 위해 이동식 서비스를 만들었다. 중앙 지점을 거의 방문하지 않았던 주민들 중에서 책 대출이 증가했다. 참여를 제한한 것은 관심의 부족이 아니라 거리였다. 이 사례는 겉보기에 단순해 보이는 결과가 실제로는 간과하기 쉬운 조건들에 얼마나 많이 좌우되는지를 보여준다. 이 관찰은 더 넓은 의미를 고려할 때 더욱 의미 있게 된다.\n\n[해설]\n사례의 핵심은 “physical barriers can suppress demand”입니다. 나머지 선택지는 사례의 조건을 무시하거나 과도하게 일반화합니다.",
     "wrong_explanations": {},
     "_reviewed": false
   },
@@ -4368,7 +4368,7 @@ const QUESTION_BANK = [
       "⑤ (C)-(A)-(B)"
     ],
     "answer": 2,
-    "explanation": "제시문 다음은 A→C→B 순서입니다. 첫 문단이 구체적 실행을 제시하고, 다음 문단이 그 결과를 설명하며, 마지막 문단이 앞선 결과를 해석합니다. 지시어와 원인·결과의 선후 관계를 기준으로 배열했습니다.",
+    "explanation": "[지문 해석]\n한 지방의회가 예산을 쉬운 언어로 공개했다.\n\n(A) 의회는 먼저 설명이 없던 예산 코드를 각 부서가 구입할 계획인 물품에 대한 간단한 설명으로 바꿨다.\n\n(B) 이제 주민들이 질문할 구체적인 항목들을 파악할 수 있게 되자, 그 다음 공개 회의에 더 많은 사람들이 참석했다.\n\n(C) 그러한 설명들은 주민들이 제안된 지출을 자신들의 지역사회에서 발생하는 문제들과 비교해볼 수 있게 해주었다.\n\n[해설]\n제시문 다음은 A→C→B 순서입니다. 첫 문단이 구체적 실행을 제시하고, 다음 문단이 그 결과를 설명하며, 마지막 문단이 앞선 결과를 해석합니다. 지시어와 원인·결과의 선후 관계를 기준으로 배열했습니다.",
     "wrong_explanations": {},
     "_reviewed": false
   },
@@ -4385,7 +4385,7 @@ const QUESTION_BANK = [
       "⑤ (B)-(A)-(C)"
     ],
     "answer": 5,
-    "explanation": "제시문 다음은 B→A→C 순서입니다. 첫 문단이 구체적 실행을 제시하고, 다음 문단이 그 결과를 설명하며, 마지막 문단이 앞선 결과를 해석합니다. 지시어와 원인·결과의 선후 관계를 기준으로 배열했습니다.",
+    "explanation": "[지문 해석]\n한 과학자가 오래된 식물 표본을 이용하여 개화 시기를 연구했다.\n\n(A) 이러한 측정 결과는 그 지역에서 개화 시기가 점진적으로 앞당겨지고 있음을 보여주었다.\n\n(B) 그녀는 1세기에 걸쳐 보존된 표본들에 기록된 수집 날짜와 개화 단계를 측정했다.\n\n(C) 이 예상치 못한 발견은 분류를 위해 수집된 물건들이 나중에 기후 변화에 관한 의문에 답할 수 있다는 것을 보여주었다.\n\n[해설]\n제시문 다음은 B→A→C 순서입니다. 첫 문단이 구체적 실행을 제시하고, 다음 문단이 그 결과를 설명하며, 마지막 문단이 앞선 결과를 해석합니다. 지시어와 원인·결과의 선후 관계를 기준으로 배열했습니다.",
     "wrong_explanations": {},
     "_reviewed": false
   },
@@ -4402,7 +4402,7 @@ const QUESTION_BANK = [
       "⑤ (B)-(C)-(A)"
     ],
     "answer": 3,
-    "explanation": "제시문 다음은 C→B→A 순서입니다. 첫 문단이 구체적 실행을 제시하고, 다음 문단이 그 결과를 설명하며, 마지막 문단이 앞선 결과를 해석합니다. 지시어와 원인·결과의 선후 관계를 기준으로 배열했습니다.",
+    "explanation": "[지문 해석]\n한 자전거 정비사는 수리만 제공하는 대신 무료 워크숍을 개최했다.\n\n(A) 고객들의 반복적인 방문은 고객에게 독립성을 가르치는 것이 소규모 사업을 약화시키기는커녕 오히려 강화할 수 있다는 것을 보여주었다.\n\n(B) 기술을 배운 후, 같은 고객들은 더 어려운 수리에 대해 조언을 받으러 다시 찾아왔고 친구들에게 그 가게를 추천했다.\n\n(C) 첫 번째 워크숍에서 고객들은 정비사가 일을 대신 해주는 대신 지켜보는 가운데 펑크 수리를 직접 연습했다.\n\n[해설]\n제시문 다음은 C→B→A 순서입니다. 첫 문단이 구체적 실행을 제시하고, 다음 문단이 그 결과를 설명하며, 마지막 문단이 앞선 결과를 해석합니다. 지시어와 원인·결과의 선후 관계를 기준으로 배열했습니다.",
     "wrong_explanations": {},
     "_reviewed": false
   },
@@ -4419,7 +4419,7 @@ const QUESTION_BANK = [
       "⑤ (C)-(A)-(B)"
     ],
     "answer": 1,
-    "explanation": "제시문 다음은 A→C→B 순서입니다. 첫 문단이 구체적 실행을 제시하고, 다음 문단이 그 결과를 설명하며, 마지막 문단이 앞선 결과를 해석합니다. 지시어와 원인·결과의 선후 관계를 기준으로 배열했습니다.",
+    "explanation": "[지문 해석]\n한 도시 계획가가 그늘진 거리가 더 짧은 햇빛 노출 경로보다 더 인기 있다는 것을 관찰했다.\n\n(A) 그녀는 따뜻한 오후에 여러 번 보행자들에게 그늘진 거리와 더 빠르지만 노출된 지름길을 비교하도록 요청했다.\n\n(B) 이러한 선호도는 이동 시간만을 기반으로 한 계획 모델이 경로의 유용성을 잘못 판단할 수 있는 이유를 보여주었다.\n\n(C) 참가자들은 여행 시간이 늘어났음에도 불구하고 일관되게 그늘진 거리를 선택했다.\n\n[해설]\n제시문 다음은 A→C→B 순서입니다. 첫 문단이 구체적 실행을 제시하고, 다음 문단이 그 결과를 설명하며, 마지막 문단이 앞선 결과를 해석합니다. 지시어와 원인·결과의 선후 관계를 기준으로 배열했습니다.",
     "wrong_explanations": {},
     "_reviewed": false
   },
@@ -4436,7 +4436,7 @@ const QUESTION_BANK = [
       "⑤ (C)-(A)-(B)"
     ],
     "answer": 4,
-    "explanation": "제시문 다음은 B→A→C 순서입니다. 첫 문단이 구체적 실행을 제시하고, 다음 문단이 그 결과를 설명하며, 마지막 문단이 앞선 결과를 해석합니다. 지시어와 원인·결과의 선후 관계를 기준으로 배열했습니다.",
+    "explanation": "[지문 해석]\n한 학교는 과학 수업에서 익명의 질문을 활용했다.\n\n(A) 그 형식을 이용하자 그동안 침묵을 지키던 학생들이 어려운 실험과 생소한 용어에 대해 질문하기 시작했다.\n\n(B) 교사는 학생들이 이름을 밝히지 않고 질문을 제출할 수 있는 개인 양식을 만들었다.\n\n(C) 이렇게 드러난 새로운 질문들 덕분에 교사는 일반적인 교실 토론에서는 감춰져 있던 오개념들을 바로잡을 수 있었다.\n\n[해설]\n제시문 다음은 B→A→C 순서입니다. 첫 문단이 구체적 실행을 제시하고, 다음 문단이 그 결과를 설명하며, 마지막 문단이 앞선 결과를 해석합니다. 지시어와 원인·결과의 선후 관계를 기준으로 배열했습니다.",
     "wrong_explanations": {},
     "_reviewed": false
   },
@@ -4453,7 +4453,7 @@ const QUESTION_BANK = [
       "⑤ (B)-(C)-(A)"
     ],
     "answer": 2,
-    "explanation": "제시문 다음은 C→B→A 순서입니다. 첫 문단이 구체적 실행을 제시하고, 다음 문단이 그 결과를 설명하며, 마지막 문단이 앞선 결과를 해석합니다. 지시어와 원인·결과의 선후 관계를 기준으로 배열했습니다.",
+    "explanation": "[지문 해석]\n한 건축가가 역사적인 극장을 원래의 입구를 제거하지 않으면서 개축했다.\n\n(C) 설계팀은 극장의 원래 돌계단을 교체하는 대신 그 옆에 완만한 경사로를 설치했다.\n\n(B) 이러한 추가 설치는 역사적인 입구를 보존하면서 동시에 휠체어 사용자들이 같은 로비에 도달할 수 있게 해주었다.\n\n(A) 결과적으로 이 솔루션은 문화유산 보존과 접근성 확대가 서로 상충하지 않을 수 있음을 보여주었다.\n\n[해설]\n제시문 다음은 C→B→A 순서입니다. 첫 문단이 구체적 실행을 제시하고, 다음 문단이 그 결과를 설명하며, 마지막 문단이 앞선 결과를 해석합니다. 지시어와 원인·결과의 선후 관계를 기준으로 배열했습니다.",
     "wrong_explanations": {},
     "_reviewed": false
   },
@@ -4470,7 +4470,7 @@ const QUESTION_BANK = [
       "⑤ (A)-(C)-(B)"
     ],
     "answer": 5,
-    "explanation": "제시문 다음은 A→C→B 순서입니다. 첫 문단이 구체적 실행을 제시하고, 다음 문단이 그 결과를 설명하며, 마지막 문단이 앞선 결과를 해석합니다. 지시어와 원인·결과의 선후 관계를 기준으로 배열했습니다.",
+    "explanation": "[지문 해석]\n한 해안 자원봉사 단체가 폭풍우 이후 플라스틱 쓰레기를 지도에 표시했다.\n\n(A) 폭풍우가 지나간 후마다, 자원봉사자들은 버려진 포장재가 해변을 따라 어디에 쌓여 있는지 정확히 기록했다.\n\n(B) 이러한 연결고리는 그 단체로 하여금 상류의 기업들과 협력하고 해변 정소 활동을 조직하도록 설득했다.\n\n(C) 그들이 그 관찰 결과를 배수관 지도와 비교했을 때, 같은 배출구 아래쪽에서 반복되는 여러 집단이 나타났다.\n\n[해설]\n제시문 다음은 A→C→B 순서입니다. 첫 문단이 구체적 실행을 제시하고, 다음 문단이 그 결과를 설명하며, 마지막 문단이 앞선 결과를 해석합니다. 지시어와 원인·결과의 선후 관계를 기준으로 배열했습니다.",
     "wrong_explanations": {},
     "_reviewed": false
   },
@@ -4487,7 +4487,7 @@ const QUESTION_BANK = [
       "⑤ (C)-(A)-(B)"
     ],
     "answer": 3,
-    "explanation": "제시문 다음은 B→A→C 순서입니다. 첫 문단이 구체적 실행을 제시하고, 다음 문단이 그 결과를 설명하며, 마지막 문단이 앞선 결과를 해석합니다. 지시어와 원인·결과의 선후 관계를 기준으로 배열했습니다.",
+    "explanation": "[지문 해석]\n한 식물학자는 나무 묘목이 군집된 심기에서 더 잘 생존하는지를 검사했다.\n\n(A) 그러한 집단에서 인접한 줄기들은 바람 노출을 줄이고 가장 더운 시간에 그늘을 만들었다.\n\n(B) 식물학자는 한 묘목 세트는 멀리 떨어져 심고 다른 하나는 촘촘하게 간격을 두고 심었다.\n\n(C) 이러한 보호 작용은 군집된 묘목이 고립된 묘목보다 더 높은 생존율을 보인 이유를 설명해주었다.\n\n[해설]\n제시문 다음은 B→A→C 순서입니다. 첫 문단이 구체적 실행을 제시하고, 다음 문단이 그 결과를 설명하며, 마지막 문단이 앞선 결과를 해석합니다. 지시어와 원인·결과의 선후 관계를 기준으로 배열했습니다.",
     "wrong_explanations": {},
     "_reviewed": false
   },
@@ -4504,7 +4504,7 @@ const QUESTION_BANK = [
       "⑤ (B)-(C)-(A)"
     ],
     "answer": 1,
-    "explanation": "제시문 다음은 C→B→A 순서입니다. 첫 문단이 구체적 실행을 제시하고, 다음 문단이 그 결과를 설명하며, 마지막 문단이 앞선 결과를 해석합니다. 지시어와 원인·결과의 선후 관계를 기준으로 배열했습니다.",
+    "explanation": "[지문 해석]\n한 기자가 널리 공유된 사진을 조사했다.\n\n(C) 그녀는 먼저 그 사진이 널리 유포된 캡션에 기재된 위치와 날짜와 원본 사진을 대조했다.\n\n(B) 기록 보관소에서 확인한 결과 진정한 사진은 그 캡션에 명시된 사건보다 훨씬 이전에 촬영되었음이 드러났다.\n\n(A) 이러한 불일치는 인증된 이미지라도 그에 따른 설명이 거짓이면 사람들을 오도할 수 있다는 것을 보여주었다.\n\n[해설]\n제시문 다음은 C→B→A 순서입니다. 첫 문단이 구체적 실행을 제시하고, 다음 문단이 그 결과를 설명하며, 마지막 문단이 앞선 결과를 해석합니다. 지시어와 원인·결과의 선후 관계를 기준으로 배열했습니다.",
     "wrong_explanations": {},
     "_reviewed": false
   },
@@ -4521,7 +4521,7 @@ const QUESTION_BANK = [
       "⑤ (C)-(A)-(B)"
     ],
     "answer": 4,
-    "explanation": "제시문 다음은 A→C→B 순서입니다. 첫 문단이 구체적 실행을 제시하고, 다음 문단이 그 결과를 설명하며, 마지막 문단이 앞선 결과를 해석합니다. 지시어와 원인·결과의 선후 관계를 기준으로 배열했습니다.",
+    "explanation": "[지문 해석]\n한 연구자가 학생들의 자신감을 그들의 실제 시험 성적과 비교했다.\n\n(A) 학생들은 일련의 연습 시험에 대한 피드백을 받기 전에 자신의 성적을 예측했다.\n\n(B) 이러한 반복적인 비교를 통해, 그들의 성적이 즉시 올라가지 않았음에도 불구하고 이후의 예측은 더욱 정확해졌다.\n\n(C) 각 시험 후, 그들은 이러한 예측을 실제 결과와 비교하고 자신의 실수를 검토했다.\n\n[해설]\n제시문 다음은 A→C→B 순서입니다. 첫 문단이 구체적 실행을 제시하고, 다음 문단이 그 결과를 설명하며, 마지막 문단이 앞선 결과를 해석합니다. 지시어와 원인·결과의 선후 관계를 기준으로 배열했습니다.",
     "wrong_explanations": {},
     "_reviewed": false
   },
@@ -4538,7 +4538,7 @@ const QUESTION_BANK = [
       "⑤ (C)-(A)-(B)"
     ],
     "answer": 2,
-    "explanation": "제시문 다음은 B→A→C 순서입니다. 첫 문단이 구체적 실행을 제시하고, 다음 문단이 그 결과를 설명하며, 마지막 문단이 앞선 결과를 해석합니다. 지시어와 원인·결과의 선후 관계를 기준으로 배열했습니다.",
+    "explanation": "[지문 해석]\n한 마을이 계절별 유지보수를 위해 공용 전동 공구를 도입했다.\n\n(B) 마을은 어떤 가정이든 주말 수리를 위해 예약할 수 있는 소형 전동 공구 모음을 구입했다.\n\n(A) 주민들이 같은 장비를 차례로 빌려 사용하면서, 많은 가정들은 1년에 한 번만 사용할 기계를 굳이 구입하지 않게 되었다.\n\n(C) 불필요한 구매의 감소는 공용 접근이 실제 활동의 감소 없이도 자재에 대한 수요를 어떻게 줄일 수 있는지 보여주었다.\n\n[해설]\n제시문 다음은 B→A→C 순서입니다. 첫 문단이 구체적 실행을 제시하고, 다음 문단이 그 결과를 설명하며, 마지막 문단이 앞선 결과를 해석합니다. 지시어와 원인·결과의 선후 관계를 기준으로 배열했습니다.",
     "wrong_explanations": {},
     "_reviewed": false
   },
@@ -4555,7 +4555,7 @@ const QUESTION_BANK = [
       "⑤ (C)-(B)-(A)"
     ],
     "answer": 5,
-    "explanation": "제시문 다음은 C→B→A 순서입니다. 첫 문단이 구체적 실행을 제시하고, 다음 문단이 그 결과를 설명하며, 마지막 문단이 앞선 결과를 해석합니다. 지시어와 원인·결과의 선후 관계를 기준으로 배열했습니다.",
+    "explanation": "[지문 해석]\n한 대학이 과학적 불확실성을 표시하는 방식을 바꾸었다.\n\n(A) 그러한 개선된 구분은 불확실성을 공개적으로 전달하는 것이 신뢰를 훼손하기보다는 이해를 증진시킬 수 있다는 것을 시사했다.\n\n(B) 그 범위들이 가시적이 되면서 독자들은 어떤 결론이 잘 뒷받침되었는지, 그리고 어떤 것이 여전히 불확실한 조건들에 의존하고 있는지 구별할 수 있었다.\n\n(C) 연구원들은 단일 수치를 보고하는 대신 결과의 범위와 그 뒤에 있는 가정들을 함께 발표하기 시작했다.\n\n[해설]\n제시문 다음은 C→B→A 순서입니다. 첫 문단이 구체적 실행을 제시하고, 다음 문단이 그 결과를 설명하며, 마지막 문단이 앞선 결과를 해석합니다. 지시어와 원인·결과의 선후 관계를 기준으로 배열했습니다.",
     "wrong_explanations": {},
     "_reviewed": false
   },
@@ -4572,7 +4572,7 @@ const QUESTION_BANK = [
       "⑤ (C)-(A)-(B)"
     ],
     "answer": 3,
-    "explanation": "제시문 다음은 A→C→B 순서입니다. 첫 문단이 구체적 실행을 제시하고, 다음 문단이 그 결과를 설명하며, 마지막 문단이 앞선 결과를 해석합니다. 지시어와 원인·결과의 선후 관계를 기준으로 배열했습니다.",
+    "explanation": "[지문 해석]\n어느 작곡가가 하루 중 다른 시간대의 자연음을 녹음했다.\n\n(A) 그 작곡가는 동일한 장비를 사용하여 같은 공원을 새벽에 녹음한 후 일몰 이후에 다시 녹음했다.\n\n(B) 그녀는 이러한 음향의 차이를 작곡에 담아내어 청취자들이 익숙한 환경의 변화를 주목하도록 유도했다.\n\n(C) 두 녹음을 비교해보니 새벽 녹음에는 저녁 녹음에 없는 새소리와 발걸음 소리가 포함되어 있었다.\n\n[해설]\n제시문 다음은 A→C→B 순서입니다. 첫 문단이 구체적 실행을 제시하고, 다음 문단이 그 결과를 설명하며, 마지막 문단이 앞선 결과를 해석합니다. 지시어와 원인·결과의 선후 관계를 기준으로 배열했습니다.",
     "wrong_explanations": {},
     "_reviewed": false
   },
@@ -4589,7 +4589,7 @@ const QUESTION_BANK = [
       "⑤ (C)-(A)-(B)"
     ],
     "answer": 1,
-    "explanation": "제시문 다음은 B→A→C 순서입니다. 첫 문단이 구체적 실행을 제시하고, 다음 문단이 그 결과를 설명하며, 마지막 문단이 앞선 결과를 해석합니다. 지시어와 원인·결과의 선후 관계를 기준으로 배열했습니다.",
+    "explanation": "[지문 해석]\n한 지역 시장에서 소규모 생산자들을 위해 테이블을 확보했다.\n\n(A) 그 재배자들이 도착하자 쇼핑객들은 대형 공급업체에서는 좀처럼 볼 수 없는 특이한 품종들을 만나게 되었다.\n\n(B) 시장은 처음에 소량의 계절 수확만을 생산하는 재배자들을 위해 여러 판매대를 확보했다.\n\n(C) 그러나 수확량이 주마다 달랐기 때문에, 주최자들은 더 큰 다양성을 제공하려면 유연한 계획이 필요하다는 것을 깨닫게 되었다.\n\n[해설]\n제시문 다음은 B→A→C 순서입니다. 첫 문단이 구체적 실행을 제시하고, 다음 문단이 그 결과를 설명하며, 마지막 문단이 앞선 결과를 해석합니다. 지시어와 원인·결과의 선후 관계를 기준으로 배열했습니다.",
     "wrong_explanations": {},
     "_reviewed": false
   },
@@ -4606,7 +4606,7 @@ const QUESTION_BANK = [
       "⑤ (B)-(C)-(A)"
     ],
     "answer": 4,
-    "explanation": "제시문 다음은 C→B→A 순서입니다. 첫 문단이 구체적 실행을 제시하고, 다음 문단이 그 결과를 설명하며, 마지막 문단이 앞선 결과를 해석합니다. 지시어와 원인·결과의 선후 관계를 기준으로 배열했습니다.",
+    "explanation": "[지문 해석]\n어느 다리 관리 당국이 자전거 이용자들을 위해 실시간 바람 측정 데이터를 공개했다.\n\n(A) 이용자들의 행동 변화는 위험 요소를 제거할 수는 없더라도 적절한 정보가 사람들이 그 위험에 대처하도록 도울 수 있음을 보여주었다.\n\n(B) 이 정보를 확인한 후 자전거 이용자들은 여행을 취소하기보다는 바람이 덜한 시간대에 출발하는 경향을 보였다.\n\n(C) 다리 관리 당국은 자전거 이용자들이 노출된 구간에 진입하기 전에 바람의 속도를 표시하는 디스플레이를 설치했다.\n\n[해설]\n제시문 다음은 C→B→A 순서입니다. 첫 문단이 구체적 실행을 제시하고, 다음 문단이 그 결과를 설명하며, 마지막 문단이 앞선 결과를 해석합니다. 지시어와 원인·결과의 선후 관계를 기준으로 배열했습니다.",
     "wrong_explanations": {},
     "_reviewed": false
   },
@@ -4623,7 +4623,7 @@ const QUESTION_BANK = [
       "⑤ (C)-(A)-(B)"
     ],
     "answer": 2,
-    "explanation": "제시문 다음은 A→C→B 순서입니다. 첫 문단이 구체적 실행을 제시하고, 다음 문단이 그 결과를 설명하며, 마지막 문단이 앞선 결과를 해석합니다. 지시어와 원인·결과의 선후 관계를 기준으로 배열했습니다.",
+    "explanation": "[지문 해석]\n아동 발달 연구팀이 협력 보드게임을 연구했다.\n\n(A) 연구원들은 아이들에게 협력 보드게임을 하면서 자신의 결정을 큰 소리로 설명하도록 요청했다.\n\n(B) 추론 능력과 점수 사이의 이러한 대조는 성공만으로는 학습을 완전히 측정할 수 없는 이유를 보여주었다.\n\n(C) 그 대화들은 팀이 항상 승리하지 못했던 아이들 중에서도 신중한 전략이 있었음을 드러냈다.\n\n[해설]\n제시문 다음은 A→C→B 순서입니다. 첫 문단이 구체적 실행을 제시하고, 다음 문단이 그 결과를 설명하며, 마지막 문단이 앞선 결과를 해석합니다. 지시어와 원인·결과의 선후 관계를 기준으로 배열했습니다.",
     "wrong_explanations": {},
     "_reviewed": false
   },
@@ -4640,7 +4640,7 @@ const QUESTION_BANK = [
       "⑤ (B)-(A)-(C)"
     ],
     "answer": 5,
-    "explanation": "제시문 다음은 B→A→C 순서입니다. 첫 문단이 구체적 실행을 제시하고, 다음 문단이 그 결과를 설명하며, 마지막 문단이 앞선 결과를 해석합니다. 지시어와 원인·결과의 선후 관계를 기준으로 배열했습니다.",
+    "explanation": "[지문 해석]\n한 동물원이 동물 안내판을 사실적인 설명에서 질문 형태로 바꾸었다.\n\n(A) 그러한 질문에 대응하여 방문객들은 이전보다 더 오랫동안 동물의 섭식과 이동 패턴을 관찰했다.\n\n(B) 동물원은 단순히 종(種)의 이름만 표시하는 대신, 방문객들이 각 동물이 무엇을 하고 있는지 알아차리도록 유도하는 질문을 추가했다.\n\n(C) 이 변화는 정답을 미리 제시하는 설명보다 잘 설계된 질문이 관찰을 더 효과적으로 심화할 수 있음을 시사했다.\n\n[해설]\n제시문 다음은 B→A→C 순서입니다. 첫 문단이 구체적 실행을 제시하고, 다음 문단이 그 결과를 설명하며, 마지막 문단이 앞선 결과를 해석합니다. 지시어와 원인·결과의 선후 관계를 기준으로 배열했습니다.",
     "wrong_explanations": {},
     "_reviewed": false
   },
@@ -4657,7 +4657,7 @@ const QUESTION_BANK = [
       "⑤ (B)-(C)-(A)"
     ],
     "answer": 3,
-    "explanation": "제시문 다음은 C→B→A 순서입니다. 첫 문단이 구체적 실행을 제시하고, 다음 문단이 그 결과를 설명하며, 마지막 문단이 앞선 결과를 해석합니다. 지시어와 원인·결과의 선후 관계를 기준으로 배열했습니다.",
+    "explanation": "[지문 해석]\n한 농부가 여러 계절에 걸쳐 퇴비와 화학 비료를 비교했다.\n\n(A) 이러한 지연된 변화들은 왜 한 계절의 수확량만으로 두 처리 방식을 평가하면 불완전한 결론에 이르게 되는지를 보여주었다.\n\n(B) 처음에는 수확량이 비슷했지만, 이후 검사를 통해 토양 구조와 수분 보유 능력에서 차이가 드러났다.\n\n(C) 그 농부는 여러 생육 계절에 걸쳐 퇴비를 사용한 밭과 광물 비료를 사용한 밭을 비교했다.\n\n[해설]\n제시문 다음은 C→B→A 순서입니다. 첫 문단이 구체적 실행을 제시하고, 다음 문단이 그 결과를 설명하며, 마지막 문단이 앞선 결과를 해석합니다. 지시어와 원인·결과의 선후 관계를 기준으로 배열했습니다.",
     "wrong_explanations": {},
     "_reviewed": false
   },
@@ -4674,7 +4674,7 @@ const QUESTION_BANK = [
       "⑤ to advertise a commercial product without any request"
     ],
     "answer": 1,
-    "explanation": "발신인이 수신자에게 직접 요청하거나 알리는 핵심은 “to inform residents of a temporary trail closure”입니다.",
+    "explanation": "[지문 해석]\n주민 여러분께, 화요일에 강변 산책로가 안전 난간 수리를 위해 폐쇄됩니다. 안전 점검이 완료될 때까지 위쪽 산책로를 이용해 주시기 바랍니다. 양해해 주셔서 감사합니다.\n\n[해설]\n발신인이 수신자에게 직접 요청하거나 알리는 핵심은 “to inform residents of a temporary trail closure”입니다.",
     "wrong_explanations": {},
     "_reviewed": false
   },
@@ -4691,7 +4691,7 @@ const QUESTION_BANK = [
       "⑤ to advertise a commercial product without any request"
     ],
     "answer": 4,
-    "explanation": "발신인이 수신자에게 직접 요청하거나 알리는 핵심은 “to apply for a stall at a food fair”입니다.",
+    "explanation": "[지문 해석]\n축제 위원회 귀중,\n\n저는 다음 달 지역 음식 박람회에서 부스를 운영할 수 있게 해 달라는 요청 편지를 보냅니다. 저희 협동조합은 마을 내에서 허브를 재배하고 있으며, 이러한 허브들이 요리에서 어떻게 활용될 수 있는지 보여드리고 싶습니다.\n\n[해설]\n발신인이 수신자에게 직접 요청하거나 알리는 핵심은 “to apply for a stall at a food fair”입니다.",
     "wrong_explanations": {},
     "_reviewed": false
   },
@@ -4708,7 +4708,7 @@ const QUESTION_BANK = [
       "⑤ to give instructions for a volunteer survey"
     ],
     "answer": 5,
-    "explanation": "발신인이 수신자에게 직접 요청하거나 알리는 핵심은 “to give instructions for a volunteer survey”입니다.",
+    "explanation": "[지문 해석]\n모든 자원봉사자 여러분께: 해변 조사는 토요일 오전 8시에 시작됩니다. 장갑을 꼭 챙겨오시고 수집한 샘플 각각의 위치를 기록해 주시기 바랍니다. 입구에서 오리엔테이션이 진행될 예정입니다.\n\n[해설]\n발신인이 수신자에게 직접 요청하거나 알리는 핵심은 “to give instructions for a volunteer survey”입니다.",
     "wrong_explanations": {},
     "_reviewed": false
   },
@@ -4725,7 +4725,7 @@ const QUESTION_BANK = [
       "⑤ to encourage support for preserving a public building"
     ],
     "answer": 5,
-    "explanation": "발신인이 수신자에게 직접 요청하거나 알리는 핵심은 “to encourage support for preserving a public building”입니다.",
+    "explanation": "[지문 해석]\n이웃 여러분께,\n\n저희는 오래된 시장 건물을 보존하기 위해 서명을 모으고 있습니다. 이 건물은 철거되는 것보다는 지역사회를 위해 개보수되어 사용될 수 있습니다. 목요일에 열리는 공개 회의에 참석해 주시기 바랍니다.\n\n[해설]\n발신인이 수신자에게 직접 요청하거나 알리는 핵심은 “to encourage support for preserving a public building”입니다.",
     "wrong_explanations": {},
     "_reviewed": false
   },
@@ -4742,7 +4742,7 @@ const QUESTION_BANK = [
       "⑤ amused → suspicious"
     ],
     "answer": 4,
-    "explanation": "사건 이전과 이후에 묘사된 표정·행동이 “nervous → relieved and delighted”의 흐름을 뒷받침합니다.",
+    "explanation": "[지문 해석]\n마야는 떨리는 손으로 오디션 실에 들어섰다. 중간에 한 음을 놓쳤지만 연주를 계속했다. 심사위원들이 웃으며 그녀를 최종 라운드에 초대했을 때, 그녀는 방긋거리는 것을 멈출 수 없었다.\n\n[해설]\n사건 이전과 이후에 묘사된 표정·행동이 “nervous → relieved and delighted”의 흐름을 뒷받침합니다.",
     "wrong_explanations": {},
     "_reviewed": false
   },
@@ -4759,7 +4759,7 @@ const QUESTION_BANK = [
       "⑤ amused → suspicious"
     ],
     "answer": 2,
-    "explanation": "사건 이전과 이후에 묘사된 표정·행동이 “alarmed → relieved”의 흐름을 뒷받침합니다.",
+    "explanation": "[지문 해석]\nJon은 자신의 작은 보트가 선착장에서 떠내려가는 것을 바라봤다. 그는 밧줄을 찾으려고 했지만 발견하지 못했다. 몇 분 뒤, 항만 노동자가 보트를 안전하게 확보하여 돌려놓았다.\n\n[해설]\n사건 이전과 이후에 묘사된 표정·행동이 “alarmed → relieved”의 흐름을 뒷받침합니다.",
     "wrong_explanations": {},
     "_reviewed": false
   },
@@ -4776,7 +4776,7 @@ const QUESTION_BANK = [
       "⑤ amused → suspicious"
     ],
     "answer": 3,
-    "explanation": "사건 이전과 이후에 묘사된 표정·행동이 “discouraged → touched”의 흐름을 뒷받침합니다.",
+    "explanation": "[지문 해석]\n한 노인 정원사가 빗에 의해 쓰러진 묘목들을 보았다. 그는 한숨을 쉬며 부러진 트레이들을 모았다. 다음날 아침 이웃들이 여분의 식물들을 들고 나타났고, 그의 눈에는 눈물이 맺혔다.\n\n[해설]\n사건 이전과 이후에 묘사된 표정·행동이 “discouraged → touched”의 흐름을 뒷받침합니다.",
     "wrong_explanations": {},
     "_reviewed": false
   },
@@ -4793,7 +4793,7 @@ const QUESTION_BANK = [
       "⑤ amused → suspicious"
     ],
     "answer": 1,
-    "explanation": "사건 이전과 이후에 묘사된 표정·행동이 “anxious → reassured”의 흐름을 뒷받침합니다.",
+    "explanation": "[지문 해석]\n어려운 등산의 첫 아침, 한 가이드가 단체 앞에 서 있었다. 그녀는 갑자기 낀 안개가 걱정되었다. 구름이 걷히고 모두가 지시를 따르자, 그녀의 어깨가 한결 편해졌다.\n\n[해설]\n사건 이전과 이후에 묘사된 표정·행동이 “anxious → reassured”의 흐름을 뒷받침합니다.",
     "wrong_explanations": {},
     "_reviewed": false
   },
@@ -4810,7 +4810,7 @@ const QUESTION_BANK = [
       "⑤ amused → suspicious"
     ],
     "answer": 2,
-    "explanation": "사건 이전과 이후에 묘사된 표정·행동이 “panicked → relieved”의 흐름을 뒷받침합니다.",
+    "explanation": "[지문 해석]\n니나는 자신이 기차를 놓쳤을 것이 확실하다고 생각하며 역에 도착했다. 그녀는 플랫폼의 시계를 보고 텅 빈 선로를 향해 서둘러 달려갔다. 그러던 중 출발이 지연된다는 안내 방송이 나왔다.\n\n[해설]\n사건 이전과 이후에 묘사된 표정·행동이 “panicked → relieved”의 흐름을 뒷받침합니다.",
     "wrong_explanations": {},
     "_reviewed": false
   },
@@ -4827,7 +4827,7 @@ const QUESTION_BANK = [
       "⑤ frustrated → appreciative"
     ],
     "answer": 5,
-    "explanation": "사건 이전과 이후에 묘사된 표정·행동이 “frustrated → appreciative”의 흐름을 뒷받침합니다.",
+    "explanation": "[지문 해석]\n한 학생이 첫 초안을 들었는데 온통 코멘트로 덮여 있었다. 그는 답답함에 그것을 밀어냈다. 나중에 각각의 지적이 논증을 얼마나 명확하게 만들었는지 깨닫고 선생님께 감사를 표했다.\n\n[해설]\n사건 이전과 이후에 묘사된 표정·행동이 “frustrated → appreciative”의 흐름을 뒷받침합니다.",
     "wrong_explanations": {},
     "_reviewed": false
   },
@@ -4844,7 +4844,7 @@ const QUESTION_BANK = [
       "⑤ amused → suspicious"
     ],
     "answer": 4,
-    "explanation": "사건 이전과 이후에 묘사된 표정·행동이 “hurt → hopeful”의 흐름을 뒷받침합니다.",
+    "explanation": "[지문 해석]\n하나는 자신의 디자인을 거부하는 팀의 의견을 들었다. 처음에는 말이 없었다. 동료가 그것의 최고의 특징을 새로운 계획과 결합하겠다고 제안했을 때, 그녀는 열정적으로 노트북을 다시 펼쳤다.\n\n[해설]\n사건 이전과 이후에 묘사된 표정·행동이 “hurt → hopeful”의 흐름을 뒷받침합니다.",
     "wrong_explanations": {},
     "_reviewed": false
   },
@@ -4861,7 +4861,7 @@ const QUESTION_BANK = [
       "⑤ discouraged → proud"
     ],
     "answer": 5,
-    "explanation": "사건 이전과 이후에 묘사된 표정·행동이 “discouraged → proud”의 흐름을 뒷받침합니다.",
+    "explanation": "[지문 해석]\n한 선수가 경주의 전반전에서 뒤쳐졌다. 그녀는 거의 포기할 뻔했지만, 관중들의 응원이 그녀가 강하게 마무리하도록 도와주었다. 시간에도 불구하고 그녀는 웃으면서 결승선을 통과했다.\n\n[해설]\n사건 이전과 이후에 묘사된 표정·행동이 “discouraged → proud”의 흐름을 뒷받침합니다.",
     "wrong_explanations": {},
     "_reviewed": false
   },
@@ -4878,7 +4878,7 @@ const QUESTION_BANK = [
       "⑤ amused → suspicious"
     ],
     "answer": 3,
-    "explanation": "사건 이전과 이후에 묘사된 표정·행동이 “concerned → delighted”의 흐름을 뒷받침합니다.",
+    "explanation": "[지문 해석]\n한 아키비스트는 희귀한 일기의 마지막 페이지가 없어졌다고 생각했다. 그는 여러 상자를 뒤졌고 그것을 다른 책 속에서 발견했다. 그는 그 페이지를 믿기지 않으면서도 만족스러운 표정으로 바라봤다.\n\n[해설]\n사건 이전과 이후에 묘사된 표정·행동이 “concerned → delighted”의 흐름을 뒷받침합니다.",
     "wrong_explanations": {},
     "_reviewed": false
   },
@@ -4895,7 +4895,7 @@ const QUESTION_BANK = [
       "⑤ A Single Measurement Explains Everything"
     ],
     "answer": 4,
-    "explanation": "글의 전체 과정을 포괄하면서 지나치게 단정하지 않는 제목을 선택해야 합니다.",
+    "explanation": "[지문 해석]\n대중교통 운영 기관이 버스 노선도를 거리 수준으로 이동했다. 그 후 환승 경로를 찾기 어려워하던 이용객들은 더 쉽게 길을 찾을 수 있었다. 같은 정보라도 의사 결정 순간에 제시되면 훨씬 더 유용해진다. 이러한 결과를 이해하려면 이 사례의 가장 눈에 띄는 특징 너머를 살펴봐야 한다.\n\n[해설]\n글의 전체 과정을 포괄하면서 지나치게 단정하지 않는 제목을 선택해야 합니다.",
     "wrong_explanations": {},
     "_reviewed": false
   },
@@ -4912,7 +4912,7 @@ const QUESTION_BANK = [
       "⑤ A Single Measurement Explains Everything"
     ],
     "answer": 2,
-    "explanation": "글의 전체 과정을 포괄하면서 지나치게 단정하지 않는 제목을 선택해야 합니다.",
+    "explanation": "[지문 해석]\n한 역사가가 평범한 선원들이 쓴 편지들을 조사했다. 그들은 웅대한 항해만큼이나 음식, 질병, 가족에 대해 많이 이야기했다. 이 편지들은 탐험과 무역에만 초점을 맞춘 공식 기록들을 더욱 복잡하게 만들었다. 이 결과를 이해하려면 사건의 가장 눈에 띄는 특징을 넘어서서 살펴봐야 한다. 그 관찰은 더 넓은 함의들을 고려할 때 더욱 의미 있게 된다.\n\n[해설]\n글의 전체 과정을 포괄하면서 지나치게 단정하지 않는 제목을 선택해야 합니다.",
     "wrong_explanations": {},
     "_reviewed": false
   },
@@ -4929,7 +4929,7 @@ const QUESTION_BANK = [
       "⑤ Participation turns knowledge into practice"
     ],
     "answer": 5,
-    "explanation": "글의 전체 과정을 포괄하면서 지나치게 단정하지 않는 제목을 선택해야 합니다.",
+    "explanation": "[지문 해석]\n한 학교가 학생들에게 에너지 절약 아이디어를 제안하도록 초대했다. 학생들은 비어있는 방의 불이 켜진 채로 방치되어 있는 것을 파악하고 모니터링 계획을 수립했다. 이러한 성공은 문제에 대한 인식만이 아니라 실제로 행동할 수 있는 능력에 달려 있었다. 이 결과를 이해하려면 사건의 가장 눈에 띄는 특징을 넘어서 살펴봐야 한다. 관찰 결과는 더 광범위한 함의를 고려할 때 더욱 의미 있게 된다.\n\n[해설]\n글의 전체 과정을 포괄하면서 지나치게 단정하지 않는 제목을 선택해야 합니다.",
     "wrong_explanations": {},
     "_reviewed": false
   },
@@ -4946,7 +4946,7 @@ const QUESTION_BANK = [
       "⑤ A Single Measurement Explains Everything"
     ],
     "answer": 3,
-    "explanation": "글의 전체 과정을 포괄하면서 지나치게 단정하지 않는 제목을 선택해야 합니다.",
+    "explanation": "[지문 해석]\n한 연구팀이 인공지능 모델을 지역 방언으로 테스트했다. 표준 언어에서는 잘 작동했지만 많은 지역 표현을 잘못 해석했다. 훈련 데이터의 다양성이 시스템의 공정성과 신뢰성에 중요한 영향을 미쳤다. 이 결과를 이해하려면 사건의 가장 드러난 특징만 보아서는 안 된다. 가장 명백한 지표만으로 도출한 결론은 설명의 중요한 부분을 놓칠 것이고, 따라서 이 사례는 외형과 그 배경의 메커니즘을 구별할 필요성을 시사한다.\n\n[해설]\n글의 전체 과정을 포괄하면서 지나치게 단정하지 않는 제목을 선택해야 합니다.",
     "wrong_explanations": {},
     "_reviewed": false
   },
@@ -4963,7 +4963,7 @@ const QUESTION_BANK = [
       "⑤ A Single Measurement Explains Everything"
     ],
     "answer": 1,
-    "explanation": "글의 전체 과정을 포괄하면서 지나치게 단정하지 않는 제목을 선택해야 합니다.",
+    "explanation": "[지문 해석]\n한 과수원이 경계 부근에 울타리 식물을 심는 실험을 했다. 이 식물들은 농작물 해충의 천적들을 위한 서식지를 제공했다. 해충으로 인한 피해는 줄어들었지만 살충제 사용량은 이에 비례해 증가하지 않았다. 이 결과를 이해하려면 이 사례에서 가장 눈에 띄는 특징만 봐서는 안 된다. 더 넓은 함의를 고려할 때 비로소 이 관찰이 더욱 의미 있게 된다.\n\n[해설]\n글의 전체 과정을 포괄하면서 지나치게 단정하지 않는 제목을 선택해야 합니다.",
     "wrong_explanations": {},
     "_reviewed": false
   },
@@ -4980,7 +4980,7 @@ const QUESTION_BANK = [
       "⑤ A Single Measurement Explains Everything"
     ],
     "answer": 4,
-    "explanation": "글의 전체 과정을 포괄하면서 지나치게 단정하지 않는 제목을 선택해야 합니다.",
+    "explanation": "[지문 해석]\n한 소극장이 시각장애인 관객을 위한 음성 해설 서비스를 제공했다. 이 서비스는 무대 위의 움직임과 배경에 대한 세심한 주의를 요구했다. 또한 음성 해설은 무대 미술팀으로 하여금 각 장면에서 꼭 필요한 요소가 무엇인지 다시 생각해 보도록 했다. 이러한 결과를 이해하려면 이 사례의 가장 눈에 띄는 특징만 바라보는 것을 벗어나야 한다.\n\n[해설]\n글의 전체 과정을 포괄하면서 지나치게 단정하지 않는 제목을 선택해야 합니다.",
     "wrong_explanations": {},
     "_reviewed": false
   },
@@ -4997,7 +4997,7 @@ const QUESTION_BANK = [
       "⑤ A Single Measurement Explains Everything"
     ],
     "answer": 2,
-    "explanation": "글의 전체 과정을 포괄하면서 지나치게 단정하지 않는 제목을 선택해야 합니다.",
+    "explanation": "[지문 해석]\n한 박물관에서 방문객들이 만져볼 수 있는 복제품들을 전시했다. 유리 케이스가 답답하다고 느낀 사람들은 직접 형태와 질감을 탐색했다. 이러한 경험은 원본 유물을 대체하기보다는 보완했다. 이 결과를 이해하려면 케이스의 가장 눈에 띄는 특징을 넘어 살펴봐야 한다. 더 넓은 의미와 함께 고려할 때 이 관찰은 더욱 의미 있어진다.\n\n[해설]\n글의 전체 과정을 포괄하면서 지나치게 단정하지 않는 제목을 선택해야 합니다.",
     "wrong_explanations": {},
     "_reviewed": false
   },
@@ -5014,7 +5014,7 @@ const QUESTION_BANK = [
       "⑤ Slow trends require sustained records"
     ],
     "answer": 5,
-    "explanation": "글의 전체 과정을 포괄하면서 지나치게 단정하지 않는 제목을 선택해야 합니다.",
+    "explanation": "[지문 해석]\n한 연구소가 빙하를 내려다보는 카메라를 설치했다. 개별 사진들은 거의 동일해 보였지만, 연 단위로 비교하면 꾸준한 후퇴가 드러났다. 관찰이 일관되게 반복되었기 때문에 그 증거는 설득력을 갖게 되었다. 이 결과를 이해하려면 이 사례에서 가장 눈에 띄는 특징만을 넘어서 살펴봐야 한다. 관찰의 더 넓은 함의를 고려할 때 그 관찰은 더욱 의미 있어진다.\n\n[해설]\n글의 전체 과정을 포괄하면서 지나치게 단정하지 않는 제목을 선택해야 합니다.",
     "wrong_explanations": {},
     "_reviewed": false
   },
@@ -5031,7 +5031,7 @@ const QUESTION_BANK = [
       "⑤ A Single Measurement Explains Everything"
     ],
     "answer": 3,
-    "explanation": "글의 전체 과정을 포괄하면서 지나치게 단정하지 않는 제목을 선택해야 합니다.",
+    "explanation": "[지문 해석]\n어떤 자치단체가 아파트 건물들을 대상으로 퇴비 수거 서비스를 제공했다. 용기들이 주민들의 일상적인 동선 근처에 배치되자 참여율이 증가했다. 편의성이 환경 관심만큼 중요한 것으로 드러났다. 이 결과를 이해하려면 표면적으로 가장 눈에 띄는 특징을 넘어 살펴봐야 한다. 가장 명백한 측면만으로 내린 결론은 설명의 중요한 부분을 놓칠 것이다. 따라서 이 사례는 외적 모습과 그 이면의 메커니즘을 구분해야 함을 보여준다.\n\n[해설]\n글의 전체 과정을 포괄하면서 지나치게 단정하지 않는 제목을 선택해야 합니다.",
     "wrong_explanations": {},
     "_reviewed": false
   },
@@ -5048,7 +5048,7 @@ const QUESTION_BANK = [
       "⑤ A Single Measurement Explains Everything"
     ],
     "answer": 1,
-    "explanation": "글의 전체 과정을 포괄하면서 지나치게 단정하지 않는 제목을 선택해야 합니다.",
+    "explanation": "[지문 해석]\n한 교사가 성적을 부여하기 전에 피드백을 제공하기 시작했다. 학생들은 점수에만 집중하는 대신 약한 논리를 수정했다. 피드백은 학습자들이 여전히 그것을 실행할 시간이 남아 있을 때 더욱 유용했다. 이 결과를 이해하려면 사례의 가장 드러난 특징을 넘어서 살펴봐야 한다. 더 넓은 의미를 고려할 때 이 관찰은 더욱 의미 있어진다.\n\n[해설]\n글의 전체 과정을 포괄하면서 지나치게 단정하지 않는 제목을 선택해야 합니다.",
     "wrong_explanations": {},
     "_reviewed": false
   },
@@ -5065,7 +5065,7 @@ const QUESTION_BANK = [
       "⑤ A Single Measurement Explains Everything"
     ],
     "answer": 4,
-    "explanation": "글의 전체 과정을 포괄하면서 지나치게 단정하지 않는 제목을 선택해야 합니다.",
+    "explanation": "[지문 해석]\n어느 병원이 환자들에게 복도의 표지판을 검토해 줄 것을 요청했다. 여러 혼란스러운 안내문들이 일상적인 언어로 수정되었다. 건물의 물리적 구조에는 전혀 변화가 없었는데도 불구하고 길 찾기가 개선되었다. 이 결과를 이해하기 위해서는 이 사례에서 가장 눈에 띄는 특징 이상을 살펴봐야 한다.\n\n[해설]\n글의 전체 과정을 포괄하면서 지나치게 단정하지 않는 제목을 선택해야 합니다.",
     "wrong_explanations": {},
     "_reviewed": false
   },
@@ -5082,7 +5082,7 @@ const QUESTION_BANK = [
       "⑤ A Single Measurement Explains Everything"
     ],
     "answer": 2,
-    "explanation": "글의 전체 과정을 포괄하면서 지나치게 단정하지 않는 제목을 선택해야 합니다.",
+    "explanation": "[지문 해석]\n한 지역 공동체가 방치되어 있던 공공 시계를 복구했다. 주민들은 다시 그 광장을 만남의 장소로 이용하기 시작했다. 이 작은 복구 사업은 시간을 알려주는 것 이상의 역할로 그 장소의 상징성을 강화했다. 이러한 결과를 이해하려면 사건의 가장 눈에 띄는 특징만을 바라보는 것을 넘어설 필요가 있다. 이 관찰은 그 더 넓은 의미를 고려할 때 더욱 의미 있는 통찰이 된다.\n\n[해설]\n글의 전체 과정을 포괄하면서 지나치게 단정하지 않는 제목을 선택해야 합니다.",
     "wrong_explanations": {},
     "_reviewed": false
   },
@@ -5099,7 +5099,7 @@ const QUESTION_BANK = [
       "⑤ Engagement quality differs from raw traffic"
     ],
     "answer": 5,
-    "explanation": "글의 전체 과정을 포괄하면서 지나치게 단정하지 않는 제목을 선택해야 합니다.",
+    "explanation": "[지문 해석]\n한 신문사가 복잡한 정책에 대한 자세한 설명을 시도했다. 그 기사들은 즉각적인 클릭 수는 적었지만 재방문과 독자 질문을 더 많이 유도했다. 단기적 인기도는 신중한 보도의 가치를 완전히 나타내지 못했다. 이 결과를 이해하려면 사건의 가장 눈에 띄는 특징만 봐서는 안 된다. 더 광범위한 의미를 고려할 때 이 관찰은 더욱 의미 있게 된다.\n\n[해설]\n글의 전체 과정을 포괄하면서 지나치게 단정하지 않는 제목을 선택해야 합니다.",
     "wrong_explanations": {},
     "_reviewed": false
   },
@@ -5116,7 +5116,7 @@ const QUESTION_BANK = [
       "⑤ A Single Measurement Explains Everything"
     ],
     "answer": 3,
-    "explanation": "글의 전체 과정을 포괄하면서 지나치게 단정하지 않는 제목을 선택해야 합니다.",
+    "explanation": "[지문 해석]\n어떤 생태학자가 옥상 정원에 서식하는 곤충들을 기록했다. 일부 옥상은 토종 꽃을 심었을 때 많은 종을 끌어들였다. 작은 서식지들은 인근 녹지와 연결되었을 때 더욱 유익해졌다. 이러한 결과를 이해하려면 사례의 가장 눈에 띄는 특징만으로는 부족하다. 가장 명백한 측면만을 바탕으로 내린 결론은 설명의 중요한 부분을 놓치게 될 것이다. 따라서 이 사례는 겉으로 드러난 현상과 그 기저에 있는 메커니즘을 구분해야 함을 시사한다.\n\n[해설]\n글의 전체 과정을 포괄하면서 지나치게 단정하지 않는 제목을 선택해야 합니다.",
     "wrong_explanations": {},
     "_reviewed": false
   },
@@ -5133,7 +5133,7 @@ const QUESTION_BANK = [
       "⑤ A Single Measurement Explains Everything"
     ],
     "answer": 1,
-    "explanation": "글의 전체 과정을 포괄하면서 지나치게 단정하지 않는 제목을 선택해야 합니다.",
+    "explanation": "[지문 해석]\n한 음악 학교에서는 초보자들이 자신이 좋아하는 곡을 선택하도록 허용했다. 교사들은 여전히 그 곡들을 통해 까다로운 기법을 가르쳤다. 학생들은 어려운 기술을 피하지 않으면서 더욱 적극적으로 연습했다. 이 결과를 이해하려면 이 사례에서 가장 눈에 띄는 특징만 봐서는 안 된다. 이 관찰은 더 넓은 의미를 고려했을 때 비로소 더욱 의미 있는 결과가 된다.\n\n[해설]\n글의 전체 과정을 포괄하면서 지나치게 단정하지 않는 제목을 선택해야 합니다.",
     "wrong_explanations": {},
     "_reviewed": false
   },
@@ -5150,7 +5150,7 @@ const QUESTION_BANK = [
       "⑤ A Single Measurement Explains Everything"
     ],
     "answer": 4,
-    "explanation": "글의 전체 과정을 포괄하면서 지나치게 단정하지 않는 제목을 선택해야 합니다.",
+    "explanation": "[지문 해석]\n항구에 조수 흐름을 감지하는 센서를 설치했다. 선장들은 그 수치를 이용해 더 안전한 출항 시간대를 선택했다. 이 기술이 자연재해를 완전히 없애지는 못했지만 시간 결정을 개선했다. 이러한 결과를 이해하려면 이 사례의 가장 눈에 띄는 특징을 넘어 살펴봐야 한다.\n\n[해설]\n글의 전체 과정을 포괄하면서 지나치게 단정하지 않는 제목을 선택해야 합니다.",
     "wrong_explanations": {},
     "_reviewed": false
   },
@@ -5167,7 +5167,7 @@ const QUESTION_BANK = [
       "⑤ 번"
     ],
     "answer": 2,
-    "explanation": "다른 네 문장은 동일한 프로젝트의 문제·조치·관찰·결과를 설명하지만, 이 문장은 주제 및 인과관계가 연결되지 않습니다.",
+    "explanation": "[지문 해석]\n① 그 도시는 포장도로의 온도가 급격히 올라가는 거리들을 지도에 표시했다. ② 가장 가까운 산은 광물 매장지로 유명하다. ③ 작업자들은 가장 더운 버스 정류장에 그늘 구조물을 설치했다. ④ 엔지니어들은 그 구조물들이 열 노출을 줄였는지 여부를 모니터링했다. ⑤ 그 결과들은 더욱 시원한 공공 공간에 대한 향후 투자를 안내했다.\n\n[해설]\n다른 네 문장은 동일한 프로젝트의 문제·조치·관찰·결과를 설명하지만, 이 문장은 주제 및 인과관계가 연결되지 않습니다.",
     "wrong_explanations": {},
     "_reviewed": false
   },
@@ -5184,7 +5184,7 @@ const QUESTION_BANK = [
       "⑤ 번"
     ],
     "answer": 5,
-    "explanation": "다른 네 문장은 동일한 프로젝트의 문제·조치·관찰·결과를 설명하지만, 이 문장은 주제 및 인과관계가 연결되지 않습니다.",
+    "explanation": "[지문 해석]\n① 한 천문학자가 먼 별의 밝기 변화를 측정했다. ② 반복되는 밝기 감소는 궤도를 도는 행성이 그 별 앞을 지나가고 있을 가능성을 시사했다. ③ 연구팀은 기기 오류가 이러한 패턴을 설명할 수 있는지 확인했다. ④ 그 후에야 그들은 행성 존재에 대한 해석을 발표했다. ⑤ 고대 도자기는 종종 기하학적 무늬로 장식되었다.\n\n[해설]\n다른 네 문장은 동일한 프로젝트의 문제·조치·관찰·결과를 설명하지만, 이 문장은 주제 및 인과관계가 연결되지 않습니다.",
     "wrong_explanations": {},
     "_reviewed": false
   },
@@ -5201,7 +5201,7 @@ const QUESTION_BANK = [
       "⑤ 번"
     ],
     "answer": 3,
-    "explanation": "다른 네 문장은 동일한 프로젝트의 문제·조치·관찰·결과를 설명하지만, 이 문장은 주제 및 인과관계가 연결되지 않습니다.",
+    "explanation": "[지문 해석]\n① 그 학교는 고학년 학생들이 저학년 학생들의 읽기를 도와주는 프로그램을 시작했다. ② 튜터들은 낯선 단어들을 간단한 언어로 설명하는 연습을 했다. ③ 일부 열대 새들은 엄청난 거리를 이동한다. ④ 두 그룹 모두 토론 중에 더 큰 자신감을 보고했다. ⑤ 교사들은 그 효과를 관찰한 후 프로그램을 확대했다.\n\n[해설]\n다른 네 문장은 동일한 프로젝트의 문제·조치·관찰·결과를 설명하지만, 이 문장은 주제 및 인과관계가 연결되지 않습니다.",
     "wrong_explanations": {},
     "_reviewed": false
   },
@@ -5218,7 +5218,7 @@ const QUESTION_BANK = [
       "⑤ 번"
     ],
     "answer": 1,
-    "explanation": "다른 네 문장은 동일한 프로젝트의 문제·조치·관찰·결과를 설명하지만, 이 문장은 주제 및 인과관계가 연결되지 않습니다.",
+    "explanation": "[지문 해석]\n① 철도 터널은 정기적인 구조 점검이 필요하다. ② 농부들은 자신의 밭 옆에 자생 꽃들을 심었다. ③ 이 꽃들은 유익한 곤충들에게 먹이를 제공했다. ④ 연구원들은 인근 작물에서 더 많은 수분 매개 곤충들을 발견했다. ⑤ 현장 팀은 여러 계절에 걸쳐 그 효과를 계속 측정했다.\n\n[해설]\n다른 네 문장은 동일한 프로젝트의 문제·조치·관찰·결과를 설명하지만, 이 문장은 주제 및 인과관계가 연결되지 않습니다.",
     "wrong_explanations": {},
     "_reviewed": false
   },
@@ -5235,7 +5235,7 @@ const QUESTION_BANK = [
       "⑤ 번"
     ],
     "answer": 4,
-    "explanation": "다른 네 문장은 동일한 프로젝트의 문제·조치·관찰·결과를 설명하지만, 이 문장은 주제 및 인과관계가 연결되지 않습니다.",
+    "explanation": "[지문 해석]\n① 한 기록관리소가 훼손되기 쉬운 손글씨 편지들을 디지털화하기 시작했다. ② 고해상도 이미지 덕분에 원본을 직접 다룰 필요성이 줄어들었다. ③ 연구자들은 먼 곳에서도 필사본을 검색할 수 있었다. ④ 대부분의 악기는 정기적으로 음정 조정이 필요하다. ⑤ 기록관리소는 또한 이미지를 바탕으로 필사 오류를 검증했다.\n\n[해설]\n다른 네 문장은 동일한 프로젝트의 문제·조치·관찰·결과를 설명하지만, 이 문장은 주제 및 인과관계가 연결되지 않습니다.",
     "wrong_explanations": {},
     "_reviewed": false
   },
@@ -5252,7 +5252,7 @@ const QUESTION_BANK = [
       "⑤ 번"
     ],
     "answer": 2,
-    "explanation": "다른 네 문장은 동일한 프로젝트의 문제·조치·관찰·결과를 설명하지만, 이 문장은 주제 및 인과관계가 연결되지 않습니다.",
+    "explanation": "[지문 해석]\n① 한 도시가 초등학교 근처의 도로 폭을 좁혔다. ② 심해 물고기들은 종종 빛을 만드는 특화된 기관을 가지고 있다. ③ 운전자들은 횡단보도 앞에서 속도를 늦추기 시작했다. ④ 학부모들은 등교길에서 더 안전함을 느낀다고 보고했다. ⑤ 그 도시는 다른 학교 출입구에서도 비슷한 변화를 검토했다.\n\n[해설]\n다른 네 문장은 동일한 프로젝트의 문제·조치·관찰·결과를 설명하지만, 이 문장은 주제 및 인과관계가 연결되지 않습니다.",
     "wrong_explanations": {},
     "_reviewed": false
   },
@@ -5269,7 +5269,7 @@ const QUESTION_BANK = [
       "⑤ 번"
     ],
     "answer": 5,
-    "explanation": "다른 네 문장은 동일한 프로젝트의 문제·조치·관찰·결과를 설명하지만, 이 문장은 주제 및 인과관계가 연결되지 않습니다.",
+    "explanation": "[지문 해석]\n① 한 언어학자가 지역 방언의 대화를 녹음했다. ② 화자들은 교과서에서 거의 찾아볼 수 없는 표현들을 설명했다. ③ 그 녹음들은 급속도로 변해가고 있던 말하기 방식들을 보존했다. ④ 나중에 선생님들은 그 녹음들을 지역 역사 수업에 활용했다. ⑤ 많은 행성들은 지구와 다른 대기를 가지고 있다.\n\n[해설]\n다른 네 문장은 동일한 프로젝트의 문제·조치·관찰·결과를 설명하지만, 이 문장은 주제 및 인과관계가 연결되지 않습니다.",
     "wrong_explanations": {},
     "_reviewed": false
   },
@@ -5286,7 +5286,7 @@ const QUESTION_BANK = [
       "⑤ 번"
     ],
     "answer": 3,
-    "explanation": "다른 네 문장은 동일한 프로젝트의 문제·조치·관찰·결과를 설명하지만, 이 문장은 주제 및 인과관계가 연결되지 않습니다.",
+    "explanation": "[지문 해석]\n① 한 박물관이 오래된 그림을 복원하는 과정을 전시했다. ② 방문객들은 손상된 부분의 사진과 세심한 청소 과정을 볼 수 있었다. ③ 자전거의 발명은 도시 교통을 변화시켰다. ④ 전시는 왜 복원 작업에 몇 개월이 걸릴 수 있는지를 설명했다. ⑤ 또한 보존 전문가들이 의도적으로 피한 결정이 무엇인지도 보여주었다.\n\n[해설]\n다른 네 문장은 동일한 프로젝트의 문제·조치·관찰·결과를 설명하지만, 이 문장은 주제 및 인과관계가 연결되지 않습니다.",
     "wrong_explanations": {},
     "_reviewed": false
   },
@@ -5303,7 +5303,7 @@ const QUESTION_BANK = [
       "⑤ 번"
     ],
     "answer": 1,
-    "explanation": "다른 네 문장은 동일한 프로젝트의 문제·조치·관찰·결과를 설명하지만, 이 문장은 주제 및 인과관계가 연결되지 않습니다.",
+    "explanation": "[지문 해석]\n① 고대의 여러 도시들은 복잡한 조세 제도를 발전시켰다. ② 과학자들은 해가 진 후 습지에 마이크를 설치했다. ③ 녹음된 음성은 낮 시간에는 거의 볼 수 없는 개구리들을 포착했다. ④ 울음소리의 변화를 해석하기 위해 기후 조건들을 기록했다. ⑤ 연구팀은 음성 기록과 육안 조사를 함께 활용했다.\n\n[해설]\n다른 네 문장은 동일한 프로젝트의 문제·조치·관찰·결과를 설명하지만, 이 문장은 주제 및 인과관계가 연결되지 않습니다.",
     "wrong_explanations": {},
     "_reviewed": false
   },
@@ -5320,7 +5320,7 @@ const QUESTION_BANK = [
       "⑤ 번"
     ],
     "answer": 4,
-    "explanation": "다른 네 문장은 동일한 프로젝트의 문제·조치·관찰·결과를 설명하지만, 이 문장은 주제 및 인과관계가 연결되지 않습니다.",
+    "explanation": "[지문 해석]\n① 한 마을이 주민들을 위한 공용 공구 도서관을 도입했다. ② 차용자들은 간헐적인 수리를 위해 장비를 사용할 수 있었다. ③ 더 적은 가구들이 거의 사용하지 않는 기계를 구매할 필요가 없었다. ④ 일부 산호 종은 매우 깊은 바다에 산다. ⑤ 자원봉사자들은 모든 사람이 안전하게 도구를 사용할 수 있도록 그것들을 유지보수했다.\n\n[해설]\n다른 네 문장은 동일한 프로젝트의 문제·조치·관찰·결과를 설명하지만, 이 문장은 주제 및 인과관계가 연결되지 않습니다.",
     "wrong_explanations": {},
     "_reviewed": false
   },
@@ -5337,7 +5337,7 @@ const QUESTION_BANK = [
       "⑤ 번"
     ],
     "answer": 2,
-    "explanation": "다른 네 문장은 동일한 프로젝트의 문제·조치·관찰·결과를 설명하지만, 이 문장은 주제 및 인과관계가 연결되지 않습니다.",
+    "explanation": "[지문 해석]\n① 한 워크숍에서는 자원봉사자들을 훈련시켜 낡은 의류를 수리하도록 했다. ② 목성의 위성들은 크기가 매우 다양하다. ③ 참가자들은 솔기를 깁고 단추를 교체하는 방법을 배웠다. ④ 수리된 의류는 더 오랫동안 사용될 수 있었다. ⑤ 주최측은 이 프로젝트가 예방한 섬유 폐기물의 양을 추적했다.\n\n[해설]\n다른 네 문장은 동일한 프로젝트의 문제·조치·관찰·결과를 설명하지만, 이 문장은 주제 및 인과관계가 연결되지 않습니다.",
     "wrong_explanations": {},
     "_reviewed": false
   },
@@ -5354,7 +5354,7 @@ const QUESTION_BANK = [
       "⑤ 번"
     ],
     "answer": 5,
-    "explanation": "다른 네 문장은 동일한 프로젝트의 문제·조치·관찰·결과를 설명하지만, 이 문장은 주제 및 인과관계가 연결되지 않습니다.",
+    "explanation": "[지문 해석]\n① 연구원들은 가로수가 있는 보행로와 없는 보행로를 비교했다. ② 참가자들은 더운 오후에 그늘진 경로를 선호했다. ③ 이 연구는 또한 이동 시간과 소음 노출도 기록했다. ④ 연구 결과는 보행자의 편의성을 개선하기 위한 계획에 반영되었다. ⑤ 최초의 인쇄된 지도책은 수백 년 전에 나타났다.\n\n[해설]\n다른 네 문장은 동일한 프로젝트의 문제·조치·관찰·결과를 설명하지만, 이 문장은 주제 및 인과관계가 연결되지 않습니다.",
     "wrong_explanations": {},
     "_reviewed": false
   },
@@ -5371,7 +5371,7 @@ const QUESTION_BANK = [
       "⑤ 번"
     ],
     "answer": 3,
-    "explanation": "다른 네 문장은 동일한 프로젝트의 문제·조치·관찰·결과를 설명하지만, 이 문장은 주제 및 인과관계가 연결되지 않습니다.",
+    "explanation": "[지문 해석]\n① 한 음악홀이 음향 패널의 배치를 바꾸었다. ② 음악가들은 반사음의 차이를 귀 기울여 들었다. ③ 숲의 토양에는 엄청난 다양성의 미생물들이 포함되어 있다. ④ 엔지니어들은 여러 좌석에서 나오는 울림을 측정했다. ⑤ 최종 배치는 명확성과 따뜻함의 균형을 맞췄다.\n\n[해설]\n다른 네 문장은 동일한 프로젝트의 문제·조치·관찰·결과를 설명하지만, 이 문장은 주제 및 인과관계가 연결되지 않습니다.",
     "wrong_explanations": {},
     "_reviewed": false
   },
@@ -5388,7 +5388,7 @@ const QUESTION_BANK = [
       "⑤ 번"
     ],
     "answer": 1,
-    "explanation": "다른 네 문장은 동일한 프로젝트의 문제·조치·관찰·결과를 설명하지만, 이 문장은 주제 및 인과관계가 연결되지 않습니다.",
+    "explanation": "[지문 해석]\n① 현대의 슈퍼마켓은 종종 상품을 재배치하여 구매자들을 유인한다. ② 한 역사학자가 상선의 항해일지를 연구했다. ③ 그 일지에는 풍속 조건과 일일 항해 거리가 기록되어 있었다. ④ 또한 식사 및 장비 유지 관리의 일상적 습관도 드러났다. ⑤ 이러한 세부 사항들을 종합하면 해상 생활을 재구성할 수 있었다.\n\n[해설]\n다른 네 문장은 동일한 프로젝트의 문제·조치·관찰·결과를 설명하지만, 이 문장은 주제 및 인과관계가 연결되지 않습니다.",
     "wrong_explanations": {},
     "_reviewed": false
   },
@@ -5405,7 +5405,7 @@ const QUESTION_BANK = [
       "⑤ 번"
     ],
     "answer": 4,
-    "explanation": "다른 네 문장은 동일한 프로젝트의 문제·조치·관찰·결과를 설명하지만, 이 문장은 주제 및 인과관계가 연결되지 않습니다.",
+    "explanation": "[지문 해석]\n① 도서관은 휴대용 인터넷 기기를 대출하기 시작했다. ② 집에 인터넷 연결이 없는 주민들은 이를 1주일 동안 예약할 수 있었다. ③ 직원들은 각 대출 기간의 길이에 대한 이용자 의견을 수집했다. ④ 사막 동물들은 물을 절약하는 방법으로 진화해왔다. ⑤ 그 프로그램은 더 많은 가구를 서비스할 수 있도록 조정되었다.\n\n[해설]\n다른 네 문장은 동일한 프로젝트의 문제·조치·관찰·결과를 설명하지만, 이 문장은 주제 및 인과관계가 연결되지 않습니다.",
     "wrong_explanations": {},
     "_reviewed": false
   },
@@ -5422,7 +5422,7 @@ const QUESTION_BANK = [
       "⑤ 번"
     ],
     "answer": 2,
-    "explanation": "다른 네 문장은 동일한 프로젝트의 문제·조치·관찰·결과를 설명하지만, 이 문장은 주제 및 인과관계가 연결되지 않습니다.",
+    "explanation": "[지문 해석]\n① 한 정원 동호회가 잔디의 일부를 자생식물로 교체했다. ② 초기 카메라들은 긴 노출 시간이 필요했다. ③ 나비들이 곧 꽃 근처에 나타났다. ④ 자원봉사자들은 계절을 통해 종의 개수를 추적했다. ⑤ 그 동호회는 자신의 관찰 결과를 다른 지역사회와 공유했다.\n\n[해설]\n다른 네 문장은 동일한 프로젝트의 문제·조치·관찰·결과를 설명하지만, 이 문장은 주제 및 인과관계가 연결되지 않습니다.",
     "wrong_explanations": {},
     "_reviewed": false
   },
@@ -5439,7 +5439,7 @@ const QUESTION_BANK = [
       "⑤ (A) patient feedback / (B) clearer navigation"
     ],
     "answer": 5,
-    "explanation": "지문에서 patient feedback이(가) clearer navigation에 기여한다는 인과 관계를 확인할 수 있습니다. 정답 외 조합은 글에 제시되지 않았거나 핵심 인과 관계를 왜곡합니다.",
+    "explanation": "[지문 해석]\n병원이 환자들에게 복도의 안내판을 검토하도록 요청했다. 일상적인 표현을 사용하여 여러 혼동을 주는 안내문이 수정되었다. 건물의 물리적 레이아웃에는 아무런 변화가 없었지만 동선 파악이 개선되었다.\n\n[요약문] 이 사례는 (A) __________이(가) (B) __________에 기여할 수 있음을 시사하며, 이는 단일한 표면적 지표로는 그 결과를 이해할 수 없는 경우에도 마찬가지이다.\n\n[해설]\n지문에서 patient feedback이(가) clearer navigation에 기여한다는 인과 관계를 확인할 수 있습니다. 정답 외 조합은 글에 제시되지 않았거나 핵심 인과 관계를 왜곡합니다.",
     "wrong_explanations": {},
     "_reviewed": false
   },
@@ -5456,7 +5456,7 @@ const QUESTION_BANK = [
       "⑤ (A) lower rent / (B) digital clocks"
     ],
     "answer": 3,
-    "explanation": "지문에서 restored landmarks이(가) community attachment에 기여한다는 인과 관계를 확인할 수 있습니다. 정답 외 조합은 글에 제시되지 않았거나 핵심 인과 관계를 왜곡합니다.",
+    "explanation": "[지문 해석]\n어느 지역사회가 방치되어 있던 공공 시계를 수리했다. 주민들은 다시 광장을 만남의 장소로 이용하기 시작했다. 이 작은 복원 사업은 단순한 시간 표시 기능을 넘어서 그 장소의 상징적 역할을 강화했다.\n\n[요약문] 이 사례는 (A) __________가 (B) __________에 기여할 수 있음을 시사하며, 이는 단일한 겉으로 드러나는 지표로는 그 결과를 파악할 수 없는 경우에서도 마찬가지이다.\n\n[해설]\n지문에서 restored landmarks이(가) community attachment에 기여한다는 인과 관계를 확인할 수 있습니다. 정답 외 조합은 글에 제시되지 않았거나 핵심 인과 관계를 왜곡합니다.",
     "wrong_explanations": {},
     "_reviewed": false
   },
@@ -5473,7 +5473,7 @@ const QUESTION_BANK = [
       "⑤ (A) lower accuracy / (B) celebrity coverage"
     ],
     "answer": 1,
-    "explanation": "지문에서 return visits이(가) sustained engagement에 기여한다는 인과 관계를 확인할 수 있습니다. 정답 외 조합은 글에 제시되지 않았거나 핵심 인과 관계를 왜곡합니다.",
+    "explanation": "[지문 해석]\n한 신문사가 복잡한 정책에 대한 더 긴 설명을 실험했다. 그 기사들은 즉각적인 클릭 수는 적었지만 재방문과 질문을 더 많이 유도했다. 단기적 인기도는 신중한 보도의 가치를 완전히 나타내지 못했다.\n\n[요약문] 이 사례는 (A) __________가 (B) __________에 기여할 수 있음을 시사한다. 설령 그 결과가 단일한 표면적 지표로는 이해될 수 없을 때에도 말이다.\n\n[해설]\n지문에서 return visits이(가) sustained engagement에 기여한다는 인과 관계를 확인할 수 있습니다. 정답 외 조합은 글에 제시되지 않았거나 핵심 인과 관계를 왜곡합니다.",
     "wrong_explanations": {},
     "_reviewed": false
   },
@@ -5490,7 +5490,7 @@ const QUESTION_BANK = [
       "⑤ (A) roof height / (B) construction speed"
     ],
     "answer": 4,
-    "explanation": "지문에서 native planting이(가) habitat connectivity에 기여한다는 인과 관계를 확인할 수 있습니다. 정답 외 조합은 글에 제시되지 않았거나 핵심 인과 관계를 왜곡합니다.",
+    "explanation": "[지문 해석]\n생태학자가 옥상 정원의 곤충을 기록했다. 일부 옥상은 토종 꽃으로 심겨졌을 때 많은 종을 유인했다. 작은 서식지는 인근 녹지와 연결되었을 때 더욱 유익해졌다.\n\n[요약문] 이 사례는 (A) __________가 (B) __________에 기여할 수 있음을 시사하며, 이는 단순한 표면적 지표만으로는 그 결과를 이해할 수 없을 때도 마찬가지다.\n\n[해설]\n지문에서 native planting이(가) habitat connectivity에 기여한다는 인과 관계를 확인할 수 있습니다. 정답 외 조합은 글에 제시되지 않았거나 핵심 인과 관계를 왜곡합니다.",
     "wrong_explanations": {},
     "_reviewed": false
   },
@@ -5507,7 +5507,7 @@ const QUESTION_BANK = [
       "⑤ (A) avoidance of difficulty / (B) memorized rules"
     ],
     "answer": 2,
-    "explanation": "지문에서 learner choice이(가) technical rigor에 기여한다는 인과 관계를 확인할 수 있습니다. 정답 외 조합은 글에 제시되지 않았거나 핵심 인과 관계를 왜곡합니다.",
+    "explanation": "[지문 해석]\n음악 학교는 초보자들이 자신이 좋아하는 곡을 선택하도록 허용했다. 교사들은 여전히 그 곡들을 통해 까다로운 기법을 소개했다. 학생들은 어려운 기술을 피하지 않으면서 더욱 기꺼이 연습했다.\n\n[요약문] 이 사례는 (A) __________가 (B) __________에 기여할 수 있음을 시사하며, 이는 결과가 단순한 표면적 측도로는 이해될 수 없는 경우에도 마찬가지이다.\n\n[해설]\n지문에서 learner choice이(가) technical rigor에 기여한다는 인과 관계를 확인할 수 있습니다. 정답 외 조합은 글에 제시되지 않았거나 핵심 인과 관계를 왜곡합니다.",
     "wrong_explanations": {},
     "_reviewed": false
   },
@@ -5524,7 +5524,7 @@ const QUESTION_BANK = [
       "⑤ (A) real-time measurements / (B) safer timing"
     ],
     "answer": 5,
-    "explanation": "지문에서 real-time measurements이(가) safer timing에 기여한다는 인과 관계를 확인할 수 있습니다. 정답 외 조합은 글에 제시되지 않았거나 핵심 인과 관계를 왜곡합니다.",
+    "explanation": "[지문 해석]\n항구에 조석 해류 센서를 설치했다. 선장들은 그 측정값을 이용해 더 안전한 출항 시간대를 선택했다. 이 기술이 자연적 위험을 완전히 제거하지는 못했지만 타이밍 결정을 개선했다.\n\n[요약문] 이 사례는 (A) __________이 (B) __________에 기여할 수 있음을 시사하며, 이러한 결과를 단순한 표면적 지표만으로는 파악할 수 없다는 점을 보여준다.\n\n[해설]\n지문에서 real-time measurements이(가) safer timing에 기여한다는 인과 관계를 확인할 수 있습니다. 정답 외 조합은 글에 제시되지 않았거나 핵심 인과 관계를 왜곡합니다.",
     "wrong_explanations": {},
     "_reviewed": false
   },
@@ -5541,7 +5541,7 @@ const QUESTION_BANK = [
       "⑤ (A) perfect parts / (B) reduced feedback"
     ],
     "answer": 3,
-    "explanation": "지문에서 early failures이(가) design improvement에 기여한다는 인과 관계를 확인할 수 있습니다. 정답 외 조합은 글에 제시되지 않았거나 핵심 인과 관계를 왜곡합니다.",
+    "explanation": "[지문 해석]\n로봇공학 동아리가 저렴한 부품으로 시제품을 제작했다. 여러 부품이 고장 나면서 최종 설계가 비용이 많이 들기 전에 약점들이 드러났다. 초기의 결함들은 학습의 기회를 만들어냈다.\n\n[요약문] 이 사례는 (A) __________가 (B) __________에 기여할 수 있음을 시사하며, 이는 단일한 표면적 지표로는 이해될 수 없는 결과일지라도 그러하다.\n\n[해설]\n지문에서 early failures이(가) design improvement에 기여한다는 인과 관계를 확인할 수 있습니다. 정답 외 조합은 글에 제시되지 않았거나 핵심 인과 관계를 왜곡합니다.",
     "wrong_explanations": {},
     "_reviewed": false
   },
@@ -5558,7 +5558,7 @@ const QUESTION_BANK = [
       "⑤ (A) national elections / (B) shipping routes"
     ],
     "answer": 1,
-    "explanation": "지문에서 family diaries이(가) everyday economic adaptation에 기여한다는 인과 관계를 확인할 수 있습니다. 정답 외 조합은 글에 제시되지 않았거나 핵심 인과 관계를 왜곡합니다.",
+    "explanation": "[지문 해석]\n역사가가 가족 일기의 요리 기록을 연구했다. 식재료 목록은 가정이 부족과 계절 변화에 어떻게 적응했는지 보여주었다. 가정 기록은 공식 통계에서 놓친 경제 상황을 조명했다.\n\n[요약문] 이 사례는 (A) __________가 (B) __________에 기여할 수 있음을 시사한다. 비록 그 결과를 단일한 표면적 지표로는 파악할 수 없더라도.\n\n[해설]\n지문에서 family diaries이(가) everyday economic adaptation에 기여한다는 인과 관계를 확인할 수 있습니다. 정답 외 조합은 글에 제시되지 않았거나 핵심 인과 관계를 왜곡합니다.",
     "wrong_explanations": {},
     "_reviewed": false
   },
@@ -5575,7 +5575,7 @@ const QUESTION_BANK = [
       "⑤ (A) road widening / (B) fixed assumptions"
     ],
     "answer": 4,
-    "explanation": "지문에서 resident experience이(가) targeted heat relief에 기여한다는 인과 관계를 확인할 수 있습니다. 정답 외 조합은 글에 제시되지 않았거나 핵심 인과 관계를 왜곡합니다.",
+    "explanation": "[지문 해석]\n어느 도시가 주민들에게 여름 열대위기가 가장 심하게 느껴지는 곳을 기록해달라고 요청했다. 보고에서는 센서가 우선순위로 파악하지 못했던 그늘이 없는 버스 정류장들이 부각되었다. 측정 데이터와 실제 경험을 결합하니 개입 계획이 개선되었다.\n\n[요약문] 이 사례는 (A) __________가 (B) __________에 기여할 수 있음을 시사하는데, 이는 단 하나의 표면적 지표만으로는 이해할 수 없는 결과일지라도 마찬가지이다.\n\n[해설]\n지문에서 resident experience이(가) targeted heat relief에 기여한다는 인과 관계를 확인할 수 있습니다. 정답 외 조합은 글에 제시되지 않았거나 핵심 인과 관계를 왜곡합니다.",
     "wrong_explanations": {},
     "_reviewed": false
   },
@@ -5592,7 +5592,7 @@ const QUESTION_BANK = [
       "⑤ (A) passive reading / (B) random timing"
     ],
     "answer": 2,
-    "explanation": "지문에서 spaced retrieval이(가) longer retention에 기여한다는 인과 관계를 확인할 수 있습니다. 정답 외 조합은 글에 제시되지 않았거나 핵심 인과 관계를 왜곡합니다.",
+    "explanation": "[지문 해석]\n한 언어 앱이 집중 반복 대신 간격을 두고 복습하는 방식을 도입했다. 연습을 여러 날에 걸쳐 분산할 때 사용자들이 더 적은 표현을 잊었다. 언어 습득은 총 학습 시간뿐만 아니라 복습 시점의 타이밍에도 달려 있었다.\n\n[요약문] 이 사례는 (A) __________이(가) (B) __________에 기여할 수 있음을 시사하는데, 이는 결과를 단순한 표면적 척도 하나로는 이해할 수 없을 때도 마찬가지이다.\n\n[해설]\n지문에서 spaced retrieval이(가) longer retention에 기여한다는 인과 관계를 확인할 수 있습니다. 정답 외 조합은 글에 제시되지 않았거나 핵심 인과 관계를 왜곡합니다.",
     "wrong_explanations": {},
     "_reviewed": false
   },
@@ -5609,7 +5609,7 @@ const QUESTION_BANK = [
       "⑤ (A) flexible rentals / (B) active community use"
     ],
     "answer": 5,
-    "explanation": "지문에서 flexible rentals이(가) active community use에 기여한다는 인과 관계를 확인할 수 있습니다. 정답 외 조합은 글에 제시되지 않았거나 핵심 인과 관계를 왜곡합니다.",
+    "explanation": "[지문 해석]\n어느 마을이 버려진 창고를 지역 주민들의 공작실로 개조했다. 저렴한 단기 임차료가 제작자들을 끌어들이면서 건물은 활기를 되찾았다. 정교한 영구적 설계보다는 유연한 접근성이 더 큰 가치를 지녔다.\n\n[요약문] 이 사례는 (A) __________가 (B) __________에 기여할 수 있음을 시사한다. 비록 그 결과를 단순한 표면적 척도로만 이해할 수 없다 하더라도.\n\n[해설]\n지문에서 flexible rentals이(가) active community use에 기여한다는 인과 관계를 확인할 수 있습니다. 정답 외 조합은 글에 제시되지 않았거나 핵심 인과 관계를 왜곡합니다.",
     "wrong_explanations": {},
     "_reviewed": false
   },
@@ -5626,7 +5626,7 @@ const QUESTION_BANK = [
       "⑤ (A) additional boats / (B) new seawalls"
     ],
     "answer": 3,
-    "explanation": "지문에서 slower boat speeds이(가) clearer underwater light에 기여한다는 인과 관계를 확인할 수 있습니다. 정답 외 조합은 글에 제시되지 않았거나 핵심 인과 관계를 왜곡합니다.",
+    "explanation": "[지문 해석]\n해양공원에서 얕은 수초지역 근처의 보트 속도를 제한했다. 침전물 교란이 감소했고, 수중 식물이 더 많은 햇빛을 받게 되었다. 수면 위의 변화가 수면 아래의 조건을 바꾸었다.\n\n[요약문] 이 사례는 (A) __________이 (B) __________에 기여할 수 있음을 시사하며, 이는 단순한 표면적 측정만으로는 그 결과를 이해할 수 없을 때도 마찬가지이다.\n\n[해설]\n지문에서 slower boat speeds이(가) clearer underwater light에 기여한다는 인과 관계를 확인할 수 있습니다. 정답 외 조합은 글에 제시되지 않았거나 핵심 인과 관계를 왜곡합니다.",
     "wrong_explanations": {},
     "_reviewed": false
   },
@@ -5643,7 +5643,7 @@ const QUESTION_BANK = [
       "⑤ (A) official stations only / (B) unlimited certainty"
     ],
     "answer": 1,
-    "explanation": "지문에서 digitized diaries이(가) verified local records에 기여한다는 인과 관계를 확인할 수 있습니다. 정답 외 조합은 글에 제시되지 않았거나 핵심 인과 관계를 왜곡합니다.",
+    "explanation": "[지문 해석]\n한 아카이브가 필기된 날씨 일지를 디지털화했다. 연구원들은 공식 관측소가 없던 지역의 관측 데이터를 발견했다. 자원봉사자들은 오류를 줄이기 위해 스캔한 페이지와 전사본을 대조했다.\n\n[요약문] 이 사례는 (A) __________이(가) (B) __________에 기여할 수 있음을 시사하며, 이는 단순한 겉면적 지표 하나로는 그 성과를 이해할 수 없는 경우에도 마찬가지이다.\n\n[해설]\n지문에서 digitized diaries이(가) verified local records에 기여한다는 인과 관계를 확인할 수 있습니다. 정답 외 조합은 글에 제시되지 않았거나 핵심 인과 관계를 왜곡합니다.",
     "wrong_explanations": {},
     "_reviewed": false
   },
@@ -5660,7 +5660,7 @@ const QUESTION_BANK = [
       "⑤ (A) fixed answers / (B) separate classrooms"
     ],
     "answer": 4,
-    "explanation": "지문에서 mixed-age discussion이(가) mutual learning에 기여한다는 인과 관계를 확인할 수 있습니다. 정답 외 조합은 글에 제시되지 않았거나 핵심 인과 관계를 왜곡합니다.",
+    "explanation": "[지문 해석]\n학교에서 나이가 다른 학생들의 독서 파트너십을 조직했다. 나이 많은 학생들은 이야기를 설명했고 어린 학생들은 예상 밖의 질문을 던졌다. 두 집단 모두 고립된 연습으로는 얻을 수 없는 것을 얻게 되었다.\n\n[요약문] 이 사례는 (A) __________가 (B) __________에 기여할 수 있음을 시사하며, 그 결과를 단일한 표면적 척도로만 이해할 수 없을 때에도 그러하다.\n\n[해설]\n지문에서 mixed-age discussion이(가) mutual learning에 기여한다는 인과 관계를 확인할 수 있습니다. 정답 외 조합은 글에 제시되지 않았거나 핵심 인과 관계를 왜곡합니다.",
     "wrong_explanations": {},
     "_reviewed": false
   },
@@ -5677,7 +5677,7 @@ const QUESTION_BANK = [
       "⑤ the initial assumption must be rejected even in circumstances for which it was never tested"
     ],
     "answer": 2,
-    "explanation": "기초 관찰: The steps were too narrow for carts and carried marks from repeated foot traffic. 초기 해석: A colleague assumed the gate had been reserved for royal processions. 따라서 The wear instead suggested that ordinary residents regularly participated in rituals. 다만 단일 사례가 모든 상황으로 일반화되는 것은 아닙니다.",
+    "explanation": "[지문 해석]\n한 고고학팀이 의례용 문이 옆에 닳은 계단을 발견했다. 한 동료는 그 문이 왕의 행렬을 위해 예약되어 있었을 것이라고 추정했다. 하지만 그 계단은 수레가 지나가기에는 너무 좁았고 반복적인 보행의 흔적을 담고 있었다. 그 증거는 __________라는 결론과 가장 일치한다.\n\n[해설]\n기초 관찰: The steps were too narrow for carts and carried marks from repeated foot traffic. 초기 해석: A colleague assumed the gate had been reserved for royal processions. 따라서 The wear instead suggested that ordinary residents regularly participated in rituals. 다만 단일 사례가 모든 상황으로 일반화되는 것은 아닙니다.",
     "wrong_explanations": {},
     "_reviewed": false
   },
@@ -5694,7 +5694,7 @@ const QUESTION_BANK = [
       "⑤번 위치"
     ],
     "answer": 1,
-    "explanation": "초기 해석과 상반되는 관찰이 나온 직후에 This discrepancy가 연결됩니다. 다른 위치에서는 discrepancy의 지시 대상이 불분명하거나 후속 판단의 인과 관계가 끊깁니다.",
+    "explanation": "[지문 해석]\n한 도시가 가파른 보행로를 따라 일정한 간격으로 벤치를 설치했다. 계획자들은 처음에 성공을 오직 평균 보행 속도로만 측정했다. 그러나 나이 많은 보행자들은 이전에 피하던 경로를 완주하기 시작했다. (①) 짧은 휴식의 기회는 공공장소를 이용할 수 있는 사람을 바꿀 수 있다. (②) 팀은 다른 검증 방법을 고려했다. (③) 그 보고서는 이 발견의 한계를 강조했다. (④) 추가 관찰이 권장되었다. (⑤)\n\n[해설]\n초기 해석과 상반되는 관찰이 나온 직후에 This discrepancy가 연결됩니다. 다른 위치에서는 discrepancy의 지시 대상이 불분명하거나 후속 판단의 인과 관계가 끊깁니다.",
     "wrong_explanations": {},
     "_reviewed": false
   },
@@ -5711,7 +5711,7 @@ const QUESTION_BANK = [
       "⑤번 표시"
     ],
     "answer": 1,
-    "explanation": "①는 has로 고쳐야 합니다. 나머지 표시 표현은 해당 문장의 구조상 허용됩니다.",
+    "explanation": "[지문 해석]\n보존가가 낡은 벽화의 바래진 파란색 안료를 분석했다. 그 팀은 (① have) 여러 해석을 고려했다. 따로 검토된 관찰 결과들은 (② were) 각각의 설명이 한계를 가지고 있음을 보여주었다. 중심이 되는 이유 중 하나는 (④ is) 초기 가정이 중요한 증거를 간과했다는 것이다. 연구원들은 (⑤ therefore) 수정된 설명을 제안했다.\n\n[해설]\n①는 has로 고쳐야 합니다. 나머지 표시 표현은 해당 문장의 구조상 허용됩니다.",
     "wrong_explanations": {},
     "_reviewed": false
   },
@@ -5728,7 +5728,7 @@ const QUESTION_BANK = [
       "⑤번 표시"
     ],
     "answer": 1,
-    "explanation": "①의 certain는 주변 의미와 충돌합니다. tentative로 수정해야 초기 가설·반증·신중한 결론의 논리가 일관됩니다.",
+    "explanation": "[지문 해석]\n생태학자가 새로 복원된 연못 주변의 곤충들을 모니터링했다. 지역 관계자들은 첫 번째 여름 이후의 성공 여부를 판단하고 싶었다. 종들은 고르지 않게 돌아왔으며, 포식자들은 먹이가 된 후에 나타났다. 아직 수집된 증거가 거의 없었기 때문에 처음 해석은 필연적으로 (① 불확실했다). 나중의 관찰은 그 해석이 근거하고 있던 기대에 (② 모순되었다). 결과적으로 연구자들은 무조건적인 판단보다는 (③ 조건부) 설명을 채택했다. 그들은 새로운 증거가 조사 중인 문제와 (④ 관련이 있는지) 검토했다. 결론은 관찰이 이루어진 조건들로 (⑤ 제한되었다).\n\n[해설]\n①의 certain는 주변 의미와 충돌합니다. tentative로 수정해야 초기 가설·반증·신중한 결론의 논리가 일관됩니다.",
     "wrong_explanations": {},
     "_reviewed": false
   },
@@ -5745,7 +5745,7 @@ const QUESTION_BANK = [
       "⑤ why a single observation is enough to settle every possible explanation"
     ],
     "answer": 1,
-    "explanation": "초기 기대와 다른 관찰을 통해 얻은 제한적인 결론이 요지입니다. 다른 선택지는 단정적 일반화 또는 근거 없는 판단입니다.",
+    "explanation": "[지문 해석]\n한 언어 교사가 학생들의 필기 설명과 구두 설명을 비교했다. 일부 교사들은 느린 말을 약한 이해로 해석했다. 처음에는 이러한 설명이 매력적으로 보였다. 추가 설명 없이 전달할 수 있는 간단한 설명을 제시했기 때문이다. 실제로 말할 때 머뭇거리는 학습자들은 종종 정확한 필기 논거를 제시했다. 두 관찰자가 동일한 사실을 받아들이더라도 기본 가정에 다른 중요도를 부여하면 서로 다른 판단에 도달할 수 있다. 한 가지 표현 방식의 유창함이 다른 방식의 능력을 대신할 수 없다. 적절한 설명은 그 결론을 일반적인 것으로 취급하기 전에 먼저 그러한 가정들을 명시해야 한다. 이러한 결론은 처음 가정과 동일하지 않으며, 나중의 관찰과 원래 측정의 한계를 설명해야 한다. 특히 새로운 증거는 이전의 설명이 모든 가능한 상황에서 잘못되었음을 증명하지 않으면서도 해석을 바꿀 정당성을 제공할 수 있다. 따라서 더 나은 해석은 초기 예상과 이를 복잡하게 만드는 증거를 모두 설명해야 하며, 단 하나의 사례가 보편적 규칙을 확립한다고 가장해서는 안 된다.\n\n[해설]\n초기 기대와 다른 관찰을 통해 얻은 제한적인 결론이 요지입니다. 다른 선택지는 단정적 일반화 또는 근거 없는 판단입니다.",
     "wrong_explanations": {},
     "_reviewed": false
   },
@@ -5762,7 +5762,7 @@ const QUESTION_BANK = [
       "⑤ (B)-(C)-(A)"
     ],
     "answer": 5,
-    "explanation": "최초 가정 → 후속 관찰에 의한 반증·보완 → 수정된 판단이라는 인과 순서가 필수입니다. 따라서 (B)-(C)-(A)입니다.",
+    "explanation": "[지문 해석]\n페리 운영사가 출발 횟수는 적지만 더 안정적인 시간표를 시험해 보았다.\n\n(B) 추가 조사 전에, 마케팅 담당자들은 출발 횟수가 많을수록 항상 최선이라고 가정했다. 이것은 명확하기는 했지만 불완전한 출발점을 프로젝트에 제공했다.\n\n(C) 그 후의 증거는 그 예상을 복잡하게 만들었다: 광고된 운행 빈도가 낮았음에도 불구하고 승객들이 약속을 놓치는 경우가 더 적었던 것이다. 초기 설명은 더 이상 전체 패턴을 설명할 수 없었다.\n\n(A) 이에 조사팀은 더 신중한 추론을 채택했다. 예측 가능성은 명목상 수용력보다 더 중요할 수 있다. 또한 그들은 어떤 추가 관찰이 필요할지를 파악했다.\n\n[해설]\n최초 가정 → 후속 관찰에 의한 반증·보완 → 수정된 판단이라는 인과 순서가 필수입니다. 따라서 (B)-(C)-(A)입니다.",
     "wrong_explanations": {},
     "_reviewed": false
   },
@@ -5779,7 +5779,7 @@ const QUESTION_BANK = [
       "⑤ To announce that the first interpretation has already been fully confirmed"
     ],
     "answer": 3,
-    "explanation": "편지의 핵심 요청은 기존 평가에 후속 관찰을 반영하고 초기 결론의 한계를 명시해 달라는 것입니다.",
+    "explanation": "[지문 해석]\n검토 위원회 귀중,\n\n한 과학자가 꿀벌이 인공 꽃에 어떻게 반응하는지 연구했습니다. 동료는 처음의 선호도를 영구적인 본능으로 취급했습니다. 실제로 꿀벌은 처음에는 밝은 색의 꽃을 선호했지만 일관된 보상을 따르도록 학습했습니다. 저는 원래 프로젝트를 기각해 달라고 요청하는 것이 아닙니다. 그 평가에 추가 증거를 포함시키고 초기 결론의 한계를 명시해 달라고 요청합니다. 이 변경이 없으면 다음 자금 지원 결정은 프로젝트의 실제 성과보다는 불완전한 지표에 보상을 줄 수 있습니다.\n\n경의를 표하며,\n프로젝트 참여자 일동\n\n[해설]\n편지의 핵심 요청은 기존 평가에 후속 관찰을 반영하고 초기 결론의 한계를 명시해 달라는 것입니다.",
     "wrong_explanations": {},
     "_reviewed": false
   },
@@ -5796,7 +5796,7 @@ const QUESTION_BANK = [
       "⑤ from confidence to a refusal to reconsider any evidence"
     ],
     "answer": 2,
-    "explanation": "초기의 confident/reassured와 후반의 reconsider, willing to investigate가 대비되므로 확신에서 성찰적 탐구로의 변화입니다.",
+    "explanation": "[지문 해석]\n처음에는 겉보기에 명확한 설명에 안심했다. 큐레이터들은 사진들이 그 자체로 말해주기를 기대했다. 한 지역 박물관이 주민들에게 옛 시장의 사진에 주석을 달도록 요청했다. 개인의 기억들이 날짜에 대해 서로 다르지만 간과되었던 개인적인 일상들을 드러낸다는 것을 알게 되자 나의 확신이 흔들렸다. 내 기대를 뒷받침하는 결과에만 주목함으로써 내가 얼마나 많은 것을 놓쳤는지 궁금해졌다. 나는 내 판단을 다시 생각해보았다. 결국 모든 세부 사항에 대해 여전히 확신할 수 없었지만, 나는 첫인상을 방어하기보다는 더 자세히 알아보려는 태도로 변했다.\n\n[해설]\n초기의 confident/reassured와 후반의 reconsider, willing to investigate가 대비되므로 확신에서 성찰적 탐구로의 변화입니다.",
     "wrong_explanations": {},
     "_reviewed": false
   },
@@ -5813,7 +5813,7 @@ const QUESTION_BANK = [
       "⑤ An observed difference should be treated as a universal rule without further examination."
     ],
     "answer": 3,
-    "explanation": "필자는 초기 판단을 그대로 유지하기보다 관찰의 조건과 반례를 반영해 결론을 조정해야 한다고 주장합니다.",
+    "explanation": "[지문 해석]\n한 엔지니어가 섬세한 과일을 운송하기 위한 재사용 가능한 상자를 설계했다. 팀은 충격 저항성을 독립적인 목표로만 평가했다. 처음의 해석은 쉽게 눈에 띄는 특징에 초점을 맞췄기 때문에 그럴듯해 보였다. 하지만 가장 튼튼한 모델은 무게가 너무 많이 나가서 연료 소비가 증가했다. 이것이 앞의 관찰을 쓸모없게 만들지는 않았다. 오히려 원래의 설명이 중요한 조건을 놓쳤다는 것을 드러냈다. 성공적인 설계는 전체 운송 과정에서 보호와 비용 사이의 균형을 맞춰야 한다.\n\n[해설]\n필자는 초기 판단을 그대로 유지하기보다 관찰의 조건과 반례를 반영해 결론을 조정해야 한다고 주장합니다.",
     "wrong_explanations": {},
     "_reviewed": false
   },
@@ -5830,7 +5830,7 @@ const QUESTION_BANK = [
       "⑤ The Complete Failure of Observation in Practical Research"
     ],
     "answer": 2,
-    "explanation": "초기 설명과 후속 관찰의 불일치를 통해 더 정교한 판단으로 옮겨가는 글 전체를 포괄합니다.",
+    "explanation": "[지문 해석]\n한 역사가가 19세기의 식단을 재구성하기 위해 해운 송장을 이용했다. 한 학생은 항구에 나타나는 물품을 보편적인 소비와 동일시했다. 그러나 수입 향신료 목록은 접근 가능성은 보여주지만 실제로 누가 그것들을 소비했는지는 나타내지 않았다. 공급 기록만으로는 일상적 사용의 패턴을 확립할 수 없다.\n\n[해설]\n초기 설명과 후속 관찰의 불일치를 통해 더 정교한 판단으로 옮겨가는 글 전체를 포괄합니다.",
     "wrong_explanations": {},
     "_reviewed": false
   },
@@ -5847,7 +5847,7 @@ const QUESTION_BANK = [
       "⑤번 문장"
     ],
     "answer": 1,
-    "explanation": "나머지 네 문장은 동일한 연구·관찰의 초기 가정과 결과, 수정된 결론을 연결하지만 해당 문장은 다른 주제로 전환되어 논리적 연속성이 없습니다.",
+    "explanation": "[지문 해석]\n①전문 풋볼 리그는 시즌이 시작되기 전에 경기 일정을 공개한다. ②한 사서는 인기 있는 소설들을 같은 주제의 덜 알려진 작품들 옆에 배치했다. ③직원들은 별도의 발견 섹션이 모든 사람을 끌어들일 것으로 예상했다. ④독자들은 친숙한 관심사가 낯선 작가들과 연결되는 추천을 받을 때 새로운 저자들을 탐색했다. ⑤새로운 자료를 찾는 것은 기존의 독서 습관으로부터의 연결고리에 달려 있을 수 있다.\n\n[해설]\n나머지 네 문장은 동일한 연구·관찰의 초기 가정과 결과, 수정된 결론을 연결하지만 해당 문장은 다른 주제로 전환되어 논리적 연속성이 없습니다.",
     "wrong_explanations": {},
     "_reviewed": false
   },
@@ -5864,7 +5864,7 @@ const QUESTION_BANK = [
       "⑤ supported — unconditional"
     ],
     "answer": 2,
-    "explanation": "초기 가정은 처음에는 지지를 받았지만 후속 관찰 때문에 해석에 조건과 한계를 명시해야 했으므로 supported — qualified가 가장 적절합니다.",
+    "explanation": "[지문 해석]\n한 해안 공학자가 동일한 데이터를 바탕으로 한 두 가지 홍수 예측을 비교했다. 관계자들은 명백하게 객관적으로 보이는 단 하나의 수치를 원했다. 첫 번째 해석은 쉽게 눈에 띄는 특징에 초점을 맞췄기 때문에 타당해 보였다. 그러나 토지 이용에 대한 서로 다른 가정들은 실질적으로 다른 손실을 초래했다. 이것이 이전의 관찰을 무의미하게 만들지는 않았다. 오히려 원래의 설명이 중요한 조건 하나를 놓쳤다는 것을 드러냈다. 예측은 자신들의 명확한 모습을 형성하는 가정들을 공개해야 한다.\n\n[해설]\n초기 가정은 처음에는 지지를 받았지만 후속 관찰 때문에 해석에 조건과 한계를 명시해야 했으므로 supported — qualified가 가장 적절합니다.",
     "wrong_explanations": {},
     "_reviewed": false
   },
@@ -5881,7 +5881,7 @@ const QUESTION_BANK = [
       "⑤ the shifting beat exposed moments where the ensemble relied on habit rather than listening, which proves that the same result is inevitable everywhere"
     ],
     "answer": 4,
-    "explanation": "기초 관찰: The shifting beat exposed moments where the ensemble relied on habit rather than listening. 초기 해석: The group had mastered the piece at one fixed speed. 따라서 Flexible performance requires understanding relationships beyond mechanical repetition. 다만 단일 사례가 모든 상황으로 일반화되는 것은 아닙니다.",
+    "explanation": "[지문 해석]\n어떤 음악가가 템포를 점차 변화시키는 메트로놈과 함께 리허설을 했다. 그 앙상블은 한 가지 고정된 속도로 그 곡을 완벽하게 습득했었다. 그러나 새로운 증거는 원래 해석보다 더 정보를 제공했다. 변화하는 박자는 악단이 청취하기보다는 습관에 의존하는 순간들을 드러냈다. 어려움은 앞의 해석에 대한 매력과 이후의 관찰을 설명하지 못하는 실패 모두를 설명하는 것이다. 그 증거는 __________라는 결론과 가장 일치한다. 합리적인 선택은 국소적 발견을 보편적 규칙으로 전환하지 않으면서 그 대조를 설명해야 한다.\n\n[해설]\n기초 관찰: The shifting beat exposed moments where the ensemble relied on habit rather than listening. 초기 해석: The group had mastered the piece at one fixed speed. 따라서 Flexible performance requires understanding relationships beyond mechanical repetition. 다만 단일 사례가 모든 상황으로 일반화되는 것은 아닙니다.",
     "wrong_explanations": {},
     "_reviewed": false
   },
@@ -5898,7 +5898,7 @@ const QUESTION_BANK = [
       "⑤번 위치"
     ],
     "answer": 2,
-    "explanation": "초기 해석과 상반되는 관찰이 나온 직후에 This discrepancy가 연결됩니다. 다른 위치에서는 discrepancy의 지시 대상이 불분명하거나 후속 판단의 인과 관계가 끊깁니다.",
+    "explanation": "[지문 해석]\n어느 도시 농부가 버려진 커피 찌꺼기를 퇴비로 수집했다. 한 홍보 캠페인은 모든 음식물 쓰레기를 자동으로 유익하다고 설명했다. (①) 그 찌꺼기는 일부 토양 혼합물은 개선했지만 다른 것들은 너무 산성으로 만들었다. (②) 재활용 자재는 맥락과 사용량에 주의를 기울여야 한다. (③) 그 보고서는 그 발견의 증거적 한계를 설명했다. (④) 후속 연구가 제안되었다. (⑤)\n\n[해설]\n초기 해석과 상반되는 관찰이 나온 직후에 This discrepancy가 연결됩니다. 다른 위치에서는 discrepancy의 지시 대상이 불분명하거나 후속 판단의 인과 관계가 끊깁니다.",
     "wrong_explanations": {},
     "_reviewed": false
   },
@@ -5915,7 +5915,7 @@ const QUESTION_BANK = [
       "⑤번 표시"
     ],
     "answer": 1,
-    "explanation": "①는 describes로 고쳐야 합니다. 나머지 표시 표현은 해당 문장의 구조상 허용됩니다.",
+    "explanation": "[지문 해석]\n한 연구자가 아이들이 낯선 보드게임의 규칙을 만드는 모습을 관찰했다. 그 보고서는 ① describe 원래의 설명이 왜 설득력이 있었는지를 설명했다. 나중에 ② collected 증거는 그 질문을 더욱 복잡하게 만들었다. ③ ignoring 그 불일치를 무시하기보다는, 조사자들은 그것이 드러낸 바를 고려했다. 그들의 결론은 ④ was 의도적으로 한정적이었으며 ⑤ remained 추가 검증에 열려 있었다.\n\n[해설]\n①는 describes로 고쳐야 합니다. 나머지 표시 표현은 해당 문장의 구조상 허용됩니다.",
     "wrong_explanations": {},
     "_reviewed": false
   },
@@ -5932,7 +5932,7 @@ const QUESTION_BANK = [
       "⑤번 표시"
     ],
     "answer": 4,
-    "explanation": "④의 irrelevant는 주변 의미와 충돌합니다. relevant로 수정해야 초기 가설·반증·신중한 결론의 논리가 일관됩니다.",
+    "explanation": "[지문 해석]\n한 외딴 진료소가 일상적인 추적 진료를 위해 화상 상담을 도입했다. 관리자들은 전반적인 참여 증가를 축하했다. 먼 곳에 사는 환자들의 방문은 증가했지만 불안정한 인터넷 환경에 있는 환자들의 방문은 감소했다. 아직 수집된 증거가 거의 없었기 때문에 처음 해석은 필연적으로 (① 임시적)이었다. 나중의 관찰은 그 해석이 의존하던 기대와 (② 모순)되었다. 결과적으로 연구자들은 절대적인 판단보다는 (③ 조건부)의 설명을 채택했다. 그들은 새로운 증거가 조사 중인 문제와 (④ 무관한)지 살펴봤다. 결론은 관찰이 이루어진 조건들로 (⑤ 제한)되었다.\n\n[해설]\n④의 irrelevant는 주변 의미와 충돌합니다. relevant로 수정해야 초기 가설·반증·신중한 결론의 논리가 일관됩니다.",
     "wrong_explanations": {},
     "_reviewed": false
   },
@@ -5949,7 +5949,7 @@ const QUESTION_BANK = [
       "⑤ the claim that competing explanations cannot be evaluated with evidence"
     ],
     "answer": 3,
-    "explanation": "초기 기대와 다른 관찰을 통해 얻은 제한적인 결론이 요지입니다. 다른 선택지는 단정적 일반화 또는 근거 없는 판단입니다.",
+    "explanation": "[지문 해석]\n한 화가가 기억으로 그린 스케치와 현장에서 그린 스케치를 비교했다. 그녀는 기억이 그 장면을 중립적으로 보존할 것이라고 예상했다. 첫 번째 해석은 쉽게 눈에 띄는 특징에 초점을 맞췄기 때문에 타당해 보였다. 그러나 기억으로 그린 그림들은 그녀의 주의를 끌었던 형태들을 과장했다. 이것이 이전의 관찰을 쓸모없게 만들지는 않았다. 오히려 원래의 설명이 중요한 조건을 놓쳤음을 보여주었다. 기억하기는 수동적 저장이 아니라 선택적 재구성인 것이다.\n\n[해설]\n초기 기대와 다른 관찰을 통해 얻은 제한적인 결론이 요지입니다. 다른 선택지는 단정적 일반화 또는 근거 없는 판단입니다.",
     "wrong_explanations": {},
     "_reviewed": false
   },
@@ -5966,7 +5966,7 @@ const QUESTION_BANK = [
       "⑤ (A)-(B)-(C)"
     ],
     "answer": 5,
-    "explanation": "최초 가정 → 후속 관찰에 의한 반증·보완 → 수정된 판단이라는 인과 순서가 필수입니다. 따라서 (A)-(B)-(C)입니다.",
+    "explanation": "[지문 해석]\n한 천문학자가 여러 개의 소형 망원경으로부터의 관측 결과를 종합했다.\n\n(A) 추가 조사에 앞서, 한 후원자는 고가의 장비를 완전한 관측 범위와 같다고 생각했다. 이것은 그 프로젝트에 명확하지만 불완전한 출발점을 제공했다.\n\n(B) 그 후의 증거들은 그러한 기대를 복잡하게 만들었다. 서로 다른 관측 시간들이 단 하나의 대형 망원경으로는 채울 수 없는 공백들을 메웠던 것이다. 초기의 설명으로는 더 이상 전체 패턴을 설명할 수 없게 되었다.\n\n(C) 이에 따라 조사팀은 더욱 신중한 결론을 채택했다. 제한된 기기들 간의 협력이 가치 있는 증거를 산출할 수 있다는 것이다. 그들은 또한 어떤 추가 관측이 필요할 것인지를 파악했다.\n\n[해설]\n최초 가정 → 후속 관찰에 의한 반증·보완 → 수정된 판단이라는 인과 순서가 필수입니다. 따라서 (A)-(B)-(C)입니다.",
     "wrong_explanations": {},
     "_reviewed": false
   },
@@ -5983,7 +5983,7 @@ const QUESTION_BANK = [
       "⑤ To invite committee members to an unrelated public celebration"
     ],
     "answer": 2,
-    "explanation": "편지의 핵심 요청은 기존 평가에 후속 관찰을 반영하고 초기 결론의 한계를 명시해 달라는 것입니다.",
+    "explanation": "[지문 해석]\n검토 위원회 귀중,\n\n지방 정부 팀이 작은 광장에서 투수성 포장재를 실험했습니다. 홍보담당자들은 이 재료를 홍수 문제의 단독 해결책으로 광고했습니다. 실제로는 이 표면이 약한 빗물은 흡수했지만 그 아래 배수로가 막혔을 때는 제 역할을 하지 못했습니다. 저는 원래 사업 자체를 폐기하도록 요청하는 것이 아닙니다. 다만 평가에 추가 증거를 포함시키고 초기 결론의 한계를 명시적으로 언급해 줄 것을 요청합니다. 이러한 재검토는 평가를 더욱 공정하게 만들 것입니다.\n\n진심으로,\n사업 참여자 일동\n\n[해설]\n편지의 핵심 요청은 기존 평가에 후속 관찰을 반영하고 초기 결론의 한계를 명시해 달라는 것입니다.",
     "wrong_explanations": {},
     "_reviewed": false
   },
@@ -6000,7 +6000,7 @@ const QUESTION_BANK = [
       "⑤ from confidence to a refusal to reconsider any evidence"
     ],
     "answer": 2,
-    "explanation": "초기의 confident/reassured와 후반의 reconsider, willing to investigate가 대비되므로 확신에서 성찰적 탐구로의 변화입니다.",
+    "explanation": "[지문 해석]\n처음에는 얼핏 단순해 보이는 설명에 안심이 되었다. 그 레스토랑은 정보만으로 맛이 결정된다고 생각했던 것이다. 한 셰프가 계절 메뉴에 상세한 유래담을 덧붙였다. 그런데 손님들이 낯선 채소에는 호기심을 보이면서도 여전히 어떤 맛은 거부한다는 것을 알게 되자, 나의 확신이 흔들렸다. 내 기대를 뒷받침하는 결과만 바라보면서 얼마나 많은 것을 놓쳤을까 하는 의문이 들었다. 나는 내 판단을 다시 생각해보기 시작했다. 결국 나는 모든 세부 사항에 대해 여전히 확신할 수 없었지만, 처음 인상을 고집하기보다는 더 깊이 탐구하고 싶은 마음이 생겼다.\n\n[해설]\n초기의 confident/reassured와 후반의 reconsider, willing to investigate가 대비되므로 확신에서 성찰적 탐구로의 변화입니다.",
     "wrong_explanations": {},
     "_reviewed": false
   },
@@ -6017,7 +6017,7 @@ const QUESTION_BANK = [
       "⑤ Decisions should retain the original assumption because a housing committee had imposed a single definition of friendliness."
     ],
     "answer": 3,
-    "explanation": "필자는 초기 판단을 그대로 유지하기보다 관찰의 조건과 반례를 반영해 결론을 조정해야 한다고 주장합니다.",
+    "explanation": "[지문 해석]\n한 사회학자가 공용 중정에서 이웃들이 침묵을 어떻게 해석하는지 비교 연구했다. 주택 관리위원회는 친근함에 대한 하나의 정의를 강제했다. 처음에는 그 설명이 매력적으로 보였는데, 추가 설명 없이도 전달할 수 있는 단순한 해석을 제시했기 때문이다. 실제로 어떤 사람들은 조용함을 존중의 표시로 본 반면, 다른 사람들은 이를 사회적 배제로 이해했다. 두 명의 관찰자가 동일한 사실을 받아들이면서도 기저에 깔린 가정에 다른 중요성을 부여하기 때문에 서로 다른 판단에 도달할 수 있다. 행동의 의미는 문화적 기대의 차이에 따라 달라질 수 있다. 적절한 설명은 결론을 일반적인 것으로 취급하기 전에 먼저 그러한 가정들을 명시해야 한다. 이 결론은 처음의 가정과 동일하지 않으며, 이후의 관찰과 원래 측정의 한계를 설명해야 한다. 특히 새로운 증거는 초기의 설명이 모든 상황에서 오류였음을 증명하지 않으면서도 해석을 바꿀 정당한 이유가 될 수 있다. 따라서 더 타당한 해석은 단 하나의 사례가 보편적인 규칙을 입증한다고 주장하지 않으면서, 초기의 기대와 이를 복잡하게 만드는 증거를 모두 설명할 수 있어야 한다.\n\n[해설]\n필자는 초기 판단을 그대로 유지하기보다 관찰의 조건과 반례를 반영해 결론을 조정해야 한다고 주장합니다.",
     "wrong_explanations": {},
     "_reviewed": false
   },
@@ -6034,7 +6034,7 @@ const QUESTION_BANK = [
       "⑤ When Background Details Replace All Empirical Evidence"
     ],
     "answer": 1,
-    "explanation": "초기 설명과 후속 관찰의 불일치를 통해 더 정교한 판단으로 옮겨가는 글 전체를 포괄합니다.",
+    "explanation": "[지문 해석]\n한 경제학자가 무료 대중교통 시범 운영을 조사했다. 관계자들은 모든 추가 승객을 배출량 감소로 간주했다. 처음에는 이러한 설명이 매력적으로 보였다. 추가 설명 없이도 전달할 수 있는 단순한 근거를 제시했기 때문이다. 그런데 실제로는 승객 수는 증가했지만, 많은 새로운 이용객들이 자동차 대신 걷기를 포기한 경우였다. 이 결과는 유용한 단서를 제공하지만, 동일한 메커니즘이 모든 상황에서 작동할 것임을 증명하지는 못한다. 정책의 환경 영향은 그것이 대체하는 행동이 무엇인지에 달려 있다. 더 강력한 추론은 의도적으로 제한적이다. 불확실성이 완전히 사라졌다고 가정하지 않으면서도 관찰된 차이를 설명한다. 이 결론은 초기 가정과 동일하지 않다. 이후의 관찰과 원래 측정 방법의 한계를 고려해야 한다. 특히 새로운 증거는 초기 설명이 모든 상황에서 틀렸음을 증명하지 않으면서도 해석을 바꿀 근거가 될 수 있다. 따라서 선호되는 해석은 초기 기대와 이를 복잡하게 만드는 증거를 모두 설명해야 하며, 단 하나의 사례가 보편적 규칙을 입증한다고 가정해서는 안 된다.\n\n[해설]\n초기 설명과 후속 관찰의 불일치를 통해 더 정교한 판단으로 옮겨가는 글 전체를 포괄합니다.",
     "wrong_explanations": {},
     "_reviewed": false
   },
@@ -6051,7 +6051,7 @@ const QUESTION_BANK = [
       "⑤번 문장"
     ],
     "answer": 3,
-    "explanation": "나머지 네 문장은 동일한 연구·관찰의 초기 가정과 결과, 수정된 결론을 연결하지만 해당 문장은 다른 주제로 전환되어 논리적 연속성이 없습니다.",
+    "explanation": "[지문 해석]\n①한 문학 학자가 모호한 시의 여러 번역본을 연구했다. ②독자들은 모든 이미지에 대해 하나의 확정된 동등물을 요구했다. ③기상 위성은 대기권 위의 궤도에서 이미지를 수집한다. ④각 번역본은 다른 연상을 보존하는 한편 또 다른 연상을 잃었다. ⑤번역은 정확한 대체보다는 종종 절충을 수반한다.\n\n[해설]\n나머지 네 문장은 동일한 연구·관찰의 초기 가정과 결과, 수정된 결론을 연결하지만 해당 문장은 다른 주제로 전환되어 논리적 연속성이 없습니다.",
     "wrong_explanations": {},
     "_reviewed": false
   },
@@ -6068,7 +6068,7 @@ const QUESTION_BANK = [
       "⑤ replaced — unquestionable"
     ],
     "answer": 2,
-    "explanation": "초기 가정은 처음에는 지지를 받았지만 후속 관찰 때문에 해석에 조건과 한계를 명시해야 했으므로 supported — qualified가 가장 적절합니다.",
+    "explanation": "[지문 해석]\n한 생물학자가 희귀 식물을 보호된 온실로 옮겼다. 보전팀은 성공을 오직 식물의 생존 여부로만 측정했다. 처음에는 이러한 기준이 매력적으로 보였다. 추가 설명 없이도 전달할 수 있는 단순한 설명을 제시했기 때문이다. 실제로 식물들은 생존했지만 더 이상 평소의 수분 매개자들의 방문을 받지 못했다. 초기의 예측도 이후의 측정도 무의미한 것은 아니다. 문제는 둘 중 어느 하나를 완전한 설명으로 착각하는 데 있다. 종을 보호한다는 것은 그 종의 생태적 관계도 함께 보존한다는 뜻이다. 과제는 관찰 결과와 그것을 그럴듯하게 설명할 수 있는 과정을 연결하는 것이다. 이러한 결론은 초기의 가정과 동일하지 않다. 이후의 관찰과 원래 측정 방식의 한계를 모두 고려해야 한다. 특히 새로운 증거가 해석을 바꾸는 것을 정당화할 수 있지만, 이것이 초기의 설명이 모든 상황에서 틀렸다는 것을 증명하지는 않는다. 결과적으로 더 나은 해석은 초기의 예상과 그것을 복잡하게 만드는 증거를 모두 설명해야 하며, 단 하나의 사례가 보편적 규칙을 입증한다고 주장해서는 안 된다.\n\n[해설]\n초기 가정은 처음에는 지지를 받았지만 후속 관찰 때문에 해석에 조건과 한계를 명시해야 했으므로 supported — qualified가 가장 적절합니다.",
     "wrong_explanations": {},
     "_reviewed": false
   },
@@ -6085,7 +6085,7 @@ const QUESTION_BANK = [
       "⑤ good evaluation separates decision quality from immediate results"
     ],
     "answer": 5,
-    "explanation": "기초 관찰: Players learned to distinguish poor decisions from unlucky outcomes. 초기 해석: The team had previously judged strategy only by whether a play succeeded. 따라서 Good evaluation separates decision quality from immediate results. 다만 단일 사례가 모든 상황으로 일반화되는 것은 아닙니다.",
+    "explanation": "[지문 해석]\n어떤 스포츠 코치가 선수들에게 경기 후 전술적 오류에 대해 설명하도록 요구했다. 그 팀은 이전까지 작전의 성공 여부에 따라서만 전략을 판단해왔다. 그러나 새로운 증거는 기존의 판단 기준보다 더 많은 정보를 제공했다. 선수들은 잘못된 판단과 운이 없었던 결과를 구별하는 법을 배웠다. 어려운 점은 이전의 해석이 매력적이었던 이유와 나중의 관찰을 설명하지 못한 이유를 모두 설명해야 한다는 것이다. 증거는 __________ 라는 결론이 가장 타당함을 시사한다. 타당한 선택은 국지적 발견을 보편적 규칙으로 변환하지 않으면서도 이러한 대조를 설명해야 한다.\n\n[해설]\n기초 관찰: Players learned to distinguish poor decisions from unlucky outcomes. 초기 해석: The team had previously judged strategy only by whether a play succeeded. 따라서 Good evaluation separates decision quality from immediate results. 다만 단일 사례가 모든 상황으로 일반화되는 것은 아닙니다.",
     "wrong_explanations": {},
     "_reviewed": false
   },
@@ -6102,7 +6102,7 @@ const QUESTION_BANK = [
       "⑤번 위치"
     ],
     "answer": 3,
-    "explanation": "초기 해석과 상반되는 관찰이 나온 직후에 This discrepancy가 연결됩니다. 다른 위치에서는 discrepancy의 지시 대상이 불분명하거나 후속 판단의 인과 관계가 끊깁니다.",
+    "explanation": "[지문 해석]\n한 역사가가 노동 파업 일지와 공식 기록을 비교했다. (①) 한 연구원은 개인적 기록이 주관적이라는 이유로 쓸모없다고 일축했다. (②) 그 일지는 공식 일정표에서 빠진 두려움과 불확실성을 담아냈다. (③) 서로 다른 사료는 서로 다른 역사적 질문에 답한다. (④) 추가 검토가 권장되었다. (⑤)\n\n[해설]\n초기 해석과 상반되는 관찰이 나온 직후에 This discrepancy가 연결됩니다. 다른 위치에서는 discrepancy의 지시 대상이 불분명하거나 후속 판단의 인과 관계가 끊깁니다.",
     "wrong_explanations": {},
     "_reviewed": false
   },
@@ -6119,7 +6119,7 @@ const QUESTION_BANK = [
       "⑤번 표시"
     ],
     "answer": 2,
-    "explanation": "②는 were로 고쳐야 합니다. 나머지 표시 표현은 해당 문장의 구조상 허용됩니다.",
+    "explanation": "[지문 해석]\n한 식물학자가 묻힌 돌 주위에서 자라는 뿌리를 관찰했다. 그것은 원래의 해석에 ① that 도전한 나중의 증거였다. 그 관찰들은 팀이 ② was 자신의 발견을 ③ published 하기 전에 두 번 검증되었다. 초기 예측이나 후속 결과 둘 다 ④ were 단독으로는 충분한 것으로 취급되지 않았다. 그 설명은 ⑤ ultimately 그들의 관계에 달려 있었다.\n\n[해설]\n②는 were로 고쳐야 합니다. 나머지 표시 표현은 해당 문장의 구조상 허용됩니다.",
     "wrong_explanations": {},
     "_reviewed": false
   },
@@ -6136,7 +6136,7 @@ const QUESTION_BANK = [
       "⑤번 표시"
     ],
     "answer": 2,
-    "explanation": "②의 confirmed는 주변 의미와 충돌합니다. contradicted로 수정해야 초기 가설·반증·신중한 결론의 논리가 일관됩니다.",
+    "explanation": "[지문 해석]\n어느 도시가 시끄러운 교차로를 작은 공공 광장으로 바꿨다. 지지자들은 이 사업이 비용 없이 이점만 있다고 설명했다. 노점상들은 고객을 얻었지만, 배송 기사들은 새로운 경로를 필요로 했다. 첫 번째 해석은 아직 수집된 증거가 거의 없었기 때문에 반드시 (① 잠정적)이었다. 나중의 관찰은 그 해석이 의존하던 기대를 (② 확인)해주었다. 따라서 연구자들은 무조건적인 판단보다는 (③ 제한적인) 설명을 채택했다. 그들은 새로운 증거가 조사 중인 질문과 (④ 관련)이 있는지 검토했다. 결론은 관찰이 이루어진 조건들로 (⑤ 제한)되었다.\n\n[해설]\n②의 confirmed는 주변 의미와 충돌합니다. contradicted로 수정해야 초기 가설·반증·신중한 결론의 논리가 일관됩니다.",
     "wrong_explanations": {},
     "_reviewed": false
   },
@@ -6153,7 +6153,7 @@ const QUESTION_BANK = [
       "⑤ the claim that competing explanations cannot be evaluated with evidence"
     ],
     "answer": 1,
-    "explanation": "초기 기대와 다른 관찰을 통해 얻은 제한적인 결론이 요지입니다. 다른 선택지는 단정적 일반화 또는 근거 없는 판단입니다.",
+    "explanation": "[지문 해석]\n어느 박물관이 골동품 시계를 복원하면서 수리 흔적을 하나 의도적으로 남겨두었다. 일부 수집가들은 수리의 모든 자취를 지우기를 원했다. 그러나 방문객들은 후대 세대가 어떻게 그 장치를 작동하게 유지했는지 이해했다. 유지·보수의 역사 자체가 물건의 가치 있는 부분이 될 수 있는 것이다.\n\n[해설]\n초기 기대와 다른 관찰을 통해 얻은 제한적인 결론이 요지입니다. 다른 선택지는 단정적 일반화 또는 근거 없는 판단입니다.",
     "wrong_explanations": {},
     "_reviewed": false
   },
@@ -6170,7 +6170,7 @@ const QUESTION_BANK = [
       "⑤ (B)-(A)-(C)"
     ],
     "answer": 5,
-    "explanation": "최초 가정 → 후속 관찰에 의한 반증·보완 → 수정된 판단이라는 인과 순서가 필수입니다. 따라서 (B)-(A)-(C)입니다.",
+    "explanation": "[지문 해석]\n한 연구자가 추적 장치와 현지 관찰을 이용해 새의 이동 경로를 추적했다.\n\n(A) 그 후의 증거는 그러한 예상을 복잡하게 만들었다. 추적 장치를 부착한 새들은 정확한 경로를 제공했지만, 자원봉사자들의 목격 정보는 더 넓은 지역을 포함했다. 초기 설명은 더 이상 전체 패턴을 설명할 수 없었다.\n\n(B) 추가 조사에 앞서 감독자는 더 정확한 출처만 선택하고 싶었다. 이것은 프로젝트에 명확하지만 불완전한 출발점을 제공했다.\n\n(C) 이에 따라 조사원들은 더욱 신중한 추론을 채택했다. 정밀성과 광범위함을 결합하면 어느 출처도 단독으로 제공하지 못하는 그림을 개선할 수 있다. 그들은 또한 필요한 추가 관찰이 무엇인지 파악했다.\n\n[해설]\n최초 가정 → 후속 관찰에 의한 반증·보완 → 수정된 판단이라는 인과 순서가 필수입니다. 따라서 (B)-(A)-(C)입니다.",
     "wrong_explanations": {},
     "_reviewed": false
   },
@@ -6187,7 +6187,7 @@ const QUESTION_BANK = [
       "⑤ To announce that the first interpretation has already been fully confirmed"
     ],
     "answer": 1,
-    "explanation": "편지의 핵심 요청은 기존 평가에 후속 관찰을 반영하고 초기 결론의 한계를 명시해 달라는 것입니다.",
+    "explanation": "[지문 해석]\n검토 위원회께,\n\n한 심리학자가 업무 피드백을 제공하는 두 가지 방식을 비교했습니다. 관리자들은 긍정적인 평가만으로도 직원들의 개선 의욕을 불러일으킬 수 있다고 생각했습니다. 그러나 실제로는 구체적인 행동 설명이 일반적인 칭찬보다 직원들의 개선에 더 효과적이었습니다. 저는 원래 프로젝트를 폐기하도록 요청하는 것이 아닙니다. 다만 그 평가에 추가 증거를 포함시키고 초기 결론의 한계를 명확히 명시해 줄 것을 요청하는 것입니다. 이러한 변경이 없다면, 다음 자금 지원 결정에서 프로젝트의 실제 성과가 아닌 불완전한 지표에 보상을 주는 결과를 초래할 수 있습니다.\n\n진심으로,\n프로젝트 참여자 일동\n\n[해설]\n편지의 핵심 요청은 기존 평가에 후속 관찰을 반영하고 초기 결론의 한계를 명시해 달라는 것입니다.",
     "wrong_explanations": {},
     "_reviewed": false
   },
@@ -6204,7 +6204,7 @@ const QUESTION_BANK = [
       "⑤ from disappointment to certainty that all questions are settled"
     ],
     "answer": 1,
-    "explanation": "초기의 confident/reassured와 후반의 reconsider, willing to investigate가 대비되므로 확신에서 성찰적 탐구로의 변화입니다.",
+    "explanation": "[지문 해석]\n처음에는 겉으로 단순해 보이는 설명에 안심했다. 한 홍보 자료는 모든 녹색 지붕을 똑같이 지속 가능한 것으로 취급했다. 한 지역사회가 쇼핑 아케이드 위에 작은 옥상 정원을 조성했다. 그 정원이 인근 방들을 식혀주지만 건조한 달에는 상당한 양의 물이 필요하다는 것을 알게 되자 내 확신이 흔들렸다. 내 기대를 뒷받침하는 결과에만 집중해서 얼마나 많은 것을 놓쳤을지 궁금해졌다. 나는 일찍이 그 설명을 공개적으로 옹호했기 때문에 그 한계를 인정하기 싫었다. 그러나 관찰 결과를 더욱 신중하게 비교할수록 수정의 필요성이 더욱 명확해졌다. 결국 모든 세부 사항에 대해 여전히 확실하지 않았지만, 처음 인상을 옹호하기보다는 더 깊이 조사하려는 마음이 생겼다.\n\n[해설]\n초기의 confident/reassured와 후반의 reconsider, willing to investigate가 대비되므로 확신에서 성찰적 탐구로의 변화입니다.",
     "wrong_explanations": {},
     "_reviewed": false
   },
@@ -6221,7 +6221,7 @@ const QUESTION_BANK = [
       "⑤ Decision-makers should judge an intervention solely by its most visible immediate result."
     ],
     "answer": 3,
-    "explanation": "필자는 초기 판단을 그대로 유지하기보다 관찰의 조건과 반례를 반영해 결론을 조정해야 한다고 주장합니다.",
+    "explanation": "[지문 해석]\n한 엔지니어가 수리된 교량이 특정 하중을 받을 때 왜 진동하는지를 조사했다. 첫 번째 팀은 각 부품을 따로따로 검사했다. 처음에는 그 설명이 매력적으로 보였다. 더 이상의 설명 없이 전달될 수 있는 단순한 설명을 제시했기 때문이다. 실제로 손상된 부품을 교체하면 한 가지 문제는 해결되지만 스트레스가 다른 곳으로 이동했다. 초기 설명은 익숙한 성공의 척도에 호소했지만, 그 척도는 누가 또는 무엇이 관찰에서 제외되었는지를 무시했다. 부품들 사이의 연결은 예상치 못한 시스템 수준의 효과를 만들 수 있다. 더 나은 판단을 하려면 증거가 직접 입증하는 것과 누군가가 하기를 바라는 더 큰 주장 사이를 구분해야 한다. 이 결론은 처음 가정과 동일하지 않다. 나중의 관찰과 원래 척도의 한계를 고려해야 한다. 특히, 새로운 증거는 이전 설명이 모든 가능한 상황에서 틀렸다는 것을 증명하지 않으면서도 해석을 바꿀 정당성을 제공할 수 있다. 따라서 선호되는 해석은 초기 기대와 이를 복잡하게 만드는 증거를 모두 설명해야 하며, 단 하나의 사례가 보편적 규칙을 입증한다고 주장해서는 안 된다.\n\n[해설]\n필자는 초기 판단을 그대로 유지하기보다 관찰의 조건과 반례를 반영해 결론을 조정해야 한다고 주장합니다.",
     "wrong_explanations": {},
     "_reviewed": false
   },
@@ -6238,7 +6238,7 @@ const QUESTION_BANK = [
       "⑤ Why a Single Indicator Is Sufficient for Every Decision"
     ],
     "answer": 2,
-    "explanation": "초기 설명과 후속 관찰의 불일치를 통해 더 정교한 판단으로 옮겨가는 글 전체를 포괄합니다.",
+    "explanation": "[지문 해석]\n한 기자가 독자들에게 진행 중인 기사에서 불확실성을 표시해 달라고 요청했다. 편집자들은 불확실성을 인정하는 것이 비전문적으로 보일까 봐 우려했다. 처음에는 그런 접근 방식이 매력적으로 보였다. 추가 설명 없이 전달할 수 있는 간단한 설명을 제공했기 때문이다. 사실 초기 주장에 한정 조건이 붙어 있으면 정정 사항을 더 쉽게 이해할 수 있었다. 결과의 두드러진 특징은 그 규모가 아니라 예상된 메커니즘과 실제로 관찰된 메커니즘 사이의 불일치였다. 증거와 확신을 구분할 때 신뢰성이 증가할 수 있다. 따라서 결론은 단순히 가장 눈에 띄는 결과를 반복하기보다는 두 가지 해석을 비교하는 것에 달려 있다. 이 결론은 처음 가정과 동일하지 않다. 이후의 관찰 내용과 원래 측정의 한계를 고려해야 한다. 특히 새로운 증거는 초기의 주장이 모든 상황에서 잘못되었음을 증명하지 않으면서도 해석을 바꿀 정당한 이유가 될 수 있다. 그러므로 선호되는 해석은 초기 예상과 그것을 복잡하게 만드는 증거를 모두 설명해야 하며, 단 하나의 사례가 보편적인 규칙을 확립한다고 주장해서는 안 된다.\n\n[해설]\n초기 설명과 후속 관찰의 불일치를 통해 더 정교한 판단으로 옮겨가는 글 전체를 포괄합니다.",
     "wrong_explanations": {},
     "_reviewed": false
   },
@@ -6255,7 +6255,7 @@ const QUESTION_BANK = [
       "⑤번 문장"
     ],
     "answer": 5,
-    "explanation": "나머지 네 문장은 동일한 연구·관찰의 초기 가정과 결과, 수정된 결론을 연결하지만 해당 문장은 다른 주제로 전환되어 논리적 연속성이 없습니다.",
+    "explanation": "[지문 해석]\n① 한 교사가 학생들에게 동료 피드백을 받은 후 에세이를 수정하도록 했다. ② 일부 학생들은 그저 글이 좋다는 식의 모호한 의견만 제시했다. ③ 댓글이 구체적인 부분을 지적할 때 수정 효과가 가장 컸다. ④ 피드백이 충분히 구체적이어서 실행할 수 있을 때 협업이 효과적이다. ⑤ 프로 축구 리그는 시즌이 시작되기 전에 경기 일정을 공개한다.\n\n[해설]\n나머지 네 문장은 동일한 연구·관찰의 초기 가정과 결과, 수정된 결론을 연결하지만 해당 문장은 다른 주제로 전환되어 논리적 연속성이 없습니다.",
     "wrong_explanations": {},
     "_reviewed": false
   },
@@ -6272,7 +6272,7 @@ const QUESTION_BANK = [
       "⑤ replaced — unquestionable"
     ],
     "answer": 2,
-    "explanation": "초기 가정은 처음에는 지지를 받았지만 후속 관찰 때문에 해석에 조건과 한계를 명시해야 했으므로 supported — qualified가 가장 적절합니다.",
+    "explanation": "[지문 해석]\n한 해안 마을이 취약한 조력 웅덩이를 찾는 관광객의 방문을 제한했다. 지방 의회는 보존을 단순히 접근을 제한하는 문제로 규정했다. 첫 번째 해석은 눈에 띄는 특징에 초점을 맞췄기 때문에 그럴듯해 보였다. 하지만 방문객이 줄어들면서 피해는 감소했지만, 지역 가이드들은 소득을 잃게 되었다. 이것이 앞서의 관찰을 쓸모없게 만들지는 않았다. 오히려 원래의 설명이 중요한 조건을 놓쳤다는 것을 드러냈다. 지속 가능한 보존은 규칙으로 인해 영향을 받는 주민들의 생계 문제를 해결하는 것을 포함할 수 있다.\n\n[해설]\n초기 가정은 처음에는 지지를 받았지만 후속 관찰 때문에 해석에 조건과 한계를 명시해야 했으므로 supported — qualified가 가장 적절합니다.",
     "wrong_explanations": {},
     "_reviewed": false
   },
@@ -6289,7 +6289,7 @@ const QUESTION_BANK = [
       "⑤ security design must account for human memory as well as technical strength"
     ],
     "answer": 5,
-    "explanation": "기초 관찰: Participants remembered distinctive phrases better than arbitrary short strings. 초기 해석: An instructor had equated memorability with weak security. 따라서 Security design must account for human memory as well as technical strength. 다만 단일 사례가 모든 상황으로 일반화되는 것은 아닙니다.",
+    "explanation": "[지문 해석]\n한 연구자가 사람들이 비밀번호를 선택하는 방식을 관찰했다. 한 강사는 기억하기 쉬운 것을 약한 보안과 동일시했다. 그러나 새로운 증거는 원래의 주장보다 더 많은 정보를 제공했다: 참가자들은 자의적인 짧은 문자열보다 특징이 있는 구문을 더 잘 기억했다. 어려움은 초기 해석의 매력과 그것이 후속 관찰을 설명하지 못하는 이유를 모두 설명하는 데 있다. 증거는 __________라는 결론과 가장 일치한다. 타당한 선택은 이러한 대조를 설명하면서도 국소적 발견을 보편적 규칙으로 전환하지 않아야 한다.\n\n[해설]\n기초 관찰: Participants remembered distinctive phrases better than arbitrary short strings. 초기 해석: An instructor had equated memorability with weak security. 따라서 Security design must account for human memory as well as technical strength. 다만 단일 사례가 모든 상황으로 일반화되는 것은 아닙니다.",
     "wrong_explanations": {},
     "_reviewed": false
   },
@@ -6306,7 +6306,7 @@ const QUESTION_BANK = [
       "⑤번 위치"
     ],
     "answer": 4,
-    "explanation": "초기 해석과 상반되는 관찰이 나온 직후에 This discrepancy가 연결됩니다. 다른 위치에서는 discrepancy의 지시 대상이 불분명하거나 후속 판단의 인과 관계가 끊깁니다.",
+    "explanation": "[지문 해석]\n이 프로젝트는 처음에는 단순해 보였던 설명을 검증하기 위해 설계되었다. (①) 한 역사가는 오래된 인구조사의 공백을 분석했다. (②) 일부 독자들은 빈 칸을 이 사람들이 일하지 않았다는 증거로 해석했다. (③) 가족 사업에서 일하는 여성들은 직업 없이 기록되는 경우가 많았다. (④) 누락된 기록은 정보를 수집할 때 사용된 분류 체계를 반영할 수 있다. (⑤)\n\n[해설]\n초기 해석과 상반되는 관찰이 나온 직후에 This discrepancy가 연결됩니다. 다른 위치에서는 discrepancy의 지시 대상이 불분명하거나 후속 판단의 인과 관계가 끊깁니다.",
     "wrong_explanations": {},
     "_reviewed": false
   },
@@ -6323,7 +6323,7 @@ const QUESTION_BANK = [
       "⑤번 표시"
     ],
     "answer": 3,
-    "explanation": "③는 had relied로 고쳐야 합니다. 나머지 표시 표현은 해당 문장의 구조상 허용됩니다.",
+    "explanation": "[지문 해석]\n어떤 연구자가 버섯이 떨어진 가지에 어떻게 반응하는지를 연구했다. 초기의 견해는 ① 그럴듯해 보였지만, 그 후의 관찰은 ② 그것을 재검토할 이유를 제시했다. 만약 그 팀이 ③ 처음 가정에만 의존했다면, ④ 중요한 구별을 놓쳤을 것이다. 따라서 연구원들은 ⑤ 자신들의 판단을 수정했다.\n\n[해설]\n③는 had relied로 고쳐야 합니다. 나머지 표시 표현은 해당 문장의 구조상 허용됩니다.",
     "wrong_explanations": {},
     "_reviewed": false
   },
@@ -6340,7 +6340,7 @@ const QUESTION_BANK = [
       "⑤번 표시"
     ],
     "answer": 5,
-    "explanation": "⑤의 universal는 주변 의미와 충돌합니다. limited로 수정해야 초기 가설·반증·신중한 결론의 논리가 일관됩니다.",
+    "explanation": "[지문 해석]\n한 오케스트라가 관객들에게 좌석 구역을 이동하도록 초대했다. 비평가는 그 공연이 모든 사람에게 객관적으로 동일한 음향을 제공했다고 주장했다. 청취자들은 다양한 위치에서 악기의 다른 성부들을 감지했다. 첫 번째 해석은 아직 수집된 증거가 거의 없었기 때문에 반드시 (① 잠정적)이었다. 그 후의 관찰은 그 해석이 의존했던 기대에 (② 모순되었다). 따라서 연구자들은 무조건적인 결론보다는 (③ 제한적인) 설명을 채택했다. 그들은 새로운 증거가 조사 중인 질문과 (④ 관련)이 있는지를 검토했다. 결론은 관찰이 이루어진 조건에 (⑤ 제한)되었다.\n\n[해설]\n⑤의 universal는 주변 의미와 충돌합니다. limited로 수정해야 초기 가설·반증·신중한 결론의 논리가 일관됩니다.",
     "wrong_explanations": {},
     "_reviewed": false
   },
@@ -6357,7 +6357,7 @@ const QUESTION_BANK = [
       "⑤ why a single observation is enough to settle every possible explanation"
     ],
     "answer": 3,
-    "explanation": "초기 기대와 다른 관찰을 통해 얻은 제한적인 결론이 요지입니다. 다른 선택지는 단정적 일반화 또는 근거 없는 판단입니다.",
+    "explanation": "[지문 해석]\n어떤 교육 앱이 수업을 단축하고 선택적 과제를 추가했다. 개발자들은 하나의 표준화된 순서가 모든 학습자에게 적합할 것이라고 믿었다. 처음 해석은 눈에 띄는 특징에 초점을 맞췄기 때문에 타당해 보였다. 그러나 초급자들은 더 많은 수업을 완료했고 고급 학습자들은 더 깊이 있는 과제를 선택했다. 이것이 이전의 관찰을 쓸모없게 만들지는 않았다. 오히려 원래의 설명이 중요한 조건을 놓쳤다는 것을 드러냈다. 개인화는 기대 수준을 낮추지 않으면서도 서로 다른 학습자들을 도울 수 있다.\n\n[해설]\n초기 기대와 다른 관찰을 통해 얻은 제한적인 결론이 요지입니다. 다른 선택지는 단정적 일반화 또는 근거 없는 판단입니다.",
     "wrong_explanations": {},
     "_reviewed": false
   },
@@ -6374,7 +6374,7 @@ const QUESTION_BANK = [
       "⑤ (A)-(C)-(B)"
     ],
     "answer": 1,
-    "explanation": "최초 가정 → 후속 관찰에 의한 반증·보완 → 수정된 판단이라는 인과 순서가 필수입니다. 따라서 (B)-(A)-(C)입니다.",
+    "explanation": "[지문 해석]\n한 연구자가 인접한 거리들의 도시 기온을 측정했다.\n\n(B) 추가 조사 전에 관계자들은 먼 지역의 관측소에서 얻은 평균 기온에만 의존했다. 이는 이 프로젝트에 명확하지만 불완전한 출발점을 제공했다.\n\n(A) 그 후 수집된 증거는 그러한 예상을 복잡하게 만들었다. 나무의 그림자는 도시 전역의 평균이 감추고 있던 뚜렷한 차이를 드러냈다. 초기 설명은 더 이상 전체 패턴을 설명할 수 없었다.\n\n(C) 이에 연구자들은 더 신중한 추론을 채택했다. 지역의 상황은 전체 통계와 크게 다를 수 있다. 그들은 또한 어떤 추가 관찰이 필요할지를 파악했다.\n\n[해설]\n최초 가정 → 후속 관찰에 의한 반증·보완 → 수정된 판단이라는 인과 순서가 필수입니다. 따라서 (B)-(A)-(C)입니다.",
     "wrong_explanations": {},
     "_reviewed": false
   },
@@ -6391,7 +6391,7 @@ const QUESTION_BANK = [
       "⑤ To invite committee members to an unrelated public celebration"
     ],
     "answer": 1,
-    "explanation": "편지의 핵심 요청은 기존 평가에 후속 관찰을 반영하고 초기 결론의 한계를 명시해 달라는 것입니다.",
+    "explanation": "[지문 해석]\n검토 위원회 귀중,\n\n한 해양 생물학자가 오래된 인공 암초와 새로운 인공 암초 근처의 어류 개체수를 비교했습니다. 한 보고서는 서식지 복원의 증거로 방문하는 모든 물고기를 계산했습니다. 실제로 새로운 암초는 물고기를 빠르게 유인했지만 번식을 즉시 뒷받침하지는 못했습니다. 저는 원래 프로젝트를 무시해 달라고 요청하는 것이 아닙니다. 그 평가가 추가 증거를 포함하고 초기 결론의 한계를 명시할 것을 요청하고 있습니다. 이 변경 없이는 다음 자금 결정이 프로젝트의 실제 성과가 아닌 불완전한 지표에 보상을 할 수 있습니다.\n\n진심으로,\n프로젝트 참여자\n\n[해설]\n편지의 핵심 요청은 기존 평가에 후속 관찰을 반영하고 초기 결론의 한계를 명시해 달라는 것입니다.",
     "wrong_explanations": {},
     "_reviewed": false
   },
@@ -6408,7 +6408,7 @@ const QUESTION_BANK = [
       "⑤ from confidence to reflective curiosity"
     ],
     "answer": 5,
-    "explanation": "초기의 confident/reassured와 후반의 reconsider, willing to investigate가 대비되므로 확신에서 성찰적 탐구로의 변화입니다.",
+    "explanation": "[지문 해석]\n처음에 나는 겉으로 명확해 보이는 설명에 안심했다. 한 통설에 따르면 기술이 단순히 가사 노동을 없애버렸다고 가정했다. 한 역사학자가 가정용 전자제품 광고를 살펴보았다. 제조업체들이 노동을 절약한다고 설명했지만 실제로는 그 일을 다른 가족 구성원에게 옮겨놓았을 뿐이라는 것을 알게 되자, 내 확신이 흔들렸다. 나는 내 예상을 뒷받침하는 결과만 봤을 때 내가 얼마나 놓쳤는지 궁금해졌다. 내 판단을 다시 생각해 보았다. 결국 모든 세부 사항에 대해 여전히 확신할 수 없었지만, 처음 인상을 지키려기보다는 조사해 보려는 마음이 더 생겼다.\n\n[해설]\n초기의 confident/reassured와 후반의 reconsider, willing to investigate가 대비되므로 확신에서 성찰적 탐구로의 변화입니다.",
     "wrong_explanations": {},
     "_reviewed": false
   },
@@ -6425,7 +6425,7 @@ const QUESTION_BANK = [
       "⑤ If evidence is mixed, decision-makers should avoid weighing the competing explanations at all."
     ],
     "answer": 4,
-    "explanation": "필자는 초기 판단을 그대로 유지하기보다 관찰의 조건과 반례를 반영해 결론을 조정해야 한다고 주장합니다.",
+    "explanation": "[지문 해석]\n한 교통 계획가가 심야 버스 이용객들을 조사했다. 예산 회의에서는 모든 노선을 시간당 승객 수로만 평가했다. 그러나 소수의 신뢰할 수 있는 서비스는 교대 근무자들에게 매우 중요했다. 공공의 가치는 서비스를 이용하는 사람이 누구인지에 따라 결정될 수 있으며, 단순히 이용 규모에만 좌우되는 것이 아니다.\n\n[해설]\n필자는 초기 판단을 그대로 유지하기보다 관찰의 조건과 반례를 반영해 결론을 조정해야 한다고 주장합니다.",
     "wrong_explanations": {},
     "_reviewed": false
   },
@@ -6442,7 +6442,7 @@ const QUESTION_BANK = [
       "⑤ Why a Single Indicator Is Sufficient for Every Decision"
     ],
     "answer": 2,
-    "explanation": "초기 설명과 후속 관찰의 불일치를 통해 더 정교한 판단으로 옮겨가는 글 전체를 포괄합니다.",
+    "explanation": "[지문 해석]\n한 연구자가 서로 다른 재질의 지붕에서 모은 빗물을 수집했다. 한 지역사회 캠페인은 수집된 양을 안전한 식수와 동일시했다. 처음에는 그러한 주장이 매력적으로 보였다. 추가적인 한정 없이 전달할 수 있는 단순한 설명을 제시했기 때문이다. 실제로 일부 지붕은 많은 양을 수집했음에도 불구하고 오염 물질을 방출했다. 그 결과는 유용한 단서를 제공하지만, 모든 조건에서 동일한 메커니즘이 작동할 것임을 입증하지는 못한다. 수량과 안전성은 자원의 분리된 측면이다. 더 강한 추론은 의도적으로 제한적이다. 관찰된 대비를 설명하면서도 모든 불확실성이 사라졌다고 가정하지 않는다. 이 결론은 처음 가정과 동일하지 않다. 이후의 관찰과 원래 측정의 한계를 고려해야 한다. 특히 새로운 증거는 초기 주장이 모든 상상 가능한 상황에서 잘못되었음을 증명하지 않으면서도 해석을 바꿀 정당성을 제공할 수 있다. 따라서 선호되는 해석은 초기 기대와 그것을 복잡하게 만드는 증거를 모두 설명해야 하면서도, 단일 사례가 보편적 규칙을 수립한다고 가정해서는 안 된다.\n\n[해설]\n초기 설명과 후속 관찰의 불일치를 통해 더 정교한 판단으로 옮겨가는 글 전체를 포괄합니다.",
     "wrong_explanations": {},
     "_reviewed": false
   },
@@ -6459,7 +6459,7 @@ const QUESTION_BANK = [
       "⑤번 문장"
     ],
     "answer": 2,
-    "explanation": "나머지 네 문장은 동일한 연구·관찰의 초기 가정과 결과, 수정된 결론을 연결하지만 해당 문장은 다른 주제로 전환되어 논리적 연속성이 없습니다.",
+    "explanation": "[지문 해석]\n① 한 연극 감독이 다양한 조명으로 같은 장면을 리허설했다. ② 기상 위성들은 대기권 위의 궤도에서 이미지를 수집한다. ③ 무대 디자이너는 조명이 단지 물체를 보이게 할 뿐이라고 생각했다. ④ 배우들은 어두워진 영역이 관객의 주의를 다른 곳으로 돌린다는 것을 깨달았다. ⑤ 제시 조건은 내용을 단순히 드러내기보다는 해석을 형성할 수 있다.\n\n[해설]\n나머지 네 문장은 동일한 연구·관찰의 초기 가정과 결과, 수정된 결론을 연결하지만 해당 문장은 다른 주제로 전환되어 논리적 연속성이 없습니다.",
     "wrong_explanations": {},
     "_reviewed": false
   },
@@ -6476,7 +6476,7 @@ const QUESTION_BANK = [
       "⑤ unrelated — absolute"
     ],
     "answer": 1,
-    "explanation": "초기 가정은 처음에는 지지를 받았지만 후속 관찰 때문에 해석에 조건과 한계를 명시해야 했으므로 supported — qualified가 가장 적절합니다.",
+    "explanation": "[지문 해석]\n한 도서관이 자동 추천 시스템과 인간이 선별한 목록을 비교했다. 어느 시스템도 모든 유용한 연결고리를 포착하지 못했다. 처음에는 이 설명이 매력적으로 보였다. 더 이상의 설명 없이도 간단히 전달될 수 있는 설명을 제시했기 때문이다. 실제로 알고리즘은 빈번한 대출을 반영했고 사서들은 간과된 주제들을 드러냈다. 초기 예측도 나중의 측정도 의미 없는 것은 아니다. 실수는 둘 중 하나를 완전한 설명과 혼동하는 데 있다. 선택 방식이 서로 다른 편향을 이해할 때 상호 보완될 수 있다. 과제는 관찰을 그것을 타당하게 만들어낼 수 있는 과정과 연결하는 것이다. 이 결론은 처음의 가정과 동일하지 않다. 나중의 관찰과 원래 측정값의 한계를 설명해야 한다. 특히 새로운 증거는 초기 설명이 어떤 상황에서든 잘못되었다는 것을 증명하지 않으면서도 해석을 바꿀 정당성을 제공할 수 있다. 따라서 선호되는 해석은 초기의 예상과 그것을 복잡하게 하는 증거를 모두 설명해야 하며, 단 하나의 사례가 보편적 규칙을 입증한다고 주장해서는 안 된다.\n\n[해설]\n초기 가정은 처음에는 지지를 받았지만 후속 관찰 때문에 해석에 조건과 한계를 명시해야 했으므로 supported — qualified가 가장 적절합니다.",
     "wrong_explanations": {},
     "_reviewed": false
   },
@@ -6493,7 +6493,7 @@ const QUESTION_BANK = [
       "⑤ environmental systems can show delayed consequences after an intervention"
     ],
     "answer": 5,
-    "explanation": "기초 관찰: Sediment moved downstream slowly even after the flow rate returned to normal. 초기 해석: Observers expected the riverbed to recover immediately. 따라서 Environmental systems can show delayed consequences after an intervention. 다만 단일 사례가 모든 상황으로 일반화되는 것은 아닙니다.",
+    "explanation": "[지문 해석]\n어느 강 과학자가 댐이 물을 방출한 후의 변화를 조사했다. 관찰자들은 하천 바닥이 즉시 회복될 것으로 예상했다. 그러나 새로운 증거는 원래의 해석보다 더 많은 정보를 제공했다. 유속이 정상으로 돌아온 후에도 퇴적물은 천천히 하류로 계속 이동했던 것이다. 어려운 점은 앞의 해석의 타당성과 이후 관찰을 설명하지 못한 점을 모두 설명해야 한다는 것이다. 그 증거는 다음의 결론과 가장 일치한다. __________. 타당한 선택은 국소적 발견을 보편적 규칙으로 전환하지 않으면서 그 대조를 설명해야 한다.\n\n[해설]\n기초 관찰: Sediment moved downstream slowly even after the flow rate returned to normal. 초기 해석: Observers expected the riverbed to recover immediately. 따라서 Environmental systems can show delayed consequences after an intervention. 다만 단일 사례가 모든 상황으로 일반화되는 것은 아닙니다.",
     "wrong_explanations": {},
     "_reviewed": false
   },
@@ -6510,7 +6510,7 @@ const QUESTION_BANK = [
       "⑤번 위치"
     ],
     "answer": 5,
-    "explanation": "초기 해석과 상반되는 관찰이 나온 직후에 This discrepancy가 연결됩니다. 다른 위치에서는 discrepancy의 지시 대상이 불분명하거나 후속 판단의 인과 관계가 끊깁니다.",
+    "explanation": "[지문 해석]\n그 프로젝트는 처음에는 간단해 보이는 설명을 검증하기 위해 설계되었다. (①) 한 인류학자가 매년 열리는 지역 요리 축제를 기록했다. (②) 주최자들은 어떤 변화든 진정성을 훼손한다고 주장했다. (③) 그 초기 기록은 이후 관찰의 설계에 영향을 미쳤다. (④) 젊은 주민들이 새로운 재료에 맞게 레시피를 변경하면서 요리법이 바뀌었다. (⑤)\n\n[해설]\n초기 해석과 상반되는 관찰이 나온 직후에 This discrepancy가 연결됩니다. 다른 위치에서는 discrepancy의 지시 대상이 불분명하거나 후속 판단의 인과 관계가 끊깁니다.",
     "wrong_explanations": {},
     "_reviewed": false
   },
@@ -6527,7 +6527,7 @@ const QUESTION_BANK = [
       "⑤번 표시"
     ],
     "answer": 5,
-    "explanation": "⑤는 cautious로 고쳐야 합니다. 나머지 표시 표현은 해당 문장의 구조상 허용됩니다.",
+    "explanation": "[지문 해석]\n한 학교가 조용한 공간이 학습에 미치는 영향을 측정했다. 그 팀은 증거를 ① 신중하게 검토했고 ② 원래의 결론이 여전히 타당한지를 물었다. 그들의 목적은 이전의 설명을 ③ 배척하는 것이 아니라 ④ 그 한계를 파악하는 것이었다. 그 결과로 나온 설명은 처음 것보다 훨씬 더 ⑤ 신중했다.\n\n[해설]\n⑤는 cautious로 고쳐야 합니다. 나머지 표시 표현은 해당 문장의 구조상 허용됩니다.",
     "wrong_explanations": {},
     "_reviewed": false
   },
@@ -6544,7 +6544,7 @@ const QUESTION_BANK = [
       "⑤번 표시"
     ],
     "answer": 3,
-    "explanation": "③의 absolute는 주변 의미와 충돌합니다. qualified로 수정해야 초기 가설·반증·신중한 결론의 논리가 일관됩니다.",
+    "explanation": "[지문 해석]\n한 임상 연구원이 자가 보고된 피로감과 활동 기록을 비교했다. 한 팀은 신체 활동이 웰빙을 완전히 포착할 수 있다고 가정했다. 이 측정값들은 정서적 스트레스가 있는 날에 가장 크게 달랐다. 아직 수집된 증거가 많지 않았기 때문에 첫 번째 해석은 반드시 (① tentative)할 수밖에 없었다. 이후의 관찰은 그 해석이 의존하던 기대치를 (② contradicted). 결과적으로 연구원들은 무조건적인 판단이 아닌 (③ absolute)한 설명을 채택했다. 그들은 새로운 증거가 조사 대상인 질문과 (④ relevant)한지 검토했다. 결론은 관찰이 이루어진 조건들로만 (⑤ limited)되었다.\n\n[해설]\n③의 absolute는 주변 의미와 충돌합니다. qualified로 수정해야 초기 가설·반증·신중한 결론의 논리가 일관됩니다.",
     "wrong_explanations": {},
     "_reviewed": false
   },
@@ -6561,7 +6561,7 @@ const QUESTION_BANK = [
       "⑤ the claim that competing explanations cannot be evaluated with evidence"
     ],
     "answer": 4,
-    "explanation": "초기 기대와 다른 관찰을 통해 얻은 제한적인 결론이 요지입니다. 다른 선택지는 단정적 일반화 또는 근거 없는 판단입니다.",
+    "explanation": "[지문 해석]\n어떤 도시가 학교로 가는 안전한 경로를 포장도로에 그려 표시했다. 처음 프로젝트는 페인트칠과 표지판에만 초점을 맞췄다. 하지만 횡단보도에 감시자가 있고 부모들이 지도를 이해했을 때 아이들이 더 많이 이용했다. 인프라는 물리적 설계와 사회적 관행이 서로를 강화할 때 제대로 작동한다.\n\n[해설]\n초기 기대와 다른 관찰을 통해 얻은 제한적인 결론이 요지입니다. 다른 선택지는 단정적 일반화 또는 근거 없는 판단입니다.",
     "wrong_explanations": {},
     "_reviewed": false
   },
@@ -6578,7 +6578,7 @@ const QUESTION_BANK = [
       "⑤ (B)-(A)-(C)"
     ],
     "answer": 1,
-    "explanation": "최초 가정 → 후속 관찰에 의한 반증·보완 → 수정된 판단이라는 인과 순서가 필수입니다. 따라서 (C)-(B)-(A)입니다.",
+    "explanation": "[지문 해석]\n한 역사가가 취소된 원정대의 이야기를 재구성했다.\n\n(C) 더 자세한 조사를 하기 전에, 나중의 회고록에서는 한 사람을 실패의 책임자로 지목했다. 이것은 이 프로젝트에 명확하지만 불완전한 시작점을 제공했다.\n\n(B) 그 후의 증거들은 그러한 예상을 복잡하게 만들었다: 편지들은 단 하나의 극적인 분쟁이 아니라 실질적인 지연들이 그 결정을 야기했음을 보여주었다. 초기의 설명은 더 이상 전체 양상을 설명할 수 없었다.\n\n(A) 이에 대응하여, 조사자들은 더욱 신중한 추론을 채택했다. 단순한 서술은 일상적인 원인들의 누적을 가릴 수 있다. 그들은 또한 어떤 추가적인 관찰이 필요할 것인지를 파악했다.\n\n[해설]\n최초 가정 → 후속 관찰에 의한 반증·보완 → 수정된 판단이라는 인과 순서가 필수입니다. 따라서 (C)-(B)-(A)입니다.",
     "wrong_explanations": {},
     "_reviewed": false
   },
@@ -6595,7 +6595,7 @@ const QUESTION_BANK = [
       "⑤ To request a reassessment that accounts for conflicting evidence"
     ],
     "answer": 5,
-    "explanation": "편지의 핵심 요청은 기존 평가에 후속 관찰을 반영하고 초기 결론의 한계를 명시해 달라는 것입니다.",
+    "explanation": "[지문 해석]\n검토 위원회 귀중,\n\n한 화학자가 생분해성 컵이 가정에서 느리게 분해되는 이유를 연구했습니다. 마케팅팀은 생분해성을 무조건적인 특성으로 홍보했습니다. 사실 이 재료는 통제된 산업 환경에서만 빠르게 분해되었습니다. 저는 원래 프로젝트를 배제해 달라고 요청하는 것이 아닙니다. 다만 평가에 추가 증거를 포함시키고 초기 결론의 한계를 명시적으로 명시해 줄 것을 요청합니다. 이러한 재검토는 평가를 더욱 공정하게 만들 것입니다.\n\n감사합니다,\n프로젝트 참여자 일동\n\n[해설]\n편지의 핵심 요청은 기존 평가에 후속 관찰을 반영하고 초기 결론의 한계를 명시해 달라는 것입니다.",
     "wrong_explanations": {},
     "_reviewed": false
   },
@@ -6612,7 +6612,7 @@ const QUESTION_BANK = [
       "⑤ from disappointment to certainty that all questions are settled"
     ],
     "answer": 2,
-    "explanation": "초기의 confident/reassured와 후반의 reconsider, willing to investigate가 대비되므로 확신에서 성찰적 탐구로의 변화입니다.",
+    "explanation": "[지문 해석]\n처음에는 그럴듯해 보이는 설명에 안심했다. 원본 사진은 모든 것을 동등하게 보여준다고 가정되었다. 어떤 사진작가가 거리 풍경에서 방해가 되는 광고들을 제거했다. 시청자들이 갑자기 반복되는 건축물과 방치된 상점들을 주목하게 되었다는 것을 알게 되자, 나의 확신은 흔들렸다. 내 예상을 뒷받침하는 결과에만 집중함으로써 내가 얼마나 많은 것을 놓쳤을지 궁금해졌다. 나는 내 판단을 다시 생각해보았다. 결국 모든 세부 사항에 대해 여전히 확실하지 않았지만, 내 첫인상을 옹호하기보다는 더 깊이 살펴보고 싶은 마음이 생겼다.\n\n[해설]\n초기의 confident/reassured와 후반의 reconsider, willing to investigate가 대비되므로 확신에서 성찰적 탐구로의 변화입니다.",
     "wrong_explanations": {},
     "_reviewed": false
   },
@@ -6629,7 +6629,7 @@ const QUESTION_BANK = [
       "⑤ Decisions should reflect this insight: coordination can reveal structure hidden within isolated measurements."
     ],
     "answer": 5,
-    "explanation": "필자는 초기 판단을 그대로 유지하기보다 관찰의 조건과 반례를 반영해 결론을 조정해야 한다고 주장합니다.",
+    "explanation": "[지문 해석]\n한 지질학자가 화산 근처의 미세한 진동을 지도화했다. 한 관측소의 데이터는 무관한 노이즈처럼 보였다. 처음에는 이러한 설명이 매력적으로 보였다. 추가 검토 없이 전달할 수 있는 단순한 설명을 제시했기 때문이다. 실제로는 여러 센서를 동기화한 후에야 패턴이 드러났다. 초기 설명은 익숙한 성공의 척도에 호소했지만, 그 척도는 누가 또는 무엇이 관찰에서 제외되었는지 무시했다. 조율을 통해 고립된 측정치 속에 숨겨진 구조를 드러낼 수 있다. 더 나은 판단을 위해서는 증거가 직접적으로 입증하는 것과 누군가가 주장하길 원하는 더 큰 주장을 구분해야 한다. 이 결론은 초기 가정과 동일하지 않으며, 나중의 관찰과 원래 척도의 한계를 고려해야 한다. 특히 새로운 증거는 이전의 설명이 모든 상황에서 틀렸음을 증명하지 않으면서도 해석을 바꾸는 것을 정당화할 수 있다. 따라서 선호하는 해석은 초기의 예상과 이를 복잡하게 하는 증거를 모두 설명해야 하며, 단 하나의 사례가 보편적인 규칙을 입증한다고 가정해서는 안 된다.\n\n[해설]\n필자는 초기 판단을 그대로 유지하기보다 관찰의 조건과 반례를 반영해 결론을 조정해야 한다고 주장합니다.",
     "wrong_explanations": {},
     "_reviewed": false
   },
@@ -6646,7 +6646,7 @@ const QUESTION_BANK = [
       "⑤ Beyond the First Explanation: Practical interventions can improve averages while leaving access gaps"
     ],
     "answer": 5,
-    "explanation": "초기 설명과 후속 관찰의 불일치를 통해 더 정교한 판단으로 옮겨가는 글 전체를 포괄합니다.",
+    "explanation": "[지문 해석]\n한 사회복지사가 지역사회 약속에 대한 알림 메시지를 테스트했다. 그 기관은 평균 참석률의 증가를 보고했다. 처음 해석은 쉽게 눈에 띄는 특징에 초점을 맞췄기 때문에 그럴듯해 보였다. 하지만 메시지는 신뢰할 수 있는 휴대폰을 소유한 참석자들을 도왔으나 기기를 함께 사용하는 사람들은 놓쳤다. 이것이 이전의 관찰을 무의미하게 만들지는 않았다. 오히려 원래의 설명이 중요한 조건을 간과했음을 드러냈다. 실질적인 개입은 접근성 격차를 남겨두면서도 평균을 개선할 수 있다.\n\n[해설]\n초기 설명과 후속 관찰의 불일치를 통해 더 정교한 판단으로 옮겨가는 글 전체를 포괄합니다.",
     "wrong_explanations": {},
     "_reviewed": false
   },
@@ -6663,7 +6663,7 @@ const QUESTION_BANK = [
       "⑤번 문장"
     ],
     "answer": 4,
-    "explanation": "나머지 네 문장은 동일한 연구·관찰의 초기 가정과 결과, 수정된 결론을 연결하지만 해당 문장은 다른 주제로 전환되어 논리적 연속성이 없습니다.",
+    "explanation": "[지문 해석]\n①한 과학자가 화재 이후 숲이 어떻게 회복되는지를 조사했다. ②한 방문객은 모든 화재로 소실된 지역을 영구적으로 파괴된 것으로 취급했다. ③일부 식물은 열이 종자껍질을 열었을 때만 발아했다. ④프로 미식축구 리그는 시즌이 시작되기 전에 일정표를 공개한다. ⑤환경 변동은 때때로 적응된 생태계 내에서 재생을 촉발할 수 있다.\n\n[해설]\n나머지 네 문장은 동일한 연구·관찰의 초기 가정과 결과, 수정된 결론을 연결하지만 해당 문장은 다른 주제로 전환되어 논리적 연속성이 없습니다.",
     "wrong_explanations": {},
     "_reviewed": false
   },
@@ -6680,7 +6680,7 @@ const QUESTION_BANK = [
       "⑤ supported — unconditional"
     ],
     "answer": 2,
-    "explanation": "초기 가정은 처음에는 지지를 받았지만 후속 관찰 때문에 해석에 조건과 한계를 명시해야 했으므로 supported — qualified가 가장 적절합니다.",
+    "explanation": "[지문 해석]\n대중교통 당국이 승객들에게 불편한 환승에 대해 보고해 달라고 요청했다. 계획자들은 단계 수를 줄이는 것에만 집중했다. 초기 해석은 쉽게 눈에 띄는 특징에 초점을 맞췄기 때문에 그럴듯해 보였다. 하지만 가장 빈번한 불만은 보행 거리보다는 불확실성에 관한 것이었다. 이것이 앞서의 관찰을 쓸모없게 만들지는 않았다. 그것은 원래의 설명이 중요한 조건을 놓쳤다는 것을 드러냈다. 불확실성을 줄이는 것은 여행 거리를 단축하지 않고도 여행 경험을 개선할 수 있다.\n\n[해설]\n초기 가정은 처음에는 지지를 받았지만 후속 관찰 때문에 해석에 조건과 한계를 명시해야 했으므로 supported — qualified가 가장 적절합니다.",
     "wrong_explanations": {},
     "_reviewed": false
   },
@@ -6697,7 +6697,7 @@ const QUESTION_BANK = [
       "⑤ justice sometimes requires examining the purpose behind a rule"
     ],
     "answer": 5,
-    "explanation": "기초 관찰: A strict rule produced fairness in common situations but harm in rare circumstances. 초기 해석: A committee assumed consistency always required refusing exceptions. 따라서 Justice sometimes requires examining the purpose behind a rule. 다만 단일 사례가 모든 상황으로 일반화되는 것은 아닙니다.",
+    "explanation": "[지문 해석]\n한 철학자가 일상적인 경우와 예외적인 경우를 위해 설계된 규칙들을 비교했다. 한 위원회는 일관성이 항상 예외를 거부하는 것을 요구한다고 가정했다. 그러나 새로운 증거는 원래의 분류보다 더 정보를 담고 있었다: 엄격한 규칙은 흔한 상황에서는 공정성을 만들어내지만 드문 상황에서는 해를 끼친다. 어려움은 초기 해석의 매력과 그것이 나중의 관찰을 설명하지 못하는 실패를 모두 설명하는 데 있다. 증거는 __________라는 결론과 가장 일치한다. 방어 가능한 선택은 국소적 발견을 보편적 규칙으로 전환하지 않으면서 그 대조를 설명해야 한다.\n\n[해설]\n기초 관찰: A strict rule produced fairness in common situations but harm in rare circumstances. 초기 해석: A committee assumed consistency always required refusing exceptions. 따라서 Justice sometimes requires examining the purpose behind a rule. 다만 단일 사례가 모든 상황으로 일반화되는 것은 아닙니다.",
     "wrong_explanations": {},
     "_reviewed": false
   },
@@ -6714,7 +6714,7 @@ const QUESTION_BANK = [
       "⑤번 위치"
     ],
     "answer": 1,
-    "explanation": "초기 해석과 상반되는 관찰이 나온 직후에 This discrepancy가 연결됩니다. 다른 위치에서는 discrepancy의 지시 대상이 불분명하거나 후속 판단의 인과 관계가 끊깁니다.",
+    "explanation": "[지문 해석]\n한 연구자가 팀을 이루어 낯선 퍼즐을 푸는 엔지니어들을 관찰했다. 한 관리자는 아이디어가 완성될 때까지 제안을 금지했다. 그러나 미완성된 아이디어를 일찍 공유한 팀이 다듬어진 해결책을 기다린 팀보다 더 빠르게 진전했다. (①) 미완성된 사고를 허용하는 것이 집단의 문제 해결 속도를 높일 수 있다. (②) 그 팀은 다른 검증 방법을 고려했다. (③) 그 보고서는 이 발견의 한계를 강조했다. (④) 추가 관찰이 권장되었다. (⑤)\n\n[해설]\n초기 해석과 상반되는 관찰이 나온 직후에 This discrepancy가 연결됩니다. 다른 위치에서는 discrepancy의 지시 대상이 불분명하거나 후속 판단의 인과 관계가 끊깁니다.",
     "wrong_explanations": {},
     "_reviewed": false
   },
@@ -6731,7 +6731,7 @@ const QUESTION_BANK = [
       "⑤번 표시"
     ],
     "answer": 2,
-    "explanation": "②는 whose로 고쳐야 합니다. 나머지 표시 표현은 해당 문장의 구조상 허용됩니다.",
+    "explanation": "[지문 해석]\n한 양봉가가 여러 계곡에 걸쳐 개화 시기를 기록했다. 그 결과는 원래의 가정을 어떻게 평가해야 하는지에 대한 의문을 제기했다. 이전의 주장이 영향력이 있었던 연구자들은 ① about 이를 수정할 의향이 있었다. 그들은 ④ that 그 관찰이 모든 환경에서 ⑤ would occur 결과가 나타날 것이라는 점을 증명하지 못했음을 인정했다. 그들은 ② whom 이전의 설명이 영향력 있었던 연구자들이 ③ to revise 이를 수정하려고 했다.\n\n정정본:\n\n한 양봉가가 여러 계곡에 걸쳐 개화 시기를 기록했다. 그 결과는 원래의 가정을 어떻게 평가해야 하는지에 대한 의문을 제기했다. 이전의 주장이 영향력이 있었던 연구자들은 ① about 이를 수정할 의향이 있었다. 그들은 ④ that 그 관찰이 모든 환경에서 ⑤ would occur 결과가 나타날 것임을 증명하지 못했음을 인정했다.\n\n한 양봉가가 여러 계곡에 걸쳐 개화 시기를 기록했다. 그 결과는 원래의 가정을 어떻게 평가해야 하는지에 대한 의문을 제기했다. 이전에 영향력 있던 주장을 한 연구자들은 ① about 이를 수정할 의향이 있었다. 그들은 ④ that 그 관찰 결과가 모든 환경에서 ⑤ would occur 나타날 것임을 증명하지 못했다는 점을 인정했다\n\n[해설]\n②는 whose로 고쳐야 합니다. 나머지 표시 표현은 해당 문장의 구조상 허용됩니다.",
     "wrong_explanations": {},
     "_reviewed": false
   },
@@ -6748,7 +6748,7 @@ const QUESTION_BANK = [
       "⑤번 표시"
     ],
     "answer": 1,
-    "explanation": "①의 certain는 주변 의미와 충돌합니다. tentative로 수정해야 초기 가설·반증·신중한 결론의 논리가 일관됩니다.",
+    "explanation": "[지문 해석]\n한 미술사학자가 공공 동상의 긁힌 자국들을 조사했다. 복원 전문가들은 광택 처리가 대중의 사용 흔적을 없앨 것인지에 대해 논쟁했다. 일부 자국들은 수백 년에 걸쳐 방문객들이 동상 표면을 만지면서 생긴 것이었다. 아직 충분한 증거가 수집되지 않았기 때문에 처음 해석은 필연적으로 (① certain) 했다. 나중의 관찰은 그 해석이 의존했던 예상을 (② contradicted) 했다. 결과적으로 연구자들은 무조건적인 판단보다는 (③ qualified) 한 설명을 채택했다. 그들은 새로운 증거가 조사 대상 질문과 (④ relevant) 한지 검토했다. 결론은 관찰이 이루어진 조건들로 (⑤ limited) 되었다.\n\n[해설]\n①의 certain는 주변 의미와 충돌합니다. tentative로 수정해야 초기 가설·반증·신중한 결론의 논리가 일관됩니다.",
     "wrong_explanations": {},
     "_reviewed": false
   },
@@ -6765,7 +6765,7 @@ const QUESTION_BANK = [
       "⑤ the claim that competing explanations cannot be evaluated with evidence"
     ],
     "answer": 2,
-    "explanation": "초기 기대와 다른 관찰을 통해 얻은 제한적인 결론이 요지입니다. 다른 선택지는 단정적 일반화 또는 근거 없는 판단입니다.",
+    "explanation": "[지문 해석]\n한 도시가 공유 화물 자전거 프로그램을 시범적으로 운영했다. 스폰서들은 전체 대여 증가를 완전한 성공으로 제시했다. 처음에는 그러한 설명이 매력적으로 보였다. 왜냐하면 더 이상의 한정 없이 전달할 수 있는 단순한 설명을 제공했기 때문이다. 실제로 가족들은 자전거를 심부름에 사용했지만, 가파른 언덕에 사는 사용자들은 참여도가 낮았다. 초기 설명은 친숙한 성공 척도에 호소했지만, 그러한 척도는 관찰에서 누가 또는 무엇이 제외되었는지를 무시했다. 프로그램 평가는 집계 합계로 숨겨진 지리적 장벽을 고려해야 한다. 더 나은 판단을 위해서는 증거가 직접 입증하는 것과 누군가 주장하길 원하는 더 큰 주장을 구분해야 한다. 이 결론은 처음 가정과 동일하지 않다. 나중의 관찰과 원래 척도의 한계를 고려해야 한다. 특히 새로운 증거는 이전 설명이 모든 상황에서 틀렸다는 것을 증명하지 않으면서도 해석을 바꿀 정당한 이유를 제공할 수 있다. 따라서 선호되는 해석은 초기 기대와 이를 복잡하게 만드는 증거를 모두 설명해야 하며, 단 하나의 사례가 보편적 원칙을 확립한다고 주장해서는 안 된다.\n\n[해설]\n초기 기대와 다른 관찰을 통해 얻은 제한적인 결론이 요지입니다. 다른 선택지는 단정적 일반화 또는 근거 없는 판단입니다.",
     "wrong_explanations": {},
     "_reviewed": false
   },
@@ -6782,7 +6782,7 @@ const QUESTION_BANK = [
       "⑤ (B)-(C)-(A)"
     ],
     "answer": 3,
-    "explanation": "최초 가정 → 후속 관찰에 의한 반증·보완 → 수정된 판단이라는 인과 순서가 필수입니다. 따라서 (C)-(B)-(A)입니다.",
+    "explanation": "[지문 해석]\n한 언어학자는 이야기를 할 때 화자들이 어떻게 침묵을 활용하는지 연구했다.\n\n(A) 이에 따라 연구자들은 더욱 신중한 해석을 채택했다. 소음처럼 보이는 특징들도 의사소통 정보를 담고 있을 수 있다는 것이다. 그들은 또한 어떤 추가 관찰이 필요할 것인지도 파악했다.\n\n(B) 후속 증거는 그러한 예상을 복잡하게 만들었다. 긴 침묵은 기억 실패보다는 의미 있는 대비 앞에서 자주 나타났던 것이다. 초기의 설명으로는 더 이상 전체 패턴을 설명할 수 없었다.\n\n(C) 추가 조사에 앞서, 자동 필사 시스템이 모든 침묵을 제거했다. 이는 프로젝트에 명확하지만 불완전한 출발점을 제공했다.\n\n[해설]\n최초 가정 → 후속 관찰에 의한 반증·보완 → 수정된 판단이라는 인과 순서가 필수입니다. 따라서 (C)-(B)-(A)입니다.",
     "wrong_explanations": {},
     "_reviewed": false
   },
@@ -6799,7 +6799,7 @@ const QUESTION_BANK = [
       "⑤ To invite committee members to an unrelated public celebration"
     ],
     "answer": 1,
-    "explanation": "편지의 핵심 요청은 기존 평가에 후속 관찰을 반영하고 초기 결론의 한계를 명시해 달라는 것입니다.",
+    "explanation": "[지문 해석]\n검토 위원회 귀중,\n\n야생동물 팀이 새 도로 아래에 터널을 건설했습니다. 엔지니어들은 처음에 설치된 터널의 개수로 성공 여부를 판단했습니다. 그런데 실제로 많은 동물들은 터널 입구 주변에 식생이 자란 후에야 터널을 이용했습니다. 저는 원래 프로젝트를 폐기할 것을 요청하는 것이 아닙니다. 다만 그 평가에 추가적인 증거를 포함시키고 초기 결론의 한계를 명확히 명시해 줄 것을 요청합니다. 이러한 재검토가 이루어진다면 평가가 더욱 공정할 것입니다.\n\n감사합니다,\n프로젝트 참여자 일동\n\n[해설]\n편지의 핵심 요청은 기존 평가에 후속 관찰을 반영하고 초기 결론의 한계를 명시해 달라는 것입니다.",
     "wrong_explanations": {},
     "_reviewed": false
   },
@@ -6816,7 +6816,7 @@ const QUESTION_BANK = [
       "⑤ from curiosity to indifference about the investigation"
     ],
     "answer": 1,
-    "explanation": "초기의 confident/reassured와 후반의 reconsider, willing to investigate가 대비되므로 확신에서 성찰적 탐구로의 변화입니다.",
+    "explanation": "[지문 해석]\n처음에는 겉으로 보기에 단순명료한 설명에 안심했다. 그 클리닉은 모든 정보를 간단한 아이콘으로 표시하길 원했다. 한 의사가 백분율만 사용하는 것이 아니라 그림으로 검사 결과를 설명했다. 환자들이 상대적 변화는 더 잘 이해하지만 때로는 불확실성 범위를 간과한다는 것을 알게 되면서 내 확신이 흔들렸다. 내 예상을 뒷받침하는 결과에만 집중함으로써 얼마나 많은 것을 놓쳤을까 하는 생각이 들었다. 나는 내 판단을 다시 생각해 보았다. 결국 모든 세부사항에 대해 여전히 확실하지 않았지만, 내 첫인상을 지키려 하기보다는 더 깊이 있게 살펴보려는 의향이 생겼다.\n\n[해설]\n초기의 confident/reassured와 후반의 reconsider, willing to investigate가 대비되므로 확신에서 성찰적 탐구로의 변화입니다.",
     "wrong_explanations": {},
     "_reviewed": false
   },
@@ -6833,7 +6833,7 @@ const QUESTION_BANK = [
       "⑤ If evidence is mixed, decision-makers should avoid weighing the competing explanations at all."
     ],
     "answer": 2,
-    "explanation": "필자는 초기 판단을 그대로 유지하기보다 관찰의 조건과 반례를 반영해 결론을 조정해야 한다고 주장합니다.",
+    "explanation": "[지문 해석]\n한 도시가 지하 수도관의 종이 지도를 디지털화했다. 관리자들은 디지털화가 자동으로 정확성을 향상시킬 것이라고 가정했다. 처음에는 그 설명이 매력적으로 보였다. 추가 설명 없이 전달할 수 있는 간단한 설명을 제시했기 때문이다. 실제로 지도는 검색 가능하게 되었지만 많은 오래된 위치 정보는 여전히 대략적인 상태로 남아 있었다. 두 관찰자가 동일한 사실을 받아들였더라도 근본이 되는 가정에 다른 중요도를 부여했기 때문에 서로 다른 판단에 도달할 수 있다. 정보의 형식을 바꾼다고 해서 그 정보의 근본적인 한계가 해결되지는 않는다. 적절한 설명은 결론을 보편적인 것으로 다루기 전에 먼저 그 가정들을 명시해야 한다. 이러한 결론은 처음의 가정과 동일하지 않다. 이후의 관찰과 원래 측정의 한계를 설명해야 한다. 특히, 새로운 증거는 이전의 설명이 모든 상황에서 잘못되었다는 것을 증명하지 않으면서도 해석을 바꾸는 것을 정당화할 수 있다. 따라서 더 나은 해석은 하나의 사례가 보편적인 규칙을 확립한다고 주장하지 않으면서도, 초기의 기대와 이를 복잡하게 만드는 증거 모두를 설명해야 한다.\n\n[해설]\n필자는 초기 판단을 그대로 유지하기보다 관찰의 조건과 반례를 반영해 결론을 조정해야 한다고 주장합니다.",
     "wrong_explanations": {},
     "_reviewed": false
   },
@@ -6850,7 +6850,7 @@ const QUESTION_BANK = [
       "⑤ Why a Single Indicator Is Sufficient for Every Decision"
     ],
     "answer": 1,
-    "explanation": "초기 설명과 후속 관찰의 불일치를 통해 더 정교한 판단으로 옮겨가는 글 전체를 포괄합니다.",
+    "explanation": "[지문 해석]\n한 무용수가 거울을 바라보며 루틴을 연습한 후 거울 없이 연습했다. 그녀는 거울을 지속적인 피드백으로 의존했다. 처음에는 그 설명이 매력적으로 보였다. 더 이상의 수식 없이 전달할 수 있는 단순한 설명을 제공했기 때문이다. 실제로 움직임은 그녀가 내적으로 균형을 느끼는 방법을 배운 후에야 정밀했다. 그 결과는 유용한 단서를 제공하지만, 같은 메커니즘이 모든 조건 하에서 작동할 것이라고 입증하지는 못한다. 훈련은 외부 신호에서 신체화된 이해로 점진적으로 전환될 수 있다. 더 강력한 추론은 의도적으로 제한된다. 그것은 모든 불확실성이 사라졌다고 가장하지 않으면서 관찰된 대비를 설명한다. 이 결론은 첫 번째 가정과 동일하지 않다. 이후 관찰과 원래 측정의 한계를 설명해야 한다. 특히, 새로운 증거는 초기 설명이 상상할 수 있는 모든 상황에서 잘못되었다는 것을 증명하지 않으면서도 해석을 바꾸는 것을 정당화할 수 있다. 따라서 선호되는 해석은 단일 사례가 보편적인 규칙을 입증한다고 가장하지 않으면서, 초기 기대와 그것을 복잡하게 만드는 증거 모두를 설명해야 한다.\n\n[해설]\n초기 설명과 후속 관찰의 불일치를 통해 더 정교한 판단으로 옮겨가는 글 전체를 포괄합니다.",
     "wrong_explanations": {},
     "_reviewed": false
   },
@@ -6867,7 +6867,7 @@ const QUESTION_BANK = [
       "⑤번 문장"
     ],
     "answer": 1,
-    "explanation": "나머지 네 문장은 동일한 연구·관찰의 초기 가정과 결과, 수정된 결론을 연결하지만 해당 문장은 다른 주제로 전환되어 논리적 연속성이 없습니다.",
+    "explanation": "[지문 해석]\n① 기상 위성은 대기권 위의 궤도에서 이미지를 수집한다.\n② 한 연구자가 긴급 경보의 서로 다른 번역들을 비교했다.\n③ 설계자들은 원문의 문장 구조를 보존하는 것을 우선시했다.\n④ 공식 용어에 익숙하지 않은 주민들은 문자 그대로의 단어 선택에 혼동했다.\n⑤ 효과적인 소통은 단어 대 단어의 정확성이 아니라 청중의 해석에 달려 있다.\n\n[해설]\n나머지 네 문장은 동일한 연구·관찰의 초기 가정과 결과, 수정된 결론을 연결하지만 해당 문장은 다른 주제로 전환되어 논리적 연속성이 없습니다.",
     "wrong_explanations": {},
     "_reviewed": false
   },
@@ -6884,7 +6884,7 @@ const QUESTION_BANK = [
       "⑤ unrelated — absolute"
     ],
     "answer": 4,
-    "explanation": "초기 가정은 처음에는 지지를 받았지만 후속 관찰 때문에 해석에 조건과 한계를 명시해야 했으므로 supported — qualified가 가장 적절합니다.",
+    "explanation": "[지문 해석]\n어떤 생물학자가 산호초가 짧은 열파에 어떻게 반응하는지를 연구했다. 한 뉴스 보도는 색깔의 회복을 완전한 회복으로 취급했다. 첫 번째 해석은 쉽게 눈에 띄는 특징에 초점을 맞췄기 때문에 타당해 보였다. 하지만 어떤 산호들은 색깔은 빠르게 회복했지만 다음 시즌에 번식을 제대로 하지 못했다. 이것이 앞서의 관찰을 무의미하게 만들지는 않았다. 오히려 원래의 설명이 중요한 조건을 놓쳤다는 것을 드러냈다. 눈에 띄는 개선이 반드시 모든 생물학적 기능의 회복을 의미하지는 않는다.\n\n[해설]\n초기 가정은 처음에는 지지를 받았지만 후속 관찰 때문에 해석에 조건과 한계를 명시해야 했으므로 supported — qualified가 가장 적절합니다.",
     "wrong_explanations": {},
     "_reviewed": false
   },
@@ -6901,7 +6901,7 @@ const QUESTION_BANK = [
       "⑤ support materials are valuable when available without interrupting engagement"
     ],
     "answer": 5,
-    "explanation": "기초 관찰: Listeners enjoyed the story but used notes mainly when unfamiliar references appeared. 초기 해석: Editors had assumed that more explanations would always help. 따라서 Support materials are valuable when available without interrupting engagement. 다만 단일 사례가 모든 상황으로 일반화되는 것은 아닙니다.",
+    "explanation": "[지문 해석]\n한 출판사가 선택적 챕터 노트가 포함된 오디오북을 테스트했다. 편집자들은 더 많은 설명이 항상 도움이 될 것이라고 가정했다. 그러나 청취자들은 이야기 자체는 즐겼지만 낯선 참조가 나타날 때만 주로 노트를 활용했다. 이 증거는 __________ 이라는 결론과 가장 부합한다.\n\n[해설]\n기초 관찰: Listeners enjoyed the story but used notes mainly when unfamiliar references appeared. 초기 해석: Editors had assumed that more explanations would always help. 따라서 Support materials are valuable when available without interrupting engagement. 다만 단일 사례가 모든 상황으로 일반화되는 것은 아닙니다.",
     "wrong_explanations": {},
     "_reviewed": false
   },
@@ -6918,7 +6918,7 @@ const QUESTION_BANK = [
       "⑤번 위치"
     ],
     "answer": 2,
-    "explanation": "초기 해석과 상반되는 관찰이 나온 직후에 This discrepancy가 연결됩니다. 다른 위치에서는 discrepancy의 지시 대상이 불분명하거나 후속 판단의 인과 관계가 끊깁니다.",
+    "explanation": "[지문 해석]\n한 교사가 글쓰기 수업에 익명의 동료 검토를 도입했다. 교직원들은 익명성이 모든 측면에서 비판을 개선할 것으로 기대했다. (①) 댓글은 더욱 솔직해졌지만 때때로 배려심이 부족해졌다. (②) 정책은 한 가지 편향을 줄이면서 다른 위험을 만들 수 있다. (③) 그 보고서는 이 발견의 증거적 한계를 설명했다. (④) 후속 연구가 제안되었다. (⑤)\n\n[해설]\n초기 해석과 상반되는 관찰이 나온 직후에 This discrepancy가 연결됩니다. 다른 위치에서는 discrepancy의 지시 대상이 불분명하거나 후속 판단의 인과 관계가 끊깁니다.",
     "wrong_explanations": {},
     "_reviewed": false
   },
@@ -6935,7 +6935,7 @@ const QUESTION_BANK = [
       "⑤번 표시"
     ],
     "answer": 1,
-    "explanation": "①는 has로 고쳐야 합니다. 나머지 표시 표현은 해당 문장의 구조상 허용됩니다.",
+    "explanation": "[지문 해석]\n한 정원사가 두 가지 다른 높이로 깎은 잔디를 비교했다. 그 팀은 ① have 여러 해석을 검토했다. 각각 검토된 관찰 결과들은 ② were 각 설명이 한계를 가지고 있음을 보여주었다. 중심적인 이유 중 하나는 ③ each 초기 가정이 중요한 증거를 간과했다는 것이다. 연구원들은 ④ is 수정된 설명을 권장했다. 연구원들은 ⑤ therefore 수정된 설명을 권장했다.\n\n[해설]\n①는 has로 고쳐야 합니다. 나머지 표시 표현은 해당 문장의 구조상 허용됩니다.",
     "wrong_explanations": {},
     "_reviewed": false
   },
@@ -6952,7 +6952,7 @@ const QUESTION_BANK = [
       "⑤번 표시"
     ],
     "answer": 4,
-    "explanation": "④의 irrelevant는 주변 의미와 충돌합니다. relevant로 수정해야 초기 가설·반증·신중한 결론의 논리가 일관됩니다.",
+    "explanation": "[지문 해석]\n한 과학자가 도시 여우들이 교통량이 많은 도로를 어떻게 건너는지 연구했다. 연구원들은 거리만을 모델링했었다. 동물들은 더 짧은 경로가 있었음에도 불구하고 연속된 식생 근처의 횡단을 선호했다. 첫 번째 해석은 아직 수집된 증거가 거의 없었기 때문에 당연히 (① 잠정적) 이었다. 나중의 관찰이 그 해석이 의존하던 기대에 (② 모순) 되었다. 결과적으로 연구원들은 무조건적인 판단보다는 (③ 제한적인) 설명을 채택했다. 그들은 새로운 증거가 조사 중인 질문과 (④ 무관) 한지 검토했다. 결론은 관찰이 이루어진 조건들로 (⑤ 제한) 되었다.\n\n[해설]\n④의 irrelevant는 주변 의미와 충돌합니다. relevant로 수정해야 초기 가설·반증·신중한 결론의 논리가 일관됩니다.",
     "wrong_explanations": {},
     "_reviewed": false
   },
@@ -6969,7 +6969,7 @@ const QUESTION_BANK = [
       "⑤ the need to ignore early evidence once a new interpretation is proposed"
     ],
     "answer": 4,
-    "explanation": "초기 기대와 다른 관찰을 통해 얻은 제한적인 결론이 요지입니다. 다른 선택지는 단정적 일반화 또는 근거 없는 판단입니다.",
+    "explanation": "[지문 해석]\n한 경제학자가 기간 제한적 할인을 받은 가구들을 연구했다. 소매업체는 판매 급증을 새로운 수요로 설명했다. 처음에는 이 설명이 매력적으로 보였다. 추가 설명 없이 전달할 수 있는 단순한 설명을 제시했기 때문이다. 실제로 일부 가구는 물품을 더 일찍 구매했지만 총 소비량은 증가시키지 않았다. 두 관찰자가 동일한 사실을 받아들이더라도 기저에 있는 가정에 다른 중요성을 부여하면 서로 다른 결론에 도달할 수 있다. 구매의 일시적 증가는 수량의 변화가 아닌 시기의 변화를 나타낼 수 있다. 적절한 설명은 결론을 일반화하기 전에 이러한 가정들을 명시적으로 드러내야 한다. 이 결론은 처음 가정과 동일하지 않으며, 이후의 관찰과 원래 측정의 한계를 고려해야 한다. 특히 새로운 증거는 초기 설명이 모든 가능한 상황에서 잘못되었음을 증명하지 않으면서도 해석을 변경할 정당성을 제공할 수 있다. 따라서 선호되는 해석은 초기의 기대와 그것을 복잡하게 만드는 증거를 모두 설명해야 하며, 단 하나의 사례가 보편적 규칙을 확립한다고 주장해서는 안 된다.\n\n[해설]\n초기 기대와 다른 관찰을 통해 얻은 제한적인 결론이 요지입니다. 다른 선택지는 단정적 일반화 또는 근거 없는 판단입니다.",
     "wrong_explanations": {},
     "_reviewed": false
   },
@@ -6986,7 +6986,7 @@ const QUESTION_BANK = [
       "⑤ (C)-(A)-(B)"
     ],
     "answer": 3,
-    "explanation": "최초 가정 → 후속 관찰에 의한 반증·보완 → 수정된 판단이라는 인과 순서가 필수입니다. 따라서 (A)-(C)-(B)입니다.",
+    "explanation": "[지문 해석]\n한 지역 역사가가 폐쇄된 조선소에 대해 예전 조선공들을 인터뷰했다.\n\n(A) 추가 조사에 앞서 공식 기록에는 직책과 임금만 남아 있었다. 이것이 비록 불완전하지만 이 프로젝트에 명확한 출발점을 제공했다.\n\n(B) 이에 따라 조사자들은 더욱 신중한 추론을 채택했다. 구술 증언은 행정 기록에 없는 관행들을 드러낼 수 있다. 그들은 또한 어떤 추가 관찰이 필요할 것인지 파악했다.\n\n(C) 이후의 증거들은 그러한 예상을 복잡하게 만들었다: 그들의 증언은 고용 문서에 절대 기록되지 않은 비공식적 기술들을 보여주었다. 초기의 설명으로는 더 이상 전체 양상을 설명할 수 없었다.\n\n[해설]\n최초 가정 → 후속 관찰에 의한 반증·보완 → 수정된 판단이라는 인과 순서가 필수입니다. 따라서 (A)-(C)-(B)입니다.",
     "wrong_explanations": {},
     "_reviewed": false
   },
@@ -7003,7 +7003,7 @@ const QUESTION_BANK = [
       "⑤ To announce that the first interpretation has already been fully confirmed"
     ],
     "answer": 4,
-    "explanation": "편지의 핵심 요청은 기존 평가에 후속 관찰을 반영하고 초기 결론의 한계를 명시해 달라는 것입니다.",
+    "explanation": "[지문 해석]\n검토 위원회 여러분께,\n\n한 과학자가 두 가지 날씨 예측 모델의 성능을 비교했습니다. 한 기관은 평균 오차만을 기준으로 모델을 선택했습니다. 실제로 한 모델은 평균 기온은 잘 예측했지만 드문 극단적 기후 현상은 놓쳤습니다. 저는 원래 프로젝트를 폐기해 달라고 요청하는 것이 아닙니다. 그 평가에 추가 증거를 포함하고 초기 결론의 한계를 명시해 달라고 요청하는 것입니다. 이러한 변화가 없다면, 다음 펀딩 결정은 프로젝트의 실제 성능이 아닌 불완전한 지표에 보상을 줄 수 있습니다.\n\n진심을 담아,\n프로젝트 참여자 일동\n\n[해설]\n편지의 핵심 요청은 기존 평가에 후속 관찰을 반영하고 초기 결론의 한계를 명시해 달라는 것입니다.",
     "wrong_explanations": {},
     "_reviewed": false
   },
@@ -7020,7 +7020,7 @@ const QUESTION_BANK = [
       "⑤ from confidence to reflective curiosity"
     ],
     "answer": 5,
-    "explanation": "초기의 confident/reassured와 후반의 reconsider, willing to investigate가 대비되므로 확신에서 성찰적 탐구로의 변화입니다.",
+    "explanation": "[지문 해석]\n처음에는 겉으로 보기에 단순명백한 설명에 안도감을 느꼈다. 비평가들은 학생의 선택권이 교육과정을 포기하는 것을 의미한다고 가정했다. 한 학교는 학생들이 제안한 질문들을 중심으로 수업을 구성했다. 참여도는 향상되었지만 교사들은 여전히 핵심 개념이 다루어지도록 보장해야 한다는 것을 알게 되자, 나의 확신이 흔들렸다. 내 기대를 뒷받침하는 결과만 주목함으로써 내가 얼마나 많은 것을 놓쳤을지 모른다는 생각이 들었다. 내 판단을 다시 생각해 보았다. 결국 모든 세부사항에 대해 여전히 확실하지 않았지만, 처음 인상을 옹호하기보다는 더 자세히 살펴보려는 마음이 더 커졌다.\n\n[해설]\n초기의 confident/reassured와 후반의 reconsider, willing to investigate가 대비되므로 확신에서 성찰적 탐구로의 변화입니다.",
     "wrong_explanations": {},
     "_reviewed": false
   },
@@ -7037,7 +7037,7 @@ const QUESTION_BANK = [
       "⑤ An observed difference should be treated as a universal rule without further examination."
     ],
     "answer": 3,
-    "explanation": "필자는 초기 판단을 그대로 유지하기보다 관찰의 조건과 반례를 반영해 결론을 조정해야 한다고 주장합니다.",
+    "explanation": "[지문 해석]\n한 연구자가 도시 새들이 운반하는 씨앗의 확산을 연구했다. 지도는 확산이 무작위적일 것이라고 가정했다. 처음에는 그 설명이 매력적으로 보였다. 추가 설명 없이 전달할 수 있는 단순한 설명을 제시했기 때문이다. 실제로 씨앗들은 열린 땅 전체에 골고루 퍼지기보다는 나무 근처에 집중되어 있었다. 초기 설명은 익숙한 성공의 척도에 호소력이 있었지만, 그 척도는 관찰에서 누가 또는 무엇이 제외되었는지를 무시했다. 동물의 행동은 식물의 공간 분포를 형성할 수 있다. 더 나은 판단을 위해서는 증거가 직접적으로 입증하는 것과 누군가가 주장하고자 하는 더 큰 주장을 구별해야 한다. 이 결론은 처음 가정과 동일하지 않다. 나중의 관찰과 원래 척도의 한계를 고려해야 한다. 특히 새로운 증거는 이전의 설명이 모든 상황에서 틀렸음을 증명하지 않으면서도 해석을 바꾸는 것을 정당화할 수 있다. 따라서 선호되는 해석은 초기 기대와 이를 복잡하게 만드는 증거를 모두 설명해야 하며, 단 하나의 사례가 보편적 규칙을 입증한다고 가장해서는 안 된다.\n\n[해설]\n필자는 초기 판단을 그대로 유지하기보다 관찰의 조건과 반례를 반영해 결론을 조정해야 한다고 주장합니다.",
     "wrong_explanations": {},
     "_reviewed": false
   },
@@ -7054,7 +7054,7 @@ const QUESTION_BANK = [
       "⑤ When Background Details Replace All Empirical Evidence"
     ],
     "answer": 4,
-    "explanation": "초기 설명과 후속 관찰의 불일치를 통해 더 정교한 판단으로 옮겨가는 글 전체를 포괄합니다.",
+    "explanation": "[지문 해석]\n한 토목 공학자가 방파제의 반복되는 수리를 검토했다. 유지보수팀은 가장 최근에 보이는 균열에 집중했다. 처음에는 그 설명이 매력적으로 보였다. 추가적인 설명 없이 전달할 수 있는 단순한 해석을 제시했기 때문이다. 실제로는 매번 수리가 일시적으로만 유지되다가 파도 패턴이 변하면서 응력이 인접한 부분으로 이동했다. 흥미로운 점은 그 결과의 규모가 아니라 예상된 메커니즘과 실제로 관찰된 메커니즘 사이의 불일치였다. 증상만 따로 치료하는 것은 문제를 해결하는 것이 아니라 단지 옮기는 것일 뿐이다. 따라서 결론은 가장 눈에 띄는 결과를 단순히 반복하기보다는 두 가지 해석을 비교하는 것에 달려 있다. 이러한 결론은 처음 가정과 동일하지 않다. 나중의 관찰과 원래 조치의 한계를 고려해야 한다. 특히 새로운 증거는 이전의 설명이 모든 가능한 상황에서 틀렸다는 것을 증명하지 않으면서도 해석을 바꿀 정당성을 제공할 수 있다. 따라서 선호되는 해석은 초기 예상과 이를 복잡하게 하는 증거를 모두 설명할 수 있어야 하며, 단 하나의 사례가 보편적인 규칙을 입증한다고 주장하지 않아야 한다.\n\n[해설]\n초기 설명과 후속 관찰의 불일치를 통해 더 정교한 판단으로 옮겨가는 글 전체를 포괄합니다.",
     "wrong_explanations": {},
     "_reviewed": false
   },
@@ -7071,7 +7071,7 @@ const QUESTION_BANK = [
       "⑤번 문장"
     ],
     "answer": 3,
-    "explanation": "나머지 네 문장은 동일한 연구·관찰의 초기 가정과 결과, 수정된 결론을 연결하지만 해당 문장은 다른 주제로 전환되어 논리적 연속성이 없습니다.",
+    "explanation": "[지문 해석]\n① 어느 소설가가 같은 이야기의 두 가지 도입부를 테스트했다. ② 편집자들은 일관되게 자신감 있는 목소리를 권장했다. ③ 프로 풋볼 리그는 시즌이 시작되기 전에 경기 일정을 공개한다. ④ 독자들은 화자가 자신의 불확실성을 인정할 때 결함이 있는 화자를 더 신뢰했다. ⑤ 자신의 한계를 인정하는 것은 연사를 더욱 신뢰할 수 있게 만들 수 있다.\n\n[해설]\n나머지 네 문장은 동일한 연구·관찰의 초기 가정과 결과, 수정된 결론을 연결하지만 해당 문장은 다른 주제로 전환되어 논리적 연속성이 없습니다.",
     "wrong_explanations": {},
     "_reviewed": false
   },
@@ -7088,7 +7088,7 @@ const QUESTION_BANK = [
       "⑤ replaced — unquestionable"
     ],
     "answer": 2,
-    "explanation": "초기 가정은 처음에는 지지를 받았지만 후속 관찰 때문에 해석에 조건과 한계를 명시해야 했으므로 supported — qualified가 가장 적절합니다.",
+    "explanation": "[지문 해석]\n한 박물관이 부서지기 쉬운 원본 필사본 옆에 복제품을 전시했다. 일부 큐레이터들은 복제품이 진정성에 대한 관심을 약화시킬까봐 우려했다. 처음에는 이러한 설명이 매력적으로 보였다. 더 이상의 수식 없이 전달할 수 있는 단순한 설명을 제공했기 때문이다. 실제로 방문객들은 복제품을 직접 만져보고 원본에 손상을 주지 않으면서도 세부 사항을 읽을 수 있었다. 빠른 평가는 즉시 측정 가능한 결과에 보상을 주겠지만, 체계의 다른 곳에 부과된 비용을 간과할 수 있다. 신중한 대체를 통하면 취약한 유물을 보호하면서도 접근성을 높일 수 있다. 관련된 질문은 이러한 간접적 효과들이 포함되면 그 이점이 지속되는가 하는 것이다. 이 결론은 처음 가정과 동일하지 않으며, 나중의 관찰과 원래 측정의 한계를 고려해야 한다. 특히 새로운 증거는 초기 설명이 모든 상상 가능한 상황에서 잘못되었음을 증명하지 않으면서도 해석을 바꿀 정당성을 제공할 수 있다. 따라서 선호되는 해석은 초기의 기대와 이를 복잡하게 하는 증거를 모두 설명해야 하며, 단 하나의 사례가 보편적 규칙을 입증한다고 가정해서는 안 된다.\n\n[해설]\n초기 가정은 처음에는 지지를 받았지만 후속 관찰 때문에 해석에 조건과 한계를 명시해야 했으므로 supported — qualified가 가장 적절합니다.",
     "wrong_explanations": {},
     "_reviewed": false
   },
@@ -7105,7 +7105,7 @@ const QUESTION_BANK = [
       "⑤ the initial assumption must be rejected even in circumstances for which it was never tested"
     ],
     "answer": 4,
-    "explanation": "기초 관찰: Crop yields initially rose, but microbial diversity declined over several seasons. 초기 해석: Farmers evaluated success only by the first harvest. 따라서 Short-term gains can mask changes in the systems that sustain them. 다만 단일 사례가 모든 상황으로 일반화되는 것은 아닙니다.",
+    "explanation": "[지문 해석]\n한 과학자가 비료를 반복적으로 사용한 후의 토양 박테리아를 연구했다. 농부들은 첫 번째 수확으로만 성공을 평가했다. 그러나 작물 수확량은 처음에는 증가했지만, 몇 시즌에 걸쳐 미생물 다양성은 감소했다. 이 증거는 __________ 이라는 결론과 가장 일치한다.\n\n[해설]\n기초 관찰: Crop yields initially rose, but microbial diversity declined over several seasons. 초기 해석: Farmers evaluated success only by the first harvest. 따라서 Short-term gains can mask changes in the systems that sustain them. 다만 단일 사례가 모든 상황으로 일반화되는 것은 아닙니다.",
     "wrong_explanations": {},
     "_reviewed": false
   },
@@ -7122,7 +7122,7 @@ const QUESTION_BANK = [
       "⑤번 위치"
     ],
     "answer": 3,
-    "explanation": "초기 해석과 상반되는 관찰이 나온 직후에 This discrepancy가 연결됩니다. 다른 위치에서는 discrepancy의 지시 대상이 불분명하거나 후속 판단의 인과 관계가 끊깁니다.",
+    "explanation": "[지문 해석]\n한 도시가 상점 주인들에게 도로 수리 일정 계획에 도움을 달라고 요청했다. (①) 관계자들은 방해를 오직 총 작업 일수로만 정의했다. (②) 공사 기간은 동일했지만 상인들은 폐쇄 기간에 맞춰 배송을 계획할 수 있었다. (③) 사전 조율은 불가피한 방해의 실질적 비용을 낮출 수 있다. (④) 추가 평가가 권장되었다. (⑤)\n\n[해설]\n초기 해석과 상반되는 관찰이 나온 직후에 This discrepancy가 연결됩니다. 다른 위치에서는 discrepancy의 지시 대상이 불분명하거나 후속 판단의 인과 관계가 끊깁니다.",
     "wrong_explanations": {},
     "_reviewed": false
   },
@@ -7139,7 +7139,7 @@ const QUESTION_BANK = [
       "⑤번 표시"
     ],
     "answer": 1,
-    "explanation": "①는 describes로 고쳐야 합니다. 나머지 표시 표현은 해당 문장의 구조상 허용됩니다.",
+    "explanation": "[지문 해석]\n한 역사가는 차용된 악기가 어떻게 유통되었는지를 추적했다. 그 보고서는 (①describe) 원래의 기록이 왜 설득력 있었는지를 설명했다. 나중에 (②collected) 증거는 그 문제를 더욱 복잡하게 만들었다. 그 불일치를 (③ignoring) 하기보다는, 조사자들은 그것이 무엇을 드러내는지를 고려했다. 그들의 결론은 (④was) 신중하게 한정되었고 (⑤remained) 추가 검증에 열려 있었다.\n\n[해설]\n①는 describes로 고쳐야 합니다. 나머지 표시 표현은 해당 문장의 구조상 허용됩니다.",
     "wrong_explanations": {},
     "_reviewed": false
   },
@@ -7156,7 +7156,7 @@ const QUESTION_BANK = [
       "⑤번 표시"
     ],
     "answer": 2,
-    "explanation": "②의 confirmed는 주변 의미와 충돌합니다. contradicted로 수정해야 초기 가설·반증·신중한 결론의 논리가 일관됩니다.",
+    "explanation": "[지문 해석]\n한 해양 생태학자가 복원된 해안선 근처의 패류를 조사했다. 환경 보고서는 전체 개체군의 증가를 칭찬했다. 개체수는 증가했지만, 대부분의 개체가 단일 연령대에 속했다. 첫 번째 해석은 아직 수집된 증거가 거의 없었기 때문에 필연적으로 (① 잠정적)이었다. 나중의 관찰은 그 해석이 의존했던 예상을 (② 확인)했다. 결과적으로 연구자들은 무조건적인 판단보다는 (③ 신중한) 설명을 채택했다. 그들은 새로운 증거가 조사 중인 질문과 (④ 관련)이 있는지 검토했다. 결론은 관찰이 이루어진 조건으로 (⑤ 제한)되었다.\n\n[해설]\n②의 confirmed는 주변 의미와 충돌합니다. contradicted로 수정해야 초기 가설·반증·신중한 결론의 논리가 일관됩니다.",
     "wrong_explanations": {},
     "_reviewed": false
   },
@@ -7173,7 +7173,7 @@ const QUESTION_BANK = [
       "⑤ why a single observation is enough to settle every possible explanation"
     ],
     "answer": 2,
-    "explanation": "초기 기대와 다른 관찰을 통해 얻은 제한적인 결론이 요지입니다. 다른 선택지는 단정적 일반화 또는 근거 없는 판단입니다.",
+    "explanation": "[지문 해석]\n공중보건팀이 진료 예약 안내장을 새롭게 설계했다. 관리자들은 진료 시간을 더 늘리는 데 초점을 맞춰왔다. 그러나 쉬운 말로 작성한 안내문만으로도 의료 서비스를 변경하지 않으면서도 방문 건너뜀을 줄일 수 있었다. 이해의 장벽을 제거하면 기존 자원에 대한 접근성을 개선할 수 있다.\n\n[해설]\n초기 기대와 다른 관찰을 통해 얻은 제한적인 결론이 요지입니다. 다른 선택지는 단정적 일반화 또는 근거 없는 판단입니다.",
     "wrong_explanations": {},
     "_reviewed": false
   },
@@ -7190,7 +7190,7 @@ const QUESTION_BANK = [
       "⑤ (A)-(C)-(B)"
     ],
     "answer": 4,
-    "explanation": "최초 가정 → 후속 관찰에 의한 반증·보완 → 수정된 판단이라는 인과 순서가 필수입니다. 따라서 (A)-(B)-(C)입니다.",
+    "explanation": "[지문 해석]\n한 연구원이 배송 로봇과 자전거 배송원의 이동 시간을 비교했다.\n\n(A) 추가 조사 전에, 한 제안은 평균 속도를 유용성의 유일한 척도로 취급했다. 이것은 비록 불완전하지만 이 프로젝트에 명확한 출발점을 제공했다.\n\n(B) 그 이후의 증거는 그러한 기대를 복잡하게 만들었다: 로봇은 맑은 보도에서는 안정적이었지만 일시적인 도로 장애물로 인해 지연되었다. 초기의 설명은 더 이상 전체 패턴을 설명할 수 없었다.\n\n(C) 이에 대응하여 조사자들은 더 신중한 추론을 채택했다. 운영 성능은 변화하는 조건에서의 신뢰성에 달려 있다. 그들은 또한 어떤 추가 관찰이 필요할지 파악했다.\n\n[해설]\n최초 가정 → 후속 관찰에 의한 반증·보완 → 수정된 판단이라는 인과 순서가 필수입니다. 따라서 (A)-(B)-(C)입니다.",
     "wrong_explanations": {},
     "_reviewed": false
   },
@@ -7207,7 +7207,7 @@ const QUESTION_BANK = [
       "⑤ To demand that the project be cancelled without another evaluation"
     ],
     "answer": 3,
-    "explanation": "편지의 핵심 요청은 기존 평가에 후속 관찰을 반영하고 초기 결론의 한계를 명시해 달라는 것입니다.",
+    "explanation": "[지문 해석]\n검토 위원회께,\n\n한 교사가 학생들에게 처음에 거부했던 관점을 옹호하도록 과제를 부여했습니다. 비평가들은 이 과제가 학생들에게 신념을 바꾸도록 강요할 것을 우려했습니다. 실제로 많은 학생들이 상반된 입장을 수용하지 않으면서도 가정들을 파악하는 능력을 향상시켰습니다. 저는 원래 프로젝트를 무시해달라고 요청하는 것이 아닙니다. 대신 그 평가에 추가 증거를 포함하고 초기 결론의 한계를 명시해달라고 요청합니다. 이러한 변화 없이는 다음 자금 지원 결정이 프로젝트의 실제 성과보다는 불완전한 지표에 보상을 줄 수 있습니다.\n\n진심으로,\n프로젝트 참여자 일동\n\n[해설]\n편지의 핵심 요청은 기존 평가에 후속 관찰을 반영하고 초기 결론의 한계를 명시해 달라는 것입니다.",
     "wrong_explanations": {},
     "_reviewed": false
   },
@@ -7224,7 +7224,7 @@ const QUESTION_BANK = [
       "⑤ from disappointment to certainty that all questions are settled"
     ],
     "answer": 3,
-    "explanation": "초기의 confident/reassured와 후반의 reconsider, willing to investigate가 대비되므로 확신에서 성찰적 탐구로의 변화입니다.",
+    "explanation": "[지문 해석]\n처음에는 겉으로 단순해 보이는 설명에 안심했다. 한 학생은 생략된 모든 변수가 모델을 무용지물로 만든다고 가정했고, 한 수학자는 복잡한 모델이 왜 단순화를 필요로 하는지 설명했다. 핵심 메커니즘을 검증 가능하게 하기 위해 일부 세부 사항들이 제거되었다는 것을 알게 되자, 내 확신은 흔들렸다. 내 기대를 뒷받침하는 결과에만 주목함으로써 얼마나 많은 것을 놓쳤을 수 있을까 하는 의문이 들었다. 앞의 설명을 공개적으로 옹호했기 때문에 이러한 한계를 인정하기 싫었다. 그럼에도 불구하고 관찰 결과를 더 자세히 비교할수록 수정의 필요성이 더욱 명확해졌다. 결국 나는 모든 세부 사항에 대해 여전히 확신할 수 없었지만, 처음 인상을 방어하려는 마음보다 이를 조사하려는 마음이 더 커졌다.\n\n[해설]\n초기의 confident/reassured와 후반의 reconsider, willing to investigate가 대비되므로 확신에서 성찰적 탐구로의 변화입니다.",
     "wrong_explanations": {},
     "_reviewed": false
   },
@@ -7241,7 +7241,7 @@ const QUESTION_BANK = [
       "⑤ If evidence is mixed, decision-makers should avoid weighing the competing explanations at all."
     ],
     "answer": 4,
-    "explanation": "필자는 초기 판단을 그대로 유지하기보다 관찰의 조건과 반례를 반영해 결론을 조정해야 한다고 주장합니다.",
+    "explanation": "[지문 해석]\n한 박물관이 익명의 센서를 이용해 방문객들의 동선을 기록했다. 큐레이터들은 학문적 중요성에 따라 전시실을 구성했었다. 처음에는 이 설명이 매력적으로 보였다. 추가 설명 없이도 전달할 수 있는 단순한 해석을 제시했기 때문이다. 그런데 실제로는 많은 방문객들이 중앙 전시를 지나쳤으나 출구 근처의 작은 전시에서는 멈춰 있었다. 두 명의 관찰자가 같은 사실을 받아들이면서도 그 바탕에 깔린 가정들에 서로 다른 중요성을 부여하기 때문에 다른 판단에 도달할 수 있다. 실제 이용 양상은 설계자들이 예상하지 못한 우선순위들을 드러낼 수 있다. 충분한 설명은 그 결론을 보편적인 것으로 취급하기 전에 먼저 이러한 가정들을 명시해야 한다. 이 결론은 처음의 가정과 동일하지 않으며, 나중의 관찰과 원래 측정 방식의 한계를 모두 고려해야 한다. 특히 새로운 증거는 이전의 설명이 모든 상황에서 틀렸다는 것을 증명하지 않으면서도 해석을 바꿀 정당한 이유가 될 수 있다. 따라서 더 타당한 해석은 초기의 기대와 그것을 복잡하게 만드는 증거를 모두 설명해야 하며, 단 하나의 사례가 보편적인 법칙을 입증한다고 주장해서는 안 된다.\n\n[해설]\n필자는 초기 판단을 그대로 유지하기보다 관찰의 조건과 반례를 반영해 결론을 조정해야 한다고 주장합니다.",
     "wrong_explanations": {},
     "_reviewed": false
   },
@@ -7258,7 +7258,7 @@ const QUESTION_BANK = [
       "⑤ Beyond the First Explanation: Changes that help human visibility can alter wildlife behavior"
     ],
     "answer": 5,
-    "explanation": "초기 설명과 후속 관찰의 불일치를 통해 더 정교한 판단으로 옮겨가는 글 전체를 포괄합니다.",
+    "explanation": "[지문 해석]\n한 연구자가 도시 운하 위에서 사냥하는 박쥐들을 관찰했다. 한 계획 보고서는 모든 수로에 조명을 추가할 것을 제안했다. 처음에는 그 설명이 매력적으로 보였다. 더 이상의 설명 없이도 전달할 수 있는 단순한 설명을 제시했기 때문이다. 실제로 곤충의 풍부함이 중요했지만, 밝은 조명이 일부 섭이 경로를 방해했다. 그 결과는 유용한 단서를 제공하지만, 모든 조건에서 동일한 메커니즘이 작동할 것임을 입증하지는 못한다. 인간의 가시성을 높이는 변화는 야생동물의 행동을 바꿀 수 있다. 더 타당한 추론은 의도적으로 제한된다. 즉, 모든 불확실성이 사라졌다고 가장하지 않으면서 관찰된 대조를 설명한다. 이 결론은 처음의 가정과 동일하지 않다. 이후의 관찰과 원래 측정의 한계를 고려해야 한다. 특히, 새로운 증거는 이전의 설명이 상상할 수 있는 모든 상황에서 잘못되었음을 증명하지 않으면서도 해석을 바꾸는 것을 정당화할 수 있다. 따라서 선호되는 해석은 단일한 사례가 보편적 규칙을 확립한다고 가장하지 않으면서, 초기의 기대와 그것을 복잡하게 만드는 증거를 모두 설명해야 한다.\n\n[해설]\n초기 설명과 후속 관찰의 불일치를 통해 더 정교한 판단으로 옮겨가는 글 전체를 포괄합니다.",
     "wrong_explanations": {},
     "_reviewed": false
   },
@@ -7275,7 +7275,7 @@ const QUESTION_BANK = [
       "⑤번 문장"
     ],
     "answer": 5,
-    "explanation": "나머지 네 문장은 동일한 연구·관찰의 초기 가정과 결과, 수정된 결론을 연결하지만 해당 문장은 다른 주제로 전환되어 논리적 연속성이 없습니다.",
+    "explanation": "[지문 해석]\n① 한 대학이 역사 과목에서 열린책 시험을 시행했다. ② 일부 교수진은 노트 접근이 모든 문제를 쉽게 만들 것으로 예상했다. ③ 학생들은 날짜 암기에 들이는 노력을 줄였지만 상충하는 자료들을 비교해야 했다. ④ 평가의 난이도는 단순한 정보 접근이 아니라 요구되는 추론 능력에 달려 있다. ⑤ 기상 위성은 대기권 위의 궤도에서 이미지를 수집한다.\n\n[해설]\n나머지 네 문장은 동일한 연구·관찰의 초기 가정과 결과, 수정된 결론을 연결하지만 해당 문장은 다른 주제로 전환되어 논리적 연속성이 없습니다.",
     "wrong_explanations": {},
     "_reviewed": false
   },
@@ -7292,7 +7292,7 @@ const QUESTION_BANK = [
       "⑤ supported — unconditional"
     ],
     "answer": 3,
-    "explanation": "초기 가정은 처음에는 지지를 받았지만 후속 관찰 때문에 해석에 조건과 한계를 명시해야 했으므로 supported — qualified가 가장 적절합니다.",
+    "explanation": "[지문 해석]\n한 공예 협동조합이 먼 지역의 구매자들에게 접근하기 위해 디지털 판매를 도입했다. 운영진은 더 많은 청중이 자동으로 더 높은 수익을 가져올 것이라고 생각했다. 처음에는 그 논리가 매력적으로 보였다. 더 이상의 설명 없이도 전달할 수 있는 단순한 설명을 제시했기 때문이다. 실제로 주문은 증가했지만, 포장비용이 소품에 대한 이윤을 위협했다. 초기 예측도 나중의 측정도 의미가 없는 것은 아니다. 문제는 둘 중 하나를 완전한 설명과 혼동하는 것이다. 도달 범위의 증가가 순이익의 증가를 보장하지는 않는다. 과제는 관찰 결과를 그것을 그럴듯하게 만들어낼 수 있는 과정과 연결하는 것이다. 이 결론은 초기 가정과 동일하지 않다. 나중의 관찰을 고려해야 하며, 원래 측정 방법의 한계를 설명해야 한다. 특히 새로운 증거는 초기 설명이 모든 상황에서 틀렸음을 증명하지 않으면서도 해석을 바꿀 정당성을 제공할 수 있다. 따라서 선호되는 해석은 초기 기대와 그것을 복잡하게 만드는 증거를 모두 설명해야 하며, 단일한 사례가 보편적인 규칙을 확립한다고 가정해서는 안 된다.\n\n[해설]\n초기 가정은 처음에는 지지를 받았지만 후속 관찰 때문에 해석에 조건과 한계를 명시해야 했으므로 supported — qualified가 가장 적절합니다.",
     "wrong_explanations": {},
     "_reviewed": false
   },
@@ -7309,7 +7309,7 @@ const QUESTION_BANK = [
       "⑤ the initial blueprint had fixed every seat in place, with no adjustment for the new evidence"
     ],
     "answer": 1,
-    "explanation": "기초 관찰: Visitors rearranged the space differently for solitude and conversation. 초기 해석: The initial blueprint had fixed every seat in place. 따라서 Allowing people to adapt a space may serve varied social needs. 다만 단일 사례가 모든 상황으로 일반화되는 것은 아닙니다.",
+    "explanation": "[지문 해석]\n조경 건축가가 이동식 의자가 있는 공원을 설계했다. 처음 설계도는 모든 좌석을 고정된 위치에 배치했다. 그러나 방문객들은 혼자만의 시간과 대화를 위해 공간을 서로 다르게 재배치했다. 이러한 증거는 __________라는 결론과 가장 일치한다.\n\n[해설]\n기초 관찰: Visitors rearranged the space differently for solitude and conversation. 초기 해석: The initial blueprint had fixed every seat in place. 따라서 Allowing people to adapt a space may serve varied social needs. 다만 단일 사례가 모든 상황으로 일반화되는 것은 아닙니다.",
     "wrong_explanations": {},
     "_reviewed": false
   },
@@ -7326,7 +7326,7 @@ const QUESTION_BANK = [
       "⑤번 위치"
     ],
     "answer": 4,
-    "explanation": "초기 해석과 상반되는 관찰이 나온 직후에 This discrepancy가 연결됩니다. 다른 위치에서는 discrepancy의 지시 대상이 불분명하거나 후속 판단의 인과 관계가 끊깁니다.",
+    "explanation": "[지문 해석]\n이 프로젝트는 처음에는 간단해 보이는 설명을 검증하기 위해 고안되었다. (①) 한 연구자가 어떤 경고들은 무시되는 이유를 조사했다. (②) 이전의 공지사항들은 무서운 결과는 설명했지만 실질적인 조치는 제시하지 않았다. (③) 사람들은 메시지가 실행 가능한 다음 단계를 제안할 때 더 잘 반응했다. (④) 위험 커뮤니케이션은 우려가 행동 능력과 결합될 때 더욱 효과적이다. (⑤)\n\n[해설]\n초기 해석과 상반되는 관찰이 나온 직후에 This discrepancy가 연결됩니다. 다른 위치에서는 discrepancy의 지시 대상이 불분명하거나 후속 판단의 인과 관계가 끊깁니다.",
     "wrong_explanations": {},
     "_reviewed": false
   },
@@ -7343,7 +7343,7 @@ const QUESTION_BANK = [
       "⑤번 표시"
     ],
     "answer": 2,
-    "explanation": "②는 were로 고쳐야 합니다. 나머지 표시 표현은 해당 문장의 구조상 허용됩니다.",
+    "explanation": "[지문 해석]\n한 명의 전기 작가가 개혁가의 개인 편지와 공개 연설을 비교했다. 나중의 증거가 ① that 원래의 해석에 도전했다. 그 관찰들은 팀이 ③ published 그 결과를 발표하기 전에 ② was 두 번 검증되었다. 초기 예측도 후속 결과도 ④ were 그 자체로는 충분하다고 취급되지 않았다. 그 설명은 ⑤ ultimately 그들의 관계에 달려 있었다.\n\n[해설]\n②는 were로 고쳐야 합니다. 나머지 표시 표현은 해당 문장의 구조상 허용됩니다.",
     "wrong_explanations": {},
     "_reviewed": false
   },
@@ -7360,7 +7360,7 @@ const QUESTION_BANK = [
       "⑤번 표시"
     ],
     "answer": 5,
-    "explanation": "⑤의 universal는 주변 의미와 충돌합니다. limited로 수정해야 초기 가설·반증·신중한 결론의 논리가 일관됩니다.",
+    "explanation": "[지문 해석]\n한 과학자가 새로운 배터리 재활용 방법을 평가했다. 홍보자들은 회수율만을 언급했다. 금속 회수율은 높았지만, 그 과정은 에너지 집약적인 가열을 필요로 했다. 아직 충분한 증거가 수집되지 않았기 때문에 초기 해석은 필연적으로 (① 잠정적)이었다. 이후 관찰은 그 해석이 의존하고 있던 기대와 (② 모순)되었다. 결과적으로 연구자들은 무조건적인 판단보다는 (③ 신중한) 설명을 채택했다. 그들은 새로운 증거가 조사 중인 문제와 (④ 관련)이 있는지 검토했다. 결론은 관찰이 이루어진 조건들로 (⑤ 제한)되었다.\n\n[해설]\n⑤의 universal는 주변 의미와 충돌합니다. limited로 수정해야 초기 가설·반증·신중한 결론의 논리가 일관됩니다.",
     "wrong_explanations": {},
     "_reviewed": false
   },
@@ -7377,7 +7377,7 @@ const QUESTION_BANK = [
       "⑤ why a single observation is enough to settle every possible explanation"
     ],
     "answer": 4,
-    "explanation": "초기 기대와 다른 관찰을 통해 얻은 제한적인 결론이 요지입니다. 다른 선택지는 단정적 일반화 또는 근거 없는 판단입니다.",
+    "explanation": "[지문 해석]\n고고학팀이 의식용 문 옆에서 닳아진 계단을 발견했다. 한 동료는 그 문이 왕실 행렬을 위해 예약된 것이라고 가정했다. 첫 번째 해석은 쉽게 눈에 띄는 특징에 초점을 맞췄기 때문에 그럴듯했다. 하지만 계단은 수레가 지나가기에는 너무 좁았고 반복된 사람의 발왕래 흔적이 있었다. 이것이 앞선 관찰을 쓸모없게 만들지는 않았다. 오히려 원래의 설명이 중요한 조건을 놓쳤음을 드러냈다. 그 대신 닳아진 흔적은 일반 주민들이 정기적으로 의식에 참여했음을 시사했다.\n\n[해설]\n초기 기대와 다른 관찰을 통해 얻은 제한적인 결론이 요지입니다. 다른 선택지는 단정적 일반화 또는 근거 없는 판단입니다.",
     "wrong_explanations": {},
     "_reviewed": false
   },
@@ -7394,7 +7394,7 @@ const QUESTION_BANK = [
       "⑤ (A)-(C)-(B)"
     ],
     "answer": 3,
-    "explanation": "최초 가정 → 후속 관찰에 의한 반증·보완 → 수정된 판단이라는 인과 순서가 필수입니다. 따라서 (C)-(B)-(A)입니다.",
+    "explanation": "[지문 해석]\n한 도시가 가파른 보행로를 따라 일정한 간격으로 벤치를 설치했다.\n\n(C) 추가 조사에 앞서 계획담당자들은 처음에 평균 보행 속도로만 사업의 성공을 측정했다. 이는 프로젝트에 명확하지만 불완전한 출발점을 제공했다.\n\n(B) 그 후의 증거는 그러한 기대를 복잡하게 만들었다. 나이가 많은 보행자들이 이전에 피했던 이동 경로를 완주하기 시작한 것이다. 초기의 설명으로는 더 이상 전체 패턴을 설명할 수 없었다.\n\n(A) 이에 대응하여 조사자들은 더욱 신중한 추론을 채택했다. 쉴 수 있는 작은 기회들이 공공 공간을 이용할 수 있는 사람들을 바꿀 수 있다는 것을 깨달은 것이다. 그들은 또한 어떤 추가 관찰이 필요할지를 파악했다.\n\n[해설]\n최초 가정 → 후속 관찰에 의한 반증·보완 → 수정된 판단이라는 인과 순서가 필수입니다. 따라서 (C)-(B)-(A)입니다.",
     "wrong_explanations": {},
     "_reviewed": false
   },
@@ -7411,7 +7411,7 @@ const QUESTION_BANK = [
       "⑤ To demand that the project be cancelled without another evaluation"
     ],
     "answer": 2,
-    "explanation": "편지의 핵심 요청은 기존 평가에 후속 관찰을 반영하고 초기 결론의 한계를 명시해 달라는 것입니다.",
+    "explanation": "[지문 해석]\n검토위원회 귀중,\n\n한 보존처리 전문가가 오래된 벽화의 바래진 파란색 안료를 분석했습니다. 박물관은 모든 변색을 밝은 갤러리 조명 탓으로 돌렸습니다. 실제로 그 안료는 햇빛 단독이 아닌 습한 공기에 노출되었을 때 색이 변했습니다. 저는 원래 프로젝트를 무시해 달라고 요청하는 것이 아닙니다. 다만 그 평가에 추가 증거를 포함시키고 초기 결론의 한계를 명시적으로 밝혀 줄 것을 요청합니다. 이러한 재검토는 평가를 더욱 공정하게 만들 것입니다.\n\n진심으로,\n프로젝트 참여자 일동\n\n[해설]\n편지의 핵심 요청은 기존 평가에 후속 관찰을 반영하고 초기 결론의 한계를 명시해 달라는 것입니다.",
     "wrong_explanations": {},
     "_reviewed": false
   },
@@ -7428,7 +7428,7 @@ const QUESTION_BANK = [
       "⑤ from confidence to a refusal to reconsider any evidence"
     ],
     "answer": 3,
-    "explanation": "초기의 confident/reassured와 후반의 reconsider, willing to investigate가 대비되므로 확신에서 성찰적 탐구로의 변화입니다.",
+    "explanation": "[지문 해석]\n처음에는 겉보기에 단순한 설명에 안심이 되었다. 지역 관리들은 첫 여름 이후의 성과를 판단하고 싶어 했다. 한 생태학자가 새로 복원된 연못 주변의 곤충들을 모니터링했다. 종들이 불균등하게 돌아왔으며, 포식자가 먹이보다 나중에 나타났다는 사실을 알게 되었을 때, 내 확신은 흔들렸다. 나는 내 기대를 뒷받침하는 결과에만 집중함으로써 얼마나 많은 것을 놓쳤을지 궁금했다. 나는 그 전의 설명을 대중 앞에서 옹호했기 때문에 이러한 한계를 인정하기를 거부했다. 그러나 관찰 결과들을 더 자세히 비교할수록 수정의 필요성이 더욱 분명해졌다. 결국 나는 모든 세부 사항에 대해 여전히 확실하지 않았지만, 처음 인상을 옹호하기보다는 조사하려는 태도가 더 강해졌다.\n\n[해설]\n초기의 confident/reassured와 후반의 reconsider, willing to investigate가 대비되므로 확신에서 성찰적 탐구로의 변화입니다.",
     "wrong_explanations": {},
     "_reviewed": false
   },
@@ -7445,7 +7445,7 @@ const QUESTION_BANK = [
       "⑤ An observed difference should be treated as a universal rule without further examination."
     ],
     "answer": 1,
-    "explanation": "필자는 초기 판단을 그대로 유지하기보다 관찰의 조건과 반례를 반영해 결론을 조정해야 한다고 주장합니다.",
+    "explanation": "[지문 해석]\n한 언어 교사가 손으로 쓴 학생 설명과 말로 한 학생 설명을 비교했다. 일부 교사들은 느린 말을 약한 이해력으로 해석했다. 첫 번째 해석은 쉽게 눈에 띄는 특징에 초점을 맞췄기 때문에 타당해 보였다. 하지만 말을 더듬는 학습자들은 종종 정확한 글쓰기 논증을 만들어냈다. 이것이 이전의 관찰을 무용지물로 만들지는 않았다. 오히려 원래의 설명이 중요한 조건을 놓쳤다는 것을 드러냈을 뿐이다. 한 가지 표현 방식에서의 능숙함이 다른 표현 방식의 능력을 대신할 수 없다.\n\n[해설]\n필자는 초기 판단을 그대로 유지하기보다 관찰의 조건과 반례를 반영해 결론을 조정해야 한다고 주장합니다.",
     "wrong_explanations": {},
     "_reviewed": false
   },
@@ -7462,7 +7462,7 @@ const QUESTION_BANK = [
       "⑤ A Familiar Prediction That Needed No Further Examination"
     ],
     "answer": 4,
-    "explanation": "초기 설명과 후속 관찰의 불일치를 통해 더 정교한 판단으로 옮겨가는 글 전체를 포괄합니다.",
+    "explanation": "[지문 해석]\n어느 페리 운영사가 출발 횟수는 적지만 더 신뢰할 수 있는 시간표를 테스트했다. 마케팅 담당자들은 출발 횟수가 많을수록 항상 최선이라고 가정했다. 처음에는 그 가정이 매력적으로 보였다. 추가 설명 없이 전달할 수 있는 단순한 설명을 제공했기 때문이다. 실제로는 광고된 운행 빈도가 낮음에도 불구하고 승객들이 약속 시간을 놓치는 경우가 더 적었다. 결과의 놀라운 점은 그 규모가 아니라 예상된 메커니즘과 실제로 관찰된 메커니즘 사이의 불일치였다. 예측 가능성이 명목상의 수용 능력보다 더 중요할 수 있다는 것이다. 따라서 결론은 단순히 가장 눈에 띄는 결과를 반복하기보다는 두 가지 해석을 비교함으로써 도출된다. 이 결론은 최초의 가정과 동일하지 않다. 나중의 관찰과 원래 측정의 한계를 고려해야 한다. 특히 새로운 증거는 초기 설명이 모든 상황에서 잘못되었음을 증명하지 않으면서도 그 해석을 바꿀 정당성을 제공할 수 있다. 결과적으로, 선호되는 해석은 초기의 기대와 그것을 복잡하게 만드는 증거를 모두 설명해야 하며, 단 하나의 사례가 보편적 규칙을 입증한다고 주장해서는 안 된다.\n\n[해설]\n초기 설명과 후속 관찰의 불일치를 통해 더 정교한 판단으로 옮겨가는 글 전체를 포괄합니다.",
     "wrong_explanations": {},
     "_reviewed": false
   },
@@ -7479,7 +7479,7 @@ const QUESTION_BANK = [
       "⑤번 문장"
     ],
     "answer": 2,
-    "explanation": "나머지 네 문장은 동일한 연구·관찰의 초기 가정과 결과, 수정된 결론을 연결하지만 해당 문장은 다른 주제로 전환되어 논리적 연속성이 없습니다.",
+    "explanation": "[지문 해석]\n(①) 한 과학자가 꿀벌이 인공 꽃에 어떻게 반응하는지 연구했다. (②) 프로 축구 리그는 시즌이 시작되기 전에 경기 일정을 공개한다. (③) 한 동료는 초기 선호도를 영구적인 본능으로 간주했다. (④) 벌들은 처음에는 밝은 색의 꽃을 선호했지만 일정한 보상을 따르도록 학습했다. (⑤) 행동은 초기 경향성과 경험을 통한 학습이 모두 반영된다.\n\n[해설]\n나머지 네 문장은 동일한 연구·관찰의 초기 가정과 결과, 수정된 결론을 연결하지만 해당 문장은 다른 주제로 전환되어 논리적 연속성이 없습니다.",
     "wrong_explanations": {},
     "_reviewed": false
   },
@@ -7496,7 +7496,7 @@ const QUESTION_BANK = [
       "⑤ challenged — categorical"
     ],
     "answer": 4,
-    "explanation": "초기 가정은 처음에는 지지를 받았지만 후속 관찰 때문에 해석에 조건과 한계를 명시해야 했으므로 supported — qualified가 가장 적절합니다.",
+    "explanation": "[지문 해석]\n한 마을 박물관이 주민들에게 옛 시장의 사진에 주석을 달도록 요청했다. 큐레이터들은 사진이 그 자체로 말을 할 수 있을 것으로 예상했다. 처음에는 그러한 설명이 매력적으로 보였다. 추가적인 설명 없이 전달될 수 있는 단순한 해석을 제시했기 때문이다. 실제로는 개인의 기억들이 날짜에 대해 상충하였지만 간과되었던 개인적인 일상들을 드러냈다. 빠른 평가는 즉시 측정 가능한 결과에 보상을 주겠지만, 체계의 다른 부분에서 초래된 비용을 간과할 수 있다. 지역사회의 해석은 모든 기억을 똑같이 신뢰할 수 있도록 만들지 않으면서도 기록물을 풍부하게 할 수 있다. 관련된 질문은 이러한 간접적 영향들을 포함한 후에도 그 이점이 지속되는가 하는 것이다. 이 결론은 최초의 가정과 동일하지 않다. 이후의 관찰과 원래 측정의 한계를 고려해야 한다. 특히 새로운 증거는 초기 설명이 모든 상상 가능한 상황에서 틀렸다는 것을 증명하지 않으면서도 해석을 바꿀 정당성을 부여할 수 있다. 결과적으로 선호되는 해석은 단일한 사례가 보편적인 규칙을 확립한다고 가정하지 않으면서도 초기의 기대와 그것을 복잡하게 만드는 증거 모두를 설명해야 한다.\n\n[해설]\n초기 가정은 처음에는 지지를 받았지만 후속 관찰 때문에 해석에 조건과 한계를 명시해야 했으므로 supported — qualified가 가장 적절합니다.",
     "wrong_explanations": {},
     "_reviewed": false
   },
@@ -7513,7 +7513,7 @@ const QUESTION_BANK = [
       "⑤ a successful design must balance protection with costs across the whole journey"
     ],
     "answer": 5,
-    "explanation": "기초 관찰: The strongest model weighed so much that fuel use increased. 초기 해석: The team had evaluated impact resistance as an isolated target. 따라서 A successful design must balance protection with costs across the whole journey. 다만 단일 사례가 모든 상황으로 일반화되는 것은 아닙니다.",
+    "explanation": "[지문 해석]\n한 엔지니어가 섬세한 과일을 운송하기 위한 재사용 가능한 상자를 설계했다. 팀은 충격 저항성을 고립된 목표로 평가했다. 그러나 새로운 증거는 원래의 판단보다 더 많은 정보를 제공했다. 가장 강력한 모델은 무게가 매우 나가서 연료 사용이 증가했던 것이다. 어려움은 초기 해석의 매력과 나중의 관찰을 설명하지 못한 점 모두를 설명해야 한다는 것이다. 그 증거는 __________라는 결론과 가장 일치한다. 합리적인 선택은 국소적 발견을 보편적 규칙으로 바꾸지 않으면서 이러한 대조를 설명해야 한다.\n\n[해설]\n기초 관찰: The strongest model weighed so much that fuel use increased. 초기 해석: The team had evaluated impact resistance as an isolated target. 따라서 A successful design must balance protection with costs across the whole journey. 다만 단일 사례가 모든 상황으로 일반화되는 것은 아닙니다.",
     "wrong_explanations": {},
     "_reviewed": false
   },
@@ -7530,7 +7530,7 @@ const QUESTION_BANK = [
       "⑤번 위치"
     ],
     "answer": 5,
-    "explanation": "초기 해석과 상반되는 관찰이 나온 직후에 This discrepancy가 연결됩니다. 다른 위치에서는 discrepancy의 지시 대상이 불분명하거나 후속 판단의 인과 관계가 끊깁니다.",
+    "explanation": "[지문 해석]\n이 프로젝트는 처음에는 간단해 보였던 설명을 검증하기 위해 설계되었다. (①) 한 역사가는 해운 송장을 이용해 19세기의 식단을 재구성했다. (②) 한 학생은 항구에 나타난 물품들을 보편적인 소비와 동일시했다. (③) 그 초기의 설명이 후속 조사의 설계 방향을 결정했다. (④) 수입 향신료 목록은 접근 가능성을 보여주지만 실제로 누가 그것들을 소비했는지는 알려주지 않았다. (⑤)\n\n[해설]\n초기 해석과 상반되는 관찰이 나온 직후에 This discrepancy가 연결됩니다. 다른 위치에서는 discrepancy의 지시 대상이 불분명하거나 후속 판단의 인과 관계가 끊깁니다.",
     "wrong_explanations": {},
     "_reviewed": false
   },
@@ -7547,7 +7547,7 @@ const QUESTION_BANK = [
       "⑤번 표시"
     ],
     "answer": 3,
-    "explanation": "③는 had relied로 고쳐야 합니다. 나머지 표시 표현은 해당 문장의 구조상 허용됩니다.",
+    "explanation": "[지문 해석]\n한 사서가 인기 있는 소설들을 같은 주제의 덜 알려진 작품들 옆에 배치했다. 초기의 관점은 ① 타당해 보였지만, 그 후의 관찰은 ② 그것을 재검토할 이유를 제공했다. 만약 그 팀이 ③ 자신의 첫 번째 가정에만 의존했다면, ④ 중요한 구별을 놓쳤을 것이다. 조사자들은 ⑤ 따라서 자신들의 판단을 수정했다.\n\n[해설]\n③는 had relied로 고쳐야 합니다. 나머지 표시 표현은 해당 문장의 구조상 허용됩니다.",
     "wrong_explanations": {},
     "_reviewed": false
   },
@@ -7564,7 +7564,7 @@ const QUESTION_BANK = [
       "⑤번 표시"
     ],
     "answer": 3,
-    "explanation": "③의 absolute는 주변 의미와 충돌합니다. qualified로 수정해야 초기 가설·반증·신중한 결론의 논리가 일관됩니다.",
+    "explanation": "[지문 해석]\n한 해안 공학자가 동일한 데이터를 바탕으로 한 두 가지 홍수 예측을 비교했다. 관계자들은 의심의 여지가 없어 보이는 단일한 수치를 원했다. 토지 이용에 대한 서로 다른 가정들이 상당히 다른 손실을 초래했다. 첫 번째 해석은 아직 수집된 증거가 거의 없었기 때문에 반드시 (① 잠정적)이었다. 나중의 관찰은 그 해석이 의존하던 기대 가설을 (② 배반)했다. 결과적으로 연구자들은 무조건적인 판단보다는 (③ 절대적)인 설명을 채택했다. 그들은 새로운 증거가 조사 대상인 질문과 (④ 관련)이 있는지 검토했다. 결론은 관찰이 이루어진 조건들에 (⑤ 제한)되었다.\n\n[해설]\n③의 absolute는 주변 의미와 충돌합니다. qualified로 수정해야 초기 가설·반증·신중한 결론의 논리가 일관됩니다.",
     "wrong_explanations": {},
     "_reviewed": false
   },
@@ -7581,7 +7581,7 @@ const QUESTION_BANK = [
       "⑤ the claim that competing explanations cannot be evaluated with evidence"
     ],
     "answer": 3,
-    "explanation": "초기 기대와 다른 관찰을 통해 얻은 제한적인 결론이 요지입니다. 다른 선택지는 단정적 일반화 또는 근거 없는 판단입니다.",
+    "explanation": "[지문 해석]\n어떤 음악가가 템포를 점진적으로 변화시키는 메트로놈과 함께 연습했다. 그 앙상블은 한 가지 고정된 속도로 곡을 완벽하게 습득했었다. 처음 해석은 쉽게 눈에 띄는 특징에 초점을 맞췄기 때문에 그럴듯해 보였다. 하지만 변화하는 박자는 앙상블이 경청이 아닌 습관에 의존하는 순간들을 드러냈다. 이것이 초기 관찰을 쓸모없게 만들지는 않았다. 오히려 원래의 설명이 중요한 조건을 놓쳤음을 밝혔다. 유연한 연주를 위해서는 기계적인 반복을 넘어서 음악적 관계를 이해해야 한다.\n\n[해설]\n초기 기대와 다른 관찰을 통해 얻은 제한적인 결론이 요지입니다. 다른 선택지는 단정적 일반화 또는 근거 없는 판단입니다.",
     "wrong_explanations": {},
     "_reviewed": false
   },
@@ -7598,7 +7598,7 @@ const QUESTION_BANK = [
       "⑤ (A)-(B)-(C)"
     ],
     "answer": 3,
-    "explanation": "최초 가정 → 후속 관찰에 의한 반증·보완 → 수정된 판단이라는 인과 순서가 필수입니다. 따라서 (C)-(B)-(A)입니다.",
+    "explanation": "[지문 해석]\n한 도시 농부가 버려진 커피 찌꺼기를 퇴비로 모았다.\n\n(C) 추가 조사 전에, 홍보 캠페인은 모든 음식물 쓰레기를 자동으로 유익하다고 설명했다. 이것은 프로젝트에 명확하지만 불완전한 출발점을 제공했다.\n\n(B) 그 후의 증거는 그러한 기대를 복잡하게 만들었다: 찌꺼기는 일부 토양 혼합물은 개선했지만 다른 것들은 너무 산성으로 만들었다. 초기 설명은 더 이상 전체 패턴을 설명할 수 없었다.\n\n(A) 이에 대응하여 조사자들은 더 신중한 추론을 채택했다. 재활용 재료는 맥락과 용량에 주의를 기울여야 한다. 그들은 또한 어떤 추가 관찰이 필요할 것인지 파악했다.\n\n[해설]\n최초 가정 → 후속 관찰에 의한 반증·보완 → 수정된 판단이라는 인과 순서가 필수입니다. 따라서 (C)-(B)-(A)입니다.",
     "wrong_explanations": {},
     "_reviewed": false
   },
@@ -7615,7 +7615,7 @@ const QUESTION_BANK = [
       "⑤ To invite committee members to an unrelated public celebration"
     ],
     "answer": 3,
-    "explanation": "편지의 핵심 요청은 기존 평가에 후속 관찰을 반영하고 초기 결론의 한계를 명시해 달라는 것입니다.",
+    "explanation": "[지문 해석]\n검토위원회에 드립니다,\n\n한 연구자가 아이들이 낯선 보드게임의 규칙을 만드는 과정을 관찰했습니다. 성인들은 인쇄된 지시사항만으로도 충분할 것이라고 가정했습니다. 그러나 실제로 규칙은 참가자들이 서로 분쟁에 대해 설명한 후에야 안정화되었습니다. 저는 원래 프로젝트를 무시해 달라는 것이 아닙니다. 다만 그 평가에 추가 증거를 포함하고 초기 결론의 한계를 명시적으로 기술해 달을 요청하는 것입니다. 이러한 검토는 평가를 더욱 공정하게 만들 것입니다.\n\n진심으로,\n프로젝트 참여자 일동\n\n[해설]\n편지의 핵심 요청은 기존 평가에 후속 관찰을 반영하고 초기 결론의 한계를 명시해 달라는 것입니다.",
     "wrong_explanations": {},
     "_reviewed": false
   },
@@ -7632,7 +7632,7 @@ const QUESTION_BANK = [
       "⑤ from curiosity to indifference about the investigation"
     ],
     "answer": 2,
-    "explanation": "초기의 confident/reassured와 후반의 reconsider, willing to investigate가 대비되므로 확신에서 성찰적 탐구로의 변화입니다.",
+    "explanation": "[지문 해석]\n처음에는 겉보기에 간단한 설명이 있어서 안심했다. 관리자들은 전반적인 참여 증가를 축하했다. 한 원격 진료소는 정기 진료를 위해 화상 상담을 도입했다. 먼 곳에 사는 환자들의 출석은 개선되었지만 불안정한 인터넷을 가진 사람들 중에서는 감소했다는 것을 알게 되자, 나의 확신이 흔들렸다. 내 기대를 뒷받침하는 결과만 살펴봄으로써 얼마나 많은 것을 놓쳤는지 궁금해했다. 나는 내 판단을 다시 생각해 보았다. 결국 모든 세부 사항에 대해 여전히 확실하지 않았지만, 처음 인상을 방어하기보다는 조사하려는 의지가 더 생겼다.\n\n[해설]\n초기의 confident/reassured와 후반의 reconsider, willing to investigate가 대비되므로 확신에서 성찰적 탐구로의 변화입니다.",
     "wrong_explanations": {},
     "_reviewed": false
   },
@@ -7649,7 +7649,7 @@ const QUESTION_BANK = [
       "⑤ If evidence is mixed, decision-makers should avoid weighing the competing explanations at all."
     ],
     "answer": 4,
-    "explanation": "필자는 초기 판단을 그대로 유지하기보다 관찰의 조건과 반례를 반영해 결론을 조정해야 한다고 주장합니다.",
+    "explanation": "[지문 해석]\n한 화가가 기억을 바탕으로 그린 스케치와 현장에서 그린 스케치를 비교했다. 그녀는 기억이 장면을 중립적으로 그대로 보존할 것이라고 예상했다. 처음에는 그 설명이 그럴듯해 보였다. 더 이상의 설명 없이도 전달할 수 있는 간단한 설명을 제시했기 때문이다. 그러나 실제로 기억에서 그린 그림들은 그녀의 관심을 끈 형태들을 과장했다. 두 관찰자가 동일한 사실을 받아들이면서도 근저의 가정에 다른 중요성을 부여함으로써 서로 다른 판단에 이를 수 있다. 기억하기란 수동적 저장이 아니라 선택적 재구성이다. 타당한 설명이 결론을 일반적인 것으로 취급하기 전에 그러한 가정들을 명시적으로 드러내야 한다. 이 결론은 처음 가정과 동일하지 않으며, 나중의 관찰과 원래 측정의 한계를 설명해야 한다. 특히 새로운 증거는 초기의 설명이 모든 가능한 상황에서 잘못되었음을 증명하지 않으면서도 해석을 바꿀 타당성을 제공할 수 있다. 따라서 선호되는 해석은 초기의 기대와 그것을 복잡하게 만드는 증거를 모두 설명해야 하며, 단 하나의 사례가 보편적 규칙을 확립한다고 가정해서는 안 된다.\n\n[해설]\n필자는 초기 판단을 그대로 유지하기보다 관찰의 조건과 반례를 반영해 결론을 조정해야 한다고 주장합니다.",
     "wrong_explanations": {},
     "_reviewed": false
   },
@@ -7666,7 +7666,7 @@ const QUESTION_BANK = [
       "⑤ The Complete Failure of Observation in Practical Research"
     ],
     "answer": 1,
-    "explanation": "초기 설명과 후속 관찰의 불일치를 통해 더 정교한 판단으로 옮겨가는 글 전체를 포괄합니다.",
+    "explanation": "[지문 해석]\n한 천문학자가 여러 대의 소형 망원경으로부터 얻은 관측 자료를 결합했다. 한 후원자는 고가의 장비를 완벽한 관측 범위와 동일시했다. 처음에 그 설명은 매력적으로 보였다. 추가적인 설명 없이 전달될 수 있는 단순한 해석을 제시했기 때문이다. 실제로는 서로 다른 관측 시간대가 단일한 대형 망원경으로는 채울 수 없는 공백을 메워주었다. 그 결과는 유용한 단서를 제공하지만, 동일한 메커니즘이 모든 조건에서 작동할 것임을 증명하지는 못한다. 제한된 기기들 간의 협력은 귀중한 증거를 생산할 수 있다. 더욱 타당한 추론은 의도적으로 제한적이다. 즉, 모든 불확실성이 사라졌다고 주장하지 않으면서도 관찰된 대조를 설명한다. 이 결론은 처음의 가정과 동일하지 않다. 이후의 관찰과 원래 측정의 한계를 고려해야 한다. 특히 새로운 증거는 이전의 설명이 상상할 수 있는 모든 상황에서 잘못되었음을 증명하지 않으면서도 해석을 바꾸는 것을 정당화할 수 있다. 따라서 선호하는 해석은 초기의 기대와 그것을 복잡하게 만드는 증거를 모두 설명해야 하며, 단 하나의 사례가 보편적 원칙을 수립한다고 주장해서는 안 된다.\n\n[해설]\n초기 설명과 후속 관찰의 불일치를 통해 더 정교한 판단으로 옮겨가는 글 전체를 포괄합니다.",
     "wrong_explanations": {},
     "_reviewed": false
   },
@@ -7683,7 +7683,7 @@ const QUESTION_BANK = [
       "⑤번 문장"
     ],
     "answer": 4,
-    "explanation": "나머지 네 문장은 동일한 연구·관찰의 초기 가정과 결과, 수정된 결론을 연결하지만 해당 문장은 다른 주제로 전환되어 논리적 연속성이 없습니다.",
+    "explanation": "[지문 해석]\n① 한 지자체 팀이 작은 광장에서 투수성 포장도로를 시험해봤다. ② 판매 담당자들은 이 재료를 홍수 문제의 완벽한 해결책으로 광고했다. ③ 이 포장도로는 가벼운 빗물은 흡수했지만 그 아래 배수로가 막혀 있으면 기능을 제대로 하지 못했다. ④ 기상 위성들은 대기권 위의 궤도에서 이미지를 수집한다. ⑤ 기반시설은 하나의 시스템으로 작동하며 유지보수에 달려 있다.\n\n[해설]\n나머지 네 문장은 동일한 연구·관찰의 초기 가정과 결과, 수정된 결론을 연결하지만 해당 문장은 다른 주제로 전환되어 논리적 연속성이 없습니다.",
     "wrong_explanations": {},
     "_reviewed": false
   },
@@ -7700,7 +7700,7 @@ const QUESTION_BANK = [
       "⑤ replaced — unquestionable"
     ],
     "answer": 3,
-    "explanation": "초기 가정은 처음에는 지지를 받았지만 후속 관찰 때문에 해석에 조건과 한계를 명시해야 했으므로 supported — qualified가 가장 적절합니다.",
+    "explanation": "[지문 해석]\n한 셰프가 계절 메뉴에 상세한 유래 설명을 덧붙였다. 레스토랑은 정보만으로도 맛의 선호도가 결정될 것이라고 예상했다. 처음에는 그러한 설명이 매력적으로 보였다. 추가적인 설명 없이도 전달할 수 있는 간단한 해석을 제공했기 때문이다. 그러나 실제로 식객들은 낯선 채소에 호기심을 보였음에도 불구하고 일부 맛은 여전히 거부했다. 초기 예측도, 나중의 관찰도 무의미하지 않다. 실수는 둘 중 어느 하나를 완전한 설명으로 착각하는 것이다. 지식은 감각을 완전히 압도하지 않으면서도 선호도에 영향을 미칠 수 있다. 과제는 관찰 결과를 그것을 타당하게 설명할 수 있는 과정과 연결하는 것이다. 이 결론은 초기 가정과 동일하지 않다. 나중의 관찰과 원래 측정의 한계를 반영해야 한다. 특히 새로운 증거는 초기 설명이 모든 상황에서 틀렸음을 증명하지 않으면서도 해석을 바꿀 정당한 이유가 될 수 있다. 따라서 선호되는 해석은 초기 예상과 이를 복잡하게 만드는 증거 모두를 설명해야 하면서도, 단 하나의 사례가 보편적 법칙을 입증한다고 주장해서는 안 된다.\n\n[해설]\n초기 가정은 처음에는 지지를 받았지만 후속 관찰 때문에 해석에 조건과 한계를 명시해야 했으므로 supported — qualified가 가장 적절합니다.",
     "wrong_explanations": {},
     "_reviewed": false
   },
@@ -7717,7 +7717,7 @@ const QUESTION_BANK = [
       "⑤ the meaning of behavior can depend on different cultural expectations"
     ],
     "answer": 5,
-    "explanation": "기초 관찰: Some saw quiet as respect while others understood it as social exclusion. 초기 해석: A housing committee had imposed a single definition of friendliness. 따라서 The meaning of behavior can depend on different cultural expectations. 다만 단일 사례가 모든 상황으로 일반화되는 것은 아닙니다.",
+    "explanation": "[지문 해석]\n어느 사회학자가 공동 중정에서 침묵을 어떻게 해석하는지에 대한 이웃들의 관점을 비교했다. 주택 위원회는 친근함에 대한 단 하나의 정의를 강요했었다. 그러나 새로운 증거는 원래의 해석보다 더 많은 정보를 제공했다. 어떤 사람들은 조용함을 존중으로 보았던 반면, 다른 사람들은 그것을 사회적 배제로 이해했다. 어려운 점은 이전 해석의 매력과 그것이 나중의 관찰을 설명하는 데 실패한 점을 모두 설명하는 것이다. 증거는 __________라는 결론과 가장 일치한다. 타당한 선택은 국소적 발견을 보편적 규칙으로 바꾸지 않으면서 이러한 대조를 설명할 수 있어야 한다.\n\n[해설]\n기초 관찰: Some saw quiet as respect while others understood it as social exclusion. 초기 해석: A housing committee had imposed a single definition of friendliness. 따라서 The meaning of behavior can depend on different cultural expectations. 다만 단일 사례가 모든 상황으로 일반화되는 것은 아닙니다.",
     "wrong_explanations": {},
     "_reviewed": false
   },
@@ -7734,7 +7734,7 @@ const QUESTION_BANK = [
       "⑤번 위치"
     ],
     "answer": 1,
-    "explanation": "초기 해석과 상반되는 관찰이 나온 직후에 This discrepancy가 연결됩니다. 다른 위치에서는 discrepancy의 지시 대상이 불분명하거나 후속 판단의 인과 관계가 끊깁니다.",
+    "explanation": "[지문 해석]\n한 경제학자가 무료 공중 교통 시범 사업을 검토했다. 관계자들은 모든 추가 승객을 배출량 감소로 취급했다. 그러나 이용객은 증가했지만 많은 새로운 여행이 운전 대신 걷기를 대체했다. (①) 정책의 환경적 영향은 그것이 어떤 행동을 대체하는지에 따라 달라진다. (②) 연구팀은 다른 검증 방법을 검토했다. (③) 보고서는 이 발견의 한계를 강조했다. (④) 추가 관찰이 권장되었다. (⑤)\n\n[해설]\n초기 해석과 상반되는 관찰이 나온 직후에 This discrepancy가 연결됩니다. 다른 위치에서는 discrepancy의 지시 대상이 불분명하거나 후속 판단의 인과 관계가 끊깁니다.",
     "wrong_explanations": {},
     "_reviewed": false
   },
@@ -7751,7 +7751,7 @@ const QUESTION_BANK = [
       "⑤번 표시"
     ],
     "answer": 5,
-    "explanation": "⑤는 cautious로 고쳐야 합니다. 나머지 표시 표현은 해당 문장의 구조상 허용됩니다.",
+    "explanation": "[지문 해석]\n문학 학자는 모호한 시 의 여러 번역본을 연구했다. 그 팀은 증거를 ① 신중하게 검토했고 ② 기존의 결론이 여전히 정당한지를 물었다. 그들의 목적은 ③ 이전의 설명을 폐기하려는 것이 아니라 ④ 그 한계를 파악하려는 것이었다. 그 결과로 나온 설명은 첫 번째 설명보다 ⑤ 더 신중했다.\n\n[해설]\n⑤는 cautious로 고쳐야 합니다. 나머지 표시 표현은 해당 문장의 구조상 허용됩니다.",
     "wrong_explanations": {},
     "_reviewed": false
   },
@@ -7768,7 +7768,7 @@ const QUESTION_BANK = [
       "⑤번 표시"
     ],
     "answer": 1,
-    "explanation": "①의 certain는 주변 의미와 충돌합니다. tentative로 수정해야 초기 가설·반증·신중한 결론의 논리가 일관됩니다.",
+    "explanation": "[지문 해석]\n한 생물학자가 희귀 식물을 보호된 온실로 옮겼다. 보전 팀은 식물의 생존 여부만으로 성공을 판단했다. 식물들은 살아남았지만 더 이상 평소의 수분 매개자들로부터 방문을 받지 못했다. 아직 충분한 증거가 수집되지 않았기 때문에 처음의 해석은 반드시 (① 확실한) 것일 수밖에 없었다. 이후의 관찰은 그 해석이 근거하고 있던 예상을 (② 모순시켰다). 그 결과 연구진은 절대적 판단보다는 (③ 제한적인) 설명을 채택했다. 그들은 새로운 증거가 조사 중인 문제와 (④ 관련성이 있는지) 검토했다. 결론은 관찰이 이루어진 조건들로만 (⑤ 제한되었다).\n\n[해설]\n①의 certain는 주변 의미와 충돌합니다. tentative로 수정해야 초기 가설·반증·신중한 결론의 논리가 일관됩니다.",
     "wrong_explanations": {},
     "_reviewed": false
   },
@@ -7785,7 +7785,7 @@ const QUESTION_BANK = [
       "⑤ the claim that competing explanations cannot be evaluated with evidence"
     ],
     "answer": 1,
-    "explanation": "초기 기대와 다른 관찰을 통해 얻은 제한적인 결론이 요지입니다. 다른 선택지는 단정적 일반화 또는 근거 없는 판단입니다.",
+    "explanation": "[지문 해석]\n스포츠 코치가 선수들에게 경기 후 전술적 오류를 설명하도록 요구했다. 팀은 이전까지 플레이의 성공 여부로만 전략을 판단했다. 그러나 선수들은 잘못된 판단을 운이 없는 결과와 구분하는 법을 배웠다. 올바른 평가는 의사결정의 질을 즉각적인 결과로부터 분리한다.\n\n[해설]\n초기 기대와 다른 관찰을 통해 얻은 제한적인 결론이 요지입니다. 다른 선택지는 단정적 일반화 또는 근거 없는 판단입니다.",
     "wrong_explanations": {},
     "_reviewed": false
   },
@@ -7802,7 +7802,7 @@ const QUESTION_BANK = [
       "⑤ (B)-(A)-(C)"
     ],
     "answer": 3,
-    "explanation": "최초 가정 → 후속 관찰에 의한 반증·보완 → 수정된 판단이라는 인과 순서가 필수입니다. 따라서 (B)-(C)-(A)입니다.",
+    "explanation": "[지문 해석]\n한 역사가가 노동 파업 일지를 공식 기록과 비교했다.\n\n(A) 이에 조사팀은 더욱 신중한 추론을 채택했다. 서로 다른 사료는 서로 다른 역사적 질문에 답한다. 그들은 또한 어떤 추가 관찰이 필요할 것인지를 파악했다.\n\n(B) 추가 조사에 앞서 한 연구자는 개인 기록이 주관적이라는 이유로 그것을 쓸모없다고 치부했다. 이것은 프로젝트에 명확한, 비록 불완전하지만, 출발점을 제공했다.\n\n(C) 그 후의 증거는 그러한 예상을 복잡하게 만들었다. 일지는 공식 기록에서 빠진 두려움과 불확실성을 포착했다. 초기의 설명으로는 더 이상 전체 패턴을 설명할 수 없게 되었다.\n\n[해설]\n최초 가정 → 후속 관찰에 의한 반증·보완 → 수정된 판단이라는 인과 순서가 필수입니다. 따라서 (B)-(C)-(A)입니다.",
     "wrong_explanations": {},
     "_reviewed": false
   },
@@ -7819,7 +7819,7 @@ const QUESTION_BANK = [
       "⑤ To request a reassessment that accounts for conflicting evidence"
     ],
     "answer": 5,
-    "explanation": "편지의 핵심 요청은 기존 평가에 후속 관찰을 반영하고 초기 결론의 한계를 명시해 달라는 것입니다.",
+    "explanation": "[지문 해석]\n검토위원회께,\n\n한 식물학자가 묻힌 돌 주변에서 뿌리가 자라는 모습을 관찰했습니다. 교과서의 도표는 뿌리의 성장을 고정된 직선으로 표현했었습니다. 그러나 실제로 뿌리는 수분을 향해 계속 나아가면서도 방향을 바꾸었습니다. 저는 원래 프로젝트를 배척해 달라는 것이 아닙니다. 다만 그 평가에 이 추가 증거를 포함하고 초기 결론의 한계를 명확히 명시해 주기를 요청합니다. 이러한 변경이 없다면, 다음 펀딩 결정은 프로젝트의 실제 성과보다는 불완전한 지표에 보상을 할 수 있습니다.\n\n감사합니다,\n프로젝트 참여자 일동\n\n[해설]\n편지의 핵심 요청은 기존 평가에 후속 관찰을 반영하고 초기 결론의 한계를 명시해 달라는 것입니다.",
     "wrong_explanations": {},
     "_reviewed": false
   },
@@ -7836,7 +7836,7 @@ const QUESTION_BANK = [
       "⑤ from curiosity to indifference about the investigation"
     ],
     "answer": 4,
-    "explanation": "초기의 confident/reassured와 후반의 reconsider, willing to investigate가 대비되므로 확신에서 성찰적 탐구로의 변화입니다.",
+    "explanation": "[지문 해석]\n처음에는 겉보기에 단순명백한 설명에 안심했다. 그 사업 옹호자들은 비용 없이 이득만 있다고 설명했다. 어느 도시가 시끄러운 교차로를 작은 공공광장으로 바꿨다. 거리 노점상들은 고객이 늘었지만 배달 기사들은 새로운 경로가 필요하다는 사실을 알게 되자 내 확신이 흔들렸다. 내 예상을 뒷받침하는 결과에만 관심을 기울임으로써 얼마나 많은 것을 놓쳤을지 의문이 들었다. 그 설명을 공개적으로 옹호했기 때문에 이러한 한계를 인정하기 싫었다. 그러나 관찰 결과들을 더 주의 깊게 비교할수록 수정의 필요성이 더욱 명확해졌다. 결국 모든 세부 사항에 대해 여전히 불확실했지만, 처음 인상을 옹호하기보다는 더 깊이 조사하려는 마음이 생겼다.\n\n[해설]\n초기의 confident/reassured와 후반의 reconsider, willing to investigate가 대비되므로 확신에서 성찰적 탐구로의 변화입니다.",
     "wrong_explanations": {},
     "_reviewed": false
   },
@@ -7853,7 +7853,7 @@ const QUESTION_BANK = [
       "⑤ An observed difference should be treated as a universal rule without further examination."
     ],
     "answer": 1,
-    "explanation": "필자는 초기 판단을 그대로 유지하기보다 관찰의 조건과 반례를 반영해 결론을 조정해야 한다고 주장합니다.",
+    "explanation": "[지문 해석]\n한 박물관이 골동품 시계를 복원했지만 수리 흔적 하나를 의도적으로 남겨두었다. 일부 수집가들은 수리의 모든 흔적을 없애기를 원했다. 첫 번째 해석은 쉽게 눈에 띄는 특징에 초점을 맞췄기 때문에 그럴듯해 보였다. 그러나 방문객들은 후대 세대들이 어떻게 그 시계의 메커니즘을 작동하게 유지했는지를 이해했다. 이것이 앞서의 관찰을 쓸모없게 만들지는 않았다. 오히려 원래의 설명이 중요한 조건을 놓쳤다는 것을 드러냈다. 유지 보수의 역사 자체가 물건의 가치의 일부가 될 수 있다.\n\n[해설]\n필자는 초기 판단을 그대로 유지하기보다 관찰의 조건과 반례를 반영해 결론을 조정해야 한다고 주장합니다.",
     "wrong_explanations": {},
     "_reviewed": false
   },
@@ -7870,7 +7870,7 @@ const QUESTION_BANK = [
       "⑤ Why a Single Indicator Is Sufficient for Every Decision"
     ],
     "answer": 2,
-    "explanation": "초기 설명과 후속 관찰의 불일치를 통해 더 정교한 판단으로 옮겨가는 글 전체를 포괄합니다.",
+    "explanation": "[지문 해석]\n한 연구자가 태그와 현지 관찰을 이용해 조류 이동을 추적했다. 감독자는 더 정확한 출처만 선택하고 싶어 했다. 첫 번째 해석은 쉽게 관찰할 수 있는 특징에 초점을 맞췄기 때문에 그럴듯했다. 하지만 태그가 붙은 새들은 정확한 이동 경로를 제공한 반면, 자원봉사자들의 목격담은 더 넓은 지역을 포함했다. 이것이 초기 관찰을 쓸모없게 만들지는 않았다. 오히려 원래의 설명이 중요한 조건을 놓쳤음을 드러냈다. 정밀함과 광범위함을 결합하면 어느 한 출처도 단독으로는 제공할 수 없는 더 나은 그림을 얻을 수 있다.\n\n[해설]\n초기 설명과 후속 관찰의 불일치를 통해 더 정교한 판단으로 옮겨가는 글 전체를 포괄합니다.",
     "wrong_explanations": {},
     "_reviewed": false
   },
@@ -7887,7 +7887,7 @@ const QUESTION_BANK = [
       "⑤번 문장"
     ],
     "answer": 1,
-    "explanation": "나머지 네 문장은 동일한 연구·관찰의 초기 가정과 결과, 수정된 결론을 연결하지만 해당 문장은 다른 주제로 전환되어 논리적 연속성이 없습니다.",
+    "explanation": "[지문 해석]\n(①) 프로축구 리그는 시즌이 시작되기 전에 경기 일정을 공개한다. (②) 한 심리학자가 성과 피드백을 제공하는 두 가지 방식을 비교했다. (③) 관리자들은 긍정적인 평가만으로도 직원들의 개선 의욕을 불러일으킬 수 있다고 생각했다. (④) 일반적인 칭찬보다는 구체적인 행동 설명이 직원들의 개선에 더 효과적이었다. (⑤) 효과적인 피드백은 단순히 가치를 매기는 것이 아니라 변화 가능한 행동을 지적하는 것이다.\n\n[해설]\n나머지 네 문장은 동일한 연구·관찰의 초기 가정과 결과, 수정된 결론을 연결하지만 해당 문장은 다른 주제로 전환되어 논리적 연속성이 없습니다.",
     "wrong_explanations": {},
     "_reviewed": false
   },
@@ -7904,7 +7904,7 @@ const QUESTION_BANK = [
       "⑤ supported — qualified"
     ],
     "answer": 5,
-    "explanation": "초기 가정은 처음에는 지지를 받았지만 후속 관찰 때문에 해석에 조건과 한계를 명시해야 했으므로 supported — qualified가 가장 적절합니다.",
+    "explanation": "[지문 해석]\n한 주택가에서 쇼핑 아케이드 위에 작은 옥상 정원을 조성했다. 홍보물은 모든 녹색 지붕을 똑같이 지속 가능한 것으로 다루었다. 그러나 이 정원은 인근 실내를 식혀주는 반면 건조한 계절에는 상당한 양의 물이 필요했다. 환경적 이점은 그것이 소비하는 자원과 비교하여 신중하게 평가되어야 한다.\n\n[해설]\n초기 가정은 처음에는 지지를 받았지만 후속 관찰 때문에 해석에 조건과 한계를 명시해야 했으므로 supported — qualified가 가장 적절합니다.",
     "wrong_explanations": {},
     "_reviewed": false
   },
@@ -7921,7 +7921,7 @@ const QUESTION_BANK = [
       "⑤ the initial assumption must be rejected even in circumstances for which it was never tested"
     ],
     "answer": 3,
-    "explanation": "기초 관찰: Replacing a damaged component solved one problem but shifted stress elsewhere. 초기 해석: The first team had inspected each component separately. 따라서 Connections between components can create unexpected system-level effects. 다만 단일 사례가 모든 상황으로 일반화되는 것은 아닙니다.",
+    "explanation": "[지문 해석]\n한 엔지니어가 특정 하중에서 수리된 다리가 진동하는 이유를 조사했다. 첫 번째 팀은 각 부품을 따로 검사했다. 그러나 손상된 부품을 교체하면 한 가지 문제는 해결되었지만 스트레스가 다른 곳으로 이동했다. 증거는 다음 결론과 가장 일치한다: __________.\n\n[해설]\n기초 관찰: Replacing a damaged component solved one problem but shifted stress elsewhere. 초기 해석: The first team had inspected each component separately. 따라서 Connections between components can create unexpected system-level effects. 다만 단일 사례가 모든 상황으로 일반화되는 것은 아닙니다.",
     "wrong_explanations": {},
     "_reviewed": false
   },
@@ -7938,7 +7938,7 @@ const QUESTION_BANK = [
       "⑤번 위치"
     ],
     "answer": 2,
-    "explanation": "초기 해석과 상반되는 관찰이 나온 직후에 This discrepancy가 연결됩니다. 다른 위치에서는 discrepancy의 지시 대상이 불분명하거나 후속 판단의 인과 관계가 끊깁니다.",
+    "explanation": "[지문 해석]\n한 기자가 독자들에게 진행 중인 뉴스에서 불확실성을 표시해달라고 요청했다. 편집자들은 불확실성을 인정하는 것이 비전문적으로 보일까봐 우려했다. (①) 초기 주장이 미리 한정되었을 때 정정 사항을 더 쉽게 이해할 수 있었다. (②) 증거와 확신을 구별할 때 신뢰도가 높아질 수 있다. (③) 그 보고서는 연구 결과의 증거적 한계를 설명했다. (④) 후속 연구가 제안되었다. (⑤)\n\n[해설]\n초기 해석과 상반되는 관찰이 나온 직후에 This discrepancy가 연결됩니다. 다른 위치에서는 discrepancy의 지시 대상이 불분명하거나 후속 판단의 인과 관계가 끊깁니다.",
     "wrong_explanations": {},
     "_reviewed": false
   },
@@ -7955,7 +7955,7 @@ const QUESTION_BANK = [
       "⑤번 표시"
     ],
     "answer": 2,
-    "explanation": "②는 whose로 고쳐야 합니다. 나머지 표시 표현은 해당 문장의 구조상 허용됩니다.",
+    "explanation": "[지문 해석]\n한 교사가 학생들에게 동료 피드백을 받은 후 에세이를 수정하도록 했다. 그 결과는 원래의 가정을 어떻게 평가해야 할지에 (① about) 한 의문을 제기했다. 이전의 주장이 영향력 있었던 연구자들은 (② whom) 그것을 수정할 의향이 있었다. 그들은 그 관찰이 모든 상황에서 그 결과가 (④ that) 나타날 것임을 증명하지 못했음을 인정했다 (③ to revise). (⑤ would occur)\n\n[해설]\n②는 whose로 고쳐야 합니다. 나머지 표시 표현은 해당 문장의 구조상 허용됩니다.",
     "wrong_explanations": {},
     "_reviewed": false
   },
@@ -7972,7 +7972,7 @@ const QUESTION_BANK = [
       "⑤번 표시"
     ],
     "answer": 4,
-    "explanation": "④의 irrelevant는 주변 의미와 충돌합니다. relevant로 수정해야 초기 가설·반증·신중한 결론의 논리가 일관됩니다.",
+    "explanation": "[지문 해석]\n해안 마을이 취약한 조간대 지역으로의 관광객 방문을 제한했다. 지역 위원회는 보존을 단순한 접근 제한의 문제로 프레임화했다. 방문객이 줄어들수록 피해도 적었지만, 현지 가이드들은 수입을 잃었다. 초기 해석은 아직 수집된 증거가 거의 없었기 때문에 반드시 (① 임시적)이었다. 이후 관찰은 그 해석이 의존하고 있던 기대를 (② 반박했다). 연구자들은 결과적으로 무조건적인 판단 대신 (③ 한정된) 설명을 채택했다. 그들은 새로운 증거가 조사 중인 문제와 (④ 무관한지) 검토했다. 결론은 관찰이 이루어진 조건들로 (⑤ 제한되었다).\n\n[해설]\n④의 irrelevant는 주변 의미와 충돌합니다. relevant로 수정해야 초기 가설·반증·신중한 결론의 논리가 일관됩니다.",
     "wrong_explanations": {},
     "_reviewed": false
   },
@@ -7989,7 +7989,7 @@ const QUESTION_BANK = [
       "⑤ An instructor had equated memorability with weak security is justified in all settings"
     ],
     "answer": 2,
-    "explanation": "초기 기대와 다른 관찰을 통해 얻은 제한적인 결론이 요지입니다. 다른 선택지는 단정적 일반화 또는 근거 없는 판단입니다.",
+    "explanation": "[지문 해석]\n한 연구자가 사람들이 비밀번호를 선택하는 방식을 관찰했다. 한 강사는 기억하기 쉬운 것을 약한 보안과 같다고 생각했다. 처음의 해석은 쉽게 눈에 띄는 특징에 초점을 맞췄기 때문에 그럴듯해 보였다. 그러나 참가자들은 자의적인 짧은 문자열보다 독특한 문구를 더 잘 기억했다. 이것이 이전의 관찰을 무의미하게 만들지는 않았다. 오히려 원래의 설명이 중요한 조건을 놓쳤다는 것을 드러냈다. 보안 설계는 기술적 강도뿐 아니라 인간의 기억력도 고려해야 한다.\n\n[해설]\n초기 기대와 다른 관찰을 통해 얻은 제한적인 결론이 요지입니다. 다른 선택지는 단정적 일반화 또는 근거 없는 판단입니다.",
     "wrong_explanations": {},
     "_reviewed": false
   },
@@ -8006,7 +8006,7 @@ const QUESTION_BANK = [
       "⑤ (C)-(A)-(B)"
     ],
     "answer": 3,
-    "explanation": "최초 가정 → 후속 관찰에 의한 반증·보완 → 수정된 판단이라는 인과 순서가 필수입니다. 따라서 (A)-(B)-(C)입니다.",
+    "explanation": "[지문 해석]\n한 역사가가 오래된 인구조사의 공백을 분석했다.\n\n(A) 추가 조사 전에, 일부 독자들은 빈 칸을 이 사람들이 일하지 않았다는 증거로 해석했다. 이는 비록 불완전하지만 그 프로젝트에 명확한 출발점을 제공했다.\n\n(B) 그 후의 증거는 그러한 기대를 복잡하게 만들었다. 가족 사업에서 일하는 여성들은 종종 직업 기록 없이 기록되었던 것이다. 초기 설명으로는 더 이상 전체 패턴을 설명할 수 없었다.\n\n(C) 이에 대응하여, 조사자들은 더욱 신중한 추론을 채택했다. 누락된 기록은 정보를 수집할 때 사용된 범주를 반영할 수 있다는 것이다. 그들은 또한 어떤 추가 관찰이 필요할 것인지를 파악했다.\n\n[해설]\n최초 가정 → 후속 관찰에 의한 반증·보완 → 수정된 판단이라는 인과 순서가 필수입니다. 따라서 (A)-(B)-(C)입니다.",
     "wrong_explanations": {},
     "_reviewed": false
   },
@@ -8023,7 +8023,7 @@ const QUESTION_BANK = [
       "⑤ To request a reassessment that accounts for conflicting evidence"
     ],
     "answer": 5,
-    "explanation": "편지의 핵심 요청은 기존 평가에 후속 관찰을 반영하고 초기 결론의 한계를 명시해 달라는 것입니다.",
+    "explanation": "[지문 해석]\n검토 위원회 귀중,\n\n한 연구자가 버려진 가지에 대한 버섯의 반응을 연구했습니다. 한 관찰자는 죽은 나무를 더 이상의 생태학적 가치가 없는 것으로 분류했습니다. 실제로 곰팡이는 수분이 갇혀 있는 곳에서 분해를 가속화했습니다. 저는 원래의 프로젝트를 무시해 달라고 요청하는 것이 아닙니다. 그 평가에 추가 증거를 포함시키고 초기 결론의 한계를 명시적으로 언급해 주실 것을 요청합니다. 그러한 검토는 평가를 더욱 공정하게 만들 것입니다.\n\n진심으로,\n프로젝트 참여자\n\n[해설]\n편지의 핵심 요청은 기존 평가에 후속 관찰을 반영하고 초기 결론의 한계를 명시해 달라는 것입니다.",
     "wrong_explanations": {},
     "_reviewed": false
   },
@@ -8040,7 +8040,7 @@ const QUESTION_BANK = [
       "⑤ from confidence to reflective curiosity"
     ],
     "answer": 5,
-    "explanation": "초기의 confident/reassured와 후반의 reconsider, willing to investigate가 대비되므로 확신에서 성찰적 탐구로의 변화입니다.",
+    "explanation": "[지문 해석]\n처음에는 겉으로 보기에 단순명백한 설명에 안심했다. 어떤 비평가가 공연의 음향이 모든 관객에게 객관적으로 동일하다고 주장했기 때문이다. 한 오케스트라가 관객들을 여러 좌석 구역 사이를 이동하도록 초대했다. 청취자들이 서로 다른 위치에서 악기의 서로 다른 성부를 인식한다는 것을 알게 되었을 때, 내 확신은 흔들렸다. 내 예상을 뒷받침하는 결과에만 집중함으로써 내가 얼마나 많은 것을 놓쳤을지 궁금해했다. 그 설명을 공개적으로 옹호했던 터라 내 한계를 인정하기가 꺼려졌다. 그러나 관찰 결과들을 더 세심하게 비교할수록 수정의 필요성이 더욱 명확해졌다. 결국 모든 세부 사항에 대해 여전히 확실하지 않았지만, 나는 처음 인상을 옹호하기보다는 탐구하려는 마음이 더 생겼다.\n\n[해설]\n초기의 confident/reassured와 후반의 reconsider, willing to investigate가 대비되므로 확신에서 성찰적 탐구로의 변화입니다.",
     "wrong_explanations": {},
     "_reviewed": false
   },
@@ -8057,7 +8057,7 @@ const QUESTION_BANK = [
       "⑤ If evidence is mixed, decision-makers should avoid weighing the competing explanations at all."
     ],
     "answer": 3,
-    "explanation": "필자는 초기 판단을 그대로 유지하기보다 관찰의 조건과 반례를 반영해 결론을 조정해야 한다고 주장합니다.",
+    "explanation": "[지문 해석]\n한 교육용 앱이 수업을 단축하고 선택적 과제를 추가했다. 개발자들은 하나의 표준화된 순서가 모든 사람에게 적합할 것이라고 믿었다. 처음에는 이러한 설명이 매력적으로 보였다. 추가적인 설명 없이 전달할 수 있는 간단한 설명을 제시했기 때문이다. 실제로는 초급 학습자들이 더 많은 수업을 완료했고 고급 학습자들은 더 깊이 있는 과제를 선택했다. 두 관찰자가 동일한 사실을 인정하면서도 근본적인 가정에 다른 중요성을 부여하기 때문에 서로 다른 판단에 이를 수 있다. 개인화는 기대치를 낮추지 않으면서도 서로 다른 학습자들을 수용할 수 있다. 타당한 설명은 그 결론을 일반적인 것으로 취급하기 전에 먼저 그러한 가정들을 명확히 해야 한다. 이 결론은 처음의 가정과 동일하지 않으며, 나중의 관찰 결과와 원래 측정 방법의 한계를 고려해야 한다. 특히 새로운 증거는 이전의 설명이 생각할 수 있는 모든 상황에서 틀렸음을 증명하지 않으면서도 해석을 바꿀 정당성을 제공할 수 있다. 따라서 선호되는 해석은 초기의 기대와 이를 복잡하게 만드는 증거 모두를 설명해야 하며, 단순히 하나의 사례가 보편적 규칙을 입증한다고 가정해서는 안 된다.\n\n[해설]\n필자는 초기 판단을 그대로 유지하기보다 관찰의 조건과 반례를 반영해 결론을 조정해야 한다고 주장합니다.",
     "wrong_explanations": {},
     "_reviewed": false
   },
@@ -8074,7 +8074,7 @@ const QUESTION_BANK = [
       "⑤ The Complete Failure of Observation in Practical Research"
     ],
     "answer": 4,
-    "explanation": "초기 설명과 후속 관찰의 불일치를 통해 더 정교한 판단으로 옮겨가는 글 전체를 포괄합니다.",
+    "explanation": "[지문 해석]\n한 연구자가 인접한 거리들의 도시 온도를 측정했다. 관계자들은 멀리 떨어진 관측소의 평균 온도에만 의존했다. 처음에는 그 자료가 매력적으로 보였다. 추가적인 설명 없이 전달할 수 있는 단순한 설명을 제시했기 때문이다. 실제로 나무 그늘은 도시 전체 평균이 숨기고 있던 뚜렷한 온도 차이를 만들어냈다. 이 결과는 유용한 단서를 제공하지만, 동일한 메커니즘이 모든 조건에서 작동할 것임을 입증하지는 못한다. 지역적 조건은 종합적 측정과 크게 다를 수 있다. 더욱 타당한 추론은 의도적으로 제한적이다. 관찰된 대조를 설명하면서도 모든 불확실성이 사라졌다고 주장하지 않는다. 이 결론은 처음의 가정과 동일하지 않다. 후속 관찰과 원래 측정의 한계를 고려해야 한다. 특히 새로운 증거는 초기의 설명이 모든 가능한 상황에서 오류였다고 증명하지 않으면서도 해석을 바꿀 정당성을 제공할 수 있다. 따라서 선호되는 해석은 단일 사례가 보편적 법칙을 입증한다고 주장하지 않으면서, 초기의 기대와 이를 복잡하게 만드는 증거를 모두 설명해야 한다.\n\n[해설]\n초기 설명과 후속 관찰의 불일치를 통해 더 정교한 판단으로 옮겨가는 글 전체를 포괄합니다.",
     "wrong_explanations": {},
     "_reviewed": false
   },
@@ -8091,7 +8091,7 @@ const QUESTION_BANK = [
       "⑤번 문장"
     ],
     "answer": 3,
-    "explanation": "나머지 네 문장은 동일한 연구·관찰의 초기 가정과 결과, 수정된 결론을 연결하지만 해당 문장은 다른 주제로 전환되어 논리적 연속성이 없습니다.",
+    "explanation": "[지문 해석]\n① 한 해양 생물학자가 오래된 인공 암초와 새로운 인공 암초 근처의 어류 개체수를 비교했다. ② 한 보고서는 방문하는 모든 물고기를 서식지 복원의 증거로 계산했다. ③ 기상 위성은 대기권 위의 궤도에서 이미지를 수집한다. ④ 어린 암초는 물고기를 빠르게 끌어들였지만 즉시 번식을 지원하지는 못했다. ⑤ 한 장소에 대한 끌림은 생태계적 번식과 동일하지 않다.\n\n[해설]\n나머지 네 문장은 동일한 연구·관찰의 초기 가정과 결과, 수정된 결론을 연결하지만 해당 문장은 다른 주제로 전환되어 논리적 연속성이 없습니다.",
     "wrong_explanations": {},
     "_reviewed": false
   },
@@ -8108,7 +8108,7 @@ const QUESTION_BANK = [
       "⑤ challenged — categorical"
     ],
     "answer": 4,
-    "explanation": "초기 가정은 처음에는 지지를 받았지만 후속 관찰 때문에 해석에 조건과 한계를 명시해야 했으므로 supported — qualified가 가장 적절합니다.",
+    "explanation": "[지문 해석]\n한 역사학자가 가정용 전자제품 광고를 조사했다. 일반적인 통념은 기술이 단순히 가사노동을 없애준다고 가정했다. 그러나 제조업체들은 노동 절감을 강조했지만 흔히 일을 다른 가족 구성원에게 옮겼을 뿐이다. 혁신은 과제를 제거하기보다는 재분배하는 경향이 있다.\n\n[해설]\n초기 가정은 처음에는 지지를 받았지만 후속 관찰 때문에 해석에 조건과 한계를 명시해야 했으므로 supported — qualified가 가장 적절합니다.",
     "wrong_explanations": {},
     "_reviewed": false
   },
@@ -8125,7 +8125,7 @@ const QUESTION_BANK = [
       "⑤ a small number of reliable services mattered greatly to shift workers, which proves that the same result is inevitable everywhere"
     ],
     "answer": 4,
-    "explanation": "기초 관찰: A small number of reliable services mattered greatly to shift workers. 초기 해석: Budget meetings judged every route only by passengers per hour. 따라서 Public value may depend on who relies on a service, not merely its volume. 다만 단일 사례가 모든 상황으로 일반화되는 것은 아닙니다.",
+    "explanation": "[지문 해석]\n교통 계획가가 심야 버스 이용자들을 연구했다. 예산 회의에서는 모든 노선을 시간당 승객 수로만 판단했다. 그러나 적은 수의 안정적인 서비스가 교대 근무자들에게 매우 중요했다. 이 증거는 __________라는 결론이 가장 일관성 있음을 시사한다.\n\n[해설]\n기초 관찰: A small number of reliable services mattered greatly to shift workers. 초기 해석: Budget meetings judged every route only by passengers per hour. 따라서 Public value may depend on who relies on a service, not merely its volume. 다만 단일 사례가 모든 상황으로 일반화되는 것은 아닙니다.",
     "wrong_explanations": {},
     "_reviewed": false
   },
@@ -8142,7 +8142,7 @@ const QUESTION_BANK = [
       "⑤번 위치"
     ],
     "answer": 3,
-    "explanation": "초기 해석과 상반되는 관찰이 나온 직후에 This discrepancy가 연결됩니다. 다른 위치에서는 discrepancy의 지시 대상이 불분명하거나 후속 판단의 인과 관계가 끊깁니다.",
+    "explanation": "[지문 해석]\n한 연구자가 서로 다른 재질의 지붕에서 빗물을 수집했다. (①) 한 지역사회 캠페인은 수집된 양을 안전한 음용수와 동일시했다. (②) 일부 지붕은 많은 양을 수집했음에도 불구하고 오염물질을 배출했다. (③) 양과 안전성은 자원의 별개의 측면이다. (④) 추가 평가가 권장되었다. (⑤)\n\n[해설]\n초기 해석과 상반되는 관찰이 나온 직후에 This discrepancy가 연결됩니다. 다른 위치에서는 discrepancy의 지시 대상이 불분명하거나 후속 판단의 인과 관계가 끊깁니다.",
     "wrong_explanations": {},
     "_reviewed": false
   },
@@ -8159,7 +8159,7 @@ const QUESTION_BANK = [
       "⑤번 표시"
     ],
     "answer": 1,
-    "explanation": "①는 has로 고쳐야 합니다. 나머지 표시 표현은 해당 문장의 구조상 허용됩니다.",
+    "explanation": "[지문 해석]\n한 극장 감독이 다양한 조명으로 같은 장면을 연습했다. 그 팀은 (① have) 여러 해석을 검토했다. 별도로 (② were) 검토된 관찰 결과들은 (③ each) 설명이 한계를 가지고 있음을 보여주었다. 핵심적인 이유 중 하나는 초기 가정이 중요한 증거를 간과했다는 것이다 (④ is). 연구팀은 (⑤ therefore) 수정된 설명을 제안했다.\n\n[해설]\n①는 has로 고쳐야 합니다. 나머지 표시 표현은 해당 문장의 구조상 허용됩니다.",
     "wrong_explanations": {},
     "_reviewed": false
   },
@@ -8176,7 +8176,7 @@ const QUESTION_BANK = [
       "⑤번 표시"
     ],
     "answer": 2,
-    "explanation": "②의 confirmed는 주변 의미와 충돌합니다. contradicted로 수정해야 초기 가설·반증·신중한 결론의 논리가 일관됩니다.",
+    "explanation": "[지문 해석]\n한 도서관이 자동 추천 시스템과 인간이 선별한 목록을 비교했다. 두 시스템 모두 모든 유용한 연결고리를 포착하지는 못했다. 알고리즘은 빈번한 대출 현황을 반영한 반면, 사서들은 간과된 주제들을 드러냈다. 첫 번째 해석은 아직 수집된 증거가 거의 없었기 때문에 반드시 ① 잠정적이었다. 나중의 관찰은 그 해석이 의존하고 있던 기대를 ② 확인했다. 결과적으로 연구자들은 무조건적인 결론 대신 ③ 제한적인 설명을 채택했다. 그들은 새로운 증거가 조사 중인 질문과 ④ 관련이 있는지를 검토했다. 결론은 관찰이 이루어진 조건들로 ⑤ 제한되었다.\n\n[해설]\n②의 confirmed는 주변 의미와 충돌합니다. contradicted로 수정해야 초기 가설·반증·신중한 결론의 논리가 일관됩니다.",
     "wrong_explanations": {},
     "_reviewed": false
   },
@@ -8193,7 +8193,7 @@ const QUESTION_BANK = [
       "⑤ the claim that competing explanations cannot be evaluated with evidence"
     ],
     "answer": 4,
-    "explanation": "초기 기대와 다른 관찰을 통해 얻은 제한적인 결론이 요지입니다. 다른 선택지는 단정적 일반화 또는 근거 없는 판단입니다.",
+    "explanation": "[지문 해석]\n한 강 과학자가 댐에서 물을 방류한 후의 변화를 조사했다. 관찰자들은 하천 바닥이 즉시 회복될 것으로 예상했다. 처음에는 그 설명이 매력적으로 보였다. 추가적인 설명 없이 전달할 수 있는 단순한 설명을 제시했기 때문이다. 실제로는 유량이 정상으로 돌아온 후에도 퇴적물이 천천히 하류로 이동했다. 두 관찰자가 동일한 사실을 받아들이면서도 근본적인 가정에 다른 중요성을 부여했기 때문에 서로 다른 판단에 도달할 수 있었다. 환경 체계는 개입 후 지연된 결과를 보여줄 수 있다. 적절한 설명은 결론을 일반화하기 전에 이러한 가정들을 명확히 해야 한다. 이 결론은 첫 번째 가정과 동일하지 않으며, 나중의 관찰과 원래 측정의 한계를 고려해야 한다. 특히 새로운 증거는 초기의 설명이 모든 상황에서 틀렸다는 것을 입증하지 않으면서도 해석을 바꿀 정당성을 제공할 수 있다. 따라서 선호되는 해석은 초기의 예상과 이를 복잡하게 만드는 증거를 모두 설명해야 하며, 단 하나의 사례가 보편적인 규칙을 확립한다고 주장해서는 안 된다.\n\n[해설]\n초기 기대와 다른 관찰을 통해 얻은 제한적인 결론이 요지입니다. 다른 선택지는 단정적 일반화 또는 근거 없는 판단입니다.",
     "wrong_explanations": {},
     "_reviewed": false
   },
@@ -8210,7 +8210,7 @@ const QUESTION_BANK = [
       "⑤ (A)-(B)-(C)"
     ],
     "answer": 3,
-    "explanation": "최초 가정 → 후속 관찰에 의한 반증·보완 → 수정된 판단이라는 인과 순서가 필수입니다. 따라서 (C)-(A)-(B)입니다.",
+    "explanation": "[지문 해석]\n한 인류학자가 매년 열리는 지역 요리 축제를 기록했다.\n\n(C) 추가 조사 전에 주최자들은 어떤 변화든 진정성을 파괴한다고 주장했다. 이는 그 프로젝트에 명확하지만 불완전한 출발점을 제공했다.\n\n(A) 그 후의 증거는 그러한 예상을 복잡하게 만들었다. 젊은 주민들이 레시피를 새로운 재료에 맞게 조정하면서 조리법이 변했던 것이다. 초기 주장으로는 더 이상 전체 패턴을 설명할 수 없었다.\n\n(B) 이에 대응하여 조사자들은 더욱 신중한 추론을 채택했다. 전통은 완벽한 반복보다는 적응을 통해 지속될 수 있다는 것이다. 그들은 또한 어떤 추가 관찰이 필요할지도 파악했다.\n\n[해설]\n최초 가정 → 후속 관찰에 의한 반증·보완 → 수정된 판단이라는 인과 순서가 필수입니다. 따라서 (C)-(A)-(B)입니다.",
     "wrong_explanations": {},
     "_reviewed": false
   },
@@ -8227,7 +8227,7 @@ const QUESTION_BANK = [
       "⑤ To request a larger budget without discussing evaluation criteria"
     ],
     "answer": 1,
-    "explanation": "편지의 핵심 요청은 기존 평가에 후속 관찰을 반영하고 초기 결론의 한계를 명시해 달라는 것입니다.",
+    "explanation": "[지문 해석]\n검토 위원회께,\n\n한 학교에서 조용한 공간이 학습에 미치는 영향을 측정했습니다. 행정 담당자들은 하나의 이상적인 학습 환경을 강제하려고 했습니다. 실제로 어떤 학생들은 혼자일 때 더 잘 공부했던 반면, 다른 학생들은 아이디어를 명확히 하기 위해 짧은 토론이 필요했습니다. 저는 원래의 프로젝트를 폐기하라고 요청하는 것이 아닙니다. 대신 그 평가에 추가 증거를 포함하고 초기 결론의 한계를 명시적으로 서술할 것을 요청합니다. 이러한 검토는 평가를 더욱 공정하게 만들 것입니다.\n\n진심으로,\n프로젝트 참여자\n\n[해설]\n편지의 핵심 요청은 기존 평가에 후속 관찰을 반영하고 초기 결론의 한계를 명시해 달라는 것입니다.",
     "wrong_explanations": {},
     "_reviewed": false
   },
@@ -8244,7 +8244,7 @@ const QUESTION_BANK = [
       "⑤ from distrust of the team to unconditional hostility"
     ],
     "answer": 4,
-    "explanation": "초기의 confident/reassured와 후반의 reconsider, willing to investigate가 대비되므로 확신에서 성찰적 탐구로의 변화입니다.",
+    "explanation": "[지문 해석]\n처음에는 겉으로 단순해 보이는 설명에 안심했다. 어떤 팀은 신체활동이 웰빙을 완전히 포착할 수 있다고 가정했다. 임상 연구원은 자가 보고된 피로를 활동 기록과 비교했다. 감정적 스트레스가 있는 날에 측정값들이 가장 크게 벗어난다는 것을 알게 되자, 나의 확신이 흔들렸다. 내 기대를 뒷받침하는 결과에만 집중함으로써 얼마나 많은 것을 놓쳤을까 하는 의문이 들었다. 나는 그 전의 설명을 공개적으로 옹호했기 때문에 이러한 한계를 인정하기 싫었다. 그러나 관찰 결과들을 더 자세히 비교할수록 수정의 필요성이 더욱 명확해졌다. 결국 나는 모든 세부 사항에 대해 여전히 확실하지 않았지만, 처음 인상을 옹호하기보다는 이를 조사하려는 의지가 더욱 생겼다.\n\n[해설]\n초기의 confident/reassured와 후반의 reconsider, willing to investigate가 대비되므로 확신에서 성찰적 탐구로의 변화입니다.",
     "wrong_explanations": {},
     "_reviewed": false
   },
@@ -8261,7 +8261,7 @@ const QUESTION_BANK = [
       "⑤ Decisions should retain the original assumption because the original project focused only on paint and signs."
     ],
     "answer": 2,
-    "explanation": "필자는 초기 판단을 그대로 유지하기보다 관찰의 조건과 반례를 반영해 결론을 조정해야 한다고 주장합니다.",
+    "explanation": "[지문 해석]\n어느 도시가 학교로 가는 안전한 경로를 포장도로에 그려 표시했다. 원래 프로젝트는 페인트와 표지판에만 초점을 맞추었다. 처음에는 이 설명이 매력적으로 보였다. 추가 설명 없이도 전달할 수 있는 단순한 해석을 제시했기 때문이다. 실제로 건널목이 감시를 받고 부모들이 지도를 이해했을 때 아이들이 더 많이 이용했다. 초기 설명은 친숙한 성공 기준에 호소했지만, 그 기준은 관찰에서 누가 혹은 무엇이 제외되었는지를 무시했다. 기반시설은 물리적 설계와 사회적 관행이 서로를 강화할 때 작동한다. 더 나은 판단을 위해서는 증거가 직접적으로 입증하는 것과 누군가가 주장하고자 하는 더 큰 주장을 구별해야 한다. 이 결론은 처음의 가정과 동일하지 않다. 나중의 관찰과 원래 기준의 한계를 고려해야 한다. 특히 새로운 증거는 초기 설명이 상상 가능한 모든 상황에서 잘못되었음을 증명하지 않고도 해석을 바꿀 정당성을 제공할 수 있다. 따라서 선호되는 해석은 초기의 기대와 그것을 복잡하게 만드는 증거를 모두 설명해야 하며, 단일한 사례가 보편적 규칙을 입증한다고 주장해서는 안 된다.\n\n[해설]\n필자는 초기 판단을 그대로 유지하기보다 관찰의 조건과 반례를 반영해 결론을 조정해야 한다고 주장합니다.",
     "wrong_explanations": {},
     "_reviewed": false
   },
@@ -8278,7 +8278,7 @@ const QUESTION_BANK = [
       "⑤ When Background Details Replace All Empirical Evidence"
     ],
     "answer": 4,
-    "explanation": "초기 설명과 후속 관찰의 불일치를 통해 더 정교한 판단으로 옮겨가는 글 전체를 포괄합니다.",
+    "explanation": "[지문 해석]\n한 역사가가 취소된 원정의 이야기를 재구성했다. 나중에 나온 회고록은 그 실패의 원인을 한 사람에게 돌렸다. 처음에 이 설명은 매력적으로 보였다. 더 이상의 설명 없이도 전달할 수 있는 단순한 설명을 제시했기 때문이었다. 실제로 편지들은 한 건의 극적인 분쟁이 아니라 실질적인 지연들이 그 결정을 초래했음을 보여주었다. 이 결과의 놀라운 특징은 그 규모가 아니라 예상했던 원인과 실제로 관찰된 원인 사이의 불일치였다. 단순한 서사는 평범한 원인들의 축적을 가릴 수 있다. 따라서 결론은 가장 눈에 띄는 결과를 단순히 반복하기보다는 두 가지 해석을 비교하는 데 달려 있다. 이 결론은 처음 가정과 동일하지 않으며, 이후의 관찰과 원래 추정의 한계를 설명해야 한다. 특히 새로운 증거는 이전 설명이 모든 상황에서 잘못되었다는 것을 증명하지 않으면서도 해석을 바꾸는 것을 정당화할 수 있다. 결과적으로 선호되는 해석은 초기의 예상과 그것을 복잡하게 하는 증거를 모두 설명해야 하며, 단 하나의 사례가 보편적 규칙을 확립한다고 가정해서는 안 된다.\n\n[해설]\n초기 설명과 후속 관찰의 불일치를 통해 더 정교한 판단으로 옮겨가는 글 전체를 포괄합니다.",
     "wrong_explanations": {},
     "_reviewed": false
   },
@@ -8295,7 +8295,7 @@ const QUESTION_BANK = [
       "⑤번 문장"
     ],
     "answer": 5,
-    "explanation": "나머지 네 문장은 동일한 연구·관찰의 초기 가정과 결과, 수정된 결론을 연결하지만 해당 문장은 다른 주제로 전환되어 논리적 연속성이 없습니다.",
+    "explanation": "[지문 해석]\n①) 한 화학자는 생분해성 컵이 가정에서 천천히 분해되는 이유를 연구했다. ②) 마케팅은 생분해성을 무조건적인 특성으로 홍보했다. ③) 그 물질은 통제된 산업 조건에서만 빠르게 분해되었다. ④) 재료의 환경 영향은 폐기 방식에 따라 결정된다. ⑤) 프로 풋볼 리그는 시즌이 시작되기 전에 경기 일정을 발표한다.\n\n[해설]\n나머지 네 문장은 동일한 연구·관찰의 초기 가정과 결과, 수정된 결론을 연결하지만 해당 문장은 다른 주제로 전환되어 논리적 연속성이 없습니다.",
     "wrong_explanations": {},
     "_reviewed": false
   },
@@ -8312,7 +8312,7 @@ const QUESTION_BANK = [
       "⑤ unrelated — absolute"
     ],
     "answer": 4,
-    "explanation": "초기 가정은 처음에는 지지를 받았지만 후속 관찰 때문에 해석에 조건과 한계를 명시해야 했으므로 supported — qualified가 가장 적절합니다.",
+    "explanation": "[지문 해석]\n한 사진작가가 거리 풍경 사진에서 방해가 되는 광고들을 제거했다. 원래 사진은 모든 것을 동등하게 보여준다고 가정되었다. 처음에는 이러한 설명이 매력적으로 보였다. 추가적인 설명 없이도 전달할 수 있는 단순한 설명을 제시했기 때문이다. 실제로 관찰자들은 반복되는 건축물과 방치된 상점들을 갑자기 인식하게 되었다. 빠른 평가는 즉시 측정할 수 있는 결과에 보상을 주겠지만, 체계의 다른 곳에 미치는 비용을 간과할 수 있다. 주의는 포함을 통해서만큼이나 생략을 통해서도 이끌어질 수 있다. 중요한 질문은 이러한 간접적인 효과들이 포함되면 그 효과가 지속되는가 하는 것이다. 이 결론은 처음의 가정과 동일하지 않으며, 이후의 관찰과 원래 측정의 한계를 고려해야 한다. 특히 새로운 증거는 초기의 설명이 모든 상황에서 틀렸다는 것을 증명하지 않으면서도 해석을 바꾸는 것을 정당화할 수 있다. 따라서 선호되는 해석은 단일한 사례가 보편적인 규칙을 입증한다는 척하지 않으면서도 초기의 기대와 그것을 더 복잡하게 만드는 증거 모두를 설명해야 한다.\n\n[해설]\n초기 가정은 처음에는 지지를 받았지만 후속 관찰 때문에 해석에 조건과 한계를 명시해야 했으므로 supported — qualified가 가장 적절합니다.",
     "wrong_explanations": {},
     "_reviewed": false
   },
@@ -8329,7 +8329,7 @@ const QUESTION_BANK = [
       "⑤ coordination can reveal structure hidden within isolated measurements"
     ],
     "answer": 5,
-    "explanation": "기초 관찰: A pattern emerged only after several sensors were synchronized. 초기 해석: One station's readings appeared to be unrelated noise. 따라서 Coordination can reveal structure hidden within isolated measurements. 다만 단일 사례가 모든 상황으로 일반화되는 것은 아닙니다.",
+    "explanation": "[지문 해석]\n지질학자가 화산 근처의 미세한 진동을 지도에 표시했다. 한 관측소의 측정값은 관련 없는 노이즈로 보였다. 그러나 새로운 증거는 원래의 해석보다 더 많은 정보를 제공했다: 여러 센서를 동기화한 후에야 패턴이 드러났다. 문제는 초기 해석의 타당성과 나중의 관찰을 설명하지 못한 한계를 모두 설명해야 한다는 것이다. 증거는 다음 결론과 가장 일치한다: __________. 타당한 선택은 국소적 발견을 보편적 규칙으로 전환하지 않으면서도 이러한 대조를 설명해야 한다.\n\n[해설]\n기초 관찰: A pattern emerged only after several sensors were synchronized. 초기 해석: One station's readings appeared to be unrelated noise. 따라서 Coordination can reveal structure hidden within isolated measurements. 다만 단일 사례가 모든 상황으로 일반화되는 것은 아닙니다.",
     "wrong_explanations": {},
     "_reviewed": false
   },
@@ -8346,7 +8346,7 @@ const QUESTION_BANK = [
       "⑤번 위치"
     ],
     "answer": 4,
-    "explanation": "초기 해석과 상반되는 관찰이 나온 직후에 This discrepancy가 연결됩니다. 다른 위치에서는 discrepancy의 지시 대상이 불분명하거나 후속 판단의 인과 관계가 끊깁니다.",
+    "explanation": "[지문 해석]\n이 프로젝트는 처음에는 단순해 보이는 설명을 검증하기 위해 설계되었다. (①) 한 사회복지사가 지역사회 약속을 위한 알림 메시지를 테스트했다. (②) 기관은 평균 출석률의 증가를 보고했다. (③) 메시지는 안정적인 휴대폰을 소유한 참가자들에게는 효과적이었지만, 기기를 공유하는 사람들에게는 도움이 되지 않았다. (④) 실질적인 개입은 접근성 격차를 남겨두면서도 평균을 개선할 수 있다. (⑤)\n\n[해설]\n초기 해석과 상반되는 관찰이 나온 직후에 This discrepancy가 연결됩니다. 다른 위치에서는 discrepancy의 지시 대상이 불분명하거나 후속 판단의 인과 관계가 끊깁니다.",
     "wrong_explanations": {},
     "_reviewed": false
   },
@@ -8363,7 +8363,7 @@ const QUESTION_BANK = [
       "⑤번 표시"
     ],
     "answer": 1,
-    "explanation": "①는 describes로 고쳐야 합니다. 나머지 표시 표현은 해당 문장의 구조상 허용됩니다.",
+    "explanation": "[지문 해석]\n한 과학자가 화재 이후 숲이 어떻게 회복되는지 조사했다. 그 보고서는 (① describe) 원래의 설명이 왜 설득력이 있었는지를 밝혀냈다. 나중에 (② collected) 증거는 그 문제를 더욱 복잡하게 만들었다. 불일치를 (③ ignoring) 하기보다는, 조사자들은 그것이 무엇을 드러내는지 생각해 보았다. 그들의 결론은 (④ was) 의도적으로 한정적이었으며 (⑤ remained) 추가 검증에 열려 있었다.\n\n[해설]\n①는 describes로 고쳐야 합니다. 나머지 표시 표현은 해당 문장의 구조상 허용됩니다.",
     "wrong_explanations": {},
     "_reviewed": false
   },
@@ -8380,7 +8380,7 @@ const QUESTION_BANK = [
       "⑤번 표시"
     ],
     "answer": 5,
-    "explanation": "⑤의 universal는 주변 의미와 충돌합니다. limited로 수정해야 초기 가설·반증·신중한 결론의 논리가 일관됩니다.",
+    "explanation": "[지문 해석]\n교통 당국이 승객들에게 불편한 환승에 대해 보고해 달라고 요청했다. 계획자들은 단계의 수를 줄이는 것에만 집중했다. 가장 빈번한 불만은 걷는 거리보다는 불확실성에 관한 것이었다. 초기 해석은 아직 수집된 증거가 거의 없었기 때문에 필연적으로 (① 임시적)이었다. 나중의 관찰은 그 해석이 의존하고 있던 예상을 (② 모순)했다. 연구원들은 결과적으로 무조건적인 판단보다는 (③ 제한적인) 설명을 채택했다. 그들은 새로운 증거가 조사 중인 질문과 (④ 관련)이 있는지 검토했다. 결론은 관찰이 이루어진 조건들에 (⑤ 국한)되었다.\n\n[해설]\n⑤의 universal는 주변 의미와 충돌합니다. limited로 수정해야 초기 가설·반증·신중한 결론의 논리가 일관됩니다.",
     "wrong_explanations": {},
     "_reviewed": false
   },
@@ -8397,7 +8397,7 @@ const QUESTION_BANK = [
       "⑤ the claim that competing explanations cannot be evaluated with evidence"
     ],
     "answer": 3,
-    "explanation": "초기 기대와 다른 관찰을 통해 얻은 제한적인 결론이 요지입니다. 다른 선택지는 단정적 일반화 또는 근거 없는 판단입니다.",
+    "explanation": "[지문 해석]\n어떤 철학자가 일상적인 경우와 예외적인 경우를 위해 설계된 규칙들을 비교했다. 한 위원회는 일관성이 항상 예외를 거부할 것을 요구한다고 가정했다. 처음에는 그러한 설명이 매력적으로 보였다. 추가적인 수식 없이 의사소통할 수 있는 단순한 설명을 제시했기 때문이다. 그러나 실제로는 엄격한 규칙이 일반적인 상황에서는 공정성을 가져왔지만 드문 상황에서는 해를 끼쳤다. 초기의 설명은 친숙한 성공의 척도에 호소했지만, 그 척도는 관찰에서 제외된 대상을 무시했다. 정의는 때때로 규칙 뒤에 숨은 목적을 살펴볼 것을 요구한다. 더 나은 판단을 위해서는 증거가 직접 입증하는 것과 누군가가 입증하기를 희망하는 더 큰 주장을 구별해야 한다. 이러한 결론은 초기의 가정과 동일하지 않다. 나중의 관찰을 고려해야 하고 원래의 척도의 한계도 설명해야 한다. 특히 새로운 증거는 이전의 설명이 모든 상황에서 잘못되었다는 것을 증명하지 않으면서도 해석의 변경을 정당화할 수 있다. 따라서 선호되는 해석은 초기의 예상과 그것을 복잡하게 만드는 증거를 모두 설명해야 하면서도, 단 하나의 사례가 보편적인 규칙을 입증한다고 가정해서는 안 된다.\n\n[해설]\n초기 기대와 다른 관찰을 통해 얻은 제한적인 결론이 요지입니다. 다른 선택지는 단정적 일반화 또는 근거 없는 판단입니다.",
     "wrong_explanations": {},
     "_reviewed": false
   },
@@ -8414,7 +8414,7 @@ const QUESTION_BANK = [
       "⑤ (A)-(B)-(C)"
     ],
     "answer": 3,
-    "explanation": "최초 가정 → 후속 관찰에 의한 반증·보완 → 수정된 판단이라는 인과 순서가 필수입니다. 따라서 (B)-(A)-(C)입니다.",
+    "explanation": "[지문 해석]\n한 연구자가 엔지니어들이 팀을 이루어 낯선 퍼즐을 푸는 과정을 관찰했다.\n\n(B) 추가 조사에 앞서, 한 관리자는 제안이 완성될 때까지 이를 금지했었다. 이는 그 프로젝트에 명확하지만 불완전한 출발점을 제공했다.\n\n(A) 그 후 나온 증거는 그러한 기대를 복잡하게 만들었다. 미완성의 초기 아이디어를 공유한 팀들이 완성된 솔루션을 기다린 팀들보다 더 빠르게 진전했던 것이다. 초기의 설명은 더 이상 전체 패턴을 설명할 수 없었다.\n\n(C) 이에 따라 연구자들은 더욱 신중한 추론을 채택했다. 잠정적 사고를 허용하면 집단 문제 해결을 가속화할 수 있다는 것이다. 그들은 또한 어떤 추가 관찰이 필요할지도 파악했다.\n\n[해설]\n최초 가정 → 후속 관찰에 의한 반증·보완 → 수정된 판단이라는 인과 순서가 필수입니다. 따라서 (B)-(A)-(C)입니다.",
     "wrong_explanations": {},
     "_reviewed": false
   },
@@ -8431,7 +8431,7 @@ const QUESTION_BANK = [
       "⑤ To invite committee members to an unrelated public celebration"
     ],
     "answer": 4,
-    "explanation": "편지의 핵심 요청은 기존 평가에 후속 관찰을 반영하고 초기 결론의 한계를 명시해 달라는 것입니다.",
+    "explanation": "[지문 해석]\n평가위원회 귀중,\n\n한 양봉업자가 여러 계곡의 개화 시기를 기록했습니다. 농장 보고서는 연간 총 개화 수만 집중했습니다. 실제로 비정상적인 따뜻함으로 인해 꽃들이 일부 수분 매개자의 도래보다 먼저 피었습니다. 저는 원래 프로젝트를 기각하도록 요청하는 것이 아닙니다. 다만 그 평가에 추가 증거를 포함하고 초기 결론의 한계를 명시적으로 밝혀줄 것을 요청합니다. 이러한 변경이 없으면, 다음 자금 지원 결정은 프로젝트의 실제 성과가 아닌 불완전한 지표에 보상을 줄 수 있습니다.\n\n진심으로,\n프로젝트 참여자 일동\n\n[해설]\n편지의 핵심 요청은 기존 평가에 후속 관찰을 반영하고 초기 결론의 한계를 명시해 달라는 것입니다.",
     "wrong_explanations": {},
     "_reviewed": false
   },
@@ -8448,7 +8448,7 @@ const QUESTION_BANK = [
       "⑤ from disappointment to certainty that all questions are settled"
     ],
     "answer": 2,
-    "explanation": "초기의 confident/reassured와 후반의 reconsider, willing to investigate가 대비되므로 확신에서 성찰적 탐구로의 변화입니다.",
+    "explanation": "[지문 해석]\n처음에는 겉보기에 간단한 설명에 안심했다. 복원가들은 광택 처리가 공개 사용의 증거를 지워버릴 것인지에 대해 논쟁했다. 한 미술사학자는 공개 동상의 스크래치를 살펴봤다. 어떤 흔적들이 수백 년간 방문객들이 표면을 만져온 것에서 비롯되었다는 것을 알게 되자, 나의 확신이 흔들렸다. 내 기대를 뒷받침하는 결과에만 주목함으로써 내가 얼마나 많은 것을 놓쳤을지 의문이 들었다. 나는 내 판단을 다시 생각해 봤다. 결국 모든 세부 사항에 대해 여전히 확실하지 않았지만, 내 첫인상을 고수하기보다 조사하려는 의향이 더 생겼다.\n\n[해설]\n초기의 confident/reassured와 후반의 reconsider, willing to investigate가 대비되므로 확신에서 성찰적 탐구로의 변화입니다.",
     "wrong_explanations": {},
     "_reviewed": false
   },
@@ -8465,7 +8465,7 @@ const QUESTION_BANK = [
       "⑤ An observed difference should be treated as a universal rule without further examination."
     ],
     "answer": 4,
-    "explanation": "필자는 초기 판단을 그대로 유지하기보다 관찰의 조건과 반례를 반영해 결론을 조정해야 한다고 주장합니다.",
+    "explanation": "[지문 해석]\n어느 도시가 공유 화물 자전거 프로그램을 시범 운영했다. 스폰서들은 전체 대여 증가를 완전한 성공으로 언급했다. 처음에는 이러한 설명이 매력적으로 보였다. 왜냐하면 추가 설명 없이도 전달할 수 있는 단순한 설명을 제공했기 때문이다. 실제로 가족들은 이 자전거를 심부름에 사용했지만, 가파른 언덕에 사는 사용자들은 참여도가 낮았다. 두 명의 관찰자가 동일한 사실을 받아들이더라도 기저에 있는 가정에 다른 중요성을 부여했기 때문에 서로 다른 판단에 도달할 수 있다. 프로그램 평가는 총합 수치에 숨겨진 지리적 장벽을 고려해야 한다. 적절한 설명은 결론을 일반적인 것으로 취급하기 전에 그러한 가정을 명확히 해야 한다. 이 결론은 첫 번째 가정과 동일하지 않으며, 나중의 관찰과 원래 측정 방법의 한계를 고려해야 한다. 특히 새로운 증거는 초기 설명이 모든 상황에서 잘못되었음을 증명하지 않으면서도 해석을 바꿀 정당성을 제공할 수 있다. 따라서 선호되는 해석은 초기 기대와 그것을 복잡하게 만드는 증거를 모두 설명해야 하며, 단일한 사례가 보편적 규칙을 입증한다고 가장해서는 안 된다.\n\n[해설]\n필자는 초기 판단을 그대로 유지하기보다 관찰의 조건과 반례를 반영해 결론을 조정해야 한다고 주장합니다.",
     "wrong_explanations": {},
     "_reviewed": false
   },
@@ -8482,7 +8482,7 @@ const QUESTION_BANK = [
       "⑤ When Background Details Replace All Empirical Evidence"
     ],
     "answer": 4,
-    "explanation": "초기 설명과 후속 관찰의 불일치를 통해 더 정교한 판단으로 옮겨가는 글 전체를 포괄합니다.",
+    "explanation": "[지문 해석]\n한 언어학자가 이야기를 할 때 화자들이 어떻게 침묵을 활용하는지 연구했다. 자동 필사 시스템은 모든 침묵을 제거해 버렸다. 처음에는 그 기록이 매력적으로 보였다. 추가 설명 없이 전달할 수 있는 단순한 설명을 제시했기 때문이다. 실제로 긴 침묵은 기억 실패보다는 의미 있는 대비 앞에 자주 나타났다. 그 결과는 유용한 단서를 제공하지만, 모든 조건 하에서 동일한 메커니즘이 작동할 것이라는 것을 증명하지는 못한다. 소음처럼 보이는 특징들이 의사소통 정보를 담고 있을 수 있다. 더 강력한 추론은 의도적으로 제한된다. 즉, 불확실성이 완전히 사라졌다고 가정하지 않으면서 관찰된 대비를 설명한다. 이 결론은 처음 가정과 동일하지 않으며, 이후의 관찰과 원래 측정의 한계를 고려해야 한다. 특히, 새로운 증거는 이전의 설명이 모든 가능한 상황에서 잘못되었다는 것을 증명하지 않으면서도 해석을 바꾸는 것을 정당화할 수 있다. 따라서 선호되는 해석은 초기의 기대와 그것을 복잡하게 만드는 증거를 모두 설명해야 하며, 단 하나의 사례가 보편적 규칙을 입증한다고 가정해서는 안 된다.\n\n[해설]\n초기 설명과 후속 관찰의 불일치를 통해 더 정교한 판단으로 옮겨가는 글 전체를 포괄합니다.",
     "wrong_explanations": {},
     "_reviewed": false
   },
@@ -8499,7 +8499,7 @@ const QUESTION_BANK = [
       "⑤번 문장"
     ],
     "answer": 2,
-    "explanation": "나머지 네 문장은 동일한 연구·관찰의 초기 가정과 결과, 수정된 결론을 연결하지만 해당 문장은 다른 주제로 전환되어 논리적 연속성이 없습니다.",
+    "explanation": "[지문 해석]\n① 야생동물 팀은 새로운 도로 아래에 터널을 건설했다. ② 기상 위성은 대기권 위의 궤도에서 이미지를 수집한다. ③ 엔지니어들은 처음에 설치된 터널의 개수로 성공 여부를 판단했다. ④ 많은 동물들은 입구 주변에 식생이 자라난 후에야 터널을 이용했다. ⑤ 인프라의 실질적 유용성은 그것이 존재하는지 여부뿐만 아니라 주변 환경에 따라 결정된다.\n\n[해설]\n나머지 네 문장은 동일한 연구·관찰의 초기 가정과 결과, 수정된 결론을 연결하지만 해당 문장은 다른 주제로 전환되어 논리적 연속성이 없습니다.",
     "wrong_explanations": {},
     "_reviewed": false
   },
@@ -8516,7 +8516,7 @@ const QUESTION_BANK = [
       "⑤ supported — unconditional"
     ],
     "answer": 2,
-    "explanation": "초기 가정은 처음에는 지지를 받았지만 후속 관찰 때문에 해석에 조건과 한계를 명시해야 했으므로 supported — qualified가 가장 적절합니다.",
+    "explanation": "[지문 해석]\n의사가 백분율만 사용하는 것 대신 그림을 활용하여 검사 결과를 설명했다. 클리닉은 모든 정보를 단순한 아이콘으로 표시하기를 원했다. 그러나 환자들은 상대적 변화는 더 잘 이해했지만 때때로 불확실성 범위를 간과했다. 접근 가능한 의사소통은 불확실성을 숨기기보다는 보존해야 한다.\n\n[해설]\n초기 가정은 처음에는 지지를 받았지만 후속 관찰 때문에 해석에 조건과 한계를 명시해야 했으므로 supported — qualified가 가장 적절합니다.",
     "wrong_explanations": {},
     "_reviewed": false
   },
@@ -8533,7 +8533,7 @@ const QUESTION_BANK = [
       "⑤ the initial assumption must be rejected even in circumstances for which it was never tested"
     ],
     "answer": 3,
-    "explanation": "기초 관찰: The maps became searchable but many old locations remained approximate. 초기 해석: Managers assumed digitization would automatically improve accuracy. 따라서 Changing the format of information does not correct its underlying limitations. 다만 단일 사례가 모든 상황으로 일반화되는 것은 아닙니다.",
+    "explanation": "[지문 해석]\n어떤 도시가 지하 수도관의 종이 지도를 디지털화했다. 관리자들은 디지털화가 자동으로 정확성을 향상시킬 것이라고 가정했다. 그러나 새로운 증거는 원래 표시보다 더 많은 정보를 제공했다. 지도는 검색 가능해졌지만 많은 기존 위치는 여전히 근사값으로 남아 있었다. 어려움은 초기 해석의 매력과 이후 관찰을 설명하지 못한 점을 모두 설명하는 것이다. 그 증거는 __________라는 결론과 가장 일치한다. 타당한 선택은 국소적 발견을 보편적 규칙으로 전환하지 않으면서 그 대비를 설명해야 한다.\n\n[해설]\n기초 관찰: The maps became searchable but many old locations remained approximate. 초기 해석: Managers assumed digitization would automatically improve accuracy. 따라서 Changing the format of information does not correct its underlying limitations. 다만 단일 사례가 모든 상황으로 일반화되는 것은 아닙니다.",
     "wrong_explanations": {},
     "_reviewed": false
   },
@@ -8550,7 +8550,7 @@ const QUESTION_BANK = [
       "⑤번 위치"
     ],
     "answer": 5,
-    "explanation": "초기 해석과 상반되는 관찰이 나온 직후에 This discrepancy가 연결됩니다. 다른 위치에서는 discrepancy의 지시 대상이 불분명하거나 후속 판단의 인과 관계가 끊깁니다.",
+    "explanation": "[지문 해석]\n이 프로젝트는 처음에는 간단해 보이던 설명을 검증하기 위해 설계되었다. (①) 한 무용수가 거울을 마주보고 루틴을 연습한 후, 거울 없이 연습했다. (②) 그녀는 거울을 지속적인 피드백 수단으로 의존해 왔었다. (③) 이러한 초기 관찰이 후속 실험 설계에 영향을 미쳤다. (④) 움직임은 그녀가 내적으로 균형감각을 느끼는 법을 배운 후에야 정밀함을 유지했다. (⑤)\n\n[해설]\n초기 해석과 상반되는 관찰이 나온 직후에 This discrepancy가 연결됩니다. 다른 위치에서는 discrepancy의 지시 대상이 불분명하거나 후속 판단의 인과 관계가 끊깁니다.",
     "wrong_explanations": {},
     "_reviewed": false
   },
@@ -8567,7 +8567,7 @@ const QUESTION_BANK = [
       "⑤번 표시"
     ],
     "answer": 2,
-    "explanation": "②는 were로 고쳐야 합니다. 나머지 표시 표현은 해당 문장의 구조상 허용됩니다.",
+    "explanation": "[지문 해석]\n한 연구자가 긴급 경보의 서로 다른 번역본들을 비교했다. 나중의 증거(__________) ①that 원래의 해석에 이의를 제기했다. 그 관찰들(__________) ②was 팀이 ③published 그 결과를 발표하기 전에 두 번 검증되었다. 초기 예측이나 후속 결과 어느 것도 ④were 홀로는 충분하다고 취급되지 않았다. 그 설명(__________) ⑤ultimately 그들의 관계에 달려 있었다.\n\n[해설]\n②는 were로 고쳐야 합니다. 나머지 표시 표현은 해당 문장의 구조상 허용됩니다.",
     "wrong_explanations": {},
     "_reviewed": false
   },
@@ -8584,7 +8584,7 @@ const QUESTION_BANK = [
       "⑤번 표시"
     ],
     "answer": 3,
-    "explanation": "③의 absolute는 주변 의미와 충돌합니다. qualified로 수정해야 초기 가설·반증·신중한 결론의 논리가 일관됩니다.",
+    "explanation": "[지문 해석]\n한 생물학자가 산호초가 짧은 열파에 어떻게 반응하는지 연구했다. 한 뉴스 보도는 색깔의 회복을 완전한 회복으로 다루었다. 일부 산호는 색깔을 빠르게 회복했지만 다음 시즌에 번식력이 떨어졌다. 아직 수집된 증거가 거의 없었기 때문에 첫 번째 해석은 반드시 (① 임시적)이었다. 후속 관찰은 그 해석이 의존하던 예상을 (② 모순)했다. 결과적으로 연구자들은 무조건적인 판단보다는 (③ 절대적인) 설명을 채택했다. 그들은 새로운 증거가 조사 중인 질문과 (④ 관련성이 있는)지 여부를 검토했다. 결론은 관찰이 이루어진 조건들로 (⑤ 제한)되었다.\n\n[해설]\n③의 absolute는 주변 의미와 충돌합니다. qualified로 수정해야 초기 가설·반증·신중한 결론의 논리가 일관됩니다.",
     "wrong_explanations": {},
     "_reviewed": false
   },
@@ -8601,7 +8601,7 @@ const QUESTION_BANK = [
       "⑤ why a single observation is enough to settle every possible explanation"
     ],
     "answer": 1,
-    "explanation": "초기 기대와 다른 관찰을 통해 얻은 제한적인 결론이 요지입니다. 다른 선택지는 단정적 일반화 또는 근거 없는 판단입니다.",
+    "explanation": "[지문 해석]\n한 출판사가 선택적 챕터 노트가 포함된 오디오북을 테스트했다. 편집자들은 설명이 많을수록 항상 도움이 될 것이라고 가정했다. 처음 해석은 쉽게 눈에 띄는 특징에 초점을 맞췄기 때문에 그럴듯해 보였다. 하지만 청취자들은 이야기 자체는 즐겼으면서도 낯선 참고 자료가 나타날 때만 주로 노트를 활용했다. 이것이 앞선 관찰을 무의미하게 만들지는 않았다. 오히려 원래의 설명이 중요한 조건을 놓쳤다는 것을 드러냈다. 보조 자료는 몰입감을 방해하지 않으면서 접근 가능할 때 진정한 가치를 발휘한다.\n\n[해설]\n초기 기대와 다른 관찰을 통해 얻은 제한적인 결론이 요지입니다. 다른 선택지는 단정적 일반화 또는 근거 없는 판단입니다.",
     "wrong_explanations": {},
     "_reviewed": false
   },
@@ -8618,7 +8618,7 @@ const QUESTION_BANK = [
       "⑤ (C)-(B)-(A)"
     ],
     "answer": 5,
-    "explanation": "최초 가정 → 후속 관찰에 의한 반증·보완 → 수정된 판단이라는 인과 순서가 필수입니다. 따라서 (C)-(B)-(A)입니다.",
+    "explanation": "[지문 해석]\n한 교사가 작문 수업에 익명의 동료 평가를 도입했다.\n\n(C) 추가 조사 전에 직원들은 익명성이 모든 측면에서 비평을 개선할 것으로 예상했다. 이는 비록 불완전하지만 이 프로젝트에 명확한 출발점을 제공했다.\n\n(B) 그 후의 증거는 그러한 기대를 복잡하게 만들었다. 의견은 더 솔직해졌지만 때때로 덜 배려심 있게 변했다. 초기의 설명으로는 더 이상 전체 패턴을 설명할 수 없었다.\n\n(A) 이에 응하여 조사자들은 더 신중한 추론을 채택했다. 정책은 한 가지 편향을 줄이는 동시에 다른 위험을 만들 수 있다. 그들은 또한 어떤 추가 관찰이 필요할 것인지 파악했다.\n\n[해설]\n최초 가정 → 후속 관찰에 의한 반증·보완 → 수정된 판단이라는 인과 순서가 필수입니다. 따라서 (C)-(B)-(A)입니다.",
     "wrong_explanations": {},
     "_reviewed": false
   },
@@ -8635,7 +8635,7 @@ const QUESTION_BANK = [
       "⑤ To invite committee members to an unrelated public celebration"
     ],
     "answer": 3,
-    "explanation": "편지의 핵심 요청은 기존 평가에 후속 관찰을 반영하고 초기 결론의 한계를 명시해 달라는 것입니다.",
+    "explanation": "[지문 해석]\n검토 위원회 귀중,\n\n한 명의 정원사가 서로 다른 높이로 깎은 잔디를 비교했습니다. 그 지역사회는 모든 곳에 적용할 수 있는 단 하나의 최적 높이를 두고 논쟁했습니다. 사실 키 큰 풀은 수분을 더 오래 유지했지만 스포츠를 위한 공간은 더 적게 제공했습니다. 저는 원래 프로젝트를 무시하도록 요청하는 것이 아닙니다. 오히려 그 평가에 추가 증거를 포함시키고 초기 결론의 한계를 명시적으로 명시할 것을 요청합니다. 이러한 변화가 없다면, 다음 자금 지원 결정은 프로젝트의 실제 성과보다는 불완전한 지표에 보상을 줄 수 있습니다.\n\n진심으로,\n프로젝트 참여자 일동\n\n[해설]\n편지의 핵심 요청은 기존 평가에 후속 관찰을 반영하고 초기 결론의 한계를 명시해 달라는 것입니다.",
     "wrong_explanations": {},
     "_reviewed": false
   },
@@ -8652,7 +8652,7 @@ const QUESTION_BANK = [
       "⑤ from curiosity to indifference about the investigation"
     ],
     "answer": 2,
-    "explanation": "초기의 confident/reassured와 후반의 reconsider, willing to investigate가 대비되므로 확신에서 성찰적 탐구로의 변화입니다.",
+    "explanation": "[지문 해석]\n처음에는 얼핏 단순해 보이는 설명에 안심했다. 연구원들이 거리만을 고려하여 모델을 만들었다. 한 과학자가 도시 여우들이 얼마나 바쁜 도로를 건너는지 연구했다. 더 짧은 경로가 있음에도 불구하고 동물들이 연속된 식생 근처의 횡단로를 선호한다는 것을 알게 되었을 때, 나의 확신은 흔들렸다. 내 기대를 뒷받침하는 결과에만 집중함으로써 얼마나 많은 것을 놓쳤을지 궁금했다. 내 판단을 다시 생각해 보았다. 결국 모든 세부 사항에 대해 여전히 확실하지 않았지만, 나는 처음 인상을 고수하기보다는 더 깊이 조사하려는 마음이 생겼다.\n\n[해설]\n초기의 confident/reassured와 후반의 reconsider, willing to investigate가 대비되므로 확신에서 성찰적 탐구로의 변화입니다.",
     "wrong_explanations": {},
     "_reviewed": false
   },
@@ -8669,7 +8669,7 @@ const QUESTION_BANK = [
       "⑤ Decisions should reflect this insight: a temporary increase in purchases may represent a shift in timing rather than quantity."
     ],
     "answer": 5,
-    "explanation": "필자는 초기 판단을 그대로 유지하기보다 관찰의 조건과 반례를 반영해 결론을 조정해야 한다고 주장합니다.",
+    "explanation": "[지문 해석]\n한 경제학자가 기간 제한 할인을 받은 가정들을 조사했다. 소매업체는 판매량 급증을 새로운 수요로 설명했다. 그러나 일부 가정은 물품을 더 일찍 구매했을 뿐 전체 소비량은 늘리지 않았다. 구매량의 일시적 증가는 양의 증가보다는 구매 시점의 이동을 의미할 수 있다.\n\n[해설]\n필자는 초기 판단을 그대로 유지하기보다 관찰의 조건과 반례를 반영해 결론을 조정해야 한다고 주장합니다.",
     "wrong_explanations": {},
     "_reviewed": false
   },
@@ -8686,7 +8686,7 @@ const QUESTION_BANK = [
       "⑤ Why a Single Indicator Is Sufficient for Every Decision"
     ],
     "answer": 1,
-    "explanation": "초기 설명과 후속 관찰의 불일치를 통해 더 정교한 판단으로 옮겨가는 글 전체를 포괄합니다.",
+    "explanation": "[지문 해석]\n한 지역 역사가가 폐쇄된 조선소에 대해 전직 조선공들을 인터뷰했다. 공식 기록에는 직책과 임금만 기재되어 있었다. 처음에는 그 기록이 매력적으로 보였다. 추가적인 설명 없이도 전달할 수 있는 단순한 설명을 제시했기 때문이다. 그러나 인터뷰 대상자들의 이야기는 고용 문서에 절대 기록되지 않았던 비공식적 기술들을 드러냈다. 그 결과의 놀라운 점은 그 규모가 아니라, 예상되던 메커니즘과 실제로 관찰된 메커니즘 사이의 괴리였다. 구술 증언은 행정 기록에 없는 관행들을 드러낼 수 있다. 따라서 결론은 가장 눈에 띄는 결과를 단순히 반복하기보다는 두 가지 해석을 비교하는 데 달려 있다. 이 결론은 처음의 가정과 동일하지 않으며, 나중의 관찰과 원래 측정의 한계를 고려해야 한다. 특히 새로운 증거는 이전의 설명이 모든 가능한 상황에서 틀렸다는 것을 증명하지 않으면서도 해석을 바꾸도록 정당화할 수 있다. 따라서 선호되는 해석은 초기의 예상과 이를 복잡하게 만드는 증거를 모두 설명해야 하며, 단 하나의 사례가 보편적 규칙을 확립한다고 주장해서는 안 된다.\n\n[해설]\n초기 설명과 후속 관찰의 불일치를 통해 더 정교한 판단으로 옮겨가는 글 전체를 포괄합니다.",
     "wrong_explanations": {},
     "_reviewed": false
   },
@@ -8703,7 +8703,7 @@ const QUESTION_BANK = [
       "⑤번 문장"
     ],
     "answer": 4,
-    "explanation": "나머지 네 문장은 동일한 연구·관찰의 초기 가정과 결과, 수정된 결론을 연결하지만 해당 문장은 다른 주제로 전환되어 논리적 연속성이 없습니다.",
+    "explanation": "[지문 해석]\n①한 과학자가 두 기상 모델의 성능을 비교했다. ②한 기관은 평균 오차만을 사용하여 모델을 선택했다. ③하나는 평균 기온을 잘 예측했지만 드문 극단적 기후 현상은 놓쳤다. ④프로 축구 리그는 시즌이 시작되기 전에 일정표를 공개한다. ⑤모델을 평가하려면 그 모델이 지원해야 하는 의사결정과 관련된 지표가 필요하다.\n\n[해설]\n나머지 네 문장은 동일한 연구·관찰의 초기 가정과 결과, 수정된 결론을 연결하지만 해당 문장은 다른 주제로 전환되어 논리적 연속성이 없습니다.",
     "wrong_explanations": {},
     "_reviewed": false
   },
@@ -8720,7 +8720,7 @@ const QUESTION_BANK = [
       "⑤ unrelated — absolute"
     ],
     "answer": 1,
-    "explanation": "초기 가정은 처음에는 지지를 받았지만 후속 관찰 때문에 해석에 조건과 한계를 명시해야 했으므로 supported — qualified가 가장 적절합니다.",
+    "explanation": "[지문 해석]\n한 학교가 학생들이 제안한 질문을 중심으로 수업을 구성했다. 비평가들은 학생의 선택권이 교육과정을 포기하는 것을 의미한다고 가정했다. 그러나 학생들의 참여도는 향상되었고, 교사들은 여전히 핵심 개념이 다루어지도록 보장해야 했다. 학생의 자율성과 체계적 구조는 교육 목표에서 상충할 필요가 없다.\n\n[해설]\n초기 가정은 처음에는 지지를 받았지만 후속 관찰 때문에 해석에 조건과 한계를 명시해야 했으므로 supported — qualified가 가장 적절합니다.",
     "wrong_explanations": {},
     "_reviewed": false
   },
@@ -8737,7 +8737,7 @@ const QUESTION_BANK = [
       "⑤ the initial assumption must be rejected even in circumstances for which it was never tested"
     ],
     "answer": 1,
-    "explanation": "기초 관찰: Seeds accumulated near sheltering trees rather than evenly across open ground. 초기 해석: A map assumed dispersal would be random. 따라서 Animal behavior can shape the spatial distribution of plants. 다만 단일 사례가 모든 상황으로 일반화되는 것은 아닙니다.",
+    "explanation": "[지문 해석]\n한 연구자가 도시의 새들이 옮기는 씨앗의 확산을 연구했다. 한 지도는 씨앗이 무작위로 흩어질 것이라고 가정했다. 그러나 씨앗들은 열린 땅 전체에 고르게 분포하기보다는 보호해주는 나무 근처에 집중되었다. 이 증거는 __________라는 결론과 가장 일치한다.\n\n[해설]\n기초 관찰: Seeds accumulated near sheltering trees rather than evenly across open ground. 초기 해석: A map assumed dispersal would be random. 따라서 Animal behavior can shape the spatial distribution of plants. 다만 단일 사례가 모든 상황으로 일반화되는 것은 아닙니다.",
     "wrong_explanations": {},
     "_reviewed": false
   },
@@ -8754,7 +8754,7 @@ const QUESTION_BANK = [
       "⑤번 위치"
     ],
     "answer": 1,
-    "explanation": "초기 해석과 상반되는 관찰이 나온 직후에 This discrepancy가 연결됩니다. 다른 위치에서는 discrepancy의 지시 대상이 불분명하거나 후속 판단의 인과 관계가 끊깁니다.",
+    "explanation": "[지문 해석]\n한 토목공학자가 방파제 벽에 대한 반복적인 수리를 조사했다. 유지보수 팀은 최근에 보이는 균열에 집중했다. 그러나 매번 수리가 잠시 유지되다가 파도의 패턴이 응력을 인접한 부분으로 옮길 때마다 문제가 재발했다. (①) 증상만 따로 치료하면 문제를 해결하기보다는 옮기는 결과를 낳을 수 있다. (②) 팀은 다른 접근법을 검토했다. (③) 그 보고서는 이 발견의 한계를 강조했다. (④) 추가 관찰이 권장되었다. (⑤)\n\n[해설]\n초기 해석과 상반되는 관찰이 나온 직후에 This discrepancy가 연결됩니다. 다른 위치에서는 discrepancy의 지시 대상이 불분명하거나 후속 판단의 인과 관계가 끊깁니다.",
     "wrong_explanations": {},
     "_reviewed": false
   },
@@ -8771,7 +8771,7 @@ const QUESTION_BANK = [
       "⑤번 표시"
     ],
     "answer": 3,
-    "explanation": "③는 had relied로 고쳐야 합니다. 나머지 표시 표현은 해당 문장의 구조상 허용됩니다.",
+    "explanation": "[지문 해석]\n한 작가가 같은 이야기의 두 가지 도입부를 테스트했다. 초기의 견해는 ① (타당해 보였지만), 후속 관찰은 ② (그것을 재검토할 이유를 제공했다). 만약 팀이 ③ (처음 가정에만 의존했다면), 중요한 구별을 ④ (놓쳤을 것이다). 따라서 조사자들은 ⑤ (자신들의 판단을 수정했다).\n\n[해설]\n③는 had relied로 고쳐야 합니다. 나머지 표시 표현은 해당 문장의 구조상 허용됩니다.",
     "wrong_explanations": {},
     "_reviewed": false
   },
@@ -8788,7 +8788,7 @@ const QUESTION_BANK = [
       "⑤번 표시"
     ],
     "answer": 1,
-    "explanation": "①의 certain는 주변 의미와 충돌합니다. tentative로 수정해야 초기 가설·반증·신중한 결론의 논리가 일관됩니다.",
+    "explanation": "[지문 해석]\n한 박물관이 깨지기 쉬운 원본 원고 옆에 복제품을 전시했다. 일부 큐레이터들은 복제품이 진정성에 대한 관심을 약화시킬까 봐 우려했다. 방문객들은 복제품을 직접 만져볼 수 있었고 원본에 손상을 입히지 않으면서도 세부 사항을 읽을 수 있었다. 초기 해석은 아직 수집된 증거가 거의 없었기 때문에 반드시 (① certain)했다. 나중의 관찰은 그 해석이 의존했던 기대에 (② contradicted). 그 결과 연구자들은 절대적인 판단보다는 (③ qualified) 설명을 채택했다. 그들은 새로운 증거가 조사 중인 질문과 (④ relevant)한지 검토했다. 결론은 관찰이 이루어진 조건들에만 (⑤ limited)되었다.\n\n[해설]\n①의 certain는 주변 의미와 충돌합니다. tentative로 수정해야 초기 가설·반증·신중한 결론의 논리가 일관됩니다.",
     "wrong_explanations": {},
     "_reviewed": false
   },
@@ -8805,7 +8805,7 @@ const QUESTION_BANK = [
       "⑤ Farmers evaluated success only by the first harvest is justified in all settings"
     ],
     "answer": 4,
-    "explanation": "초기 기대와 다른 관찰을 통해 얻은 제한적인 결론이 요지입니다. 다른 선택지는 단정적 일반화 또는 근거 없는 판단입니다.",
+    "explanation": "[지문 해석]\n한 과학자가 반복적인 비료 사용 후 토양 박테리아를 연구했다. 농부들은 첫 번째 수확만으로 성공을 판단했다. 초기 해석이 그럴듯해 보였던 것은 눈에 띄는 특징에만 초점을 맞췄기 때문이다. 하지만 작물 수확량은 처음에는 증가했지만 여러 시즌에 걸쳐 미생물 다양성은 감소했다. 이것이 앞의 관찰을 무용지물로 만들지는 않았다. 오히려 원래의 설명이 중요한 조건을 놓쳤음을 드러냈다. 단기적 이득은 그것을 뒷받침하는 시스템의 변화를 가릴 수 있다.\n\n[해설]\n초기 기대와 다른 관찰을 통해 얻은 제한적인 결론이 요지입니다. 다른 선택지는 단정적 일반화 또는 근거 없는 판단입니다.",
     "wrong_explanations": {},
     "_reviewed": false
   },
@@ -8822,7 +8822,7 @@ const QUESTION_BANK = [
       "⑤ (B)-(A)-(C)"
     ],
     "answer": 2,
-    "explanation": "최초 가정 → 후속 관찰에 의한 반증·보완 → 수정된 판단이라는 인과 순서가 필수입니다. 따라서 (B)-(C)-(A)입니다.",
+    "explanation": "[지문 해석]\n한 도시가 상점 주인들에게 도로 수리 일정을 짜는 것을 돕도록 요청했다.\n\n(B) 추가 조사 전에, 관계자들은 혼란을 오직 총 작업 일수로만 정의했다. 이것은 이 프로젝트에 명확하지만 불완전한 출발점을 제공했다.\n\n(C) 그 이후의 증거는 그러한 기대를 복잡하게 만들었다. 건설 기간은 똑같이 길었지만 상인들은 폐쇄 기간을 중심으로 배송을 계획할 수 있었다. 초기의 설명은 더 이상 전체 패턴을 설명할 수 없었다.\n\n(A) 이에 응하여 조사관들은 더욱 신중한 추론을 채택했다. 사전 조율은 불가피한 혼란의 실질적 비용을 낮출 수 있다. 그들은 또한 어떤 추가 관찰이 필요할 것인지 파악했다.\n\n[해설]\n최초 가정 → 후속 관찰에 의한 반증·보완 → 수정된 판단이라는 인과 순서가 필수입니다. 따라서 (B)-(C)-(A)입니다.",
     "wrong_explanations": {},
     "_reviewed": false
   },
@@ -8839,7 +8839,7 @@ const QUESTION_BANK = [
       "⑤ To request a larger budget without discussing evaluation criteria"
     ],
     "answer": 4,
-    "explanation": "편지의 핵심 요청은 기존 평가에 후속 관찰을 반영하고 초기 결론의 한계를 명시해 달라는 것입니다.",
+    "explanation": "[지문 해석]\n친애하는 심사위원회,\n\n한 역사학자가 빌려진 악기가 어떻게 유통되었는지를 추적했습니다. 한 카탈로그는 그 악기를 한 명의 유명한 음악가에게만 귀속시켰습니다. 그런데 실제로는 수리 흔적들이 여러 소유자가 서로 다른 연주자들을 위해 그 악기를 개조했음을 보여주었습니다. 저는 원래의 프로젝트를 무시해달라고 요청하는 것이 아닙니다. 오히려 그 평가에 이러한 추가 증거를 포함시키고 초기 결론의 한계를 명시해달라고 요청하는 것입니다. 이러한 재검토가 이루어진다면 더욱 공정한 평가가 될 것입니다.\n\n진심으로,\n프로젝트 참여자\n\n[해설]\n편지의 핵심 요청은 기존 평가에 후속 관찰을 반영하고 초기 결론의 한계를 명시해 달라는 것입니다.",
     "wrong_explanations": {},
     "_reviewed": false
   },
@@ -8856,7 +8856,7 @@ const QUESTION_BANK = [
       "⑤ from curiosity to indifference about the investigation"
     ],
     "answer": 3,
-    "explanation": "초기의 confident/reassured와 후반의 reconsider, willing to investigate가 대비되므로 확신에서 성찰적 탐구로의 변화입니다.",
+    "explanation": "[지문 해석]\n처음에는 겉으로 명확해 보이는 설명에 안심했다. 환경 보고서는 전체 개체군 증가를 긍정적으로 평가했다. 해양 생태학자는 복원된 해안선 근처의 조개류를 조사했다. 개체수는 증가했지만 대부분이 하나의 연령대에 속한다는 사실을 알게 되자 내 확신은 흔들렸다. 내 기대를 지지하는 결과에만 집중함으로써 얼마나 많은 것을 놓쳤을 수 있을지 생각해 보게 되었다. 이러한 한계를 인정하기를 거부했는데, 그것은 내가 공개적으로 앞의 설명을 옹호했기 때문이었다. 그러나 관찰 결과들을 더 자세히 비교해 보면 볼수록 수정의 필요성이 점점 명확해졌다. 결국 모든 세부 사항에 대해 여전히 확신하지 못했지만, 처음 인상을 방어하기보다는 더 깊이 조사하고 싶은 마음이 생겼다.\n\n[해설]\n초기의 confident/reassured와 후반의 reconsider, willing to investigate가 대비되므로 확신에서 성찰적 탐구로의 변화입니다.",
     "wrong_explanations": {},
     "_reviewed": false
   },
@@ -8873,7 +8873,7 @@ const QUESTION_BANK = [
       "⑤ Decisions should reflect this insight: removing comprehension barriers can improve access to existing resources."
     ],
     "answer": 5,
-    "explanation": "필자는 초기 판단을 그대로 유지하기보다 관찰의 조건과 반례를 반영해 결론을 조정해야 한다고 주장합니다.",
+    "explanation": "[지문 해석]\n보건 팀이 진료 예약 안내문을 다시 설계했다. 관리자들은 예약 시간을 더 추가하는 데 초점을 맞춰왔다. 처음 해석은 쉽게 눈에 띄는 특징에 집중했기 때문에 그럴듯해 보였다. 그러나 쉬운 언어로 작성한 안내문은 의료 서비스를 변경하지 않으면서도 진료 미방문을 줄였다. 이것이 앞의 관찰을 쓸모없게 만들지는 않았다. 오히려 원래의 설명이 중요한 조건을 놓쳤다는 것을 드러냈다. 이해의 장애물을 제거하면 기존 자원에 대한 접근성을 개선할 수 있다.\n\n[해설]\n필자는 초기 판단을 그대로 유지하기보다 관찰의 조건과 반례를 반영해 결론을 조정해야 한다고 주장합니다.",
     "wrong_explanations": {},
     "_reviewed": false
   },
@@ -8890,7 +8890,7 @@ const QUESTION_BANK = [
       "⑤ The Complete Failure of Observation in Practical Research"
     ],
     "answer": 1,
-    "explanation": "초기 설명과 후속 관찰의 불일치를 통해 더 정교한 판단으로 옮겨가는 글 전체를 포괄합니다.",
+    "explanation": "[지문 해석]\n한 연구자가 배달 로봇과 자전거 배송원의 이동 시간을 비교했다. 한 제안은 평균 속도를 유일한 유용성의 척도로 취급했다. 처음에 이 설명은 매력적으로 보였다. 추가 설명 없이도 간단하게 전달할 수 있는 설명을 제공했기 때문이다. 그러나 실제로는 로봇이 깨끗한 인도에서는 안정적이었지만 일시적인 도로 장애물로 인해 지연되었다. 그 결과는 유용한 단서를 제공하지만, 동일한 메커니즘이 모든 조건에서 작동할 것이라는 것을 입증하지는 못한다. 운영 성능은 변화하는 조건에서의 신뢰성에 달려 있다. 더 강력한 추론은 의도적으로 제한된다. 그것은 모든 불확실성이 사라졌다고 가장하지 않으면서 관찰된 대비를 설명한다. 이 결론은 처음 가정과 동일하지 않다. 나중의 관찰과 원래 척도의 한계를 설명해야 한다. 특히 새로운 증거는 초기의 설명이 생각할 수 있는 모든 상황에서 틀렸다는 것을 증명하지 않으면서도 해석을 바꿀 정당성을 제공할 수 있다. 따라서 선호되는 해석은 초기 기대와 그것을 복잡하게 만드는 증거를 모두 설명해야 하며, 단 하나의 사례가 보편적인 규칙을 입증한다고 가장해서는 안 된다.\n\n[해설]\n초기 설명과 후속 관찰의 불일치를 통해 더 정교한 판단으로 옮겨가는 글 전체를 포괄합니다.",
     "wrong_explanations": {},
     "_reviewed": false
   },
@@ -8907,7 +8907,7 @@ const QUESTION_BANK = [
       "⑤번 문장"
     ],
     "answer": 1,
-    "explanation": "나머지 네 문장은 동일한 연구·관찰의 초기 가정과 결과, 수정된 결론을 연결하지만 해당 문장은 다른 주제로 전환되어 논리적 연속성이 없습니다.",
+    "explanation": "[지문 해석]\n① 기상 위성은 대기권 위의 궤도에서 이미지를 수집한다. ② 한 교사가 학생들에게 처음에는 거부했던 견해를 옹호하도록 과제를 부여했다. ③ 비평가들은 이 활동이 학생들의 신념을 바꾸도록 강요할까봐 우려했다. ④ 많은 학생들이 반대 입장을 받아들이지 않으면서도 그 입장의 가정을 파악하는 능력이 향상되었다. ⑤ 어떤 입장을 이해하는 것이 반드시 그것에 동의하는 것을 의미하지는 않는다.\n\n[해설]\n나머지 네 문장은 동일한 연구·관찰의 초기 가정과 결과, 수정된 결론을 연결하지만 해당 문장은 다른 주제로 전환되어 논리적 연속성이 없습니다.",
     "wrong_explanations": {},
     "_reviewed": false
   },
@@ -8924,7 +8924,7 @@ const QUESTION_BANK = [
       "⑤ replaced — unquestionable"
     ],
     "answer": 3,
-    "explanation": "초기 가정은 처음에는 지지를 받았지만 후속 관찰 때문에 해석에 조건과 한계를 명시해야 했으므로 supported — qualified가 가장 적절합니다.",
+    "explanation": "[지문 해석]\n어떤 수학자가 복잡한 모델을 단순화해야 하는 이유를 설명했다. 한 학생은 생략된 모든 변수가 모델을 쓸모없게 만든다고 가정했다. 처음에는 그 설명이 매력적으로 보였다. 추가 설명 없이 전달할 수 있는 단순한 설명을 제시했기 때문이다. 실제로는 핵심 메커니즘을 검증 가능하게 하기 위해 일부 세부사항이 제거된 것이었다. 초기 예측이든 나중의 측정이든 무의미한 것은 아니며, 둘 중 어느 것을 완전한 설명으로 착각하는 것이 실수이다. 유용한 모델은 완전성만으로가 아니라 그것의 목적과 한계에 따라 평가받아야 한다. 과제는 관찰된 현상을 그것을 그럴듯하게 만들어낼 수 있는 과정과 연결하는 것이다. 이러한 결론은 초기 가정과 동일하지 않으며, 나중의 관찰과 원래 측정의 한계를 고려해야 한다. 특히 새로운 증거는 이전의 설명이 모든 상황에서 틀렸다는 것을 증명하지 않으면서도 그 해석을 바꿀 정당한 이유를 제공할 수 있다. 따라서 선호되는 해석은 초기의 예상과 그것을 복잡하게 만드는 증거를 모두 설명해야 하며, 단 하나의 사례가 보편적 규칙을 입증한다고 가정해서는 안 된다.\n\n[해설]\n초기 가정은 처음에는 지지를 받았지만 후속 관찰 때문에 해석에 조건과 한계를 명시해야 했으므로 supported — qualified가 가장 적절합니다.",
     "wrong_explanations": {},
     "_reviewed": false
   },
@@ -8941,7 +8941,7 @@ const QUESTION_BANK = [
       "⑤ actual use can reveal priorities that designers did not anticipate"
     ],
     "answer": 5,
-    "explanation": "기초 관찰: Many bypassed the central exhibit but paused at a small display near the exit. 초기 해석: Curators had organized rooms according to scholarly importance. 따라서 Actual use can reveal priorities that designers did not anticipate. 다만 단일 사례가 모든 상황으로 일반화되는 것은 아닙니다.",
+    "explanation": "[지문 해석]\n한 박물관이 익명 센서를 이용해 방문객의 동선을 기록했다. 큐레이터들은 학문적 중요도에 따라 전시실을 구성했다. 그러나 많은 방문객들이 중앙 전시관을 지나쳤지만 출구 근처의 작은 전시물 앞에서는 멈춰 있었다. 증거는 __________ 이라는 결론과 가장 일치한다.\n\n[해설]\n기초 관찰: Many bypassed the central exhibit but paused at a small display near the exit. 초기 해석: Curators had organized rooms according to scholarly importance. 따라서 Actual use can reveal priorities that designers did not anticipate. 다만 단일 사례가 모든 상황으로 일반화되는 것은 아닙니다.",
     "wrong_explanations": {},
     "_reviewed": false
   },
@@ -8958,7 +8958,7 @@ const QUESTION_BANK = [
       "⑤번 위치"
     ],
     "answer": 2,
-    "explanation": "초기 해석과 상반되는 관찰이 나온 직후에 This discrepancy가 연결됩니다. 다른 위치에서는 discrepancy의 지시 대상이 불분명하거나 후속 판단의 인과 관계가 끊깁니다.",
+    "explanation": "[지문 해석]\n한 연구자가 도시 운하 위에서 사냥하는 박쥐들을 관찰했다. 한 계획 보고서는 모든 수로에 조명을 추가할 것을 제안했다. (①) 곤충의 풍부함이 중요했지만, 밝은 조명은 일부 포식 경로를 방해했다. (②) 인간의 시야를 개선하는 변화는 야생동물의 행동을 바꿀 수 있다. (③) 그 보고서는 이 발견의 증거상 한계를 설명했다. (④) 후속 연구가 제안되었다. (⑤)\n\n[해설]\n초기 해석과 상반되는 관찰이 나온 직후에 This discrepancy가 연결됩니다. 다른 위치에서는 discrepancy의 지시 대상이 불분명하거나 후속 판단의 인과 관계가 끊깁니다.",
     "wrong_explanations": {},
     "_reviewed": false
   },
@@ -8975,7 +8975,7 @@ const QUESTION_BANK = [
       "⑤번 표시"
     ],
     "answer": 5,
-    "explanation": "⑤는 cautious로 고쳐야 합니다. 나머지 표시 표현은 해당 문장의 구조상 허용됩니다.",
+    "explanation": "[지문 해석]\n한 대학이 역사 과목에서 공개 시험을 시행했다. 연구팀은 증거를 ① 신중하게 검토했고 ② 기존의 결론이 여전히 타당한지 물었다. 그들의 목적은 ③ 이전의 설명을 배척하는 것이 아니라 ④ 그 한계를 파악하는 것이었다. 그 결과 나온 설명은 처음 것보다 더 ⑤ 신중했다.\n\n[해설]\n⑤는 cautious로 고쳐야 합니다. 나머지 표시 표현은 해당 문장의 구조상 허용됩니다.",
     "wrong_explanations": {},
     "_reviewed": false
   },
@@ -8992,7 +8992,7 @@ const QUESTION_BANK = [
       "⑤번 표시"
     ],
     "answer": 4,
-    "explanation": "④의 irrelevant는 주변 의미와 충돌합니다. relevant로 수정해야 초기 가설·반증·신중한 결론의 논리가 일관됩니다.",
+    "explanation": "[지문 해석]\n한 수공예 협동조합이 원거리의 구매자에게 접근하기 위해 디지털 판매를 도입했다. 조직 운영진은 더 큰 규모의 고객층을 자동으로 더 큰 수익을 가져올 것으로 간주했다. 주문은 증가했지만 소형 상품의 포장비가 수익성을 위협했다. 첫 번째 해석은 아직 수집된 증거가 거의 없었기 때문에 필연적으로 (① 잠정적)이었다. 이후의 관찰은 그 해석이 의존했던 기대를 (② 모순)했다. 결과적으로 연구자들은 무조건적인 결론보다는 (③ 조건부의) 설명을 채택했다. 그들은 새로운 증거가 조사 중인 문제와 (④ 무관한) 것인지 검토했다. 결론은 관찰이 이루어진 조건들에만 (⑤ 제한)되었다.\n\n[해설]\n④의 irrelevant는 주변 의미와 충돌합니다. relevant로 수정해야 초기 가설·반증·신중한 결론의 논리가 일관됩니다.",
     "wrong_explanations": {},
     "_reviewed": false
   },
@@ -9009,7 +9009,7 @@ const QUESTION_BANK = [
       "⑤ Allowing people to adapt a space may serve varied social needs"
     ],
     "answer": 5,
-    "explanation": "초기 기대와 다른 관찰을 통해 얻은 제한적인 결론이 요지입니다. 다른 선택지는 단정적 일반화 또는 근거 없는 판단입니다.",
+    "explanation": "[지문 해석]\n한 조경 건축가가 움직일 수 있는 의자가 있는 공원을 설계했다. 처음 설계도는 모든 좌석을 고정된 상태로 계획했었다. 처음의 해석은 그럴듯해 보였는데, 그것이 쉽게 눈에 띄는 특징에 초점을 맞췄기 때문이다. 하지만 방문객들은 혼자만의 시간과 대화를 위해 공간을 다양한 방식으로 재배치했다. 이것이 앞의 관찰을 쓸모없게 만들지는 않았으며, 오히려 원래의 설명이 중요한 조건을 놓쳤다는 것을 드러냈다. 사람들이 공간을 자신의 필요에 맞게 조정할 수 있도록 허용하는 것은 다양한 사회적 필요를 충족시킬 수 있다.\n\n[해설]\n초기 기대와 다른 관찰을 통해 얻은 제한적인 결론이 요지입니다. 다른 선택지는 단정적 일반화 또는 근거 없는 판단입니다.",
     "wrong_explanations": {},
     "_reviewed": false
   },
@@ -9026,7 +9026,7 @@ const QUESTION_BANK = [
       "⑤ (A)-(B)-(C)"
     ],
     "answer": 2,
-    "explanation": "최초 가정 → 후속 관찰에 의한 반증·보완 → 수정된 판단이라는 인과 순서가 필수입니다. 따라서 (B)-(C)-(A)입니다.",
+    "explanation": "[지문 해석]\n한 연구자가 일부 경고가 무시되는 이유를 연구했다.\n\n(A) 이에 대응하여 조사 연구팀은 더욱 신중한 결론을 도출했다. 위험 커뮤니케이션은 우려감이 행동 능력과 함께할 때 더욱 효과적이다. 그들은 또한 어떤 추가 관찰이 필요할 것인지를 파악했다.\n\n(B) 추가 조사에 앞서, 기존의 공지사항들은 무서운 결과만 설명했을 뿐 구체적인 조치 방안은 제시하지 않았다. 이것이 프로젝트에 명확하지만 불완전한 출발점을 제공했다.\n\n(C) 그 후의 증거들은 그러한 예상을 복잡하게 만들었다. 즉, 메시지가 실행 가능한 다음 단계를 제시했을 때 사람들의 반응이 더 좋았던 것이다. 초기 설명으로는 더 이상 전체 패턴을 설명할 수 없게 되었다.\n\n[해설]\n최초 가정 → 후속 관찰에 의한 반증·보완 → 수정된 판단이라는 인과 순서가 필수입니다. 따라서 (B)-(C)-(A)입니다.",
     "wrong_explanations": {},
     "_reviewed": false
   },
@@ -9043,7 +9043,7 @@ const QUESTION_BANK = [
       "⑤ To request a reassessment that accounts for conflicting evidence"
     ],
     "answer": 5,
-    "explanation": "편지의 핵심 요청은 기존 평가에 후속 관찰을 반영하고 초기 결론의 한계를 명시해 달라는 것입니다.",
+    "explanation": "[지문 해석]\n검토위원회 귀중,\n\n한 전기 작가가 개혁가의 사적 편지와 공개 연설을 비교했습니다. 독자들은 이 차이를 한 자료가 반드시 거짓이어야 한다는 증거로 받아들였습니다. 사실상 둘 다 같은 목표를 옹호했지만 현저히 다른 표현을 사용했을 뿐입니다. 저는 원래의 프로젝트를 무시해달라고 요청하는 것이 아닙니다. 그 평가에 추가 증거를 포함시키고 초기 결론의 한계를 명시적으로 밝혀달라고 요청하는 것입니다. 이러한 변경 없이는 다음 기금 지원 결정이 프로젝트의 실제 성과보다는 불완전한 지표에 보상을 줄 수 있습니다.\n\n경의를 표하며,\n프로젝트 참여자 일동\n\n[해설]\n편지의 핵심 요청은 기존 평가에 후속 관찰을 반영하고 초기 결론의 한계를 명시해 달라는 것입니다.",
     "wrong_explanations": {},
     "_reviewed": false
   },
@@ -9060,7 +9060,7 @@ const QUESTION_BANK = [
       "⑤ from distrust of the team to unconditional hostility"
     ],
     "answer": 4,
-    "explanation": "초기의 confident/reassured와 후반의 reconsider, willing to investigate가 대비되므로 확신에서 성찰적 탐구로의 변화입니다.",
+    "explanation": "[지문 해석]\n처음에는 겉으로 보기에 간단한 설명에 안심했다. 홍보 담당자들은 회수율만을 내세웠다. 한 과학자가 새로운 배터리 재활용 방법을 평가했다. 금속 회수율은 높지만 그 과정이 에너지를 많이 소비하는 가열을 필요로 한다는 것을 알게 되면서 내 확신이 흔들렸다. 내 기대를 뒷받침하는 결과에만 주목함으로써 얼마나 많은 것을 놓쳤는지 궁금했다. 나는 그 설명을 공개적으로 옹호했기에 그 한계를 인정하기를 거부했다. 하지만 관찰 결과들을 더 꼼꼼히 비교할수록 수정의 필요성이 더욱 명확해졌다. 결국 모든 세부 사항에 대해 여전히 확실하지 않았지만, 내 첫인상을 방어하기보다는 조사하려는 마음이 더 커졌다.\n\n[해설]\n초기의 confident/reassured와 후반의 reconsider, willing to investigate가 대비되므로 확신에서 성찰적 탐구로의 변화입니다.",
     "wrong_explanations": {},
     "_reviewed": false
   }
