@@ -216,11 +216,11 @@ const QUESTION_BANK = [
     "passage": "During winter, some lakes develop a layer of ice on the surface. (①) The water beneath that layer may remain liquid for months. (②) Fish can survive in this protected region despite freezing air temperatures. (③) As spring arrives, sunlight gradually melts the surface ice. (④) The lake then mixes more freely with the atmosphere. (⑤)",
     "given_sentence": "주어진 문장이 들어가기에 가장 적절한 곳을 고르시오.\n[주어진 문장] This occurs because ice is less dense than liquid water and therefore floats.",
     "choices": [
-      "①①번 위치",
-      "②②번 위치",
-      "③③번 위치",
-      "④④번 위치",
-      "⑤⑤번 위치"
+      "①번 위치",
+      "②번 위치",
+      "③번 위치",
+      "④번 위치",
+      "⑤번 위치"
     ],
     "answer": 2,
     "explanation": "얼음이 떠 있다는 원리를 설명한 뒤 그 아래 물이 액체로 남는 현상과 물고기 생존으로 이어집니다.",
@@ -237,11 +237,11 @@ const QUESTION_BANK = [
     "passage": "A small town decided to restore its abandoned railway station. (①) Volunteers first repaired the roof and cleaned the waiting room. (②) Local artists then began using the building for exhibitions. (③) Visitors started arriving from neighboring towns to see the shows. (④) Nearby cafés subsequently reported increased business. (⑤)",
     "given_sentence": "주어진 문장이 들어가기에 가장 적절한 곳을 고르시오.\n[주어진 문장] The new cultural activity gradually gave the old transport building a different public role.",
     "choices": [
-      "①①번 위치",
-      "②②번 위치",
-      "③③번 위치",
-      "④④번 위치",
-      "⑤⑤번 위치"
+      "①번 위치",
+      "②번 위치",
+      "③번 위치",
+      "④번 위치",
+      "⑤번 위치"
     ],
     "answer": 3,
     "explanation": "미술 전시 시작 이후 방문객 증가로 이어지는 전환을 설명합니다.",
@@ -258,11 +258,11 @@ const QUESTION_BANK = [
     "passage": "Many people assume that silence means a conversation has failed. (①) In some cultures, however, a pause indicates careful consideration rather than discomfort. (②) Listeners may use such pauses to show that a speaker’s words deserve attention. (③) A hurried reply can even be interpreted as a sign of disrespect. (④) Successful communication therefore requires sensitivity to different conversational rhythms. (⑤)",
     "given_sentence": "주어진 문장이 들어가기에 가장 적절한 곳을 고르시오.\n[주어진 문장] The meaning of a pause depends partly on the social expectations shared by the speakers.",
     "choices": [
-      "①①번 위치",
-      "②②번 위치",
-      "③③번 위치",
-      "④④번 위치",
-      "⑤⑤번 위치"
+      "①번 위치",
+      "②번 위치",
+      "③번 위치",
+      "④번 위치",
+      "⑤번 위치"
     ],
     "answer": 1,
     "explanation": "침묵의 의미가 사회적 기대에 달려 있다는 일반 원리를 제시하고 문화적 차이의 사례를 연결합니다.",
@@ -279,11 +279,11 @@ const QUESTION_BANK = [
     "passage": "A researcher placed identical plants in two rooms. (①) Both rooms received the same amount of water and sunlight. (②) One room, however, had a fan producing a gentle daily breeze. (③) After several weeks, plants in that room developed thicker stems. (④) The researcher concluded that mild mechanical stress can influence growth. (⑤)",
     "given_sentence": "주어진 문장이 들어가기에 가장 적절한 곳을 고르시오.\n[주어진 문장] This difference was the only planned environmental change between the groups.",
     "choices": [
-      "①①번 위치",
-      "②②번 위치",
-      "③③번 위치",
-      "④④번 위치",
-      "⑤⑤번 위치"
+      "①번 위치",
+      "②번 위치",
+      "③번 위치",
+      "④번 위치",
+      "⑤번 위치"
     ],
     "answer": 3,
     "explanation": "바람의 차이가 유일한 변인임을 설명해야 두 집단의 줄기 차이를 해석할 수 있습니다.",
@@ -300,11 +300,11 @@ const QUESTION_BANK = [
     "passage": "A library introduced a service for lending household tools. (①) Residents could borrow drills and ladders that they needed only occasionally. (②) Users soon discovered that they could avoid buying expensive equipment for a single task. (③) The service also reduced the number of rarely used products stored in homes. (④) Other libraries began exploring similar programs. (⑤)",
     "given_sentence": "주어진 문장이 들어가기에 가장 적절한 곳을 고르시오.\n[주어진 문장] In this way, the lending model offered both personal savings and a potential reduction in resource consumption.",
     "choices": [
-      "①①번 위치",
-      "②②번 위치",
-      "③③번 위치",
-      "④④번 위치",
-      "⑤⑤번 위치"
+      "①번 위치",
+      "②번 위치",
+      "③번 위치",
+      "④번 위치",
+      "⑤번 위치"
     ],
     "answer": 4,
     "explanation": "개인 비용 절감과 자원 소비 감소라는 두 결과를 요약한 후 다른 도서관으로 확산되는 흐름입니다.",
@@ -321,11 +321,11 @@ const QUESTION_BANK = [
     "passage": "A biologist observed birds collecting plastic fibers for their nests. (①) The fibers were easy to find near urban buildings. (②) At first, the material appeared to provide a convenient substitute for grass. (③) Further observation revealed that loose strands could entangle chicks. (④) The scientist warned that easily available materials are not necessarily safe. (⑤)",
     "given_sentence": "주어진 문장이 들어가기에 가장 적절한 곳을 고르시오.\n[주어진 문장] What initially looked like a practical adaptation therefore carried an unexpected risk.",
     "choices": [
-      "①①번 위치",
-      "②②번 위치",
-      "③③번 위치",
-      "④④번 위치",
-      "⑤⑤번 위치"
+      "①번 위치",
+      "②번 위치",
+      "③번 위치",
+      "④번 위치",
+      "⑤번 위치"
     ],
     "answer": 4,
     "explanation": "편리해 보였던 재료의 위험성이 밝혀진 뒤 경고가 제시되는 흐름입니다.",
@@ -342,11 +342,11 @@ const QUESTION_BANK = [
     "passage": "An online course attracted thousands of learners in its first week. (①) Yet most learners stopped watching after the third lesson. (②) The instructors reviewed the lessons and found that each video lasted nearly an hour. (③) They divided the material into shorter units with frequent practice questions. (④) Completion rates improved in the following month. (⑤)",
     "given_sentence": "주어진 문장이 들어가기에 가장 적절한 곳을 고르시오.\n[주어진 문장] The problem seemed to involve the learning experience rather than a lack of initial interest.",
     "choices": [
-      "①①번 위치",
-      "②②번 위치",
-      "③③번 위치",
-      "④④번 위치",
-      "⑤⑤번 위치"
+      "①번 위치",
+      "②번 위치",
+      "③번 위치",
+      "④번 위치",
+      "⑤번 위치"
     ],
     "answer": 2,
     "explanation": "높은 초기 참여와 빠른 이탈의 대비를 해석하고 이어서 원인을 조사합니다.",
@@ -363,11 +363,11 @@ const QUESTION_BANK = [
     "passage": "For centuries, sailors used stars to estimate their position. (①) Clouds sometimes hid those stars for several nights. (②) During such periods, navigators had to rely more heavily on other observations. (③) They studied the direction of waves and recorded the ship’s speed. (④) These methods were imperfect but helped them maintain a rough course. (⑤)",
     "given_sentence": "주어진 문장이 들어가기에 가장 적절한 곳을 고르시오.\n[주어진 문장] The absence of a clear sky did not mean that all navigation was impossible.",
     "choices": [
-      "①①번 위치",
-      "②②번 위치",
-      "③③번 위치",
-      "④④번 위치",
-      "⑤⑤번 위치"
+      "①번 위치",
+      "②번 위치",
+      "③번 위치",
+      "④번 위치",
+      "⑤번 위치"
     ],
     "answer": 2,
     "explanation": "별이 가려지는 상황을 언급한 뒤 대체 항법 방법을 소개하는 전환 문장입니다.",
@@ -384,11 +384,11 @@ const QUESTION_BANK = [
     "passage": "A chef purchased vegetables directly from farmers near her restaurant. (①) Because the harvest changed weekly, her menu could not remain fixed. (②) She began planning dishes around what the farms could supply. (③) Customers gradually came to expect seasonal surprises instead of permanent favorites. (④) The restaurant used less long-distance shipping as a result. (⑤)",
     "given_sentence": "주어진 문장이 들어가기에 가장 적절한 곳을 고르시오.\n[주어진 문장] Rather than treating this uncertainty as a problem, she made it part of the restaurant’s identity.",
     "choices": [
-      "①①번 위치",
-      "②②번 위치",
-      "③③번 위치",
-      "④④번 위치",
-      "⑤⑤번 위치"
+      "①번 위치",
+      "②번 위치",
+      "③번 위치",
+      "④번 위치",
+      "⑤번 위치"
     ],
     "answer": 2,
     "explanation": "주별 수확량 변화라는 불확실성을 식당 운영의 정체성으로 전환한 뒤 구체적 실행을 설명합니다.",
@@ -405,11 +405,11 @@ const QUESTION_BANK = [
     "passage": "Some scientists study old trees by examining the width of their growth rings. (①) A wide ring may indicate favorable growing conditions in a particular year. (②) However, rainfall is not the only factor influencing ring width. (③) Temperature, pests, and competition for light can also play a role. (④) Researchers therefore compare evidence from many trees before drawing conclusions. (⑤)",
     "given_sentence": "주어진 문장이 들어가기에 가장 적절한 곳을 고르시오.\n[주어진 문장] Interpreting a single ring as a direct measurement of rainfall would be too simplistic.",
     "choices": [
-      "①①번 위치",
-      "②②번 위치",
-      "③③번 위치",
-      "④④번 위치",
-      "⑤⑤번 위치"
+      "①번 위치",
+      "②번 위치",
+      "③번 위치",
+      "④번 위치",
+      "⑤번 위치"
     ],
     "answer": 4,
     "explanation": "여러 영향 요인을 열거한 뒤 단일 고리로 강수량을 판단하는 오류를 경계합니다.",
@@ -426,11 +426,11 @@ const QUESTION_BANK = [
     "passage": "The city opened a reading room (① which) remains open late in the evening. Many residents (② who) work during the day now visit it after dinner. The volunteers (③ has) organized weekly discussions, and several local schools (④ are) planning joint events. The project shows (⑤ how) a modest public space can support learning.",
     "given_sentence": null,
     "choices": [
-      "①①번 표시",
-      "②②번 표시",
-      "③③번 표시",
-      "④④번 표시",
-      "⑤⑤번 표시"
+      "①번 표시",
+      "②번 표시",
+      "③번 표시",
+      "④번 표시",
+      "⑤번 표시"
     ],
     "answer": 3,
     "explanation": "has → have: 복수 주어 The volunteers에 맞춰 have가 필요합니다.",
@@ -447,11 +447,11 @@ const QUESTION_BANK = [
     "passage": "A good scientific explanation must be (① tested) against evidence. Even an elegant theory may be rejected if its predictions (② fails) repeatedly. Researchers (③ collect) observations, (④ compare) alternative accounts, and (⑤ revise) conclusions when necessary.",
     "given_sentence": null,
     "choices": [
-      "①①번 표시",
-      "②②번 표시",
-      "③③번 표시",
-      "④④번 표시",
-      "⑤⑤번 표시"
+      "①번 표시",
+      "②번 표시",
+      "③번 표시",
+      "④번 표시",
+      "⑤번 표시"
     ],
     "answer": 2,
     "explanation": "fails → fail: 복수 주어 predictions와 동사를 일치시켜야 합니다.",
@@ -468,11 +468,11 @@ const QUESTION_BANK = [
     "passage": "The exhibition included paintings (① created) by local teenagers. Each artist was invited (② to describe) a work, and visitors listened (③ attentive) as they walked through the gallery. Their questions (④ helped) the students explain why they (⑤ had chosen) certain colors.",
     "given_sentence": null,
     "choices": [
-      "①①번 표시",
-      "②②번 표시",
-      "③③번 표시",
-      "④④번 표시",
-      "⑤⑤번 표시"
+      "①번 표시",
+      "②번 표시",
+      "③번 표시",
+      "④번 표시",
+      "⑤번 표시"
     ],
     "answer": 3,
     "explanation": "attentive → attentively: 동사 listened를 수식하는 부사가 필요합니다.",
@@ -489,11 +489,11 @@ const QUESTION_BANK = [
     "passage": "Neither the coach nor the players (① was) satisfied with the first performance. The team (② practiced) the difficult sequence again, paying attention to movements (③ that) required precise timing. By the end, everyone (④ felt) more confident (⑤ than) before.",
     "given_sentence": null,
     "choices": [
-      "①①번 표시",
-      "②②번 표시",
-      "③③번 표시",
-      "④④번 표시",
-      "⑤⑤번 표시"
+      "①번 표시",
+      "②번 표시",
+      "③번 표시",
+      "④번 표시",
+      "⑤번 표시"
     ],
     "answer": 1,
     "explanation": "was → were: neither A nor B 구조에서 가까운 복수 주어 players에 맞춰 were를 씁니다.",
@@ -510,11 +510,11 @@ const QUESTION_BANK = [
     "passage": "The new bridge was designed (① withstand) strong winds. Engineers examined several models before they (② selected) the final shape. The completed structure looks (③ impressive), but its appearance is less important than the safety measures (④ built) into it, (⑤ which) protect users.",
     "given_sentence": null,
     "choices": [
-      "①①번 표시",
-      "②②번 표시",
-      "③③번 표시",
-      "④④번 표시",
-      "⑤⑤번 표시"
+      "①번 표시",
+      "②번 표시",
+      "③번 표시",
+      "④번 표시",
+      "⑤번 표시"
     ],
     "answer": 1,
     "explanation": "withstand → to withstand: be designed to + 동사원형 구문입니다.",
@@ -531,11 +531,11 @@ const QUESTION_BANK = [
     "passage": "The students were surprised (① to learn) that the library had preserved letters (② written) a century ago. Several documents (③ was) difficult to read, so historians (④ provided) transcripts that (⑤ explained) unfamiliar expressions.",
     "given_sentence": null,
     "choices": [
-      "①①번 표시",
-      "②②번 표시",
-      "③③번 표시",
-      "④④번 표시",
-      "⑤⑤번 표시"
+      "①번 표시",
+      "②번 표시",
+      "③번 표시",
+      "④번 표시",
+      "⑤번 표시"
     ],
     "answer": 3,
     "explanation": "was → were: 복수 주어 Several documents에 맞춰 were가 필요합니다.",
@@ -552,11 +552,11 @@ const QUESTION_BANK = [
     "passage": "A bicycle is often (① cheaper) to maintain than a car. It also allows commuters (② avoid) short traffic delays. When safe routes (③ are provided), more residents (④ choose) to cycle, which can (⑤ reduce) congestion.",
     "given_sentence": null,
     "choices": [
-      "①①번 표시",
-      "②②번 표시",
-      "③③번 표시",
-      "④④번 표시",
-      "⑤⑤번 표시"
+      "①번 표시",
+      "②번 표시",
+      "③번 표시",
+      "④번 표시",
+      "⑤번 표시"
     ],
     "answer": 2,
     "explanation": "avoid → to avoid: allow + 목적어 + to부정사 구문입니다.",
@@ -573,11 +573,11 @@ const QUESTION_BANK = [
     "passage": "The biologist found a species of moss (① growing) beside the stream. Although it appeared delicate, it could (② survive) prolonged cold. The team collected samples (③ carefully) and recorded the conditions (④ under which) the plants (⑤ was found).",
     "given_sentence": null,
     "choices": [
-      "①①번 표시",
-      "②②번 표시",
-      "③③번 표시",
-      "④④번 표시",
-      "⑤⑤번 표시"
+      "①번 표시",
+      "②번 표시",
+      "③번 표시",
+      "④번 표시",
+      "⑤번 표시"
     ],
     "answer": 5,
     "explanation": "was found → were found: 복수 주어 the plants에 대한 동사 일치 오류입니다.",
@@ -594,11 +594,11 @@ const QUESTION_BANK = [
     "passage": "The director insisted that every participant (① arrives) before the rehearsal began. She explained the schedule (② clearly) and asked everyone (③ to switch off) their phones. The instructions were simple enough (④ for) new members (⑤ to follow).",
     "given_sentence": null,
     "choices": [
-      "①①번 표시",
-      "②②번 표시",
-      "③③번 표시",
-      "④④번 표시",
-      "⑤⑤번 표시"
+      "①번 표시",
+      "②번 표시",
+      "③번 표시",
+      "④번 표시",
+      "⑤번 표시"
     ],
     "answer": 1,
     "explanation": "arrives → arrive: 요구·제안의 insist that절에서는 (should) arrive 형태를 사용합니다.",
@@ -615,11 +615,11 @@ const QUESTION_BANK = [
     "passage": "What matters most in a discussion (① is) not the number of comments but the quality of the evidence. A claim (② supported) by reliable data deserves attention, even when it (③ challenge) a popular view. Participants should (④ remain) open to ideas that (⑤ differ) from their own.",
     "given_sentence": null,
     "choices": [
-      "①①번 표시",
-      "②②번 표시",
-      "③③번 표시",
-      "④④번 표시",
-      "⑤⑤번 표시"
+      "①번 표시",
+      "②번 표시",
+      "③번 표시",
+      "④번 표시",
+      "⑤번 표시"
     ],
     "answer": 3,
     "explanation": "challenge → challenges: 단수 주어 it에 맞춰 3인칭 단수형을 사용해야 합니다.",
@@ -636,11 +636,11 @@ const QUESTION_BANK = [
     "passage": "The volunteer group wanted to (① preserve) a local wetland. They carefully (② recorded) the birds that visited each season and (③ removed) litter from the water. Their efforts gradually (④ damaged) the habitat, allowing more native plants to return. Local residents began to (⑤ appreciate) the area.",
     "given_sentence": null,
     "choices": [
-      "①①번 표시",
-      "②②번 표시",
-      "③③번 표시",
-      "④④번 표시",
-      "⑤⑤번 표시"
+      "①번 표시",
+      "②번 표시",
+      "③번 표시",
+      "④번 표시",
+      "⑤번 표시"
     ],
     "answer": 4,
     "explanation": "damaged → restored/improved: 쓰레기를 제거해 서식지가 회복된다는 내용입니다.",
@@ -657,11 +657,11 @@ const QUESTION_BANK = [
     "passage": "Although the first prototype (① failed), the engineers remained (② determined). They examined its weaknesses, (③ revised) the design, and conducted more tests. Their willingness to learn from errors was (④ essential) to progress, while refusing further tests would have been (⑤ constructive).",
     "given_sentence": null,
     "choices": [
-      "①①번 표시",
-      "②②번 표시",
-      "③③번 표시",
-      "④④번 표시",
-      "⑤⑤번 표시"
+      "①번 표시",
+      "②번 표시",
+      "③번 표시",
+      "④번 표시",
+      "⑤번 표시"
     ],
     "answer": 5,
     "explanation": "constructive → counterproductive: 추가 시험 거부는 건설적이지 않고 발전을 저해합니다.",
@@ -678,11 +678,11 @@ const QUESTION_BANK = [
     "passage": "The hikers reached a narrow path as clouds began to (① gather). The guide advised everyone to move (② cautiously) because the rocks were (③ slippery). When thunder sounded nearby, the group (④ retreated) from the exposed summit to seek shelter. Such a choice would have been (⑤ reckless).",
     "given_sentence": null,
     "choices": [
-      "①①번 표시",
-      "②②번 표시",
-      "③③번 표시",
-      "④④번 표시",
-      "⑤⑤번 표시"
+      "①번 표시",
+      "②번 표시",
+      "③번 표시",
+      "④번 표시",
+      "⑤번 표시"
     ],
     "answer": 5,
     "explanation": "reckless → prudent/sensible: 뇌우를 피해 노출된 정상에서 물러나는 행동은 신중한 판단입니다.",
@@ -699,11 +699,11 @@ const QUESTION_BANK = [
     "passage": "The historian compared several (① independent) sources before reaching a conclusion. She knew that a single witness might be (② mistaken), so she sought (③ corroborating) records. By checking dates and locations, she made her account more (④ reliable) and less (⑤ accurate).",
     "given_sentence": null,
     "choices": [
-      "①①번 표시",
-      "②②번 표시",
-      "③③번 표시",
-      "④④번 표시",
-      "⑤⑤번 표시"
+      "①번 표시",
+      "②번 표시",
+      "③번 표시",
+      "④번 표시",
+      "⑤번 표시"
     ],
     "answer": 5,
     "explanation": "less accurate → more accurate: 교차 검증은 기록의 정확성을 높입니다.",
@@ -720,11 +720,11 @@ const QUESTION_BANK = [
     "passage": "A school installed water fountains to (① reduce) the use of disposable bottles. Students were encouraged to (② refill) reusable containers. The number of plastic bottles thrown away (③ declined), and the initiative helped (④ conserve) resources. Teachers called the increase in waste a (⑤ success).",
     "given_sentence": null,
     "choices": [
-      "①①번 표시",
-      "②②번 표시",
-      "③③번 표시",
-      "④④번 표시",
-      "⑤⑤번 표시"
+      "①번 표시",
+      "②번 표시",
+      "③번 표시",
+      "④번 표시",
+      "⑤번 표시"
     ],
     "answer": 5,
     "explanation": "increase in waste는 앞의 폐기물 감소와 모순됩니다. reduction in waste로 수정해야 합니다.",
@@ -741,11 +741,11 @@ const QUESTION_BANK = [
     "passage": "In a healthy debate, participants should (① listen) to opposing views and (② examine) evidence. Instead of attacking a person, they should (③ address) the argument. Such practices (④ encourage) thoughtful dialogue and make mutual understanding more (⑤ difficult).",
     "given_sentence": null,
     "choices": [
-      "①①번 표시",
-      "②②번 표시",
-      "③③번 표시",
-      "④④번 표시",
-      "⑤⑤번 표시"
+      "①번 표시",
+      "②번 표시",
+      "③번 표시",
+      "④번 표시",
+      "⑤번 표시"
     ],
     "answer": 5,
     "explanation": "difficult → possible/easier: 존중하는 토론은 상호 이해를 촉진합니다.",
@@ -762,11 +762,11 @@ const QUESTION_BANK = [
     "passage": "The architect designed wide windows to (① admit) daylight into the classroom. Students could work with less (② artificial) lighting during the day. The windows also provided views of trees, creating a calmer (③ atmosphere). As a result, the interior became increasingly (④ gloomy) and (⑤ welcoming).",
     "given_sentence": null,
     "choices": [
-      "①①번 표시",
-      "②②번 표시",
-      "③③번 표시",
-      "④④번 표시",
-      "⑤⑤번 표시"
+      "①번 표시",
+      "②번 표시",
+      "③번 표시",
+      "④번 표시",
+      "⑤번 표시"
     ],
     "answer": 4,
     "explanation": "gloomy → bright: 채광 개선으로 실내가 어두워진다는 것은 문맥상 모순입니다.",
@@ -783,11 +783,11 @@ const QUESTION_BANK = [
     "passage": "The doctor explained the procedure in (① plain) language. She avoided (② unnecessary) technical terms and asked the patient to (③ repeat) the key steps. This approach helped identify (④ misunderstandings) and made the instructions less (⑤ clear).",
     "given_sentence": null,
     "choices": [
-      "①①번 표시",
-      "②②번 표시",
-      "③③번 표시",
-      "④④번 표시",
-      "⑤⑤번 표시"
+      "①번 표시",
+      "②번 표시",
+      "③번 표시",
+      "④번 표시",
+      "⑤번 표시"
     ],
     "answer": 5,
     "explanation": "less clear → clearer: 이해 확인은 설명을 더 명확하게 만듭니다.",
@@ -804,11 +804,11 @@ const QUESTION_BANK = [
     "passage": "A farmer planted several kinds of crops rather than relying on just one. If pests attacked one variety, the others might still (① survive). The approach (② diversified) risk and improved the farm’s (③ resilience). It therefore made the entire harvest more (④ vulnerable) to a single disease, despite offering (⑤ variety).",
     "given_sentence": null,
     "choices": [
-      "①①번 표시",
-      "②②번 표시",
-      "③③번 표시",
-      "④④번 표시",
-      "⑤⑤번 표시"
+      "①번 표시",
+      "②번 표시",
+      "③번 표시",
+      "④번 표시",
+      "⑤번 표시"
     ],
     "answer": 4,
     "explanation": "vulnerable → resistant/less vulnerable: 작물 다양화는 단일 병해에 대한 취약성을 낮춥니다.",
@@ -825,11 +825,11 @@ const QUESTION_BANK = [
     "passage": "During the rehearsal, the conductor asked the orchestra to play more (① softly). The musicians (② adjusted) their volume so that the solo violin could be (③ heard). The quieter accompaniment (④ obscured) the melody, allowing the audience to hear it more (⑤ clearly).",
     "given_sentence": null,
     "choices": [
-      "①①번 표시",
-      "②②번 표시",
-      "③③번 표시",
-      "④④번 표시",
-      "⑤⑤번 표시"
+      "①번 표시",
+      "②번 표시",
+      "③번 표시",
+      "④번 표시",
+      "⑤번 표시"
     ],
     "answer": 4,
     "explanation": "obscured → highlighted: 반주를 줄여 독주 선율이 더 명확히 들리도록 했습니다.",
@@ -2106,11 +2106,11 @@ const QUESTION_BANK = [
     "passage": "① Urban beekeepers place hives on rooftops where bees can reach flowers in nearby parks. ② They must also ensure that the insects have access to clean water. ③ The price of antique furniture has increased in several auction houses. ④ Regular observation helps beekeepers notice signs of disease in a colony. ⑤ Responsible management can make rooftop hives compatible with city life.",
     "given_sentence": null,
     "choices": [
-      "①①번 문장",
-      "②②번 문장",
-      "③③번 문장",
-      "④④번 문장",
-      "⑤⑤번 문장"
+      "①번 문장",
+      "②번 문장",
+      "③번 문장",
+      "④번 문장",
+      "⑤번 문장"
     ],
     "answer": 3,
     "explanation": "③은 양봉과 무관한 골동품 가구 가격에 관한 문장입니다.",
@@ -2127,11 +2127,11 @@ const QUESTION_BANK = [
     "passage": "① A small telescope can reveal details on the Moon that are invisible to the naked eye. ② Astronomers recommend beginning with a low-power eyepiece to locate a target. ③ Once the object is centered, observers can try a higher magnification. ④ Most modern kitchens contain several electrical appliances for cooking. ⑤ Patience is important because the image may shake or blur at high magnification.",
     "given_sentence": null,
     "choices": [
-      "①①번 문장",
-      "②②번 문장",
-      "③③번 문장",
-      "④④번 문장",
-      "⑤⑤번 문장"
+      "①번 문장",
+      "②번 문장",
+      "③번 문장",
+      "④번 문장",
+      "⑤번 문장"
     ],
     "answer": 4,
     "explanation": "④는 천체 관측과 무관한 주방 기기 이야기입니다.",
@@ -2148,11 +2148,11 @@ const QUESTION_BANK = [
     "passage": "① Public libraries increasingly offer more than printed books. ② Some lend musical instruments and tools for occasional household tasks. ③ Others provide rooms where residents can record podcasts or attend workshops. ④ These programs can broaden access to resources that would be costly to own individually. ⑤ The deepest ocean trenches are formed through tectonic processes.",
     "given_sentence": null,
     "choices": [
-      "①①번 문장",
-      "②②번 문장",
-      "③③번 문장",
-      "④④번 문장",
-      "⑤⑤번 문장"
+      "①번 문장",
+      "②번 문장",
+      "③번 문장",
+      "④번 문장",
+      "⑤번 문장"
     ],
     "answer": 5,
     "explanation": "⑤는 도서관 서비스와 무관한 해구 형성 내용입니다.",
@@ -2169,11 +2169,11 @@ const QUESTION_BANK = [
     "passage": "① Mangrove forests grow along tropical and subtropical coasts. ② Their roots can trap sediment and provide shelter for young fish. ③ They also help reduce the force of waves reaching some shorelines. ④ International chess competitions use several different time controls. ⑤ Protecting mangroves can therefore benefit both coastal ecosystems and nearby communities.",
     "given_sentence": null,
     "choices": [
-      "①①번 문장",
-      "②②번 문장",
-      "③③번 문장",
-      "④④번 문장",
-      "⑤⑤번 문장"
+      "①번 문장",
+      "②번 문장",
+      "③번 문장",
+      "④번 문장",
+      "⑤번 문장"
     ],
     "answer": 4,
     "explanation": "④는 맹그로브 숲과 무관한 체스 대회 규정입니다.",
@@ -2190,11 +2190,11 @@ const QUESTION_BANK = [
     "passage": "① Learning to play an instrument involves developing fine motor coordination. ② Daily practice can help movements become smoother and more reliable. ③ Listening carefully also enables musicians to identify errors in pitch or rhythm. ④ Some mountain species migrate to higher elevations as temperatures rise. ⑤ Improvement depends on both physical repetition and attentive listening.",
     "given_sentence": null,
     "choices": [
-      "①①번 문장",
-      "②②번 문장",
-      "③③번 문장",
-      "④④번 문장",
-      "⑤⑤번 문장"
+      "①번 문장",
+      "②번 문장",
+      "③번 문장",
+      "④번 문장",
+      "⑤번 문장"
     ],
     "answer": 4,
     "explanation": "④는 악기 학습과 무관한 생물의 이동입니다.",
@@ -2211,11 +2211,11 @@ const QUESTION_BANK = [
     "passage": "① Historic buildings often require specialized techniques for repair. ② Original materials may respond differently to moisture than modern substitutes. ③ Conservators therefore examine the structure before choosing a treatment. ④ The first commercial passenger aircraft carried relatively few travelers. ⑤ Careful restoration seeks to preserve important features while ensuring safety.",
     "given_sentence": null,
     "choices": [
-      "①①번 문장",
-      "②②번 문장",
-      "③③번 문장",
-      "④④번 문장",
-      "⑤⑤번 문장"
+      "①번 문장",
+      "②번 문장",
+      "③번 문장",
+      "④번 문장",
+      "⑤번 문장"
     ],
     "answer": 4,
     "explanation": "④의 초기 여객기 이야기는 건축물 보존과 관계없습니다.",
@@ -2232,11 +2232,11 @@ const QUESTION_BANK = [
     "passage": "① Local farmers’ markets allow shoppers to speak directly with producers. ② Customers may learn how seasonal weather has affected a crop. ③ Such conversations can make the origins of food more visible. ④ Regular contact can also build trust between buyers and growers. ⑤ Volcanic rocks are often classified according to their mineral composition.",
     "given_sentence": null,
     "choices": [
-      "①①번 문장",
-      "②②번 문장",
-      "③③번 문장",
-      "④④번 문장",
-      "⑤⑤번 문장"
+      "①번 문장",
+      "②번 문장",
+      "③번 문장",
+      "④번 문장",
+      "⑤번 문장"
     ],
     "answer": 5,
     "explanation": "⑤는 농산물 직거래가 아닌 화산암 분류입니다.",
@@ -2253,11 +2253,11 @@ const QUESTION_BANK = [
     "passage": "① A good bicycle helmet must fit securely without causing discomfort. ② The straps should form a stable shape around the ears. ③ Riders should replace helmets after a significant impact even if damage is hard to see. ④ Professional painters sometimes combine pigments to produce new colors. ⑤ Proper fit and maintenance are essential to protective performance.",
     "given_sentence": null,
     "choices": [
-      "①①번 문장",
-      "②②번 문장",
-      "③③번 문장",
-      "④④번 문장",
-      "⑤⑤번 문장"
+      "①번 문장",
+      "②번 문장",
+      "③번 문장",
+      "④번 문장",
+      "⑤번 문장"
     ],
     "answer": 4,
     "explanation": "④는 자전거 헬멧 안전과 무관한 물감 조합입니다.",
@@ -2274,11 +2274,11 @@ const QUESTION_BANK = [
     "passage": "① A city can reduce street flooding by using surfaces that allow rainwater to soak into the ground. ② Permeable pavement is one approach, especially in suitable low-traffic areas. ③ Rain gardens can capture some runoff from nearby roofs and sidewalks. ④ The oldest surviving manuscripts were copied by skilled scribes. ⑤ These measures complement rather than completely replace conventional drainage systems.",
     "given_sentence": null,
     "choices": [
-      "①①번 문장",
-      "②②번 문장",
-      "③③번 문장",
-      "④④번 문장",
-      "⑤⑤번 문장"
+      "①번 문장",
+      "②번 문장",
+      "③번 문장",
+      "④번 문장",
+      "⑤번 문장"
     ],
     "answer": 4,
     "explanation": "④는 빗물 관리와 관련 없는 필사본에 관한 문장입니다.",
@@ -2295,11 +2295,11 @@ const QUESTION_BANK = [
     "passage": "① Coral reefs support many species by providing food and shelter. ② Warm-water stress can cause corals to lose symbiotic algae. ③ Repeated severe bleaching can make reef recovery more difficult. ④ The quality of a violin bow depends partly on its balance. ⑤ Reducing local pollution may improve the ability of some reefs to withstand stress.",
     "given_sentence": null,
     "choices": [
-      "①①번 문장",
-      "②②번 문장",
-      "③③번 문장",
-      "④④번 문장",
-      "⑤⑤번 문장"
+      "①번 문장",
+      "②번 문장",
+      "③번 문장",
+      "④번 문장",
+      "⑤번 문장"
     ],
     "answer": 4,
     "explanation": "④는 산호초가 아니라 바이올린 활에 대한 문장입니다.",
@@ -2597,7 +2597,7 @@ const QUESTION_BANK = [
       "② The original arrangement was already perfect and required no reconsideration.",
       "③ Any improvement proves that the same intervention will work in every location.",
       "④ The most effective strategy is to ignore the original problem until it disappears.",
-      "⑤ Diversity can help a community withstand unpredictable shocks"
+      "⑤ Communities that embrace variety are better equipped to handle unexpected disruptions"
     ],
     "answer": 5,
     "explanation": "이 글은 사례의 결과를 통해 “Diversity can help a community withstand unpredictable shocks”라는 핵심 요지를 전달합니다.",
@@ -2661,11 +2661,11 @@ const QUESTION_BANK = [
     "passage": "A wetland restoration team faced a problem that could not be solved simply by repeating its usual routine. An invasive plant had crowded out native grasses. Volunteers removed it gradually and monitored soil conditions. At first glance, the adjustment might have seemed too limited to make a substantial difference; its effect became apparent only after the outcome was examined. Native seedlings returned, but the ecosystem needed continued care. This does not guarantee that the same measure will succeed in every setting, because resources and local needs may differ. We should not evaluate such initiatives merely by their novelty or scale. Instead, decision-makers ought to examine who benefits, what evidence supports the result, and whether the approach fits local conditions. Restoration is a long-term process rather than a single cleanup.",
     "given_sentence": "",
     "choices": [
-      "① Decisions should rely solely on tradition rather than observed results.",
-      "② Decision-makers should assess practical changes using evidence and local needs.",
-      "③ Only expensive interventions deserve attention from local communities.",
-      "④ Once an intervention works somewhere, further evaluation becomes unnecessary.",
-      "⑤ Every new idea should be adopted without examining its consequences."
+      "① Restoration teams should remove invasive species all at once to restore balance quickly.",
+      "② Gradual, evidence-based approaches to ecological problems yield more reliable improvements.",
+      "③ Native plant communities recover best when human intervention is kept to a minimum.",
+      "④ Monitoring outcomes is unnecessary once an invasive species has been partially removed.",
+      "⑤ Only professional ecologists should lead community restoration efforts."
     ],
     "answer": 2,
     "explanation": "필자는 새 방안의 규모·신기함보다 이용자 요구와 실제 결과를 평가해야 한다고 주장합니다.",
@@ -2692,7 +2692,7 @@ const QUESTION_BANK = [
   {
     "_qid": "R-0131",
     "type": "무관한 문장",
-    "passage": "① Old laboratory notebooks were scattered across different offices. ② Staff scanned the pages and added searchable descriptions. ③ Researchers found experiments that would otherwise have been repeated. ④ Preserving records can prevent unnecessary duplication of effort. ⑤ A school's lunchtime discussion tables has its own history and administrative schedule.",
+    "passage": "① Old laboratory notebooks were scattered across different offices. ② Staff scanned the pages and added searchable descriptions. ③ Researchers found experiments that would otherwise have been repeated. ④ Preserving records can prevent unnecessary duplication of effort. ⑤ A school's lunchtime discussion tables have their own history and administrative schedule.",
     "given_sentence": "",
     "choices": [
       "①번 문장",
@@ -2801,7 +2801,7 @@ const QUESTION_BANK = [
       "② The original arrangement was already perfect and required no reconsideration.",
       "③ The most effective strategy is to ignore the original problem until it disappears.",
       "④ The outcome shows that gathering information is always less valuable than acting immediately.",
-      "⑤ Protecting nature often requires guiding behavior, not merely prohibiting it"
+      "⑤ Conservation efforts succeed more when they shape habits rather than simply impose restrictions"
     ],
     "answer": 5,
     "explanation": "이 글은 사례의 결과를 통해 “Protecting nature often requires guiding behavior, not merely prohibiting it”라는 핵심 요지를 전달합니다.",
@@ -2865,13 +2865,13 @@ const QUESTION_BANK = [
     "passage": "A theater's captioned performances faced a problem that could not be solved simply by repeating its usual routine. Some audience members could not follow dialogue clearly. The company added carefully timed captions beside the stage. Attendance increased among people with different hearing needs. We should not evaluate such initiatives merely by their novelty or scale. Instead, decision-makers ought to examine who benefits, what evidence supports the result, and whether the approach fits local conditions. Accessibility can broaden participation without changing an artwork's core.",
     "given_sentence": "",
     "choices": [
-      "① Once an intervention works somewhere, further evaluation becomes unnecessary.",
-      "② Every new idea should be adopted without examining its consequences.",
-      "③ Only expensive interventions deserve attention from local communities.",
-      "④ Decisions should rely solely on tradition rather than observed results.",
-      "⑤ Decision-makers should assess practical changes using evidence and local needs."
+      "① Caption services should remain unchanged once they are introduced to an audience.",
+      "② Accessibility tools are most effective when refined through direct feedback from users.",
+      "③ Audio descriptions should always replace captions in theatrical performances.",
+      "④ Audiences with hearing difficulties prefer to receive printed scripts in advance.",
+      "⑤ Only large theaters have the resources needed to implement accessibility programs."
     ],
-    "answer": 5,
+    "answer": 2,
     "explanation": "필자는 새 방안의 규모·신기함보다 이용자 요구와 실제 결과를 평가해야 한다고 주장합니다.",
     "wrong_explanations": {},
     "_reviewed": false
@@ -3004,7 +3004,7 @@ const QUESTION_BANK = [
       "① The outcome shows that gathering information is always less valuable than acting immediately.",
       "② The most effective strategy is to ignore the original problem until it disappears.",
       "③ Any improvement proves that the same intervention will work in every location.",
-      "④ Measurement can turn vague concerns into practical decisions",
+      "④ Collecting and analyzing data transforms broad worries into actionable steps",
       "⑤ The original arrangement was already perfect and required no reconsideration."
     ],
     "answer": 4,
@@ -3069,13 +3069,13 @@ const QUESTION_BANK = [
     "passage": "A city's heat-warning messages faced a problem that could not be solved simply by repeating its usual routine. Alerts used technical temperature measures that many residents misunderstood. Public health staff added concrete advice about water and shaded areas. The outcome suggested that a carefully chosen change can be more productive than a broad but unfocused effort. More people reported changing outdoor plans on very hot days. We should not evaluate such initiatives merely by their novelty or scale. Instead, decision-makers ought to examine who benefits, what evidence supports the result, and whether the approach fits local conditions. Warnings work best when people know what action to take.",
     "given_sentence": "",
     "choices": [
-      "① Every new idea should be adopted without examining its consequences.",
-      "② Once an intervention works somewhere, further evaluation becomes unnecessary.",
-      "③ Decisions should rely solely on tradition rather than observed results.",
-      "④ Decision-makers should assess practical changes using evidence and local needs.",
-      "⑤ Only expensive interventions deserve attention from local communities."
+      "① Technical temperature data should be the primary measure in public health alerts.",
+      "② Heat warnings are only effective when distributed through official government channels.",
+      "③ Public health messages reach more people when expressed in familiar, everyday terms.",
+      "④ Residents can accurately interpret complex meteorological data without guidance.",
+      "⑤ Simplifying health alerts reduces their credibility among informed audiences."
     ],
-    "answer": 4,
+    "answer": 3,
     "explanation": "필자는 새 방안의 규모·신기함보다 이용자 요구와 실제 결과를 평가해야 한다고 주장합니다.",
     "wrong_explanations": {},
     "_reviewed": false
@@ -3206,7 +3206,7 @@ const QUESTION_BANK = [
     "given_sentence": "",
     "choices": [
       "① Any improvement proves that the same intervention will work in every location.",
-      "② Visual examples can improve compliance with everyday rules",
+      "② Clear visual guidance helps people follow everyday rules more reliably",
       "③ The outcome shows that gathering information is always less valuable than acting immediately.",
       "④ The original arrangement was already perfect and required no reconsideration.",
       "⑤ The most effective strategy is to ignore the original problem until it disappears."
@@ -3273,13 +3273,13 @@ const QUESTION_BANK = [
     "passage": "A neighborhood history walk faced a problem that could not be solved simply by repeating its usual routine. Visitors knew the district mainly through its new apartment towers. Residents marked former workshops and markets along a walking route. At first glance, the adjustment might have seemed too limited to make a substantial difference; its effect became apparent only after the outcome was examined. Participants discovered how earlier industries had shaped local streets. This does not guarantee that the same measure will succeed in every setting, because resources and local needs may differ. We should not evaluate such initiatives merely by their novelty or scale. Instead, decision-makers ought to examine who benefits, what evidence supports the result, and whether the approach fits local conditions. Everyday places can hold layers of history that are easy to overlook.",
     "given_sentence": "",
     "choices": [
-      "① Decisions should rely solely on tradition rather than observed results.",
-      "② Every new idea should be adopted without examining its consequences.",
-      "③ Once an intervention works somewhere, further evaluation becomes unnecessary.",
-      "④ Only expensive interventions deserve attention from local communities.",
-      "⑤ Decision-makers should assess practical changes using evidence and local needs."
+      "① Urban history tours are most engaging when focused on recently constructed landmarks.",
+      "② Neighborhoods with new buildings have little historical value worth preserving.",
+      "③ Residents' memories are unreliable sources for understanding local history.",
+      "④ Highlighting overlooked community stories can deepen visitors' sense of a place.",
+      "⑤ History walks should avoid mentioning buildings that no longer exist."
     ],
-    "answer": 5,
+    "answer": 4,
     "explanation": "필자는 새 방안의 규모·신기함보다 이용자 요구와 실제 결과를 평가해야 한다고 주장합니다.",
     "wrong_explanations": {},
     "_reviewed": false
@@ -3413,7 +3413,7 @@ const QUESTION_BANK = [
       "② The most effective strategy is to ignore the original problem until it disappears.",
       "③ Any improvement proves that the same intervention will work in every location.",
       "④ The outcome shows that gathering information is always less valuable than acting immediately.",
-      "⑤ Important information should reach people where decisions are made"
+      "⑤ Bringing key information directly to decision-makers increases its practical value"
     ],
     "answer": 5,
     "explanation": "이 글은 사례의 결과를 통해 “Important information should reach people where decisions are made”라는 핵심 요지를 전달합니다.",
@@ -3477,11 +3477,11 @@ const QUESTION_BANK = [
     "passage": "A museum's tactile models faced a problem that could not be solved simply by repeating its usual routine. Visitors could look at ancient sculptures but were not allowed to touch them. Curators introduced durable replicas with detailed verbal descriptions. People with visual impairments explored forms that had been inaccessible. We should not evaluate such initiatives merely by their novelty or scale. Instead, decision-makers ought to examine who benefits, what evidence supports the result, and whether the approach fits local conditions. Alternative formats can open experiences to more people.",
     "given_sentence": "",
     "choices": [
-      "① Decision-makers should assess practical changes using evidence and local needs.",
-      "② Once an intervention works somewhere, further evaluation becomes unnecessary.",
-      "③ Only expensive interventions deserve attention from local communities.",
-      "④ Decisions should rely solely on tradition rather than observed results.",
-      "⑤ Every new idea should be adopted without examining its consequences."
+      "① Enabling hands-on engagement with replicas can make museum collections more accessible.",
+      "② Original artifacts should never be reproduced for public interaction.",
+      "③ Tactile models are most useful for visitors with visual impairments only.",
+      "④ Curators should prioritize visual displays over interactive alternatives.",
+      "⑤ Physical contact with replicas reduces visitors' appreciation of the originals."
     ],
     "answer": 1,
     "explanation": "필자는 새 방안의 규모·신기함보다 이용자 요구와 실제 결과를 평가해야 한다고 주장합니다.",
@@ -3615,7 +3615,7 @@ const QUESTION_BANK = [
     "choices": [
       "① The most effective strategy is to ignore the original problem until it disappears.",
       "② The original arrangement was already perfect and required no reconsideration.",
-      "③ Observation methods influence what investigators are able to detect",
+      "③ The methods chosen for observation shape the kinds of discoveries researchers can make",
       "④ Any improvement proves that the same intervention will work in every location.",
       "⑤ The outcome shows that gathering information is always less valuable than acting immediately."
     ],
@@ -3681,11 +3681,11 @@ const QUESTION_BANK = [
     "passage": "A public transit agency's transfer signs faced a problem that could not be solved simply by repeating its usual routine. Passengers missed connections between two nearby train lines. Planners tested signs at points where travelers actually hesitated. The outcome suggested that a carefully chosen change can be more productive than a broad but unfocused effort. Wayfinding improved without constructing a new passageway. We should not evaluate such initiatives merely by their novelty or scale. Instead, decision-makers ought to examine who benefits, what evidence supports the result, and whether the approach fits local conditions. Better information can sometimes solve a problem more cheaply than construction.",
     "given_sentence": "",
     "choices": [
-      "① Decision-makers should assess practical changes using evidence and local needs.",
-      "② Only expensive interventions deserve attention from local communities.",
-      "③ Decisions should rely solely on tradition rather than observed results.",
-      "④ Every new idea should be adopted without examining its consequences.",
-      "⑤ Once an intervention works somewhere, further evaluation becomes unnecessary."
+      "① Small, targeted improvements to signage can significantly reduce passenger confusion.",
+      "② Transit maps should remain standardized to avoid confusing regular commuters.",
+      "③ Transfer connections between lines should be physically separated to prevent crowding.",
+      "④ Passengers who miss connections should be redirected by station staff rather than signs.",
+      "⑤ Infrastructure redesign is always preferable to signage changes in transit systems."
     ],
     "answer": 1,
     "explanation": "필자는 새 방안의 규모·신기함보다 이용자 요구와 실제 결과를 평가해야 한다고 주장합니다.",
@@ -3819,7 +3819,7 @@ const QUESTION_BANK = [
     "choices": [
       "① The outcome shows that gathering information is always less valuable than acting immediately.",
       "② The original arrangement was already perfect and required no reconsideration.",
-      "③ Shared responsibility can develop skills that fixed hierarchies overlook",
+      "③ Rotating leadership roles helps participants build capabilities that rigid structures tend to suppress",
       "④ Any improvement proves that the same intervention will work in every location.",
       "⑤ The most effective strategy is to ignore the original problem until it disappears."
     ],
@@ -3885,11 +3885,11 @@ const QUESTION_BANK = [
     "passage": "A city's winter sidewalk plan faced a problem that could not be solved simply by repeating its usual routine. Snow-clearing crews focused first on roads used by cars. Residents explained how icy pavements prevented short walking trips. At first glance, the adjustment might have seemed too limited to make a substantial difference; its effect became apparent only after the outcome was examined. Officials added busy pedestrian crossings to the priority list. This does not guarantee that the same measure will succeed in every setting, because resources and local needs may differ. We should not evaluate such initiatives merely by their novelty or scale. Instead, decision-makers ought to examine who benefits, what evidence supports the result, and whether the approach fits local conditions. Transport planning should consider more than vehicle movement.",
     "given_sentence": "",
     "choices": [
-      "① Once an intervention works somewhere, further evaluation becomes unnecessary.",
-      "② Every new idea should be adopted without examining its consequences.",
-      "③ Decision-makers should assess practical changes using evidence and local needs.",
-      "④ Decisions should rely solely on tradition rather than observed results.",
-      "⑤ Only expensive interventions deserve attention from local communities."
+      "① Winter road maintenance should prioritize major car routes above all other concerns.",
+      "② Snow-clearing decisions should be made exclusively by transportation engineers.",
+      "③ Incorporating residents' input into service planning leads to more equitable outcomes.",
+      "④ Pedestrian pathways are a lower priority than roads during winter weather events.",
+      "⑤ Community complaints about ice conditions are rarely actionable in the short term."
     ],
     "answer": 3,
     "explanation": "필자는 새 방안의 규모·신기함보다 이용자 요구와 실제 결과를 평가해야 한다고 주장합니다.",
@@ -4024,7 +4024,7 @@ const QUESTION_BANK = [
       "① The most effective strategy is to ignore the original problem until it disappears.",
       "② The original arrangement was already perfect and required no reconsideration.",
       "③ The outcome shows that gathering information is always less valuable than acting immediately.",
-      "④ Transparent supply chains can make economic choices better informed",
+      "④ When supply-chain origins are openly shared, consumers can make more thoughtful choices",
       "⑤ Any improvement proves that the same intervention will work in every location."
     ],
     "answer": 4,
@@ -4089,11 +4089,11 @@ const QUESTION_BANK = [
     "passage": "A music archive's digitization choices faced a problem that could not be solved simply by repeating its usual routine. Fragile recordings were being copied without notes about their origins. Archivists recorded performer names and recording conditions alongside files. Future listeners could interpret the audio more accurately. We should not evaluate such initiatives merely by their novelty or scale. Instead, decision-makers ought to examine who benefits, what evidence supports the result, and whether the approach fits local conditions. Preservation requires context as well as a technical copy.",
     "given_sentence": "",
     "choices": [
-      "① Once an intervention works somewhere, further evaluation becomes unnecessary.",
-      "② Decision-makers should assess practical changes using evidence and local needs.",
-      "③ Decisions should rely solely on tradition rather than observed results.",
-      "④ Only expensive interventions deserve attention from local communities.",
-      "⑤ Every new idea should be adopted without examining its consequences."
+      "① Digitizing fragile recordings is worthwhile only when the original format is severely damaged.",
+      "② Preserving context alongside content makes archival materials significantly more useful.",
+      "③ Audio archives should focus on quantity of digitized recordings over metadata accuracy.",
+      "④ Provenance information is unnecessary when the audio quality of a recording is high.",
+      "⑤ Community music archives serve a narrower purpose than professionally managed collections."
     ],
     "answer": 2,
     "explanation": "필자는 새 방안의 규모·신기함보다 이용자 요구와 실제 결과를 평가해야 한다고 주장합니다.",
@@ -4259,11 +4259,11 @@ const QUESTION_BANK = [
     "passage": "A city's reusable-cup program faced a problem that could not be solved simply by repeating its usual routine. Most commuters purchased drinks in disposable containers. Participating cafés offered a small deposit for returnable cups. The outcome suggested that a carefully chosen change can be more productive than a broad but unfocused effort. Returns increased when collection points appeared near subway exits. We should not evaluate such initiatives merely by their novelty or scale. Instead, decision-makers ought to examine who benefits, what evidence supports the result, and whether the approach fits local conditions. Convenient infrastructure can matter more than good intentions alone.",
     "given_sentence": "",
     "choices": [
-      "① Only expensive interventions deserve attention from local communities.",
-      "② Decision-makers should assess practical changes using evidence and local needs.",
-      "③ Once an intervention works somewhere, further evaluation becomes unnecessary.",
-      "④ Decisions should rely solely on tradition rather than observed results.",
-      "⑤ Every new idea should be adopted without examining its consequences."
+      "① Reusable cup programs require major infrastructure investment before they can succeed.",
+      "② Convenience-focused design is essential for encouraging sustainable behavior change.",
+      "③ Deposit systems for cups are only effective in cafés near public transit stations.",
+      "④ Environmental habits change most quickly when financial penalties are introduced.",
+      "⑤ Consumers are unlikely to adopt reusable containers without direct regulation."
     ],
     "answer": 2,
     "explanation": "필자는 새 방안의 규모·신기함보다 이용자 요구와 실제 결과를 평가해야 한다고 주장합니다.",
@@ -4398,7 +4398,7 @@ const QUESTION_BANK = [
       "① Any improvement proves that the same intervention will work in every location.",
       "② The most effective strategy is to ignore the original problem until it disappears.",
       "③ The outcome shows that gathering information is always less valuable than acting immediately.",
-      "④ Preserving records can prevent unnecessary duplication of effort",
+      "④ Well-maintained and accessible records help organizations avoid repeating completed work",
       "⑤ The original arrangement was already perfect and required no reconsideration."
     ],
     "answer": 4,
@@ -4463,11 +4463,11 @@ const QUESTION_BANK = [
     "passage": "A neighborhood's flood map faced a problem that could not be solved simply by repeating its usual routine. Residents relied on memories of the last major storm. Volunteers combined interviews with publicly available elevation data. At first glance, the adjustment might have seemed too limited to make a substantial difference; its effect became apparent only after the outcome was examined. The map identified low streets overlooked by older planning documents. This does not guarantee that the same measure will succeed in every setting, because resources and local needs may differ. We should not evaluate such initiatives merely by their novelty or scale. Instead, decision-makers ought to examine who benefits, what evidence supports the result, and whether the approach fits local conditions. Different kinds of evidence can reveal hidden vulnerabilities.",
     "given_sentence": "",
     "choices": [
-      "① Decisions should rely solely on tradition rather than observed results.",
-      "② Every new idea should be adopted without examining its consequences.",
-      "③ Decision-makers should assess practical changes using evidence and local needs.",
-      "④ Only expensive interventions deserve attention from local communities.",
-      "⑤ Once an intervention works somewhere, further evaluation becomes unnecessary."
+      "① Flood risk maps should rely exclusively on historical storm records for accuracy.",
+      "② Residents' memories of past floods are too subjective to be used in planning.",
+      "③ Combining local experience with technical data produces more comprehensive risk assessments.",
+      "④ Flood mapping should be conducted only by certified civil engineers.",
+      "⑤ Community volunteers lack the expertise needed to contribute to hazard planning."
     ],
     "answer": 3,
     "explanation": "필자는 새 방안의 규모·신기함보다 이용자 요구와 실제 결과를 평가해야 한다고 주장합니다.",
@@ -4603,7 +4603,7 @@ const QUESTION_BANK = [
       "② Any improvement proves that the same intervention will work in every location.",
       "③ The outcome shows that gathering information is always less valuable than acting immediately.",
       "④ The most effective strategy is to ignore the original problem until it disappears.",
-      "⑤ Complex problems often require multiple complementary responses"
+      "⑤ Tackling multifaceted challenges is more effective when several coordinated strategies are combined"
     ],
     "answer": 5,
     "explanation": "이 글은 사례의 결과를 통해 “Complex problems often require multiple complementary responses”라는 핵심 요지를 전달합니다.",
@@ -4667,11 +4667,11 @@ const QUESTION_BANK = [
     "passage": "A language archive's audio collection faced a problem that could not be solved simply by repeating its usual routine. A regional dialect was rarely recorded by younger speakers. Community members interviewed elders and cataloged everyday expressions. Teachers later used the recordings to introduce students to local speech. We should not evaluate such initiatives merely by their novelty or scale. Instead, decision-makers ought to examine who benefits, what evidence supports the result, and whether the approach fits local conditions. Preserving living voices can support cultural continuity.",
     "given_sentence": "",
     "choices": [
-      "① Once an intervention works somewhere, further evaluation becomes unnecessary.",
-      "② Every new idea should be adopted without examining its consequences.",
-      "③ Only expensive interventions deserve attention from local communities.",
-      "④ Decisions should rely solely on tradition rather than observed results.",
-      "⑤ Decision-makers should assess practical changes using evidence and local needs."
+      "① Dialect preservation is only feasible when professional linguists lead recording efforts.",
+      "② Younger speakers should be excluded from language archives to maintain authenticity.",
+      "③ Regional dialects naturally disappear as communities adopt standardized languages.",
+      "④ Language archives require expensive equipment to produce recordings of scholarly value.",
+      "⑤ Engaging community members in documenting their own language strengthens preservation outcomes."
     ],
     "answer": 5,
     "explanation": "필자는 새 방안의 규모·신기함보다 이용자 요구와 실제 결과를 평가해야 한다고 주장합니다.",
@@ -4804,7 +4804,7 @@ const QUESTION_BANK = [
     "given_sentence": "",
     "choices": [
       "① Any improvement proves that the same intervention will work in every location.",
-      "② Inclusive communication improves the reach of essential information",
+      "② Adapting messages to varied audiences extends the impact of important information",
       "③ The outcome shows that gathering information is always less valuable than acting immediately.",
       "④ The original arrangement was already perfect and required no reconsideration.",
       "⑤ The most effective strategy is to ignore the original problem until it disappears."
@@ -4871,11 +4871,11 @@ const QUESTION_BANK = [
     "passage": "An agricultural weather app faced a problem that could not be solved simply by repeating its usual routine. Farmers received detailed charts but found them difficult to interpret. Designers added clear symbols and short explanations of forecast ranges. The outcome suggested that a carefully chosen change can be more productive than a broad but unfocused effort. Users made better timing decisions for planting and irrigation. We should not evaluate such initiatives merely by their novelty or scale. Instead, decision-makers ought to examine who benefits, what evidence supports the result, and whether the approach fits local conditions. Useful data must also be presented in an understandable form.",
     "given_sentence": "",
     "choices": [
-      "① Once an intervention works somewhere, further evaluation becomes unnecessary.",
-      "② Only expensive interventions deserve attention from local communities.",
-      "③ Decisions should rely solely on tradition rather than observed results.",
-      "④ Every new idea should be adopted without examining its consequences.",
-      "⑤ Decision-makers should assess practical changes using evidence and local needs."
+      "① Agricultural apps should provide farmers with as much raw data as possible.",
+      "② Complex weather charts are more reliable than simplified forecasts for farming decisions.",
+      "③ Farmers without technical backgrounds should avoid using digital weather tools.",
+      "④ App designers should prioritize visual sophistication over practical usability.",
+      "⑤ Presenting information in familiar, actionable formats helps users make better decisions."
     ],
     "answer": 5,
     "explanation": "필자는 새 방안의 규모·신기함보다 이용자 요구와 실제 결과를 평가해야 한다고 주장합니다.",
@@ -5010,7 +5010,7 @@ const QUESTION_BANK = [
       "① The outcome shows that gathering information is always less valuable than acting immediately.",
       "② The most effective strategy is to ignore the original problem until it disappears.",
       "③ The original arrangement was already perfect and required no reconsideration.",
-      "④ Reducing upfront costs can widen access to an activity",
+      "④ Lowering the initial cost barrier allows a broader range of people to engage in an activity",
       "⑤ Any improvement proves that the same intervention will work in every location."
     ],
     "answer": 4,
@@ -5075,11 +5075,11 @@ const QUESTION_BANK = [
     "passage": "A public school's rooftop garden faced a problem that could not be solved simply by repeating its usual routine. The roof was unused and became extremely hot in summer. Teachers installed lightweight planting beds with safety measures. At first glance, the adjustment might have seemed too limited to make a substantial difference; its effect became apparent only after the outcome was examined. Students observed insects while the shaded surface absorbed less heat. This does not guarantee that the same measure will succeed in every setting, because resources and local needs may differ. We should not evaluate such initiatives merely by their novelty or scale. Instead, decision-makers ought to examine who benefits, what evidence supports the result, and whether the approach fits local conditions. One improvement can offer educational and environmental benefits.",
     "given_sentence": "",
     "choices": [
-      "① Decision-makers should assess practical changes using evidence and local needs.",
-      "② Once an intervention works somewhere, further evaluation becomes unnecessary.",
-      "③ Every new idea should be adopted without examining its consequences.",
-      "④ Decisions should rely solely on tradition rather than observed results.",
-      "⑤ Only expensive interventions deserve attention from local communities."
+      "① Repurposing unused spaces for educational use can create environmental and academic benefits.",
+      "② Rooftop gardens in schools require extensive structural modifications to be viable.",
+      "③ Urban heat reduction is best achieved through large-scale municipal infrastructure projects.",
+      "④ School gardens should focus exclusively on food production rather than environmental learning.",
+      "⑤ Student participation in garden maintenance reduces academic focus during school hours."
     ],
     "answer": 1,
     "explanation": "필자는 새 방안의 규모·신기함보다 이용자 요구와 실제 결과를 평가해야 한다고 주장합니다.",
@@ -5214,7 +5214,7 @@ const QUESTION_BANK = [
       "① The original arrangement was already perfect and required no reconsideration.",
       "② The most effective strategy is to ignore the original problem until it disappears.",
       "③ The outcome shows that gathering information is always less valuable than acting immediately.",
-      "④ Changing the invitation can change who feels welcome",
+      "④ Revising how an event is promoted can attract participants who would otherwise feel excluded",
       "⑤ Any improvement proves that the same intervention will work in every location."
     ],
     "answer": 4,
@@ -5279,11 +5279,11 @@ const QUESTION_BANK = [
     "passage": "A science teacher's model debate faced a problem that could not be solved simply by repeating its usual routine. Students assumed a diagram represented every detail of reality. The teacher compared two models that explained different aspects of a river. Students recognized that useful models can simplify and omit information. We should not evaluate such initiatives merely by their novelty or scale. Instead, decision-makers ought to examine who benefits, what evidence supports the result, and whether the approach fits local conditions. Models are tools for reasoning, not exact copies of the world.",
     "given_sentence": "",
     "choices": [
-      "① Decisions should rely solely on tradition rather than observed results.",
-      "② Decision-makers should assess practical changes using evidence and local needs.",
-      "③ Every new idea should be adopted without examining its consequences.",
-      "④ Once an intervention works somewhere, further evaluation becomes unnecessary.",
-      "⑤ Only expensive interventions deserve attention from local communities."
+      "① Scientific models should be presented to students as complete representations of reality.",
+      "② Understanding the limits of models helps students develop more accurate scientific thinking.",
+      "③ Diagrams are only useful in science education when they depict processes precisely.",
+      "④ Students who question scientific models should be guided back to accepted explanations.",
+      "⑤ Comparing different models causes confusion and should be avoided in introductory lessons."
     ],
     "answer": 2,
     "explanation": "필자는 새 방안의 규모·신기함보다 이용자 요구와 실제 결과를 평가해야 한다고 주장합니다.",
@@ -5416,7 +5416,7 @@ const QUESTION_BANK = [
     "given_sentence": "",
     "choices": [
       "① The outcome shows that gathering information is always less valuable than acting immediately.",
-      "② New perspectives can reveal value in familiar collections",
+      "② Applying a fresh perspective to existing materials can uncover value that was previously overlooked",
       "③ The most effective strategy is to ignore the original problem until it disappears.",
       "④ The original arrangement was already perfect and required no reconsideration.",
       "⑤ Any improvement proves that the same intervention will work in every location."
@@ -5483,11 +5483,11 @@ const QUESTION_BANK = [
     "passage": "A public library's seed collection faced a problem that could not be solved simply by repeating its usual routine. Gardeners struggled to find locally adapted seeds each spring. The library began lending seeds and collecting information after harvest. The outcome suggested that a carefully chosen change can be more productive than a broad but unfocused effort. Users learned which varieties performed well in nearby soils. We should not evaluate such initiatives merely by their novelty or scale. Instead, decision-makers ought to examine who benefits, what evidence supports the result, and whether the approach fits local conditions. Community knowledge can grow through repeated sharing and feedback.",
     "given_sentence": "",
     "choices": [
-      "① Decisions should rely solely on tradition rather than observed results.",
-      "② Only expensive interventions deserve attention from local communities.",
-      "③ Once an intervention works somewhere, further evaluation becomes unnecessary.",
-      "④ Decision-makers should assess practical changes using evidence and local needs.",
-      "⑤ Every new idea should be adopted without examining its consequences."
+      "① Libraries should focus on book lending rather than expanding into non-traditional services.",
+      "② Seed libraries are only practical in rural communities with established gardening traditions.",
+      "③ Locally adapted seeds provide no measurable advantage over commercially available varieties.",
+      "④ Community lending systems can address practical resource gaps in environmentally conscious ways.",
+      "⑤ Gardeners with limited budgets should rely on online retailers rather than local initiatives."
     ],
     "answer": 4,
     "explanation": "필자는 새 방안의 규모·신기함보다 이용자 요구와 실제 결과를 평가해야 한다고 주장합니다.",
@@ -5622,7 +5622,7 @@ const QUESTION_BANK = [
       "① The original arrangement was already perfect and required no reconsideration.",
       "② Any improvement proves that the same intervention will work in every location.",
       "③ The outcome shows that gathering information is always less valuable than acting immediately.",
-      "④ Careful design can reconcile competing environmental needs",
+      "④ Thoughtful engineering can allow different environmental priorities to be met simultaneously",
       "⑤ The most effective strategy is to ignore the original problem until it disappears."
     ],
     "answer": 4,
@@ -5687,11 +5687,11 @@ const QUESTION_BANK = [
     "passage": "A cultural center's rehearsal space faced a problem that could not be solved simply by repeating its usual routine. Young musicians could not afford commercial studios. The center opened unused rooms for short supervised sessions. At first glance, the adjustment might have seemed too limited to make a substantial difference; its effect became apparent only after the outcome was examined. More small groups prepared performances for local events. This does not guarantee that the same measure will succeed in every setting, because resources and local needs may differ. We should not evaluate such initiatives merely by their novelty or scale. Instead, decision-makers ought to examine who benefits, what evidence supports the result, and whether the approach fits local conditions. Access to space can be an important form of creative support.",
     "given_sentence": "",
     "choices": [
-      "① Every new idea should be adopted without examining its consequences.",
-      "② Only expensive interventions deserve attention from local communities.",
-      "③ Decisions should rely solely on tradition rather than observed results.",
-      "④ Decision-makers should assess practical changes using evidence and local needs.",
-      "⑤ Once an intervention works somewhere, further evaluation becomes unnecessary."
+      "① Young musicians should seek commercial studios to develop professional recording skills.",
+      "② Cultural centers should prioritize established performers over emerging local talent.",
+      "③ Shared rehearsal spaces reduce the acoustic quality needed for serious musical practice.",
+      "④ Making underused institutional spaces available can remove barriers for emerging artists.",
+      "⑤ Affordable practice spaces are only necessary in cities with large professional music industries."
     ],
     "answer": 4,
     "explanation": "필자는 새 방안의 규모·신기함보다 이용자 요구와 실제 결과를 평가해야 한다고 주장합니다.",
@@ -5827,7 +5827,7 @@ const QUESTION_BANK = [
       "② The original arrangement was already perfect and required no reconsideration.",
       "③ The outcome shows that gathering information is always less valuable than acting immediately.",
       "④ Any improvement proves that the same intervention will work in every location.",
-      "⑤ Reducing social pressure can make participation more inclusive"
+      "⑤ Easing the social expectations placed on newcomers can broaden participation in an activity"
     ],
     "answer": 5,
     "explanation": "이 글은 사례의 결과를 통해 “Reducing social pressure can make participation more inclusive”라는 핵심 요지를 전달합니다.",
@@ -5891,11 +5891,11 @@ const QUESTION_BANK = [
     "passage": "A school robotics club's design log faced a problem that could not be solved simply by repeating its usual routine. Teams often forgot why they had rejected earlier solutions. Students recorded test results and reasons for each redesign. They avoided repeating several unsuccessful experiments. We should not evaluate such initiatives merely by their novelty or scale. Instead, decision-makers ought to examine who benefits, what evidence supports the result, and whether the approach fits local conditions. Documenting decisions can accelerate later innovation.",
     "given_sentence": "",
     "choices": [
-      "① Decisions should rely solely on tradition rather than observed results.",
-      "② Every new idea should be adopted without examining its consequences.",
-      "③ Only expensive interventions deserve attention from local communities.",
-      "④ Once an intervention works somewhere, further evaluation becomes unnecessary.",
-      "⑤ Decision-makers should assess practical changes using evidence and local needs."
+      "① Robotics teams should avoid documenting failed designs to maintain a positive team culture.",
+      "② Detailed records of past decisions slow down the iterative design process significantly.",
+      "③ Students benefit most from starting each design cycle without reviewing previous attempts.",
+      "④ Design logs are most useful when they focus only on successful solutions.",
+      "⑤ Systematically recording reasoning behind past decisions helps teams build on earlier insights."
     ],
     "answer": 5,
     "explanation": "필자는 새 방안의 규모·신기함보다 이용자 요구와 실제 결과를 평가해야 한다고 주장합니다.",
