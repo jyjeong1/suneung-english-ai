@@ -1,0 +1,556 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>Prof.AI 수능영어 감수 도구</title>
+<script src="questions.js"></script>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700;900&display=swap');
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:'Noto Sans KR',sans-serif;background:#0d1117;color:#e0e0e0;height:100vh;overflow:hidden}
+
+/* 헤더 */
+header{background:#0a1628;border-bottom:2px solid rgba(0,85,212,0.4);padding:10px 20px;display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap}
+header h1{font-size:15px;font-weight:800;color:#60a5fa}
+.hdr-right{display:flex;align-items:center;gap:12px;flex-wrap:wrap}
+.hdr-stat{font-size:12px;color:#94a3b8}
+.hdr-stat b{color:#60a5fa}
+
+/* 진행 바 */
+.prog-bar{height:3px;background:#1e293b;width:100%}
+.prog-fill{height:100%;background:linear-gradient(90deg,#0055d4,#38bdf8);transition:width 0.3s}
+
+/* 분할 레이아웃 */
+.split{display:flex;height:calc(100vh - 52px)}
+.left{flex:1.1;overflow-y:auto;padding:16px;border-right:2px solid #1e293b;background:#0a0f1a}
+.right{flex:1;overflow-y:auto;padding:16px;background:#0d1117}
+
+/* 왼쪽 — 문제 */
+.q-nav{display:flex;justify-content:space-between;align-items:center;margin-bottom:12px;gap:8px}
+.nav-btn{background:#0055d4;color:#fff;border:none;padding:7px 16px;border-radius:6px;font-size:12px;font-weight:700;cursor:pointer;font-family:inherit}
+.nav-btn:disabled{background:#1e293b;color:#475569;cursor:default}
+.nav-btn:hover:not(:disabled){background:#1d4ed8}
+.q-info{font-size:13px;color:#94a3b8;text-align:center}
+.q-status{font-size:11px;font-weight:700;padding:2px 8px;border-radius:4px;margin-left:6px}
+.s-done{background:rgba(34,197,94,0.15);color:#4ade80}
+.s-revise{background:rgba(251,191,36,0.15);color:#fbbf24}
+.s-reject{background:rgba(239,68,68,0.15);color:#f87171}
+.s-none{background:rgba(100,116,139,0.15);color:#94a3b8}
+
+.type-badge{display:inline-block;background:rgba(0,85,212,0.2);color:#60a5fa;border:1px solid rgba(0,85,212,0.3);padding:3px 10px;border-radius:5px;font-size:11px;font-weight:700;margin-bottom:10px}
+.diff-badge{display:inline-block;padding:2px 8px;border-radius:4px;font-size:11px;margin-left:6px}
+.d-하{background:rgba(34,197,94,0.15);color:#4ade80}
+.d-중{background:rgba(59,130,246,0.15);color:#60a5fa}
+.d-상{background:rgba(249,115,22,0.15);color:#fb923c}
+
+.given-box{background:rgba(0,85,212,0.1);border:1px solid rgba(0,85,212,0.3);border-radius:8px;padding:10px 14px;margin-bottom:10px;font-size:13px;color:#93c5fd}
+.given-box b{color:#60a5fa;font-size:11px;display:block;margin-bottom:4px}
+
+.passage{background:rgba(255,255,255,0.03);border-left:3px solid #0055d4;border-radius:0 8px 8px 0;padding:12px 14px;font-size:14px;line-height:1.9;color:#cbd5e1;margin-bottom:12px;max-height:38vh;overflow-y:auto}
+
+.choices{margin-bottom:12px}
+.choice{padding:7px 10px;font-size:13px;border-bottom:1px solid rgba(255,255,255,0.05);color:#94a3b8}
+.choice.answer{color:#4ade80;font-weight:700;background:rgba(34,197,94,0.07);border-radius:4px;border-bottom-color:transparent}
+.choice .ans-mark{color:#4ade80;font-size:11px;margin-left:6px}
+
+.expl-box{background:rgba(0,85,212,0.06);border:1px solid rgba(0,85,212,0.2);border-radius:8px;padding:10px 14px;font-size:12px;color:#94a3b8;line-height:1.8}
+.expl-box b{color:#60a5fa;display:block;margin-bottom:4px;font-size:11px}
+
+/* 빠른 이동 */
+.jump-row{display:flex;gap:8px;align-items:center;margin-bottom:12px}
+.jump-row input{background:#1e293b;border:1px solid #334155;color:#e2e8f0;border-radius:6px;padding:6px 10px;font-size:13px;width:90px;font-family:inherit}
+.jump-row button{background:#1e293b;border:1px solid #334155;color:#94a3b8;border-radius:6px;padding:6px 12px;font-size:12px;cursor:pointer;font-family:inherit}
+.jump-row button:hover{background:#334155}
+
+/* 오른쪽 — 감수표 */
+.section-title{font-size:13px;font-weight:700;color:#60a5fa;border-bottom:1px solid #1e293b;padding-bottom:6px;margin:0 0 10px}
+
+.meta-row{display:flex;gap:8px;margin-bottom:12px;flex-wrap:wrap}
+.field{flex:1;min-width:110px}
+.field label{display:block;font-size:11px;color:#64748b;margin-bottom:3px;font-weight:600}
+.field input,.field select{width:100%;background:#1e293b;border:1px solid #334155;color:#e2e8f0;border-radius:6px;padding:7px 10px;font-size:12px;font-family:inherit}
+.field input:focus,.field select:focus{outline:none;border-color:#0055d4}
+
+/* 체크 테이블 */
+.check-table{width:100%;border-collapse:collapse;margin-bottom:12px;font-size:12px}
+.check-table th{background:#0a0f1a;color:#64748b;padding:7px 10px;text-align:left;font-size:11px;font-weight:700;border-bottom:2px solid #1e293b}
+.check-table td{padding:7px 8px;border-bottom:1px solid #1e293b;vertical-align:middle}
+.radio-grp{display:flex;gap:10px;justify-content:center}
+.radio-grp label{display:inline-flex;align-items:center;gap:4px;cursor:pointer;font-size:12px;padding:4px 8px;border-radius:4px;transition:background 0.15s}
+.radio-grp label:hover{background:#1e293b}
+.radio-grp input[type=radio]{accent-color:#0055d4;width:14px;height:14px}
+.ok{color:#4ade80}
+.err{color:#f87171}
+.na{color:#94a3b8}
+
+/* 판정 버튼 */
+.verdict-row{display:flex;gap:8px;margin-bottom:12px}
+.v-btn{flex:1;padding:12px 6px;border:2px solid #1e293b;border-radius:8px;background:transparent;color:#94a3b8;font-size:13px;font-weight:700;cursor:pointer;font-family:inherit;transition:all 0.15s;text-align:center}
+.v-btn:hover{border-color:#334155;background:#1e293b}
+.v-btn.v-approve.active{border-color:#22c55e;background:rgba(34,197,94,0.15);color:#4ade80}
+.v-btn.v-revise.active{border-color:#f59e0b;background:rgba(245,158,11,0.15);color:#fbbf24}
+.v-btn.v-reject.active{border-color:#ef4444;background:rgba(239,68,68,0.15);color:#f87171}
+
+.memo-box{margin-bottom:12px}
+.memo-box label{display:block;font-size:11px;color:#64748b;font-weight:600;margin-bottom:4px}
+.memo-box textarea{width:100%;background:#1e293b;border:1px solid #334155;color:#e2e8f0;border-radius:6px;padding:8px 10px;font-size:12px;font-family:inherit;resize:vertical;min-height:60px}
+.memo-box textarea:focus{outline:none;border-color:#0055d4}
+
+/* 버튼 행 */
+.btn-row{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:16px}
+.btn{padding:9px 16px;border:none;border-radius:6px;font-size:12px;font-weight:700;font-family:inherit;cursor:pointer;transition:opacity 0.15s}
+.btn:hover{opacity:0.85}
+.btn-save{background:#0055d4;color:#fff}
+.btn-skip{background:#1e293b;color:#94a3b8}
+.btn-csv{background:#059669;color:#fff}
+.btn-json{background:#7c3aed;color:#fff}
+.btn-apply{background:#dc2626;color:#fff}
+
+/* 현황 */
+.stat-box{background:#0a0f1a;border:1px solid #1e293b;border-radius:8px;padding:12px;margin-bottom:12px}
+.stat-row-d{display:flex;justify-content:space-between;font-size:12px;color:#64748b;margin:4px 0}
+.stat-row-d b{color:#e2e8f0}
+.prog-text{font-size:11px;color:#64748b;margin-top:6px}
+.prog-mini{height:6px;background:#1e293b;border-radius:3px;margin-top:4px;overflow:hidden}
+.prog-mini-fill{height:100%;background:#0055d4;border-radius:3px;transition:width 0.3s}
+
+/* 감수 목록 */
+.saved-list{max-height:220px;overflow-y:auto}
+.saved-item{display:flex;justify-content:space-between;align-items:center;padding:7px 10px;border-bottom:1px solid #1e293b;font-size:12px;gap:8px;flex-wrap:wrap}
+.saved-item:hover{background:#0a0f1a}
+.saved-item .sid{font-weight:700;color:#60a5fa;min-width:70px}
+.saved-item .stype{color:#64748b;min-width:60px}
+.saved-item .sverd{padding:2px 7px;border-radius:4px;font-size:11px;font-weight:700}
+.sv-approve{background:rgba(34,197,94,0.15);color:#4ade80}
+.sv-revise{background:rgba(245,158,11,0.15);color:#fbbf24}
+.sv-reject{background:rgba(239,68,68,0.15);color:#f87171}
+.saved-item .sdel{background:transparent;border:1px solid #334155;color:#94a3b8;border-radius:4px;padding:2px 7px;font-size:11px;cursor:pointer;font-family:inherit}
+.saved-item .sdel:hover{background:#334155}
+
+/* 유형 필터 */
+.filter-row{display:flex;gap:6px;flex-wrap:wrap;margin-bottom:12px}
+.filter-btn{background:#1e293b;border:1px solid #334155;color:#94a3b8;border-radius:16px;padding:4px 12px;font-size:11px;cursor:pointer;font-family:inherit;transition:all 0.15s}
+.filter-btn:hover,.filter-btn.active{background:rgba(0,85,212,0.2);border-color:#0055d4;color:#60a5fa}
+
+@media(max-width:900px){
+  .split{flex-direction:column;height:auto;overflow:auto}
+  .left,.right{max-height:none;border:none}
+  body{height:auto;overflow:auto}
+}
+</style>
+</head>
+<body>
+
+<header>
+  <h1>📘 Prof.AI 수능영어 감수 도구</h1>
+  <div class="hdr-right">
+    <span class="hdr-stat">감수: <b id="hdrDone">0</b> / <b id="hdrTotal">0</b></span>
+    <span class="hdr-stat">승인 <b id="hdrOk" style="color:#4ade80">0</b> · 수정 <b id="hdrRevise" style="color:#fbbf24">0</b> · 반려 <b id="hdrReject" style="color:#f87171">0</b></span>
+  </div>
+</header>
+<div class="prog-bar"><div class="prog-fill" id="progFill" style="width:0%"></div></div>
+
+<div class="split">
+
+<!-- ===== 왼쪽: 문제 ===== -->
+<div class="left">
+
+  <!-- 유형 필터 -->
+  <div class="filter-row" id="filterRow"></div>
+
+  <!-- 네비게이션 -->
+  <div class="q-nav">
+    <button class="nav-btn" id="prevBtn" onclick="goQ(-1)">◀ 이전</button>
+    <span class="q-info" id="qInfo"></span>
+    <button class="nav-btn" id="nextBtn" onclick="goQ(1)">다음 ▶</button>
+  </div>
+
+  <!-- 빠른 이동 -->
+  <div class="jump-row">
+    <input type="text" id="jumpInput" placeholder="문항 ID (예: R-0012)" onkeydown="if(event.key==='Enter')jumpTo()">
+    <button onclick="jumpTo()">이동</button>
+    <button onclick="goNextUndone()">미감수로 →</button>
+  </div>
+
+  <!-- 문제 내용 -->
+  <div id="qContent"></div>
+</div>
+
+<!-- ===== 오른쪽: 감수표 ===== -->
+<div class="right">
+
+  <!-- 메타 -->
+  <div class="section-title">문항 정보</div>
+  <div class="meta-row">
+    <div class="field"><label>문항 ID</label><input type="text" id="itemId" readonly></div>
+    <div class="field"><label>감수자</label><input type="text" id="reviewer" placeholder="이름" oninput="saveReviewer()"></div>
+    <div class="field"><label>감수일</label><input type="date" id="reviewDate"></div>
+  </div>
+
+  <!-- 체크 항목 -->
+  <div class="section-title">검사 항목</div>
+  <table class="check-table">
+    <thead><tr><th style="width:58%">항목</th><th style="width:42%;text-align:center">판정</th></tr></thead>
+    <tbody>
+      <tr>
+        <td>① 정답 정확성 <span style="color:#475569;font-size:11px">(정답이 유일하고 명확한가)</span></td>
+        <td><div class="radio-grp">
+          <label><input type="radio" name="c1" value="ok"><span class="ok">적합</span></label>
+          <label><input type="radio" name="c1" value="err"><span class="err">오류</span></label>
+          <label><input type="radio" name="c1" value="na"><span class="na">보류</span></label>
+        </div></td>
+      </tr>
+      <tr>
+        <td>② 오답 변별력 <span style="color:#475569;font-size:11px">(오답이 명확히 틀린가)</span></td>
+        <td><div class="radio-grp">
+          <label><input type="radio" name="c2" value="ok"><span class="ok">적합</span></label>
+          <label><input type="radio" name="c2" value="err"><span class="err">오류</span></label>
+          <label><input type="radio" name="c2" value="na"><span class="na">보류</span></label>
+        </div></td>
+      </tr>
+      <tr>
+        <td>③ 지문 자연스러움 <span style="color:#475569;font-size:11px">(수능 스타일·영어 표현)</span></td>
+        <td><div class="radio-grp">
+          <label><input type="radio" name="c3" value="ok"><span class="ok">적합</span></label>
+          <label><input type="radio" name="c3" value="err"><span class="err">오류</span></label>
+          <label><input type="radio" name="c3" value="na"><span class="na">보류</span></label>
+        </div></td>
+      </tr>
+      <tr>
+        <td>④ 해설 정확성 <span style="color:#475569;font-size:11px">(논리·근거 오류 없는가)</span></td>
+        <td><div class="radio-grp">
+          <label><input type="radio" name="c4" value="ok"><span class="ok">적합</span></label>
+          <label><input type="radio" name="c4" value="err"><span class="err">오류</span></label>
+          <label><input type="radio" name="c4" value="na"><span class="na">보류</span></label>
+        </div></td>
+      </tr>
+    </tbody>
+  </table>
+
+  <!-- 최종 판정 -->
+  <div class="section-title">최종 판정</div>
+  <div class="verdict-row">
+    <button class="v-btn v-approve" onclick="setVerdict('승인')">✅ 승인</button>
+    <button class="v-btn v-revise" onclick="setVerdict('수정필요')">⚠️ 수정필요</button>
+    <button class="v-btn v-reject" onclick="setVerdict('반려')">❌ 반려</button>
+  </div>
+
+  <!-- 메모 -->
+  <div class="memo-box">
+    <label>메모 / 수정 의견 (오류·수정필요 시 작성)</label>
+    <textarea id="memo" placeholder="예) 3번 선지 — 지문과 충돌 가능성. ②로 정답 변경 검토 필요."></textarea>
+  </div>
+
+  <!-- 버튼 -->
+  <div class="btn-row">
+    <button class="btn btn-save" onclick="saveAndNext()">저장 & 다음 →</button>
+    <button class="btn btn-skip" onclick="clearForm()">초기화</button>
+    <button class="btn btn-csv" onclick="exportCSV()">CSV 내보내기</button>
+    <button class="btn btn-json" onclick="exportJSON()">JSON 내보내기</button>
+  </div>
+  <div class="btn-row">
+    <button class="btn btn-apply" onclick="applyReviewedToBank()">🔁 감수완료 questions.js 생성</button>
+  </div>
+
+  <!-- 현황 -->
+  <div class="section-title">감수 현황</div>
+  <div class="stat-box">
+    <div class="stat-row-d"><span>전체 문제</span><b id="statTotal">0</b></div>
+    <div class="stat-row-d"><span>감수 완료</span><b id="statDone">0</b></div>
+    <div class="stat-row-d"><span>승인</span><b id="statOk" style="color:#4ade80">0</b></div>
+    <div class="stat-row-d"><span>수정필요</span><b id="statRevise" style="color:#fbbf24">0</b></div>
+    <div class="stat-row-d"><span>반려</span><b id="statReject" style="color:#f87171">0</b></div>
+    <div class="prog-text" id="progText"></div>
+    <div class="prog-mini"><div class="prog-mini-fill" id="progMini" style="width:0%"></div></div>
+  </div>
+
+  <!-- 감수 목록 -->
+  <div class="section-title">감수 목록 <span style="font-size:11px;color:#475569;font-weight:400">(최근순)</span></div>
+  <div class="saved-list" id="savedList"></div>
+
+</div>
+</div>
+
+<script>
+const STORAGE_KEY = 'profai_eng_review_v2';
+let reviews = JSON.parse(localStorage.getItem(STORAGE_KEY) || '{}'); // {qid: {...}}
+let filteredQs = [...QUESTION_BANK];
+let curIdx = 0;
+let curVerdict = '';
+let activeFilter = '';
+
+// ── 초기화 ───────────────────────────────────────────────────────────────
+window.onload = () => {
+  // 날짜 기본값
+  document.getElementById('reviewDate').value = new Date().toISOString().slice(0,10);
+  // 저장된 감수자
+  const rv = localStorage.getItem('profai_eng_reviewer') || '';
+  if (rv) document.getElementById('reviewer').value = rv;
+  // 유형 필터 버튼
+  buildFilters();
+  renderQ();
+  updateStats();
+};
+
+function saveReviewer() {
+  localStorage.setItem('profai_eng_reviewer', document.getElementById('reviewer').value);
+}
+
+// ── 유형 필터 ─────────────────────────────────────────────────────────────
+function buildFilters() {
+  const types = [...new Set(QUESTION_BANK.map(q => q.type))].sort();
+  const row = document.getElementById('filterRow');
+  row.innerHTML = '<button class="filter-btn active" onclick="applyFilter(\'\',this)">전체</button>';
+  types.forEach(t => {
+    row.innerHTML += `<button class="filter-btn" onclick="applyFilter('${t}',this)">${t}</button>`;
+  });
+}
+
+function applyFilter(type, btn) {
+  activeFilter = type;
+  document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+  btn.classList.add('active');
+  filteredQs = type ? QUESTION_BANK.filter(q => q.type === type) : [...QUESTION_BANK];
+  curIdx = 0;
+  renderQ();
+  clearForm();
+}
+
+// ── 렌더링 ────────────────────────────────────────────────────────────────
+function renderQ() {
+  if (!filteredQs.length) { document.getElementById('qContent').innerHTML = '<p style="color:#475569">문제 없음</p>'; return; }
+  const q = filteredQs[curIdx];
+  const qid = q._qid;
+  const rev = reviews[qid];
+
+  // 상태 뱃지
+  let stTag = '<span class="q-status s-none">미감수</span>';
+  if (rev) {
+    if (rev.verdict === '승인') stTag = '<span class="q-status s-done">✅ 승인</span>';
+    else if (rev.verdict === '수정필요') stTag = '<span class="q-status s-revise">⚠️ 수정필요</span>';
+    else if (rev.verdict === '반려') stTag = '<span class="q-status s-reject">❌ 반려</span>';
+  }
+
+  document.getElementById('qInfo').innerHTML = `${curIdx+1} / ${filteredQs.length} &nbsp;${stTag}`;
+  document.getElementById('prevBtn').disabled = curIdx === 0;
+  document.getElementById('nextBtn').disabled = curIdx === filteredQs.length - 1;
+  document.getElementById('itemId').value = qid;
+
+  // 기존 감수 내용 복원
+  if (rev) {
+    ['c1','c2','c3','c4'].forEach(k => {
+      const r = document.querySelector(`input[name="${k}"][value="${rev[k]||''}"]`);
+      if (r) r.checked = true;
+    });
+    setVerdict(rev.verdict || '');
+    document.getElementById('memo').value = rev.memo || '';
+  } else {
+    clearForm(false);
+  }
+
+  // 난이도 뱃지
+  const diff = q.difficulty || '';
+  const diffBadge = diff ? `<span class="diff-badge d-${diff}">${diff}</span>` : '';
+
+  // 지문
+  const passageHtml = q.passage ? `<div class="passage">${esc(q.passage).replace(/\n/g,'<br>')}</div>` : '';
+
+  // 주어진 문장
+  const givenHtml = q.given_sentence
+    ? `<div class="given-box"><b>▶ 주어진 문장</b>${esc(q.given_sentence)}</div>` : '';
+
+  // 선택지
+  const ans = q.answer;
+  const choicesHtml = (q.choices||[]).map((c,i) => {
+    const isAns = (i+1) === ans;
+    return `<div class="choice${isAns?' answer':''}">${esc(c)}${isAns?'<span class="ans-mark">← 정답</span>':''}</div>`;
+  }).join('');
+
+  // 해설
+  const explHtml = q.explanation
+    ? `<div class="expl-box"><b>▶ 해설</b>${esc(q.explanation)}</div>` : '';
+
+  document.getElementById('qContent').innerHTML = `
+    <div style="margin-bottom:8px">
+      <span class="type-badge">${esc(q.type||'')}</span>${diffBadge}
+      <span style="font-size:12px;color:#475569;margin-left:8px">${qid}</span>
+    </div>
+    ${givenHtml}
+    ${passageHtml}
+    <div class="choices">${choicesHtml}</div>
+    ${explHtml}
+  `;
+
+  // 헤더 업데이트
+  updateStats();
+}
+
+function esc(s) {
+  return String(s||'').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');
+}
+
+// ── 이동 ──────────────────────────────────────────────────────────────────
+function goQ(d) {
+  curIdx = Math.max(0, Math.min(filteredQs.length-1, curIdx+d));
+  renderQ();
+}
+
+function jumpTo() {
+  const val = document.getElementById('jumpInput').value.trim().toUpperCase();
+  const idx = filteredQs.findIndex(q => q._qid.toUpperCase() === val);
+  if (idx >= 0) { curIdx = idx; renderQ(); }
+  else alert('문항을 찾을 수 없습니다: ' + val);
+}
+
+function goNextUndone() {
+  for (let i = curIdx+1; i < filteredQs.length; i++) {
+    if (!reviews[filteredQs[i]._qid]) { curIdx = i; renderQ(); return; }
+  }
+  // 처음부터
+  for (let i = 0; i < curIdx; i++) {
+    if (!reviews[filteredQs[i]._qid]) { curIdx = i; renderQ(); return; }
+  }
+  alert('모든 문제 감수 완료!');
+}
+
+// ── 판정 ──────────────────────────────────────────────────────────────────
+function setVerdict(v) {
+  curVerdict = v;
+  document.querySelectorAll('.v-btn').forEach(b => b.classList.remove('active'));
+  if (v === '승인') document.querySelector('.v-approve').classList.add('active');
+  else if (v === '수정필요') document.querySelector('.v-revise').classList.add('active');
+  else if (v === '반려') document.querySelector('.v-reject').classList.add('active');
+}
+
+// ── 저장 ──────────────────────────────────────────────────────────────────
+function saveItem() {
+  if (!curVerdict) { alert('최종 판정을 선택하세요.'); return; }
+  const q = filteredQs[curIdx];
+  const qid = q._qid;
+
+  const getRadio = name => {
+    const el = document.querySelector(`input[name="${name}"]:checked`);
+    return el ? el.value : '';
+  };
+
+  reviews[qid] = {
+    qid,
+    type: q.type,
+    verdict: curVerdict,
+    c1: getRadio('c1'),
+    c2: getRadio('c2'),
+    c3: getRadio('c3'),
+    c4: getRadio('c4'),
+    memo: document.getElementById('memo').value,
+    reviewer: document.getElementById('reviewer').value,
+    date: document.getElementById('reviewDate').value,
+  };
+
+  localStorage.setItem(STORAGE_KEY, JSON.stringify(reviews));
+  updateStats();
+  renderQ();
+  return true;
+}
+
+function saveAndNext() {
+  if (saveItem()) {
+    if (curIdx < filteredQs.length - 1) goQ(1);
+    else alert('마지막 문제입니다.');
+  }
+}
+
+function clearForm(resetVerdict=true) {
+  ['c1','c2','c3','c4'].forEach(k => {
+    document.querySelectorAll(`input[name="${k}"]`).forEach(r => r.checked = false);
+  });
+  document.getElementById('memo').value = '';
+  if (resetVerdict) {
+    curVerdict = '';
+    document.querySelectorAll('.v-btn').forEach(b => b.classList.remove('active'));
+  }
+}
+
+// ── 통계 ──────────────────────────────────────────────────────────────────
+function updateStats() {
+  const total = QUESTION_BANK.length;
+  const done = Object.keys(reviews).length;
+  const ok = Object.values(reviews).filter(r => r.verdict === '승인').length;
+  const revise = Object.values(reviews).filter(r => r.verdict === '수정필요').length;
+  const reject = Object.values(reviews).filter(r => r.verdict === '반려').length;
+  const pct = total ? Math.round(done/total*100) : 0;
+
+  document.getElementById('hdrDone').textContent = done;
+  document.getElementById('hdrTotal').textContent = total;
+  document.getElementById('hdrOk').textContent = ok;
+  document.getElementById('hdrRevise').textContent = revise;
+  document.getElementById('hdrReject').textContent = reject;
+  document.getElementById('progFill').style.width = pct + '%';
+
+  document.getElementById('statTotal').textContent = total;
+  document.getElementById('statDone').textContent = done;
+  document.getElementById('statOk').textContent = ok;
+  document.getElementById('statRevise').textContent = revise;
+  document.getElementById('statReject').textContent = reject;
+  document.getElementById('progText').textContent = `진행률: ${pct}% (${done}/${total})`;
+  document.getElementById('progMini').style.width = pct + '%';
+
+  // 감수 목록 (최근 20건)
+  const list = Object.values(reviews).slice(-20).reverse();
+  document.getElementById('savedList').innerHTML = list.map(r => {
+    const vc = r.verdict === '승인' ? 'sv-approve' : r.verdict === '수정필요' ? 'sv-revise' : 'sv-reject';
+    return `<div class="saved-item">
+      <span class="sid">${r.qid}</span>
+      <span class="stype">${(r.type||'').slice(0,5)}</span>
+      <span class="sverd ${vc}">${r.verdict}</span>
+      <span style="color:#475569;font-size:11px">${r.date||''}</span>
+      <button class="sdel" onclick="delItem('${r.qid}')">삭제</button>
+    </div>`;
+  }).join('');
+}
+
+function delItem(qid) {
+  if (!confirm(qid + ' 감수 기록을 삭제하시겠습니까?')) return;
+  delete reviews[qid];
+  localStorage.setItem(STORAGE_KEY, JSON.stringify(reviews));
+  updateStats();
+  renderQ();
+}
+
+// ── 내보내기 ──────────────────────────────────────────────────────────────
+function exportCSV() {
+  const rows = [['qid','type','verdict','c1','c2','c3','c4','memo','reviewer','date']];
+  Object.values(reviews).forEach(r => {
+    rows.push([r.qid,r.type,r.verdict,r.c1,r.c2,r.c3,r.c4,(r.memo||'').replace(/,/g,';'),r.reviewer,r.date]);
+  });
+  const csv = rows.map(r => r.join(',')).join('\n');
+  download('profai_eng_review.csv', csv, 'text/csv');
+}
+
+function exportJSON() {
+  download('profai_eng_review.json', JSON.stringify(Object.values(reviews), null, 2), 'application/json');
+}
+
+function download(filename, content, mime) {
+  const a = document.createElement('a');
+  a.href = URL.createObjectURL(new Blob(['\uFEFF'+content], {type: mime+';charset=utf-8'}));
+  a.download = filename;
+  a.click();
+}
+
+// ── 감수완료 questions.js 생성 ───────────────────────────────────────────
+function applyReviewedToBank() {
+  const approvedIds = new Set(
+    Object.values(reviews).filter(r => r.verdict === '승인').map(r => r.qid)
+  );
+  const updated = QUESTION_BANK.map(q => {
+    if (approvedIds.has(q._qid)) return {...q, _reviewed: true};
+    return q;
+  });
+  const js = 'const QUESTION_BANK = ' + JSON.stringify(updated, null, 2) + ';';
+  download('questions_reviewed.js', js, 'text/javascript');
+  alert(`감수완료 ${approvedIds.size}건이 반영된 questions_reviewed.js 파일을 다운로드했습니다.\n\n이 파일을 questions.js로 교체 후 git push 하세요.`);
+}
+</script>
+</body>
+</html>
