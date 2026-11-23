@@ -496,7 +496,7 @@ async function startBillingAuth() {
   } catch(e) {}
   // 토스 결제 시작
   try {
-    const toss = TossPayments('test_ck_oEjb0gm23PWWeZzZnKnj8pGwBJn5');
+    const toss = TossPayments('live_ck_kYG57Eba3GR6zdD2GZPj8pWDOxmA');
     const payment = toss.payment({customerKey: currentUser.uid});
     await payment.requestBillingAuth({
       method: 'CARD',
