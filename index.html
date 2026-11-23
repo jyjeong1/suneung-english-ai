@@ -2,7 +2,7 @@
 <html lang="ko" translate="no">
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="google" content="notranslate">
 <meta http-equiv="Content-Language" content="ko">
 <title>Prof.AI 수능영어</title>
@@ -500,6 +500,70 @@ body {
 }
 .math-subject-option input[type="checkbox"] {
   width:16px; height:16px; accent-color:var(--primary);
+}
+
+/* ══════ PC 반응형 (768px+) ══════ */
+@media (min-width:768px) {
+  body { max-width: 900px; }
+
+  /* 헤더 */
+  .header { padding: 16px 28px; }
+  .header h1 { font-size: 20px; }
+
+  /* 탭 바 */
+  .tab-bar { max-width: 900px; }
+  .tab-bar button { padding: 10px 0 8px; font-size: 12px; }
+  .tab-bar button .icon { font-size: 24px; }
+
+  /* 페이지 */
+  .page { padding: 24px 24px 90px; }
+
+  /* 홈 */
+  .daily-card { padding: 32px; }
+  .daily-card h2 { font-size: 24px; }
+  .daily-card p { font-size: 14px; }
+  .daily-card .btn-start { padding: 16px 28px; font-size: 16px; }
+  .menu-grid { grid-template-columns: 1fr 1fr 1fr; gap: 14px; }
+  .menu-item { padding: 24px 16px; }
+  .menu-item .emoji { font-size: 32px; }
+  .menu-item .title { font-size: 14px; }
+  .menu-item .desc { font-size: 12px; }
+
+  /* 문제 풀기 — 지문+선지 좌우 분할 */
+  #quizContent { display: flex; flex-wrap: wrap; gap: 20px; }
+  #quizContent .question-header { width: 100%; }
+  #quizContent > p { width: 100%; }
+  .passage { flex: 1; min-width: 300px; margin-bottom: 0; font-size: 15px; line-height: 2.0; max-height: 70vh; overflow-y: auto; }
+  .choices { flex: 1; min-width: 280px; }
+  .choice-btn { padding: 16px 18px; font-size: 15px; }
+  .choice-btn:hover { background: #f0f4ff; transform: translateY(-1px); }
+  #submitBtn, #afterAnswerBtns, .explanation { width: 100%; }
+
+  /* 오답 노트 */
+  #wrongList { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
+
+  /* 통계 */
+  .stat-row { gap: 16px; }
+  .stat-card { padding: 22px; }
+  .stat-card .big-num { font-size: 40px; }
+  .badge-grid { gap: 12px; }
+  .badge { width: calc(25% - 10px); }
+
+  /* 랭킹 */
+  .rank-tab { font-size: 13px; padding: 10px 8px; }
+  .rank-item { padding: 16px 20px; }
+
+  /* 모달 PC 확대 */
+  .modal { max-width: 520px; }
+  .pause-box { max-width: 400px; }
+}
+
+/* ══════ 대형 화면 (1200px+) ══════ */
+@media (min-width:1200px) {
+  body { max-width: 1100px; }
+  .tab-bar { max-width: 1100px; }
+  .menu-grid { grid-template-columns: repeat(4, 1fr); }
+  .badge { width: calc(20% - 10px); }
 }
 </style>
 </head>
