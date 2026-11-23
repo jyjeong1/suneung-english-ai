@@ -12,7 +12,7 @@ from datetime import date, datetime
 
 PORT = int(os.environ.get('PORT', 8080))
 SERVER_API_KEY = os.environ.get('CLAUDE_API_KEY', '')
-TOSS_SECRET_KEY = os.environ.get('TOSS_SECRET_KEY', 'live_sk_d46qopOB89jAR7Ql6vBL3ZmM75y0')
+TOSS_SECRET_KEY = os.environ.get('TOSS_SECRET_KEY', '')  # 심사 완료 후 live_sk_ 키 적용
 DAILY_LIMIT = int(os.environ.get('DAILY_LIMIT', 10))  # 인당 하루 API 호출 제한
 
 # 인당 일일 사용량 추적 {날짜: {uid: 횟수}}

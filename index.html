@@ -4119,7 +4119,7 @@ async function requestBillingAuth() {
     }, { merge: true });
   } catch(e) {}
   try {
-    const toss = TossPayments('live_ck_kYG57Eba3GR6zdD2GZPj8pWDOxmA');
+    const toss = TossPayments('test_ck_oEjb0gm23PWWeZzZnKnj8pGwBJn5');
     const payment = toss.payment({customerKey: fbUser.uid});
     await payment.requestBillingAuth({
       method: 'CARD',
