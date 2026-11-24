@@ -384,10 +384,25 @@ function renderTable() {
   }).join('');
 }
 
-async function togglePremium(uid, isPremium) {
-  if (!confirm(isPremium ? '프리미엄으로 전환하시겠습니까?' : '무료로 전환하시겠습니까?')) return;
-  await db.collection('users').doc(uid).update({ isPremium });
+async function togglePremium(uid, setPremium) {
+  if (!confirm(setPremium ? '프리미엄으로 전환하시겠습니까?' : '무료로 전환하시겠습니까?')) return;
+  const updateData = {
+    isPremium: setPremium,
+    isPremium_unified: setPremium,
+    isPremium_english: setPremium,
+  };
+  if (setPremium) {
+    const expiry = new Date();
+    expiry.setDate(expiry.getDate() + 30);
+    updateData.premiumExpiry_unified = expiry.toISOString();
+    updateData.premiumExpiry_english = expiry.toISOString();
+    updateData.subscriptionStarted = new Date().toISOString();
+    updateData.subscriptionType = 'admin_manual';
+    updateData.subscriptionAmount = 5500;
+  }
+  await db.collection('users').doc(uid).update(updateData);
   loadUsers();
+  loadPremiumUsers();
 }
 
 // ═══ 공지 & 사진 관리 ═══
