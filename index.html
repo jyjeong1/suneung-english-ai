@@ -761,7 +761,7 @@ body {
       <span class="type-badge" id="quizTypeBadge">빈칸 추론</span>
       <span class="timer" id="quizTimer">01:30</span>
     </div>
-    <p style="font-size:13px; color:var(--sub); margin-bottom:12px;" id="quizInstruction">
+    <p style="font-size:15px; color:#1a237e; font-weight:600; margin-bottom:14px; padding:10px 14px; background:#e8eaf6; border-radius:8px; border-left:4px solid #3f51b5;" id="quizInstruction">
       다음 글의 빈칸에 들어갈 말로 가장 적절한 것을 고르시오.
     </p>
     <div class="passage" id="quizPassage"></div>
@@ -2803,7 +2803,9 @@ function renderQuestion() {
   q.choices.forEach((choice, i) => {
     const btn = document.createElement('button');
     btn.className = 'choice-btn';
-    btn.innerHTML = `<span class="num">${i + 1}</span><span>${choice.replace(/^[①②③④⑤]/, '').trim()}</span>`;
+    const choiceText = choice.replace(/^[①②③④⑤]\s*/, '').trim();
+    const markers = ['①','②','③','④','⑤'];
+    btn.innerHTML = `<span class="num">${i + 1}</span><span>${choiceText || markers[i]}</span>`;
     btn.onclick = () => selectChoice(i);
     choicesDiv.appendChild(btn);
   });
