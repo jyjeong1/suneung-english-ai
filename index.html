@@ -1237,7 +1237,8 @@ function initFirebase() {
     fbUser = user;
     if (user) {
       document.getElementById('loginBtn').style.display = 'none';
-      document.getElementById('demoBtn').style.display = 'none';
+      const demoBtn = document.getElementById('demoBtn');
+      if (demoBtn) demoBtn.style.display = 'none';
       document.getElementById('userBadge').style.display = 'block';
       const name = user.displayName || user.email;
       document.getElementById('userBadge').textContent = '👤 ' + (name.length > 6 ? name.slice(0,6) + '..' : name);
@@ -4168,7 +4169,7 @@ async function checkPremiumStatus() {
         }
       }
     }
-  } catch(e) {}
+  } catch(e) { console.error('checkPremiumStatus error:', e); }
   updateMembershipUI();
   updateFreeLimitStatus();
 }
