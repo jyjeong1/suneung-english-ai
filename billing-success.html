@@ -68,7 +68,7 @@ async function processBilling() {
 
   try {
     // 서버에 빌링키 발급 및 첫 결제 요청
-    const res = await fetch('/api/billing/confirm', {
+    const res = await fetch('https://profai-billing.vercel.app/api/billing', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({ authKey, customerKey })
