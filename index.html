@@ -2013,6 +2013,18 @@ const TYPE_INSTRUCTIONS = {
   vocab: '다음 글의 밑줄 친 부분 중, 문맥상 낱말의 쓰임이 적절하지 않은 것은?',
   main_idea: '다음 글의 요지로 가장 적절한 것은?',
   order: '주어진 글 다음에 이어질 글의 순서로 가장 적절한 것을 고르시오.',
+  '빈칸 추론': '다음 글의 빈칸에 들어갈 말로 가장 적절한 것을 고르시오.',
+  '문장 삽입': '글의 흐름으로 보아, 주어진 문장이 들어가기에 가장 적절한 곳을 고르시오.',
+  '어법 판단': '다음 글의 밑줄 친 부분 중, 어법상 틀린 것은?',
+  '어휘 적절성': '다음 글의 밑줄 친 부분 중, 문맥상 낱말의 쓰임이 적절하지 않은 것은?',
+  '요지/주제': '다음 글의 요지로 가장 적절한 것은?',
+  '글의 순서': '주어진 글 다음에 이어질 글의 순서로 가장 적절한 것을 고르시오.',
+  '글의 목적': '다음 글의 목적으로 가장 적절한 것을 고르시오.',
+  '심경 추론': '다음 글에 드러난 심경으로 가장 적절한 것을 고르시오.',
+  '필자의 주장': '다음 글에서 필자가 주장하는 바로 가장 적절한 것을 고르시오.',
+  '제목 추론': '다음 글의 제목으로 가장 적절한 것을 고르시오.',
+  '무관한 문장': '다음 글에서 전체 흐름과 관계 없는 문장은?',
+  '요약문 완성': '다음 글의 내용을 한 문장으로 요약하고자 한다. 빈칸에 들어갈 말로 가장 적절한 것을 고르시오.',
 };
 
 // ═══════════════════════════════════════
@@ -2803,8 +2815,8 @@ function renderQuestion() {
   q.choices.forEach((choice, i) => {
     const btn = document.createElement('button');
     btn.className = 'choice-btn';
-    const choiceText = choice.replace(/^[①②③④⑤]\s*/, '').trim();
     const markers = ['①','②','③','④','⑤'];
+    let choiceText = choice.replace(/^[①②③④⑤]\s*/, '').replace(/번\s*표시/g, '').trim();
     btn.innerHTML = `<span class="num">${i + 1}</span><span>${choiceText || markers[i]}</span>`;
     btn.onclick = () => selectChoice(i);
     choicesDiv.appendChild(btn);
