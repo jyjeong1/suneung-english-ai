@@ -288,6 +288,11 @@ auth && auth.onAuthStateChanged(user => {
     document.getElementById('loginArea').style.display = 'none';
     document.getElementById('dashboard').style.display = 'block';
     loadUsers();
+    loadPremiumUsers();
+    loadPosts();
+    loadReviewReport();
+    loadGiftRequests();
+    loadReports();
   }
 });
 
@@ -456,20 +461,7 @@ async function deletePost(id) {
   loadPosts();
 }
 
-// 대시보드 로드 시 게시물도 로드
-const origOnAuth = auth?.onAuthStateChanged;
-auth && auth.onAuthStateChanged(user => {
-  if (user) {
-    document.getElementById('loginArea').style.display = 'none';
-    document.getElementById('dashboard').style.display = 'block';
-    loadUsers();
-    loadPosts();
-    loadReviewReport();
-    loadGiftRequests();
-    loadReports();
-    loadPremiumUsers();
-  }
-});
+// 모든 데이터 로드는 위 onAuthStateChanged에서 처리
 
 // ═══ 검수 리포트 ═══
 async function loadReviewReport() {
