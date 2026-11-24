@@ -2291,7 +2291,7 @@ function requireLogin() {
 }
 
 function checkFreeLimit() {
-  if (!requireLogin()) return false;
+  if (!fbUser) return false;
   const todayCount = getTodayQuizCount();
   const limit = state.isPremium ? PREMIUM_DAILY_LIMIT : FREE_DAILY_LIMIT;
   if (todayCount >= limit) {
