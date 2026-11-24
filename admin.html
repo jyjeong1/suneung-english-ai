@@ -107,6 +107,47 @@ tr:hover td { background: #f9f9ff; }
     <input type="text" id="searchName" placeholder="이름 검색..." oninput="renderTable()">
   </div>
 
+  <!-- ═══ 유료사용자 관리 ═══ -->
+  <div style="background:#fff; border-radius:12px; padding:24px; box-shadow:0 1px 4px rgba(0,0,0,0.08); margin-bottom:24px;">
+    <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:16px;">
+      <h2 style="font-size:18px; margin:0;">💎 유료사용자 관리</h2>
+      <div style="display:flex; gap:8px;">
+        <button class="refresh-btn" onclick="loadPremiumUsers()">🔄 새로고침</button>
+      </div>
+    </div>
+    <div class="summary-row">
+      <div class="summary-card"><h3>유료 구독 중</h3><div class="num green" id="premiumActive">0</div></div>
+      <div class="summary-card"><h3>만료됨</h3><div class="num orange" id="premiumExpired">0</div></div>
+      <div class="summary-card"><h3>7일 내 만료</h3><div class="num" style="color:#d32f2f" id="premiumExpiring">0</div></div>
+      <div class="summary-card"><h3>월 매출</h3><div class="num" id="premiumRevenue">₩0</div></div>
+    </div>
+
+    <!-- 일괄 작업 -->
+    <div style="display:flex; gap:8px; margin-bottom:16px; flex-wrap:wrap; align-items:center;">
+      <button onclick="batchExtend30()" style="padding:8px 16px; border:1px solid #1a8f3c; color:#1a8f3c; border-radius:8px; background:#fff; font-size:12px; cursor:pointer; font-weight:600;">📅 만료자 30일 연장</button>
+      <button onclick="batchExpireAll()" style="padding:8px 16px; border:1px solid #d32f2f; color:#d32f2f; border-radius:8px; background:#fff; font-size:12px; cursor:pointer; font-weight:600;">🚫 만료자 구독 해제</button>
+      <span style="font-size:11px; color:#999; margin-left:8px;">※ 체크된 사용자에게만 적용됩니다</span>
+    </div>
+
+    <table>
+      <thead>
+        <tr>
+          <th><input type="checkbox" id="premiumSelectAll" onchange="togglePremiumSelectAll(this.checked)"></th>
+          <th>이름</th>
+          <th>이메일</th>
+          <th>구독 유형</th>
+          <th>수학 과목</th>
+          <th>구독 시작</th>
+          <th>만료일</th>
+          <th>남은 일수</th>
+          <th>상태</th>
+          <th>액션</th>
+        </tr>
+      </thead>
+      <tbody id="premiumTable"></tbody>
+    </table>
+  </div>
+
   <!-- 검수 리포트 -->
   <div style="background:#fff; border-radius:12px; padding:24px; box-shadow:0 1px 4px rgba(0,0,0,0.08); margin-bottom:24px;">
     <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:16px;">
@@ -426,6 +467,7 @@ auth && auth.onAuthStateChanged(user => {
     loadReviewReport();
     loadGiftRequests();
     loadReports();
+    loadPremiumUsers();
   }
 });
 
@@ -709,6 +751,165 @@ async function approveStudentId(verifyDocId, idx) {
     document.getElementById('studentIdModal').style.display = 'none';
     loadGiftRequests();
   } catch(e) { alert('처리 실패: ' + e.message); }
+}
+
+// ═══ 유료사용자 관리 ═══
+let premiumUsers = [];
+const mathNames = { probstat:'확률과 통계', diff:'미분법', limit:'극한', jisulog:'지수·로그', sequence:'수열', integral:'적분', trig:'삼각함수', past:'기출문제', continue:'연속성' };
+
+async function loadPremiumUsers() {
+  if (!db) return;
+  try {
+    const snapshot = await db.collection('users').get();
+    premiumUsers = [];
+    const now = new Date();
+    let activeCount = 0, expiredCount = 0, expiringCount = 0, revenue = 0;
+
+    snapshot.forEach(doc => {
+      const d = doc.data();
+      const hasUnified = d.isPremium_unified;
+      const hasEnglish = d.isPremium_english;
+      if (!hasUnified && !hasEnglish) return;
+
+      const expiry = d.premiumExpiry_unified || d.premiumExpiry_english || null;
+      const expiryDate = expiry ? new Date(expiry) : null;
+      const isActive = expiryDate && expiryDate > now;
+      const daysLeft = expiryDate ? Math.ceil((expiryDate - now) / (1000*60*60*24)) : -999;
+
+      if (isActive) {
+        activeCount++;
+        revenue += (d.subscriptionAmount || 5500);
+        if (daysLeft <= 7) expiringCount++;
+      } else {
+        expiredCount++;
+      }
+
+      premiumUsers.push({
+        id: doc.id,
+        name: d.displayName || '(이름없음)',
+        email: d.email || '',
+        subType: d.subscriptionType || (hasUnified ? 'unified' : 'english'),
+        mathSubjects: d.selectedMathSubjects || [],
+        startDate: d.subscriptionStarted || '',
+        expiryDate: expiry || '',
+        expiryObj: expiryDate,
+        daysLeft: daysLeft,
+        isActive: isActive,
+        billingKey: d.billingKey || '',
+        amount: d.subscriptionAmount || 5500,
+        checked: false,
+      });
+    });
+
+    premiumUsers.sort((a,b) => a.daysLeft - b.daysLeft);
+
+    document.getElementById('premiumActive').textContent = activeCount;
+    document.getElementById('premiumExpired').textContent = expiredCount;
+    document.getElementById('premiumExpiring').textContent = expiringCount;
+    document.getElementById('premiumRevenue').textContent = '₩' + revenue.toLocaleString();
+
+    renderPremiumTable();
+  } catch(e) { alert('유료사용자 로드 실패: ' + e.message); }
+}
+
+function renderPremiumTable() {
+  const tbody = document.getElementById('premiumTable');
+  if (premiumUsers.length === 0) {
+    tbody.innerHTML = '<tr><td colspan="10" style="text-align:center;color:#999;padding:30px;">유료 사용자 없음</td></tr>';
+    return;
+  }
+
+  tbody.innerHTML = premiumUsers.map((u, i) => {
+    const mathStr = u.mathSubjects.map(s => mathNames[s] || s).join(', ') || '—';
+    const startStr = u.startDate ? new Date(u.startDate).toLocaleDateString('ko-KR') : '—';
+    const expiryStr = u.expiryDate ? new Date(u.expiryDate).toLocaleDateString('ko-KR') : '—';
+    const daysStr = u.daysLeft > 0 ? u.daysLeft + '일' : (u.daysLeft === -999 ? '—' : '<span style="color:#d32f2f;font-weight:700;">만료</span>');
+    const statusColor = u.isActive ? '#1a8f3c' : '#d32f2f';
+    const statusText = u.isActive ? '✅ 구독 중' : '❌ 만료';
+    const subTypeStr = u.subType === 'unified_monthly' ? '통합 월구독' : (u.subType === 'unified' ? '통합' : '영어');
+
+    return `<tr style="${!u.isActive ? 'background:#fafafa;' : ''}">
+      <td><input type="checkbox" data-idx="${i}" onchange="premiumUsers[${i}].checked=this.checked"></td>
+      <td><strong>${u.name}</strong></td>
+      <td style="font-size:12px;">${u.email}</td>
+      <td style="font-size:12px;">${subTypeStr}</td>
+      <td style="font-size:11px; max-width:120px;">${mathStr}</td>
+      <td style="font-size:12px;">${startStr}</td>
+      <td style="font-size:12px; font-weight:600;">${expiryStr}</td>
+      <td style="font-weight:700; color:${u.daysLeft <= 7 && u.daysLeft > 0 ? '#e65100' : (u.isActive ? '#1a8f3c' : '#d32f2f')};">${daysStr}</td>
+      <td style="font-size:12px; color:${statusColor}; font-weight:600;">${statusText}</td>
+      <td>
+        <div style="display:flex;gap:4px;flex-wrap:wrap;">
+          <button onclick="extendPremium('${u.id}',30)" style="padding:3px 6px;font-size:10px;border:1px solid #1a8f3c;color:#1a8f3c;border-radius:4px;background:#fff;cursor:pointer;">+30일</button>
+          <button onclick="extendPremium('${u.id}',7)" style="padding:3px 6px;font-size:10px;border:1px solid #1565c0;color:#1565c0;border-radius:4px;background:#fff;cursor:pointer;">+7일</button>
+          <button onclick="revokePremium('${u.id}')" style="padding:3px 6px;font-size:10px;border:1px solid #d32f2f;color:#d32f2f;border-radius:4px;background:#fff;cursor:pointer;">해제</button>
+        </div>
+      </td>
+    </tr>`;
+  }).join('');
+}
+
+function togglePremiumSelectAll(checked) {
+  premiumUsers.forEach((u,i) => { u.checked = checked; });
+  document.querySelectorAll('#premiumTable input[type="checkbox"]').forEach(cb => cb.checked = checked);
+}
+
+async function extendPremium(uid, days) {
+  if (!confirm(days + '일 연장하시겠습니까?')) return;
+  try {
+    const userDoc = await db.collection('users').doc(uid).get();
+    const d = userDoc.data();
+    const currentExpiry = d.premiumExpiry_unified || d.premiumExpiry_english;
+    const base = (currentExpiry && new Date(currentExpiry) > new Date()) ? new Date(currentExpiry) : new Date();
+    base.setDate(base.getDate() + days);
+    await db.collection('users').doc(uid).update({
+      isPremium_unified: true,
+      isPremium_english: true,
+      premiumExpiry_unified: base.toISOString(),
+      premiumExpiry_english: base.toISOString(),
+    });
+    alert(days + '일 연장 완료 (새 만료일: ' + base.toLocaleDateString('ko-KR') + ')');
+    loadPremiumUsers();
+  } catch(e) { alert('연장 실패: ' + e.message); }
+}
+
+async function revokePremium(uid) {
+  if (!confirm('이 사용자의 프리미엄을 해제하시겠습니까?')) return;
+  try {
+    await db.collection('users').doc(uid).update({
+      isPremium_unified: false,
+      isPremium_english: false,
+    });
+    alert('프리미엄 해제 완료');
+    loadPremiumUsers();
+  } catch(e) { alert('해제 실패: ' + e.message); }
+}
+
+async function batchExtend30() {
+  const selected = premiumUsers.filter(u => u.checked && !u.isActive);
+  if (selected.length === 0) return alert('만료된 사용자를 체크해주세요.');
+  if (!confirm(selected.length + '명에게 30일 연장하시겠습니까?')) return;
+  for (const u of selected) {
+    const base = new Date();
+    base.setDate(base.getDate() + 30);
+    await db.collection('users').doc(u.id).update({
+      isPremium_unified: true, isPremium_english: true,
+      premiumExpiry_unified: base.toISOString(), premiumExpiry_english: base.toISOString(),
+    });
+  }
+  alert(selected.length + '명 연장 완료');
+  loadPremiumUsers();
+}
+
+async function batchExpireAll() {
+  const selected = premiumUsers.filter(u => u.checked && !u.isActive);
+  if (selected.length === 0) return alert('만료된 사용자를 체크해주세요.');
+  if (!confirm(selected.length + '명의 구독을 해제하시겠습니까?')) return;
+  for (const u of selected) {
+    await db.collection('users').doc(u.id).update({ isPremium_unified: false, isPremium_english: false });
+  }
+  alert(selected.length + '명 구독 해제 완료');
+  loadPremiumUsers();
 }
 
 async function updateGiftStatus(docId, status) {
