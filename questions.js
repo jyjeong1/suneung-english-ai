@@ -265,7 +265,7 @@ const QUESTION_BANK = [
       "⑤번 위치"
     ],
     "answer": 1,
-    "explanation": "[지문 해석]\n많은 사람들은 침묵이 대화의 실패를 의미한다고 가정한다. (①) 그러나 어떤 공동체에서는 의도적인 침묵이 불편함이 아니라 신중한 사고의 신호로 이해된다. (②) 이러한 긍정적 해석은 청자들이 화자가 생각을 마칠 때까지 기다릴 수 있도록 해준다. (③) 이와는 대조적으로, 다른 상황에서 비슷한 길이의 침묵은 불확실성으로 받아들여질 수 있다. (④) 따라서 효과적인 의사소통은 그 지역의 대화 관례에 주의를 기울일 것을 요구한다. (⑤)\n\n[주요 어휘]\n# 수능 영어 필수 어휘\n\nassume : 가정하다, 추정하다\nsilence : 침묵, 말이 없음\ndeliberate : 의도적인, 계획된\npause : 일시적 중단, 멈춤\nconsideration : 신중한 생각, 고려\ndiscomfort : 불편함, 불편한 느낌\nfavorable : 긍정적인, 호의적인\ninterpretation : 해석, 이해\nuncertainty : 불확실성, 확실하지 않음\nby contrast : 반면에, 이와 대조적으로\nconversational expectations : 대화 관례/기대\nsuccessful communication : 효과적인 의사소통\n\n[해설]\n첫 문장의 획일적 판단 뒤 사회적 기대의 차이를 일반 원리로 제시하고, 뒤에서 문화별 대비를 구체화합니다.\n\n[오답 해설]\n①번: (정답) \"Many people assume that silence means a conversation has failed\"라는 일반적인 가정 바로 다음에 \"However\"로 시작하는 문장이 와야 대조 관계가 명확하게 드러나므로 올바른 배치이다.\n\n②번: (오답) ①번 위치에서 이미 \"However\"로 대조가 시작되었으므로, 여기 삽입하면 대조 연결이 끊기고 문맥의 흐름이 부자연스러워진다.\n\n③번: (오답) 이 위치에 삽입하면 \"favorable interpretation\"을 설명하는 문장이 앞뒤로 떨어져 있어 의미 연결이 약해지고, 문단 전체의 논리적 흐름이 방해된다.\n\n④번: (오답) \"By contrast\"는 앞 문장과의 대조를 나타내는데, 이 위치에 삽입하면 대조 대상이 명확하지 않아 연결성이 떨어진다.\n\n⑤번: (오답) 결론 문장인 \"Successful communication therefore requires attention to local conversational expectations\" 바로 앞에 삽입하면 논리적 전개가 끊겨 최종 결론으로의 자연스러운 흐름이 방해된다.",
+    "explanation": "[지문 해석]\n많은 사람들은 침묵이 대화의 실패를 의미한다고 가정한다. (①) 그러나 어떤 공동체에서는 의도적인 침묵이 불편함이 아니라 신중한 사고의 신호로 이해된다. (②) 이러한 긍정적 해석은 청자들이 화자가 생각을 마칠 때까지 기다릴 수 있도록 해준다. (③) 이와는 대조적으로, 다른 상황에서 비슷한 길이의 침묵은 불확실성으로 받아들여질 수 있다. (④) 따라서 효과적인 의사소통은 그 지역의 대화 관례에 주의를 기울일 것을 요구한다. (⑤)\n\n[주요 어휘]\n# 수능 영어 필수 어휘\n\nassume : 가정하다, 추정하다\nsilence : 침묵, 말이 없음\ndeliberate : 의도적인, 계획된\npause : 일시적 중단, 멈춤\nconsideration : 신중한 생각, 고려\ndiscomfort : 불편함, 불편한 느낌\nfavorable : 긍정적인, 호의적인\ninterpretation : 해석, 이해\nuncertainty : 불확실성, 확실하지 않음\nby contrast : 반면에, 이와 대조적으로\nconversational expectations : 대화 관례/기대\nsuccessful communication : 효과적인 의사소통\n\n[해설]\n첫 문장의 획일적 판단 뒤 사회적 기대의 차이를 일반 원리로 제시하고, 뒤에서 문화별 대비를 구체화합니다.\n\n[오답 해설]\n①번: (정답) \"Many people assume that silence means a conversation has failed\"라는 일반적인 가정 바로 다음에 침묵의 의미가 사회적 기대에 따라 달라진다는 일반 원리를 제시하면 대조 관계가 명확하게 드러나므로 올바른 배치이다.\n\n②번: (오답) ①번 위치에서 이미 \"However\"로 대조가 시작되었으므로, 여기 삽입하면 대조 연결이 끊기고 문맥의 흐름이 부자연스러워진다.\n\n③번: (오답) 이 위치에 삽입하면 \"favorable interpretation\"을 설명하는 문장이 앞뒤로 떨어져 있어 의미 연결이 약해지고, 문단 전체의 논리적 흐름이 방해된다.\n\n④번: (오답) \"By contrast\"는 앞 문장과의 대조를 나타내는데, 이 위치에 삽입하면 대조 대상이 명확하지 않아 연결성이 떨어진다.\n\n⑤번: (오답) 결론 문장인 \"Successful communication therefore requires attention to local conversational expectations\" 바로 앞에 삽입하면 논리적 전개가 끊겨 최종 결론으로의 자연스러운 흐름이 방해된다.",
     "wrong_explanations": {},
     "answerType": "choice",
     "_reviewed": false,
@@ -391,7 +391,7 @@ const QUESTION_BANK = [
       "⑤ 번 위치"
     ],
     "answer": 2,
-    "explanation": "[지문 해석]\n한 셰프가 자신의 레스토랑 근처 농민들로부터 직접 채소를 구매했다. (①) 매주 수확량이 달랐기 때문에 그녀의 메뉴는 고정될 수 없었다. (②) 그녀는 농장에서 공급할 수 있는 것을 중심으로 요리를 계획하기 시작했다. (③) 고객들은 점차 영구적인 단골 메뉴 대신 제철 음식의 즐거운 놀라움을 기대하게 되었다. (④) 그 결과 그 레스토랑은 장거리 배송을 덜 사용하게 되었다. (⑤)\n\n[주요 어휘]\n# 수능 영어 핵심 단어/표현\n\n1. purchase : 구매하다\n2. directly : 직접적으로\n3. harvest : 수확\n4. fixed : 고정된, 정해진\n5. supply : 공급하다, 공급\n6. seasonal : 계절의, 시즌의\n7. expect : 기대하다, 예상하다\n8. permanent : 영구적인, 항구적인\n9. long-distance shipping : 장거리 배송\n10. as a result : 결과적으로, 그 결과\n\n[해설]\n주별 수확량 변화라는 불확실성을 식당 운영의 정체성으로 전환한 뒤 구체적 실행을 설명합니다.\n\n[오답 해설]\n삽입할 문장이 없어서 선지별 위치 적절성을 평가하기 어렵습니다. \n\n문장 삽입 문제를 위해서는 \"이 문장을 어디에 삽입할 것인가?\"의 형태로 삽입할 문장이 제시되어야 합니다. \n\n예를 들어 삽입할 문장이 \"This approach required her to be flexible and creative.\"라면, 각 위치별로 문맥의 흐름과 논리적 연결성을 분석할 수 있습니다.\n\n**삽입할 문장을 제시해 주시면 상세한 선지별 해설을 작성하겠습니다.**",
+    "explanation": "[지문 해석]\n한 셰프가 자신의 레스토랑 근처 농민들로부터 직접 채소를 구매했다. (①) 매주 수확량이 달랐기 때문에 그녀의 메뉴는 고정될 수 없었다. (②) 그녀는 농장에서 공급할 수 있는 것을 중심으로 요리를 계획하기 시작했다. (③) 고객들은 점차 영구적인 단골 메뉴 대신 제철 음식의 즐거운 놀라움을 기대하게 되었다. (④) 그 결과 그 레스토랑은 장거리 배송을 덜 사용하게 되었다. (⑤)\n\n[주요 어휘]\n# 수능 영어 핵심 단어/표현\n\n1. purchase : 구매하다\n2. directly : 직접적으로\n3. harvest : 수확\n4. fixed : 고정된, 정해진\n5. supply : 공급하다, 공급\n6. seasonal : 계절의, 시즌의\n7. expect : 기대하다, 예상하다\n8. permanent : 영구적인, 항구적인\n9. long-distance shipping : 장거리 배송\n10. as a result : 결과적으로, 그 결과\n\n[해설]\n주별 수확량 변화라는 불확실성을 식당 운영의 정체성으로 전환한 뒤 구체적 실행을 설명합니다.\n\n[오답 해설]\n①번: 직접 구매 직후에 삽입하면 아직 불확실성이 제시되지 않은 상태이므로 'this uncertainty'가 가리킬 대상이 없어 부자연스럽다.\n\n②번: (정답) 매주 수확량이 달라 메뉴를 고정할 수 없다는 불확실성이 제시된 직후, 그 불확실성을 문제가 아닌 정체성으로 전환했다는 삽입문이 자연스럽게 연결된다. 이후 구체적 실행(농장 공급에 맞춘 요리 계획)으로 이어진다.\n\n③번: 이미 구체적 실행이 시작된 뒤이므로 불확실성에 대한 태도 전환이 뒤늦게 오면 흐름이 역전된다.\n\n④번: 고객 반응까지 나온 뒤에 삽입하면 인과 순서가 맞지 않는다.\n\n⑤번: 결론 문장 뒤이므로 태도 전환 문장이 올 자리가 아니다.",
     "wrong_explanations": {},
     "answerType": "choice",
     "_reviewed": false,
@@ -3304,7 +3304,7 @@ const QUESTION_BANK = [
   {
     "_qid": "R-0332",
     "type": "빈칸 추론",
-    "passage": "A translation application rendered every word of a short dialogue accurately, yet its audience did not laugh at the joke. The humor depended on a phrase that one speaker had used years earlier during an embarrassing event. A literal translation preserved the dictionary meanings but erased that shared memory. When a human translator added a brief contextual cue, readers understood why the phrase was funny, although some of the original wording changed. The example suggests that faithful communication is not always identical to verbal sameness. Translators may sometimes need to preserve __________ even at the cost of reproducing every word.",
+    "passage": "A translation application rendered every word of a short dialogue accurately, yet its audience did not laugh at the joke. The humor depended on a phrase that one speaker had used years earlier during an embarrassing event. A literal translation preserved the dictionary meanings but erased that shared memory. When a human translator added a brief contextual cue, readers understood why the phrase was funny, although some of the original wording changed. The example suggests that faithful communication is not always identical to verbal sameness. Translators may sometimes need to preserve __________ even at the cost of changing some of the original wording.",
     "given_sentence": "",
     "choices": [
       "① the original order of all words",
@@ -3449,7 +3449,7 @@ const QUESTION_BANK = [
       "④ 번 위치",
       "⑤ 번 위치"
     ],
-    "answer": 3,
+    "answer": 4,
     "explanation": "[지문 해석]\n산골마을이 오래된 산책로를 보존하고 싶어 했다. (①) 한 관계자는 돌을 매끄러운 포장도로로 교체할 것을 제안했다. (②) 나이 많은 주민들은 울퉁불퉁한 돌들이 빗물을 흘려보내는 데 도움이 된다고 설명했다. (③) 기술자들은 폭우 때 경사면을 조사했다. (④) 그들은 원래 설계를 없애는 대신 개별 돌들을 수리하기로 결정했다. (⑤)\n\n[주요 어휘]\npreserve : 보존하다, 지키다\npavement : 포장도로, 아스팔트\nuneven : 고르지 않은, 울퉁불퉁한\nchannel : (물을) 흐르게 하다, 유도하다\nrainwater : 빗물\ninspect : 검사하다, 조사하다\nslope : 비탈, 경사면\nerase : 없애다, 삭제하다\noriginal design : 원래 설계\nrepair : 수리하다, 복구하다\n\n[해설]\n주민들이 빗물 배수 기능을 설명한 직후 그 의미를 정리하고, 이후 기술자의 현장 조사가 이어집니다.\n\n[오답 해설]\n①번: 문장이 마을이 옛길을 보존하려는 배경을 제시한 직후 위치하므로, 구체적인 문제 상황(포장 교체 제안)이 아닌 추가 정보가 와야 하는데 적절하지 않습니다.\n\n②번: 포장 교체 제안이 나온 후 주민들의 반대 의견이 오는 것이 논리적이지만, 아직 검사 결과가 없어서 그들의 주장을 뒷받침할 구체적 근거가 부족한 상태입니다.\n\n③번: 주민들의 주장(돌이 빗물 유도에 도움) 이후 엔지니어의 실제 검사가 오므로 주장을 검증하는 자연스러운 흐름이 형성됩니다. 검사 결과에 따라 수리 결정으로 이어지는 인과관계가 명확합니다.\n\n④번: 검사와 수리 결정 사이에 위치하면 검사 결과가 나오지 않은 상태에서 수리 결정이 내려져 인과관계가 끊어집니다.\n\n⑤번: 가장 마지막에 위치하면 전체 이야기의 결론이 되어야 하는데, 아직 수리 결정 직후이므로 문단의 마무리 문장으로 기능할 수 없습니다.",
     "wrong_explanations": {},
     "_reviewed": false
@@ -3517,7 +3517,7 @@ const QUESTION_BANK = [
       "④번 위치",
       "⑤번 위치"
     ],
-    "answer": 3,
+    "answer": 4,
     "explanation": "[지문 해석]\n한 서점이 고객들에게 다른 사람들에게 추천하고 싶은 책의 제목을 말해달라고 요청했다. (①) 처음에는 거의 모든 사람이 현재 베스트셀러를 언급했기 때문에 목록은 판매 순위표처럼 보였다. (②) 그러자 직원들은 초대의 형식을 바꾸었다. 그들은 독자들에게 정말로 자신을 놀라게 했던 책을 떠올려 달라고 요청했다. (③) 수정된 목록에는 이전에 나타나지 않았던 난해한 역사서, 시, 그래픽 회고록이 포함되어 있었다. (④) 이러한 새로운 다양성에 영감을 받은 고객들은 책장 옆에 손으로 쓴 추천글을 남기기 시작했다. (⑤)\n\n[주요 어휘]\nrecommend : 추천하다\nbestseller : 베스트셀러, 잘 팔리는 책\nrecall : 기억해내다, 회상하다\ngenuinely : 진정으로, 정말로\nrevised : 수정된, 개정된\nobscure : 잘 알려지지 않은, 무명의\ndiversity : 다양성\ninspired by : ~에 영감을 받아\nhandwritten : 손으로 쓴\nrecommendation : 추천, 권장\n\n[해설]\nmore personal question이 세 번째 문장의 새 요청을 받으며, 다음 문장 the revised list가 결과를 이어받습니다.\n\n[오답 해설]\n①번: 첫 번째 문장 바로 뒤에 삽입하면 시간 순서가 명확하지 않고, \"At first\"가 이미 시간 표지로 기능하므로 중복된다.\n\n②번: 두 번째 문장 뒤에 삽입하면 \"so the list looked much like a sales chart\"에서 끊기고, 세 번째 문장의 \"The staff then changed\"로 이어져 논리적 흐름이 자연스럽다.\n\n③번: 세 번째 문장 뒤에 삽입하는 것이 정답이다. \"The revised list now included...\"의 변화된 결과 다음에 그 영향을 설명하는 문장이 와서, 원인과 결과의 인과 관계가 명확하게 드러난다.\n\n④번: 네 번째 문장 뒤에 삽입하면 \"Inspired by this new diversity\" 바로 앞에 결과가 먼저 오는 역순 배열이 되어 부자연스럽다.\n\n⑤번: 마지막에 삽입하면 문장이 끝난 후 추가 정보가 덧붙는 형태가 되어, 앞 문장들과의 인과 관계를 제대로 전달하지 못한다.",
     "wrong_explanations": {},
     "_reviewed": false
@@ -3585,7 +3585,7 @@ const QUESTION_BANK = [
       "④번 위치",
       "⑤번 위치"
     ],
-    "answer": 3,
+    "answer": 4,
     "explanation": "[지문 해석]\n한 해양 연구원이 산호초 옆에 음향 센서를 설치하여 하루 종일의 활동을 기록했다. (①) 낮 동안에는 지나가는 배 엔진의 낮은 굉음이 녹음을 지배했다. (②) 해질녘이 지나자 그 기계음은 사라지고, 일련의 희미한 클릭음이 들렸다. (③) 분석 결과 그 클릭음은 어둠 속에서 먹이를 먹는 산호초 동물들에서 나온 것으로 드러났다. (④) 향후 조사를 위해 연구팀은 희미한 생물음이 묻히지 않도록 밤 시간에 조용한 청음 기간을 마련했다. (⑤)\n\n[주요 어휘]\nacoustic sensors : 음향 센서\ncoral reef : 산호초\ndominated by : ~에 의해 지배되다\nmechanical rumble : 기계음의 굉음\nfade : 사라지다, 희미해지다\naudible : 들을 수 있는\nanalysis : 분석\nmask : 가리다, 방해하다\nbiological sounds : 생물음\nsurvey : 조사\n\n[해설]\nboat-engine noise가 사라진 뒤 faint clicks가 들리는 현상을 해석하는 전환문으로, 야간 소리의 분석 이전 ③에 놓입니다.\n\n[오답 해설]\n①번: 첫 문장 바로 뒤에 삽입되므로 전체 맥락을 방해하며, 이미 \"In daylight\"로 시간 구분이 시작되었기 때문에 중복된다.\n\n②번: \"After sunset\"이 이미 시간 전환을 나타내고 있으므로, 여기 삽입하면 시간적 흐름이 어색하게 된다.\n\n③번: \"faint clicks became audible\"에서 언급된 클릭음의 정체를 \"Analysis showed that the clicks came from reef animals feeding after dark\"로 설명하면서 자연스러운 인과관계가 형성되어 문맥이 매끄럽다.\n\n④번: 연구 결과를 바탕으로 미래 계획을 세우는 내용이므로, 분석 결과가 먼저 제시된 후에 와야 한다.\n\n⑤번: 문단의 마지막이므로 새로운 정보를 삽입하기에 부적절하며, 이미 완성된 의미의 흐름을 방해한다.",
     "wrong_explanations": {},
     "_reviewed": false
@@ -3602,7 +3602,7 @@ const QUESTION_BANK = [
       "④ 번 위치",
       "⑤ 번 위치"
     ],
-    "answer": 3,
+    "answer": 4,
     "explanation": "[지문 해석]\n미술 선생님이 학생들에게 얼굴을 사용하지 않고 초상화를 그리도록 요청했다. (①) 여러 학생들이 신발, 책상, 그리고 익숙한 일상용품들을 선택했다. (②) 그들의 반 친구들은 종종 표현된 사람들을 알아볼 수 있었다. (③) 그 결과로 나눈 논의는 외모보다는 습관과 관계에 초점을 맞추었다. (④) 선생님은 이 활동을 일련의 글쓰기 설명으로 확장했다. (⑤)\n\n[주요 어휘]\nportrait : 초상화\nhousehold objects : 가정용품\nidentify : 식별하다, 알아보다\nrepresent : 나타내다, 표현하다\nresulting : 그 결과로 생긴\ndiscussion : 토론, 논의\nappearance : 외모, 모습\nexpand : 확대하다, 발전시키다\nexercise : 연습, 과제\nseries : 일련의, 연속\ndescription : 설명, 묘사\n\n[해설]\n물건으로 인물을 알아맞힌 결과 다음에 핵심 원리를 정리하고 토론으로 이어집니다.\n\n[오답 해설]\n①번: 학생들이 신발, 책상 등의 물건을 선택했다는 내용 다음에 삽입되면 너무 빠르게 결과를 서술하게 되어, 학생들이 어떻게 작품을 만들었는지에 대한 과정이나 배경 설명이 부족하다.\n\n②번: \"신발, 책상 등을 선택했다\"는 문장 직후에 삽입하면 학생들의 선택 사항을 구체적으로 나열한 후 바로 그 결과로 이어져야 하는데, 삽입 문장이 그 사이에 끼어 흐름을 방해한다.\n\n③번: \"classmates could often identify the people represented\"라는 내용이 학생들의 선택(신발, 책상 등)이 성공적으로 인물을 표현했음을 보여주므로, 원인과 결과의 논리적 연결이 자연스럽고 시간적 순서도 올바르다.\n\n④번: 습관과 관계에 대한 논의 내용이 나온 후에 삽입되면, 이미 이루어진 토론에 대해 역으로 설명하는 것처럼 느껴져 부자연스러운 흐름을 만든다.\n\n⑤번: 글의 마지막에 삽입되면 교사가 운동을 확장했다는 정보 후에 삽입 문장이 오므로, 순차적 흐름이 맞지 않아 앞뒤 내용이 연결되지 않는다.",
     "wrong_explanations": {},
     "_reviewed": false
@@ -5466,14 +5466,14 @@ const QUESTION_BANK = [
     "passage": "A newspaper experimented with longer explanations of complicated policies. The articles drew fewer immediate clicks but generated more return visits and questions. Short-term popularity did not fully represent the value of careful reporting.\n\n[요약문] The case suggests that (A) __________ can contribute to (B) __________, even when the outcome cannot be understood through a single surface-level measure.",
     "given_sentence": "",
     "choices": [
-      "① (A) return visits / (B) sustained engagement",
+      "① (A) detailed explanations / (B) sustained engagement",
       "② (A) instant clicks / (B) poor reporting",
       "③ (A) shorter headlines / (B) advertising sales",
       "④ (A) higher frequency / (B) fewer explanations",
       "⑤ (A) lower accuracy / (B) celebrity coverage"
     ],
     "answer": 1,
-    "explanation": "[지문 해석]\n한 신문사가 복잡한 정책에 대한 더 긴 설명을 실험했다. 그 기사들은 즉각적인 클릭 수는 적었지만 재방문과 질문을 더 많이 유도했다. 단기적 인기도는 신중한 보도의 가치를 완전히 나타내지 못했다.\n\n[요약문] 이 사례는 (A) __________가 (B) __________에 기여할 수 있음을 시사한다. 설령 그 결과가 단일한 표면적 지표로는 이해될 수 없을 때에도 말이다.\n\n[주요 어휘]\n# 수능 영어 중요 단어/표현\n\n1. experiment with : ~을 시험해보다, 실험하다\n2. complicated : 복잡한\n3. draw : (관심, 시선 등을) 끌다\n4. immediate : 즉각적인, 즉시의\n5. generate : 야기하다, 발생시키다\n6. return visit : 재방문\n7. short-term : 단기의\n8. popularity : 인기, 대중적 호응\n9. fully : 완전히, 충분히\n10. represent : 나타내다, 대표하다\n11. value : 가치, 중요성\n12. surface-level : 표면적인\n\n[해설]\n지문에서 return visits이(가) sustained engagement에 기여한다는 인과 관계를 확인할 수 있습니다. 정답 외 조합은 글에 제시되지 않았거나 핵심 인과 관계를 왜곡합니다.\n\n[오답 해설]\n①번: 정답. 지문에서 긴 설명이 즉시 클릭은 적었지만 재방문과 질문을 생성했다고 했으므로, 재방문(return visits)이 지속적 참여(sustained engagement)에 기여한다는 의미로 정확히 대응된다.\n\n②번: 지문은 신중한 보도의 가치를 강조하고 있는데, 즉시 클릭(instant clicks)이 저질 보도(poor reporting)에 기여한다는 것은 지문의 주장과 정반대다.\n\n③번: 지문에서 논의하는 것은 설명의 길이와 질에 관한 것이지, 짧은 헤드라인이나 광고 판매와는 무관하다.\n\n④번: 지문은 높은 빈도(higher frequency)를 언급하지 않으며, 더 적은 설명(fewer explanations)이 긍정적 결과를 낸다는 내용도 없다.\n\n⑤번: 지문에서 정확성(accuracy)이나 유명인 보도(celebrity coverage)는 전혀 다루어지지 않은 내용이다.",
+    "explanation": "[지문 해석]\n한 신문사가 복잡한 정책에 대한 더 긴 설명을 실험했다. 그 기사들은 즉각적인 클릭 수는 적었지만 재방문과 질문을 더 많이 유도했다. 단기적 인기도는 신중한 보도의 가치를 완전히 나타내지 못했다.\n\n[요약문] 이 사례는 (A) __________가 (B) __________에 기여할 수 있음을 시사한다. 설령 그 결과가 단일한 표면적 지표로는 이해될 수 없을 때에도 말이다.\n\n[주요 어휘]\n# 수능 영어 중요 단어/표현\n\n1. experiment with : ~을 시험해보다, 실험하다\n2. complicated : 복잡한\n3. draw : (관심, 시선 등을) 끌다\n4. immediate : 즉각적인, 즉시의\n5. generate : 야기하다, 발생시키다\n6. return visit : 재방문\n7. short-term : 단기의\n8. popularity : 인기, 대중적 호응\n9. fully : 완전히, 충분히\n10. represent : 나타내다, 대표하다\n11. value : 가치, 중요성\n12. surface-level : 표면적인\n\n[해설]\n지문에서 return visits이(가) sustained engagement에 기여한다는 인과 관계를 확인할 수 있습니다. 정답 외 조합은 글에 제시되지 않았거나 핵심 인과 관계를 왜곡합니다.\n\n[오답 해설]\n①번: 정답. 지문에서 긴 설명(detailed explanations)이 즉시 클릭은 적었지만 재방문과 질문을 생성했다고 했으므로, 상세한 설명이 지속적 참여(sustained engagement)에 기여한다는 의미로 정확히 대응된다.\n\n②번: 지문은 신중한 보도의 가치를 강조하고 있는데, 즉시 클릭(instant clicks)이 저질 보도(poor reporting)에 기여한다는 것은 지문의 주장과 정반대다.\n\n③번: 지문에서 논의하는 것은 설명의 길이와 질에 관한 것이지, 짧은 헤드라인이나 광고 판매와는 무관하다.\n\n④번: 지문은 높은 빈도(higher frequency)를 언급하지 않으며, 더 적은 설명(fewer explanations)이 긍정적 결과를 낸다는 내용도 없다.\n\n⑤번: 지문에서 정확성(accuracy)이나 유명인 보도(celebrity coverage)는 전혀 다루어지지 않은 내용이다.",
     "wrong_explanations": {},
     "_reviewed": false
   },
@@ -5486,11 +5486,11 @@ const QUESTION_BANK = [
       "① (A) concrete surfaces / (B) isolated habitats",
       "② (A) parking expansion / (B) plant removal",
       "③ (A) artificial lighting / (B) uniform lawns",
-      "④ (A) native planting / (B) habitat connectivity",
+      "④ (A) native planting / (B) insect diversity",
       "⑤ (A) roof height / (B) construction speed"
     ],
     "answer": 4,
-    "explanation": "[지문 해석]\n생태학자가 옥상 정원의 곤충을 기록했다. 일부 옥상은 토종 꽃으로 심겨졌을 때 많은 종을 유인했다. 작은 서식지는 인근 녹지와 연결되었을 때 더욱 유익해졌다.\n\n[요약문] 이 사례는 (A) __________가 (B) __________에 기여할 수 있음을 시사하며, 이는 단순한 표면적 지표만으로는 그 결과를 이해할 수 없을 때도 마찬가지다.\n\n[주요 어휘]\n# 수능 영어 주요 단어/표현\n\necologist : 생태학자\nrooftop gardens : 옥상 정원\nnative flowers : 자생 식물, 토종 꽃\nhabitats : 서식지\nconnected to : ~와 연결된\ngreen spaces : 녹색 공간\nbeneficial : 유익한, 도움이 되는\ncontribute to : ~에 기여하다\noutcome : 결과, 성과\nsurface-level : 표면적인\nmeasure : 기준, 척도\nspecies : 종(種), 생물 종류\n\n[해설]\n지문에서 native planting이(가) habitat connectivity에 기여한다는 인과 관계를 확인할 수 있습니다. 정답 외 조합은 글에 제시되지 않았거나 핵심 인과 관계를 왜곡합니다.\n\n[오답 해설]\n①번: 콘크리트 표면이 고립된 서식지에 기여한다는 내용은 지문에서 전혀 언급되지 않으며, 오히려 지문은 초록공간의 긍정적 영향을 강조하고 있어 틀렸다.\n\n②번: 주차장 확장과 식물 제거는 지문에서 다루지 않은 요소들이며, 지문은 원주민 식물 식재의 긍정적 효과를 보여주므로 반대 개념으로 부적절하다.\n\n③번: 인공 조명과 균일한 잔디밭은 지문 어디에도 나타나지 않는 요소들이며, 지문의 핵심인 '토종 꽃' 심기와 '녹지 연결'과 무관하다.\n\n④번: 지문에서 토종 꽃 심기가 많은 종을 유인하고, 작은 서식지가 인근 녹지와 연결될 때 더 유익해진다는 내용이 정확히 드러나므로 요약문의 빈칸을 완벽하게 채운다.\n\n⑤번: 지붕의 높이와 건설 속도는 생태계나 곤충 서식지와 관련 없는 구조적 요소일 뿐, 지문이 다루는 생물 다양성 증진의 주제와 전혀 무관하다.",
+    "explanation": "[지문 해석]\n생태학자가 옥상 정원의 곤충을 기록했다. 일부 옥상은 토종 꽃으로 심겨졌을 때 많은 종을 유인했다. 작은 서식지는 인근 녹지와 연결되었을 때 더욱 유익해졌다.\n\n[요약문] 이 사례는 (A) __________가 (B) __________에 기여할 수 있음을 시사하며, 이는 단순한 표면적 지표만으로는 그 결과를 이해할 수 없을 때도 마찬가지다.\n\n[주요 어휘]\n# 수능 영어 주요 단어/표현\n\necologist : 생태학자\nrooftop gardens : 옥상 정원\nnative flowers : 자생 식물, 토종 꽃\nhabitats : 서식지\nconnected to : ~와 연결된\ngreen spaces : 녹색 공간\nbeneficial : 유익한, 도움이 되는\ncontribute to : ~에 기여하다\noutcome : 결과, 성과\nsurface-level : 표면적인\nmeasure : 기준, 척도\nspecies : 종(種), 생물 종류\n\n[해설]\n지문에서 native planting이(가) habitat connectivity에 기여한다는 인과 관계를 확인할 수 있습니다. 정답 외 조합은 글에 제시되지 않았거나 핵심 인과 관계를 왜곡합니다.\n\n[오답 해설]\n①번: 콘크리트 표면이 고립된 서식지에 기여한다는 내용은 지문에서 전혀 언급되지 않으며, 오히려 지문은 초록공간의 긍정적 영향을 강조하고 있어 틀렸다.\n\n②번: 주차장 확장과 식물 제거는 지문에서 다루지 않은 요소들이며, 지문은 원주민 식물 식재의 긍정적 효과를 보여주므로 반대 개념으로 부적절하다.\n\n③번: 인공 조명과 균일한 잔디밭은 지문 어디에도 나타나지 않는 요소들이며, 지문의 핵심인 '토종 꽃' 심기와 '녹지 연결'과 무관하다.\n\n④번: 지문에서 토종 꽃 심기(native planting)가 많은 곤충 종을 유인하여 곤충 다양성(insect diversity)에 기여한다는 인과 관계가 정확히 드러나므로 요약문의 빈칸을 완벽하게 채운다.\n\n⑤번: 지붕의 높이와 건설 속도는 생태계나 곤충 서식지와 관련 없는 구조적 요소일 뿐, 지문이 다루는 생물 다양성 증진의 주제와 전혀 무관하다.",
     "wrong_explanations": {},
     "_reviewed": false
   },
@@ -5699,23 +5699,6 @@ const QUESTION_BANK = [
     "_reviewed": false
   },
   {
-    "_qid": "R-0522",
-    "type": "어법 판단",
-    "passage": "A conservator analyzed the faded blue pigment in an old mural. The team (① have) considered several interpretations. The observations, which (② were) reviewed separately, showed that (③ each) explanation had limitations. One of the central reasons (④ is) that the early assumption overlooked important evidence. The researchers (⑤ therefore) recommended a revised account.",
-    "given_sentence": "",
-    "choices": [
-      "①번 표시",
-      "②번 표시",
-      "③번 표시",
-      "④번 표시",
-      "⑤번 표시"
-    ],
-    "answer": 1,
-    "explanation": "[지문 해석]\n보존가가 낡은 벽화의 바래진 파란색 안료를 분석했다. 그 팀은 (① have) 여러 해석을 고려했다. 따로 검토된 관찰 결과들은 (② were) 각각의 설명이 한계를 가지고 있음을 보여주었다. 중심이 되는 이유 중 하나는 (④ is) 초기 가정이 중요한 증거를 간과했다는 것이다. 연구원들은 (⑤ therefore) 수정된 설명을 제안했다.\n\n[주요 어휘]\nconservator : 보존가, 복원 전문가\nfaded : 바래진, 퇴색된\npigment : 안료, 색소\nmural : 벽화\ninterpret : 해석하다\nobservation : 관찰, 관찰 결과\nlimitation : 한계, 제한\ncentral : 중심적인, 핵심적인\nassumption : 가정, 전제\noverlook : 간과하다, 놓치다\nevidence : 증거, 근거\nrevise : 수정하다, 개정하다\n\n[해설]\n①는 has로 고쳐야 합니다. 나머지 표시 표현은 해당 문장의 구조상 허용됩니다.\n\n[오답 해설]\n①번: \"have\"는 틀렸고 \"has\"가 정답입니다. 주어 \"The team\"은 단수 취급되므로 3인칭 단수 동사 \"has\"를 사용해야 합니다.\n\n②번: \"were\"가 올바릅니다. 선행사 \"observations\"는 복수이고, 관계절의 동사도 복수형 \"were\"를 사용해야 합니다.\n\n③번: \"each\"가 올바릅니다. \"each\"는 단수 대명사로 뒤의 단수 동사 \"had\"와 일치하며, 문맥상 각각의 설명을 나타내기에 적절합니다.\n\n④번: \"is\"가 올바릅니다. 주어 \"One of the central reasons\"는 단수이므로 3인칭 단수 동사 \"is\"를 사용해야 합니다.\n\n⑤번: \"therefore\"가 올바릅니다. 부사로 사용되어 앞의 내용으로부터 논리적 결과를 나타내며, 문장 내 위치도 적절합니다.",
-    "wrong_explanations": {},
-    "_reviewed": false
-  },
-  {
     "_qid": "R-0523",
     "type": "어휘 적절성",
     "passage": "An ecologist monitored insects around a newly restored pond. Local officials wanted to judge success after the first summer. Species returned unevenly, with predators arriving after their prey. The first interpretation was necessarily (① certain) because little evidence had yet been collected. The later observation (② contradicted) the expectation on which that interpretation depended. The researchers consequently adopted a (③ qualified) account rather than an unconditional verdict. They examined whether the new evidence was (④ relevant) to the question under investigation. The conclusion remained (⑤ limited) to the conditions in which the observations had been made.",
@@ -5852,23 +5835,6 @@ const QUESTION_BANK = [
     "_reviewed": false
   },
   {
-    "_qid": "R-0531",
-    "type": "요약문 완성",
-    "passage": "A coastal engineer compared two flood forecasts based on identical data. Officials wanted a single number that seemed unquestionably objective. The first interpretation was plausible because it focused on an easily visible feature. But different assumptions about land use produced substantially different losses. This did not make the earlier observation useless; it revealed that the original explanation had missed an important condition. Forecasts should disclose the assumptions that shape their apparent precision.",
-    "given_sentence": "",
-    "choices": [
-      "① unrelated — absolute",
-      "② supported — qualified",
-      "③ replaced — unquestionable",
-      "④ challenged — categorical",
-      "⑤ supported — unconditional"
-    ],
-    "answer": 2,
-    "explanation": "[지문 해석]\n한 해안 공학자가 동일한 데이터를 바탕으로 한 두 가지 홍수 예측을 비교했다. 관계자들은 명백하게 객관적으로 보이는 단 하나의 수치를 원했다. 첫 번째 해석은 쉽게 눈에 띄는 특징에 초점을 맞췄기 때문에 타당해 보였다. 그러나 토지 이용에 대한 서로 다른 가정들은 실질적으로 다른 손실을 초래했다. 이것이 이전의 관찰을 무의미하게 만들지는 않았다. 오히려 원래의 설명이 중요한 조건 하나를 놓쳤다는 것을 드러냈다. 예측은 자신들의 명확한 모습을 형성하는 가정들을 공개해야 한다.\n\n[주요 어휘]\ncoastal engineer : 해안 공학자\nflood forecast : 홍수 예측\nidentical : 동일한, 똑같은\nplausible : 그럴듯한, 타당해 보이는\nassumption : 가정, 전제\nsubstantially : 상당히, 실질적으로\ndisclosure : 공개, 노출\nprecision : 정확성, 정밀함\nreveal : 드러내다, 밝혀내다\nmiss : 놓치다, 간과하다\nland use : 토지 이용\nobjective : 객관적인\n\n[해설]\n초기 가정은 처음에는 지지를 받았지만 후속 관찰 때문에 해석에 조건과 한계를 명시해야 했으므로 supported — qualified가 가장 적절합니다.\n\n[오답 해설]\n①번: unrelated는 첫 번째 해석이 데이터와 무관하다는 뜻인데, 지문에서 \"plausible\"이라고 했으므로 관련성이 있다. 또한 absolute는 가정 공개의 필요성을 강조하는 문맥과 맞지 않는다.\n\n②번: supported는 첫 번째 해석이 관찰에 의해 지지되었고, qualified는 다양한 가정에 따라 결과가 달라지므로 조건부로 수정되어야 한다는 의미로, 지문의 \"다른 가정이 다른 손실을 낳았다\"와 \"가정을 공개해야 한다\"는 내용과 정확히 부합한다.\n\n③번: replaced는 첫 번째 해석이 완전히 대체되었다는 뜻이지만, 지문에서 \"did not make the earlier observation useless\"라고 명시했으므로 맞지 않는다.\n\n④번: challenged는 첫 번째 해석이 도전받았다는 의미로 가능해 보이지만, categorical(절대적인)은 오히려 가정 공개 전에 예측이 절대적으로 보인다는 뜻이 되어 문맥에 맞지 않는다.\n\n⑤번: supported는 적절하지만, unconditional(무조건적인)은 지문의 핵심인 \"가정에 따라 달라진다\"는 내용과 정반대이므로 틀렸다.",
-    "wrong_explanations": {},
-    "_reviewed": false
-  },
-  {
     "_qid": "R-0532",
     "type": "빈칸 추론",
     "passage": "A musician rehearsed with a metronome that gradually changed tempo. The group had mastered the piece at one fixed speed. The new evidence, however, was more informative than the original label: the shifting beat exposed moments where the ensemble relied on habit rather than listening. The difficulty is to account for both the attraction of the earlier interpretation and its failure to explain the later observation. The evidence is most consistent with the conclusion that __________. A defensible choice should explain the contrast without converting a local finding into a universal rule.",
@@ -5916,23 +5882,6 @@ const QUESTION_BANK = [
     ],
     "answer": 1,
     "explanation": "[지문 해석]\n한 연구자가 아이들이 낯선 보드게임의 규칙을 만드는 모습을 관찰했다. 그 보고서는 ① describe 원래의 설명이 왜 설득력이 있었는지를 설명했다. 나중에 ② collected 증거는 그 질문을 더욱 복잡하게 만들었다. ③ ignoring 그 불일치를 무시하기보다는, 조사자들은 그것이 드러낸 바를 고려했다. 그들의 결론은 ④ was 의도적으로 한정적이었으며 ⑤ remained 추가 검증에 열려 있었다.\n\n[주요 어휘]\ninvent : 창조하다, 고안하다\nunfamiliar : 낯선, 익숙하지 않은\nappealing : 매력적인, 호소력 있는\nevidence : 증거\ndiscrepancy : 불일치, 모순\nreveal : 드러내다, 밝히다\ndeliberately : 의도적으로, 신중하게\nqualified : 제한된, 한정된\nremain open to : ~에 열려있다, ~을 고려할 여지가 있다\n\n[해설]\n①는 describes로 고쳐야 합니다. 나머지 표시 표현은 해당 문장의 구조상 허용됩니다.\n\n[오답 해설]\n①번: 주어 \"The report\"는 단수이므로 동사는 3인칭 단수형이어야 하는데, \"describe\"는 원형이므로 \"describes\"가 되어야 한다. 따라서 어법상 오류이다.\n\n②번: \"was collected\"로 과거분사 형태가 사용되어 수동태를 이루므로 문법적으로 올바르다. 주어 \"The evidence\"는 단수이고 동사도 일치한다.\n\n③번: \"Rather than\" 뒤에는 동명사나 명사가 오는 것이 원칙인데, \"ignoring\"은 동명사 형태로 올바르게 사용되었다.\n\n④번: 주어 \"Their conclusion\"은 단수이고 \"was\"는 단수형 과거 조동사로 문법적으로 올바르다.\n\n⑤번: 주어 \"Their conclusion\"은 단수이고 \"remained\"는 과거 동사로 주어와 수가 일치하므로 문법적으로 올바르다.",
-    "wrong_explanations": {},
-    "_reviewed": false
-  },
-  {
-    "_qid": "R-0535",
-    "type": "어휘 적절성",
-    "passage": "A remote clinic introduced video consultations for routine follow-ups. Administrators celebrated the overall rise in participation. Attendance improved for patients living far away but declined among those with unstable internet. The first interpretation was necessarily (① tentative) because little evidence had yet been collected. The later observation (② contradicted) the expectation on which that interpretation depended. The researchers consequently adopted a (③ qualified) account rather than an unconditional verdict. They examined whether the new evidence was (④ irrelevant) to the question under investigation. The conclusion remained (⑤ limited) to the conditions in which the observations had been made.",
-    "given_sentence": "",
-    "choices": [
-      "①번 표시",
-      "②번 표시",
-      "③번 표시",
-      "④번 표시",
-      "⑤번 표시"
-    ],
-    "answer": 4,
-    "explanation": "[지문 해석]\n한 외딴 진료소가 일상적인 추적 진료를 위해 화상 상담을 도입했다. 관리자들은 전반적인 참여 증가를 축하했다. 먼 곳에 사는 환자들의 방문은 증가했지만 불안정한 인터넷 환경에 있는 환자들의 방문은 감소했다. 아직 수집된 증거가 거의 없었기 때문에 처음 해석은 필연적으로 (① 임시적)이었다. 나중의 관찰은 그 해석이 의존하던 기대와 (② 모순)되었다. 결과적으로 연구자들은 절대적인 판단보다는 (③ 조건부)의 설명을 채택했다. 그들은 새로운 증거가 조사 중인 문제와 (④ 무관한)지 살펴봤다. 결론은 관찰이 이루어진 조건들로 (⑤ 제한)되었다.\n\n[주요 어휘]\nremote clinic : 먼 지역의 의료 시설\nvideo consultation : 화상 진료\nroutine follow-up : 정기적인 후속 진료\nparticipation : 참여, 참가\nattendance : 출석, 방문\nunstable internet : 불안정한 인터넷\ntentative : 임시적인, 확정적이지 않은\ncontradict : 모순되다, 어긋나다\nqualified : 제한적인, 조건부의\nirrelevant : 관련 없는, 부적절한\nlimited to : ~에 한정되다\nobservation : 관찰, 관찰 결과\n\n[해설]\n④의 irrelevant는 주변 의미와 충돌합니다. relevant로 수정해야 초기 가설·반증·신중한 결론의 논리가 일관됩니다.\n\n[오답 해설]\n①번: tentative(잠정적인)는 초기 해석이 증거 부족으로 확실하지 않다는 의미로 문맥에 완벽하게 적합합니다.\n\n②번: contradicted(모순되었다)는 후속 관찰이 초기 기대와 반대되었음을 정확히 표현하므로 올바른 선택입니다.\n\n③번: qualified(제한된, 조건부의)는 무조건적인 판단 대신 조건을 고려한 설명을 채택했다는 의미로 문맥에 적절합니다.\n\n④번: irrelevant(무관한)는 논리적으로 모순입니다. 연구자들이 새로운 증거가 조사 대상 질문과 관련이 없는지 검토했다면, 뒤따르는 결론과 맞지 않으므로 부적절합니다.\n\n⑤번: limited(제한된)는 결론이 관찰된 특정 조건에만 적용된다는 의미로 신중한 연구 태도를 반영하므로 문맥에 맞습니다.",
     "wrong_explanations": {},
     "_reviewed": false
   },
@@ -6052,23 +6001,6 @@ const QUESTION_BANK = [
     ],
     "answer": 3,
     "explanation": "[지문 해석]\n①한 문학 학자가 모호한 시의 여러 번역본을 연구했다. ②독자들은 모든 이미지에 대해 하나의 확정된 동등물을 요구했다. ③기상 위성은 대기권 위의 궤도에서 이미지를 수집한다. ④각 번역본은 다른 연상을 보존하는 한편 또 다른 연상을 잃었다. ⑤번역은 정확한 대체보다는 종종 절충을 수반한다.\n\n[주요 어휘]\nliterary scholar : 문학 연구자\nambiguous : 모호한, 애매한\ntranslation : 번역\ndefinitive : 확정적인, 최종적인\nequivalent : 동등한 것, 상응하는 것\npreserve : 보존하다, 유지하다\nassociation : 연관, 관련\ntrade-off : 상충, 거래\nexact substitution : 정확한 대체\ninvolve : 포함하다, 관련되다\n\n[해설]\n나머지 네 문장은 동일한 연구·관찰의 초기 가정과 결과, 수정된 결론을 연결하지만 해당 문장은 다른 주제로 전환되어 논리적 연속성이 없습니다.\n\n[오답 해설]\n①번: 문학 학자가 모호한 시의 여러 번역본을 연구했다는 내용으로, 뒤이어 번역의 특성과 한계에 대한 주제와 자연스럽게 연결된다.\n\n②번: 독자들이 모든 이미지에 대한 하나의 확정적인 동등물을 요구했다는 내용으로, 번역의 어려움을 설명하는 맥락에 적합하다.\n\n③번: 기상 위성이 대기권 위의 궤도에서 이미지를 수집한다는 내용으로, 시의 번역과 독자의 요구, 번역의 절충에 관한 주제와 전혀 무관하다.\n\n④번: 각 번역본이 다른 연상을 보존하면서 동시에 다른 연상을 잃었다는 내용으로, 번역의 절충적 특성을 구체적으로 설명하며 주제와 일치한다.\n\n⑤번: 번역이 정확한 대체보다는 절충을 수반한다는 내용으로, ①②④를 종합하는 결론적 주장으로 주제와 완벽하게 부합한다.",
-    "wrong_explanations": {},
-    "_reviewed": false
-  },
-  {
-    "_qid": "R-0543",
-    "type": "요약문 완성",
-    "passage": "A biologist moved a rare plant into a protected greenhouse. The conservation team measured success only by plant survival. At first, that account seemed attractive: it offered a simple explanation that could be communicated without further qualification. In fact, the plants survived but no longer received visits from their usual pollinators. Neither the initial prediction nor the later measurement is meaningless; the mistake is to confuse either one with a complete explanation. Protecting a species also involves preserving its ecological relationships. The task is to connect the observations with the process that could plausibly have produced them. This conclusion is not identical to the first assumption; it must account for the later observation and for the limits of the original measure. In particular, the new evidence may justify changing the interpretation without proving that the earlier account was mistaken in every conceivable setting. Consequently, the preferred interpretation should explain both the initial expectation and the evidence that complicates it, without pretending that a single example establishes a universal rule.",
-    "given_sentence": "",
-    "choices": [
-      "① challenged — categorical",
-      "② supported — qualified",
-      "③ supported — unconditional",
-      "④ unrelated — absolute",
-      "⑤ replaced — unquestionable"
-    ],
-    "answer": 2,
-    "explanation": "[지문 해석]\n한 생물학자가 희귀 식물을 보호된 온실로 옮겼다. 보전팀은 성공을 오직 식물의 생존 여부로만 측정했다. 처음에는 이러한 기준이 매력적으로 보였다. 추가 설명 없이도 전달할 수 있는 단순한 설명을 제시했기 때문이다. 실제로 식물들은 생존했지만 더 이상 평소의 수분 매개자들의 방문을 받지 못했다. 초기의 예측도 이후의 측정도 무의미한 것은 아니다. 문제는 둘 중 어느 하나를 완전한 설명으로 착각하는 데 있다. 종을 보호한다는 것은 그 종의 생태적 관계도 함께 보존한다는 뜻이다. 과제는 관찰 결과와 그것을 그럴듯하게 설명할 수 있는 과정을 연결하는 것이다. 이러한 결론은 초기의 가정과 동일하지 않다. 이후의 관찰과 원래 측정 방식의 한계를 모두 고려해야 한다. 특히 새로운 증거가 해석을 바꾸는 것을 정당화할 수 있지만, 이것이 초기의 설명이 모든 상황에서 틀렸다는 것을 증명하지는 않는다. 결과적으로 더 나은 해석은 초기의 예상과 그것을 복잡하게 만드는 증거를 모두 설명해야 하며, 단 하나의 사례가 보편적 규칙을 입증한다고 주장해서는 안 된다.\n\n[주요 어휘]\n# 수능 영어 필수 단어/표현\n\n1. rare : 드문, 희귀한\n2. conservation : 보존, 자연보호\n3. measure success : 성공을 측정하다\n4. qualify : 한정하다, 제한을 두다\n5. pollinator : 수분 매개자 (곤충 등)\n6. ecological relationships : 생태적 관계\n7. plausibly : 타당하게, 그럴듯하게\n8. account : 설명, 보고\n9. confuse A with B : A를 B와 혼동하다\n10. justify : 정당화하다, 근거를 제시하다\n11. interpretation : 해석, 해석\n12. universal rule : 보편적 규칙\n\n[해설]\n초기 가정은 처음에는 지지를 받았지만 후속 관찰 때문에 해석에 조건과 한계를 명시해야 했으므로 supported — qualified가 가장 적절합니다.\n\n[오답 해설]\n①번: \"challenged — categorical\"는 초기 가정이 도전받았고 새로운 해석이 절대적이라는 뜻인데, 지문에서 저자는 새로운 해석도 제한적이고 보편적 규칙으로 볼 수 없다고 명시하므로 부적절하다.\n\n②번: \"supported — qualified\"는 초기 관찰이 지지되었지만 수정된 해석이 필요하다는 뜻으로, 식물이 살아남은 것은 맞지만 수분자 부재라는 새로운 증거로 해석을 한정해야 한다는 지문의 핵심을 정확히 반영한다.\n\n③번: \"supported — unconditional\"는 초기 가정이 지지되고 새로운 해석이 무조건적이라는 뜻인데, 지문은 새로운 증거가 해석을 \"수정\"하도록 정당화하며 단일 사례가 보편적 규칙을 세울 수 없다고 강조하므로 모순된다.\n\n④번: \"unrelated — absolute\"는 초기 예측과 나중의 측정이 무관하고 최종 해석이 절대적이라는 뜻으로, 지문에서 두 관찰이 모두 의미 있으며 함께 설명되어야 한다고 명시하므로 완전히 틀렸다.\n\n⑤번: \"replaced — unquestionable\"는 초기 해석이 완전히 대체되고 새로운 해석이 의심의 여지가 없다는 뜻인데, 지문은 초기 계정이 특정 상황에서 틀렸다는 것을 증명하지 않으며 새로운 해석도 제한적이라고 강조하므로 부정확하다.",
     "wrong_explanations": {},
     "_reviewed": false
   },
@@ -6260,23 +6192,6 @@ const QUESTION_BANK = [
     "_reviewed": false
   },
   {
-    "_qid": "R-0555",
-    "type": "요약문 완성",
-    "passage": "A coastal town limited tourist visits to a fragile tide pool. The council framed conservation as a simple matter of restricting access. The first interpretation was plausible because it focused on an easily visible feature. But fewer visitors caused less damage, but local guides lost income. This did not make the earlier observation useless; it revealed that the original explanation had missed an important condition. Durable conservation may require addressing the livelihoods affected by rules.",
-    "given_sentence": "",
-    "choices": [
-      "① supported — unconditional",
-      "② supported — qualified",
-      "③ challenged — categorical",
-      "④ unrelated — absolute",
-      "⑤ replaced — unquestionable"
-    ],
-    "answer": 2,
-    "explanation": "[지문 해석]\n한 해안 마을이 취약한 조력 웅덩이를 찾는 관광객의 방문을 제한했다. 지방 의회는 보존을 단순히 접근을 제한하는 문제로 규정했다. 첫 번째 해석은 눈에 띄는 특징에 초점을 맞췄기 때문에 그럴듯해 보였다. 하지만 방문객이 줄어들면서 피해는 감소했지만, 지역 가이드들은 소득을 잃게 되었다. 이것이 앞서의 관찰을 쓸모없게 만들지는 않았다. 오히려 원래의 설명이 중요한 조건을 놓쳤다는 것을 드러냈다. 지속 가능한 보존은 규칙으로 인해 영향을 받는 주민들의 생계 문제를 해결하는 것을 포함할 수 있다.\n\n[주요 어휘]\ncoastal town : 해안 도시\nfragile : 깨지기 쉬운, 취약한\ntide pool : 조수 웅덩이\ncouncil : 위원회, 평의회\nframe : ~을 표현하다, 구성하다\nconservation : 보존, 보호\nrestrict : 제한하다\nplausible : 그럴듯한, 타당해 보이는\nreveal : 드러내다, 밝히다\noriginal explanation : 원래의 설명\ndurable : 지속적인, 오래가는\naddress : 다루다, 해결하다\nlivelihoods : 생계, 생활 수단\n\n[해설]\n초기 가정은 처음에는 지지를 받았지만 후속 관찰 때문에 해석에 조건과 한계를 명시해야 했으므로 supported — qualified가 가장 적절합니다.\n\n[오답 해설]\n①번: \"supported — unconditional\"은 첫 번째 관찰이 '조건 없이' 지지되었다는 의미인데, 지문에서는 관찰이 부분적으로만 옳다고 수정되므로 부적절하다.\n\n②번: \"supported — qualified\"는 첫 번째 관찰(방문객 제한이 효과적)이 '조건부로' 지지되었음을 나타낸다. 방문객 감소는 피해를 줄였지만 지역 주민의 생계라는 중요한 조건을 놓쳤으므로 정답이다.\n\n③번: \"challenged — categorical\"는 첫 번째 해석이 '절대적으로' 도전받았다는 의미인데, 지문은 관찰 자체를 부정하지 않고 불완전함을 지적하므로 과도한 표현이다.\n\n④번: \"unrelated — absolute\"는 첫 번째 관찰이 '관련 없다'는 의미로, 지문에서 관찰이 여전히 유효하다고 했으므로 명백히 틀렸다.\n\n⑤번: \"replaced — unquestionable\"는 첫 번째 해석이 '의심의 여지 없이' 대체되었다는 의미인데, 지문은 관찰을 완전히 대체하지 않고 보완하므로 부적절하다.",
-    "wrong_explanations": {},
-    "_reviewed": false
-  },
-  {
     "_qid": "R-0556",
     "type": "빈칸 추론",
     "passage": "A researcher observed how people chose passwords. An instructor had equated memorability with weak security. The new evidence, however, was more informative than the original label: participants remembered distinctive phrases better than arbitrary short strings. The difficulty is to account for both the attraction of the earlier interpretation and its failure to explain the later observation. The evidence is most consistent with the conclusion that __________. A defensible choice should explain the contrast without converting a local finding into a universal rule.",
@@ -6460,23 +6375,6 @@ const QUESTION_BANK = [
     ],
     "answer": 2,
     "explanation": "[지문 해석]\n① 한 연극 감독이 다양한 조명으로 같은 장면을 리허설했다. ② 기상 위성들은 대기권 위의 궤도에서 이미지를 수집한다. ③ 무대 디자이너는 조명이 단지 물체를 보이게 할 뿐이라고 생각했다. ④ 배우들은 어두워진 영역이 관객의 주의를 다른 곳으로 돌린다는 것을 깨달았다. ⑤ 제시 조건은 내용을 단순히 드러내기보다는 해석을 형성할 수 있다.\n\n[주요 어휘]\nrehearse : 리허설하다, 연습하다\nlighting : 조명, 채광\nset designer : 무대 미술 디자이너\nvisible : 보이는, 눈에 띄는\nredirect : 다시 방향을 잡다, 돌리다\nattention : 주의, 관심\npresentation conditions : 제시 조건, 표현 방식\ninterpretation : 해석, 이해\nmerely : 단지, 오직\nreveal : 드러내다, 밝혀내다\n\n[해설]\n나머지 네 문장은 동일한 연구·관찰의 초기 가정과 결과, 수정된 결론을 연결하지만 해당 문장은 다른 주제로 전환되어 논리적 연속성이 없습니다.\n\n[오답 해설]\n①번: 연극 감독이 다양한 조명으로 같은 장면을 리허설하는 내용으로, 조명이 무대 표현에 미치는 영향을 다루는 전체 주제와 직접 관련이 있다.\n\n②번: 날씨 위성이 대기 위 궤도에서 이미지를 수집한다는 내용으로, 조명과 무대 표현의 관계라는 지문의 주제와 무관한 과학 정보이다.\n\n③번: 무대 디자이너가 조명을 단순히 물체를 보이게 하는 역할로만 생각했다는 내용으로, 조명의 역할에 대한 잘못된 인식을 보여주며 주제와 관련된다.\n\n④번: 배우들이 어두운 영역이 관객의 주의를 다시 방향지운다는 것을 발견한 내용으로, 조명이 콘텐츠 해석에 영향을 미친다는 핵심 주제와 직접 연결된다.\n\n⑤번: 프레젠테이션 조건이 내용을 드러내기만 하는 것이 아니라 해석을 형성할 수 있다는 내용으로, 조명의 역할에 대한 일반적인 원리를 제시하며 주제를 종합한다.",
-    "wrong_explanations": {},
-    "_reviewed": false
-  },
-  {
-    "_qid": "R-0567",
-    "type": "요약문 완성",
-    "passage": "A library compared automatic recommendations with human-curated lists. Neither system captured every useful connection. At first, that account seemed attractive: it offered a simple explanation that could be communicated without further qualification. In fact, algorithms reflected frequent borrowing while librarians surfaced overlooked subjects. Neither the initial prediction nor the later measurement is meaningless; the mistake is to confuse either one with a complete explanation. Different selection methods can complement one another when their biases are understood. The task is to connect the observations with the process that could plausibly have produced them. This conclusion is not identical to the first assumption; it must account for the later observation and for the limits of the original measure. In particular, the new evidence may justify changing the interpretation without proving that the earlier account was mistaken in every conceivable setting. Consequently, the preferred interpretation should explain both the initial expectation and the evidence that complicates it, without pretending that a single example establishes a universal rule.",
-    "given_sentence": "",
-    "choices": [
-      "① supported — qualified",
-      "② replaced — unquestionable",
-      "③ challenged — categorical",
-      "④ supported — unconditional",
-      "⑤ unrelated — absolute"
-    ],
-    "answer": 1,
-    "explanation": "[지문 해석]\n한 도서관이 자동 추천 시스템과 인간이 선별한 목록을 비교했다. 어느 시스템도 모든 유용한 연결고리를 포착하지 못했다. 처음에는 이 설명이 매력적으로 보였다. 더 이상의 설명 없이도 간단히 전달될 수 있는 설명을 제시했기 때문이다. 실제로 알고리즘은 빈번한 대출을 반영했고 사서들은 간과된 주제들을 드러냈다. 초기 예측도 나중의 측정도 의미 없는 것은 아니다. 실수는 둘 중 하나를 완전한 설명과 혼동하는 데 있다. 선택 방식이 서로 다른 편향을 이해할 때 상호 보완될 수 있다. 과제는 관찰을 그것을 타당하게 만들어낼 수 있는 과정과 연결하는 것이다. 이 결론은 처음의 가정과 동일하지 않다. 나중의 관찰과 원래 측정값의 한계를 설명해야 한다. 특히 새로운 증거는 초기 설명이 어떤 상황에서든 잘못되었다는 것을 증명하지 않으면서도 해석을 바꿀 정당성을 제공할 수 있다. 따라서 선호되는 해석은 초기의 예상과 그것을 복잡하게 하는 증거를 모두 설명해야 하며, 단 하나의 사례가 보편적 규칙을 입증한다고 주장해서는 안 된다.\n\n[주요 어휘]\n1. curated : 선별된, 정선된\n2. capture : 포착하다, 담아내다\n3. attractive : 매력적인, 끌리는\n4. reflect : 반영하다\n5. surface : 드러내다, 표면에 올리다\n6. overlooked : 간과된, 놓친\n7. complement : 보완하다, 보충하다\n8. bias : 편향, 치우침\n9. plausibly : 타당하게, 그럴듯하게\n10. justify : 정당화하다, 근거를 제시하다\n11. complicate : 복잡하게 하다, 더 어렵게 만들다\n12. universal : 보편적인, 일반적인\n\n[해설]\n초기 가정은 처음에는 지지를 받았지만 후속 관찰 때문에 해석에 조건과 한계를 명시해야 했으므로 supported — qualified가 가장 적절합니다.\n\n[오답 해설]\n①번: 정답. 초기 설명은 \"supported\"(지지)되었으나 \"qualified\"(수정/한정)되어야 함. 지문에서 \"단순한 설명이 매력적이었지만 나중의 측정으로 수정되어야 한다\"는 내용과 일치한다.\n\n②번: 틀림. \"replaced\"(대체)는 초기 설명이 완전히 버려졌다는 의미인데, 지문은 \"neither one with a complete explanation\"이라며 두 관점 모두 의미있다고 주장한다.\n\n③번: 틀림. \"challenged\"(도전)는 가능하나 \"categorical\"(절대적인)은 부적절. 지문은 명제가 \"universal rule\"을 주장하지 않는다고 명확히 하므로 절대적 설명을 거부한다.\n\n④번: 틀림. \"supported\"는 맞으나 \"unconditional\"(무조건적인)은 지문의 의도와 반대. 지문의 핵심은 초기 설명을 조건부로 수정해야 한다는 것이다.\n\n⑤번: 틀림. \"unrelated\"(무관)는 오설명. 지문은 두 시스템이 서로 다른 편향을 보이며 상호보완적이라고 하므로 무관하지 않다.",
     "wrong_explanations": {},
     "_reviewed": false
   },
@@ -6668,23 +6566,6 @@ const QUESTION_BANK = [
     "_reviewed": false
   },
   {
-    "_qid": "R-0579",
-    "type": "요약문 완성",
-    "passage": "A transit authority asked passengers to report uncomfortable transfers. Planners focused solely on reducing the number of steps. The first interpretation was plausible because it focused on an easily visible feature. But the most frequent complaint concerned uncertainty rather than walking distance. This did not make the earlier observation useless; it revealed that the original explanation had missed an important condition. Reducing uncertainty can improve a journey without shortening it.",
-    "given_sentence": "",
-    "choices": [
-      "① challenged — categorical",
-      "② supported — qualified",
-      "③ replaced — unquestionable",
-      "④ unrelated — absolute",
-      "⑤ supported — unconditional"
-    ],
-    "answer": 2,
-    "explanation": "[지문 해석]\n대중교통 당국이 승객들에게 불편한 환승에 대해 보고해 달라고 요청했다. 계획자들은 단계 수를 줄이는 것에만 집중했다. 초기 해석은 쉽게 눈에 띄는 특징에 초점을 맞췄기 때문에 그럴듯해 보였다. 하지만 가장 빈번한 불만은 보행 거리보다는 불확실성에 관한 것이었다. 이것이 앞서의 관찰을 쓸모없게 만들지는 않았다. 그것은 원래의 설명이 중요한 조건을 놓쳤다는 것을 드러냈다. 불확실성을 줄이는 것은 여행 거리를 단축하지 않고도 여행 경험을 개선할 수 있다.\n\n[주요 어휘]\ntransit authority : 대중교통 운영 기관\nuncomfortable transfers : 불편한 환승\nplausible : 그럴듯한, 타당해 보이는\neasily visible feature : 쉽게 눈에 띄는 특징\nfrequent complaint : 빈번한 불만\nuncertainty : 불확실성, 확실하지 않음\nwalking distance : 걷는 거리\nreveal : 드러내다, 밝혀내다\noriginal explanation : 초기 설명, 원래의 해석\nmiss an important condition : 중요한 조건을 놓치다\nreduce uncertainty : 불확실성을 줄이다\n\n[해설]\n초기 가정은 처음에는 지지를 받았지만 후속 관찰 때문에 해석에 조건과 한계를 명시해야 했으므로 supported — qualified가 가장 적절합니다.\n\n[오답 해설]\n①번: challenged는 \"반박했다\"는 의미로, 지문에서 초기 설명이 완전히 부정되지 않았음을 나타내지 못합니다. categorical은 \"절대적인\"이라는 뜻으로 문맥에 맞지 않습니다.\n\n②번: supported는 \"지지했다\"로, 초기 관찰이 \"쓸모없지 않았다\"는 표현이 이를 나타냅니다. qualified는 \"제한적인\"으로, 초기 설명이 불완전했지만 중요한 조건을 놓쳤다는 의미를 정확히 반영합니다.\n\n③번: replaced는 \"대체했다\"는 의미로, 지문에서 초기 설명을 완전히 버린 것이 아니라 부족한 부분을 보완했음을 드러내지 못합니다. unquestionable은 \"의심할 여지 없는\"이라는 뜻으로 적절하지 않습니다.\n\n④번: unrelated는 \"관련이 없는\"으로, 지문의 핵심인 초기 설명이 여전히 유효하다는 의미를 전혀 반영하지 못합니다. absolute는 \"절대적인\"이라는 뜻으로 문맥과 맞지 않습니다.\n\n⑤번: supported는 맞지만, unconditional은 \"무조건적인\"이라는 뜻으로 초기 설명이 제한적으로만 유효하다는 문맥을 나타내지 못합니다.",
-    "wrong_explanations": {},
-    "_reviewed": false
-  },
-  {
     "_qid": "R-0580",
     "type": "빈칸 추론",
     "passage": "A philosopher compared rules designed for routine and exceptional cases. A committee assumed consistency always required refusing exceptions. The new evidence, however, was more informative than the original label: a strict rule produced fairness in common situations but harm in rare circumstances. The difficulty is to account for both the attraction of the earlier interpretation and its failure to explain the later observation. The evidence is most consistent with the conclusion that __________. A defensible choice should explain the contrast without converting a local finding into a universal rule.",
@@ -6872,23 +6753,6 @@ const QUESTION_BANK = [
     "_reviewed": false
   },
   {
-    "_qid": "R-0591",
-    "type": "요약문 완성",
-    "passage": "A biologist studied how a coral reef responded to a brief heat wave. A news report treated a return of color as total recovery. The first interpretation was plausible because it focused on an easily visible feature. But some corals recovered color quickly but reproduced poorly the following season. This did not make the earlier observation useless; it revealed that the original explanation had missed an important condition. Visible improvement need not imply restoration of every biological function.",
-    "given_sentence": "",
-    "choices": [
-      "① challenged — categorical",
-      "② supported — unconditional",
-      "③ replaced — unquestionable",
-      "④ supported — qualified",
-      "⑤ unrelated — absolute"
-    ],
-    "answer": 4,
-    "explanation": "[지문 해석]\n어떤 생물학자가 산호초가 짧은 열파에 어떻게 반응하는지를 연구했다. 한 뉴스 보도는 색깔의 회복을 완전한 회복으로 취급했다. 첫 번째 해석은 쉽게 눈에 띄는 특징에 초점을 맞췄기 때문에 타당해 보였다. 하지만 어떤 산호들은 색깔은 빠르게 회복했지만 다음 시즌에 번식을 제대로 하지 못했다. 이것이 앞서의 관찰을 무의미하게 만들지는 않았다. 오히려 원래의 설명이 중요한 조건을 놓쳤다는 것을 드러냈다. 눈에 띄는 개선이 반드시 모든 생물학적 기능의 회복을 의미하지는 않는다.\n\n[주요 어휘]\ncoral reef : 산호초\nheat wave : 열파, 고온 현상\nplausible : 그럴듯한, 타당해 보이는\nvisible feature : 눈에 띄는 특징\nrecover color : 색이 돌아오다\nreproduce : 번식하다, 재생산하다\nobservation : 관찰, 관찰 결과\nreveal : 드러내다, 밝히다\nexplanation : 설명\nmiss : 놓치다, 간과하다\ncondition : 조건\nrestoration : 회복, 복구\nbiological function : 생물학적 기능\n\n[해설]\n초기 가정은 처음에는 지지를 받았지만 후속 관찰 때문에 해석에 조건과 한계를 명시해야 했으므로 supported — qualified가 가장 적절합니다.\n\n[오답 해설]\n①번: \"challenged — categorical\"는 뜻이 맞지 않습니다. 지문은 news report의 해석을 거부하지 않고 부분적으로 인정하므로, 그것을 \"도전하다\"라고 볼 수 없습니다.\n\n②번: \"supported — unconditional\"는 뜻이 맞지 않습니다. 지문은 색깔 회복이 \"모든 생물학적 기능의 회복을 의미하지 않는다\"고 조건을 붙이므로, 무조건적인 지지가 아닙니다.\n\n③번: \"replaced — unquestionable\"는 뜻이 맞지 않습니다. 지문은 원래의 설명을 완전히 대체하지 않고, \"놓친 중요한 조건이 있다\"고 하므로 의문의 여지가 충분합니다.\n\n④번: \"supported — qualified\"는 정답입니다. 지문은 news report의 관찰(색깔 회복)을 지지하면서도, 재생산 능력 저하라는 중요한 조건을 추가해 그 해석을 제한하므로 \"조건부 지지\"를 의미합니다.\n\n⑤번: \"unrelated — absolute\"는 뜻이 맞지 않습니다. 지문은 색깔 회복과 완전한 회복이 관련이 있다고 보고 있으므로, \"무관하다\"라고 할 수 없습니다.",
-    "wrong_explanations": {},
-    "_reviewed": false
-  },
-  {
     "_qid": "R-0592",
     "type": "빈칸 추론",
     "passage": "A publisher tested an audiobook with optional chapter notes. Editors had assumed that more explanations would always help. However, listeners enjoyed the story but used notes mainly when unfamiliar references appeared. The evidence is most consistent with the conclusion that __________.",
@@ -6919,40 +6783,6 @@ const QUESTION_BANK = [
     ],
     "answer": 2,
     "explanation": "[지문 해석]\n한 교사가 글쓰기 수업에 익명의 동료 검토를 도입했다. 교직원들은 익명성이 모든 측면에서 비판을 개선할 것으로 기대했다. (①) 댓글은 더욱 솔직해졌지만 때때로 배려심이 부족해졌다. (②) 정책은 한 가지 편향을 줄이면서 다른 위험을 만들 수 있다. (③) 그 보고서는 이 발견의 증거적 한계를 설명했다. (④) 후속 연구가 제안되었다. (⑤)\n\n[주요 어휘]\nanonymous : 익명의\npeer review : 동료 평가\ncandid : 솔직한, 터놓은\nconsiderate : 배려 있는, 신중한\nbias : 편견, 치우침\nevidential : 증거의\nlimits : 한계, 제한\nfollow-up : 후속의, 추가의\nanonymity : 익명성\noccasionally : 가끔, 때때로\nrisk : 위험, 위험 요소\nproposed : 제안된\n\n[해설]\n초기 해석과 상반되는 관찰이 나온 직후에 This discrepancy가 연결됩니다. 다른 위치에서는 discrepancy의 지시 대상이 불분명하거나 후속 판단의 인과 관계가 끊깁니다.\n\n[오답 해설]\n①번: 삽입문이 \"Comments became more candid but occasionally less considerate\"라고 구체적인 결과를 서술하고 있는데, 이미 ①번 위치에 동일한 내용이 있으므로 중복이 된다.\n\n②번: 삽입문 \"Policies can reduce one bias while creating a different risk\"는 익명성이 장점(candid comments)과 함께 단점(less considerate)을 동시에 가져온다는 역설적 상황을 일반화하는 원리를 제시하므로 ①번 후의 연결이 자연스럽다.\n\n③번: 삽입문이 \"report\"와 \"finding\"을 언급하는데, 이는 연구 결과에 대한 설명이 필요한 상황을 나타낸다. 그러나 지문에서 아직 구체적인 연구 결과가 제시되지 않았으므로 시기상조이다.\n\n④번: 삽입문이 follow-up study 제안에 대한 내용인데, ③번의 \"evidential limits\"이 먼저 설명되어야 후속 연구가 필요한 이유가 자연스럽게 이어진다.\n\n⑤번: 삽입문이 비어있는 위치이므로, 이전 문장들의 논리적 전개가 완성된 후에 추가 내용이 올 자리가 아니다.",
-    "wrong_explanations": {},
-    "_reviewed": false
-  },
-  {
-    "_qid": "R-0594",
-    "type": "어법 판단",
-    "passage": "A gardener compared lawns cut at two different heights. The team (① have) considered several interpretations. The observations, which (② were) reviewed separately, showed that (③ each) explanation had limitations. One of the central reasons (④ is) that the early assumption overlooked important evidence. The researchers (⑤ therefore) recommended a revised account.",
-    "given_sentence": "",
-    "choices": [
-      "①번 표시",
-      "②번 표시",
-      "③번 표시",
-      "④번 표시",
-      "⑤번 표시"
-    ],
-    "answer": 1,
-    "explanation": "[지문 해석]\n한 정원사가 두 가지 다른 높이로 깎은 잔디를 비교했다. 그 팀은 ① have 여러 해석을 검토했다. 각각 검토된 관찰 결과들은 ② were 각 설명이 한계를 가지고 있음을 보여주었다. 중심적인 이유 중 하나는 ③ each 초기 가정이 중요한 증거를 간과했다는 것이다. 연구원들은 ④ is 수정된 설명을 권장했다. 연구원들은 ⑤ therefore 수정된 설명을 권장했다.\n\n[주요 어휘]\ngardener : 정원사\nlawn : 잔디밭\ncompare : 비교하다\ninterpretation : 해석, 해석\nobservation : 관찰, 관찰 결과\nlimitation : 제한, 한계\nassumption : 가정, 전제\noverlook : 간과하다, 놓치다\nevidence : 증거, 근거\nrecommend : 추천하다, 권고하다\nrevised : 수정된, 개정된\naccount : 설명, 해석\n\n[해설]\n①는 has로 고쳐야 합니다. 나머지 표시 표현은 해당 문장의 구조상 허용됩니다.\n\n[오답 해설]\n①번: **정답** - \"have\"는 틀렸고 \"has\"가 맞아야 합니다. 주어 \"The team\"은 단수 집단명사이므로 단수동사 \"has\"를 사용해야 합니다.\n\n②번: \"were\"는 올바릅니다. 주어 \"The observations\"는 복수이고, 관계사절 내에서도 복수동사 \"were\"가 적절합니다.\n\n③번: \"each\"는 올바릅니다. 단수 부정대명사 \"each\"가 단수동사 \"had\"와 일치하며 문법적으로 정확합니다.\n\n④번: \"is\"는 올바릅니다. 주어 \"One of the central reasons\"는 단수이므로 단수동사 \"is\"가 정확합니다.\n\n⑤번: \"therefore\"는 올바릅니다. 부사 \"therefore\"는 문장의 흐름을 자연스럽게 연결하며 문법적 오류가 없습니다.",
-    "wrong_explanations": {},
-    "_reviewed": false
-  },
-  {
-    "_qid": "R-0595",
-    "type": "어휘 적절성",
-    "passage": "A scientist studied how urban foxes crossed busy roads. Researchers had modeled distance alone. The animals preferred crossings near continuous vegetation even when shorter routes existed. The first interpretation was necessarily (① tentative) because little evidence had yet been collected. The later observation (② contradicted) the expectation on which that interpretation depended. The researchers consequently adopted a (③ qualified) account rather than an unconditional verdict. They examined whether the new evidence was (④ irrelevant) to the question under investigation. The conclusion remained (⑤ limited) to the conditions in which the observations had been made.",
-    "given_sentence": "",
-    "choices": [
-      "①번 표시",
-      "②번 표시",
-      "③번 표시",
-      "④번 표시",
-      "⑤번 표시"
-    ],
-    "answer": 4,
-    "explanation": "[지문 해석]\n한 과학자가 도시 여우들이 교통량이 많은 도로를 어떻게 건너는지 연구했다. 연구원들은 거리만을 모델링했었다. 동물들은 더 짧은 경로가 있었음에도 불구하고 연속된 식생 근처의 횡단을 선호했다. 첫 번째 해석은 아직 수집된 증거가 거의 없었기 때문에 당연히 (① 잠정적) 이었다. 나중의 관찰이 그 해석이 의존하던 기대에 (② 모순) 되었다. 결과적으로 연구원들은 무조건적인 판단보다는 (③ 제한적인) 설명을 채택했다. 그들은 새로운 증거가 조사 중인 질문과 (④ 무관) 한지 검토했다. 결론은 관찰이 이루어진 조건들로 (⑤ 제한) 되었다.\n\n[주요 어휘]\n# 수능 영어 지문 - 중요 단어/표현\n\nurban foxes : 도시 여우\n\ncross : 건너다, 횡단하다\n\nmodel : 모형화하다, 모델링하다\n\nvegetation : 식생, 초목\n\nroute : 경로, 길\n\ntentative : 잠정적인, 임시적인\n\nevidence : 증거, 근거\n\ncontradict : 모순되다, 반박하다\n\nexpectation : 예상, 기대\n\nadopt : 채택하다, 받아들이다\n\nqualified : 제한적인, 조건부의\n\nverdict : 판단, 판결\n\nirrelevant : 무관한, 관련 없는\n\nconclude : 결론짓다, 종료하다\n\n[해설]\n④의 irrelevant는 주변 의미와 충돌합니다. relevant로 수정해야 초기 가설·반증·신중한 결론의 논리가 일관됩니다.\n\n[오답 해설]\n①번: 초기 해석이 증거 부족 상태에서 이루어졌으므로 '임시적인'이라는 의미의 'tentative'가 적절합니다. 문맥상 아직 확정되지 않은 잠정적 성격을 나타냅니다.\n\n②번: 후속 관찰이 초기 예상을 '반박했다'는 의미의 'contradicted'가 정확합니다. 거리만 고려한 모델을 식생이 더 중요함을 보여줌으로써 반대됩니다.\n\n③번: 새로운 증거를 반영하여 '조건부의, 제한적인' 설명을 채택했다는 의미의 'qualified'가 적절합니다. 절대적 판단 대신 조건을 붙인 해석을 의미합니다.\n\n④번: 'irrelevant(무관한)'는 문맥에 맞지 않습니다. 연구자들은 새로운 증거가 조사 대상 질문과 **관련이 있는지** 검토했으므로, 여기에는 'relevant(관련된)' 또는 그 반대 표현이 필요합니다.\n\n⑤번: 결론이 관찰이 이루어진 조건들로만 '제한되었다'는 의미의 'limited'가 적절합니다. 보편적이 아닌 특정 상황에만 적용된다는 뜻을 나타냅니다.",
     "wrong_explanations": {},
     "_reviewed": false
   },
@@ -7076,23 +6906,6 @@ const QUESTION_BANK = [
     "_reviewed": false
   },
   {
-    "_qid": "R-0603",
-    "type": "요약문 완성",
-    "passage": "A museum displayed replicas beside fragile original manuscripts. Some curators feared replicas would weaken interest in authenticity. At first, that account seemed attractive: it offered a simple explanation that could be communicated without further qualification. In fact, visitors could handle the replicas and read details without harming the originals. A quick appraisal would reward the immediately measurable result, but it could overlook the cost imposed elsewhere in the system. Careful substitution can increase access while protecting vulnerable artifacts. The relevant question is whether the benefit persists once these indirect effects are included. This conclusion is not identical to the first assumption; it must account for the later observation and for the limits of the original measure. In particular, the new evidence may justify changing the interpretation without proving that the earlier account was mistaken in every conceivable setting. Consequently, the preferred interpretation should explain both the initial expectation and the evidence that complicates it, without pretending that a single example establishes a universal rule.",
-    "given_sentence": "",
-    "choices": [
-      "① challenged — categorical",
-      "② supported — qualified",
-      "③ unrelated — absolute",
-      "④ supported — unconditional",
-      "⑤ replaced — unquestionable"
-    ],
-    "answer": 2,
-    "explanation": "[지문 해석]\n한 박물관이 부서지기 쉬운 원본 필사본 옆에 복제품을 전시했다. 일부 큐레이터들은 복제품이 진정성에 대한 관심을 약화시킬까봐 우려했다. 처음에는 이러한 설명이 매력적으로 보였다. 더 이상의 수식 없이 전달할 수 있는 단순한 설명을 제공했기 때문이다. 실제로 방문객들은 복제품을 직접 만져보고 원본에 손상을 주지 않으면서도 세부 사항을 읽을 수 있었다. 빠른 평가는 즉시 측정 가능한 결과에 보상을 주겠지만, 체계의 다른 곳에 부과된 비용을 간과할 수 있다. 신중한 대체를 통하면 취약한 유물을 보호하면서도 접근성을 높일 수 있다. 관련된 질문은 이러한 간접적 효과들이 포함되면 그 이점이 지속되는가 하는 것이다. 이 결론은 처음 가정과 동일하지 않으며, 나중의 관찰과 원래 측정의 한계를 고려해야 한다. 특히 새로운 증거는 초기 설명이 모든 상상 가능한 상황에서 잘못되었음을 증명하지 않으면서도 해석을 바꿀 정당성을 제공할 수 있다. 따라서 선호되는 해석은 초기의 기대와 이를 복잡하게 하는 증거를 모두 설명해야 하며, 단 하나의 사례가 보편적 규칙을 입증한다고 가정해서는 안 된다.\n\n[주요 어휘]\n# 수능 영어 어휘 정리\n\n1. replica : 복제품, 모사본\n2. fragile : 깨지기 쉬운, 취약한\n3. curator : 박물관장, 관리자\n4. weaken : 약화시키다\n5. authenticity : 진정성, 신빙성\n6. appraisal : 평가, 사정\n7. overlook : 간과하다, 놓치다\n8. artifact : 유물, 인공물\n9. indirect effect : 간접적 영향\n10. complication : 복잡하게 함, 복잡한 요소\n11. universal rule : 보편적 법칙\n12. conceivable : 생각할 수 있는, 상상 가능한\n\n[해설]\n초기 가정은 처음에는 지지를 받았지만 후속 관찰 때문에 해석에 조건과 한계를 명시해야 했으므로 supported — qualified가 가장 적절합니다.\n\n[오답 해설]\n①번: \"challenged — categorical\"는 초기 가정이 '도전받았다'는 의미인데, 지문은 초기 가정 자체를 거부하기보다 그것을 '수정'하고 '한정'시키는 방향을 제시하므로 부적절하다.\n\n②번: \"supported — qualified\"는 초기 가정(복제품이 원본에 대한 관심을 약화시킬 수 있다)이 '뒷받침되되' 간접적 효과를 고려하여 '한정된' 결론으로 수정되어야 함을 올바르게 표현한다.\n\n③번: \"unrelated — absolute\"는 초기 설명과 새로운 증거가 무관하다는 주장이므로 지문의 핵심(두 요소 모두 고려해야 함)과 모순된다.\n\n④번: \"supported — unconditional\"은 앞부분은 맞으나 뒷부분에서 새로운 증거를 통해 '조건부로 한정된' 해석이 필요하다는 지문의 주장과 \"무조건적\"이라는 표현이 충돌한다.\n\n⑤번: \"replaced — unquestionable\"는 초기 가정이 완전히 '대체'되고 새로운 해석이 '의심의 여지없다'는 뜻인데, 지문은 초기 가정과 새 증거를 모두 '설명'할 단일한 보편적 규칙은 없음을 강조한다.",
-    "wrong_explanations": {},
-    "_reviewed": false
-  },
-  {
     "_qid": "R-0604",
     "type": "빈칸 추론",
     "passage": "A scientist studied soil bacteria after repeated fertilizer use. Farmers evaluated success only by the first harvest. However, crop yields initially rose, but microbial diversity declined over several seasons. The evidence is most consistent with the conclusion that __________.",
@@ -7140,23 +6953,6 @@ const QUESTION_BANK = [
     ],
     "answer": 1,
     "explanation": "[지문 해석]\n한 역사가는 차용된 악기가 어떻게 유통되었는지를 추적했다. 그 보고서는 (①describe) 원래의 기록이 왜 설득력 있었는지를 설명했다. 나중에 (②collected) 증거는 그 문제를 더욱 복잡하게 만들었다. 그 불일치를 (③ignoring) 하기보다는, 조사자들은 그것이 무엇을 드러내는지를 고려했다. 그들의 결론은 (④was) 신중하게 한정되었고 (⑤remained) 추가 검증에 열려 있었다.\n\n[주요 어휘]\ntraced : 추적하다, 추적했다\nborrowed : 빌린, 차용한\ncirculated : 유통되었다, 순환했다\nappealing : 매력적인, 호소력 있는\nevidence : 증거\ndiscrepancy : 불일치, 차이\nignoring : 무시하다, 간과하다\ninvestigators : 조사자들, 연구자들\ndeliberately : 의도적으로, 신중하게\nqualified : 조건부의, 한정된\nopen to : ~에 개방된, ~의 여지가 있는\n\n[해설]\n①는 describes로 고쳐야 합니다. 나머지 표시 표현은 해당 문장의 구조상 허용됩니다.\n\n[오답 해설]\n①번: \"describe\"는 틀렸고 \"described\"가 정답입니다. 주어 \"The report\"는 단수이지만 과거 시제 문맥에서 \"described\"(과거분사)로 수식되어야 하며, 동사는 \"made\"입니다.\n\n②번: \"collected\"는 올바른 표현입니다. \"The evidence (collected later)\"에서 과거분사 \"collected\"가 명사 \"evidence\"를 수식하는 후치수식으로 올바르게 사용되었습니다.\n\n③번: \"ignoring\"은 올바른 표현입니다. \"Rather than ~ing\" 구문에서 동명사가 필수이므로 \"ignoring\"은 문법적으로 정확합니다.\n\n④번: \"was\"는 올바른 표현입니다. 주어 \"Their conclusion\"은 단수이므로 단수 동사 \"was\"가 필수적으로 요구되며, 수동태 구조에 맞게 사용되었습니다.\n\n⑤번: \"remained\"는 올바른 표현입니다. 주어와 수일치하며 \"was deliberately qualified and (remained) open\"의 병렬 구조에서 과거 시제로 일관성 있게 사용되었습니다.",
-    "wrong_explanations": {},
-    "_reviewed": false
-  },
-  {
-    "_qid": "R-0607",
-    "type": "어휘 적절성",
-    "passage": "A marine ecologist counted shellfish near a restored shoreline. An environmental report praised the overall population increase. Numbers increased, but most individuals belonged to a single age group. The first interpretation was necessarily (① tentative) because little evidence had yet been collected. The later observation (② confirmed) the expectation on which that interpretation depended. The researchers consequently adopted a (③ qualified) account rather than an unconditional verdict. They examined whether the new evidence was (④ relevant) to the question under investigation. The conclusion remained (⑤ limited) to the conditions in which the observations had been made.",
-    "given_sentence": "",
-    "choices": [
-      "①번 표시",
-      "②번 표시",
-      "③번 표시",
-      "④번 표시",
-      "⑤번 표시"
-    ],
-    "answer": 2,
-    "explanation": "[지문 해석]\n한 해양 생태학자가 복원된 해안선 근처의 패류를 조사했다. 환경 보고서는 전체 개체군의 증가를 칭찬했다. 개체수는 증가했지만, 대부분의 개체가 단일 연령대에 속했다. 첫 번째 해석은 아직 수집된 증거가 거의 없었기 때문에 필연적으로 (① 잠정적)이었다. 나중의 관찰은 그 해석이 의존했던 예상을 (② 확인)했다. 결과적으로 연구자들은 무조건적인 판단보다는 (③ 신중한) 설명을 채택했다. 그들은 새로운 증거가 조사 중인 질문과 (④ 관련)이 있는지 검토했다. 결론은 관찰이 이루어진 조건으로 (⑤ 제한)되었다.\n\n[주요 어휘]\nmarine ecologist : 해양 생태학자\nshellfish : 조개류, 패류\nrestored shoreline : 복원된 해안선\nenvironmental report : 환경 보고서\npopulation increase : 개체군 증가\ntentative : 임시의, 잠정적인\nconfirmed : 확인하다, 입증하다\nqualified : 조건부의, 제한적인\nunconditional verdict : 무조건적인 판단\nrelevant : 관련 있는, 적절한\nunder investigation : 조사 중인\nlimited : 제한된, 한정된\nobservation : 관찰\n\n[해설]\n②의 confirmed는 주변 의미와 충돌합니다. contradicted로 수정해야 초기 가설·반증·신중한 결론의 논리가 일관됩니다.\n\n[오답 해설]\n①번: 'tentative(임시적인, 잠정적인)'는 문맥상 적절합니다. 초기 해석이 아직 충분한 증거가 없었기에 잠정적이어야 한다는 의미가 명확히 드러나므로 올바른 선택입니다.\n\n②번: 'confirmed(확인했다)'는 문맥에 부적절합니다. 후속 관찰이 초기 기대를 \"확인\"했다면 초기 해석이 옳다는 뜻인데, 실제로는 개체 대부분이 단일 연령대에 속한다는 새로운 사실이 드러나 해석을 수정하게 되므로 'contradicted(반박했다)' 등이 더 적합합니다.\n\n③번: 'qualified(제한적인, 조건부의)'는 문맥상 적절합니다. 무조건적 판단 대신 조건부 설명을 채택했다는 의미가 명확하게 표현되므로 올바른 선택입니다.\n\n④번: 'relevant(관련있는)'는 문맥상 적절합니다. 새로운 증거가 조사 대상 질문과 관련이 있는지 검토했다는 의미가 자연스럽게 드러나므로 올바른 선택입니다.\n\n⑤번: 'limited(제한된)'는 문맥상 적절합니다. 결론이 관찰이 이루어진 조건으로 제한된다는 의미가 명확하게 표현되므로 올바른 선택입니다.",
     "wrong_explanations": {},
     "_reviewed": false
   },
@@ -7276,23 +7072,6 @@ const QUESTION_BANK = [
     ],
     "answer": 5,
     "explanation": "[지문 해석]\n① 한 대학이 역사 과목에서 열린책 시험을 시행했다. ② 일부 교수진은 노트 접근이 모든 문제를 쉽게 만들 것으로 예상했다. ③ 학생들은 날짜 암기에 들이는 노력을 줄였지만 상충하는 자료들을 비교해야 했다. ④ 평가의 난이도는 단순한 정보 접근이 아니라 요구되는 추론 능력에 달려 있다. ⑤ 기상 위성은 대기권 위의 궤도에서 이미지를 수집한다.\n\n[주요 어휘]\nopen-book examination : 교재/노트 참고 가능한 시험\nfaculty : 교수진\naccess to : ~에 접근(이용)할 수 있음\nmemorizing : 암기하다\ncompare : 비교하다\nconflicting : 상충하는, 모순되는\nassessment : 평가, 채점\ndifficulty : 난이도\nreasoning : 추론, 논리적 사고\nsimply : 단순히, 단지\nsatellite : 위성\n\n[해설]\n나머지 네 문장은 동일한 연구·관찰의 초기 가정과 결과, 수정된 결론을 연결하지만 해당 문장은 다른 주제로 전환되어 논리적 연속성이 없습니다.\n\n[오답 해설]\n①번: 오픈북 시험을 도입한 대학의 사례를 제시하며 전체 논의의 배경을 설정하는 주제 관련 문장이다.\n\n②번: 교수진의 예상이 실제로는 어떻게 달랐는지를 보여주며, 지문의 주요 논점인 '접근성과 난이도의 관계'를 전개하는 데 필요한 문장이다.\n\n③번: 학생들이 암기에 덜 집중하고 출처 비교에 더 노력했다는 내용으로, 오픈북 시험의 영향을 구체적으로 설명하는 핵심 문장이다.\n\n④번: 평가의 난이도는 정보 접근성이 아닌 사고력에 달려있다는 결론으로, 앞의 사례들을 통해 도출된 주요 메시지를 담은 문장이다.\n\n⑤번: 기상 위성이 대기권 상공의 궤도에서 이미지를 수집한다는 내용으로, 대학의 시험 방식이나 교육 평가와 무관한 완전히 독립적인 주제의 문장이다.",
-    "wrong_explanations": {},
-    "_reviewed": false
-  },
-  {
-    "_qid": "R-0615",
-    "type": "요약문 완성",
-    "passage": "A craft cooperative introduced digital sales to reach distant buyers. Organizers treated a larger audience as automatically more profitable. At first, that account seemed attractive: it offered a simple explanation that could be communicated without further qualification. In fact, orders increased, but packaging costs threatened profits on small items. Neither the initial prediction nor the later measurement is meaningless; the mistake is to confuse either one with a complete explanation. Growth in reach does not guarantee growth in net benefit. The task is to connect the observations with the process that could plausibly have produced them. This conclusion is not identical to the first assumption; it must account for the later observation and for the limits of the original measure. In particular, the new evidence may justify changing the interpretation without proving that the earlier account was mistaken in every conceivable setting. Consequently, the preferred interpretation should explain both the initial expectation and the evidence that complicates it, without pretending that a single example establishes a universal rule.",
-    "given_sentence": "",
-    "choices": [
-      "① replaced — unquestionable",
-      "② unrelated — absolute",
-      "③ supported — qualified",
-      "④ challenged — categorical",
-      "⑤ supported — unconditional"
-    ],
-    "answer": 3,
-    "explanation": "[지문 해석]\n한 공예 협동조합이 먼 지역의 구매자들에게 접근하기 위해 디지털 판매를 도입했다. 운영진은 더 많은 청중이 자동으로 더 높은 수익을 가져올 것이라고 생각했다. 처음에는 그 논리가 매력적으로 보였다. 더 이상의 설명 없이도 전달할 수 있는 단순한 설명을 제시했기 때문이다. 실제로 주문은 증가했지만, 포장비용이 소품에 대한 이윤을 위협했다. 초기 예측도 나중의 측정도 의미가 없는 것은 아니다. 문제는 둘 중 하나를 완전한 설명과 혼동하는 것이다. 도달 범위의 증가가 순이익의 증가를 보장하지는 않는다. 과제는 관찰 결과를 그것을 그럴듯하게 만들어낼 수 있는 과정과 연결하는 것이다. 이 결론은 초기 가정과 동일하지 않다. 나중의 관찰을 고려해야 하며, 원래 측정 방법의 한계를 설명해야 한다. 특히 새로운 증거는 초기 설명이 모든 상황에서 틀렸음을 증명하지 않으면서도 해석을 바꿀 정당성을 제공할 수 있다. 따라서 선호되는 해석은 초기 기대와 그것을 복잡하게 만드는 증거를 모두 설명해야 하며, 단일한 사례가 보편적인 규칙을 확립한다고 가정해서는 안 된다.\n\n[주요 어휘]\ncraft cooperative : 수공예 협동조합\nreach : 도달하다, 영향력\nautomatically : 자동으로\nprofitable : 수익성 있는\nqualification : 한정, 조건\nthreaten : 위협하다, 해치다\nconfuse A with B : A를 B와 혼동하다\nguarantee : 보장하다, 담보하다\nplausibly : 그럴듯하게, 믿을 만하게\naccount : 설명, 해석\njustify : 정당화하다, 근거를 제시하다\nconceivable : 상상할 수 있는, 가능한\nuniversal rule : 보편적 원칙\n\n[해설]\n초기 가정은 처음에는 지지를 받았지만 후속 관찰 때문에 해석에 조건과 한계를 명시해야 했으므로 supported — qualified가 가장 적절합니다.\n\n[오답 해설]\n①번: replaced는 \"대체하다\"라는 의미로, 초기 예측이 완전히 새로운 것으로 바뀌었다는 뜻인데, 지문에서는 두 관찰 모두 의미 있다고 명시하므로 부적절하다. 또한 unquestionable은 \"의심의 여지 없는\"이라는 뜻으로, 새로운 해석이 수정되어야 한다는 지문의 핵심과 맞지 않는다.\n\n②번: unrelated는 \"관련 없는\"이라는 의미로, 초기 예측과 나중의 측정이 서로 연결되어야 한다는 지문의 주장과 정반대이다. absolute는 \"절대적인\"이라는 뜻으로, 지문이 강조하는 제한된 설명과 모순된다.\n\n③번: supported는 \"뒷받침된\"이라는 의미로, 초기 예측이 증가된 주문으로 입증되었음을 나타낸다. qualified는 \"제한된, 조건부의\"라는 뜻으로, 포장 비용이라는 새로운 증거로 인해 해석이 수정되어야 한다는 지문의 핵심을 정확히 표현한다.\n\n④번: challenged는 \"도전받은, 의문을 받은\"이라는 의미로, 초기 예측이 단순히 틀렸다는 뜻인데 지문은 그것이 \"의미 없는 것은 아니\"라고 명시한다. categorical은 \"절대적인, 명확한\"이라는 뜻으로, 보편적 규칙을 주장하지 말아야 한다는 지문과 맞지 않는다.\n\n⑤번: supported는 올바르지만, unconditional은 \"무조건적인\"이라는 뜻으로, 새로운 증거와 해석의 한계를 고려해야 한다는 지문",
     "wrong_explanations": {},
     "_reviewed": false
   },
@@ -7484,23 +7263,6 @@ const QUESTION_BANK = [
     "_reviewed": false
   },
   {
-    "_qid": "R-0627",
-    "type": "요약문 완성",
-    "passage": "A village museum asked residents to annotate photographs of a former market. Curators expected the photographs to speak for themselves. At first, that account seemed attractive: it offered a simple explanation that could be communicated without further qualification. In fact, individual memories disagreed about dates but revealed overlooked personal routines. A quick appraisal would reward the immediately measurable result, but it could overlook the cost imposed elsewhere in the system. Community interpretation can enrich archives without making every recollection equally reliable. The relevant question is whether the benefit persists once these indirect effects are included. This conclusion is not identical to the first assumption; it must account for the later observation and for the limits of the original measure. In particular, the new evidence may justify changing the interpretation without proving that the earlier account was mistaken in every conceivable setting. Consequently, the preferred interpretation should explain both the initial expectation and the evidence that complicates it, without pretending that a single example establishes a universal rule.",
-    "given_sentence": "",
-    "choices": [
-      "① supported — unconditional",
-      "② unrelated — absolute",
-      "③ replaced — unquestionable",
-      "④ supported — qualified",
-      "⑤ challenged — categorical"
-    ],
-    "answer": 4,
-    "explanation": "[지문 해석]\n한 마을 박물관이 주민들에게 옛 시장의 사진에 주석을 달도록 요청했다. 큐레이터들은 사진이 그 자체로 말을 할 수 있을 것으로 예상했다. 처음에는 그러한 설명이 매력적으로 보였다. 추가적인 설명 없이 전달될 수 있는 단순한 해석을 제시했기 때문이다. 실제로는 개인의 기억들이 날짜에 대해 상충하였지만 간과되었던 개인적인 일상들을 드러냈다. 빠른 평가는 즉시 측정 가능한 결과에 보상을 주겠지만, 체계의 다른 부분에서 초래된 비용을 간과할 수 있다. 지역사회의 해석은 모든 기억을 똑같이 신뢰할 수 있도록 만들지 않으면서도 기록물을 풍부하게 할 수 있다. 관련된 질문은 이러한 간접적 영향들을 포함한 후에도 그 이점이 지속되는가 하는 것이다. 이 결론은 최초의 가정과 동일하지 않다. 이후의 관찰과 원래 측정의 한계를 고려해야 한다. 특히 새로운 증거는 초기 설명이 모든 상상 가능한 상황에서 틀렸다는 것을 증명하지 않으면서도 해석을 바꿀 정당성을 부여할 수 있다. 결과적으로 선호되는 해석은 단일한 사례가 보편적인 규칙을 확립한다고 가정하지 않으면서도 초기의 기대와 그것을 복잡하게 만드는 증거 모두를 설명해야 한다.\n\n[주요 어휘]\n1. annotate : (문서나 사진에) 주석을 달다, 설명을 붙이다\n2. curator : 박물관이나 미술관의 학예사, 큐레이터\n3. speak for themselves : 자명하다, 저절로 말해진다\n4. qualification : 조건, 한정, 제한\n5. appraisal : 평가, 사정\n6. overlook : 간과하다, 놓치다\n7. enrich : 풍부하게 하다, 향상시키다\n8. recollection : 기억, 회상\n9. persist : 계속되다, 지속되다\n10. indirect effects : 간접적 영향\n11. justify : 정당화하다, 타당성을 입증하다\n12. universal rule : 보편적 규칙, 일반적 원칙\n\n[해설]\n초기 가정은 처음에는 지지를 받았지만 후속 관찰 때문에 해석에 조건과 한계를 명시해야 했으므로 supported — qualified가 가장 적절합니다.\n\n[오답 해설]\n①번: \"supported — unconditional\"는 초기 가정이 지원되었으나 무조건적이라는 의미인데, 지문은 초기 기대가 제한적이고 조건부로만 유효함을 강조하므로 부적절하다.\n\n②번: \"unrelated — absolute\"는 초기 가정이 관련이 없고 절대적이라는 뜻으로, 지문에서 초기 기대와 후속 증거가 밀접하게 연결되어 있다는 취지와 맞지 않는다.\n\n③번: \"replaced — unquestionable\"는 초기 설명이 완전히 대체되었다는 의미인데, 지문은 초기 가정이 완전히 틀렸다기보다는 보완되고 수정되어야 함을 명시하고 있다.\n\n④번: \"supported — qualified\"는 초기 기대가 지원되지만 제한적이라는 의미로, 지문이 단순한 설명(초기 기대)을 인정하면서도 간접적 영향과 한계를 고려하여 조건부로 수정해야 함을 강조하는 핵심 논지와 정확히 부합한다.\n\n⑤번: \"challenged — categorical\"는 초기 가정이 도전받고 절대적이라는 뜻으로, 지문에서 단일 사례가 보편적 규칙을 증명하지 못한다고 명시하므로 categorical(절대적)이라는 표현은 모순된다.",
-    "wrong_explanations": {},
-    "_reviewed": false
-  },
-  {
     "_qid": "R-0628",
     "type": "빈칸 추론",
     "passage": "An engineer designed reusable crates for transporting delicate fruit. The team had evaluated impact resistance as an isolated target. The new evidence, however, was more informative than the original label: the strongest model weighed so much that fuel use increased. The difficulty is to account for both the attraction of the earlier interpretation and its failure to explain the later observation. The evidence is most consistent with the conclusion that __________. A defensible choice should explain the contrast without converting a local finding into a universal rule.",
@@ -7684,23 +7446,6 @@ const QUESTION_BANK = [
     ],
     "answer": 4,
     "explanation": "[지문 해석]\n① 한 지자체 팀이 작은 광장에서 투수성 포장도로를 시험해봤다. ② 판매 담당자들은 이 재료를 홍수 문제의 완벽한 해결책으로 광고했다. ③ 이 포장도로는 가벼운 빗물은 흡수했지만 그 아래 배수로가 막혀 있으면 기능을 제대로 하지 못했다. ④ 기상 위성들은 대기권 위의 궤도에서 이미지를 수집한다. ⑤ 기반시설은 하나의 시스템으로 작동하며 유지보수에 달려 있다.\n\n[주요 어휘]\npermeable pavement : 투수성 포장재\nstand-alone solution : 독립적인 해결책\nabsorb : 흡수하다\nstruggle : 어려움을 겪다\ndrain : 배수관, 배수하다\ninfrastructure : 기반 시설\nperforms as a system : 체계적으로 작동하다\ndepends on : ~에 의존하다\nmaintenance : 유지, 보수\n\n[해설]\n나머지 네 문장은 동일한 연구·관찰의 초기 가정과 결과, 수정된 결론을 연결하지만 해당 문장은 다른 주제로 전환되어 논리적 연속성이 없습니다.\n\n[오답 해설]\n①번: 지문의 주제인 투수성 포장재의 실험을 소개하는 도입 문장으로, 뒤따르는 내용과 직접적인 연관성이 있다.\n\n②번: 투수성 포장재의 홍보 방식을 언급하며 지문의 중심 주제인 포장재의 성능과 한계를 설명하는 맥락에 포함된다.\n\n③번: 투수성 포장재가 빛은 빗물은 흡수하지만 막힌 배수구에서는 실패한다는 구체적 사례로, 지문의 주요 논점을 뒷받침한다.\n\n④번: 기상 위성이 대기권 위의 궤도에서 이미지를 수집한다는 내용으로, 포장재, 배수 시스템, 인프라 유지보수라는 지문의 주제와 전혀 무관하다.\n\n⑤번: 인프라가 체계적으로 작동하며 유지보수에 의존한다는 결론으로, 투수성 포장재의 한계를 설명하는 핵심 메시지를 전달한다.",
-    "wrong_explanations": {},
-    "_reviewed": false
-  },
-  {
-    "_qid": "R-0639",
-    "type": "요약문 완성",
-    "passage": "A chef added detailed origin stories to a seasonal menu. The restaurant expected information alone to determine taste. At first, that account seemed attractive: it offered a simple explanation that could be communicated without further qualification. In fact, diners became curious about unfamiliar vegetables but still rejected some flavors. Neither the initial prediction nor the later measurement is meaningless; the mistake is to confuse either one with a complete explanation. Knowledge may influence preferences without completely overriding sensation. The task is to connect the observations with the process that could plausibly have produced them. This conclusion is not identical to the first assumption; it must account for the later observation and for the limits of the original measure. In particular, the new evidence may justify changing the interpretation without proving that the earlier account was mistaken in every conceivable setting. Consequently, the preferred interpretation should explain both the initial expectation and the evidence that complicates it, without pretending that a single example establishes a universal rule.",
-    "given_sentence": "",
-    "choices": [
-      "① unrelated — absolute",
-      "② challenged — categorical",
-      "③ supported — qualified",
-      "④ supported — unconditional",
-      "⑤ replaced — unquestionable"
-    ],
-    "answer": 3,
-    "explanation": "[지문 해석]\n한 셰프가 계절 메뉴에 상세한 유래 설명을 덧붙였다. 레스토랑은 정보만으로도 맛의 선호도가 결정될 것이라고 예상했다. 처음에는 그러한 설명이 매력적으로 보였다. 추가적인 설명 없이도 전달할 수 있는 간단한 해석을 제공했기 때문이다. 그러나 실제로 식객들은 낯선 채소에 호기심을 보였음에도 불구하고 일부 맛은 여전히 거부했다. 초기 예측도, 나중의 관찰도 무의미하지 않다. 실수는 둘 중 어느 하나를 완전한 설명으로 착각하는 것이다. 지식은 감각을 완전히 압도하지 않으면서도 선호도에 영향을 미칠 수 있다. 과제는 관찰 결과를 그것을 타당하게 설명할 수 있는 과정과 연결하는 것이다. 이 결론은 초기 가정과 동일하지 않다. 나중의 관찰과 원래 측정의 한계를 반영해야 한다. 특히 새로운 증거는 초기 설명이 모든 상황에서 틀렸음을 증명하지 않으면서도 해석을 바꿀 정당한 이유가 될 수 있다. 따라서 선호되는 해석은 초기 예상과 이를 복잡하게 만드는 증거 모두를 설명해야 하면서도, 단 하나의 사례가 보편적 법칙을 입증한다고 주장해서는 안 된다.\n\n[주요 어휘]\n# 수능 영어 지문 핵심 단어/표현\n\norigin stories : 출처/유래에 관한 이야기\n\nseasonal menu : 계절 메뉴\n\nqualification : 한정, 조건\n\noverride : (감정·의견 등을) 무시하다, 압도하다\n\nsensation : 감각, 감각적 경험\n\nplausibly : 그럴듯하게, 타당하게\n\naccount : 설명, 설명문\n\ncomplicates : 복잡하게 만들다\n\nuniversal rule : 보편적인 규칙, 일반 법칙\n\nconfuse A with B : A를 B와 혼동하다\n\npretending : 가장하다, 척하다\n\njustify : 정당화하다, 타당성을 입증하다\n\n[해설]\n초기 가정은 처음에는 지지를 받았지만 후속 관찰 때문에 해석에 조건과 한계를 명시해야 했으므로 supported — qualified가 가장 적절합니다.\n\n[오답 해설]\n①번: \"unrelated — absolute\"는 지문의 의미와 맞지 않습니다. 정보가 미각과 \"무관하다\"는 것은 틀렸으며, 올바른 해석이 \"절대적\"이어야 한다는 것도 지문에서 강조하는 한계성과 모순됩니다.\n\n②번: \"challenged — categorical\"는 초기 가정이 \"도전받았다\"는 점에서는 맞지만, 올바른 해석이 \"단정적\"이어야 한다는 것은 잘못되었습니다. 지문은 \"single example establishes a universal rule\"을 거부하고 있기 때문입니다.\n\n③번: \"supported — qualified\"는 정확합니다. 초기 예측이 나중의 증거에 의해 \"뒷받침되면서도\" 동시에 \"한정되어야\" 한다는 의미로, 지문이 강조하는 \"완전한 설명도 아니고 초기 가정도 틀렸다고 할 수 없다\"는 균형잡힌 결론을 완벽하게 표현합니다.\n\n④번: \"supported — unconditional\"는 초기 예측이 뒷받침되었다는 점은 맞지만, 올바른 해석이 \"조건 없이\" 절대적이어야 한다는 것은 지문의 \"한계를 인정하라\"는 주제와 모순됩니다.\n\n⑤번: \"replaced — unquestionable\"는 초기 계정이 완전히 \"대체되었다\"고 하는 것이 틀렸습니다. 지문은 이전 설명이 \"모든 환경에서 틀렸다고 증명할 수 없다\"고 명시하고 있기 때문입니다.",
     "wrong_explanations": {},
     "_reviewed": false
   },
@@ -7892,23 +7637,6 @@ const QUESTION_BANK = [
     "_reviewed": false
   },
   {
-    "_qid": "R-0651",
-    "type": "요약문 완성",
-    "passage": "A neighborhood built a small rooftop garden above a shopping arcade. A brochure treated every green roof as equally sustainable. However, the garden cooled nearby rooms but required substantial watering in dry months. Environmental benefits must be weighed against the resources they consume.",
-    "given_sentence": "",
-    "choices": [
-      "① unrelated — absolute",
-      "② replaced — unquestionable",
-      "③ supported — unconditional",
-      "④ challenged — categorical",
-      "⑤ supported — qualified"
-    ],
-    "answer": 5,
-    "explanation": "[지문 해석]\n한 주택가에서 쇼핑 아케이드 위에 작은 옥상 정원을 조성했다. 홍보물은 모든 녹색 지붕을 똑같이 지속 가능한 것으로 다루었다. 그러나 이 정원은 인근 실내를 식혀주는 반면 건조한 계절에는 상당한 양의 물이 필요했다. 환경적 이점은 그것이 소비하는 자원과 비교하여 신중하게 평가되어야 한다.\n\n[주요 어휘]\nrooftop garden : 옥상 정원\nsustainability : 지속 가능성\ncool : 냉각하다, 식히다\nsubstantial : 상당한, 많은\nweigh against : ~와 비교 검토하다\nresources : 자원\nconsume : 소비하다\nenvironmental benefits : 환경상의 이점\nbrochure : 팜플렛, 브로슈어\nequally : 동등하게\n\n[해설]\n초기 가정은 처음에는 지지를 받았지만 후속 관찰 때문에 해석에 조건과 한계를 명시해야 했으므로 supported — qualified가 가장 적절합니다.\n\n[오답 해설]\n①번: unrelated와 absolute는 모두 지문의 의미와 맞지 않습니다. 브로셔의 주장이 환경 이점과 무관하지 않으며, 마지막 문장이 절대적인 주장을 하지 않기 때문입니다.\n\n②번: replaced는 브로셔의 주장이 환경 이점을 대체한다는 의미로 부적절하며, unquestionable(의심의 여지 없는)도 지문에서 상충하는 요소들을 제시하는 맥락과 맞지 않습니다.\n\n③번: supported와 unconditional은 모두 부정확합니다. 마지막 문장 \"Environmental benefits must be weighed against the resources they consume\"은 환경 이점이 조건부로만 성립함을 나타내므로, 무조건적 지지를 의미하는 unconditional은 틀렸습니다.\n\n④번: challenged(도전받다)와 categorical(절대적인)은 오류입니다. 지문은 환경 이점 자체를 부정하지 않고(도전하지 않고), 대신 그것을 조건부로 수용할 것을 제안하기 때문입니다.\n\n⑤번: supported는 브로셔의 환경 이점 주장이 실제로 일부 입증됨(정원이 냉각 효과를 제공)을 나타내고, qualified는 자원 소비라는 조건을 고려할 때 그 이점이 무조건적이지 않음을 정확히 반영합니다.",
-    "wrong_explanations": {},
-    "_reviewed": false
-  },
-  {
     "_qid": "R-0652",
     "type": "빈칸 추론",
     "passage": "An engineer examined why a repaired bridge vibrated under certain loads. The first team had inspected each component separately. However, replacing a damaged component solved one problem but shifted stress elsewhere. The evidence is most consistent with the conclusion that __________.",
@@ -7956,23 +7684,6 @@ const QUESTION_BANK = [
     ],
     "answer": 2,
     "explanation": "[지문 해석]\n한 교사가 학생들에게 동료 피드백을 받은 후 에세이를 수정하도록 했다. 그 결과는 원래의 가정을 어떻게 평가해야 할지에 (① about) 한 의문을 제기했다. 이전의 주장이 영향력 있었던 연구자들은 (② whom) 그것을 수정할 의향이 있었다. 그들은 그 관찰이 모든 상황에서 그 결과가 (④ that) 나타날 것임을 증명하지 못했음을 인정했다 (③ to revise). (⑤ would occur)\n\n[주요 어휘]\nrevise : 수정하다, 개정하다\npeer comments : 동료/또래의 의견\nraise a question : 의문을 제기하다\nassumption : 가정, 전제\nassess : 평가하다, 사정하다\ninfluential : 영향력 있는\nacknowledge : 인정하다\nobservation : 관찰, 관찰 결과\nprove : 증명하다\nsetting : 상황, 환경\n\n[해설]\n②는 whose로 고쳐야 합니다. 나머지 표시 표현은 해당 문장의 구조상 허용됩니다.\n\n[오답 해설]\n①번: \"about\"은 올바른 표현입니다. \"a question about ~\"는 \"~에 관한 질문\"이라는 의미로 전치사 about이 필요합니다.\n\n②번: \"whom\"은 \"who\"로 수정되어야 합니다. 뒤따르는 절 \"earlier account had been influential\"에서 주어가 필요한데, \"whom\"은 목적격이므로 주격인 \"who\"를 사용해야 합니다.\n\n③번: \"to revise\"는 올바른 표현입니다. \"be willing to do\"는 \"~하기를 원하다\"라는 숙어로 부정사가 필요합니다.\n\n④번: \"that\"은 올바른 표현입니다. \"acknowledge that ~\"는 \"~임을 인정하다\"라는 숙어로 종속접속사 that이 필요합니다.\n\n⑤번: \"would occur\"는 \"that they would occur\" 또는 \"that it would occur\"로 수정되어야 합니다. 현재 형태는 의미상 주어가 모호하므로 재귀대명사나 명확한 주어가 필요합니다.",
-    "wrong_explanations": {},
-    "_reviewed": false
-  },
-  {
-    "_qid": "R-0655",
-    "type": "어휘 적절성",
-    "passage": "A coastal town limited tourist visits to a fragile tide pool. The council framed conservation as a simple matter of restricting access. Fewer visitors caused less damage, but local guides lost income. The first interpretation was necessarily (① tentative) because little evidence had yet been collected. The later observation (② contradicted) the expectation on which that interpretation depended. The researchers consequently adopted a (③ qualified) account rather than an unconditional verdict. They examined whether the new evidence was (④ irrelevant) to the question under investigation. The conclusion remained (⑤ limited) to the conditions in which the observations had been made.",
-    "given_sentence": "",
-    "choices": [
-      "①번 표시",
-      "②번 표시",
-      "③번 표시",
-      "④번 표시",
-      "⑤번 표시"
-    ],
-    "answer": 4,
-    "explanation": "[지문 해석]\n해안 마을이 취약한 조간대 지역으로의 관광객 방문을 제한했다. 지역 위원회는 보존을 단순한 접근 제한의 문제로 프레임화했다. 방문객이 줄어들수록 피해도 적었지만, 현지 가이드들은 수입을 잃었다. 초기 해석은 아직 수집된 증거가 거의 없었기 때문에 반드시 (① 임시적)이었다. 이후 관찰은 그 해석이 의존하고 있던 기대를 (② 반박했다). 연구자들은 결과적으로 무조건적인 판단 대신 (③ 한정된) 설명을 채택했다. 그들은 새로운 증거가 조사 중인 문제와 (④ 무관한지) 검토했다. 결론은 관찰이 이루어진 조건들로 (⑤ 제한되었다).\n\n[주요 어휘]\ncoastal town : 해안 도시\ntide pool : 조수 웅덩이\nfragile : 약한, 취약한\nconservation : 보존, 보호\nrestrict access : 접근을 제한하다\ntentative : 임시적인, 잠정적인\ncontradict : 모순되다, 반박하다\nqualified : 제한된, 조건부의\nirrelevant : 관련 없는, 무관한\nlimited to : ~에 국한된\nobservation : 관찰, 관찰 결과\nverdict : 판단, 결론\n\n[해설]\n④의 irrelevant는 주변 의미와 충돌합니다. relevant로 수정해야 초기 가설·반증·신중한 결론의 논리가 일관됩니다.\n\n[오답 해설]\n①번: 초기 해석이 증거가 충분하지 않았으므로 \"잠정적(tentative)\"이었다는 표현은 문맥상 적절합니다. 증거 부족으로 인한 불확실성을 잘 드러냅니다.\n\n②번: 후속 관찰이 초기 기대를 \"모순(contradicted)\"했다는 표현은 문맥과 부합합니다. 새로운 증거가 기존 해석과 충돌했음을 명확히 보여줍니다.\n\n③번: 연구자들이 무조건적 판단 대신 \"제한적(qualified)\" 설명을 채택했다는 표현은 적절합니다. 증거의 한계를 인정하는 신중한 태도를 반영합니다.\n\n④번: 새 증거가 조사 대상에 \"무관(irrelevant)\"한지 검토했다는 표현은 부적절합니다. 문맥상 새로운 증거가 초기 해석과 모순되므로, \"관련성이 있는지\" 확인했어야 하며, \"관련이 없다\"는 의미의 irrelevant는 맞지 않습니다.\n\n⑤번: 결론이 관찰이 이루어진 조건들로 \"제한(limited)\"되었다는 표현은 적절합니다. 연구 결과의 적용 범위를 신중하게 제한하는 과학적 태도를 잘 나타냅니다.",
     "wrong_explanations": {},
     "_reviewed": false
   },
@@ -8096,23 +7807,6 @@ const QUESTION_BANK = [
     "_reviewed": false
   },
   {
-    "_qid": "R-0663",
-    "type": "요약문 완성",
-    "passage": "A historian examined advertisements for household appliances. A popular account assumed that technology simply eliminated domestic work. However, manufacturers described labor saving but often shifted work to different family members. Innovations may redistribute tasks rather than erase them.",
-    "given_sentence": "",
-    "choices": [
-      "① replaced — unquestionable",
-      "② supported — unconditional",
-      "③ unrelated — absolute",
-      "④ supported — qualified",
-      "⑤ challenged — categorical"
-    ],
-    "answer": 4,
-    "explanation": "[지문 해석]\n한 역사학자가 가정용 전자제품 광고를 조사했다. 일반적인 통념은 기술이 단순히 가사노동을 없애준다고 가정했다. 그러나 제조업체들은 노동 절감을 강조했지만 흔히 일을 다른 가족 구성원에게 옮겼을 뿐이다. 혁신은 과제를 제거하기보다는 재분배하는 경향이 있다.\n\n[주요 어휘]\nexamined : 자세히 살펴보다, 조사하다\neliminate : 제거하다, 없애다\ndomestic work : 가사 일\nmanufacturers : 제조업체, 제조사\nlabor saving : 노동력 절감의, 일을 줄이는\nshifted : 옮겨지다, 변하다\nredistribute : 재분배하다, 다시 나누어주다\nerase : 없애다, 지우다\ninnovations : 혁신, 새로운 발명\nassume : 가정하다, 추정하다\n\n[해설]\n초기 가정은 처음에는 지지를 받았지만 후속 관찰 때문에 해석에 조건과 한계를 명시해야 했으므로 supported — qualified가 가장 적절합니다.\n\n[오답 해설]\n①번: \"replaced — unquestionable\"는 기술이 가정일을 '완전히 대체했다'는 절대적 주장을 의미하는데, 지문은 오히려 일이 사라지지 않고 재분배된다고 하므로 맞지 않습니다.\n\n②번: \"supported — unconditional\"는 대중적 설명을 '조건 없이 지지했다'는 뜻인데, 역사가는 그 설명이 부분적으로만 타당함을 보여주므로 부적절합니다.\n\n③번: \"unrelated — absolute\"는 역사가의 발견이 대중적 설명과 '무관하다'는 의미로, 지문에서 역사가가 그 설명을 검토하고 수정하고 있으므로 틀렸습니다.\n\n④번: \"supported — qualified\"는 역사가가 기술이 일을 줄인다는 설명을 '부분적으로 지지하되 한정적으로' 제시하는 것으로, 일이 완전히 사라지지 않고 재분배된다는 점에서 그 주장을 수정·제한하므로 정답입니다.\n\n⑤번: \"challenged — categorical\"는 역사가가 절대적인 주장을 '도전했다'는 뜻인데, 지문은 기술의 효과를 완전히 부정하지 않고 그 성질을 다시 설명하므로 과도합니다.",
-    "wrong_explanations": {},
-    "_reviewed": false
-  },
-  {
     "_qid": "R-0664",
     "type": "빈칸 추론",
     "passage": "A transportation planner studied late-night bus riders. Budget meetings judged every route only by passengers per hour. However, a small number of reliable services mattered greatly to shift workers. The evidence is most consistent with the conclusion that __________.",
@@ -8143,40 +7837,6 @@ const QUESTION_BANK = [
     ],
     "answer": 3,
     "explanation": "[지문 해석]\n한 연구자가 서로 다른 재질의 지붕에서 빗물을 수집했다. (①) 한 지역사회 캠페인은 수집된 양을 안전한 음용수와 동일시했다. (②) 일부 지붕은 많은 양을 수집했음에도 불구하고 오염물질을 배출했다. (③) 양과 안전성은 자원의 별개의 측면이다. (④) 추가 평가가 권장되었다. (⑤)\n\n[주요 어휘]\nrainwater : 빗물\nrooftop : 지붕\ncontaminant : 오염 물질\nequate : 같다고 보다, 동일시하다\ncollected volume : 수집된 양\nsafe drinking water : 안전한 음용수\ndimension : 측면, 차원\nseparate : 별개의, 분리된\nquantity : 양, 수량\nsafety : 안전성\nevaluation : 평가, 검토\nrecommend : 권장하다, 추천하다\n\n[해설]\n초기 해석과 상반되는 관찰이 나온 직후에 This discrepancy가 연결됩니다. 다른 위치에서는 discrepancy의 지시 대상이 불분명하거나 후속 판단의 인과 관계가 끊깁니다.\n\n[오답 해설]\n①번: 연구자가 빗물을 수집한 초기 상황 직후에 삽입되면, 지문의 흐름이 자연스럽지 않습니다. 캠페인의 잘못된 가정을 바로 제시하기 보다는 먼저 문제점을 드러내야 합니다.\n\n②번: 일부 지붕에서 오염물질이 나왔다는 구체적 사례를 제시하지만, 이것만으로는 \"양과 안전이 별개\"라는 주제적 결론으로 이어지기에 부족합니다.\n\n③번: 캠페인의 오류(②)를 지적한 후, \"양과 안전은 별개 차원\"이라는 일반적 원칙을 제시함으로써 문제의 근본 원인을 명확히 합니다. 논리적 흐름이 가장 완성도 있습니다.\n\n④번: 추가 평가 권장이 결론으로서 적절하지만, 이전에 \"양과 안전의 분리\"라는 핵심 통찰이 먼저 제시되어야 이 문장의 필요성이 강조됩니다.\n\n⑤번: 빈칸이 남아있어 선택 불가능합니다. 문장 삽입 문제에서 주어진 선택지 중 하나를 선택해야 합니다.",
-    "wrong_explanations": {},
-    "_reviewed": false
-  },
-  {
-    "_qid": "R-0666",
-    "type": "어법 판단",
-    "passage": "A theatre director rehearsed the same scene with different lighting. The team (① have) considered several interpretations. The observations, which (② were) reviewed separately, showed that (③ each) explanation had limitations. One of the central reasons (④ is) that the early assumption overlooked important evidence. The researchers (⑤ therefore) recommended a revised account.",
-    "given_sentence": "",
-    "choices": [
-      "①번 표시",
-      "②번 표시",
-      "③번 표시",
-      "④번 표시",
-      "⑤번 표시"
-    ],
-    "answer": 1,
-    "explanation": "[지문 해석]\n한 극장 감독이 다양한 조명으로 같은 장면을 연습했다. 그 팀은 (① have) 여러 해석을 검토했다. 별도로 (② were) 검토된 관찰 결과들은 (③ each) 설명이 한계를 가지고 있음을 보여주었다. 핵심적인 이유 중 하나는 초기 가정이 중요한 증거를 간과했다는 것이다 (④ is). 연구팀은 (⑤ therefore) 수정된 설명을 제안했다.\n\n[주요 어휘]\ntheatre director : 연극 감독\nrehearse : 리허설하다, 연습하다\nlighting : 조명\ninterpretation : 해석, 설명\nobservation : 관찰, 관찰 결과\nlimitation : 한계, 제한\nassumption : 가정, 전제\noverlook : 간과하다, 놓치다\nevidence : 증거\nrecommend : 권장하다, 추천하다\nrevised account : 수정된 설명\n\n[해설]\n①는 has로 고쳐야 합니다. 나머지 표시 표현은 해당 문장의 구조상 허용됩니다.\n\n[오답 해설]\n①번: have는 틀렸고 has가 정답입니다. 주어 \"The team\"은 단수 집합명사이므로 단수동사 has를 사용해야 합니다.\n\n②번: were는 틀렸고 was가 정답입니다. 주어 \"The observations\"의 제한적 관계절을 이끄는 which의 선행사는 \"observations\"이지만, 문맥상 주절의 주어와 일치해야 하므로 was가 맞습니다.\n\n③번: each는 틀렸고 every가 정답입니다. 문맥상 \"각각의 설명\"이라는 의미에서 every explanation으로 표현하는 것이 더 자연스럽습니다.\n\n④번: is는 틀렸고 are가 정답입니다. 주어 \"One of the central reasons\"에서 of 이후의 복수명사 reasons에 의해 동사는 복수형 are를 사용해야 합니다.\n\n⑤번: therefore는 틀렸고 thus가 정답입니다. therefore는 부사로 문장 내에서 독립적으로 사용되므로 콤마로 구분되어야 하는데, 여기서는 연결부사 thus를 사용하여 문장을 자연스럽게 연결해야 합니다.",
-    "wrong_explanations": {},
-    "_reviewed": false
-  },
-  {
-    "_qid": "R-0667",
-    "type": "어휘 적절성",
-    "passage": "A library compared automatic recommendations with human-curated lists. Neither system captured every useful connection. Algorithms reflected frequent borrowing while librarians surfaced overlooked subjects. The first interpretation was necessarily (① tentative) because little evidence had yet been collected. The later observation (② confirmed) the expectation on which that interpretation depended. The researchers consequently adopted a (③ qualified) account rather than an unconditional verdict. They examined whether the new evidence was (④ relevant) to the question under investigation. The conclusion remained (⑤ limited) to the conditions in which the observations had been made.",
-    "given_sentence": "",
-    "choices": [
-      "①번 표시",
-      "②번 표시",
-      "③번 표시",
-      "④번 표시",
-      "⑤번 표시"
-    ],
-    "answer": 2,
-    "explanation": "[지문 해석]\n한 도서관이 자동 추천 시스템과 인간이 선별한 목록을 비교했다. 두 시스템 모두 모든 유용한 연결고리를 포착하지는 못했다. 알고리즘은 빈번한 대출 현황을 반영한 반면, 사서들은 간과된 주제들을 드러냈다. 첫 번째 해석은 아직 수집된 증거가 거의 없었기 때문에 반드시 ① 잠정적이었다. 나중의 관찰은 그 해석이 의존하고 있던 기대를 ② 확인했다. 결과적으로 연구자들은 무조건적인 결론 대신 ③ 제한적인 설명을 채택했다. 그들은 새로운 증거가 조사 중인 질문과 ④ 관련이 있는지를 검토했다. 결론은 관찰이 이루어진 조건들로 ⑤ 제한되었다.\n\n[주요 어휘]\nautomatic recommendations : 자동 추천\nhuman-curated : 인간이 엄선한\nalgorithm : 알고리즘, 계산 절차\nreflect : 반영하다\nsurface : 드러내다, 표면에 올리다\ntentative : 임시적인, 확정적이지 않은\nevidence : 증거\nconfirm : 확인하다, 입증하다\nqualified : 제한적인, 조건부의\nrelevant : 관련 있는, 적절한\nobservation : 관찰, 관찰 결과\nconclude : 결론짓다\ncondition : 조건, 상황\n\n[해설]\n②의 confirmed는 주변 의미와 충돌합니다. contradicted로 수정해야 초기 가설·반증·신중한 결론의 논리가 일관됩니다.\n\n[오답 해설]\n①번: tentative(임시적인)는 초기 해석이 증거 부족으로 확정적이지 않다는 의미로 적절하다. 하지만 문맥상 빈칸이 \"The later observation\"과 대비되는 동사가 필요하므로 명사나 형용사보다 동사가 맞다.\n\n②번: confirmed(확인했다)는 \"later observation\"이 초기 해석의 \"expectation\"을 입증했다는 인과관계를 정확히 표현한다. 동사로서 문장 구조를 완성하며 앞뒤 논리 전개를 자연스럽게 연결한다.\n\n③번: qualified(제한된, 조건부의)는 의미상 적절하지만 이 빈칸은 동사가 필요한 위치이다. 형용사로 사용되어 \"They adopted a qualified account\"는 문법적으로 가능하지만 정답인 동사 표현을 놓친다.\n\n④번: relevant(관련된)는 형용사로 문법적으로 맞지만 이 위치의 빈칸은 동사가 필요하다. \"was relevant\"는 링킹동사 구조로 가능하지만, 문맥상 \"examined whether\"에 이어지는 주동사 역할이 필요하다.\n\n⑤번: limited(제한된)는 \"conclusion remained\"에서 형용사로 기능하며 문법적으로 가능하다. 의미도 적절하지만 이 문제의 정답은 ②번이므로, 이 선지는 비교 대상이 아니다.",
     "wrong_explanations": {},
     "_reviewed": false
   },
@@ -8296,23 +7956,6 @@ const QUESTION_BANK = [
     ],
     "answer": 5,
     "explanation": "[지문 해석]\n①) 한 화학자는 생분해성 컵이 가정에서 천천히 분해되는 이유를 연구했다. ②) 마케팅은 생분해성을 무조건적인 특성으로 홍보했다. ③) 그 물질은 통제된 산업 조건에서만 빠르게 분해되었다. ④) 재료의 환경 영향은 폐기 방식에 따라 결정된다. ⑤) 프로 풋볼 리그는 시즌이 시작되기 전에 경기 일정을 발표한다.\n\n[주요 어휘]\nbiodegradable : 생분해성의, 분해 가능한\ndecompose : 분해되다, 부패하다\nunconditional : 무조건적인, 조건 없는\ncontrolled conditions : 통제된 조건, 관리된 환경\nrapidly : 빠르게, 신속하게\nenvironmental performance : 환경 친화성, 환경 성능\ndisposal : 처리, 폐기\ndepend on : ~에 따라 달라지다\nmarketing : 마케팅, 광고\nproperty : 특성, 속성\n\n[해설]\n나머지 네 문장은 동일한 연구·관찰의 초기 가정과 결과, 수정된 결론을 연결하지만 해당 문장은 다른 주제로 전환되어 논리적 연속성이 없습니다.\n\n[오답 해설]\n①번: 생분해성 컵이 천천히 분해되는 이유를 연구한 화학자에 대한 문장으로, 지문의 주제인 생분해성 물질의 조건부 분해성을 설명하는 핵심 내용이다.\n\n②번: 마케팅이 생분해성을 무조건적인 성질로 제시했다는 문장으로, ③번 문장의 실제 조건과 대조되며 지문의 주요 논점을 구성한다.\n\n③번: 물질이 산업용 통제 조건 하에서만 빠르게 분해된다는 내용으로, ①번의 느린 분해와 ②번의 과장된 마케팅을 설명하는 중요한 정보이다.\n\n④번: 물질의 환경 성능이 폐기 조건에 따라 달라진다는 주장으로, ③번과 ①번을 일반화하는 결론적 진술이다.\n\n⑤번: 프로 풋볼 리그가 시즌 전에 일정을 발표한다는 내용으로, 생분해성 물질의 환경 성능과 전혀 무관하다.",
-    "wrong_explanations": {},
-    "_reviewed": false
-  },
-  {
-    "_qid": "R-0675",
-    "type": "요약문 완성",
-    "passage": "A photographer removed distracting advertisements from a street scene. The original photograph was assumed to show everything equally. At first, that account seemed attractive: it offered a simple explanation that could be communicated without further qualification. In fact, viewers suddenly noticed the repetitive architecture and neglected storefronts. A quick appraisal would reward the immediately measurable result, but it could overlook the cost imposed elsewhere in the system. Attention can be directed as much by omission as by inclusion. The relevant question is whether the benefit persists once these indirect effects are included. This conclusion is not identical to the first assumption; it must account for the later observation and for the limits of the original measure. In particular, the new evidence may justify changing the interpretation without proving that the earlier account was mistaken in every conceivable setting. Consequently, the preferred interpretation should explain both the initial expectation and the evidence that complicates it, without pretending that a single example establishes a universal rule.",
-    "given_sentence": "",
-    "choices": [
-      "① replaced — unquestionable",
-      "② supported — unconditional",
-      "③ challenged — categorical",
-      "④ supported — qualified",
-      "⑤ unrelated — absolute"
-    ],
-    "answer": 4,
-    "explanation": "[지문 해석]\n한 사진작가가 거리 풍경 사진에서 방해가 되는 광고들을 제거했다. 원래 사진은 모든 것을 동등하게 보여준다고 가정되었다. 처음에는 이러한 설명이 매력적으로 보였다. 추가적인 설명 없이도 전달할 수 있는 단순한 설명을 제시했기 때문이다. 실제로 관찰자들은 반복되는 건축물과 방치된 상점들을 갑자기 인식하게 되었다. 빠른 평가는 즉시 측정할 수 있는 결과에 보상을 주겠지만, 체계의 다른 곳에 미치는 비용을 간과할 수 있다. 주의는 포함을 통해서만큼이나 생략을 통해서도 이끌어질 수 있다. 중요한 질문은 이러한 간접적인 효과들이 포함되면 그 효과가 지속되는가 하는 것이다. 이 결론은 처음의 가정과 동일하지 않으며, 이후의 관찰과 원래 측정의 한계를 고려해야 한다. 특히 새로운 증거는 초기의 설명이 모든 상황에서 틀렸다는 것을 증명하지 않으면서도 해석을 바꾸는 것을 정당화할 수 있다. 따라서 선호되는 해석은 단일한 사례가 보편적인 규칙을 입증한다는 척하지 않으면서도 초기의 기대와 그것을 더 복잡하게 만드는 증거 모두를 설명해야 한다.\n\n[주요 어휘]\ndistracting : 주의를 산만하게 하는\nappraisal : 평가, 감정\noverlook : 간과하다, 놓치다\nomission : 생략, 제외\nindirect effects : 간접적 영향\npersist : 지속되다\ncomplicates : 복잡하게 만들다\nqualification : 한정, 조건\nconceivable : 생각할 수 있는, 가능한\njustify : 정당화하다\ninterpretation : 해석, 설명\nuniversal rule : 보편적 규칙\n\n[해설]\n초기 가정은 처음에는 지지를 받았지만 후속 관찰 때문에 해석에 조건과 한계를 명시해야 했으므로 supported — qualified가 가장 적절합니다.\n\n[오답 해설]\n①번: \"replaced — unquestionable\"는 새로운 해석이 기존 가정을 '대체'한다고 보지만, 지문은 두 관점을 모두 설명해야 한다고 주장하므로 부적절하다. 또한 '의문의 여지가 없는'이라는 의미의 unquestionable은 지문의 조건부적 태도와 맞지 않는다.\n\n②번: \"supported — unconditional\"은 초기 기대가 '지지되었다'는 점은 맞으나, unconditional(무조건적인)은 지문이 강조하는 '한정된 범위 내에서만 유효'라는 의미와 정반대이다.\n\n③번: \"challenged — categorical\"는 증거가 초기 가정을 '도전했다'는 점은 맞지만, categorical(절대적인)은 지문의 \"보편적 규칙을 확립하지 않는다\"는 결론과 모순된다.\n\n④번: \"supported — qualified\"는 초기 기대가 관찰을 통해 '지지되었으나 한정된(조건부의)' 해석이 선호된다는 의미로, 지문이 단순한 설명과 복잡한 증거를 모두 수용하되 절대화하지 않는 입장을 정확히 반영한다.\n\n⑤번: \"unrelated — absolute\"는 초기 기대와 증거가 '관련이 없다'고 보므로 지문의 흐름을 왜곡하며, absolute는 지문의 조건부적·상대적 결론과 배치된다.",
     "wrong_explanations": {},
     "_reviewed": false
   },
@@ -8504,23 +8147,6 @@ const QUESTION_BANK = [
     "_reviewed": false
   },
   {
-    "_qid": "R-0687",
-    "type": "요약문 완성",
-    "passage": "A physician explained test results using pictures rather than percentages alone. The clinic wanted all information displayed as simple icons. However, patients understood relative changes better but sometimes overlooked uncertainty ranges. Accessible communication must preserve uncertainty rather than hide it.",
-    "given_sentence": "",
-    "choices": [
-      "① replaced — unquestionable",
-      "② supported — qualified",
-      "③ challenged — categorical",
-      "④ unrelated — absolute",
-      "⑤ supported — unconditional"
-    ],
-    "answer": 2,
-    "explanation": "[지문 해석]\n의사가 백분율만 사용하는 것 대신 그림을 활용하여 검사 결과를 설명했다. 클리닉은 모든 정보를 단순한 아이콘으로 표시하기를 원했다. 그러나 환자들은 상대적 변화는 더 잘 이해했지만 때때로 불확실성 범위를 간과했다. 접근 가능한 의사소통은 불확실성을 숨기기보다는 보존해야 한다.\n\n[주요 어휘]\nphysician : 의사\ntest results : 검사 결과\npercentages : 백분율, 퍼센트\nicons : 아이콘, 기호\nrelative changes : 상대적 변화\noverlook : 간과하다, 놓치다\nuncertainty ranges : 불확실성 범위\naccessible communication : 이해하기 쉬운 의사소통\npreserve : 보존하다, 유지하다\nhide : 숨기다\n\n[해설]\n초기 가정은 처음에는 지지를 받았지만 후속 관찰 때문에 해석에 조건과 한계를 명시해야 했으므로 supported — qualified가 가장 적절합니다.\n\n[오답 해설]\n①번: \"replaced — unquestionable\"는 의사가 그림으로 설명한 것이 백분율을 '대체'했다는 점에서는 맞지만, 지문은 불확실성을 '숨기지 말아야 한다'고 강조하므로 '의문의 여지가 없는'이라는 뜻의 unquestionable은 맞지 않습니다.\n\n②번: \"supported — qualified\"는 의사가 그림 사용을 '지지'했고, 환자들이 상대적 변화는 잘 이해하지만 불확실성 범위는 놓칠 수 있다는 한계가 있으므로 '제한적인/조건부의'라는 뜻의 qualified가 정답입니다.\n\n③번: \"challenged — categorical\"는 지문에서 의사가 그림 사용 방식에 '도전'했다는 의미가 없고, categorical(절대적인)은 불확실성 보존이라는 핵심 메시지와 배치됩니다.\n\n④번: \"unrelated — absolute\"는 의사의 설명 방식이 명확한 소통과 '무관하다'는 뜻이 지문의 내용과 맞지 않으며, absolute도 불확실성을 강조하는 주제와 상충합니다.\n\n⑤번: \"supported — unconditional\"는 의사가 그림 사용을 지지한 부분은 맞지만, unconditional(무조건적인)은 환자들이 불확실성을 간과할 수 있다는 제한점을 반영하지 못합니다.",
-    "wrong_explanations": {},
-    "_reviewed": false
-  },
-  {
     "_qid": "R-0688",
     "type": "빈칸 추론",
     "passage": "A town digitized its paper maps of underground water pipes. Managers assumed digitization would automatically improve accuracy. The new evidence, however, was more informative than the original label: the maps became searchable but many old locations remained approximate. The difficulty is to account for both the attraction of the earlier interpretation and its failure to explain the later observation. The evidence is most consistent with the conclusion that __________. A defensible choice should explain the contrast without converting a local finding into a universal rule.",
@@ -8704,23 +8330,6 @@ const QUESTION_BANK = [
     ],
     "answer": 4,
     "explanation": "[지문 해석]\n①한 과학자가 두 기상 모델의 성능을 비교했다. ②한 기관은 평균 오차만을 사용하여 모델을 선택했다. ③하나는 평균 기온을 잘 예측했지만 드문 극단적 기후 현상은 놓쳤다. ④프로 축구 리그는 시즌이 시작되기 전에 일정표를 공개한다. ⑤모델을 평가하려면 그 모델이 지원해야 하는 의사결정과 관련된 지표가 필요하다.\n\n[주요 어휘]\nperformance : 성능, 수행 능력\naverage error : 평균 오차\npredicted : 예측했다\nrare severe events : 드문 심각한 사건들\nevaluate : 평가하다\nmetrics : 지표, 척도\nrelated to : ~과 관련된\nsupport : 뒷받침하다, 지원하다\nagency : 기관\nmodel : 모형, 모델\n\n[해설]\n나머지 네 문장은 동일한 연구·관찰의 초기 가정과 결과, 수정된 결론을 연결하지만 해당 문장은 다른 주제로 전환되어 논리적 연속성이 없습니다.\n\n[오답 해설]\n①번: 과학자가 두 날씨 모델의 성능을 비교했다는 내용으로, 전체 지문의 도입부로서 뒤따르는 구체적인 사례들의 맥락을 제공한다.\n\n②번: 한 기관이 평균 오차만을 사용하여 모델을 선택했다는 내용으로, 부적절한 평가 방식의 예시를 보여주며 지문의 주제 전개에 필수적이다.\n\n③번: 한 모델이 평균 기온은 잘 예측했지만 드문 극단적 사건을 놓쳤다는 내용으로, ②번의 문제점을 구체적으로 입증하는 사례로 기능한다.\n\n④번: 프로 축구 리그가 시즌 전에 스케줄을 발표한다는 내용으로, 날씨 모델 평가와 전혀 무관한 주제이며 지문의 논리적 흐름을 방해한다.\n\n⑤번: 모델 평가는 그 모델이 지원해야 하는 의사결정과 관련된 지표가 필요하다는 내용으로, 전체 지문의 핵심 결론이자 ②-③의 사례를 통해 도달하는 주제이다.",
-    "wrong_explanations": {},
-    "_reviewed": false
-  },
-  {
-    "_qid": "R-0699",
-    "type": "요약문 완성",
-    "passage": "A school organized lessons around questions proposed by pupils. Critics assumed student choice meant abandoning curriculum. However, engagement improved, but teachers still had to ensure core concepts were covered. Agency and structure need not be opposing educational goals.",
-    "given_sentence": "",
-    "choices": [
-      "① supported — qualified",
-      "② challenged — categorical",
-      "③ replaced — unquestionable",
-      "④ supported — unconditional",
-      "⑤ unrelated — absolute"
-    ],
-    "answer": 1,
-    "explanation": "[지문 해석]\n한 학교가 학생들이 제안한 질문을 중심으로 수업을 구성했다. 비평가들은 학생의 선택권이 교육과정을 포기하는 것을 의미한다고 가정했다. 그러나 학생들의 참여도는 향상되었고, 교사들은 여전히 핵심 개념이 다루어지도록 보장해야 했다. 학생의 자율성과 체계적 구조는 교육 목표에서 상충할 필요가 없다.\n\n[주요 어휘]\norganize : 조직하다, 체계적으로 구성하다\npropose : 제안하다, 제시하다\ncritic : 비평가, 비판자\nassume : 가정하다, 추정하다\nabandon : 포기하다, 버리다\ncurriculum : 교육과정, 교과과정\nengagement : 참여, 몰입\nensure : 보장하다, 확실하게 하다\ncore concept : 핵심 개념\nagency : 자율성, 주체성\nopposing : 대립하는, 상반되는\neducational goal : 교육 목표\n\n[해설]\n초기 가정은 처음에는 지지를 받았지만 후속 관찰 때문에 해석에 조건과 한계를 명시해야 했으므로 supported — qualified가 가장 적절합니다.\n\n[오답 해설]\n①번: 정답. \"supported\"는 학생 선택이 engagement를 개선했다는 긍정적 결과를 나타내고, \"qualified\"는 교사가 여전히 핵심 개념을 커버해야 한다는 조건부 제약을 의미하여 지문의 \"Agency and structure need not be opposing\"이라는 요지를 정확히 반영한다.\n\n②번: \"challenged\"는 학생 선택이 curriculum을 반박한다는 뜻인데, 지문은 실제로 학생 선택을 지지하고 있으므로 부적절하다.\n\n③번: \"replaced\"는 학생 선택이 curriculum을 완전히 대체했다는 의미인데, 지문에서 교사가 여전히 핵심 개념을 보장해야 한다고 했으므로 맞지 않다.\n\n④번: \"supported\"는 맞지만 \"unconditional\"(무조건적인)은 지문에서 강조하는 구조적 제약이나 조건을 무시하므로 부정확하다.\n\n⑤번: \"unrelated\"는 학생 선택과 curriculum이 무관하다는 뜻으로, 실제로 둘 다 고려되어야 한다는 지문 내용과 완전히 배치된다.",
     "wrong_explanations": {},
     "_reviewed": false
   },
@@ -8912,23 +8521,6 @@ const QUESTION_BANK = [
     "_reviewed": false
   },
   {
-    "_qid": "R-0711",
-    "type": "요약문 완성",
-    "passage": "A mathematician explained why a complex model required simplification. A student assumed every omitted variable made the model worthless. At first, that account seemed attractive: it offered a simple explanation that could be communicated without further qualification. In fact, some details were removed to make its central mechanisms testable. Neither the initial prediction nor the later measurement is meaningless; the mistake is to confuse either one with a complete explanation. A useful model is judged by its purpose and limits, not by completeness alone. The task is to connect the observations with the process that could plausibly have produced them. This conclusion is not identical to the first assumption; it must account for the later observation and for the limits of the original measure. In particular, the new evidence may justify changing the interpretation without proving that the earlier account was mistaken in every conceivable setting. Consequently, the preferred interpretation should explain both the initial expectation and the evidence that complicates it, without pretending that a single example establishes a universal rule.",
-    "given_sentence": "",
-    "choices": [
-      "① supported — unconditional",
-      "② challenged — categorical",
-      "③ supported — qualified",
-      "④ unrelated — absolute",
-      "⑤ replaced — unquestionable"
-    ],
-    "answer": 3,
-    "explanation": "[지문 해석]\n어떤 수학자가 복잡한 모델을 단순화해야 하는 이유를 설명했다. 한 학생은 생략된 모든 변수가 모델을 쓸모없게 만든다고 가정했다. 처음에는 그 설명이 매력적으로 보였다. 추가 설명 없이 전달할 수 있는 단순한 설명을 제시했기 때문이다. 실제로는 핵심 메커니즘을 검증 가능하게 하기 위해 일부 세부사항이 제거된 것이었다. 초기 예측이든 나중의 측정이든 무의미한 것은 아니며, 둘 중 어느 것을 완전한 설명으로 착각하는 것이 실수이다. 유용한 모델은 완전성만으로가 아니라 그것의 목적과 한계에 따라 평가받아야 한다. 과제는 관찰된 현상을 그것을 그럴듯하게 만들어낼 수 있는 과정과 연결하는 것이다. 이러한 결론은 초기 가정과 동일하지 않으며, 나중의 관찰과 원래 측정의 한계를 고려해야 한다. 특히 새로운 증거는 이전의 설명이 모든 상황에서 틀렸다는 것을 증명하지 않으면서도 그 해석을 바꿀 정당한 이유를 제공할 수 있다. 따라서 선호되는 해석은 초기의 예상과 그것을 복잡하게 만드는 증거를 모두 설명해야 하며, 단 하나의 사례가 보편적 규칙을 입증한다고 가정해서는 안 된다.\n\n[주요 어휘]\n# 수능 영어 지문 어휘\n\n1. omitted variable : 생략된 변수\n2. worthless : 가치 없는\n3. testable : 검증 가능한\n4. confuse A with B : A를 B와 혼동하다\n5. completeness : 완전성, 완벽함\n6. plausibly : 그럴듯하게, 타당하게\n7. account : 설명, 해석\n8. justify : 정당화하다\n9. mistaken : 잘못된\n10. conceivable : 상상할 수 있는, 생각할 수 있는\n11. complicates : 복잡하게 만들다\n12. establish : 확립하다, 입증하다\n\n[해설]\n초기 가정은 처음에는 지지를 받았지만 후속 관찰 때문에 해석에 조건과 한계를 명시해야 했으므로 supported — qualified가 가장 적절합니다.\n\n[오답 해설]\n①번: 초반의 단순한 설명(학생의 가정)이 완전히 지지되지 않으며, 나중에 'unconditional(무조건적인)' 설명으로 대체되지 않으므로 부적절하다.\n\n②번: 지문은 초기 설명을 도전하기보다 수정·보완하는 방향이며, 'categorical(절대적인)' 규칙을 주장하지 않으므로 오답이다.\n\n③번: 지문은 초기 예측을 기본적으로 지지하되 한계와 새로운 증거를 고려한 '제한적인(qualified)' 설명으로 발전시키므로 정답이다.\n\n④번: 초기 예측과 나중의 관찰이 무관하지 않으며, 최종 해석이 'absolute(절대적)' 규칙이 아니라 한계를 인정하므로 틀렸다.\n\n⑤번: 초기 설명이 완전히 'unquestionable(의심할 여지없는)' 것으로 대체되지 않으며, 오히려 수정되고 보완되는 방식이므로 부적절하다.",
-    "wrong_explanations": {},
-    "_reviewed": false
-  },
-  {
     "_qid": "R-0712",
     "type": "빈칸 추론",
     "passage": "A museum recorded visitor routes using anonymous sensors. Curators had organized rooms according to scholarly importance. However, many bypassed the central exhibit but paused at a small display near the exit. The evidence is most consistent with the conclusion that __________.",
@@ -8976,23 +8568,6 @@ const QUESTION_BANK = [
     ],
     "answer": 5,
     "explanation": "[지문 해석]\n한 대학이 역사 과목에서 공개 시험을 시행했다. 연구팀은 증거를 ① 신중하게 검토했고 ② 기존의 결론이 여전히 타당한지 물었다. 그들의 목적은 ③ 이전의 설명을 배척하는 것이 아니라 ④ 그 한계를 파악하는 것이었다. 그 결과 나온 설명은 처음 것보다 더 ⑤ 신중했다.\n\n[주요 어휘]\nopen-book examination : 교재 참고 허용 시험\nconclude : 결론을 내리다\njustify : 정당화하다, 타당성이 있음을 보이다\ndismiss : 무시하다, 기각하다\nidentify : 파악하다, 확인하다\naccount : 설명, 기술\ncautiously : 신중하게, 조심스럽게\nlimit : 한계, 제한\nresulting : 그 결과로 생기는\nevidence : 증거, 근거\n\n[해설]\n⑤는 cautious로 고쳐야 합니다. 나머지 표시 표현은 해당 문장의 구조상 허용됩니다.\n\n[오답 해설]\n①번: \"carefully\"는 동사 \"examined\"을 수식하는 부사로 올바른 용법입니다. 동사를 꾸며야 하므로 부사 형태가 정확합니다.\n\n②번: \"whether\"는 간접의문문을 이끄는 접속사로 올바른 용법입니다. \"asked whether ~\"는 '~인지 묻다'라는 의미로 문법적으로 정확합니다.\n\n③번: \"to dismiss\"는 동사 \"was not\"과 함께 부정사 구문을 이루며 올바른 용법입니다. 목적을 나타내는 부정사로 \"~하지 않기 위해\"라는 의미입니다.\n\n④번: \"to identify\"는 동사 \"was\"와 함께 부정사 구문을 이루며 올바른 용법입니다. ③번과 병렬 구조로 \"목적은 ~를 식별하는 것이다\"라는 의미입니다.\n\n⑤번: \"cautiously\"는 형용사 \"more\"와 함께 사용되어 비교급을 만드는데 오류입니다. \"more cautious\"처럼 형용사 형태여야 하거나 \"more cautiously\"가 부사를 수식할 때 쓰이는데, 여기서 수식 대상이 명사 \"explanation\"이므로 형용사 \"cautious\"가 필요합니다.",
-    "wrong_explanations": {},
-    "_reviewed": false
-  },
-  {
-    "_qid": "R-0715",
-    "type": "어휘 적절성",
-    "passage": "A craft cooperative introduced digital sales to reach distant buyers. Organizers treated a larger audience as automatically more profitable. Orders increased, but packaging costs threatened profits on small items. The first interpretation was necessarily (① tentative) because little evidence had yet been collected. The later observation (② contradicted) the expectation on which that interpretation depended. The researchers consequently adopted a (③ qualified) account rather than an unconditional verdict. They examined whether the new evidence was (④ irrelevant) to the question under investigation. The conclusion remained (⑤ limited) to the conditions in which the observations had been made.",
-    "given_sentence": "",
-    "choices": [
-      "①번 표시",
-      "②번 표시",
-      "③번 표시",
-      "④번 표시",
-      "⑤번 표시"
-    ],
-    "answer": 4,
-    "explanation": "[지문 해석]\n한 수공예 협동조합이 원거리의 구매자에게 접근하기 위해 디지털 판매를 도입했다. 조직 운영진은 더 큰 규모의 고객층을 자동으로 더 큰 수익을 가져올 것으로 간주했다. 주문은 증가했지만 소형 상품의 포장비가 수익성을 위협했다. 첫 번째 해석은 아직 수집된 증거가 거의 없었기 때문에 필연적으로 (① 잠정적)이었다. 이후의 관찰은 그 해석이 의존했던 기대를 (② 모순)했다. 결과적으로 연구자들은 무조건적인 결론보다는 (③ 조건부의) 설명을 채택했다. 그들은 새로운 증거가 조사 중인 문제와 (④ 무관한) 것인지 검토했다. 결론은 관찰이 이루어진 조건들에만 (⑤ 제한)되었다.\n\n[주요 어휘]\ncraft cooperative : 수공예 협동조합\nreach : 도달하다, 닿다\ndistant : 먼, 멀리 떨어진\naudience : 청중, 고객\nprofitable : 수익성 있는, 이익이 되는\npackaging costs : 포장 비용\ntentative : 임시적인, 잠정적인\nevidence : 증거, 근거\ncontradicted : 모순되다, 반박하다\nexpectation : 기대, 예상\nqualified : 조건부의, 한정된\nunconditional : 무조건적인\nverdict : 판단, 결론\nirrelevant : 관련 없는, 무관한\nlimited : 제한된, 한정된\nobservation : 관찰, 관찰 결과\n\n[해설]\n④의 irrelevant는 주변 의미와 충돌합니다. relevant로 수정해야 초기 가설·반증·신중한 결론의 논리가 일관됩니다.\n\n[오답 해설]\n①번: 초기 해석이 증거가 충분하지 않았으므로 '임시적'이어야 한다는 점에서 적절합니다. 문맥상 아직 수집된 증거가 적다는 내용과 잘 맞습니다.\n\n②번: 나중의 관찰이 초기 기대를 '모순'시켰다는 의미로 적절합니다. 포장비용이 수익성을 위협했다는 후속 발견이 초기 가정과 충돌하는 상황을 잘 나타냅니다.\n\n③번: 연구자들이 무조건적 판단 대신 '조건부의' 설명을 채택했다는 의미로 적절합니다. 제한된 조건 하에서의 관찰에 기초한 신중한 해석을 반영합니다.\n\n④번: \"새 증거가 조사 중인 질문과 '무관하다'인지 검토했다\"는 의미로 부자연스럽습니다. 문맥상 연구자들이 증거의 관련성을 확인했다는 긍정적 의도이므로, 부정의 의미인 'irrelevant'는 오류입니다.\n\n⑤번: 결론이 관찰이 이루어진 조건에 '제한되었다'는 의미로 적절합니다. 모든 상황에 일반화하지 않고 특정 조건 내에서만 유효하다는 신중한 태도를 반영합니다.",
     "wrong_explanations": {},
     "_reviewed": false
   },
