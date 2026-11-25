@@ -636,11 +636,11 @@ const QUESTION_BANK = [
     "passage": "The volunteer group wanted to (① preserve) a local wetland. They carefully (② recorded) the birds that visited each season and (③ removed) litter from the water. Their efforts gradually (④ damaged) the habitat, allowing more native plants to return. Local residents began to (⑤ appreciate) the area.",
     "given_sentence": null,
     "choices": [
-      "① 번 표시",
-      "② 번 표시",
-      "③ 번 표시",
+      "① monitor",
+      "② photographed",
+      "③ collected",
       "④ 번 표시",
-      "⑤ 번 표시"
+      "⑤ visit"
     ],
     "answer": 4,
     "explanation": "[지문 해석]\n자원봉사 단체는 지역 습지를 (① 보존하고자) 했다. 그들은 매 계절마다 방문하는 새들을 세심하게 (② 기록했고) 물에서 쓰레기를 (③ 제거했다). 그들의 노력은 서식지를 점차 (④ 복구했고), 더 많은 토종 식물이 돌아올 수 있게 했다. 지역 주민들은 이 지역을 (⑤ 소중히 여기기) 시작했다.\n\n[주요 어휘]\n# 수능 영어 지문 주요 단어/표현\n\npreserve : 보존하다, 지키다\nrecord : 기록하다\nremove : 제거하다, 없애다\nlitter : 쓰레기, 오물\nhabitat : 서식지, 생식지\nnative plants : 자생식물, 토착식물\nappreciate : 감상하다, 소중히 여기다\nvolunteer group : 자원봉사 단체\nwetland : 습지\nresident : 주민, 거주자\n\n[해설]\ndamaged → restored/improved: 쓰레기를 제거해 서식지가 회복된다는 내용입니다.\n\n[오답 해설]\n①번: preserve(보존하다)는 습지를 지키려는 자원봉사자들의 초기 목적과 일치하므로 적절합니다.\n\n②번: recorded(기록했다)는 계절마다 방문하는 새들을 관찰하고 추적하는 행동으로 문맥에 맞습니다.\n\n③번: removed(제거했다)는 물에서 쓰레기를 치우는 행동을 나타내며 환경정화 노력과 일치합니다.\n\n④번: damaged(손상시켰다)는 부정적 의미로, 자원봉사자들의 긍정적인 노력이 서식지를 '복구'했다는 문맥과 모순됩니다. restored(복구했다) 등의 표현이 적절합니다.\n\n⑤번: appreciate(감상하다, 고마워하다)는 주민들이 복원된 습지 지역에 대해 느끼는 긍정적인 감정을 잘 표현합니다.",
@@ -657,10 +657,10 @@ const QUESTION_BANK = [
     "passage": "Although the first prototype (① failed), the engineers remained (② determined). They examined its weaknesses, (③ revised) the design, and conducted more tests. Their willingness to learn from errors was (④ essential) to progress, while refusing further tests would have been (⑤ constructive).",
     "given_sentence": null,
     "choices": [
-      "① 번 표시",
-      "② 번 표시",
-      "③ 번 표시",
-      "④ 번 표시",
+      "① succeeded",
+      "② discouraged",
+      "③ abandoned",
+      "④ counterproductive",
       "⑤ 번 표시"
     ],
     "answer": 5,
@@ -678,10 +678,10 @@ const QUESTION_BANK = [
     "passage": "The hikers reached a narrow path as clouds began to (① gather). The guide advised everyone to move (② cautiously) because the rocks were (③ slippery). When thunder sounded nearby, the group (④ retreated) from the exposed summit to seek shelter. Such a choice would have been (⑤ reckless).",
     "given_sentence": null,
     "choices": [
-      "① 번 표시",
-      "② 번 표시",
-      "③ 번 표시",
-      "④ 번 표시",
+      "① disperse",
+      "② swiftly",
+      "③ unstable",
+      "④ ascended",
       "⑤ 번 표시"
     ],
     "answer": 5,
@@ -699,10 +699,10 @@ const QUESTION_BANK = [
     "passage": "The historian compared several (① independent) sources before reaching a conclusion. She knew that a single witness might be (② mistaken), so she sought (③ corroborating) records. By checking dates and locations, she made her account more (④ reliable) and less (⑤ accurate).",
     "given_sentence": null,
     "choices": [
-      "① 번 표시",
-      "② 번 표시",
-      "③ 번 표시",
-      "④ 번 표시",
+      "① contradictory",
+      "② credible",
+      "③ archived",
+      "④ objective",
       "⑤ 번 표시"
     ],
     "answer": 5,
@@ -720,10 +720,10 @@ const QUESTION_BANK = [
     "passage": "A school installed water fountains to (① reduce) the use of disposable bottles. Students were encouraged to (② refill) reusable containers. The number of plastic bottles thrown away (③ declined), and the initiative helped (④ conserve) resources. Teachers called the increase in waste a (⑤ success).",
     "given_sentence": null,
     "choices": [
-      "① 번 표시",
-      "② 번 표시",
-      "③ 번 표시",
-      "④ 번 표시",
+      "① promote",
+      "② discard",
+      "③ increased",
+      "④ deplete",
       "⑤ 번 표시"
     ],
     "answer": 5,
@@ -741,10 +741,10 @@ const QUESTION_BANK = [
     "passage": "In a healthy debate, participants should (① listen) to opposing views and (② examine) evidence. Instead of attacking a person, they should (③ address) the argument. Such practices (④ encourage) thoughtful dialogue and make mutual understanding more (⑤ difficult).",
     "given_sentence": null,
     "choices": [
-      "① 번 표시",
-      "② 번 표시",
-      "③ 번 표시",
-      "④ 번 표시",
+      "① respond",
+      "② dismiss",
+      "③ avoid",
+      "④ complicate",
       "⑤ 번 표시"
     ],
     "answer": 5,
@@ -762,11 +762,11 @@ const QUESTION_BANK = [
     "passage": "The architect designed wide windows to (① admit) daylight into the classroom. Students could work with less (② artificial) lighting during the day. The windows also provided views of trees, creating a calmer (③ atmosphere). As a result, the interior became increasingly (④ gloomy) and (⑤ welcoming).",
     "given_sentence": null,
     "choices": [
-      "① 번 표시",
-      "② 번 표시",
-      "③ 번 표시",
+      "① reflect",
+      "② natural",
+      "③ curriculum",
       "④ 번 표시",
-      "⑤ 번 표시"
+      "⑤ isolated"
     ],
     "answer": 4,
     "explanation": "[지문 해석]\n건축가는 교실에 자연광을 (① 들여보내기 위해) 넓은 창문을 설계했다. 학생들은 낮 동안 (② 인공) 조명을 더 적게 사용할 수 있었다. 창문은 또한 나무의 풍경을 제공하여 더욱 차분한 (③ 분위기)를 만들었다. 결과적으로 실내는 점점 더 (④ 우울하고) (⑤ 쾌적해) 졌다.\n\n[주요 어휘]\n# 핵심 어휘/표현\n\nadmit : ~을 허용하다, 들어오게 하다\nartificial : 인공적인, 인위적인\natmosphere : 분위기, 공기\ngloomy : 어두운, 우울한\nwelcoming : 환영하는, 따뜻한\narchitect : 건축가\ninterior : 내부, 실내\nprovide : 제공하다\ncalmer : 더 차분한, 더 침착한\ndaylight : 자연채광, 햇빛\n\n[해설]\ngloomy → bright: 채광 개선으로 실내가 어두워진다는 것은 문맥상 모순입니다.\n\n[오답 해설]\n①번: 'admit'은 \"~을 들어오게 하다\"는 의미로, 햇빛을 교실로 들여보낸다는 문맥에 완벽하게 적절합니다.\n\n②번: 'artificial'은 \"인공의\"라는 뜻으로, 낮 시간에 인공 조명을 덜 사용한다는 의미가 명확하게 드러나므로 올바른 표현입니다.\n\n③번: 'atmosphere'는 \"분위기\"를 의미하며, 나무 풍경이 더 차분한 분위기를 만든다는 문맥과 완전히 부합합니다.\n\n④번: 'gloomy'는 \"어두운, 우울한\"이라는 의미로, 넓은 창문으로 많은 햇빛을 들여보내는 상황에서 실내가 어두워진다는 것은 논리적으로 모순됩니다.\n\n⑤번: 'welcoming'은 \"환영하는, 따뜻한\"이라는 뜻으로, 밝은 빛과 자연 풍경이 있는 공간을 긍정적으로 표현하므로 적절합니다.",
@@ -783,10 +783,10 @@ const QUESTION_BANK = [
     "passage": "The doctor explained the procedure in (① plain) language. She avoided (② unnecessary) technical terms and asked the patient to (③ repeat) the key steps. This approach helped identify (④ misunderstandings) and made the instructions less (⑤ clear).",
     "given_sentence": null,
     "choices": [
-      "① 번 표시",
-      "② 번 표시",
-      "③ 번 표시",
-      "④ 번 표시",
+      "① technical",
+      "② complex",
+      "③ summarize",
+      "④ confusions",
       "⑤ 번 표시"
     ],
     "answer": 5,
@@ -804,11 +804,11 @@ const QUESTION_BANK = [
     "passage": "A farmer planted several kinds of crops rather than relying on just one. If pests attacked one variety, the others might still (① survive). The approach (② diversified) risk and improved the farm’s (③ resilience). It therefore made the entire harvest more (④ vulnerable) to a single disease, despite offering (⑤ variety).",
     "given_sentence": null,
     "choices": [
-      "① 번 표시",
-      "② 번 표시",
-      "③ 번 표시",
+      "① perish",
+      "② concentrated",
+      "③ dependency",
       "④ 번 표시",
-      "⑤ 번 표시"
+      "⑤ uniformity"
     ],
     "answer": 4,
     "explanation": "[지문 해석]\n한 농부는 단 하나의 작물에만 의존하기보다는 여러 종류의 작물을 심었다. 해충이 한 품종을 공격하더라도 다른 품종들은 여전히 (① 살아남을) 수 있었다. 이러한 접근 방식은 (② 위험을) 분산시키고 농장의 (③ 회복력을) 높였다. 따라서 (⑤ 다양성을) 제공했음에도 불구하고 전체 수확량을 단일 질병에 대해 더욱 (④ 취약하게) 만들었다.\n\n[주요 어휘]\n# 수능 영어 어휘 정리\n\n1. rely on : ~에 의존하다\n2. pest : 해충\n3. variety : 다양성, 종류\n4. diversify : 다양화하다\n5. risk : 위험\n6. resilience : 회복력, 탄력성\n7. vulnerable : 취약한, 무방비한\n8. harvest : 수확\n9. approach : 방식, 접근법\n10. entire : 전체의, 완전한\n\n[해설]\nvulnerable → resistant/less vulnerable: 작물 다양화는 단일 병해에 대한 취약성을 낮춥니다.\n\n[오답 해설]\n①번: survive는 '생존하다'라는 의미로 해당 문맥에 적절합니다. 해충의 공격을 받아도 다른 품종은 살아남을 수 있다는 의미가 자연스럽게 전달됩니다.\n\n②번: diversified는 '다양화했다'는 의미로 올바른 선택입니다. 여러 작물을 심으면 위험을 분산시킨다는 논리가 명확하게 드러납니다.\n\n③번: resilience는 '회복력, 탄력성'이라는 의미로 적절합니다. 다양한 작물 재배가 농장의 회복력을 높인다는 문맥과 완벽하게 일치합니다.\n\n④번: vulnerable은 '취약한'이라는 의미로 문맥상 모순입니다. 앞의 내용이 다양한 작물 재배가 위험을 줄인다고 설명했는데, 'more vulnerable'은 더 취약해진다는 뜻이 되어 논리적으로 맞지 않습니다.\n\n⑤번: variety는 '다양성'이라는 의미로 적절합니다. 다양한 작물을 심는 것이 다양성을 제공한다는 표현이 자연스럽습니다.",
@@ -825,11 +825,11 @@ const QUESTION_BANK = [
     "passage": "During the rehearsal, the conductor asked the orchestra to play more (① softly). The musicians (② adjusted) their volume so that the solo violin could be (③ heard). The quieter accompaniment (④ obscured) the melody, allowing the audience to hear it more (⑤ clearly).",
     "given_sentence": null,
     "choices": [
-      "① 번 표시",
-      "② 번 표시",
-      "③ 번 표시",
+      "① louder",
+      "② ignored",
+      "③ accompanied",
       "④ 번 표시",
-      "⑤ 번 표시"
+      "⑤ prominently"
     ],
     "answer": 4,
     "explanation": "[지문 해석]\n리허설 중에 지휘자는 오케스트라에게 더 (① 부드럽게) 연주해 달라고 요청했다. 악사들은 (② 조절했다) 솔로 바이올린이 (③ 들릴 수 있도록) 음량을 맞췄다. 더 조용한 반주가 (④ 가렸다) 선율을 드러내어 관객이 그것을 더 (⑤ 명확하게) 들을 수 있게 했다.\n\n[주요 어휘]\nrehearsal : 리허설, 연습\nconductor : 지휘자\norchestra : 오케스트라, 관현악단\nadjust : 조정하다, 맞추다\nvolume : 음량, 크기\nsolo : 독주의, 솔로\naccompaniment : 반주, 수반\nobscure : 흐리게 하다, 방해하다\nmelody : 멜로디, 선율\nclarity : 명확함, 선명함\n\n[해설]\nobscured → highlighted: 반주를 줄여 독주 선율이 더 명확히 들리도록 했습니다.\n\n[오답 해설]\n①번: 'softly'는 \"부드럽게, 조용히\"라는 의미로 지휘자가 오케스트라에게 더 작은 음량으로 연주하도록 요청하는 맥락에 적절합니다.\n\n②번: 'adjusted'는 \"조정하다\"라는 의미로 음악가들이 음량을 조절했다는 내용에 완벽하게 부합하므로 올바른 표현입니다.\n\n③번: 'heard'는 \"들리다\"라는 의미로 솔로 바이올린이 들릴 수 있도록 하는 목적을 표현하고 있어 문맥에 맞습니다.\n\n④번: 'obscured'는 \"가리다, 방해하다\"라는 의미로 반주가 멜로디를 방해한다는 뜻이므로 논리적으로 모순됩니다. \"더 조용한 반주가 멜로디를 더 명확하게 들을 수 있게 했다\"는 문맥에서 반주가 멜로디를 방해할 수 없으므로 오류입니다.\n\n⑤번: 'clearly'는 \"명확하게\"라는 의미로 조용한 반주 덕분에 관객이 멜로디를 더 명확하게 들을 수 있다는 인과관계를 올바르게 표현합니다.",
@@ -2525,10 +2525,10 @@ const QUESTION_BANK = [
     "passage": "A farming cooperative's seed exchange faced a problem that could not be solved simply by repeating its usual routine. Several farms depended on one high-yield crop variety. Members began saving and trading seeds suited to different conditions. The outcome suggested that a carefully chosen change can be more productive than a broad but unfocused effort. An unusually dry summer damaged fewer fields than before. Diversity can help a community withstand unpredictable shocks.",
     "given_sentence": "",
     "choices": [
-      "① The outcome shows that gathering information is always less valuable than acting immediately.",
-      "② The original arrangement was already perfect and required no reconsideration.",
-      "③ Any improvement proves that the same intervention will work in every location.",
-      "④ The most effective strategy is to ignore the original problem until it disappears.",
+      "① Seed exchanges become most productive when members focus on maximizing a single high-yield crop variety",
+      "② Cooperative farming networks thrive by standardizing seed selection across all member farms",
+      "③ Replacing damaged crops with a newer high-yield variety is the key to recovering from drought",
+      "④ The farming cooperative's success depended primarily on how quickly members responded to the dry summer",
       "⑤ Communities that embrace variety are better equipped to handle unexpected disruptions"
     ],
     "answer": 5,
@@ -2576,10 +2576,10 @@ const QUESTION_BANK = [
     "passage": "A mountain trail's maintenance team faced a problem that could not be solved simply by repeating its usual routine. Hikers repeatedly took shortcuts across fragile slopes. Rangers improved signs and repaired the official path. At first glance, the adjustment might have seemed too limited to make a substantial difference; its effect became apparent only after the outcome was examined. Vegetation recovered where foot traffic was redirected. This does not guarantee that the same measure will succeed in every setting, because resources and local needs may differ. Protecting nature often requires guiding behavior, not merely prohibiting it.",
     "given_sentence": "",
     "choices": [
-      "① Any improvement proves that the same intervention will work in every location.",
-      "② The original arrangement was already perfect and required no reconsideration.",
-      "③ The most effective strategy is to ignore the original problem until it disappears.",
-      "④ The outcome shows that gathering information is always less valuable than acting immediately.",
+      "① Repairing damaged trails and improving signage alone are sufficient to restore any mountain ecosystem.",
+      "② Redirecting foot traffic proves more effective than vegetation recovery in preserving fragile slopes.",
+      "③ Rangers should focus on enforcing strict penalties for shortcut usage rather than modifying trail infrastructure.",
+      "④ The recovery of vegetation on mountain trails demonstrates that early intervention always produces immediate visible results.",
       "⑤ Conservation efforts succeed more when they shape habits rather than simply impose restrictions"
     ],
     "answer": 5,
@@ -2610,11 +2610,11 @@ const QUESTION_BANK = [
     "passage": "A household's energy diary faced a problem that could not be solved simply by repeating its usual routine. The family could not explain changes in its electricity bill. They recorded appliance use at different times of day. The records identified an old heater as a major source of consumption. Measurement can turn vague concerns into practical decisions.",
     "given_sentence": "",
     "choices": [
-      "① The outcome shows that gathering information is always less valuable than acting immediately.",
-      "② The most effective strategy is to ignore the original problem until it disappears.",
-      "③ Any improvement proves that the same intervention will work in every location.",
+      "① Monitoring household appliance usage is most useful when electricity bills remain stable and predictable",
+      "② Identifying the old heater as the problem source was possible without keeping any written records of daily consumption",
+      "③ Replacing the faulty heater automatically resolves every other energy inefficiency present in the household",
       "④ Collecting and analyzing data transforms broad worries into actionable steps",
-      "⑤ The original arrangement was already perfect and required no reconsideration."
+      "⑤ The electricity bill problem would have resolved itself once the family resumed their standard daily routine"
     ],
     "answer": 4,
     "explanation": "[지문 해석]\n한 가족의 에너지 사용 기록이 일상적인 루틴을 반복하는 것만으로는 해결할 수 없는 문제에 직면했다. 그들은 전기료 청구서의 변화를 설명할 수 없었다. 하루 중 다양한 시간대에 가전제품 사용 현황을 기록했다. 그 기록을 통해 낡은 난방기가 주요 전력 소비원임을 파악했다. 측정이란 모호한 우려를 실질적인 결정으로 바꿔놓을 수 있다.\n\n[주요 어휘]\nenergy diary : 에너지 사용 기록\nhousehold : 가정, 집\nroutine : 일상적인 일, 루틴\nelectricity bill : 전기료\nappliance : 전자기기\nconsumption : 소비, 사용량\nmeasurement : 측정, 계량\nvague : 모호한, 막연한\nconcern : 우려, 걱정\npractical : 실질적인, 실용적인\nturn into : ~으로 바꾸다, ~이 되게 하다\n\n[해설]\n이 글은 사례의 결과를 통해 “Measurement can turn vague concerns into practical decisions”라는 핵심 요지를 전달합니다.\n\n[오답 해설]\n①번: \"정보 수집은 항상 즉시 행동하는 것보다 가치가 낮다\"는 극단적인 주장으로, 지문은 오히려 정보 수집(에너지 다이어리, 기록)이 실질적인 결정(히터 교체)을 가능하게 했다고 보여주므로 틀렸다.\n\n②번: \"원래 문제를 무시하면 사라진다\"는 비현실적이고 부정적인 전략을 제시하는데, 지문은 적극적인 측정과 기록을 통해 문제를 해결했으므로 지문의 취지와 배치된다.\n\n③번: \"모든 개선이 모든 장소에서 동일하게 작동한다\"는 과도한 일반화를 시도하는데, 지문은 특정 가정의 구체적 상황에 대한 해결책만 제시하므로 이런 보편적 결론을 내리지 않는다.\n\n④번: \"데이터 수집과 분석이 광범위한 우려를 실행 가능한 단계로 변환한다\"는 주장으로, 지문의 '막연한 우려(vague concerns)' → '실질적 결정(practical decisions)'의 과정을 정확히 설명하므로 정답이다.\n\n⑤번: \"원래 상태가 이미 완벽했고 재고할 필요가 없다\"는 주장인데, 지문은 문제가 존재했고 측정을 통해 비효율적인 히터를 찾아냈으므로 명백히 틀렸다.",
@@ -2644,11 +2644,11 @@ const QUESTION_BANK = [
     "passage": "A recycling center's sorting guide faced a problem that could not be solved simply by repeating its usual routine. Residents frequently placed unsuitable materials in collection bins. Staff replaced dense instructions with photographs of common mistakes. The outcome suggested that a carefully chosen change can be more productive than a broad but unfocused effort. Contamination fell after the guide was distributed. Visual examples can improve compliance with everyday rules.",
     "given_sentence": "",
     "choices": [
-      "① Any improvement proves that the same intervention will work in every location.",
+      "① Replacing written instructions with photos guarantees higher recycling rates in any community.",
       "② Clear visual guidance helps people follow everyday rules more reliably",
-      "③ The outcome shows that gathering information is always less valuable than acting immediately.",
-      "④ The original arrangement was already perfect and required no reconsideration.",
-      "⑤ The most effective strategy is to ignore the original problem until it disappears."
+      "③ Reducing contamination in collection bins matters more than educating residents about sorting rules.",
+      "④ The recycling center should have expanded its collection bins before revising its sorting guide.",
+      "⑤ Distributing printed guides to residents is effective only when staff members explain them in person."
     ],
     "answer": 2,
     "explanation": "[지문 해석]\n재활용 센터의 분류 안내서는 기존의 일상적인 방식 반복만으로는 해결할 수 없는 문제에 직면했다. 주민들이 수집 상자에 부적절한 물질을 자주 넣었기 때문이다. 직원들은 복잡한 지시사항을 일반적인 실수 사진으로 대체했다. 그 결과는 광범위하지만 초점이 흐린 노력보다 신중하게 선택된 변화가 더 효과적일 수 있음을 시사했다. 안내서가 배포된 후 오염도가 감소했다. 시각적 사례는 일상의 규칙 준수를 개선할 수 있다.\n\n[주요 어휘]\nrecycling center : 재활용 센터\nsorting guide : 분류 안내서\nunsuitable : 부적절한, 맞지 않는\ncollection bins : 수거 용기\ndense instructions : 복잡한 지시사항\ncontamination : 오염, 불순물 혼입\ncompliance : 준수, 따름\nvisual examples : 시각적 예시\nproductive : 효과적인, 생산적인\nunfocused effort : 초점이 맞지 않은 노력\nroutine : 일상적인 절차\ndistributed : 배포된, 나누어진\n\n[해설]\n이 글은 사례의 결과를 통해 “Visual examples can improve compliance with everyday rules”라는 핵심 요지를 전달합니다.\n\n[오답 해설]\n①번: 지문은 재활용 센터에서의 개선 사례만 제시했으며, 이것이 모든 장소에서 동일하게 작동한다고 주장하지 않는다. 과도한 일반화로 지문의 내용을 벗어난다.\n\n②번: 지문에서 \"사진으로 된 시각적 예시\"로 변경한 후 \"오염도가 감소했다\"고 명시되어 있으며, \"시각적 예시가 일상적 규칙 준수를 개선할 수 있다\"는 결론과 정확히 일치한다.\n\n③번: 지문은 \"정보 수집\"과 \"즉시 행동\"을 비교하지 않으며, 오히려 \"신중하게 선택된 변화가 더 생산적\"이라고 제안하므로 정보 수집을 무시하는 것이 아니다.\n\n④번: 지문은 원래의 지침이 \"밀집된 지시사항\"이어서 주민들의 실수를 초래했다고 명시하므로, 원래 방식이 완벽했다는 주장은 명백히 거짓이다.\n\n⑤번: 지문은 \"문제를 무시하는 것\"이 아니라 \"문제를 해결하기 위해 전략을 변경\"했음을 보여주므로, 이 선지는 지문의 취지와 정반대이다.",
@@ -2678,10 +2678,10 @@ const QUESTION_BANK = [
     "passage": "A mountain rescue group's route notices faced a problem that could not be solved simply by repeating its usual routine. Hikers often missed warnings hidden in lengthy online documents. Rescuers placed concise notices at trail entrances and transit stops. At first glance, the adjustment might have seemed too limited to make a substantial difference; its effect became apparent only after the outcome was examined. More visitors learned about closures before reaching hazardous areas. This does not guarantee that the same measure will succeed in every setting, because resources and local needs may differ. Important information should reach people where decisions are made.",
     "given_sentence": "",
     "choices": [
-      "① The original arrangement was already perfect and required no reconsideration.",
-      "② The most effective strategy is to ignore the original problem until it disappears.",
-      "③ Any improvement proves that the same intervention will work in every location.",
-      "④ The outcome shows that gathering information is always less valuable than acting immediately.",
+      "① Placing notices at trail entrances removes the need to maintain any online safety documents.",
+      "② Shortening warning messages at transit stops is sufficient to prevent all hiking-related accidents.",
+      "③ The success of concise trail notices confirms they will produce identical results across all rescue operations.",
+      "④ Rescuers should prioritize reaching hazardous areas quickly over informing hikers about trail closures.",
       "⑤ Bringing key information directly to decision-makers increases its practical value"
     ],
     "answer": 5,
@@ -2712,11 +2712,11 @@ const QUESTION_BANK = [
     "passage": "A conservation group's camera traps faced a problem that could not be solved simply by repeating its usual routine. Wildlife counts based only on daytime sightings were misleading. Researchers installed motion-activated cameras along animal paths. The images revealed that several species were active mostly at night. Observation methods influence what investigators are able to detect.",
     "given_sentence": "",
     "choices": [
-      "① The most effective strategy is to ignore the original problem until it disappears.",
-      "② The original arrangement was already perfect and required no reconsideration.",
+      "① Installing motion-activated cameras along animal paths guarantees a complete record of all species in the area.",
+      "② Switching from daytime to nighttime observation is sufficient to resolve any wildlife monitoring challenge.",
       "③ The methods chosen for observation shape the kinds of discoveries researchers can make",
-      "④ Any improvement proves that the same intervention will work in every location.",
-      "⑤ The outcome shows that gathering information is always less valuable than acting immediately."
+      "④ Nocturnal species are inherently more difficult to conserve than those active during the day.",
+      "⑤ Camera traps are most valuable when researchers already know which species they are looking for."
     ],
     "answer": 3,
     "explanation": "[지문 해석]\n한 보존 단체의 카메라 덫이 통상적인 방식의 반복만으로는 해결할 수 없는 문제에 직면했다. 오직 낮 시간의 목격 사례만을 바탕으로 한 야생동물 개체 수 조사는 오도적이었다. 연구원들은 동물의 이동 경로를 따라 동작 감지 카메라를 설치했다. 그 영상들은 여러 종의 동물이 주로 밤에 활동한다는 것을 보여주었다. 관찰 방법은 조사자들이 무엇을 감지할 수 있는지에 영향을 미친다.\n\n[주요 어휘]\nconservation group : 보존 단체, 보호 단체\ncamera traps : 카메라 덫 (자동 촬영 카메라)\nmisleading : 오도하는, 잘못된 인상을 주는\nmotion-activated : 동작 감지식의, 움직임으로 작동하는\nwildlife counts : 야생동물 개수 조사\nnocturnal : 야행성의, 밤에 활동하는\nobservation methods : 관찰 방법\ndetect : 감지하다, 발견하다\nroutine : 일상적인 절차, 관례\nreveal : 드러내다, 밝혀내다\n\n[해설]\n이 글은 사례의 결과를 통해 “Observation methods influence what investigators are able to detect”라는 핵심 요지를 전달합니다.\n\n[오답 해설]\n①번: 문제를 무시하면 사라진다는 내용으로, 지문에서 카메라 설치로 문제를 적극적으로 해결한 것과 정반대의 태도를 제시하므로 오답이다.\n\n②번: 원래 방법이 완벽했다고 주장하지만, 지문은 주간 관찰만으로는 오도되는 결과를 얻었다고 명시하므로 오답이다.\n\n③번: 관찰 방법의 변화(야간 카메라 설치)가 새로운 발견(야행성 동물들의 활동)을 가능하게 했다는 내용으로, 지문의 핵심 메시지와 정확히 일치하므로 정답이다.\n\n④번: 한 지역의 개선이 모든 장소에서도 동일하게 작용한다고 일반화하는데, 지문은 특정 상황에서의 방법론 개선만을 다루고 있으므로 오답이다.\n\n⑤번: 정보 수집보다 즉시 행동이 더 가치 있다고 주장하지만, 지문은 더 나은 관찰 방법론이 더 정확한 정보를 제공함을 강조하므로 오답이다.",
@@ -2746,11 +2746,11 @@ const QUESTION_BANK = [
     "passage": "A school orchestra's rotating roles faced a problem that could not be solved simply by repeating its usual routine. The same students always selected the leading parts. The director rotated section responsibilities during practice. The outcome suggested that a carefully chosen change can be more productive than a broad but unfocused effort. More players learned to give cues and listen to the ensemble. Shared responsibility can develop skills that fixed hierarchies overlook.",
     "given_sentence": "",
     "choices": [
-      "① The outcome shows that gathering information is always less valuable than acting immediately.",
-      "② The original arrangement was already perfect and required no reconsideration.",
+      "① Assigning section leaders based on consistent performance ensures that orchestras maintain the highest musical standards.",
+      "② The director's intervention succeeded because the original role selection process had already distributed responsibilities evenly among all players.",
       "③ Rotating leadership roles helps participants build capabilities that rigid structures tend to suppress",
-      "④ Any improvement proves that the same intervention will work in every location.",
-      "⑤ The most effective strategy is to ignore the original problem until it disappears."
+      "④ Rotating section responsibilities works best when each player has already mastered every instrument in the ensemble.",
+      "⑤ The ensemble's improvement demonstrates that frequent changes in leadership roles will inevitably disrupt the overall coordination of a group."
     ],
     "answer": 3,
     "explanation": "[지문 해석]\n학교 오케스트라의 역할 순환 제도는 기존의 관례적인 방식만으로는 해결할 수 없는 문제에 직면했다. 항상 같은 학생들만 주요 파트를 맡게 되었기 때문이다. 지휘자는 연습 중에 섹션별 역할을 바꿔가며 진행했다. 그 결과는 광범위하지만 초점이 흐릿한 노력보다 신중하게 선택된 변화가 더 효과적일 수 있음을 시사했다. 더 많은 단원들이 신호를 주고 앙상블의 소리를 경청하는 법을 배웠다. 공동의 책임은 고정된 위계질서에서는 간과될 수 있는 기술들을 개발할 수 있다.\n\n[주요 어휘]\nrotating roles : 역할을 번갈아 맡기\nleading parts : 주요 역할, 중심 부분\nsection responsibilities : 섹션별 책임\nproductive : 생산적인, 효율적인\nunfocused effort : 초점 없는 노력\ngive cues : 신호를 주다\nensemble : 앙상블, 전체 합주\nshared responsibility : 공동 책임\nfixed hierarchies : 고정된 계층 구조\noverlook : 간과하다, 무시하다\n\n[해설]\n이 글은 사례의 결과를 통해 “Shared responsibility can develop skills that fixed hierarchies overlook”라는 핵심 요지를 전달합니다.\n\n[오답 해설]\n①번: 지문은 \"반복적인 일상 루틴으로는 해결할 수 없는 문제\"를 언급하며, 실제로 신중하게 선택된 변화(역할 순환)를 통해 긍정적 결과를 얻었으므로, 즉시 행동하는 것이 정보 수집보다 항상 낫다는 절대적 주장은 지문의 의도와 맞지 않는다.\n\n②번: 지문에서 \"같은 학생들만 주요 역할을 맡았다\"는 문제를 명시하고 있으므로, 원래의 고정된 구조가 이미 완벽했다는 주장은 지문 내용에 직접적으로 모순된다.\n\n③번: 지문의 핵심은 역할 순환을 통해 더 많은 연주자들이 신호를 주고 앙상블을 경청하는 능력을 배웠으며, 공유된 책임이 \"고정된 위계(fixed hierarchies)가 간과하는 기술을 발전시킬 수 있다\"는 것이므로, 정답이다.\n\n④번: 지문은 학교 오케스트라 사례의 결과를 보여줄 뿐, 같은 개입이 \"모든 장소에서\" 동일하게 효과적일 것이라고 일반화하지 않으므로 지문의 범위를 과도하게 확대한 주장이다.\n\n⑤번: 지문은 문제를 무시하는 것이 아니라 신중하게 선택된 변화를 통해 능동적으로 대응했으므로, 문제를 무시하면 사라진다는 주장은 지문의 해결 방식과 정반대이다.",
@@ -2780,11 +2780,11 @@ const QUESTION_BANK = [
     "passage": "A coffee cooperative's direct-trade reports faced a problem that could not be solved simply by repeating its usual routine. Customers saw prices but knew little about farmers' production costs. The cooperative published summaries of payments and seasonal risks. At first glance, the adjustment might have seemed too limited to make a substantial difference; its effect became apparent only after the outcome was examined. Buyers discussed fairness using more than the shop price. This does not guarantee that the same measure will succeed in every setting, because resources and local needs may differ. Transparent supply chains can make economic choices better informed.",
     "given_sentence": "",
     "choices": [
-      "① The most effective strategy is to ignore the original problem until it disappears.",
-      "② The original arrangement was already perfect and required no reconsideration.",
-      "③ The outcome shows that gathering information is always less valuable than acting immediately.",
+      "① Publishing seasonal risk summaries alone is sufficient to resolve all disputes between buyers and farmers",
+      "② Cooperatives benefit most when payment details remain confidential between producers and distributors",
+      "③ The cooperative's price disclosure succeeded primarily because it was introduced before any customer complaints arose",
       "④ When supply-chain origins are openly shared, consumers can make more thoughtful choices",
-      "⑤ Any improvement proves that the same intervention will work in every location."
+      "⑤ Once a cooperative publishes cost breakdowns, the same reporting model guarantees fairness across all farming regions"
     ],
     "answer": 4,
     "explanation": "[지문 해석]\n한 커피 협동조합의 직거래 보고서는 통상적인 방식의 반복만으로는 해결할 수 없는 문제에 직면했다. 고객들은 가격은 알았지만 농민들의 생산 비용에 대해서는 거의 알지 못했다. 협동조합은 지급액과 계절적 위험에 관한 요약 정보를 공개했다. 언뜻 보기에는 이러한 조정이 실질적인 변화를 가져오기에는 너무 제한적으로 보였지만, 그 효과는 결과를 검토한 후에야 드러났다. 구매자들은 상점의 가격보다 더 많은 것을 고려하여 공정성을 논의하기 시작했다. 이것이 모든 상황에서 같은 방식이 성공할 것을 보장하지는 않는데, 이는 자원과 지역의 필요가 서로 다를 수 있기 때문이다. 투명한 공급망은 경제적 선택을 보다 합리적으로 만들 수 있다.\n\n[주요 어휘]\n# 수능 영어 필수 어휘\n\n1. cooperative : 협동조합\n2. direct-trade : 직거래\n3. routine : 일상적인 절차, 관례\n4. production costs : 생산 비용\n5. adjustment : 조정, 개선\n6. substantial : 상당한, 의미 있는\n7. outcome : 결과, 성과\n8. fairness : 공정성\n9. guarantee : 보장하다\n10. transparent : 투명한\n11. supply chain : 공급망\n12. informed : 정보에 바탕을 둔\n\n[해설]\n이 글은 사례의 결과를 통해 “Transparent supply chains can make economic choices better informed”라는 핵심 요지를 전달합니다.\n\n[오답 해설]\n①번: 지문에서 협동조합이 문제를 해결하기 위해 적극적으로 정보를 공개했으므로, 문제를 무시하는 전략을 제안하는 것은 지문의 내용과 정반대다.\n\n②번: 지문은 기존의 관행으로는 해결할 수 없는 문제가 있었고 조정이 필요했다고 명시하고 있으므로, 원래 배치가 완벽했다는 주장은 거짓이다.\n\n③번: 지문은 정보 공개가 긍정적인 결과를 만들었다고 설명하므로, 정보 수집이 행동보다 덜 가치있다는 주장은 지문의 맥락에 맞지 않는다.\n\n④번: 지문의 마지막 문장 \"Transparent supply chains can make economic choices better informed\"가 직접 지지하며, 공급망의 투명성이 소비자의 더욱 신중한 선택을 가능하게 한다는 내용이 전체 지문의 핵심이다.\n\n⑤번: 지문에서 \"This does not guarantee that the same measure will succeed in every setting\"이라고 명시하여, 같은 개입이 모든 장소에서 작동한다는 주장을 직접 부정하고 있다.",
@@ -2831,11 +2831,11 @@ const QUESTION_BANK = [
     "passage": "A university's research archive faced a problem that could not be solved simply by repeating its usual routine. Old laboratory notebooks were scattered across different offices. Staff scanned the pages and added searchable descriptions. Researchers found experiments that would otherwise have been repeated. Preserving records can prevent unnecessary duplication of effort.",
     "given_sentence": "",
     "choices": [
-      "① Any improvement proves that the same intervention will work in every location.",
-      "② The most effective strategy is to ignore the original problem until it disappears.",
-      "③ The outcome shows that gathering information is always less valuable than acting immediately.",
+      "① Digitizing old laboratory notebooks is more important than training researchers to document their findings properly.",
+      "② Scattered records across different offices should be discarded rather than reorganized to save storage space.",
+      "③ Scanning and describing archival pages is worthwhile only when the number of repeated experiments exceeds a certain threshold.",
       "④ Well-maintained and accessible records help organizations avoid repeating completed work",
-      "⑤ The original arrangement was already perfect and required no reconsideration."
+      "⑤ Researchers who discover existing records should update and expand them rather than relying on the original descriptions."
     ],
     "answer": 4,
     "explanation": "[지문 해석]\n한 대학의 연구 자료실이 일상적인 방식만으로는 해결할 수 없는 문제에 직면했다. 오래된 실험실 노트들이 여러 사무실에 흩어져 있었던 것이다. 직원들은 페이지들을 스캔한 후 검색 가능한 설명을 추가했다. 덕분에 연구자들은 그렇지 않았다면 반복했을 실험들을 찾아낼 수 있었다. 이처럼 기록을 보존하면 불필요한 중복 작업을 방지할 수 있다.\n\n[주요 어휘]\narchive : 기록 보관소, 자료실\nscatter : 흩어져 있다, 분산되다\nscan : (문서를) 스캔하다\nsearchable : 검색 가능한\ndescription : 설명, 기술\nduplication : 중복, 반복\npreserve : 보존하다, 지키다\nprevent : 방지하다, 막다\nunnecessary : 불필요한, 필요 없는\nroutine : 일상적인 절차, 관례\nlaboratory notebook : 실험실 노트북\neffort : 노력, 시간과 에너지\n\n[해설]\n이 글은 사례의 결과를 통해 “Preserving records can prevent unnecessary duplication of effort”라는 핵심 요지를 전달합니다.\n\n[오답 해설]\n①번: \"어떤 개선도 같은 개입이 모든 장소에서 효과가 있음을 증명한다\"는 극단적 일반화 오류이다. 지문은 한 대학의 구체적 사례만 제시했으며, 이것이 모든 장소에 적용된다고 주장하지 않는다.\n\n②번: \"가장 효과적인 전략은 원래 문제를 무시하는 것\"이라고 주장하는데, 지문의 핵심은 적극적으로 문제를 해결한 긍정적 결과를 보여주므로 정반대의 내용이다.\n\n③번: \"정보 수집이 즉각적 행동보다 항상 덜 가치있다\"고 주장하지만, 지문은 오히려 정보를 체계적으로 정리하고 접근 가능하게 만든 결과 불필요한 중복을 방지했음을 강조한다.\n\n④번: 지문이 산재된 노트북을 정리하고 검색 가능하게 만든 결과 이미 수행된 실험의 중복을 피할 수 있었다는 내용과 정확히 일치한다. 기록의 유지·관리와 접근성이 중복 작업 방지에 도움이 된다는 주제를 완벽하게 포착했다.\n\n⑤번: \"원래 배치가 이미 완벽했고 재고찰이 필요 없었다\"는 주장은 지문에서 문제를 인식하고 해결한 내용과 완전히 모순된다.",
@@ -2865,10 +2865,10 @@ const QUESTION_BANK = [
     "passage": "A harbor town's seawall debate faced a problem that could not be solved simply by repeating its usual routine. Residents assumed a higher wall was the only flood solution. Engineers compared barriers with restored marshes and revised drainage. The outcome suggested that a carefully chosen change can be more productive than a broad but unfocused effort. The combined proposal addressed several risks rather than just wave height. Complex problems often require multiple complementary responses.",
     "given_sentence": "",
     "choices": [
-      "① The original arrangement was already perfect and required no reconsideration.",
-      "② Any improvement proves that the same intervention will work in every location.",
-      "③ The outcome shows that gathering information is always less valuable than acting immediately.",
-      "④ The most effective strategy is to ignore the original problem until it disappears.",
+      "① Raising the seawall height remains the most reliable solution when coastal flooding threatens a harbor town.",
+      "② Restoring marshes and improving drainage can fully replace the need for any structural flood barriers in coastal areas.",
+      "③ The engineers' comparison of barriers and marshes shows that flood prevention is best handled by specialists without resident input.",
+      "④ A community's initial assumption about flood risk should guide the final engineering decision even when alternatives exist.",
       "⑤ Tackling multifaceted challenges is more effective when several coordinated strategies are combined"
     ],
     "answer": 5,
@@ -2899,11 +2899,11 @@ const QUESTION_BANK = [
     "passage": "A community radio station's translation project faced a problem that could not be solved simply by repeating its usual routine. Emergency announcements reached only speakers of the majority language. Volunteers prepared versions in the languages used locally. At first glance, the adjustment might have seemed too limited to make a substantial difference; its effect became apparent only after the outcome was examined. More residents understood where to find assistance during a storm. This does not guarantee that the same measure will succeed in every setting, because resources and local needs may differ. Inclusive communication improves the reach of essential information.",
     "given_sentence": "",
     "choices": [
-      "① Any improvement proves that the same intervention will work in every location.",
+      "① Translating emergency announcements into local languages guarantees equal outcomes across all communities.",
       "② Adapting messages to varied audiences extends the impact of important information",
-      "③ The outcome shows that gathering information is always less valuable than acting immediately.",
-      "④ The original arrangement was already perfect and required no reconsideration.",
-      "⑤ The most effective strategy is to ignore the original problem until it disappears."
+      "③ The delay in recognizing the translation project's impact suggests that volunteer efforts are rarely worth pursuing.",
+      "④ Broadcasting emergency information in the majority language alone is sufficient when resources for translation are limited.",
+      "⑤ Community radio stations should prioritize expanding their volunteer base rather than adjusting the content of their announcements."
     ],
     "answer": 2,
     "explanation": "[지문 해석]\n지역사회 라디오 방송국의 번역 프로젝트는 기존의 관례적 방식을 반복하는 것만으로는 해결할 수 없는 문제에 직면했다. 긴급 공지사항은 주류 언어 사용자들에게만 전달되고 있었던 것이다. 자원봉사자들은 지역에서 실제로 사용되는 여러 언어로 된 버전을 준비했다. 언뜻 보기에 이러한 조치는 너무 제한적이어서 실질적인 변화를 만들어내기 어려워 보였으나, 그 효과는 결과를 검토한 후에야 명확해졌다. 폭풍우 발생 시 더 많은 주민들이 지원을 받을 수 있는 장소를 파악할 수 있게 된 것이다. 다만 이 방법이 모든 상황에서 성공을 보장하는 것은 아닌데, 이는 지역마다 보유한 자원과 필요한 것들이 다르기 때문이다. 포용적인 소통은 필수 정보가 더 많은 사람들에게 도달하도록 한다.\n\n[주요 어휘]\n1. community radio station : 지역 라디오 방송국\n2. translation project : 번역 프로젝트\n3. routine : 일상적인 절차, 관례\n4. emergency announcements : 긴급 공지사항\n5. majority language : 다수 언어\n6. substantial difference : 실질적인 차이\n7. outcome : 결과, 성과\n8. inclusive communication : 포용적 의사소통\n9. essential information : 필수 정보\n10. resources : 자원, 수단\n\n[해설]\n이 글은 사례의 결과를 통해 “Inclusive communication improves the reach of essential information”라는 핵심 요지를 전달합니다.\n\n[오답 해설]\n①번: 지문에서 \"This does not guarantee that the same measure will succeed in every setting\"이라고 명시되어 있으므로, 같은 개입이 모든 장소에서 성공한다고 주장하는 이 선지는 지문 내용과 정반대이다.\n\n②번: 지문의 핵심은 다양한 언어로 메시지를 조정함으로써(adapting messages to varied audiences) 더 많은 주민들이 필수 정보에 접근할 수 있게 되었다는 것으로, \"포용적 의사소통은 필수 정보의 도달범위를 개선한다\"는 주제와 정확히 일치한다.\n\n③번: 지문은 즉각적인 행동(volunteers prepared versions)의 중요성을 보여주지만, 정보 수집과 즉시 행동 중 어느 것이 더 가치 있는지 비교하지 않으며, 이는 지문의 초점이 아니다.\n\n④번: 지문 첫 부분에서 \"faced a problem that could not be solved simply by repeating its usual routine\"이라고 원래 체계에 문제가 있었음을 명확히 나타내므로, 이 선지는 거짓이다.\n\n⑤번: 지문은 문제를 직시하고 해결책을 적극적으로 마련한 것(volunteers prepared versions)을 긍정적으로 보여주므로, 문제를 무시하는 것을 권장하는 이 선지는 지문의 취지에 반한다.",
@@ -2933,9 +2933,9 @@ const QUESTION_BANK = [
     "passage": "A music school's instrument loans faced a problem that could not be solved simply by repeating its usual routine. Children from lower-income families struggled to afford instruments. The school created a lending program supported by donations. More students could join ensembles before deciding what to purchase. Reducing upfront costs can widen access to an activity.",
     "given_sentence": "",
     "choices": [
-      "① The outcome shows that gathering information is always less valuable than acting immediately.",
-      "② The most effective strategy is to ignore the original problem until it disappears.",
-      "③ The original arrangement was already perfect and required no reconsideration.",
+      "① Donation-based lending programs succeed only when the donated instruments are of professional quality",
+      "② Students from lower-income families benefit most when they are encouraged to purchase instruments before joining ensembles",
+      "③ A school's instrument lending program works best when it limits participation to students who have already chosen a specific instrument",
       "④ Lowering the initial cost barrier allows a broader range of people to engage in an activity",
       "⑤ Any improvement proves that the same intervention will work in every location."
     ],
@@ -2967,11 +2967,11 @@ const QUESTION_BANK = [
     "passage": "A university's open lecture series faced a problem that could not be solved simply by repeating its usual routine. Academic talks were advertised mainly within departments. Organizers added plain-language summaries and evening sessions. The outcome suggested that a carefully chosen change can be more productive than a broad but unfocused effort. Residents without university affiliations began attending regularly. Changing the invitation can change who feels welcome.",
     "given_sentence": "",
     "choices": [
-      "① The original arrangement was already perfect and required no reconsideration.",
-      "② The most effective strategy is to ignore the original problem until it disappears.",
-      "③ The outcome shows that gathering information is always less valuable than acting immediately.",
+      "① Adding plain-language summaries alone is sufficient to make academic lectures accessible to outside residents.",
+      "② Evening sessions proved more influential than any change to the wording of invitations in drawing new attendees.",
+      "③ Advertising lectures across multiple departments simultaneously is the most reliable way to broaden audience participation.",
       "④ Revising how an event is promoted can attract participants who would otherwise feel excluded",
-      "⑤ Any improvement proves that the same intervention will work in every location."
+      "⑤ Once non-affiliated residents begin attending, extending the lecture series to additional venues ensures continued growth."
     ],
     "answer": 4,
     "explanation": "[지문 해석]\n한 대학의 공개 강연 시리즈가 기존의 관행을 반복하는 것만으로는 해결할 수 없는 문제에 직면했다. 학술 강연은 주로 각 학과 내에서만 광고되었다. 주최측은 일반인을 위한 요약본을 추가하고 저녁 시간대 강연을 개설했다. 그 결과는 광범위하지만 초점이 흐릿한 노력보다 신중하게 선택된 변화가 훨씬 더 효과적일 수 있음을 시사했다. 대학 소속이 아닌 지역 주민들이 정기적으로 참석하기 시작했다. 초대 방식을 바꾸면 누가 환영받는다고 느끼는지도 달라진다.\n\n[주요 어휘]\nopen lecture series : 공개 강연 시리즈\nadvertise : 광고하다, 알리다\nplain-language : 평이한 언어의, 일반인이 이해하기 쉬운\naffiliation : 소속, 관계\noutcome : 결과, 성과\ncarefully chosen : 신중하게 선택된\nproductive : 효과적인, 생산적인\nunfocused : 초점이 맞지 않은, 산만한\nroutine : 일상적인 방식, 관례\nbroad : 광범위한, 폭넓은\nfeel welcome : 환영받는 느낌을 받다\ninvitation : 초대, 제시 방식\n\n[해설]\n이 글은 사례의 결과를 통해 “Changing the invitation can change who feels welcome”라는 핵심 요지를 전달합니다.\n\n[오답 해설]\n①번: 지문에서 \"문제를 단순히 반복해서는 해결할 수 없었다\"고 명시되어 있으므로, 원래 방식이 완벽했다는 주장은 지문의 내용과 정반대이다.\n\n②번: 지문은 문제를 적극적으로 해결하기 위해 구체적인 조치(요약문 추가, 저녁 시간 세션)를 취했다고 설명하므로, 문제를 무시하는 전략을 지지하지 않는다.\n\n③번: 지문은 신중하게 선택된 변화(정보 수집 후 실행)가 광범위하지만 비효율적인 노력보다 더 생산적이라고 강조하므로, 정보 수집을 무시하고 즉시 행동하는 것을 지지하지 않는다.\n\n④번: 지문에서 행사 홍보 방식을 변경(부서 내 공고에서 요약문과 저녁 시간 추가)함으로써 대학 소속이 없는 주민들이 참석하게 되었으므로, 촉외 방식의 개선이 소외된 참여자들을 끌어들였다는 내용과 정확히 일치한다.\n\n⑤번: 지문은 특정 상황에서 신중하게 선택된 변화가 효과적이었다고 말할 뿐, 동일한 개입이 모든 지역에서 작동할 것이라고 일반화하지 않는다.",
@@ -3001,11 +3001,11 @@ const QUESTION_BANK = [
     "passage": "A museum's children-led tours faced a problem that could not be solved simply by repeating its usual routine. Adult guides usually decided which objects deserved attention. The museum invited children to select exhibits and prepare questions. At first glance, the adjustment might have seemed too limited to make a substantial difference; its effect became apparent only after the outcome was examined. Families noticed unusual details that standard tours overlooked. This does not guarantee that the same measure will succeed in every setting, because resources and local needs may differ. New perspectives can reveal value in familiar collections.",
     "given_sentence": "",
     "choices": [
-      "① The outcome shows that gathering information is always less valuable than acting immediately.",
+      "① Involving children in museum tours guarantees that every family will find the experience equally engaging",
       "② Applying a fresh perspective to existing materials can uncover value that was previously overlooked",
-      "③ The most effective strategy is to ignore the original problem until it disappears.",
-      "④ The original arrangement was already perfect and required no reconsideration.",
-      "⑤ Any improvement proves that the same intervention will work in every location."
+      "③ The museum's improvement came primarily from adult guides revising the questions they had always used",
+      "④ Standard tours led by adult guides remain the most reliable method for highlighting the true value of museum collections",
+      "⑤ Once children's perspectives are introduced to museum tours, the same approach can be applied universally across all institutions"
     ],
     "answer": 2,
     "explanation": "[지문 해석]\n어린이 중심의 박물관 투어는 일상적인 루틴을 반복하는 것만으로는 해결할 수 없는 문제에 직면했다. 성인 안내자들은 보통 어떤 전시물에 주목할 가치가 있는지를 결정했다. 박물관은 어린이들에게 전시물을 선택하고 질문을 준비하도록 초대했다. 언뜻 보면 이러한 변화는 의미 있는 차이를 만들기에는 너무 제한적으로 보였지만, 그 효과는 결과를 검토한 후에야 분명해졌다. 가족들은 표준 투어에서 놓친 특이한 세부 사항들을 발견했다. 이것이 모든 환경에서 같은 조치가 성공할 것을 보장하지는 않는데, 그 이유는 자원과 지역의 필요가 다를 수 있기 때문이다. 새로운 관점은 익숙한 소장품들 속에서 가치를 드러낼 수 있다.\n\n[주요 어휘]\n1. children-led tours : 어린이 주도 투어\n2. routine : 일상적인 절차, 관례\n3. deserved attention : 주목할 가치가 있다\n4. select : 선택하다\n5. at first glance : 언뜻 보기에, 처음에는\n6. substantial difference : 상당한 차이\n7. overlooked : 놓치다, 간과하다\n8. guarantee : 보장하다\n9. resources : 자원, 수단\n10. reveal value : 가치를 드러내다\n11. familiar collections : 익숙한 컬렉션\n12. perspectives : 관점, 시각\n\n[해설]\n이 글은 사례의 결과를 통해 “New perspectives can reveal value in familiar collections”라는 핵심 요지를 전달합니다.\n\n[오답 해설]\n①번: 지문은 아이들의 참여라는 행동을 통해 긍정적인 결과를 얻었다고 설명하므로, 행동을 무시하는 것이 문제 해결책이라는 주장은 지문의 주요 내용과 모순된다.\n\n②번: 지문에서 아이들이 새로운 관점(fresh perspective)으로 전시물을 선택하자 기존 투어에서 놓친 세부사항(unusual details)을 발견했다는 내용이 정확히 드러나므로, 이 선지는 지문의 핵심 메시지를 올바르게 요약한다.\n\n③번: 지문은 문제 해결을 위해 적극적으로 박물관의 관례를 변화시켰다고 설명하므로, 문제를 무시하는 것이 해결책이라는 주장은 지문의 의도와 정반대이다.\n\n④번: 지문이 \"a problem that could not be solved simply by repeating its usual routine\"이라고 명시하여 기존 방식의 문제점을 지적했으므로, 원래 배치가 완벽했다는 주장은 거짓이다.\n\n⑤번: 지문의 마지막 부분에서 \"This does not guarantee that the same measure will succeed in every setting\"이라고 명확히 한정했으므로, 모든 장소에 같은 방법이 통할 것이라는 주장은 지문과 직접 모순된다.",
@@ -3035,9 +3035,9 @@ const QUESTION_BANK = [
     "passage": "A countryside observatory's dark-sky policy faced a problem that could not be solved simply by repeating its usual routine. Powerful outdoor lamps washed out faint stars above the village. Residents installed shielded lights aimed toward the ground. Night visibility remained usable while the sky grew darker. Careful design can reconcile competing environmental needs.",
     "given_sentence": "",
     "choices": [
-      "① The original arrangement was already perfect and required no reconsideration.",
-      "② Any improvement proves that the same intervention will work in every location.",
-      "③ The outcome shows that gathering information is always less valuable than acting immediately.",
+      "① Shielding outdoor lamps from the sky is ultimately too costly for small rural communities to adopt",
+      "② Replacing powerful lamps with shielded ones forces residents to sacrifice nighttime visibility for astronomical goals",
+      "③ The observatory's dark-sky problem was resolved only after the village agreed to eliminate all outdoor lighting entirely",
       "④ Thoughtful engineering can allow different environmental priorities to be met simultaneously",
       "⑤ The most effective strategy is to ignore the original problem until it disappears."
     ],
@@ -3069,10 +3069,10 @@ const QUESTION_BANK = [
     "passage": "A neighborhood gym's beginner hours faced a problem that could not be solved simply by repeating its usual routine. New members avoided busy sessions because they felt inexperienced. The gym offered guided quiet periods with introductory demonstrations. The outcome suggested that a carefully chosen change can be more productive than a broad but unfocused effort. More beginners returned and gradually joined regular classes. Reducing social pressure can make participation more inclusive.",
     "given_sentence": "",
     "choices": [
-      "① The most effective strategy is to ignore the original problem until it disappears.",
-      "② The original arrangement was already perfect and required no reconsideration.",
-      "③ The outcome shows that gathering information is always less valuable than acting immediately.",
-      "④ Any improvement proves that the same intervention will work in every location.",
+      "① Scheduling dedicated beginner sessions is less effective than simply expanding the gym's overall capacity",
+      "② Introductory demonstrations are most beneficial when offered during the gym's busiest hours rather than quieter periods",
+      "③ Attracting new gym members depends more on upgrading equipment than on reducing the pressure of group settings",
+      "④ Once beginners feel comfortable in guided sessions, they rarely feel motivated to transition into regular classes",
       "⑤ Easing the social expectations placed on newcomers can broaden participation in an activity"
     ],
     "answer": 5,
@@ -3105,9 +3105,9 @@ const QUESTION_BANK = [
     "choices": [
       "① relying exclusively on taller barriers",
       "② working with ecological processes",
-      "③ removing all uncertainty from complex decisions",
-      "④ assuming that the first interpretation is always correct",
-      "⑤ pursuing immediate gains regardless of future effects"
+      "③ minimizing the physical footprint of coastal infrastructure",
+      "④ replacing natural landscapes with engineered flood barriers",
+      "⑤ strengthening seawalls gradually rather than rebuilding them entirely"
     ],
     "answer": 2,
     "explanation": "[지문 해석]\n한 해안 도시가 콘크리트 방파제를 복원된 습지로 교체했다. 폭풍 동안 갈대는 파도를 늦추었고 포화된 지면은 초과 수량을 저장했다. 이 프로젝트는 모든 자연력에 저항하려고 시도하지 않고도 성공했다. 핵심 교훈은 지속 가능한 성공이 더 높은 방벽에만 의존하기보다는 __________에 달려 있을 수 있다는 것이다.\n\n[주요 어휘]\ncoastal : 해안의\nconcrete : 콘크리트의, 콘크리트로 만든\nmarsh : 습지, 늪\nrestore : 복원하다, 회복하다\nreed : 갈대\nsaturated : 포화된, 흠�뿍 젖은\nexcess : 초과, 과잉\nresist : 저항하다, 맞서다\nlasting : 오래 지속되는, 장기적인\nrely on : ~에 의존하다\nexclusively : 오직, 전적으로\nbarrier : 장벽, 방벽\n\n[해설]\n지문에 제시된 관찰과 결과가 working with ecological processes의 중요성을 보여 줍니다. 다른 선택지는 근거가 없거나 지문의 대조 관계에 어긋납니다.\n\n[오답 해설]\n①번: 지문에서 \"rather than relying exclusively on taller barriers\"라고 명시되어 있으므로, 빈칸에 같은 내용이 들어가면 문장이 중복되고 논리적 대비 구조가 성립하지 않는다.\n\n②번: 지문의 핵심 사례인 '습지 복원 프로젝트'에서 자연의 힘(갈대, 포화된 토양)을 활용하여 홍수 피해를 해결한 것처럼, 자연 생태 과정과 협력하는 방식이 장기적 성공의 열쇠라는 중심 메시지와 정확히 부합한다.\n\n③번: 지문은 자연과의 협력 방식을 강조하고 있으며, 의사결정에서 불확실성을 제거하는 것과는 전혀 무관한 내용이므로 맥락에 맞지 않는다.\n\n④번: 지문의 주제는 자연과 협력하는 방식에 관한 것이지, 첫 번째 해석이 항상 옳은지에 대한 논리적 오류와는 관련이 없으므로 부적절하다.\n\n⑤번: 지문의 '습지 복원' 사례는 장기적 관점의 지속 가능한 해결책을 제시하므로, 단기 이익만 추구하는 것과는 오히려 대조되는 입장이다.",
@@ -3121,9 +3121,9 @@ const QUESTION_BANK = [
     "given_sentence": "",
     "choices": [
       "① treating one testimony as complete",
-      "② removing all uncertainty from complex decisions",
-      "③ assuming that the first interpretation is always correct",
-      "④ pursuing immediate gains regardless of future effects",
+      "② relying on the organizers' records as the most accurate",
+      "③ selecting the most detailed account among the witnesses",
+      "④ verifying each testimony through official documentation",
       "⑤ comparing partial perspectives"
     ],
     "answer": 5,
@@ -3156,9 +3156,9 @@ const QUESTION_BANK = [
     "choices": [
       "① autonomy within clear expectations",
       "② freedom from any academic requirements",
-      "③ removing all uncertainty from complex decisions",
-      "④ assuming that the first interpretation is always correct",
-      "⑤ pursuing immediate gains regardless of future effects"
+      "③ offering unlimited project choices without academic standards",
+      "④ matching student interests to teacher-assigned topics",
+      "⑤ raising attendance through stricter deadlines and grading"
     ],
     "answer": 1,
     "explanation": "[지문 해석]\n한 학교는 학생들에게 동등하게 어려운 프로젝트 중에서 선택할 수 있도록 허용했다. 학생들이 과제를 자신의 관심사와 연결할 수 있었기 때문에 출석률이 향상되었는데, 비록 제출 기한과 기준은 엄격하게 유지되었다. 핵심적인 교훈은 지속적인 성공이 어떤 학업 요구로부터의 자유가 아니라 __________에 달려 있을 수 있다는 것이다.\n\n[주요 어휘]\ndemanding : 까다로운, 어려운\nattendance : 출석, 참석\nconnect to : ~과 연결하다\ninterest : 관심사, 흥미\ndeadline : 마감일\nstandard : 기준, 수준\nfirm : 확고한, 단호한\nlasting : 지속적인, 오래가는\ndepend on : ~에 달려있다\nfreedom from : ~으로부터의 자유\nacademic requirement : 학업 요구사항\n\n[해설]\n지문에 제시된 관찰과 결과가 autonomy within clear expectations의 중요성을 보여 줍니다. 다른 선택지는 근거가 없거나 지문의 대조 관계에 어긋납니다.\n\n[오답 해설]\n①번: 정답. 학생들이 프로젝트를 선택할 수 있는 자율성(autonomy)을 가지되, 마감일과 기준이라는 명확한 기준(clear expectations) 내에서 이루어졌을 때 성공했다는 지문의 핵심을 정확히 반영한다.\n\n②번: 지문에서 \"deadlines and standards remained firm\"이라고 명시되어 있으므로 학문적 요구사항을 완전히 제거하는 것은 지문의 의도와 정반대이다.\n\n③번: 지문은 학생들이 관심사와 과제를 연결할 수 있도록 선택지를 제공했으므로, 모든 불확실성을 제거하는 것과는 무관하며 오히려 선택의 여지를 준 것이다.\n\n④번: 지문에서 해석의 정확성이나 첫 번째 해석에 대한 언급이 전혀 없으므로 문맥과 무관한 선지이다.\n\n⑤번: 지문은 명확한 기준과 마감일을 유지하면서 학생들의 선택을 허용했으므로, 즉각적인 이득을 무분별하게 추구하는 것과는 거리가 멀다.",
@@ -3190,9 +3190,9 @@ const QUESTION_BANK = [
     "choices": [
       "① isolating every institution’s evidence",
       "② cooperation across limited datasets",
-      "③ removing all uncertainty from complex decisions",
-      "④ assuming that the first interpretation is always correct",
-      "⑤ pursuing immediate gains regardless of future effects"
+      "③ anonymizing patient records within each hospital",
+      "④ identifying the rarest side effects before sharing data",
+      "⑤ expanding each institution's case volume independently"
     ],
     "answer": 2,
     "explanation": "[지문 해석]\n두 병원이 익명화된 기록을 공유하여 드문 부작용을 탐지했다. 어느 한 기관도 패턴을 단독으로 파악할 수 있을 만큼 충분한 사례를 보유하지 못했지만, 함께라면 책임감 있게 이를 검토할 수 있었다. 이것이 시사하는 핵심은 지속적인 성공이 모든 기관의 증거를 고립시키는 것보다는 __________에 달려 있을 수 있다는 점이다.\n\n[주요 어휘]\nanonymized : 익명화된\nrare : 드문, 희귀한\nside effects : 부작용\ninstitution : 기관, 단체\npossess : 소유하다, 보유하다\ndetect : 감지하다, 발견하다\npattern : 패턴, 양식\nexamine : 검토하다, 조사하다\nresponsibly : 책임감 있게\nlasting success : 지속적인 성공\nisolating : 고립시키다, 분리하다\ncollaboration : 협력, 협업\n\n[해설]\n지문에 제시된 관찰과 결과가 cooperation across limited datasets의 중요성을 보여 줍니다. 다른 선택지는 근거가 없거나 지문의 대조 관계에 어긋납니다.\n\n[오답 해설]\n①번: 지문에서 \"rather than isolating every institution's evidence\"라고 명시되어 있으므로, 정답과 정반대되는 내용입니다. 이는 피해야 할 방식으로 제시되었으므로 틀렸습니다.\n\n②번: 두 병원이 각각 부족한 사례를 함께 공유하여 패턴을 발견했다는 내용과 정확히 일치합니다. 제한된 데이터셋들 간의 협력이 성공의 핵심이라는 지문의 주제를 완벽하게 반영합니다.\n\n③번: 지문은 \"책임 있게 검토할 수 있었다\"고 했지, 모든 불확실성을 제거할 수 있다고 말하지 않습니다. 과도하게 절대적인 표현으로 지문의 의도와 맞지 않습니다.\n\n④번: 지문에서 두 기관이 함께 패턴을 검토했다는 것은 신중한 검증 과정을 의미하며, \"첫 해석이 항상 맞다\"는 성급한 가정과는 무관합니다.\n\n⑤번: 지문은 책임 있는 검토와 협력을 강조하고 있으며, 장기적 성공을 언급하고 있으므로 \"즉각적 이득을 우선시한다\"는 내용과는 배치됩니다.",
@@ -3207,8 +3207,8 @@ const QUESTION_BANK = [
     "choices": [
       "① the length of any one isolated lane",
       "② removing all uncertainty from complex decisions",
-      "③ assuming that the first interpretation is always correct",
-      "④ pursuing immediate gains regardless of future effects",
+      "③ the total mileage of lanes built across the city",
+      "④ the speed at which each individual lane was constructed",
       "⑤ network connectivity"
     ],
     "answer": 5,
@@ -3241,9 +3241,9 @@ const QUESTION_BANK = [
     "choices": [
       "① learning from weak warning signals",
       "② waiting for major failures",
-      "③ removing all uncertainty from complex decisions",
-      "④ assuming that the first interpretation is always correct",
-      "⑤ pursuing immediate gains regardless of future effects"
+      "③ rewarding engineers who prevent the most accidents",
+      "④ reporting near misses only after repeated occurrences",
+      "⑤ fixing hazards as soon as workers are actually injured"
     ],
     "answer": 1,
     "explanation": "[지문 해석]\n공장의 근로자들은 아무도 다치지 않았을 때에도 아차사고를 보고하도록 권장받았다. 엔지니어들은 반복되는 위험 요소들을 파악하고 사고가 발생하기 전에 이를 바로잡았다. 핵심적인 교훈은 지속적인 성공이 __________보다는 주요 실패를 기다리는 것에 달려 있을 수도 있다는 것이다.\n\n[주요 어휘]\nnear miss : 거의 일어날 뻔한 사건 (실제 피해 없이)\nrecurring : 반복되는, 재발하는\nhazard : 위험, 위험 요소\ncorrect : 바로잡다, 수정하다\nlasting : 지속적인, 오래 지속되는\nsuccess : 성공\ndepend on : ~에 달려 있다, ~에 의존하다\nproactive measures : 사전 예방 조치\nwait for : 기다리다\nmajor failure : 큰 실패, 주요 결함\nbefore : ~하기 전에, 그 전\n\n[해설]\n지문에 제시된 관찰과 결과가 learning from weak warning signals의 중요성을 보여 줍니다. 다른 선택지는 근거가 없거나 지문의 대조 관계에 어긋납니다.\n\n[오답 해설]\n①번: 정답. 지문에서 근로자들이 사소한 사건(near misses)을 보고하고, 엔지니어들이 반복되는 위험을 식별해 대사를 방지했으므로, 약한 경고 신호에서 배우는 것이 지속적인 성공의 핵심임을 나타낸다.\n\n②번: 오답. \"waiting for major failures\"는 지문의 \"before accidents occurred\"와 직접 모순되며, 지문이 제시한 중앙 교훈의 반대 개념이다.\n\n③번: 오답. 지문에서 불확실성 제거에 대해 언급하지 않으며, 근로자 보고 시스템이 모든 불확실성을 없애는 것이 아니라 위험을 조기에 식별하는 것이 핵심이다.\n\n④번: 오답. 첫 번째 해석의 정확성에 대한 내용이 지문에 없으며, 지문의 초점은 반복되는 패턴 식별에 있다.\n\n⑤번: 오답. 즉각적인 이득 추구에 대한 내용이 없으며, 지문은 오히려 장기적 성공을 위한 사전 예방적 접근을 강조한다.",
@@ -3275,9 +3275,9 @@ const QUESTION_BANK = [
     "choices": [
       "① food composition alone",
       "② the social context of behavior",
-      "③ removing all uncertainty from complex decisions",
-      "④ assuming that the first interpretation is always correct",
-      "⑤ pursuing immediate gains regardless of future effects"
+      "③ the caloric density of each individual meal",
+      "④ the timing of food intake rather than eating companions",
+      "⑤ strict adherence to a standardized dietary plan"
     ],
     "answer": 2,
     "explanation": "[지문 해석]\n한 영양 연구원은 참가자들에게 자신들이 무엇을 먹었는지뿐만 아니라 언제, 누구와 함께 먹었는지를 물었다. 이러한 추가적인 맥락은 동일한 식단이 왜 서로 다른 습관을 만들어냈는지를 설명해 주었다. 핵심적인 교훈은 지속적인 성공이 __________ 보다는 오히려 식품 구성에만 의존할 수도 있다는 것이다.\n\n[주요 어휘]\nnutrition researcher : 영양 연구원\nparticipants : 참가자들\nidentical : 동일한, 같은\nfood plans : 식단 계획\nproduce : 만들다, 야기하다\nhabits : 습관\ncontext : 맥락, 상황\nlasting success : 지속적인 성공\ndepend on : ~에 달려있다\ncomposition : 구성, 성분\nrather than : ~보다는, ~이 아니라\n\n[해설]\n지문에 제시된 관찰과 결과가 the social context of behavior의 중요성을 보여 줍니다. 다른 선택지는 근거가 없거나 지문의 대조 관계에 어긋납니다.\n\n[오답 해설]\n①번: 지문에서 \"rather than food composition alone\"이라고 명시되어 있으므로, food composition alone은 정답이 될 수 없습니다. 오답의 함정으로 사용된 선지입니다.\n\n②번: 연구자가 \"언제, 누구와\" 먹었는지를 추가로 조사했고, 이것이 동일한 식단이 다른 결과를 만드는 이유를 설명했습니다. 따라서 사회적 맥락(when and with whom)이 식단 구성보다 성공에 더 중요하다는 결론과 일치합니다.\n\n③번: 지문에는 '불확실성을 제거'하거나 '복잡한 결정'에 대한 내용이 없습니다. 연구의 초점은 식습관 형성의 사회적 요인을 파악하는 것이지, 불확실성 제거가 아닙니다.\n\n④번: 지문에서 \"첫 번째 해석이 항상 맞다\"는 내용은 전혀 언급되지 않습니다. 연구자는 오히려 추가 정보를 통해 더 정확한 해석을 얻었으므로 정반대 논리입니다.\n\n⑤번: 지문은 식습관의 장기적 성공에 대해 다루고 있으며, \"즉각적 이득을 추구하는 것\"은 언급되지 않습니다. 논의의 초점이 맞지 않는 선지입니다.",
@@ -3291,9 +3291,9 @@ const QUESTION_BANK = [
     "given_sentence": "",
     "choices": [
       "① one final plan fixed in advance",
-      "② removing all uncertainty from complex decisions",
-      "③ assuming that the first interpretation is always correct",
-      "④ pursuing immediate gains regardless of future effects",
+      "② completing each repair phase without revisiting prior decisions",
+      "③ minimizing engineer involvement once construction begins",
+      "④ halting traffic entirely until the bridge is fully restored",
       "⑤ adaptive decision-making"
     ],
     "answer": 5,
@@ -3326,9 +3326,9 @@ const QUESTION_BANK = [
     "choices": [
       "① diversity as a form of resilience",
       "② uniformity as a guarantee of security",
-      "③ removing all uncertainty from complex decisions",
-      "④ assuming that the first interpretation is always correct",
-      "⑤ pursuing immediate gains regardless of future effects"
+      "③ expanding the yield of a single high-performing variety",
+      "④ isolating each crop variety to prevent disease spread",
+      "⑤ selecting only the cultivar most resistant to known diseases"
     ],
     "answer": 1,
     "explanation": "[지문 해석]\n한 과수원이 높은 수확량을 자랑하는 단일 품종 대신 여러 사과 품종을 재배했다. 어느 해에는 인기 있는 품종이 질병으로 피해를 입었지만, 다른 품종들은 계속해서 생산을 유지했다. 이 사례가 보여주는 핵심 교훈은 안정성을 보장하는 수단으로서 획일성보다는 __________이 장기적인 성공을 좌우할 수 있다는 것이다.\n\n[주요 어휘]\norchard : 과수원\ncultivar : 재배 품종\nhigh-yield : 고수율의, 높은 수확량의\ndisease : 질병, 병\nvariety : 다양성, 여러 종류\nuniformity : 획일성, 일관성\nsecurity : 안전, 안정성\nlasting : 지속적인, 오래가는\nguarantee : 보장하다, 보장\ndiversity : 다양성\nresilience : 회복력, 탄력성\ndependency : 의존\n\n[해설]\n지문에 제시된 관찰과 결과가 diversity as a form of resilience의 중요성을 보여 줍니다. 다른 선택지는 근거가 없거나 지문의 대조 관계에 어긋납니다.\n\n[오답 해설]\n①번: 정답. 지문은 다양한 품종 재배로 인해 한 품종의 질병에도 전체 수확이 보장되었다는 내용으로, 다양성이 회복력의 형태라는 의미와 정확히 일치한다.\n\n②번: 지문에서 \"rather than uniformity\"라고 명시되어 있으므로, 균일성은 오히려 거부되는 개념이다. 또한 지문은 균일성의 위험성을 보여주므로 틀렸다.\n\n③번: 지문은 구체적 사례를 통해 다양성의 중요성을 제시할 뿐, 복잡한 결정에서 모든 불확실성을 제거하는 것에 대해서는 언급하지 않는다.\n\n④번: 지문은 다양한 해석이나 첫 번째 해석의 정확성에 관한 내용이 아니라, 실제 사례를 통해 도출된 경제적 원칙을 다룬다.\n\n⑤번: 지문은 장기적 성공을 위해 다양성이 필요하다는 긍정적 메시지를 전달하므로, 단기 이익만 추구하는 태도와는 무관하고 맞지 않다.",
@@ -3360,9 +3360,9 @@ const QUESTION_BANK = [
     "choices": [
       "① punishment as the only source of motivation",
       "② feedback that changes social expectations",
-      "③ removing all uncertainty from complex decisions",
-      "④ assuming that the first interpretation is always correct",
-      "⑤ pursuing immediate gains regardless of future effects"
+      "③ monitoring that tracks each household's daily water usage",
+      "④ incentives that reward the highest-consuming residents",
+      "⑤ regulations that apply uniform standards across all neighborhoods"
     ],
     "answer": 2,
     "explanation": "[지문 해석]\n어느 도시가 주민들에게 각 가정을 유사한 이웃 가정들과 비교하는 물 사용량 차트를 제공했다. 새로운 처벌이 도입되지 않았음에도 불구하고 소비량이 감소했다. 여기서 얻을 수 있는 핵심적인 교훈은 지속적인 성공이 처벌을 유일한 동기 부여의 원천으로 삼기보다는 __________에 달려 있을 수 있다는 것이다.\n\n[주요 어휘]\nissue : 발행하다, 제공하다\nresident : 주민, 거주자\nwater-use chart : 용수 사용 현황표\nhousehold : 가정, 가구\nconsumption : 소비(량)\npenalty : 벌금, 처벌\nintroduce : 도입하다, 시행하다\nlasting : 지속적인, 오래가는\nmotivation : 동기, 원동력\nsocial comparison : 사회적 비교\nincentive : 유인책, 장려책\n\n[해설]\n지문에 제시된 관찰과 결과가 feedback that changes social expectations의 중요성을 보여 줍니다. 다른 선택지는 근거가 없거나 지문의 대조 관계에 어긋납니다.\n\n[오답 해설]\n①번: 문장 구조상 공백 앞에 \"rather than\"이 있으므로, punishment가 다시 나오면 중복이 되어 어색합니다. 또한 지문에서 \"no new penalties were introduced\"라고 했으므로 처벌이 아닌 다른 요소가 작용했음을 명시하고 있습니다.\n\n②번: 주민들에게 이웃 가구와 비교하는 차트를 제공함으로써 사회적 규범과 기대치를 변화시켰고, 이것이 처벌 없이도 물 사용량 감소라는 실제 결과를 만들었으므로 정답입니다.\n\n③번: 지문에서 주어진 정보는 단순한 비교 차트로, 복잡한 의사결정의 불확실성을 제거했다는 내용과는 무관합니다.\n\n④번: \"첫 번째 해석이 항상 맞다고 가정\"하는 것은 지문의 맥락과 전혀 관련이 없으며, 오히려 다양한 동기 요인을 탐색하는 지문의 주제와 배치됩니다.\n\n⑤번: 지문은 장기적 성공에 대해 이야기하고 있으므로, 즉각적 이득을 추구하는 태도는 오히려 \"lasting success\"라는 핵심 주제와 모순됩니다.",
@@ -3377,8 +3377,8 @@ const QUESTION_BANK = [
     "choices": [
       "① treating technical expertise as sufficient",
       "② removing all uncertainty from complex decisions",
-      "③ assuming that the first interpretation is always correct",
-      "④ pursuing immediate gains regardless of future effects",
+      "③ simplifying machine interfaces to match engineer expectations",
+      "④ involving only domain experts in the early stages of design",
       "⑤ testing assumptions against user experience"
     ],
     "answer": 5,
@@ -3749,11 +3749,11 @@ const QUESTION_BANK = [
     "passage": "After several street lamps failed, the village council installed (① efficient) LED lights along the narrow paths. The project was initially expensive, so officials compared the long-term electricity savings with the purchase cost. The lamps (② reduced) energy consumption while keeping junctions (③ visible) after dark. Residents described the change as (④ wasteful), particularly because maintenance bills fell and evening walks became safer. The council subsequently extended the program to another neighborhood, using the first year’s figures to justify the investment. (⑤ Reliable) performance mattered more to residents than the novelty of the technology.",
     "given_sentence": "",
     "choices": [
-      "① 번 표시",
-      "② 번 표시",
-      "③ 번 표시",
+      "① outdated",
+      "② expanded",
+      "③ crowded",
       "④ 번 표시",
-      "⑤ 번 표시"
+      "⑤ Costly"
     ],
     "answer": 4,
     "explanation": "[지문 해석]\n여러 가로등이 고장난 후, 마을 위원회는 좁은 길을 따라 (① 효율적인) LED 조명을 설치했다. 이 사업은 초기에 비용이 많이 들었기 때문에 관계자들은 장기적인 전기료 절감액을 구매 비용과 비교했다. 이 조명들은 (② 감소시켰다) 에너지 소비를 하면서 교차로를 (③ 보이게) 유지했다. 특히 유지보수비가 줄어들고 저녁 산책이 더 안전해져서 주민들은 이 변화를 (④ 낭비적이라고) 표현했다. 그 후 위원회는 이 사업을 다른 지역으로 확대했으며, 첫해 실적을 바탕으로 투자를 정당화했다. (⑤ 안정적인) 성능이 기술의 참신함보다 주민들에게 더 중요했다.\n\n[주요 어휘]\n1. street lamp : 가로등\n2. install : 설치하다\n3. efficient : 효율적인\n4. long-term : 장기적인\n5. electricity savings : 전기료 절감\n6. energy consumption : 에너지 소비\n7. junction : 교차로\n8. visible : 보이는, 눈에 띄는\n9. maintenance bills : 유지비\n10. subsequently : 그 후에, 이후로\n11. justify : 정당화하다\n12. reliable : 신뢰할 수 있는\n\n[해설]\n전기료와 유지비가 줄고 보행 안전성이 높아졌으므로 wasteful(낭비적인)은 성과와 반대입니다. worthwhile 또는 cost-effective가 적절합니다.\n\n[오답 해설]\n①번: 'efficient'는 \"효율적인\"이라는 의미로, LED 조명이 에너지를 적게 사용하면서 밝기를 제공한다는 문맥에 적절합니다.\n\n②번: 'reduced'는 \"감소시켰다\"는 의미로, 에너지 소비량이 줄어들었다는 내용을 정확하게 표현합니다.\n\n③번: 'visible'은 \"보이는\"이라는 의미로, 어두워진 후에도 교차로가 잘 보인다는 조명의 역할을 올바르게 나타냅니다.\n\n④번: 'wasteful'은 \"낭비적인\"이라는 의미로, 주민들이 이 변화를 긍정적으로 평가했다는 문맥과 모순됩니다. 유지보수 비용이 감소했고 저녁 산책이 더 안전해졌다고 했으므로, 긍정적인 표현이 필요합니다.\n\n⑤번: 'Reliable'은 \"신뢰할 수 있는\"이라는 의미로, 기술의 신기함보다 안정적인 성능이 중요했다는 문맥에 부합합니다.",
@@ -3766,11 +3766,11 @@ const QUESTION_BANK = [
     "passage": "Researchers deposited seeds from threatened plants in a carefully managed vault. The temperature remained (① cool) and the air (② dry) because moisture can accelerate deterioration. Regular checks showed that this environment (③ slowed) the loss of seed viability. The project was designed as a (④ temporary) safeguard extending over many decades, allowing future conservationists to restore species after habitat damage. The staff also maintained detailed records so that stored material could be (⑤ identified) and tested before use.",
     "given_sentence": "",
     "choices": [
-      "① 번 표시",
-      "② 번 표시",
-      "③ 번 표시",
+      "① warm",
+      "② humid",
+      "③ accelerated",
       "④ 번 표시",
-      "⑤ 번 표시"
+      "⑤ retrieved"
     ],
     "answer": 4,
     "explanation": "[지문 해석]\n연구진들은 멸종 위기에 처한 식물들의 종자를 정교하게 관리되는 저장소에 보관했다. 습기가 열화를 가속화할 수 있기 때문에 온도는 (① 낮게) 유지되고 공기는 (② 건조하게) 관리되었다. 정기적인 점검 결과 이러한 환경이 종자의 생존력 손실을 (③ 지연시켰다). 이 프로젝트는 수십 년에 걸쳐 지속되는 (④ 임시적인) 보호 장치로 설계되었으며, 향후 생태 복원 전문가들이 서식지 훼손 이후 멸종 종을 복원할 수 있도록 하기 위한 것이었다. 직원들은 또한 상세한 기록을 유지하여 저장된 자료를 사용 전에 (⑤ 확인하고) 검사할 수 있도록 했다.\n\n[주요 어휘]\n1. deposit : 보관하다, 저축하다\n2. threatened : 위협받는, 멸종 위기의\n3. vault : 금고, 저장실\n4. moisture : 습기, 수분\n5. accelerate : 가속화하다, 빨라지게 하다\n6. deterioration : 악화, 부패\n7. viability : 생존 능력, 실행 가능성\n8. safeguard : 보호 장치, 안전 대책\n9. habitat : 서식지, 생식지\n10. restore : 복구하다, 회복시키다\n\n[해설]\n수십 년 보존을 목표로 한다고 명시하므로 temporary(일시적인)는 부적절합니다. long-term으로 바꾸어야 합니다.\n\n[오답 해설]\n①번: 'cool'은 문맥상 적절하다. 저온 환경이 종자의 변질을 방지하는 데 필수적이므로 올바른 표현이다.\n\n②번: 'dry'는 문맥상 적절하다. 습기가 변질을 촉진할 수 있다는 앞의 내용과 연결되어 건조한 환경 유지의 필요성을 나타낸다.\n\n③번: 'slowed'는 문맥상 적절하다. 이러한 환경이 종자의 생존력 손실 속도를 감소시킨다는 의미로 올바르게 사용되었다.\n\n④번: **'temporary'는 부적절하다.** 수십 년에 걸쳐 지속되는 장기적 프로젝트를 임시적이라고 표현하는 것은 모순이다. 'long-term' 같은 표현이 맞다.\n\n⑤번: 'identified'는 문맥상 적절하다. 저장된 자료를 사용 전에 식별하고 검사해야 한다는 의미로 올바르게 사용되었다.",
@@ -3783,11 +3783,11 @@ const QUESTION_BANK = [
     "passage": "The cave guide understood that visitors had difficulty interpreting maps of the (① complex) underground passage system. She prepared a (② simple) three-dimensional model showing how the tunnels connected. During the tour, the group followed the route (③ confidently), pausing at junctions to compare their surroundings with the model. The explanation made the unfamiliar environment (④ confusing) even for visitors who had never entered a cave before. Because the model was (⑤ portable), the guide could use it in several chambers without delaying the group.",
     "given_sentence": "",
     "choices": [
-      "① 번 표시",
-      "② 번 표시",
-      "③ 번 표시",
+      "① narrow",
+      "② detailed",
+      "③ cautiously",
       "④ 번 표시",
-      "⑤ 번 표시"
+      "⑤ foldable"
     ],
     "answer": 4,
     "explanation": "[지문 해석]\n동굴 가이드는 방문객들이 (① 복잡한) 지하 통로 체계의 지도를 해석하는 데 어려움을 겪는다는 것을 알고 있었다. 그녀는 터널들이 어떻게 연결되어 있는지 보여주는 (② 간단한) 3차원 모형을 준비했다. 투어 중에 그룹은 (③ 자신감 있게) 경로를 따라가며 갈림길에서 멈추어 주변 환경과 모형을 비교했다. 그 설명 덕분에 이전에 동굴에 들어가본 적이 없는 방문객들도 낯선 환경이 (④ 친숙해) 보였다. 모형이 (⑤ 휴대 가능했) 때문에, 가이드는 그룹의 일정을 지연시키지 않으면서도 여러 개의 동굴방에서 그것을 활용할 수 있었다.\n\n[주요 어휘]\ncave guide : 동굴 안내사\ninterpret : 해석하다, 이해하다\nunderground passage system : 지하 통로 체계\nthree-dimensional model : 3차원 모형\ntunnel : 터널, 굴\njunction : 갈림길, 교차점\nunfamiliar : 낯선, 생소한\nportable : 휴대용의, 이동 가능한\nchamber : (동굴의) 방, 공간\ndelaying : 지연시키다, 늦추다\n\n[해설]\n모형을 통해 길을 자신 있게 따라갔으므로 confusing은 반대 방향의 표현입니다. understandable 또는 accessible이 적합합니다.\n\n[오답 해설]\n①번: 복잡한 지도를 이해하기 어려워했다는 앞부분 문맥상 \"complex\"가 적절합니다. 지도 체계가 복잡했기 때문에 가이드가 3D 모형을 준비한 것입니다.\n\n②번: 가이드가 준비한 모형을 설명하는 맥락에서 \"simple\"은 적절합니다. 복잡한 지도 대신 단순한 3D 모형으로 이해를 돕고자 했습니다.\n\n③번: 방문객들이 모형과 주변을 비교하며 경로를 따랐다는 의미에서 \"confidently\"(자신감 있게)가 적절합니다. 모형 덕분에 낯선 환경에서도 확신 있게 움직였습니다.\n\n④번: \"even for visitors who had never entered a cave before\"라는 표현으로 보아 '이해하기 쉬운' 의미가 필요한데, \"confusing\"(혼란스러운)은 문맥에 맞지 않습니다. 여기는 \"clear\"나 \"understandable\" 같은 긍정적 의미의 단어가 와야 합니다.\n\n⑤번: 가이드가 여러 챔버에서 모형을 사용할 수 있다는 문맥에서 \"portable\"(휴대 가능한)이 적절합니다. 모형의 이동 가능성이 투어의 효율성을 높였습니다.",
@@ -3800,11 +3800,11 @@ const QUESTION_BANK = [
     "passage": "The festival organizers consulted (① independent) weather forecasts before scheduling outdoor performances. The forecasts (② disagreed) about the timing of rain, making a single fixed decision risky. Rather than cancelling immediately, the team prepared a (③ rigid) plan with alternative indoor locations and flexible start times. Volunteers (④ confirmed) the availability of those locations, and performers were told how to respond if conditions changed. This (⑤ adaptable) approach allowed most events to proceed despite the uncertainty.",
     "given_sentence": "",
     "choices": [
-      "① 번 표시",
-      "② 번 표시",
+      "① conflicting",
+      "② agreed",
       "③ 번 표시",
-      "④ 번 표시",
-      "⑤ 번 표시"
+      "④ canceled",
+      "⑤ cautious"
     ],
     "answer": 3,
     "explanation": "[지문 해석]\n축제 주최자들은 야외 공연 일정을 잡기 전에 (① 독립적인) 기상 예보를 여러 개 참고했다. 그 예보들이 (② 엇갈린) 강우 시간대를 제시하고 있어서 하나의 고정된 결정을 내리기가 위험했다. 즉시 취소하는 대신, 팀은 실내 대체 장소와 유동적인 시작 시간을 포함한 (③ 경직된) 계획을 준비했다. 자원봉사자들은 그 장소들의 (④ 확보) 가능 여부를 확인했고, 공연자들에게는 상황이 바뀔 경우 어떻게 대응할지를 알려주었다. 이러한 (⑤ 유연한) 접근 방식 덕분에 불확실성에도 불구하고 대부분의 행사들이 진행될 수 있었다.\n\n[주요 어휘]\n# 수능 영어 지문 주요 단어/표현\n\n1. consult : ~에게 자문을 구하다, 상담하다\n2. forecast : 예보, 예측\n3. disagree : 의견이 다르다, 일치하지 않다\n4. risky : 위험한, 위험을 수반하는\n5. rigid : 경직된, 융통성 없는\n6. alternative : 대안의, 다른 선택지\n7. confirm : 확인하다, 승인하다\n8. availability : 이용 가능성, 가능한 상태\n9. adaptable : 적응할 수 있는, 융통성 있는\n10. proceed : 진행하다, 계속하다\n11. uncertainty : 불확실성, 확실하지 않음\n\n[해설]\n대체 장소와 조정 가능한 시작 시간을 갖춘 계획이므로 rigid(경직된)는 모순됩니다. flexible이 맞습니다.\n\n[오답 해설]\n①번: independent(독립적인)는 문맥상 적절합니다. 여러 기상 예보 기관의 예보를 consulted했다는 의미이므로 독립적인 출처들의 예보를 참고했다는 뜻이 됩니다.\n\n②번: disagreed(의견이 다르다)는 문맥상 적절합니다. 여러 예보가 강우 시간에 대해 서로 다른 정보를 제공했다는 의미로, 단일 결정을 위험하게 만드는 상황을 설명합니다.\n\n③번: rigid(경직된, 융통성 없는)는 부적절합니다. 실제로는 대안적 실내 장소와 유연한 시작 시간을 준비했으므로, 경직된 계획이 아니라 융통성 있는 계획이어야 합니다.\n\n④번: confirmed(확인했다)는 문맥상 적절합니다. 자원봉사자들이 대안 장소의 가용성을 확인하는 준비 과정을 설명하고 있습니다.\n\n⑤번: adaptable(적응력 있는)는 문맥상 적절합니다. 불확실성에도 불구하고 대부분의 행사가 진행될 수 있게 한 접근 방식이므로, 적응력 있는 계획이라는 표현이 맞습니다.",
@@ -3817,11 +3817,11 @@ const QUESTION_BANK = [
     "passage": "Ecologists discovered that birds had begun nesting in (① roadside) shrubs beside a recently widened highway. Although the plants looked ordinary, they offered (② shelter) during the breeding season. The researchers recommended (③ preserving) selected patches and clearing only those that obstructed traffic signs. They warned that removing every shrub would be (④ harmless) to the birds, since many nests could be destroyed before the young had fledged. The transport agency consequently adopted a (⑤ selective) maintenance plan.",
     "given_sentence": "",
     "choices": [
-      "① 번 표시",
-      "② 번 표시",
-      "③ 번 표시",
+      "① flowering",
+      "② camouflage",
+      "③ transplanting",
       "④ 번 표시",
-      "⑤ 번 표시"
+      "⑤ rotational"
     ],
     "answer": 4,
     "explanation": "[지문 해석]\n생태학자들은 최근에 확장된 고속도로 옆 (① 도로변) 관목에서 새들이 둥지를 짓기 시작했음을 발견했다. 식물들이 평범해 보였지만, 번식기 동안 (② 보호처)를 제공했다. 연구원들은 선별된 지역을 (③ 보존)하고 교통 표지판을 방해하는 것들만 제거할 것을 권장했다. 그들은 모든 관목을 제거하는 것이 새들에게 (④ 해롭다)고 경고했는데, 어린 새들이 날아갈 수 있기 전에 많은 둥지가 파괴될 수 있기 때문이다. 결과적으로 교통 관리 기관은 (⑤ 선택적)인 유지 보수 계획을 채택했다.\n\n[주요 어휘]\necologist : 생태학자\nnesting : 둥지를 트다, 둥지짓기\nshelter : 보호, 피난처\nbreeding season : 번식기\npreserve : 보존하다, 지키다\nobstruct : 방해하다, 막다\nfledge : (새가) 날 수 있게 되다, 깃털이 나다\nharmless : 해롭지 않은, 무해한\nconsequently : 그 결과로, 따라서\nselective : 선택적인, 가려서 하는\n\n[해설]\n둥지가 파괴될 위험을 경고하면서 harmless라고 표현하면 모순됩니다. harmful이 맞습니다.\n\n[오답 해설]\n①번: roadside는 '도로변의'라는 뜻으로, 새들이 최근 확장된 고속도로 옆에 둥지를 지었다는 문맥에 적절합니다.\n\n②번: shelter는 '보호, 피난처'라는 뜻으로, 번식 시즌 동안 새들에게 식물이 제공한 역할을 정확히 표현합니다.\n\n③번: preserving은 '보존하다'라는 뜻으로, 선택된 관목 패치를 유지하라는 권장사항을 올바르게 나타냅니다.\n\n④번: harmless는 '해롭지 않은, 무해한'이라는 뜻인데, 문맥상 '해로울 것이다'라는 부정적 의미가 필요합니다. 따라서 harmful(해로운)이 정답으로, 모든 관목을 제거하는 것이 새들에게 해롭다는 의미가 성립합니다.\n\n⑤번: selective는 '선택적인'이라는 뜻으로, 모든 관목을 제거하지 않고 일부만 유지하는 교통국의 계획을 정확히 표현합니다.",
@@ -3834,11 +3834,11 @@ const QUESTION_BANK = [
     "passage": "A bicycle repair shop began publishing (① clear) prices for common services before accepting customers’ bicycles. The manager believed that uncertainty about hidden charges had discouraged people from seeking repairs. The posted list helped clients (② compare) services and ask questions in advance. Customers increasingly (③ trusted) the shop because its pricing was (④ secretive) and could be checked before payment. Although the new system did not eliminate disagreements, it made the process more (⑤ transparent) for both workers and visitors.",
     "given_sentence": "",
     "choices": [
-      "① 번 표시",
-      "② 번 표시",
-      "③ 번 표시",
+      "① negotiable",
+      "② dispute",
+      "③ avoided",
       "④ 번 표시",
-      "⑤ 번 표시"
+      "⑤ consistent"
     ],
     "answer": 4,
     "explanation": "[지문 해석]\n한 자전거 수리점이 고객의 자전거를 받기 전에 일반적인 서비스에 대한 ① 명확한 가격을 공시하기 시작했다. 매니저는 숨겨진 비용에 대한 불확실성이 사람들이 수리를 받으려는 것을 꺼렸다고 믿었다. 게시된 목록은 고객들이 미리 서비스를 ② 비교하고 질문할 수 있도록 도왔다. 고객들은 그 가게의 가격 책정이 ④ 투명하고 결제 전에 확인할 수 있다는 이유로 ③ 점점 더 신뢰하게 되었다. 새로운 시스템이 의견 불일치를 완전히 없애지는 못했지만, 근로자와 고객 모두에게 과정을 더욱 ⑤ 투명하게 만들었다.\n\n[주요 어휘]\nrepair shop : 수리점\nuncertainty : 불확실성, 확실하지 않음\nhidden charges : 숨겨진 요금\nposted list : 게시된 목록\nin advance : 미리, 사전에\ntrusted : 신뢰하다\ntransparent : 투명한\ndisagreements : 의견 불일치, 분쟁\neliminate : 제거하다, 없애다\n\n[해설]\n사전 가격 공개가 신뢰를 높였다는 설명이므로 secretive(비밀스러운)는 반대 의미입니다. open 또는 transparent가 적절합니다.\n\n[오답 해설]\n①번: 'clear'는 \"명확한\"이라는 의미로 가격 정보가 분명하고 이해하기 쉽다는 뜻이므로 문맥에 적절합니다.\n\n②번: 'compare'는 \"비교하다\"라는 의미로 게시된 가격표를 통해 서비스들을 비교할 수 있다는 뜻이므로 문맥에 적절합니다.\n\n③번: 'trusted'는 \"신뢰했다\"라는 의미로 투명한 가격 정책으로 인해 고객들이 가게를 더 신뢰하게 되었다는 뜻이므로 문맥에 적절합니다.\n\n④번: 'secretive'는 \"비밀스러운, 숨기는\"이라는 의미로 앞의 \"hidden charges(숨겨진 수수료)\"와 모순되며, 뒤에 \"could be checked before payment(지불 전에 확인할 수 있다)\"와도 맞지 않습니다. 여기서는 'transparent(투명한)'같은 긍정적 표현이 필요합니다.\n\n⑤번: 'transparent'는 \"투명한\"이라는 의미로 가격 체계가 명확하여 근로자와 방문객 모두에게 과정이 명확해졌다는 뜻이므로 문맥에 적절합니다.",
@@ -3851,11 +3851,11 @@ const QUESTION_BANK = [
     "passage": "Acoustic engineers installed panels in a small concert hall where high notes produced (① harsh) echoes. The panels (② absorbed) some reflected sound without eliminating the warmth of the instruments. Musicians reported that quiet passages were easier to hear, while louder sections remained (③ powerful). The conductor praised the new system for producing a (④ distorted) balance between clarity and richness. A follow-up test confirmed that listeners in different seats experienced more (⑤ consistent) sound quality.",
     "given_sentence": "",
     "choices": [
-      "① 번 표시",
-      "② 번 표시",
-      "③ 번 표시",
+      "① piercing",
+      "② redirected",
+      "③ vibrant",
       "④ 번 표시",
-      "⑤ 번 표시"
+      "⑤ uniform"
     ],
     "answer": 4,
     "explanation": "[지문 해석]\n음향 공학자들은 높은 음역대에서 거친(①harsh) 울림이 발생하던 소규모 콘서트홀에 패널을 설치했다. 이 패널은 악기의 따뜻한 음색을 유지하면서 반사음을 (②absorbed) 흡수했다. 뮤지션들은 조용한 악절이 더 잘 들렸고 강력한 악절은 여전히 (③powerful) 임팩트가 있다고 보고했다. 지휘자는 새로운 시스템이 선명함과 풍부함 사이의 (④distorted) 균형을 이뤄냈다고 칭찬했다. 후속 검사 결과 여러 좌석의 청취자들이 더욱 (⑤consistent) 음질을 경험하는 것으로 확인되었다.\n\n[주요 어휘]\nacoustic engineer : 음향 엔지니어\nharsh : 귀에 거슬리는, 험한\necho : 메아리, 반향\npanel : 패널, 판\nabsorb : 흡수하다\nreflected sound : 반사음\neliminate : 제거하다, 없애다\nwarmth : 따뜻함, 온기\npassage : (음악의) 구절\nclarity : 명확함, 선명함\nrichness : 풍부함\nconsistent : 일관된, 균일한\n\n[해설]\n명료도와 풍부함의 조화가 개선되었으므로 distorted(왜곡된)는 부적절합니다. natural 또는 pleasing이 맞습니다.\n\n[오답 해설]\n①번: 'harsh'는 \"거친, 불쾌한\"이라는 뜻으로 고음이 만드는 메아리의 부정적 특성을 정확히 표현하므로 적절합니다.\n\n②번: 'absorbed'는 \"흡수하다\"라는 뜻으로 음향 패널이 반사음의 일부를 흡수한다는 맥락에 완벽하게 부합합니다.\n\n③번: 'powerful'는 \"강력한\"이라는 뜻으로 큰 음량 구간이 강렬함을 유지한다는 의미를 올바르게 전달하므로 적절합니다.\n\n④번: 'distorted'는 \"왜곡된, 손상된\"이라는 부정적 의미로, 선명함과 풍부함 사이의 \"균형\"을 칭찬하는 맥락에서 어울리지 않습니다. 'desired' 또는 'perfect'처럼 긍정적 표현이 필요합니다.\n\n⑤번: 'consistent'는 \"일관된, 균일한\"이라는 뜻으로 여러 좌석에서 음질이 균등하게 개선되었다는 의미를 적절히 표현합니다.",
@@ -3868,10 +3868,10 @@ const QUESTION_BANK = [
     "passage": "A nurse listened (① carefully) when a patient described symptoms that did not fit the initial diagnosis. The symptoms were (② unusual), but the nurse did not immediately (③ dismiss) the report. Instead, she asked more questions and arranged an (④ additional) examination. Her supervisor described the decision as (⑤ indifferent) to the patient’s concerns, even though it demonstrated close attention to details that a routine assessment might have missed.",
     "given_sentence": "",
     "choices": [
-      "① 번 표시",
-      "② 번 표시",
-      "③ 번 표시",
-      "④ 번 표시",
+      "① hastily",
+      "② consistent",
+      "③ document",
+      "④ unnecessary",
       "⑤ 번 표시"
     ],
     "answer": 5,
@@ -3885,11 +3885,11 @@ const QUESTION_BANK = [
     "passage": "At an ancient settlement, an archaeologist (① cataloged) pottery fragments according to the soil layer in which each was found. She kept (② systematic) records of their location, shape, and decoration. Because the evidence was preserved in a careful sequence, other researchers could (③ reconstruct) changes in the community over time. The museum described the method as (④ random), although every fragment had been assigned a documented position. The resulting (⑤ chronology) helped the team compare its findings with nearby sites.",
     "given_sentence": "",
     "choices": [
-      "① 번 표시",
-      "② 번 표시",
-      "③ 번 표시",
+      "① dismissed",
+      "② incomplete",
+      "③ overlook",
       "④ 번 표시",
-      "⑤ 번 표시"
+      "⑤ discrepancy"
     ],
     "answer": 4,
     "explanation": "[지문 해석]\n한 고대 정착지에서 고고학자는 (① 분류했다) 발견된 토양층에 따라 도자기 파편들을. 그녀는 (② 체계적인) 기록을 유지했다 위치, 형태, 장식에 대한. 증거가 신중한 순서대로 보존되었기 때문에, 다른 연구자들은 (③ 재구성할 수 있었다) 시간에 따른 공동체의 변화를. 박물관은 그 방법을 (④ 무작위적이라고) 묘사했다, 비록 모든 파편이 기록된 위치를 할당받았음에도 불구하고. 그 결과로 나온 (⑤ 연대기)는 팀이 자신의 발견을 근처 유적지들과 비교하는 데 도움이 되었다.\n\n[주요 어휘]\n# 수능 영어 지문 핵심 단어/표현\n\n1. catalog : 분류하다, 목록을 작성하다\n2. systematic : 체계적인, 조직적인\n3. reconstruct : 재구성하다, 복원하다\n4. preserve : 보존하다, 유지하다\n5. sequence : 순서, 연속\n6. random : 무작위의, 체계적이지 않은\n7. chronology : 연대기, 시간 순서\n8. fragment : 파편, 조각\n9. evidence : 증거, 근거\n10. document : 기록하다, 문서화하다\n\n[해설]\n출토 위치와 층위를 체계적으로 기록했으므로 random(무작위의)은 부적절합니다. methodical이 적합합니다.\n\n[오답 해설]\n①번: \"cataloged(분류했다)\"는 고고학자가 발견한 도자기 조각들을 토양층에 따라 정리했다는 맥락에서 적절한 단어입니다.\n\n②번: \"systematic(체계적인)\"은 위치, 모양, 장식을 꼼꼼히 기록했다는 내용과 일치하며, 조심스럽고 질서 있는 방법을 잘 나타냅니다.\n\n③번: \"reconstruct(재구성하다)\"는 증거가 신중하게 보존되었기에 시간에 따른 공동체의 변화를 다시 추적할 수 있다는 의미로 적절합니다.\n\n④번: \"random(무작위적인)\"은 문맥상 완전히 맞지 않습니다. 박물관이 모든 조각에 기록된 위치를 할당했다는 내용 직전에 이 단어를 사용하면 모순입니다. 여기서는 \"meticulous(세심한)\" 같은 긍정적 표현이 필요합니다.\n\n⑤번: \"chronology(연대기)\"는 시간 순서에 따른 사건의 기록을 의미하며, 팀이 발견 결과를 비교할 수 있도록 도왔다는 맥락에서 적절한 단어입니다.",
@@ -3902,11 +3902,11 @@ const QUESTION_BANK = [
     "passage": "A cycling program gave beginners (① helmets) and offered (② supervised) lessons on quiet streets. Participants learned to signal turns and to check traffic from behind before moving across a lane. As practice continued, their confidence (③ increased), and instructors reported fewer sudden stops. The organizers described their teaching style as (④ reckless), although safety checks were built into every activity. At the end of the course, learners could make decisions more (⑤ calmly) in unfamiliar traffic situations.",
     "given_sentence": "",
     "choices": [
-      "① 번 표시",
-      "② 번 표시",
-      "③ 번 표시",
+      "① reflective vests",
+      "② optional",
+      "③ declined",
       "④ 번 표시",
-      "⑤ 번 표시"
+      "⑤ hesitantly"
     ],
     "answer": 4,
     "explanation": "[지문 해석]\n한 자전거 프로그램은 초보자들에게 (① 헬멧)을 제공했고 조용한 거리에서 (② 지도받는) 수업을 제공했다. 참가자들은 방향 신호를 보내는 방법과 차선을 바꾸기 전에 뒤에서 오는 교통을 확인하는 방법을 배웠다. 연습이 계속되면서 그들의 자신감은 (③ 증가했고), 강사들은 급작스러운 정지가 줄어들었다고 보고했다. 조직자들은 자신들의 교수법을 (④ 무모한) 것으로 설명했지만, 모든 활동에 안전 점검이 포함되어 있었다. 과정이 끝날 때쯤, 학습자들은 낯선 교통 상황에서 더욱 (⑤ 침착하게) 결정을 내릴 수 있었다.\n\n[주요 어휘]\n# 수능 영어 지문 - 중요 단어/표현\n\ncycling program : 자전거 타기 프로그램\nsupervised lessons : 감독/지도를 받는 수업\nsignal turns : 방향 전환을 신호하다\nconfidence increased : 자신감이 증가하다\ninstructors reported : 강사들이 보고했다\nsudden stops : 갑작스러운 정지\nreckless : 무모한, 위험한\nsafety checks : 안전 점검\nunfamiliar traffic situations : 낯선 교통 상황\nmake decisions calmly : 침착하게 결정을 내리다\n\n[해설]\n매 수업에 안전 점검을 포함하므로 reckless(무모한)는 부적절합니다. careful이 맞습니다.\n\n[오답 해설]\n①번: 'helmets(헬멧)'은 자전거 안전 프로그램의 초반 단계에서 제공되는 기본 안전 장비로 문맥에 적절합니다.\n\n②번: 'supervised(감독된, 지도받는)'는 초보자를 위한 안전한 환경에서의 수업을 설명하므로 문맥상 올바른 표현입니다.\n\n③번: 'increased(증가했다)'는 지속적인 연습으로 참가자들의 자신감이 높아졌다는 논리적 진행을 나타내므로 적절합니다.\n\n④번: 'reckless(무모한, 위험한)'은 부정적 의미로, 안전 점검이 모든 활동에 포함되었다는 내용과 직접 모순됩니다. 'structured(체계적인)' 같은 긍정적 표현이어야 합니다.\n\n⑤번: 'calmly(침착하게)'는 코스 종료 후 학습자들이 낯선 교통 상황에서 더 침착한 결정을 내릴 수 있다는 성과를 나타내므로 적절합니다.",
@@ -3919,10 +3919,10 @@ const QUESTION_BANK = [
     "passage": "A school established a daily period of (① quiet) reading. At first, some students (② resisted) the change because they preferred talking with friends. Teachers nevertheless kept the routine consistent and allowed students to choose their own books. Within a month, many pupils (③ appreciated) the uninterrupted time and reported that it helped them (④ concentrate). The principal concluded that the new arrangement had made students more (⑤ distracted) while reading, despite their improved attention.",
     "given_sentence": "",
     "choices": [
-      "① 번 표시",
-      "② 번 표시",
-      "③ 번 표시",
-      "④ 번 표시",
+      "① mandatory",
+      "② welcomed",
+      "③ interrupted",
+      "④ daydream",
       "⑤ 번 표시"
     ],
     "answer": 5,
@@ -3936,11 +3936,11 @@ const QUESTION_BANK = [
     "passage": "A small charity published (① detailed) accounts explaining how each program used donations. It also issued (② regular) reports, enabling supporters to (③ evaluate) its activities rather than relying on promotional claims. The director said that financial information should be (④ concealed) so that donors could understand decisions and identify possible weaknesses. This policy encouraged more (⑤ informed) questions at the organization’s annual meeting.",
     "given_sentence": "",
     "choices": [
-      "① 번 표시",
-      "② 번 표시",
-      "③ 번 표시",
+      "① summarized",
+      "② selective",
+      "③ promote",
       "④ 번 표시",
-      "⑤ 번 표시"
+      "⑤ critical"
     ],
     "answer": 4,
     "explanation": "[지문 해석]\n한 작은 자선단체는 각 프로그램이 기금을 어떻게 사용했는지 설명하는 (① 상세한) 회계 보고서를 발행했다. 또한 정기적인 (② 정기적인) 보고서를 발행하여 지지자들이 홍보성 주장에 의존하기보다는 (③ 평가할) 수 있도록 했다. 이사는 재무 정보를 (④ 공개해야) 한다고 말했으므로 기부자들이 의사결정을 이해하고 잠재적 약점을 파악할 수 있었다. 이러한 정책은 조직의 연례 총회에서 더욱 (⑤ 근거 있는) 질문들을 장려했다.\n\n[주요 어휘]\n# 수능 영어 주요 단어/표현\n\n1. detailed accounts : 상세한 회계 보고서\n2. regular reports : 정기적인 보고서\n3. evaluate : 평가하다, 검토하다\n4. concealed : 숨겨진 (→ disclosed 공개된)\n5. informed : 정보에 기반한, 충분한 정보를 갖춘\n6. charity : 자선 단체\n7. donations : 기부금, 기증금\n8. supporters : 지지자, 후원자\n9. promotional claims : 홍보성 주장\n10. financial information : 재정 정보\n11. identify weaknesses : 약점을 파악하다\n12. annual meeting : 연례 총회\n\n[해설]\n기부자가 재정 정보를 이해하도록 하는 정책이므로 concealed(은폐된)는 모순됩니다. disclosed 또는 accessible이 맞습니다.\n\n[오답 해설]\n①번: 'detailed'는 \"상세한\"이라는 뜻으로, 기부금 사용 내역을 설명하는 맥락에서 적절합니다. 투명성을 강조하는 문맥과 일치합니다.\n\n②번: 'regular'는 \"정기적인\"이라는 뜻으로, 보고서를 지속적으로 발행한다는 의미를 정확히 전달합니다. 신뢰성 구축을 위한 지속적 노력을 나타냅니다.\n\n③번: 'evaluate'는 \"평가하다\"라는 뜻으로, 지지자들이 홍보 주장이 아닌 정보에 기반해 기관의 활동을 판단하도록 하는 맥락에 적절합니다.\n\n④번: 'concealed'는 \"숨기다\"라는 뜻으로 오답입니다. 문맥에서는 재정 정보가 공개되어야 기부자들이 이해할 수 있다고 말하므로, 정보를 감추는 것은 전체 의미에 모순됩니다.\n\n⑤번: 'informed'는 \"정보에 기반한\"이라는 뜻으로, 투명한 정책이 사람들에게 더 깊이 있는 질문을 하도록 장려했다는 의미를 정확히 표현합니다.",
@@ -3953,11 +3953,11 @@ const QUESTION_BANK = [
     "passage": "Engineers (① inspected) a bridge after severe flooding. From the road, the structure appeared (② stable), but detailed images revealed (③ hidden) damage near several supports. The team therefore postponed reopening until further tests could confirm that the repairs were safe. Officials described the additional testing as (④ unnecessary), even though the damage could not be evaluated from the surface alone. They later explained that an (⑤ evidence-based) decision was essential to public safety.",
     "given_sentence": "",
     "choices": [
-      "① 번 표시",
-      "② 번 표시",
-      "③ 번 표시",
+      "① overlooked",
+      "② intact",
+      "③ structural",
       "④ 번 표시",
-      "⑤ 번 표시"
+      "⑤ surface-level"
     ],
     "answer": 4,
     "explanation": "[지문 해석]\n심각한 홍수 이후 엔지니어들이 다리를 (① 검사했다). 도로에서 보면 그 구조물은 (② 안정적으로) 보였지만, 상세한 이미지들은 여러 지지대 근처의 (③ 숨겨진) 손상을 드러냈다. 따라서 팀은 추가 검사를 통해 수리가 안전한지 확인할 수 있을 때까지 재개통을 연기했다. 관계자들은 표면만으로는 손상을 평가할 수 없었음에도 불구하고 추가 검사를 (④ 불필요하다)고 설명했다. 그들은 나중에 (⑤ 증거에 기반한) 결정이 공중 안전에 필수적이라고 설명했다.\n\n[주요 어휘]\ninspect : 검사하다, 조사하다\nstable : 안정적인, 견고한\nreveal : 드러내다, 밝히다\nhidden : 숨겨진, 보이지 않는\ndamage : 손상, 피해\nsupport : 지지대, 기둥\npostpone : 연기하다, 미루다\nconfirm : 확인하다, 증명하다\nrepair : 수리, 수선\nevaluate : 평가하다, 검토하다\nevidence-based : 증거에 기반한\nessential : 필수적인, 본질적인\n\n[해설]\n숨은 손상을 확인하기 위한 추가 검사이므로 unnecessary(불필요한)는 문맥과 모순됩니다. necessary가 적합합니다.\n\n[오답 해설]\n①번: \"inspected\"는 홍수 후 엔지니어들이 다리를 점검했다는 맥락에서 적절한 표현이며, 문맥상 문제가 없습니다.\n\n②번: \"stable\"은 도로에서 봤을 때 구조가 안정적으로 보였다는 의미로 적절하며, 뒤의 \"hidden damage\"와 대비되어 의도된 표현입니다.\n\n③번: \"hidden\"은 상세한 이미지로 드러난 손상이 처음에는 숨겨져 있었다는 의미로 적절하며, 표면에서 평가할 수 없었다는 문맥과도 부합합니다.\n\n④번: \"unnecessary\"는 부적절합니다. 텍스트에서 추가 검사는 \"필수적\"(essential)이었으므로, 이를 \"불필요하다\"고 표현하는 것은 문맥과 모순되며 논리적 일관성을 파괴합니다.\n\n⑤번: \"evidence-based\"는 공공안전을 위해 증거에 기반한 결정이 필수적이라는 의미로 적절하며, 추가 검사의 필요성을 정당화하는 맥락과 완벽하게 부합합니다.",
@@ -3970,11 +3970,11 @@ const QUESTION_BANK = [
     "passage": "A translator tried to (① preserve) the humor of a poem for readers who did not know the original language. Some (② literal) phrases sounded awkward, so she replaced them with expressions that carried a similar playful tone. Readers found the result (③ natural) without losing the poem’s central idea. A critic praised her for (④ betraying) the spirit of the work through careful adaptation, even though the adaptation aimed to protect that spirit. The final version still (⑤ maintained) its distinctive voice.",
     "given_sentence": "",
     "choices": [
-      "① 번 표시",
-      "② 번 표시",
-      "③ 번 표시",
+      "① distort",
+      "② translated",
+      "③ amusing",
       "④ 번 표시",
-      "⑤ 번 표시"
+      "⑤ diluted"
     ],
     "answer": 4,
     "explanation": "[지문 해석]\n한 번역가가 원래 언어를 모르는 독자들을 위해 시의 유머를 (① 보존하려) 시도했다. 일부 (② 직역된) 표현들이 어색하게 들렸기 때문에, 그녀는 그것들을 비슷한 장난스러운 톤을 담은 표현으로 바꿨다. 독자들은 시의 핵심 의도를 잃지 않으면서도 결과물이 (③ 자연스럽다)고 느꼈다. 한 평론가는 그녀가 신중한 각색을 통해 작품의 정신을 (④ 훼손했다)고 칭찬했는데, 비록 그 각색이 그 정신을 보호하려는 목표였음에도 불구하고 말이다. 최종 버전은 여전히 독특한 목소리를 (⑤ 유지했다).\n\n[주요 어휘]\n# 수능 영어 지문 - 중요 단어/표현\n\npreserve : 보존하다, 유지하다\nliteral : 문자 그대로의, 직역의\nawkward : 어색한, 어눌한\nreplace : 대체하다, 바꾸다\nplayful tone : 장난스러운 톤/어조\nnatural : 자연스러운\nbetray : 배반하다, 저버리다\nspirit : 정신, 본질\nadaptation : 개작, 각색\nmaintain : 유지하다, 보존하다\ndistinctive : 독특한, 특징 있는\ncentral idea : 중심 생각, 핵심 아이디어\n\n[해설]\n작품의 정신을 지켰다는 칭찬이므로 betraying(배신하는)은 부적절합니다. honoring이 맞습니다.\n\n[오답 해설]\n①번: preserve(보존하다)는 원문의 유머를 지키려는 번역가의 의도를 정확히 표현하므로 적절합니다.\n\n②번: literal(문자적인, 직역적인)은 \"어색하게 들렸다\"는 문맥에서 어색한 표현들의 성질을 올바르게 설명하므로 적절합니다.\n\n③번: natural(자연스러운)은 번역 결과물이 읽기에 자연스러웠다는 의미를 정확히 전달하므로 적절합니다.\n\n④번: betraying(배신하다)은 비판적이고 부정적인 의미를 가지므로, 번역가가 원문의 정신을 보호하려고 했다는 문맥과 모순됩니다. 여기서는 'capturing'이나 'honoring' 같은 긍정적 단어가 필요합니다.\n\n⑤번: maintained(유지하다)는 최종 버전이 독특한 목소리를 계속 가지고 있었다는 의미를 정확히 표현하므로 적절합니다.",
@@ -3987,10 +3987,10 @@ const QUESTION_BANK = [
     "passage": "An orchard planted (① several) varieties of fruit trees rather than relying on a single crop. When (② unusual) weather damaged one variety, the others continued producing fruit. The affected harvest was (③ reduced), but diversification helped (④ limit) the farm’s total losses. The farmer therefore explained that planting different varieties had (⑤ amplified) the financial damage of the storm, even though the overall loss was smaller than it would have been with only one variety.",
     "given_sentence": "",
     "choices": [
-      "① 번 표시",
-      "② 번 표시",
-      "③ 번 표시",
-      "④ 번 표시",
+      "① multiple",
+      "② severe",
+      "③ partial",
+      "④ offset",
       "⑤ 번 표시"
     ],
     "answer": 5,
@@ -4004,11 +4004,11 @@ const QUESTION_BANK = [
     "passage": "A theater simplified its (① complicated) online booking process after customers complained about too many required screens. The replacement used a (② short) form, and visitors could review ticket details before paying. As a result, fewer people (③ abandoned) their reservations midway through the process. Staff described the new interface as (④ incomprehensible), even though first-time users completed purchases without instructions. The design team emphasized that an (⑤ intuitive) system could reduce frustration without eliminating useful information.",
     "given_sentence": "",
     "choices": [
-      "① 번 표시",
-      "② 번 표시",
-      "③ 번 표시",
+      "① expanded",
+      "② mandatory",
+      "③ completed",
       "④ 번 표시",
-      "⑤ 번 표시"
+      "⑤ cluttered"
     ],
     "answer": 4,
     "explanation": "[지문 해석]\n한 극장이 고객들의 너무 많은 필수 화면에 대한 불만 이후 복잡한 온라인 예매 절차를 (① 간소화했다). 새로운 시스템은 (② 짧은) 양식을 사용했으며, 방문객들은 결제 전에 티켓 정보를 확인할 수 있었다. 그 결과 예매 과정 중간에 (③ 예매를 포기하는) 사람들이 줄어들었다. 직원들은 처음 사용하는 사람들이 설명 없이도 구매를 완료했음에도 불구하고 새 인터페이스를 (④ 이해하기 쉬운) 것이라고 설명했다. 디자인팀은 (⑤ 직관적인) 시스템이 유용한 정보를 제거하지 않으면서도 사용자의 답답함을 줄일 수 있다고 강조했다.\n\n[주요 어휘]\n# 중요 단어/표현\n\nsimplified : 단순화하다, 간단히 하다\n\nbooking process : 예약 절차\n\ncomplained : 불평하다, 항의하다\n\nreplacement : 대체물, 교체품\n\nreview : 검토하다, 살펴보다\n\nabandoned : 포기하다, 중단하다\n\nmidway : 도중에, 중간에\n\ninterface : 인터페이스, 사용자 접근 화면\n\nincomprehensible : 이해할 수 없는, 난해한\n\nintuitive : 직관적인\n\neliminate : 제거하다, 없애다\n\nfriction : 마찰, 불편함 (암묵적 의미)\n\n[해설]\n설명 없이 구매를 마칠 수 있었다는 사실과 incomprehensible(이해할 수 없는)은 충돌합니다. understandable이 적절합니다.\n\n[오답 해설]\n①번: \"complicated\"는 문맥상 적절합니다. 고객들이 \"너무 많은 필수 화면\"에 대해 불평했으므로, 원래 예약 과정이 복잡했다는 의미로 올바르게 사용되었습니다.\n\n②번: \"short\"는 문맥상 적절합니다. 간소화된 새로운 시스템이 \"짧은 형식\"을 사용했다는 것은 단계를 줄였다는 의미로 자연스럽습니다.\n\n③번: \"abandoned\"는 문맥상 적절합니다. 예약 과정 중간에 떠난 고객이 줄었다는 의미로, 개선 효과를 나타내는 올바른 단어입니다.\n\n④번: \"incomprehensible\"은 문맥상 부적절합니다. 직원들이 새로운 인터페이스를 \"이해 불가능하다\"고 설명할 수 없으며, 뒤따르는 \"지시 없이 구매를 완료했다\"는 내용과 모순됩니다.\n\n⑤번: \"intuitive\"는 문맥상 적절합니다. 디자인 팀이 \"직관적인\" 시스템이 유용한 정보를 유지하면서도 좌절감을 줄일 수 있다고 강조하는 것은 자연스럽습니다.",
@@ -4021,11 +4021,11 @@ const QUESTION_BANK = [
     "passage": "A journalist checked public claims against (① original) documents before publishing a report. This (② careful) process uncovered several misleading statistics that had circulated widely online. The journalist then (③ corrected) the figures and asked another editor to review the evidence. The publication described the resulting account as (④ unreliable), although its central claims were supported by traceable sources and independent checking. Editors emphasized that (⑤ verification) matters most when a claim is likely to spread quickly.",
     "given_sentence": "",
     "choices": [
-      "① 번 표시",
-      "② 번 표시",
-      "③ 번 표시",
+      "① leaked",
+      "② rushed",
+      "③ published",
       "④ 번 표시",
-      "⑤ 번 표시"
+      "⑤ circulation"
     ],
     "answer": 4,
     "explanation": "[지문 해석]\n한 기자가 보도자료를 발행하기 전에 공개된 주장들을 (① 원본) 문서와 대조했다. 이러한 (② 철저한) 과정을 통해 온라인에서 광범위하게 유포되었던 여러 오도된 통계들이 적발되었다. 그 기자는 이후 (③ 수정된) 수치들을 공개했고 다른 편집자에게 증거를 검토해 줄 것을 요청했다. 출판사는 그 결과물을 (④ 신뢰할 수 없는) 것으로 표현했는데, 비록 핵심 주장들이 추적 가능한 출처와 독립적인 검증으로 뒷받침되었음에도 불구하고 그렇게 했다. 편집자들은 어떤 주장이 빠르게 퍼질 가능성이 있을 때 (⑤ 검증)이 가장 중요하다는 점을 강조했다.\n\n[주요 어휘]\ncheck against : ~와 대조하다, 확인하다\noriginal documents : 원본 문서\ncirculate : 유포되다, 널리 퍼지다\nmisleading : 오도하는, 잘못된 정보를 주는\nuncover : 드러내다, 밝혀내다\ncorrect : 수정하다, 바로잡다\nfigure : 수치, 통계\nunreliable : 신뢰할 수 없는\ntraceable sources : 추적 가능한 출처\nverification : 검증, 사실 확인\nindependent checking : 독립적인 검토\nemphasize : 강조하다\n\n[해설]\n원본 자료 확인과 별도 검토를 통과한 기사이므로 unreliable(신뢰할 수 없는)는 모순됩니다. reliable이 적합합니다.\n\n[오답 해설]\n①번: \"original documents\"는 문맥상 적절합니다. 기자가 공개 주장을 검증하기 위해 원본 문서와 대조한다는 의미로 자연스럽습니다.\n\n②번: \"careful process\"는 문맥상 적절합니다. 오도된 통계를 발견하고 수정하는 과정이 신중함을 요구한다는 의미로 잘 맞습니다.\n\n③번: \"corrected the figures\"는 문맥상 적절합니다. 발견한 오도된 통계를 수정한다는 의미로 자연스러운 표현입니다.\n\n④번: \"unreliable\"은 부적절합니다. 지문에서 \"central claims were supported by traceable sources and independent checking\"이라고 명시되어 있으므로, 신뢰할 수 있는(reliable) 계정이라고 표현되어야 합니다. 신뢰할 수 없다는 표현은 앞의 검증 과정과 모순됩니다.\n\n⑤번: \"verification matters most\"는 문맥상 적절합니다. 마지막 문장에서 편집자들이 빠르게 퍼질 가능성이 있는 주장일 때 검증이 가장 중요하다고 강조하는 내용과 잘 맞습니다.",
@@ -4038,10 +4038,10 @@ const QUESTION_BANK = [
     "passage": "An emergency rescue team (① practiced) several scenarios before the winter storm season. During training, members learned to identify (② hazards), share location updates, and assign tasks when communication became difficult. Their rehearsals helped the group respond in a (③ coordinated) manner even when weather changed (④ unexpectedly). The leader called the response (⑤ chaotic), although everyone followed a clear plan and no critical duties were overlooked.",
     "given_sentence": "",
     "choices": [
-      "① 번 표시",
-      "② 번 표시",
-      "③ 번 표시",
-      "④ 번 표시",
+      "① canceled",
+      "② routes",
+      "③ rushed",
+      "④ gradually",
       "⑤ 번 표시"
     ],
     "answer": 5,
@@ -4055,11 +4055,11 @@ const QUESTION_BANK = [
     "passage": "A coastal biologist monitored a beach where tourism was increasing. The number of visitors rose, but nesting birds declined only on beaches where night lighting had also expanded. Restricting lights during nesting season helped protect birds without closing the beach. The case illustrates how an apparently straightforward result depends on conditions that are easy to overlook.",
     "given_sentence": "",
     "choices": [
-      "① why every social experiment produces identical results",
-      "② the superiority of expensive solutions in every situation",
+      "① visitor numbers alone determine the severity of harm to nesting birds",
+      "② complete beach closure is the only reliable method to preserve coastal wildlife",
       "③ careful design can reconcile recreation and wildlife protection",
-      "④ the claim that historical context never matters",
-      "⑤ the complete absence of trade-offs in public decisions"
+      "④ nighttime lighting expansion is the primary cause of all coastal biodiversity loss",
+      "⑤ tourism growth and wildlife conservation are inherently incompatible goals"
     ],
     "answer": 3,
     "explanation": "[지문 해석]\n한 연안 생물학자가 관광객이 증가하는 해변을 모니터링했다. 방문객의 수는 증가했지만, 야간 조명이 확대된 해변에서만 산란하는 새의 개체수가 감소했다. 산란 시즌 동안 조명을 제한하자 해변을 폐쇄하지 않으면서도 새들을 보호할 수 있었다. 이 사례는 겉보기에 단순해 보이는 결과가 사실은 간과하기 쉬운 조건들에 어떻게 좌우되는지를 보여준다.\n\n[주요 어휘]\ncoastal biologist : 해안 생물학자\nmonitor : 관찰하다, 모니터링하다\nnesting : 둥지를 짓는, 번식하는\ndecline : 감소하다\nexpand : 확대되다, 증가하다\nrestrict : 제한하다\nnesting season : 번식기\noverlook : 간과하다, 놓치다\nillustrate : 예시하다, 보여주다\nstraightforward : 단순한, 명백한\ndepend on : ~에 달려있다\ncondition : 조건, 상황\n\n[해설]\n사례의 핵심은 “careful design can reconcile recreation and wildlife protection”입니다. 나머지 선택지는 사례의 조건을 무시하거나 과도하게 일반화합니다.\n\n[오답 해설]\n①번: 지문은 특정 조건(야간 조명)에 따라 결과가 달라질 수 있음을 보여주므로, '모든 사회 실험이 동일한 결과를 낸다'는 주장은 지문의 핵심과 정반대입니다.\n\n②번: 지문은 야간 조명 제한이라는 비용 효율적인 해결책을 제시하고 있으므로, '비싼 해결책이 항상 우월하다'는 주장은 지문 내용과 맞지 않습니다.\n\n③번: 지문은 해변 관광을 제한하지 않으면서 야간 조명만 제한함으로써 관광과 조류 보호를 모두 달성한 사례를 보여주므로, 신중한 설계로 두 목표를 조화시킬 수 있음을 명확히 나타냅니다.\n\n④번: 지문은 야간 조명 확대라는 특정 조건이 새의 개체 수 감소에 중요한 역할을 했음을 강조하므로, '역사적 맥락이 절대 중요하지 않다'는 주장은 지문의 의도에 위배됩니다.\n\n⑤번: 지문은 해변 제한 없이 조명만 제한하여 두 이익을 모두 보호할 수 있었으므로, 이는 실제로 거래 관계(trade-off)를 성공적으로 해결한 경우로 '거래 관계가 전혀 없다'는 주장과는 맞지 않습니다.",
@@ -4073,10 +4073,10 @@ const QUESTION_BANK = [
     "given_sentence": "",
     "choices": [
       "① policy success must be measured against its stated goal",
-      "② why every social experiment produces identical results",
-      "③ the superiority of expensive solutions in every situation",
-      "④ the claim that historical context never matters",
-      "⑤ the complete absence of trade-offs in public decisions"
+      "② how free bus services guarantee a reduction in car usage",
+      "③ the importance of increasing ridership as the primary measure of transit success",
+      "④ why unexpected passengers undermine the value of public transportation",
+      "⑤ the tendency of weekend bus policies to worsen urban traffic congestion"
     ],
     "answer": 1,
     "explanation": "[지문 해석]\n어떤 도시가 주말에 무료 공중버스 운행을 시작했다. 승객 수는 증가했지만, 새로 탑승한 많은 승객들은 이전에 자동차를 타지 않고 걸어 다니던 사람들이었다. 이 정책은 이동성을 개선했지만 지지자들이 기대했던 것만큼 자동차 통행량 감소에는 효과적이지 못했다. 이 사례는 겉으로는 단순해 보이는 결과가 실제로는 간과하기 쉬운 여러 조건에 달려 있다는 점을 보여준다. 이러한 관찰의 의미는 더 넓은 함의를 고려할 때 비로소 더욱 의미 있게 된다.\n\n[주요 어휘]\nridership : 승객 수, 대중교통 이용률\ncut car traffic : 자동차 통행량을 줄이다\nstraightforward : 단순한, 명확한\noverlook : 간과하다, 놓치다\nimplications : 함축된 의미, 영향\ntaken into account : 고려하다, 고려에 넣다\nmobility : 이동성, 이동의 자유\nsupporters : 지지자, 후원자\npolicy : 정책\npreviously : 이전에, 과거에\napparent : 겉으로는, 명백한\ncondition : 조건, 상황\n\n[해설]\n사례의 핵심은 “policy success must be measured against its stated goal”입니다. 나머지 선택지는 사례의 조건을 무시하거나 과도하게 일반화합니다.\n\n[오답 해설]\n①번: 정답입니다. 지문은 무료 버스 정책이 승객 증가라는 표면적 성과를 거뒀지만, 실제 목표인 자동차 이용 감소 목표는 덜 달성했다는 점을 강조하며, 정책의 성공 여부는 진정한 목표에 대해 측정해야 함을 보여줍니다.\n\n②번: 지문은 사회 실험의 다양한 결과를 언급하지 않으며, 모든 실험이 동일한 결과를 낸다는 주장도 하지 않습니다. 실제로는 조건에 따라 결과가 달라질 수 있음을 시사합니다.\n\n③번: 지문에서 비싼 해결책의 우월성에 대해서는 전혀 언급하지 않습니다. 무료 버스라는 비용이 낮은 정책의 예를 들고 있으므로 지문의 내용과 무관합니다.\n\n④번: 지문의 마지막 문장 \"broader implications을 고려해야 한다\"는 역사적 맥락이 중요함을 암시하고 있으므로, 맥락이 절대 중요하지 않다는 주장은 지문과 모순됩니다.\n\n⑤번: 지문은 정책이 이동성은 개선했지만 교통 감소에는 덜 효과적이었다고 언급함으로써, 공공 정책에서 트레이드오프(장단점)가 존재함을 보여줍니다. 따라서 정답과 반대 내용입니다.",
@@ -4089,11 +4089,11 @@ const QUESTION_BANK = [
     "passage": "An engineer compared two insulation materials for housing. One cost less initially, while the other saved more heating energy over a decade. The best choice depended on the time horizon used to compare them. The case illustrates how an apparently straightforward result depends on conditions that are easy to overlook. The observation becomes more meaningful when its broader implications are taken into account.",
     "given_sentence": "",
     "choices": [
-      "① why every social experiment produces identical results",
-      "② the superiority of expensive solutions in every situation",
-      "③ the claim that historical context never matters",
+      "① initial cost determines the optimal choice of building materials",
+      "② energy savings outweigh upfront expenses in housing decisions",
+      "③ the engineer's conclusion applies equally to all construction contexts",
       "④ long-term value differs from immediate cost",
-      "⑤ the complete absence of trade-offs in public decisions"
+      "⑤ hidden conditions rarely affect engineering comparisons"
     ],
     "answer": 4,
     "explanation": "[지문 해석]\n한 엔지니어가 주택용 단열재 두 가지를 비교했다. 하나는 초기 비용이 적게 들었고, 다른 하나는 10년에 걸쳐 난방 에너지를 더 많이 절약했다. 최선의 선택은 두 재료를 비교하는 데 사용되는 시간 범위에 따라 달라졌다. 이 사례는 겉보기에 단순해 보이는 결론이 간과하기 쉬운 조건들에 얼마나 크게 좌우되는지를 보여준다. 이러한 관찰은 그 더 넓은 함의까지 고려할 때 더욱 의미 있는 것이 된다.\n\n[주요 어휘]\ninsulation material : 단열재\ninitial cost : 초기 비용\nheating energy : 난방 에너지\ntime horizon : 시간 범위, 평가 기간\nstraightforward : 간단한, 명확한\noverlook : 간과하다, 놓치다\nbroader implications : 더 넓은 함의\ntake into account : 고려하다, 고려에 넣다\ndepend on : ~에 달려있다\nlong-term savings : 장기적 절감\n\n[해설]\n사례의 핵심은 “long-term value differs from immediate cost”입니다. 나머지 선택지는 사례의 조건을 무시하거나 과도하게 일반화합니다.\n\n[오답 해설]\n①번: 지문은 단 하나의 사례만 제시하고 있으므로 \"모든 사회실험이 동일한 결과를 낳는다\"는 주장을 뒷받침하지 않습니다. 과도한 일반화입니다.\n\n②번: 지문은 비싼 자재가 모든 상황에서 우월하다고 말하지 않으며, 오히려 \"최선의 선택은 비교에 사용된 시간 범위에 따라 달라진다\"고 명시합니다.\n\n③번: 지문의 핵심은 시간 범위라는 조건이 결과에 중대한 영향을 미친다는 것이므로, \"역사적 맥락이 중요하지 않다\"는 주장은 지문의 의도와 정반대입니다.\n\n④번: 지문은 저렴한 초기 비용과 장기적 에너지 절감이라는 두 가치가 시간 범위에 따라 우선순위가 달라진다는 점을 보여줍니다. 이는 단기 비용과 장기 가치의 차이를 명확히 드러냅니다.\n\n⑤번: 지문은 두 자재 선택 사이의 명확한 트레이드오프(초기 비용 vs. 장기 절감)를 제시하고 있으므로 \"트레이드오프의 완전한 부재\"라는 주장은 거짓입니다.",
@@ -4106,11 +4106,11 @@ const QUESTION_BANK = [
     "passage": "A language teacher replaced vocabulary lists with short conversations. Students began using new expressions appropriately even when they could not recite formal definitions. Learning improved when words were embedded in meaningful exchanges. The case illustrates how an apparently straightforward result depends on conditions that are easy to overlook. A conclusion drawn from only the most obvious measure would miss an important part of the explanation; the example therefore invites a distinction between appearances and underlying mechanisms.",
     "given_sentence": "",
     "choices": [
-      "① why every social experiment produces identical results",
+      "① memorizing definitions as the foundation of vocabulary acquisition",
       "② context supports flexible language learning",
-      "③ the superiority of expensive solutions in every situation",
-      "④ the claim that historical context never matters",
-      "⑤ the complete absence of trade-offs in public decisions"
+      "③ the advantage of formal instruction over conversational practice",
+      "④ the claim that surface-level measures fully capture learning outcomes",
+      "⑤ the irrelevance of teaching methods to language retention"
     ],
     "answer": 2,
     "explanation": "[지문 해석]\n어떤 언어 교사가 어휘 목록을 짧은 대화로 대체했다. 학생들은 형식적인 정의를 외우지 못했음에도 불구하고 새로운 표현을 적절하게 사용하기 시작했다. 단어들이 의미 있는 상호작용 속에 포함될 때 학습이 향상되었다. 이 사례는 얼핏 보기에 단순해 보이는 결과가 사실은 간과하기 쉬운 조건들에 어떻게 달려 있는지를 보여준다. 가장 명백한 측도만으로 도출한 결론은 설명의 중요한 부분을 놓칠 것이다. 따라서 이 예시는 겉으로 드러난 현상과 그 밑에 있는 메커니즘 사이의 차이를 구분해야 한다는 점을 시사한다.\n\n[주요 어휘]\nvocabulary list : 어휘 목록\nembed : 내포하다, 포함시키다\nmeaningful exchange : 의미 있는 상호작용\nillustrate : 예시로 보여주다\nstraightforward : 간단한, 명확한\noverlook : 간과하다, 놓치다\nrecite : 암송하다, 말하다\nformal definition : 형식적인 정의\nunderlying mechanism : 기저 메커니즘, 근본 원인\nconclusion : 결론\nappropriate : 적절하게, 올바르게\ndistinction : 구별, 차이\n\n[해설]\n사례의 핵심은 “context supports flexible language learning”입니다. 나머지 선택지는 사례의 조건을 무시하거나 과도하게 일반화합니다.\n\n[오답 해설]\n①번: 지문은 특정 교수법의 효과에 대해 논하며, 모든 사회 실험이 동일한 결과를 낸다는 주장과는 무관하다.\n\n②번: 지문의 핵심은 의미 있는 대화(맥락) 속에서 어휘를 학습할 때 학생들이 정의를 외우지 못해도 표현을 유연하게 사용할 수 있다는 점을 보여준다.\n\n③번: 지문은 비용이 비싼 해결책의 우월성을 주장하지 않으며, 오히려 단순한 방법(대화)이 효과적임을 시사한다.\n\n④번: 지문은 맥락(context)의 중요성을 강조하므로, 맥락이 전혀 중요하지 않다는 주장과는 정반대다.\n\n⑤번: 지문은 교육 정책의 장단점을 비교하지 않으며, 특정 방법이 여러 조건에서 효과적임을 보여줄 뿐이다.",
@@ -4123,10 +4123,10 @@ const QUESTION_BANK = [
     "passage": "A neighborhood converted an empty lot into a pocket park. Residents began organizing informal events, but the benefit was greatest where paths made the park easy to reach. Accessibility shaped how much the new space was used. The case illustrates how an apparently straightforward result depends on conditions that are easy to overlook. The observation becomes more meaningful when its broader implications are taken into account.",
     "given_sentence": "",
     "choices": [
-      "① why every social experiment produces identical results",
-      "② the superiority of expensive solutions in every situation",
-      "③ the claim that historical context never matters",
-      "④ the complete absence of trade-offs in public decisions",
+      "① community events alone determine how a shared space is used",
+      "② converting vacant lots into parks always revitalizes neighborhoods equally",
+      "③ the layout of a park matters more than its location within a neighborhood",
+      "④ residents' initiative is the primary factor in a pocket park's success",
       "⑤ public amenities depend on practical access"
     ],
     "answer": 5,
@@ -4140,11 +4140,11 @@ const QUESTION_BANK = [
     "passage": "An environmental historian studied a city’s forgotten canals. Old maps showed that many streets followed waterways that had later been buried. The maps helped explain why some neighborhoods still flooded regularly. The case illustrates how an apparently straightforward result depends on conditions that are easy to overlook.",
     "given_sentence": "",
     "choices": [
-      "① why every social experiment produces identical results",
-      "② the superiority of expensive solutions in every situation",
+      "① buried canals are the primary cause of urban flooding worldwide",
+      "② modern mapping technology has made old urban records obsolete",
       "③ historical evidence can illuminate present infrastructure problems",
-      "④ the claim that historical context never matters",
-      "⑤ the complete absence of trade-offs in public decisions"
+      "④ street layouts in historical cities were designed without regard to waterways",
+      "⑤ relocating buried canals is the most effective remedy for neighborhood flooding"
     ],
     "answer": 3,
     "explanation": "[지문 해석]\n한 환경 역사학자가 도시의 잊혀진 운하들을 연구했다. 오래된 지도들은 나중에 매장된 수로를 따라 형성된 많은 거리들을 보여주었다. 이 지도들은 왜 일부 지역이 여전히 정기적으로 홍수에 잠기는지를 설명하는 데 도움이 되었다. 이 사례는 겉으로는 단순해 보이는 결과가 실제로는 간과하기 쉬운 조건들에 어떻게 달려 있는지를 보여준다.\n\n[주요 어휘]\nenvironmental historian : 환경사학자\nforgotten : 잊혀진, 버려진\ncanal : 운하\nwaterway : 수로, 물길\nbury : 묻다, 매장하다\nneighborhood : 주택가, 근처 지역\nflood : 범람하다, 물에 잠기다\nregularly : 규칙적으로, 자주\nillustrate : 설명하다, 예시하다\napparently : 겉보기에는, 명백히\nstraightforward : 단순한, 직관적인\noverlook : 간과하다, 놓치다\n\n[해설]\n사례의 핵심은 “historical evidence can illuminate present infrastructure problems”입니다. 나머지 선택지는 사례의 조건을 무시하거나 과도하게 일반화합니다.\n\n[오답 해설]\n①번: 지문은 특정 사례를 통해 역사적 맥락의 중요성을 보여줄 뿐, 모든 사회 실험이 동일한 결과를 낸다는 주장을 하지 않는다. 과도하게 일반화한 오답이다.\n\n②번: 지문에서 역사적 지도가 도움이 되었다고 했지만, 이것이 비싼 해결책의 우월성을 입증하지는 않는다. 지문의 내용과 무관한 주장이다.\n\n③번: 환경 역사가가 과거 지도를 통해 현재의 침수 문제를 설명했듯이, 역사적 증거가 현재의 인프라 문제를 조명할 수 있음을 보여준다. 지문의 핵심 메시지와 정확히 일치한다.\n\n④번: 지문은 역사적 맥락이 중요하다는 것을 보여주는 예시이므로, 역사적 맥락이 중요하지 않다는 주장과는 정반대다. 지문 내용을 왜곡한 오답이다.\n\n⑤번: 지문은 간과하기 쉬운 조건들이 결과에 영향을 미친다는 것을 보여줄 뿐, 공공 정책에서 트레이드오프가 완전히 없다는 주장은 하지 않는다. 지문과 무관한 선택지다.",
@@ -4158,10 +4158,10 @@ const QUESTION_BANK = [
     "given_sentence": "",
     "choices": [
       "① effective access requires comprehensible communication",
-      "② why every social experiment produces identical results",
-      "③ the superiority of expensive solutions in every situation",
-      "④ the claim that historical context never matters",
-      "⑤ the complete absence of trade-offs in public decisions"
+      "② how language barriers alone determine overall patient health outcomes",
+      "③ the value of translating medical records rather than appointment reminders",
+      "④ the claim that missed appointments stem primarily from patient indifference",
+      "⑤ why removing communication barriers eliminates the need for further medical reform"
     ],
     "answer": 1,
     "explanation": "[지문 해석]\n한 병원이 여러 언어로 된 진료 예약 알림을 시험했다. 이전 메시지 이해에 어려움을 겪었던 환자들 중에서 방문 누락이 가장 크게 감소했다. 이러한 개선은 의료 치료를 변경한 것이 아니라 의사소통 장벽을 제거함으로써 나타났다. 이 사례는 겉보기에 단순해 보이는 결과가 실제로는 간과하기 쉬운 조건들에 어떻게 달려있는지를 보여준다. 이러한 관찰은 더 광범위한 함의를 고려할 때 더욱 의미 있게 된다.\n\n[주요 어휘]\nappointment reminder : 진료 약속 알림\nmissed visits : 약속 불참, 방문 누락\nstruggled with : ~으로 어려움을 겪다\ncommunication barrier : 의사소통 장벽\nstraightforward result : 단순한 결과\noverlook : 간과하다, 놓치다\nbroader implications : 더 넓은 의미, 광범위한 함의\ntake into account : 고려하다, 참작하다\nimprovement : 개선, 향상\nremoving : 제거하다\nmedical treatment : 의료 치료\nobservation : 관찰, 관찰 결과\n\n[해설]\n사례의 핵심은 “effective access requires comprehensible communication”입니다. 나머지 선택지는 사례의 조건을 무시하거나 과도하게 일반화합니다.\n\n[오답 해설]\n①번: 지문의 핵심입니다. 병원이 다국어 알림으로 missed visits를 줄인 것은 의료 치료를 바꾼 것이 아니라 소통의 장벽을 제거한 것이므로, 효과적인 접근성을 위해서는 이해 가능한 의사소통이 필수적임을 보여줍니다.\n\n②번: 지문은 특정 사례의 결과가 특정 조건에 달려 있다고 언급했지, 모든 사회 실험이 동일한 결과를 낸다고 주장하지 않습니다. 오히려 조건에 따라 결과가 달라질 수 있음을 시사합니다.\n\n③번: 지문의 핵심은 '비용이 많이 드는 해결책'과 무관합니다. 오히려 소통 장벽 제거라는 비용 효율적인 방법으로 성과를 낸 사례를 제시하므로 선지는 맞지 않습니다.\n\n④번: 지문은 \"broader implications을 고려할 때 관찰이 더 의미 있어진다\"고 명시하여 맥락과 조건의 중요성을 강조합니다. 따라서 역사적 맥락이 절대 중요하지 않다는 주장은 정반대입니다.\n\n⑤번: 지문은 다국어 알림 도입이 긍정적 결과를 낳았다고 설명하며, 이것이 의료 치료 변경 없이도 효과적임을 보여줍니다. 공공 정책에서 상충관계가 완전히 없다는 극단적 주장과는 거리가 있습니다.",
@@ -4174,11 +4174,11 @@ const QUESTION_BANK = [
     "passage": "An orchestra let musicians discuss difficult passages before rehearsal. They identified conflicting interpretations that had caused repeated mistakes. When they played again, the group sounded more unified without rehearsing longer. The case illustrates how an apparently straightforward result depends on conditions that are easy to overlook. The observation becomes more meaningful when its broader implications are taken into account.",
     "given_sentence": "",
     "choices": [
-      "① why every social experiment produces identical results",
-      "② the superiority of expensive solutions in every situation",
-      "③ the claim that historical context never matters",
+      "① longer rehearsal time guarantees a more unified musical performance",
+      "② identifying conflicting interpretations is sufficient to resolve all musical errors",
+      "③ the value of group discussion depends solely on the difficulty of the passage",
       "④ shared understanding can be more valuable than repetition",
-      "⑤ the complete absence of trade-offs in public decisions"
+      "⑤ pre-rehearsal discussion benefits performance only when musicians share equal skill levels"
     ],
     "answer": 4,
     "explanation": "[지문 해석]\n한 오케스트라가 리허설 전에 어려운 악절에 대해 악사들이 논의하도록 했다. 그들은 반복된 실수를 야기한 상충하는 해석들을 파악했다. 다시 연주했을 때, 그 악단은 더 오래 리허설하지 않았음에도 불구하고 더욱 통일된 소리를 냈다. 이 사례는 겉보기에 단순해 보이는 결과가 간과하기 쉬운 조건들에 얼마나 의존하는지를 보여준다. 이 관찰은 그 더 넓은 함의들을 고려할 때 더욱 의미 있어진다.\n\n[주요 어휘]\n1. orchestra : 오케스트라, 관현악단\n2. passage : (음악의) 악절, 구간\n3. rehearsal : 리허설, 연습\n4. conflicting : 상충하는, 모순되는\n5. interpretation : 해석, 표현\n6. unified : 통일된, 조화로운\n7. apparently : 겉보기에는, 명백해 보이는\n8. straightforward : 간단한, 직관적인\n9. overlook : 간과하다, 놓치다\n10. implication : 함축된 의미, 영향\n\n[해설]\n사례의 핵심은 “shared understanding can be more valuable than repetition”입니다. 나머지 선택지는 사례의 조건을 무시하거나 과도하게 일반화합니다.\n\n[오답 해설]\n①번: 지문은 특정 오케스트라의 사례를 통해 조건에 따른 결과의 차이를 보여주고 있으며, 모든 사회 실험이 동일한 결과를 낸다는 주장은 지문의 핵심과 무관하다.\n\n②번: 지문에서는 토론이라는 '비용이 적게 드는' 해결책의 가치를 강조하고 있으므로, 비싼 해결책의 우월성을 주장하는 선지는 지문의 내용과 상충한다.\n\n③번: 지문은 오케스트라의 구체적인 상황을 예시로 들며 상황적 조건의 중요성을 강조하고 있으므로, 역사적 맥락이 중요하지 않다는 주장은 지문과 정반대이다.\n\n④번: 오케스트라가 더 오래 연습하지 않고도 상호 토론을 통한 이해 공유만으로 소리를 더 통일되게 만들었으므로, 반복 연습보다 공유된 이해가 더 가치 있다는 내용이 지문의 핵심을 정확히 요약한다.\n\n⑤번: 지문은 단순한 결과(소리의 통일)가 숨겨진 조건에 따라 달라질 수 있음을 보여주므로, 공공 결정에서 트레이드오프가 완전히 없다는 극단적 주장과는 맞지 않다.",
@@ -4191,11 +4191,11 @@ const QUESTION_BANK = [
     "passage": "A farmer installed sensors to measure moisture in different sections of a field. Water use fell because dry areas received more irrigation while wet areas received less. The farm improved production by avoiding uniform treatment of unequal conditions. The case illustrates how an apparently straightforward result depends on conditions that are easy to overlook. A conclusion drawn from only the most obvious measure would miss an important part of the explanation; the example therefore invites a distinction between appearances and underlying mechanisms.",
     "given_sentence": "",
     "choices": [
-      "① why every social experiment produces identical results",
+      "① uniform irrigation practices guarantee higher crop yields",
       "② targeted intervention can outperform blanket solutions",
-      "③ the superiority of expensive solutions in every situation",
-      "④ the claim that historical context never matters",
-      "⑤ the complete absence of trade-offs in public decisions"
+      "③ sensor data alone determines the success of farming methods",
+      "④ visible water distribution reflects the actual needs of each field section",
+      "⑤ reducing total water usage always leads to improved agricultural output"
     ],
     "answer": 2,
     "explanation": "[지문 해석]\n어떤 농부가 밭의 여러 구역에서 토양 수분을 측정하는 센서를 설치했다. 그 결과 건조한 지역에는 더 많은 관개를 하고 습한 지역에는 적게 함으로써 물의 사용량이 감소했다. 농장은 불균등한 조건을 획일적으로 처리하는 것을 피함으로써 생산량을 향상시켰다. 이 사례는 겉으로는 단순해 보이는 결과가 실제로는 간과하기 쉬운 조건들에 어떻게 달려 있는지를 보여준다. 가장 명백한 측정값만으로 도출한 결론은 설명의 중요한 부분을 놓치게 될 것이다. 따라서 이 예시는 외형과 그 아래 숨겨진 메커니즘 사이의 구분이 필요함을 시사한다.\n\n[주요 어휘]\nsensor : 센서, 감지기\nmoisture : 수분, 습도\nirrigation : 관개, 물 공급\nuniform : 균일한, 동일한\nunequal conditions : 불균등한 조건들\noverlook : 간과하다, 놓치다\nconclusion : 결론\nunderlying mechanism : 내재된 원리, 기저의 작동 방식\ndistinguish between : ~을 구분하다\nappearance : 외관, 표면적 모습\n\n[해설]\n사례의 핵심은 “targeted intervention can outperform blanket solutions”입니다. 나머지 선택지는 사례의 조건을 무시하거나 과도하게 일반화합니다.\n\n[오답 해설]\n①번: 지문은 특정 상황에서의 개선 사례를 다루고 있으며, 모든 사회 실험이 동일한 결과를 낸다는 주장은 지문 내용과 무관하다.\n\n②번: 지문에서 균등한 관개(uniform treatment) 대신 건조한 지역과 습한 지역을 구분하여 선택적으로 개입(targeted intervention)한 결과 생산성이 향상되었으므로, 포괄적 해결책(blanket solutions)보다 표적화된 개입이 우수함을 보여준다.\n\n③번: 지문은 비용의 크기가 아닌 방식의 차이(균등 vs. 선택적)에 따른 효과를 논하고 있으며, 비용이 많은 해결책이 항상 우월하다는 주장은 지문에서 찾을 수 없다.\n\n④번: 지문은 표면적 측정만으로는 중요한 설명을 놓칠 수 있다며 기저 메커니즘의 중요성을 강조하고 있어, 역사적 맥락(underlying conditions)이 결코 중요하지 않다는 주장과 정반대이다.\n\n⑤번: 지문은 더 나은 결과를 얻기 위해 선택적 개입의 필요성을 보여주는 사례일 뿐, 공공 정책에서 절충이 완전히 없다는 주장에 대해서는 언급하지 않는다.",
@@ -4208,10 +4208,10 @@ const QUESTION_BANK = [
     "passage": "A museum collected recordings of workers describing old industrial tools. Visitors understood the objects better when they heard how people used them each day. The tools became evidence of human experiences rather than isolated technical artifacts. The case illustrates how an apparently straightforward result depends on conditions that are easy to overlook. The observation becomes more meaningful when its broader implications are taken into account.",
     "given_sentence": "",
     "choices": [
-      "① why every social experiment produces identical results",
-      "② the superiority of expensive solutions in every situation",
-      "③ the claim that historical context never matters",
-      "④ the complete absence of trade-offs in public decisions",
+      "① oral accounts alone are sufficient to preserve museum collections",
+      "② technical artifacts lose their value once workers' stories are attached",
+      "③ industrial tools are best understood through their mechanical functions",
+      "④ visitor engagement depends primarily on the rarity of displayed objects",
       "⑤ personal testimony can enrich material history"
     ],
     "answer": 5,
@@ -4225,11 +4225,11 @@ const QUESTION_BANK = [
     "passage": "A bookstore introduced staff recommendations instead of ranking everything by sales. Readers discovered unfamiliar genres and returned to discuss their choices. The store gained loyalty without merely duplicating online bestseller lists. The case illustrates how an apparently straightforward result depends on conditions that are easy to overlook.",
     "given_sentence": "",
     "choices": [
-      "① why every social experiment produces identical results",
-      "② the superiority of expensive solutions in every situation",
+      "① sales rankings reflect readers' genuine literary preferences",
+      "② bookstore loyalty depends primarily on discounted pricing strategies",
       "③ human curation offers value beyond popularity metrics",
-      "④ the claim that historical context never matters",
-      "⑤ the complete absence of trade-offs in public decisions"
+      "④ staff recommendations succeed only when limited to bestselling titles",
+      "⑤ online bestseller lists drive stronger reader loyalty than staff picks"
     ],
     "answer": 3,
     "explanation": "[지문 해석]\n한 서점이 판매량 순위 중심에서 직원 추천으로 전환했다. 독자들은 낯선 장르를 발견하게 되었고 자신의 선택에 대해 이야기하러 돌아왔다. 그 서점은 단순히 온라인 베스트셀러 목록을 복제하지 않으면서도 고객 충성도를 얻었다. 이 사례는 겉으로 단순해 보이는 결과가 실제로는 간과하기 쉬운 조건들에 얼마나 크게 좌우되는지를 보여준다.\n\n[주요 어휘]\nstaff recommendations : 직원의 추천\n\nranking : 순위를 매기다, 순위\n\nduplicate : 모방하다, 똑같이 하다\n\nbestseller lists : 베스트셀러 목록\n\nillustrate : 예시를 들어 설명하다\n\nstraightforward : 간단해 보이는, 명백한\n\noverlook : 간과하다, 놓치다\n\nloyalty : 충성도, 단골 고객\n\nunfamiliar genres : 낯선 장르\n\ncondition : 조건, 상황\n\n[해설]\n사례의 핵심은 “human curation offers value beyond popularity metrics”입니다. 나머지 선택지는 사례의 조건을 무시하거나 과도하게 일반화합니다.\n\n[오답 해설]\n①번: 지문은 특정 조건에서 도서관 직원의 추천이 효과적이었던 사례를 제시할 뿐, 모든 사회 실험이 동일한 결과를 낸다는 주장은 하지 않으므로 틀렸다.\n\n②번: 지문에서 직원 추천이 비용 효율성이나 가격에 대해 언급하지 않았으므로, 비싼 해결책의 우월성을 주장하는 이 선지는 관련이 없다.\n\n③번: 지문은 판매 순위(인기도 지표)가 아닌 직원의 큐레이션이 독자들에게 새로운 장르 발견과 고객 충성도 같은 추가 가치를 제공했음을 보여주므로 정답이다.\n\n④번: 지문은 조건이 중요하다고 강조하며 역사적 맥락을 고려하라는 취지를 담고 있으므로, 역사적 맥락이 중요하지 않다는 주장은 지문과 반대이다.\n\n⑤번: 지문은 직원 추천이 고객 충성도를 얻으면서도 온라인 베스트셀러 목록과 중복되지 않는 이점을 제시하므로, 절대적인 트레이드오프가 없다는 극단적 주장은 지나치다.",
@@ -4243,10 +4243,10 @@ const QUESTION_BANK = [
     "given_sentence": "",
     "choices": [
       "① different observation methods can complement one another",
-      "② why every social experiment produces identical results",
-      "③ the superiority of expensive solutions in every situation",
-      "④ the claim that historical context never matters",
-      "⑤ the complete absence of trade-offs in public decisions"
+      "② why underwater cameras outperform divers in reef surveys",
+      "③ the limitation of daytime observation in studying marine ecosystems",
+      "④ the need to prioritize nighttime data in coral reef research",
+      "⑤ how a single survey method can capture the full picture of reef life"
     ],
     "answer": 1,
     "explanation": "[지문 해석]\n해양 과학자가 다이버들이 수행한 산호초 조사와 수중 카메라 영상을 비교했다. 카메라는 야간 활동을 더 많이 기록했고, 다이버들은 낮 시간의 미묘한 행동을 포착했다. 어느 방법도 생태계 전체를 단독으로 포착하지 못했다. 이 사례는 겉보기에 단순해 보이는 결과가 간과하기 쉬운 조건들에 얼마나 크게 좌우되는지를 보여준다. 그 관찰은 더 넓은 함의를 고려했을 때 더욱 의미 있는 것이 된다.\n\n[주요 어휘]\nreef surveys : 산호초 조사\nunderwater cameras : 수중 카메라\nnighttime activity : 야간 활동\nsubtle daytime behavior : 미묘한 낮 시간 행동\ncapture : 포착하다, 담아내다\necosystem : 생태계\nstraightforward : 간단명백한, 단순한\nconditions : 조건, 상황\noverlook : 간과하다, 놓치다\nbroader implications : 더 넓은 의미/함축\ntake into account : 고려하다, 염두에 두다\n\n[해설]\n사례의 핵심은 “different observation methods can complement one another”입니다. 나머지 선택지는 사례의 조건을 무시하거나 과도하게 일반화합니다.\n\n[오답 해설]\n①번: 정답. 지문은 카메라와 다이버 조사가 각각 다른 정보를 포착하며, 둘 다 필요하다는 점을 강조하므로 서로 다른 관찰 방법이 상호보완될 수 있음을 명확히 보여줍니다.\n\n②번: 틀림. 지문은 사회 실험에 관한 내용이 아니며, 오히려 같은 현상도 관찰 방법에 따라 다른 결과를 낸다는 점을 시사하므로 '동일한 결과'를 주장하지 않습니다.\n\n③번: 틀림. 지문에서는 비싼 카메라가 저렴한 다이버 조사보다 우월하다고 평가하지 않으며, 오히려 둘의 보완 관계를 강조하므로 '비용이 많이 드는 해결책의 우월성'을 주장하지 않습니다.\n\n④번: 틀림. 지문의 핵심은 \"broader implications을 고려할 때 관찰이 더 의미 있다\"는 것으로, 맥락을 무시할 수 없음을 보여주므로 '역사적 맥락이 중요하지 않다'는 주장과 반대됩니다.\n\n⑤번: 틀림. 지문은 두 방법 각각이 한계를 가진다는 점을 인정하므로, '공공 결정에서 상충관계가 전혀 없다'는 주장은 지문의 내용과 맞지 않습니다.",
@@ -4259,11 +4259,11 @@ const QUESTION_BANK = [
     "passage": "A company replaced annual employee surveys with short monthly discussions. Managers learned about small problems before they became persistent grievances. The shift mattered because feedback could influence decisions while issues were still manageable. The case illustrates how an apparently straightforward result depends on conditions that are easy to overlook. The observation becomes more meaningful when its broader implications are taken into account.",
     "given_sentence": "",
     "choices": [
-      "① why every social experiment produces identical results",
-      "② the superiority of expensive solutions in every situation",
-      "③ the claim that historical context never matters",
+      "① frequent surveys eliminate the need for managerial judgment",
+      "② replacing annual reviews guarantees higher employee satisfaction",
+      "③ monthly discussions reduce grievances only in large companies",
       "④ timely feedback enables earlier correction",
-      "⑤ the complete absence of trade-offs in public decisions"
+      "⑤ shifting from annual to monthly feedback removes the need to identify underlying issues"
     ],
     "answer": 4,
     "explanation": "[지문 해석]\n한 회사가 연간 직원 설문조사를 짧은 월간 면담으로 바꾸었다. 관리자들은 작은 문제들이 지속적인 불만으로 커지기 전에 이를 파악할 수 있었다. 이러한 변화가 중요했던 이유는 피드백이 문제들이 여전히 관리 가능한 상태일 때 의사결정에 영향을 미칠 수 있었기 때문이다. 이 사례는 겉으로 간단해 보이는 결과가 실제로는 간과하기 쉬운 조건들에 어떻게 달려 있는지를 보여준다. 이러한 관찰은 더 넓은 함의를 고려할 때 더욱 의미 있는 것이 된다.\n\n[주요 어휘]\nannual employee surveys : 연간 직원 설문조사\npersistent grievances : 지속적인 불만/민원\nmanageable : 관리 가능한, 다룰 수 있는\nshift : 변화, 전환\nfeedback : 피드백, 의견/반응\nimplications : 함축된 의미, 영향\noverlook : 간과하다, 놓치다\nstraightforward : 간단한, 직설적인\ncondition : 조건, 상황\nillustrate : 예시하다, 설명하다\n\n[해설]\n사례의 핵심은 “timely feedback enables earlier correction”입니다. 나머지 선택지는 사례의 조건을 무시하거나 과도하게 일반화합니다.\n\n[오답 해설]\n①번: 지문은 특정 조건 하에서의 결과에 대해 논하고 있지, 모든 사회 실험이 동일한 결과를 낸다는 주장을 하지 않습니다. 오히려 조건에 따라 결과가 달라질 수 있음을 강조합니다.\n\n②번: 지문에서 월간 토론이라는 상대적으로 간단한 방법의 효과를 다루고 있으며, 비용이 많이 드는 해결책의 우월성에 대해서는 언급하지 않습니다.\n\n③번: 지문은 \"broader implications을 고려할 때 더 의미 있어진다\"고 하며 맥락과 조건의 중요성을 강조하므로, 역사적 맥락이 전혀 중요하지 않다는 주장과 정반대입니다.\n\n④번: 지문의 핵심은 월간 토론을 통한 \"timely feedback\"이 문제가 작을 때 해결할 수 있게 하며, \"feedback could influence decisions while issues were still manageable\"이라는 표현이 정답을 직접 뒷받침합니다.\n\n⑤번: 지문은 월간 토론의 긍정적 효과만 설명하고 있으며, 공공 결정에서 trade-offs(상충관계)가 완전히 없다는 극단적 주장은 지문 내용을 초과 해석한 것입니다.",
@@ -4276,11 +4276,11 @@ const QUESTION_BANK = [
     "passage": "A city redesigned a busy crossing after observing pedestrians. People regularly took an informal route that the marked crossing ignored. Moving the crossing closer to the actual route reduced dangerous shortcuts. The case illustrates how an apparently straightforward result depends on conditions that are easy to overlook. A conclusion drawn from only the most obvious measure would miss an important part of the explanation; the example therefore invites a distinction between appearances and underlying mechanisms.",
     "given_sentence": "",
     "choices": [
-      "① why every social experiment produces identical results",
+      "① why pedestrian behavior remains constant regardless of crossing placement",
       "② good design responds to real behavior",
-      "③ the superiority of expensive solutions in every situation",
-      "④ the claim that historical context never matters",
-      "⑤ the complete absence of trade-offs in public decisions"
+      "③ the priority of visible road markings over actual foot traffic patterns",
+      "④ the claim that relocating crossings always increases overall traffic danger",
+      "⑤ the sufficiency of observing pedestrian routes without adjusting infrastructure"
     ],
     "answer": 2,
     "explanation": "[지문 해석]\n한 도시가 보행자들을 관찰한 후 붐비는 횡단보도를 다시 설계했다. 사람들은 표시된 횡단보도를 무시하고 정기적으로 비공식적인 경로를 이용했다. 횡단보도를 실제 이용 경로에 더 가깝게 옮기자 위험한 지름길 이용이 줄어들었다. 이 사례는 겉보기에 간단해 보이는 결과가 사실은 간과하기 쉬운 조건들에 어떻게 달려 있는지를 보여준다. 가장 명백한 측정치만으로 결론을 내렸다면 설명의 중요한 부분을 놓쳤을 것이다. 따라서 이 사례는 표면적 현상과 그 밑에 있는 메커니즘 사이의 구별이 필요함을 시사한다.\n\n[주요 어휘]\nredesign : 다시 설계하다, 재설계하다\ncrossing : 횡단보도, 교차로\npedestrians : 보행자들\ninformal route : 비공식적인 경로, 임의의 길\nmarked crossing : 표시된 횡단보도\nreduce : 줄이다, 감소시키다\ndangerous shortcuts : 위험한 지름길\nillustrate : 예시하다, 설명하다\nstraightforward : 직설적인, 간단한 것 같은\noverlook : 간과하다, 놓치다\nconclusion : 결론\nunderlying mechanisms : 근본적인 메커니즘, 기저 원인\ndistinction : 구분, 차이\nappearances : 외관, 겉으로 보이는 것\n\n[해설]\n사례의 핵심은 “good design responds to real behavior”입니다. 나머지 선택지는 사례의 조건을 무시하거나 과도하게 일반화합니다.\n\n[오답 해설]\n①번: 지문은 특정 상황에서의 관찰을 통한 개선 사례를 제시하므로, 모든 사회 실험이 동일한 결과를 낸다는 절대적 주장은 지문의 내용과 맞지 않는다.\n\n②번: 지문은 실제 보행자의 행동을 관찰하여 횡단보도를 재설계한 사례를 통해, 좋은 설계란 겉보기보다는 실제 사람들의 행동 패턴에 반응해야 함을 보여준다.\n\n③번: 지문은 단순히 비용이 많이 드는 해결책이 항상 우수하다는 주장을 하지 않으며, 오히려 관찰을 통한 현실적 대응의 중요성을 강조하고 있다.\n\n④번: 지문은 특정 맥락(보행자들의 실제 행동)을 관찰하여 설계를 개선한 사례이므로, 역사적 맥락이 중요하지 않다는 주장과는 정반대의 입장을 취한다.\n\n⑤번: 지문에서는 위험한 지름길을 줄일 수 있었던 것으로 보아 긍정적 결과를 얻었으나, 이것이 모든 공공 결정에서 상충관계가 완전히 없다는 절대적 주장으로 확대될 수는 없다.",
@@ -4293,10 +4293,10 @@ const QUESTION_BANK = [
     "passage": "A school published examples of excellent essays alongside their revision histories. Students noticed that strong writing often emerged from several imperfect drafts. The examples reduced the belief that good work appeared effortlessly. The case illustrates how an apparently straightforward result depends on conditions that are easy to overlook. The observation becomes more meaningful when its broader implications are taken into account.",
     "given_sentence": "",
     "choices": [
-      "① why every social experiment produces identical results",
-      "② the superiority of expensive solutions in every situation",
-      "③ the claim that historical context never matters",
-      "④ the complete absence of trade-offs in public decisions",
+      "① revision history alone determines the quality of student essays",
+      "② sharing drafts publicly guarantees improved writing outcomes",
+      "③ imperfect drafts reflect a lack of effort rather than a natural process",
+      "④ the value of an essay depends solely on its final polished form",
       "⑤ visible processes can reshape beliefs about achievement"
     ],
     "answer": 5,
@@ -4310,11 +4310,11 @@ const QUESTION_BANK = [
     "passage": "A researcher studied a rare flower that opened only at night. Daytime surveys had underestimated how often moths visited it. Changing the observation schedule revealed pollination that had previously been overlooked. The case illustrates how an apparently straightforward result depends on conditions that are easy to overlook.",
     "given_sentence": "",
     "choices": [
-      "① why every social experiment produces identical results",
-      "② the superiority of expensive solutions in every situation",
+      "① nocturnal flowers attract more pollinators than daytime flowers",
+      "② moth visits alone determine the survival of rare flower species",
       "③ measurement schedules influence what researchers discover",
-      "④ the claim that historical context never matters",
-      "⑤ the complete absence of trade-offs in public decisions"
+      "④ changing observation timing eliminates all errors in field research",
+      "⑤ night surveys are more reliable than daytime surveys in every study"
     ],
     "answer": 3,
     "explanation": "[지문 해석]\n한 연구자가 밤에만 피는 희귀한 꽃을 연구했다. 낮 시간에 실시한 조사는 나방이 그 꽃을 방문하는 빈도를 과소평가했다. 관찰 시간을 변경하자 이전에 간과되었던 수분 현상이 드러났다. 이 사례는 겉으로 보기에 간단해 보이는 결과가 사실은 쉽게 놓치기 쉬운 조건들에 어떻게 좌우되는지를 잘 보여준다.\n\n[주요 어휘]\n# 수능 영어 주요 단어/표현\n\nrare : 드문, 희귀한\nunderestimate : 과소평가하다\nobservation schedule : 관찰 일정\nreveal : 드러내다, 밝혀내다\npollination : 수분(꽃가루받이)\noverlook : 간과하다, 놓치다\napparently : 겉보기에는, 명백히\nstraightforward : 간단한, 직설적인\ndepend on : ~에 달려있다, ~에 의존하다\nillustrate : 설명하다, 예시하 하다\npreviously : 이전에, 과거에\nsurvey : 조사하다, 살펴보다\n\n[해설]\n사례의 핵심은 “measurement schedules influence what researchers discover”입니다. 나머지 선택지는 사례의 조건을 무시하거나 과도하게 일반화합니다.\n\n[오답 해설]\n①번: 지문은 관찰 일정 변경에 따라 결과가 달라졌음을 보여주므로, 모든 사회 실험이 동일한 결과를 낸다는 주장은 지문의 핵심과 모순된다.\n\n②번: 지문은 비용이 많이 드는 해결책의 우월성에 대해 언급하지 않으며, 단지 관찰 방법의 변화가 중요함을 강조할 뿐이다.\n\n③번: 지문의 핵심은 '낮 시간 조사'라는 관찰 일정으로 인해 나방의 방문 빈도를 과소평가했고, '관찰 일정 변경'으로 이전에 간과된 수분을 발견했다는 것으로, 측정 일정이 연구 결과에 영향을 미친다는 내용과 정확히 일치한다.\n\n④번: 지문은 관찰 조건이 결과에 영향을 미친다고 강조하므로, 상황적 맥락이 중요하지 않다는 주장과 반대된다.\n\n⑤번: 지문은 공공 정책의 트레이드오프에 관해 다루지 않으며, 과학적 관찰 방법의 중요성에만 초점을 맞추고 있다.",
@@ -4328,10 +4328,10 @@ const QUESTION_BANK = [
     "given_sentence": "",
     "choices": [
       "① prevention may achieve more than end-of-pipe treatment",
-      "② why every social experiment produces identical results",
-      "③ the superiority of expensive solutions in every situation",
-      "④ the claim that historical context never matters",
-      "⑤ the complete absence of trade-offs in public decisions"
+      "② why residents prefer borrowing equipment over purchasing new items",
+      "③ the effectiveness of waste collection systems after disposal occurs",
+      "④ the claim that repairing appliances reduces community engagement",
+      "⑤ the tendency of recycling campaigns to overlook consumer behavior entirely"
     ],
     "answer": 1,
     "explanation": "[지문 해석]\n한 재활용 캠페인은 구매 전에 얼마나 많은 폐기물을 예방할 수 있는지를 강조했다. 일부 주민들은 가전제품을 수리하고 거의 사용하지 않는 장비를 빌려 쓰기 시작했다. 결국 더 적은 양의 물질이 폐기물 처리 과정으로 들어가게 되었다. 이 사례는 겉으로 단순해 보이는 결과가 얼마나 쉽게 간과할 수 있는 조건들에 달려 있는지를 보여준다. 이러한 관찰은 그것의 더 넓은 의미를 고려할 때 더욱 의미 있어진다.\n\n[주요 어휘]\nrecycling campaign : 재활용 캠페인\nwaste : 낭비, 폐기물\nprevent : 방지하다, 예방하다\nappliances : 가전제품\nborrow : 빌리다\nseldom-used : 거의 사용하지 않는\nwaste stream : 폐기물 흐름\nillustrate : 보여주다, 예시하다\napparently : 겉보기에는, 분명히\nstraightforward : 단순한, 명확한\noverlook : 간과하다, 놓치다\nbroader implications : 더 넓은 의미/함의\ntake into account : 고려하다, 감안하다\n\n[해설]\n사례의 핵심은 “prevention may achieve more than end-of-pipe treatment”입니다. 나머지 선택지는 사례의 조건을 무시하거나 과도하게 일반화합니다.\n\n[오답 해설]\n①번: 정답. 지문은 구매 전 쓰레기 예방(prevention)에 중점을 둔 캠페인이 처리 단계(end-of-pipe treatment)보다 더 효과적임을 보여준다. 수리와 차용을 통해 처음부터 폐기물 발생을 줄인 사례는 사후 처리보다 사전 예방의 우월성을 입증한다.\n\n②번: 오답. 지문은 특정 재활용 캠페인의 성공 사례를 설명할 뿐 모든 사회 실험이 동일한 결과를 낳는다고 주장하지 않는다. 오히려 \"조건에 따라 결과가 달라질 수 있음\"을 시사한다.\n\n③번: 오답. 지문에서 비싼 해결책과 저렴한 해결책을 비교하지 않으며, 모든 상황에서의 우월성을 주장하지 않는다. 단지 예방 전략의 효과성을 강조할 뿐이다.\n\n④번: 오답. 지문의 마지막 문장 \"broader implications are taken into account\"는 문맥적 조건을 고려해야 함을 강조하므로, 역사적 맥락이 중요하다는 입장이다. 따라서 \"맥락이 전혀 중요하지 않다\"는 주장과 모순된다.\n\n⑤번: 오답. 지문은 \"conditions that are easy to overlook\"이라는 표현으로 예방 정책에도 고려할 조건들이 존재함을 암시한다. 이는 공공 정책에서 trade-off가 존재할 수 있음을 시사하므로 정답과 맞지 않는다.",
@@ -4344,11 +4344,11 @@ const QUESTION_BANK = [
     "passage": "A public library created a mobile service for distant neighborhoods. Borrowing increased among residents who had rarely visited the central branch. Distance, not lack of interest, had limited participation. The case illustrates how an apparently straightforward result depends on conditions that are easy to overlook. The observation becomes more meaningful when its broader implications are taken into account.",
     "given_sentence": "",
     "choices": [
-      "① why every social experiment produces identical results",
-      "② the superiority of expensive solutions in every situation",
-      "③ the claim that historical context never matters",
+      "① mobile library services always outperform fixed branches",
+      "② increased book availability alone drives higher borrowing rates",
+      "③ residents' indifference was the main obstacle to library use",
       "④ physical barriers can suppress demand",
-      "⑤ the complete absence of trade-offs in public decisions"
+      "⑤ relocating a central branch resolves all access inequalities"
     ],
     "answer": 4,
     "explanation": "[지문 해석]\n한 공공도서관이 먼 지역의 주민들을 위해 이동식 서비스를 만들었다. 중앙 지점을 거의 방문하지 않았던 주민들 중에서 책 대출이 증가했다. 참여를 제한한 것은 관심의 부족이 아니라 거리였다. 이 사례는 겉보기에 단순해 보이는 결과가 실제로는 간과하기 쉬운 조건들에 얼마나 많이 좌우되는지를 보여준다. 이 관찰은 더 넓은 의미를 고려할 때 더욱 의미 있게 된다.\n\n[주요 어휘]\n# 수능 영어 어휘 정리\n\nmobile service : 이동식 서비스\ndistant neighborhoods : 먼 지역사회\ncentral branch : 중앙점, 본점\nparticipation : 참여\napparently : 겉보기에는, 분명히\nstraightforward : 단순한, 명백한\noverlook : 간과하다, 놓치다\nimplication : 함축된 의미, 영향\ntake into account : 고려하다, 생각에 넣다\nlack of interest : 관심 부족\ninterest : 관심, 흥미\ncondition : 조건\n\n[해설]\n사례의 핵심은 “physical barriers can suppress demand”입니다. 나머지 선택지는 사례의 조건을 무시하거나 과도하게 일반화합니다.\n\n[오답 해설]\n①번: 지문은 공공도서관의 특정 사례를 통해 일반적인 원리를 제시하고 있으며, 모든 사회 실험이 동일한 결과를 낸다는 극단적 주장은 지문 내용과 맞지 않습니다.\n\n②번: 지문은 비용의 많고 적음에 대해 언급하지 않으며, 모든 상황에서 비싼 해결책이 우월하다는 주장은 지문의 취지와 무관합니다.\n\n③번: 지문의 핵심은 \"conditions that are easy to overlook\"(간과하기 쉬운 조건들)을 고려해야 한다는 것으로, 맥락이 중요함을 강조하므로 이를 부정하는 선택지는 틀렸습니다.\n\n④번: 주민들이 중앙도서관을 거의 방문하지 않은 이유는 \"거리\"라는 물리적 장애물이었으며, 모바일 서비스로 이를 제거하자 이용이 증가한 것으로 보아 물리적 장벽이 수요를 억제할 수 있음을 보여줍니다.\n\n⑤번: 지문은 모바일 서비스 도입의 긍정적 결과만 제시하고 있으며, 공공 의사결정에서 트레이드오프가 완전히 없다는 절대적 주장은 지문 내용 범위를 벗어납니다.",
@@ -4668,10 +4668,10 @@ const QUESTION_BANK = [
     "given_sentence": "",
     "choices": [
       "① to inform residents of a temporary trail closure",
-      "② to demand a complete redesign of the city transport network",
-      "③ to explain the scientific causes of climate change",
-      "④ to introduce an unrelated personal travel experience",
-      "⑤ to advertise a commercial product without any request"
+      "② to request residents to report damaged railings to the city office",
+      "③ to announce the permanent closure of the riverside trail for reconstruction",
+      "④ to remind residents of the regular maintenance schedule for the upper path",
+      "⑤ to apologize for the delay in completing the railing repair work"
     ],
     "answer": 1,
     "explanation": "[지문 해석]\n주민 여러분께, 화요일에 강변 산책로가 안전 난간 수리를 위해 폐쇄됩니다. 안전 점검이 완료될 때까지 위쪽 산책로를 이용해 주시기 바랍니다. 양해해 주셔서 감사합니다.\n\n[주요 어휘]\nriverside trail : 강변 산책로\nclosed : 폐쇄된\nengineer : 엔지니어, 기술자\nrepair : 수리하다\nloose : 느슨한\nrailing : 난간, 울타리\nupper path : 위쪽 경로\nsafety inspection : 안전 점검\nappreciate : 감사하다\npatience : 인내심, 참을성\ntemporary : 임시의\nuntil : ~까지\n\n[해설]\n발신인이 수신자에게 직접 요청하거나 알리는 핵심은 “to inform residents of a temporary trail closure”입니다.\n\n[오답 해설]\n①번: 정답. 글에서 \"riverside trail will be closed on Tuesday\"와 \"use the upper path until the safety inspection is complete\"라는 내용으로 주민들에게 임시 통행금지를 알리고 있으므로 정확히 일치한다.\n\n②번: 글에는 도시 교통망의 완전한 재설계를 요구하는 내용이 전혀 없으며, 단순한 레일 수리라는 제한적인 문제만 다루고 있다.\n\n③번: 글은 기후 변화의 과학적 원인을 설명하지 않으며, 강변 산책로의 안전 점검이라는 구체적이고 실질적인 지역 공지사항만 포함하고 있다.\n\n④번: 글에는 개인의 여행 경험이나 그와 관련된 내용이 전혀 없으며, 공식적인 공지사항의 형식으로 작성되어 있다.\n\n⑤번: 글은 상업 제품을 광고하는 것이 아니라 지역 주민들을 위한 공식 공지사항이며, 특정 요청 없이 광고하는 내용도 없다.",
@@ -4684,11 +4684,11 @@ const QUESTION_BANK = [
     "passage": "Dear Festival Committee, I am writing to request a stall at next month’s local food fair. Our cooperative grows herbs within the town, and we would like to demonstrate how they can be used in cooking.",
     "given_sentence": "",
     "choices": [
-      "① to demand a complete redesign of the city transport network",
-      "② to explain the scientific causes of climate change",
-      "③ to introduce an unrelated personal travel experience",
+      "① to promote the health benefits of locally grown herbs",
+      "② to invite the committee to visit the cooperative's herb garden",
+      "③ to suggest adding a cooking demonstration stage to the food fair",
       "④ to apply for a stall at a food fair",
-      "⑤ to advertise a commercial product without any request"
+      "⑤ to seek funding for expanding the cooperative's herb production"
     ],
     "answer": 4,
     "explanation": "[지문 해석]\n축제 위원회 귀중,\n\n저는 다음 달 지역 음식 박람회에서 부스를 운영할 수 있게 해 달라는 요청 편지를 보냅니다. 저희 협동조합은 마을 내에서 허브를 재배하고 있으며, 이러한 허브들이 요리에서 어떻게 활용될 수 있는지 보여드리고 싶습니다.\n\n[주요 어휘]\n# 주요 단어/표현\n\nrequest : 요청하다\nstall : (박람회의) 판매 부스\ncooperative : 협동조합\ndemonstrate : 시연하다, 보여주다\nlocal food fair : 지역 식품 박람회\nherb : 허브, 향신료 식물\nconduct : 진행하다\ninteractive : 상호작용적인\nengage : 참여시키다, 관심을 끌다\n\n[해설]\n발신인이 수신자에게 직접 요청하거나 알리는 핵심은 “to apply for a stall at a food fair”입니다.\n\n[오답 해설]\n①번: 지문은 음식 박람회의 부스 신청에 관한 내용이지, 도시 교통망 재설계를 요구하는 내용이 아니다. 지문의 주제와 완전히 무관한 선지다.\n\n②번: 지문에서 기후 변화의 과학적 원인을 설명하는 내용은 전혀 찾을 수 없다. 글의 목적은 지역 허브를 소개하고 박람회 부스 참가를 신청하는 것이다.\n\n③번: 지문은 개인적인 여행 경험을 소개하는 글이 아니며, 협동조합의 허브 재배와 요리 활용법에 관한 비즈니스 성격의 요청이다. 따라서 무관한 여행 경험 소개는 맞지 않다.\n\n④번: 지문의 첫 문장 \"I am writing to request a stall\"에서 부스 신청의 의도가 명확히 드러나며, 협동조합의 허브를 소개하고 요리에 활용하는 방법을 보여주고 싶다는 목적도 함께 나타난다. 따라서 정답이다.\n\n⑤번: 지문은 상업적 제품을 무조건적으로 광고하는 것이 아니라, 정중한 요청의 형태로 지역 공동체에 자신들의 허브를 소개하고 부스 참가를 신청하는 내용이다.",
@@ -4701,10 +4701,10 @@ const QUESTION_BANK = [
     "passage": "To all volunteers: the beach survey begins at 8 a.m. on Saturday. Please bring gloves and record the location of each collected sample. An orientation will be held at the entrance.",
     "given_sentence": "",
     "choices": [
-      "① to demand a complete redesign of the city transport network",
-      "② to explain the scientific causes of climate change",
-      "③ to introduce an unrelated personal travel experience",
-      "④ to advertise a commercial product without any request",
+      "① to recruit new volunteers for the beach survey",
+      "② to announce the cancellation of the upcoming beach event",
+      "③ to request donations of equipment for coastal research",
+      "④ to report the results of a previously conducted beach survey",
       "⑤ to give instructions for a volunteer survey"
     ],
     "answer": 5,
@@ -4718,10 +4718,10 @@ const QUESTION_BANK = [
     "passage": "Dear Neighbors, we are gathering signatures to preserve the old market hall. The building can be renovated for community use rather than demolished. Please attend the public meeting on Thursday.",
     "given_sentence": "",
     "choices": [
-      "① to demand a complete redesign of the city transport network",
-      "② to explain the scientific causes of climate change",
-      "③ to introduce an unrelated personal travel experience",
-      "④ to advertise a commercial product without any request",
+      "① to inform residents of the confirmed demolition plan for the market hall",
+      "② to invite local businesses to rent spaces in the renovated market hall",
+      "③ to propose a fundraising campaign for rebuilding the market hall from scratch",
+      "④ to announce the final decision made at the previous public meeting",
       "⑤ to encourage support for preserving a public building"
     ],
     "answer": 5,
@@ -4735,9 +4735,9 @@ const QUESTION_BANK = [
     "passage": "Maya entered the audition room with trembling hands. Halfway through, she missed a note but continued playing. When the judges smiled and invited her to the final round, she could hardly stop grinning.",
     "given_sentence": "",
     "choices": [
-      "① confident → indifferent",
-      "② bored → irritated",
-      "③ hostile → contemptuous",
+      "① excited → disappointed and ashamed",
+      "② calm → frustrated and embarrassed",
+      "③ anxious → proud and confident",
       "④ nervous → relieved and delighted",
       "⑤ amused → suspicious"
     ],
@@ -4752,11 +4752,11 @@ const QUESTION_BANK = [
     "passage": "Jon watched his small boat drift away from the dock. He searched for a rope but found none. Minutes later, a harbor worker secured the boat and returned it safely.",
     "given_sentence": "",
     "choices": [
-      "① confident → indifferent",
+      "① anxious → grateful",
       "② alarmed → relieved",
-      "③ bored → irritated",
-      "④ hostile → contemptuous",
-      "⑤ amused → suspicious"
+      "③ frantic → embarrassed",
+      "④ helpless → dependent",
+      "⑤ startled → reassured"
     ],
     "answer": 2,
     "explanation": "[지문 해석]\nJon은 자신의 작은 보트가 선착장에서 떠내려가는 것을 바라봤다. 그는 밧줄을 찾으려고 했지만 발견하지 못했다. 몇 분 뒤, 항만 노동자가 보트를 안전하게 확보하여 돌려놓았다.\n\n[주요 어휘]\n# 수능 영어 필수 단어/표현\n\n1. drift away : (떠내려) 멀어지다\n2. dock : 부두, 선착장\n3. secured : 고정시키다, 확보하다\n4. harbor worker : 항만 근로자\n5. rope : 밧줄, 로프\n6. safely : 안전하게\n7. search for : ~을 찾다\n8. minutes later : 몇 분 후에\n9. returned : 돌려주다, 반환하다\n\n[해설]\n사건 이전과 이후에 묘사된 표정·행동이 “alarmed → relieved”의 흐름을 뒷받침합니다.\n\n[오답 해설]\n①번: Jon이 배를 잃어버렸을 때 자신감 있어 보이지 않으며, 나중에 무관심해지는 것도 상황과 맞지 않습니다. 배를 되찾은 후 안도감을 느껴야 합니다.\n\n②번: Jon은 배가 떠내려갈 때 불안하고 당황한 상태였고, 항구 근로자가 배를 되돌려주자 안심하고 안도감을 느꼈습니다. 상황의 전개에 따른 심경 변화를 정확히 포착합니다.\n\n③번: 지문에서 Jon이 지루하거나 짜증내는 모습이 드러나지 않습니다. 상황은 배를 잃어버린 긴급 상황이므로 감정적 심각성이 훨씬 큽니다.\n\n④번: Jon과 항구 근로자 사이에 적대적이거나 경멸적인 관계가 없습니다. 근로자는 Jon을 도와주는 긍정적인 역할을 하므로 이 감정들은 부적절합니다.\n\n⑤번: 배가 떠내려갈 때 재미있어하거나 웃을 상황이 아니며, 배를 되찾은 후 의심하는 것도 근거가 없습니다. 상황의 심각성과 맞지 않습니다.",
@@ -4769,11 +4769,11 @@ const QUESTION_BANK = [
     "passage": "An elderly gardener saw his seedlings flattened by rain. He sighed and gathered the broken trays. The next morning neighbors arrived with spare plants, and his eyes filled with tears.",
     "given_sentence": "",
     "choices": [
-      "① confident → indifferent",
-      "② bored → irritated",
+      "① worried → grateful",
+      "② exhausted → relieved",
       "③ discouraged → touched",
-      "④ hostile → contemptuous",
-      "⑤ amused → suspicious"
+      "④ lonely → hopeful",
+      "⑤ sorrowful → indifferent"
     ],
     "answer": 3,
     "explanation": "[지문 해석]\n한 노인 정원사가 빗에 의해 쓰러진 묘목들을 보았다. 그는 한숨을 쉬며 부러진 트레이들을 모았다. 다음날 아침 이웃들이 여분의 식물들을 들고 나타났고, 그의 눈에는 눈물이 맺혔다.\n\n[주요 어휘]\n# 수능 영어 주요 단어/표현\n\nelderly : 나이가 많은, 노인의\n\nseedling : 모종, 어린 식물\n\nflatten : 납작하게 하다, 누르다\n\nsigh : 한숨을 쉬다\n\ngather : 모으다, 거두다\n\nspare : 여유 있는, 남은\n\nfill with tears : 눈물로 가득 차다\n\narrive with : ~을 가지고 도착하다\n\n[해설]\n사건 이전과 이후에 묘사된 표정·행동이 “discouraged → touched”의 흐름을 뒷받침합니다.\n\n[오답 해설]\n①번: 노인이 처음부터 자신감 있는 태도를 보이지 않았고, 이웃의 도움으로 무관심해지는 심경 변화도 부자연스럽습니다.\n\n②번: 지문에서 노인이 지루함이나 짜증을 드러내는 부분이 없으며, 이웃의 도움에 눈물로 반응하는 것과 맞지 않습니다.\n\n③번: 빗에 맞아 좌절한 노인(discouraged)이 이웃의 따뜻한 도움으로 감동하여 눈물까지 흘리는(touched) 긍정적인 심경 변화가 지문의 내용과 정확히 일치합니다.\n\n④번: 노인이 처음부터 적대적이거나 경멸적인 태도를 보이지 않았으며, 감정 변화의 방향도 이웃의 선행과 어울리지 않습니다.\n\n⑤번: 노인의 처음 반응에서 즐거움이 나타나지 않았고, 이웃의 도움에 의심으로 반응하는 것은 상황의 따뜻한 의도와 전혀 맞지 않습니다.",
@@ -4787,10 +4787,10 @@ const QUESTION_BANK = [
     "given_sentence": "",
     "choices": [
       "① anxious → reassured",
-      "② confident → indifferent",
-      "③ bored → irritated",
-      "④ hostile → contemptuous",
-      "⑤ amused → suspicious"
+      "② nervous → determined",
+      "③ cautious → relieved",
+      "④ hesitant → confident",
+      "⑤ overwhelmed → grateful"
     ],
     "answer": 1,
     "explanation": "[지문 해석]\n어려운 등산의 첫 아침, 한 가이드가 단체 앞에 서 있었다. 그녀는 갑자기 낀 안개가 걱정되었다. 구름이 걷히고 모두가 지시를 따르자, 그녀의 어깨가 한결 편해졌다.\n\n[주요 어휘]\nguide : 안내자, 가이드\nsudden : 갑작스러운, 예상치 못한\nfog : 안개\nworried about : ~에 대해 걱정하다\nas : ~하면서, ~함에 따라\ncleared : 걷히다, 사라지다\nfollowed instructions : 지시를 따르다\nshoulders relaxed : 어깨가 풀리다\ndifficult : 어려운, 힘든\ngroup : 집단, 그룹\n\n[해설]\n사건 이전과 이후에 묘사된 표정·행동이 “anxious → reassured”의 흐름을 뒷받침합니다.\n\n[오답 해설]\n①번: 정답. 가이드는 안개로 인해 걱정(anxious)했지만, 구름이 걷히고 모두가 지시를 따르자 어깨가 이완되어 안심(reassured)한 상태로 변화한다.\n\n②번: 가이드가 처음부터 자신감 있는 태도를 보이지 않으며, 오히려 걱정하는 모습이 드러나므로 '확신감 → 무관심'은 맞지 않다.\n\n③번: 지문에서 가이드가 지루함이나 짜증을 드러내는 표현이 없고, 안개에 대한 걱정으로 시작해 안심으로 끝나는 감정 변화이다.\n\n④번: 가이드가 등산객들에게 적대적이거나 경멸적인 태도를 보이지 않으며, 전체적으로 전문가적으로 상황을 관리하려는 모습이다.\n\n⑤번: 지문에서 가이드가 웃거나 즐거워하는 장면이 없고, 의심하는 태도도 나타나지 않으므로 적절하지 않다.",
@@ -4803,11 +4803,11 @@ const QUESTION_BANK = [
     "passage": "Nina arrived at the station certain she had missed her train. She saw the platform clock and hurried toward the empty track. Then an announcement said the departure was delayed.",
     "given_sentence": "",
     "choices": [
-      "① confident → indifferent",
+      "① rushed → relieved",
       "② panicked → relieved",
-      "③ bored → irritated",
-      "④ hostile → contemptuous",
-      "⑤ amused → suspicious"
+      "③ anxious → grateful",
+      "④ nervous → embarrassed",
+      "⑤ hurried → disappointed"
     ],
     "answer": 2,
     "explanation": "[지문 해석]\n니나는 자신이 기차를 놓쳤을 것이 확실하다고 생각하며 역에 도착했다. 그녀는 플랫폼의 시계를 보고 텅 빈 선로를 향해 서둘러 달려갔다. 그러던 중 출발이 지연된다는 안내 방송이 나왔다.\n\n[주요 어휘]\n# 수능 영어 핵심 어휘\n\narrive at : ~에 도착하다\ncertain : 확실한, 확신하는\nmiss : (기차 등을) 놓치다\nplatform : (기차역의) 승강장\nhurry toward : ~을 향해 서둘러 가다\nempty : 비어있는\nannouncement : 공지, 발표\ndeparture : 출발\ndelay : 지연하다, 늦추다\n\n[해설]\n사건 이전과 이후에 묘사된 표정·행동이 “panicked → relieved”의 흐름을 뒷받침합니다.\n\n[오답 해설]\n①번: Nina가 기차를 놓쳤다고 확신하고 서둘러 움직이는 모습에서 확신(confident)을 찾기 어렵고, 지문에서 무관심함(indifferent)으로 변화하는 심경 변화도 나타나지 않습니다.\n\n②번: Nina는 기차를 놓쳤다고 확실히 생각해 황급해하다가(panicked), 지연 공지를 들으며 안심하게 됩니다(relieved). 이는 지문의 심경 변화를 정확히 반영합니다.\n\n③번: 지문에는 Nina가 지루해하거나 짜증내는 태도가 나타나지 않으므로, 지루함에서 짜증으로의 심경 변화는 부적절합니다.\n\n④번: Nina의 태도에서 적대감(hostile)이나 경멸(contemptuous)과 같은 부정적인 감정이 드러나지 않으므로, 이 두 감정으로의 변화는 지문과 맞지 않습니다.\n\n⑤번: Nina가 처음에 즐거워하거나(amused) 나중에 의심하는(suspicious) 모습이 지문에 나타나지 않으므로 부적절합니다.",
@@ -4820,10 +4820,10 @@ const QUESTION_BANK = [
     "passage": "A student looked at his first draft covered with comments. He pushed it aside in frustration. Later he saw how each suggestion made the argument clearer and thanked his teacher.",
     "given_sentence": "",
     "choices": [
-      "① confident → indifferent",
-      "② bored → irritated",
-      "③ hostile → contemptuous",
-      "④ amused → suspicious",
+      "① anxious → relieved",
+      "② indifferent → grateful",
+      "③ embarrassed → motivated",
+      "④ overwhelmed → confident",
       "⑤ frustrated → appreciative"
     ],
     "answer": 5,
@@ -4837,11 +4837,11 @@ const QUESTION_BANK = [
     "passage": "Hana listened as her team rejected her design. She was silent at first. When a colleague offered to combine its best feature with a new plan, she eagerly reopened her notebook.",
     "given_sentence": "",
     "choices": [
-      "① confident → indifferent",
-      "② bored → irritated",
-      "③ hostile → contemptuous",
+      "① embarrassed → relieved",
+      "② defensive → collaborative",
+      "③ indifferent → frustrated",
       "④ hurt → hopeful",
-      "⑤ amused → suspicious"
+      "⑤ disappointed → resentful"
     ],
     "answer": 4,
     "explanation": "[지문 해석]\n하나는 자신의 디자인을 거부하는 팀의 의견을 들었다. 처음에는 말이 없었다. 동료가 그것의 최고의 특징을 새로운 계획과 결합하겠다고 제안했을 때, 그녀는 열정적으로 노트북을 다시 펼쳤다.\n\n[주요 어휘]\nreject : 거절하다, 거부하다\nsilent : 조용한, 침묵하는\ncolleague : 동료\ncombine : 결합하다, 합치다\nfeature : 특징, 특성\neagerly : 열심히, 간절히\nreopen : 다시 열다, 재개하다\nresilience : 회복력, 탄력성\n\n[해설]\n사건 이전과 이후에 묘사된 표정·행동이 “hurt → hopeful”의 흐름을 뒷받침합니다.\n\n[오답 해설]\n①번: 자신의 디자인이 거절당했을 때 자신감 있는 태도를 보이지 않았으며, 동료의 제안에 \"열정적으로\" 반응한 것은 무관심한 태도와 맞지 않습니다.\n\n②번: 지문에서 Hana가 처음에는 침묵했다가 건설적인 제안을 받자 열정적으로 반응했으므로, 지루함에서 짜증으로의 감정 변화는 상황과 맞지 않습니다.\n\n③번: Hana가 동료의 제안에 열정적으로 반응하며 노트북을 다시 펼쳤으므로 적대적이거나 경멸적인 태도를 보이지 않습니다.\n\n④번: 자신의 디자인이 거절되어 침묵하며 상처받은 상태에서, 건설적인 해결책이 제시되자 열정적으로 반응하며 희망적으로 변합니다.\n\n⑤번: 지문에서 Hana가 동료의 제안에 긍정적이고 열정적으로 반응했으므로, 처음부터 의심하거나 마지막에도 의심적인 태도는 텍스트와 맞지 않습니다.",
@@ -4854,10 +4854,10 @@ const QUESTION_BANK = [
     "passage": "A runner fell behind during the first half of a race. She nearly gave up, but the crowd’s encouragement helped her finish strongly. She crossed the line smiling despite the time.",
     "given_sentence": "",
     "choices": [
-      "① confident → indifferent",
-      "② bored → irritated",
-      "③ hostile → contemptuous",
-      "④ amused → suspicious",
+      "① anxious → relieved",
+      "② exhausted → grateful",
+      "③ hesitant → determined",
+      "④ overwhelmed → satisfied",
       "⑤ discouraged → proud"
     ],
     "answer": 5,
@@ -4871,11 +4871,11 @@ const QUESTION_BANK = [
     "passage": "An archivist thought the final page of a rare diary had been lost. He searched several boxes and discovered it inside another volume. He stared at the page with disbelief and satisfaction.",
     "given_sentence": "",
     "choices": [
-      "① confident → indifferent",
-      "② bored → irritated",
+      "① frustrated → relieved",
+      "② doubtful → confident",
       "③ concerned → delighted",
-      "④ hostile → contemptuous",
-      "⑤ amused → suspicious"
+      "④ indifferent → curious",
+      "⑤ anxious → exhausted"
     ],
     "answer": 3,
     "explanation": "[지문 해석]\n한 아키비스트는 희귀한 일기의 마지막 페이지가 없어졌다고 생각했다. 그는 여러 상자를 뒤졌고 그것을 다른 책 속에서 발견했다. 그는 그 페이지를 믿기지 않으면서도 만족스러운 표정으로 바라봤다.\n\n[주요 어휘]\n1. archivist : 기록보관인, 자료 수집가\n2. rare : 드문, 희귀한\n3. diary : 일기, 일지\n4. search : 찾다, 수색하다\n5. discover : 발견하다\n6. stare at : ~을 응시하다\n7. disbelief : 의심, 믿지 않음\n8. satisfaction : 만족감\n9. final : 최종적인, 마지막의\n10. volume : 책, 권(冊)\n\n[해설]\n사건 이전과 이후에 묘사된 표정·행동이 “concerned → delighted”의 흐름을 뒷받침합니다.\n\n[오답 해설]\n①번: 아키비스트가 찾기 위해 여러 상자를 검색했다는 것은 자신감 있는 태도가 아니라 우려하는 상태를 나타내므로, 처음 감정이 자신감일 수 없습니다. 또한 발견 후 무관심(indifferent)하지 않고 불신과 만족을 드러냅니다.\n\n②번: 여러 상자를 검색하는 것은 지루함(bored)을 나타내지 않으며, 희귀한 일기의 마지막 페이지를 찾은 후 불쾌함(irritated)이 아닌 긍정적 감정을 보이므로 틀렸습니다.\n\n③번: 마지막 페이지가 잃어버렸다고 생각했을 때의 우려(concerned)와 실제로 발견한 후 불신과 함께 만족감(delighted)을 느끼는 감정의 흐름이 자연스럽게 일치합니다. 정답입니다.\n\n④번: 지문에서 아키비스트가 일기를 찾는 과정에서 적대적(hostile)이거나 경멸적(contemptuous)인 태도를 보이지 않으므로 맥락에 맞지 않습니다.\n\n⑤번: 여러 상자를 검색하는 것은 즐거움(amused)보다는 우려의 감정을 반영하며, 발견 후 의심(suspicious)이 아닌 만족감을 드러내므로 부적절합니다.",
@@ -4888,11 +4888,11 @@ const QUESTION_BANK = [
     "passage": "A transit agency moved its bus maps to street level. Travelers who struggled to find connections navigated more easily afterward. The same information became more useful when placed at the moment of decision. Understanding this result requires looking beyond the most visible feature of the case.",
     "given_sentence": "",
     "choices": [
-      "① When More Spending Guarantees Better Outcomes",
-      "② Why Historical Evidence Should Always Be Ignored",
-      "③ The End of Cooperation in Modern Communities",
+      "① Moving Bus Stops Closer to Destinations Boosts Ridership",
+      "② Why Transit Agencies Should Prioritize Expanding Route Networks",
+      "③ Travelers Adapt Better When Given More Data at Once",
       "④ Information design matters as much as information content",
-      "⑤ A Single Measurement Explains Everything"
+      "⑤ Relocating Bus Maps to Street Level Transforms the Transit Experience"
     ],
     "answer": 4,
     "explanation": "[지문 해석]\n대중교통 운영 기관이 버스 노선도를 거리 수준으로 이동했다. 그 후 환승 경로를 찾기 어려워하던 이용객들은 더 쉽게 길을 찾을 수 있었다. 같은 정보라도 의사 결정 순간에 제시되면 훨씬 더 유용해진다. 이러한 결과를 이해하려면 이 사례의 가장 눈에 띄는 특징 너머를 살펴봐야 한다.\n\n[주요 어휘]\ntransit agency : 대중교통 운영 기관\nstruggled to : ~하기 위해 애쓰다, 힘들어하다\nnavigate : 길을 찾아가다, 항해하다\nconnection : 연결, 연결편\nmoment of decision : 결정의 순간\nrequiring : 필요로 하다\nbeyond : ~을 넘어서, ~을 초과하여\nvisible feature : 눈에 띄는 특징\ncase : 사례, 경우\n\n[해설]\n글의 전체 과정을 포괄하면서 지나치게 단정하지 않는 제목을 선택해야 합니다.\n\n[오답 해설]\n①번: 지문에서 예산 증가에 대한 언급이 전혀 없으며, 오히려 기존 정보를 다른 위치에 배치하는 디자인 변화만 다루고 있으므로 무관하다.\n\n②번: 지문은 버스 지도 이동이라는 실제 사례를 긍정적으로 제시하고 있으므로, 역사적 증거를 무시해야 한다는 주장과는 정반대의 내용이다.\n\n③번: 지문은 정보 배치를 통한 개선 사례를 다루고 있으며, 현대 사회의 협력 붕괴나 공동체의 문제에 대해 언급하지 않는다.\n\n④번: 지문의 핵심은 같은 정보(버스 지도)가 배치 위치(street level, 결정의 순간)를 바꾸자 더 효과적이 되었다는 것으로, 정보 내용뿐만 아니라 그 디자인과 배치가 중요함을 보여준다.\n\n⑤번: 지문은 하나의 측정이 아니라 정보의 위치라는 '디자인' 요소의 중요성을 강조하고 있으므로, 단일 측정으로 모든 것을 설명할 수 있다는 주장은 맞지 않다.",
@@ -4905,11 +4905,11 @@ const QUESTION_BANK = [
     "passage": "A historian explored letters written by ordinary sailors. They discussed food, illness, and family as much as grand voyages. The letters complicated official accounts focused solely on exploration and trade. Understanding this result requires looking beyond the most visible feature of the case. The observation becomes more meaningful when its broader implications are taken into account.",
     "given_sentence": "",
     "choices": [
-      "① When More Spending Guarantees Better Outcomes",
+      "① Official Trade Records Reveal Sailors' True Motivations",
       "② Everyday voices can reshape historical narratives",
-      "③ Why Historical Evidence Should Always Be Ignored",
-      "④ The End of Cooperation in Modern Communities",
-      "⑤ A Single Measurement Explains Everything"
+      "③ Grand Voyages Define the Whole of Maritime History",
+      "④ Letters from Sailors Confirm the Accuracy of Exploration Accounts",
+      "⑤ Family Concerns Drove Sailors Away from Long-Distance Voyages"
     ],
     "answer": 2,
     "explanation": "[지문 해석]\n한 역사가가 평범한 선원들이 쓴 편지들을 조사했다. 그들은 웅대한 항해만큼이나 음식, 질병, 가족에 대해 많이 이야기했다. 이 편지들은 탐험과 무역에만 초점을 맞춘 공식 기록들을 더욱 복잡하게 만들었다. 이 결과를 이해하려면 사건의 가장 눈에 띄는 특징을 넘어서서 살펴봐야 한다. 그 관찰은 더 넓은 함의들을 고려할 때 더욱 의미 있게 된다.\n\n[주요 어휘]\nhistorian : 역사가\ncomplicated : 복잡하게 하다, 더욱 복잡하게 만들다\nofficial accounts : 공식 기록\nsolely : 오직, 단지\nexploration : 탐험\nlook beyond : ~을 넘어서 살펴보다\nvisible feature : 눈에 띄는 특징\nimplication : 함의, 영향\ntake into account : 고려하다\n\n[해설]\n글의 전체 과정을 포괄하면서 지나치게 단정하지 않는 제목을 선택해야 합니다.\n\n[오답 해설]\n①번: 지문은 역사 해석 방식의 변화에 관한 내용이지, 지출과 결과의 관계를 다루고 있지 않다. 경제적 투자에 관한 논의가 전혀 없으므로 부적절하다.\n\n②번: 지문의 핵심은 일반 선원들의 편지라는 '보통 사람의 목소리'가 공식 기록과는 다른 역사상을 제시하면서 역사 해석을 재구성한다는 점이다. 따라서 정답이다.\n\n③번: 지문은 역사 증거를 무시해야 한다고 주장하는 것이 아니라, 다양한 증거 출처를 포함하여 더 폭넓게 살펴봐야 한다는 긍정적 주장을 한다. 극단적으로 왜곡한 선지이다.\n\n④번: 지문은 현대 공동체의 협력 문제를 다루고 있지 않으며, 역사 연구 방법론에 관한 내용이다. 지문의 주제와 무관하다.\n\n⑤번: 지문은 오히려 '단일한 측정이나 공식 기록만으로는 부족하며, 더 넓은 관점이 필요하다'고 주장한다. 이는 선지의 주장과 정반대이므로 틀렸다.",
@@ -4922,10 +4922,10 @@ const QUESTION_BANK = [
     "passage": "A school invited students to propose energy-saving ideas. They identified lights left on in empty rooms and organized a monitoring plan. The success depended on their ability to act, not just their awareness of the problem. Understanding this result requires looking beyond the most visible feature of the case. The observation becomes more meaningful when its broader implications are taken into account.",
     "given_sentence": "",
     "choices": [
-      "① When More Spending Guarantees Better Outcomes",
-      "② Why Historical Evidence Should Always Be Ignored",
-      "③ The End of Cooperation in Modern Communities",
-      "④ A Single Measurement Explains Everything",
+      "① Awareness Alone Drives Students to Save Energy",
+      "② Monitoring Empty Rooms Solves All School Problems",
+      "③ Stricter Rules Replace the Need for Student Proposals",
+      "④ Visible Problems Are More Important Than Hidden Ones",
       "⑤ Participation turns knowledge into practice"
     ],
     "answer": 5,
@@ -4939,11 +4939,11 @@ const QUESTION_BANK = [
     "passage": "A research group tested an artificial intelligence model on regional dialects. It performed well on standard speech but misinterpreted many local expressions. Training data diversity mattered for the system’s fairness and reliability. Understanding this result requires looking beyond the most visible feature of the case. A conclusion drawn from only the most obvious measure would miss an important part of the explanation; the example therefore invites a distinction between appearances and underlying mechanisms.",
     "given_sentence": "",
     "choices": [
-      "① When More Spending Guarantees Better Outcomes",
-      "② Why Historical Evidence Should Always Be Ignored",
+      "① Dialect Diversity Slows Down AI Development",
+      "② Standard Speech Outperforms Local Dialects in All Contexts",
       "③ Technical performance depends on representative evidence",
-      "④ The End of Cooperation in Modern Communities",
-      "⑤ A Single Measurement Explains Everything"
+      "④ AI Models Succeed Once Trained on Any Language Sample",
+      "⑤ Surface-Level Accuracy Reflects True System Reliability"
     ],
     "answer": 3,
     "explanation": "[지문 해석]\n한 연구팀이 인공지능 모델을 지역 방언으로 테스트했다. 표준 언어에서는 잘 작동했지만 많은 지역 표현을 잘못 해석했다. 훈련 데이터의 다양성이 시스템의 공정성과 신뢰성에 중요한 영향을 미쳤다. 이 결과를 이해하려면 사건의 가장 드러난 특징만 보아서는 안 된다. 가장 명백한 지표만으로 도출한 결론은 설명의 중요한 부분을 놓칠 것이고, 따라서 이 사례는 외형과 그 배경의 메커니즘을 구별할 필요성을 시사한다.\n\n[주요 어휘]\nartificial intelligence model : 인공지능 모델\nregional dialects : 지역 방언\nmisinterpret : 잘못 해석하다\ntraining data diversity : 훈련 데이터의 다양성\nfairness : 공정성\nreliability : 신뢰성\nlook beyond : ~을 넘어서 살펴보다\nvisible feature : 눈에 띄는 특징\nobvious measure : 명백한 척도\nunderlying mechanisms : 기저의 메커니즘\ndistinction : 구분, 차이\nappearances : 외양, 겉모습\n\n[해설]\n글의 전체 과정을 포괄하면서 지나치게 단정하지 않는 제목을 선택해야 합니다.\n\n[오답 해설]\n①번: 지문은 AI 모델의 성능 향상을 위해 필요한 조건을 논하지, 비용 지출과 결과의 관계를 다루지 않으므로 부적절하다.\n\n②번: 지문은 \"training data diversity\"의 중요성을 강조하며 증거의 대표성을 중시하므로, 역사적 증거를 무시해야 한다는 주장과 정반대이다.\n\n③번: 지문의 핵심은 표준 발음 데이터만으로는 부족하고 다양한 지역 방언 데이터(representative evidence)가 필요하다는 것으로, AI의 기술적 성능이 대표성 있는 증거에 달려있음을 보여준다.\n\n④번: 지문은 현대 공동체의 협력 문제를 논하지 않으며, AI 모델의 학습 데이터 문제에 관한 내용이므로 무관하다.\n\n⑤번: 지문은 \"appearances and underlying mechanisms\"의 구분을 강조하며, 단 하나의 측정치(표준 발음 성능)로는 설명이 부족함을 명시하므로 틀렸다.",
@@ -4957,10 +4957,10 @@ const QUESTION_BANK = [
     "given_sentence": "",
     "choices": [
       "① Ecological relationships can provide practical services",
-      "② When More Spending Guarantees Better Outcomes",
-      "③ Why Historical Evidence Should Always Be Ignored",
-      "④ The End of Cooperation in Modern Communities",
-      "⑤ A Single Measurement Explains Everything"
+      "② Pesticide Reduction Alone Restores Orchard Health",
+      "③ How Hedgerows Became Obstacles to Crop Growth",
+      "④ Predators in Hedgerows Threaten Agricultural Yields",
+      "⑤ Boundary Plants Signal the Decline of Pest Control"
     ],
     "answer": 1,
     "explanation": "[지문 해석]\n한 과수원이 경계 부근에 울타리 식물을 심는 실험을 했다. 이 식물들은 농작물 해충의 천적들을 위한 서식지를 제공했다. 해충으로 인한 피해는 줄어들었지만 살충제 사용량은 이에 비례해 증가하지 않았다. 이 결과를 이해하려면 이 사례에서 가장 눈에 띄는 특징만 봐서는 안 된다. 더 넓은 함의를 고려할 때 비로소 이 관찰이 더욱 의미 있게 된다.\n\n[주요 어휘]\norchard : 과수원\nhedgerow : 울타리 생울타리\nhabitat : 서식지\npredator : 포식자\npest : 해충\nproportional : 비례하는\npesticide : 살충제\nimplication : 함축된 의미, 영향\n\n[해설]\n글의 전체 과정을 포괄하면서 지나치게 단정하지 않는 제목을 선택해야 합니다.\n\n[오답 해설]\n①번: 생태계의 관계가 실질적인 이점을 제공한다는 의미로, 지문에서 울타리 식물이 해충 포식자의 서식지를 제공하여 살충제 없이도 해충 피해를 줄인 사례와 정확히 일치한다. 따라서 정답이다.\n\n②번: 더 많은 지출이 더 나은 결과를 보장한다는 의미인데, 지문은 오히려 더 많은 살충제를 사용하지 않고도 해충 피해가 감소했다는 점을 강조하므로 지문의 주제와 모순된다.\n\n③번: 역사적 증거를 항상 무시해야 한다는 극단적 주장으로, 지문은 오히려 관찰 사례를 광범위하게 분석하고 의미 있게 해석할 것을 강조하므로 방향이 완전히 반대다.\n\n④번: 현대 사회에서 협력의 종말에 관한 내용인데, 지문은 생태계의 협력 관계가 실질적 이익을 가져온다는 긍정적 사례를 다루므로 지문의 주제와 무관하다.\n\n⑤번: 하나의 측정이 모든 것을 설명한다는 의미로, 지문은 가시적 특징을 넘어 더 광범위한 의미를 고려해야 한다고 강조하므로 지문의 메시지와 정반대다.",
@@ -4973,11 +4973,11 @@ const QUESTION_BANK = [
     "passage": "A small theater offered audio descriptions for visually impaired guests. The service required detailed attention to movement and setting. Descriptions also helped designers reconsider what was essential in each scene. Understanding this result requires looking beyond the most visible feature of the case.",
     "given_sentence": "",
     "choices": [
-      "① When More Spending Guarantees Better Outcomes",
-      "② Why Historical Evidence Should Always Be Ignored",
-      "③ The End of Cooperation in Modern Communities",
+      "① Audio Descriptions Serve Only the Visually Impaired",
+      "② Theater Design Should Prioritize Visual Spectacle Over All Else",
+      "③ Accessibility Features Distract Performers from Their Core Roles",
       "④ Accessibility efforts can improve creative practice",
-      "⑤ A Single Measurement Explains Everything"
+      "⑤ Detailed Scene Descriptions Replace the Need for Stage Design"
     ],
     "answer": 4,
     "explanation": "[지문 해석]\n한 소극장이 시각장애인 관객을 위한 음성 해설 서비스를 제공했다. 이 서비스는 무대 위의 움직임과 배경에 대한 세심한 주의를 요구했다. 또한 음성 해설은 무대 미술팀으로 하여금 각 장면에서 꼭 필요한 요소가 무엇인지 다시 생각해 보도록 했다. 이러한 결과를 이해하려면 이 사례의 가장 눈에 띄는 특징만 바라보는 것을 벗어나야 한다.\n\n[주요 어휘]\naudio description : 음성 설명\nvisually impaired : 시각 장애가 있는\ndetailed attention : 세밀한 주의\nmovement : 움직임, 동작\nsetting : 무대 배경, 장면 설정\nreconsider : 다시 생각하다\nessential : 필수적인, 본질적인\nbeyond : ~을 넘어서, ~을 초과하여\nvisible feature : 눈에 띄는 특징\ncase : 사례, 경우\n\n[해설]\n글의 전체 과정을 포괄하면서 지나치게 단정하지 않는 제목을 선택해야 합니다.\n\n[오답 해설]\n①번: 지문은 오디오 설명 서비스 제공과 관련된 내용이며, 비용 지출과 결과의 관계를 다루지 않으므로 부적절하다.\n\n②번: 지문에서 역사적 증거를 무시해야 한다는 주장이 전혀 나타나지 않으며, 지문의 핵심 내용과 무관하다.\n\n③번: 현대 공동체의 협력 종료라는 극단적인 주제는 지문에서 다루고 있지 않으며, 실제로 지문은 협력의 긍정적 결과를 보여준다.\n\n④번: 장애인 접근성을 위한 오디오 설명이 디자이너들이 각 장면의 필수 요소를 재고하도록 도와 창작 실천을 개선했다는 점이 핵심이므로 정답이다.\n\n⑤번: 지문은 단 하나의 측정 방식으로 모든 것을 설명할 수 있다는 주장을 하지 않으며, 오히려 표면적 특징을 넘어서 봐야 한다고 강조한다.",
@@ -4990,11 +4990,11 @@ const QUESTION_BANK = [
     "passage": "A museum displayed replicas that visitors could touch. People who found glass cases frustrating explored shapes and textures directly. The experience complemented rather than replaced the original artifacts. Understanding this result requires looking beyond the most visible feature of the case. The observation becomes more meaningful when its broader implications are taken into account.",
     "given_sentence": "",
     "choices": [
-      "① When More Spending Guarantees Better Outcomes",
+      "① Replicas in Glass Cases Preserve Artifact Authenticity",
       "② Multiple modes of access deepen understanding",
-      "③ Why Historical Evidence Should Always Be Ignored",
-      "④ The End of Cooperation in Modern Communities",
-      "⑤ A Single Measurement Explains Everything"
+      "③ Direct Touch Alone Renders Museum Displays Meaningful",
+      "④ Removing Physical Barriers Eliminates the Need for Original Artifacts",
+      "⑤ Tactile Exploration Replaces the Role of Traditional Museums"
     ],
     "answer": 2,
     "explanation": "[지문 해석]\n한 박물관에서 방문객들이 만져볼 수 있는 복제품들을 전시했다. 유리 케이스가 답답하다고 느낀 사람들은 직접 형태와 질감을 탐색했다. 이러한 경험은 원본 유물을 대체하기보다는 보완했다. 이 결과를 이해하려면 케이스의 가장 눈에 띄는 특징을 넘어 살펴봐야 한다. 더 넓은 의미와 함께 고려할 때 이 관찰은 더욱 의미 있어진다.\n\n[주요 어휘]\nreplica : 복제품\ntouch : 만지다\nfrustrating : 답답한, 불만스러운\nartifact : 유물, 예술품\ncomplement : 보완하다\nreplace : 대체하다\nvisible : 눈에 띄는, 보이는\nfeature : 특징\nimplication : 함의, 영향\n\n[해설]\n글의 전체 과정을 포괄하면서 지나치게 단정하지 않는 제목을 선택해야 합니다.\n\n[오답 해설]\n①번: 박물관의 지출 규모나 경제적 투자에 대한 언급이 없으며, 지문은 지출과 결과의 관계보다는 다양한 관람 방식의 효과에 초점을 두고 있다.\n\n②번: 지문에서 복제품 만지기(직접 접촉)와 원본 유물 관람(시각적 접근) 두 가지 방식이 함께 작용하여 더 나은 이해를 만들어낸다는 내용이 핵심이므로 정답이다.\n\n③번: 지문은 원본 유물을 무시하라는 주장이 아니라, 복제품과 원본이 '상호 보완'된다고 명시하고 있어 역사적 증거 무시를 주장하지 않는다.\n\n④번: 현대 공동체의 협력 문제나 그 쇠퇴에 대한 내용이 전혀 없으며, 지문은 박물관 내 관람 경험에만 국한된 주제이다.\n\n⑤번: 단일한 측정이 모든 것을 설명할 수 없다는 내용이 있지만, 지문의 주요 주제는 다양한 접근 방식의 필요성이지 하나의 측정 문제 자체가 아니다.",
@@ -5007,10 +5007,10 @@ const QUESTION_BANK = [
     "passage": "A research station installed a camera overlooking a glacier. Individual pictures seemed almost identical, but annual comparisons showed steady retreat. The evidence became persuasive because observations were repeated consistently. Understanding this result requires looking beyond the most visible feature of the case. The observation becomes more meaningful when its broader implications are taken into account.",
     "given_sentence": "",
     "choices": [
-      "① When More Spending Guarantees Better Outcomes",
-      "② Why Historical Evidence Should Always Be Ignored",
-      "③ The End of Cooperation in Modern Communities",
-      "④ A Single Measurement Explains Everything",
+      "① Cameras Capture What the Naked Eye Misses",
+      "② Visible Changes Matter More Than Hidden Patterns",
+      "③ Annual Comparisons Distort Glacial Research",
+      "④ One Striking Image Reveals a Glacier's Fate",
       "⑤ Slow trends require sustained records"
     ],
     "answer": 5,
@@ -5024,11 +5024,11 @@ const QUESTION_BANK = [
     "passage": "A municipality offered compost pickup to apartment buildings. Participation grew when containers were placed close to residents’ daily routes. Convenience proved as important as environmental concern. Understanding this result requires looking beyond the most visible feature of the case. A conclusion drawn from only the most obvious measure would miss an important part of the explanation; the example therefore invites a distinction between appearances and underlying mechanisms.",
     "given_sentence": "",
     "choices": [
-      "① When More Spending Guarantees Better Outcomes",
-      "② Why Historical Evidence Should Always Be Ignored",
+      "① Environmental Awareness Alone Drives Community Participation",
+      "② Compost Programs Succeed Only in Wealthy Neighborhoods",
       "③ Behavior is shaped by the design of routines",
-      "④ The End of Cooperation in Modern Communities",
-      "⑤ A Single Measurement Explains Everything"
+      "④ Apartment Buildings Reject Municipal Waste Initiatives",
+      "⑤ Proximity to Containers Fully Accounts for Recycling Habits"
     ],
     "answer": 3,
     "explanation": "[지문 해석]\n어떤 자치단체가 아파트 건물들을 대상으로 퇴비 수거 서비스를 제공했다. 용기들이 주민들의 일상적인 동선 근처에 배치되자 참여율이 증가했다. 편의성이 환경 관심만큼 중요한 것으로 드러났다. 이 결과를 이해하려면 표면적으로 가장 눈에 띄는 특징을 넘어 살펴봐야 한다. 가장 명백한 측면만으로 내린 결론은 설명의 중요한 부분을 놓칠 것이다. 따라서 이 사례는 외적 모습과 그 이면의 메커니즘을 구분해야 함을 보여준다.\n\n[주요 어휘]\nmunicipality : 지방자치단체, 시정부\ncompost pickup : 음식물 쓰레기 수거\nparticipation : 참여\nconvenience : 편의성, 편리함\nenvironmental concern : 환경 관심, 환경에 대한 우려\nvisible feature : 눈에 띄는 특징\nobvious measure : 명백한 지표\nunderlying mechanism : 근본적인 원인, 내재된 메커니즘\nappearances : 겉으로 드러난 것, 표면적 현상\ndistinction : 구분, 차이\n\n[해설]\n글의 전체 과정을 포괄하면서 지나치게 단정하지 않는 제목을 선택해야 합니다.\n\n[오답 해설]\n①번: 지문은 지출 규모가 아니라 용기의 위치라는 설계 요소가 참여도를 높였다고 설명하므로, 단순한 지출 증가가 결과를 보장한다는 주장은 지문의 핵심과 무관하다.\n\n②번: 지문은 '가장 눈에 띄는 특징만으로는 설명이 부족하다'고 말할 뿐, 역사적 증거 자체를 무시하라고 주장하지 않는다.\n\n③번: 용기를 주민의 일상 경로 근처에 배치했을 때 참여가 증가했다는 예시는 일상적 루틴의 설계가 행동에 영향을 미친다는 점을 잘 보여주며, 지문의 핵심 메시지인 '눈에 띄지 않는 메커니즘의 중요성'을 정확히 반영한다.\n\n④번: 지문은 오히려 적절한 설계를 통해 협력이 증대될 수 있음을 보여주므로, 현대 사회의 협력 종말을 주장하는 선지는 지문의 내용과 상반된다.\n\n⑤번: 지문은 단 하나의 측정만으로는 완전한 설명이 불가능하며, 숨겨진 메커니즘을 고려해야 한다고 강조하므로 모순된다.",
@@ -5042,10 +5042,10 @@ const QUESTION_BANK = [
     "given_sentence": "",
     "choices": [
       "① The timing of evaluation influences learning",
-      "② When More Spending Guarantees Better Outcomes",
-      "③ Why Historical Evidence Should Always Be Ignored",
-      "④ The End of Cooperation in Modern Communities",
-      "⑤ A Single Measurement Explains Everything"
+      "② Grades Alone Drive Students to Revise Their Work",
+      "③ Why Teachers Should Withhold Feedback Until Grading",
+      "④ The Score, Not the Comment, Shapes Learner Behavior",
+      "⑤ Broader Implications Distract from Core Observations"
     ],
     "answer": 1,
     "explanation": "[지문 해석]\n한 교사가 성적을 부여하기 전에 피드백을 제공하기 시작했다. 학생들은 점수에만 집중하는 대신 약한 논리를 수정했다. 피드백은 학습자들이 여전히 그것을 실행할 시간이 남아 있을 때 더욱 유용했다. 이 결과를 이해하려면 사례의 가장 드러난 특징을 넘어서 살펴봐야 한다. 더 넓은 의미를 고려할 때 이 관찰은 더욱 의미 있어진다.\n\n[주요 어휘]\nassign grades : 성적을 부여하다\nrevise : 수정하다, 개정하다\nweak arguments : 약한 논리, 부실한 주장\nfeedback : 피드백, 반응\nlearners : 학습자\nact on : ~에 따라 행동하다, ~에 대응하다\nvisible feature : 눈에 띄는 특징\nimplications : 함축된 의미, 영향\ntake into account : 고려하다, 감안하다\nbroader : 더 넓은, 광범위한\nobservation : 관찰, 발견\n\n[해설]\n글의 전체 과정을 포괄하면서 지나치게 단정하지 않는 제목을 선택해야 합니다.\n\n[오답 해설]\n①번: 지문의 핵심은 성적 부여 전에 피드백을 제공한 시기가 학생들의 학습에 긍정적 영향을 미쳤다는 것이다. \"Feedback was more useful when learners still had time to act on it\"이라는 표현이 평가의 시기가 학습 결과에 영향을 준다는 주제를 직접 반영하므로 정답이다.\n\n②번: 지문에서 다루는 내용은 지출이나 비용에 관한 것이 아니라 평가 피드백의 시기에 관한 것이다. 제목의 \"spending\"과 \"guarantees better outcomes\"라는 표현이 지문의 교육 평가 상황과 전혀 맞지 않으므로 오답이다.\n\n③번: 지문은 역사적 증거를 무시할 것을 제안하지 않으며, 오히려 관찰 결과(evidence)를 폭넓은 함축적 의미로 이해할 것을 강조하고 있다. 제목 자체가 지문의 논지와 정반대이므로 오답이다.\n\n④번: 지문은 현대 사회의 협력 관계 붕괴에 대한 내용이 없고, 교육 환경에서의 피드백과 학습의 관계만을 다루고 있다. 지문의 주제와 무관한 사회 현상을 다루므로 오답이다.\n\n⑤번: 지문은 단 하나의 측정값(성적)만으로는 불충분하며, 평가 피드백의 시기 같은 다양한 요소들을 고려해야 한다는 점을 강조하고 있다. \"A single measurement\"는 지문의 주장과 상충하므로 오답이다.",
@@ -5058,11 +5058,11 @@ const QUESTION_BANK = [
     "passage": "A hospital invited patients to review signs in its corridors. Several confusing directions were corrected using everyday language. Navigation improved without any change to the building’s physical layout. Understanding this result requires looking beyond the most visible feature of the case.",
     "given_sentence": "",
     "choices": [
-      "① When More Spending Guarantees Better Outcomes",
-      "② Why Historical Evidence Should Always Be Ignored",
-      "③ The End of Cooperation in Modern Communities",
+      "① Rebuilding Hospital Corridors Solves Navigation Problems",
+      "② Patients Lack the Ability to Evaluate Medical Facilities",
+      "③ Physical Redesign Remains the Core of Wayfinding Improvement",
       "④ Expert systems benefit from outsider perspectives",
-      "⑤ A Single Measurement Explains Everything"
+      "⑤ Clearer Signage Transforms Hospital Corridor Design"
     ],
     "answer": 4,
     "explanation": "[지문 해석]\n어느 병원이 환자들에게 복도의 표지판을 검토해 줄 것을 요청했다. 여러 혼란스러운 안내문들이 일상적인 언어로 수정되었다. 건물의 물리적 구조에는 전혀 변화가 없었는데도 불구하고 길 찾기가 개선되었다. 이 결과를 이해하기 위해서는 이 사례에서 가장 눈에 띄는 특징 이상을 살펴봐야 한다.\n\n[주요 어휘]\ninvite : 초대하다, 요청하다\nreview : 검토하다, 평가하다\ncorridor : 복도\nconfusing : 혼란스러운, 헷갈리는\ndirection : 방향, 지시\ncorrect : 수정하다, 바로잡다\neveryday language : 일상적인 언어\nnavigation : 길찾기, 항해\nimprove : 개선하다, 향상되다\nphysical layout : 물리적 배치, 공간 구조\nrequire : 요구하다, 필요로 하다\nlook beyond : ~을 넘어서 살펴보다\nvisible feature : 눈에 띄는 특징\n\n[해설]\n글의 전체 과정을 포괄하면서 지나치게 단정하지 않는 제목을 선택해야 합니다.\n\n[오답 해설]\n①번: 지문에서 병원의 지출이나 비용 투자에 대한 언급이 없으며, 오히려 건물 구조 변화 없이 개선되었다는 점이 강조되므로 부적절합니다.\n\n②번: 지문은 역사적 증거를 무시해야 한다고 주장하지 않으며, 오히려 기존의 전문가 시스템(복잡한 방향 표지)을 환자 관점에서 검토하는 것의 중요성을 나타냅니다.\n\n③번: 지문은 현대 공동체에서 협력의 종료를 언급하지 않으며, 오히려 환자와 병원 간의 협력을 통해 문제가 해결되었음을 보여줍니다.\n\n④번: 병원 전문가들이 놓친 방향 표지의 혼동을 일반 환자(외부인)의 검토를 통해 개선했으므로, 전문 시스템이 외부인의 관점에서 이득을 본 사례를 정확히 보여줍니다.\n\n⑤번: 지문은 단일 측정(예: 건물 레이아웃)만으로는 모든 것을 설명할 수 없다고 강조하므로, 이를 정반대로 주장하는 선지는 오답입니다.",
@@ -5075,11 +5075,11 @@ const QUESTION_BANK = [
     "passage": "A community repaired a neglected public clock. Residents began using the square as a meeting point again. The small restoration strengthened the place’s symbolic role beyond telling time. Understanding this result requires looking beyond the most visible feature of the case. The observation becomes more meaningful when its broader implications are taken into account.",
     "given_sentence": "",
     "choices": [
-      "① When More Spending Guarantees Better Outcomes",
+      "① Restoring Clocks Revives the Lost Art of Timekeeping",
       "② Shared landmarks support collective identity",
-      "③ Why Historical Evidence Should Always Be Ignored",
-      "④ The End of Cooperation in Modern Communities",
-      "⑤ A Single Measurement Explains Everything"
+      "③ Why Public Squares Fade Without Regular Renovation",
+      "④ Physical Repair Alone Transforms Neglected Communities",
+      "⑤ Visible Symbols Matter More Than Community Participation"
     ],
     "answer": 2,
     "explanation": "[지문 해석]\n한 지역 공동체가 방치되어 있던 공공 시계를 복구했다. 주민들은 다시 그 광장을 만남의 장소로 이용하기 시작했다. 이 작은 복구 사업은 시간을 알려주는 것 이상의 역할로 그 장소의 상징성을 강화했다. 이러한 결과를 이해하려면 사건의 가장 눈에 띄는 특징만을 바라보는 것을 넘어설 필요가 있다. 이 관찰은 그 더 넓은 의미를 고려할 때 더욱 의미 있는 통찰이 된다.\n\n[주요 어휘]\n# 수능 영어 지문 - 중요 단어/표현\n\nrepaired : 수리하다, 복구하다\nneglected : 방치된, 무시된\nrestoration : 복구, 회복\nsymbolic role : 상징적 역할\nbeyond : ~을 넘어서, ~을 초과하여\nobservation : 관찰, 관찰 결과\nimplications : 함축된 의미, 파급 효과\ntake into account : ~을 고려하다\nstrengthen : 강화하다, 강해지게 하다\nvisible feature : 눈에 띄는 특징\nbroader : 더 넓은, 보다 광범위한\n\n[해설]\n글의 전체 과정을 포괄하면서 지나치게 단정하지 않는 제목을 선택해야 합니다.\n\n[오답 해설]\n①번: 지문에서 지출 규모에 대한 언급이 없으며, '작은 복원'이 긍정적 결과를 낳았다는 점에서 오히려 지출액의 크기보다 상징성이 중요함을 보여준다.\n\n②번: 공동 랜드마크인 시계가 복구되자 주민들이 광장을 다시 모이는 장소로 사용하게 되었고, 이는 공유된 장소가 공동체 정체성을 강화한다는 지문의 핵심 메시지를 정확히 포착한다.\n\n③번: 지문은 역사적 증거를 무시할 것을 주장하지 않으며, 오히려 표면적 특징 너머를 살펴봐야 한다고 강조하므로 선택지의 극단적 주장과 맞지 않는다.\n\n④번: 지문은 시계 복구로 주민들이 다시 모이게 되었다는 협력의 증가를 보여주므로, 현대 공동체에서 협력의 끝을 주장하는 선택지는 지문 내용과 완전히 반대된다.\n\n⑤번: 지문은 '시계 기능이라는 가장 눈에 띄는 특징을 넘어 더 넓은 함의를 봐야 한다'고 명시하므로, 단일 기준이 모든 것을 설명한다는 선택지는 핵심 메시지에 정면으로 모순된다.",
@@ -5092,10 +5092,10 @@ const QUESTION_BANK = [
     "passage": "A newspaper experimented with longer explanations of complicated policies. The articles drew fewer immediate clicks but generated more return visits and questions. Short-term popularity did not fully represent the value of careful reporting. Understanding this result requires looking beyond the most visible feature of the case. The observation becomes more meaningful when its broader implications are taken into account.",
     "given_sentence": "",
     "choices": [
-      "① When More Spending Guarantees Better Outcomes",
-      "② Why Historical Evidence Should Always Be Ignored",
-      "③ The End of Cooperation in Modern Communities",
-      "④ A Single Measurement Explains Everything",
+      "① Click Volume Reflects the True Value of Journalism",
+      "② Longer Articles Always Drive Higher Return Visits",
+      "③ Policy Reporting Should Prioritize Immediate Audience Reactions",
+      "④ Detailed Explanations Undermine Readers' Interest Over Time",
       "⑤ Engagement quality differs from raw traffic"
     ],
     "answer": 5,
@@ -5109,11 +5109,11 @@ const QUESTION_BANK = [
     "passage": "An ecologist recorded insects in rooftop gardens. Some roofs attracted many species when planted with native flowers. Small habitats became more beneficial when connected to nearby green spaces. Understanding this result requires looking beyond the most visible feature of the case. A conclusion drawn from only the most obvious measure would miss an important part of the explanation; the example therefore invites a distinction between appearances and underlying mechanisms.",
     "given_sentence": "",
     "choices": [
-      "① When More Spending Guarantees Better Outcomes",
-      "② Why Historical Evidence Should Always Be Ignored",
+      "① Native Flowers Alone Determine Rooftop Biodiversity",
+      "② Why Rooftop Gardens Fail to Support Urban Wildlife",
       "③ Habitat networks matter more than isolated patches",
-      "④ The End of Cooperation in Modern Communities",
-      "⑤ A Single Measurement Explains Everything"
+      "④ Visible Plant Diversity Reflects Hidden Ecological Health",
+      "⑤ Species Count Reveals the Full Picture of Green Spaces"
     ],
     "answer": 3,
     "explanation": "[지문 해석]\n어떤 생태학자가 옥상 정원에 서식하는 곤충들을 기록했다. 일부 옥상은 토종 꽃을 심었을 때 많은 종을 끌어들였다. 작은 서식지들은 인근 녹지와 연결되었을 때 더욱 유익해졌다. 이러한 결과를 이해하려면 사례의 가장 눈에 띄는 특징만으로는 부족하다. 가장 명백한 측면만을 바탕으로 내린 결론은 설명의 중요한 부분을 놓치게 될 것이다. 따라서 이 사례는 겉으로 드러난 현상과 그 기저에 있는 메커니즘을 구분해야 함을 시사한다.\n\n[주요 어휘]\necologist : 생태학자\nrooftop gardens : 옥상 정원\nnative flowers : 자생 꽃, 토종 꽃\nhabitats : 서식지\nbeneficial : 유익한, 도움이 되는\nconnected to : ~와 연결된\ngreen spaces : 녹지, 녹색 공간\nvisible feature : 눈에 띄는 특징\nconclusion : 결론\nobvious measure : 명백한 척도\nunderlying mechanisms : 근본적인 메커니즘, 기저 원리\ndistinction : 구별, 차이\nappearances : 외형, 겉모습\n\n[해설]\n글의 전체 과정을 포괄하면서 지나치게 단정하지 않는 제목을 선택해야 합니다.\n\n[오답 해설]\n①번: 지문은 곤충 서식지와 관련된 생태학적 연구 결과를 다루고 있으며, 돈 지출과의 관련성이 전혀 언급되지 않으므로 부적절한 선택지이다.\n\n②번: 지문에서는 '가장 눈에 띄는 특징만으로는 안 된다'고 말할 뿐, 역사적 증거 자체를 무시하라고 주장하지 않으므로 지문의 주의와 맞지 않는다.\n\n③번: 지문의 핵심은 '작은 서식지가 근처 녹지와 연결될 때 더 유익해진다'는 내용으로, 고립된 패치보다 네트워크로 연결된 서식지의 중요성을 강조하므로 정답이다.\n\n④번: 지문은 현대 사회의 협력 문제를 다루지 않으며, 생태계의 서식지 연결성이라는 구체적인 과학적 주제를 다루고 있어 선택지가 부적절하다.\n\n⑤번: 지문은 '단 하나의 측정만으로는 중요한 설명 부분을 놓칠 수 있다'고 경고하고 있으므로, 단일 측정이 모든 것을 설명한다는 선택지는 지문의 주장과 반대이다.",
@@ -5127,10 +5127,10 @@ const QUESTION_BANK = [
     "given_sentence": "",
     "choices": [
       "① Motivation and rigor can reinforce one another",
-      "② When More Spending Guarantees Better Outcomes",
-      "③ Why Historical Evidence Should Always Be Ignored",
-      "④ The End of Cooperation in Modern Communities",
-      "⑤ A Single Measurement Explains Everything"
+      "② Letting Students Choose Songs Removes the Need for Technical Training",
+      "③ Difficult Techniques Should Be Taught Before Enjoyment Is Considered",
+      "④ Student Preference Alone Determines the Success of Music Education",
+      "⑤ Visible Features of a Case Reveal Its Full Educational Meaning"
     ],
     "answer": 1,
     "explanation": "[지문 해석]\n한 음악 학교에서는 초보자들이 자신이 좋아하는 곡을 선택하도록 허용했다. 교사들은 여전히 그 곡들을 통해 까다로운 기법을 가르쳤다. 학생들은 어려운 기술을 피하지 않으면서 더욱 적극적으로 연습했다. 이 결과를 이해하려면 이 사례에서 가장 눈에 띄는 특징만 봐서는 안 된다. 이 관찰은 더 넓은 의미를 고려했을 때 비로소 더욱 의미 있는 결과가 된다.\n\n[주요 어휘]\nbeginner : 초보자\ndemanding : 까다로운, 어려운\ntechnique : 기법, 기술\nwillingly : 기꺼이, 자발적으로\navoid : 피하다, 회피하다\nvisible : 눈에 띄는, 명백한\nfeature : 특징, 특성\nobservation : 관찰, 관찰 결과\nmeaningful : 의미 있는, 중요한\nbroader implications : 더 넓은 의미/함축\ntake into account : 고려하다, 감안하다\n\n[해설]\n글의 전체 과정을 포괄하면서 지나치게 단정하지 않는 제목을 선택해야 합니다.\n\n[오답 해설]\n①번: 지문에서 학생들이 좋아하는 곡을 선택하도록 허용함으로써(동기 부여) 어려운 기술 습득을 더욱 자발적으로 수행하게 되었다는 내용이 정확히 반영되어 있으므로 정답입니다.\n\n②번: 지문은 금전적 투자에 대한 언급이 전혀 없으며, 돈 많이 쓰는 것과 결과의 관계를 다루지 않으므로 부적절합니다.\n\n③번: 지문에서는 \"broader implications을 고려할 때 더 의미 있다\"고 하여 증거를 고려하라고 권장하고 있으므로, 역사적 증거를 무시하라는 주제와 완전히 배치됩니다.\n\n④번: 지문은 현대 공동체에서의 협력 붕괴에 대해 전혀 언급하지 않으며, 음악학교의 교육 방식 개선에 관한 내용이므로 무관합니다.\n\n⑤번: 지문에서 \"single measurement만으로는 부족하며 broader implications을 고려해야 한다\"고 명시했으므로, 하나의 측정이 모든 것을 설명한다는 주제와 모순됩니다.",
@@ -5143,11 +5143,11 @@ const QUESTION_BANK = [
     "passage": "A harbor installed sensors for tidal currents. Captains used the readings to choose safer departure windows. The technology did not remove natural hazards but improved timing decisions. Understanding this result requires looking beyond the most visible feature of the case.",
     "given_sentence": "",
     "choices": [
-      "① When More Spending Guarantees Better Outcomes",
-      "② Why Historical Evidence Should Always Be Ignored",
-      "③ The End of Cooperation in Modern Communities",
+      "① Sensor Technology Eliminates Tidal Hazards Entirely",
+      "② Captains Prioritize Speed Over Safety in Departure Decisions",
+      "③ Harbor Modernization Depends on Replacing Natural Conditions",
       "④ Better prediction enables safer adaptation",
-      "⑤ A Single Measurement Explains Everything"
+      "⑤ Tidal Data Shifts Authority from Nature to Captains"
     ],
     "answer": 4,
     "explanation": "[지문 해석]\n항구에 조수 흐름을 감지하는 센서를 설치했다. 선장들은 그 수치를 이용해 더 안전한 출항 시간대를 선택했다. 이 기술이 자연재해를 완전히 없애지는 못했지만 시간 결정을 개선했다. 이러한 결과를 이해하려면 이 사례의 가장 눈에 띄는 특징을 넘어 살펴봐야 한다.\n\n[주요 어휘]\nharbor : 항구\ninstalled : 설치했다\nsensors : 센서\ntidal currents : 조류\nreadings : 수치, 측정값\ndeparture windows : 출항 시간대\nremove : 제거하다\nnatural hazards : 자연 재해\nimproved : 개선했다\ntiming decisions : 시간 결정\nvisible feature : 눈에 띄는 특징\nlook beyond : ~을 넘어서다\n\n[해설]\n글의 전체 과정을 포괄하면서 지나치게 단정하지 않는 제목을 선택해야 합니다.\n\n[오답 해설]\n①번: 지문에서 센서 기술이 자연 재해를 제거하지 않았다고 명시되어 있으므로, 더 많은 지출이 더 나은 결과를 보장한다는 주장은 지문의 핵심과 맞지 않습니다.\n\n②번: 지문은 역사적 증거를 무시해야 한다는 내용이 전혀 없으며, 오히려 센서 데이터를 활용한 현실적인 개선을 다루고 있으므로 부적절합니다.\n\n③번: 지문에서 현대 공동체의 협력 종료에 대한 언급이 없고, 오히려 선원들이 기술을 활용해 안전한 출발 시간을 선택하는 협력의 모습을 보여줍니다.\n\n④번: 센서로 조류를 더 정확히 예측하고(better prediction) 이를 통해 선원들이 더 안전한 시간에 출발하는 결정을 내릴 수 있게 된(safer adaptation) 것이 지문의 핵심입니다.\n\n⑤번: 지문은 \"가장 눈에 띄는 기능을 넘어 봐야 한다\"고 명시하며, 단 하나의 측정이 모든 것을 설명할 수 없다고 강조하므로 정확히 반대되는 주장입니다.",
@@ -5670,11 +5670,11 @@ const QUESTION_BANK = [
     "passage": "An archaeological team found worn steps beside a ceremonial gate. A colleague assumed the gate had been reserved for royal processions. However, the steps were too narrow for carts and carried marks from repeated foot traffic. The evidence is most consistent with the conclusion that __________.",
     "given_sentence": "",
     "choices": [
-      "① the evidence has no bearing on how the original claim should be assessed",
+      "① the narrow steps and foot traffic marks confirm that the ceremonial gate was built exclusively for royal processions",
       "② the wear instead suggested that ordinary residents regularly participated in rituals",
       "③ a colleague assumed the gate had been reserved for royal processions, with no adjustment for the new evidence",
       "④ the steps were too narrow for carts and carried marks from repeated foot traffic, which proves that the same result is inevitable everywhere",
-      "⑤ the initial assumption must be rejected even in circumstances for which it was never tested"
+      "⑤ the assumption about royal processions should be revised only after the excavation of additional gates at the same site"
     ],
     "answer": 2,
     "explanation": "[지문 해석]\n한 고고학팀이 의례용 문이 옆에 닳은 계단을 발견했다. 한 동료는 그 문이 왕의 행렬을 위해 예약되어 있었을 것이라고 추정했다. 하지만 그 계단은 수레가 지나가기에는 너무 좁았고 반복적인 보행의 흔적을 담고 있었다. 그 증거는 __________라는 결론과 가장 일치한다.\n\n[주요 어휘]\narchaeological : 고고학의, 고고학적인\nworn : 닳아진, 헤어진\nceremonial : 의식의, 의례적인\ngate : 문, 대문\nassume : 가정하다, 추정하다\nroyal : 왕실의, 황실의\nprocession : 행렬, 의식 행렬\nnarrow : 좁은\ncart : 수레, 짐수레\nmarks : 자국, 흔적\nrepeated : 반복된\nfoot traffic : 보행자 통행\nevidence : 증거, 증거물\nconsistent with : ~과 일치하는, ~과 부합하는\nconclusion : 결론, 결말\n\n[해설]\n기초 관찰: The steps were too narrow for carts and carried marks from repeated foot traffic. 초기 해석: A colleague assumed the gate had been reserved for royal processions. 따라서 The wear instead suggested that ordinary residents regularly participated in rituals. 다만 단일 사례가 모든 상황으로 일반화되는 것은 아닙니다.\n\n[오답 해설]\n①번: 지문은 새로운 증거(좁은 계단, 반복된 발자국 자국)가 기존 주장(왕실 행렬용)을 평가하는 데 영향을 미친다고 명확히 보여주므로, 증거가 무관하다는 주장은 틀렸다.\n\n②번: 좁은 계단과 반복된 발자국은 왕실 행렬이 아닌 일반 주민들의 정기적인 의식 참여를 시사하므로, 새로운 증거와 정확히 부합하는 결론이다.\n\n③번: 동료가 새로운 증거를 무시하고 기존 가정을 그대로 유지했다면, 지문의 \"However\"로 시작하는 반박 구조와 모순된다.\n\n④번: 지문은 특정 고고학 유적지에서의 증거를 논하는 것이지, 모든 곳에서 같은 결과가 불가피하다는 보편적 주장을 하지 않는다.\n\n⑤번: 기존 가정이 테스트되지 않은 상황에서도 거부되어야 한다는 주장은 지문의 논리와 맞지 않으며, 과도한 일반화이다.",
@@ -5705,10 +5705,10 @@ const QUESTION_BANK = [
     "given_sentence": "",
     "choices": [
       "①번 표시",
-      "②번 표시",
-      "③번 표시",
-      "④번 표시",
-      "⑤번 표시"
+      "② confirmed",
+      "③ unconditional",
+      "④ irrelevant",
+      "⑤ extended"
     ],
     "answer": 1,
     "explanation": "[지문 해석]\n생태학자가 새로 복원된 연못 주변의 곤충들을 모니터링했다. 지역 관계자들은 첫 번째 여름 이후의 성공 여부를 판단하고 싶었다. 종들은 고르지 않게 돌아왔으며, 포식자들은 먹이가 된 후에 나타났다. 아직 수집된 증거가 거의 없었기 때문에 처음 해석은 필연적으로 (① 불확실했다). 나중의 관찰은 그 해석이 근거하고 있던 기대에 (② 모순되었다). 결과적으로 연구자들은 무조건적인 판단보다는 (③ 조건부) 설명을 채택했다. 그들은 새로운 증거가 조사 중인 문제와 (④ 관련이 있는지) 검토했다. 결론은 관찰이 이루어진 조건들로 (⑤ 제한되었다).\n\n[주요 어휘]\n# 수능 영어 지문 핵심 단어/표현\n\n1. ecologist : 생태학자\n2. restore : 복구하다, 복원하다\n3. judge success : 성공을 판단하다\n4. unevenly : 불균등하게, 고르지 않게\n5. predator : 포식자\n6. prey : 피식자, 먹이\n7. interpretation : 해석, 설명\n8. contradict : 모순되다, 반박하다\n9. adopt : 채택하다, 받아들이다\n10. qualified : 제한적인, 조건부의\n11. verdict : 판결, 결론\n12. relevant : 관련 있는, 적절한\n\n[해설]\n①의 certain는 주변 의미와 충돌합니다. tentative로 수정해야 초기 가설·반증·신중한 결론의 논리가 일관됩니다.\n\n[오답 해설]\n①번: **정답** 초기 해석이 수집된 증거가 거의 없었기 때문에 '제한적일 수밖에 없었다'는 의미로 'certain'(확실한)이 맥락상 부적절하며, 'tentative'(잠정적인), 'preliminary'(초기의) 등이 적절합니다.\n\n②번: 나중의 관찰이 초기 기대를 '부정했다'는 의미이므로 'contradicted'(모순되었다)가 정확히 맞으며, 'supported'나 'confirmed'는 틀렸습니다.\n\n③번: 무조건적인 판결 대신 '조건부의, 한정된'이라는 의미가 필요하므로 'qualified'(한정된)가 적절하며, 'unqualified'(무조건적인)는 의미가 반대입니다.\n\n④번: 새로운 증거가 조사 대상 질문과 '관련이 있는지'를 검토했다는 의미이므로 'relevant'(관련된)가 정확하며, 'irrelevant'(무관한)는 틀렸습니다.\n\n⑤번: 결론이 관찰이 이루어진 특정 조건 내에서만 유효하다는 의미이므로 'limited'(제한된)가 적절하며, 'universal'(보편적인)은 의미가 반대입니다.",
@@ -5722,10 +5722,10 @@ const QUESTION_BANK = [
     "given_sentence": "",
     "choices": [
       "① Fluency in one mode should not stand in for competence in another",
-      "② the claim that competing explanations cannot be evaluated with evidence",
-      "③ the need to ignore early evidence once a new interpretation is proposed",
+      "② hidden assumptions in an account should remain implicit to avoid overcomplicating the conclusion",
+      "③ the earlier interpretation of slow speech should be abandoned once written evidence appears",
       "④ Some teachers interpreted slow speech as weak understanding is justified in all settings",
-      "⑤ why a single observation is enough to settle every possible explanation"
+      "⑤ why hesitation in spoken explanation reliably signals the same weakness across all language modes"
     ],
     "answer": 1,
     "explanation": "[지문 해석]\n한 언어 교사가 학생들의 필기 설명과 구두 설명을 비교했다. 일부 교사들은 느린 말을 약한 이해로 해석했다. 처음에는 이러한 설명이 매력적으로 보였다. 추가 설명 없이 전달할 수 있는 간단한 설명을 제시했기 때문이다. 실제로 말할 때 머뭇거리는 학습자들은 종종 정확한 필기 논거를 제시했다. 두 관찰자가 동일한 사실을 받아들이더라도 기본 가정에 다른 중요도를 부여하면 서로 다른 판단에 도달할 수 있다. 한 가지 표현 방식의 유창함이 다른 방식의 능력을 대신할 수 없다. 적절한 설명은 그 결론을 일반적인 것으로 취급하기 전에 먼저 그러한 가정들을 명시해야 한다. 이러한 결론은 처음 가정과 동일하지 않으며, 나중의 관찰과 원래 측정의 한계를 설명해야 한다. 특히 새로운 증거는 이전의 설명이 모든 가능한 상황에서 잘못되었음을 증명하지 않으면서도 해석을 바꿀 정당성을 제공할 수 있다. 따라서 더 나은 해석은 초기 예상과 이를 복잡하게 만드는 증거를 모두 설명해야 하며, 단 하나의 사례가 보편적 규칙을 확립한다고 가장해서는 안 된다.\n\n[주요 어휘]\nhesitate : 주저하다, 망설이다\nprecise : 정확한, 엄밀한\nunderlying assumptions : 기본 가정, 근본적인 전제\nfluency : 유창성, 자연스러움\ncompetence : 능력, 역량\nstand in for : ~을 대신하다, ~으로 대체되다\nqualification : 한정, 조건\nexplicit : 명시적인, 분명한\ncomplicates : 복잡하게 하다, 어렵게 하다\nuniversal rule : 보편적 규칙, 일반적 법칙\ninterpretation : 해석, 이해\njustify : 정당화하다, 근거를 제시하다\n\n[해설]\n초기 기대와 다른 관찰을 통해 얻은 제한적인 결론이 요지입니다. 다른 선택지는 단정적 일반화 또는 근거 없는 판단입니다.\n\n[오답 해설]\n①번: 지문의 핵심 주장으로, 말하기의 유창함이 쓰기 능력을 대표할 수 없다는 점을 직접 명시하고 있습니다. 학생들이 말할 때는 느리지만 글로 쓸 때는 정확한 주장을 제시하는 증거가 이를 뒷받침합니다.\n\n②번: 지문은 오히려 증거로 경쟁하는 설명들을 평가할 수 있음을 보여주며, 초기 가정이 모든 상황에서 틀렸다고 증명하지 않으면서도 해석을 바꿀 수 있다고 제시합니다.\n\n③번: 지문은 \"새로운 증거는 초기 해석을 바꿀 근거가 될 수 있다\"고 하면서도 초기 증거를 무시하라고 하지 않으며, 오히려 둘 다 설명해야 한다고 주장합니다.\n\n④번: 지문의 결론은 \"느린 말하기가 약한 이해를 의미한다는 해석이 모든 상황에서 틀렸다\"가 아니라, 단일 사례가 보편적 규칙을 수립하지 못한다는 점입니다.\n\n⑤번: 지문은 오히려 단일 관찰이 모든 설명을 정하기에 충분하지 않으며, 초기 기대와 그것을 복잡하게 하는 증거를 모두 설명해야 한다고 강조합니다.",
@@ -5755,11 +5755,11 @@ const QUESTION_BANK = [
     "passage": "Dear Review Committee,\n\nA scientist studied how honeybees responded to artificial flowers. A colleague treated the first preference as a permanent instinct. In fact, bees initially favored brightly colored flowers but learned to follow consistent rewards. I am not asking you to dismiss the original project; I am requesting that its evaluation include the additional evidence and explicitly state the limits of the initial conclusion. Without this change, the next funding decision could reward an incomplete indicator rather than the project's actual performance.\n\nSincerely,\nA project participant",
     "given_sentence": "",
     "choices": [
-      "① To invite committee members to an unrelated public celebration",
-      "② To request a larger budget without discussing evaluation criteria",
+      "① To inform the committee that honeybee behavior research should be abandoned in favor of other species",
+      "② To suggest that the colleague's instinct-based interpretation be adopted as the project's official conclusion",
       "③ To request a reassessment that accounts for conflicting evidence",
-      "④ To demand that the project be cancelled without another evaluation",
-      "⑤ To announce that the first interpretation has already been fully confirmed"
+      "④ To argue that the funding decision should be postponed until a completely new experiment is conducted",
+      "⑤ To confirm that the bees' initial preference for brightly colored flowers was the only finding worth reporting"
     ],
     "answer": 3,
     "explanation": "[지문 해석]\n검토 위원회 귀중,\n\n한 과학자가 꿀벌이 인공 꽃에 어떻게 반응하는지 연구했습니다. 동료는 처음의 선호도를 영구적인 본능으로 취급했습니다. 실제로 꿀벌은 처음에는 밝은 색의 꽃을 선호했지만 일관된 보상을 따르도록 학습했습니다. 저는 원래 프로젝트를 기각해 달라고 요청하는 것이 아닙니다. 그 평가에 추가 증거를 포함시키고 초기 결론의 한계를 명시해 달라고 요청합니다. 이 변경이 없으면 다음 자금 지원 결정은 프로젝트의 실제 성과보다는 불완전한 지표에 보상을 줄 수 있습니다.\n\n경의를 표하며,\n프로젝트 참여자 일동\n\n[주요 어휘]\nrespond to : ~에 반응하다\nartificial : 인공의\ncolleague : 동료\ntreat A as B : A를 B로 취급하다\npermanent : 영구적인, 항구적인\ninstinct : 본능\ninitially : 처음에, 초기에\nfavor : 선호하다\nconsistent : 일관된, 꾸준한\ndismiss : 기각하다, 무시하다\nevaluation : 평가\nexplicitly : 명시적으로, 분명하게\nstate : 명시하다\nincomplete : 불완전한\nindicator : 지표\n\n[해설]\n편지의 핵심 요청은 기존 평가에 후속 관찰을 반영하고 초기 결론의 한계를 명시해 달라는 것입니다.\n\n[오답 해설]\n①번: 글에서 공개 행사 초대에 대한 언급이 전혀 없으므로 지문의 내용과 무관하다.\n\n②번: 저자는 예산 증액을 요청하는 것이 아니라, 평가 과정에서 추가 증거를 포함하고 결론의 한계를 명시할 것을 요청하고 있다.\n\n③번: 저자는 \"additional evidence\"와 결론의 한계를 평가에 포함시켜 달라고 명시적으로 요청하므로, 상충하는 증거를 고려한 재평가를 요청하는 것이 정확한 글의 목적이다.\n\n④번: 저자는 \"I am not asking you to dismiss the original project\"라고 명확히 표현하여 프로젝트 취소를 요구하지 않는다.\n\n⑤번: 오히려 저자는 초기 해석이 불완전하며 추가 증거와 한계를 고려해야 한다고 지적하므로, 첫 번째 해석이 완전히 확인되었다는 주장에 모순된다.",
@@ -5772,11 +5772,11 @@ const QUESTION_BANK = [
     "passage": "At first, I felt reassured by the seemingly straightforward explanation. Curators expected the photographs to speak for themselves. A village museum asked residents to annotate photographs of a former market. When I learned that individual memories disagreed about dates but revealed overlooked personal routines, my confidence weakened. I wondered how much I had missed by attending only to the result that supported my expectation. I reconsidered my judgment. By the end, I was still uncertain about every detail, but I felt more willing to investigate than to defend my first impression.",
     "given_sentence": "",
     "choices": [
-      "① from curiosity to indifference about the investigation",
+      "① from reassurance to frustration at residents' conflicting memories",
       "② from confidence to reflective curiosity",
-      "③ from disappointment to certainty that all questions are settled",
-      "④ from distrust of the team to unconditional hostility",
-      "⑤ from confidence to a refusal to reconsider any evidence"
+      "③ from doubt about curators' methods to trust in annotated photographs alone",
+      "④ from openness to personal routines to dismissal of overlooked details",
+      "⑤ from initial confidence to rejection of the museum's annotation project"
     ],
     "answer": 2,
     "explanation": "[지문 해석]\n처음에는 겉보기에 명확한 설명에 안심했다. 큐레이터들은 사진들이 그 자체로 말해주기를 기대했다. 한 지역 박물관이 주민들에게 옛 시장의 사진에 주석을 달도록 요청했다. 개인의 기억들이 날짜에 대해 서로 다르지만 간과되었던 개인적인 일상들을 드러낸다는 것을 알게 되자 나의 확신이 흔들렸다. 내 기대를 뒷받침하는 결과에만 주목함으로써 내가 얼마나 많은 것을 놓쳤는지 궁금해졌다. 나는 내 판단을 다시 생각해보았다. 결국 모든 세부 사항에 대해 여전히 확신할 수 없었지만, 나는 첫인상을 방어하기보다는 더 자세히 알아보려는 태도로 변했다.\n\n[주요 어휘]\nreassured : 안심시킨, 안도감을 준\nstraightforward : 간단한, 명확한\ncurator : 큐레이터, (박물관의) 관리자\nannotate : 주석을 달다, 설명을 추가하다\nconfidence weakened : 확신이 약해지다\noverlook : 간과하다, 놓치다\nroutine : 일상적인 일, 관례\nreconsidered : 다시 고려했다, 재검토했다\nuncertain : 불확실한, 확신할 수 없는\nwilling to : ~할 의향이 있는, ~하려고 하는\ndefend : 옹호하다, 정당화하다\nimpression : 인상, 첫 느낌\n\n[해설]\n초기의 confident/reassured와 후반의 reconsider, willing to investigate가 대비되므로 확신에서 성찰적 탐구로의 변화입니다.\n\n[오답 해설]\n①번: 저자는 조사에 대한 흥미를 잃지 않았으며, 오히려 마지막에 \"조사하려는 의욕\"이 생겼다고 명시하므로 indifference(무관심)는 맞지 않다.\n\n②번: 처음에는 \"reassured by the seemingly straightforward explanation\"으로 확신했지만, 개인의 기억이 일치하지 않자 \"confidence weakened\"되고, 마지막에는 \"investigate than to defend\"하려는 성찰적 태도로 변화했다.\n\n③번: 저자는 \"still uncertain about every detail\"이라고 명시했으므로 모든 질문이 해결되었다는 certainty에 도달하지 못했다.\n\n④번: 지문에서 큐레이터나 박물관 팀에 대한 불신이나 적대감을 드러내는 내용이 없으며, 저자의 심경 변화는 자신의 기대에 대한 재검토에 관한 것이다.\n\n⑤번: 저자는 \"I reconsidered my judgment\"라고 증거를 재고찰했으므로 증거를 재검토하기를 거부한다는 내용은 정반대이다.",
@@ -5789,11 +5789,11 @@ const QUESTION_BANK = [
     "passage": "An engineer designed reusable crates for transporting delicate fruit. The team had evaluated impact resistance as an isolated target. The first interpretation was plausible because it focused on an easily visible feature. But the strongest model weighed so much that fuel use increased. This did not make the earlier observation useless; it revealed that the original explanation had missed an important condition. A successful design must balance protection with costs across the whole journey.",
     "given_sentence": "",
     "choices": [
-      "① Decision-makers should judge an intervention solely by its most visible immediate result.",
+      "① Engineers should prioritize impact resistance above fuel efficiency, since protecting delicate fruit is the core purpose of the crate design.",
       "② Decisions should retain the original assumption because the team had evaluated impact resistance as an isolated target.",
       "③ Decisions should reflect this insight: a successful design must balance protection with costs across the whole journey.",
-      "④ If evidence is mixed, decision-makers should avoid weighing the competing explanations at all.",
-      "⑤ An observed difference should be treated as a universal rule without further examination."
+      "④ When a heavier model increases fuel costs, designers should return to the lightest crate and treat the original weight as a fixed constraint.",
+      "⑤ Because the first interpretation focused on an easily visible feature, it should be dismissed entirely once a more comprehensive model is developed."
     ],
     "answer": 3,
     "explanation": "[지문 해석]\n한 엔지니어가 섬세한 과일을 운송하기 위한 재사용 가능한 상자를 설계했다. 팀은 충격 저항성을 독립적인 목표로만 평가했다. 처음의 해석은 쉽게 눈에 띄는 특징에 초점을 맞췄기 때문에 그럴듯해 보였다. 하지만 가장 튼튼한 모델은 무게가 너무 많이 나가서 연료 소비가 증가했다. 이것이 앞의 관찰을 쓸모없게 만들지는 않았다. 오히려 원래의 설명이 중요한 조건을 놓쳤다는 것을 드러냈다. 성공적인 설계는 전체 운송 과정에서 보호와 비용 사이의 균형을 맞춰야 한다.\n\n[주요 어휘]\nreusable : 재사용 가능한\ndelicate : 섬세한, 다루기 까다로운\nevaluate : 평가하다, 검토하다\nimpact resistance : 충격 저항성\nisolated : 고립된, 따로 떨어진\nplausible : 타당한, 그럴듯한\nreveal : 드러내다, 밝혀내다\ncondition : 조건, 상태\nbalance : 균형을 맞추다\nacross : ~을 통해, ~에 걸쳐\nmiss : 놓치다, 간과하다\n\n[해설]\n필자는 초기 판단을 그대로 유지하기보다 관찰의 조건과 반례를 반영해 결론을 조정해야 한다고 주장합니다.\n\n[오답 해설]\n①번: 지문은 \"가장 눈에 띄는 즉각적인 결과만으로 판단하면 안 된다\"는 오류를 지적하고 있다. 실제로는 전체 여정에 걸친 비용까지 고려해야 한다고 주장하므로 정반대의 내용이다.\n\n②번: 지문은 \"원래 설명이 중요한 조건을 놓쳤다\"는 깨달음을 제시하므로, 기존 가정을 그대로 유지하자는 주장은 지문의 핵심과 배치된다.\n\n③번: 지문의 마지막 문장 \"성공적인 설계는 전체 여정에 걸쳐 보호와 비용의 균형을 맞춰야 한다\"와 정확히 일치한다. 이는 단편적 평가의 한계를 극복하기 위한 필자의 최종 주장이다.\n\n④번: 지문은 경쟁하는 설명들을 무시하라는 것이 아니라, 오히려 더 폭넓게 검토하고 종합적으로 판단해야 한다고 강조하고 있다.\n\n⑤번: 지문은 관찰된 차이(연료 사용 증가)를 추가 검토 없이 보편적 규칙으로 삼으라는 주장이 아니라, 더 깊은 분석을 통해 더 나은 설계를 찾아야 한다고 말한다.",
@@ -5806,11 +5806,11 @@ const QUESTION_BANK = [
     "passage": "A historian used shipping invoices to reconstruct nineteenth-century diets. A student equated goods appearing in a port with universal consumption. However, lists of imported spices suggested access but not who actually consumed them. Records of supply cannot by themselves establish patterns of everyday use.",
     "given_sentence": "",
     "choices": [
-      "① Why a Single Indicator Is Sufficient for Every Decision",
+      "① Shipping Invoices as a Mirror: What Port Records Reveal About Daily Consumption",
       "② Beyond the First Explanation: Records of supply cannot by themselves establish patterns of everyday use",
-      "③ A Familiar Prediction That Needed No Further Examination",
-      "④ When Background Details Replace All Empirical Evidence",
-      "⑤ The Complete Failure of Observation in Practical Research"
+      "③ From Spices to Tables: How Imported Goods Shaped the Diets of Nineteenth-Century People",
+      "④ The Historian's Advantage: Why Supply Records Offer the Most Reliable Dietary Evidence",
+      "⑤ Tracing Everyday Meals: How Shipping Invoices Capture Who Consumed What"
     ],
     "answer": 2,
     "explanation": "[지문 해석]\n한 역사가가 19세기의 식단을 재구성하기 위해 해운 송장을 이용했다. 한 학생은 항구에 나타나는 물품을 보편적인 소비와 동일시했다. 그러나 수입 향신료 목록은 접근 가능성은 보여주지만 실제로 누가 그것들을 소비했는지는 나타내지 않았다. 공급 기록만으로는 일상적 사용의 패턴을 확립할 수 없다.\n\n[주요 어휘]\nshipping invoice : 해운 송장, 배송 영수증\nreconstruct : 재구성하다, 복원하다\nequate : 동일시하다, 같다고 보다\nimported : 수입된\nspice : 향신료\naccess : 접근, 이용 가능\nconsumption : 소비\nestablish : 확립하다, 입증하다\npattern : 패턴, 양식\neveryday use : 일상적 사용\nsupply : 공급, 물자\nby themselves : 그 자체로는, 혼자서는\n\n[해설]\n초기 설명과 후속 관찰의 불일치를 통해 더 정교한 판단으로 옮겨가는 글 전체를 포괄합니다.\n\n[오답 해설]\n①번: 지문은 단일 지표(공급 기록)의 한계를 지적하고 있으므로, \"단일 지표가 모든 결정에 충분하다\"는 내용은 지문의 주장과 정반대이다.\n\n②번: 지문의 핵심은 학생이 첫 번째 설명(항구의 수입품=보편적 소비)에만 만족했지만, 실제로는 \"공급 기록 자체로는 일상적 사용 패턴을 확립할 수 없다\"는 더 깊은 분석이 필요하다는 것이다. 정답이다.\n\n③번: 지문은 학생의 등식이 잘못된 추론임을 지적하고 있으므로, \"이미 익숙한 예측이 더 이상의 검토가 필요 없다\"는 내용은 지문의 비판적 태도와 맞지 않는다.\n\n④번: 지문은 배경 세부사항이 경험적 증거를 완전히 대체할 수 없다고 말하고 있으나, 이는 과장된 표현이며 지문의 주요 논점인 \"기록의 한계\"를 정확히 포착하지 못한다.\n\n⑤번: 지문은 관찰 자체의 완전한 실패를 주장하지 않으며, 오히려 관찰을 보완할 추가적인 분석이 필요함을 암시하고 있다.",
@@ -5841,8 +5841,8 @@ const QUESTION_BANK = [
     "given_sentence": "",
     "choices": [
       "① the group had mastered the piece at one fixed speed, with no adjustment for the new evidence",
-      "② the evidence has no bearing on how the original claim should be assessed",
-      "③ the initial assumption must be rejected even in circumstances for which it was never tested",
+      "② the original tempo-based interpretation remains valid whenever the ensemble performs without a metronome",
+      "③ the shifting beat demonstrates that habit-driven repetition should be abandoned across all musical contexts",
       "④ flexible performance requires understanding relationships beyond mechanical repetition",
       "⑤ the shifting beat exposed moments where the ensemble relied on habit rather than listening, which proves that the same result is inevitable everywhere"
     ],
@@ -5891,11 +5891,11 @@ const QUESTION_BANK = [
     "passage": "A painter compared sketches made from memory with those made on site. She had expected memory to preserve a neutral copy of the scene. The first interpretation was plausible because it focused on an easily visible feature. But memory drawings exaggerated the shapes that had attracted her attention. This did not make the earlier observation useless; it revealed that the original explanation had missed an important condition. Remembering is a selective reconstruction rather than passive storage.",
     "given_sentence": "",
     "choices": [
-      "① the need to ignore early evidence once a new interpretation is proposed",
-      "② why a single observation is enough to settle every possible explanation",
+      "① memory drawings preserve the original scene more accurately than on-site sketches",
+      "② the first interpretation of the sketch was ultimately proven correct by further observation",
       "③ Remembering is a selective reconstruction rather than passive storage",
       "④ She had expected memory to preserve a neutral copy of the scene is justified in all settings",
-      "⑤ the claim that competing explanations cannot be evaluated with evidence"
+      "⑤ earlier observations should be discarded when memory distorts the shapes of a scene"
     ],
     "answer": 3,
     "explanation": "[지문 해석]\n한 화가가 기억으로 그린 스케치와 현장에서 그린 스케치를 비교했다. 그녀는 기억이 그 장면을 중립적으로 보존할 것이라고 예상했다. 첫 번째 해석은 쉽게 눈에 띄는 특징에 초점을 맞췄기 때문에 타당해 보였다. 그러나 기억으로 그린 그림들은 그녀의 주의를 끌었던 형태들을 과장했다. 이것이 이전의 관찰을 쓸모없게 만들지는 않았다. 오히려 원래의 설명이 중요한 조건을 놓쳤음을 보여주었다. 기억하기는 수동적 저장이 아니라 선택적 재구성인 것이다.\n\n[주요 어휘]\ncompare : 비교하다\npreserve : 보존하다, 유지하다\nneutral : 중립적인, 객관적인\nplausible : 그럴듯한, 타당한\nexaggerate : 과장하다\nattract : 끌다, 주목하게 하다\nreveal : 드러내다, 밝히다\ncondition : 조건, 상황\nselective : 선별적인, 골라서 하는\nreconstruction : 재구성\npassive : 수동적인\nstorage : 저장, 보관\n\n[해설]\n초기 기대와 다른 관찰을 통해 얻은 제한적인 결론이 요지입니다. 다른 선택지는 단정적 일반화 또는 근거 없는 판단입니다.\n\n[오답 해설]\n①번: 지문은 초기 관찰이 쓸모없다고 말하지 않으며, 오히려 그것이 중요한 조건을 드러냈다고 설명한다. 따라서 초기 증거를 무시해야 한다는 주장은 지문 내용과 맞지 않는다.\n\n②번: 지문은 하나의 관찰만으로는 불충분함을 보여주며, 기억 그림과 현장 그림의 비교를 통해 여러 해석을 평가한다. 따라서 단일 관찰로 모든 설명이 해결된다는 주장은 지문 내용과 반대된다.\n\n③번: 지문의 마지막 문장 \"Remembering is a selective reconstruction rather than passive storage\"가 지문 전체의 결론이자 주제를 직접 명시한다. 화가의 실험이 이를 증명하는 구체적 사례이다.\n\n④번: 지문은 화가의 초기 기대(기억이 중립적 복사본을 보존할 것이라는 예상)가 잘못되었음을 보여준다. 따라서 이 기대가 모든 상황에서 정당화된다는 주장은 지문 내용과 배치된다.\n\n⑤번: 지문은 오히려 증거를 통해 경쟁하는 설명들을 평가할 수 있음을 시연한다(초기 해석과 새로운 해석 비교). 따라서 설명을 평가할 수 없다는 주장은 지문과 반대된다.",
@@ -5925,11 +5925,11 @@ const QUESTION_BANK = [
     "passage": "Dear Review Committee,\n\nA municipal team experimented with permeable pavement in a small plaza. Promoters advertised the material as a stand-alone solution to flooding. In fact, the surface absorbed light rain but struggled when drains beneath it were blocked. I am not asking you to dismiss the original project; I am requesting that its evaluation include the additional evidence and explicitly state the limits of the initial conclusion. Such a review would make the assessment fairer.\n\nSincerely,\nA project participant",
     "given_sentence": "",
     "choices": [
-      "① To demand that the project be cancelled without another evaluation",
+      "① To urge the committee to replace permeable pavement with traditional drainage systems",
       "② To request a reassessment that accounts for conflicting evidence",
-      "③ To announce that the first interpretation has already been fully confirmed",
-      "④ To request a larger budget without discussing evaluation criteria",
-      "⑤ To invite committee members to an unrelated public celebration"
+      "③ To argue that the flooding problem was caused solely by the blocked drains beneath the pavement",
+      "④ To propose expanding the permeable pavement project to additional plazas across the municipality",
+      "⑤ To warn that promoters of the pavement material should be held responsible for the flooding"
     ],
     "answer": 2,
     "explanation": "[지문 해석]\n검토 위원회 귀중,\n\n지방 정부 팀이 작은 광장에서 투수성 포장재를 실험했습니다. 홍보담당자들은 이 재료를 홍수 문제의 단독 해결책으로 광고했습니다. 실제로는 이 표면이 약한 빗물은 흡수했지만 그 아래 배수로가 막혔을 때는 제 역할을 하지 못했습니다. 저는 원래 사업 자체를 폐기하도록 요청하는 것이 아닙니다. 다만 평가에 추가 증거를 포함시키고 초기 결론의 한계를 명시적으로 언급해 줄 것을 요청합니다. 이러한 재검토는 평가를 더욱 공정하게 만들 것입니다.\n\n진심으로,\n사업 참여자 일동\n\n[주요 어휘]\n# 주요 어휘/표현\n\npermeable pavement : 투수성 포장재\n\nmunicipal : 지방 자치단체의, 시립의\n\npromoter : 선전자, 주창자\n\nstand-alone solution : 독립적인 해결책\n\nabsorb : 흡수하다\n\ndrain : 배수로, 하수도\n\ndismiss : 기각하다, 무시하다\n\nrequest : 요청하다\n\nexplicitly : 명시적으로, 분명하게\n\nlimit : 한계, 제한\n\nassessment : 평가, 사정\n\nfairer : 더 공정한\n\n[해설]\n편지의 핵심 요청은 기존 평가에 후속 관찰을 반영하고 초기 결론의 한계를 명시해 달라는 것입니다.\n\n[오답 해설]\n①번: 저자는 \"원래 프로젝트를 무시하지 말 것\"이라고 명시했으므로, 프로젝트 취소를 요구하는 것은 지문의 내용과 정반대이다.\n\n②번: 저자는 \"추가 증거를 포함하고 초기 결론의 한계를 명시하는 평가\"를 요청하고 있으며, 이는 상충하는 증거(배수구 막힘)를 고려한 재평가를 의도한다.\n\n③번: 저자는 오히려 초기 결론(투수성 포장재가 홍수의 완전한 해결책)이 불완전함을 지적하고 있으므로, 결론이 이미 확인되었다는 주장은 거짓이다.\n\n④번: 지문에는 예산 증액에 대한 언급이 전혀 없으며, 저자의 초점은 평가 기준의 개선과 증거의 추가 검토에 있다.\n\n⑤번: 저자는 검토 위원회에 공식적인 재평가를 요청하고 있을 뿐, 관련 없는 공개 행사 초대와는 무관한 내용이다.",
@@ -5942,11 +5942,11 @@ const QUESTION_BANK = [
     "passage": "At first, I felt reassured by the seemingly straightforward explanation. The restaurant expected information alone to determine taste. A chef added detailed origin stories to a seasonal menu. When I learned that diners became curious about unfamiliar vegetables but still rejected some flavors, my confidence weakened. I wondered how much I had missed by attending only to the result that supported my expectation. I reconsidered my judgment. By the end, I was still uncertain about every detail, but I felt more willing to investigate than to defend my first impression.",
     "given_sentence": "",
     "choices": [
-      "① from distrust of the team to unconditional hostility",
+      "① from distrust of the chef's menu to acceptance of all flavor choices",
       "② from confidence to reflective curiosity",
-      "③ from disappointment to certainty that all questions are settled",
-      "④ from curiosity to indifference about the investigation",
-      "⑤ from confidence to a refusal to reconsider any evidence"
+      "③ from initial confusion to certainty that diners' preferences are predictable",
+      "④ from curiosity about unfamiliar vegetables to indifference toward the chef's explanations",
+      "⑤ from reassurance to a determination to defend the original impression"
     ],
     "answer": 2,
     "explanation": "[지문 해석]\n처음에는 얼핏 단순해 보이는 설명에 안심이 되었다. 그 레스토랑은 정보만으로 맛이 결정된다고 생각했던 것이다. 한 셰프가 계절 메뉴에 상세한 유래담을 덧붙였다. 그런데 손님들이 낯선 채소에는 호기심을 보이면서도 여전히 어떤 맛은 거부한다는 것을 알게 되자, 나의 확신이 흔들렸다. 내 기대를 뒷받침하는 결과만 바라보면서 얼마나 많은 것을 놓쳤을까 하는 의문이 들었다. 나는 내 판단을 다시 생각해보기 시작했다. 결국 나는 모든 세부 사항에 대해 여전히 확신할 수 없었지만, 처음 인상을 고집하기보다는 더 깊이 탐구하고 싶은 마음이 생겼다.\n\n[주요 어휘]\nreassured : 안심한, 확신감을 갖게 된\nstraightforward : 간단한, 명확한\norigin stories : 유래, 래력담\nseasonal menu : 계절 메뉴\ndiners : 식사하는 사람들, 손님들\nreject : 거절하다, 거부하다\nconfidence weakened : 확신이 약해지다\nreconsidered : 다시 생각해보다, 재검토하다\nsupport my expectation : 내 기대를 뒷받침하다\nuncertain : 확실하지 않은, 불확실한\nwilling to investigate : 조사하려는 의향이 있는\ndefend my first impression : 첫인상을 옹호하다\n\n[해설]\n초기의 confident/reassured와 후반의 reconsider, willing to investigate가 대비되므로 확신에서 성찰적 탐구로의 변화입니다.\n\n[오답 해설]\n①번: 지문에서 \"unconditional hostility(무조건적 적대)\"를 보여주는 내용이 없다. 저자는 팀을 불신하기보다는 자신의 판단을 재고하며 조사하려는 마음으로 변화한다.\n\n②번: 초반의 \"felt reassured\"라는 확신 있는 태도에서 마지막의 \"more willing to investigate than to defend my first impression\"이라는 성찰적 호기심으로 변화한다. 이는 지문의 심경 변화를 정확히 포착한다.\n\n③번: 저자는 \"still uncertain about every detail\"이라고 명시하며 모든 질문이 해결되었다는 확실성에 도달하지 않는다. 오답이다.\n\n④번: 지문 끝부분에서 \"more willing to investigate\"라고 명확히 표현되어 있어 indifference(무관심)는 전혀 맞지 않는다. 오답이다.\n\n⑤번: 저자는 \"I reconsidered my judgment\"라고 표현하며 증거를 재검토하고 있으므로 \"a refusal to reconsider(재검토 거부)\"와는 정반대이다. 오답이다.",
@@ -5959,10 +5959,10 @@ const QUESTION_BANK = [
     "passage": "A sociologist compared how neighbors interpreted silence in shared courtyards. A housing committee had imposed a single definition of friendliness. At first, that account seemed attractive: it offered a simple explanation that could be communicated without further qualification. In fact, some saw quiet as respect while others understood it as social exclusion. Two observers could accept the same facts yet reach different judgments because they attached different importance to the underlying assumptions. The meaning of behavior can depend on different cultural expectations. An adequate account must make those assumptions explicit before treating its conclusion as general. This conclusion is not identical to the first assumption; it must account for the later observation and for the limits of the original measure. In particular, the new evidence may justify changing the interpretation without proving that the earlier account was mistaken in every conceivable setting. Consequently, the preferred interpretation should explain both the initial expectation and the evidence that complicates it, without pretending that a single example establishes a universal rule.",
     "given_sentence": "",
     "choices": [
-      "① Decision-makers should judge an intervention solely by its most visible immediate result.",
-      "② An observed difference should be treated as a universal rule without further examination.",
+      "① Decisions should prioritize the housing committee's initial definition of friendliness, since it offered a clear and communicable explanation.",
+      "② An adequate account should treat the two observers' differing judgments as errors to be corrected rather than as evidence that assumptions need to be made explicit.",
       "③ Decisions should reflect this insight: the meaning of behavior can depend on different cultural expectations.",
-      "④ If evidence is mixed, decision-makers should avoid weighing the competing explanations at all.",
+      "④ If new evidence complicates the original interpretation, decision-makers should discard the earlier account entirely rather than revising its underlying assumptions.",
       "⑤ Decisions should retain the original assumption because a housing committee had imposed a single definition of friendliness."
     ],
     "answer": 3,
@@ -5977,10 +5977,10 @@ const QUESTION_BANK = [
     "given_sentence": "",
     "choices": [
       "① Beyond the First Explanation: The environmental effect of a policy depends on what behavior it displaces",
-      "② The Complete Failure of Observation in Practical Research",
-      "③ A Familiar Prediction That Needed No Further Examination",
-      "④ Why a Single Indicator Is Sufficient for Every Decision",
-      "⑤ When Background Details Replace All Empirical Evidence"
+      "② Free Transit Trials: How Ridership Growth Directly Translates to Emissions Reduction",
+      "③ When Initial Assumptions About Public Transit Prove Correct Across All Conditions",
+      "④ Why Replacing Walking with Transit Riding Counts as an Environmental Victory",
+      "⑤ Revising the Transit Policy: One Clear Example Settles the Emissions Debate"
     ],
     "answer": 1,
     "explanation": "[지문 해석]\n한 경제학자가 무료 대중교통 시범 운영을 조사했다. 관계자들은 모든 추가 승객을 배출량 감소로 간주했다. 처음에는 이러한 설명이 매력적으로 보였다. 추가 설명 없이도 전달할 수 있는 단순한 근거를 제시했기 때문이다. 그런데 실제로는 승객 수는 증가했지만, 많은 새로운 이용객들이 자동차 대신 걷기를 포기한 경우였다. 이 결과는 유용한 단서를 제공하지만, 동일한 메커니즘이 모든 상황에서 작동할 것임을 증명하지는 못한다. 정책의 환경 영향은 그것이 대체하는 행동이 무엇인지에 달려 있다. 더 강력한 추론은 의도적으로 제한적이다. 불확실성이 완전히 사라졌다고 가정하지 않으면서도 관찰된 차이를 설명한다. 이 결론은 초기 가정과 동일하지 않다. 이후의 관찰과 원래 측정 방법의 한계를 고려해야 한다. 특히 새로운 증거는 초기 설명이 모든 상황에서 틀렸음을 증명하지 않으면서도 해석을 바꿀 근거가 될 수 있다. 따라서 선호되는 해석은 초기 기대와 이를 복잡하게 만드는 증거를 모두 설명해야 하며, 단 하나의 사례가 보편적 규칙을 입증한다고 가정해서는 안 된다.\n\n[주요 어휘]\n1. economist : 경제학자\n2. transit trial : 대중교통 시범 운영\n3. emissions saving : 배출량 감소\n4. ridership : 승객 수\n5. displace : 대체하다, 밀어내다\n6. inference : 추론, 결론\n7. mechanism : 작동 방식, 메커니즘\n8. environmental effect : 환경적 영향\n9. account for : ~을 설명하다\n10. preferred interpretation : 선호되는 해석\n11. universal rule : 보편적 규칙\n12. complicates : 복잡하게 하다, 문제를 일으키다\n\n[해설]\n초기 설명과 후속 관찰의 불일치를 통해 더 정교한 판단으로 옮겨가는 글 전체를 포괄합니다.\n\n[오답 해설]\n①번: 정답. 지문은 처음의 단순한 설명(승객 증가 = 배출량 감소)을 넘어서, 실제로는 걷기를 대체했다는 관찰을 통해 정책의 환경 효과가 어떤 행동을 대체하는지에 달려 있다는 더 깊은 결론에 도달하는 과정을 보여준다.\n\n②번: 오답. 지문은 관찰의 실패를 말하는 것이 아니라, 초기 설명이 불완전했음을 보여주며 추가 관찰을 통해 더 정교한 해석을 이끌어내는 과정을 설명한다.\n\n③번: 오답. 지문은 초기 예측이 단순했지만 재검토가 필요했다고 명시하고 있으므로, \"추가 검토가 필요 없었던 익숙한 예측\"이라는 선지는 지문 내용과 모순된다.\n\n④번: 오답. 지문의 핵심은 단일 지표(승객 수)로는 충분하지 않으며, 실제 행동 대체 효과를 고려해야 한다는 것이므로, 선지의 주장과 정반대이다.\n\n⑤번: 오답. 지문은 배경 정보(행동 대체)가 경험적 증거를 대체한다고 하지 않고, 초기 증거를 보완하고 해석을 정교하게 하는 역할을 한다고 설명한다.",
@@ -6010,8 +6010,8 @@ const QUESTION_BANK = [
     "passage": "A sports coach required athletes to describe tactical errors after matches. The team had previously judged strategy only by whether a play succeeded. The new evidence, however, was more informative than the original label: players learned to distinguish poor decisions from unlucky outcomes. The difficulty is to account for both the attraction of the earlier interpretation and its failure to explain the later observation. The evidence is most consistent with the conclusion that __________. A defensible choice should explain the contrast without converting a local finding into a universal rule.",
     "given_sentence": "",
     "choices": [
-      "① the initial assumption must be rejected even in circumstances for which it was never tested",
-      "② the evidence has no bearing on how the original claim should be assessed",
+      "① coaching interventions reliably improve tactical awareness regardless of the original evaluation method",
+      "② describing errors after matches matters only when the team already distinguishes poor decisions from unlucky outcomes",
       "③ players learned to distinguish poor decisions from unlucky outcomes, which proves that the same result is inevitable everywhere",
       "④ the team had previously judged strategy only by whether a play succeeded, with no adjustment for the new evidence",
       "⑤ good evaluation separates decision quality from immediate results"
@@ -6061,11 +6061,11 @@ const QUESTION_BANK = [
     "passage": "A city replaced a noisy intersection with a small public square. Advocates described the project as having benefits without costs. Street vendors gained customers, but delivery drivers needed a new route. The first interpretation was necessarily (① tentative) because little evidence had yet been collected. The later observation (② confirmed) the expectation on which that interpretation depended. The researchers consequently adopted a (③ qualified) account rather than an unconditional verdict. They examined whether the new evidence was (④ relevant) to the question under investigation. The conclusion remained (⑤ limited) to the conditions in which the observations had been made.",
     "given_sentence": "",
     "choices": [
-      "①번 표시",
+      "① conclusive",
       "②번 표시",
-      "③번 표시",
-      "④번 표시",
-      "⑤번 표시"
+      "③ unconditional",
+      "④ unrelated",
+      "⑤ extended"
     ],
     "answer": 2,
     "explanation": "[지문 해석]\n어느 도시가 시끄러운 교차로를 작은 공공 광장으로 바꿨다. 지지자들은 이 사업이 비용 없이 이점만 있다고 설명했다. 노점상들은 고객을 얻었지만, 배송 기사들은 새로운 경로를 필요로 했다. 첫 번째 해석은 아직 수집된 증거가 거의 없었기 때문에 반드시 (① 잠정적)이었다. 나중의 관찰은 그 해석이 의존하던 기대를 (② 확인)해주었다. 따라서 연구자들은 무조건적인 판단보다는 (③ 제한적인) 설명을 채택했다. 그들은 새로운 증거가 조사 중인 질문과 (④ 관련)이 있는지 검토했다. 결론은 관찰이 이루어진 조건들로 (⑤ 제한)되었다.\n\n[주요 어휘]\n# 수능 영어 중요 단어/표현\n\n1. intersection : 교차로, 교점\n2. advocate : 옹호자, 주창자\n3. tentative : 임시적인, 잠정적인\n4. evidence : 증거, 근거\n5. confirmed : 확인된, 입증된\n6. qualified : 제한적인, 조건부의\n7. unconditional : 무조건적인, 무제약의\n8. verdict : 판단, 결론, 평결\n9. relevant : 관련있는, 적절한\n10. consequently : 따라서, 그 결과\n11. limited to : ~에 국한된, ~으로 제한된\n12. observation : 관찰, 관측\n\n[해설]\n②의 confirmed는 주변 의미와 충돌합니다. contradicted로 수정해야 초기 가설·반증·신중한 결론의 논리가 일관됩니다.\n\n[오답 해설]\n①번: 'tentative(임시적인, 잠정적인)'는 문맥상 적절합니다. 아직 증거가 충분히 수집되지 않았으므로 초기 해석은 당연히 잠정적일 수밖에 없다는 의미가 자연스럽습니다.\n\n②번: 'confirmed(확인했다)'는 문맥에 부적절합니다. 뒤의 \"the expectation on which that interpretation depended\"는 '그 해석이 의존했던 기대'인데, 'confirmed'는 기대가 맞았다는 의미로 지나치게 긍정적입니다. 여기서는 'challenged(도전했다)' 같은 중립적 표현이 필요합니다.\n\n③번: 'qualified(제한된, 조건부의)'는 문맥상 적절합니다. 새로운 증거 때문에 무조건적인 판결 대신 조건부의 신중한 설명을 채택했다는 의미가 자연스럽게 흐릅니다.\n\n④번: 'relevant(관련된)'는 문맥상 적절합니다. 연구자들이 새로운 증거가 조사 대상 질문과 관련이 있는지를 검토했다는 의미가 명확하고 논리적입니다.\n\n⑤번: 'limited(제한된)'는 문맥상 적절합니다. 결론이 관찰이 이루어진 특정 조건들에만 적용된다는 의미로, 연구의 신중한 태도를 잘 반영합니다.",
@@ -6079,10 +6079,10 @@ const QUESTION_BANK = [
     "given_sentence": "",
     "choices": [
       "① The history of maintenance can itself be part of an object's significance",
-      "② the need to ignore early evidence once a new interpretation is proposed",
+      "② the importance of erasing all repair traces to preserve an object's original form",
       "③ Some collectors wanted all traces of repair erased is justified in all settings",
-      "④ why a single observation is enough to settle every possible explanation",
-      "⑤ the claim that competing explanations cannot be evaluated with evidence"
+      "④ the reason antique clocks should be restored only by professional collectors",
+      "⑤ the view that visible repairs reduce the historical value of a museum artifact"
     ],
     "answer": 1,
     "explanation": "[지문 해석]\n어느 박물관이 골동품 시계를 복원하면서 수리 흔적을 하나 의도적으로 남겨두었다. 일부 수집가들은 수리의 모든 자취를 지우기를 원했다. 그러나 방문객들은 후대 세대가 어떻게 그 장치를 작동하게 유지했는지 이해했다. 유지·보수의 역사 자체가 물건의 가치 있는 부분이 될 수 있는 것이다.\n\n[주요 어휘]\nrestore : 복원하다\nantique : 골동품의, 오래된\nvisible : 눈에 띄는, 보이는\nrepair : 수리, 복구\nerase : 지우다, 없애다\ntrace : 흔적, 자취\nmechanism : 장치, 구조\nmaintenance : 유지, 보수\ngeneration : 세대\nsignificance : 중요성, 의미\n\n[해설]\n초기 기대와 다른 관찰을 통해 얻은 제한적인 결론이 요지입니다. 다른 선택지는 단정적 일반화 또는 근거 없는 판단입니다.\n\n[오답 해설]\n①번: 지문의 마지막 문장이 바로 이 선지와 동일하며, 박물관이 수리 흔적을 남긴 이유와 방문객들의 긍정적 반응을 통해 주장하는 핵심 요지이다.\n\n②번: 지문에서는 오히려 새로운 해석(유지보수의 역사적 가치)을 받아들이면서 초기 증거(수리 흔적)를 무시하지 않고 포함시키므로, 지문의 내용과 모순된다.\n\n③번: 지문은 수리 흔적을 지우려는 수집가들의 입장을 제시하지만 이를 정당화하지 않으며, 오히려 박물관과 방문객들이 그 반대의 가치를 인정했으므로 틀렸다.\n\n④번: 지문은 단일한 관찰이나 설명으로 모든 가능성을 결정할 수 있다는 주장을 하지 않으며, 다양한 관점(수집가 vs 방문객)을 제시하고 있다.\n\n⑤번: 지문은 증거를 통해 상충하는 설명들을 평가할 수 있음을 보여주며(수리 흔적에 대한 다른 평가), 이러한 주장을 하지 않는다.",
@@ -6113,10 +6113,10 @@ const QUESTION_BANK = [
     "given_sentence": "",
     "choices": [
       "① To request a reassessment that accounts for conflicting evidence",
-      "② To demand that the project be cancelled without another evaluation",
-      "③ To invite committee members to an unrelated public celebration",
-      "④ To request a larger budget without discussing evaluation criteria",
-      "⑤ To announce that the first interpretation has already been fully confirmed"
+      "② To propose replacing positive feedback labels with detailed action descriptions entirely",
+      "③ To urge the committee to delay the funding decision until a new psychologist is appointed",
+      "④ To suggest that the original project's evaluation criteria be shared with all future funding applicants",
+      "⑤ To confirm that the initial conclusion about motivational feedback has been sufficiently validated"
     ],
     "answer": 1,
     "explanation": "[지문 해석]\n검토 위원회께,\n\n한 심리학자가 업무 피드백을 제공하는 두 가지 방식을 비교했습니다. 관리자들은 긍정적인 평가만으로도 직원들의 개선 의욕을 불러일으킬 수 있다고 생각했습니다. 그러나 실제로는 구체적인 행동 설명이 일반적인 칭찬보다 직원들의 개선에 더 효과적이었습니다. 저는 원래 프로젝트를 폐기하도록 요청하는 것이 아닙니다. 다만 그 평가에 추가 증거를 포함시키고 초기 결론의 한계를 명확히 명시해 줄 것을 요청하는 것입니다. 이러한 변경이 없다면, 다음 자금 지원 결정에서 프로젝트의 실제 성과가 아닌 불완전한 지표에 보상을 주는 결과를 초래할 수 있습니다.\n\n진심으로,\n프로젝트 참여자 일동\n\n[주요 어휘]\nperformance feedback : 업무 성과에 대한 피드백\npositive labels : 긍정적인 평가/표현\nmotivate : 동기를 부여하다\nspecific descriptions : 구체적인 설명\ngeneral praise : 일반적인 칭찬\ndismiss : 기각하다, 무시하다\nevaluation : 평가\nexplicitly state : 명시적으로 드러내다\nlimits : 한계, 제한점\nincomplete indicator : 불완전한 지표\nactual performance : 실제 성과\n\n[해설]\n편지의 핵심 요청은 기존 평가에 후속 관찰을 반영하고 초기 결론의 한계를 명시해 달라는 것입니다.\n\n[오답 해설]\n①번: 정답입니다. 저자는 \"I am requesting that its evaluation include the additional evidence\"라고 명시하며, 새로운 증거(specific descriptions가 general praise보다 효과적)를 포함한 재평가를 요청하고 있습니다.\n\n②번: 저자는 \"I am not asking you to dismiss the original project\"라고 명확히 부정하므로 프로젝트 취소를 요구하지 않습니다.\n\n③번: 지문 어디에도 공개 행사 초대에 관한 내용이 없으며, 저자의 의도는 평가 절차 개선에 관한 것입니다.\n\n④번: 저자는 예산 증액을 요청하지 않으며, 오히려 평가 기준과 증거를 더 충분히 검토할 것을 요구하고 있습니다.\n\n⑤번: 저자는 초기 결론이 불완전하다고 지적하며(\"limits of the initial conclusion\"), 첫 해석이 이미 확정되었다고 주장하지 않습니다.",
@@ -6130,10 +6130,10 @@ const QUESTION_BANK = [
     "given_sentence": "",
     "choices": [
       "① from confidence to reflective curiosity",
-      "② from curiosity to indifference about the investigation",
-      "③ from distrust of the team to unconditional hostility",
-      "④ from confidence to a refusal to reconsider any evidence",
-      "⑤ from disappointment to certainty that all questions are settled"
+      "② from initial reassurance to regret over defending the green roof publicly",
+      "③ from doubt about the rooftop garden to trust in the brochure's original claim",
+      "④ from weakened confidence to a firm rejection of any need for revision",
+      "⑤ from uncertainty about watering costs to satisfaction with the first explanation"
     ],
     "answer": 1,
     "explanation": "[지문 해석]\n처음에는 겉으로 단순해 보이는 설명에 안심했다. 한 홍보 자료는 모든 녹색 지붕을 똑같이 지속 가능한 것으로 취급했다. 한 지역사회가 쇼핑 아케이드 위에 작은 옥상 정원을 조성했다. 그 정원이 인근 방들을 식혀주지만 건조한 달에는 상당한 양의 물이 필요하다는 것을 알게 되자 내 확신이 흔들렸다. 내 기대를 뒷받침하는 결과에만 집중해서 얼마나 많은 것을 놓쳤을지 궁금해졌다. 나는 일찍이 그 설명을 공개적으로 옹호했기 때문에 그 한계를 인정하기 싫었다. 그러나 관찰 결과를 더욱 신중하게 비교할수록 수정의 필요성이 더욱 명확해졌다. 결국 모든 세부 사항에 대해 여전히 확실하지 않았지만, 처음 인상을 옹호하기보다는 더 깊이 조사하려는 마음이 생겼다.\n\n[주요 어휘]\nreassured : 안심한, 확신을 가진\nstraightforward : 간단한, 명확한\nsustainable : 지속 가능한\nconfidence weakened : 확신이 약해졌다\nmissed : 놓친, 간과한\nexpectation : 기대, 예상\nresist : 저항하다, 거부하다\nlimitation : 한계, 제약\ndefend : 옹호하다, 변호하다\nrevision : 수정, 재검토\nimpression : 인상, 느낌\nwilling to investigate : 조사하려는 의지가 있는\n\n[해설]\n초기의 confident/reassured와 후반의 reconsider, willing to investigate가 대비되므로 확신에서 성찰적 탐구로의 변화입니다.\n\n[오답 해설]\n①번: 정답. 필자는 처음 \"reassured\"(안심)하는 자신감에서 시작하여 관찰을 비교하면서 성찰적 태도로 변화하고, 마지막에 \"willing to investigate\"(조사하려는 의지)로 진화한다. 이는 확신에서 반성적 호기심으로의 변화를 정확히 나타낸다.\n\n②번: 오답. 필자는 조사에 대해 점점 더 관심을 가지게 되며(\"willing to investigate\"), 무관심(indifference)해지지 않는다. 이는 지문의 내용과 정반대이다.\n\n③번: 오답. 지문에서 팀이나 특정 집단에 대한 불신이나 적대감을 드러내는 부분이 없다. 필자는 자신의 초기 인상과 설명에 대해 의문을 제기할 뿐이다.\n\n④번: 오답. 필자는 오히려 증거를 재검토하려는 의지를 보여주며(\"more willing to investigate\"), 증거 검토를 거부하지 않는다. 이는 지문의 마지막 부분과 명백히 모순된다.\n\n⑤번: 오답. 필자는 마지막에 \"every detail about uncertain\"(모든 세부사항에 불확실함)을 느끼며, 모든 질문이 해결되었다는 확실성에 도달하지 않는다. 오히려 지속적인 조사의 필요성을 인식한다.",
@@ -6146,11 +6146,11 @@ const QUESTION_BANK = [
     "passage": "An engineer examined why a repaired bridge vibrated under certain loads. The first team had inspected each component separately. At first, that account seemed attractive: it offered a simple explanation that could be communicated without further qualification. In fact, replacing a damaged component solved one problem but shifted stress elsewhere. The initial explanation appealed to a familiar measure of success, yet that measure ignored who or what was excluded from the observation. Connections between components can create unexpected system-level effects. A better judgment requires distinguishing what the evidence directly establishes from the larger claim someone hopes to make. This conclusion is not identical to the first assumption; it must account for the later observation and for the limits of the original measure. In particular, the new evidence may justify changing the interpretation without proving that the earlier account was mistaken in every conceivable setting. Consequently, the preferred interpretation should explain both the initial expectation and the evidence that complicates it, without pretending that a single example establishes a universal rule.",
     "given_sentence": "",
     "choices": [
-      "① An observed difference should be treated as a universal rule without further examination.",
-      "② If evidence is mixed, decision-makers should avoid weighing the competing explanations at all.",
+      "① An engineer should replace each damaged component separately before examining how the parts interact as a whole.",
+      "② If new evidence complicates the initial account, decision-makers should discard the original explanation entirely rather than refine it.",
       "③ Decisions should reflect this insight: connections between components can create unexpected system-level effects.",
       "④ Decisions should retain the original assumption because the first team had inspected each component separately.",
-      "⑤ Decision-makers should judge an intervention solely by its most visible immediate result."
+      "⑤ Decision-makers should judge an intervention by whether it eliminates the stress transferred to other components after the repair."
     ],
     "answer": 3,
     "explanation": "[지문 해석]\n한 엔지니어가 수리된 교량이 특정 하중을 받을 때 왜 진동하는지를 조사했다. 첫 번째 팀은 각 부품을 따로따로 검사했다. 처음에는 그 설명이 매력적으로 보였다. 더 이상의 설명 없이 전달될 수 있는 단순한 설명을 제시했기 때문이다. 실제로 손상된 부품을 교체하면 한 가지 문제는 해결되지만 스트레스가 다른 곳으로 이동했다. 초기 설명은 익숙한 성공의 척도에 호소했지만, 그 척도는 누가 또는 무엇이 관찰에서 제외되었는지를 무시했다. 부품들 사이의 연결은 예상치 못한 시스템 수준의 효과를 만들 수 있다. 더 나은 판단을 하려면 증거가 직접 입증하는 것과 누군가가 하기를 바라는 더 큰 주장 사이를 구분해야 한다. 이 결론은 처음 가정과 동일하지 않다. 나중의 관찰과 원래 척도의 한계를 고려해야 한다. 특히, 새로운 증거는 이전 설명이 모든 가능한 상황에서 틀렸다는 것을 증명하지 않으면서도 해석을 바꿀 정당성을 제공할 수 있다. 따라서 선호되는 해석은 초기 기대와 이를 복잡하게 만드는 증거를 모두 설명해야 하며, 단 하나의 사례가 보편적 규칙을 입증한다고 주장해서는 안 된다.\n\n[주요 어휘]\nrepaired : 수리된, 복구된\nvibrated : 진동했다\ncomponent : 구성 요소, 부품\nshifted stress : 스트레스를 다른 곳으로 옮기다\nmeasure of success : 성공의 기준\nexcluded : 제외된\nsystem-level effects : 체계 수준의 영향\ndistinguish : 구별하다\nevidence : 증거\ninterpretation : 해석, 설명\njustify : 정당화하다\nuniversal rule : 보편적 규칙\n\n[해설]\n필자는 초기 판단을 그대로 유지하기보다 관찰의 조건과 반례를 반영해 결론을 조정해야 한다고 주장합니다.\n\n[오답 해설]\n①번: 지문은 \"a single example establishes a universal rule\"을 거부하고 있으므로, 관찰된 차이를 보편적 규칙으로 취급하지 말아야 한다고 주장합니다. 따라서 이 선지는 지문의 주장과 정반대입니다.\n\n②번: 지문은 혼합된 증거가 있을 때 \"preferred interpretation should explain both the initial expectation and the evidence that complicates it\"이라며 양쪽 설명을 모두 고려해야 한다고 강조합니다. 따라서 경쟁하는 설명의 검토를 피하라는 이 선지는 틀렸습니다.\n\n③번: 지문의 핵심 통찰은 \"Connections between components can create unexpected system-level effects\"이며, 처음 팀이 각 성분을 개별적으로만 검사했다가 놓친 것이 바로 이 시스템 수준의 영향입니다. 따라서 의사결정이 이 통찰을 반영해야 한다는 이 선지가 정답입니다.\n\n④번: 지문은 처음 팀의 접근방식(각 성분의 개별 검사)이 실패했음을 보여주며, 새로운 증거를 고려하여 해석을 바꿔야 한다고 주장합니다. 따라서 원래 가정을 유지하라는 이 선지는 지문과 모순됩니다.\n\n⑤번: 지문은 \"replacing a damaged component solved one problem but shifted stress elsewhere\"라며 가장 눈에 띄는 직접적 결과만으로는 불충분함을 지적합니다. 따라서 개입의 즉각적 결과만으로 판단하라는 이 선지는 거부됩니다.",
@@ -6163,11 +6163,11 @@ const QUESTION_BANK = [
     "passage": "A journalist asked readers to mark uncertainty in a developing story. Editors feared that admitting uncertainty would look unprofessional. At first, that account seemed attractive: it offered a simple explanation that could be communicated without further qualification. In fact, corrections became easier to understand when early claims had been qualified. The striking feature of the result was not its size but the mismatch between the expected mechanism and the one actually observed. Credibility may increase when evidence and confidence are distinguished. The conclusion therefore depends on comparing two interpretations, rather than merely repeating the most visible outcome. This conclusion is not identical to the first assumption; it must account for the later observation and for the limits of the original measure. In particular, the new evidence may justify changing the interpretation without proving that the earlier account was mistaken in every conceivable setting. Consequently, the preferred interpretation should explain both the initial expectation and the evidence that complicates it, without pretending that a single example establishes a universal rule.",
     "given_sentence": "",
     "choices": [
-      "① A Familiar Prediction That Needed No Further Examination",
+      "① Admitting Uncertainty: Why Editors Were Right to Fear Unprofessional Reporting",
       "② Beyond the First Explanation: Credibility may increase when evidence and confidence are distinguished",
-      "③ The Complete Failure of Observation in Practical Research",
-      "④ When Background Details Replace All Empirical Evidence",
-      "⑤ Why a Single Indicator Is Sufficient for Every Decision"
+      "③ How Early Corrections Confirm That the First Account Was Mistaken in Every Setting",
+      "④ When Qualifying Initial Claims Makes Later Evidence Harder to Interpret",
+      "⑤ Why Distinguishing Evidence from Confidence Undermines Journalistic Credibility"
     ],
     "answer": 2,
     "explanation": "[지문 해석]\n한 기자가 독자들에게 진행 중인 기사에서 불확실성을 표시해 달라고 요청했다. 편집자들은 불확실성을 인정하는 것이 비전문적으로 보일까 봐 우려했다. 처음에는 그런 접근 방식이 매력적으로 보였다. 추가 설명 없이 전달할 수 있는 간단한 설명을 제공했기 때문이다. 사실 초기 주장에 한정 조건이 붙어 있으면 정정 사항을 더 쉽게 이해할 수 있었다. 결과의 두드러진 특징은 그 규모가 아니라 예상된 메커니즘과 실제로 관찰된 메커니즘 사이의 불일치였다. 증거와 확신을 구분할 때 신뢰성이 증가할 수 있다. 따라서 결론은 단순히 가장 눈에 띄는 결과를 반복하기보다는 두 가지 해석을 비교하는 것에 달려 있다. 이 결론은 처음 가정과 동일하지 않다. 이후의 관찰 내용과 원래 측정의 한계를 고려해야 한다. 특히 새로운 증거는 초기의 주장이 모든 상황에서 잘못되었음을 증명하지 않으면서도 해석을 바꿀 정당한 이유가 될 수 있다. 그러므로 선호되는 해석은 초기 예상과 그것을 복잡하게 만드는 증거를 모두 설명해야 하며, 단 하나의 사례가 보편적인 규칙을 확립한다고 주장해서는 안 된다.\n\n[주요 어휘]\n1. mark uncertainty : 불확실성을 표시하다\n2. admit : 인정하다\n3. unprofessional : 비전문적인\n4. qualification : 한정, 조건\n5. mismatch : 불일치, 어긋남\n6. credibility : 신뢰성\n7. distinguish : 구별하다\n8. account for : ~을 설명하다\n9. complicate : 복잡하게 하다\n10. conceivable : 상상할 수 있는, 가능한\n11. preferred interpretation : 더 나은 해석\n12. universal rule : 보편적 규칙\n\n[해설]\n초기 설명과 후속 관찰의 불일치를 통해 더 정교한 판단으로 옮겨가는 글 전체를 포괄합니다.\n\n[오답 해설]\n①번: 지문은 초기 설명이 충분하지 않으며 불확실성을 인정할 필요가 있음을 강조하므로, \"더 이상의 검토가 필요 없는 친숙한 예측\"이라는 선지는 지문의 핵심 메시지와 모순된다.\n\n②번: 지문은 초기 가정을 넘어서 증거와 확신을 구분할 때 신뢰도가 증가할 수 있다는 결론을 제시하며, 이는 제목으로서 지문의 핵심 주장을 정확히 포괄한다.\n\n③번: 지문은 관찰의 \"완전한 실패\"를 논하지 않으며, 오히려 관찰 결과를 어떻게 해석하고 수정해야 하는지에 대해 논의하므로 부적절하다.\n\n④번: 지문은 배경 세부사항이 경험적 증거를 완전히 대체해야 한다고 주장하지 않으며, 오히려 초기 기대와 증거를 모두 설명하는 해석을 선호한다고 밝힌다.\n\n⑤번: 지문은 단일 사례나 지표가 모든 결정에 충분하지 않으며, 보편적 규칙을 수립할 수 없다고 명시하므로 선지의 주장과 반대된다.",
@@ -6198,8 +6198,8 @@ const QUESTION_BANK = [
     "given_sentence": "",
     "choices": [
       "① an instructor had equated memorability with weak security, with no adjustment for the new evidence",
-      "② the initial assumption must be rejected even in circumstances for which it was never tested",
-      "③ the evidence has no bearing on how the original claim should be assessed",
+      "② memorability should be prioritized over security strength whenever users struggle to recall their passwords",
+      "③ the original label remained valid because the new phrases were tested under different conditions than the earlier strings",
       "④ participants remembered distinctive phrases better than arbitrary short strings, which proves that the same result is inevitable everywhere",
       "⑤ security design must account for human memory as well as technical strength"
     ],
@@ -6248,10 +6248,10 @@ const QUESTION_BANK = [
     "passage": "An orchestra invited audience members to move between seating zones. A critic claimed that a performance had one objectively identical sound for all. Listeners noticed different instrument lines from different positions. The first interpretation was necessarily (① tentative) because little evidence had yet been collected. The later observation (② contradicted) the expectation on which that interpretation depended. The researchers consequently adopted a (③ qualified) account rather than an unconditional verdict. They examined whether the new evidence was (④ relevant) to the question under investigation. The conclusion remained (⑤ universal) to the conditions in which the observations had been made.",
     "given_sentence": "",
     "choices": [
-      "①번 표시",
-      "②번 표시",
-      "③번 표시",
-      "④번 표시",
+      "① definitive",
+      "② confirmed",
+      "③ unconditional",
+      "④ irrelevant",
       "⑤번 표시"
     ],
     "answer": 5,
@@ -6266,10 +6266,10 @@ const QUESTION_BANK = [
     "given_sentence": "",
     "choices": [
       "① Developers had believed one standardized sequence would suit everyone is justified in all settings",
-      "② the claim that competing explanations cannot be evaluated with evidence",
+      "② advanced learners benefit more when beginner-level tasks are completely removed",
       "③ Personalization can serve different learners without lowering expectations",
-      "④ the need to ignore early evidence once a new interpretation is proposed",
-      "⑤ why a single observation is enough to settle every possible explanation"
+      "④ the importance of discarding the first interpretation once learner differences are observed",
+      "⑤ how optional challenges caused beginners to avoid completing their assigned lessons"
     ],
     "answer": 3,
     "explanation": "[지문 해석]\n어떤 교육 앱이 수업을 단축하고 선택적 과제를 추가했다. 개발자들은 하나의 표준화된 순서가 모든 학습자에게 적합할 것이라고 믿었다. 처음 해석은 눈에 띄는 특징에 초점을 맞췄기 때문에 타당해 보였다. 그러나 초급자들은 더 많은 수업을 완료했고 고급 학습자들은 더 깊이 있는 과제를 선택했다. 이것이 이전의 관찰을 쓸모없게 만들지는 않았다. 오히려 원래의 설명이 중요한 조건을 놓쳤다는 것을 드러냈다. 개인화는 기대 수준을 낮추지 않으면서도 서로 다른 학습자들을 도울 수 있다.\n\n[주요 어휘]\neducational app : 교육용 애플리케이션\nstandardized sequence : 표준화된 순서/체계\nplausible : 그럴듯한, 믿을 만한\npersonalization : 개인화, 맞춤형 제공\nadvanced learners : 고급 학습자\nlowering expectations : 기준/기대를 낮추다\nrevealed : 드러내다, 밝히다\nmissed an important condition : 중요한 조건을 놓치다\ndeeper tasks : 더 심화된 과제\noriginal explanation : 원래의 설명\nsuit : ~에 적합하다\nobservation : 관찰, 관찰 결과\n\n[해설]\n초기 기대와 다른 관찰을 통해 얻은 제한적인 결론이 요지입니다. 다른 선택지는 단정적 일반화 또는 근거 없는 판단입니다.\n\n[오답 해설]\n①번: 지문에서 \"원래 설명이 중요한 조건을 놓쳤다\"고 명시했으므로, 표준화된 수열이 모든 상황에 적합하다는 주장은 거짓이다. 따라서 정당화될 수 없다.\n\n②번: 지문은 오히려 초기 관찰과 새로운 해석이 증거를 통해 평가될 수 있음을 보여준다. 경쟁하는 설명들이 증거로 평가 불가능하다는 주장은 지문 내용과 반대된다.\n\n③번: 지문의 결론 문장에서 \"개인화는 기대치를 낮추지 않으면서도 다양한 학습자를 지원할 수 있다\"고 명시하고 있으며, 이는 초보자와 고급 학습자가 다른 과제를 선택하면서도 학습 목표를 달성한 사례로 뒷받침된다.\n\n④번: 지문에서 \"이전 관찰을 무용지물로 만들지 않았다\"고 명확히 했으므로, 새로운 해석이 제안될 때 초기 증거를 무시해야 한다는 주장은 지문과 배치된다.\n\n⑤번: 지문은 첫 번째 해석이 \"타당해 보였지만\" 중요한 조건을 놓쳤다고 언급하며, 단일 관찰만으로는 모든 설명을 확정할 수 없음을 시사한다. 따라서 \"충분하다\"는 표현은 부적절하다.",
@@ -6300,10 +6300,10 @@ const QUESTION_BANK = [
     "given_sentence": "",
     "choices": [
       "① To request a reassessment that accounts for conflicting evidence",
-      "② To demand that the project be cancelled without another evaluation",
-      "③ To announce that the first interpretation has already been fully confirmed",
-      "④ To request a larger budget without discussing evaluation criteria",
-      "⑤ To invite committee members to an unrelated public celebration"
+      "② To propose replacing fish abundance counts with breeding rate as the sole evaluation metric",
+      "③ To confirm that young artificial reefs have already demonstrated sufficient breeding support",
+      "④ To advocate for halting reef construction until a marine biologist completes a full habitat study",
+      "⑤ To suggest that funding decisions rely exclusively on the number of fish visiting artificial reefs"
     ],
     "answer": 1,
     "explanation": "[지문 해석]\n검토 위원회 귀중,\n\n한 해양 생물학자가 오래된 인공 암초와 새로운 인공 암초 근처의 어류 개체수를 비교했습니다. 한 보고서는 서식지 복원의 증거로 방문하는 모든 물고기를 계산했습니다. 실제로 새로운 암초는 물고기를 빠르게 유인했지만 번식을 즉시 뒷받침하지는 못했습니다. 저는 원래 프로젝트를 무시해 달라고 요청하는 것이 아닙니다. 그 평가가 추가 증거를 포함하고 초기 결론의 한계를 명시할 것을 요청하고 있습니다. 이 변경 없이는 다음 자금 결정이 프로젝트의 실제 성과가 아닌 불완전한 지표에 보상을 할 수 있습니다.\n\n진심으로,\n프로젝트 참여자\n\n[주요 어휘]\nmarine biologist : 해양 생물학자\nabundance : 풍부함, 많은 양\nartificial reef : 인공 산호초\nhabitat restoration : 서식지 복원\nbreeding : 번식, 번데기\ndismiss : 배제하다, 무시하다\nevaluation : 평가\nexplicitly : 명확히, 분명히\nincomplete indicator : 불완전한 지표\nfunding decision : 자금 지원 결정\nactual performance : 실제 성과\n\n[해설]\n편지의 핵심 요청은 기존 평가에 후속 관찰을 반영하고 초기 결론의 한계를 명시해 달라는 것입니다.\n\n[오답 해설]\n①번: 정답. 저자는 \"I am requesting that its evaluation include the additional evidence and explicitly state the limits of the initial conclusion\"라고 명시하며, 새로운 증거(breeding 부족)를 포함하여 평가를 다시 해줄 것을 요청하고 있다.\n\n②번: 저자는 \"I am not asking you to dismiss the original project\"라고 명확히 했으므로 프로젝트 취소를 요구하지 않으며, 오히려 더 정확한 평가를 요청하고 있다.\n\n③번: 저자는 초기 결론(단순히 물고기 수를 센 것)이 불완전하다고 지적하고 있으므로, 첫 번째 해석이 완전히 확증되었다는 주장과 정반대다.\n\n④번: 저자의 편지에는 예산 증액에 대한 요청이 전혀 없으며, 오직 평가 기준과 증거의 추가 포함을 요청하고 있다.\n\n⑤번: 저자는 검토 위원회에 공식적인 재평가를 요청하는 것이지, 무관한 공개 행사 초대를 하고 있지 않다.",
@@ -6316,10 +6316,10 @@ const QUESTION_BANK = [
     "passage": "At first, I felt reassured by the seemingly straightforward explanation. A popular account assumed that technology simply eliminated domestic work. A historian examined advertisements for household appliances. When I learned that manufacturers described labor saving but often shifted work to different family members, my confidence weakened. I wondered how much I had missed by attending only to the result that supported my expectation. I reconsidered my judgment. By the end, I was still uncertain about every detail, but I felt more willing to investigate than to defend my first impression.",
     "given_sentence": "",
     "choices": [
-      "① from distrust of the team to unconditional hostility",
-      "② from curiosity to indifference about the investigation",
-      "③ from disappointment to certainty that all questions are settled",
-      "④ from confidence to a refusal to reconsider any evidence",
+      "① from reliance on advertisements to trust in manufacturers' claims",
+      "② from initial reassurance to regret over abandoning the original account",
+      "③ from skepticism about household appliances to acceptance of the popular account",
+      "④ from confidence to conviction that the historian's findings were misleading",
       "⑤ from confidence to reflective curiosity"
     ],
     "answer": 5,
@@ -6333,11 +6333,11 @@ const QUESTION_BANK = [
     "passage": "A transportation planner studied late-night bus riders. Budget meetings judged every route only by passengers per hour. However, a small number of reliable services mattered greatly to shift workers. Public value may depend on who relies on a service, not merely its volume.",
     "given_sentence": "",
     "choices": [
-      "① An observed difference should be treated as a universal rule without further examination.",
-      "② Decision-makers should judge an intervention solely by its most visible immediate result.",
+      "① Transportation planners should expand late-night bus routes to increase the total number of passengers per hour across the system.",
+      "② Decision-makers should prioritize bus routes that serve the highest volume of riders, since budget efficiency reflects overall public demand.",
       "③ Decisions should retain the original assumption because budget meetings judged every route only by passengers per hour.",
       "④ Decisions should reflect this insight: public value may depend on who relies on a service, not merely its volume.",
-      "⑤ If evidence is mixed, decision-makers should avoid weighing the competing explanations at all."
+      "⑤ If shift workers represent only a small share of total riders, planners should gradually phase out low-volume late-night routes to meet budget targets."
     ],
     "answer": 4,
     "explanation": "[지문 해석]\n한 교통 계획가가 심야 버스 이용객들을 조사했다. 예산 회의에서는 모든 노선을 시간당 승객 수로만 평가했다. 그러나 소수의 신뢰할 수 있는 서비스는 교대 근무자들에게 매우 중요했다. 공공의 가치는 서비스를 이용하는 사람이 누구인지에 따라 결정될 수 있으며, 단순히 이용 규모에만 좌우되는 것이 아니다.\n\n[주요 어휘]\ntransportation planner : 교통 계획가\nbudget meeting : 예산 회의\nroute : 노선\npassenger per hour : 시간당 승객 수\nreliable : 신뢰할 수 있는\nshift worker : 교대 근무자\npublic value : 공공 가치\nvolume : 양, 규모\ndepend on : ~에 달려 있다\nmerely : 단지, 오직\nmatter greatly : 매우 중요하다\n\n[해설]\n필자는 초기 판단을 그대로 유지하기보다 관찰의 조건과 반례를 반영해 결론을 조정해야 한다고 주장합니다.\n\n[오답 해설]\n①번: 지문은 관찰된 차이(shift workers의 중요성)를 단순한 보편적 규칙으로 삼지 말고, 서비스의 가치를 판단하는 기준으로 삼아야 한다고 주장하므로 이 선지는 맞지 않습니다.\n\n②번: 지문은 승객 수라는 '가시적인 즉각적 결과'만으로 판단하는 것이 문제라고 지적하며, 누가 서비스에 의존하는지도 고려해야 한다고 주장하므로 오답입니다.\n\n③번: 지문의 핵심은 기존의 판단 기준(시간당 승객 수)을 유지하는 것이 아니라 변경해야 한다는 것이므로, 원래의 가정을 유지하자는 이 선지는 지문의 주장과 정반대입니다.\n\n④번: 지문은 \"Public value may depend on who relies on a service, not merely its volume\"이라는 통찰력을 강조하며, 이를 의사결정에 반영해야 한다고 주장하므로 지문의 핵심 메시지를 정확히 전달합니다.\n\n⑤번: 지문은 shift workers의 의존도라는 증거를 제시하고 이를 고려하도록 강조하는 것이므로, 증거가 혼합되어 있을 때 가중치 분석을 피해야 한다는 주장은 지문의 의도와 거리가 멉니다.",
@@ -6350,11 +6350,11 @@ const QUESTION_BANK = [
     "passage": "A researcher collected rainwater from rooftops of different materials. A neighborhood campaign equated collected volume with safe drinking water. At first, that account seemed attractive: it offered a simple explanation that could be communicated without further qualification. In fact, some roofs released contaminants despite collecting large quantities. The outcome provides a useful clue, but it does not establish that the same mechanism would operate under every set of conditions. Quantity and safety are separate dimensions of a resource. The stronger inference is deliberately limited: it explains the observed contrast without pretending that all uncertainty has disappeared. This conclusion is not identical to the first assumption; it must account for the later observation and for the limits of the original measure. In particular, the new evidence may justify changing the interpretation without proving that the earlier account was mistaken in every conceivable setting. Consequently, the preferred interpretation should explain both the initial expectation and the evidence that complicates it, without pretending that a single example establishes a universal rule.",
     "given_sentence": "",
     "choices": [
-      "① A Familiar Prediction That Needed No Further Examination",
+      "① Rooftop Collection as a Reliable Measure of Neighborhood Water Safety",
       "② Beyond the First Explanation: Quantity and safety are separate dimensions of a resource",
-      "③ The Complete Failure of Observation in Practical Research",
-      "④ When Background Details Replace All Empirical Evidence",
-      "⑤ Why a Single Indicator Is Sufficient for Every Decision"
+      "③ How Contaminants from Rooftop Materials Invalidate All Volume-Based Claims",
+      "④ When Larger Collection Volume Confirms the Safety of Rainwater Sources",
+      "⑤ Why Revising One Interpretation Proves the Original Account Entirely Wrong"
     ],
     "answer": 2,
     "explanation": "[지문 해석]\n한 연구자가 서로 다른 재질의 지붕에서 모은 빗물을 수집했다. 한 지역사회 캠페인은 수집된 양을 안전한 식수와 동일시했다. 처음에는 그러한 주장이 매력적으로 보였다. 추가적인 한정 없이 전달할 수 있는 단순한 설명을 제시했기 때문이다. 실제로 일부 지붕은 많은 양을 수집했음에도 불구하고 오염 물질을 방출했다. 그 결과는 유용한 단서를 제공하지만, 모든 조건에서 동일한 메커니즘이 작동할 것임을 입증하지는 못한다. 수량과 안전성은 자원의 분리된 측면이다. 더 강한 추론은 의도적으로 제한적이다. 관찰된 대비를 설명하면서도 모든 불확실성이 사라졌다고 가정하지 않는다. 이 결론은 처음 가정과 동일하지 않다. 이후의 관찰과 원래 측정의 한계를 고려해야 한다. 특히 새로운 증거는 초기 주장이 모든 상상 가능한 상황에서 잘못되었음을 증명하지 않으면서도 해석을 바꿀 정당성을 제공할 수 있다. 따라서 선호되는 해석은 초기 기대와 그것을 복잡하게 만드는 증거를 모두 설명해야 하면서도, 단일 사례가 보편적 규칙을 수립한다고 가정해서는 안 된다.\n\n[주요 어휘]\ncontaminant : 오염 물질\ndimension : 측면, 차원\ninference : 추론, 결론\nmechanism : 작용 원리, 메커니즘\nqualification : 한정, 조건\naccount : 설명, 해석\ncomplicates : 복잡하게 만들다\nconceivable : 상상할 수 있는, 가능한\nuniversal rule : 보편적인 규칙\npreferred interpretation : 선호되는 해석\nestablished : 확립된, 입증된\njustify : 정당화하다, 근거를 제시하다\n\n[해설]\n초기 설명과 후속 관찰의 불일치를 통해 더 정교한 판단으로 옮겨가는 글 전체를 포괄합니다.\n\n[오답 해설]\n①번: 지문은 단순한 설명(수량 = 안전한 물)이 충분하지 않다는 점을 강조하며, 오히려 추가적인 검토와 재해석이 필요함을 주장하므로 \"더 이상의 검토가 필요 없다\"는 내용은 지문의 논지와 정반대이다.\n\n②번: 지문의 핵심은 초기 가정(수량이 많으면 안전)을 넘어서 \"수량과 안전은 별개의 차원\"이라는 새로운 해석을 제시하며, 이를 통해 관찰 결과와 한계를 모두 설명해야 한다고 주장한다. 제목으로 가장 적절하다.\n\n③번: 지문은 관찰의 실패가 아니라 초기 해석의 불완전함을 지적하고 있으며, 실제로 관찰을 통해 더 정교한 결론에 도달했으므로 \"관찰의 완전한 실패\"라는 표현은 부정확하다.\n\n④번: 지문은 배경 세부사항이 실증적 증거를 대체해야 한다고 말하지 않으며, 오히려 증거와 한계를 모두 고려한 종합적 해석을 강조하므로 이 선지는 지문의 내용을 왜곡한다.\n\n⑤번: 지문은 \"단일 사례가 보편적 규칙을 확립하지 못한다\"고 명시하며, 단일 지표가 모든 결정에 충분하지 않음을 강조하므로 이 선지는 지문의 논점을 반영하지 못한다.",
@@ -6385,9 +6385,9 @@ const QUESTION_BANK = [
     "given_sentence": "",
     "choices": [
       "① sediment moved downstream slowly even after the flow rate returned to normal, which proves that the same result is inevitable everywhere",
-      "② the initial assumption must be rejected even in circumstances for which it was never tested",
+      "② the original label was accurate until the flow rate returned to normal, after which the riverbed recovered as expected",
       "③ observers expected the riverbed to recover immediately, with no adjustment for the new evidence",
-      "④ the evidence has no bearing on how the original claim should be assessed",
+      "④ the rate of sediment movement downstream is determined solely by how quickly the dam releases water",
       "⑤ environmental systems can show delayed consequences after an intervention"
     ],
     "answer": 5,
@@ -6435,11 +6435,11 @@ const QUESTION_BANK = [
     "passage": "A clinical researcher compared self-reported fatigue with activity logs. A team assumed that physical activity could fully capture wellbeing. The measures diverged most on days with emotional stress. The first interpretation was necessarily (① tentative) because little evidence had yet been collected. The later observation (② contradicted) the expectation on which that interpretation depended. The researchers consequently adopted a (③ absolute) account rather than an unconditional verdict. They examined whether the new evidence was (④ relevant) to the question under investigation. The conclusion remained (⑤ limited) to the conditions in which the observations had been made.",
     "given_sentence": "",
     "choices": [
-      "①번 표시",
-      "②번 표시",
+      "① consistent",
+      "② confirmed",
       "③번 표시",
-      "④번 표시",
-      "⑤번 표시"
+      "④ unrelated",
+      "⑤ extended"
     ],
     "answer": 3,
     "explanation": "[지문 해석]\n한 임상 연구원이 자가 보고된 피로감과 활동 기록을 비교했다. 한 팀은 신체 활동이 웰빙을 완전히 포착할 수 있다고 가정했다. 이 측정값들은 정서적 스트레스가 있는 날에 가장 크게 달랐다. 아직 수집된 증거가 많지 않았기 때문에 첫 번째 해석은 반드시 (① tentative)할 수밖에 없었다. 이후의 관찰은 그 해석이 의존하던 기대치를 (② contradicted). 결과적으로 연구원들은 무조건적인 판단이 아닌 (③ absolute)한 설명을 채택했다. 그들은 새로운 증거가 조사 대상인 질문과 (④ relevant)한지 검토했다. 결론은 관찰이 이루어진 조건들로만 (⑤ limited)되었다.\n\n[주요 어휘]\n# 수능 영어 지문 주요 어휘\n\nself-reported : 자신이 보고한, 자가 보고한\nfatigue : 피로, 극도의 피곤함\nactivity log : 활동 기록\ndiverge : 다르다, 차이를 보이다\nemotional stress : 정서적 스트레스\ntentative : 잠정적인, 임시적인\ncontradict : 모순되다, 반박하다\nabsolute : 절대적인, 완전한\nrelevant : 관련이 있는, 적절한\nlimited : 제한된, 한정된\nunconditional : 무조건적인, 조건 없는\nobservation : 관찰, 관찰 결과\n\n[해설]\n③의 absolute는 주변 의미와 충돌합니다. qualified로 수정해야 초기 가설·반증·신중한 결론의 논리가 일관됩니다.\n\n[오답 해설]\n①번: 'tentative(임시적인, 잠정적인)'는 문맥상 적절합니다. 초기 해석이 충분한 증거가 없었기에 잠정적일 수밖에 없다는 의미가 명확하게 드러납니다.\n\n②번: 'contradicted(모순되었다)'는 문맥상 적절합니다. 나중의 관찰이 초기 해석의 기초가 된 기대에 모순되었다는 의미로 자연스럽게 연결됩니다.\n\n③번: 'absolute(절대적인, 무조건적인)'는 부적절합니다. 문맥에서 \"unconditional verdict(무조건적인 판정)\" 대신 \"conditional account(조건부 설명)\"를 채택했다는 의미이므로, 여기는 'qualified(제한적인)' 또는 'conditional(조건부의)' 같은 단어가 필요합니다.\n\n④번: 'relevant(관련된)'는 문맥상 적절합니다. 연구자들이 새로운 증거가 조사 대상 질문과 관련이 있는지 검토했다는 의미로 논리적으로 타당합니다.\n\n⑤번: 'limited(제한된)'는 문맥상 적절합니다. 결론이 관찰이 이루어진 특정 조건에만 한정된다는 의미로, 신중한 과학적 태도를 잘 반영합니다.",
@@ -6453,10 +6453,10 @@ const QUESTION_BANK = [
     "given_sentence": "",
     "choices": [
       "① The original project focused only on paint and signs is justified in all settings",
-      "② the need to ignore early evidence once a new interpretation is proposed",
-      "③ why a single observation is enough to settle every possible explanation",
+      "② children's use of safe routes increases when crossing signs are made more visible",
+      "③ painted pavements alone are sufficient to change children's school commute behavior",
       "④ Infrastructure works when physical design and social practices reinforce each other",
-      "⑤ the claim that competing explanations cannot be evaluated with evidence"
+      "⑤ supervised crossings matter more than physical infrastructure in keeping children safe"
     ],
     "answer": 4,
     "explanation": "[지문 해석]\n어떤 도시가 학교로 가는 안전한 경로를 포장도로에 그려 표시했다. 처음 프로젝트는 페인트칠과 표지판에만 초점을 맞췄다. 하지만 횡단보도에 감시자가 있고 부모들이 지도를 이해했을 때 아이들이 더 많이 이용했다. 인프라는 물리적 설계와 사회적 관행이 서로를 강화할 때 제대로 작동한다.\n\n[주요 어휘]\nsafe routes : 안전한 경로\npavement : 보도, 포장도로\ninfrastructure : 기반시설\nreinforce : 강화하다, 보강하다\nsupervise : 감시하다, 감독하다\nphysical design : 물리적 설계\nsocial practices : 사회적 관행\nreinforce each other : 서로를 강화하다\noriginal project : 원래의 프로젝트\ncrossing : 횡단보도, 건널목\n\n[해설]\n초기 기대와 다른 관찰을 통해 얻은 제한적인 결론이 요지입니다. 다른 선택지는 단정적 일반화 또는 근거 없는 판단입니다.\n\n[오답 해설]\n①번: 원래 프로젝트가 페인트와 표지판만으로는 충분하지 않았다는 것을 지문이 명시하고 있으므로, 이를 \"모든 상황에서 정당하다\"고 주장하는 것은 거짓이다.\n\n②번: 지문은 초기 증거를 무시하라고 말하지 않으며, 오히려 새로운 증거(감시와 부모의 이해)가 추가되면서 더 나은 해석에 도달한 것이다.\n\n③번: 지문은 단 하나의 관찰(페인트와 표지판)만으로는 불충분하며, 추가적인 요소들(감시, 부모의 이해)이 필요함을 보여주므로 이를 부정한다.\n\n④번: 지문의 마지막 문장이 정확히 이를 주장하고 있으며, 물리적 설계(페인트와 표지판)와 사회적 실천(감시와 부모 교육)이 서로 강화될 때 인프라가 효과적임을 명시한다.\n\n⑤번: 지문은 경쟁하는 두 설명(페인트만 vs. 페인트+감시+부모 이해)을 증거로 평가하여 더 나은 설명을 찾아냈으므로, 증거로 평가할 수 없다는 주장은 거짓이다.",
@@ -6486,9 +6486,9 @@ const QUESTION_BANK = [
     "passage": "Dear Review Committee,\n\nA chemist studied why a biodegradable cup decomposed slowly in households. Marketing presented biodegradability as an unconditional property. In fact, the material broke down rapidly only under controlled industrial conditions. I am not asking you to dismiss the original project; I am requesting that its evaluation include the additional evidence and explicitly state the limits of the initial conclusion. Such a review would make the assessment fairer.\n\nSincerely,\nA project participant",
     "given_sentence": "",
     "choices": [
-      "① To invite committee members to an unrelated public celebration",
-      "② To announce that the first interpretation has already been fully confirmed",
-      "③ To request a larger budget without discussing evaluation criteria",
+      "① To praise the committee for recognizing the limits of biodegradable materials",
+      "② To argue that industrial composting conditions should replace household use entirely",
+      "③ To urge the committee to withdraw the biodegradability claim from all marketing materials",
       "④ To demand that the project be cancelled without another evaluation",
       "⑤ To request a reassessment that accounts for conflicting evidence"
     ],
@@ -6503,11 +6503,11 @@ const QUESTION_BANK = [
     "passage": "At first, I felt reassured by the seemingly straightforward explanation. The original photograph was assumed to show everything equally. A photographer removed distracting advertisements from a street scene. When I learned that viewers suddenly noticed the repetitive architecture and neglected storefronts, my confidence weakened. I wondered how much I had missed by attending only to the result that supported my expectation. I reconsidered my judgment. By the end, I was still uncertain about every detail, but I felt more willing to investigate than to defend my first impression.",
     "given_sentence": "",
     "choices": [
-      "① from distrust of the team to unconditional hostility",
+      "① from distrust of the photographer to acceptance of the edited image",
       "② from confidence to reflective curiosity",
-      "③ from confidence to a refusal to reconsider any evidence",
-      "④ from curiosity to indifference about the investigation",
-      "⑤ from disappointment to certainty that all questions are settled"
+      "③ from initial reassurance to frustration with the altered photograph",
+      "④ from curiosity about the removed advertisements to indifference toward the architecture",
+      "⑤ from uncertainty about the street scene to firm confidence in the original judgment"
     ],
     "answer": 2,
     "explanation": "[지문 해석]\n처음에는 그럴듯해 보이는 설명에 안심했다. 원본 사진은 모든 것을 동등하게 보여준다고 가정되었다. 어떤 사진작가가 거리 풍경에서 방해가 되는 광고들을 제거했다. 시청자들이 갑자기 반복되는 건축물과 방치된 상점들을 주목하게 되었다는 것을 알게 되자, 나의 확신은 흔들렸다. 내 예상을 뒷받침하는 결과에만 집중함으로써 내가 얼마나 많은 것을 놓쳤을지 궁금해졌다. 나는 내 판단을 다시 생각해보았다. 결국 모든 세부 사항에 대해 여전히 확실하지 않았지만, 내 첫인상을 옹호하기보다는 더 깊이 살펴보고 싶은 마음이 생겼다.\n\n[주요 어휘]\nreassured : 안심한, 안심시킨\nstraightforward : 간단한, 명확한\ndistracting : 주의를 산만하게 하는\nconfidence weakened : 확신이 약해졌다\nmiss : 놓치다, 간과하다\nattend to : ~에 주의를 기울이다\nexpectation : 기대, 예상\nreconsidered : 다시 생각해보다\nuncertain : 확실하지 않은, 불확실한\nwilling to : ~할 의향이 있는\ndefend : 옹호하다, 정당화하다\nfirst impression : 첫인상, 처음 인상\n\n[해설]\n초기의 confident/reassured와 후반의 reconsider, willing to investigate가 대비되므로 확신에서 성찰적 탐구로의 변화입니다.\n\n[오답 해설]\n①번: 지문에서 저자가 팀에 대해 불신하거나 적대감을 드러내지 않으므로 오답이다. 저자의 심경 변화는 자신의 판단에 대한 의문에 초점이 있다.\n\n②번: \"At first, I felt reassured\"에서 확신이 있었고, \"my confidence weakened\"를 거쳐 \"more willing to investigate than to defend\"로 변화하는 과정이 명확히 드러나므로 정답이다. 이는 자신의 생각을 재검토하려는 성찰적 호기심으로의 변화를 잘 보여준다.\n\n③번: 저자는 오히려 증거를 다시 고려하고자 하는 의지를 드러내므로, '어떤 증거도 재검토하기를 거부'한다는 내용은 지문의 의미와 정반대이다.\n\n④번: 저자는 \"more willing to investigate\"라고 명시했으므로 조사에 대한 무관심으로 변화하지 않았다. 오히려 조사에 더욱 열린 태도를 보이고 있다.\n\n⑤번: 저자는 \"still uncertain about every detail\"이라고 했으므로 모든 질문이 해결되었다는 확실성에 도달하지 않았다. 저자는 불확실성 속에서도 더 깊이 조사하려는 태도를 유지하고 있다.",
@@ -6520,10 +6520,10 @@ const QUESTION_BANK = [
     "passage": "A geologist mapped tiny tremors near a volcano. One station's readings appeared to be unrelated noise. At first, that account seemed attractive: it offered a simple explanation that could be communicated without further qualification. In fact, a pattern emerged only after several sensors were synchronized. The initial explanation appealed to a familiar measure of success, yet that measure ignored who or what was excluded from the observation. Coordination can reveal structure hidden within isolated measurements. A better judgment requires distinguishing what the evidence directly establishes from the larger claim someone hopes to make. This conclusion is not identical to the first assumption; it must account for the later observation and for the limits of the original measure. In particular, the new evidence may justify changing the interpretation without proving that the earlier account was mistaken in every conceivable setting. Consequently, the preferred interpretation should explain both the initial expectation and the evidence that complicates it, without pretending that a single example establishes a universal rule.",
     "given_sentence": "",
     "choices": [
-      "① Decision-makers should judge an intervention solely by its most visible immediate result.",
+      "① Decisions should prioritize the initial explanation when it offers a simple account that can be communicated without further qualification.",
       "② Decisions should retain the original assumption because one station's readings appeared to be unrelated noise.",
-      "③ An observed difference should be treated as a universal rule without further examination.",
-      "④ If evidence is mixed, decision-makers should avoid weighing the competing explanations at all.",
+      "③ An interpretation should be revised only when the earlier account is proven mistaken in every conceivable setting.",
+      "④ If later sensor data complicates the original reading, decision-makers should discard the initial observation entirely rather than reconcile both.",
       "⑤ Decisions should reflect this insight: coordination can reveal structure hidden within isolated measurements."
     ],
     "answer": 5,
@@ -6537,10 +6537,10 @@ const QUESTION_BANK = [
     "passage": "A social worker tested reminder messages for community appointments. The agency reported a rise in average attendance. The first interpretation was plausible because it focused on an easily visible feature. But messages helped participants who had reliable phones but missed those sharing devices. This did not make the earlier observation useless; it revealed that the original explanation had missed an important condition. Practical interventions can improve averages while leaving access gaps.",
     "given_sentence": "",
     "choices": [
-      "① The Complete Failure of Observation in Practical Research",
-      "② A Familiar Prediction That Needed No Further Examination",
-      "③ When Background Details Replace All Empirical Evidence",
-      "④ Why a Single Indicator Is Sufficient for Every Decision",
+      "① How Reminder Messages Eliminated Attendance Gaps Among Device-Sharing Participants",
+      "② Rising Attendance Rates: Proof That Community Interventions Address Every Participant Equally",
+      "③ When Sharing Phones, Not Missing Reminders, Became the Root Cause of Low Attendance",
+      "④ Average Attendance as the Most Reliable Measure of a Community Program's True Reach",
       "⑤ Beyond the First Explanation: Practical interventions can improve averages while leaving access gaps"
     ],
     "answer": 5,
@@ -6573,8 +6573,8 @@ const QUESTION_BANK = [
     "choices": [
       "① a committee assumed consistency always required refusing exceptions, with no adjustment for the new evidence",
       "② a strict rule produced fairness in common situations but harm in rare circumstances, which proves that the same result is inevitable everywhere",
-      "③ the initial assumption must be rejected even in circumstances for which it was never tested",
-      "④ the evidence has no bearing on how the original claim should be assessed",
+      "③ consistent refusal of exceptions reflects a committee's deeper commitment to fairness across all circumstances",
+      "④ the philosopher's comparison of routine and exceptional cases applies only when a committee formally reviews the rule",
       "⑤ justice sometimes requires examining the purpose behind a rule"
     ],
     "answer": 5,
@@ -6623,10 +6623,10 @@ const QUESTION_BANK = [
     "given_sentence": "",
     "choices": [
       "①번 표시",
-      "②번 표시",
-      "③번 표시",
-      "④번 표시",
-      "⑤번 표시"
+      "② confirmed",
+      "③ unconditional",
+      "④ irrelevant",
+      "⑤ extended"
     ],
     "answer": 1,
     "explanation": "[지문 해석]\n한 미술사학자가 공공 동상의 긁힌 자국들을 조사했다. 복원 전문가들은 광택 처리가 대중의 사용 흔적을 없앨 것인지에 대해 논쟁했다. 일부 자국들은 수백 년에 걸쳐 방문객들이 동상 표면을 만지면서 생긴 것이었다. 아직 충분한 증거가 수집되지 않았기 때문에 처음 해석은 필연적으로 (① certain) 했다. 나중의 관찰은 그 해석이 의존했던 예상을 (② contradicted) 했다. 결과적으로 연구자들은 무조건적인 판단보다는 (③ qualified) 한 설명을 채택했다. 그들은 새로운 증거가 조사 대상 질문과 (④ relevant) 한지 검토했다. 결론은 관찰이 이루어진 조건들로 (⑤ limited) 되었다.\n\n[주요 어휘]\n# 수능 영어 주요 단어/표현\n\n1. art historian : 미술사학자\n2. scratch : 긁힌 자국, 흠집\n3. restorer : 복원가, 복구 전문가\n4. erase : 지우다, 없애다\n5. evidence : 증거, 증명\n6. interpretation : 해석, 설명\n7. contradict : 모순되다, 반박하다\n8. adopt : 채택하다, 받아들이다\n9. qualified : 제한적인, 조건부의\n10. verdict : 판단, 결론\n11. relevant : 관련있는, 적절한\n12. conclude : 결론짓다, 끝내다\n\n[해설]\n①의 certain는 주변 의미와 충돌합니다. tentative로 수정해야 초기 가설·반증·신중한 결론의 논리가 일관됩니다.\n\n[오답 해설]\n①번: **정답** - \"little evidence had yet been collected\"이라는 문맥에서 증거가 부족할 때의 해석은 반드시 \"확실한(certain)\"이 아니라 \"잠정적인(tentative)\" 성격을 가져야 한다. 따라서 '반드시 ~이었다'는 의미의 'necessarily certain'은 부적절하며, 빈칸에는 '임시적인, 예비적인'의 뜻인 단어가 와야 한다.\n\n②번: \"Later observation\"이 초기 해석과 반대되는 내용을 제시하므로 \"contradicted(모순되다)\"는 문맥상 적절하다. 하지만 정답 선지가 아니므로 다른 단어가 더 정확함을 의미한다.\n\n③번: \"qualified(한정된, 조건부의)\"는 '무조건적인 판결(unconditional verdict) 대신 조건이 붙은 설명'이라는 문맥에서 적절한 표현이다. 하지만 정답은 아니다.\n\n④번: \"relevant(관련된)\"은 새로운 증거가 조사 대상 질문과의 연관성을 묻는 문맥에서 적절한 단어이다. 하지만 정답은 아니다.\n\n⑤번: \"limited(제한된)\"은 관찰이 이루어진 특정 조건에 국한된다는 의미로 문맥상 적절하다. 하지만 정답은 아니다.",
@@ -6639,11 +6639,11 @@ const QUESTION_BANK = [
     "passage": "A city piloted a shared cargo bicycle program. Sponsors cited overall rental growth as complete success. At first, that account seemed attractive: it offered a simple explanation that could be communicated without further qualification. In fact, families used the bikes for errands, but users living on steep hills participated less. The initial explanation appealed to a familiar measure of success, yet that measure ignored who or what was excluded from the observation. Program evaluation should consider geographic barriers hidden by aggregate totals. A better judgment requires distinguishing what the evidence directly establishes from the larger claim someone hopes to make. This conclusion is not identical to the first assumption; it must account for the later observation and for the limits of the original measure. In particular, the new evidence may justify changing the interpretation without proving that the earlier account was mistaken in every conceivable setting. Consequently, the preferred interpretation should explain both the initial expectation and the evidence that complicates it, without pretending that a single example establishes a universal rule.",
     "given_sentence": "",
     "choices": [
-      "① the need to ignore early evidence once a new interpretation is proposed",
+      "① the importance of replacing initial rental data with feedback from hill-area residents",
       "② Program evaluation should consider geographic barriers hidden by aggregate totals",
       "③ Sponsors cited overall rental growth as complete success is justified in all settings",
-      "④ why a single observation is enough to settle every possible explanation",
-      "⑤ the claim that competing explanations cannot be evaluated with evidence"
+      "④ why aggregate rental growth figures alone can confirm equitable access across all neighborhoods",
+      "⑤ the view that revised interpretations must disprove the original cargo bicycle account entirely"
     ],
     "answer": 2,
     "explanation": "[지문 해석]\n한 도시가 공유 화물 자전거 프로그램을 시범적으로 운영했다. 스폰서들은 전체 대여 증가를 완전한 성공으로 제시했다. 처음에는 그러한 설명이 매력적으로 보였다. 왜냐하면 더 이상의 한정 없이 전달할 수 있는 단순한 설명을 제공했기 때문이다. 실제로 가족들은 자전거를 심부름에 사용했지만, 가파른 언덕에 사는 사용자들은 참여도가 낮았다. 초기 설명은 친숙한 성공 척도에 호소했지만, 그러한 척도는 관찰에서 누가 또는 무엇이 제외되었는지를 무시했다. 프로그램 평가는 집계 합계로 숨겨진 지리적 장벽을 고려해야 한다. 더 나은 판단을 위해서는 증거가 직접 입증하는 것과 누군가 주장하길 원하는 더 큰 주장을 구분해야 한다. 이 결론은 처음 가정과 동일하지 않다. 나중의 관찰과 원래 척도의 한계를 고려해야 한다. 특히 새로운 증거는 이전 설명이 모든 상황에서 틀렸다는 것을 증명하지 않으면서도 해석을 바꿀 정당한 이유를 제공할 수 있다. 따라서 선호되는 해석은 초기 기대와 이를 복잡하게 만드는 증거를 모두 설명해야 하며, 단 하나의 사례가 보편적 원칙을 확립한다고 주장해서는 안 된다.\n\n[주요 어휘]\npilot : 시범 운영하다\naggregate : 합계, 전체\nexclude : 제외하다\ngeographic barrier : 지리적 장애물\nqualification : 한정, 조건\nevaluation : 평가\ndistinguish : 구분하다\nestablish : 입증하다\njustify : 정당화하다\ninterpretation : 해석\ncomplication : 복잡하게 하다\nconceivable : 생각할 수 있는, 가능한\n\n[해설]\n초기 기대와 다른 관찰을 통해 얻은 제한적인 결론이 요지입니다. 다른 선택지는 단정적 일반화 또는 근거 없는 판단입니다.\n\n[오답 해설]\n①번: 지문은 초기 증거를 무시할 것을 주장하지 않으며, 오히려 \"초기 기대와 이를 복잡하게 하는 증거를 모두 설명해야 한다\"고 명시하므로 반대의 내용을 담고 있어 오답이다.\n\n②번: 지문의 핵심 주장으로, \"프로그램 평가는 집계 통계로 숨겨진 지리적 장벽을 고려해야 한다\"는 문장이 직접 제시되며, 전체 논의가 이를 중심으로 전개되므로 정답이다.\n\n③번: 지문은 \"초기 설명이 모든 상황에서 틀렸다고 증명하지 않을 수 있다\"며 상황에 따른 제한된 적용 가능성을 인정하므로, \"모든 설정에서 정당화된다\"는 절대적 주장은 거짓이다.\n\n④번: 지문은 \"단 하나의 예가 모든 가능한 설명을 정착시키기에 충분하다\"는 주장을 명시적으로 거부하며(\"single example establishes a universal rule\"를 부정), 다양한 증거를 종합적으로 고려할 것을 강조한다.\n\n⑤번: 지문은 \"선호되는 해석은 증거로 평가될 수 있는 경쟁적 설명들을 설명해야 한다\"고 주장하므로, \"경쟁적 설명들을 증거로 평가할 수 없다\"는 주장은 지문의 의도에 모순된다.",
@@ -6674,10 +6674,10 @@ const QUESTION_BANK = [
     "given_sentence": "",
     "choices": [
       "① To request a reassessment that accounts for conflicting evidence",
-      "② To demand that the project be cancelled without another evaluation",
-      "③ To announce that the first interpretation has already been fully confirmed",
-      "④ To request a larger budget without discussing evaluation criteria",
-      "⑤ To invite committee members to an unrelated public celebration"
+      "② To propose that tunnel installation be expanded to other road construction sites",
+      "③ To argue that vegetation growth alone determined the tunnels' structural effectiveness",
+      "④ To suggest replacing the engineering team responsible for the initial measurement criteria",
+      "⑤ To report that animals have completely stopped using the tunnels near the road"
     ],
     "answer": 1,
     "explanation": "[지문 해석]\n검토 위원회 귀중,\n\n야생동물 팀이 새 도로 아래에 터널을 건설했습니다. 엔지니어들은 처음에 설치된 터널의 개수로 성공 여부를 판단했습니다. 그런데 실제로 많은 동물들은 터널 입구 주변에 식생이 자란 후에야 터널을 이용했습니다. 저는 원래 프로젝트를 폐기할 것을 요청하는 것이 아닙니다. 다만 그 평가에 추가적인 증거를 포함시키고 초기 결론의 한계를 명확히 명시해 줄 것을 요청합니다. 이러한 재검토가 이루어진다면 평가가 더욱 공정할 것입니다.\n\n감사합니다,\n프로젝트 참여자 일동\n\n[주요 어휘]\nwildlife team : 야생동물 연구팀\ntunnel : 터널, 통로\ninitially : 처음에, 초기에\nmeasure success : 성공을 측정하다\nvegetation : 식생, 초목\nentrance : 입구\ndismiss : 무시하다, 버리다\nevaluation : 평가, 평정\nadditional evidence : 추가 증거\nexplicitly : 명시적으로, 분명하게\nlimit : 한계, 제한\nassessment : 평가, 사정\n\n[해설]\n편지의 핵심 요청은 기존 평가에 후속 관찰을 반영하고 초기 결론의 한계를 명시해 달라는 것입니다.\n\n[오답 해설]\n①번: 정답입니다. 저자는 초기 평가(터널 설치 개수)가 불완전하며, 추가 증거(식생 성장 후 동물 사용)를 포함한 재평가를 명시적으로 요청하고 있습니다.\n\n②번: 저자는 \"원래 프로젝트를 무시하라고 요청하지 않는다(I am not asking you to dismiss the original project)\"고 명확히 밝히고 있으므로 오답입니다.\n\n③번: 저자는 초기 결론이 제한적이며 추가 증거를 고려해야 한다고 지적하고 있어, 첫 번째 해석이 완전히 확인되었다는 주장과 정반대입니다.\n\n④번: 저자는 예산 증액을 요청하지 않으며, 오히려 평가 기준과 증거를 더 명확히 포함할 것을 요구하고 있습니다.\n\n⑤번: 저자의 편지는 프로젝트 평가에 관한 공식적인 요청이며, 무관한 공개 행사 초대와는 완전히 다른 목적입니다.",
@@ -6691,10 +6691,10 @@ const QUESTION_BANK = [
     "given_sentence": "",
     "choices": [
       "① from confidence to reflective curiosity",
-      "② from disappointment to certainty that all questions are settled",
-      "③ from distrust of the team to unconditional hostility",
-      "④ from confidence to a refusal to reconsider any evidence",
-      "⑤ from curiosity to indifference about the investigation"
+      "② from initial reassurance to full trust in icon-based test displays",
+      "③ from doubt about visual icons to acceptance of percentage-only results",
+      "④ from confidence to dismissal of patients' misreading of uncertainty ranges",
+      "⑤ from confusion about test results to reliance on the physician's first explanation"
     ],
     "answer": 1,
     "explanation": "[지문 해석]\n처음에는 겉으로 보기에 단순명료한 설명에 안심했다. 그 클리닉은 모든 정보를 간단한 아이콘으로 표시하길 원했다. 한 의사가 백분율만 사용하는 것이 아니라 그림으로 검사 결과를 설명했다. 환자들이 상대적 변화는 더 잘 이해하지만 때로는 불확실성 범위를 간과한다는 것을 알게 되면서 내 확신이 흔들렸다. 내 예상을 뒷받침하는 결과에만 집중함으로써 얼마나 많은 것을 놓쳤을까 하는 생각이 들었다. 나는 내 판단을 다시 생각해 보았다. 결국 모든 세부사항에 대해 여전히 확실하지 않았지만, 내 첫인상을 지키려 하기보다는 더 깊이 있게 살펴보려는 의향이 생겼다.\n\n[주요 어휘]\nreassured : 안심시키다, 안심이 되다\nstraightforward : 명확한, 단순한\ndisplay : 표시하다, 드러내다\nphysician : 의사\nrelative changes : 상대적 변화\noverlook : 간과하다, 놓치다\nuncertainty ranges : 불확실성 범위\nweakened : 약해지다, 흔들리다\nreconsidered : 다시 생각하다, 재검토하다\nimpression : 인상, 첫인상\ninvestigate : 조사하다, 살펴보다\ndefend : 옹호하다, 지키다\n\n[해설]\n초기의 confident/reassured와 후반의 reconsider, willing to investigate가 대비되므로 확신에서 성찰적 탐구로의 변화입니다.\n\n[오답 해설]\n①번: 정답. 화자는 처음 '재보장받은(reassured)' 상태에서 시작하나, 환자들이 불확실성을 간과한다는 것을 알면서 '신뢰가 약해지고(confidence weakened)', 마지막에는 '방어하기보다 조사하려는 의지(more willing to investigate)'를 보여 성찰적 호기심으로 변화한다.\n\n②번: 지문에서 화자는 \"여전히 모든 세부사항에 불확실하다(still uncertain about every detail)\"고 명시하므로, 모든 질문이 해결되었다는 확실성에 도달하지 않았다.\n\n③번: 화자는 의료진에 대해 적극적인 불신이나 적개심을 드러내지 않으며, 오히려 의료진의 설명에 귀 기울이며 자신의 판단을 재검토하는 태도를 보인다.\n\n④번: 지문은 화자가 \"판단을 재고했고(reconsidered my judgment)\" \"조사하려는 의지가 더 컸다(more willing to investigate)\"고 했으므로, 증거를 재고려하기를 거부한다는 내용과 정반대이다.\n\n⑤번: 화자는 마지막에 \"조사하려는 의지가 더 컸다(more willing to investigate)\"고 명시하므로 조사에 대한 무관심으로의 변화는 지문과 맞지 않는다.",
@@ -6707,11 +6707,11 @@ const QUESTION_BANK = [
     "passage": "A town digitized its paper maps of underground water pipes. Managers assumed digitization would automatically improve accuracy. At first, that account seemed attractive: it offered a simple explanation that could be communicated without further qualification. In fact, the maps became searchable but many old locations remained approximate. Two observers could accept the same facts yet reach different judgments because they attached different importance to the underlying assumptions. Changing the format of information does not correct its underlying limitations. An adequate account must make those assumptions explicit before treating its conclusion as general. This conclusion is not identical to the first assumption; it must account for the later observation and for the limits of the original measure. In particular, the new evidence may justify changing the interpretation without proving that the earlier account was mistaken in every conceivable setting. Consequently, the preferred interpretation should explain both the initial expectation and the evidence that complicates it, without pretending that a single example establishes a universal rule.",
     "given_sentence": "",
     "choices": [
-      "① Decision-makers should judge an intervention solely by its most visible immediate result.",
+      "① Decisions should prioritize making information digitally searchable, since accurate location data can be retrieved more efficiently in that format.",
       "② Decisions should reflect this insight: changing the format of information does not correct its underlying limitations.",
-      "③ An observed difference should be treated as a universal rule without further examination.",
+      "③ An observed discrepancy between digitized maps and actual pipe locations should prompt managers to replace the entire original dataset without reviewing underlying assumptions.",
       "④ Decisions should retain the original assumption because managers assumed digitization would automatically improve accuracy.",
-      "⑤ If evidence is mixed, decision-makers should avoid weighing the competing explanations at all."
+      "⑤ If the digitized maps and the original paper maps yield conflicting results, decision-makers should suspend judgment until one account is proven correct in every comparable case."
     ],
     "answer": 2,
     "explanation": "[지문 해석]\n한 도시가 지하 수도관의 종이 지도를 디지털화했다. 관리자들은 디지털화가 자동으로 정확성을 향상시킬 것이라고 가정했다. 처음에는 그 설명이 매력적으로 보였다. 추가 설명 없이 전달할 수 있는 간단한 설명을 제시했기 때문이다. 실제로 지도는 검색 가능하게 되었지만 많은 오래된 위치 정보는 여전히 대략적인 상태로 남아 있었다. 두 관찰자가 동일한 사실을 받아들였더라도 근본이 되는 가정에 다른 중요도를 부여했기 때문에 서로 다른 판단에 도달할 수 있다. 정보의 형식을 바꾼다고 해서 그 정보의 근본적인 한계가 해결되지는 않는다. 적절한 설명은 결론을 보편적인 것으로 다루기 전에 먼저 그 가정들을 명시해야 한다. 이러한 결론은 처음의 가정과 동일하지 않다. 이후의 관찰과 원래 측정의 한계를 설명해야 한다. 특히, 새로운 증거는 이전의 설명이 모든 상황에서 잘못되었다는 것을 증명하지 않으면서도 해석을 바꾸는 것을 정당화할 수 있다. 따라서 더 나은 해석은 하나의 사례가 보편적인 규칙을 확립한다고 주장하지 않으면서도, 초기의 기대와 이를 복잡하게 만드는 증거 모두를 설명해야 한다.\n\n[주요 어휘]\ndigitize : 디지털화하다\naccuracy : 정확성\nassume : 가정하다\nautomatically : 자동으로\napproximate : 대략적인, 근사한\nunderlying assumptions : 기본 가정\ncorrect : 바로잡다, 수정하다\nexplicit : 명시적인, 분명한\nadequate account : 적절한 설명\njustify : 정당화하다\ncomplicates : 복잡하게 만들다\nuniversal rule : 보편적인 규칙\n\n[해설]\n필자는 초기 판단을 그대로 유지하기보다 관찰의 조건과 반례를 반영해 결론을 조정해야 한다고 주장합니다.\n\n[오답 해설]\n①번: 필자는 단순한 즉각적 결과만으로 판단할 것을 거부하며, 기저의 가정과 제한점을 명시적으로 고려해야 한다고 주장한다. 따라서 \"가장 눈에 띄는 즉각적 결과만으로 판단\"하라는 내용은 필자의 입장과 정반대이다.\n\n②번: 필자가 핵심적으로 강조하는 내용이 \"정보의 형식을 바꾸는 것이 기저의 제한점을 바로잡지 못한다\"는 점이며, 이것이 의사결정에 반영되어야 할 통찰이라고 주장한다. 지문의 중심 주장을 가장 직접적으로 드러낸다.\n\n③번: 필자는 \"단일 사례가 보편적 규칙을 확립하지 못한다\"고 명시적으로 경고한다. 따라서 관찰된 차이를 추가 검토 없이 보편적 규칙으로 취급하라는 선지는 필자의 주장에 완전히 모순된다.\n\n④번: 필자는 초기 가정이 항상 틀렸다고 보지 않지만, 그 가정을 그대로 유지해야 한다고 주장하지도 않는다. 오히려 새로운 증거를 고려하여 해석을 수정할 수 있다고 본다.\n\n⑤번: 필자는 혼합된 증거가 있을 때 비교 설명들을 \"모두 저울질하지 말고 피하라\"고 권고하지 않으며, 오히려 초기 기대와 그것을 복잡하게 만드는 증거를 모두 설명하는 해석을 선호해야 한다고 주장한다.",
@@ -6725,10 +6725,10 @@ const QUESTION_BANK = [
     "given_sentence": "",
     "choices": [
       "① Beyond the First Explanation: Training can gradually shift from external cues to embodied understanding",
-      "② The Complete Failure of Observation in Practical Research",
-      "③ When Background Details Replace All Empirical Evidence",
-      "④ A Familiar Prediction That Needed No Further Examination",
-      "⑤ Why a Single Indicator Is Sufficient for Every Decision"
+      "② Mirror Feedback as the Essential Foundation of Precise Movement",
+      "③ How Initial Assumptions About Balance Prove Correct Across All Conditions",
+      "④ The Dancer's Routine: Why External Cues Always Outperform Internal Feeling",
+      "⑤ Replacing the Mirror: One Clear Example Settles the Debate on Embodied Training"
     ],
     "answer": 1,
     "explanation": "[지문 해석]\n한 무용수가 거울을 바라보며 루틴을 연습한 후 거울 없이 연습했다. 그녀는 거울을 지속적인 피드백으로 의존했다. 처음에는 그 설명이 매력적으로 보였다. 더 이상의 수식 없이 전달할 수 있는 단순한 설명을 제공했기 때문이다. 실제로 움직임은 그녀가 내적으로 균형을 느끼는 방법을 배운 후에야 정밀했다. 그 결과는 유용한 단서를 제공하지만, 같은 메커니즘이 모든 조건 하에서 작동할 것이라고 입증하지는 못한다. 훈련은 외부 신호에서 신체화된 이해로 점진적으로 전환될 수 있다. 더 강력한 추론은 의도적으로 제한된다. 그것은 모든 불확실성이 사라졌다고 가장하지 않으면서 관찰된 대비를 설명한다. 이 결론은 첫 번째 가정과 동일하지 않다. 이후 관찰과 원래 측정의 한계를 설명해야 한다. 특히, 새로운 증거는 초기 설명이 상상할 수 있는 모든 상황에서 잘못되었다는 것을 증명하지 않으면서도 해석을 바꾸는 것을 정당화할 수 있다. 따라서 선호되는 해석은 단일 사례가 보편적인 규칙을 입증한다고 가장하지 않으면서, 초기 기대와 그것을 복잡하게 만드는 증거 모두를 설명해야 한다.\n\n[주요 어휘]\nrehearse : 연습하다, 리허설하다\nrely on : ~에 의존하다\nfeedback : 피드백, 반응\nprecise : 정확한\nembody : 구체화하다, 내재화하다\nshift : 옮기다, 변하다\ninference : 추론\nmechanism : 메커니즘, 작동 원리\naccount : 설명, 해석\ncomplication : 복잡함, 난제\nuniversal rule : 보편적 규칙\njustify : 정당화하다\n\n[해설]\n초기 설명과 후속 관찰의 불일치를 통해 더 정교한 판단으로 옮겨가는 글 전체를 포괄합니다.\n\n[오답 해설]\n①번: 정답. 지문은 거울에 의존하던 초기 설명(external cues)을 넘어서 내적 균형감각을 통한 이해(embodied understanding)로 발전한다는 핵심 내용을 담고 있으며, 제목으로서 단순한 첫 설명을 초월한 더 깊은 이해의 전환을 잘 포착한다.\n\n②번: 오답. 지문은 관찰의 '완전한 실패'를 다루지 않으며, 오히려 초기 관찰이 불완전했지만 후속 관찰을 통해 더 나은 해석으로 나아가는 과정을 설명한다.\n\n③번: 오답. 지문의 요점은 배경 세부사항이 경험적 증거를 '대체'하는 것이 아니라, 초기 설명을 보완하고 정교화하는 것이다.\n\n④번: 오답. 지문은 초기 예측(거울의 피드백이 충분하다는 가정)이 실제로는 추가 검토가 필요했음을 보여주므로, \"더 이상의 검토가 필요 없는\" 예측이라는 설명과 모순된다.\n\n⑤번: 오답. 지문은 단일 지표(거울 피드백)의 불충분성을 지적하며, 하나의 예시가 보편적 규칙을 증명할 수 없다고 명시하므로 이 선지와 정반대의 내용을 담고 있다.",
@@ -6758,8 +6758,8 @@ const QUESTION_BANK = [
     "passage": "A publisher tested an audiobook with optional chapter notes. Editors had assumed that more explanations would always help. However, listeners enjoyed the story but used notes mainly when unfamiliar references appeared. The evidence is most consistent with the conclusion that __________.",
     "given_sentence": "",
     "choices": [
-      "① the evidence has no bearing on how the original claim should be assessed",
-      "② the initial assumption must be rejected even in circumstances for which it was never tested",
+      "① listeners would have engaged more deeply with the story if chapter notes had been removed entirely",
+      "② audiobook producers should provide explanatory notes for every chapter regardless of listener familiarity",
       "③ editors had assumed that more explanations would always help, with no adjustment for the new evidence",
       "④ listeners enjoyed the story but used notes mainly when unfamiliar references appeared, which proves that the same result is inevitable everywhere",
       "⑤ support materials are valuable when available without interrupting engagement"
@@ -6792,11 +6792,11 @@ const QUESTION_BANK = [
     "passage": "An economist studied households offered time-limited discounts. A retailer described the sales surge as new demand. At first, that account seemed attractive: it offered a simple explanation that could be communicated without further qualification. In fact, some families bought supplies earlier but did not increase total consumption. Two observers could accept the same facts yet reach different judgments because they attached different importance to the underlying assumptions. A temporary increase in purchases may represent a shift in timing rather than quantity. An adequate account must make those assumptions explicit before treating its conclusion as general. This conclusion is not identical to the first assumption; it must account for the later observation and for the limits of the original measure. In particular, the new evidence may justify changing the interpretation without proving that the earlier account was mistaken in every conceivable setting. Consequently, the preferred interpretation should explain both the initial expectation and the evidence that complicates it, without pretending that a single example establishes a universal rule.",
     "given_sentence": "",
     "choices": [
-      "① the claim that competing explanations cannot be evaluated with evidence",
+      "① the possibility that two observers who share the same facts may still differ in their assumptions",
       "② A retailer described the sales surge as new demand is justified in all settings",
-      "③ why a single observation is enough to settle every possible explanation",
+      "③ why the retailer's initial account should be retained even after households showed no increase in total consumption",
       "④ A temporary increase in purchases may represent a shift in timing rather than quantity",
-      "⑤ the need to ignore early evidence once a new interpretation is proposed"
+      "⑤ the importance of discarding the original account entirely once new evidence from households is introduced"
     ],
     "answer": 4,
     "explanation": "[지문 해석]\n한 경제학자가 기간 제한적 할인을 받은 가구들을 연구했다. 소매업체는 판매 급증을 새로운 수요로 설명했다. 처음에는 이 설명이 매력적으로 보였다. 추가 설명 없이 전달할 수 있는 단순한 설명을 제시했기 때문이다. 실제로 일부 가구는 물품을 더 일찍 구매했지만 총 소비량은 증가시키지 않았다. 두 관찰자가 동일한 사실을 받아들이더라도 기저에 있는 가정에 다른 중요성을 부여하면 서로 다른 결론에 도달할 수 있다. 구매의 일시적 증가는 수량의 변화가 아닌 시기의 변화를 나타낼 수 있다. 적절한 설명은 결론을 일반화하기 전에 이러한 가정들을 명시적으로 드러내야 한다. 이 결론은 처음 가정과 동일하지 않으며, 이후의 관찰과 원래 측정의 한계를 고려해야 한다. 특히 새로운 증거는 초기 설명이 모든 가능한 상황에서 잘못되었음을 증명하지 않으면서도 해석을 변경할 정당성을 제공할 수 있다. 따라서 선호되는 해석은 초기의 기대와 그것을 복잡하게 만드는 증거를 모두 설명해야 하며, 단 하나의 사례가 보편적 규칙을 확립한다고 주장해서는 안 된다.\n\n[주요 어휘]\n1. time-limited discounts : 기간 제한적 할인\n2. sales surge : 판매량 급증\n3. account : 설명, 해석\n4. qualification : 한정, 조건\n5. underlying assumptions : 기저 가정\n6. shift in timing : 구매 시점의 변화\n7. adequate : 충분한, 적절한\n8. explicit : 명시적인, 분명한\n9. complicates : 복잡하게 만들다\n10. universal rule : 보편적 규칙\n11. preferred interpretation : 선호되는 해석\n12. conceivable : 생각할 수 있는, 가능한\n\n[해설]\n초기 기대와 다른 관찰을 통해 얻은 제한적인 결론이 요지입니다. 다른 선택지는 단정적 일반화 또는 근거 없는 판단입니다.\n\n[오답 해설]\n①번: 지문은 동일한 사실에 대해 다양한 해석이 가능하며, 증거를 통해 경쟁적 설명들을 평가할 수 있다고 주장하고 있으므로 이 선지는 지문의 주장과 정반대이다.\n\n②번: 지문은 소매업자의 설명(새로운 수요)이 단순해 보이지만 실제로는 일부 가족들이 구매 시기만 앞당겼을 가능성을 제시하며, 이것이 모든 상황에서 정당하지 않음을 명확히 한다.\n\n③번: 지문의 핵심은 \"단일 사례가 보편적 규칙을 입증하지 못한다\"는 점이므로, 이 선지는 지문의 주장에 정반대이다.\n\n④번: 지문에서 \"A temporary increase in purchases may represent a shift in timing rather than quantity\"라는 문장이 직접 제시되며, 이것이 소매업자의 단순한 설명에 대한 대안적 해석으로 제시되는 핵심 요지이다.\n\n⑤번: 지문은 오히려 초기 증거도 고려하면서 이를 \"복잡하게 만드는 증거\"와 함께 설명할 수 있는 해석을 선호해야 한다고 주장하므로, 초기 증거를 무시하라는 이 선지와 배치된다.",
@@ -6826,9 +6826,9 @@ const QUESTION_BANK = [
     "passage": "Dear Review Committee,\n\nA scientist compared the performance of two weather models. An agency selected models using only average error. In fact, one predicted average temperatures well but missed rare severe events. I am not asking you to dismiss the original project; I am requesting that its evaluation include the additional evidence and explicitly state the limits of the initial conclusion. Without this change, the next funding decision could reward an incomplete indicator rather than the project's actual performance.\n\nSincerely,\nA project participant",
     "given_sentence": "",
     "choices": [
-      "① To request a larger budget without discussing evaluation criteria",
-      "② To invite committee members to an unrelated public celebration",
-      "③ To demand that the project be cancelled without another evaluation",
+      "① To suggest replacing average error with a new metric as the sole evaluation standard",
+      "② To praise the committee for selecting the weather model that accurately predicted severe events",
+      "③ To argue that the original project's funding should be suspended pending a full audit",
       "④ To request a reassessment that accounts for conflicting evidence",
       "⑤ To announce that the first interpretation has already been fully confirmed"
     ],
@@ -6843,10 +6843,10 @@ const QUESTION_BANK = [
     "passage": "At first, I felt reassured by the seemingly straightforward explanation. Critics assumed student choice meant abandoning curriculum. A school organized lessons around questions proposed by pupils. When I learned that engagement improved, but teachers still had to ensure core concepts were covered, my confidence weakened. I wondered how much I had missed by attending only to the result that supported my expectation. I reconsidered my judgment. By the end, I was still uncertain about every detail, but I felt more willing to investigate than to defend my first impression.",
     "given_sentence": "",
     "choices": [
-      "① from distrust of the team to unconditional hostility",
-      "② from curiosity to indifference about the investigation",
-      "③ from disappointment to certainty that all questions are settled",
-      "④ from confidence to a refusal to reconsider any evidence",
+      "① from initial skepticism to full acceptance of student-led curriculum",
+      "② from reassurance to regret over abandoning core curriculum coverage",
+      "③ from doubt about engagement to certainty that pupil-proposed lessons are flawed",
+      "④ from confidence to disappointment that teachers failed to cover core concepts",
       "⑤ from confidence to reflective curiosity"
     ],
     "answer": 5,
@@ -6860,11 +6860,11 @@ const QUESTION_BANK = [
     "passage": "A researcher studied the spread of seeds carried by city birds. A map assumed dispersal would be random. At first, that account seemed attractive: it offered a simple explanation that could be communicated without further qualification. In fact, seeds accumulated near sheltering trees rather than evenly across open ground. The initial explanation appealed to a familiar measure of success, yet that measure ignored who or what was excluded from the observation. Animal behavior can shape the spatial distribution of plants. A better judgment requires distinguishing what the evidence directly establishes from the larger claim someone hopes to make. This conclusion is not identical to the first assumption; it must account for the later observation and for the limits of the original measure. In particular, the new evidence may justify changing the interpretation without proving that the earlier account was mistaken in every conceivable setting. Consequently, the preferred interpretation should explain both the initial expectation and the evidence that complicates it, without pretending that a single example establishes a universal rule.",
     "given_sentence": "",
     "choices": [
-      "① If evidence is mixed, decision-makers should avoid weighing the competing explanations at all.",
+      "① If new seed distribution data conflicts with the map, researchers should discard the original dispersal assumption entirely.",
       "② Decisions should retain the original assumption because a map assumed dispersal would be random.",
       "③ Decisions should reflect this insight: animal behavior can shape the spatial distribution of plants.",
-      "④ Decision-makers should judge an intervention solely by its most visible immediate result.",
-      "⑤ An observed difference should be treated as a universal rule without further examination."
+      "④ Decision-makers should evaluate seed dispersal patterns by measuring how evenly seeds spread across open ground.",
+      "⑤ An interpretation of seed dispersal should prioritize the initial map over later observations that complicate it."
     ],
     "answer": 3,
     "explanation": "[지문 해석]\n한 연구자가 도시 새들이 운반하는 씨앗의 확산을 연구했다. 지도는 확산이 무작위적일 것이라고 가정했다. 처음에는 그 설명이 매력적으로 보였다. 추가 설명 없이 전달할 수 있는 단순한 설명을 제시했기 때문이다. 실제로 씨앗들은 열린 땅 전체에 골고루 퍼지기보다는 나무 근처에 집중되어 있었다. 초기 설명은 익숙한 성공의 척도에 호소력이 있었지만, 그 척도는 관찰에서 누가 또는 무엇이 제외되었는지를 무시했다. 동물의 행동은 식물의 공간 분포를 형성할 수 있다. 더 나은 판단을 위해서는 증거가 직접적으로 입증하는 것과 누군가가 주장하고자 하는 더 큰 주장을 구별해야 한다. 이 결론은 처음 가정과 동일하지 않다. 나중의 관찰과 원래 척도의 한계를 고려해야 한다. 특히 새로운 증거는 이전의 설명이 모든 상황에서 틀렸음을 증명하지 않으면서도 해석을 바꾸는 것을 정당화할 수 있다. 따라서 선호되는 해석은 초기 기대와 이를 복잡하게 만드는 증거를 모두 설명해야 하며, 단 하나의 사례가 보편적 규칙을 입증한다고 가장해서는 안 된다.\n\n[주요 어휘]\ndispersal : 분산, 확산\nrandom : 무작위의, 임의의\naccumulate : 축적되다, 모이다\nspatial distribution : 공간적 분포\nshape : 형성하다, 결정하다\ndistinguish : 구별하다, 차별화하다\nevidence : 증거, 근거\nexclude : 제외하다, 배제하다\ninterpretation : 해석, 설명\ncomplication : 복잡함, 문제점\nconceivable : 상상할 수 있는, 가능한\nuniversal rule : 보편적 규칙, 일반적 법칙\n\n[해설]\n필자는 초기 판단을 그대로 유지하기보다 관찰의 조건과 반례를 반영해 결론을 조정해야 한다고 주장합니다.\n\n[오답 해설]\n①번: 지문은 증거가 혼재되어 있을 때 \"경쟁하는 설명들을 구별하고 평가해야 한다\"고 주장하는데, 선지는 \"평가를 피해야 한다\"고 제시하여 정반대의 주장이다.\n\n②번: 지문의 핵심은 초기 가정(무작위 분산)이 증거(나무 근처 집중)와 맞지 않으므로 더 나은 판단을 위해 이를 수정해야 한다는 것인데, 선지는 원래 가정을 유지하라고 제시하여 지문의 주장에 모순된다.\n\n③번: 지문에서 \"Animal behavior can shape the spatial distribution of plants\"는 초기 설명의 한계를 드러내고 더 나은 판단의 근거가 되는 핵심 통찰이며, 의사결정이 이러한 통찰을 반영해야 한다는 것이 지문의 결론이다.\n\n④번: 지문은 \"단순한 설명의 매력\"에만 의존하지 말고 \"증거가 직접 입증하는 것과 더 큰 주장을 구별\"해야 한다고 강조하므로, 가장 눈에 띄는 즉각적 결과만으로 판단하자는 선지는 지문의 주장과 배치된다.\n\n⑤번: 지문은 \"단일 사례가 보편적 규칙을 확립한다고 가장하지 말아야 한다\"고 명시하는데, 선지는 관찰된 차이를 보편적 규칙으로 취급하라고 제시하여 지문의 경고와 정반대다.",
@@ -6877,11 +6877,11 @@ const QUESTION_BANK = [
     "passage": "A civil engineer examined repeated repairs to a harbor wall. The maintenance team focused on the newest visible crack. At first, that account seemed attractive: it offered a simple explanation that could be communicated without further qualification. In fact, every repair held briefly until wave patterns shifted stress to neighboring sections. The striking feature of the result was not its size but the mismatch between the expected mechanism and the one actually observed. Treating symptoms in isolation can move a problem rather than solve it. The conclusion therefore depends on comparing two interpretations, rather than merely repeating the most visible outcome. This conclusion is not identical to the first assumption; it must account for the later observation and for the limits of the original measure. In particular, the new evidence may justify changing the interpretation without proving that the earlier account was mistaken in every conceivable setting. Consequently, the preferred interpretation should explain both the initial expectation and the evidence that complicates it, without pretending that a single example establishes a universal rule.",
     "given_sentence": "",
     "choices": [
-      "① A Familiar Prediction That Needed No Further Examination",
-      "② Why a Single Indicator Is Sufficient for Every Decision",
-      "③ The Complete Failure of Observation in Practical Research",
+      "① Visible Cracks as the Most Reliable Guide to Structural Failure",
+      "② Why Repeating the Same Repair Confirms the Original Diagnosis",
+      "③ How Wave Patterns Alone Determine the Fate of Harbor Walls",
       "④ Beyond the First Explanation: Treating symptoms in isolation can move a problem rather than solve it",
-      "⑤ When Background Details Replace All Empirical Evidence"
+      "⑤ When Earlier Accounts Must Be Entirely Discarded After New Evidence"
     ],
     "answer": 4,
     "explanation": "[지문 해석]\n한 토목 공학자가 방파제의 반복되는 수리를 검토했다. 유지보수팀은 가장 최근에 보이는 균열에 집중했다. 처음에는 그 설명이 매력적으로 보였다. 추가적인 설명 없이 전달할 수 있는 단순한 해석을 제시했기 때문이다. 실제로는 매번 수리가 일시적으로만 유지되다가 파도 패턴이 변하면서 응력이 인접한 부분으로 이동했다. 흥미로운 점은 그 결과의 규모가 아니라 예상된 메커니즘과 실제로 관찰된 메커니즘 사이의 불일치였다. 증상만 따로 치료하는 것은 문제를 해결하는 것이 아니라 단지 옮기는 것일 뿐이다. 따라서 결론은 가장 눈에 띄는 결과를 단순히 반복하기보다는 두 가지 해석을 비교하는 것에 달려 있다. 이러한 결론은 처음 가정과 동일하지 않다. 나중의 관찰과 원래 조치의 한계를 고려해야 한다. 특히 새로운 증거는 이전의 설명이 모든 가능한 상황에서 틀렸다는 것을 증명하지 않으면서도 해석을 바꿀 정당성을 제공할 수 있다. 따라서 선호되는 해석은 초기 예상과 이를 복잡하게 하는 증거를 모두 설명할 수 있어야 하며, 단 하나의 사례가 보편적인 규칙을 입증한다고 주장하지 않아야 한다.\n\n[주요 어휘]\n1. civil engineer : 토목 기술자\n2. maintenance : 유지, 유지보수\n3. crack : 균열, 금\n4. mechanism : 원인, 작동 원리\n5. mismatch : 불일치, 맞지 않음\n6. symptom : 증상\n7. in isolation : 고립되어, 따로\n8. interpretation : 해석, 설명\n9. qualify : 수정하다, 한정하다\n10. justify : 정당화하다, 근거를 제시하다\n11. universal rule : 보편적 법칙\n12. account : 설명, 이야기\n\n[해설]\n초기 설명과 후속 관찰의 불일치를 통해 더 정교한 판단으로 옮겨가는 글 전체를 포괄합니다.\n\n[오답 해설]\n①번: 지문은 처음의 단순한 설명(newest visible crack)이 실제로는 불충분함을 보여주며, 더 깊은 분석이 필요함을 강조하므로 \"추가 검토가 필요 없다\"는 주장은 지문의 핵심과 정반대다.\n\n②번: 지문은 단일 지표(visible crack)에만 의존하는 것의 문제점을 지적하며, 여러 증거와 해석을 비교해야 한다고 주장하므로 \"단일 지표로 충분하다\"는 선지는 지문의 논지에 배치된다.\n\n③번: 지문은 관찰의 실패가 아니라 관찰 방식의 부족함을 다루고 있으며, 더 나은 해석을 통해 문제를 해결할 수 있음을 시사하므로 \"완전한 실패\"라는 표현은 과하고 부정확하다.\n\n④번: 지문은 증상만 치료하면 문제를 이동시킬 뿐 해결하지 못한다는 교훈을 통해, 첫 번째 설명을 넘어 더 포괄적인 해석이 필요함을 강조하므로 제목으로 가장 적절하다.\n\n⑤번: 지문은 배경 세부사항이 경험적 증거를 대체해야 한다고 주장하지 않으며, 오히려 새로운 증거를 바탕으로 해석을 수정해야 한다고 주장하므로 지문의 주장을 왜곡한다.",
@@ -6912,10 +6912,10 @@ const QUESTION_BANK = [
     "given_sentence": "",
     "choices": [
       "① farmers evaluated success only by the first harvest, with no adjustment for the new evidence",
-      "② the evidence has no bearing on how the original claim should be assessed",
+      "② microbial diversity declined because farmers failed to rotate crops across different fields",
       "③ crop yields initially rose, but microbial diversity declined over several seasons, which proves that the same result is inevitable everywhere",
       "④ short-term gains can mask changes in the systems that sustain them",
-      "⑤ the initial assumption must be rejected even in circumstances for which it was never tested"
+      "⑤ fertilizer use should be suspended until soil bacteria return to their original levels"
     ],
     "answer": 4,
     "explanation": "[지문 해석]\n한 과학자가 비료를 반복적으로 사용한 후의 토양 박테리아를 연구했다. 농부들은 첫 번째 수확으로만 성공을 평가했다. 그러나 작물 수확량은 처음에는 증가했지만, 몇 시즌에 걸쳐 미생물 다양성은 감소했다. 이 증거는 __________ 이라는 결론과 가장 일치한다.\n\n[주요 어휘]\nsoil bacteria : 토양 박테리아\nrepeated : 반복된\nfertilizer : 비료\nevaluate : 평가하다\nsuccess : 성공\nharvest : 수확\ncrop yields : 작물 수확량\nmicrobial diversity : 미생물 다양성\ndecline : 감소하다\nevidence : 증거\nconsistent with : ~와 일치하는\n\n[해설]\n기초 관찰: Crop yields initially rose, but microbial diversity declined over several seasons. 초기 해석: Farmers evaluated success only by the first harvest. 따라서 Short-term gains can mask changes in the systems that sustain them. 다만 단일 사례가 모든 상황으로 일반화되는 것은 아닙니다.\n\n[오답 해설]\n①번: 지문에서 농민들이 첫 수확만으로 성공을 평가했다는 것은 사실이지만, 이것이 빈칸에 들어갈 결론이 아니라 문제 상황을 설명하는 배경 정보일 뿐이다.\n\n②번: 지문의 증거(초기 수확량 증가, 미생물 다양성 감소)는 비료 사용의 장기적 영향에 대한 중요한 정보이므로, 원래 주장 평가에 분명히 영향을 미친다.\n\n③번: 지문은 토양 박테리아 연구 결과를 제시할 뿐, 이 결과가 \"모든 곳에서 불가피하다\"고 주장하지 않으며, 이는 과도한 일반화이다.\n\n④번: 단기적 이득(초기 수확량 증가)이 그것을 뒷받침하는 시스템의 악화(미생물 다양성 감소)를 가릴 수 있다는 의미로, 겉으로 보이는 성공이 실제 부작용을 숨길 수 있음을 보여준다.\n\n⑤번: 지문은 비료 사용이 테스트되지 않은 상황에서 거부되어야 한다고 주장하지 않으며, 특정 조건에서의 관찰 결과를 제시할 뿐이다.",
@@ -6962,11 +6962,11 @@ const QUESTION_BANK = [
     "passage": "A public health team redesigned appointment letters. Managers had focused on adding more appointment slots. However, plain-language directions reduced missed visits without changing medical services. Removing comprehension barriers can improve access to existing resources.",
     "given_sentence": "",
     "choices": [
-      "① the claim that competing explanations cannot be evaluated with evidence",
+      "① Redesigning appointment letters requires expanding the number of available medical services",
       "② Removing comprehension barriers can improve access to existing resources",
       "③ Managers had focused on adding more appointment slots is justified in all settings",
-      "④ the need to ignore early evidence once a new interpretation is proposed",
-      "⑤ why a single observation is enough to settle every possible explanation"
+      "④ Adding more appointment slots is the most effective way to reduce missed medical visits",
+      "⑤ Plain-language directions alone cannot compensate for a shortage of medical staff"
     ],
     "answer": 2,
     "explanation": "[지문 해석]\n공중보건팀이 진료 예약 안내장을 새롭게 설계했다. 관리자들은 진료 시간을 더 늘리는 데 초점을 맞춰왔다. 그러나 쉬운 말로 작성한 안내문만으로도 의료 서비스를 변경하지 않으면서도 방문 건너뜀을 줄일 수 있었다. 이해의 장벽을 제거하면 기존 자원에 대한 접근성을 개선할 수 있다.\n\n[주요 어휘]\npublic health team : 공중보건팀\nredesigned : 재설계하다\nappointment letters : 진료예약 안내문\nappointment slots : 진료 시간대\nplain-language directions : 쉬운 언어로 된 안내문\nmissed visits : 놓친 방문(진료 미충족)\ncomprehension barriers : 이해의 장벽\nimprove access : 접근성을 개선하다\nexisting resources : 기존 자원\n\n[해설]\n초기 기대와 다른 관찰을 통해 얻은 제한적인 결론이 요지입니다. 다른 선택지는 단정적 일반화 또는 근거 없는 판단입니다.\n\n[오답 해설]\n①번: 지문은 plain-language directions가 missed visits를 줄였다는 구체적인 증거를 제시하고 있으므로, 경쟁하는 설명들을 증거로 평가할 수 없다는 주장은 지문 내용과 모순된다.\n\n②번: 지문의 핵심은 의료 서비스를 추가하지 않고도 이해 장벽을 제거함으로써 기존 자원에 대한 접근성을 개선할 수 있다는 점이며, 이는 plain-language directions의 효과를 통해 직접 입증된 주제이다.\n\n③번: 지문은 managers의 기존 전략(appointment slots 추가)이 모든 환경에서 정당화된다고 주장하지 않으며, 오히려 다른 접근 방식이 더 효과적일 수 있음을 시사한다.\n\n④번: 지문은 초기 증거를 무시하라고 말하지 않으며, 오히려 새로운 해석(comprehension barriers 제거)을 지원하기 위해 증거를 제시하고 있다.\n\n⑤번: 지문은 단 하나의 관찰로 모든 가능한 설명이 해결된다고 주장하지 않으며, 특정 맥락에서 효과적인 방법을 제시할 뿐이다.",
@@ -6996,11 +6996,11 @@ const QUESTION_BANK = [
     "passage": "Dear Review Committee,\n\nA teacher assigned students to defend a view they initially rejected. Critics feared the exercise would force students to change their beliefs. In fact, many became better at identifying assumptions without adopting the opposing position. I am not asking you to dismiss the original project; I am requesting that its evaluation include the additional evidence and explicitly state the limits of the initial conclusion. Without this change, the next funding decision could reward an incomplete indicator rather than the project's actual performance.\n\nSincerely,\nA project participant",
     "given_sentence": "",
     "choices": [
-      "① To announce that the first interpretation has already been fully confirmed",
-      "② To request a larger budget without discussing evaluation criteria",
+      "① To argue that students should not be assigned to defend positions they initially opposed",
+      "② To propose that the committee extend the project deadline before conducting any evaluation",
       "③ To request a reassessment that accounts for conflicting evidence",
-      "④ To invite committee members to an unrelated public celebration",
-      "⑤ To demand that the project be cancelled without another evaluation"
+      "④ To acknowledge that the original project conclusion was correct despite the new findings",
+      "⑤ To suggest replacing the current evaluation committee with external funding reviewers"
     ],
     "answer": 3,
     "explanation": "[지문 해석]\n검토 위원회께,\n\n한 교사가 학생들에게 처음에 거부했던 관점을 옹호하도록 과제를 부여했습니다. 비평가들은 이 과제가 학생들에게 신념을 바꾸도록 강요할 것을 우려했습니다. 실제로 많은 학생들이 상반된 입장을 수용하지 않으면서도 가정들을 파악하는 능력을 향상시켰습니다. 저는 원래 프로젝트를 무시해달라고 요청하는 것이 아닙니다. 대신 그 평가에 추가 증거를 포함하고 초기 결론의 한계를 명시해달라고 요청합니다. 이러한 변화 없이는 다음 자금 지원 결정이 프로젝트의 실제 성과보다는 불완전한 지표에 보상을 줄 수 있습니다.\n\n진심으로,\n프로젝트 참여자 일동\n\n[주요 어휘]\nassign : 부과하다, 할당하다\ndefend : 옹호하다, 방어하다\ninitially : 처음에, 초기에\nreject : 거절하다, 반대하다\ncritic : 비평가, 비판자\nidentify : 파악하다, 식별하다\nassumption : 가정, 전제\nadopt : 채택하다, 수용하다\ndismiss : 무시하다, 각하하다\nevaluation : 평가, 검토\nexplicitly : 명시적으로, 분명히\nincomplete : 불완전한, 미완의\nindicator : 지표, 지시자\n\n[해설]\n편지의 핵심 요청은 기존 평가에 후속 관찰을 반영하고 초기 결론의 한계를 명시해 달라는 것입니다.\n\n[오답 해설]\n①번: 저자는 \"원래의 결론이 불완전하다\"고 지적하고 있으므로, 첫 번째 해석이 완전히 확인되었다는 주장은 지문의 내용과 정반대이다.\n\n②번: 저자는 예산 증액을 요청하지 않으며, 오히려 평가 기준을 명확히 포함할 것을 요청하고 있으므로 틀렸다.\n\n③번: 저자는 \"추가 증거를 포함하고 초기 결론의 한계를 명시적으로 기술할 것\"을 요청하고 있으므로, 상충하는 증거를 고려한 재평가를 요청하는 것이 정확하다.\n\n④번: 지문에서 위원회 위원들을 공개 행사에 초대하는 내용은 전혀 나타나지 않으므로 지문과 무관하다.\n\n⑤번: 저자는 \"원래 프로젝트를 무시하지 말 것\"이라고 명시했으므로, 프로젝트 취소를 요구하는 것은 지문의 의도와 맞지 않는다.",
@@ -7013,11 +7013,11 @@ const QUESTION_BANK = [
     "passage": "At first, I felt reassured by the seemingly straightforward explanation. A student assumed every omitted variable made the model worthless. A mathematician explained why a complex model required simplification. When I learned that some details were removed to make its central mechanisms testable, my confidence weakened. I wondered how much I had missed by attending only to the result that supported my expectation. I resisted admitting the limitation because I had defended the earlier account in public. Yet the more carefully I compared the observations, the clearer the need for revision became. By the end, I was still uncertain about every detail, but I felt more willing to investigate than to defend my first impression.",
     "given_sentence": "",
     "choices": [
-      "① from curiosity to indifference about the investigation",
-      "② from confidence to a refusal to reconsider any evidence",
+      "① from curiosity about the model to acceptance of its original form",
+      "② from initial confidence to a reluctance to revise the public defense",
       "③ from confidence to reflective curiosity",
-      "④ from distrust of the team to unconditional hostility",
-      "⑤ from disappointment to certainty that all questions are settled"
+      "④ from distrust of simplification to full acceptance of the omitted variables",
+      "⑤ from uncertainty about the model to conviction that the first explanation was correct"
     ],
     "answer": 3,
     "explanation": "[지문 해석]\n처음에는 겉으로 단순해 보이는 설명에 안심했다. 한 학생은 생략된 모든 변수가 모델을 무용지물로 만든다고 가정했고, 한 수학자는 복잡한 모델이 왜 단순화를 필요로 하는지 설명했다. 핵심 메커니즘을 검증 가능하게 하기 위해 일부 세부 사항들이 제거되었다는 것을 알게 되자, 내 확신은 흔들렸다. 내 기대를 뒷받침하는 결과에만 주목함으로써 얼마나 많은 것을 놓쳤을 수 있을까 하는 의문이 들었다. 앞의 설명을 공개적으로 옹호했기 때문에 이러한 한계를 인정하기 싫었다. 그럼에도 불구하고 관찰 결과를 더 자세히 비교할수록 수정의 필요성이 더욱 명확해졌다. 결국 나는 모든 세부 사항에 대해 여전히 확신할 수 없었지만, 처음 인상을 방어하려는 마음보다 이를 조사하려는 마음이 더 커졌다.\n\n[주요 어휘]\nreassured : 안심시킨, 안도감을 준\nomitted variable : 생략된 변수\nworthless : 가치 없는, 쓸모없는\nsimplification : 단순화\ntestable : 검증 가능한\nconfidence weakened : 확신이 약해졌다\nmissed : 놓쳤다, 간과했다\nresisted : 저항했다, 거부했다\nlimitation : 한계, 제한\ndefended : 옹호했다, 변호했다\nrevision : 수정, 재검토\nwilling to investigate : 조사할 의향이 있는\n\n[해설]\n초기의 confident/reassured와 후반의 reconsider, willing to investigate가 대비되므로 확신에서 성찰적 탐구로의 변화입니다.\n\n[오답 해설]\n①번: 지문에서 저자는 조사에 대한 관심을 잃지 않았으며, 오히려 \"investigate than to defend\"라고 명시하여 조사에 더 적극적이 되었으므로 부적절하다.\n\n②번: 저자는 증거를 재검토하려는 의지를 보이며(\"the more carefully I compared\"), 증거 재검토를 거부하지 않았으므로 틀렸다.\n\n③번: 처음에는 설명에 \"reassured\"되어 확신을 가졌으나, 제한점을 깨닫고 자신의 기대에만 의존했던 것을 반성하며, 결국 \"investigate than to defend\"하는 성찰적 호기심으로 변화했다.\n\n④번: 지문에는 팀에 대한 신뢰도나 적개심이 언급되지 않으며, 저자의 심경 변화는 자신의 판단에 대한 회의이지 타인에 대한 감정이 아니다.\n\n⑤번: 저자는 마지막에 \"still uncertain about every detail\"이라고 표현하여 확실성에 도달하지 못했으므로 틀렸다.",
@@ -7031,10 +7031,10 @@ const QUESTION_BANK = [
     "given_sentence": "",
     "choices": [
       "① Decisions should retain the original assumption because curators had organized rooms according to scholarly importance.",
-      "② An observed difference should be treated as a universal rule without further examination.",
-      "③ Decision-makers should judge an intervention solely by its most visible immediate result.",
+      "② An interpretation that conflicts with the curator's original design should be dismissed before its underlying assumptions are examined.",
+      "③ Decision-makers should finalize their interpretation once the initial exhibit layout has been validated by scholarly importance.",
       "④ Decisions should reflect this insight: actual use can reveal priorities that designers did not anticipate.",
-      "⑤ If evidence is mixed, decision-makers should avoid weighing the competing explanations at all."
+      "⑤ If the new evidence complicates the earlier account, decision-makers should discard the original expectation entirely rather than reconciling both."
     ],
     "answer": 4,
     "explanation": "[지문 해석]\n한 박물관이 익명의 센서를 이용해 방문객들의 동선을 기록했다. 큐레이터들은 학문적 중요성에 따라 전시실을 구성했었다. 처음에는 이 설명이 매력적으로 보였다. 추가 설명 없이도 전달할 수 있는 단순한 해석을 제시했기 때문이다. 그런데 실제로는 많은 방문객들이 중앙 전시를 지나쳤으나 출구 근처의 작은 전시에서는 멈춰 있었다. 두 명의 관찰자가 같은 사실을 받아들이면서도 그 바탕에 깔린 가정들에 서로 다른 중요성을 부여하기 때문에 다른 판단에 도달할 수 있다. 실제 이용 양상은 설계자들이 예상하지 못한 우선순위들을 드러낼 수 있다. 충분한 설명은 그 결론을 보편적인 것으로 취급하기 전에 먼저 이러한 가정들을 명시해야 한다. 이 결론은 처음의 가정과 동일하지 않으며, 나중의 관찰과 원래 측정 방식의 한계를 모두 고려해야 한다. 특히 새로운 증거는 이전의 설명이 모든 상황에서 틀렸다는 것을 증명하지 않으면서도 해석을 바꿀 정당한 이유가 될 수 있다. 따라서 더 타당한 해석은 초기의 기대와 그것을 복잡하게 만드는 증거를 모두 설명해야 하며, 단 하나의 사례가 보편적인 법칙을 입증한다고 주장해서는 안 된다.\n\n[주요 어휘]\n# 수능 영어 지문 주요 단어/표현\n\n1. curator : 박물관 관장, 전시 담당자\n2. scholarly importance : 학문적 중요성\n3. qualify : 한정하다, 수식하다\n4. bypass : 우회하다, 건너뛰다\n5. paused at : ~에서 멈추다, 머물다\n6. attach importance to : ~에 중요성을 부여하다\n7. anticipate : 예상하다, 미리 알다\n8. adequate account : 충분한 설명, 타당한 해석\n9. make explicit : 명확히 드러내다\n10. justify : 정당화하다, 근거를 제시하다\n11. complicates : 복잡하게 하다, 어렵게 하다\n12. pretend : 가장하다, ~인 척하다\n\n[해설]\n필자는 초기 판단을 그대로 유지하기보다 관찰의 조건과 반례를 반영해 결론을 조정해야 한다고 주장합니다.\n\n[오답 해설]\n①번: 지문은 원래의 가정을 고수할 것이 아니라 실제 사용 데이터를 통해 가정을 수정해야 한다고 주장하므로, 학문적 중요성에 따른 원래 조직 방식을 유지하자는 주장은 지문의 핵심 논지에 정면으로 배치된다.\n\n②번: 지문에서는 \"a single example establishes a universal rule\"을 피해야 한다고 명시적으로 경고하고 있으므로, 관찰된 차이를 더 이상의 검토 없이 보편적 규칙으로 취급하자는 주장은 지문의 주장과 정반대이다.\n\n③번: 지문은 초기 기대와 이를 복잡하게 하는 증거를 모두 설명할 수 있는 해석을 선호해야 한다고 강조하므로, 가장 눈에 띄는 즉각적 결과만으로 판단하자는 주장은 지문이 비판하는 단편적 접근이다.\n\n④번: 지문의 핵심은 \"Actual use can reveal priorities that designers did not anticipate\"라는 문장에 담겨 있으며, 의사결정자들이 이러한 통찰력을 반영하여 실제 사용 데이터를 통해 예상하지 못한 우선순위를 발견해야 한다는 것이 필자의 주장이다.\n\n⑤번: 지문은 증거가 복잡할 때 이를 무시하거나 검토를 피할 것이 아니라, 초기 기대와 새로운 증거를 모두 설명할 수 있는 해석을 선호해야 한다고 주장하므로 판단 유보를 권하는 이 선지는 지문의 논지와 맞지 않는다.",
@@ -7047,10 +7047,10 @@ const QUESTION_BANK = [
     "passage": "A researcher observed bats hunting above city canals. A planning report proposed adding lights to every waterway. At first, that account seemed attractive: it offered a simple explanation that could be communicated without further qualification. In fact, insect abundance mattered, but bright lights interrupted some feeding routes. The outcome provides a useful clue, but it does not establish that the same mechanism would operate under every set of conditions. Changes that help human visibility can alter wildlife behavior. The stronger inference is deliberately limited: it explains the observed contrast without pretending that all uncertainty has disappeared. This conclusion is not identical to the first assumption; it must account for the later observation and for the limits of the original measure. In particular, the new evidence may justify changing the interpretation without proving that the earlier account was mistaken in every conceivable setting. Consequently, the preferred interpretation should explain both the initial expectation and the evidence that complicates it, without pretending that a single example establishes a universal rule.",
     "given_sentence": "",
     "choices": [
-      "① When Background Details Replace All Empirical Evidence",
-      "② Why a Single Indicator Is Sufficient for Every Decision",
-      "③ A Familiar Prediction That Needed No Further Examination",
-      "④ The Complete Failure of Observation in Practical Research",
+      "① How Lighting Plans for Urban Canals Ultimately Improved Bat Feeding Routes",
+      "② Why Insect Abundance Alone Determines Bat Behavior Near City Waterways",
+      "③ Bright Lights Over Canals: A Confirmed Solution to Wildlife Observation Gaps",
+      "④ The Original Canal Lighting Proposal: A Model Worth Applying to All Waterways",
       "⑤ Beyond the First Explanation: Changes that help human visibility can alter wildlife behavior"
     ],
     "answer": 5,
@@ -7082,9 +7082,9 @@ const QUESTION_BANK = [
     "given_sentence": "",
     "choices": [
       "① allowing people to adapt a space may serve varied social needs",
-      "② the initial assumption must be rejected even in circumstances for which it was never tested",
+      "② fixed seating arrangements should be replaced with movable chairs in all public parks",
       "③ visitors rearranged the space differently for solitude and conversation, which proves that the same result is inevitable everywhere",
-      "④ the evidence has no bearing on how the original claim should be assessed",
+      "④ the landscape architect's original blueprint reflected visitors' preferences more accurately than the rearranged layout",
       "⑤ the initial blueprint had fixed every seat in place, with no adjustment for the new evidence"
     ],
     "answer": 1,
@@ -7132,10 +7132,10 @@ const QUESTION_BANK = [
     "passage": "A scientist evaluated a new battery recycling method. Promoters cited recovery percentages alone. Metal recovery was high, but the process required energy-intensive heating. The first interpretation was necessarily (① tentative) because little evidence had yet been collected. The later observation (② contradicted) the expectation on which that interpretation depended. The researchers consequently adopted a (③ qualified) account rather than an unconditional verdict. They examined whether the new evidence was (④ relevant) to the question under investigation. The conclusion remained (⑤ universal) to the conditions in which the observations had been made.",
     "given_sentence": "",
     "choices": [
-      "①번 표시",
-      "②번 표시",
-      "③번 표시",
-      "④번 표시",
+      "① conclusive",
+      "② confirmed",
+      "③ unconditional",
+      "④ irrelevant",
       "⑤번 표시"
     ],
     "answer": 5,
@@ -7150,10 +7150,10 @@ const QUESTION_BANK = [
     "given_sentence": "",
     "choices": [
       "① A colleague assumed the gate had been reserved for royal processions is justified in all settings",
-      "② the claim that competing explanations cannot be evaluated with evidence",
-      "③ the need to ignore early evidence once a new interpretation is proposed",
+      "② the original gate was more likely used for trade than for ceremonial purposes",
+      "③ the worn steps confirmed that the gate had been exclusively reserved for royal use",
       "④ The wear instead suggested that ordinary residents regularly participated in rituals",
-      "⑤ why a single observation is enough to settle every possible explanation"
+      "⑤ why the narrow width of the steps made them unsuitable for any form of ritual activity"
     ],
     "answer": 4,
     "explanation": "[지문 해석]\n고고학팀이 의식용 문 옆에서 닳아진 계단을 발견했다. 한 동료는 그 문이 왕실 행렬을 위해 예약된 것이라고 가정했다. 첫 번째 해석은 쉽게 눈에 띄는 특징에 초점을 맞췄기 때문에 그럴듯했다. 하지만 계단은 수레가 지나가기에는 너무 좁았고 반복된 사람의 발왕래 흔적이 있었다. 이것이 앞선 관찰을 쓸모없게 만들지는 않았다. 오히려 원래의 설명이 중요한 조건을 놓쳤음을 드러냈다. 그 대신 닳아진 흔적은 일반 주민들이 정기적으로 의식에 참여했음을 시사했다.\n\n[주요 어휘]\narchaeological : 고고학적인\nceremonial : 의식의, 의례의\nroyal processions : 왕실 행렬\nplausible : 그럴듯한, 타당한\ninterpretation : 해석, 설명\nworn : 닳은, 낡은\nmarks from repeated foot traffic : 반복된 보행의 흔적\noriginal explanation : 원래의 설명\nmissed : 놓치다, 간과하다\nimportant condition : 중요한 조건\nwear : 마모, 닳음\nordinary residents : 일반 주민\nregularly participated in rituals : 정기적으로 의식에 참여하다\n\n[해설]\n초기 기대와 다른 관찰을 통해 얻은 제한적인 결론이 요지입니다. 다른 선택지는 단정적 일반화 또는 근거 없는 판단입니다.\n\n[오답 해설]\n①번: 동료의 가정이 \"모든 상황에서\" 정당하다는 절대적 주장은 지문의 요지와 맞지 않습니다. 지문은 초기 설명이 \"중요한 조건을 놓쳤다\"고 지적하며 상대적 평가를 강조하고 있습니다.\n\n②번: 지문은 오히려 증거를 통해 경쟁하는 설명들을 평가할 수 있음을 보여줍니다. 좁은 폭의 계단과 반복된 발자국 흔적이라는 증거가 초기 해석을 재평가하게 한 것입니다.\n\n③번: 지문에서 초기 증거(\"쉽게 보이는 특징\")가 유용했으며 버려진 것이 아니라 새로운 해석과 함께 통합되었습니다. 오래된 증거를 무시하라는 내용은 지문에 없습니다.\n\n④번: 지문의 핵심은 계단의 마모 패턴이라는 물리적 증거가 더 정확한 설명(일반 주민들의 정기적 의식 참여)을 제시한다는 것입니다. 이것이 지문이 전달하는 주요 결론입니다.\n\n⑤번: 지문은 단일 관찰로는 모든 가능한 설명을 해결할 수 없음을 보여줍니다. 계단의 형태만으로는 불충분하고, 마모 흔적까지 종합적으로 고려해야 함을 강조합니다.",
@@ -7183,11 +7183,11 @@ const QUESTION_BANK = [
     "passage": "Dear Review Committee,\n\nA conservator analyzed the faded blue pigment in an old mural. A museum had blamed all discoloration on bright gallery lighting. In fact, the pigment changed color when exposed to humid air rather than sunlight alone. I am not asking you to dismiss the original project; I am requesting that its evaluation include the additional evidence and explicitly state the limits of the initial conclusion. Such a review would make the assessment fairer.\n\nSincerely,\nA project participant",
     "given_sentence": "",
     "choices": [
-      "① To request a larger budget without discussing evaluation criteria",
+      "① To request that the museum replace its gallery lighting to prevent further pigment discoloration",
       "② To request a reassessment that accounts for conflicting evidence",
-      "③ To announce that the first interpretation has already been fully confirmed",
-      "④ To invite committee members to an unrelated public celebration",
-      "⑤ To demand that the project be cancelled without another evaluation"
+      "③ To argue that humidity alone should be accepted as the definitive cause of the mural's fading",
+      "④ To praise the conservator's analysis and urge the committee to publicize the findings widely",
+      "⑤ To propose that the original evaluation be discarded and replaced with an entirely new assessment"
     ],
     "answer": 2,
     "explanation": "[지문 해석]\n검토위원회 귀중,\n\n한 보존처리 전문가가 오래된 벽화의 바래진 파란색 안료를 분석했습니다. 박물관은 모든 변색을 밝은 갤러리 조명 탓으로 돌렸습니다. 실제로 그 안료는 햇빛 단독이 아닌 습한 공기에 노출되었을 때 색이 변했습니다. 저는 원래 프로젝트를 무시해 달라고 요청하는 것이 아닙니다. 다만 그 평가에 추가 증거를 포함시키고 초기 결론의 한계를 명시적으로 밝혀 줄 것을 요청합니다. 이러한 재검토는 평가를 더욱 공정하게 만들 것입니다.\n\n진심으로,\n프로젝트 참여자 일동\n\n[주요 어휘]\nconservator : 보존 전문가\nfaded : 바랜, 색이 바진\npigment : 안료, 색소\nmural : 벽화\ndiscoloration : 변색, 색 변함\nhumid : 습한, 습도가 높은\ndismiss : 기각하다, 무시하다\nexplicitly : 명시적으로, 분명히\ninitial : 처음의, 초기의\nassessment : 평가, 사정\nfairer : 더 공정한\n\n[해설]\n편지의 핵심 요청은 기존 평가에 후속 관찰을 반영하고 초기 결론의 한계를 명시해 달라는 것입니다.\n\n[오답 해설]\n①번: 글쓴이는 \"dismiss the original project\"를 명확히 거절하며, 추가 증거를 포함한 재평가를 요청하고 있으므로 예산 증액만을 요구하는 것이 아니다.\n\n②번: 글쓴이는 채광이 아닌 습한 공기가 색소 변색의 원인이라는 새로운 증거를 제시하면서, 이를 포함하여 기존 평가를 재검토해 달라고 명시적으로 요청하고 있다.\n\n③번: 글쓴이가 \"additional evidence\"를 제시하고 \"limits of the initial conclusion\"을 명시해야 한다고 주장하는 것은 원래 해석이 완전히 확인되었다는 것과 정반대의 입장이다.\n\n④번: 글은 평가 위원회에 대한 공식적인 요청이며, 전혀 무관한 공개 행사 초청과는 상관이 없다.\n\n⑤번: 글쓴이는 \"I am not asking you to dismiss the original project\"라고 명시하여 프로젝트 취소를 요구하지 않으며, 추가 평가를 포함한 재검토를 원하고 있다.",
@@ -7200,11 +7200,11 @@ const QUESTION_BANK = [
     "passage": "At first, I felt reassured by the seemingly straightforward explanation. Local officials wanted to judge success after the first summer. An ecologist monitored insects around a newly restored pond. When I learned that species returned unevenly, with predators arriving after their prey, my confidence weakened. I wondered how much I had missed by attending only to the result that supported my expectation. I resisted admitting the limitation because I had defended the earlier account in public. Yet the more carefully I compared the observations, the clearer the need for revision became. By the end, I was still uncertain about every detail, but I felt more willing to investigate than to defend my first impression.",
     "given_sentence": "",
     "choices": [
-      "① from distrust of the team to unconditional hostility",
-      "② from curiosity to indifference about the investigation",
+      "① from reliance on officials' judgment to trust in the ecologist's data",
+      "② from uncertainty about the pond's recovery to confidence in predator-prey balance",
       "③ from confidence to reflective curiosity",
-      "④ from disappointment to certainty that all questions are settled",
-      "⑤ from confidence to a refusal to reconsider any evidence"
+      "④ from skepticism about the restored pond to acceptance of the initial observation",
+      "⑤ from public defense of the account to rejection of further field monitoring"
     ],
     "answer": 3,
     "explanation": "[지문 해석]\n처음에는 겉보기에 단순한 설명에 안심이 되었다. 지역 관리들은 첫 여름 이후의 성과를 판단하고 싶어 했다. 한 생태학자가 새로 복원된 연못 주변의 곤충들을 모니터링했다. 종들이 불균등하게 돌아왔으며, 포식자가 먹이보다 나중에 나타났다는 사실을 알게 되었을 때, 내 확신은 흔들렸다. 나는 내 기대를 뒷받침하는 결과에만 집중함으로써 얼마나 많은 것을 놓쳤을지 궁금했다. 나는 그 전의 설명을 대중 앞에서 옹호했기 때문에 이러한 한계를 인정하기를 거부했다. 그러나 관찰 결과들을 더 자세히 비교할수록 수정의 필요성이 더욱 분명해졌다. 결국 나는 모든 세부 사항에 대해 여전히 확실하지 않았지만, 처음 인상을 옹호하기보다는 조사하려는 태도가 더 강해졌다.\n\n[주요 어휘]\nreassured : 안심한, 확신을 갖게 된\nstraightforward : 단순한, 명확한\nrestored : 복원된, 회복된\nunevenly : 불균등하게, 고르지 않게\npredators : 포식자\nprey : 피식자, 먹이\nconfidence weakened : 확신이 약해지다\nmissed : 놓치다, 간과하다\nresisted : 저항하다, 거부하다\nlimitation : 한계, 제한\ndefended : 옹호하다, 변호하다\nrevision : 수정, 개정\nuncertain : 불확실한, 확신이 없는\nimpression : 인상, 첫인상\n\n[해설]\n초기의 confident/reassured와 후반의 reconsider, willing to investigate가 대비되므로 확신에서 성찰적 탐구로의 변화입니다.\n\n[오답 해설]\n①번: 필자가 팀에 대해 불신하거나 적대적으로 변하지 않았으므로 오답이다. 필자는 자신의 이전 설명 방어에 저항하면서도 팀의 관찰 결과를 더 신중하게 재검토하려는 태도를 보인다.\n\n②번: 필자는 조사에 대한 관심을 잃지 않았으며, 오히려 마지막에 \"조사하려는 의지가 더 커졌다\"고 명시되어 있으므로 오답이다.\n\n③번: 필자는 처음에 직선적인 설명에 '안심했고'(reassured), 자신감 있었으나, 불균등한 종의 복귀를 알게 되면서 확신이 약해졌다(weakened). 끝내는 모든 세부사항에 불확실하지만 첫 인상을 '방어하기보다 조사하려는 의지'가 생겼으므로 정답이다.\n\n④번: 필자는 마지막에 \"여전히 모든 세부사항에 불확실하다\"고 명시했으므로 모든 질문이 해결되었다는 확실성은 없다.\n\n⑤번: 필자는 처음에 자신감이 있었지만, 마지막에는 증거를 재검토하여 수정할 의사를 보이므로 증거 재검토 거부와는 반대 방향이다.",
@@ -7218,10 +7218,10 @@ const QUESTION_BANK = [
     "given_sentence": "",
     "choices": [
       "① Decisions should reflect this insight: fluency in one mode should not stand in for competence in another.",
-      "② If evidence is mixed, decision-makers should avoid weighing the competing explanations at all.",
+      "② If a student's spoken explanation is hesitant, teachers should prioritize written assessment over oral performance entirely.",
       "③ Decisions should retain the original assumption because some teachers interpreted slow speech as weak understanding.",
-      "④ Decision-makers should judge an intervention solely by its most visible immediate result.",
-      "⑤ An observed difference should be treated as a universal rule without further examination."
+      "④ Teachers should treat a learner's oral fluency as sufficient evidence of their overall linguistic competence.",
+      "⑤ An initial observation about speech rate should be discarded once a contradicting written sample is found."
     ],
     "answer": 1,
     "explanation": "[지문 해석]\n한 언어 교사가 손으로 쓴 학생 설명과 말로 한 학생 설명을 비교했다. 일부 교사들은 느린 말을 약한 이해력으로 해석했다. 첫 번째 해석은 쉽게 눈에 띄는 특징에 초점을 맞췄기 때문에 타당해 보였다. 하지만 말을 더듬는 학습자들은 종종 정확한 글쓰기 논증을 만들어냈다. 이것이 이전의 관찰을 무용지물로 만들지는 않았다. 오히려 원래의 설명이 중요한 조건을 놓쳤다는 것을 드러냈을 뿐이다. 한 가지 표현 방식에서의 능숙함이 다른 표현 방식의 능력을 대신할 수 없다.\n\n[주요 어휘]\ncompare : 비교하다\ninterpret : 해석하다, 판단하다\nplausible : 타당해 보이는, 그럴듯한\nhesitate : 주저하다, 망설이다\nprecise : 정확한, 엄밀한\nargument : 주장, 논거\nreveal : 드러내다, 밝히다\ncompetence : 능력, 역량\nfluency : 유창함, 유창성\nmode : 방식, 양식\nstand in for : ~을 대신하다, ~을 대체하다\n\n[해설]\n필자는 초기 판단을 그대로 유지하기보다 관찰의 조건과 반례를 반영해 결론을 조정해야 한다고 주장합니다.\n\n[오답 해설]\n①번: 지문의 마지막 문장 \"Fluency in one mode should not stand in for competence in another.\"가 필자의 핵심 주장이므로 이를 그대로 반영한 선지가 정답입니다.\n\n②번: 지문에서는 증거가 혼재되었을 때 두 설명을 비교 검토하여 더 정확한 판단을 내려야 한다고 하는데, 이 선지는 오히려 검토를 회피하라고 주장하므로 틀렸습니다.\n\n③번: 지문은 \"원래의 관찰이 쓸모없지는 않지만 중요한 조건을 놓쳤다\"고 했으므로 원래 가정을 그대로 유지하면 안 되며, 수정되어야 합니다.\n\n④번: 지문은 \"가시적인 특징만 집중하는 것이 문제\"라고 비판했고, 여러 양식의 능력을 종합적으로 판단해야 한다고 주장하므로 단일 결과만으로 판단하는 것은 틀렸습니다.\n\n⑤번: 지문은 \"관찰된 차이가 더 깊은 이해를 필요로 한다\"고 하며 추가 검토를 강조했으므로, 추가 검토 없이 보편적 규칙으로 삼으려는 이 선지는 지문의 논지에 반합니다.",
@@ -7234,11 +7234,11 @@ const QUESTION_BANK = [
     "passage": "A ferry operator tested a schedule with fewer but more reliable departures. Marketing staff had assumed that the largest number of departures was always best. At first, that account seemed attractive: it offered a simple explanation that could be communicated without further qualification. In fact, passengers missed fewer appointments despite the lower advertised frequency. The striking feature of the result was not its size but the mismatch between the expected mechanism and the one actually observed. Predictability can matter more than nominal capacity. The conclusion therefore depends on comparing two interpretations, rather than merely repeating the most visible outcome. This conclusion is not identical to the first assumption; it must account for the later observation and for the limits of the original measure. In particular, the new evidence may justify changing the interpretation without proving that the earlier account was mistaken in every conceivable setting. Consequently, the preferred interpretation should explain both the initial expectation and the evidence that complicates it, without pretending that a single example establishes a universal rule.",
     "given_sentence": "",
     "choices": [
-      "① When Background Details Replace All Empirical Evidence",
-      "② The Complete Failure of Observation in Practical Research",
-      "③ Why a Single Indicator Is Sufficient for Every Decision",
+      "① More Departures, More Passengers: Frequency as the Key to Ferry Success",
+      "② How Marketing Staff Correctly Identified the Root Cause of Missed Appointments",
+      "③ When Lower Advertised Frequency Signals the Need to Abandon a Schedule Entirely",
       "④ Beyond the First Explanation: Predictability can matter more than nominal capacity",
-      "⑤ A Familiar Prediction That Needed No Further Examination"
+      "⑤ The Original Assumption Confirmed: Maximizing Departures Reduces Missed Appointments"
     ],
     "answer": 4,
     "explanation": "[지문 해석]\n어느 페리 운영사가 출발 횟수는 적지만 더 신뢰할 수 있는 시간표를 테스트했다. 마케팅 담당자들은 출발 횟수가 많을수록 항상 최선이라고 가정했다. 처음에는 그 가정이 매력적으로 보였다. 추가 설명 없이 전달할 수 있는 단순한 설명을 제공했기 때문이다. 실제로는 광고된 운행 빈도가 낮음에도 불구하고 승객들이 약속 시간을 놓치는 경우가 더 적었다. 결과의 놀라운 점은 그 규모가 아니라 예상된 메커니즘과 실제로 관찰된 메커니즘 사이의 불일치였다. 예측 가능성이 명목상의 수용 능력보다 더 중요할 수 있다는 것이다. 따라서 결론은 단순히 가장 눈에 띄는 결과를 반복하기보다는 두 가지 해석을 비교함으로써 도출된다. 이 결론은 최초의 가정과 동일하지 않다. 나중의 관찰과 원래 측정의 한계를 고려해야 한다. 특히 새로운 증거는 초기 설명이 모든 상황에서 잘못되었음을 증명하지 않으면서도 그 해석을 바꿀 정당성을 제공할 수 있다. 결과적으로, 선호되는 해석은 초기의 기대와 그것을 복잡하게 만드는 증거를 모두 설명해야 하며, 단 하나의 사례가 보편적 규칙을 입증한다고 주장해서는 안 된다.\n\n[주요 어휘]\nferry operator : 페리 운영 회사\nreliable : 신뢰할 수 있는, 믿을 수 있는\ndeparture : 출발\nnominal capacity : 공칭 용량, 명목상의 수용력\npredictability : 예측 가능성\nmismatch : 불일치, 맞지 않음\nmechanism : 메커니즘, 작동 원리\nqualification : 한정, 조건\naccount : 설명, 해석\njustify : 정당화하다, 타당성을 입증하다\ninterpretation : 해석, 설명\ncomplicates : 복잡하게 만들다\n\n[해설]\n초기 설명과 후속 관찰의 불일치를 통해 더 정교한 판단으로 옮겨가는 글 전체를 포괄합니다.\n\n[오답 해설]\n①번: 지문은 경험적 증거를 무시하지 않으며, 오히려 초기 가정과 실제 관찰 결과를 모두 고려하는 것의 중요성을 강조하므로 부정확하다.\n\n②번: 지문은 관찰의 실패를 다루는 것이 아니라, 더 나은 해석으로 나아가는 과정을 설명하므로 지문의 핵심을 왜곡한다.\n\n③번: 지문은 단일 지표(출발 횟수)만으로는 충분하지 않으며, 신뢰성과 예측 가능성 같은 다른 요소도 고려해야 한다는 점을 명확히 하므로 정반대이다.\n\n④번: 지문이 초기 가정(많은 출발)을 넘어서 예측 가능성이 명목상 용량보다 더 중요할 수 있다는 새로운 해석으로 나아가는 과정을 정확히 포착한다.\n\n⑤번: 지문은 초기 가정이 추가 검토 없이 충분했다고 보지 않으며, 오히려 더 깊은 분석과 새로운 증거를 통한 재검토를 강조한다.",
@@ -7269,9 +7269,9 @@ const QUESTION_BANK = [
     "given_sentence": "",
     "choices": [
       "① the team had evaluated impact resistance as an isolated target, with no adjustment for the new evidence",
-      "② the evidence has no bearing on how the original claim should be assessed",
+      "② impact resistance alone determines whether a crate design is worth adopting for fragile fruit",
       "③ the strongest model weighed so much that fuel use increased, which proves that the same result is inevitable everywhere",
-      "④ the initial assumption must be rejected even in circumstances for which it was never tested",
+      "④ the heavier the crate, the greater the fuel cost, so weight should be the only criterion in future evaluations",
       "⑤ a successful design must balance protection with costs across the whole journey"
     ],
     "answer": 5,
@@ -7319,11 +7319,11 @@ const QUESTION_BANK = [
     "passage": "A coastal engineer compared two flood forecasts based on identical data. Officials wanted a single number that seemed unquestionably objective. Different assumptions about land use produced substantially different losses. The first interpretation was necessarily (① tentative) because little evidence had yet been collected. The later observation (② contradicted) the expectation on which that interpretation depended. The researchers consequently adopted a (③ absolute) account rather than an unconditional verdict. They examined whether the new evidence was (④ relevant) to the question under investigation. The conclusion remained (⑤ limited) to the conditions in which the observations had been made.",
     "given_sentence": "",
     "choices": [
-      "①번 표시",
-      "②번 표시",
+      "① cumulative",
+      "② confirmed",
       "③번 표시",
-      "④번 표시",
-      "⑤번 표시"
+      "④ preliminary",
+      "⑤ extended"
     ],
     "answer": 3,
     "explanation": "[지문 해석]\n한 해안 공학자가 동일한 데이터를 바탕으로 한 두 가지 홍수 예측을 비교했다. 관계자들은 의심의 여지가 없어 보이는 단일한 수치를 원했다. 토지 이용에 대한 서로 다른 가정들이 상당히 다른 손실을 초래했다. 첫 번째 해석은 아직 수집된 증거가 거의 없었기 때문에 반드시 (① 잠정적)이었다. 나중의 관찰은 그 해석이 의존하던 기대 가설을 (② 배반)했다. 결과적으로 연구자들은 무조건적인 판단보다는 (③ 절대적)인 설명을 채택했다. 그들은 새로운 증거가 조사 대상인 질문과 (④ 관련)이 있는지 검토했다. 결론은 관찰이 이루어진 조건들에 (⑤ 제한)되었다.\n\n[주요 어휘]\n# 수능 영어 주요 단어/표현\n\n1. coastal engineer : 해안 공학자\n2. flood forecast : 홍수 예측\n3. identical : 동일한, 같은\n4. objective : 객관적인\n5. assumption : 가정, 전제\n6. substantially : 실질적으로, 상당히\n7. tentative : 임시적인, 잠정적인\n8. contradiction : 모순, 상충\n9. consequently : 그 결과, 따라서\n10. absolute : 절대적인, 확정적인\n11. relevant : 관련이 있는, 적절한\n12. limited to : ~에 한정되다\n\n[해설]\n③의 absolute는 주변 의미와 충돌합니다. qualified로 수정해야 초기 가설·반증·신중한 결론의 논리가 일관됩니다.\n\n[오답 해설]\n①번: 적절함. 초기 해석이 아직 증거가 부족한 상황에서 이루어졌으므로 '임시적인(tentative)'이 문맥상 올바른 표현이다.\n\n②번: 적절함. 나중의 관찰이 그 해석의 기초가 된 기대에 '모순되었다(contradicted)'는 것은 문맥과 일치한다.\n\n③번: 부적절함. 연구자들이 '무조건적인(absolute)' 설명을 채택했다는 것은 논리에 맞지 않는다. 문맥상 조건부적이고 제한적인 설명을 채택한 것이므로 'conditional' 같은 표현이 더 적절하다.\n\n④번: 적절함. 새로운 증거가 조사 중인 질문과 '관련이 있는지(relevant)' 검토한다는 것은 자연스러운 표현이다.\n\n⑤번: 적절함. 결론이 관찰이 이루어진 조건으로만 '제한되었다(limited)'는 것은 조건부적 해석을 강조하는 문맥과 일치한다.",
@@ -7337,10 +7337,10 @@ const QUESTION_BANK = [
     "given_sentence": "",
     "choices": [
       "① The group had mastered the piece at one fixed speed is justified in all settings",
-      "② why a single observation is enough to settle every possible explanation",
+      "② why mastering a piece at a fixed tempo is sufficient for ensemble performance",
       "③ Flexible performance requires understanding relationships beyond mechanical repetition",
-      "④ the need to ignore early evidence once a new interpretation is proposed",
-      "⑤ the claim that competing explanations cannot be evaluated with evidence"
+      "④ the importance of replacing habitual playing with an entirely new interpretation",
+      "⑤ the idea that shifting tempo exposes flaws that make the original performance worthless"
     ],
     "answer": 3,
     "explanation": "[지문 해석]\n어떤 음악가가 템포를 점진적으로 변화시키는 메트로놈과 함께 연습했다. 그 앙상블은 한 가지 고정된 속도로 곡을 완벽하게 습득했었다. 처음 해석은 쉽게 눈에 띄는 특징에 초점을 맞췄기 때문에 그럴듯해 보였다. 하지만 변화하는 박자는 앙상블이 경청이 아닌 습관에 의존하는 순간들을 드러냈다. 이것이 초기 관찰을 쓸모없게 만들지는 않았다. 오히려 원래의 설명이 중요한 조건을 놓쳤음을 밝혔다. 유연한 연주를 위해서는 기계적인 반복을 넘어서 음악적 관계를 이해해야 한다.\n\n[주요 어휘]\nrehearse : 연습하다, 리허설하다\nmetronome : 메트로놈 (박자를 맞추는 악기)\ngradually : 점차적으로, 서서히\ntempo : 음악의 빠르기, 박자\nmaster : 완전히 익히다, 숙달하다\nplausible : 그럴듯한, 타당해 보이는\nexpose : 드러내다, 노출시키다\nrely on : ~에 의존하다, ~에 의지하다\nmechanical repetition : 기계적인 반복\nflexible : 유연한, 융통성 있는\nbeyond : ~을 넘어서, ~보다 더\n\n[해설]\n초기 기대와 다른 관찰을 통해 얻은 제한적인 결론이 요지입니다. 다른 선택지는 단정적 일반화 또는 근거 없는 판단입니다.\n\n[오답 해설]\n①번: 지문은 메트로놈의 템포 변화가 악단의 습관적 연주를 드러냈다고 했으므로, 고정된 속도에서의 숙달이 모든 상황에서 정당하다는 주장은 지문의 핵심 메시지와 모순된다.\n\n②번: 지문은 처음 관찰이 \"쉽게 보이는 특징에 초점을 맞췄지만\" 중요한 조건을 놓쳤다고 하며, 오히려 여러 설명을 검증해야 함을 시사하므로 단일 관찰로 충분하다는 주장은 거짓이다.\n\n③번: 지문의 마지막 문장 \"Flexible performance requires understanding relationships beyond mechanical repetition\"이 핵심 결론이며, 변화하는 템포가 습관적 반복을 넘어 관계 이해의 필요성을 드러낸 것이 전체 주제이다.\n\n④번: 지문은 \"이전 관찰을 쓸모없게 만들지 않았으며, 원래 설명이 놓친 조건을 드러냈다\"고 명시하므로, 새로운 해석 제안 후 초기 증거를 무시해야 한다는 주장은 지문과 정반대이다.\n\n⑤번: 지문은 메트로놈 실험을 통해 경합하는 설명들(습관적 연주 vs. 유연한 이해)을 증거로 검증할 수 있음을 보여주므로, 경합하는 설명을 검증할 수 없다는 주장은 거짓이다.",
@@ -7370,11 +7370,11 @@ const QUESTION_BANK = [
     "passage": "Dear Review Committee,\n\nA researcher watched children invent rules for an unfamiliar board game. Adults had assumed the printed instructions would be sufficient. In fact, rules became stable only after players explained disputes to one another. I am not asking you to dismiss the original project; I am requesting that its evaluation include the additional evidence and explicitly state the limits of the initial conclusion. Such a review would make the assessment fairer.\n\nSincerely,\nA project participant",
     "given_sentence": "",
     "choices": [
-      "① To demand that the project be cancelled without another evaluation",
-      "② To announce that the first interpretation has already been fully confirmed",
+      "① To argue that the printed instructions should be rewritten by the committee",
+      "② To suggest that the board game experiment be excluded from the project entirely",
       "③ To request a reassessment that accounts for conflicting evidence",
-      "④ To request a larger budget without discussing evaluation criteria",
-      "⑤ To invite committee members to an unrelated public celebration"
+      "④ To propose that the committee personally observe children playing the board game",
+      "⑤ To complain that the researcher's findings were dismissed without proper documentation"
     ],
     "answer": 3,
     "explanation": "[지문 해석]\n검토위원회에 드립니다,\n\n한 연구자가 아이들이 낯선 보드게임의 규칙을 만드는 과정을 관찰했습니다. 성인들은 인쇄된 지시사항만으로도 충분할 것이라고 가정했습니다. 그러나 실제로 규칙은 참가자들이 서로 분쟁에 대해 설명한 후에야 안정화되었습니다. 저는 원래 프로젝트를 무시해 달라는 것이 아닙니다. 다만 그 평가에 추가 증거를 포함하고 초기 결론의 한계를 명시적으로 기술해 달을 요청하는 것입니다. 이러한 검토는 평가를 더욱 공정하게 만들 것입니다.\n\n진심으로,\n프로젝트 참여자 일동\n\n[주요 어휘]\n1. Review Committee : 검토위원회\n2. researcher : 연구자\n3. invent : 만들어내다, 창안하다\n4. unfamiliar : 낯선, 익숙하지 않은\n5. assume : 가정하다, 추정하다\n6. sufficient : 충분한\n7. stable : 안정적인, 확고한\n8. dispute : 분쟁, 논쟁\n9. dismiss : 무시하다, 배척하다\n10. evaluation : 평가, 검토\n11. additional evidence : 추가 증거\n12. explicitly state : 명시적으로 명시하다\n\n[해설]\n편지의 핵심 요청은 기존 평가에 후속 관찰을 반영하고 초기 결론의 한계를 명시해 달라는 것입니다.\n\n[오답 해설]\n①번: 글쓴이는 \"I am not asking you to dismiss the original project\"라고 명시하며 프로젝트 취소를 요구하지 않고 있으므로 오답이다.\n\n②번: 글쓴이가 추가 증거를 제시하며 초기 결론의 한계를 지적하고 있으므로, 첫 해석이 완전히 확인되었다는 내용은 지문과 모순된다.\n\n③번: 글쓴이가 \"additional evidence\"와 \"limits of the initial conclusion\"을 언급하며 이를 평가에 포함할 것을 요청하고 있으므로, 상충하는 증거를 고려한 재평가를 요청하는 표현과 정확히 일치한다.\n\n④번: 글쓴이는 평가 기준에 대해 논의하면서 예산 증액을 요구한 적이 없으며, 평가 재검토를 중심으로 요청하고 있다.\n\n⑤번: 글쓴이는 검토 위원회에 공식적인 평가 재검토를 요청하고 있으며, 무관한 공개 행사 초청과는 전혀 관련이 없다.",
@@ -7387,11 +7387,11 @@ const QUESTION_BANK = [
     "passage": "At first, I felt reassured by the seemingly straightforward explanation. Administrators celebrated the overall rise in participation. A remote clinic introduced video consultations for routine follow-ups. When I learned that attendance improved for patients living far away but declined among those with unstable internet, my confidence weakened. I wondered how much I had missed by attending only to the result that supported my expectation. I reconsidered my judgment. By the end, I was still uncertain about every detail, but I felt more willing to investigate than to defend my first impression.",
     "given_sentence": "",
     "choices": [
-      "① from distrust of the team to unconditional hostility",
+      "① from initial reassurance to frustration with the clinic's decision",
       "② from confidence to reflective curiosity",
-      "③ from confidence to a refusal to reconsider any evidence",
-      "④ from disappointment to certainty that all questions are settled",
-      "⑤ from curiosity to indifference about the investigation"
+      "③ from confidence to relief that participation data confirmed the original plan",
+      "④ from disappointment at remote patients' low attendance to certainty about video consultation's failure",
+      "⑤ from curiosity about internet access issues to acceptance of the administrator's conclusion"
     ],
     "answer": 2,
     "explanation": "[지문 해석]\n처음에는 겉보기에 간단한 설명이 있어서 안심했다. 관리자들은 전반적인 참여 증가를 축하했다. 한 원격 진료소는 정기 진료를 위해 화상 상담을 도입했다. 먼 곳에 사는 환자들의 출석은 개선되었지만 불안정한 인터넷을 가진 사람들 중에서는 감소했다는 것을 알게 되자, 나의 확신이 흔들렸다. 내 기대를 뒷받침하는 결과만 살펴봄으로써 얼마나 많은 것을 놓쳤는지 궁금해했다. 나는 내 판단을 다시 생각해 보았다. 결국 모든 세부 사항에 대해 여전히 확실하지 않았지만, 처음 인상을 방어하기보다는 조사하려는 의지가 더 생겼다.\n\n[주요 어휘]\nreassured : 안심시킨, 안도감을 준\nstraightforward : 단순한, 명확한\nparticipation : 참여, 참가\nremote clinic : 원격 진료소\nattendance : 출석, 참석\nunstable internet : 불안정한 인터넷\nconfidence weakened : 확신이 약해지다\nmissed : 놓치다, 간과하다\nexpectation : 기대, 예상\nreconsidered : 다시 생각해보다\nuncertain : 확실하지 않은, 불확실한\ndefend : 옹호하다, 지키다\n\n[해설]\n초기의 confident/reassured와 후반의 reconsider, willing to investigate가 대비되므로 확신에서 성찰적 탐구로의 변화입니다.\n\n[오답 해설]\n①번: 지문에서 저자가 팀을 신뢰하지 않거나 적대적이 되었다는 증거가 없다. 저자는 단순히 자신의 판단을 재검토하고 더 조사하려는 태도를 보일 뿐 팀에 대한 불신이나 적대감을 드러내지 않는다.\n\n②번: 정답이다. 저자는 처음에 \"reassured\"되었지만, 추가 정보를 통해 자신의 기대를 뒷받침하는 결과만 봤다는 깨달음을 얻고, 결국 \"더 방어하기보다는 조사하려는 의지\"를 보이는 심경 변화를 드러낸다.\n\n③번: 지문에서 저자는 \"my confidence weakened\"라고 명시하며 자신의 판단을 재검토하는 모습을 보인다. 따라서 증거를 거부하고 재검토를 거부한다는 설명은 정반대로 잘못되었다.\n\n④번: 저자는 \"I was still uncertain about every detail\"이라고 명확히 표현하므로 모든 질문이 해결되었다는 확실성에 도달하지 않았다. 지문의 내용과 정반대이다.\n\n⑤번: 저자는 마지막에 \"more willing to investigate\"라고 명시하며 조사에 대한 의욕을 드러낸다. 따라서 조사에 대한 무관심으로 변했다는 설명은 틀렸다.",
@@ -7404,11 +7404,11 @@ const QUESTION_BANK = [
     "passage": "A painter compared sketches made from memory with those made on site. She had expected memory to preserve a neutral copy of the scene. At first, that account seemed attractive: it offered a simple explanation that could be communicated without further qualification. In fact, memory drawings exaggerated the shapes that had attracted her attention. Two observers could accept the same facts yet reach different judgments because they attached different importance to the underlying assumptions. Remembering is a selective reconstruction rather than passive storage. An adequate account must make those assumptions explicit before treating its conclusion as general. This conclusion is not identical to the first assumption; it must account for the later observation and for the limits of the original measure. In particular, the new evidence may justify changing the interpretation without proving that the earlier account was mistaken in every conceivable setting. Consequently, the preferred interpretation should explain both the initial expectation and the evidence that complicates it, without pretending that a single example establishes a universal rule.",
     "given_sentence": "",
     "choices": [
-      "① An observed difference should be treated as a universal rule without further examination.",
-      "② Decision-makers should judge an intervention solely by its most visible immediate result.",
+      "① An account of memory should prioritize the observer's initial expectation over any later evidence that complicates it.",
+      "② Two observers who attach different importance to the same facts should settle their disagreement by returning to the original sketch made on site.",
       "③ Decisions should retain the original assumption because she had expected memory to preserve a neutral copy of the scene.",
       "④ Decisions should reflect this insight: remembering is a selective reconstruction rather than passive storage.",
-      "⑤ If evidence is mixed, decision-makers should avoid weighing the competing explanations at all."
+      "⑤ If new evidence conflicts with the earlier account, the preferred interpretation should prove the original assumption was mistaken in every conceivable setting."
     ],
     "answer": 4,
     "explanation": "[지문 해석]\n한 화가가 기억을 바탕으로 그린 스케치와 현장에서 그린 스케치를 비교했다. 그녀는 기억이 장면을 중립적으로 그대로 보존할 것이라고 예상했다. 처음에는 그 설명이 그럴듯해 보였다. 더 이상의 설명 없이도 전달할 수 있는 간단한 설명을 제시했기 때문이다. 그러나 실제로 기억에서 그린 그림들은 그녀의 관심을 끈 형태들을 과장했다. 두 관찰자가 동일한 사실을 받아들이면서도 근저의 가정에 다른 중요성을 부여함으로써 서로 다른 판단에 이를 수 있다. 기억하기란 수동적 저장이 아니라 선택적 재구성이다. 타당한 설명이 결론을 일반적인 것으로 취급하기 전에 그러한 가정들을 명시적으로 드러내야 한다. 이 결론은 처음 가정과 동일하지 않으며, 나중의 관찰과 원래 측정의 한계를 설명해야 한다. 특히 새로운 증거는 초기의 설명이 모든 가능한 상황에서 잘못되었음을 증명하지 않으면서도 해석을 바꿀 타당성을 제공할 수 있다. 따라서 선호되는 해석은 초기의 기대와 그것을 복잡하게 만드는 증거를 모두 설명해야 하며, 단 하나의 사례가 보편적 규칙을 확립한다고 가정해서는 안 된다.\n\n[주요 어휘]\n1. preserve : 보존하다, 유지하다\n2. neutral : 중립적인, 객관적인\n3. exaggerate : 과장하다\n4. selective reconstruction : 선택적 재구성\n5. passive storage : 수동적 저장\n6. adequate : 충분한, 적절한\n7. explicit : 명시적인, 분명한\n8. justify : 정당화하다, 근거를 제시하다\n9. interpretation : 해석, 이해\n10. complicates : 복잡하게 만들다\n11. conceivable : 생각할 수 있는, 상상 가능한\n12. universal rule : 보편적 규칙\n\n[해설]\n필자는 초기 판단을 그대로 유지하기보다 관찰의 조건과 반례를 반영해 결론을 조정해야 한다고 주장합니다.\n\n[오답 해설]\n①번: 지문은 \"a single example establishes a universal rule\"을 피해야 한다고 명시하므로, 관찰된 차이를 보편적 규칙으로 취급하는 것은 필자의 주장과 정반대이다.\n\n②번: 지문은 단순한 설명보다 \"underlying assumptions을 명시\"하고 \"later observation\"을 함께 고려할 것을 강조하므로, 가장 눈에 띄는 즉각적 결과만으로 판단하는 것은 필자의 의도에 위배된다.\n\n③번: 필자는 초기 기대와 달리 새로운 증거를 통해 해석을 변경해야 한다고 주장하므로, 원래 가정을 고수하는 것은 필자의 핵심 메시지인 \"selective reconstruction\"의 의미를 무시하는 것이다.\n\n④번: 지문의 핵심 주장인 \"Remembering is a selective reconstruction rather than passive storage\"는 의사 결정이 단순한 중립적 사실이 아닌 주관적 선택 과정을 반영해야 함을 보여주므로, 이를 기반으로 한 결정이 필자의 주장과 정확히 일치한다.\n\n⑤번: 필자는 \"두 관찰자가 같은 사실을 받아들이면서도 다른 판단을 할 수 있다\"고 언급하며 경쟁하는 설명들을 비교 검토해야 한다고 암시하므로, 혼합된 증거 앞에서 무게 재기를 피하는 것은 필자의 권고에 맞지 않는다.",
@@ -7422,10 +7422,10 @@ const QUESTION_BANK = [
     "given_sentence": "",
     "choices": [
       "① Beyond the First Explanation: Coordination among limited instruments can produce valuable evidence",
-      "② Why a Single Indicator Is Sufficient for Every Decision",
-      "③ A Familiar Prediction That Needed No Further Examination",
-      "④ When Background Details Replace All Empirical Evidence",
-      "⑤ The Complete Failure of Observation in Practical Research"
+      "② How Expensive Telescopes Confirm Every Initial Assumption",
+      "③ The Sponsor's Expectation: When Costly Equipment Settles All Disputes",
+      "④ One Large Telescope as the Only Path to Astronomical Discovery",
+      "⑤ Why the First Account Must Be Abandoned Once New Evidence Appears"
     ],
     "answer": 1,
     "explanation": "[지문 해석]\n한 천문학자가 여러 대의 소형 망원경으로부터 얻은 관측 자료를 결합했다. 한 후원자는 고가의 장비를 완벽한 관측 범위와 동일시했다. 처음에 그 설명은 매력적으로 보였다. 추가적인 설명 없이 전달될 수 있는 단순한 해석을 제시했기 때문이다. 실제로는 서로 다른 관측 시간대가 단일한 대형 망원경으로는 채울 수 없는 공백을 메워주었다. 그 결과는 유용한 단서를 제공하지만, 동일한 메커니즘이 모든 조건에서 작동할 것임을 증명하지는 못한다. 제한된 기기들 간의 협력은 귀중한 증거를 생산할 수 있다. 더욱 타당한 추론은 의도적으로 제한적이다. 즉, 모든 불확실성이 사라졌다고 주장하지 않으면서도 관찰된 대조를 설명한다. 이 결론은 처음의 가정과 동일하지 않다. 이후의 관찰과 원래 측정의 한계를 고려해야 한다. 특히 새로운 증거는 이전의 설명이 상상할 수 있는 모든 상황에서 잘못되었음을 증명하지 않으면서도 해석을 바꾸는 것을 정당화할 수 있다. 따라서 선호하는 해석은 초기의 기대와 그것을 복잡하게 만드는 증거를 모두 설명해야 하며, 단 하나의 사례가 보편적 원칙을 수립한다고 주장해서는 안 된다.\n\n[주요 어휘]\n1. equate : ~을 같다고 보다, 동일시하다\n2. equipment : 장비, 기구\n3. coverage : 범위, 커버 범위\n4. qualify : 한정하다, 제한을 두다\n5. gap : 공백, 빈틈\n6. mechanism : 메커니즘, 작동 방식\n7. inference : 추론, 결론\n8. deliberately : 의도적으로, 신중하게\n9. account : 설명, 해석\n10. justify : 정당화하다, 근거를 제시하다\n11. universal rule : 보편적 규칙\n\n[해설]\n초기 설명과 후속 관찰의 불일치를 통해 더 정교한 판단으로 옮겨가는 글 전체를 포괄합니다.\n\n[오답 해설]\n①번: 지문의 핵심입니다. 초기의 단순한 설명(비싼 장비가 필요하다는 가정)을 넘어서서, 제한된 장비들의 조율이 가치 있는 증거를 만들 수 있다는 더 나은 해석을 제시하는 내용과 정확히 일치합니다.\n\n②번: 지문은 단일 지표(expensive equipment)로는 불충분하며, 여러 관찰의 조율이 필요함을 강조하므로 오답입니다.\n\n③번: 지문은 초기 가정이 \"간단하지만 불충분하며 재검토가 필요하다\"는 점을 드러내고 있으므로, \"더 이상의 검토가 필요 없는 친숙한 예측\"이라는 선지는 지문의 논지에 정반대입니다.\n\n④번: 지문은 배경 세부사항이 모든 경험적 증거를 대체한다고 주장하지 않으며, 오히려 초기 관찰과 후속 증거를 모두 설명하는 균형잡힌 해석을 옹호합니다.\n\n⑤번: 지문은 관찰의 완전한 실패를 논하는 것이 아니라, 제한된 도구들의 조율을 통해 관찰의 한계를 극복할 수 있음을 보여주므로 오답입니다.",
@@ -7455,9 +7455,9 @@ const QUESTION_BANK = [
     "passage": "A sociologist compared how neighbors interpreted silence in shared courtyards. A housing committee had imposed a single definition of friendliness. The new evidence, however, was more informative than the original label: some saw quiet as respect while others understood it as social exclusion. The difficulty is to account for both the attraction of the earlier interpretation and its failure to explain the later observation. The evidence is most consistent with the conclusion that __________. A defensible choice should explain the contrast without converting a local finding into a universal rule.",
     "given_sentence": "",
     "choices": [
-      "① the evidence has no bearing on how the original claim should be assessed",
+      "① the housing committee's definition of friendliness remained the most reliable guide for interpreting silence in shared courtyards",
       "② some saw quiet as respect while others understood it as social exclusion, which proves that the same result is inevitable everywhere",
-      "③ the initial assumption must be rejected even in circumstances for which it was never tested",
+      "③ the original label of friendliness should be discarded whenever neighbors disagree about the meaning of quiet spaces",
       "④ a housing committee had imposed a single definition of friendliness, with no adjustment for the new evidence",
       "⑤ the meaning of behavior can depend on different cultural expectations"
     ],
@@ -7507,10 +7507,10 @@ const QUESTION_BANK = [
     "given_sentence": "",
     "choices": [
       "①번 표시",
-      "②번 표시",
-      "③번 표시",
-      "④번 표시",
-      "⑤번 표시"
+      "② confirmed",
+      "③ unconditional",
+      "④ irrelevant",
+      "⑤ extended"
     ],
     "answer": 1,
     "explanation": "[지문 해석]\n한 생물학자가 희귀 식물을 보호된 온실로 옮겼다. 보전 팀은 식물의 생존 여부만으로 성공을 판단했다. 식물들은 살아남았지만 더 이상 평소의 수분 매개자들로부터 방문을 받지 못했다. 아직 충분한 증거가 수집되지 않았기 때문에 처음의 해석은 반드시 (① 확실한) 것일 수밖에 없었다. 이후의 관찰은 그 해석이 근거하고 있던 예상을 (② 모순시켰다). 그 결과 연구진은 절대적 판단보다는 (③ 제한적인) 설명을 채택했다. 그들은 새로운 증거가 조사 중인 문제와 (④ 관련성이 있는지) 검토했다. 결론은 관찰이 이루어진 조건들로만 (⑤ 제한되었다).\n\n[주요 어휘]\n# 수능 영어 필수 어휘\n\nrare : 희귀한, 드문\nprotected greenhouse : 보호된 온실\nconservation : 보존, 보호\nmeasure success : 성공을 측정하다\npollinator : 수분 매개자 (곤충 등)\ninterpretation : 해석, 해석\nnecessarily : 반드시, 필연적으로\ncontradicted : 모순되다, 반박하다\nqualified : 제한된, 조건부의\nrelevant : 관련 있는, 적절한\nexamine : 조사하다, 검토하다\nconclusion : 결론\nlimited to : ~으로 제한되다\n\n[해설]\n①의 certain는 주변 의미와 충돌합니다. tentative로 수정해야 초기 가설·반증·신중한 결론의 논리가 일관됩니다.\n\n[오답 해설]\n①번: 정답. \"little evidence had yet been collected\"라는 조건 하에서 해석이 \"필연적으로 불확실했다\"는 의미의 'certain'이 적절하다. 증거 부족 상황에서는 확실한 결론을 내릴 수 없기 때문이다.\n\n②번: 오답. 'contradicted'는 \"모순되었다\"는 뜻으로, 원래 기대와 반대되는 관찰이 있었음을 나타낸다. 문맥상 후속 관찰이 초기 해석의 가정을 부정했으므로 의미가 맞지만, 정답은 ①번이다.\n\n③번: 오답. 'qualified'는 \"제한적인, 조건부의\"라는 뜻으로 문맥에 적절해 보이지만, 이 위치에서는 단순히 \"더 신중한\"이라는 의미만 필요하므로 정답 선지가 아니다.\n\n④번: 오답. 'relevant'는 \"관련이 있는\"이라는 뜻으로 문맥상 적절하지만, 이 문장에서는 새로운 증거가 조사 대상 질문과의 관련성을 검토했다는 의미이므로 정답이 아니다.\n\n⑤번: 오답. 'limited'는 \"제한된\"이라는 뜻으로 문맥상 타당하지만, 결론이 관찰 조건에만 국한되었다는 의미보다는 다른 어휘가 더 적절하므로 정답이 아니다.",
@@ -7525,9 +7525,9 @@ const QUESTION_BANK = [
     "choices": [
       "① Good evaluation separates decision quality from immediate results",
       "② The team had previously judged strategy only by whether a play succeeded is justified in all settings",
-      "③ why a single observation is enough to settle every possible explanation",
-      "④ the need to ignore early evidence once a new interpretation is proposed",
-      "⑤ the claim that competing explanations cannot be evaluated with evidence"
+      "③ athletes should focus on improving tactical decisions rather than match outcomes",
+      "④ coaches should prioritize winning results over the quality of players' in-game choices",
+      "⑤ describing tactical errors after matches discourages players from taking strategic risks"
     ],
     "answer": 1,
     "explanation": "[지문 해석]\n스포츠 코치가 선수들에게 경기 후 전술적 오류를 설명하도록 요구했다. 팀은 이전까지 플레이의 성공 여부로만 전략을 판단했다. 그러나 선수들은 잘못된 판단을 운이 없는 결과와 구분하는 법을 배웠다. 올바른 평가는 의사결정의 질을 즉각적인 결과로부터 분리한다.\n\n[주요 어휘]\ntactical error : 전술적 오류\ndistinguish : 구별하다\ndecision quality : 결정의 질\nimmediate results : 즉각적인 결과\nevaluate : 평가하다\noutcome : 결과, 결말\nstrategy : 전략\nsucceed : 성공하다\nunlucky : 운이 없는\nseparate : 분리하다, 구별하다\njudged by : ~에 의해 판단되다\n\n[해설]\n초기 기대와 다른 관찰을 통해 얻은 제한적인 결론이 요지입니다. 다른 선택지는 단정적 일반화 또는 근거 없는 판단입니다.\n\n[오답 해설]\n①번: 지문의 핵심 메시지를 정확히 담고 있다. 코치가 선수들에게 지도한 것은 운이 나쁜 결과와 잘못된 판단을 구분하는 능력이며, 이것이 바로 좋은 평가의 본질이다.\n\n②번: \"모든 상황에서 정당화된다\"는 표현이 과도하다. 지문은 팀이 과거에 했던 방식의 문제점을 지적할 뿐, 그것이 절대 부정되어야 한다고 주장하지 않는다.\n\n③번: 지문과 무관한 내용이다. \"단일 관찰로 모든 설명을 해결할 수 있다\"는 주장은 지문에서 논의되지 않으며, 오히려 다양한 요소를 구분해야 한다는 지문의 취지와 맞지 않는다.\n\n④번: 지문의 요지와 반대 방향이다. 지문은 초기 증거를 무시하는 것이 아니라 그것을 제대로 평가하고 여러 해석을 구분할 것을 강조한다.\n\n⑤번: 지문과 불일치한다. 지문은 오히려 증거를 통해 다양한 설명(좋은 판단 vs 운)을 평가하고 구분할 수 있다는 것을 보여준다.",
@@ -7557,10 +7557,10 @@ const QUESTION_BANK = [
     "passage": "Dear Review Committee,\n\nA botanist observed roots growing around a buried stone. A textbook diagram had represented growth as a fixed straight line. In fact, the roots altered direction while continuing toward moisture. I am not asking you to dismiss the original project; I am requesting that its evaluation include the additional evidence and explicitly state the limits of the initial conclusion. Without this change, the next funding decision could reward an incomplete indicator rather than the project's actual performance.\n\nSincerely,\nA project participant",
     "given_sentence": "",
     "choices": [
-      "① To invite committee members to an unrelated public celebration",
-      "② To demand that the project be cancelled without another evaluation",
-      "③ To request a larger budget without discussing evaluation criteria",
-      "④ To announce that the first interpretation has already been fully confirmed",
+      "① To suggest replacing the textbook diagram with the botanist's field observations",
+      "② To argue that the root growth data should override all prior botanical findings",
+      "③ To propose extending the project timeline to gather more moisture-related measurements",
+      "④ To confirm that the committee has already acknowledged the root direction findings",
       "⑤ To request a reassessment that accounts for conflicting evidence"
     ],
     "answer": 5,
@@ -7574,11 +7574,11 @@ const QUESTION_BANK = [
     "passage": "At first, I felt reassured by the seemingly straightforward explanation. Advocates described the project as having benefits without costs. A city replaced a noisy intersection with a small public square. When I learned that street vendors gained customers, but delivery drivers needed a new route, my confidence weakened. I wondered how much I had missed by attending only to the result that supported my expectation. I resisted admitting the limitation because I had defended the earlier account in public. Yet the more carefully I compared the observations, the clearer the need for revision became. By the end, I was still uncertain about every detail, but I felt more willing to investigate than to defend my first impression.",
     "given_sentence": "",
     "choices": [
-      "① from confidence to a refusal to reconsider any evidence",
-      "② from disappointment to certainty that all questions are settled",
-      "③ from distrust of the team to unconditional hostility",
+      "① from confidence to a firm defense of the original account",
+      "② from reassurance to relief that the project had no real drawbacks",
+      "③ from initial doubt to full acceptance of the advocates' description",
       "④ from confidence to reflective curiosity",
-      "⑤ from curiosity to indifference about the investigation"
+      "⑤ from weakened confidence to abandonment of the investigation"
     ],
     "answer": 4,
     "explanation": "[지문 해석]\n처음에는 겉보기에 단순명백한 설명에 안심했다. 그 사업 옹호자들은 비용 없이 이득만 있다고 설명했다. 어느 도시가 시끄러운 교차로를 작은 공공광장으로 바꿨다. 거리 노점상들은 고객이 늘었지만 배달 기사들은 새로운 경로가 필요하다는 사실을 알게 되자 내 확신이 흔들렸다. 내 예상을 뒷받침하는 결과에만 관심을 기울임으로써 얼마나 많은 것을 놓쳤을지 의문이 들었다. 그 설명을 공개적으로 옹호했기 때문에 이러한 한계를 인정하기 싫었다. 그러나 관찰 결과들을 더 주의 깊게 비교할수록 수정의 필요성이 더욱 명확해졌다. 결국 모든 세부 사항에 대해 여전히 불확실했지만, 처음 인상을 옹호하기보다는 더 깊이 조사하려는 마음이 생겼다.\n\n[주요 어휘]\nreassured : 안심시킨, 안도감을 준\nstraightforward : 단순한, 명확한\nadvocates : 옹호자들, 주장하는 사람들\nbenefits without costs : 비용 없는 이익, 순이익\nconfidence weakened : 확신이 약해졌다\nmissed : 놓쳤다, 간과했다\nresisted admitting : 인정하기를 거부했다\nlimitation : 한계, 제한\ndefended : 옹호했다, 변호했다\nrevision : 수정, 재검토\nimpression : 인상, 첫인상\nwillingness : 기꺼이 하려는 마음\n\n[해설]\n초기의 confident/reassured와 후반의 reconsider, willing to investigate가 대비되므로 확신에서 성찰적 탐구로의 변화입니다.\n\n[오답 해설]\n①번: 저자는 처음에는 확신이 있었지만, 나중에 증거를 재검토하고 싶은 마음이 생겼으므로 '증거를 재고려하기를 거부'한다는 내용은 맞지 않습니다.\n\n②번: 저자는 마지막에 '모든 세부 사항에 대해 여전히 불확실하다'고 명시했으므로, 모든 문제가 해결되었다는 확실성에 도달했다는 설명은 거짓입니다.\n\n③번: 지문에서 팀에 대한 신뢰 문제나 적대감에 대해 언급하지 않으므로 부적절하며, 저자의 심경 변화 과정을 전혀 반영하지 못합니다.\n\n④번: 저자는 초반의 단순한 확신에서 시작하여, 결국 '조사하려는 의욕이 더 크다'며 신중한 태도로 전환되었으므로 정답입니다.\n\n⑤번: 저자는 '조사하려는 의욕보다 첫 인상을 방어하려는 욕구가 컸다'가 아니라 조사에 더 적극적인 태도로 변했으므로, 무관심으로의 변화는 거짓입니다.",
@@ -7593,9 +7593,9 @@ const QUESTION_BANK = [
     "choices": [
       "① Decisions should reflect this insight: the history of maintenance can itself be part of an object's significance.",
       "② Decisions should retain the original assumption because some collectors wanted all traces of repair erased.",
-      "③ Decision-makers should judge an intervention solely by its most visible immediate result.",
-      "④ If evidence is mixed, decision-makers should avoid weighing the competing explanations at all.",
-      "⑤ An observed difference should be treated as a universal rule without further examination."
+      "③ Decisions should prioritize erasing visible repairs so that an object's restored state reflects only its original condition.",
+      "④ If an earlier explanation proves incomplete, decision-makers should discard it entirely rather than refine it with additional conditions.",
+      "⑤ When a repair leaves a visible trace on an antique, the significance of that object should be measured by the extent of damage it originally sustained."
     ],
     "answer": 1,
     "explanation": "[지문 해석]\n한 박물관이 골동품 시계를 복원했지만 수리 흔적 하나를 의도적으로 남겨두었다. 일부 수집가들은 수리의 모든 흔적을 없애기를 원했다. 첫 번째 해석은 쉽게 눈에 띄는 특징에 초점을 맞췄기 때문에 그럴듯해 보였다. 그러나 방문객들은 후대 세대들이 어떻게 그 시계의 메커니즘을 작동하게 유지했는지를 이해했다. 이것이 앞서의 관찰을 쓸모없게 만들지는 않았다. 오히려 원래의 설명이 중요한 조건을 놓쳤다는 것을 드러냈다. 유지 보수의 역사 자체가 물건의 가치의 일부가 될 수 있다.\n\n[주요 어휘]\nrestore : 복원하다\nantique : 골동품의, 오래된\nvisible : 눈에 띄는, 보이는\nrepair : 수리, 복구\nerase : 지우다, 제거하다\nplausible : 그럴듯한, 타당한\nmechanism : 장치, 구조\nmaintenance : 유지, 보수\nsignificance : 중요성, 의미\ngeneration : 세대\nobservation : 관찰, 의견\nmiss : 놓치다, 간과하다\n\n[해설]\n필자는 초기 판단을 그대로 유지하기보다 관찰의 조건과 반례를 반영해 결론을 조정해야 한다고 주장합니다.\n\n[오답 해설]\n①번: 지문의 마지막 문장 \"The history of maintenance can itself be part of an object's significance\"를 직접 인용하며, 박물관의 수리 흔적 보존 결정이 이러한 통찰에 기반해야 한다는 필자의 핵심 주장을 정확히 반영한다. 정답.\n\n②번: 수집가들이 모든 수리 흔적을 지우길 원했다는 것은 지문에서 비판적으로 제시된 입장일 뿐, 필자가 지지하는 관점이 아니다. 오히려 필자는 방문객들의 이해(유지보수의 역사 인식)가 더 타당함을 보여준다.\n\n③번: 지문은 \"easily visible feature\"에만 집중한 초기 해석을 불완전하다고 지적하며, 단순히 '가장 눈에 띄는 즉각적 결과'만으로는 충분하지 않음을 명시적으로 드러낸다.\n\n④번: 지문은 상충하는 두 설명(수집가 vs 방문객)을 비교 검토한 결과, 초기 해석이 \"중요한 조건을 놓쳤다\"고 판단한다. 따라서 증거가 혼재할 때 '비교를 피해야 한다'는 주장은 지문과 정반대다.\n\n⑤번: 지문은 관찰된 차이(초기 해석의 한계)를 보편적 규칙으로 무비판적으로 적용하지 않고, 오히려 \"중요한 조건을 놓쳤다\"는 구체적 원인을 파악하는 더 깊은 검토를 강조한다.",
@@ -7608,11 +7608,11 @@ const QUESTION_BANK = [
     "passage": "A researcher tracked bird migration using tags and local observations. A supervisor wanted to choose only the more accurate source. The first interpretation was plausible because it focused on an easily visible feature. But tagged birds provided precise paths while volunteer sightings covered a wider area. This did not make the earlier observation useless; it revealed that the original explanation had missed an important condition. Combining precision with coverage may improve a picture that neither source provides alone.",
     "given_sentence": "",
     "choices": [
-      "① A Familiar Prediction That Needed No Further Examination",
+      "① Tag Data Alone: How Precise Migration Paths Eliminate the Need for Volunteer Sightings",
       "② Beyond the First Explanation: Combining precision with coverage may improve a picture that neither source provides alone",
-      "③ The Complete Failure of Observation in Practical Research",
-      "④ When Background Details Replace All Empirical Evidence",
-      "⑤ Why a Single Indicator Is Sufficient for Every Decision"
+      "③ The Inevitable Conflict Between Tagged Records and Field Observations in Bird Studies",
+      "④ When Wider Coverage Proves That Precise Tracking Data Is Fundamentally Misleading",
+      "⑤ Why the First Plausible Explanation of Migration Routes Requires No Revision"
     ],
     "answer": 2,
     "explanation": "[지문 해석]\n한 연구자가 태그와 현지 관찰을 이용해 조류 이동을 추적했다. 감독자는 더 정확한 출처만 선택하고 싶어 했다. 첫 번째 해석은 쉽게 관찰할 수 있는 특징에 초점을 맞췄기 때문에 그럴듯했다. 하지만 태그가 붙은 새들은 정확한 이동 경로를 제공한 반면, 자원봉사자들의 목격담은 더 넓은 지역을 포함했다. 이것이 초기 관찰을 쓸모없게 만들지는 않았다. 오히려 원래의 설명이 중요한 조건을 놓쳤음을 드러냈다. 정밀함과 광범위함을 결합하면 어느 한 출처도 단독으로는 제공할 수 없는 더 나은 그림을 얻을 수 있다.\n\n[주요 어휘]\nmigration : 이동, 이주\ntag : (추적용) 태그, 표지\nplausible : 그럴듯한, 타당해 보이는\nprecisely : 정확하게\ncoverage : 범위, 커버 범위\nsighting : 목격, 관찰\nuseless : 쓸모없는, 무용지물인\nreveal : 드러내다, 밝혀내다\nmiss : 놓치다, 간과하다\ncondition : 조건, 상황\ncombining : 결합하다, 함께 사용하다\nprecision : 정확성, 정밀도\n\n[해설]\n초기 설명과 후속 관찰의 불일치를 통해 더 정교한 판단으로 옮겨가는 글 전체를 포괄합니다.\n\n[오답 해설]\n①번: \"익숙한 예측으로 더 이상의 검토가 필요 없었다\"는 지문의 핵심과 배치된다. 지문은 첫 번째 해석이 타당했지만 더 나은 방법을 찾아야 한다는 주장을 전개하므로 부정확하다.\n\n②번: 정답. 지문의 마지막 문장 \"Combining precision with coverage may improve a picture that neither source provides alone\"을 직접 인용하며, 단일 방법이 아닌 두 정보원의 결합이라는 핵심 메시지를 정확히 반영한다.\n\n③번: \"관찰의 완전한 실패\"라는 극단적 주장은 지문과 맞지 않는다. 지문은 자원봉사자 관찰이 \"쓸모없지 않다\"고 명시하며 각 방법의 가치를 인정한다.\n\n④번: \"배경 세부사항이 모든 경험적 증거를 대체한다\"는 내용은 지문에 없다. 지문은 증거 대체가 아닌 여러 증거의 통합을 주장하므로 무관하다.\n\n⑤번: \"단일 지표가 모든 결정에 충분하다\"는 주장은 지문의 주의(主意)와 정반대다. 지문은 정확히 단일 정보원만으로는 부족하며 결합이 필요함을 강조한다.",
@@ -7643,10 +7643,10 @@ const QUESTION_BANK = [
     "given_sentence": "",
     "choices": [
       "① replacing a damaged component solved one problem but shifted stress elsewhere, which proves that the same result is inevitable everywhere",
-      "② the evidence has no bearing on how the original claim should be assessed",
+      "② inspecting each bridge component in isolation is sufficient to identify the structural cause of vibration",
       "③ connections between components can create unexpected system-level effects",
       "④ the first team had inspected each component separately, with no adjustment for the new evidence",
-      "⑤ the initial assumption must be rejected even in circumstances for which it was never tested"
+      "⑤ the damaged component was the sole source of stress that caused the bridge to vibrate under load"
     ],
     "answer": 3,
     "explanation": "[지문 해석]\n한 엔지니어가 특정 하중에서 수리된 다리가 진동하는 이유를 조사했다. 첫 번째 팀은 각 부품을 따로 검사했다. 그러나 손상된 부품을 교체하면 한 가지 문제는 해결되었지만 스트레스가 다른 곳으로 이동했다. 증거는 다음 결론과 가장 일치한다: __________.\n\n[주요 어휘]\nexamine : 조사하다, 검토하다\nvibrate : 진동하다\ncomponent : 부품, 구성 요소\ninspect : 검사하다, 살펴보다\nreplace : 교체하다, 대체하다\ndamaged : 손상된, 파손된\nshift : 이동하다, 옮기다\nstress : 응력, 압력\nevidence : 증거\nconsistent with : ~과 일치하다, ~과 부합하다\nconclusion : 결론\nisolated inspection : 개별 검사\n\n[해설]\n기초 관찰: Replacing a damaged component solved one problem but shifted stress elsewhere. 초기 해석: The first team had inspected each component separately. 따라서 Connections between components can create unexpected system-level effects. 다만 단일 사례가 모든 상황으로 일반화되는 것은 아닙니다.\n\n[오답 해설]\n①번: 지문에서 \"replacing a damaged component solved one problem but shifted stress elsewhere\"라는 사실만 언급했을 뿐, 이것이 \"inevitable everywhere(모든 곳에서 불가피하다)\"는 절대적 결론까지 도출할 수는 없다. 과도한 일반화 오류이다.\n\n②번: 지문의 증거는 오히려 원래의 주장(각 부품을 개별적으로 검사하는 방식)이 부적절함을 보여주므로, \"증거가 주장 평가와 무관하다\"는 주장은 거짓이다.\n\n③번: 손상된 부품을 교체했을 때 한 문제는 해결되었지만 다른 곳에 스트레스가 이동했다는 것은, 부품들 간의 연결이 예상치 못한 시스템 차원의 효과를 만들어냈음을 보여준다. 이것이 지문의 증거와 가장 일치하는 결론이다.\n\n④번: 이는 단순히 지문의 내용을 반복할 뿐, 새로운 증거에 대한 해석이나 결론을 제시하지 못한다. 지문이 도출하려는 인과관계의 설명이 아니다.\n\n⑤번: 지문은 원래 가정이 \"일부 상황에서\" 적절하지 않음을 보여주었을 뿐, 이를 근거로 \"테스트되지 않은 모든 상황까지 거부해야 한다\"는 결론은 논리의 비약이다.",
@@ -7693,10 +7693,10 @@ const QUESTION_BANK = [
     "passage": "A researcher observed how people chose passwords. An instructor had equated memorability with weak security. The first interpretation was plausible because it focused on an easily visible feature. But participants remembered distinctive phrases better than arbitrary short strings. This did not make the earlier observation useless; it revealed that the original explanation had missed an important condition. Security design must account for human memory as well as technical strength.",
     "given_sentence": "",
     "choices": [
-      "① the need to ignore early evidence once a new interpretation is proposed",
+      "① memorability of passwords should be prioritized over their technical complexity",
       "② Security design must account for human memory as well as technical strength",
-      "③ the claim that competing explanations cannot be evaluated with evidence",
-      "④ why a single observation is enough to settle every possible explanation",
+      "③ the initial explanation about password strength remained valid despite new evidence",
+      "④ distinctive phrases were rejected as passwords because they were too easy to remember",
       "⑤ An instructor had equated memorability with weak security is justified in all settings"
     ],
     "answer": 2,
@@ -7727,10 +7727,10 @@ const QUESTION_BANK = [
     "passage": "Dear Review Committee,\n\nA researcher studied how mushrooms responded to fallen branches. An observer classified the dead wood as having no further ecological value. In fact, fungi accelerated decomposition where moisture remained trapped. I am not asking you to dismiss the original project; I am requesting that its evaluation include the additional evidence and explicitly state the limits of the initial conclusion. Such a review would make the assessment fairer.\n\nSincerely,\nA project participant",
     "given_sentence": "",
     "choices": [
-      "① To demand that the project be cancelled without another evaluation",
-      "② To announce that the first interpretation has already been fully confirmed",
-      "③ To invite committee members to an unrelated public celebration",
-      "④ To request a larger budget without discussing evaluation criteria",
+      "① To propose that the observer's classification of dead wood be adopted as the final conclusion",
+      "② To argue that fungi's role in decomposition has already been acknowledged in the original project",
+      "③ To suggest that the researcher conduct a separate study on moisture retention in fallen branches",
+      "④ To recommend replacing the original researcher with a more qualified mycologist",
       "⑤ To request a reassessment that accounts for conflicting evidence"
     ],
     "answer": 5,
@@ -7744,9 +7744,9 @@ const QUESTION_BANK = [
     "passage": "At first, I felt reassured by the seemingly straightforward explanation. A critic claimed that a performance had one objectively identical sound for all. An orchestra invited audience members to move between seating zones. When I learned that listeners noticed different instrument lines from different positions, my confidence weakened. I wondered how much I had missed by attending only to the result that supported my expectation. I resisted admitting the limitation because I had defended the earlier account in public. Yet the more carefully I compared the observations, the clearer the need for revision became. By the end, I was still uncertain about every detail, but I felt more willing to investigate than to defend my first impression.",
     "given_sentence": "",
     "choices": [
-      "① from disappointment to certainty that all questions are settled",
-      "② from distrust of the team to unconditional hostility",
-      "③ from curiosity to indifference about the investigation",
+      "① from initial reassurance to full acceptance of the revised account",
+      "② from trust in the critic's claim to rejection of all audience observations",
+      "③ from openness to audience feedback to insistence on a single seating position",
       "④ from confidence to a refusal to reconsider any evidence",
       "⑤ from confidence to reflective curiosity"
     ],
@@ -7762,10 +7762,10 @@ const QUESTION_BANK = [
     "given_sentence": "",
     "choices": [
       "① Decisions should retain the original assumption because developers had believed one standardized sequence would suit everyone.",
-      "② Decision-makers should judge an intervention solely by its most visible immediate result.",
+      "② Decision-makers should revise an educational sequence only when beginners and advanced learners show identical completion rates.",
       "③ Decisions should reflect this insight: personalization can serve different learners without lowering expectations.",
-      "④ An observed difference should be treated as a universal rule without further examination.",
-      "⑤ If evidence is mixed, decision-makers should avoid weighing the competing explanations at all."
+      "④ New evidence that complicates an earlier account should lead educators to discard the original assumption entirely rather than refine it.",
+      "⑤ If initial expectations and later observations conflict, the account that best explains the beginners' results should be accepted as the general conclusion."
     ],
     "answer": 3,
     "explanation": "[지문 해석]\n한 교육용 앱이 수업을 단축하고 선택적 과제를 추가했다. 개발자들은 하나의 표준화된 순서가 모든 사람에게 적합할 것이라고 믿었다. 처음에는 이러한 설명이 매력적으로 보였다. 추가적인 설명 없이 전달할 수 있는 간단한 설명을 제시했기 때문이다. 실제로는 초급 학습자들이 더 많은 수업을 완료했고 고급 학습자들은 더 깊이 있는 과제를 선택했다. 두 관찰자가 동일한 사실을 인정하면서도 근본적인 가정에 다른 중요성을 부여하기 때문에 서로 다른 판단에 이를 수 있다. 개인화는 기대치를 낮추지 않으면서도 서로 다른 학습자들을 수용할 수 있다. 타당한 설명은 그 결론을 일반적인 것으로 취급하기 전에 먼저 그러한 가정들을 명확히 해야 한다. 이 결론은 처음의 가정과 동일하지 않으며, 나중의 관찰 결과와 원래 측정 방법의 한계를 고려해야 한다. 특히 새로운 증거는 이전의 설명이 생각할 수 있는 모든 상황에서 틀렸음을 증명하지 않으면서도 해석을 바꿀 정당성을 제공할 수 있다. 따라서 선호되는 해석은 초기의 기대와 이를 복잡하게 만드는 증거 모두를 설명해야 하며, 단순히 하나의 사례가 보편적 규칙을 입증한다고 가정해서는 안 된다.\n\n[주요 어휘]\n# 수능 영어 필수 단어/표현\n\n1. standardized sequence : 표준화된 순서\n2. account : 설명, 해석\n3. attractive : 매력적인\n4. qualification : 한정, 조건\n5. Personalization : 맞춤화, 개인화\n6. lower expectations : 기준을 낮추다\n7. explicit : 명시적인, 분명한\n8. underlying assumptions : 기저의 가정, 근본적인 가정\n9. complicates : 복잡하게 만들다\n10. universal rule : 보편적 규칙\n11. justify : 정당화하다\n12. conceivable : 생각할 수 있는, 상상 가능한\n\n[해설]\n필자는 초기 판단을 그대로 유지하기보다 관찰의 조건과 반례를 반영해 결론을 조정해야 한다고 주장합니다.\n\n[오답 해설]\n①번: 지문은 표준화된 단일 수열이 모두에게 적합하다는 초기 가정이 잘못되었음을 보여주므로, 이 가정을 유지해야 한다는 주장은 지문의 논지와 정반대이다.\n\n②번: 지문은 초기 기대와 이를 복잡하게 하는 증거를 모두 설명해야 한다고 강조하므로, 가장 눈에 띄는 결과만 판단 기준으로 삼으라는 주장은 지문이 제시하는 신중한 태도와 모순된다.\n\n③번: 지문에서 \"Personalization can serve different learners without lowering expectations\"는 핵심 주장이며, \"An adequate account must make those assumptions explicit\"라는 결론으로 이어지므로, 의사결정이 이 통찰을 반영해야 한다는 선지는 지문의 주장과 정확히 일치한다.\n\n④번: 지문은 \"a single example establishes a universal rule\"이라고 \"pretending\"하지 말 것을 명시적으로 경고하므로, 관찰된 차이를 보편적 규칙으로 취급하라는 주장은 지문의 논지에 직접적으로 위배된다.\n\n⑤번: 지문은 \"the preferred interpretation should explain both the initial expectation and the evidence that complicates it\"라고 하여 경쟁하는 설명들을 비교 검토할 것을 요구하므로, 혼합된 증거 앞에서 판단을 회피하라는 주장은 지문이 거부하는 태도이다.",
@@ -7778,11 +7778,11 @@ const QUESTION_BANK = [
     "passage": "A researcher measured urban temperatures across neighboring streets. Officials relied only on the average temperature from a distant station. At first, that account seemed attractive: it offered a simple explanation that could be communicated without further qualification. In fact, tree shade produced sharp differences that a citywide average concealed. The outcome provides a useful clue, but it does not establish that the same mechanism would operate under every set of conditions. Local conditions may differ greatly from aggregate measurements. The stronger inference is deliberately limited: it explains the observed contrast without pretending that all uncertainty has disappeared. This conclusion is not identical to the first assumption; it must account for the later observation and for the limits of the original measure. In particular, the new evidence may justify changing the interpretation without proving that the earlier account was mistaken in every conceivable setting. Consequently, the preferred interpretation should explain both the initial expectation and the evidence that complicates it, without pretending that a single example establishes a universal rule.",
     "given_sentence": "",
     "choices": [
-      "① Why a Single Indicator Is Sufficient for Every Decision",
-      "② A Familiar Prediction That Needed No Further Examination",
-      "③ When Background Details Replace All Empirical Evidence",
+      "① Why Citywide Averages Capture Temperature Variation More Accurately Than Street-Level Data",
+      "② Tree Shade as the Universal Key to Resolving All Urban Temperature Disputes",
+      "③ How the Initial Station Reading Proved the Later Local Observation Entirely Wrong",
       "④ Beyond the First Explanation: Local conditions may differ greatly from aggregate measurements",
-      "⑤ The Complete Failure of Observation in Practical Research"
+      "⑤ Replacing Distant Station Data with Tree Shade Measurements to Eliminate Urban Uncertainty"
     ],
     "answer": 4,
     "explanation": "[지문 해석]\n한 연구자가 인접한 거리들의 도시 온도를 측정했다. 관계자들은 멀리 떨어진 관측소의 평균 온도에만 의존했다. 처음에는 그 자료가 매력적으로 보였다. 추가적인 설명 없이 전달할 수 있는 단순한 설명을 제시했기 때문이다. 실제로 나무 그늘은 도시 전체 평균이 숨기고 있던 뚜렷한 온도 차이를 만들어냈다. 이 결과는 유용한 단서를 제공하지만, 동일한 메커니즘이 모든 조건에서 작동할 것임을 입증하지는 못한다. 지역적 조건은 종합적 측정과 크게 다를 수 있다. 더욱 타당한 추론은 의도적으로 제한적이다. 관찰된 대조를 설명하면서도 모든 불확실성이 사라졌다고 주장하지 않는다. 이 결론은 처음의 가정과 동일하지 않다. 후속 관찰과 원래 측정의 한계를 고려해야 한다. 특히 새로운 증거는 초기의 설명이 모든 가능한 상황에서 오류였다고 증명하지 않으면서도 해석을 바꿀 정당성을 제공할 수 있다. 따라서 선호되는 해석은 단일 사례가 보편적 법칙을 입증한다고 주장하지 않으면서, 초기의 기대와 이를 복잡하게 만드는 증거를 모두 설명해야 한다.\n\n[주요 어휘]\naggregate measurements : 통합/전체 측정값\nconcealed : 숨긴, 감춘\ninference : 추론, 결론\nmechanism : 작용 원리, 메커니즘\nqualify : 한정하다, 조건을 붙이다\nsharp differences : 뚜렷한 차이\naccount : 설명, 보고\ncomplicates : 복잡하게 만들다\njustify : 정당화하다\nuniversal rule : 보편적 규칙\n\n[해설]\n초기 설명과 후속 관찰의 불일치를 통해 더 정교한 판단으로 옮겨가는 글 전체를 포괄합니다.\n\n[오답 해설]\n①번: 지문은 단일 지표(평균 온도)의 한계를 지적하며, 모든 의사결정에 충분하다는 주장과 정반대의 내용을 담고 있다. \"not establish that the same mechanism would operate under every set of conditions\"라는 표현이 이를 명확히 보여준다.\n\n②번: 지문은 처음의 단순한 설명(평균 온도)이 실제로는 문제가 있었음을 밝히며, 추가 검토 없이도 충분했다는 주장은 지문의 핵심 메시지와 배치된다.\n\n③번: 지문은 배경 세부사항이 모든 경험적 증거를 대체한다고 주장하지 않으며, 오히려 초기 측정과 새로운 증거를 모두 설명할 수 있는 더 나은 해석을 추구해야 한다고 강조한다.\n\n④번: 지문의 핵심은 평균값이라는 첫 번째 설명의 한계를 넘어서, 지역적 조건의 차이(\"Local conditions may differ greatly from aggregate measurements\")를 고려한 보다 정교한 해석이 필요하다는 점이다. 제목이 지문의 논리 흐름을 정확히 포착한다.\n\n⑤번: 지문은 관찰의 완전한 실패를 논하지 않으며, 오히려 관찰을 통해 더 나은 해석으로 나아가야 한다는 긍정적 태도를 보여준다.",
@@ -7812,9 +7812,9 @@ const QUESTION_BANK = [
     "passage": "A transportation planner studied late-night bus riders. Budget meetings judged every route only by passengers per hour. However, a small number of reliable services mattered greatly to shift workers. The evidence is most consistent with the conclusion that __________.",
     "given_sentence": "",
     "choices": [
-      "① the initial assumption must be rejected even in circumstances for which it was never tested",
+      "① shift workers' satisfaction with late-night bus routes depends primarily on the frequency of service rather than its reliability",
       "② budget meetings judged every route only by passengers per hour, with no adjustment for the new evidence",
-      "③ the evidence has no bearing on how the original claim should be assessed",
+      "③ the number of passengers per hour remains the most practical measure once route-level data is collected from night riders",
       "④ public value may depend on who relies on a service, not merely its volume",
       "⑤ a small number of reliable services mattered greatly to shift workers, which proves that the same result is inevitable everywhere"
     ],
@@ -7848,9 +7848,9 @@ const QUESTION_BANK = [
     "choices": [
       "① Observers expected the riverbed to recover immediately is justified in all settings",
       "② the need to ignore early evidence once a new interpretation is proposed",
-      "③ why a single observation is enough to settle every possible explanation",
+      "③ why returning to a normal flow rate is sufficient to restore a riverbed's original condition",
       "④ Environmental systems can show delayed consequences after an intervention",
-      "⑤ the claim that competing explanations cannot be evaluated with evidence"
+      "⑤ the importance of replacing an earlier account entirely when sediment movement contradicts initial expectations"
     ],
     "answer": 4,
     "explanation": "[지문 해석]\n한 강 과학자가 댐에서 물을 방류한 후의 변화를 조사했다. 관찰자들은 하천 바닥이 즉시 회복될 것으로 예상했다. 처음에는 그 설명이 매력적으로 보였다. 추가적인 설명 없이 전달할 수 있는 단순한 설명을 제시했기 때문이다. 실제로는 유량이 정상으로 돌아온 후에도 퇴적물이 천천히 하류로 이동했다. 두 관찰자가 동일한 사실을 받아들이면서도 근본적인 가정에 다른 중요성을 부여했기 때문에 서로 다른 판단에 도달할 수 있었다. 환경 체계는 개입 후 지연된 결과를 보여줄 수 있다. 적절한 설명은 결론을 일반화하기 전에 이러한 가정들을 명확히 해야 한다. 이 결론은 첫 번째 가정과 동일하지 않으며, 나중의 관찰과 원래 측정의 한계를 고려해야 한다. 특히 새로운 증거는 초기의 설명이 모든 상황에서 틀렸다는 것을 입증하지 않으면서도 해석을 바꿀 정당성을 제공할 수 있다. 따라서 선호되는 해석은 초기의 예상과 이를 복잡하게 만드는 증거를 모두 설명해야 하며, 단 하나의 사례가 보편적인 규칙을 확립한다고 주장해서는 안 된다.\n\n[주요 어휘]\n1. dam : 댐\n2. riverbed : 강바닥\n3. recover : 회복하다\n4. sediment : 침전물, 퇴적물\n5. downstream : 하류로\n6. intervention : 개입, 중재\n7. delayed consequences : 지연된 결과\n8. underlying assumptions : 기저의 가정들\n9. justify : 정당화하다\n10. interpretation : 해석\n11. complicates : 복잡하게 만들다\n12. universal rule : 보편적 규칙\n\n[해설]\n초기 기대와 다른 관찰을 통해 얻은 제한적인 결론이 요지입니다. 다른 선택지는 단정적 일반화 또는 근거 없는 판단입니다.\n\n[오답 해설]\n①번: 지문은 초기 기대가 \"단순한 설명\"이었지만 실제로는 틀렸음을 보여주므로, 그 기대가 \"모든 상황에서 정당하다\"는 주장은 지문의 핵심 논리에 모순된다.\n\n②번: 지문은 \"새로운 증거를 고려하되 이전 해석을 완전히 부정하지 않는다\"고 말하므로, 초기 증거를 무시하라는 주장은 지문의 의도와 정반대이다.\n\n③번: 지문은 \"단일 사례가 보편적 규칙을 확립하지 못한다\"고 명시하고 있으므로, 한 번의 관찰로 모든 설명이 해결된다는 주장은 지문이 비판하는 오류이다.\n\n④번: 지문에서 댐의 물 방출 후 퇴적물이 천천히 이동하는 현상을 통해 환경 시스템이 개입 후 지연된 결과를 보일 수 있음을 직접 예시하고 강조하는 주제이다.\n\n⑤번: 지문은 \"두 관찰자가 같은 사실을 받아도 다른 판단에 도달할 수 있다\"고 하며, 증거로 경쟁하는 설명을 평가할 수 있음을 암시하므로 이 선지는 지문의 취지에 맞지 않는다.",
@@ -7881,10 +7881,10 @@ const QUESTION_BANK = [
     "given_sentence": "",
     "choices": [
       "① To request a reassessment that accounts for conflicting evidence",
-      "② To announce that the first interpretation has already been fully confirmed",
-      "③ To invite committee members to an unrelated public celebration",
-      "④ To demand that the project be cancelled without another evaluation",
-      "⑤ To request a larger budget without discussing evaluation criteria"
+      "② To suggest that quiet spaces consistently benefit all students equally",
+      "③ To propose replacing individual study with group discussion as the sole learning method",
+      "④ To argue that the original project should be abandoned in favor of a new one",
+      "⑤ To praise the committee for designing an evaluation that covered every learning environment"
     ],
     "answer": 1,
     "explanation": "[지문 해석]\n검토 위원회께,\n\n한 학교에서 조용한 공간이 학습에 미치는 영향을 측정했습니다. 행정 담당자들은 하나의 이상적인 학습 환경을 강제하려고 했습니다. 실제로 어떤 학생들은 혼자일 때 더 잘 공부했던 반면, 다른 학생들은 아이디어를 명확히 하기 위해 짧은 토론이 필요했습니다. 저는 원래의 프로젝트를 폐기하라고 요청하는 것이 아닙니다. 대신 그 평가에 추가 증거를 포함하고 초기 결론의 한계를 명시적으로 서술할 것을 요청합니다. 이러한 검토는 평가를 더욱 공정하게 만들 것입니다.\n\n진심으로,\n프로젝트 참여자\n\n[주요 어휘]\n# 수능 영어 지문 주요 단어/표현\n\n1. Review Committee : 심사 위원회\n2. measure : 측정하다\n3. effect : 영향, 효과\n4. impose : 강요하다, 부과하다\n5. ideal : 이상적인\n6. environment : 환경\n7. clarify : 명확히 하다, 분명히 하다\n8. dismiss : 기각하다, 무시하다\n9. explicitly : 명시적으로, 명확하게\n10. conclusion : 결론\n11. assessment : 평가, 사정\n12. fairer : 더 공정한\n\n[해설]\n편지의 핵심 요청은 기존 평가에 후속 관찰을 반영하고 초기 결론의 한계를 명시해 달라는 것입니다.\n\n[오답 해설]\n①번: 정답입니다. 저자는 \"I am requesting that its evaluation include the additional evidence and explicitly state the limits of the initial conclusion\"이라고 명시하며, 기존 결론과 상충하는 증거(일부 학생은 혼자서 더 잘 공부하고 일부는 토론이 필요함)를 포함한 재평가를 요청하고 있습니다.\n\n②번: 저자가 \"I am not asking you to dismiss the original project\"라고 말하는 것처럼 기존 프로젝트를 완전히 부정하지는 않지만, 초기 결론이 완전히 확인되었다는 내용은 없으며 오히려 그 한계를 명시하도록 요청합니다.\n\n③번: 편지에서 공개 축제나 축하 행사에 대한 언급이 전혀 없으며, 저자의 목적은 평가 위원회에 재평가를 요청하는 것입니다.\n\n④번: 저자는 \"I am not asking you to dismiss the original project\"라고 명확히 표현하여 프로젝트 취소를 요구하지 않으며, 오히려 추가 증거를 포함한 공정한 재평가를 원하고 있습니다.\n\n⑤번: 편지에서 예산 증가를 요청하는 내용이 없으며, 저자의 초점은 평가 기준과 증거를 포함한 재평가에 있습니다.",
@@ -7897,11 +7897,11 @@ const QUESTION_BANK = [
     "passage": "At first, I felt reassured by the seemingly straightforward explanation. A team assumed that physical activity could fully capture wellbeing. A clinical researcher compared self-reported fatigue with activity logs. When I learned that the measures diverged most on days with emotional stress, my confidence weakened. I wondered how much I had missed by attending only to the result that supported my expectation. I resisted admitting the limitation because I had defended the earlier account in public. Yet the more carefully I compared the observations, the clearer the need for revision became. By the end, I was still uncertain about every detail, but I felt more willing to investigate than to defend my first impression.",
     "given_sentence": "",
     "choices": [
-      "① from curiosity to indifference about the investigation",
-      "② from disappointment to certainty that all questions are settled",
-      "③ from confidence to a refusal to reconsider any evidence",
+      "① from initial reassurance to full acceptance of the activity-based measure",
+      "② from skepticism about fatigue logs to confidence in self-reported data alone",
+      "③ from confidence to reluctance to revise the publicly defended account",
       "④ from confidence to reflective curiosity",
-      "⑤ from distrust of the team to unconditional hostility"
+      "⑤ from distrust of the clinical researcher to reliance on activity logs only"
     ],
     "answer": 4,
     "explanation": "[지문 해석]\n처음에는 겉으로 단순해 보이는 설명에 안심했다. 어떤 팀은 신체활동이 웰빙을 완전히 포착할 수 있다고 가정했다. 임상 연구원은 자가 보고된 피로를 활동 기록과 비교했다. 감정적 스트레스가 있는 날에 측정값들이 가장 크게 벗어난다는 것을 알게 되자, 나의 확신이 흔들렸다. 내 기대를 뒷받침하는 결과에만 집중함으로써 얼마나 많은 것을 놓쳤을까 하는 의문이 들었다. 나는 그 전의 설명을 공개적으로 옹호했기 때문에 이러한 한계를 인정하기 싫었다. 그러나 관찰 결과들을 더 자세히 비교할수록 수정의 필요성이 더욱 명확해졌다. 결국 나는 모든 세부 사항에 대해 여전히 확실하지 않았지만, 처음 인상을 옹호하기보다는 이를 조사하려는 의지가 더욱 생겼다.\n\n[주요 어휘]\nreassured : 안심한, 확신을 얻은\nstraightforward : 간단한, 명확한\ndiverged : 달랐다, 벗어났다\nemotional stress : 정서적 스트레스\nconfidence weakened : 확신이 약해졌다\nmiss : 놓치다, 간과하다\nresisted : 저항했다, 거부했다\nadmit : 인정하다\nlimitation : 한계, 제한\nrevision : 수정, 재검토\nwilling to : ~하기를 기꺼이 하다\ndefend : 옹호하다, 방어하다\n\n[해설]\n초기의 confident/reassured와 후반의 reconsider, willing to investigate가 대비되므로 확신에서 성찰적 탐구로의 변화입니다.\n\n[오답 해설]\n①번: 저자는 처음 확신을 가졌다가 결말에 \"조사하려는 의지\"를 보이므로 무관심으로의 변화는 틀렸다.\n\n②번: 저자는 \"여전히 모든 세부 사항에 대해 불확실하다\"고 명시했으므로 '모든 질문이 해결됨'은 맞지 않다.\n\n③번: 저자는 \"더 신중하게 비교할수록 수정의 필요성이 명확해졌다\"고 하므로 재검토를 거부하지 않았다.\n\n④번: 초반의 \"안심함과 확신\"에서 시작하여 증거를 \"더 신중하게 비교\"하고 \"조사하려는 의지\"를 보이는 것은 성찰적 호기심으로의 변화를 정확히 나타낸다.\n\n⑤번: 저자가 팀 자체에 대한 불신이나 적대감을 드러낸 부분이 없으며, 오직 초기 결론의 한계만을 인식했다.",
@@ -7914,10 +7914,10 @@ const QUESTION_BANK = [
     "passage": "A city painted safe routes to school on the pavement. The original project focused only on paint and signs. At first, that account seemed attractive: it offered a simple explanation that could be communicated without further qualification. In fact, children used them more when crossings were supervised and parents understood the map. The initial explanation appealed to a familiar measure of success, yet that measure ignored who or what was excluded from the observation. Infrastructure works when physical design and social practices reinforce each other. A better judgment requires distinguishing what the evidence directly establishes from the larger claim someone hopes to make. This conclusion is not identical to the first assumption; it must account for the later observation and for the limits of the original measure. In particular, the new evidence may justify changing the interpretation without proving that the earlier account was mistaken in every conceivable setting. Consequently, the preferred interpretation should explain both the initial expectation and the evidence that complicates it, without pretending that a single example establishes a universal rule.",
     "given_sentence": "",
     "choices": [
-      "① Decision-makers should judge an intervention solely by its most visible immediate result.",
+      "① Decision-makers should prioritize painted routes and visible signs, since physical infrastructure alone is sufficient to change children's behavior.",
       "② Decisions should reflect this insight: infrastructure works when physical design and social practices reinforce each other.",
-      "③ If evidence is mixed, decision-makers should avoid weighing the competing explanations at all.",
-      "④ An observed difference should be treated as a universal rule without further examination.",
+      "③ If the initial account of a school route project is appealing, decision-makers should retain it even when supervision and parental awareness affect the outcome.",
+      "④ An interpretation of the school route project should focus on disproving the original assumption rather than accounting for both the initial expectation and the complicating evidence.",
       "⑤ Decisions should retain the original assumption because the original project focused only on paint and signs."
     ],
     "answer": 2,
@@ -7931,11 +7931,11 @@ const QUESTION_BANK = [
     "passage": "A historian reconstructed the story of a canceled expedition. A later memoir blamed one person for the failure. At first, that account seemed attractive: it offered a simple explanation that could be communicated without further qualification. In fact, letters showed that practical delays, not a single dramatic dispute, caused the decision. The striking feature of the result was not its size but the mismatch between the expected mechanism and the one actually observed. Simple narratives can obscure the accumulation of ordinary causes. The conclusion therefore depends on comparing two interpretations, rather than merely repeating the most visible outcome. This conclusion is not identical to the first assumption; it must account for the later observation and for the limits of the original measure. In particular, the new evidence may justify changing the interpretation without proving that the earlier account was mistaken in every conceivable setting. Consequently, the preferred interpretation should explain both the initial expectation and the evidence that complicates it, without pretending that a single example establishes a universal rule.",
     "given_sentence": "",
     "choices": [
-      "① Why a Single Indicator Is Sufficient for Every Decision",
-      "② A Familiar Prediction That Needed No Further Examination",
-      "③ The Complete Failure of Observation in Practical Research",
+      "① How a Single Dramatic Dispute Shapes the Final Outcome of an Expedition",
+      "② When the Most Visible Account Proves More Reliable Than Later Evidence",
+      "③ Practical Delays as the Only Factor Worth Examining in Historical Records",
       "④ Beyond the First Explanation: Simple narratives can obscure the accumulation of ordinary causes",
-      "⑤ When Background Details Replace All Empirical Evidence"
+      "⑤ Replacing the Original Interpretation Once New Evidence Appears"
     ],
     "answer": 4,
     "explanation": "[지문 해석]\n한 역사가가 취소된 원정의 이야기를 재구성했다. 나중에 나온 회고록은 그 실패의 원인을 한 사람에게 돌렸다. 처음에 이 설명은 매력적으로 보였다. 더 이상의 설명 없이도 전달할 수 있는 단순한 설명을 제시했기 때문이었다. 실제로 편지들은 한 건의 극적인 분쟁이 아니라 실질적인 지연들이 그 결정을 초래했음을 보여주었다. 이 결과의 놀라운 특징은 그 규모가 아니라 예상했던 원인과 실제로 관찰된 원인 사이의 불일치였다. 단순한 서사는 평범한 원인들의 축적을 가릴 수 있다. 따라서 결론은 가장 눈에 띄는 결과를 단순히 반복하기보다는 두 가지 해석을 비교하는 데 달려 있다. 이 결론은 처음 가정과 동일하지 않으며, 이후의 관찰과 원래 추정의 한계를 설명해야 한다. 특히 새로운 증거는 이전 설명이 모든 상황에서 잘못되었다는 것을 증명하지 않으면서도 해석을 바꾸는 것을 정당화할 수 있다. 결과적으로 선호되는 해석은 초기의 예상과 그것을 복잡하게 하는 증거를 모두 설명해야 하며, 단 하나의 사례가 보편적 규칙을 확립한다고 가정해서는 안 된다.\n\n[주요 어휘]\n# 수능 영어 지문 주요 단어/표현\n\n1. reconstruct : 재구성하다, 복원하다\n2. canceled expedition : 취소된 원정(탐험)\n3. memoir : 회고록, 자서전\n4. blame : ~의 책임을 지우다, 비난하다\n5. attractive : 매력적인, 설득력 있는\n6. practical delays : 실질적인 지연\n7. obscure : 가리다, 불명확하게 하다\n8. accumulation : 축적, 누적\n9. mismatch : 불일치, 맞지 않음\n10. account for : ~을 설명하다, 차지하다\n11. complicates : 복잡하게 만들다\n12. pretend : ~인 척하다, 가장하다\n\n[해설]\n초기 설명과 후속 관찰의 불일치를 통해 더 정교한 판단으로 옮겨가는 글 전체를 포괄합니다.\n\n[오답 해설]\n①번: 단일 지표가 모든 결정에 충분하다는 내용인데, 지문은 오히려 단순한 설명만으로는 부족하며 여러 원인들을 고려해야 함을 강조하고 있어 정반대의 의미라 틀렸다.\n\n②번: 추가 검토가 필요 없는 친숙한 예측에 관한 내용이지만, 지문은 초기 가정이 후속 증거와 비교되어야 하며 재검토의 필요성을 강조하므로 맞지 않다.\n\n③번: 실무 연구에서 관찰의 완전한 실패를 다루는 선지인데, 지문은 관찰이 실패했다기보다 단순한 설명이 복잡한 현실을 가리는 것을 문제 삼고 있어 부정확하다.\n\n④번: 첫 설명을 넘어서는 것과 단순 서사가 일반적 원인들을 가릴 수 있다는 내용이 지문의 핵심을 완벽하게 반영한다. 초기 간단한 설명에서 벗어나 여러 실질적 원인들을 고려해야 한다는 논지와 정확히 일치한다.\n\n⑤번: 배경 세부사항이 모든 경험적 증거를 대체한다는 의미인데, 지문은 증거와 해석을 함께 고려할 것을 주장하지 증거를 무시할 것을 말하지 않으므로 틀렸다.",
@@ -7966,9 +7966,9 @@ const QUESTION_BANK = [
     "given_sentence": "",
     "choices": [
       "① one station's readings appeared to be unrelated noise, with no adjustment for the new evidence",
-      "② the evidence has no bearing on how the original claim should be assessed",
+      "② the original noise reading retains explanatory value once the sensor synchronization is taken into account",
       "③ a pattern emerged only after several sensors were synchronized, which proves that the same result is inevitable everywhere",
-      "④ the initial assumption must be rejected even in circumstances for which it was never tested",
+      "④ the earlier interpretation should be abandoned whenever a subsequent sensor detects a conflicting signal",
       "⑤ coordination can reveal structure hidden within isolated measurements"
     ],
     "answer": 5,
@@ -8016,10 +8016,10 @@ const QUESTION_BANK = [
     "passage": "A transit authority asked passengers to report uncomfortable transfers. Planners focused solely on reducing the number of steps. The most frequent complaint concerned uncertainty rather than walking distance. The first interpretation was necessarily (① tentative) because little evidence had yet been collected. The later observation (② contradicted) the expectation on which that interpretation depended. The researchers consequently adopted a (③ qualified) account rather than an unconditional verdict. They examined whether the new evidence was (④ relevant) to the question under investigation. The conclusion remained (⑤ universal) to the conditions in which the observations had been made.",
     "given_sentence": "",
     "choices": [
-      "①번 표시",
-      "②번 표시",
-      "③번 표시",
-      "④번 표시",
+      "① definitive",
+      "② confirmed",
+      "③ unconditional",
+      "④ unrelated",
       "⑤번 표시"
     ],
     "answer": 5,
@@ -8034,10 +8034,10 @@ const QUESTION_BANK = [
     "given_sentence": "",
     "choices": [
       "① A committee assumed consistency always required refusing exceptions is justified in all settings",
-      "② the need to ignore early evidence once a new interpretation is proposed",
+      "② the value of replacing an earlier rule entirely when rare cases reveal its limitations",
       "③ Justice sometimes requires examining the purpose behind a rule",
-      "④ why a single observation is enough to settle every possible explanation",
-      "⑤ the claim that competing explanations cannot be evaluated with evidence"
+      "④ how strict rules applied without exception tend to produce fairer outcomes across all circumstances",
+      "⑤ the importance of maintaining the original interpretation even when new evidence complicates it"
     ],
     "answer": 3,
     "explanation": "[지문 해석]\n어떤 철학자가 일상적인 경우와 예외적인 경우를 위해 설계된 규칙들을 비교했다. 한 위원회는 일관성이 항상 예외를 거부할 것을 요구한다고 가정했다. 처음에는 그러한 설명이 매력적으로 보였다. 추가적인 수식 없이 의사소통할 수 있는 단순한 설명을 제시했기 때문이다. 그러나 실제로는 엄격한 규칙이 일반적인 상황에서는 공정성을 가져왔지만 드문 상황에서는 해를 끼쳤다. 초기의 설명은 친숙한 성공의 척도에 호소했지만, 그 척도는 관찰에서 제외된 대상을 무시했다. 정의는 때때로 규칙 뒤에 숨은 목적을 살펴볼 것을 요구한다. 더 나은 판단을 위해서는 증거가 직접 입증하는 것과 누군가가 입증하기를 희망하는 더 큰 주장을 구별해야 한다. 이러한 결론은 초기의 가정과 동일하지 않다. 나중의 관찰을 고려해야 하고 원래의 척도의 한계도 설명해야 한다. 특히 새로운 증거는 이전의 설명이 모든 상황에서 잘못되었다는 것을 증명하지 않으면서도 해석의 변경을 정당화할 수 있다. 따라서 선호되는 해석은 초기의 예상과 그것을 복잡하게 만드는 증거를 모두 설명해야 하면서도, 단 하나의 사례가 보편적인 규칙을 입증한다고 가정해서는 안 된다.\n\n[주요 어휘]\n1. philosopher : 철학자\n2. routine : 일상적인, 통상적인\n3. exceptional : 예외적인\n4. consistency : 일관성\n5. fairness : 공정성\n6. rare circumstances : 드문 상황\n7. Justice : 정의\n8. distinguish : 구별하다\n9. evidence : 증거\n10. interpretation : 해석\n11. complicate : 복잡하게 하다\n12. universal rule : 보편적 규칙\n\n[해설]\n초기 기대와 다른 관찰을 통해 얻은 제한적인 결론이 요지입니다. 다른 선택지는 단정적 일반화 또는 근거 없는 판단입니다.\n\n[오답 해설]\n①번: 지문은 위원회의 일관성 추구가 \"common situations에서는 공정성을 제공하지만 rare circumstances에서는 해를 초래한다\"고 명시하므로, 모든 상황에서 정당화된다는 주장은 거짓이다.\n\n②번: 지문은 \"새로운 해석이 초기 기대와 그것을 복잡하게 만드는 증거를 모두 설명해야 한다\"고 강조하므로, 초기 증거를 무시하라는 주장과 정반대다.\n\n③번: 지문의 핵심 주장인 \"Justice sometimes requires examining the purpose behind a rule\"이 명시적으로 기술되어 있으며, 엄격한 규칙보다 규칙의 목적을 살펴보는 것이 더 나은 판단을 이끈다는 전체 맥락을 대표한다.\n\n④번: 지문은 \"단일 사례가 보편적 규칙을 확립하지 못한다\"며 반대로 주장하고 있으므로, 한 가지 관찰로 모든 설명이 결정된다는 주장은 오히려 거부되는 내용이다.\n\n⑤번: 지문은 \"더 나은 판단은 증거와 주장을 구별해야 한다\"고 하여 증거로 경쟁하는 설명들을 평가할 수 있다고 가정하므로, 이를 평가할 수 없다는 주장은 거짓이다.",
@@ -8067,11 +8067,11 @@ const QUESTION_BANK = [
     "passage": "Dear Review Committee,\n\nA beekeeper recorded flowering times across several valleys. A farm report focused only on total yearly flower numbers. In fact, unusual warmth shifted blossoms earlier than the arrival of some pollinators. I am not asking you to dismiss the original project; I am requesting that its evaluation include the additional evidence and explicitly state the limits of the initial conclusion. Without this change, the next funding decision could reward an incomplete indicator rather than the project's actual performance.\n\nSincerely,\nA project participant",
     "given_sentence": "",
     "choices": [
-      "① To demand that the project be cancelled without another evaluation",
-      "② To announce that the first interpretation has already been fully confirmed",
-      "③ To request a larger budget without discussing evaluation criteria",
+      "① To suggest replacing the beekeeper's field data with a standardized farm report",
+      "② To confirm that the total yearly flower count is a sufficient measure of pollinator activity",
+      "③ To propose excluding early-blooming valleys from the next funding evaluation entirely",
       "④ To request a reassessment that accounts for conflicting evidence",
-      "⑤ To invite committee members to an unrelated public celebration"
+      "⑤ To warn that warming temperatures will permanently disrupt all future pollinator studies"
     ],
     "answer": 4,
     "explanation": "[지문 해석]\n평가위원회 귀중,\n\n한 양봉업자가 여러 계곡의 개화 시기를 기록했습니다. 농장 보고서는 연간 총 개화 수만 집중했습니다. 실제로 비정상적인 따뜻함으로 인해 꽃들이 일부 수분 매개자의 도래보다 먼저 피었습니다. 저는 원래 프로젝트를 기각하도록 요청하는 것이 아닙니다. 다만 그 평가에 추가 증거를 포함하고 초기 결론의 한계를 명시적으로 밝혀줄 것을 요청합니다. 이러한 변경이 없으면, 다음 자금 지원 결정은 프로젝트의 실제 성과가 아닌 불완전한 지표에 보상을 줄 수 있습니다.\n\n진심으로,\n프로젝트 참여자 일동\n\n[주요 어휘]\nbeekeeper : 양봉가\nflowering times : 개화 시간/시기\npollinator : 수분 매개자\ndismiss : 무시하다, 배제하다\nevaluation : 평가\nadditional evidence : 추가 증거\nexplicitly : 명시적으로, 분명히\nlimits : 한계, 제한\nincomplete indicator : 불완전한 지표\nactual performance : 실제 성과\nfunding decision : 자금 지원 결정\nreward : 보상하다\n\n[해설]\n편지의 핵심 요청은 기존 평가에 후속 관찰을 반영하고 초기 결론의 한계를 명시해 달라는 것입니다.\n\n[오답 해설]\n①번: 저자는 \"원래 프로젝트를 무시하자고 요구하지 않는다(I am not asking you to dismiss the original project)\"고 명시했으므로, 프로젝트 취소를 요구한다는 주장은 지문의 내용과 정반대입니다.\n\n②번: 저자는 오히려 원래 결론의 한계를 \"명시적으로 언급할 것(explicitly state the limits)\"을 요청하고 있으므로, 첫 해석이 완전히 확인되었다는 주장과는 배치됩니다.\n\n③번: 저자는 평가 기준에 대한 논의 없이 더 큰 예산을 요청하지 않으며, 오히려 추가 증거를 포함한 \"재평가(reassessment)\"와 결론의 한계를 명확히 할 것을 요청하고 있습니다.\n\n④번: 저자는 비정상적인 따뜻함으로 인한 꽃 개화 시간의 변화라는 상충하는 증거를 제시하면서, 이를 고려한 재평가를 명확히 요청하고 있어 정답입니다.\n\n⑤번: 저자의 편지는 검토위원회의 평가 방식 개선을 위한 공식적 요청이며, 무관한 공개 행사 초청과는 전혀 관련이 없습니다.",
@@ -8084,11 +8084,11 @@ const QUESTION_BANK = [
     "passage": "At first, I felt reassured by the seemingly straightforward explanation. Restorers debated whether polishing would erase evidence of public use. An art historian examined scratches on a public statue. When I learned that some marks came from centuries of visitors touching its surface, my confidence weakened. I wondered how much I had missed by attending only to the result that supported my expectation. I reconsidered my judgment. By the end, I was still uncertain about every detail, but I felt more willing to investigate than to defend my first impression.",
     "given_sentence": "",
     "choices": [
-      "① from confidence to a refusal to reconsider any evidence",
+      "① from confidence to a firm rejection of the restorers' original judgment",
       "② from confidence to reflective curiosity",
-      "③ from curiosity to indifference about the investigation",
-      "④ from distrust of the team to unconditional hostility",
-      "⑤ from disappointment to certainty that all questions are settled"
+      "③ from curiosity about the scratches to indifference toward the statue's history",
+      "④ from initial reassurance to regret over having examined the statue at all",
+      "⑤ from uncertainty about the marks to conviction that the visitors had damaged the statue"
     ],
     "answer": 2,
     "explanation": "[지문 해석]\n처음에는 겉보기에 간단한 설명에 안심했다. 복원가들은 광택 처리가 공개 사용의 증거를 지워버릴 것인지에 대해 논쟁했다. 한 미술사학자는 공개 동상의 스크래치를 살펴봤다. 어떤 흔적들이 수백 년간 방문객들이 표면을 만져온 것에서 비롯되었다는 것을 알게 되자, 나의 확신이 흔들렸다. 내 기대를 뒷받침하는 결과에만 주목함으로써 내가 얼마나 많은 것을 놓쳤을지 의문이 들었다. 나는 내 판단을 다시 생각해 봤다. 결국 모든 세부 사항에 대해 여전히 확실하지 않았지만, 내 첫인상을 고수하기보다 조사하려는 의향이 더 생겼다.\n\n[주요 어휘]\nreassured : 안심한, 안도감을 느낀\nstraightforward : 명확한, 간단한\npolishing : 광내기, 연마\nerase : 지우다, 제거하다\nevidence : 증거, 흔적\nscratches : 긁힌 자국, 스크래치\nweakened : 약해졌다, 흔들렸다\nconfidence : 확신, 신뢰\nmissed : 놓치다, 놓쳤다\nexpectation : 예상, 기대\nreconsidered : 재검토하다, 다시 생각하다\ndefend : 옹호하다, 방어하다\n\n[해설]\n초기의 confident/reassured와 후반의 reconsider, willing to investigate가 대비되므로 확신에서 성찰적 탐구로의 변화입니다.\n\n[오답 해설]\n①번: 지문에서 저자는 \"I felt more willing to investigate than to defend my first impression\"이라며 재검토에 개방적인 태도를 보이므로, '재검토를 거부한다'는 표현은 정반대로 틀렸다.\n\n②번: 저자는 초반에 \"reassured\"(확신함)로 시작하여, 새로운 증거를 접한 후 \"wondered\"와 \"reconsidered\"를 거쳐 \"more willing to investigate\"(조사하려는 의욕)로 변화하므로 '확신에서 성찰적 호기심으로'의 변화를 정확히 포착한다.\n\n③번: 지문의 마지막 부분에서 저자가 \"still uncertain\"하지만 \"more willing to investigate\"한다고 명시했으므로, '무관심'이라는 표현은 적절하지 않다.\n\n④번: 지문에는 복원팀에 대한 불신이나 적의적 태도가 전혀 나타나지 않으며, 단지 자신의 판단에 대해 성찰하는 내용일 뿐이다.\n\n⑤번: 저자는 마지막에 \"still uncertain about every detail\"이라고 했으므로 확실성에 도달하지 못했다. 또한 조사하려는 의욕이 남아있어 모든 질문이 해결되었다는 표현은 틀렸다.",
@@ -8102,10 +8102,10 @@ const QUESTION_BANK = [
     "given_sentence": "",
     "choices": [
       "① Decisions should retain the original assumption because sponsors cited overall rental growth as complete success.",
-      "② If evidence is mixed, decision-makers should avoid weighing the competing explanations at all.",
-      "③ Decision-makers should judge an intervention solely by its most visible immediate result.",
+      "② If geographic barriers complicate the results, sponsors should withdraw aggregate rental data from the evaluation entirely.",
+      "③ Decision-makers should treat the sponsors' initial account as conclusive once overall rental growth has been confirmed.",
       "④ Decisions should reflect this insight: program evaluation should consider geographic barriers hidden by aggregate totals.",
-      "⑤ An observed difference should be treated as a universal rule without further examination."
+      "⑤ A new observation about hill-dwelling users should prompt evaluators to dismiss the original rental data as mistaken in every respect."
     ],
     "answer": 4,
     "explanation": "[지문 해석]\n어느 도시가 공유 화물 자전거 프로그램을 시범 운영했다. 스폰서들은 전체 대여 증가를 완전한 성공으로 언급했다. 처음에는 이러한 설명이 매력적으로 보였다. 왜냐하면 추가 설명 없이도 전달할 수 있는 단순한 설명을 제공했기 때문이다. 실제로 가족들은 이 자전거를 심부름에 사용했지만, 가파른 언덕에 사는 사용자들은 참여도가 낮았다. 두 명의 관찰자가 동일한 사실을 받아들이더라도 기저에 있는 가정에 다른 중요성을 부여했기 때문에 서로 다른 판단에 도달할 수 있다. 프로그램 평가는 총합 수치에 숨겨진 지리적 장벽을 고려해야 한다. 적절한 설명은 결론을 일반적인 것으로 취급하기 전에 그러한 가정을 명확히 해야 한다. 이 결론은 첫 번째 가정과 동일하지 않으며, 나중의 관찰과 원래 측정 방법의 한계를 고려해야 한다. 특히 새로운 증거는 초기 설명이 모든 상황에서 잘못되었음을 증명하지 않으면서도 해석을 바꿀 정당성을 제공할 수 있다. 따라서 선호되는 해석은 초기 기대와 그것을 복잡하게 만드는 증거를 모두 설명해야 하며, 단일한 사례가 보편적 규칙을 입증한다고 가장해서는 안 된다.\n\n[주요 어휘]\n1. pilot : 시범 운영하다\n2. aggregate : 합계, 총합\n3. geographic barriers : 지리적 장애물\n4. underlying assumptions : 근본적인 가정\n5. qualification : 조건, 한정\n6. explicit : 명시적인, 분명한\n7. account : 설명, 보고\n8. complicates : 복잡하게 하다, 어렵게 만들다\n9. universal rule : 보편적인 규칙\n10. interpretation : 해석, 이해\n11. justify : 정당화하다\n12. conceivable : 생각할 수 있는, 상상 가능한\n\n[해설]\n필자는 초기 판단을 그대로 유지하기보다 관찰의 조건과 반례를 반영해 결론을 조정해야 한다고 주장합니다.\n\n[오답 해설]\n①번: 지문은 원래 가정을 유지하라고 주장하지 않으며, 오히려 숨겨진 지리적 장벽을 고려하여 초기 해석을 수정해야 한다고 명시하고 있다.\n\n②번: 지문은 증거가 혼합되어 있을 때 경쟁하는 설명들을 가중치 있게 판단해야 한다고 주장하는데, 이를 회피하라는 주장과 정반대이다.\n\n③번: 지문은 가장 눈에 띄는 즉각적인 결과만으로 판단하는 것을 비판하며, 숨겨진 요소들과 제한사항을 고려해야 한다고 강조하고 있다.\n\n④번: 지문의 핵심은 집계된 통계에 숨겨진 지리적 장벽(가파른 언덕에 사는 사용자의 낮은 참여율)을 고려하여 프로그램을 평가해야 한다는 것으로, 이는 지문 전체의 주장을 정확히 반영한다.\n\n⑤번: 지문은 단일 사례나 관찰된 차이를 보편적 규칙으로 취급하면 안 된다고 명시하며, 이 선지는 그 주장과 완전히 반대 방향이다.",
@@ -8118,11 +8118,11 @@ const QUESTION_BANK = [
     "passage": "A linguist studied how speakers use pauses while telling stories. An automatic transcription system removed every silence. At first, that account seemed attractive: it offered a simple explanation that could be communicated without further qualification. In fact, long pauses often appeared before meaningful contrasts rather than memory failures. The outcome provides a useful clue, but it does not establish that the same mechanism would operate under every set of conditions. Features that look like noise may carry communicative information. The stronger inference is deliberately limited: it explains the observed contrast without pretending that all uncertainty has disappeared. This conclusion is not identical to the first assumption; it must account for the later observation and for the limits of the original measure. In particular, the new evidence may justify changing the interpretation without proving that the earlier account was mistaken in every conceivable setting. Consequently, the preferred interpretation should explain both the initial expectation and the evidence that complicates it, without pretending that a single example establishes a universal rule.",
     "given_sentence": "",
     "choices": [
-      "① The Complete Failure of Observation in Practical Research",
-      "② A Familiar Prediction That Needed No Further Examination",
-      "③ Why a Single Indicator Is Sufficient for Every Decision",
+      "① How Automatic Transcription Systems Eliminate Communicative Pauses Entirely",
+      "② Silence as a Memory Failure: Why Pauses Reveal a Speaker's Cognitive Limits",
+      "③ Why Long Pauses Before Meaningful Contrasts Confirm the Original Assumption",
       "④ Beyond the First Explanation: Features that look like noise may carry communicative information",
-      "⑤ When Background Details Replace All Empirical Evidence"
+      "⑤ Replacing Earlier Linguistic Accounts Once New Evidence Proves Them Wrong"
     ],
     "answer": 4,
     "explanation": "[지문 해석]\n한 언어학자가 이야기를 할 때 화자들이 어떻게 침묵을 활용하는지 연구했다. 자동 필사 시스템은 모든 침묵을 제거해 버렸다. 처음에는 그 기록이 매력적으로 보였다. 추가 설명 없이 전달할 수 있는 단순한 설명을 제시했기 때문이다. 실제로 긴 침묵은 기억 실패보다는 의미 있는 대비 앞에 자주 나타났다. 그 결과는 유용한 단서를 제공하지만, 모든 조건 하에서 동일한 메커니즘이 작동할 것이라는 것을 증명하지는 못한다. 소음처럼 보이는 특징들이 의사소통 정보를 담고 있을 수 있다. 더 강력한 추론은 의도적으로 제한된다. 즉, 불확실성이 완전히 사라졌다고 가정하지 않으면서 관찰된 대비를 설명한다. 이 결론은 처음 가정과 동일하지 않으며, 이후의 관찰과 원래 측정의 한계를 고려해야 한다. 특히, 새로운 증거는 이전의 설명이 모든 가능한 상황에서 잘못되었다는 것을 증명하지 않으면서도 해석을 바꾸는 것을 정당화할 수 있다. 따라서 선호되는 해석은 초기의 기대와 그것을 복잡하게 만드는 증거를 모두 설명해야 하며, 단 하나의 사례가 보편적 규칙을 입증한다고 가정해서는 안 된다.\n\n[주요 어휘]\n1. linguist : 언어학자\n2. automatic transcription system : 자동 전사 시스템\n3. silence : 침묵, 무음\n4. at first : 처음에는\n5. attractive : 매력적인, 끌리는\n6. meaningful contrasts : 의미 있는 대비\n7. memory failures : 기억 실패\n8. mechanism : 메커니즘, 작동 원리\n9. noise : 노이즈, 불필요한 것\n10. communicative information : 의사소통 정보\n11. inference : 추론, 결론\n12. justify : 정당화하다, 근거를 제시하다\n\n[해설]\n초기 설명과 후속 관찰의 불일치를 통해 더 정교한 판단으로 옮겨가는 글 전체를 포괄합니다.\n\n[오답 해설]\n①번: 지문은 관찰 실패가 아니라 초기 설명의 한계를 인정하고 더 정교한 해석으로 나아가는 과정을 다루고 있으므로 틀렸다.\n\n②번: 지문은 처음 가정(\"attractive at first\")이 나중에 증거에 의해 복잡해졌다고 명확히 서술하고 있으므로, 추가 검토가 불필요했다는 표현은 부정확하다.\n\n③번: 지문의 핵심은 단일 지표나 예시만으로는 보편적 규칙을 수립할 수 없다는 점이므로, \"모든 결정에 충분하다\"는 주장은 지문의 논리와 정반대다.\n\n④번: 지문이 \"Features that look like noise may carry communicative information\"이라고 명시하며, 초기의 단순한 설명(\"first explanation\")을 넘어 침묵의 의사소통적 역할을 인식하는 더 나은 해석으로 진전되는 과정을 정확히 포착한다.\n\n⑤번: 지문은 배경 세부 사항이 경험적 증거를 완전히 대체한다고 주장하지 않으며, 오히려 초기 예상과 복잡한 증거를 모두 설명해야 한다고 강조한다.",
@@ -8152,11 +8152,11 @@ const QUESTION_BANK = [
     "passage": "A town digitized its paper maps of underground water pipes. Managers assumed digitization would automatically improve accuracy. The new evidence, however, was more informative than the original label: the maps became searchable but many old locations remained approximate. The difficulty is to account for both the attraction of the earlier interpretation and its failure to explain the later observation. The evidence is most consistent with the conclusion that __________. A defensible choice should explain the contrast without converting a local finding into a universal rule.",
     "given_sentence": "",
     "choices": [
-      "① the evidence has no bearing on how the original claim should be assessed",
+      "① digitizing pipe maps made the original locations more accurate by allowing managers to search and verify each entry",
       "② managers assumed digitization would automatically improve accuracy, with no adjustment for the new evidence",
       "③ changing the format of information does not correct its underlying limitations",
       "④ the maps became searchable but many old locations remained approximate, which proves that the same result is inevitable everywhere",
-      "⑤ the initial assumption must be rejected even in circumstances for which it was never tested"
+      "⑤ the initial assumption about digitization should be abandoned before testing it against maps in other municipal systems"
     ],
     "answer": 3,
     "explanation": "[지문 해석]\n어떤 도시가 지하 수도관의 종이 지도를 디지털화했다. 관리자들은 디지털화가 자동으로 정확성을 향상시킬 것이라고 가정했다. 그러나 새로운 증거는 원래 표시보다 더 많은 정보를 제공했다. 지도는 검색 가능해졌지만 많은 기존 위치는 여전히 근사값으로 남아 있었다. 어려움은 초기 해석의 매력과 이후 관찰을 설명하지 못한 점을 모두 설명하는 것이다. 그 증거는 __________라는 결론과 가장 일치한다. 타당한 선택은 국소적 발견을 보편적 규칙으로 전환하지 않으면서 그 대비를 설명해야 한다.\n\n[주요 어휘]\ndigitize : 디지털화하다\naccuracy : 정확성\ninformative : 정보를 제공하는, 유익한\nsearchable : 검색 가능한\napproximate : 대략적인, 근사치의\naccount for : ~을 설명하다\nattraction : 매력, 끌어당기는 힘\ninterpretation : 해석, 이해\nconsistent with : ~과 일치하는\nconvert : 바꾸다, 변환하다\nuniversal rule : 보편적인 규칙\ncontrast : 대조, 차이\n\n[해설]\n기초 관찰: The maps became searchable but many old locations remained approximate. 초기 해석: Managers assumed digitization would automatically improve accuracy. 따라서 Changing the format of information does not correct its underlying limitations. 다만 단일 사례가 모든 상황으로 일반화되는 것은 아닙니다.\n\n[오답 해설]\n①번: 증거가 원래의 주장 평가에 영향을 미치지 않는다는 주장인데, 지문에서 새로운 증거가 \"더 유익하다\"고 명시되어 있으므로 증거의 관련성을 부정하는 이 선지는 틀렸다.\n\n②번: 이 선지는 관리자들의 잘못된 가정을 단순히 반복하고 있을 뿐, 왜 그 가정이 실패했는지를 설명하지 못한다. 지문이 요구하는 \"원인 설명\"을 제시하지 않는다.\n\n③번: 디지털화라는 형식 변경(searchable하게 만듦)이 기존 데이터의 근본적인 한계(approximate한 위치 정보)를 해결하지 못했다는 설명으로, 초기 가정의 실패 원인을 정확히 파악한다. 따라서 정답이다.\n\n④번: \"같은 결과가 모든 곳에서 필연적이다\"라는 주장으로, 지문에서 명시적으로 피해야 한다고 지적한 \"local finding을 universal rule로 전환\"하는 오류를 범한다.\n\n⑤번: 초기 가정을 \"검증되지 않은 모든 상황에서\" 거부해야 한다는 과도한 결론으로, 지문의 \"defensible choice should explain the contrast\"라는 균형 잡힌 판단 기준에 부합하지 않는다.",
@@ -8203,11 +8203,11 @@ const QUESTION_BANK = [
     "passage": "A biologist studied how a coral reef responded to a brief heat wave. A news report treated a return of color as total recovery. Some corals recovered color quickly but reproduced poorly the following season. The first interpretation was necessarily (① tentative) because little evidence had yet been collected. The later observation (② contradicted) the expectation on which that interpretation depended. The researchers consequently adopted a (③ absolute) account rather than an unconditional verdict. They examined whether the new evidence was (④ relevant) to the question under investigation. The conclusion remained (⑤ limited) to the conditions in which the observations had been made.",
     "given_sentence": "",
     "choices": [
-      "①번 표시",
-      "②번 표시",
+      "① premature",
+      "② confirmed",
       "③번 표시",
-      "④번 표시",
-      "⑤번 표시"
+      "④ peripheral",
+      "⑤ extended"
     ],
     "answer": 3,
     "explanation": "[지문 해석]\n한 생물학자가 산호초가 짧은 열파에 어떻게 반응하는지 연구했다. 한 뉴스 보도는 색깔의 회복을 완전한 회복으로 다루었다. 일부 산호는 색깔을 빠르게 회복했지만 다음 시즌에 번식력이 떨어졌다. 아직 수집된 증거가 거의 없었기 때문에 첫 번째 해석은 반드시 (① 임시적)이었다. 후속 관찰은 그 해석이 의존하던 예상을 (② 모순)했다. 결과적으로 연구자들은 무조건적인 판단보다는 (③ 절대적인) 설명을 채택했다. 그들은 새로운 증거가 조사 중인 질문과 (④ 관련성이 있는)지 여부를 검토했다. 결론은 관찰이 이루어진 조건들로 (⑤ 제한)되었다.\n\n[주요 어휘]\n# 수능 영어 지문 주요 단어/표현\n\ncoral reef : 산호초\n\nheat wave : 열파, 폭염\n\nrecovery : 회복\n\nreproduced : 번식하다, 재생산하다\n\ntentative : 임시적인, 잠정적인\n\ncontradicted : 모순되다, 반박하다\n\nabsolute : 절대적인, 확정적인\n\nunconditional : 무조건적인, 조건 없는\n\nverdict : 판정, 결론\n\nrelevant : 관련있는, 적절한\n\nlimited : 제한된, 한정된\n\nobservation : 관찰\n\n[해설]\n③의 absolute는 주변 의미와 충돌합니다. qualified로 수정해야 초기 가설·반증·신중한 결론의 논리가 일관됩니다.\n\n[오답 해설]\n①번: 'tentative'는 \"임시적인, 잠정적인\"이라는 뜻으로 적절하다. 아직 충분한 증거가 수집되지 않은 상황에서 내린 해석이므로 확정적이지 않은 성격을 잘 나타낸다.\n\n②번: 'contradicted'는 \"모순되다, 반박하다\"라는 뜻으로 적절하다. 나중의 관찰이 초기 해석의 전제가 되었던 기대와 맞지 않는 상황을 정확히 표현한다.\n\n③번: 'absolute'는 \"절대적인, 무조건적인\"이라는 뜻으로 부적절하다. 문맥상 \"조건부의, 제한적인\"이라는 의미의 'conditional'이 필요하므로, 'absolute'와 'unconditional'은 의미상 대비를 이루지 못한다.\n\n④번: 'relevant'는 \"관련된, 적절한\"이라는 뜻으로 적절하다. 새로운 증거가 조사 중인 질문과 관련이 있는지를 검토하는 맥락에서 정확한 단어 선택이다.\n\n⑤번: 'limited'는 \"제한된\"이라는 뜻으로 적절하다. 관찰이 이루어진 특정 조건에만 국한된다는 의미를 잘 나타내며, 연구의 신중한 태도를 반영한다.",
@@ -8221,10 +8221,10 @@ const QUESTION_BANK = [
     "given_sentence": "",
     "choices": [
       "① Support materials are valuable when available without interrupting engagement",
-      "② the need to ignore early evidence once a new interpretation is proposed",
-      "③ the claim that competing explanations cannot be evaluated with evidence",
+      "② listener feedback becomes meaningful only after all chapter notes are removed",
+      "③ the initial assumption that more explanations help listeners should be abandoned entirely",
       "④ Editors had assumed that more explanations would always help is justified in all settings",
-      "⑤ why a single observation is enough to settle every possible explanation"
+      "⑤ unfamiliar references in audiobooks make engagement impossible regardless of available support"
     ],
     "answer": 1,
     "explanation": "[지문 해석]\n한 출판사가 선택적 챕터 노트가 포함된 오디오북을 테스트했다. 편집자들은 설명이 많을수록 항상 도움이 될 것이라고 가정했다. 처음 해석은 쉽게 눈에 띄는 특징에 초점을 맞췄기 때문에 그럴듯해 보였다. 하지만 청취자들은 이야기 자체는 즐겼으면서도 낯선 참고 자료가 나타날 때만 주로 노트를 활용했다. 이것이 앞선 관찰을 무의미하게 만들지는 않았다. 오히려 원래의 설명이 중요한 조건을 놓쳤다는 것을 드러냈다. 보조 자료는 몰입감을 방해하지 않으면서 접근 가능할 때 진정한 가치를 발휘한다.\n\n[주요 어휘]\npublisher : 출판사\naudiobook : 오디오북, 음성으로 녹음된 책\noptional : 선택적인, 자유로운\nassume : 가정하다, 추정하다\nplausible : 그럴듯한, 타당한\ninterpretation : 해석, 설명\nengagement : 몰입, 관심\nunfamiliar : 낯선, 익숙하지 않은\nreference : 참고 자료, 언급\nreveal : 드러내다, 밝히다\ncondition : 조건, 상황\nsupport materials : 보조 자료\n\n[해설]\n초기 기대와 다른 관찰을 통해 얻은 제한적인 결론이 요지입니다. 다른 선택지는 단정적 일반화 또는 근거 없는 판단입니다.\n\n[오답 해설]\n①번: 지문의 마지막 문장에서 직접 제시된 결론으로, 청취자들이 이야기 몰입을 방해하지 않을 때만 보충 자료를 활용했다는 핵심 발견을 정확히 나타낸다.\n\n②번: 지문은 초기 관찰이 쓸모없어진다고 말하지 않으며, 오히려 \"earlier observation을 useless하지 않다\"고 명시하므로 틀렸다.\n\n③번: 지문의 전체 논지는 실제로 증거를 통해 서로 다른 해석들을 평가할 수 있음을 보여주고 있으므로, 이와 정반대의 주장을 담은 선지는 거짓이다.\n\n④번: 편집자의 가정이 \"모든 상황에서\" 정당화된다고 하는 것은 과도한 일반화이며, 지문은 오히려 이 가정에 조건이 필요함을 보여준다.\n\n⑤번: 지문은 단일 관찰만으로는 부족하며 중요한 조건을 놓칠 수 있음을 시사하므로, \"한 관찰만으로 모든 설명을 정할 수 있다\"는 주장은 지문의 취지에 모순된다.",
@@ -8254,11 +8254,11 @@ const QUESTION_BANK = [
     "passage": "Dear Review Committee,\n\nA gardener compared lawns cut at two different heights. The neighborhood argued over a single best height for every area. In fact, taller grass retained moisture longer yet offered less space for sports. I am not asking you to dismiss the original project; I am requesting that its evaluation include the additional evidence and explicitly state the limits of the initial conclusion. Without this change, the next funding decision could reward an incomplete indicator rather than the project's actual performance.\n\nSincerely,\nA project participant",
     "given_sentence": "",
     "choices": [
-      "① To demand that the project be cancelled without another evaluation",
-      "② To announce that the first interpretation has already been fully confirmed",
+      "① To suggest that the original project be replaced by a taller grass maintenance plan",
+      "② To propose that funding decisions be based solely on the initial lawn height evaluation",
       "③ To request a reassessment that accounts for conflicting evidence",
-      "④ To request a larger budget without discussing evaluation criteria",
-      "⑤ To invite committee members to an unrelated public celebration"
+      "④ To argue that moisture retention should be the only criterion for judging lawn conditions",
+      "⑤ To recommend that the committee adopt a single grass height standard for all neighborhood areas"
     ],
     "answer": 3,
     "explanation": "[지문 해석]\n검토 위원회 귀중,\n\n한 명의 정원사가 서로 다른 높이로 깎은 잔디를 비교했습니다. 그 지역사회는 모든 곳에 적용할 수 있는 단 하나의 최적 높이를 두고 논쟁했습니다. 사실 키 큰 풀은 수분을 더 오래 유지했지만 스포츠를 위한 공간은 더 적게 제공했습니다. 저는 원래 프로젝트를 무시하도록 요청하는 것이 아닙니다. 오히려 그 평가에 추가 증거를 포함시키고 초기 결론의 한계를 명시적으로 명시할 것을 요청합니다. 이러한 변화가 없다면, 다음 자금 지원 결정은 프로젝트의 실제 성과보다는 불완전한 지표에 보상을 줄 수 있습니다.\n\n진심으로,\n프로젝트 참여자 일동\n\n[주요 어휘]\n# 수능 영어 중요 단어/표현\n\n1. retain : 보유하다, 유지하다\n2. moisture : 습기, 수분\n3. dismiss : 무시하다, 배제하다\n4. evaluation : 평가, 검토\n5. additional evidence : 추가 증거\n6. explicitly : 명확하게, 명시적으로\n7. limits of conclusion : 결론의 한계\n8. funding decision : 자금 지원 결정\n9. incomplete indicator : 불완전한 지표\n10. actual performance : 실제 성과\n\n[해설]\n편지의 핵심 요청은 기존 평가에 후속 관찰을 반영하고 초기 결론의 한계를 명시해 달라는 것입니다.\n\n[오답 해설]\n①번: 글쓴이는 \"I am not asking you to dismiss the original project\"라고 명시했으므로, 프로젝트 취소를 요구하지 않는다. 따라서 틀렸다.\n\n②번: 글쓴이는 추가 증거가 있으며 초기 결론의 한계를 명시하도록 요청하고 있으므로, 첫 해석이 완전히 확인되었다는 내용은 글의 취지와 배치된다.\n\n③번: 글쓴이는 \"its evaluation include the additional evidence\"라고 요청하며, 잔디 높이에 따른 상충하는 증거(습기 보유 vs 스포츠 공간)를 고려한 재평가를 명시적으로 요구하고 있다.\n\n④번: 글은 예산 증액을 요청하지 않으며, 오히려 평가 기준을 명확히 하고 증거를 포함시키는 평가 방식의 개선을 요청하고 있다.\n\n⑤번: 글은 검토 위원회에 공식적인 업무 편지이며, 무관한 행사 초청이 아니라 프로젝트 평가 방식의 개선을 요청하고 있다.",
@@ -8271,11 +8271,11 @@ const QUESTION_BANK = [
     "passage": "At first, I felt reassured by the seemingly straightforward explanation. Researchers had modeled distance alone. A scientist studied how urban foxes crossed busy roads. When I learned that the animals preferred crossings near continuous vegetation even when shorter routes existed, my confidence weakened. I wondered how much I had missed by attending only to the result that supported my expectation. I reconsidered my judgment. By the end, I was still uncertain about every detail, but I felt more willing to investigate than to defend my first impression.",
     "given_sentence": "",
     "choices": [
-      "① from distrust of the team to unconditional hostility",
+      "① from distrust of the researcher to acceptance of the fox crossing data",
       "② from confidence to reflective curiosity",
-      "③ from confidence to a refusal to reconsider any evidence",
-      "④ from disappointment to certainty that all questions are settled",
-      "⑤ from curiosity to indifference about the investigation"
+      "③ from initial reassurance to rejection of the vegetation-based findings",
+      "④ from doubt about urban fox behavior to certainty that distance alone explains crossings",
+      "⑤ from curiosity about fox routes to frustration with the researcher's methodology"
     ],
     "answer": 2,
     "explanation": "[지문 해석]\n처음에는 얼핏 단순해 보이는 설명에 안심했다. 연구원들이 거리만을 고려하여 모델을 만들었다. 한 과학자가 도시 여우들이 얼마나 바쁜 도로를 건너는지 연구했다. 더 짧은 경로가 있음에도 불구하고 동물들이 연속된 식생 근처의 횡단로를 선호한다는 것을 알게 되었을 때, 나의 확신은 흔들렸다. 내 기대를 뒷받침하는 결과에만 집중함으로써 얼마나 많은 것을 놓쳤을지 궁금했다. 내 판단을 다시 생각해 보았다. 결국 모든 세부 사항에 대해 여전히 확실하지 않았지만, 나는 처음 인상을 고수하기보다는 더 깊이 조사하려는 마음이 생겼다.\n\n[주요 어휘]\nreassured : 안심하게 된, 확신하게 된\nstraightforward : 명확한, 단순한\nmodel : 모형을 만들다, 시뮬레이션하다\nvegetation : 식생, 초목\nconfidence weakened : 확신이 약해지다\nmiss : 놓치다, 간과하다\nattend to : ~에 주의를 기울이다\nreconsider : 다시 생각해보다\njudgment : 판단\nuncertain : 확실하지 않은\nwilling to : ~할 의향이 있는\ndefend : 옹호하다, 고수하다\n\n[해설]\n초기의 confident/reassured와 후반의 reconsider, willing to investigate가 대비되므로 확신에서 성찰적 탐구로의 변화입니다.\n\n[오답 해설]\n①번: 저자가 연구팀을 신뢰하지 않거나 적대적으로 변했다는 내용은 지문에 없다. 저자는 자신의 판단을 재검토할 뿐 연구팀 자체를 거부하지 않는다.\n\n②번: 처음에는 설명이 간단해 보여 안심했고(confidence), 결국 더 조사하려는 의지가 생겼으며(reflective curiosity) 불확실함을 인정하는 모습이 지문의 심경 변화와 정확히 일치한다.\n\n③번: 저자는 \"내 기대를 뒷받침하는 결과만 봤다\"며 스스로를 비판하고 판단을 재검토하므로, 증거 재검토를 거부한다는 내용은 완전히 반대이다.\n\n④번: 지문 마지막에 \"여전히 모든 세부사항에 대해 불확실했지만\"이라고 명시되어 있어 모든 질문이 해결되었다는 해석은 거짓이다.\n\n⑤번: 저자는 마지막에 \"조사하려는 의지\"가 생겼다고 했으므로 조사에 대한 무관심으로 변했다는 해설은 지문 내용과 반대된다.",
@@ -8288,9 +8288,9 @@ const QUESTION_BANK = [
     "passage": "An economist studied households offered time-limited discounts. A retailer described the sales surge as new demand. However, some families bought supplies earlier but did not increase total consumption. A temporary increase in purchases may represent a shift in timing rather than quantity.",
     "given_sentence": "",
     "choices": [
-      "① Decision-makers should judge an intervention solely by its most visible immediate result.",
-      "② An observed difference should be treated as a universal rule without further examination.",
-      "③ If evidence is mixed, decision-makers should avoid weighing the competing explanations at all.",
+      "① Decisions should reflect this insight: a sales surge observed by a retailer is best interpreted as a sign of genuinely increased consumer demand.",
+      "② Decisions should reflect this insight: offering time-limited discounts to households is an effective way to raise total consumption over the long term.",
+      "③ Decisions should reflect this insight: when purchases temporarily rise during a discount period, decision-makers should focus on expanding supply to meet the new demand.",
       "④ Decisions should retain the original assumption because a retailer described the sales surge as new demand.",
       "⑤ Decisions should reflect this insight: a temporary increase in purchases may represent a shift in timing rather than quantity."
     ],
@@ -8306,10 +8306,10 @@ const QUESTION_BANK = [
     "given_sentence": "",
     "choices": [
       "① Beyond the First Explanation: Oral testimony can reveal practices absent from administrative records",
-      "② The Complete Failure of Observation in Practical Research",
-      "③ A Familiar Prediction That Needed No Further Examination",
-      "④ When Background Details Replace All Empirical Evidence",
-      "⑤ Why a Single Indicator Is Sufficient for Every Decision"
+      "② When Administrative Records Prove More Reliable Than Oral Accounts",
+      "③ How Dockyard Wages Reflect the Full Scope of Shipbuilders' Skills",
+      "④ Revisiting the Archive: Official Job Titles as the True Measure of Labor History",
+      "⑤ Why the Initial Assumption About Shipyard Employment Remains Unchallenged"
     ],
     "answer": 1,
     "explanation": "[지문 해석]\n한 지역 역사가가 폐쇄된 조선소에 대해 전직 조선공들을 인터뷰했다. 공식 기록에는 직책과 임금만 기재되어 있었다. 처음에는 그 기록이 매력적으로 보였다. 추가적인 설명 없이도 전달할 수 있는 단순한 설명을 제시했기 때문이다. 그러나 인터뷰 대상자들의 이야기는 고용 문서에 절대 기록되지 않았던 비공식적 기술들을 드러냈다. 그 결과의 놀라운 점은 그 규모가 아니라, 예상되던 메커니즘과 실제로 관찰된 메커니즘 사이의 괴리였다. 구술 증언은 행정 기록에 없는 관행들을 드러낼 수 있다. 따라서 결론은 가장 눈에 띄는 결과를 단순히 반복하기보다는 두 가지 해석을 비교하는 데 달려 있다. 이 결론은 처음의 가정과 동일하지 않으며, 나중의 관찰과 원래 측정의 한계를 고려해야 한다. 특히 새로운 증거는 이전의 설명이 모든 가능한 상황에서 틀렸다는 것을 증명하지 않으면서도 해석을 바꾸도록 정당화할 수 있다. 따라서 선호되는 해석은 초기의 예상과 이를 복잡하게 만드는 증거를 모두 설명해야 하며, 단 하나의 사례가 보편적 규칙을 확립한다고 주장해서는 안 된다.\n\n[주요 어휘]\n1. shipbuilder : 조선공, 배 건조 노동자\n2. dockyard : 조선소, 건조장\n3. archive : 기록 보관소, 문서 보관실\n4. qualification : 한정, 단서, 조건\n5. informal : 공식적이지 않은, 비공식적인\n6. mismatch : 불일치, 맞지 않음\n7. mechanism : 방식, 메커니즘, 기제\n8. oral testimony : 구술 증언\n9. administrative records : 행정 기록\n10. complicates : 복잡하게 만들다, 복잡하게 하다\n11. conceivable : 생각할 수 있는, 상상 가능한\n12. universal rule : 보편적 규칙\n\n[해설]\n초기 설명과 후속 관찰의 불일치를 통해 더 정교한 판단으로 옮겨가는 글 전체를 포괄합니다.\n\n[오답 해설]\n①번: 정답. 지문은 공식 기록(job titles and wages)의 한계를 넘어서 구술 증언이 행정 기록에 없는 비공식적 기술을 드러낼 수 있음을 핵심 주장으로 삼고 있으며, 이는 \"Beyond the First Explanation\"이라는 제목과 정확히 부합한다.\n\n②번: 오답. 지문은 관찰의 '완전한 실패'를 논하는 것이 아니라, 초기 설명이 불충분했음을 인정하고 더 나은 해석으로 나아가는 과정을 설명하고 있다.\n\n③번: 오답. 지문의 핵심은 초기 설명(공식 기록)이 \"attractive\"해 보였지만 실제로는 불완전했다는 것이므로, 추가 검토가 필요 없다는 내용은 지문의 취지와 정반대이다.\n\n④번: 오답. 지문은 배경 세부사항이 모든 경험적 증거를 '대체'한다고 주장하지 않으며, 오히려 두 가지 증거를 모두 설명하는 해석을 추구한다고 명시하고 있다.\n\n⑤번: 오답. 지문은 단일 사례나 지표가 보편적 규칙을 확립할 수 없음을 강조하므로, \"단일 지표가 모든 결정에 충분하다\"는 내용은 지문의 논지와 배치된다.",
@@ -8341,9 +8341,9 @@ const QUESTION_BANK = [
     "choices": [
       "① animal behavior can shape the spatial distribution of plants",
       "② seeds accumulated near sheltering trees rather than evenly across open ground, which proves that the same result is inevitable everywhere",
-      "③ the evidence has no bearing on how the original claim should be assessed",
+      "③ bird movement patterns in cities are too unpredictable to support any conclusion about seed dispersal",
       "④ a map assumed dispersal would be random, with no adjustment for the new evidence",
-      "⑤ the initial assumption must be rejected even in circumstances for which it was never tested"
+      "⑤ the random dispersal assumption remains valid for open ground where sheltering trees are absent"
     ],
     "answer": 1,
     "explanation": "[지문 해석]\n한 연구자가 도시의 새들이 옮기는 씨앗의 확산을 연구했다. 한 지도는 씨앗이 무작위로 흩어질 것이라고 가정했다. 그러나 씨앗들은 열린 땅 전체에 고르게 분포하기보다는 보호해주는 나무 근처에 집중되었다. 이 증거는 __________라는 결론과 가장 일치한다.\n\n[주요 어휘]\ndispersal : 분산, 확산\nrandom : 무작위의, 임의의\naccumulate : 축적되다, 모이다\nsheltering : 보호해주는, 피난처가 되는\nevenly : 균등하게, 고르게\nopen ground : 개활지, 노출된 땅\nevidence : 증거\nconsistent with : ~과 일치하는, ~과 부합하는\nassumption : 가정, 가설\ncontrary to : ~과 반대로\npreference : 선호, 선택\nconcentrate : 집중되다, 모이다\n\n[해설]\n기초 관찰: Seeds accumulated near sheltering trees rather than evenly across open ground. 초기 해석: A map assumed dispersal would be random. 따라서 Animal behavior can shape the spatial distribution of plants. 다만 단일 사례가 모든 상황으로 일반화되는 것은 아닙니다.\n\n[오답 해설]\n①번: 정답. 새들의 행동(sheltering trees 근처에 머무는 행동)이 씨앗의 공간적 분포를 결정했다는 것을 보여주므로, 동물의 행동이 식물 분포에 영향을 미친다는 결론과 정확히 일치한다.\n\n②번: 오답. \"같은 결과가 모든 곳에서 필연적이다\"는 과도한 일반화로, 지문은 이 특정 연구 결과만 제시하고 보편성을 주장하지 않는다.\n\n③번: 오답. 지문의 증거가 처음 가정(random dispersal)을 평가하는 데 직접적인 관련이 있으므로, 증거가 \"관련이 없다\"는 주장은 명백히 거짓이다.\n\n④번: 오답. 지문에서 지도가 새로운 증거로 조정되었는지 여부를 언급하지 않으며, 이는 결론으로 도출될 수 없다.\n\n⑤번: 오답. 초기 가정을 \"테스트되지 않은 모든 상황에서\" 거부해야 한다는 것은 논리적 비약이며, 지문은 이 연구 범위 내에서의 결론만 제시한다.",
@@ -8391,10 +8391,10 @@ const QUESTION_BANK = [
     "given_sentence": "",
     "choices": [
       "①번 표시",
-      "②번 표시",
-      "③번 표시",
-      "④번 표시",
-      "⑤번 표시"
+      "② supported",
+      "③ absolute",
+      "④ irrelevant",
+      "⑤ extended"
     ],
     "answer": 1,
     "explanation": "[지문 해석]\n한 박물관이 깨지기 쉬운 원본 원고 옆에 복제품을 전시했다. 일부 큐레이터들은 복제품이 진정성에 대한 관심을 약화시킬까 봐 우려했다. 방문객들은 복제품을 직접 만져볼 수 있었고 원본에 손상을 입히지 않으면서도 세부 사항을 읽을 수 있었다. 초기 해석은 아직 수집된 증거가 거의 없었기 때문에 반드시 (① certain)했다. 나중의 관찰은 그 해석이 의존했던 기대에 (② contradicted). 그 결과 연구자들은 절대적인 판단보다는 (③ qualified) 설명을 채택했다. 그들은 새로운 증거가 조사 중인 질문과 (④ relevant)한지 검토했다. 결론은 관찰이 이루어진 조건들에만 (⑤ limited)되었다.\n\n[주요 어휘]\n# 수능 영어 필수 단어/표현\n\nreplica : 복제품, 모조품\nfragile : 깨지기 쉬운, 취약한\ncurator : 박물관 관장, 큐레이터\nauthenticity : 진정성, 진정함\ncontradict : ~에 모순되다, 반박하다\nexpectation : 기대, 예상\nconsequently : 그 결과, 따라서\nqualified : 제한된, 조건부의\nunconditional : 무조건적인, 절대적인\nrelevant : 관련이 있는, 적절한\nobservation : 관찰, 관찰 결과\ndepended on : ~에 달려 있다, ~에 의존하다\n\n[해설]\n①의 certain는 주변 의미와 충돌합니다. tentative로 수정해야 초기 가설·반증·신중한 결론의 논리가 일관됩니다.\n\n[오답 해설]\n①번: 정답. \"The first interpretation was necessarily certain\"은 증거가 부족한 상황에서 초기 해석이 필연적으로 확실할 수밖에 없었다는 의미로, 문맥상 초기 가정의 필연성을 나타내는 \"certain\"이 적절합니다.\n\n②번: 오답. \"contradicted\"는 '모순되다'는 의미인데, 문맥에서는 초기 기대와 다른 결과가 나왔다는 의미이므로 \"contradicted\"보다는 상충, 충돌의 뉘앙스가 약합니다.\n\n③번: 오답. \"qualified\"는 '제한적인, 조건부의'라는 의미인데, 문맥에서 연구자들이 \"조건부 설명\"을 채택했다는 의미로는 적절하지만, 원문에서 이미 \"qualified\"가 사용되었으므로 다른 단어를 선택해야 합니다.\n\n④번: 오답. \"relevant\"는 '관련 있는'이라는 의미로 문법적으로는 맞지만, 문맥에서 새로운 증거가 조사 대상 질문과 관련이 있는지를 검토했다는 의미이므로 의미적으로는 적절합니다.\n\n⑤번: 오답. \"limited\"는 '제한된'이라는 의미로, 결론이 관찰이 이루어진 조건들로 제한되었다는 의미로 문맥상 적절합니다.",
@@ -8407,9 +8407,9 @@ const QUESTION_BANK = [
     "passage": "A scientist studied soil bacteria after repeated fertilizer use. Farmers evaluated success only by the first harvest. The first interpretation was plausible because it focused on an easily visible feature. But crop yields initially rose, but microbial diversity declined over several seasons. This did not make the earlier observation useless; it revealed that the original explanation had missed an important condition. Short-term gains can mask changes in the systems that sustain them.",
     "given_sentence": "",
     "choices": [
-      "① the need to ignore early evidence once a new interpretation is proposed",
+      "① Early harvest data should be discarded when microbial diversity begins to decline",
       "② the claim that competing explanations cannot be evaluated with evidence",
-      "③ why a single observation is enough to settle every possible explanation",
+      "③ repeated fertilizer use improves both crop yields and soil bacterial diversity over time",
       "④ Short-term gains can mask changes in the systems that sustain them",
       "⑤ Farmers evaluated success only by the first harvest is justified in all settings"
     ],
@@ -8441,11 +8441,11 @@ const QUESTION_BANK = [
     "passage": "Dear Review Committee,\n\nA historian traced how a borrowed musical instrument circulated. A catalog assigned it to a single famous musician. In fact, repair marks showed that several owners adapted the instrument for different performers. I am not asking you to dismiss the original project; I am requesting that its evaluation include the additional evidence and explicitly state the limits of the initial conclusion. Such a review would make the assessment fairer.\n\nSincerely,\nA project participant",
     "given_sentence": "",
     "choices": [
-      "① To demand that the project be cancelled without another evaluation",
-      "② To announce that the first interpretation has already been fully confirmed",
-      "③ To invite committee members to an unrelated public celebration",
+      "① To argue that the catalog's attribution to the famous musician should be permanently retained",
+      "② To suggest that the repair marks alone are sufficient to identify all previous owners of the instrument",
+      "③ To propose that the committee invite additional historians to take over the original project entirely",
       "④ To request a reassessment that accounts for conflicting evidence",
-      "⑤ To request a larger budget without discussing evaluation criteria"
+      "⑤ To ask the committee to publish the instrument's full ownership history without further evaluation"
     ],
     "answer": 4,
     "explanation": "[지문 해석]\n친애하는 심사위원회,\n\n한 역사학자가 빌려진 악기가 어떻게 유통되었는지를 추적했습니다. 한 카탈로그는 그 악기를 한 명의 유명한 음악가에게만 귀속시켰습니다. 그런데 실제로는 수리 흔적들이 여러 소유자가 서로 다른 연주자들을 위해 그 악기를 개조했음을 보여주었습니다. 저는 원래의 프로젝트를 무시해달라고 요청하는 것이 아닙니다. 오히려 그 평가에 이러한 추가 증거를 포함시키고 초기 결론의 한계를 명시해달라고 요청하는 것입니다. 이러한 재검토가 이루어진다면 더욱 공정한 평가가 될 것입니다.\n\n진심으로,\n프로젝트 참여자\n\n[주요 어휘]\ntrace : 추적하다\nborrowed : 빌린, 차용한\ncirculate : 유통되다, 돌아다니다\ncatalog : 목록에 올리다, 분류하다\nrepair marks : 수리 자국\nadapt : 개조하다, 적응시키다\ndismiss : 무시하다, 기각하다\nrequest : 요청하다\nevaluation : 평가\nadditional evidence : 추가 증거\nexplicitly : 명확하게, 분명하게\nstate : 진술하다, 명시하다\nlimits : 한계, 제한\nassessment : 평가, 사정\nfairer : 더 공평한\n\n[해설]\n편지의 핵심 요청은 기존 평가에 후속 관찰을 반영하고 초기 결론의 한계를 명시해 달라는 것입니다.\n\n[오답 해설]\n①번: 글쓴이는 \"I am not asking you to dismiss the original project\"라고 명시하며 프로젝트 취소를 요구하지 않고 있으므로 틀렸다.\n\n②번: 글쓴이는 수리 흔적이 여러 소유자의 존재를 보여준다며 초기 결론의 한계를 지적하고 있으므로, 첫 해석이 완전히 확인되었다는 주장은 거짓이다.\n\n③번: 글쓴이는 위원회에 공개 행사 참석을 초대하는 내용을 언급하지 않으며, 이는 지문의 주요 목적과 무관하다.\n\n④번: 글쓴이는 repair marks라는 추가 증거를 제시하면서 \"its evaluation include the additional evidence\"를 요청하고 있으므로, 상충하는 증거를 고려한 재평가를 요청하는 것이 정확한 목적이다.\n\n⑤번: 글쓴이는 예산 증액에 대해 언급하지 않으며, 평가 기준을 논의하지 않고 추가 증거 포함을 요청하는 것이 주된 내용이다.",
@@ -8458,11 +8458,11 @@ const QUESTION_BANK = [
     "passage": "At first, I felt reassured by the seemingly straightforward explanation. An environmental report praised the overall population increase. A marine ecologist counted shellfish near a restored shoreline. When I learned that numbers increased, but most individuals belonged to a single age group, my confidence weakened. I wondered how much I had missed by attending only to the result that supported my expectation. I resisted admitting the limitation because I had defended the earlier account in public. Yet the more carefully I compared the observations, the clearer the need for revision became. By the end, I was still uncertain about every detail, but I felt more willing to investigate than to defend my first impression.",
     "given_sentence": "",
     "choices": [
-      "① from disappointment to certainty that all questions are settled",
-      "② from confidence to a refusal to reconsider any evidence",
+      "① from reassurance to regret over sharing the environmental report publicly",
+      "② from confidence to firm insistence on defending the initial population data",
       "③ from confidence to reflective curiosity",
-      "④ from distrust of the team to unconditional hostility",
-      "⑤ from curiosity to indifference about the investigation"
+      "④ from skepticism about the shoreline survey to trust in the marine ecologist's count",
+      "⑤ from uncertainty about the age group data to relief that the population numbers increased"
     ],
     "answer": 3,
     "explanation": "[지문 해석]\n처음에는 겉으로 명확해 보이는 설명에 안심했다. 환경 보고서는 전체 개체군 증가를 긍정적으로 평가했다. 해양 생태학자는 복원된 해안선 근처의 조개류를 조사했다. 개체수는 증가했지만 대부분이 하나의 연령대에 속한다는 사실을 알게 되자 내 확신은 흔들렸다. 내 기대를 지지하는 결과에만 집중함으로써 얼마나 많은 것을 놓쳤을 수 있을지 생각해 보게 되었다. 이러한 한계를 인정하기를 거부했는데, 그것은 내가 공개적으로 앞의 설명을 옹호했기 때문이었다. 그러나 관찰 결과들을 더 자세히 비교해 보면 볼수록 수정의 필요성이 점점 명확해졌다. 결국 모든 세부 사항에 대해 여전히 확신하지 못했지만, 처음 인상을 방어하기보다는 더 깊이 조사하고 싶은 마음이 생겼다.\n\n[주요 어휘]\nreassured : 안심시킨, 확신을 주는\nstraightforward : 간단한, 명백한\nenvironmental report : 환경 보고서\nmarine ecologist : 해양 생태학자\nshellfish : 조개류, 패류\nrestored shoreline : 복원된 해안선\nconfidence weakened : 확신이 약해졌다\nmiss : 놓치다, 간과하다\nresist : 저항하다, 거부하다\nlimitation : 한계, 제한\ndefend : 옹호하다, 주장하다\ncarefully compared : 신중하게 비교하다\nrevision : 수정, 개정\nuncertain : 불확실한, 확신할 수 없는\ndefend my first impression : 첫 인상을 고수하다\n\n[해설]\n초기의 confident/reassured와 후반의 reconsider, willing to investigate가 대비되므로 확신에서 성찰적 탐구로의 변화입니다.\n\n[오답 해설]\n①번: 지문에서 저자는 \"still uncertain about every detail\"이라고 명시하고 있으므로 '모든 질문이 해결되었다는 확실성'에 도달하지 않았다. 따라서 틀렸다.\n\n②번: 저자는 \"the more carefully I compared the observations, the clearer the need for revision became\"라며 증거를 재검토하고 있으므로 '어떤 증거도 재고하기를 거부'한다는 내용과 정반대다.\n\n③번: 저자는 처음에 \"felt reassured\"로 자신감 있었으나, 결국 \"felt more willing to investigate than to defend\"라며 성찰적으로 추가 조사하려는 태도로 변화한다. 이는 자신감에서 반성적 호기심으로의 변화를 정확히 나타낸다.\n\n④번: 지문에는 팀에 대한 불신이나 적대감이 나타나지 않으며, 저자의 심경 변화는 자신의 판단과 기준에 대한 성찰에 관한 것이다.\n\n⑤번: 저자는 마지막에 \"felt more willing to investigate\"라고 하므로 조사에 대한 관심이 증가했지, 무관심으로 변하지 않았다.",
@@ -8475,10 +8475,10 @@ const QUESTION_BANK = [
     "passage": "A public health team redesigned appointment letters. Managers had focused on adding more appointment slots. The first interpretation was plausible because it focused on an easily visible feature. But plain-language directions reduced missed visits without changing medical services. This did not make the earlier observation useless; it revealed that the original explanation had missed an important condition. Removing comprehension barriers can improve access to existing resources.",
     "given_sentence": "",
     "choices": [
-      "① An observed difference should be treated as a universal rule without further examination.",
-      "② Decision-makers should judge an intervention solely by its most visible immediate result.",
+      "① An initial explanation should be discarded entirely once a comprehension barrier is identified in appointment letters.",
+      "② Decision-makers should prioritize expanding appointment slots before addressing how patients understand the letters.",
       "③ Decisions should retain the original assumption because managers had focused on adding more appointment slots.",
-      "④ If evidence is mixed, decision-makers should avoid weighing the competing explanations at all.",
+      "④ If missed visits decline after rewording letters, the original focus on scheduling capacity should be credited for the improvement.",
       "⑤ Decisions should reflect this insight: removing comprehension barriers can improve access to existing resources."
     ],
     "answer": 5,
@@ -8493,10 +8493,10 @@ const QUESTION_BANK = [
     "given_sentence": "",
     "choices": [
       "① Beyond the First Explanation: Operational performance depends on reliability under changing conditions",
-      "② When Background Details Replace All Empirical Evidence",
-      "③ A Familiar Prediction That Needed No Further Examination",
-      "④ Why a Single Indicator Is Sufficient for Every Decision",
-      "⑤ The Complete Failure of Observation in Practical Research"
+      "② Why Average Speed Alone Determines the True Value of Delivery Methods",
+      "③ How Robots Outperformed Bicycle Couriers in Every Measured Condition",
+      "④ Street Obstacles: The Decisive Factor That Overrides All Other Variables",
+      "⑤ Replacing Bicycle Couriers with Robots as the Universal Delivery Solution"
     ],
     "answer": 1,
     "explanation": "[지문 해석]\n한 연구자가 배달 로봇과 자전거 배송원의 이동 시간을 비교했다. 한 제안은 평균 속도를 유일한 유용성의 척도로 취급했다. 처음에 이 설명은 매력적으로 보였다. 추가 설명 없이도 간단하게 전달할 수 있는 설명을 제공했기 때문이다. 그러나 실제로는 로봇이 깨끗한 인도에서는 안정적이었지만 일시적인 도로 장애물로 인해 지연되었다. 그 결과는 유용한 단서를 제공하지만, 동일한 메커니즘이 모든 조건에서 작동할 것이라는 것을 입증하지는 못한다. 운영 성능은 변화하는 조건에서의 신뢰성에 달려 있다. 더 강력한 추론은 의도적으로 제한된다. 그것은 모든 불확실성이 사라졌다고 가장하지 않으면서 관찰된 대비를 설명한다. 이 결론은 처음 가정과 동일하지 않다. 나중의 관찰과 원래 척도의 한계를 설명해야 한다. 특히 새로운 증거는 초기의 설명이 생각할 수 있는 모든 상황에서 틀렸다는 것을 증명하지 않으면서도 해석을 바꿀 정당성을 제공할 수 있다. 따라서 선호되는 해석은 초기 기대와 그것을 복잡하게 만드는 증거를 모두 설명해야 하며, 단 하나의 사례가 보편적인 규칙을 입증한다고 가장해서는 안 된다.\n\n[주요 어휘]\n1. delivery robot : 배송 로봇\n2. bicycle courier : 자전거 배송원\n3. proposal : 제안, 주장\n4. measure of usefulness : 유용성의 척도\n5. attractive : 매력적인, 끌리는\n6. qualification : 한정, 조건\n7. obstacle : 장애물\n8. operational performance : 운영 성능\n9. reliability : 신뢰성, 안정성\n10. inference : 추론, 결론\n11. complicates : 복잡하게 만들다\n12. universal rule : 보편적 규칙\n\n[해설]\n초기 설명과 후속 관찰의 불일치를 통해 더 정교한 판단으로 옮겨가는 글 전체를 포괄합니다.\n\n[오답 해설]\n①번: 정답. 지문은 단순한 평균 속도 측정(첫 번째 설명)을 넘어서, 변화하는 조건에서의 신뢰성(운영 성능)이 더 중요하다는 강화된 추론을 제시하고 있다. \"Beyond the First Explanation\"은 초기 가정을 넘어선 더 깊은 이해를 추구하는 지문의 핵심 주제와 정확히 일치한다.\n\n②번: 오답. 지문은 배경 세부사항이 경험적 증거를 \"모두 대체한다\"고 주장하지 않으며, 오히려 증거를 설명에 포함시켜야 한다고 강조하고 있다. 지문의 취지와 정반대이다.\n\n③번: 오답. 지문은 초기 예측(평균 속도)이 \"추가 검토가 필요 없다\"고 결론짓지 않는다. 오히려 후속 관찰이 초기 설명을 복잡하게 만들었으며, 이를 통합해야 한다고 주장한다.\n\n④번: 오답. 지문의 핵심은 \"단일 지표가 모든 결정에 충분하지 않다\"는 것이다. 지문은 평균 속도만으로는 부족하고 변화하는 조건에서의 신뢰성을 고려해야 한다고 강조하므로, 이 선지는 지문의 논리에 모순된다.\n\n⑤번: 오답. 지문은 관찰의 \"완전한 실패\"를 다루지 않으며, 오히려 관찰 결과를 바탕으로 더 정교한 해석을 발전시키는 과정을 보여준다. 지문의 긍정적 논조와 맞지 않는다.",
@@ -8526,9 +8526,9 @@ const QUESTION_BANK = [
     "passage": "A museum recorded visitor routes using anonymous sensors. Curators had organized rooms according to scholarly importance. However, many bypassed the central exhibit but paused at a small display near the exit. The evidence is most consistent with the conclusion that __________.",
     "given_sentence": "",
     "choices": [
-      "① the initial assumption must be rejected even in circumstances for which it was never tested",
+      "① visitor behavior near the exit reflects a deliberate curatorial choice to highlight overlooked collections",
       "② curators had organized rooms according to scholarly importance, with no adjustment for the new evidence",
-      "③ the evidence has no bearing on how the original claim should be assessed",
+      "③ the sensor data confirms that scholarly importance and visitor interest align more closely than curators had assumed",
       "④ many bypassed the central exhibit but paused at a small display near the exit, which proves that the same result is inevitable everywhere",
       "⑤ actual use can reveal priorities that designers did not anticipate"
     ],
@@ -8579,8 +8579,8 @@ const QUESTION_BANK = [
     "choices": [
       "① The initial blueprint had fixed every seat in place is justified in all settings",
       "② why a single observation is enough to settle every possible explanation",
-      "③ the claim that competing explanations cannot be evaluated with evidence",
-      "④ the need to ignore early evidence once a new interpretation is proposed",
+      "③ the value of prioritizing the original park design over visitors' spontaneous arrangements",
+      "④ the importance of fixing seating positions to encourage more structured social interaction",
       "⑤ Allowing people to adapt a space may serve varied social needs"
     ],
     "answer": 5,
@@ -8611,10 +8611,10 @@ const QUESTION_BANK = [
     "passage": "Dear Review Committee,\n\nA biographer compared private letters and public speeches by a reformer. Readers treated the difference as proof that one source must be dishonest. In fact, both defended the same aims but used strikingly different language. I am not asking you to dismiss the original project; I am requesting that its evaluation include the additional evidence and explicitly state the limits of the initial conclusion. Without this change, the next funding decision could reward an incomplete indicator rather than the project's actual performance.\n\nSincerely,\nA project participant",
     "given_sentence": "",
     "choices": [
-      "① To demand that the project be cancelled without another evaluation",
-      "② To request a larger budget without discussing evaluation criteria",
-      "③ To announce that the first interpretation has already been fully confirmed",
-      "④ To invite committee members to an unrelated public celebration",
+      "① To argue that the biographer's comparison of letters and speeches should be entirely discarded",
+      "② To propose that future projects rely solely on public speeches rather than private letters",
+      "③ To confirm that the reformer's private letters are more reliable than the public speeches",
+      "④ To suggest that the committee postpone all funding decisions until a new biographer is appointed",
       "⑤ To request a reassessment that accounts for conflicting evidence"
     ],
     "answer": 5,
@@ -8628,9 +8628,9 @@ const QUESTION_BANK = [
     "passage": "At first, I felt reassured by the seemingly straightforward explanation. Promoters cited recovery percentages alone. A scientist evaluated a new battery recycling method. When I learned that metal recovery was high, but the process required energy-intensive heating, my confidence weakened. I wondered how much I had missed by attending only to the result that supported my expectation. I resisted admitting the limitation because I had defended the earlier account in public. Yet the more carefully I compared the observations, the clearer the need for revision became. By the end, I was still uncertain about every detail, but I felt more willing to investigate than to defend my first impression.",
     "given_sentence": "",
     "choices": [
-      "① from curiosity to indifference about the investigation",
-      "② from confidence to a refusal to reconsider any evidence",
-      "③ from disappointment to certainty that all questions are settled",
+      "① from initial reassurance to regret over publicly defending the method",
+      "② from confidence to firm rejection of the energy-intensive process",
+      "③ from disappointment at low recovery rates to acceptance of the recycling method",
       "④ from confidence to reflective curiosity",
       "⑤ from distrust of the team to unconditional hostility"
     ],
