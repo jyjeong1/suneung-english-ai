@@ -363,13 +363,16 @@ function renderUI() {
 
 function renderMathGrid() {
   const grid = document.getElementById('mathGrid');
-  grid.innerHTML = MATH_APPS.map(app => {
+  grid.innerHTML = MATH_APPS.filter(app => app.id !== 'past').map(app => {
     const isSelected = selectedSubjects.includes(app.id);
     return `<div class="math-item ${isSelected ? 'active' : ''}" onclick="toggleMathSubject('${app.id}', this)">
       <span class="math-dot"></span>
       <span>${app.icon} ${app.name}</span>
     </div>`;
-  }).join('');
+  }).join('') + `<div class="math-item" style="opacity:0.6;cursor:default;border-color:var(--gold);">
+      <span class="math-dot" style="background:var(--gold);border-color:var(--gold);"></span>
+      <span>📝 수능 기출문제 (항상 포함)</span>
+    </div>`;
   updateMathCount();
 }
 
@@ -421,9 +424,11 @@ function renderMathApps() {
   container.innerHTML = MATH_APPS.map((app, i) => {
     let cls = '', badge = '';
     if (isPremium) {
-      if (selectedSubjects.includes(app.id)) {
+      if (app.id === 'past' || selectedSubjects.includes(app.id)) {
         cls = 'active-sub';
-        badge = '<span class="lock-badge" style="color:var(--gold)">✨ 무제한</span>';
+        badge = app.id === 'past'
+          ? '<span class="lock-badge" style="color:var(--gold)">✨ 항상 무제한</span>'
+          : '<span class="lock-badge" style="color:var(--gold)">✨ 무제한</span>';
       } else {
         cls = 'locked';
         badge = '<span class="lock-badge">🔒 미선택</span>';
@@ -450,12 +455,15 @@ function goSubscribe() {
   if (!currentUser) { handleLogin(); return; }
   subSelectedMath = [];
   const grid = document.getElementById('subMathGrid');
-  grid.innerHTML = MATH_APPS.map(app =>
+  grid.innerHTML = MATH_APPS.filter(app => app.id !== 'past').map(app =>
     `<div class="math-item" id="sub_${app.id}" onclick="toggleSubMath('${app.id}')" style="display:flex;align-items:center;gap:8px;padding:10px;border-radius:10px;border:2px solid rgba(255,255,255,0.1);cursor:pointer;font-size:13px;color:var(--text);transition:all 0.2s;">
       <span style="width:10px;height:10px;border-radius:50%;border:2px solid var(--sub);flex-shrink:0;" id="subdot_${app.id}"></span>
       ${app.icon} ${app.name}
     </div>`
-  ).join('');
+  ).join('') + `<div style="display:flex;align-items:center;gap:8px;padding:10px;border-radius:10px;border:2px solid var(--gold);font-size:13px;color:var(--gold);opacity:0.8;">
+      <span style="width:10px;height:10px;border-radius:50%;background:var(--gold);flex-shrink:0;"></span>
+      📝 수능 기출문제 (항상 포함)
+    </div>`;
   document.getElementById('subMathCount').textContent = '0/2 선택';
   document.getElementById('subscribeModal').style.display = 'block';
 }
